@@ -1,0 +1,60 @@
+{
+  "input": "results/pilots/elyza--Llama-3-ELYZA-JP-8B-zh_jp-homographs-sv2-start0-limit455.jsonl",
+  "model": "elyza/Llama-3-ELYZA-JP-8B",
+  "model_revision": "e6c316496ee7d9a11710c50229e8cb39b6b0a4a3",
+  "items": 455,
+  "methods": {
+    "official": {
+      "correct": 276,
+      "accuracy": 0.6065934065934065,
+      "wilson_95": [
+        0.5609934139933651,
+        0.6504085164331698
+      ],
+      "choice_distribution": [
+        276,
+        142,
+        25,
+        12
+      ],
+      "wrong1_selections": 142,
+      "wrong1_share_among_errors": 0.7932960893854749,
+      "ppl_margin_below_5_percent": 95
+    },
+    "candidate_only": {
+      "correct": 262,
+      "accuracy": 0.5758241758241758,
+      "wilson_95": [
+        0.529963638643729,
+        0.6204150541339093
+      ],
+      "choice_distribution": [
+        262,
+        156,
+        26,
+        11
+      ],
+      "wrong1_selections": 156,
+      "wrong1_share_among_errors": 0.8082901554404145,
+      "ppl_margin_below_5_percent": 40
+    }
+  },
+  "scoring_comparison": {
+    "agreement": 411,
+    "agreement_rate": 0.9032967032967033,
+    "disagreements": 44,
+    "both_correct": 251,
+    "official_only_correct": 25,
+    "candidate_only_only_correct": 11,
+    "both_wrong": 168,
+    "disagreement_token_direction": {
+      "official_chose_longer": 43,
+      "equal_length": 1,
+      "official_chose_shorter": 0
+    }
+  },
+  "public_artifact_schema": "scores_only_v1",
+  "benchmark_text_removed": true,
+  "join_key": "item_index",
+  "upstream_commit": "eb1c4f3f17403af238046bf218dc49643bc2e2e2"
+}

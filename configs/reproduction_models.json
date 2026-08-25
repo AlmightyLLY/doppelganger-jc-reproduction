@@ -1,0 +1,49 @@
+{
+  "upstream_commit": "eb1c4f3f17403af238046bf218dc49643bc2e2e2",
+  "translation": {
+    "jp_zh_items": 462,
+    "zh_jp_items": 455
+  },
+  "orthography": {
+    "material_items": 450,
+    "related_control_items": 411,
+    "frozen_primary_analysis_items": 382
+  },
+  "models": [
+    {
+      "slug": "Qwen--Qwen2.5-7B-Instruct-1M",
+      "model": "Qwen/Qwen2.5-7B-Instruct-1M",
+      "revision": "e28526f7bb80e2a9c8af03b831a9af3812f18fba"
+    },
+    {
+      "slug": "llm-jp--llm-jp-3-7.2b-instruct3",
+      "model": "llm-jp/llm-jp-3-7.2b-instruct3",
+      "revision": "cdd4c7f3296fdc7785423a864bd9a86ce4c15915"
+    },
+    {
+      "slug": "elyza--Llama-3-ELYZA-JP-8B",
+      "model": "elyza/Llama-3-ELYZA-JP-8B",
+      "revision": "e6c316496ee7d9a11710c50229e8cb39b6b0a4a3"
+    },
+    {
+      "slug": "mistralai--Mistral-7B-Instruct-v0.2",
+      "model": "mistralai/Mistral-7B-Instruct-v0.2",
+      "revision": "63a8b081895390a26e140280378bc85ec8bce07a"
+    },
+    {
+      "slug": "google--gemma-7b",
+      "model": "google/gemma-7b",
+      "revision": "ff6768d9368919a1f025a54f9f5aa0ee591730bb"
+    },
+    {
+      "slug": "baichuan-inc--Baichuan2-7B-Base",
+      "model": "baichuan-inc/Baichuan2-7B-Base",
+      "revision": "f9d4d8dd2f7a3dbede3bda3b0cf0224e9272bbe5"
+    }
+  ],
+  "blocked_checkpoint": {
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "status": "not_run",
+    "reason": "The gated-access request was denied during this reproduction."
+  }
+}

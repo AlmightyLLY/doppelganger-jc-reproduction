@@ -1,0 +1,84 @@
+{
+  "status": "complete_and_locally_verified",
+  "date": "2026-08-25",
+  "experiment": "orthography_control_relevance_full_v1_six_model_replication",
+  "material_sha256": "fa19564838ab4d86f8ecda1a08daf9e792e3d576734138927f2b569ef933b4c9",
+  "primary_item_count": 382,
+  "full_item_count": 450,
+  "related_available_count": 411,
+  "models": {
+    "Qwen/Qwen2.5-7B-Instruct-1M": {
+      "revision": "e28526f7bb80e2a9c8af03b831a9af3812f18fba",
+      "result_sha256": "263cf38022ccda82755776e2084faed7426916f21b119675bc294b43f08be6ca",
+      "summary_sha256": "f5c2c1939f18bf63fe5d70a28a73096ca7952d92d9c4b055ba1b9ccb2d5235aa"
+    },
+    "llm-jp/llm-jp-3-7.2b-instruct3": {
+      "revision": "cdd4c7f3296fdc7785423a864bd9a86ce4c15915",
+      "result_sha256": "bb30343312a0e5a8890f248ecd1b4777c7509aa7f22ecc6643f04c5ec188ecb6",
+      "summary_sha256": "ca70e16624fe660c30c1ced267744de26eaa6942266aa90f4754fdc2daa3d925"
+    },
+    "elyza/Llama-3-ELYZA-JP-8B": {
+      "revision": "e6c316496ee7d9a11710c50229e8cb39b6b0a4a3",
+      "result_sha256": "cfcedddd4124b2d3e2ae8f068f7abee6be27280465472f79e6d5567332a1519f",
+      "summary_sha256": "e57dfc752c47d71e2d8c9b443954d20268a0d4d61e892ee03820c5d15b2bde3c"
+    },
+    "baichuan-inc/Baichuan2-7B-Base": {
+      "revision": "f9d4d8dd2f7a3dbede3bda3b0cf0224e9272bbe5",
+      "result_sha256": "3adb5e9103d113d657b758252cfa23eb3a58af89b082e26636ffeac80397a125",
+      "summary_sha256": "7b683162df26c5b85c4858e5ebbac96a091383e4a9f35bd733b8744abe7c5cf2"
+    },
+    "mistralai/Mistral-7B-Instruct-v0.2": {
+      "revision": "63a8b081895390a26e140280378bc85ec8bce07a",
+      "result_sha256": "545b7d12f47eb114d91e76dbb287774cbffc558ad74ccd4a3453af704313e1d5",
+      "summary_sha256": "3768088fd164a28bc9564f245335170630f2025967ea3fdf4b183016f3540b77"
+    },
+    "google/gemma-7b": {
+      "revision": "ff6768d9368919a1f025a54f9f5aa0ee591730bb",
+      "result_sha256": "9445f5f4f8214aac4b3b93ae75ee6e3f516f6f72fe19cac8c9a5b9aabc02457b",
+      "summary_sha256": "ee5a7f2837fd658b1202b7ebe44a9fb1ad60f392fa3b0181faa89580ea9798b4"
+    }
+  },
+  "analysis": {
+    "json_sha256": "f11a0276cf8b75a4a0ad21990a78b8492f44f96ffa55739208c0c3e6807ffa86",
+    "report_sha256": "34c9b04f25e266893e6dd54449d6ae03ff861e265fc2795c0dcc242607bc8a63",
+    "analysis_script_sha256": "89c77365eaed0398e1d620ce4ac7a60ca9615d8eed9f78a19f224e18cfc6e1e5",
+    "batch_script_sha256_at_execution": "f245f6d0844173ef0216154e3f171ad6e5a537f698ab11647417fb1dfb33238b",
+    "published_portable_batch_script_sha256": "7bbe77873e0b14fa96b1063472f44ba0c108766c217cea19632c8b7500f3e42e",
+    "published_batch_script_change": "Only machine-specific default paths and output directories were changed; models, revisions, smoke validation, and scoring commands are unchanged."
+  },
+  "transfer_archive_sha256": "198bcec59b62f18f58bf4836784567722cc41fdd5a570a7427ff9f58b2372d76",
+  "remote_and_local_validation": {
+    "passed_models": 5,
+    "failed_models": 0,
+    "validated_invariants": [
+      "row_count",
+      "related_condition_count",
+      "requested_and_resolved_revision",
+      "finite_nll_and_ppl",
+      "ppl_equals_exp_nll",
+      "argmin_choice",
+      "candidate_only_margin",
+      "difference_in_differences_effect",
+      "analysis_set_means"
+    ]
+  },
+  "execution_environment": {
+    "gpu": "NVIDIA A40",
+    "vram_gib": 48,
+    "execution_mode": "single-GPU cloud inference",
+    "credentials_or_account_identifiers_committed": false
+  },
+  "engineering_amendment": {
+    "initial_smoke_prefix": 2,
+    "final_smoke_prefix": 3,
+    "reason": "the first two material rows contain no holdout_high_proxy_only item, causing the generic summary to receive an empty subset",
+    "outcome_dependent": false,
+    "formal_results_existed_at_amendment": false,
+    "failed_n2_logs_retained": true
+  },
+  "inference_guard": "fixed six-model set; source-only automatic controls without independent bilingual second review",
+  "public_artifact_schema": "scores_only_v1",
+  "benchmark_text_removed": true,
+  "join_key": "item_index",
+  "upstream_commit": "eb1c4f3f17403af238046bf218dc49643bc2e2e2"
+}

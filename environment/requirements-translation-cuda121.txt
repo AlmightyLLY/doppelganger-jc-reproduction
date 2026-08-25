@@ -1,0 +1,5 @@
+# Historical environment recorded for the six-model Translation Type-1 runs.
+--extra-index-url https://download.pytorch.org/whl/cu121
+torch==2.5.1+cu121
+bitsandbytes==0.45.2
+-r requirements.txt

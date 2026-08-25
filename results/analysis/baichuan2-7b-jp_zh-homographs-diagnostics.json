@@ -1,0 +1,60 @@
+{
+  "input": "results/pilots/baichuan-inc--Baichuan2-7B-Base-jp_zh-homographs-sv2-start0-limit462.jsonl",
+  "model": "baichuan-inc/Baichuan2-7B-Base",
+  "model_revision": "f9d4d8dd2f7a3dbede3bda3b0cf0224e9272bbe5",
+  "items": 462,
+  "methods": {
+    "official": {
+      "correct": 276,
+      "accuracy": 0.5974025974025974,
+      "wilson_95": [
+        0.552056652816329,
+        0.6411420653745753
+      ],
+      "choice_distribution": [
+        276,
+        158,
+        17,
+        11
+      ],
+      "wrong1_selections": 158,
+      "wrong1_share_among_errors": 0.8494623655913979,
+      "ppl_margin_below_5_percent": 115
+    },
+    "candidate_only": {
+      "correct": 271,
+      "accuracy": 0.5865800865800865,
+      "wilson_95": [
+        0.5411409643572501,
+        0.6305912295902204
+      ],
+      "choice_distribution": [
+        271,
+        160,
+        17,
+        14
+      ],
+      "wrong1_selections": 160,
+      "wrong1_share_among_errors": 0.837696335078534,
+      "ppl_margin_below_5_percent": 33
+    }
+  },
+  "scoring_comparison": {
+    "agreement": 425,
+    "agreement_rate": 0.9199134199134199,
+    "disagreements": 37,
+    "both_correct": 258,
+    "official_only_correct": 18,
+    "candidate_only_only_correct": 13,
+    "both_wrong": 173,
+    "disagreement_token_direction": {
+      "official_chose_longer": 35,
+      "equal_length": 2,
+      "official_chose_shorter": 0
+    }
+  },
+  "public_artifact_schema": "scores_only_v1",
+  "benchmark_text_removed": true,
+  "join_key": "item_index",
+  "upstream_commit": "eb1c4f3f17403af238046bf218dc49643bc2e2e2"
+}

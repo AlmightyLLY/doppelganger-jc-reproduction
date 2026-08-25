@@ -1,0 +1,182 @@
+{
+  "analysis_set": "primary_holdout_nonweak_negative_control",
+  "n_items": 382,
+  "choice_transition_matrices": {
+    "target_kana": {
+      "labels": [
+        "correct",
+        "wrong1",
+        "wrong2",
+        "wrong3"
+      ],
+      "rows_original_columns_condition": [
+        [
+          176,
+          22,
+          13,
+          12
+        ],
+        [
+          36,
+          77,
+          10,
+          10
+        ],
+        [
+          6,
+          1,
+          10,
+          0
+        ],
+        [
+          4,
+          0,
+          0,
+          5
+        ]
+      ]
+    },
+    "unrelated_control_kana": {
+      "labels": [
+        "correct",
+        "wrong1",
+        "wrong2",
+        "wrong3"
+      ],
+      "rows_original_columns_condition": [
+        [
+          201,
+          18,
+          3,
+          1
+        ],
+        [
+          16,
+          112,
+          4,
+          1
+        ],
+        [
+          6,
+          2,
+          9,
+          0
+        ],
+        [
+          3,
+          1,
+          0,
+          5
+        ]
+      ]
+    }
+  },
+  "paired_binary_transitions": {
+    "correct_original_vs_target": {
+      "left_true_to_right_false": 47,
+      "left_false_to_right_true": 46,
+      "discordant": 93,
+      "exact_two_sided_p": 1.0
+    },
+    "correct_original_vs_unrelated": {
+      "left_true_to_right_false": 22,
+      "left_false_to_right_true": 25,
+      "discordant": 47,
+      "exact_two_sided_p": 0.7708669945730264
+    },
+    "wrong1_original_vs_target": {
+      "left_true_to_right_false": 56,
+      "left_false_to_right_true": 23,
+      "discordant": 79,
+      "exact_two_sided_p": 0.00026363677646526896
+    },
+    "wrong1_original_vs_unrelated": {
+      "left_true_to_right_false": 21,
+      "left_false_to_right_true": 21,
+      "discordant": 42,
+      "exact_two_sided_p": 1.0
+    }
+  },
+  "surface_interaction": {
+    "mean_difference": 0.049328872152979944,
+    "bootstrap_95ci": [
+      -0.06285238913350265,
+      0.158830716077222
+    ],
+    "definition": "mean(surface_exact)-mean(surface_variant)"
+  },
+  "orthography_effect_robustness": {
+    "positive": 227,
+    "negative": 155,
+    "positive_proportion": 0.5942408376963351,
+    "exact_two_sided_sign_p": 0.0002700413042598936,
+    "ten_percent_trimmed_mean": 0.10640244351492988,
+    "minimum": -2.2091429233551025,
+    "maximum": 2.830988049507141
+  },
+  "effect_by_quality_proxy": {
+    "high": {
+      "n": 256,
+      "mean": 0.12194315064698458,
+      "median": 0.09695559740066528,
+      "positive": 150
+    },
+    "medium": {
+      "n": 126,
+      "mean": 0.10818323540309119,
+      "median": 0.10497045516967773,
+      "positive": 77
+    }
+  },
+  "tokenization_diagnostics": {
+    "target_token_delta_distribution": {
+      "1": 157,
+      "0": 132,
+      "2": 77,
+      "4": 1,
+      "3": 7,
+      "-1": 8
+    },
+    "unrelated_token_delta_distribution": {
+      "1": 233,
+      "2": 59,
+      "3": 33,
+      "0": 56,
+      "-1": 1
+    },
+    "mean_target_token_delta": 0.8586387434554974,
+    "mean_unrelated_token_delta": 1.175392670157068,
+    "pearson_target_delta_with_target_effect": 0.0919384492790285,
+    "pearson_unrelated_delta_with_unrelated_effect": -0.017783078101577858,
+    "pearson_delta_difference_with_orthography_effect": 0.02809137257886369,
+    "orthography_effect_by_token_delta_difference": {
+      "matched": {
+        "n": 126,
+        "mean": 0.15838715717906043,
+        "median": 0.1576850414276123,
+        "positive": 81
+      },
+      "target_fewer_tokens": {
+        "n": 167,
+        "mean": 0.0702303012688003,
+        "median": 0.030884742736816406,
+        "positive": 88
+      },
+      "target_more_tokens": {
+        "n": 89,
+        "mean": 0.14790215853894695,
+        "median": 0.10940051078796387,
+        "positive": 58
+      }
+    }
+  },
+  "interpretation_guards": [
+    "The continuous margin isolates correct versus wrong1 preference; it is not four-way accuracy.",
+    "A positive margin effect can coexist with correct-to-wrong2/wrong3 transitions.",
+    "Surface and tokenization analyses are pre-specified or diagnostic interactions, not new treatment randomizations."
+  ],
+  "public_artifact_schema": "scores_only_v1",
+  "benchmark_text_removed": true,
+  "join_key": "item_index",
+  "upstream_commit": "eb1c4f3f17403af238046bf218dc49643bc2e2e2"
+}

@@ -1,0 +1,794 @@
+{
+  "model": "Qwen/Qwen2.5-7B-Instruct-1M",
+  "model_revision": "e28526f7bb80e2a9c8af03b831a9af3812f18fba",
+  "direction": "zh_jp",
+  "dataset": "questions.zh_jp.homographs",
+  "start": 0,
+  "limit": 455,
+  "data_audit": {
+    "cognate_rows": 464,
+    "translation_questions": 455,
+    "duplicate_option_items_in_run": [
+      {
+        "item_index": 439
+      }
+    ],
+    "missing_translation_question_count": 9
+  },
+  "strict": {
+    "items": 455,
+    "official": {
+      "correct": 293,
+      "accuracy": 0.643956043956044,
+      "wrong1_selections": 139,
+      "wrong1_share_among_errors": 0.8580246913580247
+    },
+    "candidate_only": {
+      "correct": 285,
+      "accuracy": 0.6263736263736264,
+      "wrong1_selections": 149,
+      "wrong1_share_among_errors": 0.8764705882352941
+    },
+    "agreement": {
+      "count": 423,
+      "rate": 0.9296703296703297
+    },
+    "disagreement_items": [
+      {
+        "item_index": 7,
+        "official_choice": 0,
+        "candidate_only_choice": 1
+      },
+      {
+        "item_index": 34,
+        "official_choice": 0,
+        "candidate_only_choice": 1
+      },
+      {
+        "item_index": 37,
+        "official_choice": 1,
+        "candidate_only_choice": 0
+      },
+      {
+        "item_index": 52,
+        "official_choice": 3,
+        "candidate_only_choice": 1
+      },
+      {
+        "item_index": 68,
+        "official_choice": 0,
+        "candidate_only_choice": 1
+      },
+      {
+        "item_index": 126,
+        "official_choice": 1,
+        "candidate_only_choice": 0
+      },
+      {
+        "item_index": 148,
+        "official_choice": 1,
+        "candidate_only_choice": 0
+      },
+      {
+        "item_index": 149,
+        "official_choice": 0,
+        "candidate_only_choice": 2
+      },
+      {
+        "item_index": 156,
+        "official_choice": 0,
+        "candidate_only_choice": 1
+      },
+      {
+        "item_index": 170,
+        "official_choice": 0,
+        "candidate_only_choice": 1
+      },
+      {
+        "item_index": 203,
+        "official_choice": 3,
+        "candidate_only_choice": 1
+      },
+      {
+        "item_index": 246,
+        "official_choice": 0,
+        "candidate_only_choice": 2
+      },
+      {
+        "item_index": 268,
+        "official_choice": 2,
+        "candidate_only_choice": 1
+      },
+      {
+        "item_index": 278,
+        "official_choice": 1,
+        "candidate_only_choice": 0
+      },
+      {
+        "item_index": 279,
+        "official_choice": 1,
+        "candidate_only_choice": 2
+      },
+      {
+        "item_index": 287,
+        "official_choice": 0,
+        "candidate_only_choice": 1
+      },
+      {
+        "item_index": 299,
+        "official_choice": 0,
+        "candidate_only_choice": 1
+      },
+      {
+        "item_index": 334,
+        "official_choice": 1,
+        "candidate_only_choice": 0
+      },
+      {
+        "item_index": 337,
+        "official_choice": 0,
+        "candidate_only_choice": 1
+      },
+      {
+        "item_index": 348,
+        "official_choice": 3,
+        "candidate_only_choice": 1
+      },
+      {
+        "item_index": 349,
+        "official_choice": 0,
+        "candidate_only_choice": 1
+      },
+      {
+        "item_index": 357,
+        "official_choice": 1,
+        "candidate_only_choice": 0
+      },
+      {
+        "item_index": 361,
+        "official_choice": 1,
+        "candidate_only_choice": 0
+      },
+      {
+        "item_index": 377,
+        "official_choice": 0,
+        "candidate_only_choice": 1
+      },
+      {
+        "item_index": 380,
+        "official_choice": 0,
+        "candidate_only_choice": 1
+      },
+      {
+        "item_index": 391,
+        "official_choice": 3,
+        "candidate_only_choice": 0
+      },
+      {
+        "item_index": 414,
+        "official_choice": 0,
+        "candidate_only_choice": 1
+      },
+      {
+        "item_index": 425,
+        "official_choice": 0,
+        "candidate_only_choice": 1
+      },
+      {
+        "item_index": 427,
+        "official_choice": 2,
+        "candidate_only_choice": 1
+      },
+      {
+        "item_index": 432,
+        "official_choice": 0,
+        "candidate_only_choice": 2
+      },
+      {
+        "item_index": 434,
+        "official_choice": 0,
+        "candidate_only_choice": 1
+      },
+      {
+        "item_index": 446,
+        "official_choice": 1,
+        "candidate_only_choice": 0
+      }
+    ]
+  },
+  "audited": {
+    "items": 454,
+    "official": {
+      "correct": 293,
+      "accuracy": 0.6453744493392071,
+      "wrong1_selections": 138,
+      "wrong1_share_among_errors": 0.8571428571428571
+    },
+    "candidate_only": {
+      "correct": 285,
+      "accuracy": 0.6277533039647577,
+      "wrong1_selections": 148,
+      "wrong1_share_among_errors": 0.8757396449704142
+    },
+    "agreement": {
+      "count": 422,
+      "rate": 0.9295154185022027
+    },
+    "disagreement_items": [
+      {
+        "item_index": 7,
+        "official_choice": 0,
+        "candidate_only_choice": 1
+      },
+      {
+        "item_index": 34,
+        "official_choice": 0,
+        "candidate_only_choice": 1
+      },
+      {
+        "item_index": 37,
+        "official_choice": 1,
+        "candidate_only_choice": 0
+      },
+      {
+        "item_index": 52,
+        "official_choice": 3,
+        "candidate_only_choice": 1
+      },
+      {
+        "item_index": 68,
+        "official_choice": 0,
+        "candidate_only_choice": 1
+      },
+      {
+        "item_index": 126,
+        "official_choice": 1,
+        "candidate_only_choice": 0
+      },
+      {
+        "item_index": 148,
+        "official_choice": 1,
+        "candidate_only_choice": 0
+      },
+      {
+        "item_index": 149,
+        "official_choice": 0,
+        "candidate_only_choice": 2
+      },
+      {
+        "item_index": 156,
+        "official_choice": 0,
+        "candidate_only_choice": 1
+      },
+      {
+        "item_index": 170,
+        "official_choice": 0,
+        "candidate_only_choice": 1
+      },
+      {
+        "item_index": 203,
+        "official_choice": 3,
+        "candidate_only_choice": 1
+      },
+      {
+        "item_index": 246,
+        "official_choice": 0,
+        "candidate_only_choice": 2
+      },
+      {
+        "item_index": 268,
+        "official_choice": 2,
+        "candidate_only_choice": 1
+      },
+      {
+        "item_index": 278,
+        "official_choice": 1,
+        "candidate_only_choice": 0
+      },
+      {
+        "item_index": 279,
+        "official_choice": 1,
+        "candidate_only_choice": 2
+      },
+      {
+        "item_index": 287,
+        "official_choice": 0,
+        "candidate_only_choice": 1
+      },
+      {
+        "item_index": 299,
+        "official_choice": 0,
+        "candidate_only_choice": 1
+      },
+      {
+        "item_index": 334,
+        "official_choice": 1,
+        "candidate_only_choice": 0
+      },
+      {
+        "item_index": 337,
+        "official_choice": 0,
+        "candidate_only_choice": 1
+      },
+      {
+        "item_index": 348,
+        "official_choice": 3,
+        "candidate_only_choice": 1
+      },
+      {
+        "item_index": 349,
+        "official_choice": 0,
+        "candidate_only_choice": 1
+      },
+      {
+        "item_index": 357,
+        "official_choice": 1,
+        "candidate_only_choice": 0
+      },
+      {
+        "item_index": 361,
+        "official_choice": 1,
+        "candidate_only_choice": 0
+      },
+      {
+        "item_index": 377,
+        "official_choice": 0,
+        "candidate_only_choice": 1
+      },
+      {
+        "item_index": 380,
+        "official_choice": 0,
+        "candidate_only_choice": 1
+      },
+      {
+        "item_index": 391,
+        "official_choice": 3,
+        "candidate_only_choice": 0
+      },
+      {
+        "item_index": 414,
+        "official_choice": 0,
+        "candidate_only_choice": 1
+      },
+      {
+        "item_index": 425,
+        "official_choice": 0,
+        "candidate_only_choice": 1
+      },
+      {
+        "item_index": 427,
+        "official_choice": 2,
+        "candidate_only_choice": 1
+      },
+      {
+        "item_index": 432,
+        "official_choice": 0,
+        "candidate_only_choice": 2
+      },
+      {
+        "item_index": 434,
+        "official_choice": 0,
+        "candidate_only_choice": 1
+      },
+      {
+        "item_index": 446,
+        "official_choice": 1,
+        "candidate_only_choice": 0
+      }
+    ]
+  },
+  "surface_form": {
+    "strict": {
+      "exact": {
+        "items": 230,
+        "official": {
+          "correct": 141,
+          "accuracy": 0.6130434782608696,
+          "wrong1_selections": 76,
+          "wrong1_share_among_errors": 0.8539325842696629
+        },
+        "candidate_only": {
+          "correct": 137,
+          "accuracy": 0.5956521739130435,
+          "wrong1_selections": 83,
+          "wrong1_share_among_errors": 0.8924731182795699
+        },
+        "agreement": {
+          "count": 211,
+          "rate": 0.9173913043478261
+        },
+        "disagreement_items": [
+          {
+            "item_index": 7,
+            "official_choice": 0,
+            "candidate_only_choice": 1
+          },
+          {
+            "item_index": 52,
+            "official_choice": 3,
+            "candidate_only_choice": 1
+          },
+          {
+            "item_index": 148,
+            "official_choice": 1,
+            "candidate_only_choice": 0
+          },
+          {
+            "item_index": 149,
+            "official_choice": 0,
+            "candidate_only_choice": 2
+          },
+          {
+            "item_index": 203,
+            "official_choice": 3,
+            "candidate_only_choice": 1
+          },
+          {
+            "item_index": 246,
+            "official_choice": 0,
+            "candidate_only_choice": 2
+          },
+          {
+            "item_index": 268,
+            "official_choice": 2,
+            "candidate_only_choice": 1
+          },
+          {
+            "item_index": 278,
+            "official_choice": 1,
+            "candidate_only_choice": 0
+          },
+          {
+            "item_index": 299,
+            "official_choice": 0,
+            "candidate_only_choice": 1
+          },
+          {
+            "item_index": 337,
+            "official_choice": 0,
+            "candidate_only_choice": 1
+          },
+          {
+            "item_index": 348,
+            "official_choice": 3,
+            "candidate_only_choice": 1
+          },
+          {
+            "item_index": 357,
+            "official_choice": 1,
+            "candidate_only_choice": 0
+          },
+          {
+            "item_index": 377,
+            "official_choice": 0,
+            "candidate_only_choice": 1
+          },
+          {
+            "item_index": 380,
+            "official_choice": 0,
+            "candidate_only_choice": 1
+          },
+          {
+            "item_index": 391,
+            "official_choice": 3,
+            "candidate_only_choice": 0
+          },
+          {
+            "item_index": 425,
+            "official_choice": 0,
+            "candidate_only_choice": 1
+          },
+          {
+            "item_index": 427,
+            "official_choice": 2,
+            "candidate_only_choice": 1
+          },
+          {
+            "item_index": 432,
+            "official_choice": 0,
+            "candidate_only_choice": 2
+          },
+          {
+            "item_index": 446,
+            "official_choice": 1,
+            "candidate_only_choice": 0
+          }
+        ]
+      },
+      "variant": {
+        "items": 225,
+        "official": {
+          "correct": 152,
+          "accuracy": 0.6755555555555556,
+          "wrong1_selections": 63,
+          "wrong1_share_among_errors": 0.863013698630137
+        },
+        "candidate_only": {
+          "correct": 148,
+          "accuracy": 0.6577777777777778,
+          "wrong1_selections": 66,
+          "wrong1_share_among_errors": 0.8571428571428571
+        },
+        "agreement": {
+          "count": 212,
+          "rate": 0.9422222222222222
+        },
+        "disagreement_items": [
+          {
+            "item_index": 34,
+            "official_choice": 0,
+            "candidate_only_choice": 1
+          },
+          {
+            "item_index": 37,
+            "official_choice": 1,
+            "candidate_only_choice": 0
+          },
+          {
+            "item_index": 68,
+            "official_choice": 0,
+            "candidate_only_choice": 1
+          },
+          {
+            "item_index": 126,
+            "official_choice": 1,
+            "candidate_only_choice": 0
+          },
+          {
+            "item_index": 156,
+            "official_choice": 0,
+            "candidate_only_choice": 1
+          },
+          {
+            "item_index": 170,
+            "official_choice": 0,
+            "candidate_only_choice": 1
+          },
+          {
+            "item_index": 279,
+            "official_choice": 1,
+            "candidate_only_choice": 2
+          },
+          {
+            "item_index": 287,
+            "official_choice": 0,
+            "candidate_only_choice": 1
+          },
+          {
+            "item_index": 334,
+            "official_choice": 1,
+            "candidate_only_choice": 0
+          },
+          {
+            "item_index": 349,
+            "official_choice": 0,
+            "candidate_only_choice": 1
+          },
+          {
+            "item_index": 361,
+            "official_choice": 1,
+            "candidate_only_choice": 0
+          },
+          {
+            "item_index": 414,
+            "official_choice": 0,
+            "candidate_only_choice": 1
+          },
+          {
+            "item_index": 434,
+            "official_choice": 0,
+            "candidate_only_choice": 1
+          }
+        ]
+      }
+    },
+    "audited": {
+      "exact": {
+        "items": 229,
+        "official": {
+          "correct": 141,
+          "accuracy": 0.6157205240174672,
+          "wrong1_selections": 75,
+          "wrong1_share_among_errors": 0.8522727272727273
+        },
+        "candidate_only": {
+          "correct": 137,
+          "accuracy": 0.5982532751091703,
+          "wrong1_selections": 82,
+          "wrong1_share_among_errors": 0.8913043478260869
+        },
+        "agreement": {
+          "count": 210,
+          "rate": 0.9170305676855895
+        },
+        "disagreement_items": [
+          {
+            "item_index": 7,
+            "official_choice": 0,
+            "candidate_only_choice": 1
+          },
+          {
+            "item_index": 52,
+            "official_choice": 3,
+            "candidate_only_choice": 1
+          },
+          {
+            "item_index": 148,
+            "official_choice": 1,
+            "candidate_only_choice": 0
+          },
+          {
+            "item_index": 149,
+            "official_choice": 0,
+            "candidate_only_choice": 2
+          },
+          {
+            "item_index": 203,
+            "official_choice": 3,
+            "candidate_only_choice": 1
+          },
+          {
+            "item_index": 246,
+            "official_choice": 0,
+            "candidate_only_choice": 2
+          },
+          {
+            "item_index": 268,
+            "official_choice": 2,
+            "candidate_only_choice": 1
+          },
+          {
+            "item_index": 278,
+            "official_choice": 1,
+            "candidate_only_choice": 0
+          },
+          {
+            "item_index": 299,
+            "official_choice": 0,
+            "candidate_only_choice": 1
+          },
+          {
+            "item_index": 337,
+            "official_choice": 0,
+            "candidate_only_choice": 1
+          },
+          {
+            "item_index": 348,
+            "official_choice": 3,
+            "candidate_only_choice": 1
+          },
+          {
+            "item_index": 357,
+            "official_choice": 1,
+            "candidate_only_choice": 0
+          },
+          {
+            "item_index": 377,
+            "official_choice": 0,
+            "candidate_only_choice": 1
+          },
+          {
+            "item_index": 380,
+            "official_choice": 0,
+            "candidate_only_choice": 1
+          },
+          {
+            "item_index": 391,
+            "official_choice": 3,
+            "candidate_only_choice": 0
+          },
+          {
+            "item_index": 425,
+            "official_choice": 0,
+            "candidate_only_choice": 1
+          },
+          {
+            "item_index": 427,
+            "official_choice": 2,
+            "candidate_only_choice": 1
+          },
+          {
+            "item_index": 432,
+            "official_choice": 0,
+            "candidate_only_choice": 2
+          },
+          {
+            "item_index": 446,
+            "official_choice": 1,
+            "candidate_only_choice": 0
+          }
+        ]
+      },
+      "variant": {
+        "items": 225,
+        "official": {
+          "correct": 152,
+          "accuracy": 0.6755555555555556,
+          "wrong1_selections": 63,
+          "wrong1_share_among_errors": 0.863013698630137
+        },
+        "candidate_only": {
+          "correct": 148,
+          "accuracy": 0.6577777777777778,
+          "wrong1_selections": 66,
+          "wrong1_share_among_errors": 0.8571428571428571
+        },
+        "agreement": {
+          "count": 212,
+          "rate": 0.9422222222222222
+        },
+        "disagreement_items": [
+          {
+            "item_index": 34,
+            "official_choice": 0,
+            "candidate_only_choice": 1
+          },
+          {
+            "item_index": 37,
+            "official_choice": 1,
+            "candidate_only_choice": 0
+          },
+          {
+            "item_index": 68,
+            "official_choice": 0,
+            "candidate_only_choice": 1
+          },
+          {
+            "item_index": 126,
+            "official_choice": 1,
+            "candidate_only_choice": 0
+          },
+          {
+            "item_index": 156,
+            "official_choice": 0,
+            "candidate_only_choice": 1
+          },
+          {
+            "item_index": 170,
+            "official_choice": 0,
+            "candidate_only_choice": 1
+          },
+          {
+            "item_index": 279,
+            "official_choice": 1,
+            "candidate_only_choice": 2
+          },
+          {
+            "item_index": 287,
+            "official_choice": 0,
+            "candidate_only_choice": 1
+          },
+          {
+            "item_index": 334,
+            "official_choice": 1,
+            "candidate_only_choice": 0
+          },
+          {
+            "item_index": 349,
+            "official_choice": 0,
+            "candidate_only_choice": 1
+          },
+          {
+            "item_index": 361,
+            "official_choice": 1,
+            "candidate_only_choice": 0
+          },
+          {
+            "item_index": 414,
+            "official_choice": 0,
+            "candidate_only_choice": 1
+          },
+          {
+            "item_index": 434,
+            "official_choice": 0,
+            "candidate_only_choice": 1
+          }
+        ]
+      }
+    }
+  },
+  "public_artifact_schema": "scores_only_v1",
+  "benchmark_text_removed": true,
+  "join_key": "item_index",
+  "upstream_commit": "eb1c4f3f17403af238046bf218dc49643bc2e2e2"
+}

@@ -1,0 +1,1571 @@
+{
+  "direction": "zh_jp",
+  "items": 455,
+  "models": [
+    "Qwen/Qwen2.5-7B-Instruct-1M",
+    "llm-jp/llm-jp-3-7.2b-instruct3",
+    "elyza/Llama-3-ELYZA-JP-8B",
+    "baichuan-inc/Baichuan2-7B-Base",
+    "google/gemma-7b",
+    "mistralai/Mistral-7B-Instruct-v0.2"
+  ],
+  "model_summaries": [
+    {
+      "model": "Qwen/Qwen2.5-7B-Instruct-1M",
+      "model_revision": "e28526f7bb80e2a9c8af03b831a9af3812f18fba",
+      "items": 455,
+      "official": {
+        "correct": 293,
+        "accuracy": 0.643956043956044,
+        "wrong1_selections": 139,
+        "wrong1_share_among_errors": 0.8580246913580247
+      },
+      "candidate_only": {
+        "correct": 285,
+        "accuracy": 0.6263736263736264,
+        "wrong1_selections": 149,
+        "wrong1_share_among_errors": 0.8764705882352941
+      },
+      "scoring_comparison": {
+        "agreement": 423,
+        "agreement_rate": 0.9296703296703297,
+        "official_only_correct": 17,
+        "candidate_only_only_correct": 9,
+        "length_direction": {
+          "official_longer": 32
+        }
+      },
+      "surface_form_audited": {
+        "exact": {
+          "items": 229,
+          "correct": 141,
+          "accuracy": 0.6157205240174672
+        },
+        "variant": {
+          "items": 225,
+          "correct": 152,
+          "accuracy": 0.6755555555555556
+        }
+      }
+    },
+    {
+      "model": "llm-jp/llm-jp-3-7.2b-instruct3",
+      "model_revision": "cdd4c7f3296fdc7785423a864bd9a86ce4c15915",
+      "items": 455,
+      "official": {
+        "correct": 298,
+        "accuracy": 0.654945054945055,
+        "wrong1_selections": 111,
+        "wrong1_share_among_errors": 0.7070063694267515
+      },
+      "candidate_only": {
+        "correct": 298,
+        "accuracy": 0.654945054945055,
+        "wrong1_selections": 114,
+        "wrong1_share_among_errors": 0.7261146496815286
+      },
+      "scoring_comparison": {
+        "agreement": 419,
+        "agreement_rate": 0.9208791208791208,
+        "official_only_correct": 14,
+        "candidate_only_only_correct": 14,
+        "length_direction": {
+          "official_longer": 34,
+          "equal": 2
+        }
+      },
+      "surface_form_audited": {
+        "exact": {
+          "items": 229,
+          "correct": 142,
+          "accuracy": 0.6200873362445415
+        },
+        "variant": {
+          "items": 225,
+          "correct": 156,
+          "accuracy": 0.6933333333333334
+        }
+      }
+    },
+    {
+      "model": "elyza/Llama-3-ELYZA-JP-8B",
+      "model_revision": "e6c316496ee7d9a11710c50229e8cb39b6b0a4a3",
+      "items": 455,
+      "official": {
+        "correct": 276,
+        "accuracy": 0.6065934065934065,
+        "wrong1_selections": 142,
+        "wrong1_share_among_errors": 0.7932960893854749
+      },
+      "candidate_only": {
+        "correct": 262,
+        "accuracy": 0.5758241758241758,
+        "wrong1_selections": 156,
+        "wrong1_share_among_errors": 0.8082901554404145
+      },
+      "scoring_comparison": {
+        "agreement": 411,
+        "agreement_rate": 0.9032967032967033,
+        "official_only_correct": 25,
+        "candidate_only_only_correct": 11,
+        "length_direction": {
+          "official_longer": 43,
+          "equal": 1
+        }
+      },
+      "surface_form_audited": {
+        "exact": {
+          "items": 229,
+          "correct": 139,
+          "accuracy": 0.6069868995633187
+        },
+        "variant": {
+          "items": 225,
+          "correct": 137,
+          "accuracy": 0.6088888888888889
+        }
+      }
+    },
+    {
+      "model": "baichuan-inc/Baichuan2-7B-Base",
+      "model_revision": "f9d4d8dd2f7a3dbede3bda3b0cf0224e9272bbe5",
+      "items": 455,
+      "official": {
+        "correct": 256,
+        "accuracy": 0.5626373626373626,
+        "wrong1_selections": 148,
+        "wrong1_share_among_errors": 0.7437185929648241
+      },
+      "candidate_only": {
+        "correct": 224,
+        "accuracy": 0.49230769230769234,
+        "wrong1_selections": 183,
+        "wrong1_share_among_errors": 0.7922077922077922
+      },
+      "scoring_comparison": {
+        "agreement": 382,
+        "agreement_rate": 0.8395604395604396,
+        "official_only_correct": 48,
+        "candidate_only_only_correct": 16,
+        "length_direction": {
+          "official_longer": 72,
+          "equal": 1
+        }
+      },
+      "surface_form_audited": {
+        "exact": {
+          "items": 229,
+          "correct": 137,
+          "accuracy": 0.5982532751091703
+        },
+        "variant": {
+          "items": 225,
+          "correct": 119,
+          "accuracy": 0.5288888888888889
+        }
+      }
+    },
+    {
+      "model": "google/gemma-7b",
+      "model_revision": "ff6768d9368919a1f025a54f9f5aa0ee591730bb",
+      "items": 455,
+      "official": {
+        "correct": 279,
+        "accuracy": 0.6131868131868132,
+        "wrong1_selections": 143,
+        "wrong1_share_among_errors": 0.8125
+      },
+      "candidate_only": {
+        "correct": 265,
+        "accuracy": 0.5824175824175825,
+        "wrong1_selections": 157,
+        "wrong1_share_among_errors": 0.8263157894736842
+      },
+      "scoring_comparison": {
+        "agreement": 409,
+        "agreement_rate": 0.8989010989010989,
+        "official_only_correct": 27,
+        "candidate_only_only_correct": 13,
+        "length_direction": {
+          "official_longer": 41,
+          "equal": 3,
+          "official_shorter": 2
+        }
+      },
+      "surface_form_audited": {
+        "exact": {
+          "items": 229,
+          "correct": 143,
+          "accuracy": 0.6244541484716157
+        },
+        "variant": {
+          "items": 225,
+          "correct": 136,
+          "accuracy": 0.6044444444444445
+        }
+      }
+    },
+    {
+      "model": "mistralai/Mistral-7B-Instruct-v0.2",
+      "model_revision": "63a8b081895390a26e140280378bc85ec8bce07a",
+      "items": 455,
+      "official": {
+        "correct": 187,
+        "accuracy": 0.41098901098901097,
+        "wrong1_selections": 212,
+        "wrong1_share_among_errors": 0.7910447761194029
+      },
+      "candidate_only": {
+        "correct": 163,
+        "accuracy": 0.35824175824175825,
+        "wrong1_selections": 233,
+        "wrong1_share_among_errors": 0.797945205479452
+      },
+      "scoring_comparison": {
+        "agreement": 388,
+        "agreement_rate": 0.8527472527472527,
+        "official_only_correct": 39,
+        "candidate_only_only_correct": 15,
+        "length_direction": {
+          "official_longer": 65,
+          "equal": 2
+        }
+      },
+      "surface_form_audited": {
+        "exact": {
+          "items": 229,
+          "correct": 86,
+          "accuracy": 0.37554585152838427
+        },
+        "variant": {
+          "items": 225,
+          "correct": 101,
+          "accuracy": 0.4488888888888889
+        }
+      }
+    }
+  ],
+  "aggregate": {
+    "predictions": 2730,
+    "official_correct": 1589,
+    "official_accuracy": 0.5820512820512821,
+    "candidate_only_correct": 1497,
+    "candidate_only_accuracy": 0.5483516483516484,
+    "official_wrong1_selections": 895,
+    "official_wrong1_share_among_errors": 0.7843996494303243,
+    "choice_agreement": 2432,
+    "official_only_correct": 170,
+    "candidate_only_only_correct": 78,
+    "length_direction": {
+      "official_longer": 287,
+      "equal": 9,
+      "official_shorter": 2
+    }
+  },
+  "cross_model": {
+    "correct_model_count_distribution": {
+      "0": 55,
+      "1": 41,
+      "2": 61,
+      "3": 54,
+      "4": 65,
+      "5": 70,
+      "6": 109
+    },
+    "all_models_correct": 109,
+    "all_models_wrong": 55,
+    "choice_unanimous": 139,
+    "unanimous_wrong1": 29,
+    "single_model_correct": {
+      "google/gemma-7b": 8,
+      "llm-jp/llm-jp-3-7.2b-instruct3": 16,
+      "mistralai/Mistral-7B-Instruct-v0.2": 5,
+      "baichuan-inc/Baichuan2-7B-Base": 10,
+      "Qwen/Qwen2.5-7B-Instruct-1M": 1,
+      "elyza/Llama-3-ELYZA-JP-8B": 1
+    },
+    "pairwise": [
+      {
+        "left": "Qwen/Qwen2.5-7B-Instruct-1M",
+        "right": "llm-jp/llm-jp-3-7.2b-instruct3",
+        "same_choice": 319,
+        "same_choice_rate": 0.701098901098901,
+        "left_only_correct": 55,
+        "right_only_correct": 60
+      },
+      {
+        "left": "Qwen/Qwen2.5-7B-Instruct-1M",
+        "right": "elyza/Llama-3-ELYZA-JP-8B",
+        "same_choice": 328,
+        "same_choice_rate": 0.7208791208791209,
+        "left_only_correct": 62,
+        "right_only_correct": 45
+      },
+      {
+        "left": "Qwen/Qwen2.5-7B-Instruct-1M",
+        "right": "baichuan-inc/Baichuan2-7B-Base",
+        "same_choice": 313,
+        "same_choice_rate": 0.6879120879120879,
+        "left_only_correct": 79,
+        "right_only_correct": 42
+      },
+      {
+        "left": "Qwen/Qwen2.5-7B-Instruct-1M",
+        "right": "google/gemma-7b",
+        "same_choice": 324,
+        "same_choice_rate": 0.7120879120879121,
+        "left_only_correct": 62,
+        "right_only_correct": 48
+      },
+      {
+        "left": "Qwen/Qwen2.5-7B-Instruct-1M",
+        "right": "mistralai/Mistral-7B-Instruct-v0.2",
+        "same_choice": 272,
+        "same_choice_rate": 0.5978021978021978,
+        "left_only_correct": 133,
+        "right_only_correct": 27
+      },
+      {
+        "left": "llm-jp/llm-jp-3-7.2b-instruct3",
+        "right": "elyza/Llama-3-ELYZA-JP-8B",
+        "same_choice": 338,
+        "same_choice_rate": 0.7428571428571429,
+        "left_only_correct": 60,
+        "right_only_correct": 38
+      },
+      {
+        "left": "llm-jp/llm-jp-3-7.2b-instruct3",
+        "right": "baichuan-inc/Baichuan2-7B-Base",
+        "same_choice": 277,
+        "same_choice_rate": 0.6087912087912087,
+        "left_only_correct": 95,
+        "right_only_correct": 53
+      },
+      {
+        "left": "llm-jp/llm-jp-3-7.2b-instruct3",
+        "right": "google/gemma-7b",
+        "same_choice": 300,
+        "same_choice_rate": 0.6593406593406593,
+        "left_only_correct": 73,
+        "right_only_correct": 54
+      },
+      {
+        "left": "llm-jp/llm-jp-3-7.2b-instruct3",
+        "right": "mistralai/Mistral-7B-Instruct-v0.2",
+        "same_choice": 241,
+        "same_choice_rate": 0.5296703296703297,
+        "left_only_correct": 147,
+        "right_only_correct": 36
+      },
+      {
+        "left": "elyza/Llama-3-ELYZA-JP-8B",
+        "right": "baichuan-inc/Baichuan2-7B-Base",
+        "same_choice": 288,
+        "same_choice_rate": 0.6329670329670329,
+        "left_only_correct": 81,
+        "right_only_correct": 61
+      },
+      {
+        "left": "elyza/Llama-3-ELYZA-JP-8B",
+        "right": "google/gemma-7b",
+        "same_choice": 307,
+        "same_choice_rate": 0.6747252747252748,
+        "left_only_correct": 59,
+        "right_only_correct": 62
+      },
+      {
+        "left": "elyza/Llama-3-ELYZA-JP-8B",
+        "right": "mistralai/Mistral-7B-Instruct-v0.2",
+        "same_choice": 261,
+        "same_choice_rate": 0.5736263736263736,
+        "left_only_correct": 127,
+        "right_only_correct": 38
+      },
+      {
+        "left": "baichuan-inc/Baichuan2-7B-Base",
+        "right": "google/gemma-7b",
+        "same_choice": 292,
+        "same_choice_rate": 0.6417582417582418,
+        "left_only_correct": 57,
+        "right_only_correct": 80
+      },
+      {
+        "left": "baichuan-inc/Baichuan2-7B-Base",
+        "right": "mistralai/Mistral-7B-Instruct-v0.2",
+        "same_choice": 289,
+        "same_choice_rate": 0.6351648351648351,
+        "left_only_correct": 103,
+        "right_only_correct": 34
+      },
+      {
+        "left": "google/gemma-7b",
+        "right": "mistralai/Mistral-7B-Instruct-v0.2",
+        "same_choice": 255,
+        "same_choice_rate": 0.5604395604395604,
+        "left_only_correct": 135,
+        "right_only_correct": 43
+      }
+    ],
+    "common_error_items": [
+      {
+        "item_index": 4,
+        "surface_exact": true,
+        "duplicate_options": false,
+        "official_choices": {
+          "Qwen/Qwen2.5-7B-Instruct-1M": 1,
+          "llm-jp/llm-jp-3-7.2b-instruct3": 1,
+          "elyza/Llama-3-ELYZA-JP-8B": 2,
+          "baichuan-inc/Baichuan2-7B-Base": 1,
+          "google/gemma-7b": 1,
+          "mistralai/Mistral-7B-Instruct-v0.2": 1
+        },
+        "candidate_only_choices": {
+          "Qwen/Qwen2.5-7B-Instruct-1M": 1,
+          "llm-jp/llm-jp-3-7.2b-instruct3": 1,
+          "elyza/Llama-3-ELYZA-JP-8B": 1,
+          "baichuan-inc/Baichuan2-7B-Base": 1,
+          "google/gemma-7b": 1,
+          "mistralai/Mistral-7B-Instruct-v0.2": 1
+        }
+      },
+      {
+        "item_index": 11,
+        "surface_exact": false,
+        "duplicate_options": false,
+        "official_choices": {
+          "Qwen/Qwen2.5-7B-Instruct-1M": 1,
+          "llm-jp/llm-jp-3-7.2b-instruct3": 1,
+          "elyza/Llama-3-ELYZA-JP-8B": 1,
+          "baichuan-inc/Baichuan2-7B-Base": 1,
+          "google/gemma-7b": 1,
+          "mistralai/Mistral-7B-Instruct-v0.2": 1
+        },
+        "candidate_only_choices": {
+          "Qwen/Qwen2.5-7B-Instruct-1M": 1,
+          "llm-jp/llm-jp-3-7.2b-instruct3": 1,
+          "elyza/Llama-3-ELYZA-JP-8B": 1,
+          "baichuan-inc/Baichuan2-7B-Base": 1,
+          "google/gemma-7b": 1,
+          "mistralai/Mistral-7B-Instruct-v0.2": 1
+        }
+      },
+      {
+        "item_index": 12,
+        "surface_exact": true,
+        "duplicate_options": false,
+        "official_choices": {
+          "Qwen/Qwen2.5-7B-Instruct-1M": 1,
+          "llm-jp/llm-jp-3-7.2b-instruct3": 1,
+          "elyza/Llama-3-ELYZA-JP-8B": 1,
+          "baichuan-inc/Baichuan2-7B-Base": 3,
+          "google/gemma-7b": 3,
+          "mistralai/Mistral-7B-Instruct-v0.2": 3
+        },
+        "candidate_only_choices": {
+          "Qwen/Qwen2.5-7B-Instruct-1M": 1,
+          "llm-jp/llm-jp-3-7.2b-instruct3": 1,
+          "elyza/Llama-3-ELYZA-JP-8B": 1,
+          "baichuan-inc/Baichuan2-7B-Base": 3,
+          "google/gemma-7b": 3,
+          "mistralai/Mistral-7B-Instruct-v0.2": 3
+        }
+      },
+      {
+        "item_index": 15,
+        "surface_exact": false,
+        "duplicate_options": false,
+        "official_choices": {
+          "Qwen/Qwen2.5-7B-Instruct-1M": 1,
+          "llm-jp/llm-jp-3-7.2b-instruct3": 1,
+          "elyza/Llama-3-ELYZA-JP-8B": 1,
+          "baichuan-inc/Baichuan2-7B-Base": 1,
+          "google/gemma-7b": 1,
+          "mistralai/Mistral-7B-Instruct-v0.2": 1
+        },
+        "candidate_only_choices": {
+          "Qwen/Qwen2.5-7B-Instruct-1M": 1,
+          "llm-jp/llm-jp-3-7.2b-instruct3": 1,
+          "elyza/Llama-3-ELYZA-JP-8B": 1,
+          "baichuan-inc/Baichuan2-7B-Base": 1,
+          "google/gemma-7b": 1,
+          "mistralai/Mistral-7B-Instruct-v0.2": 1
+        }
+      },
+      {
+        "item_index": 19,
+        "surface_exact": false,
+        "duplicate_options": false,
+        "official_choices": {
+          "Qwen/Qwen2.5-7B-Instruct-1M": 1,
+          "llm-jp/llm-jp-3-7.2b-instruct3": 1,
+          "elyza/Llama-3-ELYZA-JP-8B": 1,
+          "baichuan-inc/Baichuan2-7B-Base": 1,
+          "google/gemma-7b": 1,
+          "mistralai/Mistral-7B-Instruct-v0.2": 1
+        },
+        "candidate_only_choices": {
+          "Qwen/Qwen2.5-7B-Instruct-1M": 1,
+          "llm-jp/llm-jp-3-7.2b-instruct3": 1,
+          "elyza/Llama-3-ELYZA-JP-8B": 1,
+          "baichuan-inc/Baichuan2-7B-Base": 1,
+          "google/gemma-7b": 1,
+          "mistralai/Mistral-7B-Instruct-v0.2": 1
+        }
+      },
+      {
+        "item_index": 31,
+        "surface_exact": false,
+        "duplicate_options": false,
+        "official_choices": {
+          "Qwen/Qwen2.5-7B-Instruct-1M": 1,
+          "llm-jp/llm-jp-3-7.2b-instruct3": 1,
+          "elyza/Llama-3-ELYZA-JP-8B": 1,
+          "baichuan-inc/Baichuan2-7B-Base": 1,
+          "google/gemma-7b": 2,
+          "mistralai/Mistral-7B-Instruct-v0.2": 1
+        },
+        "candidate_only_choices": {
+          "Qwen/Qwen2.5-7B-Instruct-1M": 1,
+          "llm-jp/llm-jp-3-7.2b-instruct3": 1,
+          "elyza/Llama-3-ELYZA-JP-8B": 1,
+          "baichuan-inc/Baichuan2-7B-Base": 1,
+          "google/gemma-7b": 2,
+          "mistralai/Mistral-7B-Instruct-v0.2": 1
+        }
+      },
+      {
+        "item_index": 36,
+        "surface_exact": true,
+        "duplicate_options": false,
+        "official_choices": {
+          "Qwen/Qwen2.5-7B-Instruct-1M": 1,
+          "llm-jp/llm-jp-3-7.2b-instruct3": 1,
+          "elyza/Llama-3-ELYZA-JP-8B": 1,
+          "baichuan-inc/Baichuan2-7B-Base": 1,
+          "google/gemma-7b": 1,
+          "mistralai/Mistral-7B-Instruct-v0.2": 1
+        },
+        "candidate_only_choices": {
+          "Qwen/Qwen2.5-7B-Instruct-1M": 1,
+          "llm-jp/llm-jp-3-7.2b-instruct3": 1,
+          "elyza/Llama-3-ELYZA-JP-8B": 1,
+          "baichuan-inc/Baichuan2-7B-Base": 1,
+          "google/gemma-7b": 1,
+          "mistralai/Mistral-7B-Instruct-v0.2": 1
+        }
+      },
+      {
+        "item_index": 37,
+        "surface_exact": false,
+        "duplicate_options": false,
+        "official_choices": {
+          "Qwen/Qwen2.5-7B-Instruct-1M": 1,
+          "llm-jp/llm-jp-3-7.2b-instruct3": 2,
+          "elyza/Llama-3-ELYZA-JP-8B": 1,
+          "baichuan-inc/Baichuan2-7B-Base": 1,
+          "google/gemma-7b": 1,
+          "mistralai/Mistral-7B-Instruct-v0.2": 1
+        },
+        "candidate_only_choices": {
+          "Qwen/Qwen2.5-7B-Instruct-1M": 0,
+          "llm-jp/llm-jp-3-7.2b-instruct3": 2,
+          "elyza/Llama-3-ELYZA-JP-8B": 1,
+          "baichuan-inc/Baichuan2-7B-Base": 1,
+          "google/gemma-7b": 1,
+          "mistralai/Mistral-7B-Instruct-v0.2": 1
+        }
+      },
+      {
+        "item_index": 39,
+        "surface_exact": true,
+        "duplicate_options": false,
+        "official_choices": {
+          "Qwen/Qwen2.5-7B-Instruct-1M": 1,
+          "llm-jp/llm-jp-3-7.2b-instruct3": 1,
+          "elyza/Llama-3-ELYZA-JP-8B": 1,
+          "baichuan-inc/Baichuan2-7B-Base": 1,
+          "google/gemma-7b": 1,
+          "mistralai/Mistral-7B-Instruct-v0.2": 1
+        },
+        "candidate_only_choices": {
+          "Qwen/Qwen2.5-7B-Instruct-1M": 1,
+          "llm-jp/llm-jp-3-7.2b-instruct3": 1,
+          "elyza/Llama-3-ELYZA-JP-8B": 1,
+          "baichuan-inc/Baichuan2-7B-Base": 1,
+          "google/gemma-7b": 1,
+          "mistralai/Mistral-7B-Instruct-v0.2": 1
+        }
+      },
+      {
+        "item_index": 64,
+        "surface_exact": true,
+        "duplicate_options": false,
+        "official_choices": {
+          "Qwen/Qwen2.5-7B-Instruct-1M": 1,
+          "llm-jp/llm-jp-3-7.2b-instruct3": 1,
+          "elyza/Llama-3-ELYZA-JP-8B": 1,
+          "baichuan-inc/Baichuan2-7B-Base": 1,
+          "google/gemma-7b": 1,
+          "mistralai/Mistral-7B-Instruct-v0.2": 1
+        },
+        "candidate_only_choices": {
+          "Qwen/Qwen2.5-7B-Instruct-1M": 1,
+          "llm-jp/llm-jp-3-7.2b-instruct3": 1,
+          "elyza/Llama-3-ELYZA-JP-8B": 1,
+          "baichuan-inc/Baichuan2-7B-Base": 1,
+          "google/gemma-7b": 1,
+          "mistralai/Mistral-7B-Instruct-v0.2": 1
+        }
+      },
+      {
+        "item_index": 66,
+        "surface_exact": true,
+        "duplicate_options": false,
+        "official_choices": {
+          "Qwen/Qwen2.5-7B-Instruct-1M": 1,
+          "llm-jp/llm-jp-3-7.2b-instruct3": 1,
+          "elyza/Llama-3-ELYZA-JP-8B": 1,
+          "baichuan-inc/Baichuan2-7B-Base": 1,
+          "google/gemma-7b": 1,
+          "mistralai/Mistral-7B-Instruct-v0.2": 1
+        },
+        "candidate_only_choices": {
+          "Qwen/Qwen2.5-7B-Instruct-1M": 1,
+          "llm-jp/llm-jp-3-7.2b-instruct3": 1,
+          "elyza/Llama-3-ELYZA-JP-8B": 1,
+          "baichuan-inc/Baichuan2-7B-Base": 1,
+          "google/gemma-7b": 1,
+          "mistralai/Mistral-7B-Instruct-v0.2": 1
+        }
+      },
+      {
+        "item_index": 72,
+        "surface_exact": false,
+        "duplicate_options": false,
+        "official_choices": {
+          "Qwen/Qwen2.5-7B-Instruct-1M": 2,
+          "llm-jp/llm-jp-3-7.2b-instruct3": 2,
+          "elyza/Llama-3-ELYZA-JP-8B": 2,
+          "baichuan-inc/Baichuan2-7B-Base": 2,
+          "google/gemma-7b": 2,
+          "mistralai/Mistral-7B-Instruct-v0.2": 2
+        },
+        "candidate_only_choices": {
+          "Qwen/Qwen2.5-7B-Instruct-1M": 2,
+          "llm-jp/llm-jp-3-7.2b-instruct3": 2,
+          "elyza/Llama-3-ELYZA-JP-8B": 2,
+          "baichuan-inc/Baichuan2-7B-Base": 2,
+          "google/gemma-7b": 2,
+          "mistralai/Mistral-7B-Instruct-v0.2": 2
+        }
+      },
+      {
+        "item_index": 80,
+        "surface_exact": true,
+        "duplicate_options": false,
+        "official_choices": {
+          "Qwen/Qwen2.5-7B-Instruct-1M": 1,
+          "llm-jp/llm-jp-3-7.2b-instruct3": 1,
+          "elyza/Llama-3-ELYZA-JP-8B": 1,
+          "baichuan-inc/Baichuan2-7B-Base": 1,
+          "google/gemma-7b": 1,
+          "mistralai/Mistral-7B-Instruct-v0.2": 1
+        },
+        "candidate_only_choices": {
+          "Qwen/Qwen2.5-7B-Instruct-1M": 1,
+          "llm-jp/llm-jp-3-7.2b-instruct3": 1,
+          "elyza/Llama-3-ELYZA-JP-8B": 1,
+          "baichuan-inc/Baichuan2-7B-Base": 1,
+          "google/gemma-7b": 1,
+          "mistralai/Mistral-7B-Instruct-v0.2": 1
+        }
+      },
+      {
+        "item_index": 98,
+        "surface_exact": false,
+        "duplicate_options": false,
+        "official_choices": {
+          "Qwen/Qwen2.5-7B-Instruct-1M": 1,
+          "llm-jp/llm-jp-3-7.2b-instruct3": 1,
+          "elyza/Llama-3-ELYZA-JP-8B": 1,
+          "baichuan-inc/Baichuan2-7B-Base": 1,
+          "google/gemma-7b": 1,
+          "mistralai/Mistral-7B-Instruct-v0.2": 1
+        },
+        "candidate_only_choices": {
+          "Qwen/Qwen2.5-7B-Instruct-1M": 1,
+          "llm-jp/llm-jp-3-7.2b-instruct3": 1,
+          "elyza/Llama-3-ELYZA-JP-8B": 1,
+          "baichuan-inc/Baichuan2-7B-Base": 1,
+          "google/gemma-7b": 1,
+          "mistralai/Mistral-7B-Instruct-v0.2": 1
+        }
+      },
+      {
+        "item_index": 107,
+        "surface_exact": true,
+        "duplicate_options": false,
+        "official_choices": {
+          "Qwen/Qwen2.5-7B-Instruct-1M": 1,
+          "llm-jp/llm-jp-3-7.2b-instruct3": 3,
+          "elyza/Llama-3-ELYZA-JP-8B": 2,
+          "baichuan-inc/Baichuan2-7B-Base": 1,
+          "google/gemma-7b": 1,
+          "mistralai/Mistral-7B-Instruct-v0.2": 3
+        },
+        "candidate_only_choices": {
+          "Qwen/Qwen2.5-7B-Instruct-1M": 1,
+          "llm-jp/llm-jp-3-7.2b-instruct3": 3,
+          "elyza/Llama-3-ELYZA-JP-8B": 2,
+          "baichuan-inc/Baichuan2-7B-Base": 1,
+          "google/gemma-7b": 1,
+          "mistralai/Mistral-7B-Instruct-v0.2": 3
+        }
+      },
+      {
+        "item_index": 114,
+        "surface_exact": false,
+        "duplicate_options": false,
+        "official_choices": {
+          "Qwen/Qwen2.5-7B-Instruct-1M": 1,
+          "llm-jp/llm-jp-3-7.2b-instruct3": 1,
+          "elyza/Llama-3-ELYZA-JP-8B": 1,
+          "baichuan-inc/Baichuan2-7B-Base": 1,
+          "google/gemma-7b": 1,
+          "mistralai/Mistral-7B-Instruct-v0.2": 1
+        },
+        "candidate_only_choices": {
+          "Qwen/Qwen2.5-7B-Instruct-1M": 1,
+          "llm-jp/llm-jp-3-7.2b-instruct3": 1,
+          "elyza/Llama-3-ELYZA-JP-8B": 1,
+          "baichuan-inc/Baichuan2-7B-Base": 1,
+          "google/gemma-7b": 1,
+          "mistralai/Mistral-7B-Instruct-v0.2": 1
+        }
+      },
+      {
+        "item_index": 116,
+        "surface_exact": true,
+        "duplicate_options": false,
+        "official_choices": {
+          "Qwen/Qwen2.5-7B-Instruct-1M": 2,
+          "llm-jp/llm-jp-3-7.2b-instruct3": 2,
+          "elyza/Llama-3-ELYZA-JP-8B": 2,
+          "baichuan-inc/Baichuan2-7B-Base": 1,
+          "google/gemma-7b": 1,
+          "mistralai/Mistral-7B-Instruct-v0.2": 2
+        },
+        "candidate_only_choices": {
+          "Qwen/Qwen2.5-7B-Instruct-1M": 2,
+          "llm-jp/llm-jp-3-7.2b-instruct3": 2,
+          "elyza/Llama-3-ELYZA-JP-8B": 2,
+          "baichuan-inc/Baichuan2-7B-Base": 1,
+          "google/gemma-7b": 2,
+          "mistralai/Mistral-7B-Instruct-v0.2": 2
+        }
+      },
+      {
+        "item_index": 127,
+        "surface_exact": true,
+        "duplicate_options": false,
+        "official_choices": {
+          "Qwen/Qwen2.5-7B-Instruct-1M": 1,
+          "llm-jp/llm-jp-3-7.2b-instruct3": 1,
+          "elyza/Llama-3-ELYZA-JP-8B": 1,
+          "baichuan-inc/Baichuan2-7B-Base": 1,
+          "google/gemma-7b": 2,
+          "mistralai/Mistral-7B-Instruct-v0.2": 1
+        },
+        "candidate_only_choices": {
+          "Qwen/Qwen2.5-7B-Instruct-1M": 1,
+          "llm-jp/llm-jp-3-7.2b-instruct3": 1,
+          "elyza/Llama-3-ELYZA-JP-8B": 1,
+          "baichuan-inc/Baichuan2-7B-Base": 1,
+          "google/gemma-7b": 2,
+          "mistralai/Mistral-7B-Instruct-v0.2": 1
+        }
+      },
+      {
+        "item_index": 134,
+        "surface_exact": false,
+        "duplicate_options": false,
+        "official_choices": {
+          "Qwen/Qwen2.5-7B-Instruct-1M": 1,
+          "llm-jp/llm-jp-3-7.2b-instruct3": 1,
+          "elyza/Llama-3-ELYZA-JP-8B": 1,
+          "baichuan-inc/Baichuan2-7B-Base": 1,
+          "google/gemma-7b": 1,
+          "mistralai/Mistral-7B-Instruct-v0.2": 1
+        },
+        "candidate_only_choices": {
+          "Qwen/Qwen2.5-7B-Instruct-1M": 1,
+          "llm-jp/llm-jp-3-7.2b-instruct3": 1,
+          "elyza/Llama-3-ELYZA-JP-8B": 1,
+          "baichuan-inc/Baichuan2-7B-Base": 1,
+          "google/gemma-7b": 1,
+          "mistralai/Mistral-7B-Instruct-v0.2": 1
+        }
+      },
+      {
+        "item_index": 135,
+        "surface_exact": true,
+        "duplicate_options": false,
+        "official_choices": {
+          "Qwen/Qwen2.5-7B-Instruct-1M": 2,
+          "llm-jp/llm-jp-3-7.2b-instruct3": 1,
+          "elyza/Llama-3-ELYZA-JP-8B": 1,
+          "baichuan-inc/Baichuan2-7B-Base": 2,
+          "google/gemma-7b": 1,
+          "mistralai/Mistral-7B-Instruct-v0.2": 1
+        },
+        "candidate_only_choices": {
+          "Qwen/Qwen2.5-7B-Instruct-1M": 2,
+          "llm-jp/llm-jp-3-7.2b-instruct3": 1,
+          "elyza/Llama-3-ELYZA-JP-8B": 1,
+          "baichuan-inc/Baichuan2-7B-Base": 2,
+          "google/gemma-7b": 1,
+          "mistralai/Mistral-7B-Instruct-v0.2": 1
+        }
+      },
+      {
+        "item_index": 137,
+        "surface_exact": false,
+        "duplicate_options": false,
+        "official_choices": {
+          "Qwen/Qwen2.5-7B-Instruct-1M": 1,
+          "llm-jp/llm-jp-3-7.2b-instruct3": 1,
+          "elyza/Llama-3-ELYZA-JP-8B": 1,
+          "baichuan-inc/Baichuan2-7B-Base": 1,
+          "google/gemma-7b": 1,
+          "mistralai/Mistral-7B-Instruct-v0.2": 1
+        },
+        "candidate_only_choices": {
+          "Qwen/Qwen2.5-7B-Instruct-1M": 1,
+          "llm-jp/llm-jp-3-7.2b-instruct3": 1,
+          "elyza/Llama-3-ELYZA-JP-8B": 1,
+          "baichuan-inc/Baichuan2-7B-Base": 1,
+          "google/gemma-7b": 1,
+          "mistralai/Mistral-7B-Instruct-v0.2": 1
+        }
+      },
+      {
+        "item_index": 141,
+        "surface_exact": false,
+        "duplicate_options": false,
+        "official_choices": {
+          "Qwen/Qwen2.5-7B-Instruct-1M": 1,
+          "llm-jp/llm-jp-3-7.2b-instruct3": 2,
+          "elyza/Llama-3-ELYZA-JP-8B": 1,
+          "baichuan-inc/Baichuan2-7B-Base": 1,
+          "google/gemma-7b": 1,
+          "mistralai/Mistral-7B-Instruct-v0.2": 1
+        },
+        "candidate_only_choices": {
+          "Qwen/Qwen2.5-7B-Instruct-1M": 1,
+          "llm-jp/llm-jp-3-7.2b-instruct3": 2,
+          "elyza/Llama-3-ELYZA-JP-8B": 2,
+          "baichuan-inc/Baichuan2-7B-Base": 1,
+          "google/gemma-7b": 1,
+          "mistralai/Mistral-7B-Instruct-v0.2": 1
+        }
+      },
+      {
+        "item_index": 165,
+        "surface_exact": true,
+        "duplicate_options": false,
+        "official_choices": {
+          "Qwen/Qwen2.5-7B-Instruct-1M": 1,
+          "llm-jp/llm-jp-3-7.2b-instruct3": 1,
+          "elyza/Llama-3-ELYZA-JP-8B": 1,
+          "baichuan-inc/Baichuan2-7B-Base": 1,
+          "google/gemma-7b": 1,
+          "mistralai/Mistral-7B-Instruct-v0.2": 1
+        },
+        "candidate_only_choices": {
+          "Qwen/Qwen2.5-7B-Instruct-1M": 1,
+          "llm-jp/llm-jp-3-7.2b-instruct3": 1,
+          "elyza/Llama-3-ELYZA-JP-8B": 1,
+          "baichuan-inc/Baichuan2-7B-Base": 1,
+          "google/gemma-7b": 1,
+          "mistralai/Mistral-7B-Instruct-v0.2": 1
+        }
+      },
+      {
+        "item_index": 179,
+        "surface_exact": false,
+        "duplicate_options": false,
+        "official_choices": {
+          "Qwen/Qwen2.5-7B-Instruct-1M": 1,
+          "llm-jp/llm-jp-3-7.2b-instruct3": 2,
+          "elyza/Llama-3-ELYZA-JP-8B": 1,
+          "baichuan-inc/Baichuan2-7B-Base": 2,
+          "google/gemma-7b": 1,
+          "mistralai/Mistral-7B-Instruct-v0.2": 1
+        },
+        "candidate_only_choices": {
+          "Qwen/Qwen2.5-7B-Instruct-1M": 1,
+          "llm-jp/llm-jp-3-7.2b-instruct3": 2,
+          "elyza/Llama-3-ELYZA-JP-8B": 1,
+          "baichuan-inc/Baichuan2-7B-Base": 2,
+          "google/gemma-7b": 1,
+          "mistralai/Mistral-7B-Instruct-v0.2": 1
+        }
+      },
+      {
+        "item_index": 185,
+        "surface_exact": true,
+        "duplicate_options": false,
+        "official_choices": {
+          "Qwen/Qwen2.5-7B-Instruct-1M": 1,
+          "llm-jp/llm-jp-3-7.2b-instruct3": 3,
+          "elyza/Llama-3-ELYZA-JP-8B": 3,
+          "baichuan-inc/Baichuan2-7B-Base": 3,
+          "google/gemma-7b": 3,
+          "mistralai/Mistral-7B-Instruct-v0.2": 1
+        },
+        "candidate_only_choices": {
+          "Qwen/Qwen2.5-7B-Instruct-1M": 1,
+          "llm-jp/llm-jp-3-7.2b-instruct3": 3,
+          "elyza/Llama-3-ELYZA-JP-8B": 3,
+          "baichuan-inc/Baichuan2-7B-Base": 3,
+          "google/gemma-7b": 3,
+          "mistralai/Mistral-7B-Instruct-v0.2": 1
+        }
+      },
+      {
+        "item_index": 195,
+        "surface_exact": true,
+        "duplicate_options": false,
+        "official_choices": {
+          "Qwen/Qwen2.5-7B-Instruct-1M": 1,
+          "llm-jp/llm-jp-3-7.2b-instruct3": 2,
+          "elyza/Llama-3-ELYZA-JP-8B": 1,
+          "baichuan-inc/Baichuan2-7B-Base": 1,
+          "google/gemma-7b": 1,
+          "mistralai/Mistral-7B-Instruct-v0.2": 1
+        },
+        "candidate_only_choices": {
+          "Qwen/Qwen2.5-7B-Instruct-1M": 1,
+          "llm-jp/llm-jp-3-7.2b-instruct3": 1,
+          "elyza/Llama-3-ELYZA-JP-8B": 1,
+          "baichuan-inc/Baichuan2-7B-Base": 1,
+          "google/gemma-7b": 1,
+          "mistralai/Mistral-7B-Instruct-v0.2": 1
+        }
+      },
+      {
+        "item_index": 197,
+        "surface_exact": true,
+        "duplicate_options": false,
+        "official_choices": {
+          "Qwen/Qwen2.5-7B-Instruct-1M": 1,
+          "llm-jp/llm-jp-3-7.2b-instruct3": 1,
+          "elyza/Llama-3-ELYZA-JP-8B": 1,
+          "baichuan-inc/Baichuan2-7B-Base": 1,
+          "google/gemma-7b": 1,
+          "mistralai/Mistral-7B-Instruct-v0.2": 1
+        },
+        "candidate_only_choices": {
+          "Qwen/Qwen2.5-7B-Instruct-1M": 1,
+          "llm-jp/llm-jp-3-7.2b-instruct3": 1,
+          "elyza/Llama-3-ELYZA-JP-8B": 1,
+          "baichuan-inc/Baichuan2-7B-Base": 1,
+          "google/gemma-7b": 1,
+          "mistralai/Mistral-7B-Instruct-v0.2": 1
+        }
+      },
+      {
+        "item_index": 203,
+        "surface_exact": true,
+        "duplicate_options": false,
+        "official_choices": {
+          "Qwen/Qwen2.5-7B-Instruct-1M": 3,
+          "llm-jp/llm-jp-3-7.2b-instruct3": 3,
+          "elyza/Llama-3-ELYZA-JP-8B": 3,
+          "baichuan-inc/Baichuan2-7B-Base": 2,
+          "google/gemma-7b": 3,
+          "mistralai/Mistral-7B-Instruct-v0.2": 2
+        },
+        "candidate_only_choices": {
+          "Qwen/Qwen2.5-7B-Instruct-1M": 1,
+          "llm-jp/llm-jp-3-7.2b-instruct3": 3,
+          "elyza/Llama-3-ELYZA-JP-8B": 3,
+          "baichuan-inc/Baichuan2-7B-Base": 2,
+          "google/gemma-7b": 3,
+          "mistralai/Mistral-7B-Instruct-v0.2": 2
+        }
+      },
+      {
+        "item_index": 205,
+        "surface_exact": false,
+        "duplicate_options": false,
+        "official_choices": {
+          "Qwen/Qwen2.5-7B-Instruct-1M": 1,
+          "llm-jp/llm-jp-3-7.2b-instruct3": 1,
+          "elyza/Llama-3-ELYZA-JP-8B": 1,
+          "baichuan-inc/Baichuan2-7B-Base": 1,
+          "google/gemma-7b": 1,
+          "mistralai/Mistral-7B-Instruct-v0.2": 1
+        },
+        "candidate_only_choices": {
+          "Qwen/Qwen2.5-7B-Instruct-1M": 1,
+          "llm-jp/llm-jp-3-7.2b-instruct3": 1,
+          "elyza/Llama-3-ELYZA-JP-8B": 1,
+          "baichuan-inc/Baichuan2-7B-Base": 1,
+          "google/gemma-7b": 1,
+          "mistralai/Mistral-7B-Instruct-v0.2": 1
+        }
+      },
+      {
+        "item_index": 210,
+        "surface_exact": false,
+        "duplicate_options": false,
+        "official_choices": {
+          "Qwen/Qwen2.5-7B-Instruct-1M": 1,
+          "llm-jp/llm-jp-3-7.2b-instruct3": 1,
+          "elyza/Llama-3-ELYZA-JP-8B": 2,
+          "baichuan-inc/Baichuan2-7B-Base": 1,
+          "google/gemma-7b": 3,
+          "mistralai/Mistral-7B-Instruct-v0.2": 2
+        },
+        "candidate_only_choices": {
+          "Qwen/Qwen2.5-7B-Instruct-1M": 1,
+          "llm-jp/llm-jp-3-7.2b-instruct3": 1,
+          "elyza/Llama-3-ELYZA-JP-8B": 1,
+          "baichuan-inc/Baichuan2-7B-Base": 1,
+          "google/gemma-7b": 3,
+          "mistralai/Mistral-7B-Instruct-v0.2": 2
+        }
+      },
+      {
+        "item_index": 217,
+        "surface_exact": false,
+        "duplicate_options": false,
+        "official_choices": {
+          "Qwen/Qwen2.5-7B-Instruct-1M": 3,
+          "llm-jp/llm-jp-3-7.2b-instruct3": 3,
+          "elyza/Llama-3-ELYZA-JP-8B": 1,
+          "baichuan-inc/Baichuan2-7B-Base": 1,
+          "google/gemma-7b": 1,
+          "mistralai/Mistral-7B-Instruct-v0.2": 1
+        },
+        "candidate_only_choices": {
+          "Qwen/Qwen2.5-7B-Instruct-1M": 3,
+          "llm-jp/llm-jp-3-7.2b-instruct3": 3,
+          "elyza/Llama-3-ELYZA-JP-8B": 2,
+          "baichuan-inc/Baichuan2-7B-Base": 1,
+          "google/gemma-7b": 3,
+          "mistralai/Mistral-7B-Instruct-v0.2": 1
+        }
+      },
+      {
+        "item_index": 220,
+        "surface_exact": false,
+        "duplicate_options": false,
+        "official_choices": {
+          "Qwen/Qwen2.5-7B-Instruct-1M": 1,
+          "llm-jp/llm-jp-3-7.2b-instruct3": 2,
+          "elyza/Llama-3-ELYZA-JP-8B": 1,
+          "baichuan-inc/Baichuan2-7B-Base": 1,
+          "google/gemma-7b": 1,
+          "mistralai/Mistral-7B-Instruct-v0.2": 1
+        },
+        "candidate_only_choices": {
+          "Qwen/Qwen2.5-7B-Instruct-1M": 1,
+          "llm-jp/llm-jp-3-7.2b-instruct3": 2,
+          "elyza/Llama-3-ELYZA-JP-8B": 1,
+          "baichuan-inc/Baichuan2-7B-Base": 1,
+          "google/gemma-7b": 1,
+          "mistralai/Mistral-7B-Instruct-v0.2": 1
+        }
+      },
+      {
+        "item_index": 238,
+        "surface_exact": false,
+        "duplicate_options": false,
+        "official_choices": {
+          "Qwen/Qwen2.5-7B-Instruct-1M": 1,
+          "llm-jp/llm-jp-3-7.2b-instruct3": 1,
+          "elyza/Llama-3-ELYZA-JP-8B": 1,
+          "baichuan-inc/Baichuan2-7B-Base": 1,
+          "google/gemma-7b": 1,
+          "mistralai/Mistral-7B-Instruct-v0.2": 1
+        },
+        "candidate_only_choices": {
+          "Qwen/Qwen2.5-7B-Instruct-1M": 1,
+          "llm-jp/llm-jp-3-7.2b-instruct3": 1,
+          "elyza/Llama-3-ELYZA-JP-8B": 1,
+          "baichuan-inc/Baichuan2-7B-Base": 3,
+          "google/gemma-7b": 1,
+          "mistralai/Mistral-7B-Instruct-v0.2": 1
+        }
+      },
+      {
+        "item_index": 239,
+        "surface_exact": false,
+        "duplicate_options": false,
+        "official_choices": {
+          "Qwen/Qwen2.5-7B-Instruct-1M": 3,
+          "llm-jp/llm-jp-3-7.2b-instruct3": 3,
+          "elyza/Llama-3-ELYZA-JP-8B": 3,
+          "baichuan-inc/Baichuan2-7B-Base": 1,
+          "google/gemma-7b": 3,
+          "mistralai/Mistral-7B-Instruct-v0.2": 3
+        },
+        "candidate_only_choices": {
+          "Qwen/Qwen2.5-7B-Instruct-1M": 3,
+          "llm-jp/llm-jp-3-7.2b-instruct3": 3,
+          "elyza/Llama-3-ELYZA-JP-8B": 3,
+          "baichuan-inc/Baichuan2-7B-Base": 1,
+          "google/gemma-7b": 3,
+          "mistralai/Mistral-7B-Instruct-v0.2": 3
+        }
+      },
+      {
+        "item_index": 240,
+        "surface_exact": true,
+        "duplicate_options": false,
+        "official_choices": {
+          "Qwen/Qwen2.5-7B-Instruct-1M": 1,
+          "llm-jp/llm-jp-3-7.2b-instruct3": 1,
+          "elyza/Llama-3-ELYZA-JP-8B": 1,
+          "baichuan-inc/Baichuan2-7B-Base": 1,
+          "google/gemma-7b": 2,
+          "mistralai/Mistral-7B-Instruct-v0.2": 1
+        },
+        "candidate_only_choices": {
+          "Qwen/Qwen2.5-7B-Instruct-1M": 1,
+          "llm-jp/llm-jp-3-7.2b-instruct3": 1,
+          "elyza/Llama-3-ELYZA-JP-8B": 1,
+          "baichuan-inc/Baichuan2-7B-Base": 1,
+          "google/gemma-7b": 1,
+          "mistralai/Mistral-7B-Instruct-v0.2": 1
+        }
+      },
+      {
+        "item_index": 259,
+        "surface_exact": true,
+        "duplicate_options": false,
+        "official_choices": {
+          "Qwen/Qwen2.5-7B-Instruct-1M": 1,
+          "llm-jp/llm-jp-3-7.2b-instruct3": 1,
+          "elyza/Llama-3-ELYZA-JP-8B": 1,
+          "baichuan-inc/Baichuan2-7B-Base": 1,
+          "google/gemma-7b": 1,
+          "mistralai/Mistral-7B-Instruct-v0.2": 1
+        },
+        "candidate_only_choices": {
+          "Qwen/Qwen2.5-7B-Instruct-1M": 1,
+          "llm-jp/llm-jp-3-7.2b-instruct3": 1,
+          "elyza/Llama-3-ELYZA-JP-8B": 0,
+          "baichuan-inc/Baichuan2-7B-Base": 1,
+          "google/gemma-7b": 1,
+          "mistralai/Mistral-7B-Instruct-v0.2": 0
+        }
+      },
+      {
+        "item_index": 261,
+        "surface_exact": false,
+        "duplicate_options": false,
+        "official_choices": {
+          "Qwen/Qwen2.5-7B-Instruct-1M": 1,
+          "llm-jp/llm-jp-3-7.2b-instruct3": 1,
+          "elyza/Llama-3-ELYZA-JP-8B": 1,
+          "baichuan-inc/Baichuan2-7B-Base": 1,
+          "google/gemma-7b": 1,
+          "mistralai/Mistral-7B-Instruct-v0.2": 1
+        },
+        "candidate_only_choices": {
+          "Qwen/Qwen2.5-7B-Instruct-1M": 1,
+          "llm-jp/llm-jp-3-7.2b-instruct3": 1,
+          "elyza/Llama-3-ELYZA-JP-8B": 1,
+          "baichuan-inc/Baichuan2-7B-Base": 1,
+          "google/gemma-7b": 1,
+          "mistralai/Mistral-7B-Instruct-v0.2": 1
+        }
+      },
+      {
+        "item_index": 278,
+        "surface_exact": true,
+        "duplicate_options": false,
+        "official_choices": {
+          "Qwen/Qwen2.5-7B-Instruct-1M": 1,
+          "llm-jp/llm-jp-3-7.2b-instruct3": 1,
+          "elyza/Llama-3-ELYZA-JP-8B": 1,
+          "baichuan-inc/Baichuan2-7B-Base": 1,
+          "google/gemma-7b": 1,
+          "mistralai/Mistral-7B-Instruct-v0.2": 1
+        },
+        "candidate_only_choices": {
+          "Qwen/Qwen2.5-7B-Instruct-1M": 0,
+          "llm-jp/llm-jp-3-7.2b-instruct3": 1,
+          "elyza/Llama-3-ELYZA-JP-8B": 1,
+          "baichuan-inc/Baichuan2-7B-Base": 1,
+          "google/gemma-7b": 1,
+          "mistralai/Mistral-7B-Instruct-v0.2": 1
+        }
+      },
+      {
+        "item_index": 284,
+        "surface_exact": true,
+        "duplicate_options": false,
+        "official_choices": {
+          "Qwen/Qwen2.5-7B-Instruct-1M": 1,
+          "llm-jp/llm-jp-3-7.2b-instruct3": 1,
+          "elyza/Llama-3-ELYZA-JP-8B": 1,
+          "baichuan-inc/Baichuan2-7B-Base": 1,
+          "google/gemma-7b": 3,
+          "mistralai/Mistral-7B-Instruct-v0.2": 1
+        },
+        "candidate_only_choices": {
+          "Qwen/Qwen2.5-7B-Instruct-1M": 1,
+          "llm-jp/llm-jp-3-7.2b-instruct3": 1,
+          "elyza/Llama-3-ELYZA-JP-8B": 1,
+          "baichuan-inc/Baichuan2-7B-Base": 1,
+          "google/gemma-7b": 1,
+          "mistralai/Mistral-7B-Instruct-v0.2": 1
+        }
+      },
+      {
+        "item_index": 286,
+        "surface_exact": true,
+        "duplicate_options": false,
+        "official_choices": {
+          "Qwen/Qwen2.5-7B-Instruct-1M": 1,
+          "llm-jp/llm-jp-3-7.2b-instruct3": 2,
+          "elyza/Llama-3-ELYZA-JP-8B": 1,
+          "baichuan-inc/Baichuan2-7B-Base": 1,
+          "google/gemma-7b": 1,
+          "mistralai/Mistral-7B-Instruct-v0.2": 1
+        },
+        "candidate_only_choices": {
+          "Qwen/Qwen2.5-7B-Instruct-1M": 1,
+          "llm-jp/llm-jp-3-7.2b-instruct3": 2,
+          "elyza/Llama-3-ELYZA-JP-8B": 1,
+          "baichuan-inc/Baichuan2-7B-Base": 1,
+          "google/gemma-7b": 1,
+          "mistralai/Mistral-7B-Instruct-v0.2": 1
+        }
+      },
+      {
+        "item_index": 294,
+        "surface_exact": false,
+        "duplicate_options": false,
+        "official_choices": {
+          "Qwen/Qwen2.5-7B-Instruct-1M": 1,
+          "llm-jp/llm-jp-3-7.2b-instruct3": 3,
+          "elyza/Llama-3-ELYZA-JP-8B": 3,
+          "baichuan-inc/Baichuan2-7B-Base": 1,
+          "google/gemma-7b": 1,
+          "mistralai/Mistral-7B-Instruct-v0.2": 1
+        },
+        "candidate_only_choices": {
+          "Qwen/Qwen2.5-7B-Instruct-1M": 1,
+          "llm-jp/llm-jp-3-7.2b-instruct3": 3,
+          "elyza/Llama-3-ELYZA-JP-8B": 3,
+          "baichuan-inc/Baichuan2-7B-Base": 1,
+          "google/gemma-7b": 1,
+          "mistralai/Mistral-7B-Instruct-v0.2": 1
+        }
+      },
+      {
+        "item_index": 307,
+        "surface_exact": true,
+        "duplicate_options": false,
+        "official_choices": {
+          "Qwen/Qwen2.5-7B-Instruct-1M": 1,
+          "llm-jp/llm-jp-3-7.2b-instruct3": 1,
+          "elyza/Llama-3-ELYZA-JP-8B": 1,
+          "baichuan-inc/Baichuan2-7B-Base": 1,
+          "google/gemma-7b": 3,
+          "mistralai/Mistral-7B-Instruct-v0.2": 1
+        },
+        "candidate_only_choices": {
+          "Qwen/Qwen2.5-7B-Instruct-1M": 1,
+          "llm-jp/llm-jp-3-7.2b-instruct3": 1,
+          "elyza/Llama-3-ELYZA-JP-8B": 1,
+          "baichuan-inc/Baichuan2-7B-Base": 1,
+          "google/gemma-7b": 3,
+          "mistralai/Mistral-7B-Instruct-v0.2": 1
+        }
+      },
+      {
+        "item_index": 325,
+        "surface_exact": false,
+        "duplicate_options": false,
+        "official_choices": {
+          "Qwen/Qwen2.5-7B-Instruct-1M": 1,
+          "llm-jp/llm-jp-3-7.2b-instruct3": 1,
+          "elyza/Llama-3-ELYZA-JP-8B": 3,
+          "baichuan-inc/Baichuan2-7B-Base": 1,
+          "google/gemma-7b": 3,
+          "mistralai/Mistral-7B-Instruct-v0.2": 1
+        },
+        "candidate_only_choices": {
+          "Qwen/Qwen2.5-7B-Instruct-1M": 1,
+          "llm-jp/llm-jp-3-7.2b-instruct3": 3,
+          "elyza/Llama-3-ELYZA-JP-8B": 3,
+          "baichuan-inc/Baichuan2-7B-Base": 1,
+          "google/gemma-7b": 3,
+          "mistralai/Mistral-7B-Instruct-v0.2": 3
+        }
+      },
+      {
+        "item_index": 340,
+        "surface_exact": true,
+        "duplicate_options": false,
+        "official_choices": {
+          "Qwen/Qwen2.5-7B-Instruct-1M": 1,
+          "llm-jp/llm-jp-3-7.2b-instruct3": 2,
+          "elyza/Llama-3-ELYZA-JP-8B": 1,
+          "baichuan-inc/Baichuan2-7B-Base": 1,
+          "google/gemma-7b": 1,
+          "mistralai/Mistral-7B-Instruct-v0.2": 1
+        },
+        "candidate_only_choices": {
+          "Qwen/Qwen2.5-7B-Instruct-1M": 1,
+          "llm-jp/llm-jp-3-7.2b-instruct3": 1,
+          "elyza/Llama-3-ELYZA-JP-8B": 1,
+          "baichuan-inc/Baichuan2-7B-Base": 1,
+          "google/gemma-7b": 1,
+          "mistralai/Mistral-7B-Instruct-v0.2": 1
+        }
+      },
+      {
+        "item_index": 351,
+        "surface_exact": false,
+        "duplicate_options": false,
+        "official_choices": {
+          "Qwen/Qwen2.5-7B-Instruct-1M": 1,
+          "llm-jp/llm-jp-3-7.2b-instruct3": 1,
+          "elyza/Llama-3-ELYZA-JP-8B": 1,
+          "baichuan-inc/Baichuan2-7B-Base": 1,
+          "google/gemma-7b": 1,
+          "mistralai/Mistral-7B-Instruct-v0.2": 1
+        },
+        "candidate_only_choices": {
+          "Qwen/Qwen2.5-7B-Instruct-1M": 1,
+          "llm-jp/llm-jp-3-7.2b-instruct3": 1,
+          "elyza/Llama-3-ELYZA-JP-8B": 1,
+          "baichuan-inc/Baichuan2-7B-Base": 1,
+          "google/gemma-7b": 1,
+          "mistralai/Mistral-7B-Instruct-v0.2": 1
+        }
+      },
+      {
+        "item_index": 352,
+        "surface_exact": false,
+        "duplicate_options": false,
+        "official_choices": {
+          "Qwen/Qwen2.5-7B-Instruct-1M": 1,
+          "llm-jp/llm-jp-3-7.2b-instruct3": 1,
+          "elyza/Llama-3-ELYZA-JP-8B": 1,
+          "baichuan-inc/Baichuan2-7B-Base": 1,
+          "google/gemma-7b": 1,
+          "mistralai/Mistral-7B-Instruct-v0.2": 1
+        },
+        "candidate_only_choices": {
+          "Qwen/Qwen2.5-7B-Instruct-1M": 1,
+          "llm-jp/llm-jp-3-7.2b-instruct3": 1,
+          "elyza/Llama-3-ELYZA-JP-8B": 1,
+          "baichuan-inc/Baichuan2-7B-Base": 1,
+          "google/gemma-7b": 1,
+          "mistralai/Mistral-7B-Instruct-v0.2": 1
+        }
+      },
+      {
+        "item_index": 358,
+        "surface_exact": true,
+        "duplicate_options": false,
+        "official_choices": {
+          "Qwen/Qwen2.5-7B-Instruct-1M": 1,
+          "llm-jp/llm-jp-3-7.2b-instruct3": 1,
+          "elyza/Llama-3-ELYZA-JP-8B": 1,
+          "baichuan-inc/Baichuan2-7B-Base": 1,
+          "google/gemma-7b": 1,
+          "mistralai/Mistral-7B-Instruct-v0.2": 1
+        },
+        "candidate_only_choices": {
+          "Qwen/Qwen2.5-7B-Instruct-1M": 1,
+          "llm-jp/llm-jp-3-7.2b-instruct3": 1,
+          "elyza/Llama-3-ELYZA-JP-8B": 1,
+          "baichuan-inc/Baichuan2-7B-Base": 1,
+          "google/gemma-7b": 1,
+          "mistralai/Mistral-7B-Instruct-v0.2": 1
+        }
+      },
+      {
+        "item_index": 376,
+        "surface_exact": true,
+        "duplicate_options": false,
+        "official_choices": {
+          "Qwen/Qwen2.5-7B-Instruct-1M": 1,
+          "llm-jp/llm-jp-3-7.2b-instruct3": 1,
+          "elyza/Llama-3-ELYZA-JP-8B": 1,
+          "baichuan-inc/Baichuan2-7B-Base": 1,
+          "google/gemma-7b": 1,
+          "mistralai/Mistral-7B-Instruct-v0.2": 1
+        },
+        "candidate_only_choices": {
+          "Qwen/Qwen2.5-7B-Instruct-1M": 1,
+          "llm-jp/llm-jp-3-7.2b-instruct3": 1,
+          "elyza/Llama-3-ELYZA-JP-8B": 1,
+          "baichuan-inc/Baichuan2-7B-Base": 1,
+          "google/gemma-7b": 1,
+          "mistralai/Mistral-7B-Instruct-v0.2": 1
+        }
+      },
+      {
+        "item_index": 388,
+        "surface_exact": true,
+        "duplicate_options": false,
+        "official_choices": {
+          "Qwen/Qwen2.5-7B-Instruct-1M": 1,
+          "llm-jp/llm-jp-3-7.2b-instruct3": 1,
+          "elyza/Llama-3-ELYZA-JP-8B": 1,
+          "baichuan-inc/Baichuan2-7B-Base": 2,
+          "google/gemma-7b": 1,
+          "mistralai/Mistral-7B-Instruct-v0.2": 2
+        },
+        "candidate_only_choices": {
+          "Qwen/Qwen2.5-7B-Instruct-1M": 1,
+          "llm-jp/llm-jp-3-7.2b-instruct3": 1,
+          "elyza/Llama-3-ELYZA-JP-8B": 1,
+          "baichuan-inc/Baichuan2-7B-Base": 0,
+          "google/gemma-7b": 1,
+          "mistralai/Mistral-7B-Instruct-v0.2": 1
+        }
+      },
+      {
+        "item_index": 392,
+        "surface_exact": true,
+        "duplicate_options": false,
+        "official_choices": {
+          "Qwen/Qwen2.5-7B-Instruct-1M": 1,
+          "llm-jp/llm-jp-3-7.2b-instruct3": 1,
+          "elyza/Llama-3-ELYZA-JP-8B": 1,
+          "baichuan-inc/Baichuan2-7B-Base": 1,
+          "google/gemma-7b": 1,
+          "mistralai/Mistral-7B-Instruct-v0.2": 1
+        },
+        "candidate_only_choices": {
+          "Qwen/Qwen2.5-7B-Instruct-1M": 1,
+          "llm-jp/llm-jp-3-7.2b-instruct3": 1,
+          "elyza/Llama-3-ELYZA-JP-8B": 1,
+          "baichuan-inc/Baichuan2-7B-Base": 1,
+          "google/gemma-7b": 1,
+          "mistralai/Mistral-7B-Instruct-v0.2": 1
+        }
+      },
+      {
+        "item_index": 418,
+        "surface_exact": false,
+        "duplicate_options": false,
+        "official_choices": {
+          "Qwen/Qwen2.5-7B-Instruct-1M": 1,
+          "llm-jp/llm-jp-3-7.2b-instruct3": 1,
+          "elyza/Llama-3-ELYZA-JP-8B": 1,
+          "baichuan-inc/Baichuan2-7B-Base": 1,
+          "google/gemma-7b": 1,
+          "mistralai/Mistral-7B-Instruct-v0.2": 1
+        },
+        "candidate_only_choices": {
+          "Qwen/Qwen2.5-7B-Instruct-1M": 1,
+          "llm-jp/llm-jp-3-7.2b-instruct3": 0,
+          "elyza/Llama-3-ELYZA-JP-8B": 1,
+          "baichuan-inc/Baichuan2-7B-Base": 1,
+          "google/gemma-7b": 1,
+          "mistralai/Mistral-7B-Instruct-v0.2": 1
+        }
+      },
+      {
+        "item_index": 430,
+        "surface_exact": false,
+        "duplicate_options": false,
+        "official_choices": {
+          "Qwen/Qwen2.5-7B-Instruct-1M": 1,
+          "llm-jp/llm-jp-3-7.2b-instruct3": 1,
+          "elyza/Llama-3-ELYZA-JP-8B": 1,
+          "baichuan-inc/Baichuan2-7B-Base": 1,
+          "google/gemma-7b": 1,
+          "mistralai/Mistral-7B-Instruct-v0.2": 1
+        },
+        "candidate_only_choices": {
+          "Qwen/Qwen2.5-7B-Instruct-1M": 1,
+          "llm-jp/llm-jp-3-7.2b-instruct3": 1,
+          "elyza/Llama-3-ELYZA-JP-8B": 1,
+          "baichuan-inc/Baichuan2-7B-Base": 1,
+          "google/gemma-7b": 1,
+          "mistralai/Mistral-7B-Instruct-v0.2": 1
+        }
+      },
+      {
+        "item_index": 438,
+        "surface_exact": true,
+        "duplicate_options": false,
+        "official_choices": {
+          "Qwen/Qwen2.5-7B-Instruct-1M": 1,
+          "llm-jp/llm-jp-3-7.2b-instruct3": 1,
+          "elyza/Llama-3-ELYZA-JP-8B": 1,
+          "baichuan-inc/Baichuan2-7B-Base": 1,
+          "google/gemma-7b": 1,
+          "mistralai/Mistral-7B-Instruct-v0.2": 1
+        },
+        "candidate_only_choices": {
+          "Qwen/Qwen2.5-7B-Instruct-1M": 1,
+          "llm-jp/llm-jp-3-7.2b-instruct3": 1,
+          "elyza/Llama-3-ELYZA-JP-8B": 1,
+          "baichuan-inc/Baichuan2-7B-Base": 1,
+          "google/gemma-7b": 1,
+          "mistralai/Mistral-7B-Instruct-v0.2": 1
+        }
+      },
+      {
+        "item_index": 439,
+        "surface_exact": true,
+        "duplicate_options": true,
+        "official_choices": {
+          "Qwen/Qwen2.5-7B-Instruct-1M": 1,
+          "llm-jp/llm-jp-3-7.2b-instruct3": 1,
+          "elyza/Llama-3-ELYZA-JP-8B": 1,
+          "baichuan-inc/Baichuan2-7B-Base": 1,
+          "google/gemma-7b": 1,
+          "mistralai/Mistral-7B-Instruct-v0.2": 1
+        },
+        "candidate_only_choices": {
+          "Qwen/Qwen2.5-7B-Instruct-1M": 1,
+          "llm-jp/llm-jp-3-7.2b-instruct3": 1,
+          "elyza/Llama-3-ELYZA-JP-8B": 1,
+          "baichuan-inc/Baichuan2-7B-Base": 1,
+          "google/gemma-7b": 1,
+          "mistralai/Mistral-7B-Instruct-v0.2": 1
+        }
+      },
+      {
+        "item_index": 453,
+        "surface_exact": true,
+        "duplicate_options": false,
+        "official_choices": {
+          "Qwen/Qwen2.5-7B-Instruct-1M": 1,
+          "llm-jp/llm-jp-3-7.2b-instruct3": 1,
+          "elyza/Llama-3-ELYZA-JP-8B": 1,
+          "baichuan-inc/Baichuan2-7B-Base": 1,
+          "google/gemma-7b": 1,
+          "mistralai/Mistral-7B-Instruct-v0.2": 1
+        },
+        "candidate_only_choices": {
+          "Qwen/Qwen2.5-7B-Instruct-1M": 1,
+          "llm-jp/llm-jp-3-7.2b-instruct3": 1,
+          "elyza/Llama-3-ELYZA-JP-8B": 1,
+          "baichuan-inc/Baichuan2-7B-Base": 1,
+          "google/gemma-7b": 1,
+          "mistralai/Mistral-7B-Instruct-v0.2": 1
+        }
+      }
+    ]
+  },
+  "public_artifact_schema": "scores_only_v1",
+  "benchmark_text_removed": true,
+  "join_key": "item_index",
+  "upstream_commit": "eb1c4f3f17403af238046bf218dc49643bc2e2e2"
+}

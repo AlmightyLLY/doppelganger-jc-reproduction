@@ -1,0 +1,426 @@
+{
+  "analysis": "preregistered_fixed_model_set_orthography_replication_v1",
+  "material_sha256": "fa19564838ab4d86f8ecda1a08daf9e792e3d576734138927f2b569ef933b4c9",
+  "n_models": 6,
+  "n_primary_items": 382,
+  "models": {
+    "Qwen/Qwen2.5-7B-Instruct-1M": {
+      "n_items": 382,
+      "orthography_effect": {
+        "mean": 0.12139003761892855,
+        "median": 0.08040258288383484,
+        "bootstrap_mean_95ci": [
+          0.046804573506858016,
+          0.19755636382316535
+        ],
+        "positive": 217,
+        "negative": 165,
+        "zero": 0
+      },
+      "conditions": {
+        "original": {
+          "choice_counts": {
+            "correct": 265,
+            "wrong1": 94,
+            "wrong2": 12,
+            "wrong3": 11
+          },
+          "accuracy": 0.693717277486911,
+          "wrong1_rate": 0.24607329842931938
+        },
+        "target_kana": {
+          "choice_counts": {
+            "correct": 250,
+            "wrong1": 88,
+            "wrong2": 26,
+            "wrong3": 18
+          },
+          "accuracy": 0.6544502617801047,
+          "wrong1_rate": 0.23036649214659685
+        },
+        "unrelated_control_kana": {
+          "choice_counts": {
+            "correct": 260,
+            "wrong1": 97,
+            "wrong2": 14,
+            "wrong3": 11
+          },
+          "accuracy": 0.680628272251309,
+          "wrong1_rate": 0.25392670157068065
+        }
+      },
+      "accuracy_delta_target_minus_original": -0.03926701570680635,
+      "accuracy_delta_control_minus_original": -0.01308900523560208,
+      "wrong1_rate_delta_target_minus_original": -0.01570680628272253,
+      "wrong1_rate_delta_control_minus_original": 0.007853403141361265
+    },
+    "llm-jp/llm-jp-3-7.2b-instruct3": {
+      "n_items": 382,
+      "orthography_effect": {
+        "mean": -0.03653414377757392,
+        "median": -0.014799416065216064,
+        "bootstrap_mean_95ci": [
+          -0.0758016298895614,
+          0.0032896779360571354
+        ],
+        "positive": 186,
+        "negative": 196,
+        "zero": 0
+      },
+      "conditions": {
+        "original": {
+          "choice_counts": {
+            "correct": 197,
+            "wrong1": 140,
+            "wrong2": 24,
+            "wrong3": 21
+          },
+          "accuracy": 0.5157068062827225,
+          "wrong1_rate": 0.36649214659685864
+        },
+        "target_kana": {
+          "choice_counts": {
+            "correct": 182,
+            "wrong1": 146,
+            "wrong2": 31,
+            "wrong3": 23
+          },
+          "accuracy": 0.47643979057591623,
+          "wrong1_rate": 0.38219895287958117
+        },
+        "unrelated_control_kana": {
+          "choice_counts": {
+            "correct": 197,
+            "wrong1": 142,
+            "wrong2": 24,
+            "wrong3": 19
+          },
+          "accuracy": 0.5157068062827225,
+          "wrong1_rate": 0.3717277486910995
+        }
+      },
+      "accuracy_delta_target_minus_original": -0.03926701570680624,
+      "accuracy_delta_control_minus_original": 0.0,
+      "wrong1_rate_delta_target_minus_original": 0.01570680628272253,
+      "wrong1_rate_delta_control_minus_original": 0.005235602094240843
+    },
+    "elyza/Llama-3-ELYZA-JP-8B": {
+      "n_items": 382,
+      "orthography_effect": {
+        "mean": 0.076471687182394,
+        "median": 0.08970904350280762,
+        "bootstrap_mean_95ci": [
+          0.030355213547408267,
+          0.1224917334050954
+        ],
+        "positive": 234,
+        "negative": 148,
+        "zero": 0
+      },
+      "conditions": {
+        "original": {
+          "choice_counts": {
+            "correct": 182,
+            "wrong1": 174,
+            "wrong2": 13,
+            "wrong3": 13
+          },
+          "accuracy": 0.47643979057591623,
+          "wrong1_rate": 0.45549738219895286
+        },
+        "target_kana": {
+          "choice_counts": {
+            "correct": 176,
+            "wrong1": 164,
+            "wrong2": 22,
+            "wrong3": 20
+          },
+          "accuracy": 0.4607329842931937,
+          "wrong1_rate": 0.4293193717277487
+        },
+        "unrelated_control_kana": {
+          "choice_counts": {
+            "correct": 176,
+            "wrong1": 181,
+            "wrong2": 14,
+            "wrong3": 11
+          },
+          "accuracy": 0.4607329842931937,
+          "wrong1_rate": 0.4738219895287958
+        }
+      },
+      "accuracy_delta_target_minus_original": -0.01570680628272253,
+      "accuracy_delta_control_minus_original": -0.01570680628272253,
+      "wrong1_rate_delta_target_minus_original": -0.02617801047120416,
+      "wrong1_rate_delta_control_minus_original": 0.018324607329842924
+    },
+    "baichuan-inc/Baichuan2-7B-Base": {
+      "n_items": 382,
+      "orthography_effect": {
+        "mean": 0.3113838257901956,
+        "median": 0.2725614905357361,
+        "bootstrap_mean_95ci": [
+          0.2597691032762459,
+          0.36329550759876583
+        ],
+        "positive": 291,
+        "negative": 91,
+        "zero": 0
+      },
+      "conditions": {
+        "original": {
+          "choice_counts": {
+            "correct": 227,
+            "wrong1": 131,
+            "wrong2": 12,
+            "wrong3": 12
+          },
+          "accuracy": 0.5942408376963351,
+          "wrong1_rate": 0.34293193717277487
+        },
+        "target_kana": {
+          "choice_counts": {
+            "correct": 270,
+            "wrong1": 71,
+            "wrong2": 24,
+            "wrong3": 17
+          },
+          "accuracy": 0.7068062827225131,
+          "wrong1_rate": 0.18586387434554974
+        },
+        "unrelated_control_kana": {
+          "choice_counts": {
+            "correct": 229,
+            "wrong1": 129,
+            "wrong2": 14,
+            "wrong3": 10
+          },
+          "accuracy": 0.599476439790576,
+          "wrong1_rate": 0.337696335078534
+        }
+      },
+      "accuracy_delta_target_minus_original": 0.11256544502617805,
+      "accuracy_delta_control_minus_original": 0.005235602094240899,
+      "wrong1_rate_delta_target_minus_original": -0.15706806282722513,
+      "wrong1_rate_delta_control_minus_original": -0.005235602094240843
+    },
+    "mistralai/Mistral-7B-Instruct-v0.2": {
+      "n_items": 382,
+      "orthography_effect": {
+        "mean": 0.22526936982002557,
+        "median": 0.15035951137542725,
+        "bootstrap_mean_95ci": [
+          0.1727689437470667,
+          0.27884423514408746
+        ],
+        "positive": 253,
+        "negative": 129,
+        "zero": 0
+      },
+      "conditions": {
+        "original": {
+          "choice_counts": {
+            "correct": 167,
+            "wrong1": 164,
+            "wrong2": 29,
+            "wrong3": 22
+          },
+          "accuracy": 0.43717277486910994,
+          "wrong1_rate": 0.4293193717277487
+        },
+        "target_kana": {
+          "choice_counts": {
+            "correct": 203,
+            "wrong1": 106,
+            "wrong2": 41,
+            "wrong3": 32
+          },
+          "accuracy": 0.5314136125654451,
+          "wrong1_rate": 0.2774869109947644
+        },
+        "unrelated_control_kana": {
+          "choice_counts": {
+            "correct": 175,
+            "wrong1": 158,
+            "wrong2": 26,
+            "wrong3": 23
+          },
+          "accuracy": 0.4581151832460733,
+          "wrong1_rate": 0.41361256544502617
+        }
+      },
+      "accuracy_delta_target_minus_original": 0.09424083769633512,
+      "accuracy_delta_control_minus_original": 0.020942408376963373,
+      "wrong1_rate_delta_target_minus_original": -0.1518324607329843,
+      "wrong1_rate_delta_control_minus_original": -0.01570680628272253
+    },
+    "google/gemma-7b": {
+      "n_items": 382,
+      "orthography_effect": {
+        "mean": 0.11740453985973179,
+        "median": 0.09932252764701843,
+        "bootstrap_mean_95ci": [
+          0.06247936423614388,
+          0.1721200017677864
+        ],
+        "positive": 227,
+        "negative": 155,
+        "zero": 0
+      },
+      "conditions": {
+        "original": {
+          "choice_counts": {
+            "correct": 223,
+            "wrong1": 133,
+            "wrong2": 17,
+            "wrong3": 9
+          },
+          "accuracy": 0.5837696335078534,
+          "wrong1_rate": 0.3481675392670157
+        },
+        "target_kana": {
+          "choice_counts": {
+            "correct": 222,
+            "wrong1": 100,
+            "wrong2": 33,
+            "wrong3": 27
+          },
+          "accuracy": 0.581151832460733,
+          "wrong1_rate": 0.2617801047120419
+        },
+        "unrelated_control_kana": {
+          "choice_counts": {
+            "correct": 226,
+            "wrong1": 133,
+            "wrong2": 16,
+            "wrong3": 7
+          },
+          "accuracy": 0.5916230366492147,
+          "wrong1_rate": 0.3481675392670157
+        }
+      },
+      "accuracy_delta_target_minus_original": -0.002617801047120394,
+      "accuracy_delta_control_minus_original": 0.007853403141361293,
+      "wrong1_rate_delta_target_minus_original": -0.08638743455497383,
+      "wrong1_rate_delta_control_minus_original": 0.0
+    }
+  },
+  "fixed_model_set_average": {
+    "mean": 0.13589755274895027,
+    "median": 0.12111058582862219,
+    "bootstrap_mean_95ci": [
+      0.10024270642565866,
+      0.17264345379210652
+    ],
+    "positive": 252,
+    "negative": 130,
+    "zero": 0
+  },
+  "model_mean_signs": {
+    "positive": 5,
+    "negative": 1,
+    "ci_above_zero": 5,
+    "ci_below_zero": 0
+  },
+  "item_positive_model_count_distribution": {
+    "0": 9,
+    "1": 33,
+    "2": 53,
+    "3": 74,
+    "4": 76,
+    "5": 79,
+    "6": 58
+  },
+  "pairwise_item_effect_pearson": {
+    "Qwen/Qwen2.5-7B-Instruct-1M": {
+      "Qwen/Qwen2.5-7B-Instruct-1M": 1.0,
+      "llm-jp/llm-jp-3-7.2b-instruct3": 0.3110799821484426,
+      "elyza/Llama-3-ELYZA-JP-8B": 0.3433637529768865,
+      "baichuan-inc/Baichuan2-7B-Base": 0.455065384473653,
+      "mistralai/Mistral-7B-Instruct-v0.2": 0.30886565803139576,
+      "google/gemma-7b": 0.40838412715890987
+    },
+    "llm-jp/llm-jp-3-7.2b-instruct3": {
+      "Qwen/Qwen2.5-7B-Instruct-1M": 0.3110799821484426,
+      "llm-jp/llm-jp-3-7.2b-instruct3": 1.0,
+      "elyza/Llama-3-ELYZA-JP-8B": 0.2638240959509119,
+      "baichuan-inc/Baichuan2-7B-Base": 0.24651047864356826,
+      "mistralai/Mistral-7B-Instruct-v0.2": 0.2154709622007273,
+      "google/gemma-7b": 0.23344602956819518
+    },
+    "elyza/Llama-3-ELYZA-JP-8B": {
+      "Qwen/Qwen2.5-7B-Instruct-1M": 0.3433637529768865,
+      "llm-jp/llm-jp-3-7.2b-instruct3": 0.2638240959509119,
+      "elyza/Llama-3-ELYZA-JP-8B": 1.0,
+      "baichuan-inc/Baichuan2-7B-Base": 0.24095854100467942,
+      "mistralai/Mistral-7B-Instruct-v0.2": 0.2508648454322691,
+      "google/gemma-7b": 0.4041533739300433
+    },
+    "baichuan-inc/Baichuan2-7B-Base": {
+      "Qwen/Qwen2.5-7B-Instruct-1M": 0.455065384473653,
+      "llm-jp/llm-jp-3-7.2b-instruct3": 0.24651047864356826,
+      "elyza/Llama-3-ELYZA-JP-8B": 0.24095854100467942,
+      "baichuan-inc/Baichuan2-7B-Base": 1.0,
+      "mistralai/Mistral-7B-Instruct-v0.2": 0.43815248905348136,
+      "google/gemma-7b": 0.4077653868805102
+    },
+    "mistralai/Mistral-7B-Instruct-v0.2": {
+      "Qwen/Qwen2.5-7B-Instruct-1M": 0.30886565803139576,
+      "llm-jp/llm-jp-3-7.2b-instruct3": 0.2154709622007273,
+      "elyza/Llama-3-ELYZA-JP-8B": 0.2508648454322691,
+      "baichuan-inc/Baichuan2-7B-Base": 0.43815248905348136,
+      "mistralai/Mistral-7B-Instruct-v0.2": 1.0,
+      "google/gemma-7b": 0.32494451721869577
+    },
+    "google/gemma-7b": {
+      "Qwen/Qwen2.5-7B-Instruct-1M": 0.40838412715890987,
+      "llm-jp/llm-jp-3-7.2b-instruct3": 0.23344602956819518,
+      "elyza/Llama-3-ELYZA-JP-8B": 0.4041533739300433,
+      "baichuan-inc/Baichuan2-7B-Base": 0.4077653868805102,
+      "mistralai/Mistral-7B-Instruct-v0.2": 0.32494451721869577,
+      "google/gemma-7b": 1.0
+    }
+  },
+  "inputs": {
+    "Qwen/Qwen2.5-7B-Instruct-1M": {
+      "path": "results/causal/Qwen--Qwen2.5-7B-Instruct-1M-orthography-control-relevance-full-v1.jsonl",
+      "revision": "e28526f7bb80e2a9c8af03b831a9af3812f18fba",
+      "sha256": "263cf38022ccda82755776e2084faed7426916f21b119675bc294b43f08be6ca"
+    },
+    "llm-jp/llm-jp-3-7.2b-instruct3": {
+      "path": "results/causal/llm-jp--llm-jp-3-7.2b-instruct3-orthography-control-relevance-full-v1.jsonl",
+      "revision": "cdd4c7f3296fdc7785423a864bd9a86ce4c15915",
+      "sha256": "bb30343312a0e5a8890f248ecd1b4777c7509aa7f22ecc6643f04c5ec188ecb6"
+    },
+    "elyza/Llama-3-ELYZA-JP-8B": {
+      "path": "results/causal/elyza--Llama-3-ELYZA-JP-8B-orthography-control-relevance-full-v1.jsonl",
+      "revision": "e6c316496ee7d9a11710c50229e8cb39b6b0a4a3",
+      "sha256": "cfcedddd4124b2d3e2ae8f068f7abee6be27280465472f79e6d5567332a1519f"
+    },
+    "baichuan-inc/Baichuan2-7B-Base": {
+      "path": "results/causal/baichuan-inc--Baichuan2-7B-Base-orthography-control-relevance-full-v1.jsonl",
+      "revision": "f9d4d8dd2f7a3dbede3bda3b0cf0224e9272bbe5",
+      "sha256": "3adb5e9103d113d657b758252cfa23eb3a58af89b082e26636ffeac80397a125"
+    },
+    "mistralai/Mistral-7B-Instruct-v0.2": {
+      "path": "results/causal/mistralai--Mistral-7B-Instruct-v0.2-orthography-control-relevance-full-v1.jsonl",
+      "revision": "63a8b081895390a26e140280378bc85ec8bce07a",
+      "sha256": "545b7d12f47eb114d91e76dbb287774cbffc558ad74ccd4a3453af704313e1d5"
+    },
+    "google/gemma-7b": {
+      "path": "results/causal/google--gemma-7b-orthography-control-relevance-full-v1.jsonl",
+      "revision": "ff6768d9368919a1f025a54f9f5aa0ee591730bb",
+      "sha256": "9445f5f4f8214aac4b3b93ae75ee6e3f516f6f72fe19cac8c9a5b9aabc02457b"
+    }
+  },
+  "inference_guards": [
+    "The cross-model interval averages within item before bootstrapping items.",
+    "The six models are a fixed set, not a random sample from all language models.",
+    "The continuous correct-vs-wrong1 margin is not four-choice accuracy.",
+    "All models reuse the same source-only automatic controls without independent bilingual second review."
+  ],
+  "public_artifact_schema": "scores_only_v1",
+  "benchmark_text_removed": true,
+  "join_key": "item_index",
+  "upstream_commit": "eb1c4f3f17403af238046bf218dc49643bc2e2e2"
+}

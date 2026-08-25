@@ -1,0 +1,168 @@
+{
+  "models": [
+    {
+      "model": "Qwen/Qwen2.5-7B-Instruct-1M",
+      "directions": {
+        "jp_zh": {
+          "items": 462,
+          "paper_accuracy": 0.697,
+          "reproduced_official_accuracy": 0.683982683982684,
+          "paper_difference": -0.013017316017315927,
+          "candidate_only_accuracy": 0.696969696969697,
+          "wrong1_share_among_official_errors": 0.8287671232876712
+        },
+        "zh_jp": {
+          "items": 455,
+          "paper_accuracy": 0.6418,
+          "reproduced_official_accuracy": 0.643956043956044,
+          "paper_difference": 0.0021560439560439626,
+          "candidate_only_accuracy": 0.6263736263736264,
+          "wrong1_share_among_official_errors": 0.8580246913580247
+        }
+      },
+      "reproduced_zh_jp_minus_jp_zh": -0.040026640026640026,
+      "paper_zh_jp_minus_jp_zh": -0.055199999999999916
+    },
+    {
+      "model": "llm-jp/llm-jp-3-7.2b-instruct3",
+      "directions": {
+        "jp_zh": {
+          "items": 462,
+          "paper_accuracy": 0.5823,
+          "reproduced_official_accuracy": 0.5887445887445888,
+          "paper_difference": 0.006444588744588753,
+          "candidate_only_accuracy": 0.5194805194805194,
+          "wrong1_share_among_official_errors": 0.6947368421052632
+        },
+        "zh_jp": {
+          "items": 455,
+          "paper_accuracy": 0.6549,
+          "reproduced_official_accuracy": 0.654945054945055,
+          "paper_difference": 4.505494505491203e-05,
+          "candidate_only_accuracy": 0.654945054945055,
+          "wrong1_share_among_official_errors": 0.7070063694267515
+        }
+      },
+      "reproduced_zh_jp_minus_jp_zh": 0.06620046620046616,
+      "paper_zh_jp_minus_jp_zh": 0.0726
+    },
+    {
+      "model": "elyza/Llama-3-ELYZA-JP-8B",
+      "directions": {
+        "jp_zh": {
+          "items": 462,
+          "paper_accuracy": 0.5281,
+          "reproduced_official_accuracy": 0.5281385281385281,
+          "paper_difference": 3.852813852811554e-05,
+          "candidate_only_accuracy": 0.48268398268398266,
+          "wrong1_share_among_official_errors": 0.8532110091743119
+        },
+        "zh_jp": {
+          "items": 455,
+          "paper_accuracy": 0.6044,
+          "reproduced_official_accuracy": 0.6065934065934065,
+          "paper_difference": 0.0021934065934064995,
+          "candidate_only_accuracy": 0.5758241758241758,
+          "wrong1_share_among_official_errors": 0.7932960893854749
+        }
+      },
+      "reproduced_zh_jp_minus_jp_zh": 0.07845487845487842,
+      "paper_zh_jp_minus_jp_zh": 0.07630000000000003
+    },
+    {
+      "model": "baichuan-inc/Baichuan2-7B-Base",
+      "directions": {
+        "jp_zh": {
+          "items": 462,
+          "paper_accuracy": 0.6169,
+          "reproduced_official_accuracy": 0.5974025974025974,
+          "paper_difference": -0.019497402597402624,
+          "candidate_only_accuracy": 0.5865800865800865,
+          "wrong1_share_among_official_errors": 0.8494623655913979
+        },
+        "zh_jp": {
+          "items": 455,
+          "paper_accuracy": 0.589,
+          "reproduced_official_accuracy": 0.5626373626373626,
+          "paper_difference": -0.02636263736263733,
+          "candidate_only_accuracy": 0.49230769230769234,
+          "wrong1_share_among_official_errors": 0.7437185929648241
+        }
+      },
+      "reproduced_zh_jp_minus_jp_zh": -0.03476523476523474,
+      "paper_zh_jp_minus_jp_zh": -0.027900000000000036
+    },
+    {
+      "model": "google/gemma-7b",
+      "directions": {
+        "jp_zh": {
+          "items": 462,
+          "paper_accuracy": 0.6104,
+          "reproduced_official_accuracy": 0.6082251082251082,
+          "paper_difference": -0.0021748917748918295,
+          "candidate_only_accuracy": 0.5887445887445888,
+          "wrong1_share_among_official_errors": 0.8011049723756906
+        },
+        "zh_jp": {
+          "items": 455,
+          "paper_accuracy": 0.6,
+          "reproduced_official_accuracy": 0.6131868131868132,
+          "paper_difference": 0.013186813186813251,
+          "candidate_only_accuracy": 0.5824175824175825,
+          "wrong1_share_among_official_errors": 0.8125
+        }
+      },
+      "reproduced_zh_jp_minus_jp_zh": 0.004961704961705005,
+      "paper_zh_jp_minus_jp_zh": -0.010400000000000076
+    },
+    {
+      "model": "mistralai/Mistral-7B-Instruct-v0.2",
+      "directions": {
+        "jp_zh": {
+          "items": 462,
+          "paper_accuracy": 0.4978,
+          "reproduced_official_accuracy": 0.5043290043290043,
+          "paper_difference": 0.006529004329004273,
+          "candidate_only_accuracy": 0.44372294372294374,
+          "wrong1_share_among_official_errors": 0.6986899563318777
+        },
+        "zh_jp": {
+          "items": 455,
+          "paper_accuracy": 0.4132,
+          "reproduced_official_accuracy": 0.41098901098901097,
+          "paper_difference": -0.0022109890109890395,
+          "candidate_only_accuracy": 0.35824175824175825,
+          "wrong1_share_among_official_errors": 0.7910447761194029
+        }
+      },
+      "reproduced_zh_jp_minus_jp_zh": -0.09333999333999332,
+      "paper_zh_jp_minus_jp_zh": -0.08460000000000001
+    }
+  ],
+  "aggregate": {
+    "jp_zh": {
+      "predictions": 2772,
+      "official_correct": 1622,
+      "official_accuracy": 0.5851370851370852,
+      "candidate_only_correct": 1533,
+      "candidate_only_accuracy": 0.553030303030303,
+      "official_minus_candidate_only": 0.032106782106782104,
+      "wrong1_selections": 902,
+      "wrong1_share_among_errors": 0.7843478260869565
+    },
+    "zh_jp": {
+      "predictions": 2730,
+      "official_correct": 1589,
+      "official_accuracy": 0.5820512820512821,
+      "candidate_only_correct": 1497,
+      "candidate_only_accuracy": 0.5483516483516484,
+      "official_minus_candidate_only": 0.0336996336996337,
+      "wrong1_selections": 895,
+      "wrong1_share_among_errors": 0.7843996494303243
+    }
+  },
+  "public_artifact_schema": "scores_only_v1",
+  "benchmark_text_removed": true,
+  "join_key": "item_index",
+  "upstream_commit": "eb1c4f3f17403af238046bf218dc49643bc2e2e2"
+}

@@ -1,0 +1,60 @@
+{
+  "input": "results/pilots/mistralai--Mistral-7B-Instruct-v0.2-zh_jp-homographs-sv2-start0-limit455.jsonl",
+  "model": "mistralai/Mistral-7B-Instruct-v0.2",
+  "model_revision": "63a8b081895390a26e140280378bc85ec8bce07a",
+  "items": 455,
+  "methods": {
+    "official": {
+      "correct": 187,
+      "accuracy": 0.41098901098901097,
+      "wilson_95": [
+        0.3667084933438148,
+        0.4567599977433054
+      ],
+      "choice_distribution": [
+        187,
+        212,
+        32,
+        24
+      ],
+      "wrong1_selections": 212,
+      "wrong1_share_among_errors": 0.7910447761194029,
+      "ppl_margin_below_5_percent": 178
+    },
+    "candidate_only": {
+      "correct": 163,
+      "accuracy": 0.35824175824175825,
+      "wilson_95": [
+        0.3155394438373175,
+        0.40331778270883684
+      ],
+      "choice_distribution": [
+        163,
+        233,
+        33,
+        26
+      ],
+      "wrong1_selections": 233,
+      "wrong1_share_among_errors": 0.797945205479452,
+      "ppl_margin_below_5_percent": 77
+    }
+  },
+  "scoring_comparison": {
+    "agreement": 388,
+    "agreement_rate": 0.8527472527472527,
+    "disagreements": 67,
+    "both_correct": 148,
+    "official_only_correct": 39,
+    "candidate_only_only_correct": 15,
+    "both_wrong": 253,
+    "disagreement_token_direction": {
+      "official_chose_longer": 65,
+      "equal_length": 2,
+      "official_chose_shorter": 0
+    }
+  },
+  "public_artifact_schema": "scores_only_v1",
+  "benchmark_text_removed": true,
+  "join_key": "item_index",
+  "upstream_commit": "eb1c4f3f17403af238046bf218dc49643bc2e2e2"
+}

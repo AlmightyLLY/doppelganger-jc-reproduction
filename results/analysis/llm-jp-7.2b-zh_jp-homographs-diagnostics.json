@@ -1,0 +1,60 @@
+{
+  "input": "results/pilots/llm-jp--llm-jp-3-7.2b-instruct3-zh_jp-homographs-sv2-start0-limit455.jsonl",
+  "model": "llm-jp/llm-jp-3-7.2b-instruct3",
+  "model_revision": "cdd4c7f3296fdc7785423a864bd9a86ce4c15915",
+  "items": 455,
+  "methods": {
+    "official": {
+      "correct": 298,
+      "accuracy": 0.654945054945055,
+      "wilson_95": [
+        0.6101302593639124,
+        0.6971653302251746
+      ],
+      "choice_distribution": [
+        298,
+        111,
+        28,
+        18
+      ],
+      "wrong1_selections": 111,
+      "wrong1_share_among_errors": 0.7070063694267515,
+      "ppl_margin_below_5_percent": 94
+    },
+    "candidate_only": {
+      "correct": 298,
+      "accuracy": 0.654945054945055,
+      "wilson_95": [
+        0.6101302593639124,
+        0.6971653302251746
+      ],
+      "choice_distribution": [
+        298,
+        114,
+        24,
+        19
+      ],
+      "wrong1_selections": 114,
+      "wrong1_share_among_errors": 0.7261146496815286,
+      "ppl_margin_below_5_percent": 24
+    }
+  },
+  "scoring_comparison": {
+    "agreement": 419,
+    "agreement_rate": 0.9208791208791208,
+    "disagreements": 36,
+    "both_correct": 284,
+    "official_only_correct": 14,
+    "candidate_only_only_correct": 14,
+    "both_wrong": 143,
+    "disagreement_token_direction": {
+      "official_chose_longer": 34,
+      "equal_length": 2,
+      "official_chose_shorter": 0
+    }
+  },
+  "public_artifact_schema": "scores_only_v1",
+  "benchmark_text_removed": true,
+  "join_key": "item_index",
+  "upstream_commit": "eb1c4f3f17403af238046bf218dc49643bc2e2e2"
+}

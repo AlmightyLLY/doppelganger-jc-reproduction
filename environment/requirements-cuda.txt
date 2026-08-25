@@ -1,0 +1,7 @@
+# Current recommended Linux rerun environment. This is not a claim that every
+# historical experiment used the same PyTorch/CUDA build; see environment/README.md.
+--extra-index-url https://download.pytorch.org/whl/cu121
+torch==2.5.1+cu121
+# Baichuan2's repository code imports its quantization module during the
+# dynamic-module dependency check, even though this experiment runs BF16.
+bitsandbytes==0.45.2

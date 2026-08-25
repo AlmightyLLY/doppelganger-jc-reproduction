@@ -1,0 +1,60 @@
+{
+  "input": "results/pilots/google--gemma-7b-jp_zh-homographs-sv2-start0-limit462.jsonl",
+  "model": "google/gemma-7b",
+  "model_revision": "ff6768d9368919a1f025a54f9f5aa0ee591730bb",
+  "items": 462,
+  "methods": {
+    "official": {
+      "correct": 281,
+      "accuracy": 0.6082251082251082,
+      "wilson_95": [
+        0.5629946914236502,
+        0.651670551010688
+      ],
+      "choice_distribution": [
+        281,
+        145,
+        19,
+        17
+      ],
+      "wrong1_selections": 145,
+      "wrong1_share_among_errors": 0.8011049723756906,
+      "ppl_margin_below_5_percent": 80
+    },
+    "candidate_only": {
+      "correct": 272,
+      "accuracy": 0.5887445887445888,
+      "wilson_95": [
+        0.5433223276576729,
+        0.6327031711384845
+      ],
+      "choice_distribution": [
+        272,
+        159,
+        22,
+        9
+      ],
+      "wrong1_selections": 159,
+      "wrong1_share_among_errors": 0.8368421052631579,
+      "ppl_margin_below_5_percent": 23
+    }
+  },
+  "scoring_comparison": {
+    "agreement": 376,
+    "agreement_rate": 0.8138528138528138,
+    "disagreements": 86,
+    "both_correct": 242,
+    "official_only_correct": 39,
+    "candidate_only_only_correct": 30,
+    "both_wrong": 151,
+    "disagreement_token_direction": {
+      "official_chose_longer": 79,
+      "equal_length": 4,
+      "official_chose_shorter": 3
+    }
+  },
+  "public_artifact_schema": "scores_only_v1",
+  "benchmark_text_removed": true,
+  "join_key": "item_index",
+  "upstream_commit": "eb1c4f3f17403af238046bf218dc49643bc2e2e2"
+}

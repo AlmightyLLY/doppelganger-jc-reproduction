@@ -1,0 +1,5 @@
+# Historical environment recorded for the six-model orthography intervention.
+--extra-index-url https://download.pytorch.org/whl/cu124
+torch==2.4.1+cu124
+bitsandbytes==0.45.2
+-r requirements.txt

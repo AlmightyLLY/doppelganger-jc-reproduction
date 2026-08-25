@@ -1,0 +1,371 @@
+{
+  "schema": "public_artifact_manifest_v1",
+  "export_date": "2026-08-26",
+  "public_artifact_schema": "scores_only_v1",
+  "upstream_commit": "eb1c4f3f17403af238046bf218dc49643bc2e2e2",
+  "join_key": "item_index",
+  "benchmark_text_included": false,
+  "private_source_sha256_definition": "SHA-256 of the local complete run artifact before public redaction",
+  "artifacts": [
+    {
+      "path": "results/pilots/Qwen--Qwen2.5-7B-Instruct-1M-jp_zh-homographs-sv2-start0-limit462.jsonl",
+      "kind": "translation_scores",
+      "records": 462,
+      "private_source_sha256": "47b5cb306bfee2fa4ad793255d8d4d599b6fdb2bbada610f09120c65e4d9f130",
+      "public_sha256": "b35371d86dd5eabb831d99e8e0504065ac8c0f3d151cb5f0c286a4b20d4c28b1"
+    },
+    {
+      "path": "results/pilots/Qwen--Qwen2.5-7B-Instruct-1M-zh_jp-homographs-sv2-start0-limit455.jsonl",
+      "kind": "translation_scores",
+      "records": 455,
+      "private_source_sha256": "15883d5bc633db7b9cd71a9b903c7707f921239044de4caee8704db315ef6f51",
+      "public_sha256": "7e0261fded1c7a94f49b43c4f87b1912e115ec914b4f94c7e0e7979a38936953"
+    },
+    {
+      "path": "results/pilots/baichuan-inc--Baichuan2-7B-Base-jp_zh-homographs-sv2-start0-limit462.jsonl",
+      "kind": "translation_scores",
+      "records": 462,
+      "private_source_sha256": "d85be05826996d843b3743307afd8305480750818359f2942b1263856c4be614",
+      "public_sha256": "48cbfaea9e20aa2932ccfa718c35a4cdd10981ca1d84a479e9511cf7458b04ed"
+    },
+    {
+      "path": "results/pilots/baichuan-inc--Baichuan2-7B-Base-zh_jp-homographs-sv2-start0-limit455.jsonl",
+      "kind": "translation_scores",
+      "records": 455,
+      "private_source_sha256": "93619aaef7c3a92f785a71744a1eeea406b7c9ec0cae5418f125adca4e3f913a",
+      "public_sha256": "e910563ecc3bc9ba29ceda8fb3f18bc2b1282d34fd9e9de18dd93e91cab2555d"
+    },
+    {
+      "path": "results/pilots/elyza--Llama-3-ELYZA-JP-8B-jp_zh-homographs-sv2-start0-limit462.jsonl",
+      "kind": "translation_scores",
+      "records": 462,
+      "private_source_sha256": "caed63e1d41506010dd2647386f2ad769b4dbe9be8551ed3f6b97d1615c8c6ac",
+      "public_sha256": "fee729daab47d8435ff8fd8005a5c11c7759f047de35cccd44d2d4c33a82c67e"
+    },
+    {
+      "path": "results/pilots/elyza--Llama-3-ELYZA-JP-8B-zh_jp-homographs-sv2-start0-limit455.jsonl",
+      "kind": "translation_scores",
+      "records": 455,
+      "private_source_sha256": "59658e041d7c123f3d78d75b80b7fb3ebe584cc0980eaea4e16b7edaaeca3c92",
+      "public_sha256": "ede85eeead6cf28e32ae780c2b059921bcf6894fb3c445226a799e96cf854fac"
+    },
+    {
+      "path": "results/pilots/google--gemma-7b-jp_zh-homographs-sv2-start0-limit462.jsonl",
+      "kind": "translation_scores",
+      "records": 462,
+      "private_source_sha256": "e5be83a5397136115e073485796123c500eef36b9c6034ca1e4b4bc2a2c39bb8",
+      "public_sha256": "d4fc9a28a42c27f52c572d303481e6f9de099ca6fb96de1a7fb93e0882489281"
+    },
+    {
+      "path": "results/pilots/google--gemma-7b-zh_jp-homographs-sv2-start0-limit455.jsonl",
+      "kind": "translation_scores",
+      "records": 455,
+      "private_source_sha256": "39c21baf33a49ae9faa9c40b66d3456bc9021f4419548f01b753405fdc56dd12",
+      "public_sha256": "3eddd4d46c6f5796cbcae0852bc9a2c1a3ead4077ba11182ed70ff31a38ceef6"
+    },
+    {
+      "path": "results/pilots/llm-jp--llm-jp-3-7.2b-instruct3-jp_zh-homographs-sv2-start0-limit462.jsonl",
+      "kind": "translation_scores",
+      "records": 462,
+      "private_source_sha256": "fac083e092155d7879a1671c334917453f5a2969d747c892b2d96f9106f46254",
+      "public_sha256": "ab02faf87c8e3efcfa4b73892a8990f7a935e6c949fb6737a2d25a7e0d7816a8"
+    },
+    {
+      "path": "results/pilots/llm-jp--llm-jp-3-7.2b-instruct3-zh_jp-homographs-sv2-start0-limit455.jsonl",
+      "kind": "translation_scores",
+      "records": 455,
+      "private_source_sha256": "0087c55ff68f25dc6b15f5e849cba32d305bbcb0181b67c2662b1be314bfaed9",
+      "public_sha256": "97c20b2f1a2933e4df94384d2f3116b17ba3cd5a889958ceb4ac9409167ef515"
+    },
+    {
+      "path": "results/pilots/mistralai--Mistral-7B-Instruct-v0.2-jp_zh-homographs-sv2-start0-limit462.jsonl",
+      "kind": "translation_scores",
+      "records": 462,
+      "private_source_sha256": "a05542eaffbfaf01201244598a7a5eff9dd05b8368dcb1c3420cfce5bdf2dd41",
+      "public_sha256": "10f4d30a1392ef2c0a6320a0afd776feb5eaed901b39ecad2b05617414ec6b64"
+    },
+    {
+      "path": "results/pilots/mistralai--Mistral-7B-Instruct-v0.2-zh_jp-homographs-sv2-start0-limit455.jsonl",
+      "kind": "translation_scores",
+      "records": 455,
+      "private_source_sha256": "170737d7f8d0497ca4f7433a8a09e234f49b3ff755dbc90adffe2fdf01f3aa83",
+      "public_sha256": "a9835116c0db1be332cc45ae8b0ccfebc8fa0095fe664275a2fccf4f99a79ad5"
+    },
+    {
+      "path": "results/pilots/Qwen--Qwen2.5-7B-Instruct-1M-jp_zh-homographs-sv2-start0-limit462.summary.json",
+      "kind": "translation_summary",
+      "private_source_sha256": "abf60520281686a933da3daa984d3efda29310dea921d9999073206d23532f26",
+      "public_sha256": "2445d91800707ef82523331641cb0119994cf71814d8320d0ffbe583f23181ac"
+    },
+    {
+      "path": "results/pilots/Qwen--Qwen2.5-7B-Instruct-1M-zh_jp-homographs-sv2-start0-limit455.summary.json",
+      "kind": "translation_summary",
+      "private_source_sha256": "ff41e2627aeb078821dc27ebbb25c3de47c04796612dbc5462a428d4ab42e6b4",
+      "public_sha256": "5b08c2679da8b7a59dd1f997325c501fb13d5912c89aefcbf49b1bac528e99c4"
+    },
+    {
+      "path": "results/pilots/baichuan-inc--Baichuan2-7B-Base-jp_zh-homographs-sv2-start0-limit462.summary.json",
+      "kind": "translation_summary",
+      "private_source_sha256": "516ee421153460bd534f3a2a89b5b0cafe562949222f2c844a8798eb4aa34adb",
+      "public_sha256": "039cda84b7658af60c534ca887bf7a2c9aceec4b9e122be990141a09f24e74cc"
+    },
+    {
+      "path": "results/pilots/baichuan-inc--Baichuan2-7B-Base-zh_jp-homographs-sv2-start0-limit455.summary.json",
+      "kind": "translation_summary",
+      "private_source_sha256": "ea45254f97f82bd45e5b7c7ad3d7b90e11f02f75d6c0bab3894720773aecbf8d",
+      "public_sha256": "3e92afb134bf8b3fc608b5c91fb996c7a2e13cfb4aa2b6d24bac626683424220"
+    },
+    {
+      "path": "results/pilots/elyza--Llama-3-ELYZA-JP-8B-jp_zh-homographs-sv2-start0-limit462.summary.json",
+      "kind": "translation_summary",
+      "private_source_sha256": "868e96463f1f1d0f701c5270ece6c4c8625767db1736ce811d3cfd3f6fd23a3d",
+      "public_sha256": "254c4f13f78c5db957832e8a9be6c9bfd63457916d3115f9a9756ec19f737f8f"
+    },
+    {
+      "path": "results/pilots/elyza--Llama-3-ELYZA-JP-8B-zh_jp-homographs-sv2-start0-limit455.summary.json",
+      "kind": "translation_summary",
+      "private_source_sha256": "e22345497e113c9ca47f32f67536c9fe199e88bdf27ddc2cf64f95b0b63489a1",
+      "public_sha256": "d9977ad7f281b67490cef757069ccc53cec262e5df97f16f782f65463d93603f"
+    },
+    {
+      "path": "results/pilots/google--gemma-7b-jp_zh-homographs-sv2-start0-limit462.summary.json",
+      "kind": "translation_summary",
+      "private_source_sha256": "8de641a1b825b1b8a8ba82b801fe60f255cc83d36e2ae3c7fb5cb3298fee7dae",
+      "public_sha256": "a94ff651f682d598e5af81953bad6b6284ea46ae726ba5bf49c089985c3deb78"
+    },
+    {
+      "path": "results/pilots/google--gemma-7b-zh_jp-homographs-sv2-start0-limit455.summary.json",
+      "kind": "translation_summary",
+      "private_source_sha256": "c205f8dbb5a6e72e958609a781b7dc078afff1253cd06a51a88a01d9aa344c1a",
+      "public_sha256": "f69c44714c3b92d563c0edbb20a29f75a8173a94cd32d651e3cb34deb62da722"
+    },
+    {
+      "path": "results/pilots/llm-jp--llm-jp-3-7.2b-instruct3-jp_zh-homographs-sv2-start0-limit462.summary.json",
+      "kind": "translation_summary",
+      "private_source_sha256": "92c61ef14e1a25152124fe7a021a9e838341df126cabb1d304796f94eec10d6b",
+      "public_sha256": "04e461991f1b132c897e485d276d3692fcaf8f97503185db2c3a8b390afb46dc"
+    },
+    {
+      "path": "results/pilots/llm-jp--llm-jp-3-7.2b-instruct3-zh_jp-homographs-sv2-start0-limit455.summary.json",
+      "kind": "translation_summary",
+      "private_source_sha256": "d0449a97283baf082362246fa8066987befef5c3acbe6c50a1fadc7aaf43802f",
+      "public_sha256": "5b660c24503690809a7526fbcdaf698c26accdf0cb94b358f39a4f99c4b77984"
+    },
+    {
+      "path": "results/pilots/mistralai--Mistral-7B-Instruct-v0.2-jp_zh-homographs-sv2-start0-limit462.summary.json",
+      "kind": "translation_summary",
+      "private_source_sha256": "a39456faa7dabbeea6d6206aade050c0be95206a33cd7335fe1fbaeecec5d670",
+      "public_sha256": "64df35f60899a40aa02b881773f1450b02ebdb24bd61091ab49b1b96f5e183b9"
+    },
+    {
+      "path": "results/pilots/mistralai--Mistral-7B-Instruct-v0.2-zh_jp-homographs-sv2-start0-limit455.summary.json",
+      "kind": "translation_summary",
+      "private_source_sha256": "d0f3ab848a34e4832888fa6a4ea0fa9c24d03ada76c80441ead7cdf59b6d209d",
+      "public_sha256": "af63ce39eb25ed67327c78ea0ade849795fc5291999146a2e384589f2d8e3f15"
+    },
+    {
+      "path": "results/causal/Qwen--Qwen2.5-7B-Instruct-1M-orthography-control-relevance-full-v1.jsonl",
+      "kind": "orthography_scores",
+      "records": 450,
+      "private_source_sha256": "263cf38022ccda82755776e2084faed7426916f21b119675bc294b43f08be6ca",
+      "public_sha256": "74392184ae52b314286bb761b8f123da68c9f6bea587952f6b1f27fe0bba7c95"
+    },
+    {
+      "path": "results/causal/baichuan-inc--Baichuan2-7B-Base-orthography-control-relevance-full-v1.jsonl",
+      "kind": "orthography_scores",
+      "records": 450,
+      "private_source_sha256": "3adb5e9103d113d657b758252cfa23eb3a58af89b082e26636ffeac80397a125",
+      "public_sha256": "ea7d279b0060d464da1008f1dd0b8ea1396dba8ed3427358977ca62f4d69ef1b"
+    },
+    {
+      "path": "results/causal/elyza--Llama-3-ELYZA-JP-8B-orthography-control-relevance-full-v1.jsonl",
+      "kind": "orthography_scores",
+      "records": 450,
+      "private_source_sha256": "cfcedddd4124b2d3e2ae8f068f7abee6be27280465472f79e6d5567332a1519f",
+      "public_sha256": "0d9da8cd2942701afcf69bafcf88695a858bc7b3b93d391e2656e9e9029210cd"
+    },
+    {
+      "path": "results/causal/google--gemma-7b-orthography-control-relevance-full-v1.jsonl",
+      "kind": "orthography_scores",
+      "records": 450,
+      "private_source_sha256": "9445f5f4f8214aac4b3b93ae75ee6e3f516f6f72fe19cac8c9a5b9aabc02457b",
+      "public_sha256": "5374b866dd0e35d63f1ca2617b56a8f5f5aa8916eedad603885b49e450c7b4c6"
+    },
+    {
+      "path": "results/causal/llm-jp--llm-jp-3-7.2b-instruct3-orthography-control-relevance-full-v1.jsonl",
+      "kind": "orthography_scores",
+      "records": 450,
+      "private_source_sha256": "bb30343312a0e5a8890f248ecd1b4777c7509aa7f22ecc6643f04c5ec188ecb6",
+      "public_sha256": "57e0d444529f0b71701ee478830f1878f17a84e00fc9ca2ada4739fb789d4f83"
+    },
+    {
+      "path": "results/causal/mistralai--Mistral-7B-Instruct-v0.2-orthography-control-relevance-full-v1.jsonl",
+      "kind": "orthography_scores",
+      "records": 450,
+      "private_source_sha256": "545b7d12f47eb114d91e76dbb287774cbffc558ad74ccd4a3453af704313e1d5",
+      "public_sha256": "4f514be68090cac2d479371159dc900f01307ae2f146411a1d82947eb747e3d4"
+    },
+    {
+      "path": "results/causal/Qwen--Qwen2.5-7B-Instruct-1M-orthography-control-relevance-full-v1.summary.json",
+      "kind": "orthography_summary",
+      "private_source_sha256": "f5c2c1939f18bf63fe5d70a28a73096ca7952d92d9c4b055ba1b9ccb2d5235aa",
+      "public_sha256": "56407a296a33e828f554a6479ee30e63b615a46fba797ca4fa105f86165093e0"
+    },
+    {
+      "path": "results/causal/baichuan-inc--Baichuan2-7B-Base-orthography-control-relevance-full-v1.summary.json",
+      "kind": "orthography_summary",
+      "private_source_sha256": "7b683162df26c5b85c4858e5ebbac96a091383e4a9f35bd733b8744abe7c5cf2",
+      "public_sha256": "61de29e5913b97c7d871f9ad0bb24a51508be1bcb4e3220eb21a8df033854428"
+    },
+    {
+      "path": "results/causal/elyza--Llama-3-ELYZA-JP-8B-orthography-control-relevance-full-v1.summary.json",
+      "kind": "orthography_summary",
+      "private_source_sha256": "e57dfc752c47d71e2d8c9b443954d20268a0d4d61e892ee03820c5d15b2bde3c",
+      "public_sha256": "ddc6bb54e21a2cc96a9c64b2efff43a17312fc86b2f25c8e71dde820efd6936f"
+    },
+    {
+      "path": "results/causal/google--gemma-7b-orthography-control-relevance-full-v1.summary.json",
+      "kind": "orthography_summary",
+      "private_source_sha256": "ee5a7f2837fd658b1202b7ebe44a9fb1ad60f392fa3b0181faa89580ea9798b4",
+      "public_sha256": "6560dbe6d8e650e23ec1bf8b1329581f2bc4b82089eaa667aa4a10f9a9ce8ec3"
+    },
+    {
+      "path": "results/causal/llm-jp--llm-jp-3-7.2b-instruct3-orthography-control-relevance-full-v1.summary.json",
+      "kind": "orthography_summary",
+      "private_source_sha256": "ca70e16624fe660c30c1ced267744de26eaa6942266aa90f4754fdc2daa3d925",
+      "public_sha256": "9abe56b99039943b9869fbbd3b30c82d922123bc75bece1c90d6c35c48cf0185"
+    },
+    {
+      "path": "results/causal/mistralai--Mistral-7B-Instruct-v0.2-orthography-control-relevance-full-v1.summary.json",
+      "kind": "orthography_summary",
+      "private_source_sha256": "3768088fd164a28bc9564f245335170630f2025967ea3fdf4b183016f3540b77",
+      "public_sha256": "686c365a0da23550f708d3f359774ba57bcfe05edbdc4f4a72a077d567338a7c"
+    },
+    {
+      "path": "results/analysis/baichuan2-7b-jp_zh-homographs-diagnostics.json",
+      "kind": "derived_analysis",
+      "private_source_sha256": "e02328e63c1b192412d161f239d37f0a140646d9ec28f8f9e59e032dfd68fd0e",
+      "public_sha256": "0bb683e5eb57627e8de4f472c1fc8759929fdacc61ecde316ab28701dfe1d5f4"
+    },
+    {
+      "path": "results/analysis/baichuan2-7b-orthography-control-relevance-full-v1-diagnostics.json",
+      "kind": "derived_analysis",
+      "private_source_sha256": "4e344a2cdffc6405546b40cf0273e2d4966f2c11cb8a353bc20e7ea3f6ab3e95",
+      "public_sha256": "02a0eb8fd2807bb11490f333b1b38b14a74ed8a60b6fce8ee8f53521b4dce3fc"
+    },
+    {
+      "path": "results/analysis/baichuan2-7b-zh_jp-homographs-diagnostics.json",
+      "kind": "derived_analysis",
+      "private_source_sha256": "c59e90ec90b1b1fa1db4492293c4b113ddcd0e30fa406b40b90c20973f9c75d3",
+      "public_sha256": "0ca151ec8bfd41c0960b04c36e1afabab200687eccf6374f370ec3706bc543ce"
+    },
+    {
+      "path": "results/analysis/bidirectional-six-model-comparison.json",
+      "kind": "derived_analysis",
+      "private_source_sha256": "adbb762627ef0bbd3974c3ee92c1b58cbfa1469c78a49878551197757ebe0531",
+      "public_sha256": "fd88d33834d6755f0943127fe6e5b48a4bb0058259205bca9b98ff3fe78c6b45"
+    },
+    {
+      "path": "results/analysis/elyza-8b-jp_zh-homographs-diagnostics.json",
+      "kind": "derived_analysis",
+      "private_source_sha256": "2cc58ad1ae5ffa2da88e3b88ef9940cf0cfbd6f319a03a4ea7f74477644aa01c",
+      "public_sha256": "42805cff2a0bea22dca6316ab51e1d0cdfbfb2f5195b4345f0ceb670fb60f1e9"
+    },
+    {
+      "path": "results/analysis/elyza-jp-8b-orthography-control-relevance-full-v1-diagnostics.json",
+      "kind": "derived_analysis",
+      "private_source_sha256": "6edfde3dd416563e7324bacf7360e3861cf7bbfa7655d37046f47f3baaf909f9",
+      "public_sha256": "a38e9edc8a3abb55d9585fbdb56f7687c6bd1920374beb3386ad9158c123ee6f"
+    },
+    {
+      "path": "results/analysis/elyza-jp-8b-zh_jp-homographs-diagnostics.json",
+      "kind": "derived_analysis",
+      "private_source_sha256": "e3a697dc86a707506d277beecc4cb153968c567b3c085e9cb54f65028ae3bdf4",
+      "public_sha256": "3c053d4e09dd2227cf8e9fa3494d9eed374737d7972c5e4e88cccfa94b5c80f7"
+    },
+    {
+      "path": "results/analysis/gemma-7b-jp_zh-homographs-diagnostics.json",
+      "kind": "derived_analysis",
+      "private_source_sha256": "a8caed4e03b4599cda88cfa2b27aab3af3f552fe2bd0cbbb9234b2af372f60dc",
+      "public_sha256": "9f609ef3f02465128b4865725126953595af1836e78f75a14943d9b2454807f4"
+    },
+    {
+      "path": "results/analysis/gemma-7b-orthography-control-relevance-full-v1-diagnostics.json",
+      "kind": "derived_analysis",
+      "private_source_sha256": "ba6d2666fa39a703d0a78e999a557c73494358a467eced1677149c83d81e6b2e",
+      "public_sha256": "b1b7c8a6902c637dfd8567d727226b2b0fcd4078c5210667ce0333783a693b68"
+    },
+    {
+      "path": "results/analysis/gemma-7b-zh_jp-homographs-diagnostics.json",
+      "kind": "derived_analysis",
+      "private_source_sha256": "13d16a04dec66bf4ad211b7a6778df34cca1e668841498a2e33e5657e2067b91",
+      "public_sha256": "e2ba230b2069aa98ff745a1a1685c71bbc98a79cdb21156531c6e0de31df9562"
+    },
+    {
+      "path": "results/analysis/llm-jp-7.2b-jp_zh-homographs-diagnostics.json",
+      "kind": "derived_analysis",
+      "private_source_sha256": "d69f27602b6cc06b4f2f8fbc6c787d7b924e97baf258b357874e27145903485a",
+      "public_sha256": "0f33dfa2996cf35bd53fc410fcbfec0836cbb6c15764aae9dee1c34336026738"
+    },
+    {
+      "path": "results/analysis/llm-jp-7.2b-orthography-control-relevance-full-v1-diagnostics.json",
+      "kind": "derived_analysis",
+      "private_source_sha256": "5cb3d0e0d55966243d8664f72ff20104029292ed5ff8f872c6602878e5870fb5",
+      "public_sha256": "5c206c337a2986121a50114158e9b637090e874b339ec59e381616fa7369f449"
+    },
+    {
+      "path": "results/analysis/llm-jp-7.2b-zh_jp-homographs-diagnostics.json",
+      "kind": "derived_analysis",
+      "private_source_sha256": "9cab2056487aede8c1159a75a9601690b176f430ea16bbed6e0946de5ca29932",
+      "public_sha256": "85f275fb55538acd3baa855cc14d45dac04baff8757d0151751505558dbb1a24"
+    },
+    {
+      "path": "results/analysis/mistral-7b-instruct-v0.2-jp_zh-homographs-diagnostics.json",
+      "kind": "derived_analysis",
+      "private_source_sha256": "dc81e58526b0a01bf39e023113454c077c3cf8249c165e4774c39f8ca5e18f7d",
+      "public_sha256": "812fe79d5914b173dacbfeaa078ce6d86c4e24e164374063ee97e8910abc4cae"
+    },
+    {
+      "path": "results/analysis/mistral-7b-instruct-v0.2-orthography-control-relevance-full-v1-diagnostics.json",
+      "kind": "derived_analysis",
+      "private_source_sha256": "8b0be1810ef170da44d4021832e5c83e79dba588d47e58221cb4ef5535a0adfc",
+      "public_sha256": "1802e5ab9e94db0cc4a72b5d1d3e98276a035a0997c0d1c0e3aa671f879301ab"
+    },
+    {
+      "path": "results/analysis/mistral-7b-instruct-v0.2-zh_jp-homographs-diagnostics.json",
+      "kind": "derived_analysis",
+      "private_source_sha256": "974bb04fd5412a225641f6b41ddd3563958f0d87801e02f7c70c68ac473d517c",
+      "public_sha256": "067f81f9648db410d7be6e6f8ca4b5a30821ac08bde428498c0c35c0c642949f"
+    },
+    {
+      "path": "results/analysis/orthography-six-model-replication.json",
+      "kind": "derived_analysis",
+      "private_source_sha256": "f11a0276cf8b75a4a0ad21990a78b8492f44f96ffa55739208c0c3e6807ffa86",
+      "public_sha256": "975610ef842059ab7a793602551749b9c60e7823524d5b1c75f7abd2095a349b"
+    },
+    {
+      "path": "results/analysis/orthography-six-model-replication.manifest.json",
+      "kind": "derived_analysis",
+      "private_source_sha256": "5b46546270f06b8281be1a97e53f50b7ff11e9ed414a15584837926de7c8d242",
+      "public_sha256": "784d85c06b4624462b4460df7e1bc07c3edb907de31b0ec84621e44f6c53689c"
+    },
+    {
+      "path": "results/analysis/qwen2.5-7b-1m-jp_zh-homographs-diagnostics.json",
+      "kind": "derived_analysis",
+      "private_source_sha256": "e4e4d8d7f7fc3f3a54e77d6bb50999792d13a0a86245d067a2fe84e9d495895f",
+      "public_sha256": "515e5850403849fe47310f08cf2106c4047b4483e311f26bd977b2be54661c98"
+    },
+    {
+      "path": "results/analysis/qwen2.5-7b-1m-zh_jp-homographs-diagnostics.json",
+      "kind": "derived_analysis",
+      "private_source_sha256": "19ab8e4f3cefc784cc9d62741df2893d9921f12e7917e8fbd3d5a1fb8cc90edc",
+      "public_sha256": "9c9963996128368a7aa665dba9658bda9228af5639737450d761028bac4a42dc"
+    },
+    {
+      "path": "results/analysis/zh_jp-six-model-synthesis.json",
+      "kind": "derived_analysis",
+      "private_source_sha256": "466244e0aa24359e1e3d887d2725b9d4a54020bc1cb2fdb181ef3b4a344c1917",
+      "public_sha256": "dc5c28120b845d234b18995d3171ada1dc2a04adbc8d543f30f21996c64ef942"
+    }
+  ]
+}

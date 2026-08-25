@@ -1,0 +1,12 @@
+Doppelganger-JC Reproduction and Orthography Study
+Copyright 2026 Lingyun Liu
+
+Experiment scripts in this repository build on the public Doppelganger-JC
+codebase by Yuka Kitamura, Jiahao Huang, and Akiko Aizawa, retrieved from
+https://github.com/0017-alt/Doppelganger-JC at commit
+eb1c4f3f17403af238046bf218dc49643bc2e2e2. The upstream authors designate
+their code as Apache License 2.0.
+
+The upstream benchmark data are not relicensed here. The cognate and question
+files remain subject to the data terms identified by the upstream authors.
+The bootstrap helper retrieves those files from their authoritative repository.
