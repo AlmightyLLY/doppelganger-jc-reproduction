@@ -101,7 +101,12 @@ artifacts, and text can be rejoined locally by `item_index`.
 
 ## Status and next step
 
-The Doppelganger-JC Translation Type-1 stage is frozen. The next primary milestone is to reproduce a minimal official baseline from Cross-lingual Contextualized Phrase Retrieval before transferring the homograph and reliability hypotheses to a retrieval setting. See the [roadmap](docs/roadmap.md).
+The Doppelganger-JC Translation Type-1 reproduction is frozen. Following a
+research-planning discussion, the immediate priority is now a small, audited
+mechanism study of the remaining homograph behavior in recent open-weight
+checkpoints. CCPR remains part of the longer-term roadmap but is not the next
+execution milestone. The current transition is documented in the
+[2026-08-27 research log](papers/doppelganger-jc/notes/2026-08-27-post-meeting-research-log.md).
 
 ## Citation and license
 

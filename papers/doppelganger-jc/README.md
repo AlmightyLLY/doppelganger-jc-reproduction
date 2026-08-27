@@ -88,5 +88,6 @@ Primary reports:
 - [Six-model orthography replication](experiments/EXP-20260825-orthography-six-model-replication.md)
 - [Stage synthesis and open questions](notes/2026-08-23-to-25-stage-synthesis.md)
 - [Research trajectory and revised reliability-aware agenda](notes/2026-08-26-research-trajectory-and-revised-theme.md)
+- [Post-meeting research log: current-model audit and layer-wise diagnostics](notes/2026-08-27-post-meeting-research-log.md)
 
 Confirmatory plans and development records are listed in the [experiment index](experiments/README.md). Scores-only tables and analyses are listed in the [results archive](../../results/README.md).
