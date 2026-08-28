@@ -219,6 +219,13 @@ models.txt
 # Local runs should use this directory rather than overwrite frozen artifacts.
 results/local/
 
+# Private local research workspace: may contain benchmark text, blind-review
+# mappings, human worksheets, cloud logs, and other non-redistributable data.
+research_notes/
+
+# macOS metadata
+.DS_Store
+
 # Marimo
 marimo/_static/
 marimo/_lsp/

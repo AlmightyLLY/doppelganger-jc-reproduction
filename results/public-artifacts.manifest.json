@@ -1,6 +1,6 @@
 {
   "schema": "public_artifact_manifest_v1",
-  "export_date": "2026-08-26",
+  "export_date": "2026-08-29",
   "public_artifact_schema": "scores_only_v1",
   "upstream_commit": "eb1c4f3f17403af238046bf218dc49643bc2e2e2",
   "join_key": "item_index",
@@ -360,6 +360,12 @@
       "kind": "derived_analysis",
       "private_source_sha256": "19ab8e4f3cefc784cc9d62741df2893d9921f12e7917e8fbd3d5a1fb8cc90edc",
       "public_sha256": "9c9963996128368a7aa665dba9658bda9228af5639737450d761028bac4a42dc"
+    },
+    {
+      "path": "results/analysis/qwen3-8b-clean-matched-probe-five-item-pilot.json",
+      "kind": "derived_analysis",
+      "private_source_sha256": "3270ad8fd794db4efd5c781c9839cf122eb80a3d5b8cf5ef51f85028f4391250",
+      "public_sha256": "b0c5f30455c820527c8bd63a02367d5137f1d3d1284d307805260e5f360d4fb0"
     },
     {
       "path": "results/analysis/zh_jp-six-model-synthesis.json",

@@ -40,7 +40,8 @@ Completed work:
 - audit of the official full-prompt PPL score and a candidate-only NLL diagnostic;
 - dataset and duplicate-option checks;
 - manual review of a shared homograph-error subset;
-- a preregistered six-model kana intervention with an unrelated within-sentence negative control.
+- a preregistered six-model kana intervention with an unrelated within-sentence negative control;
+- a recent-model behavior audit and an exploratory five-item Qwen3-8B clean matched probe with human-frozen semantic categories.
 
 The seventh checkpoint, `meta-llama/Llama-3.1-8B-Instruct`, was not evaluated because access to the gated model was denied. No substitute checkpoint is reported as an exact reproduction.
 
@@ -104,9 +105,12 @@ artifacts, and text can be rejoined locally by `item_index`.
 The Doppelganger-JC Translation Type-1 reproduction is frozen. Following a
 research-planning discussion, the immediate priority is now a small, audited
 mechanism study of the remaining homograph behavior in recent open-weight
-checkpoints. CCPR remains part of the longer-term roadmap but is not the next
-execution milestone. The current transition is documented in the
-[2026-08-27 research log](papers/doppelganger-jc/notes/2026-08-27-post-meeting-research-log.md).
+checkpoints. The first clean matched-probe pilot is complete; the next gate is
+personal review of its stable, scoring-sensitive, and upper-layer-unstable
+cases before any confirmatory scale-up. CCPR remains part of the longer-term
+roadmap but is not the next execution milestone. The transition and pilot are
+documented in the [2026-08-27 research log](papers/doppelganger-jc/notes/2026-08-27-post-meeting-research-log.md)
+and [2026-08-29 research log](papers/doppelganger-jc/notes/2026-08-29-clean-matched-probe-research-log.md).
 
 ## Citation and license
 

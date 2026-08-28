@@ -22,6 +22,7 @@ Each experiment has a separate Markdown record. Confirmatory plans are distingui
 - [Mistral-7B-Instruct-v0.2 Japanese-to-Chinese run](EXP-20260825-mistral-7b.md)
 - [Gemma-7B Japanese-to-Chinese run](EXP-20260825-gemma-7b.md)
 - [Llama and Gemma gated-access audit](EXP-20260825-gated-model-access.md)
+- [Qwen3-8B five-item clean matched-probe pilot](EXP-20260829-clean-matched-probe-five-items.md)
 
 ## Record requirements
 

@@ -11,7 +11,8 @@ checkpoints, credentials, and raw cloud logs are not distributed here.
 - `causal/`: six orthography-intervention score files, summaries, and a
   text-free material manifest;
 - `analysis/`: cross-model aggregates, diagnostics, bootstrap results, and
-  analysis manifests.
+  analysis manifests, including the text-free Qwen3-8B five-item clean
+  matched-probe pilot.
 
 Every public JSONL uses schema `scores_only_v1`. It retains the numeric evidence
 needed to recompute accuracies, wrong-option distributions, score disagreements,

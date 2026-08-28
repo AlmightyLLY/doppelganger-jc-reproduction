@@ -16,6 +16,9 @@ These are the scripts used to construct, run, validate, and analyze the reported
 | `export_public_artifacts.py` | Export scores-only artifacts while stripping benchmark and intervention text. |
 | `audit_public_artifacts.py` | Enforce the public data boundary. |
 | `validate_repository.py` | Validate all 18 committed raw runs. |
+| `validate_clean_matched_probe_public.py` | Recompute and validate the text-free five-item matched-probe artifact. |
+| `adjudicate_clean_matched_probe_topk_ties.py` | Audit only exact top-k cutoff-tie omissions while preserving the frozen validator record. |
+| `finalize_clean_matched_probe_pilot.py` | Merge validated pilot scores, authorization, cost, and cleanup provenance into a local final report. |
 | `analyze_multimodel_translation.py` | Aggregate aligned per-item translation outputs across models. |
 | `analyze_orthography_multimodel_replication.py` | Recompute cross-model orthography effects and paired bootstrap intervals. |
 

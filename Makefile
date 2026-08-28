@@ -11,6 +11,7 @@ audit:
 check:
 	$(PYTHON) scripts/audit_public_artifacts.py
 	$(PYTHON) scripts/validate_repository.py
+	$(PYTHON) scripts/validate_clean_matched_probe_public.py
 
 data-check:
 	$(PYTHON) scripts/audit_public_artifacts.py
