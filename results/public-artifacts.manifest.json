@@ -1,6 +1,6 @@
 {
   "schema": "public_artifact_manifest_v1",
-  "export_date": "2026-08-29",
+  "export_date": "2026-08-30",
   "public_artifact_schema": "scores_only_v1",
   "upstream_commit": "eb1c4f3f17403af238046bf218dc49643bc2e2e2",
   "join_key": "item_index",
@@ -366,6 +366,12 @@
       "kind": "derived_analysis",
       "private_source_sha256": "3270ad8fd794db4efd5c781c9839cf122eb80a3d5b8cf5ef51f85028f4391250",
       "public_sha256": "b0c5f30455c820527c8bd63a02367d5137f1d3d1284d307805260e5f360d4fb0"
+    },
+    {
+      "path": "results/analysis/qwen3-8b-orthography-semantic-factorial-external-50-summary.json",
+      "kind": "derived_analysis",
+      "private_source_sha256": "dae3f5a7513da3f586dbae8b4a878dea6738c45f948abb07f99e802ca234c10a",
+      "public_sha256": "9de9877bb1a37b6248ffdf3e88207bb535bdf4b922ad45554c4d6f3afb9f12db"
     },
     {
       "path": "results/analysis/zh_jp-six-model-synthesis.json",

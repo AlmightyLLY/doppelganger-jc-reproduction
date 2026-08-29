@@ -91,5 +91,7 @@ Primary reports:
 - [Post-meeting research log: current-model audit and layer-wise diagnostics](notes/2026-08-27-post-meeting-research-log.md)
 - [Clean matched-probe research log](notes/2026-08-29-clean-matched-probe-research-log.md)
 - [Five-item Qwen3-8B clean matched-probe pilot](experiments/EXP-20260829-clean-matched-probe-five-items.md)
+- [Fifty-item factorial external-validation research log](notes/2026-08-30-factorial-external-validation-research-log.md)
+- [Qwen3-8B orthography × semantic-information external validation](experiments/EXP-20260830-orthography-semantic-factorial-external-50.md)
 
 Confirmatory plans and development records are listed in the [experiment index](experiments/README.md). Scores-only tables and analyses are listed in the [results archive](../../results/README.md).

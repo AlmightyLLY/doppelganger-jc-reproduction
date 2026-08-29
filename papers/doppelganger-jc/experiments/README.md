@@ -7,6 +7,7 @@ Each experiment has a separate Markdown record. Confirmatory plans are distingui
 - [Japanese-to-Chinese Translation Type-1: six-model synthesis](EXP-20260825-jp-zh-type1-six-model-synthesis.md)
 - [Chinese-to-Japanese Translation Type-1: six-model and bidirectional synthesis](EXP-20260825-zh-jp-type1-six-model-synthesis.md)
 - [Six-model kana intervention and orthographic-effect replication](EXP-20260825-orthography-six-model-replication.md)
+- [Qwen3-8B orthography × semantic-information external validation](EXP-20260830-orthography-semantic-factorial-external-50.md)
 
 ## Preregistered plans
 

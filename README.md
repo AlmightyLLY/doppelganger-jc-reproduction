@@ -41,7 +41,8 @@ Completed work:
 - dataset and duplicate-option checks;
 - manual review of a shared homograph-error subset;
 - a preregistered six-model kana intervention with an unrelated within-sentence negative control;
-- a recent-model behavior audit and an exploratory five-item Qwen3-8B clean matched probe with human-frozen semantic categories.
+- a recent-model behavior audit and an exploratory five-item Qwen3-8B clean matched probe with human-frozen semantic categories;
+- a result-blind, AI-curated 50-item Qwen3-8B factorial external validation of target-form removal and contextual semantic information.
 
 The seventh checkpoint, `meta-llama/Llama-3.1-8B-Instruct`, was not evaluated because access to the gated model was denied. No substitute checkpoint is reported as an exact reproduction.
 
@@ -52,6 +53,7 @@ The seventh checkpoint, `meta-llama/Llama-3.1-8B-Instruct`, was not evaluated be
 | The homograph-based `wrong1` option attracts a large share of errors. | 69.5%–85.3% of official Japanese-to-Chinese errors across six models. | Descriptive concentration alone does not establish causality. |
 | Visible target-word orthography affects candidate preference. | Frozen 382-item intervention; six-model mean effect `+0.136`, paired bootstrap 95% CI `[+0.100, +0.173]`. | The result concerns the correct-versus-`wrong1` NLL margin under this design. |
 | Removing kanji is not a universal correction. | Accuracy improved for two models, declined for three, and was nearly unchanged for one. | Orthographic information can be useful evidence or a misleading shortcut. |
+| Semantic information changes when form removal is useful. | On 30 new AI-curated unsafe items, target-form removal with a gloss improved the margin on 22 items; mean `+0.240`, 95% CI `[+0.021, +0.460]`. The fixed branch improved from 46/50 to 49/50. | The set is not human gold; controls were at ceiling, the discrete McNemar test was `p=0.25`, and no router or free generation was tested. |
 | Evaluation is scoring-sensitive. | Official and candidate-only rankings differ systematically, with a documented candidate-length effect in the official score. | Candidate-only scoring is a diagnostic, not a replacement paper metric. |
 
 These results motivate a reliability-aware question: when should a model retain a form-derived lexical proposal, and when should it trigger semantic verification or retrieval?
@@ -102,15 +104,15 @@ artifacts, and text can be rejoined locally by `item_index`.
 
 ## Status and next step
 
-The Doppelganger-JC Translation Type-1 reproduction is frozen. Following a
-research-planning discussion, the immediate priority is now a small, audited
-mechanism study of the remaining homograph behavior in recent open-weight
-checkpoints. The first clean matched-probe pilot is complete; the next gate is
-personal review of its stable, scoring-sensitive, and upper-layer-unstable
-cases before any confirmatory scale-up. CCPR remains part of the longer-term
-roadmap but is not the next execution milestone. The transition and pilot are
-documented in the [2026-08-27 research log](papers/doppelganger-jc/notes/2026-08-27-post-meeting-research-log.md)
-and [2026-08-29 research log](papers/doppelganger-jc/notes/2026-08-29-clean-matched-probe-research-log.md).
+The Doppelganger-JC Translation Type-1 reproduction is frozen. The subsequent
+Qwen3-8B factorial external validation passed its preregistered scientific and
+fixed-method gates on a result-blind AI-curated set. The immediate priority is
+now bilingual and preferably Japanese-native-speaker audit, followed by a
+fresh group-disjoint human-reviewed confirmation. Another model, multilingual
+expansion, and router development remain downstream of that gate. CCPR remains
+part of the longer-term roadmap but is not the next execution milestone. See
+the [2026-08-30 research log](papers/doppelganger-jc/notes/2026-08-30-factorial-external-validation-research-log.md)
+and [formal experiment report](papers/doppelganger-jc/experiments/EXP-20260830-orthography-semantic-factorial-external-50.md).
 
 ## Citation and license
 

@@ -1,0 +1,156 @@
+{
+  "schema": "factorial_external_ai_curated_50_public_summary_v1",
+  "public_artifact_schema": "aggregate_only_v1",
+  "experiment_id": "factorial-external-ai-curated-50-v1",
+  "run_date_jst": "2026-08-30",
+  "model": "Qwen/Qwen3-8B",
+  "model_revision": "b968826d9c46dd6066d109eabc6255188de91218",
+  "epistemic_status": "AI_CURATED_RESULT_BLIND_EXTERNAL_VALIDATION",
+  "not_statuses": [
+    "HUMAN_CONFIRMED_GOLD",
+    "NATIVE_SPEAKER_ADJUDICATED",
+    "INDEPENDENT_DOUBLE_HUMAN_ANNOTATION"
+  ],
+  "benchmark_text_included": false,
+  "candidate_text_included": false,
+  "annotation_scope": {
+    "items": 50,
+    "strict_unsafe": 30,
+    "form_reliable_control": 20,
+    "connected_components": 50,
+    "pass1_reviewed": 111,
+    "pass1_accept": 77,
+    "pass1_caution": 34,
+    "pass2_final_accept": 50,
+    "pass2_final_caution": 4,
+    "pass2_final_reject": 57
+  },
+  "conditions": [
+    "F0G0",
+    "F0G1",
+    "F1G0",
+    "F1G1",
+    "U1G0",
+    "U1G1"
+  ],
+  "primary_metric": "complete_candidate_teacher_forced_mean_nll",
+  "candidate_scoring_jobs": 600,
+  "accuracy": {
+    "all_50": {
+      "F0G0": [46, 50],
+      "F0G1": [48, 50],
+      "F1G0": [47, 50],
+      "F1G1": [49, 50],
+      "U1G0": [46, 50],
+      "U1G1": [48, 50]
+    },
+    "strict_unsafe_30": {
+      "F0G0": [26, 30],
+      "F0G1": [28, 30],
+      "F1G0": [27, 30],
+      "F1G1": [29, 30],
+      "U1G0": [26, 30],
+      "U1G1": [28, 30]
+    },
+    "form_reliable_control_20": {
+      "F0G0": [20, 20],
+      "F0G1": [20, 20],
+      "F1G0": [20, 20],
+      "F1G1": [20, 20],
+      "U1G0": [20, 20],
+      "U1G1": [20, 20]
+    }
+  },
+  "primary_fixed_comparison": {
+    "left": "F0G0",
+    "right": "F1G1",
+    "left_correct": 46,
+    "right_correct": 49,
+    "rescues": 3,
+    "harms": 0,
+    "acceptable_to_acceptable_changes": 0,
+    "accuracy_difference": 0.06,
+    "item_bootstrap_95ci": [0.0, 0.14],
+    "bootstrap_repetitions": 10000,
+    "exact_mcnemar_two_sided_p": 0.25
+  },
+  "unsafe_continuous_effects": {
+    "E_form_with_gloss": {
+      "positive": 22,
+      "n": 30,
+      "mean": 0.23981507789390422,
+      "median": 0.23860698895495358,
+      "item_bootstrap_95ci_mean": [0.021316612741664683, 0.4604342423749815]
+    },
+    "E_control_adjusted_with_gloss": {
+      "positive": 22,
+      "n": 30,
+      "mean": 0.30309223710266053,
+      "median": 0.3883809168697828,
+      "item_bootstrap_95ci_mean": [0.0602713621556193, 0.5337056213835998]
+    },
+    "E_unrelated_with_gloss": {
+      "positive": 9,
+      "n": 30,
+      "mean": -0.06327715920875633,
+      "median": -0.031625412179673074,
+      "item_bootstrap_95ci_mean": [-0.14327634440823092, 0.011400338335944536]
+    },
+    "factorial_interaction": {
+      "positive": 21,
+      "n": 30,
+      "mean": 0.4478648857817428,
+      "median": 0.2971922037003616,
+      "item_bootstrap_95ci_mean": [0.1403178896933253, 0.8153826657297909]
+    }
+  },
+  "form_reliable_continuous_effect": {
+    "E_form_with_gloss_positive": 2,
+    "E_form_with_gloss_negative": 18,
+    "n": 20,
+    "mean": -0.4420810010734682,
+    "median": -0.4269894964605294,
+    "item_bootstrap_95ci_mean": [-0.6047405178020363, -0.2846637692565263]
+  },
+  "sensitivity": {
+    "scoring_sensitive_items": 4,
+    "scoring_stable_items": 46,
+    "stable_F0G0_correct": 43,
+    "stable_F1G1_correct": 45,
+    "equal_length_items": 21,
+    "equal_length_F0G0_correct": 20,
+    "equal_length_F1G1_correct": 21,
+    "unequal_length_items": 29,
+    "unequal_length_F0G0_correct": 26,
+    "unequal_length_F1G1_correct": 28
+  },
+  "oracle": {
+    "F0G0_or_F1G1_correct": 49,
+    "n": 50,
+    "headroom_over_F0G0": 3,
+    "headroom_over_stronger_fixed_branch": 0
+  },
+  "frozen_gate_outcome": "STRONG_EXTERNAL_SUPPORT_AI_CURATED_NOT_HUMAN_GOLD",
+  "technical_validation": {
+    "valid_reconstructible_scores": 600,
+    "final_projection_max_abs_diff": 0.0,
+    "technical_retry_used": false,
+    "active_compute_cost_usd_approx": 0.04059780490069445,
+    "pod_final_status": "EXITED_STOPPED"
+  },
+  "provenance_hashes": {
+    "private_raw_output_sha256": "49de2c8c2beb0e1d7ed74f4f653fa56380cb19f03f51531bf8410bec47c2363b",
+    "private_material_sha256": "bb61bf13e203f578215ec9550b5de83810aff6a265598676c235fca904104c06",
+    "private_preregistration_sha256": "d13a43010d655a21f1b47ff9873fc11d8e25b3096daa45660682bdf0cbb68bc2",
+    "private_machine_summary_sha256": "dae3f5a7513da3f586dbae8b4a878dea6738c45f948abb07f99e802ca234c10a"
+  },
+  "interpretation_boundary": [
+    "not human-gold confirmation",
+    "not native-speaker validation",
+    "not free-generation evaluation",
+    "not deployment evidence",
+    "not multilingual generalization",
+    "not an internal causal-mechanism result",
+    "not a router evaluation"
+  ]
+}
