@@ -1,0 +1,55 @@
+{
+  "record_type": "human_audit_confirmation",
+  "confirmation_date": "2026-08-30",
+  "timezone": "Asia/Tokyo",
+  "confirmed_by": "LIU Lingyun",
+  "annotation_provenance": "ASSISTANT_DRAFTED_LINGYUN_REVIEWED_AND_CONFIRMED",
+  "epistemic_status": {
+    "human_confirmed": true,
+    "independent_double_human_annotation": false,
+    "native_speaker_adjudicated": false,
+    "confirmatory_test_set": false
+  },
+  "publication_boundary": {
+    "raw_workbooks_publicly_distributed": false,
+    "reason": "The workbooks contain source sentences, candidate materials, and blind-review information stored under the repository's ignored private research_notes workspace."
+  },
+  "artifacts": [
+    {
+      "artifact_id": "wave2_jc_human_review",
+      "local_path": "research_notes/2026-08-30/external_corpus_hard_jc_mining_wave2_v1/11-HUMAN-REVIEW-PACKET-HUMAN-CONFIRMED.xlsx",
+      "sha256": "7752e9ba0d2d2ce12b1481514d3e04f8d16ba25a47e443613f0958edf8b807da",
+      "rows": 13,
+      "confirmed_fields": 91,
+      "outcomes": {
+        "ACCEPT": 10,
+        "REVISE": 3,
+        "REJECT": 0
+      }
+    },
+    {
+      "artifact_id": "wave2_target_only_audit",
+      "local_path": "research_notes/2026-08-30/wave2_repairable_development_bank_v1/09-TARGET-ONLY-BLIND-AUDIT-PACKET-HUMAN-CONFIRMED.xlsx",
+      "sha256": "7964e08031ae69504a1eaf296672af3fec7abc5c4329005593511bb353d00531",
+      "rows": 9,
+      "confirmed_fields": 81,
+      "diagnostic_flags": {
+        "carrier_leakage": 1,
+        "trivially_rejectable_from_chinese_alone": 2
+      }
+    },
+    {
+      "artifact_id": "wave2_bilingual_semantic_audit",
+      "local_path": "research_notes/2026-08-30/wave2_repairable_development_bank_v1/10-BILINGUAL-BLIND-AUDIT-PACKET-HUMAN-CONFIRMED.xlsx",
+      "sha256": "eaafe93c3c8b0e5d5c66daa011436eacc9b98692b2325fc773d6583e05d65c53",
+      "rows": 9,
+      "confirmed_fields": 81,
+      "outcomes": {
+        "ACCEPT": 5,
+        "REVISE": 3,
+        "REJECT": 1
+      }
+    }
+  ],
+  "next_gate": "Apply frozen ACCEPT/REVISE/REJECT outcomes during versioned data cleaning; do not launch a model from this record alone."
+}
