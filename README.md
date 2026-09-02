@@ -81,6 +81,8 @@ This is a high-quality partial reproduction of the paper's bidirectional Transla
 Start with the [Doppelganger-JC study overview](papers/doppelganger-jc/README.md). Detailed experiment records are indexed in [papers/doppelganger-jc/experiments](papers/doppelganger-jc/experiments/README.md).
 The evolution from reproduction to the revised reliability-aware research theme
 is summarized in [Research Trajectory and Revised Research Agenda](papers/doppelganger-jc/notes/2026-08-26-research-trajectory-and-revised-theme.md).
+The post-Wave-2 development results and current mechanism/utility gates are
+summarized in [Research Progress Since the Wave 2 Human Audit](papers/doppelganger-jc/notes/2026-09-03-research-progress-since-wave2.md).
 
 ## Reproducibility policy
 
@@ -104,15 +106,19 @@ artifacts, and text can be rejoined locally by `item_index`.
 
 ## Status and next step
 
-The Doppelganger-JC Translation Type-1 reproduction is frozen. The subsequent
-Qwen3-8B factorial external validation passed its preregistered scientific and
-fixed-method gates on a result-blind AI-curated set. The immediate priority is
-now bilingual and preferably Japanese-native-speaker audit, followed by a
-fresh group-disjoint human-reviewed confirmation. Another model, multilingual
-expansion, and router development remain downstream of that gate. CCPR remains
-part of the longer-term roadmap but is not the next execution milestone. See
-the [2026-08-30 research log](papers/doppelganger-jc/notes/2026-08-30-factorial-external-validation-research-log.md)
-and [formal experiment report](papers/doppelganger-jc/experiments/EXP-20260830-orthography-semantic-factorial-external-50.md).
+The reproduction and controlled input-intervention stages are frozen. New
+development experiments show contextual relation signal and itemwise branch
+complementarity, but two weak selector formulations failed their registered
+gates. The main design has therefore shifted to CURE-JC: utility-guided choice
+among `KEEP`, `MINIMAL_EDIT`, and `ABSTAIN`.
+
+The 120-item bidirectional lexical-conflict mechanism pilot is now human
+reviewed, split, prompt-frozen, and pre-model ready; at this public cutoff it
+has made zero formal forward passes. The next primary step is the development
+split and layer-wise diagnostics, with activation patching and held-out
+evaluation conditional on the registered gates. The fresh-math study remains
+a secondary transfer test and has no formal correction-utility result. See the
+[2026-09-03 progress update](papers/doppelganger-jc/notes/2026-09-03-research-progress-since-wave2.md).
 
 ## Citation and license
 

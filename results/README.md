@@ -13,7 +13,8 @@ checkpoints, credentials, and raw cloud logs are not distributed here.
 - `analysis/`: cross-model aggregates, diagnostics, bootstrap results, and
   analysis manifests, including the text-free Qwen3-8B five-item clean
   matched-probe pilot and the aggregate-only 50-item orthography ×
-  semantic-information external validation.
+  semantic-information external validation, plus aggregate-only development
+  progress records for the relation, selector, mechanism, and utility pilots.
 
 Every public JSONL uses schema `scores_only_v1`. It retains the numeric evidence
 needed to recompute accuracies, wrong-option distributions, score disagreements,

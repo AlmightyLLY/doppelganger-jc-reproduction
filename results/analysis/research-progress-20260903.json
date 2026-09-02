@@ -1,0 +1,164 @@
+{
+  "record_type": "research_progress_update",
+  "as_of_date": "2026-09-03",
+  "timezone": "Asia/Shanghai",
+  "remote_baseline_commit": "91bae0a560eb948303b2ba753044dd3e3a093a25",
+  "research_position": "BETWEEN_MECHANISM_VALIDATION_AND_CANDIDATE_GENERATION_FEASIBILITY",
+  "completed_development_results": {
+    "contextual_relation": {
+      "items": 22,
+      "word_only_correct": 11,
+      "word_only_accuracy": 0.5,
+      "full_context_correct": 18,
+      "full_context_accuracy": 0.8181818181818182,
+      "interpretation": "CONTEXT_CONTAINS_RELATION_SIGNAL_NOT_ACTION_POLICY"
+    },
+    "open_output_branch_complementarity": {
+      "items": 22,
+      "original_strict_acceptable": 10,
+      "verification_strict_acceptable": 8,
+      "itemwise_human_outcome_oracle": 15,
+      "verification_only_rescues": 5,
+      "original_only_correct": 7,
+      "frozen_selector_correct": 6,
+      "status": "DOWNSTREAM_BRANCH_HEADROOM_PRESENT_SELECTOR_NOT_IMPROVED",
+      "annotation_scope": "SINGLE_REVIEWER_ASSISTED_DRAFT_NOT_INDEPENDENT_DOUBLE_HUMAN_OR_NATIVE_GOLD"
+    },
+    "utility_proxy_selector": {
+      "items": 22,
+      "predicted_neither_both_candidate_orders": 22,
+      "fallback": "ORIGINAL",
+      "selector_correct": 10,
+      "verification_only_rescues_captured": 0,
+      "verification_only_rescues_available": 5,
+      "status": "EXP_R3_SELECTOR_FEASIBILITY_GATE_FAIL"
+    },
+    "large_development_branch_test": {
+      "items": 1522,
+      "baseline_accuracy": 0.5276,
+      "verification_accuracy": 0.53417,
+      "selector_accuracy": 0.53285,
+      "itemwise_oracle_accuracy": 0.55519,
+      "verification_only_successes": 42,
+      "baseline_only_successes": 32,
+      "oracle_headroom_over_best_fixed_percentage_points": 2.102,
+      "status": "EXP_R5A_NO_GO_NO_CLOSED_CHOICE_BRANCH_HEADROOM",
+      "scope": "DEVELOPMENT_ONLY_PREVIOUSLY_USED_BENCHMARK",
+      "sealed_diagnostic_test_opened": false,
+      "sealed_diagnostic_test_scored": false
+    },
+    "fresh_relation_holdout": {
+      "included_items": 17,
+      "same_items": 14,
+      "different_items": 3,
+      "minimum_required_per_relation": 5,
+      "status": "EXP_R4_FRESH_RELATION_HOLDOUT_NO_GO_INSUFFICIENT_HUMAN_CONFIRMED_DIFFERENT"
+    }
+  },
+  "cure_jc": {
+    "expansion": "COUNTERFACTUAL_UTILITY_GUIDED_MINIMAL_TRANSLATION_REPAIR_AND_ESCALATION",
+    "action_space": [
+      "KEEP",
+      "MINIMAL_EDIT",
+      "ABSTAIN"
+    ],
+    "generation_kill_test_items": 60,
+    "model": "Qwen3-8B",
+    "model_revision_pinned": true,
+    "review_scope": "AI_ONLY_TWO_PASS_NOT_HUMAN_GOLD",
+    "positive_feasibility_claim": false,
+    "selector_trained": false,
+    "observed_failure_classes": [
+      "UNCHANGED_OUTPUT",
+      "FRAGMENT",
+      "ANALYSIS_TRACE",
+      "NONLOCAL_OR_FULL_SENTENCE_REWRITE"
+    ],
+    "fresh_phase0_requirements": {
+      "strictly_local_edits": true,
+      "minimum_independent_bilingual_reviewers": 2,
+      "minimum_oracle_headroom_percentage_points": 5
+    }
+  },
+  "lexical_conflict_mechanism_v2": {
+    "status": "LEXICAL_CONFLICT_PILOT_V2_PRE_MODEL_READY",
+    "items": 120,
+    "relation_counts": {
+      "SAME": 25,
+      "DIFFERENT": 95
+    },
+    "direction_counts": {
+      "JA_TO_ZH": 60,
+      "ZH_TO_JA": 60
+    },
+    "split_counts": {
+      "development": 96,
+      "held_out": 24
+    },
+    "frozen_prompts": 720,
+    "human_reviewed_replacements": 19,
+    "unique_item_ids": 120,
+    "unique_lexical_components": 120,
+    "unique_contexts": 120,
+    "formal_forward_passes_at_cutoff": 0,
+    "logit_lens_executed_at_cutoff": false,
+    "activation_patching_executed_at_cutoff": false,
+    "held_out_evaluation_executed_at_cutoff": false,
+    "hashes": {
+      "final_sample_sha256": "7329bfb236e0d2cb0f7d51564e7222b6de35790e6ec037059020780037a38915",
+      "split_sha256": "dc6d416c89e39f8001ecf2df9ec7efb1e440e7ff388c2476f95527e54c88fd2e",
+      "prompt_manifest_sha256": "4c1189c2b4aad18face7625e768bc5312ab1f7449ef6c2477dcfa590fc8998b2",
+      "version_manifest_sha256": "2db1c40982f8ad09bdc8ad2204f7493691af8a6898e93a48a9f015e43b7f394f"
+    }
+  },
+  "freshmath_side_study": {
+    "status": "UTILITY_PILOT_BLOCKED",
+    "published_rows": 1527,
+    "cleaned_admissible_records": 1333,
+    "screening_items": 80,
+    "primary_items": 300,
+    "completed_checkpoints_before_stop": 70,
+    "formal_screening_gate_executed": false,
+    "nonformal_diagnostic": {
+      "valid": 4,
+      "missing_final": 63,
+      "truncated": 3,
+      "maximum_possible_valid_if_all_unobserved_pass": 14,
+      "required_valid": 76
+    },
+    "interpretation": "PIPELINE_FORMAT_FAILURE_NOT_CORRECTION_UTILITY_RESULT",
+    "revised_run_status": "IN_PREPARATION"
+  },
+  "compute_policy": {
+    "primary": "SHARED_LABORATORY_GPU_WHEN_MEMORY_PERMITS",
+    "exclusive_gpu_required": false,
+    "paid_runpod_fallback_authorized": false,
+    "cash_compute_cost_for_REPORTED_LAB_RUN": 0
+  },
+  "current_supported_summary": [
+    "REPRODUCTION_AND_MEASUREMENT_AUDIT_COMPLETE",
+    "VISIBLE_ORTHOGRAPHY_CAUSALLY_AFFECTS_CANDIDATE_PREFERENCE_UNDER_THE_REGISTERED_DESIGN",
+    "CONTEXT_IMPROVES_RELATION_JUDGMENT_ON_THE_FROZEN_DEVELOPMENT_SET",
+    "ALTERNATIVE_REASONING_BRANCHES_SHOW_ITEMWISE_COMPLEMENTARITY",
+    "TWO_WEAK_SELECTOR_FORMULATIONS_FAILED_REGISTERED_GATES",
+    "LEXICAL_CONFLICT_MECHANISM_PILOT_IS_PRE_MODEL_READY"
+  ],
+  "not_yet_supported": [
+    "DEPLOYABLE_CORRECTION_SYSTEM",
+    "CONFIRMATORY_SELECTOR_BENEFIT",
+    "POSITIVE_CURE_JC_FEASIBILITY",
+    "LATE_LAYER_SUPPRESSION_MECHANISM",
+    "CAUSAL_RECOVERY_BY_ACTIVATION_PATCHING",
+    "FRESHMATH_CORRECTION_UTILITY"
+  ],
+  "publication_boundary": {
+    "aggregate_results_and_hashes_only": true,
+    "source_sentences_included": false,
+    "candidate_translations_included": false,
+    "human_review_workbooks_included": false,
+    "raw_model_generations_included": false,
+    "credentials_included": false,
+    "laboratory_host_or_account_details_included": false,
+    "raw_operational_logs_included": false
+  }
+}

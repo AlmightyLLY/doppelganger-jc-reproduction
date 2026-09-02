@@ -93,5 +93,6 @@ Primary reports:
 - [Five-item Qwen3-8B clean matched-probe pilot](experiments/EXP-20260829-clean-matched-probe-five-items.md)
 - [Fifty-item factorial external-validation research log](notes/2026-08-30-factorial-external-validation-research-log.md)
 - [Qwen3-8B orthography × semantic-information external validation](experiments/EXP-20260830-orthography-semantic-factorial-external-50.md)
+- [Research progress since the Wave 2 human audit](notes/2026-09-03-research-progress-since-wave2.md)
 
 Confirmatory plans and development records are listed in the [experiment index](experiments/README.md). Scores-only tables and analyses are listed in the [results archive](../../results/README.md).
