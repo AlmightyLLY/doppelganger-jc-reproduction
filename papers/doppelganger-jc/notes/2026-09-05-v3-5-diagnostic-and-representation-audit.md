@@ -37,6 +37,16 @@ with a late-layer separation between local semantic geometry and the final
 companion decision-state geometry, but it remains association evidence rather
 than evidence of behavioral use or causal mediation.
 
+A subsequently frozen post-result robustness analysis used the 40 item
+families as independent clusters, retained all 36 layers and both orders, and
+applied a leave-one-family-out common-mean correction. The association survived
+that correction, but factorial decomposition showed that the semantic-site
+cosines primarily track shared-form identity. Descriptive same- versus
+different-sense separation appeared instead at the companion decision site.
+This sharpens the analysis into a form-encoding versus decision-geometry
+dissociation while also ruling out a stronger claim of direct semantic
+transmission from the target span.
+
 ## V3.5A material expansion and review
 
 The exploratory material pool was expanded through result-blind,
@@ -191,6 +201,49 @@ pre-choice state. It does not show whether the model used the information,
 whether either site is necessary or sufficient, or whether one mediates the
 behavioral effect.
 
+## Post-result robustness and factorial decomposition
+
+After the original repaired-run curve had been observed, a separate analysis
+charter was frozen for explicitly post-result exploratory robustness checks.
+It treated the 40 item families, rather than the 320 repeated condition-by-form
+units, as the independent bootstrap clusters. All 36 layers and both orders
+were retained, with 10,000 fixed item-family bootstrap draws and no p-values,
+binary gate, or result-selected layer.
+
+The pooled `S_COMPANION`--`D_COMPANION` association remained positive across
+all layers. Raw coefficients ranged from 0.1119 to 0.6491; coefficients after
+leave-one-family-out common-mean centering ranged from 0.1081 to 0.6147. Every
+layer's family-cluster percentile interval remained above zero in both
+versions, and the mean absolute raw-versus-centered coefficient change was
+0.0160. Subtracting this one shared direction therefore did not explain away
+the curve, although it cannot remove every possible source of anisotropy or
+template structure.
+
+The factorial contrasts materially qualify the meaning of that association:
+
+- `S_JOINT` and `S_COMPANION` showed positive shared-form contrasts at all 36
+  layers, but their same- versus different-sense contrasts and interactions
+  were exactly zero throughout the frozen schedule;
+- `D_COMPANION` showed positive descriptive sense contrasts at all 36 layers
+  before and after centering, including within each direction-by-`O`-form
+  stratum;
+- the raw decision-site cosine was strongly ceiling-compressed, with layer
+  means between 0.9819 and 0.9999, whereas centering expanded the observable
+  decision-site geometry;
+- the decision-site form-by-sense interaction interval excluded zero at 31 of
+  36 layers in the aggregate analysis, but its cross-stratum heterogeneity is
+  retained as description rather than promoted into a new endpoint.
+
+The strongest defensible interpretation is therefore not that a locally
+measured semantic code is passed unchanged to the answer boundary. In this
+design, target-span cosine is dominated by shared-form identity, while the
+companion pre-choice state also separates the frozen sense conditions. The
+pooled association combines within-family and between-condition structure and
+cannot by itself establish item-level semantic transmission. This pattern is
+useful for the paper's `encode != use != cause` framework, but it remains
+post-result association evidence and does not establish decision use, causal
+mediation, necessity, sufficiency, or late-layer suppression.
+
 ## Auxiliary representation geometry
 
 A separate 10-item `multilingual-e5-small` cosine pilot is retained only as a
@@ -227,6 +280,14 @@ decision locations across every layer. This makes the distinction between
 encoded information and decision-aligned geometry measurable, while leaving
 the causal boundary intact.
 
+The post-result decomposition further raises the analysis ceiling by locating
+the dominant shared-form signal at the target span and the descriptive
+same/different-sense separation at the companion decision site. At the same
+time, it lowers the ceiling for a simpler ``early semantic encoding followed
+by late suppression'' account: the present target-span cosine does not isolate
+sense, and the pooled cross-site correlation is not a direct transmission
+test. The resulting story is narrower but methodologically stronger.
+
 The evidence is not yet ACL Main-ready. The principal missing components are
 independent bilingual human adjudication, replication on additional frozen
 model families, and a prospective confirmatory behavioral test with adequate
@@ -243,6 +304,10 @@ At this cutoff:
 - V3.5C-v1 is valid only for qualified target-span description;
 - V3.5C-v2.2 completed with all-layer, both-order descriptive representation
   associations and independent recomputation;
+- the V3.5C-v2.2 post-result robustness analysis is complete and independently
+  recomputed: the association survives one common-direction correction,
+  semantic-site cosine is form-dominated, and descriptive sense separation is
+  concentrated at the companion decision site;
 - Main, reserve, held-out, CoT, probes, and activation patching remain closed;
 - no paid compute is in use.
 
