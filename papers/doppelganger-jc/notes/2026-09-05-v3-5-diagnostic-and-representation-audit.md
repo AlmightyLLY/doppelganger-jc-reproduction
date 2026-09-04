@@ -30,10 +30,12 @@ the exported states. In addition, apparent candidate-order differences were
 traced to padded-batch numerical context rather than to the linguistic order
 manipulation. Those analyses were stopped rather than interpreted.
 
-The immediate next step is therefore a prospective decision-site rerun with
-symmetric member-specific companion prompts and fixed execution context. Its
-scientific design is frozen, but as of this update the corrected run has not
-yet produced scientific output.
+The immediate next step was therefore a prospective decision-site rerun with
+symmetric member-specific companion prompts and fixed execution context. That
+corrected run has now completed. Its all-layer descriptive curve is consistent
+with a late-layer separation between local semantic geometry and the final
+companion decision-state geometry, but it remains association evidence rather
+than evidence of behavioral use or causal mediation.
 
 ## V3.5A material expansion and review
 
@@ -125,7 +127,7 @@ V3.5B currently contributes exploratory decision-use evidence. V3.5C-v1
 provides partial descriptive encoding evidence. Neither supports causal
 mediation.
 
-## Prospective V3.5C decision-site repair
+## Prospective repair and completed V3.5C-v2.2 run
 
 The repair was designed before accessing any repaired-run result. It uses a
 symmetric six-prompt forward group for each family and order:
@@ -157,6 +159,38 @@ identity contract and a remote, no-model environment smoke check before a
 full dispatch. Reusing a failed authorization or silently relaxing path
 checks is prohibited.
 
+After binding the exact validated Python environment, the unchanged V3.5C-v2.2
+scientific run completed successfully:
+
+- 1,920 frozen prompts in 320 fixed `[6,147]` forward groups;
+- all 36 block-output layers and both candidate orders;
+- 69,120 complete, unique, finite scalar records;
+- approximately 1.13 GB of BF16 site tensors;
+- complete formula, shape, hash, execution-mode, path, and source-binding
+  validation;
+- an independent recomputation of every reported association, grand mean,
+  cell mean, and order diagnostic.
+
+The descriptive equal-order association between the companion semantic-site
+and decision-site quantities was 0.4427 at layer 1, rose to approximately
+0.66 around layers 5--6, and declined to 0.1529 at layer 36. All 36 layers
+remain visible; no layer was selected or promoted after observing the curve,
+and no inferential test was applied.
+
+The semantic-site quantities were exactly invariant to candidate order under
+the fixed execution grouping. The companion decision-site quantity retained
+a small order difference: mean absolute difference 0.00211 and maximum
+absolute difference 0.04163 across 11,520 comparisons. This is reported as a
+diagnostic property of the frozen companion prompts, not as proof of a
+linguistic order effect.
+
+The late-layer reduction in semantic-site/decision-site association is
+consistent with a representation--decision-location dissociation: semantic
+structure visible locally need not be preserved in the same geometry at the
+pre-choice state. It does not show whether the model used the information,
+whether either site is necessary or sufficient, or whether one mediates the
+behavioral effect.
+
 ## Auxiliary representation geometry
 
 A separate 10-item `multilingual-e5-small` cosine pilot is retained only as a
@@ -187,6 +221,12 @@ The new evidence improves the paper in three ways:
 - it documents a concrete numerical-execution nuisance that could otherwise
   be mistaken for linguistic order sensitivity.
 
+The completed V3.5C-v2.2 curve adds a fourth contribution: it supplies a
+prospectively repaired, execution-context-controlled comparison of semantic and
+decision locations across every layer. This makes the distinction between
+encoded information and decision-aligned geometry measurable, while leaving
+the causal boundary intact.
+
 The evidence is not yet ACL Main-ready. The principal missing components are
 independent bilingual human adjudication, replication on additional frozen
 model families, and a prospective confirmatory behavioral test with adequate
@@ -201,18 +241,16 @@ At this cutoff:
 - V3.5A core 40 and backup six are frozen as AI+PI exploratory materials;
 - V3.5B has a positive, interval-separated exploratory result on Qwen3-8B;
 - V3.5C-v1 is valid only for qualified target-span description;
-- the corrected decision-site rerun is prepared but has no scientific output;
+- V3.5C-v2.2 completed with all-layer, both-order descriptive representation
+  associations and independent recomputation;
 - Main, reserve, held-out, CoT, probes, and activation patching remain closed;
 - no paid compute is in use.
 
 The next evidence-bearing gates are:
 
-1. pass an environment-faithful, no-model remote smoke check;
-2. complete the frozen decision-site representation rerun without changing
-   the estimand or execution grouping;
-3. decide whether the combined behavioral and representation evidence is
+1. decide whether the combined behavioral and representation evidence is
    strong enough to justify independent bilingual human annotation;
-4. if justified, reproduce the behavioral effect with human-grounded
+2. if justified, reproduce the behavioral effect with human-grounded
    materials and additional predeclared models.
 
 ## Public/private boundary
