@@ -84,6 +84,8 @@ is summarized in [Research Trajectory and Revised Research Agenda](papers/doppel
 The post-Wave-2 development results and current mechanism/utility gates are
 summarized in [Research Progress Since the Wave 2 Human Audit](papers/doppelganger-jc/notes/2026-09-03-research-progress-since-wave2.md).
 
+Latest research updates: [September 6 results and paper assessment (Chinese)](papers/doppelganger-jc/notes/2026-09-06-research-results-and-paper-assessment.zh-CN.md), [September 5 V3.6 development bridge (Chinese)](papers/doppelganger-jc/notes/2026-09-05-v3-6-development-bridge.zh-CN.md), and [aggregate results](papers/doppelganger-jc/notes/2026-09-06-development-results-summary.json). The [V3.5 diagnostic log](papers/doppelganger-jc/notes/2026-09-05-v3-5-diagnostic-and-representation-audit.md) now includes the construct-validity correction; its original numerical results are retained.
+
 ## Reproducibility policy
 
 Each formal experiment records, where applicable:

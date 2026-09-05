@@ -1,0 +1,2496 @@
+{
+  "schema_version": 1,
+  "report_date": "2026-09-06",
+  "timezone": "Asia/Shanghai",
+  "public_baseline_commit": "d6309b9eff661f54a036e283f2b01f84be3c2407",
+  "public_baseline_local_date": "2026-09-05 03:35:24 +08:00",
+  "comparison_cutoff": "Completed local V3.6 interface followup before Sep 6 continuation; not the older public commit.",
+  "previous_local_cumulative": {
+    "execution_rows": 21504,
+    "forwards": 64421
+  },
+  "today": [
+    {
+      "stage": "background_scope_probe",
+      "new_generated_rows": 192,
+      "new_forwards": 1445,
+      "development_target_families": 1,
+      "unresolved_content": 35
+    },
+    {
+      "stage": "new_blocks",
+      "new_generated_rows": 768,
+      "new_forwards": 3965,
+      "development_target_families": 8,
+      "frozen_semantic_unresolved": 281
+    },
+    {
+      "stage": "full_response_measurement",
+      "new_generated_rows": 0,
+      "new_forwards": 0,
+      "review_cards": 190,
+      "reused_outputs": 768,
+      "usable_translation_unresolved": 99
+    },
+    {
+      "stage": "new_controls",
+      "new_generated_rows": 0,
+      "new_forwards": 0,
+      "draft_target_families": 8,
+      "token_matched_pilot_target_families": 2,
+      "token_matched_pairs_per_model": 88,
+      "unrun_initial_calls_per_model": 784
+    },
+    {
+      "stage": "multistep_pilot",
+      "new_generated_rows": 852,
+      "new_forwards": 14760,
+      "development_target_families": 2,
+      "review_cards": 292,
+      "exact_relation_scored_rows": 317
+    }
+  ],
+  "today_total": {
+    "new_generated_rows": 1812,
+    "forwards": 20170
+  },
+  "current_cumulative": {
+    "execution_rows": 23316,
+    "forwards": 84591
+  },
+  "counter_scope": "V3.6 development ledger only. Includes initial candidate-score rows and replay executions; excludes historical V3.5 representation records. Not independent sample size.",
+  "v36_previous_execution_ledger": [
+    {
+      "stage": "initial_candidate_scoring",
+      "executed_rows": 288,
+      "forwards": 288,
+      "documented_replay_rows": 0
+    },
+    {
+      "stage": "method_robustness",
+      "executed_rows": 576,
+      "forwards": 1820,
+      "documented_replay_rows": 0
+    },
+    {
+      "stage": "material_expansion",
+      "executed_rows": 1152,
+      "forwards": 2951,
+      "documented_replay_rows": 0
+    },
+    {
+      "stage": "task_diagnostic",
+      "executed_rows": 1344,
+      "forwards": 4134,
+      "documented_replay_rows": 0
+    },
+    {
+      "stage": "candidate_bridge",
+      "executed_rows": 1728,
+      "forwards": 5399,
+      "documented_replay_rows": 576
+    },
+    {
+      "stage": "marker_note_control",
+      "executed_rows": 3840,
+      "forwards": 11647,
+      "documented_replay_rows": 1728
+    },
+    {
+      "stage": "candidate_alignment",
+      "executed_rows": 3072,
+      "forwards": 9024,
+      "documented_replay_rows": 1536
+    },
+    {
+      "stage": "new_context_evidence",
+      "executed_rows": 4608,
+      "forwards": 13540,
+      "documented_replay_rows": 0
+    },
+    {
+      "stage": "new_family_transfer",
+      "executed_rows": 3456,
+      "forwards": 10897,
+      "documented_replay_rows": 0
+    },
+    {
+      "stage": "interface_followup",
+      "executed_rows": 1440,
+      "forwards": 4721,
+      "documented_replay_rows": 0
+    }
+  ],
+  "models": [
+    {
+      "key": "qwen",
+      "model_id": "Qwen/Qwen3-8B",
+      "revision": "b968826d9c46dd6066d109eabc6255188de91218"
+    },
+    {
+      "key": "llmjp",
+      "model_id": "llm-jp/llm-jp-4-8b-instruct",
+      "revision": "098f2b2cf33021eba19a6d3582aa3d071ccc0aff"
+    },
+    {
+      "key": "apertus",
+      "model_id": "swiss-ai/Apertus-8B-Instruct-2509",
+      "revision": "b946d40447b2b597999b9c86d44bee0b452c919f"
+    }
+  ],
+  "latest_task_summary": {
+    "qwen": {
+      "DIRECT": {
+        "content": {
+          "n": 120,
+          "correct": 68,
+          "wrong": 33,
+          "unresolved": 19,
+          "rate_bounds": [
+            0.5666666666666667,
+            0.725
+          ]
+        },
+        "language": {
+          "n": 120,
+          "correct": 108,
+          "wrong": 7,
+          "unresolved": 5,
+          "rate_bounds": [
+            0.9,
+            0.9416666666666667
+          ]
+        },
+        "format": {
+          "n": 120,
+          "correct": 107,
+          "wrong": 13,
+          "unresolved": 0,
+          "rate_bounds": [
+            0.8916666666666667,
+            0.8916666666666667
+          ]
+        },
+        "usable": {
+          "n": 120,
+          "correct": 65,
+          "wrong": 38,
+          "unresolved": 17,
+          "rate_bounds": [
+            0.5416666666666666,
+            0.6833333333333333
+          ]
+        },
+        "task_success": {
+          "n": 120,
+          "correct": 59,
+          "wrong": 47,
+          "unresolved": 14,
+          "rate_bounds": [
+            0.49166666666666664,
+            0.6083333333333333
+          ]
+        }
+      },
+      "SOURCE": {
+        "content": {
+          "n": 24,
+          "correct": 14,
+          "wrong": 4,
+          "unresolved": 6,
+          "rate_bounds": [
+            0.5833333333333334,
+            0.8333333333333334
+          ]
+        },
+        "language": {
+          "n": 24,
+          "correct": 24,
+          "wrong": 0,
+          "unresolved": 0,
+          "rate_bounds": [
+            1.0,
+            1.0
+          ]
+        },
+        "format": {
+          "n": 24,
+          "correct": 16,
+          "wrong": 8,
+          "unresolved": 0,
+          "rate_bounds": [
+            0.6666666666666666,
+            0.6666666666666666
+          ]
+        },
+        "usable": {
+          "n": 24,
+          "correct": 14,
+          "wrong": 4,
+          "unresolved": 6,
+          "rate_bounds": [
+            0.5833333333333334,
+            0.8333333333333334
+          ]
+        },
+        "task_success": {
+          "n": 24,
+          "correct": 10,
+          "wrong": 11,
+          "unresolved": 3,
+          "rate_bounds": [
+            0.4166666666666667,
+            0.5416666666666666
+          ]
+        }
+      },
+      "NOTE": {
+        "content": {
+          "n": 20,
+          "correct": 20,
+          "wrong": 0,
+          "unresolved": 0,
+          "rate_bounds": [
+            1.0,
+            1.0
+          ]
+        },
+        "language": {
+          "n": 20,
+          "correct": 20,
+          "wrong": 0,
+          "unresolved": 0,
+          "rate_bounds": [
+            1.0,
+            1.0
+          ]
+        },
+        "format": {
+          "n": 20,
+          "correct": 20,
+          "wrong": 0,
+          "unresolved": 0,
+          "rate_bounds": [
+            1.0,
+            1.0
+          ]
+        },
+        "usable": {
+          "n": 20,
+          "correct": 20,
+          "wrong": 0,
+          "unresolved": 0,
+          "rate_bounds": [
+            1.0,
+            1.0
+          ]
+        },
+        "task_success": {
+          "n": 20,
+          "correct": 20,
+          "wrong": 0,
+          "unresolved": 0,
+          "rate_bounds": [
+            1.0,
+            1.0
+          ]
+        },
+        "exact_copy_n": 0
+      },
+      "RELATION": {
+        "content": {
+          "n": 120,
+          "correct": 60,
+          "wrong": 58,
+          "unresolved": 2,
+          "rate_bounds": [
+            0.5,
+            0.5166666666666667
+          ]
+        },
+        "language": {
+          "n": 120,
+          "correct": 120,
+          "wrong": 0,
+          "unresolved": 0,
+          "rate_bounds": [
+            1.0,
+            1.0
+          ]
+        },
+        "format": {
+          "n": 120,
+          "correct": 110,
+          "wrong": 10,
+          "unresolved": 0,
+          "rate_bounds": [
+            0.9166666666666666,
+            0.9166666666666666
+          ]
+        },
+        "usable": {
+          "n": 120,
+          "correct": 60,
+          "wrong": 58,
+          "unresolved": 2,
+          "rate_bounds": [
+            0.5,
+            0.5166666666666667
+          ]
+        },
+        "task_success": {
+          "n": 120,
+          "correct": 59,
+          "wrong": 61,
+          "unresolved": 0,
+          "rate_bounds": [
+            0.49166666666666664,
+            0.49166666666666664
+          ]
+        },
+        "evidence": {
+          "n": 120,
+          "correct": 78,
+          "wrong": 40,
+          "unresolved": 2,
+          "rate_bounds": [
+            0.65,
+            0.6666666666666666
+          ]
+        },
+        "scope": {
+          "n": 120,
+          "correct": 75,
+          "wrong": 43,
+          "unresolved": 2,
+          "rate_bounds": [
+            0.625,
+            0.6416666666666667
+          ]
+        }
+      }
+    },
+    "llmjp": {
+      "DIRECT": {
+        "content": {
+          "n": 120,
+          "correct": 75,
+          "wrong": 20,
+          "unresolved": 25,
+          "rate_bounds": [
+            0.625,
+            0.8333333333333334
+          ]
+        },
+        "language": {
+          "n": 120,
+          "correct": 118,
+          "wrong": 2,
+          "unresolved": 0,
+          "rate_bounds": [
+            0.9833333333333333,
+            0.9833333333333333
+          ]
+        },
+        "format": {
+          "n": 120,
+          "correct": 77,
+          "wrong": 43,
+          "unresolved": 0,
+          "rate_bounds": [
+            0.6416666666666667,
+            0.6416666666666667
+          ]
+        },
+        "usable": {
+          "n": 120,
+          "correct": 75,
+          "wrong": 22,
+          "unresolved": 23,
+          "rate_bounds": [
+            0.625,
+            0.8166666666666667
+          ]
+        },
+        "task_success": {
+          "n": 120,
+          "correct": 57,
+          "wrong": 61,
+          "unresolved": 2,
+          "rate_bounds": [
+            0.475,
+            0.49166666666666664
+          ]
+        }
+      },
+      "SOURCE": {
+        "content": {
+          "n": 24,
+          "correct": 22,
+          "wrong": 0,
+          "unresolved": 2,
+          "rate_bounds": [
+            0.9166666666666666,
+            1.0
+          ]
+        },
+        "language": {
+          "n": 24,
+          "correct": 24,
+          "wrong": 0,
+          "unresolved": 0,
+          "rate_bounds": [
+            1.0,
+            1.0
+          ]
+        },
+        "format": {
+          "n": 24,
+          "correct": 16,
+          "wrong": 8,
+          "unresolved": 0,
+          "rate_bounds": [
+            0.6666666666666666,
+            0.6666666666666666
+          ]
+        },
+        "usable": {
+          "n": 24,
+          "correct": 22,
+          "wrong": 0,
+          "unresolved": 2,
+          "rate_bounds": [
+            0.9166666666666666,
+            1.0
+          ]
+        },
+        "task_success": {
+          "n": 24,
+          "correct": 14,
+          "wrong": 8,
+          "unresolved": 2,
+          "rate_bounds": [
+            0.5833333333333334,
+            0.6666666666666666
+          ]
+        }
+      },
+      "NOTE": {
+        "content": {
+          "n": 20,
+          "correct": 19,
+          "wrong": 0,
+          "unresolved": 1,
+          "rate_bounds": [
+            0.95,
+            1.0
+          ]
+        },
+        "language": {
+          "n": 20,
+          "correct": 20,
+          "wrong": 0,
+          "unresolved": 0,
+          "rate_bounds": [
+            1.0,
+            1.0
+          ]
+        },
+        "format": {
+          "n": 20,
+          "correct": 20,
+          "wrong": 0,
+          "unresolved": 0,
+          "rate_bounds": [
+            1.0,
+            1.0
+          ]
+        },
+        "usable": {
+          "n": 20,
+          "correct": 19,
+          "wrong": 0,
+          "unresolved": 1,
+          "rate_bounds": [
+            0.95,
+            1.0
+          ]
+        },
+        "task_success": {
+          "n": 20,
+          "correct": 19,
+          "wrong": 0,
+          "unresolved": 1,
+          "rate_bounds": [
+            0.95,
+            1.0
+          ]
+        },
+        "exact_copy_n": 0
+      },
+      "RELATION": {
+        "content": {
+          "n": 120,
+          "correct": 63,
+          "wrong": 57,
+          "unresolved": 0,
+          "rate_bounds": [
+            0.525,
+            0.525
+          ]
+        },
+        "language": {
+          "n": 120,
+          "correct": 120,
+          "wrong": 0,
+          "unresolved": 0,
+          "rate_bounds": [
+            1.0,
+            1.0
+          ]
+        },
+        "format": {
+          "n": 120,
+          "correct": 87,
+          "wrong": 33,
+          "unresolved": 0,
+          "rate_bounds": [
+            0.725,
+            0.725
+          ]
+        },
+        "usable": {
+          "n": 120,
+          "correct": 63,
+          "wrong": 57,
+          "unresolved": 0,
+          "rate_bounds": [
+            0.525,
+            0.525
+          ]
+        },
+        "task_success": {
+          "n": 120,
+          "correct": 49,
+          "wrong": 71,
+          "unresolved": 0,
+          "rate_bounds": [
+            0.4083333333333333,
+            0.4083333333333333
+          ]
+        },
+        "evidence": {
+          "n": 120,
+          "correct": 83,
+          "wrong": 37,
+          "unresolved": 0,
+          "rate_bounds": [
+            0.6916666666666667,
+            0.6916666666666667
+          ]
+        },
+        "scope": {
+          "n": 120,
+          "correct": 70,
+          "wrong": 50,
+          "unresolved": 0,
+          "rate_bounds": [
+            0.5833333333333334,
+            0.5833333333333334
+          ]
+        }
+      }
+    },
+    "apertus": {
+      "DIRECT": {
+        "content": {
+          "n": 120,
+          "correct": 91,
+          "wrong": 20,
+          "unresolved": 9,
+          "rate_bounds": [
+            0.7583333333333333,
+            0.8333333333333334
+          ]
+        },
+        "language": {
+          "n": 120,
+          "correct": 115,
+          "wrong": 5,
+          "unresolved": 0,
+          "rate_bounds": [
+            0.9583333333333334,
+            0.9583333333333334
+          ]
+        },
+        "format": {
+          "n": 120,
+          "correct": 14,
+          "wrong": 106,
+          "unresolved": 0,
+          "rate_bounds": [
+            0.11666666666666667,
+            0.11666666666666667
+          ]
+        },
+        "usable": {
+          "n": 120,
+          "correct": 88,
+          "wrong": 25,
+          "unresolved": 7,
+          "rate_bounds": [
+            0.7333333333333333,
+            0.7916666666666666
+          ]
+        },
+        "task_success": {
+          "n": 120,
+          "correct": 9,
+          "wrong": 111,
+          "unresolved": 0,
+          "rate_bounds": [
+            0.075,
+            0.075
+          ]
+        }
+      },
+      "SOURCE": {
+        "content": {
+          "n": 24,
+          "correct": 6,
+          "wrong": 0,
+          "unresolved": 18,
+          "rate_bounds": [
+            0.25,
+            1.0
+          ]
+        },
+        "language": {
+          "n": 24,
+          "correct": 24,
+          "wrong": 0,
+          "unresolved": 0,
+          "rate_bounds": [
+            1.0,
+            1.0
+          ]
+        },
+        "format": {
+          "n": 24,
+          "correct": 2,
+          "wrong": 22,
+          "unresolved": 0,
+          "rate_bounds": [
+            0.08333333333333333,
+            0.08333333333333333
+          ]
+        },
+        "usable": {
+          "n": 24,
+          "correct": 6,
+          "wrong": 0,
+          "unresolved": 18,
+          "rate_bounds": [
+            0.25,
+            1.0
+          ]
+        },
+        "task_success": {
+          "n": 24,
+          "correct": 2,
+          "wrong": 22,
+          "unresolved": 0,
+          "rate_bounds": [
+            0.08333333333333333,
+            0.08333333333333333
+          ]
+        }
+      },
+      "NOTE": {
+        "content": {
+          "n": 20,
+          "correct": 20,
+          "wrong": 0,
+          "unresolved": 0,
+          "rate_bounds": [
+            1.0,
+            1.0
+          ]
+        },
+        "language": {
+          "n": 20,
+          "correct": 20,
+          "wrong": 0,
+          "unresolved": 0,
+          "rate_bounds": [
+            1.0,
+            1.0
+          ]
+        },
+        "format": {
+          "n": 20,
+          "correct": 19,
+          "wrong": 1,
+          "unresolved": 0,
+          "rate_bounds": [
+            0.95,
+            0.95
+          ]
+        },
+        "usable": {
+          "n": 20,
+          "correct": 20,
+          "wrong": 0,
+          "unresolved": 0,
+          "rate_bounds": [
+            1.0,
+            1.0
+          ]
+        },
+        "task_success": {
+          "n": 20,
+          "correct": 19,
+          "wrong": 1,
+          "unresolved": 0,
+          "rate_bounds": [
+            0.95,
+            0.95
+          ]
+        },
+        "exact_copy_n": 1
+      },
+      "RELATION": {
+        "content": {
+          "n": 120,
+          "correct": 31,
+          "wrong": 89,
+          "unresolved": 0,
+          "rate_bounds": [
+            0.25833333333333336,
+            0.25833333333333336
+          ]
+        },
+        "language": {
+          "n": 120,
+          "correct": 120,
+          "wrong": 0,
+          "unresolved": 0,
+          "rate_bounds": [
+            1.0,
+            1.0
+          ]
+        },
+        "format": {
+          "n": 120,
+          "correct": 120,
+          "wrong": 0,
+          "unresolved": 0,
+          "rate_bounds": [
+            1.0,
+            1.0
+          ]
+        },
+        "usable": {
+          "n": 120,
+          "correct": 31,
+          "wrong": 89,
+          "unresolved": 0,
+          "rate_bounds": [
+            0.25833333333333336,
+            0.25833333333333336
+          ]
+        },
+        "task_success": {
+          "n": 120,
+          "correct": 31,
+          "wrong": 89,
+          "unresolved": 0,
+          "rate_bounds": [
+            0.25833333333333336,
+            0.25833333333333336
+          ]
+        },
+        "evidence": {
+          "n": 120,
+          "correct": 54,
+          "wrong": 66,
+          "unresolved": 0,
+          "rate_bounds": [
+            0.45,
+            0.45
+          ]
+        },
+        "scope": {
+          "n": 120,
+          "correct": 90,
+          "wrong": 30,
+          "unresolved": 0,
+          "rate_bounds": [
+            0.75,
+            0.75
+          ]
+        }
+      }
+    }
+  },
+  "latest_joint_summary": {
+    "qwen": {
+      "n_joins": 96,
+      "unique_note_calls": 16,
+      "snr": {
+        "n": 24,
+        "d_content": {
+          "n": 24,
+          "correct": 17,
+          "wrong": 2,
+          "unresolved": 5,
+          "rate_bounds": [
+            0.7083333333333334,
+            0.9166666666666666
+          ]
+        },
+        "d_copy_sensitive": {
+          "n": 24,
+          "correct": 17,
+          "wrong": 2,
+          "unresolved": 5,
+          "rate_bounds": [
+            0.7083333333333334,
+            0.9166666666666666
+          ]
+        },
+        "d_format_fail": 0
+      },
+      "snr_usable": {
+        "n": 24,
+        "d_content": {
+          "n": 24,
+          "correct": 17,
+          "wrong": 2,
+          "unresolved": 5,
+          "rate_bounds": [
+            0.7083333333333334,
+            0.9166666666666666
+          ]
+        },
+        "d_copy_sensitive": {
+          "n": 24,
+          "correct": 17,
+          "wrong": 2,
+          "unresolved": 5,
+          "rate_bounds": [
+            0.7083333333333334,
+            0.9166666666666666
+          ]
+        },
+        "d_format_fail": 0
+      },
+      "snr_copy_sensitive": {
+        "n": 24,
+        "d_content": {
+          "n": 24,
+          "correct": 17,
+          "wrong": 2,
+          "unresolved": 5,
+          "rate_bounds": [
+            0.7083333333333334,
+            0.9166666666666666
+          ]
+        },
+        "d_copy_sensitive": {
+          "n": 24,
+          "correct": 17,
+          "wrong": 2,
+          "unresolved": 5,
+          "rate_bounds": [
+            0.7083333333333334,
+            0.9166666666666666
+          ]
+        },
+        "d_format_fail": 0
+      }
+    },
+    "llmjp": {
+      "n_joins": 96,
+      "unique_note_calls": 16,
+      "snr": {
+        "n": 34,
+        "d_content": {
+          "n": 34,
+          "correct": 26,
+          "wrong": 1,
+          "unresolved": 7,
+          "rate_bounds": [
+            0.7647058823529411,
+            0.9705882352941176
+          ]
+        },
+        "d_copy_sensitive": {
+          "n": 34,
+          "correct": 26,
+          "wrong": 1,
+          "unresolved": 7,
+          "rate_bounds": [
+            0.7647058823529411,
+            0.9705882352941176
+          ]
+        },
+        "d_format_fail": 7
+      },
+      "snr_usable": {
+        "n": 34,
+        "d_content": {
+          "n": 34,
+          "correct": 26,
+          "wrong": 1,
+          "unresolved": 7,
+          "rate_bounds": [
+            0.7647058823529411,
+            0.9705882352941176
+          ]
+        },
+        "d_copy_sensitive": {
+          "n": 34,
+          "correct": 26,
+          "wrong": 1,
+          "unresolved": 7,
+          "rate_bounds": [
+            0.7647058823529411,
+            0.9705882352941176
+          ]
+        },
+        "d_format_fail": 7
+      },
+      "snr_copy_sensitive": {
+        "n": 34,
+        "d_content": {
+          "n": 34,
+          "correct": 26,
+          "wrong": 1,
+          "unresolved": 7,
+          "rate_bounds": [
+            0.7647058823529411,
+            0.9705882352941176
+          ]
+        },
+        "d_copy_sensitive": {
+          "n": 34,
+          "correct": 26,
+          "wrong": 1,
+          "unresolved": 7,
+          "rate_bounds": [
+            0.7647058823529411,
+            0.9705882352941176
+          ]
+        },
+        "d_format_fail": 7
+      }
+    },
+    "apertus": {
+      "n_joins": 96,
+      "unique_note_calls": 16,
+      "snr": {
+        "n": 6,
+        "d_content": {
+          "n": 6,
+          "correct": 3,
+          "wrong": 3,
+          "unresolved": 0,
+          "rate_bounds": [
+            0.5,
+            0.5
+          ]
+        },
+        "d_copy_sensitive": {
+          "n": 6,
+          "correct": 3,
+          "wrong": 3,
+          "unresolved": 0,
+          "rate_bounds": [
+            0.5,
+            0.5
+          ]
+        },
+        "d_format_fail": 5
+      },
+      "snr_usable": {
+        "n": 6,
+        "d_content": {
+          "n": 6,
+          "correct": 3,
+          "wrong": 3,
+          "unresolved": 0,
+          "rate_bounds": [
+            0.5,
+            0.5
+          ]
+        },
+        "d_copy_sensitive": {
+          "n": 6,
+          "correct": 3,
+          "wrong": 3,
+          "unresolved": 0,
+          "rate_bounds": [
+            0.5,
+            0.5
+          ]
+        },
+        "d_format_fail": 5
+      },
+      "snr_copy_sensitive": {
+        "n": 6,
+        "d_content": {
+          "n": 6,
+          "correct": 3,
+          "wrong": 3,
+          "unresolved": 0,
+          "rate_bounds": [
+            0.5,
+            0.5
+          ]
+        },
+        "d_copy_sensitive": {
+          "n": 6,
+          "correct": 3,
+          "wrong": 3,
+          "unresolved": 0,
+          "rate_bounds": [
+            0.5,
+            0.5
+          ]
+        },
+        "d_format_fail": 5
+      }
+    }
+  },
+  "latest_aggregate_effects": [
+    {
+      "model": "qwen",
+      "family": "ALL_TWO",
+      "form": "ALL_THREE",
+      "note": "TRUE",
+      "endpoint": "content",
+      "n_pairs": 24,
+      "difference_count_bounds": [
+        2,
+        9
+      ],
+      "rate_difference_bounds": [
+        0.08333333333333333,
+        0.375
+      ],
+      "certain_rescues": 3,
+      "certain_harms": 0,
+      "uncertain_pairs": 6
+    },
+    {
+      "model": "qwen",
+      "family": "ALL_TWO",
+      "form": "ALL_THREE",
+      "note": "TRUE",
+      "endpoint": "usable",
+      "n_pairs": 24,
+      "difference_count_bounds": [
+        4,
+        11
+      ],
+      "rate_difference_bounds": [
+        0.16666666666666666,
+        0.4583333333333333
+      ],
+      "certain_rescues": 5,
+      "certain_harms": 0,
+      "uncertain_pairs": 6
+    },
+    {
+      "model": "qwen",
+      "family": "ALL_TWO",
+      "form": "ALL_THREE",
+      "note": "TRUE",
+      "endpoint": "task_success",
+      "n_pairs": 24,
+      "difference_count_bounds": [
+        10,
+        15
+      ],
+      "rate_difference_bounds": [
+        0.4166666666666667,
+        0.625
+      ],
+      "certain_rescues": 11,
+      "certain_harms": 0,
+      "uncertain_pairs": 4
+    },
+    {
+      "model": "qwen",
+      "family": "ALL_TWO",
+      "form": "ALL_THREE",
+      "note": "TRUE",
+      "endpoint": "copy_sensitive_content",
+      "n_pairs": 24,
+      "difference_count_bounds": [
+        2,
+        9
+      ],
+      "rate_difference_bounds": [
+        0.08333333333333333,
+        0.375
+      ],
+      "certain_rescues": 3,
+      "certain_harms": 0,
+      "uncertain_pairs": 6
+    },
+    {
+      "model": "qwen",
+      "family": "ALL_TWO",
+      "form": "ALL_THREE",
+      "note": "TRUE",
+      "endpoint": "expansion_conservative_content",
+      "n_pairs": 24,
+      "difference_count_bounds": [
+        2,
+        15
+      ],
+      "rate_difference_bounds": [
+        0.08333333333333333,
+        0.625
+      ],
+      "certain_rescues": 3,
+      "certain_harms": 0,
+      "uncertain_pairs": 12
+    },
+    {
+      "model": "qwen",
+      "family": "ALL_TWO",
+      "form": "ALL_THREE",
+      "note": "TRUE",
+      "endpoint": "max_conservative_content",
+      "n_pairs": 24,
+      "difference_count_bounds": [
+        2,
+        15
+      ],
+      "rate_difference_bounds": [
+        0.08333333333333333,
+        0.625
+      ],
+      "certain_rescues": 3,
+      "certain_harms": 0,
+      "uncertain_pairs": 12
+    },
+    {
+      "model": "qwen",
+      "family": "ALL_TWO",
+      "form": "ALL_THREE",
+      "note": "FALSE1",
+      "endpoint": "content",
+      "n_pairs": 24,
+      "difference_count_bounds": [
+        -18,
+        -11
+      ],
+      "rate_difference_bounds": [
+        -0.75,
+        -0.4583333333333333
+      ],
+      "certain_rescues": 0,
+      "certain_harms": 11,
+      "uncertain_pairs": 7
+    },
+    {
+      "model": "qwen",
+      "family": "ALL_TWO",
+      "form": "ALL_THREE",
+      "note": "FALSE1",
+      "endpoint": "usable",
+      "n_pairs": 24,
+      "difference_count_bounds": [
+        -16,
+        -9
+      ],
+      "rate_difference_bounds": [
+        -0.6666666666666666,
+        -0.375
+      ],
+      "certain_rescues": 0,
+      "certain_harms": 9,
+      "uncertain_pairs": 7
+    },
+    {
+      "model": "qwen",
+      "family": "ALL_TWO",
+      "form": "ALL_THREE",
+      "note": "FALSE1",
+      "endpoint": "task_success",
+      "n_pairs": 24,
+      "difference_count_bounds": [
+        -10,
+        -6
+      ],
+      "rate_difference_bounds": [
+        -0.4166666666666667,
+        -0.25
+      ],
+      "certain_rescues": 1,
+      "certain_harms": 7,
+      "uncertain_pairs": 4
+    },
+    {
+      "model": "qwen",
+      "family": "ALL_TWO",
+      "form": "ALL_THREE",
+      "note": "FALSE1",
+      "endpoint": "copy_sensitive_content",
+      "n_pairs": 24,
+      "difference_count_bounds": [
+        -18,
+        -4
+      ],
+      "rate_difference_bounds": [
+        -0.75,
+        -0.16666666666666666
+      ],
+      "certain_rescues": 0,
+      "certain_harms": 6,
+      "uncertain_pairs": 14
+    },
+    {
+      "model": "qwen",
+      "family": "ALL_TWO",
+      "form": "ALL_THREE",
+      "note": "FALSE1",
+      "endpoint": "expansion_conservative_content",
+      "n_pairs": 24,
+      "difference_count_bounds": [
+        -18,
+        -5
+      ],
+      "rate_difference_bounds": [
+        -0.75,
+        -0.20833333333333334
+      ],
+      "certain_rescues": 0,
+      "certain_harms": 7,
+      "uncertain_pairs": 12
+    },
+    {
+      "model": "qwen",
+      "family": "ALL_TWO",
+      "form": "ALL_THREE",
+      "note": "FALSE1",
+      "endpoint": "max_conservative_content",
+      "n_pairs": 24,
+      "difference_count_bounds": [
+        -18,
+        2
+      ],
+      "rate_difference_bounds": [
+        -0.75,
+        0.08333333333333333
+      ],
+      "certain_rescues": 0,
+      "certain_harms": 2,
+      "uncertain_pairs": 19
+    },
+    {
+      "model": "qwen",
+      "family": "ALL_TWO",
+      "form": "ALL_THREE",
+      "note": "FALSE2",
+      "endpoint": "content",
+      "n_pairs": 24,
+      "difference_count_bounds": [
+        -11,
+        -1
+      ],
+      "rate_difference_bounds": [
+        -0.4583333333333333,
+        -0.041666666666666664
+      ],
+      "certain_rescues": 0,
+      "certain_harms": 7,
+      "uncertain_pairs": 6
+    },
+    {
+      "model": "qwen",
+      "family": "ALL_TWO",
+      "form": "ALL_THREE",
+      "note": "FALSE2",
+      "endpoint": "usable",
+      "n_pairs": 24,
+      "difference_count_bounds": [
+        -9,
+        1
+      ],
+      "rate_difference_bounds": [
+        -0.375,
+        0.041666666666666664
+      ],
+      "certain_rescues": 2,
+      "certain_harms": 7,
+      "uncertain_pairs": 6
+    },
+    {
+      "model": "qwen",
+      "family": "ALL_TWO",
+      "form": "ALL_THREE",
+      "note": "FALSE2",
+      "endpoint": "task_success",
+      "n_pairs": 24,
+      "difference_count_bounds": [
+        -3,
+        5
+      ],
+      "rate_difference_bounds": [
+        -0.125,
+        0.20833333333333334
+      ],
+      "certain_rescues": 8,
+      "certain_harms": 7,
+      "uncertain_pairs": 4
+    },
+    {
+      "model": "qwen",
+      "family": "ALL_TWO",
+      "form": "ALL_THREE",
+      "note": "FALSE2",
+      "endpoint": "copy_sensitive_content",
+      "n_pairs": 24,
+      "difference_count_bounds": [
+        -11,
+        -1
+      ],
+      "rate_difference_bounds": [
+        -0.4583333333333333,
+        -0.041666666666666664
+      ],
+      "certain_rescues": 0,
+      "certain_harms": 7,
+      "uncertain_pairs": 6
+    },
+    {
+      "model": "qwen",
+      "family": "ALL_TWO",
+      "form": "ALL_THREE",
+      "note": "FALSE2",
+      "endpoint": "expansion_conservative_content",
+      "n_pairs": 24,
+      "difference_count_bounds": [
+        -11,
+        5
+      ],
+      "rate_difference_bounds": [
+        -0.4583333333333333,
+        0.20833333333333334
+      ],
+      "certain_rescues": 0,
+      "certain_harms": 7,
+      "uncertain_pairs": 12
+    },
+    {
+      "model": "qwen",
+      "family": "ALL_TWO",
+      "form": "ALL_THREE",
+      "note": "FALSE2",
+      "endpoint": "max_conservative_content",
+      "n_pairs": 24,
+      "difference_count_bounds": [
+        -11,
+        5
+      ],
+      "rate_difference_bounds": [
+        -0.4583333333333333,
+        0.20833333333333334
+      ],
+      "certain_rescues": 0,
+      "certain_harms": 7,
+      "uncertain_pairs": 12
+    },
+    {
+      "model": "qwen",
+      "family": "ALL_TWO",
+      "form": "ALL_THREE",
+      "note": "TRUE_BACKGROUND",
+      "endpoint": "content",
+      "n_pairs": 24,
+      "difference_count_bounds": [
+        -4,
+        9
+      ],
+      "rate_difference_bounds": [
+        -0.16666666666666666,
+        0.375
+      ],
+      "certain_rescues": 1,
+      "certain_harms": 0,
+      "uncertain_pairs": 9
+    },
+    {
+      "model": "qwen",
+      "family": "ALL_TWO",
+      "form": "ALL_THREE",
+      "note": "TRUE_BACKGROUND",
+      "endpoint": "usable",
+      "n_pairs": 24,
+      "difference_count_bounds": [
+        -3,
+        8
+      ],
+      "rate_difference_bounds": [
+        -0.125,
+        0.3333333333333333
+      ],
+      "certain_rescues": 2,
+      "certain_harms": 0,
+      "uncertain_pairs": 7
+    },
+    {
+      "model": "qwen",
+      "family": "ALL_TWO",
+      "form": "ALL_THREE",
+      "note": "TRUE_BACKGROUND",
+      "endpoint": "task_success",
+      "n_pairs": 24,
+      "difference_count_bounds": [
+        1,
+        10
+      ],
+      "rate_difference_bounds": [
+        0.041666666666666664,
+        0.4166666666666667
+      ],
+      "certain_rescues": 6,
+      "certain_harms": 0,
+      "uncertain_pairs": 5
+    },
+    {
+      "model": "qwen",
+      "family": "ALL_TWO",
+      "form": "ALL_THREE",
+      "note": "TRUE_BACKGROUND",
+      "endpoint": "copy_sensitive_content",
+      "n_pairs": 24,
+      "difference_count_bounds": [
+        -4,
+        9
+      ],
+      "rate_difference_bounds": [
+        -0.16666666666666666,
+        0.375
+      ],
+      "certain_rescues": 1,
+      "certain_harms": 0,
+      "uncertain_pairs": 9
+    },
+    {
+      "model": "qwen",
+      "family": "ALL_TWO",
+      "form": "ALL_THREE",
+      "note": "TRUE_BACKGROUND",
+      "endpoint": "expansion_conservative_content",
+      "n_pairs": 24,
+      "difference_count_bounds": [
+        -7,
+        15
+      ],
+      "rate_difference_bounds": [
+        -0.2916666666666667,
+        0.625
+      ],
+      "certain_rescues": 1,
+      "certain_harms": 0,
+      "uncertain_pairs": 15
+    },
+    {
+      "model": "qwen",
+      "family": "ALL_TWO",
+      "form": "ALL_THREE",
+      "note": "TRUE_BACKGROUND",
+      "endpoint": "max_conservative_content",
+      "n_pairs": 24,
+      "difference_count_bounds": [
+        -7,
+        15
+      ],
+      "rate_difference_bounds": [
+        -0.2916666666666667,
+        0.625
+      ],
+      "certain_rescues": 1,
+      "certain_harms": 0,
+      "uncertain_pairs": 15
+    },
+    {
+      "model": "llmjp",
+      "family": "ALL_TWO",
+      "form": "ALL_THREE",
+      "note": "TRUE",
+      "endpoint": "content",
+      "n_pairs": 24,
+      "difference_count_bounds": [
+        -3,
+        4
+      ],
+      "rate_difference_bounds": [
+        -0.125,
+        0.16666666666666666
+      ],
+      "certain_rescues": 0,
+      "certain_harms": 0,
+      "uncertain_pairs": 4
+    },
+    {
+      "model": "llmjp",
+      "family": "ALL_TWO",
+      "form": "ALL_THREE",
+      "note": "TRUE",
+      "endpoint": "usable",
+      "n_pairs": 24,
+      "difference_count_bounds": [
+        -1,
+        4
+      ],
+      "rate_difference_bounds": [
+        -0.041666666666666664,
+        0.16666666666666666
+      ],
+      "certain_rescues": 0,
+      "certain_harms": 0,
+      "uncertain_pairs": 4
+    },
+    {
+      "model": "llmjp",
+      "family": "ALL_TWO",
+      "form": "ALL_THREE",
+      "note": "TRUE",
+      "endpoint": "task_success",
+      "n_pairs": 24,
+      "difference_count_bounds": [
+        6,
+        6
+      ],
+      "rate_difference_bounds": [
+        0.25,
+        0.25
+      ],
+      "certain_rescues": 6,
+      "certain_harms": 0,
+      "uncertain_pairs": 0
+    },
+    {
+      "model": "llmjp",
+      "family": "ALL_TWO",
+      "form": "ALL_THREE",
+      "note": "TRUE",
+      "endpoint": "copy_sensitive_content",
+      "n_pairs": 24,
+      "difference_count_bounds": [
+        -3,
+        4
+      ],
+      "rate_difference_bounds": [
+        -0.125,
+        0.16666666666666666
+      ],
+      "certain_rescues": 0,
+      "certain_harms": 0,
+      "uncertain_pairs": 4
+    },
+    {
+      "model": "llmjp",
+      "family": "ALL_TWO",
+      "form": "ALL_THREE",
+      "note": "TRUE",
+      "endpoint": "expansion_conservative_content",
+      "n_pairs": 24,
+      "difference_count_bounds": [
+        -5,
+        11
+      ],
+      "rate_difference_bounds": [
+        -0.20833333333333334,
+        0.4583333333333333
+      ],
+      "certain_rescues": 0,
+      "certain_harms": 0,
+      "uncertain_pairs": 11
+    },
+    {
+      "model": "llmjp",
+      "family": "ALL_TWO",
+      "form": "ALL_THREE",
+      "note": "TRUE",
+      "endpoint": "max_conservative_content",
+      "n_pairs": 24,
+      "difference_count_bounds": [
+        -5,
+        11
+      ],
+      "rate_difference_bounds": [
+        -0.20833333333333334,
+        0.4583333333333333
+      ],
+      "certain_rescues": 0,
+      "certain_harms": 0,
+      "uncertain_pairs": 11
+    },
+    {
+      "model": "llmjp",
+      "family": "ALL_TWO",
+      "form": "ALL_THREE",
+      "note": "FALSE1",
+      "endpoint": "content",
+      "n_pairs": 24,
+      "difference_count_bounds": [
+        -18,
+        -8
+      ],
+      "rate_difference_bounds": [
+        -0.75,
+        -0.3333333333333333
+      ],
+      "certain_rescues": 0,
+      "certain_harms": 12,
+      "uncertain_pairs": 6
+    },
+    {
+      "model": "llmjp",
+      "family": "ALL_TWO",
+      "form": "ALL_THREE",
+      "note": "FALSE1",
+      "endpoint": "usable",
+      "n_pairs": 24,
+      "difference_count_bounds": [
+        -16,
+        -8
+      ],
+      "rate_difference_bounds": [
+        -0.6666666666666666,
+        -0.3333333333333333
+      ],
+      "certain_rescues": 0,
+      "certain_harms": 12,
+      "uncertain_pairs": 6
+    },
+    {
+      "model": "llmjp",
+      "family": "ALL_TWO",
+      "form": "ALL_THREE",
+      "note": "FALSE1",
+      "endpoint": "task_success",
+      "n_pairs": 24,
+      "difference_count_bounds": [
+        -7,
+        -7
+      ],
+      "rate_difference_bounds": [
+        -0.2916666666666667,
+        -0.2916666666666667
+      ],
+      "certain_rescues": 5,
+      "certain_harms": 12,
+      "uncertain_pairs": 0
+    },
+    {
+      "model": "llmjp",
+      "family": "ALL_TWO",
+      "form": "ALL_THREE",
+      "note": "FALSE1",
+      "endpoint": "copy_sensitive_content",
+      "n_pairs": 24,
+      "difference_count_bounds": [
+        -18,
+        -8
+      ],
+      "rate_difference_bounds": [
+        -0.75,
+        -0.3333333333333333
+      ],
+      "certain_rescues": 0,
+      "certain_harms": 12,
+      "uncertain_pairs": 6
+    },
+    {
+      "model": "llmjp",
+      "family": "ALL_TWO",
+      "form": "ALL_THREE",
+      "note": "FALSE1",
+      "endpoint": "expansion_conservative_content",
+      "n_pairs": 24,
+      "difference_count_bounds": [
+        -18,
+        -1
+      ],
+      "rate_difference_bounds": [
+        -0.75,
+        -0.041666666666666664
+      ],
+      "certain_rescues": 0,
+      "certain_harms": 12,
+      "uncertain_pairs": 11
+    },
+    {
+      "model": "llmjp",
+      "family": "ALL_TWO",
+      "form": "ALL_THREE",
+      "note": "FALSE1",
+      "endpoint": "max_conservative_content",
+      "n_pairs": 24,
+      "difference_count_bounds": [
+        -18,
+        -1
+      ],
+      "rate_difference_bounds": [
+        -0.75,
+        -0.041666666666666664
+      ],
+      "certain_rescues": 0,
+      "certain_harms": 12,
+      "uncertain_pairs": 11
+    },
+    {
+      "model": "llmjp",
+      "family": "ALL_TWO",
+      "form": "ALL_THREE",
+      "note": "FALSE2",
+      "endpoint": "content",
+      "n_pairs": 24,
+      "difference_count_bounds": [
+        -15,
+        -4
+      ],
+      "rate_difference_bounds": [
+        -0.625,
+        -0.16666666666666666
+      ],
+      "certain_rescues": 0,
+      "certain_harms": 8,
+      "uncertain_pairs": 7
+    },
+    {
+      "model": "llmjp",
+      "family": "ALL_TWO",
+      "form": "ALL_THREE",
+      "note": "FALSE2",
+      "endpoint": "usable",
+      "n_pairs": 24,
+      "difference_count_bounds": [
+        -13,
+        -4
+      ],
+      "rate_difference_bounds": [
+        -0.5416666666666666,
+        -0.16666666666666666
+      ],
+      "certain_rescues": 0,
+      "certain_harms": 8,
+      "uncertain_pairs": 7
+    },
+    {
+      "model": "llmjp",
+      "family": "ALL_TWO",
+      "form": "ALL_THREE",
+      "note": "FALSE2",
+      "endpoint": "task_success",
+      "n_pairs": 24,
+      "difference_count_bounds": [
+        -7,
+        -5
+      ],
+      "rate_difference_bounds": [
+        -0.2916666666666667,
+        -0.20833333333333334
+      ],
+      "certain_rescues": 4,
+      "certain_harms": 9,
+      "uncertain_pairs": 2
+    },
+    {
+      "model": "llmjp",
+      "family": "ALL_TWO",
+      "form": "ALL_THREE",
+      "note": "FALSE2",
+      "endpoint": "copy_sensitive_content",
+      "n_pairs": 24,
+      "difference_count_bounds": [
+        -15,
+        -4
+      ],
+      "rate_difference_bounds": [
+        -0.625,
+        -0.16666666666666666
+      ],
+      "certain_rescues": 0,
+      "certain_harms": 8,
+      "uncertain_pairs": 7
+    },
+    {
+      "model": "llmjp",
+      "family": "ALL_TWO",
+      "form": "ALL_THREE",
+      "note": "FALSE2",
+      "endpoint": "expansion_conservative_content",
+      "n_pairs": 24,
+      "difference_count_bounds": [
+        -18,
+        3
+      ],
+      "rate_difference_bounds": [
+        -0.75,
+        0.125
+      ],
+      "certain_rescues": 0,
+      "certain_harms": 7,
+      "uncertain_pairs": 15
+    },
+    {
+      "model": "llmjp",
+      "family": "ALL_TWO",
+      "form": "ALL_THREE",
+      "note": "FALSE2",
+      "endpoint": "max_conservative_content",
+      "n_pairs": 24,
+      "difference_count_bounds": [
+        -18,
+        3
+      ],
+      "rate_difference_bounds": [
+        -0.75,
+        0.125
+      ],
+      "certain_rescues": 0,
+      "certain_harms": 7,
+      "uncertain_pairs": 15
+    },
+    {
+      "model": "llmjp",
+      "family": "ALL_TWO",
+      "form": "ALL_THREE",
+      "note": "TRUE_BACKGROUND",
+      "endpoint": "content",
+      "n_pairs": 24,
+      "difference_count_bounds": [
+        -5,
+        4
+      ],
+      "rate_difference_bounds": [
+        -0.20833333333333334,
+        0.16666666666666666
+      ],
+      "certain_rescues": 0,
+      "certain_harms": 0,
+      "uncertain_pairs": 5
+    },
+    {
+      "model": "llmjp",
+      "family": "ALL_TWO",
+      "form": "ALL_THREE",
+      "note": "TRUE_BACKGROUND",
+      "endpoint": "usable",
+      "n_pairs": 24,
+      "difference_count_bounds": [
+        -3,
+        4
+      ],
+      "rate_difference_bounds": [
+        -0.125,
+        0.16666666666666666
+      ],
+      "certain_rescues": 0,
+      "certain_harms": 0,
+      "uncertain_pairs": 5
+    },
+    {
+      "model": "llmjp",
+      "family": "ALL_TWO",
+      "form": "ALL_THREE",
+      "note": "TRUE_BACKGROUND",
+      "endpoint": "task_success",
+      "n_pairs": 24,
+      "difference_count_bounds": [
+        0,
+        0
+      ],
+      "rate_difference_bounds": [
+        0.0,
+        0.0
+      ],
+      "certain_rescues": 0,
+      "certain_harms": 0,
+      "uncertain_pairs": 0
+    },
+    {
+      "model": "llmjp",
+      "family": "ALL_TWO",
+      "form": "ALL_THREE",
+      "note": "TRUE_BACKGROUND",
+      "endpoint": "copy_sensitive_content",
+      "n_pairs": 24,
+      "difference_count_bounds": [
+        -5,
+        4
+      ],
+      "rate_difference_bounds": [
+        -0.20833333333333334,
+        0.16666666666666666
+      ],
+      "certain_rescues": 0,
+      "certain_harms": 0,
+      "uncertain_pairs": 5
+    },
+    {
+      "model": "llmjp",
+      "family": "ALL_TWO",
+      "form": "ALL_THREE",
+      "note": "TRUE_BACKGROUND",
+      "endpoint": "expansion_conservative_content",
+      "n_pairs": 24,
+      "difference_count_bounds": [
+        -11,
+        11
+      ],
+      "rate_difference_bounds": [
+        -0.4583333333333333,
+        0.4583333333333333
+      ],
+      "certain_rescues": 0,
+      "certain_harms": 0,
+      "uncertain_pairs": 11
+    },
+    {
+      "model": "llmjp",
+      "family": "ALL_TWO",
+      "form": "ALL_THREE",
+      "note": "TRUE_BACKGROUND",
+      "endpoint": "max_conservative_content",
+      "n_pairs": 24,
+      "difference_count_bounds": [
+        -11,
+        11
+      ],
+      "rate_difference_bounds": [
+        -0.4583333333333333,
+        0.4583333333333333
+      ],
+      "certain_rescues": 0,
+      "certain_harms": 0,
+      "uncertain_pairs": 11
+    },
+    {
+      "model": "apertus",
+      "family": "ALL_TWO",
+      "form": "ALL_THREE",
+      "note": "TRUE",
+      "endpoint": "content",
+      "n_pairs": 24,
+      "difference_count_bounds": [
+        -4,
+        1
+      ],
+      "rate_difference_bounds": [
+        -0.16666666666666666,
+        0.041666666666666664
+      ],
+      "certain_rescues": 0,
+      "certain_harms": 0,
+      "uncertain_pairs": 5
+    },
+    {
+      "model": "apertus",
+      "family": "ALL_TWO",
+      "form": "ALL_THREE",
+      "note": "TRUE",
+      "endpoint": "usable",
+      "n_pairs": 24,
+      "difference_count_bounds": [
+        -1,
+        4
+      ],
+      "rate_difference_bounds": [
+        -0.041666666666666664,
+        0.16666666666666666
+      ],
+      "certain_rescues": 0,
+      "certain_harms": 0,
+      "uncertain_pairs": 5
+    },
+    {
+      "model": "apertus",
+      "family": "ALL_TWO",
+      "form": "ALL_THREE",
+      "note": "TRUE",
+      "endpoint": "task_success",
+      "n_pairs": 24,
+      "difference_count_bounds": [
+        4,
+        4
+      ],
+      "rate_difference_bounds": [
+        0.16666666666666666,
+        0.16666666666666666
+      ],
+      "certain_rescues": 4,
+      "certain_harms": 0,
+      "uncertain_pairs": 0
+    },
+    {
+      "model": "apertus",
+      "family": "ALL_TWO",
+      "form": "ALL_THREE",
+      "note": "TRUE",
+      "endpoint": "copy_sensitive_content",
+      "n_pairs": 24,
+      "difference_count_bounds": [
+        -4,
+        1
+      ],
+      "rate_difference_bounds": [
+        -0.16666666666666666,
+        0.041666666666666664
+      ],
+      "certain_rescues": 0,
+      "certain_harms": 0,
+      "uncertain_pairs": 5
+    },
+    {
+      "model": "apertus",
+      "family": "ALL_TWO",
+      "form": "ALL_THREE",
+      "note": "TRUE",
+      "endpoint": "expansion_conservative_content",
+      "n_pairs": 24,
+      "difference_count_bounds": [
+        -19,
+        23
+      ],
+      "rate_difference_bounds": [
+        -0.7916666666666666,
+        0.9583333333333334
+      ],
+      "certain_rescues": 0,
+      "certain_harms": 0,
+      "uncertain_pairs": 23
+    },
+    {
+      "model": "apertus",
+      "family": "ALL_TWO",
+      "form": "ALL_THREE",
+      "note": "TRUE",
+      "endpoint": "max_conservative_content",
+      "n_pairs": 24,
+      "difference_count_bounds": [
+        -19,
+        23
+      ],
+      "rate_difference_bounds": [
+        -0.7916666666666666,
+        0.9583333333333334
+      ],
+      "certain_rescues": 0,
+      "certain_harms": 0,
+      "uncertain_pairs": 23
+    },
+    {
+      "model": "apertus",
+      "family": "ALL_TWO",
+      "form": "ALL_THREE",
+      "note": "FALSE1",
+      "endpoint": "content",
+      "n_pairs": 24,
+      "difference_count_bounds": [
+        -14,
+        -11
+      ],
+      "rate_difference_bounds": [
+        -0.5833333333333334,
+        -0.4583333333333333
+      ],
+      "certain_rescues": 0,
+      "certain_harms": 12,
+      "uncertain_pairs": 3
+    },
+    {
+      "model": "apertus",
+      "family": "ALL_TWO",
+      "form": "ALL_THREE",
+      "note": "FALSE1",
+      "endpoint": "usable",
+      "n_pairs": 24,
+      "difference_count_bounds": [
+        -11,
+        -8
+      ],
+      "rate_difference_bounds": [
+        -0.4583333333333333,
+        -0.3333333333333333
+      ],
+      "certain_rescues": 0,
+      "certain_harms": 9,
+      "uncertain_pairs": 3
+    },
+    {
+      "model": "apertus",
+      "family": "ALL_TWO",
+      "form": "ALL_THREE",
+      "note": "FALSE1",
+      "endpoint": "task_success",
+      "n_pairs": 24,
+      "difference_count_bounds": [
+        -1,
+        -1
+      ],
+      "rate_difference_bounds": [
+        -0.041666666666666664,
+        -0.041666666666666664
+      ],
+      "certain_rescues": 0,
+      "certain_harms": 1,
+      "uncertain_pairs": 0
+    },
+    {
+      "model": "apertus",
+      "family": "ALL_TWO",
+      "form": "ALL_THREE",
+      "note": "FALSE1",
+      "endpoint": "copy_sensitive_content",
+      "n_pairs": 24,
+      "difference_count_bounds": [
+        -14,
+        -8
+      ],
+      "rate_difference_bounds": [
+        -0.5833333333333334,
+        -0.3333333333333333
+      ],
+      "certain_rescues": 0,
+      "certain_harms": 9,
+      "uncertain_pairs": 6
+    },
+    {
+      "model": "apertus",
+      "family": "ALL_TWO",
+      "form": "ALL_THREE",
+      "note": "FALSE1",
+      "endpoint": "expansion_conservative_content",
+      "n_pairs": 24,
+      "difference_count_bounds": [
+        -24,
+        11
+      ],
+      "rate_difference_bounds": [
+        -1.0,
+        0.4583333333333333
+      ],
+      "certain_rescues": 0,
+      "certain_harms": 1,
+      "uncertain_pairs": 23
+    },
+    {
+      "model": "apertus",
+      "family": "ALL_TWO",
+      "form": "ALL_THREE",
+      "note": "FALSE1",
+      "endpoint": "max_conservative_content",
+      "n_pairs": 24,
+      "difference_count_bounds": [
+        -24,
+        14
+      ],
+      "rate_difference_bounds": [
+        -1.0,
+        0.5833333333333334
+      ],
+      "certain_rescues": 0,
+      "certain_harms": 1,
+      "uncertain_pairs": 23
+    },
+    {
+      "model": "apertus",
+      "family": "ALL_TWO",
+      "form": "ALL_THREE",
+      "note": "FALSE2",
+      "endpoint": "content",
+      "n_pairs": 24,
+      "difference_count_bounds": [
+        -7,
+        -6
+      ],
+      "rate_difference_bounds": [
+        -0.2916666666666667,
+        -0.25
+      ],
+      "certain_rescues": 0,
+      "certain_harms": 7,
+      "uncertain_pairs": 1
+    },
+    {
+      "model": "apertus",
+      "family": "ALL_TWO",
+      "form": "ALL_THREE",
+      "note": "FALSE2",
+      "endpoint": "usable",
+      "n_pairs": 24,
+      "difference_count_bounds": [
+        -4,
+        -3
+      ],
+      "rate_difference_bounds": [
+        -0.16666666666666666,
+        -0.125
+      ],
+      "certain_rescues": 0,
+      "certain_harms": 4,
+      "uncertain_pairs": 1
+    },
+    {
+      "model": "apertus",
+      "family": "ALL_TWO",
+      "form": "ALL_THREE",
+      "note": "FALSE2",
+      "endpoint": "task_success",
+      "n_pairs": 24,
+      "difference_count_bounds": [
+        0,
+        0
+      ],
+      "rate_difference_bounds": [
+        0.0,
+        0.0
+      ],
+      "certain_rescues": 0,
+      "certain_harms": 0,
+      "uncertain_pairs": 0
+    },
+    {
+      "model": "apertus",
+      "family": "ALL_TWO",
+      "form": "ALL_THREE",
+      "note": "FALSE2",
+      "endpoint": "copy_sensitive_content",
+      "n_pairs": 24,
+      "difference_count_bounds": [
+        -7,
+        -6
+      ],
+      "rate_difference_bounds": [
+        -0.2916666666666667,
+        -0.25
+      ],
+      "certain_rescues": 0,
+      "certain_harms": 7,
+      "uncertain_pairs": 1
+    },
+    {
+      "model": "apertus",
+      "family": "ALL_TWO",
+      "form": "ALL_THREE",
+      "note": "FALSE2",
+      "endpoint": "expansion_conservative_content",
+      "n_pairs": 24,
+      "difference_count_bounds": [
+        -23,
+        16
+      ],
+      "rate_difference_bounds": [
+        -0.9583333333333334,
+        0.6666666666666666
+      ],
+      "certain_rescues": 0,
+      "certain_harms": 0,
+      "uncertain_pairs": 23
+    },
+    {
+      "model": "apertus",
+      "family": "ALL_TWO",
+      "form": "ALL_THREE",
+      "note": "FALSE2",
+      "endpoint": "max_conservative_content",
+      "n_pairs": 24,
+      "difference_count_bounds": [
+        -23,
+        16
+      ],
+      "rate_difference_bounds": [
+        -0.9583333333333334,
+        0.6666666666666666
+      ],
+      "certain_rescues": 0,
+      "certain_harms": 0,
+      "uncertain_pairs": 23
+    },
+    {
+      "model": "apertus",
+      "family": "ALL_TWO",
+      "form": "ALL_THREE",
+      "note": "TRUE_BACKGROUND",
+      "endpoint": "content",
+      "n_pairs": 24,
+      "difference_count_bounds": [
+        -3,
+        0
+      ],
+      "rate_difference_bounds": [
+        -0.125,
+        0.0
+      ],
+      "certain_rescues": 0,
+      "certain_harms": 1,
+      "uncertain_pairs": 3
+    },
+    {
+      "model": "apertus",
+      "family": "ALL_TWO",
+      "form": "ALL_THREE",
+      "note": "TRUE_BACKGROUND",
+      "endpoint": "usable",
+      "n_pairs": 24,
+      "difference_count_bounds": [
+        0,
+        1
+      ],
+      "rate_difference_bounds": [
+        0.0,
+        0.041666666666666664
+      ],
+      "certain_rescues": 3,
+      "certain_harms": 3,
+      "uncertain_pairs": 1
+    },
+    {
+      "model": "apertus",
+      "family": "ALL_TWO",
+      "form": "ALL_THREE",
+      "note": "TRUE_BACKGROUND",
+      "endpoint": "task_success",
+      "n_pairs": 24,
+      "difference_count_bounds": [
+        1,
+        1
+      ],
+      "rate_difference_bounds": [
+        0.041666666666666664,
+        0.041666666666666664
+      ],
+      "certain_rescues": 1,
+      "certain_harms": 0,
+      "uncertain_pairs": 0
+    },
+    {
+      "model": "apertus",
+      "family": "ALL_TWO",
+      "form": "ALL_THREE",
+      "note": "TRUE_BACKGROUND",
+      "endpoint": "copy_sensitive_content",
+      "n_pairs": 24,
+      "difference_count_bounds": [
+        -3,
+        1
+      ],
+      "rate_difference_bounds": [
+        -0.125,
+        0.041666666666666664
+      ],
+      "certain_rescues": 0,
+      "certain_harms": 0,
+      "uncertain_pairs": 4
+    },
+    {
+      "model": "apertus",
+      "family": "ALL_TWO",
+      "form": "ALL_THREE",
+      "note": "TRUE_BACKGROUND",
+      "endpoint": "expansion_conservative_content",
+      "n_pairs": 24,
+      "difference_count_bounds": [
+        -22,
+        22
+      ],
+      "rate_difference_bounds": [
+        -0.9166666666666666,
+        0.9166666666666666
+      ],
+      "certain_rescues": 0,
+      "certain_harms": 0,
+      "uncertain_pairs": 23
+    },
+    {
+      "model": "apertus",
+      "family": "ALL_TWO",
+      "form": "ALL_THREE",
+      "note": "TRUE_BACKGROUND",
+      "endpoint": "max_conservative_content",
+      "n_pairs": 24,
+      "difference_count_bounds": [
+        -22,
+        23
+      ],
+      "rate_difference_bounds": [
+        -0.9166666666666666,
+        0.9583333333333334
+      ],
+      "certain_rescues": 0,
+      "certain_harms": 0,
+      "uncertain_pairs": 23
+    }
+  ],
+  "measurement_v22": {
+    "usable_counts_before": [
+      483,
+      37,
+      248
+    ],
+    "usable_counts_after": [
+      596,
+      73,
+      99
+    ],
+    "scope": "Same 768 outputs under different author-developed rubrics; coverage change is not accuracy improvement or independent validity.",
+    "llmjp_usable_rate_difference_bounds": {
+      "TRUE": [
+        0.03125,
+        0.03125
+      ],
+      "FALSE1": [
+        -0.28125,
+        -0.125
+      ],
+      "FALSE2": [
+        -0.15625,
+        -0.078125
+      ]
+    }
+  },
+  "latest_sensitivity": {
+    "all_four_pair_rescue_markers": 0,
+    "all_four_pair_harm_markers": 0,
+    "snr_correct_d_wrong_joins": 6,
+    "discordance_target_family_n": 1,
+    "all_stage_format_compliant_discordances": 2,
+    "format_compliant_discordance_base_context_n": 1,
+    "apertus_relation_conflict_label_n": 114,
+    "apertus_relation_n": 120,
+    "apertus_source_unresolved_n": 18,
+    "apertus_source_n": 24
+  },
+  "uncertainty": "Rate difference bounds are logical ranges over unresolved author judgments, not confidence intervals, and do not include sampling error or all author-grading error.",
+  "evidence_scope": {
+    "current_v36_independent_bilingual_gold": 0,
+    "current_v36_independent_confirmation_blocks": 0,
+    "scope_note": "This does not erase the earlier project human audits or frozen review gates; those do not automatically transfer to these new diagnostic materials.",
+    "new_sequential_multistep_intervention_tested": false,
+    "new_causal_mechanism_established": false,
+    "new_external_glm_deepseek_calls": 0,
+    "new_external_spend_usd": 0
+  },
+  "source_sha256": {
+    "research_notes/2026-09-05/v3_5bc_construct_validity_correction_v1/CORRECTION-REPORT.zh-CN.md": "50deebecb4289dcdc37011f776b4c279b968b6a16f72e8db42d895cd83ac8b18",
+    "research_notes/2026-09-05/v3_6_pre0910_autonomous_session_v1/REPORT.zh-CN.md": "e36332c400ba2c15a7bc090d8eb66a8afb88ce213e5177358f3811466d2285dd",
+    "research_notes/2026-09-05/v3_6_pre0910_new_family_transfer_v1/RESULTS.zh-CN.md": "8f8074de4b7890ecfdbbde60401f61a4c94d5e884eff590b2b0a4406c2b183c1",
+    "research_notes/2026-09-05/v3_6_pre0910_interface_followup_v1/RESULTS.zh-CN.md": "f9b4070c291441b825a15ae5c3ff3b4c6390256c96a38eb5ebfdd89f0bb0b666",
+    "research_notes/2026-09-05/v3_6_pre0910_content_scope_probe_v1/RESULTS.zh-CN.md": "89015251fde091aa7741ce1c4f83e383c72621f7a4cc4db27e643c4961d917ec",
+    "research_notes/2026-09-06/v3_6_new_blocks_robustness_v1/RESULTS.zh-CN.md": "d97bb47ad6171cad0b06735dbc3ae330a94f161f7b5dcb2b83e9381b1b44fc24",
+    "research_notes/2026-09-06/v3_6_full_response_measurement_v1/RESULTS.zh-CN.md": "e82e9dcd16dfcfe01a5870a65d9306498cc39a764cd0c0dd6e7990f55cb577b9",
+    "research_notes/2026-09-06/v3_6_new_controls_multistep_v1/README.zh-CN.md": "e734a11ffa39f4522be8f738632a5b6749887c0fc538453009ab25458b0edfe6",
+    "research_notes/2026-09-06/v3_6_multistep_pilot_v1/RESULTS.zh-CN.md": "84d398e20ab773fda5e674f078f86cd9f0c6de6713f803124c221d704c054141"
+  }
+}

@@ -3,14 +3,29 @@
 Date: 2026-09-05
 Public baseline: commit `a54fe957baf763c759c467867add23498551c99b`
 
+Public synchronization note (2026-09-06): the following correction was already
+completed locally on September 5 and is published with the
+[September 6 synthesis](2026-09-06-research-results-and-paper-assessment.zh-CN.md).
+The [original public version](https://github.com/AlmightyLLY/doppelganger-jc-reproduction/blob/d6309b9eff661f54a036e283f2b01f84be3c2407/papers/doppelganger-jc/notes/2026-09-05-v3-5-diagnostic-and-representation-audit.md)
+remains available in history. Independent audit here refers to the separate
+review task; it is not independent bilingual human annotation.
+
+Interpretation correction added on 2026-09-05 after an independent audit:
+the numerical results below are retained, but V3.5B confounds note validity
+with exact correct-candidate repetition, and V3.5C's manipulated sense suffix
+is outside the measured focus positions' causal context. Application transfer
+was not measured. The revised interpretation below supersedes stronger
+semantic-specificity or form–sense-dissociation readings of this progress note.
+
 ## Summary
 
 Since the previous public update, the project has moved from a small
 theory-directed diagnostic prototype to a balanced 40-family exploratory
 design with two complementary components:
 
-1. a behavioral semantic-specificity control (`V3.5B`); and
-2. a form-by-meaning representation analysis (`V3.5C`).
+1. a behavioral note comparison intended to test semantic specificity
+   (`V3.5B`); and
+2. a form-by-meaning representation measurement (`V3.5C`).
 
 The strongest new result is behavioral. On the frozen Qwen3-8B run, an
 item-specific applicable note changed the decision margin more than an
@@ -18,12 +33,15 @@ equally framed but item-inapplicable note. The four-cell equal-weight
 `Delta_specific` estimate was 2.09375 with a stratified item-family bootstrap
 95% interval of `[1.75233, 2.43945]`.
 
-This is useful exploratory evidence that the model does more than respond to
-the generic authority or format of a supplemental instruction. It does not,
-however, eliminate a simpler applicability-gating explanation, establish a
-human-grounded population effect, or identify an internal causal mechanism.
+The same wrapper controls its formatting, but the content comparison is
+confounded: all 40 applicable notes contain the exact correct candidate,
+whereas none of the 40 shuffled notes do. All 320 actual runtime prompts
+preserve this asymmetry. The observed effect can reflect candidate repetition,
+lexical priming, applicability, semantic correctness, or a combination. It does
+not identify semantic-specificity, and it does not prove that the model was
+copying. Application transfer has no observations and is reported as N/A.
 
-The representation run also produced a substantive methodological finding.
+The representation run exposed a measurement and execution issue.
 Target-span representations were recovered for every frozen prompt and
 layer, but the registered decision-site comparison was not identifiable from
 the exported states. In addition, apparent candidate-order differences were
@@ -32,20 +50,21 @@ manipulation. Those analyses were stopped rather than interpreted.
 
 The immediate next step was therefore a prospective decision-site rerun with
 symmetric member-specific companion prompts and fixed execution context. That
-corrected run has now completed. Its all-layer descriptive curve is consistent
-with a late-layer separation between local semantic geometry and the final
-companion decision-state geometry, but it remains association evidence rather
-than evidence of behavioral use or causal mediation.
+corrected run has now completed. Its all-layer descriptive curve compares
+focus-site and companion pre-choice geometry. The later construct audit
+establishes that the manipulated sense information follows the focus sites;
+the curve therefore does not identify a learned local-semantic versus
+decision-state dissociation.
 
 A subsequently frozen post-result robustness analysis used the 40 item
 families as independent clusters, retained all 36 layers and both orders, and
 applied a leave-one-family-out common-mean correction. The association survived
-that correction, but factorial decomposition showed that the semantic-site
-cosines primarily track shared-form identity. Descriptive same- versus
-different-sense separation appeared instead at the companion decision site.
-This sharpens the analysis into a form-encoding versus decision-geometry
-dissociation while also ruling out a stronger claim of direct semantic
-transmission from the target span.
+that correction. The zero sense contrasts at the focus sites are structural
+zeros for a suffix-only manipulation in a causal decoder. The companion
+pre-choice states can see the varying suffix and differ descriptively, but
+the suffix also changes literal gloss content and candidate overlap. These
+measurements retain descriptive value and motivate a better design; they do
+not establish a form–sense dissociation or semantic transmission.
 
 ## V3.5A material expansion and review
 
@@ -77,9 +96,10 @@ Each core family was paired with two neutrally framed supplemental notes:
 - `G_SHUFFLED_NEUTRAL`: a note with the same framing but drawn from a frozen
   item exchange and therefore inapplicable to the current item.
 
-Both arms used the same neutral wrapper. The model, rather than the prompt,
-had to determine whether the content applied. This replaced an earlier
-explicit-unrelated wrapper that risked revealing the intended control.
+Both arms used the same neutral wrapper, replacing an earlier explicit-unrelated
+wrapper. However, the applicable note names the correct candidate directly.
+Consequently the task does not require semantic applicability reasoning to
+distinguish the two arms; a literal-match shortcut remains available.
 
 The exact frozen Qwen3-8B execution covered 960 prompts across V3.5B and
 V3.5C, with 120 forward calls. For V3.5B:
@@ -93,11 +113,20 @@ V3.5C, with 120 forward calls. For V3.5B:
 - the `DIFFERENT` residual `O` contrast was -0.51875;
 - the mean frozen order-sensitivity difference was -0.040625.
 
-The permitted interpretation is narrow: on this exploratory material and
-model, the decision responds differently to applicable item-specific content
-than to an equally framed inapplicable note. This is stronger than a generic
-prompt-effect observation, but still compatible with applicability gating.
-It is auxiliary evidence, not a confirmatory endpoint.
+The corrected interpretation is narrow: on this exploratory material and
+model, a note that directly names the correct candidate changes the margin
+relative to an equally framed note naming another item's meaning. The
+historical endpoint name `Delta_specific` is retained, but semantic specificity
+is not identified. This is a content-bundled exploratory contrast.
+
+The upstream plan required application transfer, and every source family
+contained an application record. The actual B schedule contained only 320
+main-task prompts; the analysis adapter set `application_ids=[]` for every
+family. Application transfer consequently has `n=0` and is **not measured
+(N/A)**. No explicit prospective removal record was identified in the examined
+lineage. The numerical main-task contrast remains valid for its scheduled
+comparison, while complete upstream endpoint coverage and transfer claims are
+unsupported. The omission is not remedied by retroactively adding new runs.
 
 ## V3.5C: what the first representation run established
 
@@ -127,14 +156,16 @@ order sensitivity, decision use, or mechanism.
 
 This distinction strengthens the project's evidence hierarchy:
 
-1. **Encoding:** information covaries with a frozen representation site.
-2. **Decision use:** a controlled input intervention changes a decision
-   margin.
+1. **Representation:** a site can only reflect manipulations visible in its
+   causal context; content-specific encoding needs further controls.
+2. **Behavioral sensitivity:** an input intervention changes a decision
+   margin; semantic use additionally requires controls against simpler cues.
 3. **Causal mediation:** manipulating an internal variable changes the
    decision beyond matched controls.
 
-V3.5B currently contributes exploratory decision-use evidence. V3.5C-v1
-provides partial descriptive encoding evidence. Neither supports causal
+V3.5B contributes exploratory behavioral sensitivity to bundled note content.
+V3.5C provides descriptive representation measurements and identifies
+measurement limitations. Neither establishes semantic decision use or causal
 mediation.
 
 ## Prospective repair and completed V3.5C-v2.2 run
@@ -194,12 +225,11 @@ absolute difference 0.04163 across 11,520 comparisons. This is reported as a
 diagnostic property of the frozen companion prompts, not as proof of a
 linguistic order effect.
 
-The late-layer reduction in semantic-site/decision-site association is
-consistent with a representation--decision-location dissociation: semantic
-structure visible locally need not be preserved in the same geometry at the
-pre-choice state. It does not show whether the model used the information,
-whether either site is necessary or sufficient, or whether one mediates the
-behavioral effect.
+The late-layer reduction in cross-site association is a descriptive curve.
+It does not test preservation of the manipulated sense information: the focus
+sites cannot see the varying sense suffix, while the final states can. It also
+does not establish whether either site is used, necessary, sufficient, or a
+mediator of the behavioral effect.
 
 ## Post-result robustness and factorial decomposition
 
@@ -234,15 +264,21 @@ The factorial contrasts materially qualify the meaning of that association:
   36 layers in the aggregate analysis, but its cross-stratum heterogeneity is
   retained as description rather than promoted into a new endpoint.
 
-The strongest defensible interpretation is therefore not that a locally
-measured semantic code is passed unchanged to the answer boundary. In this
-design, target-span cosine is dominated by shared-form identity, while the
-companion pre-choice state also separates the frozen sense conditions. The
-pooled association combines within-family and between-condition structure and
-cannot by itself establish item-level semantic transmission. This pattern is
-useful for the paper's `encode != use != cause` framework, but it remains
-post-result association evidence and does not establish decision use, causal
-mediation, necessity, sufficiency, or late-layer suppression.
+An additional material audit compared 1,280 focus-site pairs across the frozen
+sense conditions. In all pairs, the full text prefix through the focus,
+archived focus-token IDs/indices, prefix masks, and position IDs were identical.
+The varying sense gloss follows the focus. Thus the zero sense contrast is an
+expected structural zero, not empirical evidence that semantic encoding is
+absent. Preceding source context can still carry semantic information; the
+invisible quantity is this particular suffix manipulation.
+
+The companion pre-choice state sees the varying gloss and can differ, but
+literal gloss identity, template effects and candidate overlap remain plausible
+explanations. The pooled association combines within-family and between-condition
+structure. Common-mean centering does not control all these alternatives, and
+36 layerwise intervals are not 36 independent replications or a simultaneous
+confidence band. The complete results are retained as exploratory measurements
+with these limitations.
 
 ## Auxiliary representation geometry
 
@@ -265,58 +301,55 @@ not a new model or training algorithm. The core question is becoming:
 > is preserved, suppress it when its meaning conflicts, and distinguish an
 > applicable semantic cue from an equally framed inapplicable cue?
 
-The new evidence improves the paper in three ways:
+The audit clarifies what a future paper must establish. Candidate repetition
+must be separated from semantic applicability; the manipulated information
+must be visible at the measured representation site; and material, schedule
+and analysis endpoint coverage must agree. The project has an exploratory
+design and reusable infrastructure, but these B/C results do not yet supply
+the proposed semantic-specificity or form–sense-dissociation contribution.
 
-- it separates generic instruction effects from item-specific semantic
-  responsiveness;
-- it makes representation-versus-decision dissociation an empirical question
-  rather than a rhetorical caveat;
-- it documents a concrete numerical-execution nuisance that could otherwise
-  be mistaken for linguistic order sensitivity.
-
-The completed V3.5C-v2.2 curve adds a fourth contribution: it supplies a
-prospectively repaired, execution-context-controlled comparison of semantic and
-decision locations across every layer. This makes the distinction between
-encoded information and decision-aligned geometry measurable, while leaving
-the causal boundary intact.
-
-The post-result decomposition further raises the analysis ceiling by locating
-the dominant shared-form signal at the target span and the descriptive
-same/different-sense separation at the companion decision site. At the same
-time, it lowers the ceiling for a simpler ``early semantic encoding followed
-by late suppression'' account: the present target-span cosine does not isolate
-sense, and the pooled cross-site correlation is not a direct transmission
-test. The resulting story is narrower but methodologically stronger.
+The numerical execution nuisance remains a reproducible measurement lesson.
+A stronger analysis narrative depends on future controls and independent
+language validation, not on promoting the number of layers or integrity checks
+to scientific evidence.
 
 The evidence is not yet ACL Main-ready. The principal missing components are
 independent bilingual human adjudication, replication on additional frozen
 model families, and a prospective confirmatory behavioral test with adequate
-item-family coverage. A successful corrected decision-site run would improve
-the analysis story but would still be association evidence rather than a
-causal mechanism result.
+item-family coverage, together with correction of the content and visibility
+confounds. A technical decision-site repair alone does not resolve them.
 
 ## Current status and next gates
 
 At this cutoff:
 
 - V3.5A core 40 and backup six are frozen as AI+PI exploratory materials;
-- V3.5B has a positive, interval-separated exploratory result on Qwen3-8B;
+- V3.5B has a positive, interval-separated but candidate-mention-confounded
+  exploratory contrast on Qwen3-8B; application transfer is unmeasured;
 - V3.5C-v1 is valid only for qualified target-span description;
 - V3.5C-v2.2 completed with all-layer, both-order descriptive representation
   associations and independent recomputation;
 - the V3.5C-v2.2 post-result robustness analysis is complete and independently
   recomputed: the association survives one common-direction correction,
-  semantic-site cosine is form-dominated, and descriptive sense separation is
-  concentrated at the companion decision site;
+  focus-site sense contrasts are structural zeros for the suffix manipulation,
+  and descriptive condition differences occur at the companion pre-choice site;
 - Main, reserve, held-out, CoT, probes, and activation patching remain closed;
 - no paid compute is in use.
 
 The next evidence-bearing gates are:
 
-1. decide whether the combined behavioral and representation evidence is
-   strong enough to justify independent bilingual human annotation;
-2. if justified, reproduce the behavioral effect with human-grounded
-   materials and additional predeclared models.
+1. validate a small set of candidate-free note controls and causally visible
+   sense manipulations, with explicit endpoint coverage;
+2. obtain independent bilingual review of construct validity and freeze fresh
+   confirmation materials before model outcome access;
+3. run the resulting behavioral comparison on predeclared models and report
+   its uncertainty, including null or heterogeneous results.
+
+The correction package is recorded locally under
+`research_notes/2026-09-05/v3_5bc_construct_validity_correction_v1/`.
+It contains reproducible material/runtime checks, a revised interpretation
+record, and a prospective design draft. The original sealed inputs and
+numerical outputs are unchanged. No new model run was used for the correction.
 
 ## Public/private boundary
 
