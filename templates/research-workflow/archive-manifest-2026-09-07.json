@@ -21,18 +21,18 @@
   "files": [
     {
       "path": "docs/research-principles-2026-09-07.zh-CN.md",
-      "sha256": "ad1434b1291396e2a7f7364bc73646e1f981bf916b96584e10327b23db610d4f",
-      "bytes": 14204
+      "sha256": "b0c35466f43342b6d794a108b6a91890d2334f35520398af1eb4323fa628a514",
+      "bytes": 14995
     },
     {
       "path": "docs/main-thread-2026-09-07.zh-CN.md",
-      "sha256": "b3606c0fadd4a3108ec17ae0d8c093db340151962749f5e15acb271f4066fb6d",
-      "bytes": 5173
+      "sha256": "86be2f33316a36d2b1a9343795aefa32c1833cd6a65b1dc09db5a09e2c8c5c04",
+      "bytes": 5709
     },
     {
       "path": "AGENTS.md",
-      "sha256": "d41ea7f363282c90a841e0b1b5f9f0b237484d6c24b03982c8f7f90cf951b354",
-      "bytes": 2973
+      "sha256": "daae9edee3d02ef41452b84a47f8099869f13b2e0b21947a6ef05177dcbbc534",
+      "bytes": 3341
     },
     {
       "path": "templates/research-workflow/README.zh-CN.md",
@@ -54,5 +54,12 @@
       "sha256": "09d1723f766298912a593fa630907767de75fa76642a7948e09b3f516a68a0d0",
       "bytes": 10511
     }
-  ]
+  ],
+  "upload_authorization": {
+    "date": "2026-09-07",
+    "scope": "Main Thread 9.7; current public archive and subsequent related research archive uploads",
+    "public_destination_disclosed": true,
+    "user_explicitly_authorized_direct_upload": true,
+    "source": "docs/research-principles-2026-09-07.zh-CN.md section 10"
+  }
 }
