@@ -1,0 +1,58 @@
+{
+  "date": "2026-09-07",
+  "purpose": "Research workflow setup and blank templates; no experiment run",
+  "main_thread": "01a077f5-873a-7972-9826-27050be3e0ba",
+  "status": {
+    "templates_generated": true,
+    "visual_qa_completed": true,
+    "local_archive_completed": true,
+    "experiment_run": false,
+    "human_input_review": "not_applicable_blank_templates",
+    "human_result_review": "not_applicable_blank_templates",
+    "remote_sync": "verify actual remote commit separately"
+  },
+  "public_archive_excludes": [
+    "full supplied article",
+    "private research datasets",
+    "sealed materials",
+    "credentials",
+    "existing unrelated working changes"
+  ],
+  "files": [
+    {
+      "path": "docs/research-principles-2026-09-07.zh-CN.md",
+      "sha256": "ad1434b1291396e2a7f7364bc73646e1f981bf916b96584e10327b23db610d4f",
+      "bytes": 14204
+    },
+    {
+      "path": "docs/main-thread-2026-09-07.zh-CN.md",
+      "sha256": "b3606c0fadd4a3108ec17ae0d8c093db340151962749f5e15acb271f4066fb6d",
+      "bytes": 5173
+    },
+    {
+      "path": "AGENTS.md",
+      "sha256": "d41ea7f363282c90a841e0b1b5f9f0b237484d6c24b03982c8f7f90cf951b354",
+      "bytes": 2973
+    },
+    {
+      "path": "templates/research-workflow/README.zh-CN.md",
+      "sha256": "0f406c71a5e92fde9d0df53f6891e70a888b9eb72e8b54c804d2b65537647586",
+      "bytes": 2276
+    },
+    {
+      "path": "templates/research-workflow/01-preregistration-template.docx",
+      "sha256": "4ba8ebf48c8ea13e6d35dacab99a9b550a0449c95e50f3bc82e579b029654d7c",
+      "bytes": 198803
+    },
+    {
+      "path": "templates/research-workflow/02-post-experiment-template.docx",
+      "sha256": "146efc9878717a7233e4ac8c067f964f9db34b4032559076e202c23e12944d0f",
+      "bytes": 198791
+    },
+    {
+      "path": "templates/research-workflow/03-data-review-template.xlsx",
+      "sha256": "09d1723f766298912a593fa630907767de75fa76642a7948e09b3f516a68a0d0",
+      "bytes": 10511
+    }
+  ]
+}
