@@ -21,18 +21,18 @@
   "files": [
     {
       "path": "docs/research-principles-2026-09-07.zh-CN.md",
-      "sha256": "b0c35466f43342b6d794a108b6a91890d2334f35520398af1eb4323fa628a514",
-      "bytes": 14995
+      "sha256": "63c46f611307ca5859ac621260682fc0cb725ad4744990dae6ce7d84f7c9a634",
+      "bytes": 16259
     },
     {
       "path": "docs/main-thread-2026-09-07.zh-CN.md",
-      "sha256": "86be2f33316a36d2b1a9343795aefa32c1833cd6a65b1dc09db5a09e2c8c5c04",
-      "bytes": 5709
+      "sha256": "0a9c0e631d991828b425c4e9bb1285dce9b790092be7199f9b1965c2ba23ab37",
+      "bytes": 6068
     },
     {
       "path": "AGENTS.md",
-      "sha256": "daae9edee3d02ef41452b84a47f8099869f13b2e0b21947a6ef05177dcbbc534",
-      "bytes": 3341
+      "sha256": "afe7ebc812198e6b92ae542589f42a7a4a7c593c77edf0b4b916ac43db0b8768",
+      "bytes": 3742
     },
     {
       "path": "templates/research-workflow/README.zh-CN.md",
