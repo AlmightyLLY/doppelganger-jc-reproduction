@@ -21,18 +21,18 @@
   "files": [
     {
       "path": "docs/research-principles-2026-09-07.zh-CN.md",
-      "sha256": "63c46f611307ca5859ac621260682fc0cb725ad4744990dae6ce7d84f7c9a634",
-      "bytes": 16259
+      "sha256": "eba73fbaa54856d90a9049feb40fd12c365d23eda757c0696122e92830948050",
+      "bytes": 16999
     },
     {
       "path": "docs/main-thread-2026-09-07.zh-CN.md",
-      "sha256": "0a9c0e631d991828b425c4e9bb1285dce9b790092be7199f9b1965c2ba23ab37",
-      "bytes": 6068
+      "sha256": "d6c79cb9b9cb30b8b4c6d6917bcd7b412c801db1df08c21c0cd13780e1851e31",
+      "bytes": 6786
     },
     {
       "path": "AGENTS.md",
-      "sha256": "afe7ebc812198e6b92ae542589f42a7a4a7c593c77edf0b4b916ac43db0b8768",
-      "bytes": 3742
+      "sha256": "2ee4b2fb18e75517a5e063f883a7775d5499d723bdc45c394a5c44628f41f564",
+      "bytes": 4216
     },
     {
       "path": "templates/research-workflow/README.zh-CN.md",
@@ -53,6 +53,11 @@
       "path": "templates/research-workflow/03-data-review-template.xlsx",
       "sha256": "09d1723f766298912a593fa630907767de75fa76642a7948e09b3f516a68a0d0",
       "bytes": 10511
+    },
+    {
+      "path": "docs/research-direction-2026-09-07-two-track.zh-CN.md",
+      "sha256": "66cd750996ca9757481f68c3737dd4b6b7319fdbf13f549c4083f290fe707ff4",
+      "bytes": 11106
     }
   ],
   "upload_authorization": {
@@ -61,5 +66,6 @@
     "public_destination_disclosed": true,
     "user_explicitly_authorized_direct_upload": true,
     "source": "docs/research-principles-2026-09-07.zh-CN.md section 10"
-  }
+  },
+  "latest_change": "Principles v1.3 and user-adopted parallel research direction. Planning only; no experiment or human review fabricated."
 }
