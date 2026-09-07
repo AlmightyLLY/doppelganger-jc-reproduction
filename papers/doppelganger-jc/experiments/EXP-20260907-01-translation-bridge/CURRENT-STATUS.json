@@ -14,7 +14,7 @@
   "execution_model": "gpt-6-astra",
   "execution_effort": "medium",
   "execution_service_tier_requested": "Standard/default; no separate create_thread service-tier parameter",
-  "inference_state": "NOT_RUN: original laboratory SSH authentication failed; zero model outputs reported by executor",
+  "inference_state": "Connection recovery in progress under new explicit user authorization; no generation yet verified by main",
   "postrun_word_generated": false,
   "postrun_excel_generated": false,
   "output_human_review_complete": false,
@@ -30,6 +30,6 @@
   "authorized_execution_thread_id": "01a07a97-bec2-7e90-a881-336e7b3b9987",
   "execution_authorization_rule": "Only the named local task may execute; prior queued worktree task has no execution authorization. Read current principles v1.4 before work.",
   "principles_current_version": "2026-09-07 v1.4 (environment correction; frozen scientific v1.3 content unchanged)",
-  "updated_at_utc": "2026-09-07T06:44:21.953987+00:00",
-  "authentication_diagnostic_status": "Further credential-path investigation was rejected by automatic approval review; executor instructed to stop credential investigation and prepare truthful NOT_RUN Word/Excel records"
+  "updated_at_utc": "2026-09-07T06:47:19.873510+00:00",
+  "authentication_diagnostic_status": "User subsequently explicitly authorized ssh -vvv login and supplied the credential privately. Exact authorized login instruction delivered to the same medium local executor; no broader credential investigation authorized."
 }
