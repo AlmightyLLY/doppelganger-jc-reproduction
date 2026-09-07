@@ -1,0 +1,27 @@
+{
+  "experiment_id": "EXP-20260907-B05",
+  "version": "v1",
+  "created_at": "2026-09-07T11:31:35.273308+00:00",
+  "source_spec_sha256": "6cfb239002406c9945381ee32efae2dd9cff79862cc93d4e5b07c2b9b523c621",
+  "seed_sha256": "3113ee5767236ce34ee7d27790c8049c476f5d66ffd40f412fc2b2b9060a003d",
+  "stage_A_calls": 48,
+  "stage_B_planned_calls": 32,
+  "total_attempt_cap": 80,
+  "model": {
+    "key": "qwen",
+    "model_id": "Qwen/Qwen3-8B",
+    "revision": "b968826d9c46dd6066d109eabc6255188de91218"
+  },
+  "paid_cost_usd": 0,
+  "primary_change": "All affirmative and negative positions require occurrence plus both participants; W precedence then U; not full translation",
+  "parent_scoring": "Full translation content all source information, core event content, paragraph Chinese language and format separately",
+  "chain_scoring": "Relative to Japanese source primary; actual parent meaning secondary with U retained; no participant/material screening",
+  "e2e": "Per source position parent full_translation C and paragraph Chinese C and child record C; anyW=>W otherwiseU",
+  "gate_A": "parent Chinese16/16, translation>=30/32, CHAIN_TYPED record>=30/32,U0,E2E>=30/32; no record or E2E harms vsCHAIN_GENERIC; >=2recordWtoC across>=2relations",
+  "gate_B": "A plus no record harms vsDIRECT_TYPED and >=1 DIRECT_TYPED recordW to CHAIN_TYPED C; otherwise prefer shorter path if direct as good/better",
+  "stage_B_gate": "All16 actual complete raw translations byte preserved; actual32messages+Word+Excel presented and frozen after A, before B; no author reference or Japanese source in child",
+  "ceiling": "generic/direct>=31/32 without repair headroom => diagnosis ceiling, no extra calls",
+  "stops": "Technical failure/missing parent/length>4096/uncertain started/budget/template drift/GPU conflict/paid demand; readable bad translation or nonChinese still enters B unchanged",
+  "source_unit": "16 synthetic context pairs,32positions,80outputs not independent n",
+  "constructor_sha256": "6ee2ada870377e0f23f2012daf329ff8c4a36291b9df855d2662da6ede46e56e"
+}

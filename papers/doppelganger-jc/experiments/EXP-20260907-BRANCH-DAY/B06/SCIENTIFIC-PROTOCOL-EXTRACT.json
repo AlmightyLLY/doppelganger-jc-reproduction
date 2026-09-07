@@ -1,0 +1,94 @@
+{
+  "experiment_id": "EXP-20260907-B06",
+  "version": "v1",
+  "seed_sha256": "3d15568ce56f9685bce3a8a4dd12da9af439ced5fb647a8006cf6af82838142a",
+  "constructor_sha256": "6ee2ada870377e0f23f2012daf329ff8c4a36291b9df855d2662da6ede46e56e",
+  "call_plan_sha256": "1bff2c8b1f04c67b80197f1e4b71b488c551f6bf7e769600ed34938bdeac4d5d",
+  "source_units": "8 lexical blocks;32 related variants;64 stable source-event instances;not independent n128",
+  "new_calls": 128,
+  "scored_positions": 256,
+  "order_pairs": 128,
+  "schema_pairs": 128,
+  "latin_square": [
+    [
+      [
+        "ANCHOR_FIRST",
+        "GENERIC"
+      ],
+      [
+        "ANCHOR_FIRST",
+        "TYPED"
+      ],
+      [
+        "TARGET_FIRST",
+        "GENERIC"
+      ],
+      [
+        "TARGET_FIRST",
+        "TYPED"
+      ]
+    ],
+    [
+      [
+        "ANCHOR_FIRST",
+        "TYPED"
+      ],
+      [
+        "TARGET_FIRST",
+        "GENERIC"
+      ],
+      [
+        "TARGET_FIRST",
+        "TYPED"
+      ],
+      [
+        "ANCHOR_FIRST",
+        "GENERIC"
+      ]
+    ],
+    [
+      [
+        "TARGET_FIRST",
+        "GENERIC"
+      ],
+      [
+        "TARGET_FIRST",
+        "TYPED"
+      ],
+      [
+        "ANCHOR_FIRST",
+        "GENERIC"
+      ],
+      [
+        "ANCHOR_FIRST",
+        "TYPED"
+      ]
+    ],
+    [
+      [
+        "TARGET_FIRST",
+        "TYPED"
+      ],
+      [
+        "ANCHOR_FIRST",
+        "GENERIC"
+      ],
+      [
+        "ANCHOR_FIRST",
+        "TYPED"
+      ],
+      [
+        "TARGET_FIRST",
+        "GENERIC"
+      ]
+    ]
+  ],
+  "AI_predictions_only": true,
+  "translation_metrics": "NOT_APPLICABLE",
+  "parent_metrics": "NOT_APPLICABLE",
+  "e2e_metrics": "NOT_APPLICABLE",
+  "max_new_tokens": 256,
+  "max_input_tokens": 4096,
+  "paid_cost_usd": 0,
+  "stop": "Any started uncertain/failure/input>4096/template drift/GPUconflict/paid demand;no retries,noB07"
+}

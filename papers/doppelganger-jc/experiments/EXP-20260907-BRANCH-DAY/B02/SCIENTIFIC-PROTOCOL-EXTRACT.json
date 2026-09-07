@@ -1,0 +1,46 @@
+{
+  "experiment_id": "EXP-20260907-B02",
+  "version": "v1",
+  "created_at": "2026-09-07T09:45:05.353642+00:00",
+  "purpose": "Test whether true complete B01 PROSE parents preserve occurrence and affirmative role direction after a subsequent EXPLICIT conversion.",
+  "selection": "All 24 B01 PROSE parents, 8 materials x 3 fixed models. No error-based selection, no first-stage rerun.",
+  "assistant_prediction": "自然复述保留的方向有可能降低LLM-jp/Apertus后续角色转换错误，但再次转换也可能重现或新增错误；Qwen全正确旧基线用于保护检查。",
+  "new_calls": 24,
+  "calls_per_model": 8,
+  "parents_reused": 24,
+  "direct_baselines_reused": 24,
+  "max_new_tokens": 256,
+  "max_input_tokens": 4096,
+  "paid_cost_usd": 0,
+  "sample_unit": "16 source sentence positions per model: 10 affirmative +6 negative; 8 reused context pairs, 2 domains, not independent n",
+  "primary_endpoint": "Complete event correctness on each source position: occurrence C and affirmative-role C gives joint C; negative source requires unique NO without self-contradiction, role names alone do not assert occurrence. Unique opposite occurrence or unique opposite affirmative roles gives W. Omission, contradiction, indeterminacy gives U with reason. Conflicting claims stay U, not W.",
+  "secondary_endpoints": [
+    "occurrence C/W/U",
+    "affirmative role C/W/U",
+    "omission",
+    "unsupported additions including quantity concern",
+    "format compliance",
+    "full response consistency",
+    "actual token/forward cost"
+  ],
+  "scoring": "Coordinator full-response AI annotation; no regex semantic gold, no B01 frozen score overwrite; new joint endpoint separately annotated on direct and chain outputs.",
+  "feasibility_gate": "All24 children trace to true full parents; LLM-jp and Apertus each rescue >=1 direct affirmative-role W with zero joint C->W/U harms; Qwen zero joint new harms; occurrence states preserved across every model.",
+  "failure_action": "If role errors persist or new harms appear, retain failures and stop at conversion diagnosis. No corrective round, additional QA call, new model or sample expansion.",
+  "stops": [
+    "unpresented pre-run Word/Excel",
+    "parent or prompt identity mismatch",
+    "more than24 new calls or completed-call repeat risk",
+    "input exceeds4096 without truncation",
+    "runtime/template/revision comparability mismatch",
+    "foreign process on assigned GPU0",
+    "paid service requirement"
+  ],
+  "limits": [
+    "Post-result continuation of exposed B01 parents, not independent end-to-end confirmation",
+    "Author supplied correct source range to first stage",
+    "Language, wording and stage count differ from direct EXPLICIT; no pure format or internal mechanism claim",
+    "Qwen Japanese parents remain Chinese-language failures, later conversion cannot repair that requirement",
+    "Quantity fidelity remains secondary unresolved; no blanket claim of fully correct translation"
+  ],
+  "projection": "Optional mechanical occurrence-fact projection only: NO yields no fact, UNKNOWN or unparsable remains unresolved; derived artifact not a model answer or broad QA repair test."
+}

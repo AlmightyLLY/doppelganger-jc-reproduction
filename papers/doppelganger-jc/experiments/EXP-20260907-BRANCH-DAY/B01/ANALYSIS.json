@@ -1,0 +1,271 @@
+{
+  "experiment_id": "EXP-20260907-B01",
+  "computed_at_utc": "2026-09-07T09:37:00.487092+00:00",
+  "identity": "Development descriptive analysis of explicit AI annotations; output human review pending",
+  "new_responses": 48,
+  "reused_responses": 24,
+  "sentence_positions": 144,
+  "independent_n": "Not established; 8 reused pairs, two shared-template domains",
+  "summaries": [
+    {
+      "model": "qwen",
+      "arm": "LEGACY",
+      "n_positions": 16,
+      "C": 12,
+      "W": 4,
+      "U": 0,
+      "positive_C": 10,
+      "positive_W": 0,
+      "positive_U": 0,
+      "negative_C": 2,
+      "negative_W": 4,
+      "negative_U": 0,
+      "role_positive_C": 10,
+      "role_positive_W": 0,
+      "role_positive_U": 0
+    },
+    {
+      "model": "qwen",
+      "arm": "PROSE",
+      "n_positions": 16,
+      "C": 16,
+      "W": 0,
+      "U": 0,
+      "positive_C": 10,
+      "positive_W": 0,
+      "positive_U": 0,
+      "negative_C": 6,
+      "negative_W": 0,
+      "negative_U": 0,
+      "role_positive_C": 10,
+      "role_positive_W": 0,
+      "role_positive_U": 0
+    },
+    {
+      "model": "qwen",
+      "arm": "EXPLICIT",
+      "n_positions": 16,
+      "C": 16,
+      "W": 0,
+      "U": 0,
+      "positive_C": 10,
+      "positive_W": 0,
+      "positive_U": 0,
+      "negative_C": 6,
+      "negative_W": 0,
+      "negative_U": 0,
+      "role_positive_C": 10,
+      "role_positive_W": 0,
+      "role_positive_U": 0
+    },
+    {
+      "model": "llmjp",
+      "arm": "LEGACY",
+      "n_positions": 16,
+      "C": 11,
+      "W": 5,
+      "U": 0,
+      "positive_C": 10,
+      "positive_W": 0,
+      "positive_U": 0,
+      "negative_C": 1,
+      "negative_W": 5,
+      "negative_U": 0,
+      "role_positive_C": 9,
+      "role_positive_W": 1,
+      "role_positive_U": 0
+    },
+    {
+      "model": "llmjp",
+      "arm": "PROSE",
+      "n_positions": 16,
+      "C": 16,
+      "W": 0,
+      "U": 0,
+      "positive_C": 10,
+      "positive_W": 0,
+      "positive_U": 0,
+      "negative_C": 6,
+      "negative_W": 0,
+      "negative_U": 0,
+      "role_positive_C": 10,
+      "role_positive_W": 0,
+      "role_positive_U": 0
+    },
+    {
+      "model": "llmjp",
+      "arm": "EXPLICIT",
+      "n_positions": 16,
+      "C": 16,
+      "W": 0,
+      "U": 0,
+      "positive_C": 10,
+      "positive_W": 0,
+      "positive_U": 0,
+      "negative_C": 6,
+      "negative_W": 0,
+      "negative_U": 0,
+      "role_positive_C": 8,
+      "role_positive_W": 2,
+      "role_positive_U": 0
+    },
+    {
+      "model": "apertus",
+      "arm": "LEGACY",
+      "n_positions": 16,
+      "C": 12,
+      "W": 4,
+      "U": 0,
+      "positive_C": 10,
+      "positive_W": 0,
+      "positive_U": 0,
+      "negative_C": 2,
+      "negative_W": 4,
+      "negative_U": 0,
+      "role_positive_C": 5,
+      "role_positive_W": 5,
+      "role_positive_U": 0
+    },
+    {
+      "model": "apertus",
+      "arm": "PROSE",
+      "n_positions": 16,
+      "C": 16,
+      "W": 0,
+      "U": 0,
+      "positive_C": 10,
+      "positive_W": 0,
+      "positive_U": 0,
+      "negative_C": 6,
+      "negative_W": 0,
+      "negative_U": 0,
+      "role_positive_C": 10,
+      "role_positive_W": 0,
+      "role_positive_U": 0
+    },
+    {
+      "model": "apertus",
+      "arm": "EXPLICIT",
+      "n_positions": 16,
+      "C": 16,
+      "W": 0,
+      "U": 0,
+      "positive_C": 10,
+      "positive_W": 0,
+      "positive_U": 0,
+      "negative_C": 6,
+      "negative_W": 0,
+      "negative_U": 0,
+      "role_positive_C": 8,
+      "role_positive_W": 2,
+      "role_positive_U": 0
+    }
+  ],
+  "paired_screens": [
+    {
+      "model": "qwen",
+      "arm": "PROSE",
+      "W_to_C": 4,
+      "U_to_C": 0,
+      "C_to_W": 0,
+      "C_to_U": 0,
+      "rescued_domains": [
+        "hire",
+        "loan"
+      ],
+      "development_screen_pass": true,
+      "all_transitions": {
+        "C->C": 12,
+        "W->C": 4
+      }
+    },
+    {
+      "model": "qwen",
+      "arm": "EXPLICIT",
+      "W_to_C": 4,
+      "U_to_C": 0,
+      "C_to_W": 0,
+      "C_to_U": 0,
+      "rescued_domains": [
+        "hire",
+        "loan"
+      ],
+      "development_screen_pass": true,
+      "all_transitions": {
+        "C->C": 12,
+        "W->C": 4
+      }
+    },
+    {
+      "model": "llmjp",
+      "arm": "PROSE",
+      "W_to_C": 5,
+      "U_to_C": 0,
+      "C_to_W": 0,
+      "C_to_U": 0,
+      "rescued_domains": [
+        "hire",
+        "loan"
+      ],
+      "development_screen_pass": true,
+      "all_transitions": {
+        "C->C": 11,
+        "W->C": 5
+      }
+    },
+    {
+      "model": "llmjp",
+      "arm": "EXPLICIT",
+      "W_to_C": 5,
+      "U_to_C": 0,
+      "C_to_W": 0,
+      "C_to_U": 0,
+      "rescued_domains": [
+        "hire",
+        "loan"
+      ],
+      "development_screen_pass": true,
+      "all_transitions": {
+        "C->C": 11,
+        "W->C": 5
+      }
+    },
+    {
+      "model": "apertus",
+      "arm": "PROSE",
+      "W_to_C": 4,
+      "U_to_C": 0,
+      "C_to_W": 0,
+      "C_to_U": 0,
+      "rescued_domains": [
+        "hire",
+        "loan"
+      ],
+      "development_screen_pass": true,
+      "all_transitions": {
+        "C->C": 12,
+        "W->C": 4
+      }
+    },
+    {
+      "model": "apertus",
+      "arm": "EXPLICIT",
+      "W_to_C": 4,
+      "U_to_C": 0,
+      "C_to_W": 0,
+      "C_to_U": 0,
+      "rescued_domains": [
+        "hire",
+        "loan"
+      ],
+      "development_screen_pass": true,
+      "all_transitions": {
+        "C->C": 12,
+        "W->C": 4
+      }
+    }
+  ],
+  "new_forward_n": 1928,
+  "reused_historical_forward_n": 376,
+  "output_human_review_complete": false
+}

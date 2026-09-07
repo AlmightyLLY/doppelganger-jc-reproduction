@@ -1,0 +1,295 @@
+{
+  "experiment_id": "EXP-20260907-B03",
+  "at_utc": "2026-09-07T10:26:14.073815+00:00",
+  "new_calls": 120,
+  "new_forwards": 3357,
+  "parents_reused": 24,
+  "pair_generic_baselines_reused": 24,
+  "paid_cost_usd": 0,
+  "summaries": [
+    {
+      "model": "qwen",
+      "arm": "PAIR_GENERIC",
+      "n": 16,
+      "joint_C": 16,
+      "joint_W": 0,
+      "joint_U": 0,
+      "occurrence_C": 16,
+      "occurrence_W": 0,
+      "occurrence_U": 0,
+      "role_C": 10,
+      "role_W": 0,
+      "role_U": 0
+    },
+    {
+      "model": "qwen",
+      "arm": "PAIR_TYPED",
+      "n": 16,
+      "joint_C": 16,
+      "joint_W": 0,
+      "joint_U": 0,
+      "occurrence_C": 16,
+      "occurrence_W": 0,
+      "occurrence_U": 0,
+      "role_C": 10,
+      "role_W": 0,
+      "role_U": 0
+    },
+    {
+      "model": "qwen",
+      "arm": "ATOM_GENERIC",
+      "n": 16,
+      "joint_C": 15,
+      "joint_W": 1,
+      "joint_U": 0,
+      "occurrence_C": 15,
+      "occurrence_W": 1,
+      "occurrence_U": 0,
+      "role_C": 10,
+      "role_W": 0,
+      "role_U": 0
+    },
+    {
+      "model": "qwen",
+      "arm": "ATOM_TYPED",
+      "n": 16,
+      "joint_C": 16,
+      "joint_W": 0,
+      "joint_U": 0,
+      "occurrence_C": 16,
+      "occurrence_W": 0,
+      "occurrence_U": 0,
+      "role_C": 10,
+      "role_W": 0,
+      "role_U": 0
+    },
+    {
+      "model": "llmjp",
+      "arm": "PAIR_GENERIC",
+      "n": 16,
+      "joint_C": 14,
+      "joint_W": 2,
+      "joint_U": 0,
+      "occurrence_C": 16,
+      "occurrence_W": 0,
+      "occurrence_U": 0,
+      "role_C": 8,
+      "role_W": 2,
+      "role_U": 0
+    },
+    {
+      "model": "llmjp",
+      "arm": "PAIR_TYPED",
+      "n": 16,
+      "joint_C": 16,
+      "joint_W": 0,
+      "joint_U": 0,
+      "occurrence_C": 16,
+      "occurrence_W": 0,
+      "occurrence_U": 0,
+      "role_C": 10,
+      "role_W": 0,
+      "role_U": 0
+    },
+    {
+      "model": "llmjp",
+      "arm": "ATOM_GENERIC",
+      "n": 16,
+      "joint_C": 11,
+      "joint_W": 5,
+      "joint_U": 0,
+      "occurrence_C": 11,
+      "occurrence_W": 5,
+      "occurrence_U": 0,
+      "role_C": 10,
+      "role_W": 0,
+      "role_U": 0
+    },
+    {
+      "model": "llmjp",
+      "arm": "ATOM_TYPED",
+      "n": 16,
+      "joint_C": 15,
+      "joint_W": 1,
+      "joint_U": 0,
+      "occurrence_C": 15,
+      "occurrence_W": 1,
+      "occurrence_U": 0,
+      "role_C": 10,
+      "role_W": 0,
+      "role_U": 0
+    },
+    {
+      "model": "apertus",
+      "arm": "PAIR_GENERIC",
+      "n": 16,
+      "joint_C": 10,
+      "joint_W": 6,
+      "joint_U": 0,
+      "occurrence_C": 12,
+      "occurrence_W": 4,
+      "occurrence_U": 0,
+      "role_C": 8,
+      "role_W": 2,
+      "role_U": 0
+    },
+    {
+      "model": "apertus",
+      "arm": "PAIR_TYPED",
+      "n": 16,
+      "joint_C": 12,
+      "joint_W": 4,
+      "joint_U": 0,
+      "occurrence_C": 12,
+      "occurrence_W": 4,
+      "occurrence_U": 0,
+      "role_C": 10,
+      "role_W": 0,
+      "role_U": 0
+    },
+    {
+      "model": "apertus",
+      "arm": "ATOM_GENERIC",
+      "n": 16,
+      "joint_C": 15,
+      "joint_W": 0,
+      "joint_U": 1,
+      "occurrence_C": 16,
+      "occurrence_W": 0,
+      "occurrence_U": 0,
+      "role_C": 9,
+      "role_W": 0,
+      "role_U": 1
+    },
+    {
+      "model": "apertus",
+      "arm": "ATOM_TYPED",
+      "n": 16,
+      "joint_C": 15,
+      "joint_W": 0,
+      "joint_U": 1,
+      "occurrence_C": 16,
+      "occurrence_W": 0,
+      "occurrence_U": 0,
+      "role_C": 9,
+      "role_W": 0,
+      "role_U": 1
+    }
+  ],
+  "gates": [
+    {
+      "model": "qwen",
+      "occurrence_C": 16,
+      "joint_U": 0,
+      "role_W_to_C": 0,
+      "joint_C_to_W": 0,
+      "joint_C_to_U": 0,
+      "joint_W_to_C": 0,
+      "pass": true
+    },
+    {
+      "model": "llmjp",
+      "occurrence_C": 15,
+      "joint_U": 0,
+      "role_W_to_C": 2,
+      "joint_C_to_W": 1,
+      "joint_C_to_U": 0,
+      "joint_W_to_C": 2,
+      "pass": false
+    },
+    {
+      "model": "apertus",
+      "occurrence_C": 16,
+      "joint_U": 1,
+      "role_W_to_C": 2,
+      "joint_C_to_W": 0,
+      "joint_C_to_U": 1,
+      "joint_W_to_C": 6,
+      "pass": false
+    }
+  ],
+  "preselected_candidate": "ATOM_TYPED",
+  "expansion_gate_pass": false,
+  "descriptive_interaction": [
+    {
+      "model": "qwen",
+      "identity": "DESCRIPTIVE_PAIRED_COUNT_CONTRAST_NOT_INDEPENDENT_N_OR_CAUSAL_MECHANISM",
+      "joint": 1,
+      "occurrence": 1,
+      "role": 0
+    },
+    {
+      "model": "llmjp",
+      "identity": "DESCRIPTIVE_PAIRED_COUNT_CONTRAST_NOT_INDEPENDENT_N_OR_CAUSAL_MECHANISM",
+      "joint": 2,
+      "occurrence": 4,
+      "role": -2
+    },
+    {
+      "model": "apertus",
+      "identity": "DESCRIPTIVE_PAIRED_COUNT_CONTRAST_NOT_INDEPENDENT_N_OR_CAUSAL_MECHANISM",
+      "joint": -2,
+      "occurrence": 0,
+      "role": -2
+    }
+  ],
+  "costs": [
+    {
+      "model": "qwen",
+      "arm": "PAIR_TYPED",
+      "new_calls": 8,
+      "new_forwards": 544
+    },
+    {
+      "model": "qwen",
+      "arm": "ATOM_GENERIC",
+      "new_calls": 16,
+      "new_forwards": 352
+    },
+    {
+      "model": "qwen",
+      "arm": "ATOM_TYPED",
+      "new_calls": 16,
+      "new_forwards": 336
+    },
+    {
+      "model": "llmjp",
+      "arm": "PAIR_TYPED",
+      "new_calls": 8,
+      "new_forwards": 304
+    },
+    {
+      "model": "llmjp",
+      "arm": "ATOM_GENERIC",
+      "new_calls": 16,
+      "new_forwards": 400
+    },
+    {
+      "model": "llmjp",
+      "arm": "ATOM_TYPED",
+      "new_calls": 16,
+      "new_forwards": 352
+    },
+    {
+      "model": "apertus",
+      "arm": "PAIR_TYPED",
+      "new_calls": 8,
+      "new_forwards": 331
+    },
+    {
+      "model": "apertus",
+      "arm": "ATOM_GENERIC",
+      "new_calls": 16,
+      "new_forwards": 369
+    },
+    {
+      "model": "apertus",
+      "arm": "ATOM_TYPED",
+      "new_calls": 16,
+      "new_forwards": 369
+    }
+  ],
+  "projection_parse_all_valid": true,
+  "output_human_review_complete": false,
+  "independent_confirmation": false
+}

@@ -1,0 +1,59 @@
+{
+  "experiment_id": "EXP-20260907-B07",
+  "version": "v1",
+  "seed_sha256": "1e16155640281792b39a4457f9f96cd2dd4a7e4e7bb8985c453f29e3d3a4fb35",
+  "call_plan_sha256": "a01cbdb730bcba5468a6f80ed78543ea8579c71ab8f5a04ec98190b8726e7371",
+  "plain_constructor_sha256": "6ee2ada870377e0f23f2012daf329ff8c4a36291b9df855d2662da6ede46e56e",
+  "keyed_constructor_sha256": "610873dfd977b3d397f8f0621cf1febb5695b4316f92ca579982c1dd3ebd592a",
+  "calls": 192,
+  "PLAIN": 64,
+  "KEYED": 128,
+  "score_events": 384,
+  "pairs_by_type": {
+    "KEYED_INPUT": 128,
+    "KEYED_OUTPUT": 128,
+    "INTERFACE_BRIDGE": 128,
+    "PLAIN_INPUT": 64
+  },
+  "AI_predictions_only": true,
+  "latin_base": [
+    [
+      "PLAIN",
+      "ANCHOR_FIRST",
+      "ANCHOR_FIRST"
+    ],
+    [
+      "PLAIN",
+      "TARGET_FIRST",
+      "TARGET_FIRST"
+    ],
+    [
+      "KEYED",
+      "ANCHOR_FIRST",
+      "ANCHOR_FIRST"
+    ],
+    [
+      "KEYED",
+      "ANCHOR_FIRST",
+      "TARGET_FIRST"
+    ],
+    [
+      "KEYED",
+      "TARGET_FIRST",
+      "ANCHOR_FIRST"
+    ],
+    [
+      "KEYED",
+      "TARGET_FIRST",
+      "TARGET_FIRST"
+    ]
+  ],
+  "latin_rotation": "left by zero-based material index mod6; position counts5or6",
+  "parent_metrics": "NOT_APPLICABLE",
+  "translation_metrics": "NOT_APPLICABLE",
+  "e2e_metrics": "NOT_APPLICABLE",
+  "output_tokens": 256,
+  "input_tokens": 4096,
+  "paid_usd": 0,
+  "stop": "192starts max; no retry; failure/uncertain start/drift/overlength/resource conflict stop; noB08"
+}

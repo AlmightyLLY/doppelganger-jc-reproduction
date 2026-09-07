@@ -1,0 +1,5127 @@
+{
+  "experiment_id": "EXP-20260907-B06",
+  "at": "2026-09-07T12:45:12.058705+00:00",
+  "material_variants": 32,
+  "lexical_blocks": 8,
+  "new_outputs": 128,
+  "new_forwards": 8796,
+  "paid_cost_usd": 0,
+  "summaries": [
+    {
+      "schema": "GENERIC",
+      "order": "TARGET_FIRST",
+      "kind": "ANCHOR",
+      "n": 32,
+      "record": {
+        "C": 32,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 32,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 32,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 32,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 32,
+        "W": 0,
+        "U": 0
+      },
+      "exact_role_swap": 0,
+      "any_participant_U": 0,
+      "format_fail": 0
+    },
+    {
+      "schema": "GENERIC",
+      "order": "TARGET_FIRST",
+      "kind": "TARGET",
+      "n": 32,
+      "record": {
+        "C": 18,
+        "W": 14,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 22,
+        "W": 10,
+        "U": 0
+      },
+      "participant": {
+        "C": 23,
+        "W": 9,
+        "U": 0
+      },
+      "role_a": {
+        "C": 23,
+        "W": 9,
+        "U": 0
+      },
+      "role_b": {
+        "C": 23,
+        "W": 9,
+        "U": 0
+      },
+      "exact_role_swap": 9,
+      "any_participant_U": 0,
+      "format_fail": 0
+    },
+    {
+      "schema": "GENERIC",
+      "order": "ANCHOR_FIRST",
+      "kind": "ANCHOR",
+      "n": 32,
+      "record": {
+        "C": 32,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 32,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 32,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 32,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 32,
+        "W": 0,
+        "U": 0
+      },
+      "exact_role_swap": 0,
+      "any_participant_U": 0,
+      "format_fail": 0
+    },
+    {
+      "schema": "GENERIC",
+      "order": "ANCHOR_FIRST",
+      "kind": "TARGET",
+      "n": 32,
+      "record": {
+        "C": 24,
+        "W": 8,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 24,
+        "W": 8,
+        "U": 0
+      },
+      "participant": {
+        "C": 27,
+        "W": 5,
+        "U": 0
+      },
+      "role_a": {
+        "C": 27,
+        "W": 5,
+        "U": 0
+      },
+      "role_b": {
+        "C": 27,
+        "W": 5,
+        "U": 0
+      },
+      "exact_role_swap": 5,
+      "any_participant_U": 0,
+      "format_fail": 0
+    },
+    {
+      "schema": "TYPED",
+      "order": "TARGET_FIRST",
+      "kind": "ANCHOR",
+      "n": 32,
+      "record": {
+        "C": 32,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 32,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 32,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 32,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 32,
+        "W": 0,
+        "U": 0
+      },
+      "exact_role_swap": 0,
+      "any_participant_U": 0,
+      "format_fail": 0
+    },
+    {
+      "schema": "TYPED",
+      "order": "TARGET_FIRST",
+      "kind": "TARGET",
+      "n": 32,
+      "record": {
+        "C": 30,
+        "W": 2,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 30,
+        "W": 2,
+        "U": 0
+      },
+      "participant": {
+        "C": 32,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 32,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 32,
+        "W": 0,
+        "U": 0
+      },
+      "exact_role_swap": 0,
+      "any_participant_U": 0,
+      "format_fail": 0
+    },
+    {
+      "schema": "TYPED",
+      "order": "ANCHOR_FIRST",
+      "kind": "ANCHOR",
+      "n": 32,
+      "record": {
+        "C": 32,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 32,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 32,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 32,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 32,
+        "W": 0,
+        "U": 0
+      },
+      "exact_role_swap": 0,
+      "any_participant_U": 0,
+      "format_fail": 0
+    },
+    {
+      "schema": "TYPED",
+      "order": "ANCHOR_FIRST",
+      "kind": "TARGET",
+      "n": 32,
+      "record": {
+        "C": 27,
+        "W": 5,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 27,
+        "W": 5,
+        "U": 0
+      },
+      "participant": {
+        "C": 30,
+        "W": 1,
+        "U": 1
+      },
+      "role_a": {
+        "C": 30,
+        "W": 1,
+        "U": 1
+      },
+      "role_b": {
+        "C": 30,
+        "W": 1,
+        "U": 1
+      },
+      "exact_role_swap": 1,
+      "any_participant_U": 1,
+      "format_fail": 0
+    }
+  ],
+  "strata": [
+    {
+      "stratum": "domain",
+      "level": "gift",
+      "schema": "GENERIC",
+      "order": "TARGET_FIRST",
+      "kind": "ANCHOR",
+      "n": 8,
+      "record": {
+        "C": 8,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 8,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 8,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 8,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 8,
+        "W": 0,
+        "U": 0
+      },
+      "exact_role_swap": 0,
+      "any_participant_U": 0,
+      "format_fail": 0
+    },
+    {
+      "stratum": "domain",
+      "level": "gift",
+      "schema": "GENERIC",
+      "order": "TARGET_FIRST",
+      "kind": "TARGET",
+      "n": 8,
+      "record": {
+        "C": 7,
+        "W": 1,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 8,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 7,
+        "W": 1,
+        "U": 0
+      },
+      "role_a": {
+        "C": 7,
+        "W": 1,
+        "U": 0
+      },
+      "role_b": {
+        "C": 7,
+        "W": 1,
+        "U": 0
+      },
+      "exact_role_swap": 1,
+      "any_participant_U": 0,
+      "format_fail": 0
+    },
+    {
+      "stratum": "domain",
+      "level": "gift",
+      "schema": "GENERIC",
+      "order": "ANCHOR_FIRST",
+      "kind": "ANCHOR",
+      "n": 8,
+      "record": {
+        "C": 8,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 8,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 8,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 8,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 8,
+        "W": 0,
+        "U": 0
+      },
+      "exact_role_swap": 0,
+      "any_participant_U": 0,
+      "format_fail": 0
+    },
+    {
+      "stratum": "domain",
+      "level": "gift",
+      "schema": "GENERIC",
+      "order": "ANCHOR_FIRST",
+      "kind": "TARGET",
+      "n": 8,
+      "record": {
+        "C": 8,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 8,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 8,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 8,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 8,
+        "W": 0,
+        "U": 0
+      },
+      "exact_role_swap": 0,
+      "any_participant_U": 0,
+      "format_fail": 0
+    },
+    {
+      "stratum": "domain",
+      "level": "gift",
+      "schema": "TYPED",
+      "order": "TARGET_FIRST",
+      "kind": "ANCHOR",
+      "n": 8,
+      "record": {
+        "C": 8,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 8,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 8,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 8,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 8,
+        "W": 0,
+        "U": 0
+      },
+      "exact_role_swap": 0,
+      "any_participant_U": 0,
+      "format_fail": 0
+    },
+    {
+      "stratum": "domain",
+      "level": "gift",
+      "schema": "TYPED",
+      "order": "TARGET_FIRST",
+      "kind": "TARGET",
+      "n": 8,
+      "record": {
+        "C": 8,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 8,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 8,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 8,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 8,
+        "W": 0,
+        "U": 0
+      },
+      "exact_role_swap": 0,
+      "any_participant_U": 0,
+      "format_fail": 0
+    },
+    {
+      "stratum": "domain",
+      "level": "gift",
+      "schema": "TYPED",
+      "order": "ANCHOR_FIRST",
+      "kind": "ANCHOR",
+      "n": 8,
+      "record": {
+        "C": 8,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 8,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 8,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 8,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 8,
+        "W": 0,
+        "U": 0
+      },
+      "exact_role_swap": 0,
+      "any_participant_U": 0,
+      "format_fail": 0
+    },
+    {
+      "stratum": "domain",
+      "level": "gift",
+      "schema": "TYPED",
+      "order": "ANCHOR_FIRST",
+      "kind": "TARGET",
+      "n": 8,
+      "record": {
+        "C": 8,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 8,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 8,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 8,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 8,
+        "W": 0,
+        "U": 0
+      },
+      "exact_role_swap": 0,
+      "any_participant_U": 0,
+      "format_fail": 0
+    },
+    {
+      "stratum": "domain",
+      "level": "hire",
+      "schema": "GENERIC",
+      "order": "TARGET_FIRST",
+      "kind": "ANCHOR",
+      "n": 8,
+      "record": {
+        "C": 8,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 8,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 8,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 8,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 8,
+        "W": 0,
+        "U": 0
+      },
+      "exact_role_swap": 0,
+      "any_participant_U": 0,
+      "format_fail": 0
+    },
+    {
+      "stratum": "domain",
+      "level": "hire",
+      "schema": "GENERIC",
+      "order": "TARGET_FIRST",
+      "kind": "TARGET",
+      "n": 8,
+      "record": {
+        "C": 4,
+        "W": 4,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 4,
+        "W": 4,
+        "U": 0
+      },
+      "participant": {
+        "C": 7,
+        "W": 1,
+        "U": 0
+      },
+      "role_a": {
+        "C": 7,
+        "W": 1,
+        "U": 0
+      },
+      "role_b": {
+        "C": 7,
+        "W": 1,
+        "U": 0
+      },
+      "exact_role_swap": 1,
+      "any_participant_U": 0,
+      "format_fail": 0
+    },
+    {
+      "stratum": "domain",
+      "level": "hire",
+      "schema": "GENERIC",
+      "order": "ANCHOR_FIRST",
+      "kind": "ANCHOR",
+      "n": 8,
+      "record": {
+        "C": 8,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 8,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 8,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 8,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 8,
+        "W": 0,
+        "U": 0
+      },
+      "exact_role_swap": 0,
+      "any_participant_U": 0,
+      "format_fail": 0
+    },
+    {
+      "stratum": "domain",
+      "level": "hire",
+      "schema": "GENERIC",
+      "order": "ANCHOR_FIRST",
+      "kind": "TARGET",
+      "n": 8,
+      "record": {
+        "C": 5,
+        "W": 3,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 5,
+        "W": 3,
+        "U": 0
+      },
+      "participant": {
+        "C": 7,
+        "W": 1,
+        "U": 0
+      },
+      "role_a": {
+        "C": 7,
+        "W": 1,
+        "U": 0
+      },
+      "role_b": {
+        "C": 7,
+        "W": 1,
+        "U": 0
+      },
+      "exact_role_swap": 1,
+      "any_participant_U": 0,
+      "format_fail": 0
+    },
+    {
+      "stratum": "domain",
+      "level": "hire",
+      "schema": "TYPED",
+      "order": "TARGET_FIRST",
+      "kind": "ANCHOR",
+      "n": 8,
+      "record": {
+        "C": 8,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 8,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 8,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 8,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 8,
+        "W": 0,
+        "U": 0
+      },
+      "exact_role_swap": 0,
+      "any_participant_U": 0,
+      "format_fail": 0
+    },
+    {
+      "stratum": "domain",
+      "level": "hire",
+      "schema": "TYPED",
+      "order": "TARGET_FIRST",
+      "kind": "TARGET",
+      "n": 8,
+      "record": {
+        "C": 8,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 8,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 8,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 8,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 8,
+        "W": 0,
+        "U": 0
+      },
+      "exact_role_swap": 0,
+      "any_participant_U": 0,
+      "format_fail": 0
+    },
+    {
+      "stratum": "domain",
+      "level": "hire",
+      "schema": "TYPED",
+      "order": "ANCHOR_FIRST",
+      "kind": "ANCHOR",
+      "n": 8,
+      "record": {
+        "C": 8,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 8,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 8,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 8,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 8,
+        "W": 0,
+        "U": 0
+      },
+      "exact_role_swap": 0,
+      "any_participant_U": 0,
+      "format_fail": 0
+    },
+    {
+      "stratum": "domain",
+      "level": "hire",
+      "schema": "TYPED",
+      "order": "ANCHOR_FIRST",
+      "kind": "TARGET",
+      "n": 8,
+      "record": {
+        "C": 6,
+        "W": 2,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 6,
+        "W": 2,
+        "U": 0
+      },
+      "participant": {
+        "C": 7,
+        "W": 1,
+        "U": 0
+      },
+      "role_a": {
+        "C": 7,
+        "W": 1,
+        "U": 0
+      },
+      "role_b": {
+        "C": 7,
+        "W": 1,
+        "U": 0
+      },
+      "exact_role_swap": 1,
+      "any_participant_U": 0,
+      "format_fail": 0
+    },
+    {
+      "stratum": "domain",
+      "level": "loan",
+      "schema": "GENERIC",
+      "order": "TARGET_FIRST",
+      "kind": "ANCHOR",
+      "n": 8,
+      "record": {
+        "C": 8,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 8,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 8,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 8,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 8,
+        "W": 0,
+        "U": 0
+      },
+      "exact_role_swap": 0,
+      "any_participant_U": 0,
+      "format_fail": 0
+    },
+    {
+      "stratum": "domain",
+      "level": "loan",
+      "schema": "GENERIC",
+      "order": "TARGET_FIRST",
+      "kind": "TARGET",
+      "n": 8,
+      "record": {
+        "C": 3,
+        "W": 5,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 5,
+        "W": 3,
+        "U": 0
+      },
+      "participant": {
+        "C": 4,
+        "W": 4,
+        "U": 0
+      },
+      "role_a": {
+        "C": 4,
+        "W": 4,
+        "U": 0
+      },
+      "role_b": {
+        "C": 4,
+        "W": 4,
+        "U": 0
+      },
+      "exact_role_swap": 4,
+      "any_participant_U": 0,
+      "format_fail": 0
+    },
+    {
+      "stratum": "domain",
+      "level": "loan",
+      "schema": "GENERIC",
+      "order": "ANCHOR_FIRST",
+      "kind": "ANCHOR",
+      "n": 8,
+      "record": {
+        "C": 8,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 8,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 8,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 8,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 8,
+        "W": 0,
+        "U": 0
+      },
+      "exact_role_swap": 0,
+      "any_participant_U": 0,
+      "format_fail": 0
+    },
+    {
+      "stratum": "domain",
+      "level": "loan",
+      "schema": "GENERIC",
+      "order": "ANCHOR_FIRST",
+      "kind": "TARGET",
+      "n": 8,
+      "record": {
+        "C": 5,
+        "W": 3,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 5,
+        "W": 3,
+        "U": 0
+      },
+      "participant": {
+        "C": 6,
+        "W": 2,
+        "U": 0
+      },
+      "role_a": {
+        "C": 6,
+        "W": 2,
+        "U": 0
+      },
+      "role_b": {
+        "C": 6,
+        "W": 2,
+        "U": 0
+      },
+      "exact_role_swap": 2,
+      "any_participant_U": 0,
+      "format_fail": 0
+    },
+    {
+      "stratum": "domain",
+      "level": "loan",
+      "schema": "TYPED",
+      "order": "TARGET_FIRST",
+      "kind": "ANCHOR",
+      "n": 8,
+      "record": {
+        "C": 8,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 8,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 8,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 8,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 8,
+        "W": 0,
+        "U": 0
+      },
+      "exact_role_swap": 0,
+      "any_participant_U": 0,
+      "format_fail": 0
+    },
+    {
+      "stratum": "domain",
+      "level": "loan",
+      "schema": "TYPED",
+      "order": "TARGET_FIRST",
+      "kind": "TARGET",
+      "n": 8,
+      "record": {
+        "C": 6,
+        "W": 2,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 6,
+        "W": 2,
+        "U": 0
+      },
+      "participant": {
+        "C": 8,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 8,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 8,
+        "W": 0,
+        "U": 0
+      },
+      "exact_role_swap": 0,
+      "any_participant_U": 0,
+      "format_fail": 0
+    },
+    {
+      "stratum": "domain",
+      "level": "loan",
+      "schema": "TYPED",
+      "order": "ANCHOR_FIRST",
+      "kind": "ANCHOR",
+      "n": 8,
+      "record": {
+        "C": 8,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 8,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 8,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 8,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 8,
+        "W": 0,
+        "U": 0
+      },
+      "exact_role_swap": 0,
+      "any_participant_U": 0,
+      "format_fail": 0
+    },
+    {
+      "stratum": "domain",
+      "level": "loan",
+      "schema": "TYPED",
+      "order": "ANCHOR_FIRST",
+      "kind": "TARGET",
+      "n": 8,
+      "record": {
+        "C": 6,
+        "W": 2,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 6,
+        "W": 2,
+        "U": 0
+      },
+      "participant": {
+        "C": 8,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 8,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 8,
+        "W": 0,
+        "U": 0
+      },
+      "exact_role_swap": 0,
+      "any_participant_U": 0,
+      "format_fail": 0
+    },
+    {
+      "stratum": "domain",
+      "level": "sale",
+      "schema": "GENERIC",
+      "order": "TARGET_FIRST",
+      "kind": "ANCHOR",
+      "n": 8,
+      "record": {
+        "C": 8,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 8,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 8,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 8,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 8,
+        "W": 0,
+        "U": 0
+      },
+      "exact_role_swap": 0,
+      "any_participant_U": 0,
+      "format_fail": 0
+    },
+    {
+      "stratum": "domain",
+      "level": "sale",
+      "schema": "GENERIC",
+      "order": "TARGET_FIRST",
+      "kind": "TARGET",
+      "n": 8,
+      "record": {
+        "C": 4,
+        "W": 4,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 5,
+        "W": 3,
+        "U": 0
+      },
+      "participant": {
+        "C": 5,
+        "W": 3,
+        "U": 0
+      },
+      "role_a": {
+        "C": 5,
+        "W": 3,
+        "U": 0
+      },
+      "role_b": {
+        "C": 5,
+        "W": 3,
+        "U": 0
+      },
+      "exact_role_swap": 3,
+      "any_participant_U": 0,
+      "format_fail": 0
+    },
+    {
+      "stratum": "domain",
+      "level": "sale",
+      "schema": "GENERIC",
+      "order": "ANCHOR_FIRST",
+      "kind": "ANCHOR",
+      "n": 8,
+      "record": {
+        "C": 8,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 8,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 8,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 8,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 8,
+        "W": 0,
+        "U": 0
+      },
+      "exact_role_swap": 0,
+      "any_participant_U": 0,
+      "format_fail": 0
+    },
+    {
+      "stratum": "domain",
+      "level": "sale",
+      "schema": "GENERIC",
+      "order": "ANCHOR_FIRST",
+      "kind": "TARGET",
+      "n": 8,
+      "record": {
+        "C": 6,
+        "W": 2,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 6,
+        "W": 2,
+        "U": 0
+      },
+      "participant": {
+        "C": 6,
+        "W": 2,
+        "U": 0
+      },
+      "role_a": {
+        "C": 6,
+        "W": 2,
+        "U": 0
+      },
+      "role_b": {
+        "C": 6,
+        "W": 2,
+        "U": 0
+      },
+      "exact_role_swap": 2,
+      "any_participant_U": 0,
+      "format_fail": 0
+    },
+    {
+      "stratum": "domain",
+      "level": "sale",
+      "schema": "TYPED",
+      "order": "TARGET_FIRST",
+      "kind": "ANCHOR",
+      "n": 8,
+      "record": {
+        "C": 8,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 8,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 8,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 8,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 8,
+        "W": 0,
+        "U": 0
+      },
+      "exact_role_swap": 0,
+      "any_participant_U": 0,
+      "format_fail": 0
+    },
+    {
+      "stratum": "domain",
+      "level": "sale",
+      "schema": "TYPED",
+      "order": "TARGET_FIRST",
+      "kind": "TARGET",
+      "n": 8,
+      "record": {
+        "C": 8,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 8,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 8,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 8,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 8,
+        "W": 0,
+        "U": 0
+      },
+      "exact_role_swap": 0,
+      "any_participant_U": 0,
+      "format_fail": 0
+    },
+    {
+      "stratum": "domain",
+      "level": "sale",
+      "schema": "TYPED",
+      "order": "ANCHOR_FIRST",
+      "kind": "ANCHOR",
+      "n": 8,
+      "record": {
+        "C": 8,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 8,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 8,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 8,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 8,
+        "W": 0,
+        "U": 0
+      },
+      "exact_role_swap": 0,
+      "any_participant_U": 0,
+      "format_fail": 0
+    },
+    {
+      "stratum": "domain",
+      "level": "sale",
+      "schema": "TYPED",
+      "order": "ANCHOR_FIRST",
+      "kind": "TARGET",
+      "n": 8,
+      "record": {
+        "C": 7,
+        "W": 1,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 7,
+        "W": 1,
+        "U": 0
+      },
+      "participant": {
+        "C": 7,
+        "W": 0,
+        "U": 1
+      },
+      "role_a": {
+        "C": 7,
+        "W": 0,
+        "U": 1
+      },
+      "role_b": {
+        "C": 7,
+        "W": 0,
+        "U": 1
+      },
+      "exact_role_swap": 0,
+      "any_participant_U": 1,
+      "format_fail": 0
+    },
+    {
+      "stratum": "lexical_block",
+      "level": "L01",
+      "schema": "GENERIC",
+      "order": "TARGET_FIRST",
+      "kind": "ANCHOR",
+      "n": 4,
+      "record": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "exact_role_swap": 0,
+      "any_participant_U": 0,
+      "format_fail": 0
+    },
+    {
+      "stratum": "lexical_block",
+      "level": "L01",
+      "schema": "GENERIC",
+      "order": "TARGET_FIRST",
+      "kind": "TARGET",
+      "n": 4,
+      "record": {
+        "C": 2,
+        "W": 2,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 2,
+        "W": 2,
+        "U": 0
+      },
+      "participant": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "exact_role_swap": 0,
+      "any_participant_U": 0,
+      "format_fail": 0
+    },
+    {
+      "stratum": "lexical_block",
+      "level": "L01",
+      "schema": "GENERIC",
+      "order": "ANCHOR_FIRST",
+      "kind": "ANCHOR",
+      "n": 4,
+      "record": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "exact_role_swap": 0,
+      "any_participant_U": 0,
+      "format_fail": 0
+    },
+    {
+      "stratum": "lexical_block",
+      "level": "L01",
+      "schema": "GENERIC",
+      "order": "ANCHOR_FIRST",
+      "kind": "TARGET",
+      "n": 4,
+      "record": {
+        "C": 3,
+        "W": 1,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 3,
+        "W": 1,
+        "U": 0
+      },
+      "participant": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "exact_role_swap": 0,
+      "any_participant_U": 0,
+      "format_fail": 0
+    },
+    {
+      "stratum": "lexical_block",
+      "level": "L01",
+      "schema": "TYPED",
+      "order": "TARGET_FIRST",
+      "kind": "ANCHOR",
+      "n": 4,
+      "record": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "exact_role_swap": 0,
+      "any_participant_U": 0,
+      "format_fail": 0
+    },
+    {
+      "stratum": "lexical_block",
+      "level": "L01",
+      "schema": "TYPED",
+      "order": "TARGET_FIRST",
+      "kind": "TARGET",
+      "n": 4,
+      "record": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "exact_role_swap": 0,
+      "any_participant_U": 0,
+      "format_fail": 0
+    },
+    {
+      "stratum": "lexical_block",
+      "level": "L01",
+      "schema": "TYPED",
+      "order": "ANCHOR_FIRST",
+      "kind": "ANCHOR",
+      "n": 4,
+      "record": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "exact_role_swap": 0,
+      "any_participant_U": 0,
+      "format_fail": 0
+    },
+    {
+      "stratum": "lexical_block",
+      "level": "L01",
+      "schema": "TYPED",
+      "order": "ANCHOR_FIRST",
+      "kind": "TARGET",
+      "n": 4,
+      "record": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "exact_role_swap": 0,
+      "any_participant_U": 0,
+      "format_fail": 0
+    },
+    {
+      "stratum": "lexical_block",
+      "level": "L02",
+      "schema": "GENERIC",
+      "order": "TARGET_FIRST",
+      "kind": "ANCHOR",
+      "n": 4,
+      "record": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "exact_role_swap": 0,
+      "any_participant_U": 0,
+      "format_fail": 0
+    },
+    {
+      "stratum": "lexical_block",
+      "level": "L02",
+      "schema": "GENERIC",
+      "order": "TARGET_FIRST",
+      "kind": "TARGET",
+      "n": 4,
+      "record": {
+        "C": 2,
+        "W": 2,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 2,
+        "W": 2,
+        "U": 0
+      },
+      "participant": {
+        "C": 3,
+        "W": 1,
+        "U": 0
+      },
+      "role_a": {
+        "C": 3,
+        "W": 1,
+        "U": 0
+      },
+      "role_b": {
+        "C": 3,
+        "W": 1,
+        "U": 0
+      },
+      "exact_role_swap": 1,
+      "any_participant_U": 0,
+      "format_fail": 0
+    },
+    {
+      "stratum": "lexical_block",
+      "level": "L02",
+      "schema": "GENERIC",
+      "order": "ANCHOR_FIRST",
+      "kind": "ANCHOR",
+      "n": 4,
+      "record": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "exact_role_swap": 0,
+      "any_participant_U": 0,
+      "format_fail": 0
+    },
+    {
+      "stratum": "lexical_block",
+      "level": "L02",
+      "schema": "GENERIC",
+      "order": "ANCHOR_FIRST",
+      "kind": "TARGET",
+      "n": 4,
+      "record": {
+        "C": 2,
+        "W": 2,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 2,
+        "W": 2,
+        "U": 0
+      },
+      "participant": {
+        "C": 3,
+        "W": 1,
+        "U": 0
+      },
+      "role_a": {
+        "C": 3,
+        "W": 1,
+        "U": 0
+      },
+      "role_b": {
+        "C": 3,
+        "W": 1,
+        "U": 0
+      },
+      "exact_role_swap": 1,
+      "any_participant_U": 0,
+      "format_fail": 0
+    },
+    {
+      "stratum": "lexical_block",
+      "level": "L02",
+      "schema": "TYPED",
+      "order": "TARGET_FIRST",
+      "kind": "ANCHOR",
+      "n": 4,
+      "record": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "exact_role_swap": 0,
+      "any_participant_U": 0,
+      "format_fail": 0
+    },
+    {
+      "stratum": "lexical_block",
+      "level": "L02",
+      "schema": "TYPED",
+      "order": "TARGET_FIRST",
+      "kind": "TARGET",
+      "n": 4,
+      "record": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "exact_role_swap": 0,
+      "any_participant_U": 0,
+      "format_fail": 0
+    },
+    {
+      "stratum": "lexical_block",
+      "level": "L02",
+      "schema": "TYPED",
+      "order": "ANCHOR_FIRST",
+      "kind": "ANCHOR",
+      "n": 4,
+      "record": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "exact_role_swap": 0,
+      "any_participant_U": 0,
+      "format_fail": 0
+    },
+    {
+      "stratum": "lexical_block",
+      "level": "L02",
+      "schema": "TYPED",
+      "order": "ANCHOR_FIRST",
+      "kind": "TARGET",
+      "n": 4,
+      "record": {
+        "C": 2,
+        "W": 2,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 2,
+        "W": 2,
+        "U": 0
+      },
+      "participant": {
+        "C": 3,
+        "W": 1,
+        "U": 0
+      },
+      "role_a": {
+        "C": 3,
+        "W": 1,
+        "U": 0
+      },
+      "role_b": {
+        "C": 3,
+        "W": 1,
+        "U": 0
+      },
+      "exact_role_swap": 1,
+      "any_participant_U": 0,
+      "format_fail": 0
+    },
+    {
+      "stratum": "lexical_block",
+      "level": "L03",
+      "schema": "GENERIC",
+      "order": "TARGET_FIRST",
+      "kind": "ANCHOR",
+      "n": 4,
+      "record": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "exact_role_swap": 0,
+      "any_participant_U": 0,
+      "format_fail": 0
+    },
+    {
+      "stratum": "lexical_block",
+      "level": "L03",
+      "schema": "GENERIC",
+      "order": "TARGET_FIRST",
+      "kind": "TARGET",
+      "n": 4,
+      "record": {
+        "C": 2,
+        "W": 2,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 3,
+        "W": 1,
+        "U": 0
+      },
+      "participant": {
+        "C": 2,
+        "W": 2,
+        "U": 0
+      },
+      "role_a": {
+        "C": 2,
+        "W": 2,
+        "U": 0
+      },
+      "role_b": {
+        "C": 2,
+        "W": 2,
+        "U": 0
+      },
+      "exact_role_swap": 2,
+      "any_participant_U": 0,
+      "format_fail": 0
+    },
+    {
+      "stratum": "lexical_block",
+      "level": "L03",
+      "schema": "GENERIC",
+      "order": "ANCHOR_FIRST",
+      "kind": "ANCHOR",
+      "n": 4,
+      "record": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "exact_role_swap": 0,
+      "any_participant_U": 0,
+      "format_fail": 0
+    },
+    {
+      "stratum": "lexical_block",
+      "level": "L03",
+      "schema": "GENERIC",
+      "order": "ANCHOR_FIRST",
+      "kind": "TARGET",
+      "n": 4,
+      "record": {
+        "C": 3,
+        "W": 1,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 3,
+        "W": 1,
+        "U": 0
+      },
+      "participant": {
+        "C": 3,
+        "W": 1,
+        "U": 0
+      },
+      "role_a": {
+        "C": 3,
+        "W": 1,
+        "U": 0
+      },
+      "role_b": {
+        "C": 3,
+        "W": 1,
+        "U": 0
+      },
+      "exact_role_swap": 1,
+      "any_participant_U": 0,
+      "format_fail": 0
+    },
+    {
+      "stratum": "lexical_block",
+      "level": "L03",
+      "schema": "TYPED",
+      "order": "TARGET_FIRST",
+      "kind": "ANCHOR",
+      "n": 4,
+      "record": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "exact_role_swap": 0,
+      "any_participant_U": 0,
+      "format_fail": 0
+    },
+    {
+      "stratum": "lexical_block",
+      "level": "L03",
+      "schema": "TYPED",
+      "order": "TARGET_FIRST",
+      "kind": "TARGET",
+      "n": 4,
+      "record": {
+        "C": 3,
+        "W": 1,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 3,
+        "W": 1,
+        "U": 0
+      },
+      "participant": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "exact_role_swap": 0,
+      "any_participant_U": 0,
+      "format_fail": 0
+    },
+    {
+      "stratum": "lexical_block",
+      "level": "L03",
+      "schema": "TYPED",
+      "order": "ANCHOR_FIRST",
+      "kind": "ANCHOR",
+      "n": 4,
+      "record": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "exact_role_swap": 0,
+      "any_participant_U": 0,
+      "format_fail": 0
+    },
+    {
+      "stratum": "lexical_block",
+      "level": "L03",
+      "schema": "TYPED",
+      "order": "ANCHOR_FIRST",
+      "kind": "TARGET",
+      "n": 4,
+      "record": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "exact_role_swap": 0,
+      "any_participant_U": 0,
+      "format_fail": 0
+    },
+    {
+      "stratum": "lexical_block",
+      "level": "L04",
+      "schema": "GENERIC",
+      "order": "TARGET_FIRST",
+      "kind": "ANCHOR",
+      "n": 4,
+      "record": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "exact_role_swap": 0,
+      "any_participant_U": 0,
+      "format_fail": 0
+    },
+    {
+      "stratum": "lexical_block",
+      "level": "L04",
+      "schema": "GENERIC",
+      "order": "TARGET_FIRST",
+      "kind": "TARGET",
+      "n": 4,
+      "record": {
+        "C": 1,
+        "W": 3,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 2,
+        "W": 2,
+        "U": 0
+      },
+      "participant": {
+        "C": 2,
+        "W": 2,
+        "U": 0
+      },
+      "role_a": {
+        "C": 2,
+        "W": 2,
+        "U": 0
+      },
+      "role_b": {
+        "C": 2,
+        "W": 2,
+        "U": 0
+      },
+      "exact_role_swap": 2,
+      "any_participant_U": 0,
+      "format_fail": 0
+    },
+    {
+      "stratum": "lexical_block",
+      "level": "L04",
+      "schema": "GENERIC",
+      "order": "ANCHOR_FIRST",
+      "kind": "ANCHOR",
+      "n": 4,
+      "record": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "exact_role_swap": 0,
+      "any_participant_U": 0,
+      "format_fail": 0
+    },
+    {
+      "stratum": "lexical_block",
+      "level": "L04",
+      "schema": "GENERIC",
+      "order": "ANCHOR_FIRST",
+      "kind": "TARGET",
+      "n": 4,
+      "record": {
+        "C": 2,
+        "W": 2,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 2,
+        "W": 2,
+        "U": 0
+      },
+      "participant": {
+        "C": 3,
+        "W": 1,
+        "U": 0
+      },
+      "role_a": {
+        "C": 3,
+        "W": 1,
+        "U": 0
+      },
+      "role_b": {
+        "C": 3,
+        "W": 1,
+        "U": 0
+      },
+      "exact_role_swap": 1,
+      "any_participant_U": 0,
+      "format_fail": 0
+    },
+    {
+      "stratum": "lexical_block",
+      "level": "L04",
+      "schema": "TYPED",
+      "order": "TARGET_FIRST",
+      "kind": "ANCHOR",
+      "n": 4,
+      "record": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "exact_role_swap": 0,
+      "any_participant_U": 0,
+      "format_fail": 0
+    },
+    {
+      "stratum": "lexical_block",
+      "level": "L04",
+      "schema": "TYPED",
+      "order": "TARGET_FIRST",
+      "kind": "TARGET",
+      "n": 4,
+      "record": {
+        "C": 3,
+        "W": 1,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 3,
+        "W": 1,
+        "U": 0
+      },
+      "participant": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "exact_role_swap": 0,
+      "any_participant_U": 0,
+      "format_fail": 0
+    },
+    {
+      "stratum": "lexical_block",
+      "level": "L04",
+      "schema": "TYPED",
+      "order": "ANCHOR_FIRST",
+      "kind": "ANCHOR",
+      "n": 4,
+      "record": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "exact_role_swap": 0,
+      "any_participant_U": 0,
+      "format_fail": 0
+    },
+    {
+      "stratum": "lexical_block",
+      "level": "L04",
+      "schema": "TYPED",
+      "order": "ANCHOR_FIRST",
+      "kind": "TARGET",
+      "n": 4,
+      "record": {
+        "C": 2,
+        "W": 2,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 2,
+        "W": 2,
+        "U": 0
+      },
+      "participant": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "exact_role_swap": 0,
+      "any_participant_U": 0,
+      "format_fail": 0
+    },
+    {
+      "stratum": "lexical_block",
+      "level": "L05",
+      "schema": "GENERIC",
+      "order": "TARGET_FIRST",
+      "kind": "ANCHOR",
+      "n": 4,
+      "record": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "exact_role_swap": 0,
+      "any_participant_U": 0,
+      "format_fail": 0
+    },
+    {
+      "stratum": "lexical_block",
+      "level": "L05",
+      "schema": "GENERIC",
+      "order": "TARGET_FIRST",
+      "kind": "TARGET",
+      "n": 4,
+      "record": {
+        "C": 3,
+        "W": 1,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 3,
+        "W": 1,
+        "U": 0
+      },
+      "participant": {
+        "C": 3,
+        "W": 1,
+        "U": 0
+      },
+      "role_a": {
+        "C": 3,
+        "W": 1,
+        "U": 0
+      },
+      "role_b": {
+        "C": 3,
+        "W": 1,
+        "U": 0
+      },
+      "exact_role_swap": 1,
+      "any_participant_U": 0,
+      "format_fail": 0
+    },
+    {
+      "stratum": "lexical_block",
+      "level": "L05",
+      "schema": "GENERIC",
+      "order": "ANCHOR_FIRST",
+      "kind": "ANCHOR",
+      "n": 4,
+      "record": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "exact_role_swap": 0,
+      "any_participant_U": 0,
+      "format_fail": 0
+    },
+    {
+      "stratum": "lexical_block",
+      "level": "L05",
+      "schema": "GENERIC",
+      "order": "ANCHOR_FIRST",
+      "kind": "TARGET",
+      "n": 4,
+      "record": {
+        "C": 3,
+        "W": 1,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 3,
+        "W": 1,
+        "U": 0
+      },
+      "participant": {
+        "C": 3,
+        "W": 1,
+        "U": 0
+      },
+      "role_a": {
+        "C": 3,
+        "W": 1,
+        "U": 0
+      },
+      "role_b": {
+        "C": 3,
+        "W": 1,
+        "U": 0
+      },
+      "exact_role_swap": 1,
+      "any_participant_U": 0,
+      "format_fail": 0
+    },
+    {
+      "stratum": "lexical_block",
+      "level": "L05",
+      "schema": "TYPED",
+      "order": "TARGET_FIRST",
+      "kind": "ANCHOR",
+      "n": 4,
+      "record": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "exact_role_swap": 0,
+      "any_participant_U": 0,
+      "format_fail": 0
+    },
+    {
+      "stratum": "lexical_block",
+      "level": "L05",
+      "schema": "TYPED",
+      "order": "TARGET_FIRST",
+      "kind": "TARGET",
+      "n": 4,
+      "record": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "exact_role_swap": 0,
+      "any_participant_U": 0,
+      "format_fail": 0
+    },
+    {
+      "stratum": "lexical_block",
+      "level": "L05",
+      "schema": "TYPED",
+      "order": "ANCHOR_FIRST",
+      "kind": "ANCHOR",
+      "n": 4,
+      "record": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "exact_role_swap": 0,
+      "any_participant_U": 0,
+      "format_fail": 0
+    },
+    {
+      "stratum": "lexical_block",
+      "level": "L05",
+      "schema": "TYPED",
+      "order": "ANCHOR_FIRST",
+      "kind": "TARGET",
+      "n": 4,
+      "record": {
+        "C": 3,
+        "W": 1,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 3,
+        "W": 1,
+        "U": 0
+      },
+      "participant": {
+        "C": 3,
+        "W": 0,
+        "U": 1
+      },
+      "role_a": {
+        "C": 3,
+        "W": 0,
+        "U": 1
+      },
+      "role_b": {
+        "C": 3,
+        "W": 0,
+        "U": 1
+      },
+      "exact_role_swap": 0,
+      "any_participant_U": 1,
+      "format_fail": 0
+    },
+    {
+      "stratum": "lexical_block",
+      "level": "L06",
+      "schema": "GENERIC",
+      "order": "TARGET_FIRST",
+      "kind": "ANCHOR",
+      "n": 4,
+      "record": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "exact_role_swap": 0,
+      "any_participant_U": 0,
+      "format_fail": 0
+    },
+    {
+      "stratum": "lexical_block",
+      "level": "L06",
+      "schema": "GENERIC",
+      "order": "TARGET_FIRST",
+      "kind": "TARGET",
+      "n": 4,
+      "record": {
+        "C": 1,
+        "W": 3,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 2,
+        "W": 2,
+        "U": 0
+      },
+      "participant": {
+        "C": 2,
+        "W": 2,
+        "U": 0
+      },
+      "role_a": {
+        "C": 2,
+        "W": 2,
+        "U": 0
+      },
+      "role_b": {
+        "C": 2,
+        "W": 2,
+        "U": 0
+      },
+      "exact_role_swap": 2,
+      "any_participant_U": 0,
+      "format_fail": 0
+    },
+    {
+      "stratum": "lexical_block",
+      "level": "L06",
+      "schema": "GENERIC",
+      "order": "ANCHOR_FIRST",
+      "kind": "ANCHOR",
+      "n": 4,
+      "record": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "exact_role_swap": 0,
+      "any_participant_U": 0,
+      "format_fail": 0
+    },
+    {
+      "stratum": "lexical_block",
+      "level": "L06",
+      "schema": "GENERIC",
+      "order": "ANCHOR_FIRST",
+      "kind": "TARGET",
+      "n": 4,
+      "record": {
+        "C": 3,
+        "W": 1,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 3,
+        "W": 1,
+        "U": 0
+      },
+      "participant": {
+        "C": 3,
+        "W": 1,
+        "U": 0
+      },
+      "role_a": {
+        "C": 3,
+        "W": 1,
+        "U": 0
+      },
+      "role_b": {
+        "C": 3,
+        "W": 1,
+        "U": 0
+      },
+      "exact_role_swap": 1,
+      "any_participant_U": 0,
+      "format_fail": 0
+    },
+    {
+      "stratum": "lexical_block",
+      "level": "L06",
+      "schema": "TYPED",
+      "order": "TARGET_FIRST",
+      "kind": "ANCHOR",
+      "n": 4,
+      "record": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "exact_role_swap": 0,
+      "any_participant_U": 0,
+      "format_fail": 0
+    },
+    {
+      "stratum": "lexical_block",
+      "level": "L06",
+      "schema": "TYPED",
+      "order": "TARGET_FIRST",
+      "kind": "TARGET",
+      "n": 4,
+      "record": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "exact_role_swap": 0,
+      "any_participant_U": 0,
+      "format_fail": 0
+    },
+    {
+      "stratum": "lexical_block",
+      "level": "L06",
+      "schema": "TYPED",
+      "order": "ANCHOR_FIRST",
+      "kind": "ANCHOR",
+      "n": 4,
+      "record": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "exact_role_swap": 0,
+      "any_participant_U": 0,
+      "format_fail": 0
+    },
+    {
+      "stratum": "lexical_block",
+      "level": "L06",
+      "schema": "TYPED",
+      "order": "ANCHOR_FIRST",
+      "kind": "TARGET",
+      "n": 4,
+      "record": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "exact_role_swap": 0,
+      "any_participant_U": 0,
+      "format_fail": 0
+    },
+    {
+      "stratum": "lexical_block",
+      "level": "L07",
+      "schema": "GENERIC",
+      "order": "TARGET_FIRST",
+      "kind": "ANCHOR",
+      "n": 4,
+      "record": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "exact_role_swap": 0,
+      "any_participant_U": 0,
+      "format_fail": 0
+    },
+    {
+      "stratum": "lexical_block",
+      "level": "L07",
+      "schema": "GENERIC",
+      "order": "TARGET_FIRST",
+      "kind": "TARGET",
+      "n": 4,
+      "record": {
+        "C": 3,
+        "W": 1,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 3,
+        "W": 1,
+        "U": 0
+      },
+      "role_a": {
+        "C": 3,
+        "W": 1,
+        "U": 0
+      },
+      "role_b": {
+        "C": 3,
+        "W": 1,
+        "U": 0
+      },
+      "exact_role_swap": 1,
+      "any_participant_U": 0,
+      "format_fail": 0
+    },
+    {
+      "stratum": "lexical_block",
+      "level": "L07",
+      "schema": "GENERIC",
+      "order": "ANCHOR_FIRST",
+      "kind": "ANCHOR",
+      "n": 4,
+      "record": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "exact_role_swap": 0,
+      "any_participant_U": 0,
+      "format_fail": 0
+    },
+    {
+      "stratum": "lexical_block",
+      "level": "L07",
+      "schema": "GENERIC",
+      "order": "ANCHOR_FIRST",
+      "kind": "TARGET",
+      "n": 4,
+      "record": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "exact_role_swap": 0,
+      "any_participant_U": 0,
+      "format_fail": 0
+    },
+    {
+      "stratum": "lexical_block",
+      "level": "L07",
+      "schema": "TYPED",
+      "order": "TARGET_FIRST",
+      "kind": "ANCHOR",
+      "n": 4,
+      "record": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "exact_role_swap": 0,
+      "any_participant_U": 0,
+      "format_fail": 0
+    },
+    {
+      "stratum": "lexical_block",
+      "level": "L07",
+      "schema": "TYPED",
+      "order": "TARGET_FIRST",
+      "kind": "TARGET",
+      "n": 4,
+      "record": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "exact_role_swap": 0,
+      "any_participant_U": 0,
+      "format_fail": 0
+    },
+    {
+      "stratum": "lexical_block",
+      "level": "L07",
+      "schema": "TYPED",
+      "order": "ANCHOR_FIRST",
+      "kind": "ANCHOR",
+      "n": 4,
+      "record": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "exact_role_swap": 0,
+      "any_participant_U": 0,
+      "format_fail": 0
+    },
+    {
+      "stratum": "lexical_block",
+      "level": "L07",
+      "schema": "TYPED",
+      "order": "ANCHOR_FIRST",
+      "kind": "TARGET",
+      "n": 4,
+      "record": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "exact_role_swap": 0,
+      "any_participant_U": 0,
+      "format_fail": 0
+    },
+    {
+      "stratum": "lexical_block",
+      "level": "L08",
+      "schema": "GENERIC",
+      "order": "TARGET_FIRST",
+      "kind": "ANCHOR",
+      "n": 4,
+      "record": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "exact_role_swap": 0,
+      "any_participant_U": 0,
+      "format_fail": 0
+    },
+    {
+      "stratum": "lexical_block",
+      "level": "L08",
+      "schema": "GENERIC",
+      "order": "TARGET_FIRST",
+      "kind": "TARGET",
+      "n": 4,
+      "record": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "exact_role_swap": 0,
+      "any_participant_U": 0,
+      "format_fail": 0
+    },
+    {
+      "stratum": "lexical_block",
+      "level": "L08",
+      "schema": "GENERIC",
+      "order": "ANCHOR_FIRST",
+      "kind": "ANCHOR",
+      "n": 4,
+      "record": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "exact_role_swap": 0,
+      "any_participant_U": 0,
+      "format_fail": 0
+    },
+    {
+      "stratum": "lexical_block",
+      "level": "L08",
+      "schema": "GENERIC",
+      "order": "ANCHOR_FIRST",
+      "kind": "TARGET",
+      "n": 4,
+      "record": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "exact_role_swap": 0,
+      "any_participant_U": 0,
+      "format_fail": 0
+    },
+    {
+      "stratum": "lexical_block",
+      "level": "L08",
+      "schema": "TYPED",
+      "order": "TARGET_FIRST",
+      "kind": "ANCHOR",
+      "n": 4,
+      "record": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "exact_role_swap": 0,
+      "any_participant_U": 0,
+      "format_fail": 0
+    },
+    {
+      "stratum": "lexical_block",
+      "level": "L08",
+      "schema": "TYPED",
+      "order": "TARGET_FIRST",
+      "kind": "TARGET",
+      "n": 4,
+      "record": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "exact_role_swap": 0,
+      "any_participant_U": 0,
+      "format_fail": 0
+    },
+    {
+      "stratum": "lexical_block",
+      "level": "L08",
+      "schema": "TYPED",
+      "order": "ANCHOR_FIRST",
+      "kind": "ANCHOR",
+      "n": 4,
+      "record": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "exact_role_swap": 0,
+      "any_participant_U": 0,
+      "format_fail": 0
+    },
+    {
+      "stratum": "lexical_block",
+      "level": "L08",
+      "schema": "TYPED",
+      "order": "ANCHOR_FIRST",
+      "kind": "TARGET",
+      "n": 4,
+      "record": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "exact_role_swap": 0,
+      "any_participant_U": 0,
+      "format_fail": 0
+    },
+    {
+      "stratum": "role_configuration",
+      "level": "OPPOSITE",
+      "schema": "GENERIC",
+      "order": "TARGET_FIRST",
+      "kind": "ANCHOR",
+      "n": 16,
+      "record": {
+        "C": 16,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 16,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 16,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 16,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 16,
+        "W": 0,
+        "U": 0
+      },
+      "exact_role_swap": 0,
+      "any_participant_U": 0,
+      "format_fail": 0
+    },
+    {
+      "stratum": "role_configuration",
+      "level": "OPPOSITE",
+      "schema": "GENERIC",
+      "order": "TARGET_FIRST",
+      "kind": "TARGET",
+      "n": 16,
+      "record": {
+        "C": 6,
+        "W": 10,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 10,
+        "W": 6,
+        "U": 0
+      },
+      "participant": {
+        "C": 7,
+        "W": 9,
+        "U": 0
+      },
+      "role_a": {
+        "C": 7,
+        "W": 9,
+        "U": 0
+      },
+      "role_b": {
+        "C": 7,
+        "W": 9,
+        "U": 0
+      },
+      "exact_role_swap": 9,
+      "any_participant_U": 0,
+      "format_fail": 0
+    },
+    {
+      "stratum": "role_configuration",
+      "level": "OPPOSITE",
+      "schema": "GENERIC",
+      "order": "ANCHOR_FIRST",
+      "kind": "ANCHOR",
+      "n": 16,
+      "record": {
+        "C": 16,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 16,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 16,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 16,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 16,
+        "W": 0,
+        "U": 0
+      },
+      "exact_role_swap": 0,
+      "any_participant_U": 0,
+      "format_fail": 0
+    },
+    {
+      "stratum": "role_configuration",
+      "level": "OPPOSITE",
+      "schema": "GENERIC",
+      "order": "ANCHOR_FIRST",
+      "kind": "TARGET",
+      "n": 16,
+      "record": {
+        "C": 11,
+        "W": 5,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 11,
+        "W": 5,
+        "U": 0
+      },
+      "participant": {
+        "C": 11,
+        "W": 5,
+        "U": 0
+      },
+      "role_a": {
+        "C": 11,
+        "W": 5,
+        "U": 0
+      },
+      "role_b": {
+        "C": 11,
+        "W": 5,
+        "U": 0
+      },
+      "exact_role_swap": 5,
+      "any_participant_U": 0,
+      "format_fail": 0
+    },
+    {
+      "stratum": "role_configuration",
+      "level": "OPPOSITE",
+      "schema": "TYPED",
+      "order": "TARGET_FIRST",
+      "kind": "ANCHOR",
+      "n": 16,
+      "record": {
+        "C": 16,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 16,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 16,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 16,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 16,
+        "W": 0,
+        "U": 0
+      },
+      "exact_role_swap": 0,
+      "any_participant_U": 0,
+      "format_fail": 0
+    },
+    {
+      "stratum": "role_configuration",
+      "level": "OPPOSITE",
+      "schema": "TYPED",
+      "order": "TARGET_FIRST",
+      "kind": "TARGET",
+      "n": 16,
+      "record": {
+        "C": 14,
+        "W": 2,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 14,
+        "W": 2,
+        "U": 0
+      },
+      "participant": {
+        "C": 16,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 16,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 16,
+        "W": 0,
+        "U": 0
+      },
+      "exact_role_swap": 0,
+      "any_participant_U": 0,
+      "format_fail": 0
+    },
+    {
+      "stratum": "role_configuration",
+      "level": "OPPOSITE",
+      "schema": "TYPED",
+      "order": "ANCHOR_FIRST",
+      "kind": "ANCHOR",
+      "n": 16,
+      "record": {
+        "C": 16,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 16,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 16,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 16,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 16,
+        "W": 0,
+        "U": 0
+      },
+      "exact_role_swap": 0,
+      "any_participant_U": 0,
+      "format_fail": 0
+    },
+    {
+      "stratum": "role_configuration",
+      "level": "OPPOSITE",
+      "schema": "TYPED",
+      "order": "ANCHOR_FIRST",
+      "kind": "TARGET",
+      "n": 16,
+      "record": {
+        "C": 13,
+        "W": 3,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 13,
+        "W": 3,
+        "U": 0
+      },
+      "participant": {
+        "C": 14,
+        "W": 1,
+        "U": 1
+      },
+      "role_a": {
+        "C": 14,
+        "W": 1,
+        "U": 1
+      },
+      "role_b": {
+        "C": 14,
+        "W": 1,
+        "U": 1
+      },
+      "exact_role_swap": 1,
+      "any_participant_U": 1,
+      "format_fail": 0
+    },
+    {
+      "stratum": "role_configuration",
+      "level": "SAME",
+      "schema": "GENERIC",
+      "order": "TARGET_FIRST",
+      "kind": "ANCHOR",
+      "n": 16,
+      "record": {
+        "C": 16,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 16,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 16,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 16,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 16,
+        "W": 0,
+        "U": 0
+      },
+      "exact_role_swap": 0,
+      "any_participant_U": 0,
+      "format_fail": 0
+    },
+    {
+      "stratum": "role_configuration",
+      "level": "SAME",
+      "schema": "GENERIC",
+      "order": "TARGET_FIRST",
+      "kind": "TARGET",
+      "n": 16,
+      "record": {
+        "C": 12,
+        "W": 4,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 12,
+        "W": 4,
+        "U": 0
+      },
+      "participant": {
+        "C": 16,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 16,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 16,
+        "W": 0,
+        "U": 0
+      },
+      "exact_role_swap": 0,
+      "any_participant_U": 0,
+      "format_fail": 0
+    },
+    {
+      "stratum": "role_configuration",
+      "level": "SAME",
+      "schema": "GENERIC",
+      "order": "ANCHOR_FIRST",
+      "kind": "ANCHOR",
+      "n": 16,
+      "record": {
+        "C": 16,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 16,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 16,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 16,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 16,
+        "W": 0,
+        "U": 0
+      },
+      "exact_role_swap": 0,
+      "any_participant_U": 0,
+      "format_fail": 0
+    },
+    {
+      "stratum": "role_configuration",
+      "level": "SAME",
+      "schema": "GENERIC",
+      "order": "ANCHOR_FIRST",
+      "kind": "TARGET",
+      "n": 16,
+      "record": {
+        "C": 13,
+        "W": 3,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 13,
+        "W": 3,
+        "U": 0
+      },
+      "participant": {
+        "C": 16,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 16,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 16,
+        "W": 0,
+        "U": 0
+      },
+      "exact_role_swap": 0,
+      "any_participant_U": 0,
+      "format_fail": 0
+    },
+    {
+      "stratum": "role_configuration",
+      "level": "SAME",
+      "schema": "TYPED",
+      "order": "TARGET_FIRST",
+      "kind": "ANCHOR",
+      "n": 16,
+      "record": {
+        "C": 16,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 16,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 16,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 16,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 16,
+        "W": 0,
+        "U": 0
+      },
+      "exact_role_swap": 0,
+      "any_participant_U": 0,
+      "format_fail": 0
+    },
+    {
+      "stratum": "role_configuration",
+      "level": "SAME",
+      "schema": "TYPED",
+      "order": "TARGET_FIRST",
+      "kind": "TARGET",
+      "n": 16,
+      "record": {
+        "C": 16,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 16,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 16,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 16,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 16,
+        "W": 0,
+        "U": 0
+      },
+      "exact_role_swap": 0,
+      "any_participant_U": 0,
+      "format_fail": 0
+    },
+    {
+      "stratum": "role_configuration",
+      "level": "SAME",
+      "schema": "TYPED",
+      "order": "ANCHOR_FIRST",
+      "kind": "ANCHOR",
+      "n": 16,
+      "record": {
+        "C": 16,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 16,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 16,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 16,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 16,
+        "W": 0,
+        "U": 0
+      },
+      "exact_role_swap": 0,
+      "any_participant_U": 0,
+      "format_fail": 0
+    },
+    {
+      "stratum": "role_configuration",
+      "level": "SAME",
+      "schema": "TYPED",
+      "order": "ANCHOR_FIRST",
+      "kind": "TARGET",
+      "n": 16,
+      "record": {
+        "C": 14,
+        "W": 2,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 14,
+        "W": 2,
+        "U": 0
+      },
+      "participant": {
+        "C": 16,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 16,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 16,
+        "W": 0,
+        "U": 0
+      },
+      "exact_role_swap": 0,
+      "any_participant_U": 0,
+      "format_fail": 0
+    },
+    {
+      "stratum": "target_polarity",
+      "level": "NO",
+      "schema": "GENERIC",
+      "order": "TARGET_FIRST",
+      "kind": "ANCHOR",
+      "n": 16,
+      "record": {
+        "C": 16,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 16,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 16,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 16,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 16,
+        "W": 0,
+        "U": 0
+      },
+      "exact_role_swap": 0,
+      "any_participant_U": 0,
+      "format_fail": 0
+    },
+    {
+      "stratum": "target_polarity",
+      "level": "NO",
+      "schema": "GENERIC",
+      "order": "TARGET_FIRST",
+      "kind": "TARGET",
+      "n": 16,
+      "record": {
+        "C": 5,
+        "W": 11,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 6,
+        "W": 10,
+        "U": 0
+      },
+      "participant": {
+        "C": 10,
+        "W": 6,
+        "U": 0
+      },
+      "role_a": {
+        "C": 10,
+        "W": 6,
+        "U": 0
+      },
+      "role_b": {
+        "C": 10,
+        "W": 6,
+        "U": 0
+      },
+      "exact_role_swap": 6,
+      "any_participant_U": 0,
+      "format_fail": 0
+    },
+    {
+      "stratum": "target_polarity",
+      "level": "NO",
+      "schema": "GENERIC",
+      "order": "ANCHOR_FIRST",
+      "kind": "ANCHOR",
+      "n": 16,
+      "record": {
+        "C": 16,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 16,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 16,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 16,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 16,
+        "W": 0,
+        "U": 0
+      },
+      "exact_role_swap": 0,
+      "any_participant_U": 0,
+      "format_fail": 0
+    },
+    {
+      "stratum": "target_polarity",
+      "level": "NO",
+      "schema": "GENERIC",
+      "order": "ANCHOR_FIRST",
+      "kind": "TARGET",
+      "n": 16,
+      "record": {
+        "C": 8,
+        "W": 8,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 8,
+        "W": 8,
+        "U": 0
+      },
+      "participant": {
+        "C": 11,
+        "W": 5,
+        "U": 0
+      },
+      "role_a": {
+        "C": 11,
+        "W": 5,
+        "U": 0
+      },
+      "role_b": {
+        "C": 11,
+        "W": 5,
+        "U": 0
+      },
+      "exact_role_swap": 5,
+      "any_participant_U": 0,
+      "format_fail": 0
+    },
+    {
+      "stratum": "target_polarity",
+      "level": "NO",
+      "schema": "TYPED",
+      "order": "TARGET_FIRST",
+      "kind": "ANCHOR",
+      "n": 16,
+      "record": {
+        "C": 16,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 16,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 16,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 16,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 16,
+        "W": 0,
+        "U": 0
+      },
+      "exact_role_swap": 0,
+      "any_participant_U": 0,
+      "format_fail": 0
+    },
+    {
+      "stratum": "target_polarity",
+      "level": "NO",
+      "schema": "TYPED",
+      "order": "TARGET_FIRST",
+      "kind": "TARGET",
+      "n": 16,
+      "record": {
+        "C": 14,
+        "W": 2,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 14,
+        "W": 2,
+        "U": 0
+      },
+      "participant": {
+        "C": 16,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 16,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 16,
+        "W": 0,
+        "U": 0
+      },
+      "exact_role_swap": 0,
+      "any_participant_U": 0,
+      "format_fail": 0
+    },
+    {
+      "stratum": "target_polarity",
+      "level": "NO",
+      "schema": "TYPED",
+      "order": "ANCHOR_FIRST",
+      "kind": "ANCHOR",
+      "n": 16,
+      "record": {
+        "C": 16,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 16,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 16,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 16,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 16,
+        "W": 0,
+        "U": 0
+      },
+      "exact_role_swap": 0,
+      "any_participant_U": 0,
+      "format_fail": 0
+    },
+    {
+      "stratum": "target_polarity",
+      "level": "NO",
+      "schema": "TYPED",
+      "order": "ANCHOR_FIRST",
+      "kind": "TARGET",
+      "n": 16,
+      "record": {
+        "C": 11,
+        "W": 5,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 11,
+        "W": 5,
+        "U": 0
+      },
+      "participant": {
+        "C": 14,
+        "W": 1,
+        "U": 1
+      },
+      "role_a": {
+        "C": 14,
+        "W": 1,
+        "U": 1
+      },
+      "role_b": {
+        "C": 14,
+        "W": 1,
+        "U": 1
+      },
+      "exact_role_swap": 1,
+      "any_participant_U": 1,
+      "format_fail": 0
+    },
+    {
+      "stratum": "target_polarity",
+      "level": "YES",
+      "schema": "GENERIC",
+      "order": "TARGET_FIRST",
+      "kind": "ANCHOR",
+      "n": 16,
+      "record": {
+        "C": 16,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 16,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 16,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 16,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 16,
+        "W": 0,
+        "U": 0
+      },
+      "exact_role_swap": 0,
+      "any_participant_U": 0,
+      "format_fail": 0
+    },
+    {
+      "stratum": "target_polarity",
+      "level": "YES",
+      "schema": "GENERIC",
+      "order": "TARGET_FIRST",
+      "kind": "TARGET",
+      "n": 16,
+      "record": {
+        "C": 13,
+        "W": 3,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 16,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 13,
+        "W": 3,
+        "U": 0
+      },
+      "role_a": {
+        "C": 13,
+        "W": 3,
+        "U": 0
+      },
+      "role_b": {
+        "C": 13,
+        "W": 3,
+        "U": 0
+      },
+      "exact_role_swap": 3,
+      "any_participant_U": 0,
+      "format_fail": 0
+    },
+    {
+      "stratum": "target_polarity",
+      "level": "YES",
+      "schema": "GENERIC",
+      "order": "ANCHOR_FIRST",
+      "kind": "ANCHOR",
+      "n": 16,
+      "record": {
+        "C": 16,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 16,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 16,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 16,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 16,
+        "W": 0,
+        "U": 0
+      },
+      "exact_role_swap": 0,
+      "any_participant_U": 0,
+      "format_fail": 0
+    },
+    {
+      "stratum": "target_polarity",
+      "level": "YES",
+      "schema": "GENERIC",
+      "order": "ANCHOR_FIRST",
+      "kind": "TARGET",
+      "n": 16,
+      "record": {
+        "C": 16,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 16,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 16,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 16,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 16,
+        "W": 0,
+        "U": 0
+      },
+      "exact_role_swap": 0,
+      "any_participant_U": 0,
+      "format_fail": 0
+    },
+    {
+      "stratum": "target_polarity",
+      "level": "YES",
+      "schema": "TYPED",
+      "order": "TARGET_FIRST",
+      "kind": "ANCHOR",
+      "n": 16,
+      "record": {
+        "C": 16,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 16,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 16,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 16,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 16,
+        "W": 0,
+        "U": 0
+      },
+      "exact_role_swap": 0,
+      "any_participant_U": 0,
+      "format_fail": 0
+    },
+    {
+      "stratum": "target_polarity",
+      "level": "YES",
+      "schema": "TYPED",
+      "order": "TARGET_FIRST",
+      "kind": "TARGET",
+      "n": 16,
+      "record": {
+        "C": 16,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 16,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 16,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 16,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 16,
+        "W": 0,
+        "U": 0
+      },
+      "exact_role_swap": 0,
+      "any_participant_U": 0,
+      "format_fail": 0
+    },
+    {
+      "stratum": "target_polarity",
+      "level": "YES",
+      "schema": "TYPED",
+      "order": "ANCHOR_FIRST",
+      "kind": "ANCHOR",
+      "n": 16,
+      "record": {
+        "C": 16,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 16,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 16,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 16,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 16,
+        "W": 0,
+        "U": 0
+      },
+      "exact_role_swap": 0,
+      "any_participant_U": 0,
+      "format_fail": 0
+    },
+    {
+      "stratum": "target_polarity",
+      "level": "YES",
+      "schema": "TYPED",
+      "order": "ANCHOR_FIRST",
+      "kind": "TARGET",
+      "n": 16,
+      "record": {
+        "C": 16,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 16,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 16,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 16,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 16,
+        "W": 0,
+        "U": 0
+      },
+      "exact_role_swap": 0,
+      "any_participant_U": 0,
+      "format_fail": 0
+    }
+  ],
+  "H_map": {
+    "generic_both_order_exact_swap_ids": [
+      "L02-OPPOSITE-NO",
+      "L03-OPPOSITE-NO",
+      "L04-OPPOSITE-NO",
+      "L05-OPPOSITE-NO",
+      "L06-OPPOSITE-NO"
+    ],
+    "generic_swap_domains": [
+      "hire",
+      "loan",
+      "sale"
+    ],
+    "typed_both_order_participant_rescue_ids": [
+      "L03-OPPOSITE-NO",
+      "L04-OPPOSITE-NO",
+      "L06-OPPOSITE-NO"
+    ],
+    "rescue_domains": [
+      "loan",
+      "sale"
+    ],
+    "supported": true
+  },
+  "H_order": {
+    "direction": "TARGET_FIRST->ANCHOR_FIRST",
+    "groups": {
+      "SAME": {
+        "n": 16,
+        "harms": 0,
+        "rescues": 0,
+        "net_harm": 0,
+        "harm_ids": [],
+        "rescue_ids": [],
+        "transitions": {
+          "C->C": 16
+        }
+      },
+      "OPPOSITE": {
+        "n": 16,
+        "harms": 0,
+        "rescues": 4,
+        "net_harm": -4,
+        "harm_ids": [],
+        "rescue_ids": [
+          "L03-OPPOSITE-YES",
+          "L04-OPPOSITE-YES",
+          "L06-OPPOSITE-YES",
+          "L07-OPPOSITE-NO"
+        ],
+        "transitions": {
+          "C->C": 7,
+          "W->W": 5,
+          "W->C": 4
+        }
+      }
+    },
+    "opposite_by_domain": {
+      "hire": {
+        "n": 4,
+        "harms": 0,
+        "rescues": 0,
+        "net_harm": 0,
+        "harm_ids": [],
+        "rescue_ids": [],
+        "transitions": {
+          "C->C": 3,
+          "W->W": 1
+        }
+      },
+      "loan": {
+        "n": 4,
+        "harms": 0,
+        "rescues": 2,
+        "net_harm": -2,
+        "harm_ids": [],
+        "rescue_ids": [
+          "L03-OPPOSITE-YES",
+          "L04-OPPOSITE-YES"
+        ],
+        "transitions": {
+          "W->C": 2,
+          "W->W": 2
+        }
+      },
+      "sale": {
+        "n": 4,
+        "harms": 0,
+        "rescues": 1,
+        "net_harm": -1,
+        "harm_ids": [],
+        "rescue_ids": [
+          "L06-OPPOSITE-YES"
+        ],
+        "transitions": {
+          "C->C": 1,
+          "W->W": 2,
+          "W->C": 1
+        }
+      },
+      "gift": {
+        "n": 4,
+        "harms": 0,
+        "rescues": 1,
+        "net_harm": -1,
+        "harm_ids": [],
+        "rescue_ids": [
+          "L07-OPPOSITE-NO"
+        ],
+        "transitions": {
+          "C->C": 3,
+          "W->C": 1
+        }
+      }
+    },
+    "supported": false
+  },
+  "H_neg": {
+    "both_order_occurrence_correct_participant_U_ids": {
+      "YES": [],
+      "NO": []
+    },
+    "negative_domains": [],
+    "supported": false
+  },
+  "interface_expansion_gate": {
+    "typed_both_order_C_ids": {
+      "ANCHOR": [
+        "L01-SAME-YES",
+        "L01-SAME-NO",
+        "L01-OPPOSITE-YES",
+        "L01-OPPOSITE-NO",
+        "L02-SAME-YES",
+        "L02-SAME-NO",
+        "L02-OPPOSITE-YES",
+        "L02-OPPOSITE-NO",
+        "L03-SAME-YES",
+        "L03-SAME-NO",
+        "L03-OPPOSITE-YES",
+        "L03-OPPOSITE-NO",
+        "L04-SAME-YES",
+        "L04-SAME-NO",
+        "L04-OPPOSITE-YES",
+        "L04-OPPOSITE-NO",
+        "L05-SAME-YES",
+        "L05-SAME-NO",
+        "L05-OPPOSITE-YES",
+        "L05-OPPOSITE-NO",
+        "L06-SAME-YES",
+        "L06-SAME-NO",
+        "L06-OPPOSITE-YES",
+        "L06-OPPOSITE-NO",
+        "L07-SAME-YES",
+        "L07-SAME-NO",
+        "L07-OPPOSITE-YES",
+        "L07-OPPOSITE-NO",
+        "L08-SAME-YES",
+        "L08-SAME-NO",
+        "L08-OPPOSITE-YES",
+        "L08-OPPOSITE-NO"
+      ],
+      "TARGET": [
+        "L01-SAME-YES",
+        "L01-SAME-NO",
+        "L01-OPPOSITE-YES",
+        "L01-OPPOSITE-NO",
+        "L02-SAME-YES",
+        "L02-OPPOSITE-YES",
+        "L03-SAME-YES",
+        "L03-SAME-NO",
+        "L03-OPPOSITE-YES",
+        "L04-SAME-YES",
+        "L04-OPPOSITE-YES",
+        "L05-SAME-YES",
+        "L05-SAME-NO",
+        "L05-OPPOSITE-YES",
+        "L06-SAME-YES",
+        "L06-SAME-NO",
+        "L06-OPPOSITE-YES",
+        "L06-OPPOSITE-NO",
+        "L07-SAME-YES",
+        "L07-SAME-NO",
+        "L07-OPPOSITE-YES",
+        "L07-OPPOSITE-NO",
+        "L08-SAME-YES",
+        "L08-SAME-NO",
+        "L08-OPPOSITE-YES",
+        "L08-OPPOSITE-NO"
+      ]
+    },
+    "target_both_order_record_rescue_ids": [
+      "L01-SAME-NO",
+      "L06-OPPOSITE-NO"
+    ],
+    "target_rescue_domains": [
+      "hire",
+      "sale"
+    ],
+    "typed_record_U": 0,
+    "component_new_harms": [],
+    "generic_target_both_order_C_ids": [
+      "L01-SAME-YES",
+      "L01-OPPOSITE-YES",
+      "L02-SAME-YES",
+      "L02-OPPOSITE-YES",
+      "L03-SAME-YES",
+      "L03-SAME-NO",
+      "L04-SAME-YES",
+      "L05-SAME-YES",
+      "L05-SAME-NO",
+      "L05-OPPOSITE-YES",
+      "L06-SAME-YES",
+      "L07-SAME-YES",
+      "L07-SAME-NO",
+      "L07-OPPOSITE-YES",
+      "L08-SAME-YES",
+      "L08-SAME-NO",
+      "L08-OPPOSITE-YES",
+      "L08-OPPOSITE-NO"
+    ],
+    "pass": false,
+    "generic_ceiling_flag": false
+  },
+  "raw_format_counts": {
+    "PASS": 128
+  },
+  "name_orthography_counts": {
+    "ALL_FOUR_NAMES_EXACT": 127,
+    "PRESENT_NAMES_EXACT_WITH_PARTICIPANT_OMISSION": 1
+  },
+  "human_review_complete": false,
+  "independent_confirmation": false,
+  "translations_or_end_to_end": "NOT_APPLICABLE",
+  "interpretation_limit": "Input order and required output array order jointly changed. Author Chinese; no internal mechanism or translation-method efficacy inference."
+}

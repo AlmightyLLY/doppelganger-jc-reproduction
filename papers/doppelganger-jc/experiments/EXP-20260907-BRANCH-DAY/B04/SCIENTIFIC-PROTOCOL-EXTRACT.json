@@ -1,0 +1,78 @@
+{
+  "experiment_id": "EXP-20260907-B04",
+  "version": "v1",
+  "created_at": "2026-09-07T10:48:31.527747+00:00",
+  "coordinator_spec_sha256": "fecc33b4244086a11b3b3247dae947a0856896af1e9cc8a43c9bc6f21ea2f692",
+  "material_seed_sha256": "bf5a2f0d7390aec1c97dca9524cd466af0605d078c35521b8de856f73c3b044e",
+  "new_calls": 144,
+  "calls_per_model": 48,
+  "models": [
+    {
+      "key": "qwen",
+      "model_id": "Qwen/Qwen3-8B",
+      "revision": "b968826d9c46dd6066d109eabc6255188de91218"
+    },
+    {
+      "key": "llmjp",
+      "model_id": "llm-jp/llm-jp-4-8b-instruct",
+      "revision": "098f2b2cf33021eba19a6d3582aa3d071ccc0aff"
+    },
+    {
+      "key": "apertus",
+      "model_id": "swiss-ai/Apertus-8B-Instruct-2509",
+      "revision": "b946d40447b2b597999b9c86d44bee0b452c919f"
+    }
+  ],
+  "paid_cost_usd": 0,
+  "preselected_candidate": "PAIR_TYPED",
+  "source_identity": "24 AI-author fictional Chinese pairs, no actual model parent, no independent human gold",
+  "prior_B03_candidate_failure_unchanged": true,
+  "roles": {
+    "hire": [
+      "employer",
+      "employee"
+    ],
+    "loan": [
+      "lender",
+      "borrower"
+    ],
+    "sale": [
+      "seller",
+      "buyer"
+    ],
+    "gift": [
+      "giver",
+      "recipient"
+    ]
+  },
+  "japanese_definitions": {
+    "hire": "role_aは雇用する側、role_bは雇用される側です。",
+    "loan": "role_aは貸す側、role_bは借りる側です。",
+    "sale": "role_aは売る側、role_bは買う側です。",
+    "gift": "role_aは贈る側、role_bは受け取る側です。"
+  },
+  "ordering": "models qwen,llmjp,apertus; T01..T24 adjacent two arms, odd generic first/even typed first deterministic not randomized",
+  "primary": "occurrence and affirmative role C/W/U; joint W if any definite wrong, else U if unresolved required dimension, else C; source NO does not require primary role; conflicting prose and fields U",
+  "multi_relation_gate": {
+    "all_models_no_joint_or_occurrence_C_to_W_or_U": true,
+    "llmjp_and_apertus_each_role_W_to_C_at_least": 2,
+    "each_of_those_rescues_relation_count_at_least": 2,
+    "each_includes_sale_or_gift": true,
+    "each_model_joint_C_at_least": 44,
+    "each_model_joint_U_at_most": 1
+  },
+  "model_limited_gate": "A model individually zero joint/occurrence harms, >=2role rescues across>=2relations including sale/gift, jointC>=44 and U<=1; no generalization",
+  "ceiling_rule": "generic roleC>=23/24 and no typed rescue implies diagnostic ceiling, no effective/ineffective claim, no similar-item chasing",
+  "other_outcome": "non-transfer or costs; retain failures; stop; no prompt or arm or sample change",
+  "max_new_tokens": 256,
+  "max_input_tokens": 4096,
+  "stop_rules": [
+    "No explicit post-presentation coordinator run instruction",
+    "144 attempt cap; no retry",
+    "input hash/order/scope mismatch",
+    "input truncation or runtime drift",
+    "GPU0 conflict wait; no GPU1",
+    "no paid endpoint",
+    "no auto B05"
+  ]
+}

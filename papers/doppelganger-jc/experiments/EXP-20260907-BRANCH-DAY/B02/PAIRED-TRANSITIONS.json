@@ -1,0 +1,482 @@
+[
+  {
+    "model": "qwen",
+    "material_id": "B01",
+    "position": 1,
+    "direct_score_id": "B01-qwen-B01-EXPLICIT:1",
+    "chain_score_id": "B02-qwen-B01-CHAIN:1",
+    "joint_transition": "C->C",
+    "role_transition": "C->C",
+    "occurrence_transition": "C->C"
+  },
+  {
+    "model": "qwen",
+    "material_id": "B01",
+    "position": 2,
+    "direct_score_id": "B01-qwen-B01-EXPLICIT:2",
+    "chain_score_id": "B02-qwen-B01-CHAIN:2",
+    "joint_transition": "C->C",
+    "role_transition": "C->C",
+    "occurrence_transition": "C->C"
+  },
+  {
+    "model": "qwen",
+    "material_id": "B02",
+    "position": 1,
+    "direct_score_id": "B01-qwen-B02-EXPLICIT:1",
+    "chain_score_id": "B02-qwen-B02-CHAIN:1",
+    "joint_transition": "C->C",
+    "role_transition": "C->C",
+    "occurrence_transition": "C->C"
+  },
+  {
+    "model": "qwen",
+    "material_id": "B02",
+    "position": 2,
+    "direct_score_id": "B01-qwen-B02-EXPLICIT:2",
+    "chain_score_id": "B02-qwen-B02-CHAIN:2",
+    "joint_transition": "C->C",
+    "role_transition": "C->C",
+    "occurrence_transition": "C->C"
+  },
+  {
+    "model": "qwen",
+    "material_id": "B03",
+    "position": 1,
+    "direct_score_id": "B01-qwen-B03-EXPLICIT:1",
+    "chain_score_id": "B02-qwen-B03-CHAIN:1",
+    "joint_transition": "C->C",
+    "role_transition": "C->C",
+    "occurrence_transition": "C->C"
+  },
+  {
+    "model": "qwen",
+    "material_id": "B03",
+    "position": 2,
+    "direct_score_id": "B01-qwen-B03-EXPLICIT:2",
+    "chain_score_id": "B02-qwen-B03-CHAIN:2",
+    "joint_transition": "C->C",
+    "role_transition": "NOT_APPLICABLE->NOT_APPLICABLE",
+    "occurrence_transition": "C->C"
+  },
+  {
+    "model": "qwen",
+    "material_id": "B04",
+    "position": 1,
+    "direct_score_id": "B01-qwen-B04-EXPLICIT:1",
+    "chain_score_id": "B02-qwen-B04-CHAIN:1",
+    "joint_transition": "C->C",
+    "role_transition": "NOT_APPLICABLE->NOT_APPLICABLE",
+    "occurrence_transition": "C->C"
+  },
+  {
+    "model": "qwen",
+    "material_id": "B04",
+    "position": 2,
+    "direct_score_id": "B01-qwen-B04-EXPLICIT:2",
+    "chain_score_id": "B02-qwen-B04-CHAIN:2",
+    "joint_transition": "C->C",
+    "role_transition": "NOT_APPLICABLE->NOT_APPLICABLE",
+    "occurrence_transition": "C->C"
+  },
+  {
+    "model": "qwen",
+    "material_id": "B05",
+    "position": 1,
+    "direct_score_id": "B01-qwen-B05-EXPLICIT:1",
+    "chain_score_id": "B02-qwen-B05-CHAIN:1",
+    "joint_transition": "C->C",
+    "role_transition": "C->C",
+    "occurrence_transition": "C->C"
+  },
+  {
+    "model": "qwen",
+    "material_id": "B05",
+    "position": 2,
+    "direct_score_id": "B01-qwen-B05-EXPLICIT:2",
+    "chain_score_id": "B02-qwen-B05-CHAIN:2",
+    "joint_transition": "C->C",
+    "role_transition": "C->C",
+    "occurrence_transition": "C->C"
+  },
+  {
+    "model": "qwen",
+    "material_id": "B06",
+    "position": 1,
+    "direct_score_id": "B01-qwen-B06-EXPLICIT:1",
+    "chain_score_id": "B02-qwen-B06-CHAIN:1",
+    "joint_transition": "C->C",
+    "role_transition": "C->C",
+    "occurrence_transition": "C->C"
+  },
+  {
+    "model": "qwen",
+    "material_id": "B06",
+    "position": 2,
+    "direct_score_id": "B01-qwen-B06-EXPLICIT:2",
+    "chain_score_id": "B02-qwen-B06-CHAIN:2",
+    "joint_transition": "C->C",
+    "role_transition": "C->C",
+    "occurrence_transition": "C->C"
+  },
+  {
+    "model": "qwen",
+    "material_id": "B07",
+    "position": 1,
+    "direct_score_id": "B01-qwen-B07-EXPLICIT:1",
+    "chain_score_id": "B02-qwen-B07-CHAIN:1",
+    "joint_transition": "C->C",
+    "role_transition": "C->C",
+    "occurrence_transition": "C->C"
+  },
+  {
+    "model": "qwen",
+    "material_id": "B07",
+    "position": 2,
+    "direct_score_id": "B01-qwen-B07-EXPLICIT:2",
+    "chain_score_id": "B02-qwen-B07-CHAIN:2",
+    "joint_transition": "C->C",
+    "role_transition": "NOT_APPLICABLE->NOT_APPLICABLE",
+    "occurrence_transition": "C->C"
+  },
+  {
+    "model": "qwen",
+    "material_id": "B08",
+    "position": 1,
+    "direct_score_id": "B01-qwen-B08-EXPLICIT:1",
+    "chain_score_id": "B02-qwen-B08-CHAIN:1",
+    "joint_transition": "C->C",
+    "role_transition": "NOT_APPLICABLE->NOT_APPLICABLE",
+    "occurrence_transition": "C->C"
+  },
+  {
+    "model": "qwen",
+    "material_id": "B08",
+    "position": 2,
+    "direct_score_id": "B01-qwen-B08-EXPLICIT:2",
+    "chain_score_id": "B02-qwen-B08-CHAIN:2",
+    "joint_transition": "C->C",
+    "role_transition": "NOT_APPLICABLE->NOT_APPLICABLE",
+    "occurrence_transition": "C->C"
+  },
+  {
+    "model": "llmjp",
+    "material_id": "B01",
+    "position": 1,
+    "direct_score_id": "B01-llmjp-B01-EXPLICIT:1",
+    "chain_score_id": "B02-llmjp-B01-CHAIN:1",
+    "joint_transition": "C->C",
+    "role_transition": "C->C",
+    "occurrence_transition": "C->C"
+  },
+  {
+    "model": "llmjp",
+    "material_id": "B01",
+    "position": 2,
+    "direct_score_id": "B01-llmjp-B01-EXPLICIT:2",
+    "chain_score_id": "B02-llmjp-B01-CHAIN:2",
+    "joint_transition": "C->C",
+    "role_transition": "C->C",
+    "occurrence_transition": "C->C"
+  },
+  {
+    "model": "llmjp",
+    "material_id": "B02",
+    "position": 1,
+    "direct_score_id": "B01-llmjp-B02-EXPLICIT:1",
+    "chain_score_id": "B02-llmjp-B02-CHAIN:1",
+    "joint_transition": "C->C",
+    "role_transition": "C->C",
+    "occurrence_transition": "C->C"
+  },
+  {
+    "model": "llmjp",
+    "material_id": "B02",
+    "position": 2,
+    "direct_score_id": "B01-llmjp-B02-EXPLICIT:2",
+    "chain_score_id": "B02-llmjp-B02-CHAIN:2",
+    "joint_transition": "C->C",
+    "role_transition": "C->C",
+    "occurrence_transition": "C->C"
+  },
+  {
+    "model": "llmjp",
+    "material_id": "B03",
+    "position": 1,
+    "direct_score_id": "B01-llmjp-B03-EXPLICIT:1",
+    "chain_score_id": "B02-llmjp-B03-CHAIN:1",
+    "joint_transition": "C->C",
+    "role_transition": "C->C",
+    "occurrence_transition": "C->C"
+  },
+  {
+    "model": "llmjp",
+    "material_id": "B03",
+    "position": 2,
+    "direct_score_id": "B01-llmjp-B03-EXPLICIT:2",
+    "chain_score_id": "B02-llmjp-B03-CHAIN:2",
+    "joint_transition": "C->C",
+    "role_transition": "NOT_APPLICABLE->NOT_APPLICABLE",
+    "occurrence_transition": "C->C"
+  },
+  {
+    "model": "llmjp",
+    "material_id": "B04",
+    "position": 1,
+    "direct_score_id": "B01-llmjp-B04-EXPLICIT:1",
+    "chain_score_id": "B02-llmjp-B04-CHAIN:1",
+    "joint_transition": "C->C",
+    "role_transition": "NOT_APPLICABLE->NOT_APPLICABLE",
+    "occurrence_transition": "C->C"
+  },
+  {
+    "model": "llmjp",
+    "material_id": "B04",
+    "position": 2,
+    "direct_score_id": "B01-llmjp-B04-EXPLICIT:2",
+    "chain_score_id": "B02-llmjp-B04-CHAIN:2",
+    "joint_transition": "C->C",
+    "role_transition": "NOT_APPLICABLE->NOT_APPLICABLE",
+    "occurrence_transition": "C->C"
+  },
+  {
+    "model": "llmjp",
+    "material_id": "B05",
+    "position": 1,
+    "direct_score_id": "B01-llmjp-B05-EXPLICIT:1",
+    "chain_score_id": "B02-llmjp-B05-CHAIN:1",
+    "joint_transition": "C->C",
+    "role_transition": "C->C",
+    "occurrence_transition": "C->C"
+  },
+  {
+    "model": "llmjp",
+    "material_id": "B05",
+    "position": 2,
+    "direct_score_id": "B01-llmjp-B05-EXPLICIT:2",
+    "chain_score_id": "B02-llmjp-B05-CHAIN:2",
+    "joint_transition": "C->C",
+    "role_transition": "C->C",
+    "occurrence_transition": "C->C"
+  },
+  {
+    "model": "llmjp",
+    "material_id": "B06",
+    "position": 1,
+    "direct_score_id": "B01-llmjp-B06-EXPLICIT:1",
+    "chain_score_id": "B02-llmjp-B06-CHAIN:1",
+    "joint_transition": "W->W",
+    "role_transition": "W->W",
+    "occurrence_transition": "C->C"
+  },
+  {
+    "model": "llmjp",
+    "material_id": "B06",
+    "position": 2,
+    "direct_score_id": "B01-llmjp-B06-EXPLICIT:2",
+    "chain_score_id": "B02-llmjp-B06-CHAIN:2",
+    "joint_transition": "W->W",
+    "role_transition": "W->W",
+    "occurrence_transition": "C->C"
+  },
+  {
+    "model": "llmjp",
+    "material_id": "B07",
+    "position": 1,
+    "direct_score_id": "B01-llmjp-B07-EXPLICIT:1",
+    "chain_score_id": "B02-llmjp-B07-CHAIN:1",
+    "joint_transition": "C->C",
+    "role_transition": "C->C",
+    "occurrence_transition": "C->C"
+  },
+  {
+    "model": "llmjp",
+    "material_id": "B07",
+    "position": 2,
+    "direct_score_id": "B01-llmjp-B07-EXPLICIT:2",
+    "chain_score_id": "B02-llmjp-B07-CHAIN:2",
+    "joint_transition": "C->C",
+    "role_transition": "NOT_APPLICABLE->NOT_APPLICABLE",
+    "occurrence_transition": "C->C"
+  },
+  {
+    "model": "llmjp",
+    "material_id": "B08",
+    "position": 1,
+    "direct_score_id": "B01-llmjp-B08-EXPLICIT:1",
+    "chain_score_id": "B02-llmjp-B08-CHAIN:1",
+    "joint_transition": "C->C",
+    "role_transition": "NOT_APPLICABLE->NOT_APPLICABLE",
+    "occurrence_transition": "C->C"
+  },
+  {
+    "model": "llmjp",
+    "material_id": "B08",
+    "position": 2,
+    "direct_score_id": "B01-llmjp-B08-EXPLICIT:2",
+    "chain_score_id": "B02-llmjp-B08-CHAIN:2",
+    "joint_transition": "C->C",
+    "role_transition": "NOT_APPLICABLE->NOT_APPLICABLE",
+    "occurrence_transition": "C->C"
+  },
+  {
+    "model": "apertus",
+    "material_id": "B01",
+    "position": 1,
+    "direct_score_id": "B01-apertus-B01-EXPLICIT:1",
+    "chain_score_id": "B02-apertus-B01-CHAIN:1",
+    "joint_transition": "C->C",
+    "role_transition": "C->C",
+    "occurrence_transition": "C->C"
+  },
+  {
+    "model": "apertus",
+    "material_id": "B01",
+    "position": 2,
+    "direct_score_id": "B01-apertus-B01-EXPLICIT:2",
+    "chain_score_id": "B02-apertus-B01-CHAIN:2",
+    "joint_transition": "C->C",
+    "role_transition": "C->C",
+    "occurrence_transition": "C->C"
+  },
+  {
+    "model": "apertus",
+    "material_id": "B02",
+    "position": 1,
+    "direct_score_id": "B01-apertus-B02-EXPLICIT:1",
+    "chain_score_id": "B02-apertus-B02-CHAIN:1",
+    "joint_transition": "C->C",
+    "role_transition": "C->C",
+    "occurrence_transition": "C->C"
+  },
+  {
+    "model": "apertus",
+    "material_id": "B02",
+    "position": 2,
+    "direct_score_id": "B01-apertus-B02-EXPLICIT:2",
+    "chain_score_id": "B02-apertus-B02-CHAIN:2",
+    "joint_transition": "C->C",
+    "role_transition": "C->C",
+    "occurrence_transition": "C->C"
+  },
+  {
+    "model": "apertus",
+    "material_id": "B03",
+    "position": 1,
+    "direct_score_id": "B01-apertus-B03-EXPLICIT:1",
+    "chain_score_id": "B02-apertus-B03-CHAIN:1",
+    "joint_transition": "C->W",
+    "role_transition": "C->C",
+    "occurrence_transition": "C->W"
+  },
+  {
+    "model": "apertus",
+    "material_id": "B03",
+    "position": 2,
+    "direct_score_id": "B01-apertus-B03-EXPLICIT:2",
+    "chain_score_id": "B02-apertus-B03-CHAIN:2",
+    "joint_transition": "C->W",
+    "role_transition": "NOT_APPLICABLE->NOT_APPLICABLE",
+    "occurrence_transition": "C->W"
+  },
+  {
+    "model": "apertus",
+    "material_id": "B04",
+    "position": 1,
+    "direct_score_id": "B01-apertus-B04-EXPLICIT:1",
+    "chain_score_id": "B02-apertus-B04-CHAIN:1",
+    "joint_transition": "C->C",
+    "role_transition": "NOT_APPLICABLE->NOT_APPLICABLE",
+    "occurrence_transition": "C->C"
+  },
+  {
+    "model": "apertus",
+    "material_id": "B04",
+    "position": 2,
+    "direct_score_id": "B01-apertus-B04-EXPLICIT:2",
+    "chain_score_id": "B02-apertus-B04-CHAIN:2",
+    "joint_transition": "C->C",
+    "role_transition": "NOT_APPLICABLE->NOT_APPLICABLE",
+    "occurrence_transition": "C->C"
+  },
+  {
+    "model": "apertus",
+    "material_id": "B05",
+    "position": 1,
+    "direct_score_id": "B01-apertus-B05-EXPLICIT:1",
+    "chain_score_id": "B02-apertus-B05-CHAIN:1",
+    "joint_transition": "C->C",
+    "role_transition": "C->C",
+    "occurrence_transition": "C->C"
+  },
+  {
+    "model": "apertus",
+    "material_id": "B05",
+    "position": 2,
+    "direct_score_id": "B01-apertus-B05-EXPLICIT:2",
+    "chain_score_id": "B02-apertus-B05-CHAIN:2",
+    "joint_transition": "C->C",
+    "role_transition": "C->C",
+    "occurrence_transition": "C->C"
+  },
+  {
+    "model": "apertus",
+    "material_id": "B06",
+    "position": 1,
+    "direct_score_id": "B01-apertus-B06-EXPLICIT:1",
+    "chain_score_id": "B02-apertus-B06-CHAIN:1",
+    "joint_transition": "W->W",
+    "role_transition": "W->W",
+    "occurrence_transition": "C->C"
+  },
+  {
+    "model": "apertus",
+    "material_id": "B06",
+    "position": 2,
+    "direct_score_id": "B01-apertus-B06-EXPLICIT:2",
+    "chain_score_id": "B02-apertus-B06-CHAIN:2",
+    "joint_transition": "W->W",
+    "role_transition": "W->W",
+    "occurrence_transition": "C->C"
+  },
+  {
+    "model": "apertus",
+    "material_id": "B07",
+    "position": 1,
+    "direct_score_id": "B01-apertus-B07-EXPLICIT:1",
+    "chain_score_id": "B02-apertus-B07-CHAIN:1",
+    "joint_transition": "C->W",
+    "role_transition": "C->C",
+    "occurrence_transition": "C->W"
+  },
+  {
+    "model": "apertus",
+    "material_id": "B07",
+    "position": 2,
+    "direct_score_id": "B01-apertus-B07-EXPLICIT:2",
+    "chain_score_id": "B02-apertus-B07-CHAIN:2",
+    "joint_transition": "C->W",
+    "role_transition": "NOT_APPLICABLE->NOT_APPLICABLE",
+    "occurrence_transition": "C->W"
+  },
+  {
+    "model": "apertus",
+    "material_id": "B08",
+    "position": 1,
+    "direct_score_id": "B01-apertus-B08-EXPLICIT:1",
+    "chain_score_id": "B02-apertus-B08-CHAIN:1",
+    "joint_transition": "C->C",
+    "role_transition": "NOT_APPLICABLE->NOT_APPLICABLE",
+    "occurrence_transition": "C->C"
+  },
+  {
+    "model": "apertus",
+    "material_id": "B08",
+    "position": 2,
+    "direct_score_id": "B01-apertus-B08-EXPLICIT:2",
+    "chain_score_id": "B02-apertus-B08-CHAIN:2",
+    "joint_transition": "C->C",
+    "role_transition": "NOT_APPLICABLE->NOT_APPLICABLE",
+    "occurrence_transition": "C->C"
+  }
+]

@@ -1,0 +1,86 @@
+[
+  {
+    "call_id": "B08-qwen-PAIR_ONE-P01-OPPOSITE-YES-IANCHOR_FIRST",
+    "sentence": "金立被卓平聘用为校对员。",
+    "raw": "{\"events\":[{\"occurred\":\"YES\",\"employer\":\"金立\",\"employee\":\"卓平\"},{\"occurred\":\"YES\",\"employer\":\"卓平\",\"employee\":\"金立\"}]}",
+    "events": 2,
+    "primary_scores": "U for all components because unique requested event identity unavailable"
+  },
+  {
+    "call_id": "B08-qwen-PAIR_ONE-P02-SAME-NO-ITARGET_FIRST",
+    "sentence": "文生未被甘雨聘用为仓管员。",
+    "raw": "{\"events\":[{\"occurred\":\"NO\",\"employer\":\"甘雨\",\"employee\":\"文生\"},{\"occurred\":\"YES\",\"employer\":\"甘雨\",\"employee\":\"文生\"}]}",
+    "events": 2,
+    "primary_scores": "U for all components because unique requested event identity unavailable"
+  },
+  {
+    "call_id": "B08-qwen-PAIR_ONE-P02-OPPOSITE-YES-ITARGET_FIRST",
+    "sentence": "甘雨被文生聘用为仓管员。",
+    "raw": "{\"events\":[{\"occurred\":\"YES\",\"employer\":\"文生\",\"employee\":\"甘雨\"},{\"occurred\":\"YES\",\"employer\":\"甘雨\",\"employee\":\"文生\"}]}",
+    "events": 2,
+    "primary_scores": "U for all components because unique requested event identity unavailable"
+  },
+  {
+    "call_id": "B08-qwen-PAIR_ONE-P02-OPPOSITE-NO-IANCHOR_FIRST",
+    "sentence": "甘雨未被文生聘用为仓管员。",
+    "raw": "{\"events\":[{\"occurred\":\"YES\",\"employer\":\"甘雨\",\"employee\":\"文生\"},{\"occurred\":\"NO\",\"employer\":\"文生\",\"employee\":\"甘雨\"}]}",
+    "events": 2,
+    "primary_scores": "U for all components because unique requested event identity unavailable"
+  },
+  {
+    "call_id": "B08-qwen-PAIR_ONE-P02-OPPOSITE-NO-ITARGET_FIRST",
+    "sentence": "甘雨未被文生聘用为仓管员。",
+    "raw": "{\"events\":[{\"occurred\":\"NO\",\"employer\":\"文生\",\"employee\":\"甘雨\"},{\"occurred\":\"YES\",\"employer\":\"甘雨\",\"employee\":\"文生\"}]}",
+    "events": 2,
+    "primary_scores": "U for all components because unique requested event identity unavailable"
+  },
+  {
+    "call_id": "B08-qwen-PAIR_ONE-P03-OPPOSITE-YES-IANCHOR_FIRST",
+    "sentence": "石冬向白江借用了帐篷。",
+    "raw": "{\"events\":[{\"occurred\":\"YES\",\"lender\":\"石冬\",\"borrower\":\"白江\"},{\"occurred\":\"YES\",\"lender\":\"石冬\",\"borrower\":\"白江\"}]}",
+    "events": 2,
+    "primary_scores": "U for all components because unique requested event identity unavailable"
+  },
+  {
+    "call_id": "B08-qwen-PAIR_ONE-P03-OPPOSITE-YES-ITARGET_FIRST",
+    "sentence": "石冬向白江借用了帐篷。",
+    "raw": "{\"events\":[{\"occurred\":\"YES\",\"lender\":\"白江\",\"borrower\":\"石冬\"},{\"occurred\":\"YES\",\"lender\":\"石冬\",\"borrower\":\"白江\"}]}",
+    "events": 2,
+    "primary_scores": "U for all components because unique requested event identity unavailable"
+  },
+  {
+    "call_id": "B08-qwen-PAIR_ONE-P07-SAME-YES-ITARGET_FIRST",
+    "sentence": "皮安被包文赠予了一束鲜花。",
+    "raw": "{\"events\":[{\"occurred\":\"YES\",\"giver\":\"皮安\",\"recipient\":\"包文\"},{\"occurred\":\"YES\",\"giver\":\"包文\",\"recipient\":\"皮安\"}]}",
+    "events": 2,
+    "primary_scores": "U for all components because unique requested event identity unavailable"
+  },
+  {
+    "call_id": "B08-qwen-PAIR_ONE-P07-OPPOSITE-YES-IANCHOR_FIRST",
+    "sentence": "包文被皮安赠予了一束鲜花。",
+    "raw": "{\"events\":[{\"occurred\":\"YES\",\"giver\":\"包文\",\"recipient\":\"皮安\"},{\"occurred\":\"YES\",\"giver\":\"皮安\",\"recipient\":\"包文\"}]}",
+    "events": 2,
+    "primary_scores": "U for all components because unique requested event identity unavailable"
+  },
+  {
+    "call_id": "B08-qwen-PAIR_ONE-P07-OPPOSITE-NO-IANCHOR_FIRST",
+    "sentence": "包文未被皮安赠予一束鲜花。",
+    "raw": "{\"events\":[{\"occurred\":\"YES\",\"giver\":\"包文\",\"recipient\":\"皮安\"},{\"occurred\":\"NO\",\"giver\":\"皮安\",\"recipient\":\"包文\"}]}",
+    "events": 2,
+    "primary_scores": "U for all components because unique requested event identity unavailable"
+  },
+  {
+    "call_id": "B08-qwen-PAIR_ONE-P08-OPPOSITE-YES-IANCHOR_FIRST",
+    "sentence": "孔山被谷明赠予了一条围巾。",
+    "raw": "{\"events\":[{\"occurred\":\"YES\",\"giver\":\"孔山\",\"recipient\":\"谷明\"},{\"occurred\":\"YES\",\"giver\":\"谷明\",\"recipient\":\"孔山\"}]}",
+    "events": 2,
+    "primary_scores": "U for all components because unique requested event identity unavailable"
+  },
+  {
+    "call_id": "B08-qwen-PAIR_ONE-P08-OPPOSITE-YES-ITARGET_FIRST",
+    "sentence": "孔山被谷明赠予了一条围巾。",
+    "raw": "{\"events\":[{\"occurred\":\"YES\",\"giver\":\"孔山\",\"recipient\":\"谷明\"},{\"occurred\":\"YES\",\"giver\":\"孔山\",\"recipient\":\"谷明\"}]}",
+    "events": 2,
+    "primary_scores": "U for all components because unique requested event identity unavailable"
+  }
+]

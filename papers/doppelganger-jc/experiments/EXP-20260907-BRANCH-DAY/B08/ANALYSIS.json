@@ -1,0 +1,4734 @@
+{
+  "experiment_id": "EXP-20260907-B08",
+  "at": "2026-09-07T14:41:47.632783+00:00",
+  "new_outputs": 104,
+  "new_forwards": 2339,
+  "historical_responses_reused": 64,
+  "unique_source_sentences": 40,
+  "related_lexical_blocks": 8,
+  "new_event_output_positions": 104,
+  "correlated_pairs": 256,
+  "paid_usd": 0,
+  "all_104_raw_responses_full_read_by_coordinator_AI": true,
+  "independent_human_review_complete": false,
+  "summaries": [
+    {
+      "condition": "SINGLE_ANCHOR",
+      "n_event_outputs": 8,
+      "occurrence": {
+        "C": 8
+      },
+      "role_a": {
+        "C": 8
+      },
+      "role_b": {
+        "C": 8
+      },
+      "participant": {
+        "C": 8
+      },
+      "record": {
+        "C": 8
+      }
+    },
+    {
+      "condition": "SINGLE_TARGET",
+      "n_event_outputs": 32,
+      "occurrence": {
+        "C": 29,
+        "W": 3
+      },
+      "role_a": {
+        "C": 21,
+        "U": 6,
+        "W": 5
+      },
+      "role_b": {
+        "C": 16,
+        "U": 14,
+        "W": 2
+      },
+      "participant": {
+        "C": 16,
+        "U": 11,
+        "W": 5
+      },
+      "record": {
+        "C": 15,
+        "U": 11,
+        "W": 6
+      }
+    },
+    {
+      "condition": "PAIR_ONE_ANCHOR_FIRST",
+      "n_event_outputs": 32,
+      "occurrence": {
+        "C": 15,
+        "U": 6,
+        "W": 11
+      },
+      "role_a": {
+        "C": 17,
+        "U": 6,
+        "W": 9
+      },
+      "role_b": {
+        "C": 17,
+        "U": 6,
+        "W": 9
+      },
+      "participant": {
+        "C": 17,
+        "U": 6,
+        "W": 9
+      },
+      "record": {
+        "C": 12,
+        "U": 6,
+        "W": 14
+      }
+    },
+    {
+      "condition": "HISTORICAL_PLAIN_ANCHOR_FIRST",
+      "n_event_outputs": 32,
+      "occurrence": {
+        "C": 31,
+        "W": 1
+      },
+      "role_a": {
+        "C": 20,
+        "W": 4,
+        "U": 8
+      },
+      "role_b": {
+        "C": 21,
+        "W": 4,
+        "U": 7
+      },
+      "participant": {
+        "C": 20,
+        "W": 4,
+        "U": 8
+      },
+      "record": {
+        "C": 19,
+        "W": 5,
+        "U": 8
+      }
+    },
+    {
+      "condition": "PAIR_ONE_TARGET_FIRST",
+      "n_event_outputs": 32,
+      "occurrence": {
+        "C": 19,
+        "U": 6,
+        "W": 7
+      },
+      "role_a": {
+        "C": 13,
+        "W": 8,
+        "U": 11
+      },
+      "role_b": {
+        "C": 13,
+        "W": 8,
+        "U": 11
+      },
+      "participant": {
+        "C": 13,
+        "W": 8,
+        "U": 11
+      },
+      "record": {
+        "C": 10,
+        "W": 11,
+        "U": 11
+      }
+    },
+    {
+      "condition": "HISTORICAL_PLAIN_TARGET_FIRST",
+      "n_event_outputs": 32,
+      "occurrence": {
+        "C": 26,
+        "W": 6
+      },
+      "role_a": {
+        "C": 18,
+        "W": 13,
+        "U": 1
+      },
+      "role_b": {
+        "C": 17,
+        "U": 3,
+        "W": 12
+      },
+      "participant": {
+        "C": 17,
+        "W": 13,
+        "U": 2
+      },
+      "record": {
+        "C": 14,
+        "W": 16,
+        "U": 2
+      }
+    }
+  ],
+  "strata": [
+    {
+      "field": "domain",
+      "value": "gift",
+      "condition": "SINGLE_ANCHOR",
+      "n_event_outputs": 2,
+      "occurrence": {
+        "C": 2
+      },
+      "role_a": {
+        "C": 2
+      },
+      "role_b": {
+        "C": 2
+      },
+      "participant": {
+        "C": 2
+      },
+      "record": {
+        "C": 2
+      }
+    },
+    {
+      "field": "domain",
+      "value": "hire",
+      "condition": "SINGLE_ANCHOR",
+      "n_event_outputs": 2,
+      "occurrence": {
+        "C": 2
+      },
+      "role_a": {
+        "C": 2
+      },
+      "role_b": {
+        "C": 2
+      },
+      "participant": {
+        "C": 2
+      },
+      "record": {
+        "C": 2
+      }
+    },
+    {
+      "field": "domain",
+      "value": "loan",
+      "condition": "SINGLE_ANCHOR",
+      "n_event_outputs": 2,
+      "occurrence": {
+        "C": 2
+      },
+      "role_a": {
+        "C": 2
+      },
+      "role_b": {
+        "C": 2
+      },
+      "participant": {
+        "C": 2
+      },
+      "record": {
+        "C": 2
+      }
+    },
+    {
+      "field": "domain",
+      "value": "sale",
+      "condition": "SINGLE_ANCHOR",
+      "n_event_outputs": 2,
+      "occurrence": {
+        "C": 2
+      },
+      "role_a": {
+        "C": 2
+      },
+      "role_b": {
+        "C": 2
+      },
+      "participant": {
+        "C": 2
+      },
+      "record": {
+        "C": 2
+      }
+    },
+    {
+      "field": "target_polarity",
+      "value": "YES",
+      "condition": "SINGLE_ANCHOR",
+      "n_event_outputs": 8,
+      "occurrence": {
+        "C": 8
+      },
+      "role_a": {
+        "C": 8
+      },
+      "role_b": {
+        "C": 8
+      },
+      "participant": {
+        "C": 8
+      },
+      "record": {
+        "C": 8
+      }
+    },
+    {
+      "field": "role_configuration",
+      "value": "SHARED_ANCHOR",
+      "condition": "SINGLE_ANCHOR",
+      "n_event_outputs": 8,
+      "occurrence": {
+        "C": 8
+      },
+      "role_a": {
+        "C": 8
+      },
+      "role_b": {
+        "C": 8
+      },
+      "participant": {
+        "C": 8
+      },
+      "record": {
+        "C": 8
+      }
+    },
+    {
+      "field": "lexical_block",
+      "value": "P01",
+      "condition": "SINGLE_ANCHOR",
+      "n_event_outputs": 1,
+      "occurrence": {
+        "C": 1
+      },
+      "role_a": {
+        "C": 1
+      },
+      "role_b": {
+        "C": 1
+      },
+      "participant": {
+        "C": 1
+      },
+      "record": {
+        "C": 1
+      }
+    },
+    {
+      "field": "lexical_block",
+      "value": "P02",
+      "condition": "SINGLE_ANCHOR",
+      "n_event_outputs": 1,
+      "occurrence": {
+        "C": 1
+      },
+      "role_a": {
+        "C": 1
+      },
+      "role_b": {
+        "C": 1
+      },
+      "participant": {
+        "C": 1
+      },
+      "record": {
+        "C": 1
+      }
+    },
+    {
+      "field": "lexical_block",
+      "value": "P03",
+      "condition": "SINGLE_ANCHOR",
+      "n_event_outputs": 1,
+      "occurrence": {
+        "C": 1
+      },
+      "role_a": {
+        "C": 1
+      },
+      "role_b": {
+        "C": 1
+      },
+      "participant": {
+        "C": 1
+      },
+      "record": {
+        "C": 1
+      }
+    },
+    {
+      "field": "lexical_block",
+      "value": "P04",
+      "condition": "SINGLE_ANCHOR",
+      "n_event_outputs": 1,
+      "occurrence": {
+        "C": 1
+      },
+      "role_a": {
+        "C": 1
+      },
+      "role_b": {
+        "C": 1
+      },
+      "participant": {
+        "C": 1
+      },
+      "record": {
+        "C": 1
+      }
+    },
+    {
+      "field": "lexical_block",
+      "value": "P05",
+      "condition": "SINGLE_ANCHOR",
+      "n_event_outputs": 1,
+      "occurrence": {
+        "C": 1
+      },
+      "role_a": {
+        "C": 1
+      },
+      "role_b": {
+        "C": 1
+      },
+      "participant": {
+        "C": 1
+      },
+      "record": {
+        "C": 1
+      }
+    },
+    {
+      "field": "lexical_block",
+      "value": "P06",
+      "condition": "SINGLE_ANCHOR",
+      "n_event_outputs": 1,
+      "occurrence": {
+        "C": 1
+      },
+      "role_a": {
+        "C": 1
+      },
+      "role_b": {
+        "C": 1
+      },
+      "participant": {
+        "C": 1
+      },
+      "record": {
+        "C": 1
+      }
+    },
+    {
+      "field": "lexical_block",
+      "value": "P07",
+      "condition": "SINGLE_ANCHOR",
+      "n_event_outputs": 1,
+      "occurrence": {
+        "C": 1
+      },
+      "role_a": {
+        "C": 1
+      },
+      "role_b": {
+        "C": 1
+      },
+      "participant": {
+        "C": 1
+      },
+      "record": {
+        "C": 1
+      }
+    },
+    {
+      "field": "lexical_block",
+      "value": "P08",
+      "condition": "SINGLE_ANCHOR",
+      "n_event_outputs": 1,
+      "occurrence": {
+        "C": 1
+      },
+      "role_a": {
+        "C": 1
+      },
+      "role_b": {
+        "C": 1
+      },
+      "participant": {
+        "C": 1
+      },
+      "record": {
+        "C": 1
+      }
+    },
+    {
+      "field": "domain",
+      "value": "gift",
+      "condition": "SINGLE_TARGET",
+      "n_event_outputs": 8,
+      "occurrence": {
+        "C": 6,
+        "W": 2
+      },
+      "role_a": {
+        "W": 3,
+        "C": 5
+      },
+      "role_b": {
+        "W": 2,
+        "U": 1,
+        "C": 5
+      },
+      "participant": {
+        "W": 3,
+        "C": 5
+      },
+      "record": {
+        "W": 4,
+        "C": 4
+      }
+    },
+    {
+      "field": "domain",
+      "value": "hire",
+      "condition": "SINGLE_TARGET",
+      "n_event_outputs": 8,
+      "occurrence": {
+        "C": 8
+      },
+      "role_a": {
+        "C": 4,
+        "U": 4
+      },
+      "role_b": {
+        "C": 4,
+        "U": 4
+      },
+      "participant": {
+        "C": 4,
+        "U": 4
+      },
+      "record": {
+        "C": 4,
+        "U": 4
+      }
+    },
+    {
+      "field": "domain",
+      "value": "loan",
+      "condition": "SINGLE_TARGET",
+      "n_event_outputs": 8,
+      "occurrence": {
+        "C": 7,
+        "W": 1
+      },
+      "role_a": {
+        "C": 6,
+        "W": 2
+      },
+      "role_b": {
+        "U": 6,
+        "C": 2
+      },
+      "participant": {
+        "U": 4,
+        "C": 2,
+        "W": 2
+      },
+      "record": {
+        "U": 4,
+        "C": 2,
+        "W": 2
+      }
+    },
+    {
+      "field": "domain",
+      "value": "sale",
+      "condition": "SINGLE_TARGET",
+      "n_event_outputs": 8,
+      "occurrence": {
+        "C": 8
+      },
+      "role_a": {
+        "C": 6,
+        "U": 2
+      },
+      "role_b": {
+        "C": 5,
+        "U": 3
+      },
+      "participant": {
+        "C": 5,
+        "U": 3
+      },
+      "record": {
+        "C": 5,
+        "U": 3
+      }
+    },
+    {
+      "field": "target_polarity",
+      "value": "NO",
+      "condition": "SINGLE_TARGET",
+      "n_event_outputs": 16,
+      "occurrence": {
+        "C": 13,
+        "W": 3
+      },
+      "role_a": {
+        "C": 9,
+        "U": 5,
+        "W": 2
+      },
+      "role_b": {
+        "C": 7,
+        "U": 9
+      },
+      "participant": {
+        "C": 7,
+        "U": 7,
+        "W": 2
+      },
+      "record": {
+        "C": 6,
+        "U": 7,
+        "W": 3
+      }
+    },
+    {
+      "field": "target_polarity",
+      "value": "YES",
+      "condition": "SINGLE_TARGET",
+      "n_event_outputs": 16,
+      "occurrence": {
+        "C": 16
+      },
+      "role_a": {
+        "C": 12,
+        "U": 1,
+        "W": 3
+      },
+      "role_b": {
+        "C": 9,
+        "U": 5,
+        "W": 2
+      },
+      "participant": {
+        "C": 9,
+        "U": 4,
+        "W": 3
+      },
+      "record": {
+        "C": 9,
+        "U": 4,
+        "W": 3
+      }
+    },
+    {
+      "field": "role_configuration",
+      "value": "OPPOSITE",
+      "condition": "SINGLE_TARGET",
+      "n_event_outputs": 16,
+      "occurrence": {
+        "C": 16
+      },
+      "role_a": {
+        "U": 4,
+        "C": 11,
+        "W": 1
+      },
+      "role_b": {
+        "U": 6,
+        "C": 9,
+        "W": 1
+      },
+      "participant": {
+        "U": 6,
+        "C": 9,
+        "W": 1
+      },
+      "record": {
+        "U": 6,
+        "C": 9,
+        "W": 1
+      }
+    },
+    {
+      "field": "role_configuration",
+      "value": "SAME",
+      "condition": "SINGLE_TARGET",
+      "n_event_outputs": 16,
+      "occurrence": {
+        "C": 13,
+        "W": 3
+      },
+      "role_a": {
+        "C": 10,
+        "U": 2,
+        "W": 4
+      },
+      "role_b": {
+        "C": 7,
+        "U": 8,
+        "W": 1
+      },
+      "participant": {
+        "C": 7,
+        "U": 5,
+        "W": 4
+      },
+      "record": {
+        "C": 6,
+        "U": 5,
+        "W": 5
+      }
+    },
+    {
+      "field": "lexical_block",
+      "value": "P01",
+      "condition": "SINGLE_TARGET",
+      "n_event_outputs": 4,
+      "occurrence": {
+        "C": 4
+      },
+      "role_a": {
+        "C": 2,
+        "U": 2
+      },
+      "role_b": {
+        "C": 2,
+        "U": 2
+      },
+      "participant": {
+        "C": 2,
+        "U": 2
+      },
+      "record": {
+        "C": 2,
+        "U": 2
+      }
+    },
+    {
+      "field": "lexical_block",
+      "value": "P02",
+      "condition": "SINGLE_TARGET",
+      "n_event_outputs": 4,
+      "occurrence": {
+        "C": 4
+      },
+      "role_a": {
+        "C": 2,
+        "U": 2
+      },
+      "role_b": {
+        "C": 2,
+        "U": 2
+      },
+      "participant": {
+        "C": 2,
+        "U": 2
+      },
+      "record": {
+        "C": 2,
+        "U": 2
+      }
+    },
+    {
+      "field": "lexical_block",
+      "value": "P03",
+      "condition": "SINGLE_TARGET",
+      "n_event_outputs": 4,
+      "occurrence": {
+        "C": 4
+      },
+      "role_a": {
+        "C": 4
+      },
+      "role_b": {
+        "U": 3,
+        "C": 1
+      },
+      "participant": {
+        "U": 3,
+        "C": 1
+      },
+      "record": {
+        "U": 3,
+        "C": 1
+      }
+    },
+    {
+      "field": "lexical_block",
+      "value": "P04",
+      "condition": "SINGLE_TARGET",
+      "n_event_outputs": 4,
+      "occurrence": {
+        "C": 3,
+        "W": 1
+      },
+      "role_a": {
+        "C": 2,
+        "W": 2
+      },
+      "role_b": {
+        "U": 3,
+        "C": 1
+      },
+      "participant": {
+        "U": 1,
+        "C": 1,
+        "W": 2
+      },
+      "record": {
+        "U": 1,
+        "C": 1,
+        "W": 2
+      }
+    },
+    {
+      "field": "lexical_block",
+      "value": "P05",
+      "condition": "SINGLE_TARGET",
+      "n_event_outputs": 4,
+      "occurrence": {
+        "C": 4
+      },
+      "role_a": {
+        "C": 4
+      },
+      "role_b": {
+        "C": 3,
+        "U": 1
+      },
+      "participant": {
+        "C": 3,
+        "U": 1
+      },
+      "record": {
+        "C": 3,
+        "U": 1
+      }
+    },
+    {
+      "field": "lexical_block",
+      "value": "P06",
+      "condition": "SINGLE_TARGET",
+      "n_event_outputs": 4,
+      "occurrence": {
+        "C": 4
+      },
+      "role_a": {
+        "C": 2,
+        "U": 2
+      },
+      "role_b": {
+        "C": 2,
+        "U": 2
+      },
+      "participant": {
+        "C": 2,
+        "U": 2
+      },
+      "record": {
+        "C": 2,
+        "U": 2
+      }
+    },
+    {
+      "field": "lexical_block",
+      "value": "P07",
+      "condition": "SINGLE_TARGET",
+      "n_event_outputs": 4,
+      "occurrence": {
+        "C": 3,
+        "W": 1
+      },
+      "role_a": {
+        "W": 3,
+        "C": 1
+      },
+      "role_b": {
+        "W": 2,
+        "U": 1,
+        "C": 1
+      },
+      "participant": {
+        "W": 3,
+        "C": 1
+      },
+      "record": {
+        "W": 3,
+        "C": 1
+      }
+    },
+    {
+      "field": "lexical_block",
+      "value": "P08",
+      "condition": "SINGLE_TARGET",
+      "n_event_outputs": 4,
+      "occurrence": {
+        "C": 3,
+        "W": 1
+      },
+      "role_a": {
+        "C": 4
+      },
+      "role_b": {
+        "C": 4
+      },
+      "participant": {
+        "C": 4
+      },
+      "record": {
+        "C": 3,
+        "W": 1
+      }
+    },
+    {
+      "field": "domain",
+      "value": "gift",
+      "condition": "PAIR_ONE_ANCHOR_FIRST",
+      "n_event_outputs": 8,
+      "occurrence": {
+        "C": 4,
+        "U": 3,
+        "W": 1
+      },
+      "role_a": {
+        "C": 4,
+        "U": 3,
+        "W": 1
+      },
+      "role_b": {
+        "C": 4,
+        "U": 3,
+        "W": 1
+      },
+      "participant": {
+        "C": 4,
+        "U": 3,
+        "W": 1
+      },
+      "record": {
+        "C": 4,
+        "U": 3,
+        "W": 1
+      }
+    },
+    {
+      "field": "domain",
+      "value": "hire",
+      "condition": "PAIR_ONE_ANCHOR_FIRST",
+      "n_event_outputs": 8,
+      "occurrence": {
+        "C": 4,
+        "U": 2,
+        "W": 2
+      },
+      "role_a": {
+        "C": 5,
+        "U": 2,
+        "W": 1
+      },
+      "role_b": {
+        "C": 5,
+        "U": 2,
+        "W": 1
+      },
+      "participant": {
+        "C": 5,
+        "U": 2,
+        "W": 1
+      },
+      "record": {
+        "C": 4,
+        "U": 2,
+        "W": 2
+      }
+    },
+    {
+      "field": "domain",
+      "value": "loan",
+      "condition": "PAIR_ONE_ANCHOR_FIRST",
+      "n_event_outputs": 8,
+      "occurrence": {
+        "C": 3,
+        "W": 4,
+        "U": 1
+      },
+      "role_a": {
+        "C": 4,
+        "U": 1,
+        "W": 3
+      },
+      "role_b": {
+        "C": 4,
+        "U": 1,
+        "W": 3
+      },
+      "participant": {
+        "C": 4,
+        "U": 1,
+        "W": 3
+      },
+      "record": {
+        "C": 2,
+        "W": 5,
+        "U": 1
+      }
+    },
+    {
+      "field": "domain",
+      "value": "sale",
+      "condition": "PAIR_ONE_ANCHOR_FIRST",
+      "n_event_outputs": 8,
+      "occurrence": {
+        "C": 4,
+        "W": 4
+      },
+      "role_a": {
+        "C": 4,
+        "W": 4
+      },
+      "role_b": {
+        "C": 4,
+        "W": 4
+      },
+      "participant": {
+        "C": 4,
+        "W": 4
+      },
+      "record": {
+        "C": 2,
+        "W": 6
+      }
+    },
+    {
+      "field": "target_polarity",
+      "value": "NO",
+      "condition": "PAIR_ONE_ANCHOR_FIRST",
+      "n_event_outputs": 16,
+      "occurrence": {
+        "C": 3,
+        "W": 11,
+        "U": 2
+      },
+      "role_a": {
+        "C": 8,
+        "W": 6,
+        "U": 2
+      },
+      "role_b": {
+        "C": 8,
+        "W": 6,
+        "U": 2
+      },
+      "participant": {
+        "C": 8,
+        "W": 6,
+        "U": 2
+      },
+      "record": {
+        "C": 3,
+        "W": 11,
+        "U": 2
+      }
+    },
+    {
+      "field": "target_polarity",
+      "value": "YES",
+      "condition": "PAIR_ONE_ANCHOR_FIRST",
+      "n_event_outputs": 16,
+      "occurrence": {
+        "C": 12,
+        "U": 4
+      },
+      "role_a": {
+        "C": 9,
+        "U": 4,
+        "W": 3
+      },
+      "role_b": {
+        "C": 9,
+        "U": 4,
+        "W": 3
+      },
+      "participant": {
+        "C": 9,
+        "U": 4,
+        "W": 3
+      },
+      "record": {
+        "C": 9,
+        "U": 4,
+        "W": 3
+      }
+    },
+    {
+      "field": "role_configuration",
+      "value": "OPPOSITE",
+      "condition": "PAIR_ONE_ANCHOR_FIRST",
+      "n_event_outputs": 16,
+      "occurrence": {
+        "U": 6,
+        "W": 6,
+        "C": 4
+      },
+      "role_a": {
+        "U": 6,
+        "W": 9,
+        "C": 1
+      },
+      "role_b": {
+        "U": 6,
+        "W": 9,
+        "C": 1
+      },
+      "participant": {
+        "U": 6,
+        "W": 9,
+        "C": 1
+      },
+      "record": {
+        "U": 6,
+        "W": 9,
+        "C": 1
+      }
+    },
+    {
+      "field": "role_configuration",
+      "value": "SAME",
+      "condition": "PAIR_ONE_ANCHOR_FIRST",
+      "n_event_outputs": 16,
+      "occurrence": {
+        "C": 11,
+        "W": 5
+      },
+      "role_a": {
+        "C": 16
+      },
+      "role_b": {
+        "C": 16
+      },
+      "participant": {
+        "C": 16
+      },
+      "record": {
+        "C": 11,
+        "W": 5
+      }
+    },
+    {
+      "field": "lexical_block",
+      "value": "P01",
+      "condition": "PAIR_ONE_ANCHOR_FIRST",
+      "n_event_outputs": 4,
+      "occurrence": {
+        "C": 2,
+        "U": 1,
+        "W": 1
+      },
+      "role_a": {
+        "C": 2,
+        "U": 1,
+        "W": 1
+      },
+      "role_b": {
+        "C": 2,
+        "U": 1,
+        "W": 1
+      },
+      "participant": {
+        "C": 2,
+        "U": 1,
+        "W": 1
+      },
+      "record": {
+        "C": 2,
+        "U": 1,
+        "W": 1
+      }
+    },
+    {
+      "field": "lexical_block",
+      "value": "P02",
+      "condition": "PAIR_ONE_ANCHOR_FIRST",
+      "n_event_outputs": 4,
+      "occurrence": {
+        "C": 2,
+        "W": 1,
+        "U": 1
+      },
+      "role_a": {
+        "C": 3,
+        "U": 1
+      },
+      "role_b": {
+        "C": 3,
+        "U": 1
+      },
+      "participant": {
+        "C": 3,
+        "U": 1
+      },
+      "record": {
+        "C": 2,
+        "W": 1,
+        "U": 1
+      }
+    },
+    {
+      "field": "lexical_block",
+      "value": "P03",
+      "condition": "PAIR_ONE_ANCHOR_FIRST",
+      "n_event_outputs": 4,
+      "occurrence": {
+        "C": 1,
+        "W": 2,
+        "U": 1
+      },
+      "role_a": {
+        "C": 2,
+        "U": 1,
+        "W": 1
+      },
+      "role_b": {
+        "C": 2,
+        "U": 1,
+        "W": 1
+      },
+      "participant": {
+        "C": 2,
+        "U": 1,
+        "W": 1
+      },
+      "record": {
+        "C": 1,
+        "W": 2,
+        "U": 1
+      }
+    },
+    {
+      "field": "lexical_block",
+      "value": "P04",
+      "condition": "PAIR_ONE_ANCHOR_FIRST",
+      "n_event_outputs": 4,
+      "occurrence": {
+        "C": 2,
+        "W": 2
+      },
+      "role_a": {
+        "C": 2,
+        "W": 2
+      },
+      "role_b": {
+        "C": 2,
+        "W": 2
+      },
+      "participant": {
+        "C": 2,
+        "W": 2
+      },
+      "record": {
+        "C": 1,
+        "W": 3
+      }
+    },
+    {
+      "field": "lexical_block",
+      "value": "P05",
+      "condition": "PAIR_ONE_ANCHOR_FIRST",
+      "n_event_outputs": 4,
+      "occurrence": {
+        "C": 2,
+        "W": 2
+      },
+      "role_a": {
+        "C": 2,
+        "W": 2
+      },
+      "role_b": {
+        "C": 2,
+        "W": 2
+      },
+      "participant": {
+        "C": 2,
+        "W": 2
+      },
+      "record": {
+        "C": 1,
+        "W": 3
+      }
+    },
+    {
+      "field": "lexical_block",
+      "value": "P06",
+      "condition": "PAIR_ONE_ANCHOR_FIRST",
+      "n_event_outputs": 4,
+      "occurrence": {
+        "C": 2,
+        "W": 2
+      },
+      "role_a": {
+        "C": 2,
+        "W": 2
+      },
+      "role_b": {
+        "C": 2,
+        "W": 2
+      },
+      "participant": {
+        "C": 2,
+        "W": 2
+      },
+      "record": {
+        "C": 1,
+        "W": 3
+      }
+    },
+    {
+      "field": "lexical_block",
+      "value": "P07",
+      "condition": "PAIR_ONE_ANCHOR_FIRST",
+      "n_event_outputs": 4,
+      "occurrence": {
+        "C": 2,
+        "U": 2
+      },
+      "role_a": {
+        "C": 2,
+        "U": 2
+      },
+      "role_b": {
+        "C": 2,
+        "U": 2
+      },
+      "participant": {
+        "C": 2,
+        "U": 2
+      },
+      "record": {
+        "C": 2,
+        "U": 2
+      }
+    },
+    {
+      "field": "lexical_block",
+      "value": "P08",
+      "condition": "PAIR_ONE_ANCHOR_FIRST",
+      "n_event_outputs": 4,
+      "occurrence": {
+        "C": 2,
+        "U": 1,
+        "W": 1
+      },
+      "role_a": {
+        "C": 2,
+        "U": 1,
+        "W": 1
+      },
+      "role_b": {
+        "C": 2,
+        "U": 1,
+        "W": 1
+      },
+      "participant": {
+        "C": 2,
+        "U": 1,
+        "W": 1
+      },
+      "record": {
+        "C": 2,
+        "U": 1,
+        "W": 1
+      }
+    },
+    {
+      "field": "domain",
+      "value": "gift",
+      "condition": "HISTORICAL_PLAIN_ANCHOR_FIRST",
+      "n_event_outputs": 8,
+      "occurrence": {
+        "C": 8
+      },
+      "role_a": {
+        "C": 7,
+        "U": 1
+      },
+      "role_b": {
+        "C": 8
+      },
+      "participant": {
+        "C": 7,
+        "U": 1
+      },
+      "record": {
+        "C": 7,
+        "U": 1
+      }
+    },
+    {
+      "field": "domain",
+      "value": "hire",
+      "condition": "HISTORICAL_PLAIN_ANCHOR_FIRST",
+      "n_event_outputs": 8,
+      "occurrence": {
+        "C": 7,
+        "W": 1
+      },
+      "role_a": {
+        "C": 7,
+        "W": 1
+      },
+      "role_b": {
+        "C": 7,
+        "W": 1
+      },
+      "participant": {
+        "C": 7,
+        "W": 1
+      },
+      "record": {
+        "C": 6,
+        "W": 2
+      }
+    },
+    {
+      "field": "domain",
+      "value": "loan",
+      "condition": "HISTORICAL_PLAIN_ANCHOR_FIRST",
+      "n_event_outputs": 8,
+      "occurrence": {
+        "C": 8
+      },
+      "role_a": {
+        "C": 3,
+        "U": 3,
+        "W": 2
+      },
+      "role_b": {
+        "C": 3,
+        "U": 3,
+        "W": 2
+      },
+      "participant": {
+        "C": 3,
+        "U": 3,
+        "W": 2
+      },
+      "record": {
+        "C": 3,
+        "U": 3,
+        "W": 2
+      }
+    },
+    {
+      "field": "domain",
+      "value": "sale",
+      "condition": "HISTORICAL_PLAIN_ANCHOR_FIRST",
+      "n_event_outputs": 8,
+      "occurrence": {
+        "C": 8
+      },
+      "role_a": {
+        "C": 3,
+        "U": 4,
+        "W": 1
+      },
+      "role_b": {
+        "C": 3,
+        "U": 4,
+        "W": 1
+      },
+      "participant": {
+        "C": 3,
+        "U": 4,
+        "W": 1
+      },
+      "record": {
+        "C": 3,
+        "U": 4,
+        "W": 1
+      }
+    },
+    {
+      "field": "target_polarity",
+      "value": "NO",
+      "condition": "HISTORICAL_PLAIN_ANCHOR_FIRST",
+      "n_event_outputs": 16,
+      "occurrence": {
+        "C": 15,
+        "W": 1
+      },
+      "role_a": {
+        "C": 6,
+        "W": 2,
+        "U": 8
+      },
+      "role_b": {
+        "C": 7,
+        "W": 2,
+        "U": 7
+      },
+      "participant": {
+        "C": 6,
+        "W": 2,
+        "U": 8
+      },
+      "record": {
+        "C": 5,
+        "W": 3,
+        "U": 8
+      }
+    },
+    {
+      "field": "target_polarity",
+      "value": "YES",
+      "condition": "HISTORICAL_PLAIN_ANCHOR_FIRST",
+      "n_event_outputs": 16,
+      "occurrence": {
+        "C": 16
+      },
+      "role_a": {
+        "C": 14,
+        "W": 2
+      },
+      "role_b": {
+        "C": 14,
+        "W": 2
+      },
+      "participant": {
+        "C": 14,
+        "W": 2
+      },
+      "record": {
+        "C": 14,
+        "W": 2
+      }
+    },
+    {
+      "field": "role_configuration",
+      "value": "OPPOSITE",
+      "condition": "HISTORICAL_PLAIN_ANCHOR_FIRST",
+      "n_event_outputs": 16,
+      "occurrence": {
+        "C": 16
+      },
+      "role_a": {
+        "C": 11,
+        "W": 2,
+        "U": 3
+      },
+      "role_b": {
+        "C": 11,
+        "W": 2,
+        "U": 3
+      },
+      "participant": {
+        "C": 11,
+        "W": 2,
+        "U": 3
+      },
+      "record": {
+        "C": 11,
+        "W": 2,
+        "U": 3
+      }
+    },
+    {
+      "field": "role_configuration",
+      "value": "SAME",
+      "condition": "HISTORICAL_PLAIN_ANCHOR_FIRST",
+      "n_event_outputs": 16,
+      "occurrence": {
+        "C": 15,
+        "W": 1
+      },
+      "role_a": {
+        "C": 9,
+        "U": 5,
+        "W": 2
+      },
+      "role_b": {
+        "C": 10,
+        "U": 4,
+        "W": 2
+      },
+      "participant": {
+        "C": 9,
+        "U": 5,
+        "W": 2
+      },
+      "record": {
+        "C": 8,
+        "W": 3,
+        "U": 5
+      }
+    },
+    {
+      "field": "lexical_block",
+      "value": "P01",
+      "condition": "HISTORICAL_PLAIN_ANCHOR_FIRST",
+      "n_event_outputs": 4,
+      "occurrence": {
+        "C": 4
+      },
+      "role_a": {
+        "C": 3,
+        "W": 1
+      },
+      "role_b": {
+        "C": 3,
+        "W": 1
+      },
+      "participant": {
+        "C": 3,
+        "W": 1
+      },
+      "record": {
+        "C": 3,
+        "W": 1
+      }
+    },
+    {
+      "field": "lexical_block",
+      "value": "P02",
+      "condition": "HISTORICAL_PLAIN_ANCHOR_FIRST",
+      "n_event_outputs": 4,
+      "occurrence": {
+        "C": 3,
+        "W": 1
+      },
+      "role_a": {
+        "C": 4
+      },
+      "role_b": {
+        "C": 4
+      },
+      "participant": {
+        "C": 4
+      },
+      "record": {
+        "C": 3,
+        "W": 1
+      }
+    },
+    {
+      "field": "lexical_block",
+      "value": "P03",
+      "condition": "HISTORICAL_PLAIN_ANCHOR_FIRST",
+      "n_event_outputs": 4,
+      "occurrence": {
+        "C": 4
+      },
+      "role_a": {
+        "C": 2,
+        "U": 2
+      },
+      "role_b": {
+        "C": 2,
+        "U": 2
+      },
+      "participant": {
+        "C": 2,
+        "U": 2
+      },
+      "record": {
+        "C": 2,
+        "U": 2
+      }
+    },
+    {
+      "field": "lexical_block",
+      "value": "P04",
+      "condition": "HISTORICAL_PLAIN_ANCHOR_FIRST",
+      "n_event_outputs": 4,
+      "occurrence": {
+        "C": 4
+      },
+      "role_a": {
+        "W": 2,
+        "U": 1,
+        "C": 1
+      },
+      "role_b": {
+        "W": 2,
+        "U": 1,
+        "C": 1
+      },
+      "participant": {
+        "W": 2,
+        "U": 1,
+        "C": 1
+      },
+      "record": {
+        "W": 2,
+        "U": 1,
+        "C": 1
+      }
+    },
+    {
+      "field": "lexical_block",
+      "value": "P05",
+      "condition": "HISTORICAL_PLAIN_ANCHOR_FIRST",
+      "n_event_outputs": 4,
+      "occurrence": {
+        "C": 4
+      },
+      "role_a": {
+        "C": 2,
+        "U": 2
+      },
+      "role_b": {
+        "C": 2,
+        "U": 2
+      },
+      "participant": {
+        "C": 2,
+        "U": 2
+      },
+      "record": {
+        "C": 2,
+        "U": 2
+      }
+    },
+    {
+      "field": "lexical_block",
+      "value": "P06",
+      "condition": "HISTORICAL_PLAIN_ANCHOR_FIRST",
+      "n_event_outputs": 4,
+      "occurrence": {
+        "C": 4
+      },
+      "role_a": {
+        "W": 1,
+        "U": 2,
+        "C": 1
+      },
+      "role_b": {
+        "W": 1,
+        "U": 2,
+        "C": 1
+      },
+      "participant": {
+        "W": 1,
+        "U": 2,
+        "C": 1
+      },
+      "record": {
+        "W": 1,
+        "U": 2,
+        "C": 1
+      }
+    },
+    {
+      "field": "lexical_block",
+      "value": "P07",
+      "condition": "HISTORICAL_PLAIN_ANCHOR_FIRST",
+      "n_event_outputs": 4,
+      "occurrence": {
+        "C": 4
+      },
+      "role_a": {
+        "C": 3,
+        "U": 1
+      },
+      "role_b": {
+        "C": 4
+      },
+      "participant": {
+        "C": 3,
+        "U": 1
+      },
+      "record": {
+        "C": 3,
+        "U": 1
+      }
+    },
+    {
+      "field": "lexical_block",
+      "value": "P08",
+      "condition": "HISTORICAL_PLAIN_ANCHOR_FIRST",
+      "n_event_outputs": 4,
+      "occurrence": {
+        "C": 4
+      },
+      "role_a": {
+        "C": 4
+      },
+      "role_b": {
+        "C": 4
+      },
+      "participant": {
+        "C": 4
+      },
+      "record": {
+        "C": 4
+      }
+    },
+    {
+      "field": "domain",
+      "value": "gift",
+      "condition": "PAIR_ONE_TARGET_FIRST",
+      "n_event_outputs": 8,
+      "occurrence": {
+        "U": 2,
+        "W": 4,
+        "C": 2
+      },
+      "role_a": {
+        "U": 2,
+        "W": 4,
+        "C": 2
+      },
+      "role_b": {
+        "U": 2,
+        "W": 4,
+        "C": 2
+      },
+      "participant": {
+        "U": 2,
+        "W": 4,
+        "C": 2
+      },
+      "record": {
+        "U": 2,
+        "W": 5,
+        "C": 1
+      }
+    },
+    {
+      "field": "domain",
+      "value": "hire",
+      "condition": "PAIR_ONE_TARGET_FIRST",
+      "n_event_outputs": 8,
+      "occurrence": {
+        "C": 5,
+        "U": 3
+      },
+      "role_a": {
+        "C": 3,
+        "W": 2,
+        "U": 3
+      },
+      "role_b": {
+        "C": 3,
+        "W": 2,
+        "U": 3
+      },
+      "participant": {
+        "C": 3,
+        "W": 2,
+        "U": 3
+      },
+      "record": {
+        "C": 3,
+        "W": 2,
+        "U": 3
+      }
+    },
+    {
+      "field": "domain",
+      "value": "loan",
+      "condition": "PAIR_ONE_TARGET_FIRST",
+      "n_event_outputs": 8,
+      "occurrence": {
+        "C": 6,
+        "U": 1,
+        "W": 1
+      },
+      "role_a": {
+        "C": 3,
+        "U": 4,
+        "W": 1
+      },
+      "role_b": {
+        "C": 3,
+        "U": 4,
+        "W": 1
+      },
+      "participant": {
+        "C": 3,
+        "U": 4,
+        "W": 1
+      },
+      "record": {
+        "C": 2,
+        "U": 4,
+        "W": 2
+      }
+    },
+    {
+      "field": "domain",
+      "value": "sale",
+      "condition": "PAIR_ONE_TARGET_FIRST",
+      "n_event_outputs": 8,
+      "occurrence": {
+        "C": 6,
+        "W": 2
+      },
+      "role_a": {
+        "C": 5,
+        "W": 1,
+        "U": 2
+      },
+      "role_b": {
+        "C": 5,
+        "W": 1,
+        "U": 2
+      },
+      "participant": {
+        "C": 5,
+        "W": 1,
+        "U": 2
+      },
+      "record": {
+        "C": 4,
+        "W": 2,
+        "U": 2
+      }
+    },
+    {
+      "field": "target_polarity",
+      "value": "NO",
+      "condition": "PAIR_ONE_TARGET_FIRST",
+      "n_event_outputs": 16,
+      "occurrence": {
+        "C": 7,
+        "U": 2,
+        "W": 7
+      },
+      "role_a": {
+        "C": 4,
+        "W": 5,
+        "U": 7
+      },
+      "role_b": {
+        "C": 4,
+        "W": 5,
+        "U": 7
+      },
+      "participant": {
+        "C": 4,
+        "W": 5,
+        "U": 7
+      },
+      "record": {
+        "C": 1,
+        "W": 8,
+        "U": 7
+      }
+    },
+    {
+      "field": "target_polarity",
+      "value": "YES",
+      "condition": "PAIR_ONE_TARGET_FIRST",
+      "n_event_outputs": 16,
+      "occurrence": {
+        "C": 12,
+        "U": 4
+      },
+      "role_a": {
+        "C": 9,
+        "W": 3,
+        "U": 4
+      },
+      "role_b": {
+        "C": 9,
+        "W": 3,
+        "U": 4
+      },
+      "participant": {
+        "C": 9,
+        "W": 3,
+        "U": 4
+      },
+      "record": {
+        "C": 9,
+        "W": 3,
+        "U": 4
+      }
+    },
+    {
+      "field": "role_configuration",
+      "value": "OPPOSITE",
+      "condition": "PAIR_ONE_TARGET_FIRST",
+      "n_event_outputs": 16,
+      "occurrence": {
+        "C": 9,
+        "U": 4,
+        "W": 3
+      },
+      "role_a": {
+        "W": 6,
+        "U": 7,
+        "C": 3
+      },
+      "role_b": {
+        "W": 6,
+        "U": 7,
+        "C": 3
+      },
+      "participant": {
+        "W": 6,
+        "U": 7,
+        "C": 3
+      },
+      "record": {
+        "W": 7,
+        "U": 7,
+        "C": 2
+      }
+    },
+    {
+      "field": "role_configuration",
+      "value": "SAME",
+      "condition": "PAIR_ONE_TARGET_FIRST",
+      "n_event_outputs": 16,
+      "occurrence": {
+        "C": 10,
+        "U": 2,
+        "W": 4
+      },
+      "role_a": {
+        "C": 10,
+        "U": 4,
+        "W": 2
+      },
+      "role_b": {
+        "C": 10,
+        "U": 4,
+        "W": 2
+      },
+      "participant": {
+        "C": 10,
+        "U": 4,
+        "W": 2
+      },
+      "record": {
+        "C": 8,
+        "U": 4,
+        "W": 4
+      }
+    },
+    {
+      "field": "lexical_block",
+      "value": "P01",
+      "condition": "PAIR_ONE_TARGET_FIRST",
+      "n_event_outputs": 4,
+      "occurrence": {
+        "C": 4
+      },
+      "role_a": {
+        "C": 2,
+        "W": 2
+      },
+      "role_b": {
+        "C": 2,
+        "W": 2
+      },
+      "participant": {
+        "C": 2,
+        "W": 2
+      },
+      "record": {
+        "C": 2,
+        "W": 2
+      }
+    },
+    {
+      "field": "lexical_block",
+      "value": "P02",
+      "condition": "PAIR_ONE_TARGET_FIRST",
+      "n_event_outputs": 4,
+      "occurrence": {
+        "C": 1,
+        "U": 3
+      },
+      "role_a": {
+        "C": 1,
+        "U": 3
+      },
+      "role_b": {
+        "C": 1,
+        "U": 3
+      },
+      "participant": {
+        "C": 1,
+        "U": 3
+      },
+      "record": {
+        "C": 1,
+        "U": 3
+      }
+    },
+    {
+      "field": "lexical_block",
+      "value": "P03",
+      "condition": "PAIR_ONE_TARGET_FIRST",
+      "n_event_outputs": 4,
+      "occurrence": {
+        "C": 3,
+        "U": 1
+      },
+      "role_a": {
+        "C": 1,
+        "U": 3
+      },
+      "role_b": {
+        "C": 1,
+        "U": 3
+      },
+      "participant": {
+        "C": 1,
+        "U": 3
+      },
+      "record": {
+        "C": 1,
+        "U": 3
+      }
+    },
+    {
+      "field": "lexical_block",
+      "value": "P04",
+      "condition": "PAIR_ONE_TARGET_FIRST",
+      "n_event_outputs": 4,
+      "occurrence": {
+        "C": 3,
+        "W": 1
+      },
+      "role_a": {
+        "C": 2,
+        "W": 1,
+        "U": 1
+      },
+      "role_b": {
+        "C": 2,
+        "W": 1,
+        "U": 1
+      },
+      "participant": {
+        "C": 2,
+        "W": 1,
+        "U": 1
+      },
+      "record": {
+        "C": 1,
+        "W": 2,
+        "U": 1
+      }
+    },
+    {
+      "field": "lexical_block",
+      "value": "P05",
+      "condition": "PAIR_ONE_TARGET_FIRST",
+      "n_event_outputs": 4,
+      "occurrence": {
+        "C": 2,
+        "W": 2
+      },
+      "role_a": {
+        "C": 3,
+        "W": 1
+      },
+      "role_b": {
+        "C": 3,
+        "W": 1
+      },
+      "participant": {
+        "C": 3,
+        "W": 1
+      },
+      "record": {
+        "C": 2,
+        "W": 2
+      }
+    },
+    {
+      "field": "lexical_block",
+      "value": "P06",
+      "condition": "PAIR_ONE_TARGET_FIRST",
+      "n_event_outputs": 4,
+      "occurrence": {
+        "C": 4
+      },
+      "role_a": {
+        "C": 2,
+        "U": 2
+      },
+      "role_b": {
+        "C": 2,
+        "U": 2
+      },
+      "participant": {
+        "C": 2,
+        "U": 2
+      },
+      "record": {
+        "C": 2,
+        "U": 2
+      }
+    },
+    {
+      "field": "lexical_block",
+      "value": "P07",
+      "condition": "PAIR_ONE_TARGET_FIRST",
+      "n_event_outputs": 4,
+      "occurrence": {
+        "U": 1,
+        "W": 2,
+        "C": 1
+      },
+      "role_a": {
+        "U": 1,
+        "W": 3
+      },
+      "role_b": {
+        "U": 1,
+        "W": 3
+      },
+      "participant": {
+        "U": 1,
+        "W": 3
+      },
+      "record": {
+        "U": 1,
+        "W": 3
+      }
+    },
+    {
+      "field": "lexical_block",
+      "value": "P08",
+      "condition": "PAIR_ONE_TARGET_FIRST",
+      "n_event_outputs": 4,
+      "occurrence": {
+        "W": 2,
+        "U": 1,
+        "C": 1
+      },
+      "role_a": {
+        "C": 2,
+        "U": 1,
+        "W": 1
+      },
+      "role_b": {
+        "C": 2,
+        "U": 1,
+        "W": 1
+      },
+      "participant": {
+        "C": 2,
+        "U": 1,
+        "W": 1
+      },
+      "record": {
+        "W": 2,
+        "U": 1,
+        "C": 1
+      }
+    },
+    {
+      "field": "domain",
+      "value": "gift",
+      "condition": "HISTORICAL_PLAIN_TARGET_FIRST",
+      "n_event_outputs": 8,
+      "occurrence": {
+        "C": 5,
+        "W": 3
+      },
+      "role_a": {
+        "W": 5,
+        "C": 3
+      },
+      "role_b": {
+        "W": 5,
+        "C": 3
+      },
+      "participant": {
+        "W": 5,
+        "C": 3
+      },
+      "record": {
+        "W": 6,
+        "C": 2
+      }
+    },
+    {
+      "field": "domain",
+      "value": "hire",
+      "condition": "HISTORICAL_PLAIN_TARGET_FIRST",
+      "n_event_outputs": 8,
+      "occurrence": {
+        "C": 8
+      },
+      "role_a": {
+        "C": 6,
+        "W": 2
+      },
+      "role_b": {
+        "C": 6,
+        "U": 1,
+        "W": 1
+      },
+      "participant": {
+        "C": 6,
+        "W": 2
+      },
+      "record": {
+        "C": 6,
+        "W": 2
+      }
+    },
+    {
+      "field": "domain",
+      "value": "loan",
+      "condition": "HISTORICAL_PLAIN_TARGET_FIRST",
+      "n_event_outputs": 8,
+      "occurrence": {
+        "C": 6,
+        "W": 2
+      },
+      "role_a": {
+        "C": 3,
+        "W": 4,
+        "U": 1
+      },
+      "role_b": {
+        "U": 2,
+        "W": 4,
+        "C": 2
+      },
+      "participant": {
+        "U": 2,
+        "W": 4,
+        "C": 2
+      },
+      "record": {
+        "U": 2,
+        "W": 5,
+        "C": 1
+      }
+    },
+    {
+      "field": "domain",
+      "value": "sale",
+      "condition": "HISTORICAL_PLAIN_TARGET_FIRST",
+      "n_event_outputs": 8,
+      "occurrence": {
+        "C": 7,
+        "W": 1
+      },
+      "role_a": {
+        "C": 6,
+        "W": 2
+      },
+      "role_b": {
+        "C": 6,
+        "W": 2
+      },
+      "participant": {
+        "C": 6,
+        "W": 2
+      },
+      "record": {
+        "C": 5,
+        "W": 3
+      }
+    },
+    {
+      "field": "target_polarity",
+      "value": "NO",
+      "condition": "HISTORICAL_PLAIN_TARGET_FIRST",
+      "n_event_outputs": 16,
+      "occurrence": {
+        "C": 10,
+        "W": 6
+      },
+      "role_a": {
+        "C": 7,
+        "W": 8,
+        "U": 1
+      },
+      "role_b": {
+        "C": 7,
+        "W": 8,
+        "U": 1
+      },
+      "participant": {
+        "C": 7,
+        "W": 8,
+        "U": 1
+      },
+      "record": {
+        "C": 4,
+        "W": 11,
+        "U": 1
+      }
+    },
+    {
+      "field": "target_polarity",
+      "value": "YES",
+      "condition": "HISTORICAL_PLAIN_TARGET_FIRST",
+      "n_event_outputs": 16,
+      "occurrence": {
+        "C": 16
+      },
+      "role_a": {
+        "C": 11,
+        "W": 5
+      },
+      "role_b": {
+        "C": 10,
+        "U": 2,
+        "W": 4
+      },
+      "participant": {
+        "C": 10,
+        "W": 5,
+        "U": 1
+      },
+      "record": {
+        "C": 10,
+        "W": 5,
+        "U": 1
+      }
+    },
+    {
+      "field": "role_configuration",
+      "value": "OPPOSITE",
+      "condition": "HISTORICAL_PLAIN_TARGET_FIRST",
+      "n_event_outputs": 16,
+      "occurrence": {
+        "C": 14,
+        "W": 2
+      },
+      "role_a": {
+        "W": 9,
+        "C": 6,
+        "U": 1
+      },
+      "role_b": {
+        "U": 2,
+        "W": 8,
+        "C": 6
+      },
+      "participant": {
+        "W": 9,
+        "C": 6,
+        "U": 1
+      },
+      "record": {
+        "W": 9,
+        "C": 6,
+        "U": 1
+      }
+    },
+    {
+      "field": "role_configuration",
+      "value": "SAME",
+      "condition": "HISTORICAL_PLAIN_TARGET_FIRST",
+      "n_event_outputs": 16,
+      "occurrence": {
+        "C": 12,
+        "W": 4
+      },
+      "role_a": {
+        "C": 12,
+        "W": 4
+      },
+      "role_b": {
+        "C": 11,
+        "U": 1,
+        "W": 4
+      },
+      "participant": {
+        "C": 11,
+        "U": 1,
+        "W": 4
+      },
+      "record": {
+        "C": 8,
+        "U": 1,
+        "W": 7
+      }
+    },
+    {
+      "field": "lexical_block",
+      "value": "P01",
+      "condition": "HISTORICAL_PLAIN_TARGET_FIRST",
+      "n_event_outputs": 4,
+      "occurrence": {
+        "C": 4
+      },
+      "role_a": {
+        "C": 2,
+        "W": 2
+      },
+      "role_b": {
+        "C": 2,
+        "U": 1,
+        "W": 1
+      },
+      "participant": {
+        "C": 2,
+        "W": 2
+      },
+      "record": {
+        "C": 2,
+        "W": 2
+      }
+    },
+    {
+      "field": "lexical_block",
+      "value": "P02",
+      "condition": "HISTORICAL_PLAIN_TARGET_FIRST",
+      "n_event_outputs": 4,
+      "occurrence": {
+        "C": 4
+      },
+      "role_a": {
+        "C": 4
+      },
+      "role_b": {
+        "C": 4
+      },
+      "participant": {
+        "C": 4
+      },
+      "record": {
+        "C": 4
+      }
+    },
+    {
+      "field": "lexical_block",
+      "value": "P03",
+      "condition": "HISTORICAL_PLAIN_TARGET_FIRST",
+      "n_event_outputs": 4,
+      "occurrence": {
+        "C": 3,
+        "W": 1
+      },
+      "role_a": {
+        "C": 2,
+        "W": 2
+      },
+      "role_b": {
+        "U": 1,
+        "W": 2,
+        "C": 1
+      },
+      "participant": {
+        "U": 1,
+        "W": 2,
+        "C": 1
+      },
+      "record": {
+        "U": 1,
+        "W": 2,
+        "C": 1
+      }
+    },
+    {
+      "field": "lexical_block",
+      "value": "P04",
+      "condition": "HISTORICAL_PLAIN_TARGET_FIRST",
+      "n_event_outputs": 4,
+      "occurrence": {
+        "C": 3,
+        "W": 1
+      },
+      "role_a": {
+        "W": 2,
+        "C": 1,
+        "U": 1
+      },
+      "role_b": {
+        "W": 2,
+        "C": 1,
+        "U": 1
+      },
+      "participant": {
+        "W": 2,
+        "C": 1,
+        "U": 1
+      },
+      "record": {
+        "W": 3,
+        "U": 1
+      }
+    },
+    {
+      "field": "lexical_block",
+      "value": "P05",
+      "condition": "HISTORICAL_PLAIN_TARGET_FIRST",
+      "n_event_outputs": 4,
+      "occurrence": {
+        "C": 3,
+        "W": 1
+      },
+      "role_a": {
+        "C": 3,
+        "W": 1
+      },
+      "role_b": {
+        "C": 3,
+        "W": 1
+      },
+      "participant": {
+        "C": 3,
+        "W": 1
+      },
+      "record": {
+        "C": 2,
+        "W": 2
+      }
+    },
+    {
+      "field": "lexical_block",
+      "value": "P06",
+      "condition": "HISTORICAL_PLAIN_TARGET_FIRST",
+      "n_event_outputs": 4,
+      "occurrence": {
+        "C": 4
+      },
+      "role_a": {
+        "C": 3,
+        "W": 1
+      },
+      "role_b": {
+        "C": 3,
+        "W": 1
+      },
+      "participant": {
+        "C": 3,
+        "W": 1
+      },
+      "record": {
+        "C": 3,
+        "W": 1
+      }
+    },
+    {
+      "field": "lexical_block",
+      "value": "P07",
+      "condition": "HISTORICAL_PLAIN_TARGET_FIRST",
+      "n_event_outputs": 4,
+      "occurrence": {
+        "C": 3,
+        "W": 1
+      },
+      "role_a": {
+        "W": 4
+      },
+      "role_b": {
+        "W": 4
+      },
+      "participant": {
+        "W": 4
+      },
+      "record": {
+        "W": 4
+      }
+    },
+    {
+      "field": "lexical_block",
+      "value": "P08",
+      "condition": "HISTORICAL_PLAIN_TARGET_FIRST",
+      "n_event_outputs": 4,
+      "occurrence": {
+        "C": 2,
+        "W": 2
+      },
+      "role_a": {
+        "C": 3,
+        "W": 1
+      },
+      "role_b": {
+        "C": 3,
+        "W": 1
+      },
+      "participant": {
+        "C": 3,
+        "W": 1
+      },
+      "record": {
+        "C": 2,
+        "W": 2
+      }
+    }
+  ],
+  "all_four_targets_C_blocks": {
+    "SINGLE_TARGET": 0,
+    "PAIR_ONE_ANCHOR_FIRST": 0,
+    "HISTORICAL_PLAIN_ANCHOR_FIRST": 1,
+    "PAIR_ONE_TARGET_FIRST": 0,
+    "HISTORICAL_PLAIN_TARGET_FIRST": 1
+  },
+  "pair_summaries": {
+    "PLAIN_TO_PAIR_ONE": {
+      "ANCHOR_FIRST": {
+        "n_correlated_pairs": 32,
+        "record_transitions": {
+          "C->C": 9,
+          "C->U": 6,
+          "W->W": 3,
+          "U->W": 7,
+          "W->C": 2,
+          "C->W": 4,
+          "U->C": 1
+        },
+        "net_harm": 7,
+        "net_rescue": -7,
+        "definite_net_harm": 2,
+        "definite_net_rescue": -2,
+        "record_rescues": 3,
+        "record_harms": 10,
+        "harm_domains": [
+          "gift",
+          "hire",
+          "loan",
+          "sale"
+        ],
+        "harm_blocks": [
+          "P01",
+          "P02",
+          "P03",
+          "P04",
+          "P05",
+          "P06",
+          "P07",
+          "P08"
+        ],
+        "component_transitions": {
+          "occurrence": {
+            "C->C": 15,
+            "C->U": 6,
+            "C->W": 10,
+            "W->W": 1
+          },
+          "role_a": {
+            "C->C": 10,
+            "C->U": 6,
+            "W->W": 2,
+            "U->C": 5,
+            "U->W": 3,
+            "W->C": 2,
+            "C->W": 4
+          },
+          "role_b": {
+            "C->C": 11,
+            "C->U": 6,
+            "W->W": 2,
+            "U->C": 4,
+            "U->W": 3,
+            "W->C": 2,
+            "C->W": 4
+          }
+        },
+        "component_new_harms": [
+          {
+            "pair_id": "B08-PLAIN_TO_PAIR_ONE-P01-OPPOSITE-YES-ANCHOR_FIRST",
+            "component": "occurrence",
+            "transition": "C->U"
+          },
+          {
+            "pair_id": "B08-PLAIN_TO_PAIR_ONE-P01-OPPOSITE-YES-ANCHOR_FIRST",
+            "component": "role_a",
+            "transition": "C->U"
+          },
+          {
+            "pair_id": "B08-PLAIN_TO_PAIR_ONE-P01-OPPOSITE-YES-ANCHOR_FIRST",
+            "component": "role_b",
+            "transition": "C->U"
+          },
+          {
+            "pair_id": "B08-PLAIN_TO_PAIR_ONE-P01-OPPOSITE-NO-ANCHOR_FIRST",
+            "component": "occurrence",
+            "transition": "C->W"
+          },
+          {
+            "pair_id": "B08-PLAIN_TO_PAIR_ONE-P02-OPPOSITE-NO-ANCHOR_FIRST",
+            "component": "occurrence",
+            "transition": "C->U"
+          },
+          {
+            "pair_id": "B08-PLAIN_TO_PAIR_ONE-P02-OPPOSITE-NO-ANCHOR_FIRST",
+            "component": "role_a",
+            "transition": "C->U"
+          },
+          {
+            "pair_id": "B08-PLAIN_TO_PAIR_ONE-P02-OPPOSITE-NO-ANCHOR_FIRST",
+            "component": "role_b",
+            "transition": "C->U"
+          },
+          {
+            "pair_id": "B08-PLAIN_TO_PAIR_ONE-P03-SAME-NO-ANCHOR_FIRST",
+            "component": "occurrence",
+            "transition": "C->W"
+          },
+          {
+            "pair_id": "B08-PLAIN_TO_PAIR_ONE-P03-OPPOSITE-YES-ANCHOR_FIRST",
+            "component": "occurrence",
+            "transition": "C->U"
+          },
+          {
+            "pair_id": "B08-PLAIN_TO_PAIR_ONE-P03-OPPOSITE-YES-ANCHOR_FIRST",
+            "component": "role_a",
+            "transition": "C->U"
+          },
+          {
+            "pair_id": "B08-PLAIN_TO_PAIR_ONE-P03-OPPOSITE-YES-ANCHOR_FIRST",
+            "component": "role_b",
+            "transition": "C->U"
+          },
+          {
+            "pair_id": "B08-PLAIN_TO_PAIR_ONE-P03-OPPOSITE-NO-ANCHOR_FIRST",
+            "component": "occurrence",
+            "transition": "C->W"
+          },
+          {
+            "pair_id": "B08-PLAIN_TO_PAIR_ONE-P04-SAME-NO-ANCHOR_FIRST",
+            "component": "occurrence",
+            "transition": "C->W"
+          },
+          {
+            "pair_id": "B08-PLAIN_TO_PAIR_ONE-P04-OPPOSITE-YES-ANCHOR_FIRST",
+            "component": "role_a",
+            "transition": "C->W"
+          },
+          {
+            "pair_id": "B08-PLAIN_TO_PAIR_ONE-P04-OPPOSITE-YES-ANCHOR_FIRST",
+            "component": "role_b",
+            "transition": "C->W"
+          },
+          {
+            "pair_id": "B08-PLAIN_TO_PAIR_ONE-P04-OPPOSITE-NO-ANCHOR_FIRST",
+            "component": "occurrence",
+            "transition": "C->W"
+          },
+          {
+            "pair_id": "B08-PLAIN_TO_PAIR_ONE-P05-SAME-NO-ANCHOR_FIRST",
+            "component": "occurrence",
+            "transition": "C->W"
+          },
+          {
+            "pair_id": "B08-PLAIN_TO_PAIR_ONE-P05-OPPOSITE-YES-ANCHOR_FIRST",
+            "component": "role_a",
+            "transition": "C->W"
+          },
+          {
+            "pair_id": "B08-PLAIN_TO_PAIR_ONE-P05-OPPOSITE-YES-ANCHOR_FIRST",
+            "component": "role_b",
+            "transition": "C->W"
+          },
+          {
+            "pair_id": "B08-PLAIN_TO_PAIR_ONE-P05-OPPOSITE-NO-ANCHOR_FIRST",
+            "component": "occurrence",
+            "transition": "C->W"
+          },
+          {
+            "pair_id": "B08-PLAIN_TO_PAIR_ONE-P06-SAME-NO-ANCHOR_FIRST",
+            "component": "occurrence",
+            "transition": "C->W"
+          },
+          {
+            "pair_id": "B08-PLAIN_TO_PAIR_ONE-P06-OPPOSITE-YES-ANCHOR_FIRST",
+            "component": "role_a",
+            "transition": "C->W"
+          },
+          {
+            "pair_id": "B08-PLAIN_TO_PAIR_ONE-P06-OPPOSITE-YES-ANCHOR_FIRST",
+            "component": "role_b",
+            "transition": "C->W"
+          },
+          {
+            "pair_id": "B08-PLAIN_TO_PAIR_ONE-P06-OPPOSITE-NO-ANCHOR_FIRST",
+            "component": "occurrence",
+            "transition": "C->W"
+          },
+          {
+            "pair_id": "B08-PLAIN_TO_PAIR_ONE-P07-OPPOSITE-YES-ANCHOR_FIRST",
+            "component": "occurrence",
+            "transition": "C->U"
+          },
+          {
+            "pair_id": "B08-PLAIN_TO_PAIR_ONE-P07-OPPOSITE-YES-ANCHOR_FIRST",
+            "component": "role_a",
+            "transition": "C->U"
+          },
+          {
+            "pair_id": "B08-PLAIN_TO_PAIR_ONE-P07-OPPOSITE-YES-ANCHOR_FIRST",
+            "component": "role_b",
+            "transition": "C->U"
+          },
+          {
+            "pair_id": "B08-PLAIN_TO_PAIR_ONE-P07-OPPOSITE-NO-ANCHOR_FIRST",
+            "component": "occurrence",
+            "transition": "C->U"
+          },
+          {
+            "pair_id": "B08-PLAIN_TO_PAIR_ONE-P07-OPPOSITE-NO-ANCHOR_FIRST",
+            "component": "role_a",
+            "transition": "C->U"
+          },
+          {
+            "pair_id": "B08-PLAIN_TO_PAIR_ONE-P07-OPPOSITE-NO-ANCHOR_FIRST",
+            "component": "role_b",
+            "transition": "C->U"
+          },
+          {
+            "pair_id": "B08-PLAIN_TO_PAIR_ONE-P08-OPPOSITE-YES-ANCHOR_FIRST",
+            "component": "occurrence",
+            "transition": "C->U"
+          },
+          {
+            "pair_id": "B08-PLAIN_TO_PAIR_ONE-P08-OPPOSITE-YES-ANCHOR_FIRST",
+            "component": "role_a",
+            "transition": "C->U"
+          },
+          {
+            "pair_id": "B08-PLAIN_TO_PAIR_ONE-P08-OPPOSITE-YES-ANCHOR_FIRST",
+            "component": "role_b",
+            "transition": "C->U"
+          },
+          {
+            "pair_id": "B08-PLAIN_TO_PAIR_ONE-P08-OPPOSITE-NO-ANCHOR_FIRST",
+            "component": "occurrence",
+            "transition": "C->W"
+          },
+          {
+            "pair_id": "B08-PLAIN_TO_PAIR_ONE-P08-OPPOSITE-NO-ANCHOR_FIRST",
+            "component": "role_a",
+            "transition": "C->W"
+          },
+          {
+            "pair_id": "B08-PLAIN_TO_PAIR_ONE-P08-OPPOSITE-NO-ANCHOR_FIRST",
+            "component": "role_b",
+            "transition": "C->W"
+          }
+        ]
+      },
+      "TARGET_FIRST": {
+        "n_correlated_pairs": 32,
+        "record_transitions": {
+          "C->C": 8,
+          "W->W": 11,
+          "C->U": 6,
+          "U->C": 1,
+          "W->U": 4,
+          "W->C": 1,
+          "U->U": 1
+        },
+        "net_harm": 4,
+        "net_rescue": -4,
+        "definite_net_harm": -1,
+        "definite_net_rescue": 1,
+        "record_rescues": 2,
+        "record_harms": 6,
+        "harm_domains": [
+          "gift",
+          "hire",
+          "loan",
+          "sale"
+        ],
+        "harm_blocks": [
+          "P02",
+          "P03",
+          "P06",
+          "P08"
+        ],
+        "component_transitions": {
+          "occurrence": {
+            "C->C": 18,
+            "C->U": 6,
+            "W->C": 1,
+            "W->W": 5,
+            "C->W": 2
+          },
+          "role_a": {
+            "C->C": 11,
+            "W->W": 7,
+            "C->U": 6,
+            "W->U": 4,
+            "W->C": 2,
+            "U->U": 1,
+            "C->W": 1
+          },
+          "role_b": {
+            "C->C": 10,
+            "U->W": 1,
+            "W->W": 6,
+            "C->U": 6,
+            "U->C": 1,
+            "W->U": 4,
+            "W->C": 2,
+            "U->U": 1,
+            "C->W": 1
+          }
+        },
+        "component_new_harms": [
+          {
+            "pair_id": "B08-PLAIN_TO_PAIR_ONE-P02-SAME-NO-TARGET_FIRST",
+            "component": "occurrence",
+            "transition": "C->U"
+          },
+          {
+            "pair_id": "B08-PLAIN_TO_PAIR_ONE-P02-SAME-NO-TARGET_FIRST",
+            "component": "role_a",
+            "transition": "C->U"
+          },
+          {
+            "pair_id": "B08-PLAIN_TO_PAIR_ONE-P02-SAME-NO-TARGET_FIRST",
+            "component": "role_b",
+            "transition": "C->U"
+          },
+          {
+            "pair_id": "B08-PLAIN_TO_PAIR_ONE-P02-OPPOSITE-YES-TARGET_FIRST",
+            "component": "occurrence",
+            "transition": "C->U"
+          },
+          {
+            "pair_id": "B08-PLAIN_TO_PAIR_ONE-P02-OPPOSITE-YES-TARGET_FIRST",
+            "component": "role_a",
+            "transition": "C->U"
+          },
+          {
+            "pair_id": "B08-PLAIN_TO_PAIR_ONE-P02-OPPOSITE-YES-TARGET_FIRST",
+            "component": "role_b",
+            "transition": "C->U"
+          },
+          {
+            "pair_id": "B08-PLAIN_TO_PAIR_ONE-P02-OPPOSITE-NO-TARGET_FIRST",
+            "component": "occurrence",
+            "transition": "C->U"
+          },
+          {
+            "pair_id": "B08-PLAIN_TO_PAIR_ONE-P02-OPPOSITE-NO-TARGET_FIRST",
+            "component": "role_a",
+            "transition": "C->U"
+          },
+          {
+            "pair_id": "B08-PLAIN_TO_PAIR_ONE-P02-OPPOSITE-NO-TARGET_FIRST",
+            "component": "role_b",
+            "transition": "C->U"
+          },
+          {
+            "pair_id": "B08-PLAIN_TO_PAIR_ONE-P03-OPPOSITE-YES-TARGET_FIRST",
+            "component": "occurrence",
+            "transition": "C->U"
+          },
+          {
+            "pair_id": "B08-PLAIN_TO_PAIR_ONE-P03-OPPOSITE-YES-TARGET_FIRST",
+            "component": "role_a",
+            "transition": "C->U"
+          },
+          {
+            "pair_id": "B08-PLAIN_TO_PAIR_ONE-P03-OPPOSITE-YES-TARGET_FIRST",
+            "component": "role_b",
+            "transition": "C->U"
+          },
+          {
+            "pair_id": "B08-PLAIN_TO_PAIR_ONE-P05-SAME-NO-TARGET_FIRST",
+            "component": "role_a",
+            "transition": "C->W"
+          },
+          {
+            "pair_id": "B08-PLAIN_TO_PAIR_ONE-P05-SAME-NO-TARGET_FIRST",
+            "component": "role_b",
+            "transition": "C->W"
+          },
+          {
+            "pair_id": "B08-PLAIN_TO_PAIR_ONE-P05-OPPOSITE-NO-TARGET_FIRST",
+            "component": "occurrence",
+            "transition": "C->W"
+          },
+          {
+            "pair_id": "B08-PLAIN_TO_PAIR_ONE-P06-SAME-NO-TARGET_FIRST",
+            "component": "role_a",
+            "transition": "C->U"
+          },
+          {
+            "pair_id": "B08-PLAIN_TO_PAIR_ONE-P06-SAME-NO-TARGET_FIRST",
+            "component": "role_b",
+            "transition": "C->U"
+          },
+          {
+            "pair_id": "B08-PLAIN_TO_PAIR_ONE-P07-SAME-YES-TARGET_FIRST",
+            "component": "occurrence",
+            "transition": "C->U"
+          },
+          {
+            "pair_id": "B08-PLAIN_TO_PAIR_ONE-P07-OPPOSITE-NO-TARGET_FIRST",
+            "component": "occurrence",
+            "transition": "C->W"
+          },
+          {
+            "pair_id": "B08-PLAIN_TO_PAIR_ONE-P08-OPPOSITE-YES-TARGET_FIRST",
+            "component": "occurrence",
+            "transition": "C->U"
+          },
+          {
+            "pair_id": "B08-PLAIN_TO_PAIR_ONE-P08-OPPOSITE-YES-TARGET_FIRST",
+            "component": "role_a",
+            "transition": "C->U"
+          },
+          {
+            "pair_id": "B08-PLAIN_TO_PAIR_ONE-P08-OPPOSITE-YES-TARGET_FIRST",
+            "component": "role_b",
+            "transition": "C->U"
+          }
+        ]
+      }
+    },
+    "PLAIN_TO_SINGLE_ANCHOR": {
+      "ANCHOR_FIRST": {
+        "n_correlated_pairs": 32,
+        "record_transitions": {
+          "C->C": 31,
+          "W->C": 1
+        },
+        "net_harm": -1,
+        "net_rescue": 1,
+        "definite_net_harm": -1,
+        "definite_net_rescue": 1,
+        "record_rescues": 1,
+        "record_harms": 0,
+        "harm_domains": [],
+        "harm_blocks": [],
+        "component_transitions": {
+          "occurrence": {
+            "C->C": 32
+          },
+          "role_a": {
+            "C->C": 31,
+            "W->C": 1
+          },
+          "role_b": {
+            "C->C": 31,
+            "W->C": 1
+          }
+        },
+        "component_new_harms": []
+      },
+      "TARGET_FIRST": {
+        "n_correlated_pairs": 32,
+        "record_transitions": {
+          "C->C": 30,
+          "U->C": 1,
+          "W->C": 1
+        },
+        "net_harm": -2,
+        "net_rescue": 2,
+        "definite_net_harm": -1,
+        "definite_net_rescue": 1,
+        "record_rescues": 2,
+        "record_harms": 0,
+        "harm_domains": [],
+        "harm_blocks": [],
+        "component_transitions": {
+          "occurrence": {
+            "C->C": 32
+          },
+          "role_a": {
+            "C->C": 31,
+            "W->C": 1
+          },
+          "role_b": {
+            "C->C": 30,
+            "U->C": 1,
+            "W->C": 1
+          }
+        },
+        "component_new_harms": []
+      }
+    },
+    "PLAIN_TO_SINGLE_TARGET": {
+      "ANCHOR_FIRST": {
+        "n_correlated_pairs": 32,
+        "record_transitions": {
+          "C->C": 11,
+          "C->U": 5,
+          "W->U": 2,
+          "U->U": 4,
+          "W->W": 1,
+          "U->W": 2,
+          "W->C": 2,
+          "U->C": 2,
+          "C->W": 3
+        },
+        "net_harm": 4,
+        "net_rescue": -4,
+        "definite_net_harm": 1,
+        "definite_net_rescue": -1,
+        "record_rescues": 4,
+        "record_harms": 8,
+        "harm_domains": [
+          "gift",
+          "hire",
+          "loan",
+          "sale"
+        ],
+        "harm_blocks": [
+          "P01",
+          "P02",
+          "P03",
+          "P04",
+          "P05",
+          "P07",
+          "P08"
+        ],
+        "component_transitions": {
+          "occurrence": {
+            "C->C": 28,
+            "W->C": 1,
+            "C->W": 3
+          },
+          "role_a": {
+            "C->C": 15,
+            "C->U": 3,
+            "W->U": 1,
+            "U->C": 4,
+            "W->W": 1,
+            "U->W": 2,
+            "W->C": 2,
+            "U->U": 2,
+            "C->W": 2
+          },
+          "role_b": {
+            "C->C": 12,
+            "C->U": 7,
+            "W->U": 2,
+            "U->U": 5,
+            "W->C": 2,
+            "U->C": 2,
+            "C->W": 2
+          }
+        },
+        "component_new_harms": [
+          {
+            "pair_id": "B08-PLAIN_TO_SINGLE_TARGET-P01-OPPOSITE-YES-ANCHOR_FIRST",
+            "component": "role_a",
+            "transition": "C->U"
+          },
+          {
+            "pair_id": "B08-PLAIN_TO_SINGLE_TARGET-P01-OPPOSITE-YES-ANCHOR_FIRST",
+            "component": "role_b",
+            "transition": "C->U"
+          },
+          {
+            "pair_id": "B08-PLAIN_TO_SINGLE_TARGET-P02-SAME-NO-ANCHOR_FIRST",
+            "component": "role_a",
+            "transition": "C->U"
+          },
+          {
+            "pair_id": "B08-PLAIN_TO_SINGLE_TARGET-P02-SAME-NO-ANCHOR_FIRST",
+            "component": "role_b",
+            "transition": "C->U"
+          },
+          {
+            "pair_id": "B08-PLAIN_TO_SINGLE_TARGET-P02-OPPOSITE-NO-ANCHOR_FIRST",
+            "component": "role_a",
+            "transition": "C->U"
+          },
+          {
+            "pair_id": "B08-PLAIN_TO_SINGLE_TARGET-P02-OPPOSITE-NO-ANCHOR_FIRST",
+            "component": "role_b",
+            "transition": "C->U"
+          },
+          {
+            "pair_id": "B08-PLAIN_TO_SINGLE_TARGET-P03-SAME-YES-ANCHOR_FIRST",
+            "component": "role_b",
+            "transition": "C->U"
+          },
+          {
+            "pair_id": "B08-PLAIN_TO_SINGLE_TARGET-P04-SAME-NO-ANCHOR_FIRST",
+            "component": "occurrence",
+            "transition": "C->W"
+          },
+          {
+            "pair_id": "B08-PLAIN_TO_SINGLE_TARGET-P04-OPPOSITE-YES-ANCHOR_FIRST",
+            "component": "role_b",
+            "transition": "C->U"
+          },
+          {
+            "pair_id": "B08-PLAIN_TO_SINGLE_TARGET-P05-SAME-YES-ANCHOR_FIRST",
+            "component": "role_b",
+            "transition": "C->U"
+          },
+          {
+            "pair_id": "B08-PLAIN_TO_SINGLE_TARGET-P07-SAME-YES-ANCHOR_FIRST",
+            "component": "role_a",
+            "transition": "C->W"
+          },
+          {
+            "pair_id": "B08-PLAIN_TO_SINGLE_TARGET-P07-SAME-YES-ANCHOR_FIRST",
+            "component": "role_b",
+            "transition": "C->W"
+          },
+          {
+            "pair_id": "B08-PLAIN_TO_SINGLE_TARGET-P07-SAME-NO-ANCHOR_FIRST",
+            "component": "occurrence",
+            "transition": "C->W"
+          },
+          {
+            "pair_id": "B08-PLAIN_TO_SINGLE_TARGET-P07-SAME-NO-ANCHOR_FIRST",
+            "component": "role_b",
+            "transition": "C->U"
+          },
+          {
+            "pair_id": "B08-PLAIN_TO_SINGLE_TARGET-P07-OPPOSITE-YES-ANCHOR_FIRST",
+            "component": "role_a",
+            "transition": "C->W"
+          },
+          {
+            "pair_id": "B08-PLAIN_TO_SINGLE_TARGET-P07-OPPOSITE-YES-ANCHOR_FIRST",
+            "component": "role_b",
+            "transition": "C->W"
+          },
+          {
+            "pair_id": "B08-PLAIN_TO_SINGLE_TARGET-P08-SAME-NO-ANCHOR_FIRST",
+            "component": "occurrence",
+            "transition": "C->W"
+          }
+        ]
+      },
+      "TARGET_FIRST": {
+        "n_correlated_pairs": 32,
+        "record_transitions": {
+          "C->C": 10,
+          "W->U": 6,
+          "C->U": 4,
+          "U->U": 1,
+          "W->W": 6,
+          "U->C": 1,
+          "W->C": 4
+        },
+        "net_harm": -1,
+        "net_rescue": 1,
+        "definite_net_harm": -4,
+        "definite_net_rescue": 4,
+        "record_rescues": 5,
+        "record_harms": 4,
+        "harm_domains": [
+          "hire",
+          "sale"
+        ],
+        "harm_blocks": [
+          "P02",
+          "P05",
+          "P06"
+        ],
+        "component_transitions": {
+          "occurrence": {
+            "C->C": 26,
+            "W->C": 3,
+            "W->W": 3
+          },
+          "role_a": {
+            "C->C": 14,
+            "W->U": 3,
+            "C->U": 3,
+            "W->C": 6,
+            "W->W": 4,
+            "C->W": 1,
+            "U->C": 1
+          },
+          "role_b": {
+            "C->C": 12,
+            "U->U": 2,
+            "W->U": 7,
+            "C->U": 5,
+            "U->C": 1,
+            "W->C": 3,
+            "W->W": 2
+          }
+        },
+        "component_new_harms": [
+          {
+            "pair_id": "B08-PLAIN_TO_SINGLE_TARGET-P02-SAME-NO-TARGET_FIRST",
+            "component": "role_a",
+            "transition": "C->U"
+          },
+          {
+            "pair_id": "B08-PLAIN_TO_SINGLE_TARGET-P02-SAME-NO-TARGET_FIRST",
+            "component": "role_b",
+            "transition": "C->U"
+          },
+          {
+            "pair_id": "B08-PLAIN_TO_SINGLE_TARGET-P02-OPPOSITE-NO-TARGET_FIRST",
+            "component": "role_a",
+            "transition": "C->U"
+          },
+          {
+            "pair_id": "B08-PLAIN_TO_SINGLE_TARGET-P02-OPPOSITE-NO-TARGET_FIRST",
+            "component": "role_b",
+            "transition": "C->U"
+          },
+          {
+            "pair_id": "B08-PLAIN_TO_SINGLE_TARGET-P04-SAME-NO-TARGET_FIRST",
+            "component": "role_a",
+            "transition": "C->W"
+          },
+          {
+            "pair_id": "B08-PLAIN_TO_SINGLE_TARGET-P04-SAME-NO-TARGET_FIRST",
+            "component": "role_b",
+            "transition": "C->U"
+          },
+          {
+            "pair_id": "B08-PLAIN_TO_SINGLE_TARGET-P05-SAME-YES-TARGET_FIRST",
+            "component": "role_b",
+            "transition": "C->U"
+          },
+          {
+            "pair_id": "B08-PLAIN_TO_SINGLE_TARGET-P06-SAME-NO-TARGET_FIRST",
+            "component": "role_a",
+            "transition": "C->U"
+          },
+          {
+            "pair_id": "B08-PLAIN_TO_SINGLE_TARGET-P06-SAME-NO-TARGET_FIRST",
+            "component": "role_b",
+            "transition": "C->U"
+          }
+        ]
+      }
+    },
+    "SINGLE_TO_PAIR_ONE": {
+      "ANCHOR_FIRST": {
+        "n_correlated_pairs": 32,
+        "record_transitions": {
+          "C->C": 6,
+          "U->U": 2,
+          "U->W": 7,
+          "U->C": 2,
+          "C->U": 3,
+          "W->C": 4,
+          "W->W": 1,
+          "C->W": 6,
+          "W->U": 1
+        },
+        "net_harm": 3,
+        "net_rescue": -3,
+        "definite_net_harm": 2,
+        "definite_net_rescue": -2,
+        "record_rescues": 6,
+        "record_harms": 9,
+        "harm_domains": [
+          "gift",
+          "loan",
+          "sale"
+        ],
+        "harm_blocks": [
+          "P03",
+          "P04",
+          "P05",
+          "P06",
+          "P07",
+          "P08"
+        ],
+        "component_transitions": {
+          "occurrence": {
+            "C->C": 13,
+            "C->U": 6,
+            "C->W": 10,
+            "W->W": 1,
+            "W->C": 2
+          },
+          "role_a": {
+            "C->C": 11,
+            "U->U": 2,
+            "U->W": 2,
+            "U->C": 2,
+            "C->U": 3,
+            "C->W": 7,
+            "W->C": 4,
+            "W->U": 1
+          },
+          "role_b": {
+            "C->C": 8,
+            "U->U": 2,
+            "U->W": 4,
+            "U->C": 8,
+            "C->U": 3,
+            "C->W": 5,
+            "W->C": 1,
+            "W->U": 1
+          }
+        },
+        "component_new_harms": [
+          {
+            "pair_id": "B08-SINGLE_TO_PAIR_ONE-P01-OPPOSITE-YES-ANCHOR_FIRST",
+            "component": "occurrence",
+            "transition": "C->U"
+          },
+          {
+            "pair_id": "B08-SINGLE_TO_PAIR_ONE-P01-OPPOSITE-NO-ANCHOR_FIRST",
+            "component": "occurrence",
+            "transition": "C->W"
+          },
+          {
+            "pair_id": "B08-SINGLE_TO_PAIR_ONE-P02-SAME-NO-ANCHOR_FIRST",
+            "component": "occurrence",
+            "transition": "C->W"
+          },
+          {
+            "pair_id": "B08-SINGLE_TO_PAIR_ONE-P02-OPPOSITE-NO-ANCHOR_FIRST",
+            "component": "occurrence",
+            "transition": "C->U"
+          },
+          {
+            "pair_id": "B08-SINGLE_TO_PAIR_ONE-P03-SAME-NO-ANCHOR_FIRST",
+            "component": "occurrence",
+            "transition": "C->W"
+          },
+          {
+            "pair_id": "B08-SINGLE_TO_PAIR_ONE-P03-OPPOSITE-YES-ANCHOR_FIRST",
+            "component": "occurrence",
+            "transition": "C->U"
+          },
+          {
+            "pair_id": "B08-SINGLE_TO_PAIR_ONE-P03-OPPOSITE-YES-ANCHOR_FIRST",
+            "component": "role_a",
+            "transition": "C->U"
+          },
+          {
+            "pair_id": "B08-SINGLE_TO_PAIR_ONE-P03-OPPOSITE-YES-ANCHOR_FIRST",
+            "component": "role_b",
+            "transition": "C->U"
+          },
+          {
+            "pair_id": "B08-SINGLE_TO_PAIR_ONE-P03-OPPOSITE-NO-ANCHOR_FIRST",
+            "component": "occurrence",
+            "transition": "C->W"
+          },
+          {
+            "pair_id": "B08-SINGLE_TO_PAIR_ONE-P03-OPPOSITE-NO-ANCHOR_FIRST",
+            "component": "role_a",
+            "transition": "C->W"
+          },
+          {
+            "pair_id": "B08-SINGLE_TO_PAIR_ONE-P04-OPPOSITE-YES-ANCHOR_FIRST",
+            "component": "role_a",
+            "transition": "C->W"
+          },
+          {
+            "pair_id": "B08-SINGLE_TO_PAIR_ONE-P04-OPPOSITE-NO-ANCHOR_FIRST",
+            "component": "occurrence",
+            "transition": "C->W"
+          },
+          {
+            "pair_id": "B08-SINGLE_TO_PAIR_ONE-P04-OPPOSITE-NO-ANCHOR_FIRST",
+            "component": "role_a",
+            "transition": "C->W"
+          },
+          {
+            "pair_id": "B08-SINGLE_TO_PAIR_ONE-P04-OPPOSITE-NO-ANCHOR_FIRST",
+            "component": "role_b",
+            "transition": "C->W"
+          },
+          {
+            "pair_id": "B08-SINGLE_TO_PAIR_ONE-P05-SAME-NO-ANCHOR_FIRST",
+            "component": "occurrence",
+            "transition": "C->W"
+          },
+          {
+            "pair_id": "B08-SINGLE_TO_PAIR_ONE-P05-OPPOSITE-YES-ANCHOR_FIRST",
+            "component": "role_a",
+            "transition": "C->W"
+          },
+          {
+            "pair_id": "B08-SINGLE_TO_PAIR_ONE-P05-OPPOSITE-YES-ANCHOR_FIRST",
+            "component": "role_b",
+            "transition": "C->W"
+          },
+          {
+            "pair_id": "B08-SINGLE_TO_PAIR_ONE-P05-OPPOSITE-NO-ANCHOR_FIRST",
+            "component": "occurrence",
+            "transition": "C->W"
+          },
+          {
+            "pair_id": "B08-SINGLE_TO_PAIR_ONE-P05-OPPOSITE-NO-ANCHOR_FIRST",
+            "component": "role_a",
+            "transition": "C->W"
+          },
+          {
+            "pair_id": "B08-SINGLE_TO_PAIR_ONE-P05-OPPOSITE-NO-ANCHOR_FIRST",
+            "component": "role_b",
+            "transition": "C->W"
+          },
+          {
+            "pair_id": "B08-SINGLE_TO_PAIR_ONE-P06-SAME-NO-ANCHOR_FIRST",
+            "component": "occurrence",
+            "transition": "C->W"
+          },
+          {
+            "pair_id": "B08-SINGLE_TO_PAIR_ONE-P06-OPPOSITE-YES-ANCHOR_FIRST",
+            "component": "role_a",
+            "transition": "C->W"
+          },
+          {
+            "pair_id": "B08-SINGLE_TO_PAIR_ONE-P06-OPPOSITE-YES-ANCHOR_FIRST",
+            "component": "role_b",
+            "transition": "C->W"
+          },
+          {
+            "pair_id": "B08-SINGLE_TO_PAIR_ONE-P06-OPPOSITE-NO-ANCHOR_FIRST",
+            "component": "occurrence",
+            "transition": "C->W"
+          },
+          {
+            "pair_id": "B08-SINGLE_TO_PAIR_ONE-P07-OPPOSITE-YES-ANCHOR_FIRST",
+            "component": "occurrence",
+            "transition": "C->U"
+          },
+          {
+            "pair_id": "B08-SINGLE_TO_PAIR_ONE-P07-OPPOSITE-NO-ANCHOR_FIRST",
+            "component": "occurrence",
+            "transition": "C->U"
+          },
+          {
+            "pair_id": "B08-SINGLE_TO_PAIR_ONE-P07-OPPOSITE-NO-ANCHOR_FIRST",
+            "component": "role_a",
+            "transition": "C->U"
+          },
+          {
+            "pair_id": "B08-SINGLE_TO_PAIR_ONE-P07-OPPOSITE-NO-ANCHOR_FIRST",
+            "component": "role_b",
+            "transition": "C->U"
+          },
+          {
+            "pair_id": "B08-SINGLE_TO_PAIR_ONE-P08-OPPOSITE-YES-ANCHOR_FIRST",
+            "component": "occurrence",
+            "transition": "C->U"
+          },
+          {
+            "pair_id": "B08-SINGLE_TO_PAIR_ONE-P08-OPPOSITE-YES-ANCHOR_FIRST",
+            "component": "role_a",
+            "transition": "C->U"
+          },
+          {
+            "pair_id": "B08-SINGLE_TO_PAIR_ONE-P08-OPPOSITE-YES-ANCHOR_FIRST",
+            "component": "role_b",
+            "transition": "C->U"
+          },
+          {
+            "pair_id": "B08-SINGLE_TO_PAIR_ONE-P08-OPPOSITE-NO-ANCHOR_FIRST",
+            "component": "occurrence",
+            "transition": "C->W"
+          },
+          {
+            "pair_id": "B08-SINGLE_TO_PAIR_ONE-P08-OPPOSITE-NO-ANCHOR_FIRST",
+            "component": "role_a",
+            "transition": "C->W"
+          },
+          {
+            "pair_id": "B08-SINGLE_TO_PAIR_ONE-P08-OPPOSITE-NO-ANCHOR_FIRST",
+            "component": "role_b",
+            "transition": "C->W"
+          }
+        ]
+      },
+      "TARGET_FIRST": {
+        "n_correlated_pairs": 32,
+        "record_transitions": {
+          "C->C": 7,
+          "U->W": 3,
+          "U->U": 6,
+          "C->U": 4,
+          "U->C": 2,
+          "W->C": 1,
+          "W->W": 4,
+          "C->W": 4,
+          "W->U": 1
+        },
+        "net_harm": 5,
+        "net_rescue": -5,
+        "definite_net_harm": 3,
+        "definite_net_rescue": -3,
+        "record_rescues": 3,
+        "record_harms": 8,
+        "harm_domains": [
+          "gift",
+          "hire",
+          "loan",
+          "sale"
+        ],
+        "harm_blocks": [
+          "P02",
+          "P03",
+          "P04",
+          "P05",
+          "P07",
+          "P08"
+        ],
+        "component_transitions": {
+          "occurrence": {
+            "C->C": 19,
+            "C->U": 6,
+            "W->W": 3,
+            "C->W": 4
+          },
+          "role_a": {
+            "C->C": 11,
+            "U->W": 2,
+            "U->U": 4,
+            "C->U": 6,
+            "W->C": 2,
+            "C->W": 4,
+            "W->U": 1,
+            "W->W": 2
+          },
+          "role_b": {
+            "C->C": 9,
+            "U->W": 4,
+            "U->U": 6,
+            "C->U": 4,
+            "U->C": 4,
+            "C->W": 3,
+            "W->U": 1,
+            "W->W": 1
+          }
+        },
+        "component_new_harms": [
+          {
+            "pair_id": "B08-SINGLE_TO_PAIR_ONE-P02-SAME-NO-TARGET_FIRST",
+            "component": "occurrence",
+            "transition": "C->U"
+          },
+          {
+            "pair_id": "B08-SINGLE_TO_PAIR_ONE-P02-OPPOSITE-YES-TARGET_FIRST",
+            "component": "occurrence",
+            "transition": "C->U"
+          },
+          {
+            "pair_id": "B08-SINGLE_TO_PAIR_ONE-P02-OPPOSITE-YES-TARGET_FIRST",
+            "component": "role_a",
+            "transition": "C->U"
+          },
+          {
+            "pair_id": "B08-SINGLE_TO_PAIR_ONE-P02-OPPOSITE-YES-TARGET_FIRST",
+            "component": "role_b",
+            "transition": "C->U"
+          },
+          {
+            "pair_id": "B08-SINGLE_TO_PAIR_ONE-P02-OPPOSITE-NO-TARGET_FIRST",
+            "component": "occurrence",
+            "transition": "C->U"
+          },
+          {
+            "pair_id": "B08-SINGLE_TO_PAIR_ONE-P03-SAME-NO-TARGET_FIRST",
+            "component": "role_a",
+            "transition": "C->U"
+          },
+          {
+            "pair_id": "B08-SINGLE_TO_PAIR_ONE-P03-OPPOSITE-YES-TARGET_FIRST",
+            "component": "occurrence",
+            "transition": "C->U"
+          },
+          {
+            "pair_id": "B08-SINGLE_TO_PAIR_ONE-P03-OPPOSITE-YES-TARGET_FIRST",
+            "component": "role_a",
+            "transition": "C->U"
+          },
+          {
+            "pair_id": "B08-SINGLE_TO_PAIR_ONE-P03-OPPOSITE-YES-TARGET_FIRST",
+            "component": "role_b",
+            "transition": "C->U"
+          },
+          {
+            "pair_id": "B08-SINGLE_TO_PAIR_ONE-P03-OPPOSITE-NO-TARGET_FIRST",
+            "component": "role_a",
+            "transition": "C->U"
+          },
+          {
+            "pair_id": "B08-SINGLE_TO_PAIR_ONE-P04-OPPOSITE-YES-TARGET_FIRST",
+            "component": "role_a",
+            "transition": "C->W"
+          },
+          {
+            "pair_id": "B08-SINGLE_TO_PAIR_ONE-P04-OPPOSITE-NO-TARGET_FIRST",
+            "component": "role_a",
+            "transition": "C->U"
+          },
+          {
+            "pair_id": "B08-SINGLE_TO_PAIR_ONE-P04-OPPOSITE-NO-TARGET_FIRST",
+            "component": "role_b",
+            "transition": "C->U"
+          },
+          {
+            "pair_id": "B08-SINGLE_TO_PAIR_ONE-P05-SAME-NO-TARGET_FIRST",
+            "component": "occurrence",
+            "transition": "C->W"
+          },
+          {
+            "pair_id": "B08-SINGLE_TO_PAIR_ONE-P05-SAME-NO-TARGET_FIRST",
+            "component": "role_a",
+            "transition": "C->W"
+          },
+          {
+            "pair_id": "B08-SINGLE_TO_PAIR_ONE-P05-SAME-NO-TARGET_FIRST",
+            "component": "role_b",
+            "transition": "C->W"
+          },
+          {
+            "pair_id": "B08-SINGLE_TO_PAIR_ONE-P05-OPPOSITE-NO-TARGET_FIRST",
+            "component": "occurrence",
+            "transition": "C->W"
+          },
+          {
+            "pair_id": "B08-SINGLE_TO_PAIR_ONE-P07-SAME-YES-TARGET_FIRST",
+            "component": "occurrence",
+            "transition": "C->U"
+          },
+          {
+            "pair_id": "B08-SINGLE_TO_PAIR_ONE-P07-OPPOSITE-NO-TARGET_FIRST",
+            "component": "occurrence",
+            "transition": "C->W"
+          },
+          {
+            "pair_id": "B08-SINGLE_TO_PAIR_ONE-P07-OPPOSITE-NO-TARGET_FIRST",
+            "component": "role_a",
+            "transition": "C->W"
+          },
+          {
+            "pair_id": "B08-SINGLE_TO_PAIR_ONE-P07-OPPOSITE-NO-TARGET_FIRST",
+            "component": "role_b",
+            "transition": "C->W"
+          },
+          {
+            "pair_id": "B08-SINGLE_TO_PAIR_ONE-P08-OPPOSITE-YES-TARGET_FIRST",
+            "component": "occurrence",
+            "transition": "C->U"
+          },
+          {
+            "pair_id": "B08-SINGLE_TO_PAIR_ONE-P08-OPPOSITE-YES-TARGET_FIRST",
+            "component": "role_a",
+            "transition": "C->U"
+          },
+          {
+            "pair_id": "B08-SINGLE_TO_PAIR_ONE-P08-OPPOSITE-YES-TARGET_FIRST",
+            "component": "role_b",
+            "transition": "C->U"
+          },
+          {
+            "pair_id": "B08-SINGLE_TO_PAIR_ONE-P08-OPPOSITE-NO-TARGET_FIRST",
+            "component": "occurrence",
+            "transition": "C->W"
+          },
+          {
+            "pair_id": "B08-SINGLE_TO_PAIR_ONE-P08-OPPOSITE-NO-TARGET_FIRST",
+            "component": "role_a",
+            "transition": "C->W"
+          },
+          {
+            "pair_id": "B08-SINGLE_TO_PAIR_ONE-P08-OPPOSITE-NO-TARGET_FIRST",
+            "component": "role_b",
+            "transition": "C->W"
+          }
+        ]
+      }
+    }
+  },
+  "H_single_failure": {
+    "single_target_W": 6,
+    "domains": [
+      "gift",
+      "loan"
+    ],
+    "blocks": [
+      "P04",
+      "P07",
+      "P08"
+    ],
+    "call_ids": [
+      "B08-qwen-SINGLE-P04-SAME-YES-E2",
+      "B08-qwen-SINGLE-P04-SAME-NO-E2",
+      "B08-qwen-SINGLE-P07-SAME-YES-E2",
+      "B08-qwen-SINGLE-P07-SAME-NO-E2",
+      "B08-qwen-SINGLE-P07-OPPOSITE-YES-E2",
+      "B08-qwen-SINGLE-P08-SAME-NO-E2"
+    ],
+    "supported": true
+  },
+  "H_added_context_and_selection": {
+    "single_target_C": 15,
+    "single_anchor_C": 8,
+    "floor_pass": false,
+    "by_input_order": {
+      "ANCHOR_FIRST": {
+        "n_correlated_pairs": 32,
+        "record_transitions": {
+          "C->C": 6,
+          "U->U": 2,
+          "U->W": 7,
+          "U->C": 2,
+          "C->U": 3,
+          "W->C": 4,
+          "W->W": 1,
+          "C->W": 6,
+          "W->U": 1
+        },
+        "net_harm": 3,
+        "net_rescue": -3,
+        "definite_net_harm": 2,
+        "definite_net_rescue": -2,
+        "record_rescues": 6,
+        "record_harms": 9,
+        "harm_domains": [
+          "gift",
+          "loan",
+          "sale"
+        ],
+        "harm_blocks": [
+          "P03",
+          "P04",
+          "P05",
+          "P06",
+          "P07",
+          "P08"
+        ],
+        "component_transitions": {
+          "occurrence": {
+            "C->C": 13,
+            "C->U": 6,
+            "C->W": 10,
+            "W->W": 1,
+            "W->C": 2
+          },
+          "role_a": {
+            "C->C": 11,
+            "U->U": 2,
+            "U->W": 2,
+            "U->C": 2,
+            "C->U": 3,
+            "C->W": 7,
+            "W->C": 4,
+            "W->U": 1
+          },
+          "role_b": {
+            "C->C": 8,
+            "U->U": 2,
+            "U->W": 4,
+            "U->C": 8,
+            "C->U": 3,
+            "C->W": 5,
+            "W->C": 1,
+            "W->U": 1
+          }
+        },
+        "component_new_harms": [
+          {
+            "pair_id": "B08-SINGLE_TO_PAIR_ONE-P01-OPPOSITE-YES-ANCHOR_FIRST",
+            "component": "occurrence",
+            "transition": "C->U"
+          },
+          {
+            "pair_id": "B08-SINGLE_TO_PAIR_ONE-P01-OPPOSITE-NO-ANCHOR_FIRST",
+            "component": "occurrence",
+            "transition": "C->W"
+          },
+          {
+            "pair_id": "B08-SINGLE_TO_PAIR_ONE-P02-SAME-NO-ANCHOR_FIRST",
+            "component": "occurrence",
+            "transition": "C->W"
+          },
+          {
+            "pair_id": "B08-SINGLE_TO_PAIR_ONE-P02-OPPOSITE-NO-ANCHOR_FIRST",
+            "component": "occurrence",
+            "transition": "C->U"
+          },
+          {
+            "pair_id": "B08-SINGLE_TO_PAIR_ONE-P03-SAME-NO-ANCHOR_FIRST",
+            "component": "occurrence",
+            "transition": "C->W"
+          },
+          {
+            "pair_id": "B08-SINGLE_TO_PAIR_ONE-P03-OPPOSITE-YES-ANCHOR_FIRST",
+            "component": "occurrence",
+            "transition": "C->U"
+          },
+          {
+            "pair_id": "B08-SINGLE_TO_PAIR_ONE-P03-OPPOSITE-YES-ANCHOR_FIRST",
+            "component": "role_a",
+            "transition": "C->U"
+          },
+          {
+            "pair_id": "B08-SINGLE_TO_PAIR_ONE-P03-OPPOSITE-YES-ANCHOR_FIRST",
+            "component": "role_b",
+            "transition": "C->U"
+          },
+          {
+            "pair_id": "B08-SINGLE_TO_PAIR_ONE-P03-OPPOSITE-NO-ANCHOR_FIRST",
+            "component": "occurrence",
+            "transition": "C->W"
+          },
+          {
+            "pair_id": "B08-SINGLE_TO_PAIR_ONE-P03-OPPOSITE-NO-ANCHOR_FIRST",
+            "component": "role_a",
+            "transition": "C->W"
+          },
+          {
+            "pair_id": "B08-SINGLE_TO_PAIR_ONE-P04-OPPOSITE-YES-ANCHOR_FIRST",
+            "component": "role_a",
+            "transition": "C->W"
+          },
+          {
+            "pair_id": "B08-SINGLE_TO_PAIR_ONE-P04-OPPOSITE-NO-ANCHOR_FIRST",
+            "component": "occurrence",
+            "transition": "C->W"
+          },
+          {
+            "pair_id": "B08-SINGLE_TO_PAIR_ONE-P04-OPPOSITE-NO-ANCHOR_FIRST",
+            "component": "role_a",
+            "transition": "C->W"
+          },
+          {
+            "pair_id": "B08-SINGLE_TO_PAIR_ONE-P04-OPPOSITE-NO-ANCHOR_FIRST",
+            "component": "role_b",
+            "transition": "C->W"
+          },
+          {
+            "pair_id": "B08-SINGLE_TO_PAIR_ONE-P05-SAME-NO-ANCHOR_FIRST",
+            "component": "occurrence",
+            "transition": "C->W"
+          },
+          {
+            "pair_id": "B08-SINGLE_TO_PAIR_ONE-P05-OPPOSITE-YES-ANCHOR_FIRST",
+            "component": "role_a",
+            "transition": "C->W"
+          },
+          {
+            "pair_id": "B08-SINGLE_TO_PAIR_ONE-P05-OPPOSITE-YES-ANCHOR_FIRST",
+            "component": "role_b",
+            "transition": "C->W"
+          },
+          {
+            "pair_id": "B08-SINGLE_TO_PAIR_ONE-P05-OPPOSITE-NO-ANCHOR_FIRST",
+            "component": "occurrence",
+            "transition": "C->W"
+          },
+          {
+            "pair_id": "B08-SINGLE_TO_PAIR_ONE-P05-OPPOSITE-NO-ANCHOR_FIRST",
+            "component": "role_a",
+            "transition": "C->W"
+          },
+          {
+            "pair_id": "B08-SINGLE_TO_PAIR_ONE-P05-OPPOSITE-NO-ANCHOR_FIRST",
+            "component": "role_b",
+            "transition": "C->W"
+          },
+          {
+            "pair_id": "B08-SINGLE_TO_PAIR_ONE-P06-SAME-NO-ANCHOR_FIRST",
+            "component": "occurrence",
+            "transition": "C->W"
+          },
+          {
+            "pair_id": "B08-SINGLE_TO_PAIR_ONE-P06-OPPOSITE-YES-ANCHOR_FIRST",
+            "component": "role_a",
+            "transition": "C->W"
+          },
+          {
+            "pair_id": "B08-SINGLE_TO_PAIR_ONE-P06-OPPOSITE-YES-ANCHOR_FIRST",
+            "component": "role_b",
+            "transition": "C->W"
+          },
+          {
+            "pair_id": "B08-SINGLE_TO_PAIR_ONE-P06-OPPOSITE-NO-ANCHOR_FIRST",
+            "component": "occurrence",
+            "transition": "C->W"
+          },
+          {
+            "pair_id": "B08-SINGLE_TO_PAIR_ONE-P07-OPPOSITE-YES-ANCHOR_FIRST",
+            "component": "occurrence",
+            "transition": "C->U"
+          },
+          {
+            "pair_id": "B08-SINGLE_TO_PAIR_ONE-P07-OPPOSITE-NO-ANCHOR_FIRST",
+            "component": "occurrence",
+            "transition": "C->U"
+          },
+          {
+            "pair_id": "B08-SINGLE_TO_PAIR_ONE-P07-OPPOSITE-NO-ANCHOR_FIRST",
+            "component": "role_a",
+            "transition": "C->U"
+          },
+          {
+            "pair_id": "B08-SINGLE_TO_PAIR_ONE-P07-OPPOSITE-NO-ANCHOR_FIRST",
+            "component": "role_b",
+            "transition": "C->U"
+          },
+          {
+            "pair_id": "B08-SINGLE_TO_PAIR_ONE-P08-OPPOSITE-YES-ANCHOR_FIRST",
+            "component": "occurrence",
+            "transition": "C->U"
+          },
+          {
+            "pair_id": "B08-SINGLE_TO_PAIR_ONE-P08-OPPOSITE-YES-ANCHOR_FIRST",
+            "component": "role_a",
+            "transition": "C->U"
+          },
+          {
+            "pair_id": "B08-SINGLE_TO_PAIR_ONE-P08-OPPOSITE-YES-ANCHOR_FIRST",
+            "component": "role_b",
+            "transition": "C->U"
+          },
+          {
+            "pair_id": "B08-SINGLE_TO_PAIR_ONE-P08-OPPOSITE-NO-ANCHOR_FIRST",
+            "component": "occurrence",
+            "transition": "C->W"
+          },
+          {
+            "pair_id": "B08-SINGLE_TO_PAIR_ONE-P08-OPPOSITE-NO-ANCHOR_FIRST",
+            "component": "role_a",
+            "transition": "C->W"
+          },
+          {
+            "pair_id": "B08-SINGLE_TO_PAIR_ONE-P08-OPPOSITE-NO-ANCHOR_FIRST",
+            "component": "role_b",
+            "transition": "C->W"
+          }
+        ]
+      },
+      "TARGET_FIRST": {
+        "n_correlated_pairs": 32,
+        "record_transitions": {
+          "C->C": 7,
+          "U->W": 3,
+          "U->U": 6,
+          "C->U": 4,
+          "U->C": 2,
+          "W->C": 1,
+          "W->W": 4,
+          "C->W": 4,
+          "W->U": 1
+        },
+        "net_harm": 5,
+        "net_rescue": -5,
+        "definite_net_harm": 3,
+        "definite_net_rescue": -3,
+        "record_rescues": 3,
+        "record_harms": 8,
+        "harm_domains": [
+          "gift",
+          "hire",
+          "loan",
+          "sale"
+        ],
+        "harm_blocks": [
+          "P02",
+          "P03",
+          "P04",
+          "P05",
+          "P07",
+          "P08"
+        ],
+        "component_transitions": {
+          "occurrence": {
+            "C->C": 19,
+            "C->U": 6,
+            "W->W": 3,
+            "C->W": 4
+          },
+          "role_a": {
+            "C->C": 11,
+            "U->W": 2,
+            "U->U": 4,
+            "C->U": 6,
+            "W->C": 2,
+            "C->W": 4,
+            "W->U": 1,
+            "W->W": 2
+          },
+          "role_b": {
+            "C->C": 9,
+            "U->W": 4,
+            "U->U": 6,
+            "C->U": 4,
+            "U->C": 4,
+            "C->W": 3,
+            "W->U": 1,
+            "W->W": 1
+          }
+        },
+        "component_new_harms": [
+          {
+            "pair_id": "B08-SINGLE_TO_PAIR_ONE-P02-SAME-NO-TARGET_FIRST",
+            "component": "occurrence",
+            "transition": "C->U"
+          },
+          {
+            "pair_id": "B08-SINGLE_TO_PAIR_ONE-P02-OPPOSITE-YES-TARGET_FIRST",
+            "component": "occurrence",
+            "transition": "C->U"
+          },
+          {
+            "pair_id": "B08-SINGLE_TO_PAIR_ONE-P02-OPPOSITE-YES-TARGET_FIRST",
+            "component": "role_a",
+            "transition": "C->U"
+          },
+          {
+            "pair_id": "B08-SINGLE_TO_PAIR_ONE-P02-OPPOSITE-YES-TARGET_FIRST",
+            "component": "role_b",
+            "transition": "C->U"
+          },
+          {
+            "pair_id": "B08-SINGLE_TO_PAIR_ONE-P02-OPPOSITE-NO-TARGET_FIRST",
+            "component": "occurrence",
+            "transition": "C->U"
+          },
+          {
+            "pair_id": "B08-SINGLE_TO_PAIR_ONE-P03-SAME-NO-TARGET_FIRST",
+            "component": "role_a",
+            "transition": "C->U"
+          },
+          {
+            "pair_id": "B08-SINGLE_TO_PAIR_ONE-P03-OPPOSITE-YES-TARGET_FIRST",
+            "component": "occurrence",
+            "transition": "C->U"
+          },
+          {
+            "pair_id": "B08-SINGLE_TO_PAIR_ONE-P03-OPPOSITE-YES-TARGET_FIRST",
+            "component": "role_a",
+            "transition": "C->U"
+          },
+          {
+            "pair_id": "B08-SINGLE_TO_PAIR_ONE-P03-OPPOSITE-YES-TARGET_FIRST",
+            "component": "role_b",
+            "transition": "C->U"
+          },
+          {
+            "pair_id": "B08-SINGLE_TO_PAIR_ONE-P03-OPPOSITE-NO-TARGET_FIRST",
+            "component": "role_a",
+            "transition": "C->U"
+          },
+          {
+            "pair_id": "B08-SINGLE_TO_PAIR_ONE-P04-OPPOSITE-YES-TARGET_FIRST",
+            "component": "role_a",
+            "transition": "C->W"
+          },
+          {
+            "pair_id": "B08-SINGLE_TO_PAIR_ONE-P04-OPPOSITE-NO-TARGET_FIRST",
+            "component": "role_a",
+            "transition": "C->U"
+          },
+          {
+            "pair_id": "B08-SINGLE_TO_PAIR_ONE-P04-OPPOSITE-NO-TARGET_FIRST",
+            "component": "role_b",
+            "transition": "C->U"
+          },
+          {
+            "pair_id": "B08-SINGLE_TO_PAIR_ONE-P05-SAME-NO-TARGET_FIRST",
+            "component": "occurrence",
+            "transition": "C->W"
+          },
+          {
+            "pair_id": "B08-SINGLE_TO_PAIR_ONE-P05-SAME-NO-TARGET_FIRST",
+            "component": "role_a",
+            "transition": "C->W"
+          },
+          {
+            "pair_id": "B08-SINGLE_TO_PAIR_ONE-P05-SAME-NO-TARGET_FIRST",
+            "component": "role_b",
+            "transition": "C->W"
+          },
+          {
+            "pair_id": "B08-SINGLE_TO_PAIR_ONE-P05-OPPOSITE-NO-TARGET_FIRST",
+            "component": "occurrence",
+            "transition": "C->W"
+          },
+          {
+            "pair_id": "B08-SINGLE_TO_PAIR_ONE-P07-SAME-YES-TARGET_FIRST",
+            "component": "occurrence",
+            "transition": "C->U"
+          },
+          {
+            "pair_id": "B08-SINGLE_TO_PAIR_ONE-P07-OPPOSITE-NO-TARGET_FIRST",
+            "component": "occurrence",
+            "transition": "C->W"
+          },
+          {
+            "pair_id": "B08-SINGLE_TO_PAIR_ONE-P07-OPPOSITE-NO-TARGET_FIRST",
+            "component": "role_a",
+            "transition": "C->W"
+          },
+          {
+            "pair_id": "B08-SINGLE_TO_PAIR_ONE-P07-OPPOSITE-NO-TARGET_FIRST",
+            "component": "role_b",
+            "transition": "C->W"
+          },
+          {
+            "pair_id": "B08-SINGLE_TO_PAIR_ONE-P08-OPPOSITE-YES-TARGET_FIRST",
+            "component": "occurrence",
+            "transition": "C->U"
+          },
+          {
+            "pair_id": "B08-SINGLE_TO_PAIR_ONE-P08-OPPOSITE-YES-TARGET_FIRST",
+            "component": "role_a",
+            "transition": "C->U"
+          },
+          {
+            "pair_id": "B08-SINGLE_TO_PAIR_ONE-P08-OPPOSITE-YES-TARGET_FIRST",
+            "component": "role_b",
+            "transition": "C->U"
+          },
+          {
+            "pair_id": "B08-SINGLE_TO_PAIR_ONE-P08-OPPOSITE-NO-TARGET_FIRST",
+            "component": "occurrence",
+            "transition": "C->W"
+          },
+          {
+            "pair_id": "B08-SINGLE_TO_PAIR_ONE-P08-OPPOSITE-NO-TARGET_FIRST",
+            "component": "role_a",
+            "transition": "C->W"
+          },
+          {
+            "pair_id": "B08-SINGLE_TO_PAIR_ONE-P08-OPPOSITE-NO-TARGET_FIRST",
+            "component": "role_b",
+            "transition": "C->W"
+          }
+        ]
+      }
+    },
+    "supported": false
+  },
+  "H_output_simplification": {
+    "by_input_order": {
+      "ANCHOR_FIRST": {
+        "n_correlated_pairs": 32,
+        "record_transitions": {
+          "C->C": 9,
+          "C->U": 6,
+          "W->W": 3,
+          "U->W": 7,
+          "W->C": 2,
+          "C->W": 4,
+          "U->C": 1
+        },
+        "net_harm": 7,
+        "net_rescue": -7,
+        "definite_net_harm": 2,
+        "definite_net_rescue": -2,
+        "record_rescues": 3,
+        "record_harms": 10,
+        "harm_domains": [
+          "gift",
+          "hire",
+          "loan",
+          "sale"
+        ],
+        "harm_blocks": [
+          "P01",
+          "P02",
+          "P03",
+          "P04",
+          "P05",
+          "P06",
+          "P07",
+          "P08"
+        ],
+        "component_transitions": {
+          "occurrence": {
+            "C->C": 15,
+            "C->U": 6,
+            "C->W": 10,
+            "W->W": 1
+          },
+          "role_a": {
+            "C->C": 10,
+            "C->U": 6,
+            "W->W": 2,
+            "U->C": 5,
+            "U->W": 3,
+            "W->C": 2,
+            "C->W": 4
+          },
+          "role_b": {
+            "C->C": 11,
+            "C->U": 6,
+            "W->W": 2,
+            "U->C": 4,
+            "U->W": 3,
+            "W->C": 2,
+            "C->W": 4
+          }
+        },
+        "component_new_harms": [
+          {
+            "pair_id": "B08-PLAIN_TO_PAIR_ONE-P01-OPPOSITE-YES-ANCHOR_FIRST",
+            "component": "occurrence",
+            "transition": "C->U"
+          },
+          {
+            "pair_id": "B08-PLAIN_TO_PAIR_ONE-P01-OPPOSITE-YES-ANCHOR_FIRST",
+            "component": "role_a",
+            "transition": "C->U"
+          },
+          {
+            "pair_id": "B08-PLAIN_TO_PAIR_ONE-P01-OPPOSITE-YES-ANCHOR_FIRST",
+            "component": "role_b",
+            "transition": "C->U"
+          },
+          {
+            "pair_id": "B08-PLAIN_TO_PAIR_ONE-P01-OPPOSITE-NO-ANCHOR_FIRST",
+            "component": "occurrence",
+            "transition": "C->W"
+          },
+          {
+            "pair_id": "B08-PLAIN_TO_PAIR_ONE-P02-OPPOSITE-NO-ANCHOR_FIRST",
+            "component": "occurrence",
+            "transition": "C->U"
+          },
+          {
+            "pair_id": "B08-PLAIN_TO_PAIR_ONE-P02-OPPOSITE-NO-ANCHOR_FIRST",
+            "component": "role_a",
+            "transition": "C->U"
+          },
+          {
+            "pair_id": "B08-PLAIN_TO_PAIR_ONE-P02-OPPOSITE-NO-ANCHOR_FIRST",
+            "component": "role_b",
+            "transition": "C->U"
+          },
+          {
+            "pair_id": "B08-PLAIN_TO_PAIR_ONE-P03-SAME-NO-ANCHOR_FIRST",
+            "component": "occurrence",
+            "transition": "C->W"
+          },
+          {
+            "pair_id": "B08-PLAIN_TO_PAIR_ONE-P03-OPPOSITE-YES-ANCHOR_FIRST",
+            "component": "occurrence",
+            "transition": "C->U"
+          },
+          {
+            "pair_id": "B08-PLAIN_TO_PAIR_ONE-P03-OPPOSITE-YES-ANCHOR_FIRST",
+            "component": "role_a",
+            "transition": "C->U"
+          },
+          {
+            "pair_id": "B08-PLAIN_TO_PAIR_ONE-P03-OPPOSITE-YES-ANCHOR_FIRST",
+            "component": "role_b",
+            "transition": "C->U"
+          },
+          {
+            "pair_id": "B08-PLAIN_TO_PAIR_ONE-P03-OPPOSITE-NO-ANCHOR_FIRST",
+            "component": "occurrence",
+            "transition": "C->W"
+          },
+          {
+            "pair_id": "B08-PLAIN_TO_PAIR_ONE-P04-SAME-NO-ANCHOR_FIRST",
+            "component": "occurrence",
+            "transition": "C->W"
+          },
+          {
+            "pair_id": "B08-PLAIN_TO_PAIR_ONE-P04-OPPOSITE-YES-ANCHOR_FIRST",
+            "component": "role_a",
+            "transition": "C->W"
+          },
+          {
+            "pair_id": "B08-PLAIN_TO_PAIR_ONE-P04-OPPOSITE-YES-ANCHOR_FIRST",
+            "component": "role_b",
+            "transition": "C->W"
+          },
+          {
+            "pair_id": "B08-PLAIN_TO_PAIR_ONE-P04-OPPOSITE-NO-ANCHOR_FIRST",
+            "component": "occurrence",
+            "transition": "C->W"
+          },
+          {
+            "pair_id": "B08-PLAIN_TO_PAIR_ONE-P05-SAME-NO-ANCHOR_FIRST",
+            "component": "occurrence",
+            "transition": "C->W"
+          },
+          {
+            "pair_id": "B08-PLAIN_TO_PAIR_ONE-P05-OPPOSITE-YES-ANCHOR_FIRST",
+            "component": "role_a",
+            "transition": "C->W"
+          },
+          {
+            "pair_id": "B08-PLAIN_TO_PAIR_ONE-P05-OPPOSITE-YES-ANCHOR_FIRST",
+            "component": "role_b",
+            "transition": "C->W"
+          },
+          {
+            "pair_id": "B08-PLAIN_TO_PAIR_ONE-P05-OPPOSITE-NO-ANCHOR_FIRST",
+            "component": "occurrence",
+            "transition": "C->W"
+          },
+          {
+            "pair_id": "B08-PLAIN_TO_PAIR_ONE-P06-SAME-NO-ANCHOR_FIRST",
+            "component": "occurrence",
+            "transition": "C->W"
+          },
+          {
+            "pair_id": "B08-PLAIN_TO_PAIR_ONE-P06-OPPOSITE-YES-ANCHOR_FIRST",
+            "component": "role_a",
+            "transition": "C->W"
+          },
+          {
+            "pair_id": "B08-PLAIN_TO_PAIR_ONE-P06-OPPOSITE-YES-ANCHOR_FIRST",
+            "component": "role_b",
+            "transition": "C->W"
+          },
+          {
+            "pair_id": "B08-PLAIN_TO_PAIR_ONE-P06-OPPOSITE-NO-ANCHOR_FIRST",
+            "component": "occurrence",
+            "transition": "C->W"
+          },
+          {
+            "pair_id": "B08-PLAIN_TO_PAIR_ONE-P07-OPPOSITE-YES-ANCHOR_FIRST",
+            "component": "occurrence",
+            "transition": "C->U"
+          },
+          {
+            "pair_id": "B08-PLAIN_TO_PAIR_ONE-P07-OPPOSITE-YES-ANCHOR_FIRST",
+            "component": "role_a",
+            "transition": "C->U"
+          },
+          {
+            "pair_id": "B08-PLAIN_TO_PAIR_ONE-P07-OPPOSITE-YES-ANCHOR_FIRST",
+            "component": "role_b",
+            "transition": "C->U"
+          },
+          {
+            "pair_id": "B08-PLAIN_TO_PAIR_ONE-P07-OPPOSITE-NO-ANCHOR_FIRST",
+            "component": "occurrence",
+            "transition": "C->U"
+          },
+          {
+            "pair_id": "B08-PLAIN_TO_PAIR_ONE-P07-OPPOSITE-NO-ANCHOR_FIRST",
+            "component": "role_a",
+            "transition": "C->U"
+          },
+          {
+            "pair_id": "B08-PLAIN_TO_PAIR_ONE-P07-OPPOSITE-NO-ANCHOR_FIRST",
+            "component": "role_b",
+            "transition": "C->U"
+          },
+          {
+            "pair_id": "B08-PLAIN_TO_PAIR_ONE-P08-OPPOSITE-YES-ANCHOR_FIRST",
+            "component": "occurrence",
+            "transition": "C->U"
+          },
+          {
+            "pair_id": "B08-PLAIN_TO_PAIR_ONE-P08-OPPOSITE-YES-ANCHOR_FIRST",
+            "component": "role_a",
+            "transition": "C->U"
+          },
+          {
+            "pair_id": "B08-PLAIN_TO_PAIR_ONE-P08-OPPOSITE-YES-ANCHOR_FIRST",
+            "component": "role_b",
+            "transition": "C->U"
+          },
+          {
+            "pair_id": "B08-PLAIN_TO_PAIR_ONE-P08-OPPOSITE-NO-ANCHOR_FIRST",
+            "component": "occurrence",
+            "transition": "C->W"
+          },
+          {
+            "pair_id": "B08-PLAIN_TO_PAIR_ONE-P08-OPPOSITE-NO-ANCHOR_FIRST",
+            "component": "role_a",
+            "transition": "C->W"
+          },
+          {
+            "pair_id": "B08-PLAIN_TO_PAIR_ONE-P08-OPPOSITE-NO-ANCHOR_FIRST",
+            "component": "role_b",
+            "transition": "C->W"
+          }
+        ]
+      },
+      "TARGET_FIRST": {
+        "n_correlated_pairs": 32,
+        "record_transitions": {
+          "C->C": 8,
+          "W->W": 11,
+          "C->U": 6,
+          "U->C": 1,
+          "W->U": 4,
+          "W->C": 1,
+          "U->U": 1
+        },
+        "net_harm": 4,
+        "net_rescue": -4,
+        "definite_net_harm": -1,
+        "definite_net_rescue": 1,
+        "record_rescues": 2,
+        "record_harms": 6,
+        "harm_domains": [
+          "gift",
+          "hire",
+          "loan",
+          "sale"
+        ],
+        "harm_blocks": [
+          "P02",
+          "P03",
+          "P06",
+          "P08"
+        ],
+        "component_transitions": {
+          "occurrence": {
+            "C->C": 18,
+            "C->U": 6,
+            "W->C": 1,
+            "W->W": 5,
+            "C->W": 2
+          },
+          "role_a": {
+            "C->C": 11,
+            "W->W": 7,
+            "C->U": 6,
+            "W->U": 4,
+            "W->C": 2,
+            "U->U": 1,
+            "C->W": 1
+          },
+          "role_b": {
+            "C->C": 10,
+            "U->W": 1,
+            "W->W": 6,
+            "C->U": 6,
+            "U->C": 1,
+            "W->U": 4,
+            "W->C": 2,
+            "U->U": 1,
+            "C->W": 1
+          }
+        },
+        "component_new_harms": [
+          {
+            "pair_id": "B08-PLAIN_TO_PAIR_ONE-P02-SAME-NO-TARGET_FIRST",
+            "component": "occurrence",
+            "transition": "C->U"
+          },
+          {
+            "pair_id": "B08-PLAIN_TO_PAIR_ONE-P02-SAME-NO-TARGET_FIRST",
+            "component": "role_a",
+            "transition": "C->U"
+          },
+          {
+            "pair_id": "B08-PLAIN_TO_PAIR_ONE-P02-SAME-NO-TARGET_FIRST",
+            "component": "role_b",
+            "transition": "C->U"
+          },
+          {
+            "pair_id": "B08-PLAIN_TO_PAIR_ONE-P02-OPPOSITE-YES-TARGET_FIRST",
+            "component": "occurrence",
+            "transition": "C->U"
+          },
+          {
+            "pair_id": "B08-PLAIN_TO_PAIR_ONE-P02-OPPOSITE-YES-TARGET_FIRST",
+            "component": "role_a",
+            "transition": "C->U"
+          },
+          {
+            "pair_id": "B08-PLAIN_TO_PAIR_ONE-P02-OPPOSITE-YES-TARGET_FIRST",
+            "component": "role_b",
+            "transition": "C->U"
+          },
+          {
+            "pair_id": "B08-PLAIN_TO_PAIR_ONE-P02-OPPOSITE-NO-TARGET_FIRST",
+            "component": "occurrence",
+            "transition": "C->U"
+          },
+          {
+            "pair_id": "B08-PLAIN_TO_PAIR_ONE-P02-OPPOSITE-NO-TARGET_FIRST",
+            "component": "role_a",
+            "transition": "C->U"
+          },
+          {
+            "pair_id": "B08-PLAIN_TO_PAIR_ONE-P02-OPPOSITE-NO-TARGET_FIRST",
+            "component": "role_b",
+            "transition": "C->U"
+          },
+          {
+            "pair_id": "B08-PLAIN_TO_PAIR_ONE-P03-OPPOSITE-YES-TARGET_FIRST",
+            "component": "occurrence",
+            "transition": "C->U"
+          },
+          {
+            "pair_id": "B08-PLAIN_TO_PAIR_ONE-P03-OPPOSITE-YES-TARGET_FIRST",
+            "component": "role_a",
+            "transition": "C->U"
+          },
+          {
+            "pair_id": "B08-PLAIN_TO_PAIR_ONE-P03-OPPOSITE-YES-TARGET_FIRST",
+            "component": "role_b",
+            "transition": "C->U"
+          },
+          {
+            "pair_id": "B08-PLAIN_TO_PAIR_ONE-P05-SAME-NO-TARGET_FIRST",
+            "component": "role_a",
+            "transition": "C->W"
+          },
+          {
+            "pair_id": "B08-PLAIN_TO_PAIR_ONE-P05-SAME-NO-TARGET_FIRST",
+            "component": "role_b",
+            "transition": "C->W"
+          },
+          {
+            "pair_id": "B08-PLAIN_TO_PAIR_ONE-P05-OPPOSITE-NO-TARGET_FIRST",
+            "component": "occurrence",
+            "transition": "C->W"
+          },
+          {
+            "pair_id": "B08-PLAIN_TO_PAIR_ONE-P06-SAME-NO-TARGET_FIRST",
+            "component": "role_a",
+            "transition": "C->U"
+          },
+          {
+            "pair_id": "B08-PLAIN_TO_PAIR_ONE-P06-SAME-NO-TARGET_FIRST",
+            "component": "role_b",
+            "transition": "C->U"
+          },
+          {
+            "pair_id": "B08-PLAIN_TO_PAIR_ONE-P07-SAME-YES-TARGET_FIRST",
+            "component": "occurrence",
+            "transition": "C->U"
+          },
+          {
+            "pair_id": "B08-PLAIN_TO_PAIR_ONE-P07-OPPOSITE-NO-TARGET_FIRST",
+            "component": "occurrence",
+            "transition": "C->W"
+          },
+          {
+            "pair_id": "B08-PLAIN_TO_PAIR_ONE-P08-OPPOSITE-YES-TARGET_FIRST",
+            "component": "occurrence",
+            "transition": "C->U"
+          },
+          {
+            "pair_id": "B08-PLAIN_TO_PAIR_ONE-P08-OPPOSITE-YES-TARGET_FIRST",
+            "component": "role_a",
+            "transition": "C->U"
+          },
+          {
+            "pair_id": "B08-PLAIN_TO_PAIR_ONE-P08-OPPOSITE-YES-TARGET_FIRST",
+            "component": "role_b",
+            "transition": "C->U"
+          }
+        ]
+      }
+    },
+    "positive_target_C": {
+      "ANCHOR_FIRST": 9,
+      "TARGET_FIRST": 9
+    },
+    "component_new_harms": 58,
+    "supported": false
+  },
+  "extra_event_outputs": 12,
+  "noncanonical_name_responses": 9,
+  "format_compliance_counts": {
+    "PASS": 92,
+    "FAIL": 12
+  },
+  "SINGLE_U_optimistic_C_bound": 26,
+  "bounds_are_not_CIs": true,
+  "B06_B07_failed_gates_unchanged": true,
+  "no_B09": true
+}

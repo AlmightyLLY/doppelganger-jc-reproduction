@@ -1,0 +1,168 @@
+[
+  {
+    "call_id": "B08-qwen-SINGLE-P01-OPPOSITE-YES-E2",
+    "sentence": "金立被卓平聘用为校对员。",
+    "raw": "{\"events\":[{\"occurred\":\"YES\",\"employer\":\"金立被卓平\",\"employee\":\"校对员\"}]}",
+    "values": [
+      [
+        "role_a",
+        "金立被卓平"
+      ],
+      [
+        "role_b",
+        "校对员"
+      ]
+    ],
+    "scores": {
+      "occurrence": "C",
+      "role_a": "U",
+      "role_b": "U",
+      "participant": "U",
+      "record": "U"
+    }
+  },
+  {
+    "call_id": "B08-qwen-SINGLE-P03-SAME-NO-E2",
+    "sentence": "白江未向石冬借用帐篷。",
+    "raw": "{\"events\":[{\"occurred\":\"NO\",\"lender\":\"石冬\",\"borrower\":\"白江未\"}]}",
+    "values": [
+      [
+        "role_b",
+        "白江未"
+      ]
+    ],
+    "scores": {
+      "occurrence": "C",
+      "role_a": "C",
+      "role_b": "U",
+      "participant": "U",
+      "record": "U"
+    }
+  },
+  {
+    "call_id": "B08-qwen-SINGLE-P03-OPPOSITE-NO-E2",
+    "sentence": "石冬未向白江借用帐篷。",
+    "raw": "{\"events\":[{\"occurred\":\"NO\",\"lender\":\"白江\",\"borrower\":\"石冬未\"}]}",
+    "values": [
+      [
+        "role_b",
+        "石冬未"
+      ]
+    ],
+    "scores": {
+      "occurrence": "C",
+      "role_a": "C",
+      "role_b": "U",
+      "participant": "U",
+      "record": "U"
+    }
+  },
+  {
+    "call_id": "B08-qwen-SINGLE-P03-SAME-YES-E2",
+    "sentence": "白江向石冬借用了帐篷。",
+    "raw": "{\"events\":[{\"occurred\":\"YES\",\"lender\":\"石冬\",\"borrower\":\"白江向\"}]}",
+    "values": [
+      [
+        "role_b",
+        "白江向"
+      ]
+    ],
+    "scores": {
+      "occurrence": "C",
+      "role_a": "C",
+      "role_b": "U",
+      "participant": "U",
+      "record": "U"
+    }
+  },
+  {
+    "call_id": "B08-qwen-SINGLE-P04-OPPOSITE-YES-E2",
+    "sentence": "申文向平川借用了梯子。",
+    "raw": "{\"events\":[{\"occurred\":\"YES\",\"lender\":\"平川\",\"borrower\":\"申文向\"}]}",
+    "values": [
+      [
+        "role_b",
+        "申文向"
+      ]
+    ],
+    "scores": {
+      "occurrence": "C",
+      "role_a": "C",
+      "role_b": "U",
+      "participant": "U",
+      "record": "U"
+    }
+  },
+  {
+    "call_id": "B08-qwen-SINGLE-P04-SAME-YES-E2",
+    "sentence": "平川向申文借用了梯子。",
+    "raw": "{\"events\":[{\"occurred\":\"YES\",\"lender\":\"平川\",\"borrower\":\"向申文\"}]}",
+    "values": [
+      [
+        "role_b",
+        "向申文"
+      ]
+    ],
+    "scores": {
+      "occurrence": "C",
+      "role_a": "W",
+      "role_b": "U",
+      "participant": "W",
+      "record": "W"
+    }
+  },
+  {
+    "call_id": "B08-qwen-SINGLE-P04-SAME-NO-E2",
+    "sentence": "平川未向申文借用梯子。",
+    "raw": "{\"events\":[{\"occurred\":\"YES\",\"lender\":\"平川\",\"borrower\":\"未向\"}]}",
+    "values": [
+      [
+        "role_b",
+        "未向"
+      ]
+    ],
+    "scores": {
+      "occurrence": "W",
+      "role_a": "W",
+      "role_b": "U",
+      "participant": "W",
+      "record": "W"
+    }
+  },
+  {
+    "call_id": "B08-qwen-SINGLE-P05-SAME-YES-E2",
+    "sentence": "古月向米青购买了除湿机。",
+    "raw": "{\"events\":[{\"occurred\":\"YES\",\"seller\":\"米青\",\"buyer\":\"古月向\"}]}",
+    "values": [
+      [
+        "role_b",
+        "古月向"
+      ]
+    ],
+    "scores": {
+      "occurrence": "C",
+      "role_a": "C",
+      "role_b": "U",
+      "participant": "U",
+      "record": "U"
+    }
+  },
+  {
+    "call_id": "B08-qwen-SINGLE-P07-SAME-NO-E2",
+    "sentence": "皮安未被包文赠予一束鲜花。",
+    "raw": "{\"events\":[{\"occurred\":\"YES\",\"giver\":\"皮安\",\"recipient\":\"未被包文\"}]}",
+    "values": [
+      [
+        "role_b",
+        "未被包文"
+      ]
+    ],
+    "scores": {
+      "occurrence": "W",
+      "role_a": "W",
+      "role_b": "U",
+      "participant": "W",
+      "record": "W"
+    }
+  }
+]

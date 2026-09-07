@@ -1,0 +1,88 @@
+{
+  "scope": "Completed Branch batches B01-B08 only; historical response reuse excluded",
+  "batches": [
+    {
+      "batch": "B01",
+      "new_responses": 48,
+      "new_forwards": 1928,
+      "paid_usd": 0,
+      "all_eos": true,
+      "source_package": "evidence_event_contract_followup_v1",
+      "scoring_identity": "AI_NOT_INDEPENDENT_HUMAN_GOLD",
+      "output_human_review_completed": false
+    },
+    {
+      "batch": "B02",
+      "new_responses": 24,
+      "new_forwards": 1244,
+      "paid_usd": 0,
+      "all_eos": true,
+      "source_package": "prose_to_event_chain_v1",
+      "scoring_identity": "AI_NOT_INDEPENDENT_HUMAN_GOLD",
+      "output_human_review_completed": false
+    },
+    {
+      "batch": "B03",
+      "new_responses": 120,
+      "new_forwards": 3357,
+      "paid_usd": 0,
+      "all_eos": true,
+      "source_package": "event_granularity_role_schema_v1",
+      "scoring_identity": "AI_NOT_INDEPENDENT_HUMAN_GOLD",
+      "output_human_review_completed": false
+    },
+    {
+      "batch": "B04",
+      "new_responses": 144,
+      "new_forwards": 7637,
+      "paid_usd": 0,
+      "all_eos": true,
+      "source_package": "typed_role_transfer_v1",
+      "scoring_identity": "AI_NOT_INDEPENDENT_HUMAN_GOLD",
+      "output_human_review_completed": false
+    },
+    {
+      "batch": "B05",
+      "new_responses": 80,
+      "new_forwards": 4841,
+      "paid_usd": 0,
+      "all_eos": true,
+      "source_package": "qwen_translation_bridge_v1",
+      "scoring_identity": "AI_NOT_INDEPENDENT_HUMAN_GOLD",
+      "output_human_review_completed": false
+    },
+    {
+      "batch": "B06",
+      "new_responses": 128,
+      "new_forwards": 8796,
+      "paid_usd": 0,
+      "all_eos": true,
+      "source_package": "role_order_counterfactual_v1",
+      "scoring_identity": "AI_NOT_INDEPENDENT_HUMAN_GOLD",
+      "output_human_review_completed": false
+    },
+    {
+      "batch": "B07",
+      "new_responses": 192,
+      "new_forwards": 12762,
+      "paid_usd": 0,
+      "all_eos": true,
+      "source_package": "input_output_order_factorial_v1",
+      "scoring_identity": "AI_NOT_INDEPENDENT_HUMAN_GOLD",
+      "output_human_review_completed": false
+    },
+    {
+      "batch": "B08",
+      "new_responses": 104,
+      "new_forwards": 2339,
+      "paid_usd": 0,
+      "all_eos": true,
+      "source_package": "single_event_context_output_v1",
+      "scoring_identity": "AI_NOT_INDEPENDENT_HUMAN_GOLD",
+      "output_human_review_completed": false
+    }
+  ],
+  "new_responses": 840,
+  "new_forwards": 42904,
+  "independent_sample_size_not_equal_to_calls": true
+}

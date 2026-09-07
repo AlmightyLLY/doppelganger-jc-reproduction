@@ -1,0 +1,137 @@
+{
+  "experiment_id": "EXP-20260907-B02",
+  "at_utc": "2026-09-07T09:55:27.940516+00:00",
+  "new_calls": 24,
+  "new_forwards": 1244,
+  "parents_reused": 24,
+  "direct_baselines_reused": 24,
+  "summaries": [
+    {
+      "model": "qwen",
+      "arm": "DIRECT",
+      "n": 16,
+      "joint_C": 16,
+      "joint_W": 0,
+      "joint_U": 0,
+      "occurrence_C": 16,
+      "occurrence_W": 0,
+      "occurrence_U": 0,
+      "role_C": 10,
+      "role_W": 0,
+      "role_U": 0
+    },
+    {
+      "model": "qwen",
+      "arm": "CHAIN",
+      "n": 16,
+      "joint_C": 16,
+      "joint_W": 0,
+      "joint_U": 0,
+      "occurrence_C": 16,
+      "occurrence_W": 0,
+      "occurrence_U": 0,
+      "role_C": 10,
+      "role_W": 0,
+      "role_U": 0
+    },
+    {
+      "model": "llmjp",
+      "arm": "DIRECT",
+      "n": 16,
+      "joint_C": 14,
+      "joint_W": 2,
+      "joint_U": 0,
+      "occurrence_C": 16,
+      "occurrence_W": 0,
+      "occurrence_U": 0,
+      "role_C": 8,
+      "role_W": 2,
+      "role_U": 0
+    },
+    {
+      "model": "llmjp",
+      "arm": "CHAIN",
+      "n": 16,
+      "joint_C": 14,
+      "joint_W": 2,
+      "joint_U": 0,
+      "occurrence_C": 16,
+      "occurrence_W": 0,
+      "occurrence_U": 0,
+      "role_C": 8,
+      "role_W": 2,
+      "role_U": 0
+    },
+    {
+      "model": "apertus",
+      "arm": "DIRECT",
+      "n": 16,
+      "joint_C": 14,
+      "joint_W": 2,
+      "joint_U": 0,
+      "occurrence_C": 16,
+      "occurrence_W": 0,
+      "occurrence_U": 0,
+      "role_C": 8,
+      "role_W": 2,
+      "role_U": 0
+    },
+    {
+      "model": "apertus",
+      "arm": "CHAIN",
+      "n": 16,
+      "joint_C": 10,
+      "joint_W": 6,
+      "joint_U": 0,
+      "occurrence_C": 12,
+      "occurrence_W": 4,
+      "occurrence_U": 0,
+      "role_C": 8,
+      "role_W": 2,
+      "role_U": 0
+    }
+  ],
+  "gates": [
+    {
+      "model": "qwen",
+      "role_W_to_C": 0,
+      "joint_W_to_C": 0,
+      "joint_C_to_W": 0,
+      "joint_C_to_U": 0,
+      "occurrence_all_correct": true,
+      "joint_transitions": {
+        "C->C": 16
+      }
+    },
+    {
+      "model": "llmjp",
+      "role_W_to_C": 0,
+      "joint_W_to_C": 0,
+      "joint_C_to_W": 0,
+      "joint_C_to_U": 0,
+      "occurrence_all_correct": true,
+      "joint_transitions": {
+        "C->C": 14,
+        "W->W": 2
+      }
+    },
+    {
+      "model": "apertus",
+      "role_W_to_C": 0,
+      "joint_W_to_C": 0,
+      "joint_C_to_W": 4,
+      "joint_C_to_U": 0,
+      "occurrence_all_correct": false,
+      "joint_transitions": {
+        "C->C": 10,
+        "C->W": 4,
+        "W->W": 2
+      }
+    }
+  ],
+  "feasibility_gate_pass": false,
+  "projection_parse_all_valid": true,
+  "parent_historical_forwards": 680,
+  "output_human_review_complete": false,
+  "independent_confirmation": false
+}

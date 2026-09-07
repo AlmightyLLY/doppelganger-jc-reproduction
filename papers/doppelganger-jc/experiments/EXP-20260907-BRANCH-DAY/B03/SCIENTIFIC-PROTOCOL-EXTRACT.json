@@ -1,0 +1,72 @@
+{
+  "experiment_id": "EXP-20260907-B03",
+  "version": "prepared-v1",
+  "created_at": "2026-09-07T10:14:31.125611+00:00",
+  "question": "Sensitivity of failed true PROSE-to-event conversion to event granularity and role field naming; no internal causal claim.",
+  "assistant_prediction": "字段语义明确化和单事件读取可能改善角色转换，也可能只改变格式或仍保留内容错误；ATOM_TYPED预先指定为待扩展候选，不能事后换为最佳臂。",
+  "design": {
+    "PAIR_GENERIC": "Reuse all24 B02 children without rerun",
+    "PAIR_TYPED": "Same complete parent; only role_a/role_b names and their matching references change to typed domain keys",
+    "ATOM_GENERIC": "Two byte-exact month-separated parts of each real parent, one event per call, generic keys",
+    "ATOM_TYPED": "Same byte-exact single-event parts with typed keys"
+  },
+  "models": [
+    {
+      "key": "qwen",
+      "model_id": "Qwen/Qwen3-8B",
+      "revision": "b968826d9c46dd6066d109eabc6255188de91218"
+    },
+    {
+      "key": "llmjp",
+      "model_id": "llm-jp/llm-jp-4-8b-instruct",
+      "revision": "098f2b2cf33021eba19a6d3582aa3d071ccc0aff"
+    },
+    {
+      "key": "apertus",
+      "model_id": "swiss-ai/Apertus-8B-Instruct-2509",
+      "revision": "b946d40447b2b597999b9c86d44bee0b452c919f"
+    }
+  ],
+  "new_calls": 120,
+  "new_calls_per_model": 40,
+  "new_call_breakdown_per_model": {
+    "PAIR_TYPED": 8,
+    "ATOM_GENERIC": 16,
+    "ATOM_TYPED": 16
+  },
+  "historical_baselines_reused": 24,
+  "parents_reused": 24,
+  "paid_cost_usd": 0,
+  "max_new_tokens": 256,
+  "max_input_tokens": 4096,
+  "generation_policy": "Original fixed revision/native direct-final/seed0/bf16/eager/no-KV/TF32-off/full-vocabulary greedy settings unchanged",
+  "sample_unit": "8 exposed parent pairs per model;16 original sentence positions per arm/model,10 affirmative6 negative,2 reused domains; not independent n",
+  "splitting": "Exactly one 六月 and one 九月 per actual parent, in that order; split at byte-start of 九月, preserving all whitespace. Concatenation must equal full original UTF8 bytes. Any anomaly stops preparation.",
+  "primary_endpoint": "Complete event correctness on each source position: occurrence C and affirmative-role C gives joint C; negative source requires unique NO without self-contradiction, role names alone do not assert occurrence. Unique opposite occurrence or unique opposite affirmative roles gives W. Omission, contradiction, indeterminacy gives U with reason. Conflicting claims stay U, not W.",
+  "scoring": "Coordinator full-answer AI review, occurrence/affirmative-role/joint C W U and U reasons, format and language separately. Source position bound by metadata, pair array order fixed, no post-hoc reordering or regex semantic gold.",
+  "comparisons": [
+    "Typed-vs-generic within PAIR and within ATOM",
+    "ATOM-vs-PAIR within GENERIC and within TYPED",
+    "Descriptive interaction: (ATOM_TYPED-ATOM_GENERIC)-(PAIR_TYPED-PAIR_GENERIC), keeping paired transitions and per-model components"
+  ],
+  "preselected_candidate": "ATOM_TYPED",
+  "expansion_gate": "For ATOM_TYPED: all3 models occurrence16/16 and jointU0; no model has jointC->W/U relative to PAIR_GENERIC; llmjp and apertus each rescue >=1 historical roleW; Qwen preserves all-correct; parent-child integrity PASS.",
+  "outcome_actions": {
+    "pass": "May prepare B04 independent new materials as a subsequent explicitly scoped batch; no B04 execution authorized here",
+    "fail": "Retain every component and failure; stop the combined candidate, no extra correction or best-arm substitution"
+  },
+  "limits": [
+    "Already exposed parents and historical baseline, not independent confirmation",
+    "Granularity also reduces context and changes call count; not compute matched or pure position mechanism",
+    "Qwen7/8 Japanese parents remain language failures; downstream typed success cannot repair Chinese output compliance",
+    "Original source range author-supplied; quantity fidelity remains secondary unresolved",
+    "Not full QA reliability or internal mechanism proof"
+  ],
+  "stops": [
+    "Any split/count/byte-identity anomaly",
+    "No coordinator presentation and explicit execution instruction",
+    "Material/prompt changes outside reviewed preparation",
+    "more than120 calls, input truncation, duplicate finished call",
+    "runtime comparability failure, assigned GPU conflict, paid service requirement"
+  ]
+}

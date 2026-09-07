@@ -1,0 +1,95 @@
+{
+  "experiment_id": "EXP-20260907-B01",
+  "version": "reviewed-v1",
+  "created_at_utc": "2026-09-07T08:18:22.989026+00:00",
+  "assistant_question": "同一正确原句的发生状态错误，是否依赖紧凑事件编码；改成自然复述或显式发生状态后是否保留正确语义？",
+  "assistant_competing_explanations": {
+    "response_contract_dependence": "旧编码把否定压成NONE，改变任务表达后同一发生状态可能被正确保留。",
+    "persistent_content_error": "在多种合理输出要求下仍出现同向的否定脱落，问题不只限于旧编码。",
+    "measurement_artifact": "形式或有限解析覆盖改变，人工阅读的发生状态没有相应改变。"
+  },
+  "materials": {
+    "selection": "按领域和预先声明的四个profile取全部ACTIVE材料，固定JA指令；未用逐条模型得分筛选，但研究者已知全批结果，属于事后选择的开发重访。",
+    "source_pool": 24,
+    "selected_context_pairs": 8,
+    "event_positions_per_model_arm": 16,
+    "negative_positions_per_model_arm": 6,
+    "positive_positions_per_model_arm": 10,
+    "domains": 2,
+    "independent_family_count": "Not established; two reused domains with shared template and names",
+    "new_independent_materials": 0,
+    "sealed_materials_accessed": false
+  },
+  "arms": {
+    "LEGACY": "原ORACLE_ONLY实际输出原字节复用，不重跑。",
+    "PROSE": "同两句自然中文复述。",
+    "EXPLICIT": "同两句分别输出发生状态及被描述的角色。"
+  },
+  "models": [
+    {
+      "key": "qwen",
+      "model_id": "Qwen/Qwen3-8B",
+      "revision": "b968826d9c46dd6066d109eabc6255188de91218"
+    },
+    {
+      "key": "llmjp",
+      "model_id": "llm-jp/llm-jp-4-8b-instruct",
+      "revision": "098f2b2cf33021eba19a6d3582aa3d071ccc0aff"
+    },
+    {
+      "key": "apertus",
+      "model_id": "swiss-ai/Apertus-8B-Instruct-2509",
+      "revision": "b946d40447b2b597999b9c86d44bee0b452c919f"
+    }
+  ],
+  "planned_new_calls": 48,
+  "reused_calls": 24,
+  "planned_total_response_records": 72,
+  "new_calls_per_model": 16,
+  "paid_cost_usd": 0,
+  "max_new_tokens": 256,
+  "max_model_input_tokens": 4096,
+  "generation_settings": "Match the old frozen model revisions, native direct-final boundaries, greedy seed0 bf16 eager no-KV TF32-off settings; verify software/environment provenance before interpreting archived/new differences. No old output reruns.",
+  "primary_endpoint": "Each of the 16 source-sentence positions per model/arm: semantic occurrence C/W/U from the complete response. Report 10 positive and 6 negative positions separately, paired transitions, rescues W->C, ambiguity resolution U->C, new harms C->W and C->U separately.",
+  "content_rule": {
+    "C": "A unique unambiguous occurrence state consistent with the source.",
+    "W": "A unique explicit opposite occurrence state.",
+    "U": "No resolved unique state, including omission, explicit uncertainty, contradictory self-claims or uninterpretable text. Reason subcode required. U remains in denominator."
+  },
+  "secondary_endpoints": [
+    "role direction on the 10 affirmative positions",
+    "omission",
+    "unsupported additions",
+    "Chinese language compliance for PROSE only",
+    "format compliance per arm",
+    "full-response consistency",
+    "actual token/forward cost"
+  ],
+  "scoring_implementation": "Semantic labels require full-response review; no undeclared regex/LLM-as-gold main scoring. Broad re-encoding or illegitimate schema must not change frozen upstream scores. Old event value labels are not automatically new occurrence gold.",
+  "assistant_screening_rule_not_user_prediction": "For a given new arm, at least 2 W->C occurrence rescues spanning both domains and zero C->W/C->U occurrence harms in a model nominates a within-model candidate. At least two models meeting this only motivates independent new-material testing. It is not significance, equivalence, causal mechanism or a general method gate.",
+  "outcome_actions": {
+    "prose_and_explicit_improve": "Prioritize response-contract dependence on new materials; do not say model knew then failed internally.",
+    "only_prose_improves": "Prioritize structured-output/task-language confounds; isolate them prospectively before a schema-only claim.",
+    "only_explicit_improves": "Investigate explicit occurrence prompting as a bounded interface candidate; field order and instruction confounds remain.",
+    "both_still_wrong": "Recheck material and semantic scoring, then consider new source contexts; not proof of universal inability.",
+    "all_correct_or_baseline_no_errors": "Ceiling/insufficient discrimination in this subset; do not add known failures posthoc to force gains.",
+    "unresolved_or_harms": "Keep U and harms, withhold reliability claim, resolve measurement before scope expansion."
+  },
+  "stops": [
+    "Missing user prediction or actual-input review",
+    "Material or semantic rule changes without review of the changed part",
+    "Incomplete or nonmatching archived baseline identity/provenance",
+    "Runtime/model configuration mismatch that compromises the planned archived comparison",
+    "Foreign GPU activity at a defined boundary; stop only this experiment",
+    "Input truncation or budget overrun risk",
+    "No new paid services; never expand this batch or repeat completed outputs"
+  ],
+  "claim_limits": [
+    "Previously exposed author-fictional development material; no independent bilingual gold or confirmation",
+    "Both new arms are independent prompts, not an actually chained multistep intervention",
+    "Occurrence is the shared endpoint; role schema, language, instructions and output length also change, so this is not a pure JSON causal isolation",
+    "Not evidence of homograph-specific mechanism or full natural translation transfer",
+    "Does not depend on EXP-20260907-01 disputed scores"
+  ],
+  "frozen_at_utc": "2026-09-07T09:22:27.948628+00:00"
+}

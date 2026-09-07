@@ -1,0 +1,1466 @@
+[
+  {
+    "material_id": "B01",
+    "review_id": "OLD-qwen-SGV-0014",
+    "raw_record": {
+      "call_id": "SGV-0014",
+      "world_id": "SGV-hire-SAME-ACTIVE-JA",
+      "arm": "ORACLE_ONLY",
+      "question": null,
+      "model": "qwen",
+      "messages": [
+        {
+          "role": "user",
+          "content": "正しい対象範囲として与えられた二つの原文を、それぞれ別々に読んでください。\n[\"六月、青木は森田を助手として雇用しました。\", \"九月、青木は森田を助手として雇用しました。\"]\n出力はJSONオブジェクト一つだけにしてください。形式：{\"values\":[\"值1\",\"值2\"]}。二つのvaluesは引用順に対応します。各値は実際の名前を使った「雇用した人>雇用された人」の順の文字列、出来事が明記して起きていなければ「NONE」、その引用から信頼して判定できなければ「UNVERIFIED」にしてください。推測で役割や発生を補わず、否定を落とさないでください。"
+        }
+      ],
+      "prompt_sha256": "6478a6081040696aeac89120fde5618b125066aa109d9ca7e9a39c9d3f9a81dd",
+      "rendered_prefix_sha256": "197de1636f0077b283caaca694fa1e3c0f4473c1147485678f60862849a6a625",
+      "input_token_n": 184,
+      "native_template": {
+        "template_kwargs": {
+          "enable_thinking": false
+        },
+        "messages": [
+          {
+            "role": "user",
+            "content": "正しい対象範囲として与えられた二つの原文を、それぞれ別々に読んでください。\n[\"六月、青木は森田を助手として雇用しました。\", \"九月、青木は森田を助手として雇用しました。\"]\n出力はJSONオブジェクト一つだけにしてください。形式：{\"values\":[\"值1\",\"值2\"]}。二つのvaluesは引用順に対応します。各値は実際の名前を使った「雇用した人>雇用された人」の順の文字列、出来事が明記して起きていなければ「NONE」、その引用から信頼して判定できなければ「UNVERIFIED」にしてください。推測で役割や発生を補わず、否定を落とさないでください。"
+          }
+        ],
+        "mode": "FORCED_DIRECT_FINAL_FULL_VOCAB",
+        "terminator_scored": false,
+        "native_generation_prefix_sha256": "197de1636f0077b283caaca694fa1e3c0f4473c1147485678f60862849a6a625"
+      },
+      "parent_text_sha256": {},
+      "generated_text": "{\"values\":[\"青木>森田\",\"青木>森田\"]}",
+      "generated_token_ids": [
+        4913,
+        3661,
+        36799,
+        99467,
+        75405,
+        29,
+        100739,
+        99810,
+        2198,
+        99467,
+        75405,
+        29,
+        100739,
+        99810,
+        92446,
+        151645
+      ],
+      "generated_token_n": 16,
+      "row_forward_n": 16,
+      "finish_reason": "EOS",
+      "stopped_on_eos": true,
+      "row_seconds": 0.5263740969821811
+    },
+    "reuse_only": true
+  },
+  {
+    "material_id": "B01",
+    "review_id": "OLD-llmjp-SGV-0014",
+    "raw_record": {
+      "call_id": "SGV-0014",
+      "world_id": "SGV-hire-SAME-ACTIVE-JA",
+      "arm": "ORACLE_ONLY",
+      "question": null,
+      "model": "llmjp",
+      "messages": [
+        {
+          "role": "user",
+          "content": "正しい対象範囲として与えられた二つの原文を、それぞれ別々に読んでください。\n[\"六月、青木は森田を助手として雇用しました。\", \"九月、青木は森田を助手として雇用しました。\"]\n出力はJSONオブジェクト一つだけにしてください。形式：{\"values\":[\"值1\",\"值2\"]}。二つのvaluesは引用順に対応します。各値は実際の名前を使った「雇用した人>雇用された人」の順の文字列、出来事が明記して起きていなければ「NONE」、その引用から信頼して判定できなければ「UNVERIFIED」にしてください。推測で役割や発生を補わず、否定を落とさないでください。"
+        }
+      ],
+      "prompt_sha256": "6478a6081040696aeac89120fde5618b125066aa109d9ca7e9a39c9d3f9a81dd",
+      "rendered_prefix_sha256": "31a023bbca9b6d20f0635a463c90db797f1dd63016aadde236b7ebf285c098a5",
+      "input_token_n": 210,
+      "native_template": {
+        "template_kwargs": {
+          "conversation_start_date": "2026-09-06"
+        },
+        "messages": [
+          {
+            "role": "user",
+            "content": "正しい対象範囲として与えられた二つの原文を、それぞれ別々に読んでください。\n[\"六月、青木は森田を助手として雇用しました。\", \"九月、青木は森田を助手として雇用しました。\"]\n出力はJSONオブジェクト一つだけにしてください。形式：{\"values\":[\"值1\",\"值2\"]}。二つのvaluesは引用順に対応します。各値は実際の名前を使った「雇用した人>雇用された人」の順の文字列、出来事が明記して起きていなければ「NONE」、その引用から信頼して判定できなければ「UNVERIFIED」にしてください。推測で役割や発生を補わず、否定を落とさないでください。"
+          }
+        ],
+        "mode": "FORCED_DIRECT_FINAL_FULL_VOCAB",
+        "terminator_scored": false,
+        "native_generation_prefix_sha256": "1162b3f8e89d7d1efc28804b59673d02a9bbb31937b68baf72d067a136015d95"
+      },
+      "parent_text_sha256": {},
+      "generated_text": "{\"values\":[\"青木>森田\",\"青木>森田\"]}",
+      "generated_token_ids": [
+        8671,
+        12656,
+        4811,
+        7403,
+        46048,
+        806,
+        71675,
+        3484,
+        46048,
+        806,
+        71675,
+        8676,
+        653,
+        2
+      ],
+      "generated_token_n": 14,
+      "row_forward_n": 14,
+      "finish_reason": "EOS",
+      "stopped_on_eos": true,
+      "row_seconds": 0.4628743762150407
+    },
+    "reuse_only": true
+  },
+  {
+    "material_id": "B01",
+    "review_id": "OLD-apertus-SGV-0014",
+    "raw_record": {
+      "call_id": "SGV-0014",
+      "world_id": "SGV-hire-SAME-ACTIVE-JA",
+      "arm": "ORACLE_ONLY",
+      "question": null,
+      "model": "apertus",
+      "messages": [
+        {
+          "role": "user",
+          "content": "正しい対象範囲として与えられた二つの原文を、それぞれ別々に読んでください。\n[\"六月、青木は森田を助手として雇用しました。\", \"九月、青木は森田を助手として雇用しました。\"]\n出力はJSONオブジェクト一つだけにしてください。形式：{\"values\":[\"值1\",\"值2\"]}。二つのvaluesは引用順に対応します。各値は実際の名前を使った「雇用した人>雇用された人」の順の文字列、出来事が明記して起きていなければ「NONE」、その引用から信頼して判定できなければ「UNVERIFIED」にしてください。推測で役割や発生を補わず、否定を落とさないでください。"
+        }
+      ],
+      "prompt_sha256": "6478a6081040696aeac89120fde5618b125066aa109d9ca7e9a39c9d3f9a81dd",
+      "rendered_prefix_sha256": "f1598fef1ab0ba1c4aa22ae4e41901e962cb9846f0b9341c94be50dbc8cee53f",
+      "input_token_n": 256,
+      "native_template": {
+        "template_kwargs": {
+          "enable_thinking": false
+        },
+        "messages": [
+          {
+            "role": "system",
+            "content": "You are Apertus, a helpful assistant created by the SwissAI initiative.\nKnowledge cutoff: 2024-04\nCurrent date: 2026-09-06"
+          },
+          {
+            "role": "user",
+            "content": "正しい対象範囲として与えられた二つの原文を、それぞれ別々に読んでください。\n[\"六月、青木は森田を助手として雇用しました。\", \"九月、青木は森田を助手として雇用しました。\"]\n出力はJSONオブジェクト一つだけにしてください。形式：{\"values\":[\"值1\",\"值2\"]}。二つのvaluesは引用順に対応します。各値は実際の名前を使った「雇用した人>雇用された人」の順の文字列、出来事が明記して起きていなければ「NONE」、その引用から信頼して判定できなければ「UNVERIFIED」にしてください。推測で役割や発生を補わず、否定を落とさないでください。"
+          }
+        ],
+        "mode": "FORCED_DIRECT_FINAL_FULL_VOCAB",
+        "terminator_scored": false,
+        "native_generation_prefix_sha256": "f1598fef1ab0ba1c4aa22ae4e41901e962cb9846f0b9341c94be50dbc8cee53f"
+      },
+      "parent_text_sha256": {},
+      "generated_text": "{\"values\": [\"青木>森田\", \"青木>森田\"]}",
+      "generated_token_ids": [
+        19227,
+        10855,
+        2811,
+        12161,
+        46904,
+        23942,
+        1062,
+        35137,
+        16770,
+        1897,
+        1429,
+        46904,
+        23942,
+        1062,
+        35137,
+        16770,
+        4964,
+        1125,
+        68
+      ],
+      "generated_token_n": 19,
+      "row_forward_n": 19,
+      "finish_reason": "EOS",
+      "stopped_on_eos": true,
+      "row_seconds": 0.8660172782838345
+    },
+    "reuse_only": true
+  },
+  {
+    "material_id": "B02",
+    "review_id": "OLD-qwen-SGV-0194",
+    "raw_record": {
+      "call_id": "SGV-0194",
+      "world_id": "SGV-hire-REVERSED-ACTIVE-JA",
+      "arm": "ORACLE_ONLY",
+      "question": null,
+      "model": "qwen",
+      "messages": [
+        {
+          "role": "user",
+          "content": "正しい対象範囲として与えられた二つの原文を、それぞれ別々に読んでください。\n[\"六月、青木は森田を助手として雇用しました。\", \"九月、森田は青木を助手として雇用しました。\"]\n出力はJSONオブジェクト一つだけにしてください。形式：{\"values\":[\"值1\",\"值2\"]}。二つのvaluesは引用順に対応します。各値は実際の名前を使った「雇用した人>雇用された人」の順の文字列、出来事が明記して起きていなければ「NONE」、その引用から信頼して判定できなければ「UNVERIFIED」にしてください。推測で役割や発生を補わず、否定を落とさないでください。"
+        }
+      ],
+      "prompt_sha256": "94a0518a04f0bf102a7423dccfce6483d2b093f1dfad957bb111c065f1287aab",
+      "rendered_prefix_sha256": "13674395b54e351ed47f918924b99af40790f15575e1e311a37825d15e3e430d",
+      "input_token_n": 184,
+      "native_template": {
+        "template_kwargs": {
+          "enable_thinking": false
+        },
+        "messages": [
+          {
+            "role": "user",
+            "content": "正しい対象範囲として与えられた二つの原文を、それぞれ別々に読んでください。\n[\"六月、青木は森田を助手として雇用しました。\", \"九月、森田は青木を助手として雇用しました。\"]\n出力はJSONオブジェクト一つだけにしてください。形式：{\"values\":[\"值1\",\"值2\"]}。二つのvaluesは引用順に対応します。各値は実際の名前を使った「雇用した人>雇用された人」の順の文字列、出来事が明記して起きていなければ「NONE」、その引用から信頼して判定できなければ「UNVERIFIED」にしてください。推測で役割や発生を補わず、否定を落とさないでください。"
+          }
+        ],
+        "mode": "FORCED_DIRECT_FINAL_FULL_VOCAB",
+        "terminator_scored": false,
+        "native_generation_prefix_sha256": "13674395b54e351ed47f918924b99af40790f15575e1e311a37825d15e3e430d"
+      },
+      "parent_text_sha256": {},
+      "generated_text": "{\"values\":[\"青木>森田\",\"森田>青木\"]}",
+      "generated_token_ids": [
+        4913,
+        3661,
+        36799,
+        99467,
+        75405,
+        29,
+        100739,
+        99810,
+        2198,
+        100739,
+        99810,
+        29,
+        99467,
+        75405,
+        92446,
+        151645
+      ],
+      "generated_token_n": 16,
+      "row_forward_n": 16,
+      "finish_reason": "EOS",
+      "stopped_on_eos": true,
+      "row_seconds": 0.5408412488177419
+    },
+    "reuse_only": true
+  },
+  {
+    "material_id": "B02",
+    "review_id": "OLD-llmjp-SGV-0194",
+    "raw_record": {
+      "call_id": "SGV-0194",
+      "world_id": "SGV-hire-REVERSED-ACTIVE-JA",
+      "arm": "ORACLE_ONLY",
+      "question": null,
+      "model": "llmjp",
+      "messages": [
+        {
+          "role": "user",
+          "content": "正しい対象範囲として与えられた二つの原文を、それぞれ別々に読んでください。\n[\"六月、青木は森田を助手として雇用しました。\", \"九月、森田は青木を助手として雇用しました。\"]\n出力はJSONオブジェクト一つだけにしてください。形式：{\"values\":[\"值1\",\"值2\"]}。二つのvaluesは引用順に対応します。各値は実際の名前を使った「雇用した人>雇用された人」の順の文字列、出来事が明記して起きていなければ「NONE」、その引用から信頼して判定できなければ「UNVERIFIED」にしてください。推測で役割や発生を補わず、否定を落とさないでください。"
+        }
+      ],
+      "prompt_sha256": "94a0518a04f0bf102a7423dccfce6483d2b093f1dfad957bb111c065f1287aab",
+      "rendered_prefix_sha256": "21eb58dec4e9f80e56b8e1dc3cddaee0c2719d82b03299ea3cc348e23d4ba2ee",
+      "input_token_n": 210,
+      "native_template": {
+        "template_kwargs": {
+          "conversation_start_date": "2026-09-06"
+        },
+        "messages": [
+          {
+            "role": "user",
+            "content": "正しい対象範囲として与えられた二つの原文を、それぞれ別々に読んでください。\n[\"六月、青木は森田を助手として雇用しました。\", \"九月、森田は青木を助手として雇用しました。\"]\n出力はJSONオブジェクト一つだけにしてください。形式：{\"values\":[\"值1\",\"值2\"]}。二つのvaluesは引用順に対応します。各値は実際の名前を使った「雇用した人>雇用された人」の順の文字列、出来事が明記して起きていなければ「NONE」、その引用から信頼して判定できなければ「UNVERIFIED」にしてください。推測で役割や発生を補わず、否定を落とさないでください。"
+          }
+        ],
+        "mode": "FORCED_DIRECT_FINAL_FULL_VOCAB",
+        "terminator_scored": false,
+        "native_generation_prefix_sha256": "8c669c4fa650b61346649e8fb6edb4b1e4dd560127de5e04b6fbdf15a29c714a"
+      },
+      "parent_text_sha256": {},
+      "generated_text": "{\"values\":[\"青木>森田\",\"森田>青木\"]}",
+      "generated_token_ids": [
+        8671,
+        12656,
+        4811,
+        7403,
+        46048,
+        806,
+        71675,
+        3484,
+        71675,
+        806,
+        46048,
+        8676,
+        653,
+        2
+      ],
+      "generated_token_n": 14,
+      "row_forward_n": 14,
+      "finish_reason": "EOS",
+      "stopped_on_eos": true,
+      "row_seconds": 0.4907374596223235
+    },
+    "reuse_only": true
+  },
+  {
+    "material_id": "B02",
+    "review_id": "OLD-apertus-SGV-0194",
+    "raw_record": {
+      "call_id": "SGV-0194",
+      "world_id": "SGV-hire-REVERSED-ACTIVE-JA",
+      "arm": "ORACLE_ONLY",
+      "question": null,
+      "model": "apertus",
+      "messages": [
+        {
+          "role": "user",
+          "content": "正しい対象範囲として与えられた二つの原文を、それぞれ別々に読んでください。\n[\"六月、青木は森田を助手として雇用しました。\", \"九月、森田は青木を助手として雇用しました。\"]\n出力はJSONオブジェクト一つだけにしてください。形式：{\"values\":[\"值1\",\"值2\"]}。二つのvaluesは引用順に対応します。各値は実際の名前を使った「雇用した人>雇用された人」の順の文字列、出来事が明記して起きていなければ「NONE」、その引用から信頼して判定できなければ「UNVERIFIED」にしてください。推測で役割や発生を補わず、否定を落とさないでください。"
+        }
+      ],
+      "prompt_sha256": "94a0518a04f0bf102a7423dccfce6483d2b093f1dfad957bb111c065f1287aab",
+      "rendered_prefix_sha256": "0b6dcaf2255d28dca36a6b3d730a916a7c78179b1185c3b4efc3698eeea97bb3",
+      "input_token_n": 256,
+      "native_template": {
+        "template_kwargs": {
+          "enable_thinking": false
+        },
+        "messages": [
+          {
+            "role": "system",
+            "content": "You are Apertus, a helpful assistant created by the SwissAI initiative.\nKnowledge cutoff: 2024-04\nCurrent date: 2026-09-06"
+          },
+          {
+            "role": "user",
+            "content": "正しい対象範囲として与えられた二つの原文を、それぞれ別々に読んでください。\n[\"六月、青木は森田を助手として雇用しました。\", \"九月、森田は青木を助手として雇用しました。\"]\n出力はJSONオブジェクト一つだけにしてください。形式：{\"values\":[\"值1\",\"值2\"]}。二つのvaluesは引用順に対応します。各値は実際の名前を使った「雇用した人>雇用された人」の順の文字列、出来事が明記して起きていなければ「NONE」、その引用から信頼して判定できなければ「UNVERIFIED」にしてください。推測で役割や発生を補わず、否定を落とさないでください。"
+          }
+        ],
+        "mode": "FORCED_DIRECT_FINAL_FULL_VOCAB",
+        "terminator_scored": false,
+        "native_generation_prefix_sha256": "0b6dcaf2255d28dca36a6b3d730a916a7c78179b1185c3b4efc3698eeea97bb3"
+      },
+      "parent_text_sha256": {},
+      "generated_text": "{\"values\": [\"青木>森田\", \"森田>青木\"]}",
+      "generated_token_ids": [
+        19227,
+        10855,
+        2811,
+        12161,
+        46904,
+        23942,
+        1062,
+        35137,
+        16770,
+        1897,
+        1429,
+        35137,
+        16770,
+        1062,
+        46904,
+        23942,
+        4964,
+        1125,
+        68
+      ],
+      "generated_token_n": 19,
+      "row_forward_n": 19,
+      "finish_reason": "EOS",
+      "stopped_on_eos": true,
+      "row_seconds": 0.9480153946205974
+    },
+    "reuse_only": true
+  },
+  {
+    "material_id": "B03",
+    "review_id": "OLD-qwen-SGV-0254",
+    "raw_record": {
+      "call_id": "SGV-0254",
+      "world_id": "SGV-hire-MIX_POLARITY-ACTIVE-JA",
+      "arm": "ORACLE_ONLY",
+      "question": null,
+      "model": "qwen",
+      "messages": [
+        {
+          "role": "user",
+          "content": "正しい対象範囲として与えられた二つの原文を、それぞれ別々に読んでください。\n[\"六月、青木は森田を助手として雇用しました。\", \"九月、青木は森田を助手として雇用しませんでした。\"]\n出力はJSONオブジェクト一つだけにしてください。形式：{\"values\":[\"值1\",\"值2\"]}。二つのvaluesは引用順に対応します。各値は実際の名前を使った「雇用した人>雇用された人」の順の文字列、出来事が明記して起きていなければ「NONE」、その引用から信頼して判定できなければ「UNVERIFIED」にしてください。推測で役割や発生を補わず、否定を落とさないでください。"
+        }
+      ],
+      "prompt_sha256": "916a915ee4eeaa5b7455a992daa1e940c43c57788f2ca8159be0b20fde18db3d",
+      "rendered_prefix_sha256": "cbed5294bee55583cf18851dfc6e2534884095252e5bcf7cc8ad2c286f67c544",
+      "input_token_n": 187,
+      "native_template": {
+        "template_kwargs": {
+          "enable_thinking": false
+        },
+        "messages": [
+          {
+            "role": "user",
+            "content": "正しい対象範囲として与えられた二つの原文を、それぞれ別々に読んでください。\n[\"六月、青木は森田を助手として雇用しました。\", \"九月、青木は森田を助手として雇用しませんでした。\"]\n出力はJSONオブジェクト一つだけにしてください。形式：{\"values\":[\"值1\",\"值2\"]}。二つのvaluesは引用順に対応します。各値は実際の名前を使った「雇用した人>雇用された人」の順の文字列、出来事が明記して起きていなければ「NONE」、その引用から信頼して判定できなければ「UNVERIFIED」にしてください。推測で役割や発生を補わず、否定を落とさないでください。"
+          }
+        ],
+        "mode": "FORCED_DIRECT_FINAL_FULL_VOCAB",
+        "terminator_scored": false,
+        "native_generation_prefix_sha256": "cbed5294bee55583cf18851dfc6e2534884095252e5bcf7cc8ad2c286f67c544"
+      },
+      "parent_text_sha256": {},
+      "generated_text": "{\"values\":[\"青木>森田\",\"NONE\"]}",
+      "generated_token_ids": [
+        4913,
+        3661,
+        36799,
+        99467,
+        75405,
+        29,
+        100739,
+        99810,
+        2198,
+        45425,
+        92446,
+        151645
+      ],
+      "generated_token_n": 12,
+      "row_forward_n": 12,
+      "finish_reason": "EOS",
+      "stopped_on_eos": true,
+      "row_seconds": 0.4083346063271165
+    },
+    "reuse_only": true
+  },
+  {
+    "material_id": "B03",
+    "review_id": "OLD-llmjp-SGV-0254",
+    "raw_record": {
+      "call_id": "SGV-0254",
+      "world_id": "SGV-hire-MIX_POLARITY-ACTIVE-JA",
+      "arm": "ORACLE_ONLY",
+      "question": null,
+      "model": "llmjp",
+      "messages": [
+        {
+          "role": "user",
+          "content": "正しい対象範囲として与えられた二つの原文を、それぞれ別々に読んでください。\n[\"六月、青木は森田を助手として雇用しました。\", \"九月、青木は森田を助手として雇用しませんでした。\"]\n出力はJSONオブジェクト一つだけにしてください。形式：{\"values\":[\"值1\",\"值2\"]}。二つのvaluesは引用順に対応します。各値は実際の名前を使った「雇用した人>雇用された人」の順の文字列、出来事が明記して起きていなければ「NONE」、その引用から信頼して判定できなければ「UNVERIFIED」にしてください。推測で役割や発生を補わず、否定を落とさないでください。"
+        }
+      ],
+      "prompt_sha256": "916a915ee4eeaa5b7455a992daa1e940c43c57788f2ca8159be0b20fde18db3d",
+      "rendered_prefix_sha256": "29cbe89d011b74a000671c3636e5c112cf44479e88ab93bc8b2c1bb04f112349",
+      "input_token_n": 210,
+      "native_template": {
+        "template_kwargs": {
+          "conversation_start_date": "2026-09-06"
+        },
+        "messages": [
+          {
+            "role": "user",
+            "content": "正しい対象範囲として与えられた二つの原文を、それぞれ別々に読んでください。\n[\"六月、青木は森田を助手として雇用しました。\", \"九月、青木は森田を助手として雇用しませんでした。\"]\n出力はJSONオブジェクト一つだけにしてください。形式：{\"values\":[\"值1\",\"值2\"]}。二つのvaluesは引用順に対応します。各値は実際の名前を使った「雇用した人>雇用された人」の順の文字列、出来事が明記して起きていなければ「NONE」、その引用から信頼して判定できなければ「UNVERIFIED」にしてください。推測で役割や発生を補わず、否定を落とさないでください。"
+          }
+        ],
+        "mode": "FORCED_DIRECT_FINAL_FULL_VOCAB",
+        "terminator_scored": false,
+        "native_generation_prefix_sha256": "89136dabc3f9db73017d34060e4f5ffed0a55a07da79289162408e3b2af121a3"
+      },
+      "parent_text_sha256": {},
+      "generated_text": "{\"values\":[\"青木>森田\",\"NONE\"]}",
+      "generated_token_ids": [
+        8671,
+        12656,
+        4811,
+        7403,
+        46048,
+        806,
+        71675,
+        3484,
+        55798,
+        8676,
+        653,
+        2
+      ],
+      "generated_token_n": 12,
+      "row_forward_n": 12,
+      "finish_reason": "EOS",
+      "stopped_on_eos": true,
+      "row_seconds": 0.4210250563919544
+    },
+    "reuse_only": true
+  },
+  {
+    "material_id": "B03",
+    "review_id": "OLD-apertus-SGV-0254",
+    "raw_record": {
+      "call_id": "SGV-0254",
+      "world_id": "SGV-hire-MIX_POLARITY-ACTIVE-JA",
+      "arm": "ORACLE_ONLY",
+      "question": null,
+      "model": "apertus",
+      "messages": [
+        {
+          "role": "user",
+          "content": "正しい対象範囲として与えられた二つの原文を、それぞれ別々に読んでください。\n[\"六月、青木は森田を助手として雇用しました。\", \"九月、青木は森田を助手として雇用しませんでした。\"]\n出力はJSONオブジェクト一つだけにしてください。形式：{\"values\":[\"值1\",\"值2\"]}。二つのvaluesは引用順に対応します。各値は実際の名前を使った「雇用した人>雇用された人」の順の文字列、出来事が明記して起きていなければ「NONE」、その引用から信頼して判定できなければ「UNVERIFIED」にしてください。推測で役割や発生を補わず、否定を落とさないでください。"
+        }
+      ],
+      "prompt_sha256": "916a915ee4eeaa5b7455a992daa1e940c43c57788f2ca8159be0b20fde18db3d",
+      "rendered_prefix_sha256": "48962b0a80bcea48f0ff5d6874022ec2d61aef89898f2ec802bea9c92f2498e3",
+      "input_token_n": 258,
+      "native_template": {
+        "template_kwargs": {
+          "enable_thinking": false
+        },
+        "messages": [
+          {
+            "role": "system",
+            "content": "You are Apertus, a helpful assistant created by the SwissAI initiative.\nKnowledge cutoff: 2024-04\nCurrent date: 2026-09-06"
+          },
+          {
+            "role": "user",
+            "content": "正しい対象範囲として与えられた二つの原文を、それぞれ別々に読んでください。\n[\"六月、青木は森田を助手として雇用しました。\", \"九月、青木は森田を助手として雇用しませんでした。\"]\n出力はJSONオブジェクト一つだけにしてください。形式：{\"values\":[\"值1\",\"值2\"]}。二つのvaluesは引用順に対応します。各値は実際の名前を使った「雇用した人>雇用された人」の順の文字列、出来事が明記して起きていなければ「NONE」、その引用から信頼して判定できなければ「UNVERIFIED」にしてください。推測で役割や発生を補わず、否定を落とさないでください。"
+          }
+        ],
+        "mode": "FORCED_DIRECT_FINAL_FULL_VOCAB",
+        "terminator_scored": false,
+        "native_generation_prefix_sha256": "48962b0a80bcea48f0ff5d6874022ec2d61aef89898f2ec802bea9c92f2498e3"
+      },
+      "parent_text_sha256": {},
+      "generated_text": "{\"values\": [\"青木>森田\", \"青木>森田\"]}",
+      "generated_token_ids": [
+        19227,
+        10855,
+        2811,
+        12161,
+        46904,
+        23942,
+        1062,
+        35137,
+        16770,
+        1897,
+        1429,
+        46904,
+        23942,
+        1062,
+        35137,
+        16770,
+        4964,
+        1125,
+        68
+      ],
+      "generated_token_n": 19,
+      "row_forward_n": 19,
+      "finish_reason": "EOS",
+      "stopped_on_eos": true,
+      "row_seconds": 0.9609973225742579
+    },
+    "reuse_only": true
+  },
+  {
+    "material_id": "B04",
+    "review_id": "OLD-qwen-SGV-0314",
+    "raw_record": {
+      "call_id": "SGV-0314",
+      "world_id": "SGV-hire-BOTH_NEGATIVE-ACTIVE-JA",
+      "arm": "ORACLE_ONLY",
+      "question": null,
+      "model": "qwen",
+      "messages": [
+        {
+          "role": "user",
+          "content": "正しい対象範囲として与えられた二つの原文を、それぞれ別々に読んでください。\n[\"六月、青木は森田を助手として雇用しませんでした。\", \"九月、小川は上田を助手として雇用しませんでした。\"]\n出力はJSONオブジェクト一つだけにしてください。形式：{\"values\":[\"值1\",\"值2\"]}。二つのvaluesは引用順に対応します。各値は実際の名前を使った「雇用した人>雇用された人」の順の文字列、出来事が明記して起きていなければ「NONE」、その引用から信頼して判定できなければ「UNVERIFIED」にしてください。推測で役割や発生を補わず、否定を落とさないでください。"
+        }
+      ],
+      "prompt_sha256": "8ba2b9631f3314978a46dbb4c8b21f3fbeaa7581071758c0736b78ac6e70681e",
+      "rendered_prefix_sha256": "baa6ba6459e1cacf20e872ae78af8079b5929470674de8242ed2b30ce11f8df9",
+      "input_token_n": 190,
+      "native_template": {
+        "template_kwargs": {
+          "enable_thinking": false
+        },
+        "messages": [
+          {
+            "role": "user",
+            "content": "正しい対象範囲として与えられた二つの原文を、それぞれ別々に読んでください。\n[\"六月、青木は森田を助手として雇用しませんでした。\", \"九月、小川は上田を助手として雇用しませんでした。\"]\n出力はJSONオブジェクト一つだけにしてください。形式：{\"values\":[\"值1\",\"值2\"]}。二つのvaluesは引用順に対応します。各値は実際の名前を使った「雇用した人>雇用された人」の順の文字列、出来事が明記して起きていなければ「NONE」、その引用から信頼して判定できなければ「UNVERIFIED」にしてください。推測で役割や発生を補わず、否定を落とさないでください。"
+          }
+        ],
+        "mode": "FORCED_DIRECT_FINAL_FULL_VOCAB",
+        "terminator_scored": false,
+        "native_generation_prefix_sha256": "baa6ba6459e1cacf20e872ae78af8079b5929470674de8242ed2b30ce11f8df9"
+      },
+      "parent_text_sha256": {},
+      "generated_text": "{\"values\":[\"青木>森田\",\"小川>上田\"]}",
+      "generated_token_ids": [
+        4913,
+        3661,
+        36799,
+        99467,
+        75405,
+        29,
+        100739,
+        99810,
+        2198,
+        30709,
+        100410,
+        29,
+        17447,
+        99810,
+        92446,
+        151645
+      ],
+      "generated_token_n": 16,
+      "row_forward_n": 16,
+      "finish_reason": "EOS",
+      "stopped_on_eos": true,
+      "row_seconds": 0.5468375105410814
+    },
+    "reuse_only": true
+  },
+  {
+    "material_id": "B04",
+    "review_id": "OLD-llmjp-SGV-0314",
+    "raw_record": {
+      "call_id": "SGV-0314",
+      "world_id": "SGV-hire-BOTH_NEGATIVE-ACTIVE-JA",
+      "arm": "ORACLE_ONLY",
+      "question": null,
+      "model": "llmjp",
+      "messages": [
+        {
+          "role": "user",
+          "content": "正しい対象範囲として与えられた二つの原文を、それぞれ別々に読んでください。\n[\"六月、青木は森田を助手として雇用しませんでした。\", \"九月、小川は上田を助手として雇用しませんでした。\"]\n出力はJSONオブジェクト一つだけにしてください。形式：{\"values\":[\"值1\",\"值2\"]}。二つのvaluesは引用順に対応します。各値は実際の名前を使った「雇用した人>雇用された人」の順の文字列、出来事が明記して起きていなければ「NONE」、その引用から信頼して判定できなければ「UNVERIFIED」にしてください。推測で役割や発生を補わず、否定を落とさないでください。"
+        }
+      ],
+      "prompt_sha256": "8ba2b9631f3314978a46dbb4c8b21f3fbeaa7581071758c0736b78ac6e70681e",
+      "rendered_prefix_sha256": "9c228cdb55bad3daad814c82250f3966fdb00da3bce19cc4867316c80fc1b5d9",
+      "input_token_n": 210,
+      "native_template": {
+        "template_kwargs": {
+          "conversation_start_date": "2026-09-06"
+        },
+        "messages": [
+          {
+            "role": "user",
+            "content": "正しい対象範囲として与えられた二つの原文を、それぞれ別々に読んでください。\n[\"六月、青木は森田を助手として雇用しませんでした。\", \"九月、小川は上田を助手として雇用しませんでした。\"]\n出力はJSONオブジェクト一つだけにしてください。形式：{\"values\":[\"值1\",\"值2\"]}。二つのvaluesは引用順に対応します。各値は実際の名前を使った「雇用した人>雇用された人」の順の文字列、出来事が明記して起きていなければ「NONE」、その引用から信頼して判定できなければ「UNVERIFIED」にしてください。推測で役割や発生を補わず、否定を落とさないでください。"
+          }
+        ],
+        "mode": "FORCED_DIRECT_FINAL_FULL_VOCAB",
+        "terminator_scored": false,
+        "native_generation_prefix_sha256": "3845d2d640ed162050abe7fbe0b1bdcdc5ca26060fc6e077b2c38d0243eb45c9"
+      },
+      "parent_text_sha256": {},
+      "generated_text": "{\"values\":[\"青木>森田\",\"小川>上田\"]}",
+      "generated_token_ids": [
+        8671,
+        12656,
+        4811,
+        7403,
+        46048,
+        806,
+        71675,
+        3484,
+        37322,
+        806,
+        55897,
+        8676,
+        653,
+        2
+      ],
+      "generated_token_n": 14,
+      "row_forward_n": 14,
+      "finish_reason": "EOS",
+      "stopped_on_eos": true,
+      "row_seconds": 0.49194373842328787
+    },
+    "reuse_only": true
+  },
+  {
+    "material_id": "B04",
+    "review_id": "OLD-apertus-SGV-0314",
+    "raw_record": {
+      "call_id": "SGV-0314",
+      "world_id": "SGV-hire-BOTH_NEGATIVE-ACTIVE-JA",
+      "arm": "ORACLE_ONLY",
+      "question": null,
+      "model": "apertus",
+      "messages": [
+        {
+          "role": "user",
+          "content": "正しい対象範囲として与えられた二つの原文を、それぞれ別々に読んでください。\n[\"六月、青木は森田を助手として雇用しませんでした。\", \"九月、小川は上田を助手として雇用しませんでした。\"]\n出力はJSONオブジェクト一つだけにしてください。形式：{\"values\":[\"值1\",\"值2\"]}。二つのvaluesは引用順に対応します。各値は実際の名前を使った「雇用した人>雇用された人」の順の文字列、出来事が明記して起きていなければ「NONE」、その引用から信頼して判定できなければ「UNVERIFIED」にしてください。推測で役割や発生を補わず、否定を落とさないでください。"
+        }
+      ],
+      "prompt_sha256": "8ba2b9631f3314978a46dbb4c8b21f3fbeaa7581071758c0736b78ac6e70681e",
+      "rendered_prefix_sha256": "19a8d075e6c9e84207369801f18bd1d83b3895f3e9df7903ef1b8a453438569b",
+      "input_token_n": 260,
+      "native_template": {
+        "template_kwargs": {
+          "enable_thinking": false
+        },
+        "messages": [
+          {
+            "role": "system",
+            "content": "You are Apertus, a helpful assistant created by the SwissAI initiative.\nKnowledge cutoff: 2024-04\nCurrent date: 2026-09-06"
+          },
+          {
+            "role": "user",
+            "content": "正しい対象範囲として与えられた二つの原文を、それぞれ別々に読んでください。\n[\"六月、青木は森田を助手として雇用しませんでした。\", \"九月、小川は上田を助手として雇用しませんでした。\"]\n出力はJSONオブジェクト一つだけにしてください。形式：{\"values\":[\"值1\",\"值2\"]}。二つのvaluesは引用順に対応します。各値は実際の名前を使った「雇用した人>雇用された人」の順の文字列、出来事が明記して起きていなければ「NONE」、その引用から信頼して判定できなければ「UNVERIFIED」にしてください。推測で役割や発生を補わず、否定を落とさないでください。"
+          }
+        ],
+        "mode": "FORCED_DIRECT_FINAL_FULL_VOCAB",
+        "terminator_scored": false,
+        "native_generation_prefix_sha256": "19a8d075e6c9e84207369801f18bd1d83b3895f3e9df7903ef1b8a453438569b"
+      },
+      "parent_text_sha256": {},
+      "generated_text": "{\"values\": [\"青木>森田\", \"小川>上田\"]}",
+      "generated_token_ids": [
+        19227,
+        10855,
+        2811,
+        12161,
+        46904,
+        23942,
+        1062,
+        35137,
+        16770,
+        1897,
+        1429,
+        10684,
+        25252,
+        1062,
+        4445,
+        16770,
+        4964,
+        1125,
+        68
+      ],
+      "generated_token_n": 19,
+      "row_forward_n": 19,
+      "finish_reason": "EOS",
+      "stopped_on_eos": true,
+      "row_seconds": 0.96045190282166
+    },
+    "reuse_only": true
+  },
+  {
+    "material_id": "B05",
+    "review_id": "OLD-qwen-SGV-0374",
+    "raw_record": {
+      "call_id": "SGV-0374",
+      "world_id": "SGV-loan-SAME-ACTIVE-JA",
+      "arm": "ORACLE_ONLY",
+      "question": null,
+      "model": "qwen",
+      "messages": [
+        {
+          "role": "user",
+          "content": "正しい対象範囲として与えられた二つの原文を、それぞれ別々に読んでください。\n[\"六月、森田は青木から本を借りました。\", \"九月、森田は青木から本を借りました。\"]\n出力はJSONオブジェクト一つだけにしてください。形式：{\"values\":[\"值1\",\"值2\"]}。二つのvaluesは引用順に対応します。各値は実際の名前を使った「本を貸し出した人>本を借りた人」の順の文字列、出来事が明記して起きていなければ「NONE」、その引用から信頼して判定できなければ「UNVERIFIED」にしてください。推測で役割や発生を補わず、否定を落とさないでください。"
+        }
+      ],
+      "prompt_sha256": "296c06d503486da7c66315be0488c7be391ac993a8abb0e873e47fc7bf7d1bdf",
+      "rendered_prefix_sha256": "0d7d1da0cf594963fc813aca37d6b8e46617f5232143d11d6572f5ba841e572e",
+      "input_token_n": 185,
+      "native_template": {
+        "template_kwargs": {
+          "enable_thinking": false
+        },
+        "messages": [
+          {
+            "role": "user",
+            "content": "正しい対象範囲として与えられた二つの原文を、それぞれ別々に読んでください。\n[\"六月、森田は青木から本を借りました。\", \"九月、森田は青木から本を借りました。\"]\n出力はJSONオブジェクト一つだけにしてください。形式：{\"values\":[\"值1\",\"值2\"]}。二つのvaluesは引用順に対応します。各値は実際の名前を使った「本を貸し出した人>本を借りた人」の順の文字列、出来事が明記して起きていなければ「NONE」、その引用から信頼して判定できなければ「UNVERIFIED」にしてください。推測で役割や発生を補わず、否定を落とさないでください。"
+          }
+        ],
+        "mode": "FORCED_DIRECT_FINAL_FULL_VOCAB",
+        "terminator_scored": false,
+        "native_generation_prefix_sha256": "0d7d1da0cf594963fc813aca37d6b8e46617f5232143d11d6572f5ba841e572e"
+      },
+      "parent_text_sha256": {},
+      "generated_text": "{\"values\":[\"青木>森田\",\"青木>森田\"]}",
+      "generated_token_ids": [
+        4913,
+        3661,
+        36799,
+        99467,
+        75405,
+        29,
+        100739,
+        99810,
+        2198,
+        99467,
+        75405,
+        29,
+        100739,
+        99810,
+        92446,
+        151645
+      ],
+      "generated_token_n": 16,
+      "row_forward_n": 16,
+      "finish_reason": "EOS",
+      "stopped_on_eos": true,
+      "row_seconds": 0.5437778141349554
+    },
+    "reuse_only": true
+  },
+  {
+    "material_id": "B05",
+    "review_id": "OLD-llmjp-SGV-0374",
+    "raw_record": {
+      "call_id": "SGV-0374",
+      "world_id": "SGV-loan-SAME-ACTIVE-JA",
+      "arm": "ORACLE_ONLY",
+      "question": null,
+      "model": "llmjp",
+      "messages": [
+        {
+          "role": "user",
+          "content": "正しい対象範囲として与えられた二つの原文を、それぞれ別々に読んでください。\n[\"六月、森田は青木から本を借りました。\", \"九月、森田は青木から本を借りました。\"]\n出力はJSONオブジェクト一つだけにしてください。形式：{\"values\":[\"值1\",\"值2\"]}。二つのvaluesは引用順に対応します。各値は実際の名前を使った「本を貸し出した人>本を借りた人」の順の文字列、出来事が明記して起きていなければ「NONE」、その引用から信頼して判定できなければ「UNVERIFIED」にしてください。推測で役割や発生を補わず、否定を落とさないでください。"
+        }
+      ],
+      "prompt_sha256": "296c06d503486da7c66315be0488c7be391ac993a8abb0e873e47fc7bf7d1bdf",
+      "rendered_prefix_sha256": "17d86ed8e650fc9ee726c7ec40430cf836af26fb1de67c8646ab971ec6d3b27b",
+      "input_token_n": 210,
+      "native_template": {
+        "template_kwargs": {
+          "conversation_start_date": "2026-09-06"
+        },
+        "messages": [
+          {
+            "role": "user",
+            "content": "正しい対象範囲として与えられた二つの原文を、それぞれ別々に読んでください。\n[\"六月、森田は青木から本を借りました。\", \"九月、森田は青木から本を借りました。\"]\n出力はJSONオブジェクト一つだけにしてください。形式：{\"values\":[\"值1\",\"值2\"]}。二つのvaluesは引用順に対応します。各値は実際の名前を使った「本を貸し出した人>本を借りた人」の順の文字列、出来事が明記して起きていなければ「NONE」、その引用から信頼して判定できなければ「UNVERIFIED」にしてください。推測で役割や発生を補わず、否定を落とさないでください。"
+          }
+        ],
+        "mode": "FORCED_DIRECT_FINAL_FULL_VOCAB",
+        "terminator_scored": false,
+        "native_generation_prefix_sha256": "ddec314a3fb4723b06e645e0f5aea007fbeb84fde5d999541c2d369dbd2fb0d7"
+      },
+      "parent_text_sha256": {},
+      "generated_text": "{\"values\":[\"青木>森田\",\"青木>森田\"]}",
+      "generated_token_ids": [
+        8671,
+        12656,
+        4811,
+        7403,
+        46048,
+        806,
+        71675,
+        3484,
+        46048,
+        806,
+        71675,
+        8676,
+        653,
+        2
+      ],
+      "generated_token_n": 14,
+      "row_forward_n": 14,
+      "finish_reason": "EOS",
+      "stopped_on_eos": true,
+      "row_seconds": 0.49260937329381704
+    },
+    "reuse_only": true
+  },
+  {
+    "material_id": "B05",
+    "review_id": "OLD-apertus-SGV-0374",
+    "raw_record": {
+      "call_id": "SGV-0374",
+      "world_id": "SGV-loan-SAME-ACTIVE-JA",
+      "arm": "ORACLE_ONLY",
+      "question": null,
+      "model": "apertus",
+      "messages": [
+        {
+          "role": "user",
+          "content": "正しい対象範囲として与えられた二つの原文を、それぞれ別々に読んでください。\n[\"六月、森田は青木から本を借りました。\", \"九月、森田は青木から本を借りました。\"]\n出力はJSONオブジェクト一つだけにしてください。形式：{\"values\":[\"值1\",\"值2\"]}。二つのvaluesは引用順に対応します。各値は実際の名前を使った「本を貸し出した人>本を借りた人」の順の文字列、出来事が明記して起きていなければ「NONE」、その引用から信頼して判定できなければ「UNVERIFIED」にしてください。推測で役割や発生を補わず、否定を落とさないでください。"
+        }
+      ],
+      "prompt_sha256": "296c06d503486da7c66315be0488c7be391ac993a8abb0e873e47fc7bf7d1bdf",
+      "rendered_prefix_sha256": "74d2094ace76548922e2d87655dba1226acde4a29955aab6b065d3e7972436f4",
+      "input_token_n": 258,
+      "native_template": {
+        "template_kwargs": {
+          "enable_thinking": false
+        },
+        "messages": [
+          {
+            "role": "system",
+            "content": "You are Apertus, a helpful assistant created by the SwissAI initiative.\nKnowledge cutoff: 2024-04\nCurrent date: 2026-09-06"
+          },
+          {
+            "role": "user",
+            "content": "正しい対象範囲として与えられた二つの原文を、それぞれ別々に読んでください。\n[\"六月、森田は青木から本を借りました。\", \"九月、森田は青木から本を借りました。\"]\n出力はJSONオブジェクト一つだけにしてください。形式：{\"values\":[\"值1\",\"值2\"]}。二つのvaluesは引用順に対応します。各値は実際の名前を使った「本を貸し出した人>本を借りた人」の順の文字列、出来事が明記して起きていなければ「NONE」、その引用から信頼して判定できなければ「UNVERIFIED」にしてください。推測で役割や発生を補わず、否定を落とさないでください。"
+          }
+        ],
+        "mode": "FORCED_DIRECT_FINAL_FULL_VOCAB",
+        "terminator_scored": false,
+        "native_generation_prefix_sha256": "74d2094ace76548922e2d87655dba1226acde4a29955aab6b065d3e7972436f4"
+      },
+      "parent_text_sha256": {},
+      "generated_text": "{\"values\": [\"森田>青木\", \"森田>青木\"]}",
+      "generated_token_ids": [
+        19227,
+        10855,
+        2811,
+        12161,
+        35137,
+        16770,
+        1062,
+        46904,
+        23942,
+        1897,
+        1429,
+        35137,
+        16770,
+        1062,
+        46904,
+        23942,
+        4964,
+        1125,
+        68
+      ],
+      "generated_token_n": 19,
+      "row_forward_n": 19,
+      "finish_reason": "EOS",
+      "stopped_on_eos": true,
+      "row_seconds": 0.956606418825686
+    },
+    "reuse_only": true
+  },
+  {
+    "material_id": "B06",
+    "review_id": "OLD-qwen-SGV-0554",
+    "raw_record": {
+      "call_id": "SGV-0554",
+      "world_id": "SGV-loan-REVERSED-ACTIVE-JA",
+      "arm": "ORACLE_ONLY",
+      "question": null,
+      "model": "qwen",
+      "messages": [
+        {
+          "role": "user",
+          "content": "正しい対象範囲として与えられた二つの原文を、それぞれ別々に読んでください。\n[\"六月、森田は青木から本を借りました。\", \"九月、青木は森田から本を借りました。\"]\n出力はJSONオブジェクト一つだけにしてください。形式：{\"values\":[\"值1\",\"值2\"]}。二つのvaluesは引用順に対応します。各値は実際の名前を使った「本を貸し出した人>本を借りた人」の順の文字列、出来事が明記して起きていなければ「NONE」、その引用から信頼して判定できなければ「UNVERIFIED」にしてください。推測で役割や発生を補わず、否定を落とさないでください。"
+        }
+      ],
+      "prompt_sha256": "780aac65741fbf70d2296d8fc3e8c90356f13861e5c620052203a57d0010ba91",
+      "rendered_prefix_sha256": "a2f8649189cf10e91f788c91e7823063150193f463cbc70f0cd12dd00d766b86",
+      "input_token_n": 185,
+      "native_template": {
+        "template_kwargs": {
+          "enable_thinking": false
+        },
+        "messages": [
+          {
+            "role": "user",
+            "content": "正しい対象範囲として与えられた二つの原文を、それぞれ別々に読んでください。\n[\"六月、森田は青木から本を借りました。\", \"九月、青木は森田から本を借りました。\"]\n出力はJSONオブジェクト一つだけにしてください。形式：{\"values\":[\"值1\",\"值2\"]}。二つのvaluesは引用順に対応します。各値は実際の名前を使った「本を貸し出した人>本を借りた人」の順の文字列、出来事が明記して起きていなければ「NONE」、その引用から信頼して判定できなければ「UNVERIFIED」にしてください。推測で役割や発生を補わず、否定を落とさないでください。"
+          }
+        ],
+        "mode": "FORCED_DIRECT_FINAL_FULL_VOCAB",
+        "terminator_scored": false,
+        "native_generation_prefix_sha256": "a2f8649189cf10e91f788c91e7823063150193f463cbc70f0cd12dd00d766b86"
+      },
+      "parent_text_sha256": {},
+      "generated_text": "{\"values\":[\"青木>森田\",\"森田>青木\"]}",
+      "generated_token_ids": [
+        4913,
+        3661,
+        36799,
+        99467,
+        75405,
+        29,
+        100739,
+        99810,
+        2198,
+        100739,
+        99810,
+        29,
+        99467,
+        75405,
+        92446,
+        151645
+      ],
+      "generated_token_n": 16,
+      "row_forward_n": 16,
+      "finish_reason": "EOS",
+      "stopped_on_eos": true,
+      "row_seconds": 0.5440437709912658
+    },
+    "reuse_only": true
+  },
+  {
+    "material_id": "B06",
+    "review_id": "OLD-llmjp-SGV-0554",
+    "raw_record": {
+      "call_id": "SGV-0554",
+      "world_id": "SGV-loan-REVERSED-ACTIVE-JA",
+      "arm": "ORACLE_ONLY",
+      "question": null,
+      "model": "llmjp",
+      "messages": [
+        {
+          "role": "user",
+          "content": "正しい対象範囲として与えられた二つの原文を、それぞれ別々に読んでください。\n[\"六月、森田は青木から本を借りました。\", \"九月、青木は森田から本を借りました。\"]\n出力はJSONオブジェクト一つだけにしてください。形式：{\"values\":[\"值1\",\"值2\"]}。二つのvaluesは引用順に対応します。各値は実際の名前を使った「本を貸し出した人>本を借りた人」の順の文字列、出来事が明記して起きていなければ「NONE」、その引用から信頼して判定できなければ「UNVERIFIED」にしてください。推測で役割や発生を補わず、否定を落とさないでください。"
+        }
+      ],
+      "prompt_sha256": "780aac65741fbf70d2296d8fc3e8c90356f13861e5c620052203a57d0010ba91",
+      "rendered_prefix_sha256": "746ff24db063b7ec9599f922ba009cbb728a799f500345d69496506c4d3bac52",
+      "input_token_n": 210,
+      "native_template": {
+        "template_kwargs": {
+          "conversation_start_date": "2026-09-06"
+        },
+        "messages": [
+          {
+            "role": "user",
+            "content": "正しい対象範囲として与えられた二つの原文を、それぞれ別々に読んでください。\n[\"六月、森田は青木から本を借りました。\", \"九月、青木は森田から本を借りました。\"]\n出力はJSONオブジェクト一つだけにしてください。形式：{\"values\":[\"值1\",\"值2\"]}。二つのvaluesは引用順に対応します。各値は実際の名前を使った「本を貸し出した人>本を借りた人」の順の文字列、出来事が明記して起きていなければ「NONE」、その引用から信頼して判定できなければ「UNVERIFIED」にしてください。推測で役割や発生を補わず、否定を落とさないでください。"
+          }
+        ],
+        "mode": "FORCED_DIRECT_FINAL_FULL_VOCAB",
+        "terminator_scored": false,
+        "native_generation_prefix_sha256": "71bb05c681f44d73d848368d2d071bcabb4d2148e78679580b6954ab20cbb9a1"
+      },
+      "parent_text_sha256": {},
+      "generated_text": "{\"values\":[\"青木>森田\",\"青木>森田\"]}",
+      "generated_token_ids": [
+        8671,
+        12656,
+        4811,
+        7403,
+        46048,
+        806,
+        71675,
+        3484,
+        46048,
+        806,
+        71675,
+        8676,
+        653,
+        2
+      ],
+      "generated_token_n": 14,
+      "row_forward_n": 14,
+      "finish_reason": "EOS",
+      "stopped_on_eos": true,
+      "row_seconds": 0.49293326679617167
+    },
+    "reuse_only": true
+  },
+  {
+    "material_id": "B06",
+    "review_id": "OLD-apertus-SGV-0554",
+    "raw_record": {
+      "call_id": "SGV-0554",
+      "world_id": "SGV-loan-REVERSED-ACTIVE-JA",
+      "arm": "ORACLE_ONLY",
+      "question": null,
+      "model": "apertus",
+      "messages": [
+        {
+          "role": "user",
+          "content": "正しい対象範囲として与えられた二つの原文を、それぞれ別々に読んでください。\n[\"六月、森田は青木から本を借りました。\", \"九月、青木は森田から本を借りました。\"]\n出力はJSONオブジェクト一つだけにしてください。形式：{\"values\":[\"值1\",\"值2\"]}。二つのvaluesは引用順に対応します。各値は実際の名前を使った「本を貸し出した人>本を借りた人」の順の文字列、出来事が明記して起きていなければ「NONE」、その引用から信頼して判定できなければ「UNVERIFIED」にしてください。推測で役割や発生を補わず、否定を落とさないでください。"
+        }
+      ],
+      "prompt_sha256": "780aac65741fbf70d2296d8fc3e8c90356f13861e5c620052203a57d0010ba91",
+      "rendered_prefix_sha256": "2f753addc3683d23d8572a82ada63790677993969ec0313d55a72b25583f810b",
+      "input_token_n": 258,
+      "native_template": {
+        "template_kwargs": {
+          "enable_thinking": false
+        },
+        "messages": [
+          {
+            "role": "system",
+            "content": "You are Apertus, a helpful assistant created by the SwissAI initiative.\nKnowledge cutoff: 2024-04\nCurrent date: 2026-09-06"
+          },
+          {
+            "role": "user",
+            "content": "正しい対象範囲として与えられた二つの原文を、それぞれ別々に読んでください。\n[\"六月、森田は青木から本を借りました。\", \"九月、青木は森田から本を借りました。\"]\n出力はJSONオブジェクト一つだけにしてください。形式：{\"values\":[\"值1\",\"值2\"]}。二つのvaluesは引用順に対応します。各値は実際の名前を使った「本を貸し出した人>本を借りた人」の順の文字列、出来事が明記して起きていなければ「NONE」、その引用から信頼して判定できなければ「UNVERIFIED」にしてください。推測で役割や発生を補わず、否定を落とさないでください。"
+          }
+        ],
+        "mode": "FORCED_DIRECT_FINAL_FULL_VOCAB",
+        "terminator_scored": false,
+        "native_generation_prefix_sha256": "2f753addc3683d23d8572a82ada63790677993969ec0313d55a72b25583f810b"
+      },
+      "parent_text_sha256": {},
+      "generated_text": "{\"values\": [\"森田>青木\", \"青木>森田\"]}",
+      "generated_token_ids": [
+        19227,
+        10855,
+        2811,
+        12161,
+        35137,
+        16770,
+        1062,
+        46904,
+        23942,
+        1897,
+        1429,
+        46904,
+        23942,
+        1062,
+        35137,
+        16770,
+        4964,
+        1125,
+        68
+      ],
+      "generated_token_n": 19,
+      "row_forward_n": 19,
+      "finish_reason": "EOS",
+      "stopped_on_eos": true,
+      "row_seconds": 0.9526496855542064
+    },
+    "reuse_only": true
+  },
+  {
+    "material_id": "B07",
+    "review_id": "OLD-qwen-SGV-0614",
+    "raw_record": {
+      "call_id": "SGV-0614",
+      "world_id": "SGV-loan-MIX_POLARITY-ACTIVE-JA",
+      "arm": "ORACLE_ONLY",
+      "question": null,
+      "model": "qwen",
+      "messages": [
+        {
+          "role": "user",
+          "content": "正しい対象範囲として与えられた二つの原文を、それぞれ別々に読んでください。\n[\"六月、森田は青木から本を借りました。\", \"九月、森田は青木から本を借りませんでした。\"]\n出力はJSONオブジェクト一つだけにしてください。形式：{\"values\":[\"值1\",\"值2\"]}。二つのvaluesは引用順に対応します。各値は実際の名前を使った「本を貸し出した人>本を借りた人」の順の文字列、出来事が明記して起きていなければ「NONE」、その引用から信頼して判定できなければ「UNVERIFIED」にしてください。推測で役割や発生を補わず、否定を落とさないでください。"
+        }
+      ],
+      "prompt_sha256": "1fb09c783ae9dab3e9f7c01463811fff103d2fa8a1728e8db5f769a4b1ec1513",
+      "rendered_prefix_sha256": "be93e9ab7be8a93ba767596a36baaf48b755531f9e4783d0041b271e927538b3",
+      "input_token_n": 185,
+      "native_template": {
+        "template_kwargs": {
+          "enable_thinking": false
+        },
+        "messages": [
+          {
+            "role": "user",
+            "content": "正しい対象範囲として与えられた二つの原文を、それぞれ別々に読んでください。\n[\"六月、森田は青木から本を借りました。\", \"九月、森田は青木から本を借りませんでした。\"]\n出力はJSONオブジェクト一つだけにしてください。形式：{\"values\":[\"值1\",\"值2\"]}。二つのvaluesは引用順に対応します。各値は実際の名前を使った「本を貸し出した人>本を借りた人」の順の文字列、出来事が明記して起きていなければ「NONE」、その引用から信頼して判定できなければ「UNVERIFIED」にしてください。推測で役割や発生を補わず、否定を落とさないでください。"
+          }
+        ],
+        "mode": "FORCED_DIRECT_FINAL_FULL_VOCAB",
+        "terminator_scored": false,
+        "native_generation_prefix_sha256": "be93e9ab7be8a93ba767596a36baaf48b755531f9e4783d0041b271e927538b3"
+      },
+      "parent_text_sha256": {},
+      "generated_text": "{\"values\":[\"青木>森田\",\"NONE\"]}",
+      "generated_token_ids": [
+        4913,
+        3661,
+        36799,
+        99467,
+        75405,
+        29,
+        100739,
+        99810,
+        2198,
+        45425,
+        92446,
+        151645
+      ],
+      "generated_token_n": 12,
+      "row_forward_n": 12,
+      "finish_reason": "EOS",
+      "stopped_on_eos": true,
+      "row_seconds": 0.40633561089634895
+    },
+    "reuse_only": true
+  },
+  {
+    "material_id": "B07",
+    "review_id": "OLD-llmjp-SGV-0614",
+    "raw_record": {
+      "call_id": "SGV-0614",
+      "world_id": "SGV-loan-MIX_POLARITY-ACTIVE-JA",
+      "arm": "ORACLE_ONLY",
+      "question": null,
+      "model": "llmjp",
+      "messages": [
+        {
+          "role": "user",
+          "content": "正しい対象範囲として与えられた二つの原文を、それぞれ別々に読んでください。\n[\"六月、森田は青木から本を借りました。\", \"九月、森田は青木から本を借りませんでした。\"]\n出力はJSONオブジェクト一つだけにしてください。形式：{\"values\":[\"值1\",\"值2\"]}。二つのvaluesは引用順に対応します。各値は実際の名前を使った「本を貸し出した人>本を借りた人」の順の文字列、出来事が明記して起きていなければ「NONE」、その引用から信頼して判定できなければ「UNVERIFIED」にしてください。推測で役割や発生を補わず、否定を落とさないでください。"
+        }
+      ],
+      "prompt_sha256": "1fb09c783ae9dab3e9f7c01463811fff103d2fa8a1728e8db5f769a4b1ec1513",
+      "rendered_prefix_sha256": "bf45afd6c7a8bc6a209e41148b2d5a513cf87d6cfcfc0e2be1ee24a58baeb48a",
+      "input_token_n": 210,
+      "native_template": {
+        "template_kwargs": {
+          "conversation_start_date": "2026-09-06"
+        },
+        "messages": [
+          {
+            "role": "user",
+            "content": "正しい対象範囲として与えられた二つの原文を、それぞれ別々に読んでください。\n[\"六月、森田は青木から本を借りました。\", \"九月、森田は青木から本を借りませんでした。\"]\n出力はJSONオブジェクト一つだけにしてください。形式：{\"values\":[\"值1\",\"值2\"]}。二つのvaluesは引用順に対応します。各値は実際の名前を使った「本を貸し出した人>本を借りた人」の順の文字列、出来事が明記して起きていなければ「NONE」、その引用から信頼して判定できなければ「UNVERIFIED」にしてください。推測で役割や発生を補わず、否定を落とさないでください。"
+          }
+        ],
+        "mode": "FORCED_DIRECT_FINAL_FULL_VOCAB",
+        "terminator_scored": false,
+        "native_generation_prefix_sha256": "2411859c7afe2268299e6e480acc8f3d8c400467360fc78872968b9d057e911d"
+      },
+      "parent_text_sha256": {},
+      "generated_text": "{\"values\":[\"青木>森田\",\"青木>森田\"]}",
+      "generated_token_ids": [
+        8671,
+        12656,
+        4811,
+        7403,
+        46048,
+        806,
+        71675,
+        3484,
+        46048,
+        806,
+        71675,
+        8676,
+        653,
+        2
+      ],
+      "generated_token_n": 14,
+      "row_forward_n": 14,
+      "finish_reason": "EOS",
+      "stopped_on_eos": true,
+      "row_seconds": 0.49109683744609356
+    },
+    "reuse_only": true
+  },
+  {
+    "material_id": "B07",
+    "review_id": "OLD-apertus-SGV-0614",
+    "raw_record": {
+      "call_id": "SGV-0614",
+      "world_id": "SGV-loan-MIX_POLARITY-ACTIVE-JA",
+      "arm": "ORACLE_ONLY",
+      "question": null,
+      "model": "apertus",
+      "messages": [
+        {
+          "role": "user",
+          "content": "正しい対象範囲として与えられた二つの原文を、それぞれ別々に読んでください。\n[\"六月、森田は青木から本を借りました。\", \"九月、森田は青木から本を借りませんでした。\"]\n出力はJSONオブジェクト一つだけにしてください。形式：{\"values\":[\"值1\",\"值2\"]}。二つのvaluesは引用順に対応します。各値は実際の名前を使った「本を貸し出した人>本を借りた人」の順の文字列、出来事が明記して起きていなければ「NONE」、その引用から信頼して判定できなければ「UNVERIFIED」にしてください。推測で役割や発生を補わず、否定を落とさないでください。"
+        }
+      ],
+      "prompt_sha256": "1fb09c783ae9dab3e9f7c01463811fff103d2fa8a1728e8db5f769a4b1ec1513",
+      "rendered_prefix_sha256": "04fd8548816b8244e06fd524bde0bea7234050039ad4aa072099cab2b6c393ca",
+      "input_token_n": 259,
+      "native_template": {
+        "template_kwargs": {
+          "enable_thinking": false
+        },
+        "messages": [
+          {
+            "role": "system",
+            "content": "You are Apertus, a helpful assistant created by the SwissAI initiative.\nKnowledge cutoff: 2024-04\nCurrent date: 2026-09-06"
+          },
+          {
+            "role": "user",
+            "content": "正しい対象範囲として与えられた二つの原文を、それぞれ別々に読んでください。\n[\"六月、森田は青木から本を借りました。\", \"九月、森田は青木から本を借りませんでした。\"]\n出力はJSONオブジェクト一つだけにしてください。形式：{\"values\":[\"值1\",\"值2\"]}。二つのvaluesは引用順に対応します。各値は実際の名前を使った「本を貸し出した人>本を借りた人」の順の文字列、出来事が明記して起きていなければ「NONE」、その引用から信頼して判定できなければ「UNVERIFIED」にしてください。推測で役割や発生を補わず、否定を落とさないでください。"
+          }
+        ],
+        "mode": "FORCED_DIRECT_FINAL_FULL_VOCAB",
+        "terminator_scored": false,
+        "native_generation_prefix_sha256": "04fd8548816b8244e06fd524bde0bea7234050039ad4aa072099cab2b6c393ca"
+      },
+      "parent_text_sha256": {},
+      "generated_text": "{\"values\": [\"森田>青木\", \"森田>青木\"]}",
+      "generated_token_ids": [
+        19227,
+        10855,
+        2811,
+        12161,
+        35137,
+        16770,
+        1062,
+        46904,
+        23942,
+        1897,
+        1429,
+        35137,
+        16770,
+        1062,
+        46904,
+        23942,
+        4964,
+        1125,
+        68
+      ],
+      "generated_token_n": 19,
+      "row_forward_n": 19,
+      "finish_reason": "EOS",
+      "stopped_on_eos": true,
+      "row_seconds": 0.9522190280258656
+    },
+    "reuse_only": true
+  },
+  {
+    "material_id": "B08",
+    "review_id": "OLD-qwen-SGV-0674",
+    "raw_record": {
+      "call_id": "SGV-0674",
+      "world_id": "SGV-loan-BOTH_NEGATIVE-ACTIVE-JA",
+      "arm": "ORACLE_ONLY",
+      "question": null,
+      "model": "qwen",
+      "messages": [
+        {
+          "role": "user",
+          "content": "正しい対象範囲として与えられた二つの原文を、それぞれ別々に読んでください。\n[\"六月、森田は青木から本を借りませんでした。\", \"九月、上田は小川から本を借りませんでした。\"]\n出力はJSONオブジェクト一つだけにしてください。形式：{\"values\":[\"值1\",\"值2\"]}。二つのvaluesは引用順に対応します。各値は実際の名前を使った「本を貸し出した人>本を借りた人」の順の文字列、出来事が明記して起きていなければ「NONE」、その引用から信頼して判定できなければ「UNVERIFIED」にしてください。推測で役割や発生を補わず、否定を落とさないでください。"
+        }
+      ],
+      "prompt_sha256": "75619c6f71f12976b03ec811d4b5f038b12774e98b82e86ca5298b11786a20af",
+      "rendered_prefix_sha256": "845af324f95ce87bb644cf28e094b03e70e69ad86323604f749f05a732921412",
+      "input_token_n": 185,
+      "native_template": {
+        "template_kwargs": {
+          "enable_thinking": false
+        },
+        "messages": [
+          {
+            "role": "user",
+            "content": "正しい対象範囲として与えられた二つの原文を、それぞれ別々に読んでください。\n[\"六月、森田は青木から本を借りませんでした。\", \"九月、上田は小川から本を借りませんでした。\"]\n出力はJSONオブジェクト一つだけにしてください。形式：{\"values\":[\"值1\",\"值2\"]}。二つのvaluesは引用順に対応します。各値は実際の名前を使った「本を貸し出した人>本を借りた人」の順の文字列、出来事が明記して起きていなければ「NONE」、その引用から信頼して判定できなければ「UNVERIFIED」にしてください。推測で役割や発生を補わず、否定を落とさないでください。"
+          }
+        ],
+        "mode": "FORCED_DIRECT_FINAL_FULL_VOCAB",
+        "terminator_scored": false,
+        "native_generation_prefix_sha256": "845af324f95ce87bb644cf28e094b03e70e69ad86323604f749f05a732921412"
+      },
+      "parent_text_sha256": {},
+      "generated_text": "{\"values\":[\"青木>森田\",\"小川>上田\"]}",
+      "generated_token_ids": [
+        4913,
+        3661,
+        36799,
+        99467,
+        75405,
+        29,
+        100739,
+        99810,
+        2198,
+        30709,
+        100410,
+        29,
+        17447,
+        99810,
+        92446,
+        151645
+      ],
+      "generated_token_n": 16,
+      "row_forward_n": 16,
+      "finish_reason": "EOS",
+      "stopped_on_eos": true,
+      "row_seconds": 0.5396759072318673
+    },
+    "reuse_only": true
+  },
+  {
+    "material_id": "B08",
+    "review_id": "OLD-llmjp-SGV-0674",
+    "raw_record": {
+      "call_id": "SGV-0674",
+      "world_id": "SGV-loan-BOTH_NEGATIVE-ACTIVE-JA",
+      "arm": "ORACLE_ONLY",
+      "question": null,
+      "model": "llmjp",
+      "messages": [
+        {
+          "role": "user",
+          "content": "正しい対象範囲として与えられた二つの原文を、それぞれ別々に読んでください。\n[\"六月、森田は青木から本を借りませんでした。\", \"九月、上田は小川から本を借りませんでした。\"]\n出力はJSONオブジェクト一つだけにしてください。形式：{\"values\":[\"值1\",\"值2\"]}。二つのvaluesは引用順に対応します。各値は実際の名前を使った「本を貸し出した人>本を借りた人」の順の文字列、出来事が明記して起きていなければ「NONE」、その引用から信頼して判定できなければ「UNVERIFIED」にしてください。推測で役割や発生を補わず、否定を落とさないでください。"
+        }
+      ],
+      "prompt_sha256": "75619c6f71f12976b03ec811d4b5f038b12774e98b82e86ca5298b11786a20af",
+      "rendered_prefix_sha256": "9967605437d6c77fe063699196228c8a14a11f14a531528a61d9c6a6989f943e",
+      "input_token_n": 210,
+      "native_template": {
+        "template_kwargs": {
+          "conversation_start_date": "2026-09-06"
+        },
+        "messages": [
+          {
+            "role": "user",
+            "content": "正しい対象範囲として与えられた二つの原文を、それぞれ別々に読んでください。\n[\"六月、森田は青木から本を借りませんでした。\", \"九月、上田は小川から本を借りませんでした。\"]\n出力はJSONオブジェクト一つだけにしてください。形式：{\"values\":[\"值1\",\"值2\"]}。二つのvaluesは引用順に対応します。各値は実際の名前を使った「本を貸し出した人>本を借りた人」の順の文字列、出来事が明記して起きていなければ「NONE」、その引用から信頼して判定できなければ「UNVERIFIED」にしてください。推測で役割や発生を補わず、否定を落とさないでください。"
+          }
+        ],
+        "mode": "FORCED_DIRECT_FINAL_FULL_VOCAB",
+        "terminator_scored": false,
+        "native_generation_prefix_sha256": "bc4dcfa9d1e5f5e3f8cb06003ad72d43f0dba60ac896cb600a334de2323ac109"
+      },
+      "parent_text_sha256": {},
+      "generated_text": "{\"values\":[\"青木>森田\",\"小川>上田\"]}",
+      "generated_token_ids": [
+        8671,
+        12656,
+        4811,
+        7403,
+        46048,
+        806,
+        71675,
+        3484,
+        37322,
+        806,
+        55897,
+        8676,
+        653,
+        2
+      ],
+      "generated_token_n": 14,
+      "row_forward_n": 14,
+      "finish_reason": "EOS",
+      "stopped_on_eos": true,
+      "row_seconds": 0.4914167020469904
+    },
+    "reuse_only": true
+  },
+  {
+    "material_id": "B08",
+    "review_id": "OLD-apertus-SGV-0674",
+    "raw_record": {
+      "call_id": "SGV-0674",
+      "world_id": "SGV-loan-BOTH_NEGATIVE-ACTIVE-JA",
+      "arm": "ORACLE_ONLY",
+      "question": null,
+      "model": "apertus",
+      "messages": [
+        {
+          "role": "user",
+          "content": "正しい対象範囲として与えられた二つの原文を、それぞれ別々に読んでください。\n[\"六月、森田は青木から本を借りませんでした。\", \"九月、上田は小川から本を借りませんでした。\"]\n出力はJSONオブジェクト一つだけにしてください。形式：{\"values\":[\"值1\",\"值2\"]}。二つのvaluesは引用順に対応します。各値は実際の名前を使った「本を貸し出した人>本を借りた人」の順の文字列、出来事が明記して起きていなければ「NONE」、その引用から信頼して判定できなければ「UNVERIFIED」にしてください。推測で役割や発生を補わず、否定を落とさないでください。"
+        }
+      ],
+      "prompt_sha256": "75619c6f71f12976b03ec811d4b5f038b12774e98b82e86ca5298b11786a20af",
+      "rendered_prefix_sha256": "3b0fe09a094eddb8a209891a1b2c80f12a33b5e0bf4a46b55fc99415139f35db",
+      "input_token_n": 260,
+      "native_template": {
+        "template_kwargs": {
+          "enable_thinking": false
+        },
+        "messages": [
+          {
+            "role": "system",
+            "content": "You are Apertus, a helpful assistant created by the SwissAI initiative.\nKnowledge cutoff: 2024-04\nCurrent date: 2026-09-06"
+          },
+          {
+            "role": "user",
+            "content": "正しい対象範囲として与えられた二つの原文を、それぞれ別々に読んでください。\n[\"六月、森田は青木から本を借りませんでした。\", \"九月、上田は小川から本を借りませんでした。\"]\n出力はJSONオブジェクト一つだけにしてください。形式：{\"values\":[\"值1\",\"值2\"]}。二つのvaluesは引用順に対応します。各値は実際の名前を使った「本を貸し出した人>本を借りた人」の順の文字列、出来事が明記して起きていなければ「NONE」、その引用から信頼して判定できなければ「UNVERIFIED」にしてください。推測で役割や発生を補わず、否定を落とさないでください。"
+          }
+        ],
+        "mode": "FORCED_DIRECT_FINAL_FULL_VOCAB",
+        "terminator_scored": false,
+        "native_generation_prefix_sha256": "3b0fe09a094eddb8a209891a1b2c80f12a33b5e0bf4a46b55fc99415139f35db"
+      },
+      "parent_text_sha256": {},
+      "generated_text": "{\"values\": [\"NONE\", \"NONE\"]}",
+      "generated_token_ids": [
+        19227,
+        10855,
+        2811,
+        12161,
+        1078,
+        19140,
+        1897,
+        1429,
+        1078,
+        19140,
+        4964,
+        1125,
+        68
+      ],
+      "generated_token_n": 13,
+      "row_forward_n": 13,
+      "finish_reason": "EOS",
+      "stopped_on_eos": true,
+      "row_seconds": 0.6470444593578577
+    },
+    "reuse_only": true
+  }
+]

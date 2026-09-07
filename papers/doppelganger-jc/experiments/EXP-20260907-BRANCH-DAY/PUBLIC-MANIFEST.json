@@ -1,0 +1,433 @@
+{
+  "scope": "Completed B01-B08 scientific records; private native review and execution archives excluded",
+  "generated_at": "2026-09-07T14:55:59.887470+00:00",
+  "human_review_completed": false,
+  "manifest_self_hash_excluded": true,
+  "files": [
+    {
+      "path": "papers/doppelganger-jc/experiments/EXP-20260907-BRANCH-DAY/B01/NEW-RAW-RESPONSES.json",
+      "bytes": 319201,
+      "sha256": "521872dfa24e0f55786cae8540668e90bd6baede9516e77624a4b0cce034fd2c",
+      "source": "research_notes/2026-09-07/evidence_event_contract_followup_v1/analysis-v1/NEW-RAW-ROWS.json",
+      "source_sha256": "521872dfa24e0f55786cae8540668e90bd6baede9516e77624a4b0cce034fd2c",
+      "byte_identical": true
+    },
+    {
+      "path": "papers/doppelganger-jc/experiments/EXP-20260907-BRANCH-DAY/B01/SCORED-POSITIONS.AI.json",
+      "bytes": 149257,
+      "sha256": "c5479ab612af4cd6cdb6f72dab66d5ec7f54e159b1b03a2c25db018157330ed1",
+      "source": "research_notes/2026-09-07/evidence_event_contract_followup_v1/analysis-v1/SCORED-POSITIONS.AI.json",
+      "source_sha256": "c5479ab612af4cd6cdb6f72dab66d5ec7f54e159b1b03a2c25db018157330ed1",
+      "byte_identical": true
+    },
+    {
+      "path": "papers/doppelganger-jc/experiments/EXP-20260907-BRANCH-DAY/B01/ANALYSIS.json",
+      "bytes": 5573,
+      "sha256": "06eea4647ac3f9373c26791463db7db3ba2053f40692f2dc754e15c162a105b0",
+      "source": "research_notes/2026-09-07/evidence_event_contract_followup_v1/analysis-v1/ANALYSIS.json",
+      "source_sha256": "06eea4647ac3f9373c26791463db7db3ba2053f40692f2dc754e15c162a105b0",
+      "byte_identical": true
+    },
+    {
+      "path": "papers/doppelganger-jc/experiments/EXP-20260907-BRANCH-DAY/B01/PAIRED-TRANSITIONS.json",
+      "bytes": 27627,
+      "sha256": "2a381ef60e370c02504d20cc7a7614e23a79005c01c1e73c1d0f4235c17c05dd",
+      "source": "research_notes/2026-09-07/evidence_event_contract_followup_v1/analysis-v1/PAIRED-TRANSITIONS.json",
+      "source_sha256": "2a381ef60e370c02504d20cc7a7614e23a79005c01c1e73c1d0f4235c17c05dd",
+      "byte_identical": true
+    },
+    {
+      "path": "papers/doppelganger-jc/experiments/EXP-20260907-BRANCH-DAY/B01/SCIENTIFIC-PROTOCOL-EXTRACT.json",
+      "bytes": 5955,
+      "sha256": "038eacc17affdf56786061040a885eb76e2ebe411d3fe35e01af0ba366099adb",
+      "source": "research_notes/2026-09-07/evidence_event_contract_followup_v1/reviewed-v1/PROTOCOL.json",
+      "source_sha256": "e8c0c884828e90721b52c972a5ab544dc279c0cec72eec1d765773e1e23fc0a0",
+      "byte_identical": false,
+      "transformation": "Remove private review, task identity and execution-environment metadata; retain original scientific field values."
+    },
+    {
+      "path": "papers/doppelganger-jc/experiments/EXP-20260907-BRANCH-DAY/B01/HISTORICAL-BASELINE-REUSED.json",
+      "bytes": 74751,
+      "sha256": "2def06f70337b29dce438873d98cb22aef9e98156893506d54680fc1b5bd934f",
+      "source": "research_notes/2026-09-07/evidence_event_contract_followup_v1/reviewed-v1/BASELINE.REUSED.json",
+      "source_sha256": "2def06f70337b29dce438873d98cb22aef9e98156893506d54680fc1b5bd934f",
+      "byte_identical": true
+    },
+    {
+      "path": "papers/doppelganger-jc/experiments/EXP-20260907-BRANCH-DAY/B02/NEW-RAW-RESPONSES.json",
+      "bytes": 200491,
+      "sha256": "63da21480629083ba3a59486e403ef9e509cb0042e04992b0de72cb8be28d6cd",
+      "source": "research_notes/2026-09-07/prose_to_event_chain_v1/analysis-v1/RAW-CHILDREN.json",
+      "source_sha256": "63da21480629083ba3a59486e403ef9e509cb0042e04992b0de72cb8be28d6cd",
+      "byte_identical": true
+    },
+    {
+      "path": "papers/doppelganger-jc/experiments/EXP-20260907-BRANCH-DAY/B02/SCORED-POSITIONS.AI.json",
+      "bytes": 84151,
+      "sha256": "094021d4f5850b0837ba762fc21bf502bb43f325bcbb9e6f0ef324427fa173ae",
+      "source": "research_notes/2026-09-07/prose_to_event_chain_v1/analysis-v1/SCORED-POSITIONS.AI.json",
+      "source_sha256": "094021d4f5850b0837ba762fc21bf502bb43f325bcbb9e6f0ef324427fa173ae",
+      "byte_identical": true
+    },
+    {
+      "path": "papers/doppelganger-jc/experiments/EXP-20260907-BRANCH-DAY/B02/ANALYSIS.json",
+      "bytes": 2773,
+      "sha256": "6504eca315d4d3482b1182c4629acaf57bc20c74a5fd1e7b00f2b5446cd1cf23",
+      "source": "research_notes/2026-09-07/prose_to_event_chain_v1/analysis-v1/ANALYSIS.json",
+      "source_sha256": "6504eca315d4d3482b1182c4629acaf57bc20c74a5fd1e7b00f2b5446cd1cf23",
+      "byte_identical": true
+    },
+    {
+      "path": "papers/doppelganger-jc/experiments/EXP-20260907-BRANCH-DAY/B02/PAIRED-TRANSITIONS.json",
+      "bytes": 13623,
+      "sha256": "7ec4e6f0fe96a024260749fbfbd64f23d84377ffa381e6aa8ab15d0f79e5ba2a",
+      "source": "research_notes/2026-09-07/prose_to_event_chain_v1/analysis-v1/PAIRED-TRANSITIONS.json",
+      "source_sha256": "7ec4e6f0fe96a024260749fbfbd64f23d84377ffa381e6aa8ab15d0f79e5ba2a",
+      "byte_identical": true
+    },
+    {
+      "path": "papers/doppelganger-jc/experiments/EXP-20260907-BRANCH-DAY/B02/SCIENTIFIC-PROTOCOL-EXTRACT.json",
+      "bytes": 3180,
+      "sha256": "8be55b2c413927b6ab4d9d721a0388b28ad9db8e3d3b1cb031c4fc6263369323",
+      "source": "research_notes/2026-09-07/prose_to_event_chain_v1/PROTOCOL.json",
+      "source_sha256": "8e4fe32c596711fab13c51def0ce79762f04a9c5d3b5a9db79d8060c5c3b186c",
+      "byte_identical": false,
+      "transformation": "Remove private review, task identity and execution-environment metadata; retain original scientific field values."
+    },
+    {
+      "path": "papers/doppelganger-jc/experiments/EXP-20260907-BRANCH-DAY/B03/NEW-RAW-RESPONSES.json",
+      "bytes": 1111215,
+      "sha256": "b28314493c0584a873d3d18f0fdfa497e9391f81d970130a22896f95ccad7e9f",
+      "source": "research_notes/2026-09-07/event_granularity_role_schema_v1/analysis-v1/RAW-CHILDREN.json",
+      "source_sha256": "b28314493c0584a873d3d18f0fdfa497e9391f81d970130a22896f95ccad7e9f",
+      "byte_identical": true
+    },
+    {
+      "path": "papers/doppelganger-jc/experiments/EXP-20260907-BRANCH-DAY/B03/SCORED-POSITIONS.AI.json",
+      "bytes": 167394,
+      "sha256": "5a73bc24d740fe263de568267a24bba4c0b2e83f30305f026be03bbf97f9d8ad",
+      "source": "research_notes/2026-09-07/event_granularity_role_schema_v1/analysis-v1/SCORED-POSITIONS.AI.json",
+      "source_sha256": "5a73bc24d740fe263de568267a24bba4c0b2e83f30305f026be03bbf97f9d8ad",
+      "byte_identical": true
+    },
+    {
+      "path": "papers/doppelganger-jc/experiments/EXP-20260907-BRANCH-DAY/B03/ANALYSIS.json",
+      "bytes": 5980,
+      "sha256": "e3432266864af0f904810c9cfc8fe4bb0a1e931bb2a5e9439dee954d09d315ab",
+      "source": "research_notes/2026-09-07/event_granularity_role_schema_v1/analysis-v1/ANALYSIS.json",
+      "source_sha256": "e3432266864af0f904810c9cfc8fe4bb0a1e931bb2a5e9439dee954d09d315ab",
+      "byte_identical": true
+    },
+    {
+      "path": "papers/doppelganger-jc/experiments/EXP-20260907-BRANCH-DAY/B03/PAIRED-TRANSITIONS.json",
+      "bytes": 82935,
+      "sha256": "4bc1bfeeb833eb2df5b8fd090d900b5b19da0b8ebb9f35af1f27b9e70b284e74",
+      "source": "research_notes/2026-09-07/event_granularity_role_schema_v1/analysis-v1/PAIRED-TRANSITIONS.json",
+      "source_sha256": "4bc1bfeeb833eb2df5b8fd090d900b5b19da0b8ebb9f35af1f27b9e70b284e74",
+      "byte_identical": true
+    },
+    {
+      "path": "papers/doppelganger-jc/experiments/EXP-20260907-BRANCH-DAY/B03/SCIENTIFIC-PROTOCOL-EXTRACT.json",
+      "bytes": 4450,
+      "sha256": "eb16b5c9e08c633cb1b8d4de040934e644898cf05db7b8c51602f690dc66a8a4",
+      "source": "research_notes/2026-09-07/event_granularity_role_schema_v1/PROTOCOL.json",
+      "source_sha256": "5cb9b907ab4f1db70b74d741696d857e6805eb4dcc5678b6545efa861b24147f",
+      "byte_identical": false,
+      "transformation": "Remove private review, task identity and execution-environment metadata; retain original scientific field values."
+    },
+    {
+      "path": "papers/doppelganger-jc/experiments/EXP-20260907-BRANCH-DAY/B04/NEW-RAW-RESPONSES.json",
+      "bytes": 1404575,
+      "sha256": "c2a44ec0af0d83a3783a9d4eb61618f559f1c502f0d365acc434dc4fb2c3d6be",
+      "source": "research_notes/2026-09-07/typed_role_transfer_v1/analysis-v1/RAW-RESPONSES.json",
+      "source_sha256": "c2a44ec0af0d83a3783a9d4eb61618f559f1c502f0d365acc434dc4fb2c3d6be",
+      "byte_identical": true
+    },
+    {
+      "path": "papers/doppelganger-jc/experiments/EXP-20260907-BRANCH-DAY/B04/SCORED-POSITIONS.AI.json",
+      "bytes": 310784,
+      "sha256": "fa9d8ada0fc687f4d80ff786b6193313045e76379e00b1061ae6637e716a7aee",
+      "source": "research_notes/2026-09-07/typed_role_transfer_v1/analysis-v1/SCORED-POSITIONS.AI.json",
+      "source_sha256": "fa9d8ada0fc687f4d80ff786b6193313045e76379e00b1061ae6637e716a7aee",
+      "byte_identical": true
+    },
+    {
+      "path": "papers/doppelganger-jc/experiments/EXP-20260907-BRANCH-DAY/B04/ANALYSIS.json",
+      "bytes": 30954,
+      "sha256": "89df3b36568c76bc137bd2e00f0898b950d0e539079c74646f3f37bacc887450",
+      "source": "research_notes/2026-09-07/typed_role_transfer_v1/analysis-v1/ANALYSIS.json",
+      "source_sha256": "89df3b36568c76bc137bd2e00f0898b950d0e539079c74646f3f37bacc887450",
+      "byte_identical": true
+    },
+    {
+      "path": "papers/doppelganger-jc/experiments/EXP-20260907-BRANCH-DAY/B04/PAIRED-TRANSITIONS.json",
+      "bytes": 64179,
+      "sha256": "058d84ca31a90afb1532f2c3e5401ea3134bf7f6d208e5fa4178240a6d03941d",
+      "source": "research_notes/2026-09-07/typed_role_transfer_v1/analysis-v1/PAIRED-TRANSITIONS.json",
+      "source_sha256": "058d84ca31a90afb1532f2c3e5401ea3134bf7f6d208e5fa4178240a6d03941d",
+      "byte_identical": true
+    },
+    {
+      "path": "papers/doppelganger-jc/experiments/EXP-20260907-BRANCH-DAY/B04/SECONDARY-FULL-RECORD.json",
+      "bytes": 25746,
+      "sha256": "6557f85ceb68f6eac864865885bb9eebb65c7a37a873c39155d388fae2e5f951",
+      "source": "research_notes/2026-09-07/typed_role_transfer_v1/analysis-v1/SECONDARY-FULL-RECORD.json",
+      "source_sha256": "6557f85ceb68f6eac864865885bb9eebb65c7a37a873c39155d388fae2e5f951",
+      "byte_identical": true
+    },
+    {
+      "path": "papers/doppelganger-jc/experiments/EXP-20260907-BRANCH-DAY/B04/SCIENTIFIC-PROTOCOL-EXTRACT.json",
+      "bytes": 2973,
+      "sha256": "b7813b47111215ece415f7aa3ca2b53b11667bced50252ede12d3a8eba6e1e0b",
+      "source": "research_notes/2026-09-07/typed_role_transfer_v1/PROTOCOL.json",
+      "source_sha256": "2664f6d452f4822851a91b4d3a8639be10bee4f1b30959b1410b0f3ace59c190",
+      "byte_identical": false,
+      "transformation": "Remove private review, task identity and execution-environment metadata; retain original scientific field values."
+    },
+    {
+      "path": "papers/doppelganger-jc/experiments/EXP-20260907-BRANCH-DAY/B05/NEW-RAW-RESPONSES.json",
+      "bytes": 688001,
+      "sha256": "aaf2d8da27ab1a63c6e7494c46c3b0bc1330eba6e41f583e50436dd15728516a",
+      "source": "research_notes/2026-09-07/qwen_translation_bridge_v1/analysis-v1/RAW-RESPONSES.json",
+      "source_sha256": "aaf2d8da27ab1a63c6e7494c46c3b0bc1330eba6e41f583e50436dd15728516a",
+      "byte_identical": true
+    },
+    {
+      "path": "papers/doppelganger-jc/experiments/EXP-20260907-BRANCH-DAY/B05/EVENT-SCORES.AI.json",
+      "bytes": 166550,
+      "sha256": "dc97b2691bdc8f6c96a66cefa8c1c26fcf925fcdf6029402544c1a5207bb2e8b",
+      "source": "research_notes/2026-09-07/qwen_translation_bridge_v1/analysis-v1/EVENT-SCORES.AI.json",
+      "source_sha256": "dc97b2691bdc8f6c96a66cefa8c1c26fcf925fcdf6029402544c1a5207bb2e8b",
+      "byte_identical": true
+    },
+    {
+      "path": "papers/doppelganger-jc/experiments/EXP-20260907-BRANCH-DAY/B05/PARENT-SCORES.AI.json",
+      "bytes": 28488,
+      "sha256": "a424eb4c8d0a7d622977ac2721008d445db6ec3809b35360146e3bc30e529536",
+      "source": "research_notes/2026-09-07/qwen_translation_bridge_v1/analysis-v1/PARENT-SCORES.AI.json",
+      "source_sha256": "a424eb4c8d0a7d622977ac2721008d445db6ec3809b35360146e3bc30e529536",
+      "byte_identical": true
+    },
+    {
+      "path": "papers/doppelganger-jc/experiments/EXP-20260907-BRANCH-DAY/B05/ANALYSIS.json",
+      "bytes": 23828,
+      "sha256": "34fc572ea093fa92fed7fdce4b3f7e4d32cf2f724dcf26623e4f4a2bc6b3b89b",
+      "source": "research_notes/2026-09-07/qwen_translation_bridge_v1/analysis-v1/ANALYSIS.json",
+      "source_sha256": "34fc572ea093fa92fed7fdce4b3f7e4d32cf2f724dcf26623e4f4a2bc6b3b89b",
+      "byte_identical": true
+    },
+    {
+      "path": "papers/doppelganger-jc/experiments/EXP-20260907-BRANCH-DAY/B05/PAIRED-TRANSITIONS.json",
+      "bytes": 53443,
+      "sha256": "09b4a8fcb356f7fa90833eec6ed6b6e57b00fd5e4471eefc11133a81ade0e68a",
+      "source": "research_notes/2026-09-07/qwen_translation_bridge_v1/analysis-v1/PAIRED-TRANSITIONS.json",
+      "source_sha256": "09b4a8fcb356f7fa90833eec6ed6b6e57b00fd5e4471eefc11133a81ade0e68a",
+      "byte_identical": true
+    },
+    {
+      "path": "papers/doppelganger-jc/experiments/EXP-20260907-BRANCH-DAY/B05/SCIENTIFIC-PROTOCOL-EXTRACT.json",
+      "bytes": 2057,
+      "sha256": "90ff9e84aa7bbc1dbc6cab3eb53a04bc39d2a914bc9683ea0a35c0fb444a0b01",
+      "source": "research_notes/2026-09-07/qwen_translation_bridge_v1/PROTOCOL.json",
+      "source_sha256": "74cd91fa8807fe690091bc1b0c0ff6a9c07df87fecf0c0547f0f5ec3ab543464",
+      "byte_identical": false,
+      "transformation": "Remove private review, task identity and execution-environment metadata; retain original scientific field values."
+    },
+    {
+      "path": "papers/doppelganger-jc/experiments/EXP-20260907-BRANCH-DAY/B05/PREDECLARED-METHODS.zh-CN.md",
+      "bytes": 7501,
+      "sha256": "55cef319bda4e4feee85e3793426f6f21a190a305fdaf04e1b652d1b9e9eb67a",
+      "source": "research_notes/2026-09-07/qwen_translation_bridge_v1/COORDINATOR-SPEC.zh-CN.md",
+      "source_sha256": "6cfb239002406c9945381ee32efae2dd9cff79862cc93d4e5b07c2b9b523c621",
+      "byte_identical": false,
+      "transformation": "Verbatim scientific section extraction with disclosure header"
+    },
+    {
+      "path": "papers/doppelganger-jc/experiments/EXP-20260907-BRANCH-DAY/B06/NEW-RAW-RESPONSES.json",
+      "bytes": 1231247,
+      "sha256": "b91fe9da5e87886e5b136f43f41516dcdb0c9a39f49582f4d8b165d86bfea346",
+      "source": "research_notes/2026-09-07/role_order_counterfactual_v1/analysis-v1/RAW-RESPONSES.json",
+      "source_sha256": "b91fe9da5e87886e5b136f43f41516dcdb0c9a39f49582f4d8b165d86bfea346",
+      "byte_identical": true
+    },
+    {
+      "path": "papers/doppelganger-jc/experiments/EXP-20260907-BRANCH-DAY/B06/EVENT-SCORES.AI.json",
+      "bytes": 389707,
+      "sha256": "927e609810dd395c8d7560e2826c1d1e19d85a89fbb981e722e74530830bd85e",
+      "source": "research_notes/2026-09-07/role_order_counterfactual_v1/analysis-v1/EVENT-SCORES.AI.json",
+      "source_sha256": "927e609810dd395c8d7560e2826c1d1e19d85a89fbb981e722e74530830bd85e",
+      "byte_identical": true
+    },
+    {
+      "path": "papers/doppelganger-jc/experiments/EXP-20260907-BRANCH-DAY/B06/ANALYSIS.json",
+      "bytes": 90140,
+      "sha256": "49cef6c45e6edbb098e88dcb80f46c7ae038356add378938209d0fb1aa3546bb",
+      "source": "research_notes/2026-09-07/role_order_counterfactual_v1/analysis-v1/ANALYSIS.json",
+      "source_sha256": "49cef6c45e6edbb098e88dcb80f46c7ae038356add378938209d0fb1aa3546bb",
+      "byte_identical": true
+    },
+    {
+      "path": "papers/doppelganger-jc/experiments/EXP-20260907-BRANCH-DAY/B06/PAIRED-TRANSITIONS.json",
+      "bytes": 203395,
+      "sha256": "5a99839d2f6e351deea94f7a407b0992f7045b3cff076fd7ee67fdd24aac7513",
+      "source": "research_notes/2026-09-07/role_order_counterfactual_v1/analysis-v1/PAIRED-TRANSITIONS.json",
+      "source_sha256": "5a99839d2f6e351deea94f7a407b0992f7045b3cff076fd7ee67fdd24aac7513",
+      "byte_identical": true
+    },
+    {
+      "path": "papers/doppelganger-jc/experiments/EXP-20260907-BRANCH-DAY/B06/SCIENTIFIC-PROTOCOL-EXTRACT.json",
+      "bytes": 1864,
+      "sha256": "a4d874791bbbec9ff0bc66a99f15d451e527f1493d9883f7bbda2ea64f40ec5c",
+      "source": "research_notes/2026-09-07/role_order_counterfactual_v1/RUN-SPEC.json",
+      "source_sha256": "b20ffcd82d9fe4cc6e5a40e81a96436ecf083fca58cb834f16abaced59ed6d37",
+      "byte_identical": false,
+      "transformation": "Remove private review, task identity and execution-environment metadata; retain original scientific field values."
+    },
+    {
+      "path": "papers/doppelganger-jc/experiments/EXP-20260907-BRANCH-DAY/B06/PREDECLARED-METHODS.zh-CN.md",
+      "bytes": 6934,
+      "sha256": "b081aec1e79ab43e4e3b1355ed5e5414b4357fe58b716cae52d275fba8f7b3fa",
+      "source": "research_notes/2026-09-07/role_order_counterfactual_v1/COORDINATOR-SPEC.zh-CN.md",
+      "source_sha256": "95533f4ffb9cf398e1b42ae5388713a3d6e70966e4e350b30c3a1e3f41954ad0",
+      "byte_identical": false,
+      "transformation": "Verbatim scientific section extraction with disclosure header"
+    },
+    {
+      "path": "papers/doppelganger-jc/experiments/EXP-20260907-BRANCH-DAY/B07/NEW-RAW-RESPONSES.json",
+      "bytes": 1985017,
+      "sha256": "f7d3aae1d6e5c5d4d159aa399469b8eaac5fd02fd5b6580ac6a347c79143fc22",
+      "source": "research_notes/2026-09-07/input_output_order_factorial_v1/analysis-v1/RAW-RESPONSES.json",
+      "source_sha256": "f7d3aae1d6e5c5d4d159aa399469b8eaac5fd02fd5b6580ac6a347c79143fc22",
+      "byte_identical": true
+    },
+    {
+      "path": "papers/doppelganger-jc/experiments/EXP-20260907-BRANCH-DAY/B07/EVENT-SCORES.AI.json",
+      "bytes": 969713,
+      "sha256": "c2cff43485d80c640b9c9cc52dec2f1f4fcb6793be2da242c6bfeebdb37d5207",
+      "source": "research_notes/2026-09-07/input_output_order_factorial_v1/analysis-v1/EVENT-SCORES.AI.json",
+      "source_sha256": "c2cff43485d80c640b9c9cc52dec2f1f4fcb6793be2da242c6bfeebdb37d5207",
+      "byte_identical": true
+    },
+    {
+      "path": "papers/doppelganger-jc/experiments/EXP-20260907-BRANCH-DAY/B07/ANALYSIS.json",
+      "bytes": 321225,
+      "sha256": "9252e50ac1c6039674ecf843abafdb89cd5804a338d590cee110dddc4e80fa9c",
+      "source": "research_notes/2026-09-07/input_output_order_factorial_v1/analysis-v1/ANALYSIS.json",
+      "source_sha256": "9252e50ac1c6039674ecf843abafdb89cd5804a338d590cee110dddc4e80fa9c",
+      "byte_identical": true
+    },
+    {
+      "path": "papers/doppelganger-jc/experiments/EXP-20260907-BRANCH-DAY/B07/PAIRED-TRANSITIONS.json",
+      "bytes": 525923,
+      "sha256": "24e337ec8bdd1ac48ee1e11f995f6a299de9f240bab6e43326b870165c9c3d8e",
+      "source": "research_notes/2026-09-07/input_output_order_factorial_v1/analysis-v1/PAIRED-TRANSITIONS.json",
+      "source_sha256": "24e337ec8bdd1ac48ee1e11f995f6a299de9f240bab6e43326b870165c9c3d8e",
+      "byte_identical": true
+    },
+    {
+      "path": "papers/doppelganger-jc/experiments/EXP-20260907-BRANCH-DAY/B07/SCIENTIFIC-PROTOCOL-EXTRACT.json",
+      "bytes": 1480,
+      "sha256": "e094026f69beea8b474127b8a4333b397ade025837662f28897909f77e3244b0",
+      "source": "research_notes/2026-09-07/input_output_order_factorial_v1/RUN-SPEC.json",
+      "source_sha256": "68de4c435e58dff6108e6c73eac11aa93999aed6356bc041fec9cad1c00f748e",
+      "byte_identical": false,
+      "transformation": "Remove private review, task identity and execution-environment metadata; retain original scientific field values."
+    },
+    {
+      "path": "papers/doppelganger-jc/experiments/EXP-20260907-BRANCH-DAY/B07/PREDECLARED-METHODS.zh-CN.md",
+      "bytes": 8502,
+      "sha256": "0395461dd1a15e9c22bcfc39c86469df4e5b7403e03b0290fa500e66de068dd1",
+      "source": "research_notes/2026-09-07/input_output_order_factorial_v1/COORDINATOR-SPEC.zh-CN.md",
+      "source_sha256": "4bb98229adf93618063be7cf7a7a05eaea3403a0d34d56fe04c7f1df0b20da69",
+      "byte_identical": false,
+      "transformation": "Verbatim scientific section extraction with disclosure header"
+    },
+    {
+      "path": "papers/doppelganger-jc/experiments/EXP-20260907-BRANCH-DAY/B08/NEW-RAW-RESPONSES.json",
+      "bytes": 805059,
+      "sha256": "2f9bfc620575babb9d3410ef13253ef440ecd763366daa6abb330cc5c1dd10f1",
+      "source": "research_notes/2026-09-07/single_event_context_output_v1/analysis-v1/RAW-RESPONSES.json",
+      "source_sha256": "2f9bfc620575babb9d3410ef13253ef440ecd763366daa6abb330cc5c1dd10f1",
+      "byte_identical": true
+    },
+    {
+      "path": "papers/doppelganger-jc/experiments/EXP-20260907-BRANCH-DAY/B08/EVENT-SCORES.AI.json",
+      "bytes": 251578,
+      "sha256": "35009608eb84c2645f41610a80eeef78f4f9b0d7ed2a5505035bfeab89dc722d",
+      "source": "research_notes/2026-09-07/single_event_context_output_v1/analysis-v1/EVENT-SCORES.AI.json",
+      "source_sha256": "35009608eb84c2645f41610a80eeef78f4f9b0d7ed2a5505035bfeab89dc722d",
+      "byte_identical": true
+    },
+    {
+      "path": "papers/doppelganger-jc/experiments/EXP-20260907-BRANCH-DAY/B08/ANALYSIS.json",
+      "bytes": 106521,
+      "sha256": "584ce0ed836df3f2386c752baa34d84cc8eab04fd37244f24ef45afae334ba7c",
+      "source": "research_notes/2026-09-07/single_event_context_output_v1/analysis-v1/ANALYSIS.json",
+      "source_sha256": "584ce0ed836df3f2386c752baa34d84cc8eab04fd37244f24ef45afae334ba7c",
+      "byte_identical": true
+    },
+    {
+      "path": "papers/doppelganger-jc/experiments/EXP-20260907-BRANCH-DAY/B08/PAIRED-TRANSITIONS.json",
+      "bytes": 247587,
+      "sha256": "8ee2cfa805745cdf2fb2d70280a7f43289005bd3e4278852f7524594a26980f9",
+      "source": "research_notes/2026-09-07/single_event_context_output_v1/analysis-v1/PAIRED-TRANSITIONS.json",
+      "source_sha256": "8ee2cfa805745cdf2fb2d70280a7f43289005bd3e4278852f7524594a26980f9",
+      "byte_identical": true
+    },
+    {
+      "path": "papers/doppelganger-jc/experiments/EXP-20260907-BRANCH-DAY/B08/NONCANONICAL-NAMES.AI.json",
+      "bytes": 3915,
+      "sha256": "3e2370892e06adc248bf1421faf21d7541f07e09e297d67b07955ea6b2352669",
+      "source": "research_notes/2026-09-07/single_event_context_output_v1/analysis-v1/NONCANONICAL-NAMES.AI.json",
+      "source_sha256": "3e2370892e06adc248bf1421faf21d7541f07e09e297d67b07955ea6b2352669",
+      "byte_identical": true
+    },
+    {
+      "path": "papers/doppelganger-jc/experiments/EXP-20260907-BRANCH-DAY/B08/EXTRA-EVENT-OUTPUTS.json",
+      "bytes": 4981,
+      "sha256": "23204445c964eb45d02d1d4fc708ef49d39146296d8b4637fc38c09ac5b0e666",
+      "source": "research_notes/2026-09-07/single_event_context_output_v1/analysis-v1/EXTRA-EVENT-OUTPUTS.json",
+      "source_sha256": "23204445c964eb45d02d1d4fc708ef49d39146296d8b4637fc38c09ac5b0e666",
+      "byte_identical": true
+    },
+    {
+      "path": "papers/doppelganger-jc/experiments/EXP-20260907-BRANCH-DAY/B08/SCIENTIFIC-PROTOCOL-EXTRACT.json",
+      "bytes": 1023,
+      "sha256": "45955ef81a501af05f18d5717bff85548285c1546deefb607eb6ee528a4049dc",
+      "source": "research_notes/2026-09-07/single_event_context_output_v1/RUN-SPEC.json",
+      "source_sha256": "9859fbf3ec7eeecde8ee01bc3372931f2eaa77ad13ef085550fe1e17096325dd",
+      "byte_identical": false,
+      "transformation": "Remove private review, task identity and execution-environment metadata; retain original scientific field values."
+    },
+    {
+      "path": "papers/doppelganger-jc/experiments/EXP-20260907-BRANCH-DAY/B08/PREDECLARED-METHODS.zh-CN.md",
+      "bytes": 5335,
+      "sha256": "24207dee0a1f4cd46adba8950ccb860f98263a18519af3dd6b4457956f66cb02",
+      "source": "research_notes/2026-09-07/single_event_context_output_v1/COORDINATOR-SPEC.zh-CN.md",
+      "source_sha256": "cb03a2c2c75a3973373b4008a00bd58f546cda16601ca7751891c9f942b053a9",
+      "byte_identical": false,
+      "transformation": "Verbatim scientific section extraction with disclosure header"
+    },
+    {
+      "path": "papers/doppelganger-jc/experiments/EXP-20260907-BRANCH-DAY/README.zh-CN.md",
+      "bytes": 3754,
+      "sha256": "825767e2b58e765fed3153ec85e0be19fd035ad620c8b97abb3708258417ac83",
+      "identity": "Day-end public scope and interpretation guide",
+      "posthoc_summary": true
+    },
+    {
+      "path": "papers/doppelganger-jc/experiments/EXP-20260907-BRANCH-DAY/LEDGER.json",
+      "bytes": 2574,
+      "sha256": "da98fa2c100f48c5489799108efaa1f74deb47f8ea96c58a18389f0744ba541c",
+      "identity": "Day-end aggregate verified against all 840 new raw responses",
+      "posthoc_summary": true
+    },
+    {
+      "path": "papers/doppelganger-jc/notes/2026-09-07-branch-research-day-closeout.zh-CN.md",
+      "bytes": 8918,
+      "sha256": "fdf2eb76dd5ef029723bcd01929e5302208a51062cff119b174dae271ab5e57e",
+      "identity": "Post-experiment coordinator scientific day-end report",
+      "posthoc_summary": true
+    }
+  ]
+}

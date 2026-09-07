@@ -1,0 +1,1096 @@
+{
+  "identity": "POSTRESULT_SECONDARY_FULL_RECORD_VIEW_NOT_REPLACEMENT_PRIMARY_GATE",
+  "at": "2026-09-07T11:05:04.461693+00:00",
+  "rule": "Require occurrence and both relation participants even for negative source. Participant dimension was preregistered secondary; this combined full-record view is explicitly postresult. Original primary scores and candidate selection not overwritten.",
+  "summaries": [
+    {
+      "model": "qwen",
+      "arm": "PAIR_GENERIC",
+      "C": 37,
+      "W": 11,
+      "U": 0
+    },
+    {
+      "model": "qwen",
+      "arm": "PAIR_TYPED",
+      "C": 45,
+      "W": 2,
+      "U": 1
+    },
+    {
+      "model": "llmjp",
+      "arm": "PAIR_GENERIC",
+      "C": 39,
+      "W": 9,
+      "U": 0
+    },
+    {
+      "model": "llmjp",
+      "arm": "PAIR_TYPED",
+      "C": 43,
+      "W": 4,
+      "U": 1
+    },
+    {
+      "model": "apertus",
+      "arm": "PAIR_GENERIC",
+      "C": 31,
+      "W": 17,
+      "U": 0
+    },
+    {
+      "model": "apertus",
+      "arm": "PAIR_TYPED",
+      "C": 37,
+      "W": 11,
+      "U": 0
+    }
+  ],
+  "transitions": [
+    {
+      "model": "qwen",
+      "material_id": "T01",
+      "position": 1,
+      "full_record_transition": "C->C",
+      "participant_transition": "C->C"
+    },
+    {
+      "model": "qwen",
+      "material_id": "T01",
+      "position": 2,
+      "full_record_transition": "C->C",
+      "participant_transition": "C->C"
+    },
+    {
+      "model": "qwen",
+      "material_id": "T02",
+      "position": 1,
+      "full_record_transition": "C->C",
+      "participant_transition": "C->C"
+    },
+    {
+      "model": "qwen",
+      "material_id": "T02",
+      "position": 2,
+      "full_record_transition": "C->C",
+      "participant_transition": "C->C"
+    },
+    {
+      "model": "qwen",
+      "material_id": "T03",
+      "position": 1,
+      "full_record_transition": "C->C",
+      "participant_transition": "C->C"
+    },
+    {
+      "model": "qwen",
+      "material_id": "T03",
+      "position": 2,
+      "full_record_transition": "W->C",
+      "participant_transition": "C->C"
+    },
+    {
+      "model": "qwen",
+      "material_id": "T04",
+      "position": 1,
+      "full_record_transition": "C->C",
+      "participant_transition": "C->C"
+    },
+    {
+      "model": "qwen",
+      "material_id": "T04",
+      "position": 2,
+      "full_record_transition": "C->C",
+      "participant_transition": "C->C"
+    },
+    {
+      "model": "qwen",
+      "material_id": "T05",
+      "position": 1,
+      "full_record_transition": "C->C",
+      "participant_transition": "C->C"
+    },
+    {
+      "model": "qwen",
+      "material_id": "T05",
+      "position": 2,
+      "full_record_transition": "C->C",
+      "participant_transition": "C->C"
+    },
+    {
+      "model": "qwen",
+      "material_id": "T06",
+      "position": 1,
+      "full_record_transition": "C->C",
+      "participant_transition": "C->C"
+    },
+    {
+      "model": "qwen",
+      "material_id": "T06",
+      "position": 2,
+      "full_record_transition": "C->C",
+      "participant_transition": "C->C"
+    },
+    {
+      "model": "qwen",
+      "material_id": "T07",
+      "position": 1,
+      "full_record_transition": "C->C",
+      "participant_transition": "C->C"
+    },
+    {
+      "model": "qwen",
+      "material_id": "T07",
+      "position": 2,
+      "full_record_transition": "C->C",
+      "participant_transition": "C->C"
+    },
+    {
+      "model": "qwen",
+      "material_id": "T08",
+      "position": 1,
+      "full_record_transition": "W->C",
+      "participant_transition": "W->C"
+    },
+    {
+      "model": "qwen",
+      "material_id": "T08",
+      "position": 2,
+      "full_record_transition": "C->C",
+      "participant_transition": "C->C"
+    },
+    {
+      "model": "qwen",
+      "material_id": "T09",
+      "position": 1,
+      "full_record_transition": "C->C",
+      "participant_transition": "C->C"
+    },
+    {
+      "model": "qwen",
+      "material_id": "T09",
+      "position": 2,
+      "full_record_transition": "C->C",
+      "participant_transition": "C->C"
+    },
+    {
+      "model": "qwen",
+      "material_id": "T10",
+      "position": 1,
+      "full_record_transition": "W->C",
+      "participant_transition": "W->C"
+    },
+    {
+      "model": "qwen",
+      "material_id": "T10",
+      "position": 2,
+      "full_record_transition": "C->C",
+      "participant_transition": "C->C"
+    },
+    {
+      "model": "qwen",
+      "material_id": "T11",
+      "position": 1,
+      "full_record_transition": "W->C",
+      "participant_transition": "C->C"
+    },
+    {
+      "model": "qwen",
+      "material_id": "T11",
+      "position": 2,
+      "full_record_transition": "W->C",
+      "participant_transition": "C->C"
+    },
+    {
+      "model": "qwen",
+      "material_id": "T12",
+      "position": 1,
+      "full_record_transition": "W->C",
+      "participant_transition": "C->C"
+    },
+    {
+      "model": "qwen",
+      "material_id": "T12",
+      "position": 2,
+      "full_record_transition": "W->C",
+      "participant_transition": "C->C"
+    },
+    {
+      "model": "qwen",
+      "material_id": "T13",
+      "position": 1,
+      "full_record_transition": "C->C",
+      "participant_transition": "C->C"
+    },
+    {
+      "model": "qwen",
+      "material_id": "T13",
+      "position": 2,
+      "full_record_transition": "C->C",
+      "participant_transition": "C->C"
+    },
+    {
+      "model": "qwen",
+      "material_id": "T14",
+      "position": 1,
+      "full_record_transition": "W->C",
+      "participant_transition": "W->C"
+    },
+    {
+      "model": "qwen",
+      "material_id": "T14",
+      "position": 2,
+      "full_record_transition": "C->C",
+      "participant_transition": "C->C"
+    },
+    {
+      "model": "qwen",
+      "material_id": "T15",
+      "position": 1,
+      "full_record_transition": "C->C",
+      "participant_transition": "C->C"
+    },
+    {
+      "model": "qwen",
+      "material_id": "T15",
+      "position": 2,
+      "full_record_transition": "C->U",
+      "participant_transition": "C->U"
+    },
+    {
+      "model": "qwen",
+      "material_id": "T16",
+      "position": 1,
+      "full_record_transition": "W->C",
+      "participant_transition": "W->C"
+    },
+    {
+      "model": "qwen",
+      "material_id": "T16",
+      "position": 2,
+      "full_record_transition": "C->C",
+      "participant_transition": "C->C"
+    },
+    {
+      "model": "qwen",
+      "material_id": "T17",
+      "position": 1,
+      "full_record_transition": "C->C",
+      "participant_transition": "C->C"
+    },
+    {
+      "model": "qwen",
+      "material_id": "T17",
+      "position": 2,
+      "full_record_transition": "C->C",
+      "participant_transition": "C->C"
+    },
+    {
+      "model": "qwen",
+      "material_id": "T18",
+      "position": 1,
+      "full_record_transition": "W->W",
+      "participant_transition": "C->C"
+    },
+    {
+      "model": "qwen",
+      "material_id": "T18",
+      "position": 2,
+      "full_record_transition": "W->W",
+      "participant_transition": "C->C"
+    },
+    {
+      "model": "qwen",
+      "material_id": "T19",
+      "position": 1,
+      "full_record_transition": "C->C",
+      "participant_transition": "C->C"
+    },
+    {
+      "model": "qwen",
+      "material_id": "T19",
+      "position": 2,
+      "full_record_transition": "C->C",
+      "participant_transition": "C->C"
+    },
+    {
+      "model": "qwen",
+      "material_id": "T20",
+      "position": 1,
+      "full_record_transition": "C->C",
+      "participant_transition": "C->C"
+    },
+    {
+      "model": "qwen",
+      "material_id": "T20",
+      "position": 2,
+      "full_record_transition": "C->C",
+      "participant_transition": "C->C"
+    },
+    {
+      "model": "qwen",
+      "material_id": "T21",
+      "position": 1,
+      "full_record_transition": "C->C",
+      "participant_transition": "C->C"
+    },
+    {
+      "model": "qwen",
+      "material_id": "T21",
+      "position": 2,
+      "full_record_transition": "C->C",
+      "participant_transition": "C->C"
+    },
+    {
+      "model": "qwen",
+      "material_id": "T22",
+      "position": 1,
+      "full_record_transition": "C->C",
+      "participant_transition": "C->C"
+    },
+    {
+      "model": "qwen",
+      "material_id": "T22",
+      "position": 2,
+      "full_record_transition": "C->C",
+      "participant_transition": "C->C"
+    },
+    {
+      "model": "qwen",
+      "material_id": "T23",
+      "position": 1,
+      "full_record_transition": "C->C",
+      "participant_transition": "C->C"
+    },
+    {
+      "model": "qwen",
+      "material_id": "T23",
+      "position": 2,
+      "full_record_transition": "C->C",
+      "participant_transition": "C->C"
+    },
+    {
+      "model": "qwen",
+      "material_id": "T24",
+      "position": 1,
+      "full_record_transition": "C->C",
+      "participant_transition": "C->C"
+    },
+    {
+      "model": "qwen",
+      "material_id": "T24",
+      "position": 2,
+      "full_record_transition": "C->C",
+      "participant_transition": "C->C"
+    },
+    {
+      "model": "llmjp",
+      "material_id": "T01",
+      "position": 1,
+      "full_record_transition": "C->C",
+      "participant_transition": "C->C"
+    },
+    {
+      "model": "llmjp",
+      "material_id": "T01",
+      "position": 2,
+      "full_record_transition": "C->C",
+      "participant_transition": "C->C"
+    },
+    {
+      "model": "llmjp",
+      "material_id": "T02",
+      "position": 1,
+      "full_record_transition": "C->C",
+      "participant_transition": "C->C"
+    },
+    {
+      "model": "llmjp",
+      "material_id": "T02",
+      "position": 2,
+      "full_record_transition": "C->C",
+      "participant_transition": "C->C"
+    },
+    {
+      "model": "llmjp",
+      "material_id": "T03",
+      "position": 1,
+      "full_record_transition": "C->C",
+      "participant_transition": "C->C"
+    },
+    {
+      "model": "llmjp",
+      "material_id": "T03",
+      "position": 2,
+      "full_record_transition": "C->C",
+      "participant_transition": "C->C"
+    },
+    {
+      "model": "llmjp",
+      "material_id": "T04",
+      "position": 1,
+      "full_record_transition": "C->C",
+      "participant_transition": "C->C"
+    },
+    {
+      "model": "llmjp",
+      "material_id": "T04",
+      "position": 2,
+      "full_record_transition": "C->C",
+      "participant_transition": "C->C"
+    },
+    {
+      "model": "llmjp",
+      "material_id": "T05",
+      "position": 1,
+      "full_record_transition": "C->C",
+      "participant_transition": "C->C"
+    },
+    {
+      "model": "llmjp",
+      "material_id": "T05",
+      "position": 2,
+      "full_record_transition": "C->C",
+      "participant_transition": "C->C"
+    },
+    {
+      "model": "llmjp",
+      "material_id": "T06",
+      "position": 1,
+      "full_record_transition": "C->C",
+      "participant_transition": "C->C"
+    },
+    {
+      "model": "llmjp",
+      "material_id": "T06",
+      "position": 2,
+      "full_record_transition": "C->C",
+      "participant_transition": "C->C"
+    },
+    {
+      "model": "llmjp",
+      "material_id": "T07",
+      "position": 1,
+      "full_record_transition": "C->C",
+      "participant_transition": "C->C"
+    },
+    {
+      "model": "llmjp",
+      "material_id": "T07",
+      "position": 2,
+      "full_record_transition": "C->C",
+      "participant_transition": "C->C"
+    },
+    {
+      "model": "llmjp",
+      "material_id": "T08",
+      "position": 1,
+      "full_record_transition": "W->C",
+      "participant_transition": "W->C"
+    },
+    {
+      "model": "llmjp",
+      "material_id": "T08",
+      "position": 2,
+      "full_record_transition": "C->C",
+      "participant_transition": "C->C"
+    },
+    {
+      "model": "llmjp",
+      "material_id": "T09",
+      "position": 1,
+      "full_record_transition": "C->C",
+      "participant_transition": "C->C"
+    },
+    {
+      "model": "llmjp",
+      "material_id": "T09",
+      "position": 2,
+      "full_record_transition": "W->W",
+      "participant_transition": "W->C"
+    },
+    {
+      "model": "llmjp",
+      "material_id": "T10",
+      "position": 1,
+      "full_record_transition": "W->C",
+      "participant_transition": "W->C"
+    },
+    {
+      "model": "llmjp",
+      "material_id": "T10",
+      "position": 2,
+      "full_record_transition": "C->C",
+      "participant_transition": "C->C"
+    },
+    {
+      "model": "llmjp",
+      "material_id": "T11",
+      "position": 1,
+      "full_record_transition": "C->C",
+      "participant_transition": "C->C"
+    },
+    {
+      "model": "llmjp",
+      "material_id": "T11",
+      "position": 2,
+      "full_record_transition": "W->C",
+      "participant_transition": "W->C"
+    },
+    {
+      "model": "llmjp",
+      "material_id": "T12",
+      "position": 1,
+      "full_record_transition": "W->C",
+      "participant_transition": "W->C"
+    },
+    {
+      "model": "llmjp",
+      "material_id": "T12",
+      "position": 2,
+      "full_record_transition": "C->C",
+      "participant_transition": "C->C"
+    },
+    {
+      "model": "llmjp",
+      "material_id": "T13",
+      "position": 1,
+      "full_record_transition": "C->C",
+      "participant_transition": "C->C"
+    },
+    {
+      "model": "llmjp",
+      "material_id": "T13",
+      "position": 2,
+      "full_record_transition": "W->C",
+      "participant_transition": "W->C"
+    },
+    {
+      "model": "llmjp",
+      "material_id": "T14",
+      "position": 1,
+      "full_record_transition": "W->W",
+      "participant_transition": "W->W"
+    },
+    {
+      "model": "llmjp",
+      "material_id": "T14",
+      "position": 2,
+      "full_record_transition": "C->C",
+      "participant_transition": "C->C"
+    },
+    {
+      "model": "llmjp",
+      "material_id": "T15",
+      "position": 1,
+      "full_record_transition": "C->C",
+      "participant_transition": "C->C"
+    },
+    {
+      "model": "llmjp",
+      "material_id": "T15",
+      "position": 2,
+      "full_record_transition": "C->W",
+      "participant_transition": "C->C"
+    },
+    {
+      "model": "llmjp",
+      "material_id": "T16",
+      "position": 1,
+      "full_record_transition": "W->U",
+      "participant_transition": "C->C"
+    },
+    {
+      "model": "llmjp",
+      "material_id": "T16",
+      "position": 2,
+      "full_record_transition": "C->C",
+      "participant_transition": "C->C"
+    },
+    {
+      "model": "llmjp",
+      "material_id": "T17",
+      "position": 1,
+      "full_record_transition": "C->C",
+      "participant_transition": "C->C"
+    },
+    {
+      "model": "llmjp",
+      "material_id": "T17",
+      "position": 2,
+      "full_record_transition": "C->C",
+      "participant_transition": "C->C"
+    },
+    {
+      "model": "llmjp",
+      "material_id": "T18",
+      "position": 1,
+      "full_record_transition": "W->W",
+      "participant_transition": "U->U"
+    },
+    {
+      "model": "llmjp",
+      "material_id": "T18",
+      "position": 2,
+      "full_record_transition": "C->C",
+      "participant_transition": "C->C"
+    },
+    {
+      "model": "llmjp",
+      "material_id": "T19",
+      "position": 1,
+      "full_record_transition": "C->C",
+      "participant_transition": "C->C"
+    },
+    {
+      "model": "llmjp",
+      "material_id": "T19",
+      "position": 2,
+      "full_record_transition": "C->C",
+      "participant_transition": "C->C"
+    },
+    {
+      "model": "llmjp",
+      "material_id": "T20",
+      "position": 1,
+      "full_record_transition": "C->C",
+      "participant_transition": "C->C"
+    },
+    {
+      "model": "llmjp",
+      "material_id": "T20",
+      "position": 2,
+      "full_record_transition": "C->C",
+      "participant_transition": "C->C"
+    },
+    {
+      "model": "llmjp",
+      "material_id": "T21",
+      "position": 1,
+      "full_record_transition": "C->C",
+      "participant_transition": "C->C"
+    },
+    {
+      "model": "llmjp",
+      "material_id": "T21",
+      "position": 2,
+      "full_record_transition": "C->C",
+      "participant_transition": "C->C"
+    },
+    {
+      "model": "llmjp",
+      "material_id": "T22",
+      "position": 1,
+      "full_record_transition": "C->C",
+      "participant_transition": "C->C"
+    },
+    {
+      "model": "llmjp",
+      "material_id": "T22",
+      "position": 2,
+      "full_record_transition": "C->C",
+      "participant_transition": "C->C"
+    },
+    {
+      "model": "llmjp",
+      "material_id": "T23",
+      "position": 1,
+      "full_record_transition": "C->C",
+      "participant_transition": "C->C"
+    },
+    {
+      "model": "llmjp",
+      "material_id": "T23",
+      "position": 2,
+      "full_record_transition": "C->C",
+      "participant_transition": "C->C"
+    },
+    {
+      "model": "llmjp",
+      "material_id": "T24",
+      "position": 1,
+      "full_record_transition": "C->C",
+      "participant_transition": "C->C"
+    },
+    {
+      "model": "llmjp",
+      "material_id": "T24",
+      "position": 2,
+      "full_record_transition": "C->C",
+      "participant_transition": "C->C"
+    },
+    {
+      "model": "apertus",
+      "material_id": "T01",
+      "position": 1,
+      "full_record_transition": "C->C",
+      "participant_transition": "C->C"
+    },
+    {
+      "model": "apertus",
+      "material_id": "T01",
+      "position": 2,
+      "full_record_transition": "C->C",
+      "participant_transition": "C->C"
+    },
+    {
+      "model": "apertus",
+      "material_id": "T02",
+      "position": 1,
+      "full_record_transition": "C->C",
+      "participant_transition": "C->C"
+    },
+    {
+      "model": "apertus",
+      "material_id": "T02",
+      "position": 2,
+      "full_record_transition": "C->C",
+      "participant_transition": "C->C"
+    },
+    {
+      "model": "apertus",
+      "material_id": "T03",
+      "position": 1,
+      "full_record_transition": "C->C",
+      "participant_transition": "C->C"
+    },
+    {
+      "model": "apertus",
+      "material_id": "T03",
+      "position": 2,
+      "full_record_transition": "C->C",
+      "participant_transition": "C->C"
+    },
+    {
+      "model": "apertus",
+      "material_id": "T04",
+      "position": 1,
+      "full_record_transition": "W->W",
+      "participant_transition": "C->C"
+    },
+    {
+      "model": "apertus",
+      "material_id": "T04",
+      "position": 2,
+      "full_record_transition": "C->C",
+      "participant_transition": "C->C"
+    },
+    {
+      "model": "apertus",
+      "material_id": "T05",
+      "position": 1,
+      "full_record_transition": "C->C",
+      "participant_transition": "C->C"
+    },
+    {
+      "model": "apertus",
+      "material_id": "T05",
+      "position": 2,
+      "full_record_transition": "C->C",
+      "participant_transition": "C->C"
+    },
+    {
+      "model": "apertus",
+      "material_id": "T06",
+      "position": 1,
+      "full_record_transition": "W->C",
+      "participant_transition": "W->C"
+    },
+    {
+      "model": "apertus",
+      "material_id": "T06",
+      "position": 2,
+      "full_record_transition": "C->C",
+      "participant_transition": "C->C"
+    },
+    {
+      "model": "apertus",
+      "material_id": "T07",
+      "position": 1,
+      "full_record_transition": "C->C",
+      "participant_transition": "C->C"
+    },
+    {
+      "model": "apertus",
+      "material_id": "T07",
+      "position": 2,
+      "full_record_transition": "W->W",
+      "participant_transition": "W->W"
+    },
+    {
+      "model": "apertus",
+      "material_id": "T08",
+      "position": 1,
+      "full_record_transition": "W->C",
+      "participant_transition": "W->C"
+    },
+    {
+      "model": "apertus",
+      "material_id": "T08",
+      "position": 2,
+      "full_record_transition": "W->C",
+      "participant_transition": "W->C"
+    },
+    {
+      "model": "apertus",
+      "material_id": "T09",
+      "position": 1,
+      "full_record_transition": "C->C",
+      "participant_transition": "C->C"
+    },
+    {
+      "model": "apertus",
+      "material_id": "T09",
+      "position": 2,
+      "full_record_transition": "W->C",
+      "participant_transition": "W->C"
+    },
+    {
+      "model": "apertus",
+      "material_id": "T10",
+      "position": 1,
+      "full_record_transition": "W->W",
+      "participant_transition": "C->C"
+    },
+    {
+      "model": "apertus",
+      "material_id": "T10",
+      "position": 2,
+      "full_record_transition": "W->C",
+      "participant_transition": "W->C"
+    },
+    {
+      "model": "apertus",
+      "material_id": "T11",
+      "position": 1,
+      "full_record_transition": "C->C",
+      "participant_transition": "C->C"
+    },
+    {
+      "model": "apertus",
+      "material_id": "T11",
+      "position": 2,
+      "full_record_transition": "C->C",
+      "participant_transition": "C->C"
+    },
+    {
+      "model": "apertus",
+      "material_id": "T12",
+      "position": 1,
+      "full_record_transition": "W->C",
+      "participant_transition": "W->C"
+    },
+    {
+      "model": "apertus",
+      "material_id": "T12",
+      "position": 2,
+      "full_record_transition": "C->C",
+      "participant_transition": "C->C"
+    },
+    {
+      "model": "apertus",
+      "material_id": "T13",
+      "position": 1,
+      "full_record_transition": "C->C",
+      "participant_transition": "C->C"
+    },
+    {
+      "model": "apertus",
+      "material_id": "T13",
+      "position": 2,
+      "full_record_transition": "W->C",
+      "participant_transition": "W->C"
+    },
+    {
+      "model": "apertus",
+      "material_id": "T14",
+      "position": 1,
+      "full_record_transition": "W->W",
+      "participant_transition": "W->W"
+    },
+    {
+      "model": "apertus",
+      "material_id": "T14",
+      "position": 2,
+      "full_record_transition": "W->W",
+      "participant_transition": "W->W"
+    },
+    {
+      "model": "apertus",
+      "material_id": "T15",
+      "position": 1,
+      "full_record_transition": "C->C",
+      "participant_transition": "C->C"
+    },
+    {
+      "model": "apertus",
+      "material_id": "T15",
+      "position": 2,
+      "full_record_transition": "C->W",
+      "participant_transition": "C->W"
+    },
+    {
+      "model": "apertus",
+      "material_id": "T16",
+      "position": 1,
+      "full_record_transition": "W->W",
+      "participant_transition": "W->C"
+    },
+    {
+      "model": "apertus",
+      "material_id": "T16",
+      "position": 2,
+      "full_record_transition": "C->W",
+      "participant_transition": "C->W"
+    },
+    {
+      "model": "apertus",
+      "material_id": "T17",
+      "position": 1,
+      "full_record_transition": "C->C",
+      "participant_transition": "C->C"
+    },
+    {
+      "model": "apertus",
+      "material_id": "T17",
+      "position": 2,
+      "full_record_transition": "C->W",
+      "participant_transition": "C->W"
+    },
+    {
+      "model": "apertus",
+      "material_id": "T18",
+      "position": 1,
+      "full_record_transition": "W->W",
+      "participant_transition": "W->W"
+    },
+    {
+      "model": "apertus",
+      "material_id": "T18",
+      "position": 2,
+      "full_record_transition": "C->C",
+      "participant_transition": "C->C"
+    },
+    {
+      "model": "apertus",
+      "material_id": "T19",
+      "position": 1,
+      "full_record_transition": "C->C",
+      "participant_transition": "C->C"
+    },
+    {
+      "model": "apertus",
+      "material_id": "T19",
+      "position": 2,
+      "full_record_transition": "C->C",
+      "participant_transition": "C->C"
+    },
+    {
+      "model": "apertus",
+      "material_id": "T20",
+      "position": 1,
+      "full_record_transition": "W->C",
+      "participant_transition": "W->C"
+    },
+    {
+      "model": "apertus",
+      "material_id": "T20",
+      "position": 2,
+      "full_record_transition": "C->C",
+      "participant_transition": "C->C"
+    },
+    {
+      "model": "apertus",
+      "material_id": "T21",
+      "position": 1,
+      "full_record_transition": "C->C",
+      "participant_transition": "C->C"
+    },
+    {
+      "model": "apertus",
+      "material_id": "T21",
+      "position": 2,
+      "full_record_transition": "C->C",
+      "participant_transition": "C->C"
+    },
+    {
+      "model": "apertus",
+      "material_id": "T22",
+      "position": 1,
+      "full_record_transition": "W->W",
+      "participant_transition": "C->C"
+    },
+    {
+      "model": "apertus",
+      "material_id": "T22",
+      "position": 2,
+      "full_record_transition": "C->C",
+      "participant_transition": "C->C"
+    },
+    {
+      "model": "apertus",
+      "material_id": "T23",
+      "position": 1,
+      "full_record_transition": "C->C",
+      "participant_transition": "C->C"
+    },
+    {
+      "model": "apertus",
+      "material_id": "T23",
+      "position": 2,
+      "full_record_transition": "C->C",
+      "participant_transition": "C->C"
+    },
+    {
+      "model": "apertus",
+      "material_id": "T24",
+      "position": 1,
+      "full_record_transition": "C->C",
+      "participant_transition": "C->C"
+    },
+    {
+      "model": "apertus",
+      "material_id": "T24",
+      "position": 2,
+      "full_record_transition": "W->C",
+      "participant_transition": "W->C"
+    }
+  ],
+  "harm_details": [
+    {
+      "model": "qwen",
+      "material_id": "T15",
+      "position": 2,
+      "full_record_transition": "C->U",
+      "participant_transition": "C->U"
+    },
+    {
+      "model": "llmjp",
+      "material_id": "T15",
+      "position": 2,
+      "full_record_transition": "C->W",
+      "participant_transition": "C->C"
+    },
+    {
+      "model": "apertus",
+      "material_id": "T15",
+      "position": 2,
+      "full_record_transition": "C->W",
+      "participant_transition": "C->W"
+    },
+    {
+      "model": "apertus",
+      "material_id": "T16",
+      "position": 2,
+      "full_record_transition": "C->W",
+      "participant_transition": "C->W"
+    },
+    {
+      "model": "apertus",
+      "material_id": "T17",
+      "position": 2,
+      "full_record_transition": "C->W",
+      "participant_transition": "C->W"
+    }
+  ]
+}
