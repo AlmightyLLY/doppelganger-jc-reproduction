@@ -1,0 +1,333 @@
+{
+  "experiment_id": "EXP-20260907-01",
+  "at_utc": "2026-09-07T07:40:10.132172+00:00",
+  "status": "PI_PARTIAL_OUTPUT_REVIEW_RECORDED",
+  "user_message": "我刚刚大致审核了一下06-完整结果与审核，你先看一下",
+  "source_file": "research_notes/2026-09-07/exp_20260907_01_translation_bridge_execution/06-完整结果与审核-v2.xlsx",
+  "source_baseline": "results-v1/history/06-完整结果与审核-v2.xlsx",
+  "source_baseline_sha256": "146d908eb69de46216ec7c137c6c62c89ff5641dae79b93a1471dc7c4379e2ef",
+  "reviewed_copy_sha256": "0ddbbd1a5b9754dfcccaa1fd791abc22e1d503bf5d28099fed5f298552e90f4e",
+  "annotations": [
+    {
+      "sheet": "首审8条",
+      "cell": "D7",
+      "trace_id": "apertus-B06-P-EVENT_QA",
+      "old": null,
+      "user_text_verbatim": "这里的理解有错，实际上没有让对方来上班"
+    },
+    {
+      "sheet": "异常与分歧",
+      "cell": "G4",
+      "trace_id": "qwen-B02-K-TRANSLATE",
+      "old": null,
+      "user_text_verbatim": "放进信封了，但是为基础，这里的表达有些混乱"
+    },
+    {
+      "sheet": "异常与分歧",
+      "cell": "G24",
+      "trace_id": "llmjp-B02-P-TRANSLATE",
+      "old": null,
+      "user_text_verbatim": "缺少了将信放进信封的必要过程"
+    },
+    {
+      "sheet": "异常与分歧",
+      "cell": "G26",
+      "trace_id": "llmjp-B04-K-TRANSLATE",
+      "old": null,
+      "user_text_verbatim": "没有高烧，只是说了发热"
+    },
+    {
+      "sheet": "异常与分歧",
+      "cell": "G42",
+      "trace_id": "apertus-B02-H-TRANSLATE",
+      "old": null,
+      "user_text_verbatim": "表述混乱，应该是田中写了给妹妹的信"
+    },
+    {
+      "sheet": "异常与分歧",
+      "cell": "G43",
+      "trace_id": "apertus-B02-P-TRANSLATE",
+      "old": null,
+      "user_text_verbatim": "缺少在桌上的关键信息"
+    },
+    {
+      "sheet": "异常与分歧",
+      "cell": "G45",
+      "trace_id": "apertus-B03-H-TRANSLATE",
+      "old": null,
+      "user_text_verbatim": "有一定的自愿性歧义，但是感觉还是可以接受"
+    },
+    {
+      "sheet": "异常与分歧",
+      "cell": "G53",
+      "trace_id": "apertus-B05-K-EVENT_QA",
+      "old": null,
+      "user_text_verbatim": "明确与事实不符"
+    },
+    {
+      "sheet": "异常与分歧",
+      "cell": "G57",
+      "trace_id": "apertus-B06-K-EVENT_QA",
+      "old": null,
+      "user_text_verbatim": "明确错误"
+    }
+  ],
+  "annotations_count": 9,
+  "unique_annotated_output_ids": 9,
+  "inferred_CWU_labels": null,
+  "unannotated_rows": "No inference about whether read or accepted; user described this as approximate/partial review.",
+  "exposure": "8 notes entered in exception sheet with AI labels/reasons visible; no independent or fully blinded gold claimed.",
+  "score_changes": 0,
+  "new_model_calls": 0,
+  "raw_outputs_and_frozen_scores_unchanged": true,
+  "non_annotation_changes": {
+    "count": 48,
+    "kind": "Exactly two trailing newlines removed from Qwen rendered input display cells; cause not established, do not attribute to deliberate user editing.",
+    "cells": [
+      {
+        "sheet": "原生追溯",
+        "cell": "C2",
+        "trace_id": "qwen-B01-K-TRANSLATE"
+      },
+      {
+        "sheet": "原生追溯",
+        "cell": "C3",
+        "trace_id": "qwen-B01-K-EVENT_QA"
+      },
+      {
+        "sheet": "原生追溯",
+        "cell": "C4",
+        "trace_id": "qwen-B01-H-TRANSLATE"
+      },
+      {
+        "sheet": "原生追溯",
+        "cell": "C5",
+        "trace_id": "qwen-B01-H-EVENT_QA"
+      },
+      {
+        "sheet": "原生追溯",
+        "cell": "C6",
+        "trace_id": "qwen-B01-P-TRANSLATE"
+      },
+      {
+        "sheet": "原生追溯",
+        "cell": "C7",
+        "trace_id": "qwen-B01-P-EVENT_QA"
+      },
+      {
+        "sheet": "原生追溯",
+        "cell": "C8",
+        "trace_id": "qwen-B02-K-TRANSLATE"
+      },
+      {
+        "sheet": "原生追溯",
+        "cell": "C9",
+        "trace_id": "qwen-B02-K-EVENT_QA"
+      },
+      {
+        "sheet": "原生追溯",
+        "cell": "C10",
+        "trace_id": "qwen-B02-H-TRANSLATE"
+      },
+      {
+        "sheet": "原生追溯",
+        "cell": "C11",
+        "trace_id": "qwen-B02-H-EVENT_QA"
+      },
+      {
+        "sheet": "原生追溯",
+        "cell": "C12",
+        "trace_id": "qwen-B02-P-TRANSLATE"
+      },
+      {
+        "sheet": "原生追溯",
+        "cell": "C13",
+        "trace_id": "qwen-B02-P-EVENT_QA"
+      },
+      {
+        "sheet": "原生追溯",
+        "cell": "C14",
+        "trace_id": "qwen-B03-K-TRANSLATE"
+      },
+      {
+        "sheet": "原生追溯",
+        "cell": "C15",
+        "trace_id": "qwen-B03-K-EVENT_QA"
+      },
+      {
+        "sheet": "原生追溯",
+        "cell": "C16",
+        "trace_id": "qwen-B03-H-TRANSLATE"
+      },
+      {
+        "sheet": "原生追溯",
+        "cell": "C17",
+        "trace_id": "qwen-B03-H-EVENT_QA"
+      },
+      {
+        "sheet": "原生追溯",
+        "cell": "C18",
+        "trace_id": "qwen-B03-P-TRANSLATE"
+      },
+      {
+        "sheet": "原生追溯",
+        "cell": "C19",
+        "trace_id": "qwen-B03-P-EVENT_QA"
+      },
+      {
+        "sheet": "原生追溯",
+        "cell": "C20",
+        "trace_id": "qwen-B04-K-TRANSLATE"
+      },
+      {
+        "sheet": "原生追溯",
+        "cell": "C21",
+        "trace_id": "qwen-B04-K-EVENT_QA"
+      },
+      {
+        "sheet": "原生追溯",
+        "cell": "C22",
+        "trace_id": "qwen-B04-H-TRANSLATE"
+      },
+      {
+        "sheet": "原生追溯",
+        "cell": "C23",
+        "trace_id": "qwen-B04-H-EVENT_QA"
+      },
+      {
+        "sheet": "原生追溯",
+        "cell": "C24",
+        "trace_id": "qwen-B04-P-TRANSLATE"
+      },
+      {
+        "sheet": "原生追溯",
+        "cell": "C25",
+        "trace_id": "qwen-B04-P-EVENT_QA"
+      },
+      {
+        "sheet": "原生追溯",
+        "cell": "C26",
+        "trace_id": "qwen-B05-K-TRANSLATE"
+      },
+      {
+        "sheet": "原生追溯",
+        "cell": "C27",
+        "trace_id": "qwen-B05-K-EVENT_QA"
+      },
+      {
+        "sheet": "原生追溯",
+        "cell": "C28",
+        "trace_id": "qwen-B05-H-TRANSLATE"
+      },
+      {
+        "sheet": "原生追溯",
+        "cell": "C29",
+        "trace_id": "qwen-B05-H-EVENT_QA"
+      },
+      {
+        "sheet": "原生追溯",
+        "cell": "C30",
+        "trace_id": "qwen-B05-P-TRANSLATE"
+      },
+      {
+        "sheet": "原生追溯",
+        "cell": "C31",
+        "trace_id": "qwen-B05-P-EVENT_QA"
+      },
+      {
+        "sheet": "原生追溯",
+        "cell": "C32",
+        "trace_id": "qwen-B06-K-TRANSLATE"
+      },
+      {
+        "sheet": "原生追溯",
+        "cell": "C33",
+        "trace_id": "qwen-B06-K-EVENT_QA"
+      },
+      {
+        "sheet": "原生追溯",
+        "cell": "C34",
+        "trace_id": "qwen-B06-H-TRANSLATE"
+      },
+      {
+        "sheet": "原生追溯",
+        "cell": "C35",
+        "trace_id": "qwen-B06-H-EVENT_QA"
+      },
+      {
+        "sheet": "原生追溯",
+        "cell": "C36",
+        "trace_id": "qwen-B06-P-TRANSLATE"
+      },
+      {
+        "sheet": "原生追溯",
+        "cell": "C37",
+        "trace_id": "qwen-B06-P-EVENT_QA"
+      },
+      {
+        "sheet": "原生追溯",
+        "cell": "C38",
+        "trace_id": "qwen-B07-K-TRANSLATE"
+      },
+      {
+        "sheet": "原生追溯",
+        "cell": "C39",
+        "trace_id": "qwen-B07-K-EVENT_QA"
+      },
+      {
+        "sheet": "原生追溯",
+        "cell": "C40",
+        "trace_id": "qwen-B07-H-TRANSLATE"
+      },
+      {
+        "sheet": "原生追溯",
+        "cell": "C41",
+        "trace_id": "qwen-B07-H-EVENT_QA"
+      },
+      {
+        "sheet": "原生追溯",
+        "cell": "C42",
+        "trace_id": "qwen-B07-P-TRANSLATE"
+      },
+      {
+        "sheet": "原生追溯",
+        "cell": "C43",
+        "trace_id": "qwen-B07-P-EVENT_QA"
+      },
+      {
+        "sheet": "原生追溯",
+        "cell": "C44",
+        "trace_id": "qwen-B08-K-TRANSLATE"
+      },
+      {
+        "sheet": "原生追溯",
+        "cell": "C45",
+        "trace_id": "qwen-B08-K-EVENT_QA"
+      },
+      {
+        "sheet": "原生追溯",
+        "cell": "C46",
+        "trace_id": "qwen-B08-H-TRANSLATE"
+      },
+      {
+        "sheet": "原生追溯",
+        "cell": "C47",
+        "trace_id": "qwen-B08-H-EVENT_QA"
+      },
+      {
+        "sheet": "原生追溯",
+        "cell": "C48",
+        "trace_id": "qwen-B08-P-TRANSLATE"
+      },
+      {
+        "sheet": "原生追溯",
+        "cell": "C49",
+        "trace_id": "qwen-B08-P-EVENT_QA"
+      }
+    ],
+    "authoritative_inputs": "Frozen raw OUTPUTS.jsonl plus token IDs and original archived workbook. No originals repaired/overwritten."
+  },
+  "primary_endpoint_finalized": false,
+  "full_output_review_complete": false,
+  "github_sync": "Pending at snapshot creation; independent output-review-v1-SYNC-RECEIPT.json stored in user working folder."
+}

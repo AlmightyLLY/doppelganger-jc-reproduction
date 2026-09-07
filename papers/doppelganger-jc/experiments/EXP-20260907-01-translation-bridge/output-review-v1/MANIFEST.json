@@ -1,0 +1,20 @@
+{
+  "at_utc": "2026-09-07T07:40:10.132172+00:00",
+  "files": [
+    {
+      "path": "06-完整结果与审核-用户初审原件.xlsx",
+      "sha256": "0ddbbd1a5b9754dfcccaa1fd791abc22e1d503bf5d28099fed5f298552e90f4e",
+      "bytes": 83629
+    },
+    {
+      "path": "REVIEW-NOTES.zh-CN.md",
+      "sha256": "ed8921dd048ef8b045ea9e294274293d99a71ed9f82f2a2696ec483e775ee015",
+      "bytes": 2907
+    },
+    {
+      "path": "REVIEW-RECEIPT.json",
+      "sha256": "67daa14719db807ab63dba53c6130d7daab9d064595ea5ab407e1910d05905de",
+      "bytes": 9019
+    }
+  ]
+}
