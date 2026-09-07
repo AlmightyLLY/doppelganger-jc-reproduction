@@ -1,0 +1,13 @@
+{
+  "document_pages": 1,
+  "all_document_pages_visually_reviewed": true,
+  "all_sheets_visually_reviewed": true,
+  "references_clipping_fixed": true,
+  "excel_source_variants_match": 24,
+  "exact_prompt_rows_match": 48,
+  "review_dropdowns": 8,
+  "human_fields_blank": 16,
+  "protocol_executable": false,
+  "model_outputs_generated": 0,
+  "scope": "content/structural checks and rendered layout; no scientific human acceptance"
+}

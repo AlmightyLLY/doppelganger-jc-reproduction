@@ -1,0 +1,47 @@
+{
+  "experiment_id": "EXP-20260907-01",
+  "version": "v1-review-draft",
+  "status": "awaiting user prediction and input review",
+  "files": [
+    {
+      "path": "01-今日实验预注册.docx",
+      "sha256": "5e485816de5d108c6feab2e86dd103bf9e5c5acf9dee320d8931cf09829d2b31",
+      "bytes": 198206
+    },
+    {
+      "path": "02-事前数据审核8组.xlsx",
+      "sha256": "79ad12580b77ea0ca446be2615724aa625785b7ee5003c1f193bf91023276cbd",
+      "bytes": 15015
+    },
+    {
+      "path": "MATERIALS.json",
+      "sha256": "4e7bf81911310dee2f2a055003d10f7cacb03c7a89044e93ba322f918ef58266",
+      "bytes": 13838
+    },
+    {
+      "path": "PROMPTS.json",
+      "sha256": "1e5b65d54106f4dff49c406a93574285f3f7772599be98996c6d6558e38e8af6",
+      "bytes": 30021
+    },
+    {
+      "path": "PROTOCOL-DRAFT.json",
+      "sha256": "bcfba827e86f953b15ccc08c245d689c90c8bef8b588f0ec28995552ed0b0b84",
+      "bytes": 5915
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "9ce8fb5a5ec56aa5935bb123d6bab3528acde245fdb5b18ab945b22437553686",
+      "bytes": 3079
+    },
+    {
+      "path": "REVIEW-STATUS.json",
+      "sha256": "4e7d6da0cc779ac4950e8cdff8f48da4d46b77de24e0db40bc1c9c2119ecbe47",
+      "bytes": 288
+    },
+    {
+      "path": "VALIDATION.json",
+      "sha256": "905e1cb4fec16f43e9a7acca26854b7bf512eface7b6744b33cda7a4b2ba421c",
+      "bytes": 430
+    }
+  ]
+}

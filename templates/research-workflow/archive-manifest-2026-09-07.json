@@ -26,13 +26,13 @@
     },
     {
       "path": "docs/main-thread-2026-09-07.zh-CN.md",
-      "sha256": "d6c79cb9b9cb30b8b4c6d6917bcd7b412c801db1df08c21c0cd13780e1851e31",
-      "bytes": 6786
+      "sha256": "b96722574bf7c4cad2c8a987513e7169abb4d7e92848bbaf922d659f9f1c319f",
+      "bytes": 7367
     },
     {
       "path": "AGENTS.md",
-      "sha256": "2ee4b2fb18e75517a5e063f883a7775d5499d723bdc45c394a5c44628f41f564",
-      "bytes": 4216
+      "sha256": "75172a5637f0dbde0f30e785b01717abc902df81dc0db6fc95ccfb43758482ed",
+      "bytes": 4636
     },
     {
       "path": "templates/research-workflow/README.zh-CN.md",
@@ -56,8 +56,8 @@
     },
     {
       "path": "docs/research-direction-2026-09-07-two-track.zh-CN.md",
-      "sha256": "66cd750996ca9757481f68c3737dd4b6b7319fdbf13f549c4083f290fe707ff4",
-      "bytes": 11106
+      "sha256": "571b63aa2a3fabed4f83dd92dab7c608158b04c98375b95d58b004c29fe839a6",
+      "bytes": 12098
     }
   ],
   "upload_authorization": {
@@ -67,5 +67,5 @@
     "user_explicitly_authorized_direct_upload": true,
     "source": "docs/research-principles-2026-09-07.zh-CN.md section 10"
   },
-  "latest_change": "Principles v1.3 and user-adopted parallel research direction. Planning only; no experiment or human review fabricated."
+  "latest_change": "User accepted direction analysis; first concise preregistration and eight-group input review packet prepared. No inference or fabricated human review."
 }

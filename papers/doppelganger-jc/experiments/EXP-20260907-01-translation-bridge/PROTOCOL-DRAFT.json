@@ -1,0 +1,126 @@
+{
+  "experiment_id": "EXP-20260907-01",
+  "version": "v1-review-draft",
+  "created_at": "2026-09-07T13:55:02.759140+08:00",
+  "status": "DRAFT_AWAITING_USER_PREDICTION_AND_INPUT_REVIEW",
+  "executable": false,
+  "principles_version": "2026-09-07 v1.3",
+  "user_direction": "two tracks in parallel; assistant advice accepted in latest turn",
+  "question": "共享词形相关的表达变化是否伴随翻译失真；独立事件问答是否出现相同或不同错误？",
+  "base_contexts": 8,
+  "families": 4,
+  "variants": [
+    "K original kanji",
+    "H same word in hiragana",
+    "P contextual paraphrase"
+  ],
+  "tasks": [
+    "TRANSLATE",
+    "EVENT_QA"
+  ],
+  "models": [
+    {
+      "key": "qwen",
+      "model_id": "Qwen/Qwen3-8B",
+      "revision": "b968826d9c46dd6066d109eabc6255188de91218"
+    },
+    {
+      "key": "llmjp",
+      "model_id": "llm-jp/llm-jp-4-8b-instruct",
+      "revision": "098f2b2cf33021eba19a6d3582aa3d071ccc0aff"
+    },
+    {
+      "key": "apertus",
+      "model_id": "swiss-ai/Apertus-8B-Instruct-2509",
+      "revision": "b946d40447b2b597999b9c86d44bee0b452c919f"
+    }
+  ],
+  "planned_outputs": 144,
+  "generation": {
+    "do_sample": false,
+    "max_new_tokens": 256,
+    "seed": 0,
+    "qwen_enable_thinking": false,
+    "fresh_context_per_request": true,
+    "custom_system_message": null,
+    "cross_task_output_passing": false,
+    "instruction_language": "zh",
+    "source_language": "ja",
+    "requested_output_language": "zh"
+  },
+  "runtime_preflight": [
+    "recheck exact cached revisions and native chat templates before generation",
+    "no checkpoint replacement or added system prompt",
+    "save rendered native input, token ids, full output and stop reason",
+    "compare existing template hashes; disclose changes before inference",
+    "never start from this review draft; create separate frozen receipt after human review"
+  ],
+  "expected_template_hashes": {
+    "qwen": "a55ee1b1660128b7098723e0abcd92caa0788061051c62d51cbe87d9cf1974d8",
+    "llmjp": "4b0db696f02c22cbcaf281ddd19d7d4632058b73b1f4c184b58a9bc3cec170c1",
+    "apertus": "56f72c27fa2e565312a830b7315a455c79fb452fdbe7a5b7595d8a094f282b07"
+  },
+  "maximum_attempts": 156,
+  "technical_retry_limit_per_input": 1,
+  "stop_after_consecutive_technical_failures": 2,
+  "maximum_paid_usd": 0,
+  "maximum_run_wall_minutes": 60,
+  "primary_comparison": "Per model paired semantic-fidelity transition K vs H on TRANSLATE; C/W/U counts by base context and family.",
+  "secondary_comparisons": [
+    "K vs P translation",
+    "target lexical meaning and event-state errors separately",
+    "same-condition independent EVENT_QA vs TRANSLATE four-way cross-task pattern",
+    "full translation omissions, invented information, language and format separately"
+  ],
+  "scoring": "Proposed semantic fact checklist; accept valid paraphrases; AI provisional, PI and independent review separate. Ambiguous content U is not W; no post-result changes to frozen scores.",
+  "inference_limits": [
+    "4 families and 8 correlated base contexts; 144 requests are not independent n",
+    "K/H changes tokenization, length, frequency and naturalness; not pure visual causality",
+    "P changes wording and length; not matched frequency or tokenization",
+    "two relation categories are different selected words, not a randomized relation manipulation",
+    "no Chinese-source or nonshared-language control; no homograph-specific or cross-language causal claim",
+    "question wording may supply cues; independent-task inconsistency is not knowledge within one trajectory",
+    "strong contexts and selected familiar concepts may yield ceiling; all correct is not absence of interference"
+  ],
+  "review_sample": {
+    "method": "purposeful coverage, not random",
+    "population": "all 8 authored base contexts, 24 source variants, 48 user messages repeated across 3 checkpoints",
+    "selected_ids": [
+      "B01",
+      "B02",
+      "B03",
+      "B04",
+      "B05",
+      "B06",
+      "B07",
+      "B08"
+    ],
+    "seed": null,
+    "basis": "4 selected families x 2 event outcomes; 8 review groups show all three variants and the event question",
+    "scope": "user reads 8 groups and shared prompt templates; complete 48 user messages available in Excel",
+    "not_covered": "other lexical families, natural population, Chinese source controls, longer documents, internal activations"
+  },
+  "user_prediction": null,
+  "user_reason": null,
+  "user_input_review_evidence": null,
+  "human_reference_status": "AI draft references; no independent gold",
+  "branch_rules": [
+    "Reliable K-to-H rescue across at least 2 families in at least 2 models is a candidate for a new independently sourced behavioral test; this screen is not significance, generality or a mechanism.",
+    "If K/H/P share similar event errors, prioritize evidence-use diagnosis and preserve the specific counterexamples.",
+    "If only P helps, keep a wording/explicitness explanation; do not call it character interference.",
+    "If correct throughout or mixed/sparse, report insufficient discrimination and review difficulty/materials before a separately preregistered next test.",
+    "If references/equivalence/scoring fail, stop causal interpretation and repair materials in a new version; retain outputs."
+  ],
+  "output_review": {
+    "initial_count": 8,
+    "method": "one output per base context; model and condition rotate deterministically over ordered B01..B08, TRANSLATE for odd ids and EVENT_QA for even ids",
+    "additional_review": "all unresolved, model disagreements, K/H/P rescues and harms are listed separately; user reviews necessary cases before dependent follow-up",
+    "full_export": true
+  },
+  "postrun_delivery": [
+    "actual Word summary",
+    "Excel complete 144 planned responses plus failures and review views",
+    "raw/config/hash archive",
+    "verified GitHub publishable archive synchronization"
+  ]
+}
