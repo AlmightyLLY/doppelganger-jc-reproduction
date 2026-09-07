@@ -14,7 +14,7 @@
   "execution_model": "gpt-6-astra",
   "execution_effort": "medium",
   "execution_service_tier_requested": "Standard/default; no separate create_thread service-tier parameter",
-  "inference_state": "Connection recovery in progress under new explicit user authorization; no generation yet verified by main",
+  "inference_state": "No model outputs yet; previous control connection closed before confirmed remote creation/upload; executor repairing session lifetime under existing login authorization.",
   "postrun_word_generated": false,
   "postrun_excel_generated": false,
   "output_human_review_complete": false,
@@ -30,6 +30,10 @@
   "authorized_execution_thread_id": "01a07a97-bec2-7e90-a881-336e7b3b9987",
   "execution_authorization_rule": "Only the named local task may execute; prior queued worktree task has no execution authorization. Read current principles v1.4 before work.",
   "principles_current_version": "2026-09-07 v1.4 (environment correction; frozen scientific v1.3 content unchanged)",
-  "updated_at_utc": "2026-09-07T06:47:19.873510+00:00",
-  "authentication_diagnostic_status": "User subsequently explicitly authorized ssh -vvv login and supplied the credential privately. Exact authorized login instruction delivered to the same medium local executor; no broader credential investigation authorized."
+  "updated_at_utc": "2026-09-07T06:56:02.343552+00:00",
+  "authentication_diagnostic_status": "Known user-provided credential reissued privately for the same authorized login; not stored in the research archive.",
+  "connection_recovery_evidence": "research_notes/2026-09-07/exp_20260907_01_translation_bridge_execution/SSH-RECOVERY.json (local runtime record)",
+  "runtime_status_github_sync": "Latest verified remote cd9dfcf476ea73083a6e9833cea70e3afca3fc1f covers reviewed archive and login authorization. Subsequent live connection/runtime updates await batch archive sync.",
+  "transfer_authorization_status": "Executor reports user explicitly said 我授权你上传 in the local execution task; upload approval passed.",
+  "transfer_state": "Upload command passed approval but failed at remote-directory creation command with SSH exit255; no transfer or remote creation confirmed. Executor must check exact dedicated destination for partial side effects before retry."
 }

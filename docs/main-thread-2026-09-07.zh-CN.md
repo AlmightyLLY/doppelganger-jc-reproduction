@@ -4,6 +4,8 @@
 
 ## 最新方向决定：两线并行
 
+**最新持续授权：**用户在登录与上传反复审批后明确要求：此类常规操作默认授权，仅单笔消费超过20美元或重大安全隐患再确认，实验室GPU免费不计。已纳入[科研工作原则v1.5第10节](research-principles-2026-09-07.zh-CN.md)。该规则覆盖原实验室登录与正常连接修复、已审核输入和运行文件上传、免费运行及归档，不增加本批预算或跳过人审。平台仍拒绝时先以明确授权及具体范围核实，不能绕过，也不能再说用户没授权。执行任务本身已经取得用户“我授权你上传”的明确确认；连接在传输前断开后，现按已提供认证方式修复会话。当前具体运行状态见 CURRENT-STATUS.json。
+
 **执行环境更正：**用户随后明确不要 worktree，直接开普通新任务，已纳入原则 v1.4。已成功创建 local 任务 **EXP-20260907-01 medium 实验执行**（`01a07a97-bec2-7e90-a881-336e7b3b9987`），GPT-6 Astra medium，沿用 default/Standard 配置。之前排队 worktree 请求已撤销实验执行权限，尚未在任务列表出现，不能把该应用请求声称为已取消成功；其若稍后出现也必须停止。唯一执行任务由 CURRENT-STATUS.json 指定。
 
 **最新输入审核与派工：**用户已完成 Word 个人预测及 Excel 8组逐条理解，随后澄清“同源词”指字形和意思都相同、未必有历史来源关系。助手核对仅两段预测及16个人审核单元格变化，实际源文、问题、全部48消息和参考内容未变；按原字节保存[reviewed-v1冻结包](../papers/doppelganger-jc/experiments/EXP-20260907-01-translation-bridge/reviewed-v1/REVIEW-NOTES.zh-CN.md)。用户预计同义组 K 更好、异义组 H 更好、整体 K 更好，P 不确定；保留模型和词的异质性。B01/B02 的信件/信息问题按完整语境和既有 C/W/U 规则解释，未修改材料或代填人审。当前可进入运行环境检查，尚无此批结果；用户再次要求另任务使用 Astra medium Standard，执行任务创建已提交。最新任务 ID、运行/交付/同步状态见[CURRENT-STATUS.json](../papers/doppelganger-jc/experiments/EXP-20260907-01-translation-bridge/CURRENT-STATUS.json)。下方待填写标签描述更早阶段，不替代本条最新证据。
