@@ -1,0 +1,158 @@
+{
+  "experiment_id": "EXP-20260907-01",
+  "at_utc": "2026-09-07T07:30:42.253900+00:00",
+  "status": "runtime complete; PI output review and scoring adjudication pending",
+  "frozen_run_spec_sha256": "47a4f6440a4e98c623fb2ee5af21563c8d0d8b9ee0309cb4bf6d8c2191291074",
+  "files": [
+    {
+      "path": "07-结果与评分口径说明-v3.docx",
+      "bytes": 41336,
+      "sha256": "f07fce95a766cbd48b0114a4effb3934cf086c5a166d27fcd47f77007482ca89"
+    },
+    {
+      "path": "08-完整结果与口径审核-v3.xlsx",
+      "bytes": 84146,
+      "sha256": "987d47bd33b790167c614492585f6a7e381bee54075e19db227dca2fc9f88809"
+    },
+    {
+      "path": "ANALYSIS-v1.json",
+      "bytes": 54529,
+      "sha256": "413231f70491cf498c359e115052a4d84f877e671210a5b669ad6029b1d18d89"
+    },
+    {
+      "path": "ATTEMPTS.jsonl",
+      "bytes": 40920,
+      "sha256": "a2c16da9619686a0b7f4c36dab4940cad8ce6fe3f1ddb99014ff4644d6d1eb75"
+    },
+    {
+      "path": "COMPLETE.json",
+      "bytes": 138,
+      "sha256": "6319db1484dab60f689758fe7f52a5b86303bfd91dc0aef32635f330eb4443d9"
+    },
+    {
+      "path": "CPU-REPLAY-VERIFICATION.json",
+      "bytes": 295,
+      "sha256": "196c27ff556165ebd8b53dd4206f9af11306532ec7e8df0f5861e0602ddb4044"
+    },
+    {
+      "path": "DELIVERY-RECEIPT.json",
+      "bytes": 1166,
+      "sha256": "82affcaeb526a55479f0bbbb790f335a2540e3da797133c886f45a086d2a92d9"
+    },
+    {
+      "path": "ENGINEERING.example.json",
+      "bytes": 5480,
+      "sha256": "121077f9246b7443572da5759a3842c80b30af3204af214ad97ccaec51a4564f"
+    },
+    {
+      "path": "FAILED.json",
+      "bytes": 181,
+      "sha256": "9ba409b2f02bb37f7f5ede207896c638d221dbcc2df8b815568e822530b05268"
+    },
+    {
+      "path": "FINAL-VALIDATION.json",
+      "bytes": 1071,
+      "sha256": "294368e04179b660d40bab15dc74f31c84a061462f7b382edfe65e6cf5908116"
+    },
+    {
+      "path": "INFERENCE-START.json",
+      "bytes": 90,
+      "sha256": "0f2564f057d18686b1d754ccfc70343afe77fe9148d856f6f2314b3e95b122df"
+    },
+    {
+      "path": "MODEL-RUNTIME-PUBLIC.json",
+      "bytes": 16887,
+      "sha256": "8241c3848b953abaf9cc83de105b9c5f25abdf4a52bf7e9a0a2b2c6ec4b51b21"
+    },
+    {
+      "path": "OUTPUT-REVIEW-ACTUAL-RECEIPT.json",
+      "bytes": 593,
+      "sha256": "1081bf3242809508481d1f70f7c907428ca51a54207748ae30ccf89b710bf498"
+    },
+    {
+      "path": "OUTPUT-REVIEW-SELECTION.json",
+      "bytes": 421,
+      "sha256": "9753edd1e4cfc76e9c7d3d1f322534b6449b4c7de05b68e24f63e05ba466b3a6"
+    },
+    {
+      "path": "OUTPUTS.jsonl",
+      "bytes": 581478,
+      "sha256": "eb3de83e90e6a9ff2877309c2ffe16b0e173d2db04e0b84d205b2ce8405f7c00"
+    },
+    {
+      "path": "PREGENERATION-GATE.json",
+      "bytes": 175,
+      "sha256": "b5439012d1fe2716c04e5c49d87839da6169daf184aa6f52b4a0a993494b95f7"
+    },
+    {
+      "path": "PUBLIC-SUMMARY-v3.json",
+      "bytes": 21985,
+      "sha256": "73c87f50412b907b1bd265913bc5835f5254eb6e393834ce7e15588c52320cb3"
+    },
+    {
+      "path": "PUBLICATION-SCOPE.json",
+      "bytes": 937,
+      "sha256": "edb18e1d4f1f7508178bb9cbe0ad73711177ebd827d7705480a724ed8572de8d"
+    },
+    {
+      "path": "README.zh-CN.md",
+      "bytes": 3196,
+      "sha256": "0b0fa410412e23bb952f14adf3f9a929e7400206b55015af1d7710f325ddb2a6"
+    },
+    {
+      "path": "RESULTS-SCORED-v1.json",
+      "bytes": 933126,
+      "sha256": "1566ac6de9c95095b2b6edf531c1340518f74388b5daca4d1829da7817ada2d0"
+    },
+    {
+      "path": "RESUME-START.json",
+      "bytes": 291,
+      "sha256": "949abd571509ae9c223b033f8a65e46b53a8460371ee5e4f24453f723fcbc5bf"
+    },
+    {
+      "path": "SCORING-SCOPE-REVIEW-v3.json",
+      "bytes": 44749,
+      "sha256": "5ea26cbb77a48d2d712720220c36d78ab448ab4e91f22422ca17d776032c81c4"
+    },
+    {
+      "path": "V3-VALIDATION.json",
+      "bytes": 1387,
+      "sha256": "b1037f226a22896db3c8d1811052890dbff50e999246c29fa44b7755fb48b0b5"
+    },
+    {
+      "path": "history/05-实验结果总结-v2.docx",
+      "bytes": 41617,
+      "sha256": "ff2c5152e1c5bbe1380d8e1df29aaa09eb21eed3e67e7db21381c75f408ae2cd"
+    },
+    {
+      "path": "history/06-完整结果与审核-v2.xlsx",
+      "bytes": 76349,
+      "sha256": "146d908eb69de46216ec7c137c6c62c89ff5641dae79b93a1471dc7c4379e2ef"
+    },
+    {
+      "path": "prepare_v3.py",
+      "bytes": 5090,
+      "sha256": "647c254253223d7bbc78f07c8d90757216644abb7a53a56113b3f429db733f61"
+    },
+    {
+      "path": "remote_batch.py",
+      "bytes": 7410,
+      "sha256": "0e8575c25aa384bc2297d57391baa5899654d62f2d7ac777efa9a4479529c984"
+    },
+    {
+      "path": "remote_batch_resume.py",
+      "bytes": 8072,
+      "sha256": "97cf243450beebd615f3851507799d3821e53e10493649c3ceaf5ea8d0c48ca3"
+    },
+    {
+      "path": "score_and_analyze.py",
+      "bytes": 9190,
+      "sha256": "3d1cd8ff50716b25a451909be5f60fc2c10a411ae9f908c8b0c579506e14ab63"
+    },
+    {
+      "path": "verify_remote.py",
+      "bytes": 1923,
+      "sha256": "46c1b33445442a7c51b405758c1d36168c091e2fb87a35473cdaaf765eb6dec9"
+    }
+  ]
+}

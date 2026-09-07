@@ -1,0 +1,16 @@
+{
+  "at_utc": "2026-09-07T07:30:42.253900+00:00",
+  "scope": "Authored development inputs already in reviewed-v1, all 144 model outputs and native traces, original provisional AI scores, current review documents, runtime scientific configuration and runner code.",
+  "not_uploaded": [
+    "SSH and authentication/debug logs",
+    "connection helpers",
+    "private lab cache paths and full infrastructure records",
+    "temporary files and Office lock files",
+    "local QA render images and transient inspector output"
+  ],
+  "full_local_archive_manifest": "research_notes/2026-09-07/exp_20260907_01_translation_bridge_execution/ARCHIVE-MANIFEST-v3.json",
+  "full_local_archive_manifest_sha256": "fac2b285f032c47500d7935ebd762abc13931f7ccdcae76b0bab81e6c26faded",
+  "local_history_preserved": true,
+  "public_v2_history": "Superseded; retained for audit. Use v3 documents and deviation notice.",
+  "primary_endpoint_finalized": false
+}

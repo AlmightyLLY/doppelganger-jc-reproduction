@@ -1,0 +1,30 @@
+{
+  "experiment_id": "EXP-20260907-01",
+  "checked_at_utc": "2026-09-07T07:09:27.054238+00:00",
+  "reviewer": "main assistant",
+  "status": "technical continuation consistent with reviewed scope",
+  "first_stage_outputs": 48,
+  "unique_qwen_trace_ids": 48,
+  "attempt_events": {
+    "START": 48,
+    "SUCCESS": 48,
+    "ERROR": 0
+  },
+  "preserved_failure": {
+    "at": "2026-09-07T07:04:46.235450+00:00",
+    "outputs": 48,
+    "attempts": 48,
+    "error_type": "AssertionError",
+    "error": "GPU0 not free",
+    "wall_seconds": 27.199674419127405
+  },
+  "first_start": {
+    "at": "2026-09-07T07:04:19.035822+00:00",
+    "pid": 3953214,
+    "max_wall_minutes": 60
+  },
+  "original_output_snapshot_sha256": "b3db4d5cee4b30e28e36f6a78b6ab70dc88a1c63ae0fdb9b79a2b27dd38c2874",
+  "resume_runner_sha256": "97cf243450beebd615f3851507799d3821e53e10493649c3ceaf5ea8d0c48ca3",
+  "code_review": "Skip qwen; start cumulative output/attempt counts at verified 48; calculate deadline from original start; exclude only own PID from resource conflict check; retain free-memory thresholds, exact inputs and generation arguments. Preserve FAILED.json and separate resume failure file.",
+  "pending": "Verify final first 48 records exactly match this snapshot, total trace IDs and cumulative attempts, and elapsed runtime. No semantic output scores reviewed in this check."
+}

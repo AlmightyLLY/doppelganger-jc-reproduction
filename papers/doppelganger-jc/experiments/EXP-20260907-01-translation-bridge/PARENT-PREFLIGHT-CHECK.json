@@ -1,0 +1,18 @@
+{
+  "experiment_id": "EXP-20260907-01",
+  "checked_at_utc": "2026-09-07T07:06:11.176874+00:00",
+  "reviewer": "main assistant, not PI or independent human",
+  "status": "PASS for archived input/version/template consistency",
+  "matched_reviewed_messages_per_model": 48,
+  "matched_models": 3,
+  "native_input_records": 144,
+  "Qwen_thinking_disabled": true,
+  "model_template_hashes_match_frozen_spec": true,
+  "source_hashes": {
+    "PREGENERATION-GATE.json": "b5439012d1fe2716c04e5c49d87839da6169daf184aa6f52b4a0a993494b95f7",
+    "PREFLIGHT-qwen.json": "26c96bb0484fdb20b5e4cfb6ec1888f30ca77d232601075fe4961541c2183c13",
+    "PREFLIGHT-llmjp.json": "0f3bb9ad5baae84cc09b76b8730b7d000141321916cfaf42406523136d886174",
+    "PREFLIGHT-apertus.json": "31d27607a19916bf18cd1b750eaec6ea0aeea168af1ce9464d7b41c41fcd0ed5"
+  },
+  "limits": "Checks stored actual messages, prompt IDs, revision, template hash and token presence/length. Does not independently recompute tokenizer IDs or validate any model output; those remain execution validation duties."
+}

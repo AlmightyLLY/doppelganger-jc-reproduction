@@ -1,0 +1,14 @@
+{
+  "method": "Frozen deterministic rotation: zero-based i over B01..B08; model and condition index i mod 3; odd base TRANSLATE, even EVENT_QA",
+  "selected_ids": [
+    "qwen-B01-K-TRANSLATE",
+    "llmjp-B02-H-EVENT_QA",
+    "apertus-B03-P-TRANSLATE",
+    "qwen-B04-K-EVENT_QA",
+    "llmjp-B05-H-TRANSLATE",
+    "apertus-B06-P-EVENT_QA",
+    "qwen-B07-K-TRANSLATE",
+    "llmjp-B08-H-EVENT_QA"
+  ],
+  "actual_outputs": 0
+}

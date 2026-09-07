@@ -1,0 +1,19 @@
+{
+  "at_utc": "2026-09-07T07:30:42.253900+00:00",
+  "source": "OUTPUT-REVIEW-SELECTION.json",
+  "source_sha256": "9753edd1e4cfc76e9c7d3d1f322534b6449b4c7de05b68e24f63e05ba466b3a6",
+  "selected_ids": [
+    "qwen-B01-K-TRANSLATE",
+    "llmjp-B02-H-EVENT_QA",
+    "apertus-B03-P-TRANSLATE",
+    "qwen-B04-K-EVENT_QA",
+    "llmjp-B05-H-TRANSLATE",
+    "apertus-B06-P-EVENT_QA",
+    "qwen-B07-K-TRANSLATE",
+    "llmjp-B08-H-EVENT_QA"
+  ],
+  "actual_outputs_verified": 8,
+  "total_outputs": 144,
+  "input_selection_original_zero_count_is_historical": true,
+  "output_human_review_complete": false
+}

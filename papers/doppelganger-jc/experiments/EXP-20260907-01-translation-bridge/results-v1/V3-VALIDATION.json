@@ -1,0 +1,31 @@
+{
+  "at": "2026-09-07T07:26:39.966470+00:00",
+  "status": "V3_DELIVERED_SCORING_SCOPE_REVIEW_PENDING",
+  "preserved_files_verified": {
+    "RESULTS-SCORED-v1.json": "1566ac6de9c95095b2b6edf531c1340518f74388b5daca4d1829da7817ada2d0",
+    "ANALYSIS-v1.json": "413231f70491cf498c359e115052a4d84f877e671210a5b669ad6029b1d18d89",
+    "05-实验结果总结-v2.docx": "ff2c5152e1c5bbe1380d8e1df29aaa09eb21eed3e67e7db21381c75f408ae2cd",
+    "06-完整结果与审核-v2.xlsx": "146d908eb69de46216ec7c137c6c62c89ff5641dae79b93a1471dc7c4379e2ef",
+    "download_070900/OUTPUTS.jsonl": "eb3de83e90e6a9ff2877309c2ffe16b0e173d2db04e0b84d205b2ce8405f7c00"
+  },
+  "no_model_runs": true,
+  "no_score_relabeling": true,
+  "complete_rows": 144,
+  "first_active_sheet": "首审8条",
+  "first_sheet_no_ai_scores": true,
+  "human_fields_blank": true,
+  "case_rows": 21,
+  "secondary_summary_rows": 128,
+  "case_counts": {
+    "语义歧义": 5,
+    "无依据具体添加": 6,
+    "纯遗漏": 3,
+    "明确矛盾候选": 7
+  },
+  "docx_pages_inspected": 3,
+  "excel_changed_views_inspected": true,
+  "formula_error_matches": 0,
+  "primary_endpoint_status": "not finalized; AI v1 total labels contain scoring implementation deviation",
+  "docx_sha256": "f07fce95a766cbd48b0114a4effb3934cf086c5a166d27fcd47f77007482ca89",
+  "xlsx_sha256": "987d47bd33b790167c614492585f6a7e381bee54075e19db227dca2fc9f88809"
+}

@@ -1,0 +1,475 @@
+{
+  "kind": "postrun public derivative; original local files unchanged",
+  "original_files": {
+    "PREFLIGHT-qwen.json": "26c96bb0484fdb20b5e4cfb6ec1888f30ca77d232601075fe4961541c2183c13",
+    "RUNTIME-qwen.json": "736d78e537bfe9eb4ce769fbf8fa64490d72ab7e5eb807fb9ca8895128e6cbb7",
+    "PREFLIGHT-llmjp.json": "0f3bb9ad5baae84cc09b76b8730b7d000141321916cfaf42406523136d886174",
+    "RUNTIME-llmjp.json": "8db3e60f9da0e5ab065b204609db6533f26423051ecb7d5ac30a9aa48ca312f5",
+    "PREFLIGHT-apertus.json": "31d27607a19916bf18cd1b750eaec6ea0aeea168af1ce9464d7b41c41fcd0ed5",
+    "RUNTIME-apertus.json": "b4368f5d9d97391726c84e98ed03d2dfe30739aab52db692fd252482f33e9c10",
+    "ENVIRONMENT.json": "ccbf225764e308f1a60428f5d9bf51d6b8faac5b3b343063f851520d58d35b25"
+  },
+  "models": [
+    {
+      "model": {
+        "key": "qwen",
+        "model_id": "Qwen/Qwen3-8B",
+        "revision": "b968826d9c46dd6066d109eabc6255188de91218"
+      },
+      "weights": {
+        "config.json": {
+          "sha256": "f7c4eadfbbf522470667b797a3c89be2524832d2d599797248dc304fff447c30",
+          "bytes": 728
+        },
+        "tokenizer_config.json": {
+          "sha256": "d5d09f07b48c3086c508b30d1c9114bd1189145b74e982a265350c923acd8101",
+          "bytes": 9732
+        },
+        "tokenizer.json": {
+          "sha256": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4",
+          "bytes": 11422654
+        },
+        "model.safetensors.index.json": {
+          "sha256": "f9fdbcb91c23971c13ec5d5f2573d2349e8f61f2f049371ec699281748fdb1bc",
+          "bytes": 32878
+        },
+        "generation_config.json": {
+          "sha256": "2325da0f15bb848e018c5ae071b7943332e9f871d6b60e2ed22ca97d4cb993d2",
+          "bytes": 239
+        },
+        "model-00001-of-00005.safetensors": {
+          "sha256": "31d6a825ae35f11fb85b195b4c42c146c051e446433125a215336abdf95cbf5f",
+          "bytes": 3996250744
+        },
+        "model-00002-of-00005.safetensors": {
+          "sha256": "5991236cea6fe21f3d43cab0f0e84448734fbbe0789816202989f2ddc9d18282",
+          "bytes": 3993160032
+        },
+        "model-00003-of-00005.safetensors": {
+          "sha256": "c5185c4794be2d8a9784d5753c9922db38df478ce11f9ed0b415b7304d896836",
+          "bytes": 3959604768
+        },
+        "model-00004-of-00005.safetensors": {
+          "sha256": "b5ee7de71fbf17db3d5704e0c8f2bc7d005ca9e1d7ca2aeb19827b0cfcaa917a",
+          "bytes": 3187841392
+        },
+        "model-00005-of-00005.safetensors": {
+          "sha256": "20c2d6366ab85c90786ccdd829cd2b9e7d30ef3b2ebbb998280e7e4014b542ff",
+          "bytes": 1244659840
+        }
+      },
+      "template_sha256": "a55ee1b1660128b7098723e0abcd92caa0788061051c62d51cbe87d9cf1974d8",
+      "native_input_count": 48,
+      "checkpoint_generation_config": {
+        "bos_token_id": 151643,
+        "do_sample": true,
+        "eos_token_id": [
+          151645,
+          151643
+        ],
+        "pad_token_id": 151643,
+        "temperature": 0.6,
+        "top_k": 20,
+        "top_p": 0.95,
+        "transformers_version": "4.51.0"
+      },
+      "runtime": {
+        "at": "2026-09-07T07:04:23.335490+00:00",
+        "model": {
+          "key": "qwen",
+          "model_id": "Qwen/Qwen3-8B",
+          "revision": "b968826d9c46dd6066d109eabc6255188de91218"
+        },
+        "dtype": "bfloat16",
+        "attention": "eager",
+        "use_cache": true,
+        "do_sample": false,
+        "seed": 0,
+        "max_new_tokens": 256,
+        "model_generation_config": {
+          "max_length": 20,
+          "max_new_tokens": null,
+          "min_length": 0,
+          "min_new_tokens": null,
+          "early_stopping": false,
+          "max_time": null,
+          "stop_strings": null,
+          "do_sample": true,
+          "num_beams": 1,
+          "use_cache": true,
+          "cache_implementation": null,
+          "cache_config": null,
+          "return_legacy_cache": null,
+          "prefill_chunk_size": null,
+          "temperature": 0.6,
+          "top_k": 20,
+          "top_p": 0.95,
+          "min_p": null,
+          "typical_p": 1.0,
+          "epsilon_cutoff": 0.0,
+          "eta_cutoff": 0.0,
+          "repetition_penalty": 1.0,
+          "encoder_repetition_penalty": 1.0,
+          "length_penalty": 1.0,
+          "no_repeat_ngram_size": 0,
+          "bad_words_ids": null,
+          "renormalize_logits": false,
+          "forced_bos_token_id": null,
+          "forced_eos_token_id": null,
+          "remove_invalid_values": false,
+          "exponential_decay_length_penalty": null,
+          "suppress_tokens": null,
+          "begin_suppress_tokens": null,
+          "sequence_bias": null,
+          "token_healing": false,
+          "guidance_scale": null,
+          "watermarking_config": null,
+          "num_return_sequences": 1,
+          "output_attentions": false,
+          "output_hidden_states": false,
+          "output_scores": false,
+          "output_logits": null,
+          "return_dict_in_generate": false,
+          "pad_token_id": 151643,
+          "bos_token_id": 151643,
+          "eos_token_id": [
+            151645,
+            151643
+          ],
+          "encoder_no_repeat_ngram_size": 0,
+          "decoder_start_token_id": null,
+          "is_assistant": false,
+          "num_assistant_tokens": 20,
+          "num_assistant_tokens_schedule": "constant",
+          "assistant_confidence_threshold": 0.4,
+          "prompt_lookup_num_tokens": null,
+          "max_matching_ngram_size": null,
+          "assistant_early_exit": null,
+          "assistant_lookbehind": 10,
+          "target_lookbehind": 10,
+          "disable_compile": false,
+          "low_memory": null,
+          "penalty_alpha": null,
+          "dola_layers": null,
+          "diversity_penalty": 0.0,
+          "num_beam_groups": 1,
+          "constraints": null,
+          "force_words_ids": null,
+          "_from_model_config": false,
+          "transformers_version": "4.57.6"
+        },
+        "explicit_generate_kwargs": {
+          "do_sample": false,
+          "max_new_tokens": 256,
+          "use_cache": true
+        },
+        "runner_sha256": "0e8575c25aa384bc2297d57391baa5899654d62f2d7ac777efa9a4479529c984"
+      }
+    },
+    {
+      "model": {
+        "key": "llmjp",
+        "model_id": "llm-jp/llm-jp-4-8b-instruct",
+        "revision": "098f2b2cf33021eba19a6d3582aa3d071ccc0aff"
+      },
+      "weights": {
+        "config.json": {
+          "sha256": "6a6453f0ed6ce7553567c07e06b29158bb5eed89bbf6d98fe5c0c42282786502",
+          "bytes": 678
+        },
+        "tokenizer_config.json": {
+          "sha256": "55aa3a433cbbde451a88b449dd46e5cacda76ed79a09347f105f6b08f438e5b2",
+          "bytes": 63800
+        },
+        "tokenizer.json": {
+          "sha256": "a35f390c6489427e4dcac7d957f34d9dacd7332972c990f4b4eb6b724c8873f4",
+          "bytes": 12879473
+        },
+        "model.safetensors.index.json": {
+          "sha256": "421762e456b93c15a545ffbc34406ebc451e685cf0e00452dee4408d5f9254bf",
+          "bytes": 23950
+        },
+        "chat_template.jinja": {
+          "sha256": "4b0db696f02c22cbcaf281ddd19d7d4632058b73b1f4c184b58a9bc3cec170c1",
+          "bytes": 16752
+        },
+        "model-00001-of-00004.safetensors": {
+          "sha256": "4452ee9fc5d9cf7552d377c3724848e8a40a3426d9fd1faf473d513b5af1c4ec",
+          "bytes": 4982955968
+        },
+        "model-00002-of-00004.safetensors": {
+          "sha256": "9331a76ec6d4d9fd323118e27a45a5911c6dce6296f7e8d05e7d0882d31d654f",
+          "bytes": 4999819320
+        },
+        "model-00003-of-00004.safetensors": {
+          "sha256": "70e25cc0fda7d30bbfaf85ccfa77aa027759aa630c5661d65cae959410de3dec",
+          "bytes": 4915916184
+        },
+        "model-00004-of-00004.safetensors": {
+          "sha256": "1635dbb4250a377af62d5b18e5d1e98b0ec277bc5a140c8d100405da3bbdf720",
+          "bytes": 2281744072
+        },
+        "generation_config.json": {
+          "sha256": "9e28577f9e06c60184458fb81fef865cd061d85ab13ceb78b1161313734d7e30",
+          "bytes": 111
+        }
+      },
+      "template_sha256": "4b0db696f02c22cbcaf281ddd19d7d4632058b73b1f4c184b58a9bc3cec170c1",
+      "native_input_count": 48,
+      "checkpoint_generation_config": {
+        "_from_model_config": true,
+        "bos_token_id": 1,
+        "eos_token_id": 2,
+        "transformers_version": "4.51.0"
+      },
+      "runtime": {
+        "at": "2026-09-07T07:07:07.384240+00:00",
+        "model": {
+          "key": "llmjp",
+          "model_id": "llm-jp/llm-jp-4-8b-instruct",
+          "revision": "098f2b2cf33021eba19a6d3582aa3d071ccc0aff"
+        },
+        "dtype": "bfloat16",
+        "attention": "eager",
+        "use_cache": true,
+        "do_sample": false,
+        "seed": 0,
+        "max_new_tokens": 256,
+        "model_generation_config": {
+          "max_length": 20,
+          "max_new_tokens": null,
+          "min_length": 0,
+          "min_new_tokens": null,
+          "early_stopping": false,
+          "max_time": null,
+          "stop_strings": null,
+          "do_sample": false,
+          "num_beams": 1,
+          "use_cache": true,
+          "cache_implementation": null,
+          "cache_config": null,
+          "return_legacy_cache": null,
+          "prefill_chunk_size": null,
+          "temperature": 1.0,
+          "top_k": 50,
+          "top_p": 1.0,
+          "min_p": null,
+          "typical_p": 1.0,
+          "epsilon_cutoff": 0.0,
+          "eta_cutoff": 0.0,
+          "repetition_penalty": 1.0,
+          "encoder_repetition_penalty": 1.0,
+          "length_penalty": 1.0,
+          "no_repeat_ngram_size": 0,
+          "bad_words_ids": null,
+          "renormalize_logits": false,
+          "forced_bos_token_id": null,
+          "forced_eos_token_id": null,
+          "remove_invalid_values": false,
+          "exponential_decay_length_penalty": null,
+          "suppress_tokens": null,
+          "begin_suppress_tokens": null,
+          "sequence_bias": null,
+          "token_healing": false,
+          "guidance_scale": null,
+          "watermarking_config": null,
+          "num_return_sequences": 1,
+          "output_attentions": false,
+          "output_hidden_states": false,
+          "output_scores": false,
+          "output_logits": null,
+          "return_dict_in_generate": false,
+          "pad_token_id": null,
+          "bos_token_id": 1,
+          "eos_token_id": 2,
+          "encoder_no_repeat_ngram_size": 0,
+          "decoder_start_token_id": null,
+          "is_assistant": false,
+          "num_assistant_tokens": 20,
+          "num_assistant_tokens_schedule": "constant",
+          "assistant_confidence_threshold": 0.4,
+          "prompt_lookup_num_tokens": null,
+          "max_matching_ngram_size": null,
+          "assistant_early_exit": null,
+          "assistant_lookbehind": 10,
+          "target_lookbehind": 10,
+          "disable_compile": false,
+          "low_memory": null,
+          "penalty_alpha": null,
+          "dola_layers": null,
+          "diversity_penalty": 0.0,
+          "num_beam_groups": 1,
+          "constraints": null,
+          "force_words_ids": null,
+          "_from_model_config": true,
+          "transformers_version": "4.57.6"
+        },
+        "explicit_generate_kwargs": {
+          "do_sample": false,
+          "max_new_tokens": 256,
+          "use_cache": true
+        },
+        "runner_sha256": "97cf243450beebd615f3851507799d3821e53e10493649c3ceaf5ea8d0c48ca3"
+      }
+    },
+    {
+      "model": {
+        "key": "apertus",
+        "model_id": "swiss-ai/Apertus-8B-Instruct-2509",
+        "revision": "b946d40447b2b597999b9c86d44bee0b452c919f"
+      },
+      "weights": {
+        "config.json": {
+          "sha256": "9a2f0f01aa684c30097fbf0469ed002b5af2797231a6e3288622de16d2055d25",
+          "bytes": 901
+        },
+        "tokenizer_config.json": {
+          "sha256": "b89e07508603d6e1f2c8642f366c2469063c3eddae0585f1e67934ee98498ab1",
+          "bytes": 177337
+        },
+        "tokenizer.json": {
+          "sha256": "bb201fb226cde11f66c3cf51c5344fb37b1611f00c21e75c324546d854eff2e1",
+          "bytes": 17078480
+        },
+        "model.safetensors.index.json": {
+          "sha256": "509b6d9d22987cf7b1067a7cc6b74b88cf0c8c2739748fe5e85a4da0f69ebf1a",
+          "bytes": 36480
+        },
+        "chat_template.jinja": {
+          "sha256": "56f72c27fa2e565312a830b7315a455c79fb452fdbe7a5b7595d8a094f282b07",
+          "bytes": 14601
+        },
+        "model-00001-of-00004.safetensors": {
+          "sha256": "3c0d9506c084975849cefc1410dbb0300eafc0f480a5fcbc3db8f54c10500912",
+          "bytes": 4999776656
+        },
+        "model-00002-of-00004.safetensors": {
+          "sha256": "a934231fe465a8f4b0028454218d787f02b7cae3f91d886ca73b85ca368f2b21",
+          "bytes": 4882374192
+        },
+        "model-00003-of-00004.safetensors": {
+          "sha256": "8c2a98c71209664b1e7c8a2df80782cac1a90cc11feda5cd5c5495c5dd9b584e",
+          "bytes": 4974647808
+        },
+        "model-00004-of-00004.safetensors": {
+          "sha256": "6417026ac38ffd73ae5683c568162982c722469683f8040665ddb0a5de6dd442",
+          "bytes": 1249928160
+        },
+        "generation_config.json": {
+          "sha256": "e369bbb1bb3bdbf09bfad42a9ba4202eb06f19fd1eb12fb44d84aa75a5b7af3f",
+          "bytes": 126
+        }
+      },
+      "template_sha256": "56f72c27fa2e565312a830b7315a455c79fb452fdbe7a5b7595d8a094f282b07",
+      "native_input_count": 48,
+      "checkpoint_generation_config": {
+        "_from_model_config": true,
+        "bos_token_id": 1,
+        "eos_token_id": [
+          2,
+          68,
+          72
+        ],
+        "transformers_version": "4.54.0.dev0"
+      },
+      "runtime": {
+        "at": "2026-09-07T07:07:38.745594+00:00",
+        "model": {
+          "key": "apertus",
+          "model_id": "swiss-ai/Apertus-8B-Instruct-2509",
+          "revision": "b946d40447b2b597999b9c86d44bee0b452c919f"
+        },
+        "dtype": "bfloat16",
+        "attention": "eager",
+        "use_cache": true,
+        "do_sample": false,
+        "seed": 0,
+        "max_new_tokens": 256,
+        "model_generation_config": {
+          "max_length": 20,
+          "max_new_tokens": null,
+          "min_length": 0,
+          "min_new_tokens": null,
+          "early_stopping": false,
+          "max_time": null,
+          "stop_strings": null,
+          "do_sample": false,
+          "num_beams": 1,
+          "use_cache": true,
+          "cache_implementation": null,
+          "cache_config": null,
+          "return_legacy_cache": null,
+          "prefill_chunk_size": null,
+          "temperature": 1.0,
+          "top_k": 50,
+          "top_p": 1.0,
+          "min_p": null,
+          "typical_p": 1.0,
+          "epsilon_cutoff": 0.0,
+          "eta_cutoff": 0.0,
+          "repetition_penalty": 1.0,
+          "encoder_repetition_penalty": 1.0,
+          "length_penalty": 1.0,
+          "no_repeat_ngram_size": 0,
+          "bad_words_ids": null,
+          "renormalize_logits": false,
+          "forced_bos_token_id": null,
+          "forced_eos_token_id": null,
+          "remove_invalid_values": false,
+          "exponential_decay_length_penalty": null,
+          "suppress_tokens": null,
+          "begin_suppress_tokens": null,
+          "sequence_bias": null,
+          "token_healing": false,
+          "guidance_scale": null,
+          "watermarking_config": null,
+          "num_return_sequences": 1,
+          "output_attentions": false,
+          "output_hidden_states": false,
+          "output_scores": false,
+          "output_logits": null,
+          "return_dict_in_generate": false,
+          "pad_token_id": null,
+          "bos_token_id": 1,
+          "eos_token_id": [
+            2,
+            68,
+            72
+          ],
+          "encoder_no_repeat_ngram_size": 0,
+          "decoder_start_token_id": null,
+          "is_assistant": false,
+          "num_assistant_tokens": 20,
+          "num_assistant_tokens_schedule": "constant",
+          "assistant_confidence_threshold": 0.4,
+          "prompt_lookup_num_tokens": null,
+          "max_matching_ngram_size": null,
+          "assistant_early_exit": null,
+          "assistant_lookbehind": 10,
+          "target_lookbehind": 10,
+          "disable_compile": false,
+          "low_memory": null,
+          "penalty_alpha": null,
+          "dola_layers": null,
+          "diversity_penalty": 0.0,
+          "num_beam_groups": 1,
+          "constraints": null,
+          "force_words_ids": null,
+          "_from_model_config": true,
+          "transformers_version": "4.57.6"
+        },
+        "explicit_generate_kwargs": {
+          "do_sample": false,
+          "max_new_tokens": 256,
+          "use_cache": true
+        },
+        "runner_sha256": "97cf243450beebd615f3851507799d3821e53e10493649c3ceaf5ea8d0c48ca3"
+      }
+    }
+  ],
+  "environment": {
+    "python": "3.10.12",
+    "torch": "2.5.1+cu121",
+    "transformers": "4.57.6"
+  }
+}

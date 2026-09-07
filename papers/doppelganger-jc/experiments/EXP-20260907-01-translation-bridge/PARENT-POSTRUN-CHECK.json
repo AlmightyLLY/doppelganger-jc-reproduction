@@ -1,0 +1,61 @@
+{
+  "experiment_id": "EXP-20260907-01",
+  "checked_at_utc": "2026-09-07T07:19:36.150505+00:00",
+  "reviewer": "main assistant; not PI or independent gold",
+  "raw_execution_status": "PASS for local coverage, preserved prefix, frozen messages, attempt budget and completed receipts",
+  "outputs": 144,
+  "attempts": 144,
+  "generation_errors": 0,
+  "technical_resource_stops": 1,
+  "first48_unchanged": true,
+  "complete": {
+    "at": "2026-09-07T07:08:14.905614+00:00",
+    "outputs": 144,
+    "attempts": 144,
+    "wall_seconds": 235.86968854349107,
+    "paid_usd": 0
+  },
+  "raw_outputs_sha256": "eb3de83e90e6a9ff2877309c2ffe16b0e173d2db04e0b84d205b2ce8405f7c00",
+  "cpu_replay_status_from_bound_executor_record": {
+    "status": "PASS",
+    "at": "2026-09-07T07:08:35.240080+00:00",
+    "verified_outputs": 144,
+    "all_input_messages_native_render_token_ids_and_decodes": true,
+    "attempts": 144,
+    "new_generation_calls": 0,
+    "outputs_sha256": "eb3de83e90e6a9ff2877309c2ffe16b0e173d2db04e0b84d205b2ce8405f7c00"
+  },
+  "human_fields_preserved_blank": true,
+  "ai_v1_secondary_counts": {
+    "TRANSLATE": {
+      "lexical": {
+        "C": 72
+      },
+      "event": {
+        "C": 71,
+        "U": 1
+      },
+      "ai_provisional": {
+        "C": 61,
+        "W": 9,
+        "U": 2
+      }
+    },
+    "EVENT_QA": {
+      "lexical": {
+        "C": 71,
+        "U": 1
+      },
+      "event": {
+        "C": 66,
+        "W": 6
+      },
+      "ai_provisional": {
+        "C": 62,
+        "U": 1,
+        "W": 9
+      }
+    }
+  },
+  "scoring_review_status": "HOLD interpretations of AI v1 composite W pending explicit labeling of omissions, additions and uncertain contradiction; original draft W says explicit contradiction. Raw outputs and AI v1 scores preserved. No new model runs authorized by this audit."
+}

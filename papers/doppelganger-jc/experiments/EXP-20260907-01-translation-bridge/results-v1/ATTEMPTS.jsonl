@@ -1,0 +1,288 @@
+{"event": "START", "at": "2026-09-07T07:04:23.335885+00:00", "attempt": 1, "retry": 0, "trace_id": "qwen-B01-K-TRANSLATE"}
+{"event": "SUCCESS", "at": "2026-09-07T07:04:24.242202+00:00", "attempt": 1, "trace_id": "qwen-B01-K-TRANSLATE", "stop_reason": "eos", "output_token_n": 21}
+{"event": "START", "at": "2026-09-07T07:04:24.242435+00:00", "attempt": 2, "retry": 0, "trace_id": "qwen-B01-K-EVENT_QA"}
+{"event": "SUCCESS", "at": "2026-09-07T07:04:24.546927+00:00", "attempt": 2, "trace_id": "qwen-B01-K-EVENT_QA", "stop_reason": "eos", "output_token_n": 13}
+{"event": "START", "at": "2026-09-07T07:04:24.547057+00:00", "attempt": 3, "retry": 0, "trace_id": "qwen-B01-H-TRANSLATE"}
+{"event": "SUCCESS", "at": "2026-09-07T07:04:25.056885+00:00", "attempt": 3, "trace_id": "qwen-B01-H-TRANSLATE", "stop_reason": "eos", "output_token_n": 22}
+{"event": "START", "at": "2026-09-07T07:04:25.057054+00:00", "attempt": 4, "retry": 0, "trace_id": "qwen-B01-H-EVENT_QA"}
+{"event": "SUCCESS", "at": "2026-09-07T07:04:25.314356+00:00", "attempt": 4, "trace_id": "qwen-B01-H-EVENT_QA", "stop_reason": "eos", "output_token_n": 11}
+{"event": "START", "at": "2026-09-07T07:04:25.314514+00:00", "attempt": 5, "retry": 0, "trace_id": "qwen-B01-P-TRANSLATE"}
+{"event": "SUCCESS", "at": "2026-09-07T07:04:25.824057+00:00", "attempt": 5, "trace_id": "qwen-B01-P-TRANSLATE", "stop_reason": "eos", "output_token_n": 22}
+{"event": "START", "at": "2026-09-07T07:04:25.824219+00:00", "attempt": 6, "retry": 0, "trace_id": "qwen-B01-P-EVENT_QA"}
+{"event": "SUCCESS", "at": "2026-09-07T07:04:26.105382+00:00", "attempt": 6, "trace_id": "qwen-B01-P-EVENT_QA", "stop_reason": "eos", "output_token_n": 12}
+{"event": "START", "at": "2026-09-07T07:04:26.105606+00:00", "attempt": 7, "retry": 0, "trace_id": "qwen-B02-K-TRANSLATE"}
+{"event": "SUCCESS", "at": "2026-09-07T07:04:26.595637+00:00", "attempt": 7, "trace_id": "qwen-B02-K-TRANSLATE", "stop_reason": "eos", "output_token_n": 21}
+{"event": "START", "at": "2026-09-07T07:04:26.595882+00:00", "attempt": 8, "retry": 0, "trace_id": "qwen-B02-K-EVENT_QA"}
+{"event": "SUCCESS", "at": "2026-09-07T07:04:26.922396+00:00", "attempt": 8, "trace_id": "qwen-B02-K-EVENT_QA", "stop_reason": "eos", "output_token_n": 14}
+{"event": "START", "at": "2026-09-07T07:04:26.922575+00:00", "attempt": 9, "retry": 0, "trace_id": "qwen-B02-H-TRANSLATE"}
+{"event": "SUCCESS", "at": "2026-09-07T07:04:27.456786+00:00", "attempt": 9, "trace_id": "qwen-B02-H-TRANSLATE", "stop_reason": "eos", "output_token_n": 23}
+{"event": "START", "at": "2026-09-07T07:04:27.457035+00:00", "attempt": 10, "retry": 0, "trace_id": "qwen-B02-H-EVENT_QA"}
+{"event": "SUCCESS", "at": "2026-09-07T07:04:27.737771+00:00", "attempt": 10, "trace_id": "qwen-B02-H-EVENT_QA", "stop_reason": "eos", "output_token_n": 12}
+{"event": "START", "at": "2026-09-07T07:04:27.737950+00:00", "attempt": 11, "retry": 0, "trace_id": "qwen-B02-P-TRANSLATE"}
+{"event": "SUCCESS", "at": "2026-09-07T07:04:28.225224+00:00", "attempt": 11, "trace_id": "qwen-B02-P-TRANSLATE", "stop_reason": "eos", "output_token_n": 21}
+{"event": "START", "at": "2026-09-07T07:04:28.225398+00:00", "attempt": 12, "retry": 0, "trace_id": "qwen-B02-P-EVENT_QA"}
+{"event": "SUCCESS", "at": "2026-09-07T07:04:28.529345+00:00", "attempt": 12, "trace_id": "qwen-B02-P-EVENT_QA", "stop_reason": "eos", "output_token_n": 13}
+{"event": "START", "at": "2026-09-07T07:04:28.529573+00:00", "attempt": 13, "retry": 0, "trace_id": "qwen-B03-K-TRANSLATE"}
+{"event": "SUCCESS", "at": "2026-09-07T07:04:28.925829+00:00", "attempt": 13, "trace_id": "qwen-B03-K-TRANSLATE", "stop_reason": "eos", "output_token_n": 17}
+{"event": "START", "at": "2026-09-07T07:04:28.926054+00:00", "attempt": 14, "retry": 0, "trace_id": "qwen-B03-K-EVENT_QA"}
+{"event": "SUCCESS", "at": "2026-09-07T07:04:29.459863+00:00", "attempt": 14, "trace_id": "qwen-B03-K-EVENT_QA", "stop_reason": "eos", "output_token_n": 23}
+{"event": "START", "at": "2026-09-07T07:04:29.460020+00:00", "attempt": 15, "retry": 0, "trace_id": "qwen-B03-H-TRANSLATE"}
+{"event": "SUCCESS", "at": "2026-09-07T07:04:29.855075+00:00", "attempt": 15, "trace_id": "qwen-B03-H-TRANSLATE", "stop_reason": "eos", "output_token_n": 17}
+{"event": "START", "at": "2026-09-07T07:04:29.855439+00:00", "attempt": 16, "retry": 0, "trace_id": "qwen-B03-H-EVENT_QA"}
+{"event": "SUCCESS", "at": "2026-09-07T07:04:30.389567+00:00", "attempt": 16, "trace_id": "qwen-B03-H-EVENT_QA", "stop_reason": "eos", "output_token_n": 23}
+{"event": "START", "at": "2026-09-07T07:04:30.389776+00:00", "attempt": 17, "retry": 0, "trace_id": "qwen-B03-P-TRANSLATE"}
+{"event": "SUCCESS", "at": "2026-09-07T07:04:30.786584+00:00", "attempt": 17, "trace_id": "qwen-B03-P-TRANSLATE", "stop_reason": "eos", "output_token_n": 17}
+{"event": "START", "at": "2026-09-07T07:04:30.786735+00:00", "attempt": 18, "retry": 0, "trace_id": "qwen-B03-P-EVENT_QA"}
+{"event": "SUCCESS", "at": "2026-09-07T07:04:31.274280+00:00", "attempt": 18, "trace_id": "qwen-B03-P-EVENT_QA", "stop_reason": "eos", "output_token_n": 21}
+{"event": "START", "at": "2026-09-07T07:04:31.274497+00:00", "attempt": 19, "retry": 0, "trace_id": "qwen-B04-K-TRANSLATE"}
+{"event": "SUCCESS", "at": "2026-09-07T07:04:31.945719+00:00", "attempt": 19, "trace_id": "qwen-B04-K-TRANSLATE", "stop_reason": "eos", "output_token_n": 29}
+{"event": "START", "at": "2026-09-07T07:04:31.945862+00:00", "attempt": 20, "retry": 0, "trace_id": "qwen-B04-K-EVENT_QA"}
+{"event": "SUCCESS", "at": "2026-09-07T07:04:32.435418+00:00", "attempt": 20, "trace_id": "qwen-B04-K-EVENT_QA", "stop_reason": "eos", "output_token_n": 21}
+{"event": "START", "at": "2026-09-07T07:04:32.435645+00:00", "attempt": 21, "retry": 0, "trace_id": "qwen-B04-H-TRANSLATE"}
+{"event": "SUCCESS", "at": "2026-09-07T07:04:33.107341+00:00", "attempt": 21, "trace_id": "qwen-B04-H-TRANSLATE", "stop_reason": "eos", "output_token_n": 29}
+{"event": "START", "at": "2026-09-07T07:04:33.107491+00:00", "attempt": 22, "retry": 0, "trace_id": "qwen-B04-H-EVENT_QA"}
+{"event": "SUCCESS", "at": "2026-09-07T07:04:33.620103+00:00", "attempt": 22, "trace_id": "qwen-B04-H-EVENT_QA", "stop_reason": "eos", "output_token_n": 22}
+{"event": "START", "at": "2026-09-07T07:04:33.620324+00:00", "attempt": 23, "retry": 0, "trace_id": "qwen-B04-P-TRANSLATE"}
+{"event": "SUCCESS", "at": "2026-09-07T07:04:34.294082+00:00", "attempt": 23, "trace_id": "qwen-B04-P-TRANSLATE", "stop_reason": "eos", "output_token_n": 29}
+{"event": "START", "at": "2026-09-07T07:04:34.294240+00:00", "attempt": 24, "retry": 0, "trace_id": "qwen-B04-P-EVENT_QA"}
+{"event": "SUCCESS", "at": "2026-09-07T07:04:34.783604+00:00", "attempt": 24, "trace_id": "qwen-B04-P-EVENT_QA", "stop_reason": "eos", "output_token_n": 21}
+{"event": "START", "at": "2026-09-07T07:04:34.783836+00:00", "attempt": 25, "retry": 0, "trace_id": "qwen-B05-K-TRANSLATE"}
+{"event": "SUCCESS", "at": "2026-09-07T07:04:35.248418+00:00", "attempt": 25, "trace_id": "qwen-B05-K-TRANSLATE", "stop_reason": "eos", "output_token_n": 20}
+{"event": "START", "at": "2026-09-07T07:04:35.248644+00:00", "attempt": 26, "retry": 0, "trace_id": "qwen-B05-K-EVENT_QA"}
+{"event": "SUCCESS", "at": "2026-09-07T07:04:35.621830+00:00", "attempt": 26, "trace_id": "qwen-B05-K-EVENT_QA", "stop_reason": "eos", "output_token_n": 16}
+{"event": "START", "at": "2026-09-07T07:04:35.621987+00:00", "attempt": 27, "retry": 0, "trace_id": "qwen-B05-H-TRANSLATE"}
+{"event": "SUCCESS", "at": "2026-09-07T07:04:36.086032+00:00", "attempt": 27, "trace_id": "qwen-B05-H-TRANSLATE", "stop_reason": "eos", "output_token_n": 20}
+{"event": "START", "at": "2026-09-07T07:04:36.086182+00:00", "attempt": 28, "retry": 0, "trace_id": "qwen-B05-H-EVENT_QA"}
+{"event": "SUCCESS", "at": "2026-09-07T07:04:36.459875+00:00", "attempt": 28, "trace_id": "qwen-B05-H-EVENT_QA", "stop_reason": "eos", "output_token_n": 16}
+{"event": "START", "at": "2026-09-07T07:04:36.460108+00:00", "attempt": 29, "retry": 0, "trace_id": "qwen-B05-P-TRANSLATE"}
+{"event": "SUCCESS", "at": "2026-09-07T07:04:36.924961+00:00", "attempt": 29, "trace_id": "qwen-B05-P-TRANSLATE", "stop_reason": "eos", "output_token_n": 20}
+{"event": "START", "at": "2026-09-07T07:04:36.925112+00:00", "attempt": 30, "retry": 0, "trace_id": "qwen-B05-P-EVENT_QA"}
+{"event": "SUCCESS", "at": "2026-09-07T07:04:37.298179+00:00", "attempt": 30, "trace_id": "qwen-B05-P-EVENT_QA", "stop_reason": "eos", "output_token_n": 16}
+{"event": "START", "at": "2026-09-07T07:04:37.298393+00:00", "attempt": 31, "retry": 0, "trace_id": "qwen-B06-K-TRANSLATE"}
+{"event": "SUCCESS", "at": "2026-09-07T07:04:37.925424+00:00", "attempt": 31, "trace_id": "qwen-B06-K-TRANSLATE", "stop_reason": "eos", "output_token_n": 27}
+{"event": "START", "at": "2026-09-07T07:04:37.925641+00:00", "attempt": 32, "retry": 0, "trace_id": "qwen-B06-K-EVENT_QA"}
+{"event": "SUCCESS", "at": "2026-09-07T07:04:38.300752+00:00", "attempt": 32, "trace_id": "qwen-B06-K-EVENT_QA", "stop_reason": "eos", "output_token_n": 16}
+{"event": "START", "at": "2026-09-07T07:04:38.300908+00:00", "attempt": 33, "retry": 0, "trace_id": "qwen-B06-H-TRANSLATE"}
+{"event": "SUCCESS", "at": "2026-09-07T07:04:38.928307+00:00", "attempt": 33, "trace_id": "qwen-B06-H-TRANSLATE", "stop_reason": "eos", "output_token_n": 27}
+{"event": "START", "at": "2026-09-07T07:04:38.928535+00:00", "attempt": 34, "retry": 0, "trace_id": "qwen-B06-H-EVENT_QA"}
+{"event": "SUCCESS", "at": "2026-09-07T07:04:39.303207+00:00", "attempt": 34, "trace_id": "qwen-B06-H-EVENT_QA", "stop_reason": "eos", "output_token_n": 16}
+{"event": "START", "at": "2026-09-07T07:04:39.303363+00:00", "attempt": 35, "retry": 0, "trace_id": "qwen-B06-P-TRANSLATE"}
+{"event": "SUCCESS", "at": "2026-09-07T07:04:39.930170+00:00", "attempt": 35, "trace_id": "qwen-B06-P-TRANSLATE", "stop_reason": "eos", "output_token_n": 27}
+{"event": "START", "at": "2026-09-07T07:04:39.930332+00:00", "attempt": 36, "retry": 0, "trace_id": "qwen-B06-P-EVENT_QA"}
+{"event": "SUCCESS", "at": "2026-09-07T07:04:40.305449+00:00", "attempt": 36, "trace_id": "qwen-B06-P-EVENT_QA", "stop_reason": "eos", "output_token_n": 16}
+{"event": "START", "at": "2026-09-07T07:04:40.305695+00:00", "attempt": 37, "retry": 0, "trace_id": "qwen-B07-K-TRANSLATE"}
+{"event": "SUCCESS", "at": "2026-09-07T07:04:40.840051+00:00", "attempt": 37, "trace_id": "qwen-B07-K-TRANSLATE", "stop_reason": "eos", "output_token_n": 23}
+{"event": "START", "at": "2026-09-07T07:04:40.840271+00:00", "attempt": 38, "retry": 0, "trace_id": "qwen-B07-K-EVENT_QA"}
+{"event": "SUCCESS", "at": "2026-09-07T07:04:41.144892+00:00", "attempt": 38, "trace_id": "qwen-B07-K-EVENT_QA", "stop_reason": "eos", "output_token_n": 13}
+{"event": "START", "at": "2026-09-07T07:04:41.145062+00:00", "attempt": 39, "retry": 0, "trace_id": "qwen-B07-H-TRANSLATE"}
+{"event": "SUCCESS", "at": "2026-09-07T07:04:41.701833+00:00", "attempt": 39, "trace_id": "qwen-B07-H-TRANSLATE", "stop_reason": "eos", "output_token_n": 24}
+{"event": "START", "at": "2026-09-07T07:04:41.701981+00:00", "attempt": 40, "retry": 0, "trace_id": "qwen-B07-H-EVENT_QA"}
+{"event": "SUCCESS", "at": "2026-09-07T07:04:42.006457+00:00", "attempt": 40, "trace_id": "qwen-B07-H-EVENT_QA", "stop_reason": "eos", "output_token_n": 13}
+{"event": "START", "at": "2026-09-07T07:04:42.006674+00:00", "attempt": 41, "retry": 0, "trace_id": "qwen-B07-P-TRANSLATE"}
+{"event": "SUCCESS", "at": "2026-09-07T07:04:42.656270+00:00", "attempt": 41, "trace_id": "qwen-B07-P-TRANSLATE", "stop_reason": "eos", "output_token_n": 28}
+{"event": "START", "at": "2026-09-07T07:04:42.656430+00:00", "attempt": 42, "retry": 0, "trace_id": "qwen-B07-P-EVENT_QA"}
+{"event": "SUCCESS", "at": "2026-09-07T07:04:42.961234+00:00", "attempt": 42, "trace_id": "qwen-B07-P-EVENT_QA", "stop_reason": "eos", "output_token_n": 13}
+{"event": "START", "at": "2026-09-07T07:04:42.961377+00:00", "attempt": 43, "retry": 0, "trace_id": "qwen-B08-K-TRANSLATE"}
+{"event": "SUCCESS", "at": "2026-09-07T07:04:43.610217+00:00", "attempt": 43, "trace_id": "qwen-B08-K-TRANSLATE", "stop_reason": "eos", "output_token_n": 28}
+{"event": "START", "at": "2026-09-07T07:04:43.610371+00:00", "attempt": 44, "retry": 0, "trace_id": "qwen-B08-K-EVENT_QA"}
+{"event": "SUCCESS", "at": "2026-09-07T07:04:43.938238+00:00", "attempt": 44, "trace_id": "qwen-B08-K-EVENT_QA", "stop_reason": "eos", "output_token_n": 14}
+{"event": "START", "at": "2026-09-07T07:04:43.938438+00:00", "attempt": 45, "retry": 0, "trace_id": "qwen-B08-H-TRANSLATE"}
+{"event": "SUCCESS", "at": "2026-09-07T07:04:44.587979+00:00", "attempt": 45, "trace_id": "qwen-B08-H-TRANSLATE", "stop_reason": "eos", "output_token_n": 28}
+{"event": "START", "at": "2026-09-07T07:04:44.588142+00:00", "attempt": 46, "retry": 0, "trace_id": "qwen-B08-H-EVENT_QA"}
+{"event": "SUCCESS", "at": "2026-09-07T07:04:44.916632+00:00", "attempt": 46, "trace_id": "qwen-B08-H-EVENT_QA", "stop_reason": "eos", "output_token_n": 14}
+{"event": "START", "at": "2026-09-07T07:04:44.916852+00:00", "attempt": 47, "retry": 0, "trace_id": "qwen-B08-P-TRANSLATE"}
+{"event": "SUCCESS", "at": "2026-09-07T07:04:45.660797+00:00", "attempt": 47, "trace_id": "qwen-B08-P-TRANSLATE", "stop_reason": "eos", "output_token_n": 31}
+{"event": "START", "at": "2026-09-07T07:04:45.660987+00:00", "attempt": 48, "retry": 0, "trace_id": "qwen-B08-P-EVENT_QA"}
+{"event": "SUCCESS", "at": "2026-09-07T07:04:45.989102+00:00", "attempt": 48, "trace_id": "qwen-B08-P-EVENT_QA", "stop_reason": "eos", "output_token_n": 14}
+{"event": "START", "at": "2026-09-07T07:07:07.384620+00:00", "attempt": 49, "retry": 0, "trace_id": "llmjp-B01-K-TRANSLATE"}
+{"event": "SUCCESS", "at": "2026-09-07T07:07:08.141454+00:00", "attempt": 49, "trace_id": "llmjp-B01-K-TRANSLATE", "stop_reason": "eos", "output_token_n": 23}
+{"event": "START", "at": "2026-09-07T07:07:08.141704+00:00", "attempt": 50, "retry": 0, "trace_id": "llmjp-B01-K-EVENT_QA"}
+{"event": "SUCCESS", "at": "2026-09-07T07:07:08.557534+00:00", "attempt": 50, "trace_id": "llmjp-B01-K-EVENT_QA", "stop_reason": "eos", "output_token_n": 18}
+{"event": "START", "at": "2026-09-07T07:07:08.557668+00:00", "attempt": 51, "retry": 0, "trace_id": "llmjp-B01-H-TRANSLATE"}
+{"event": "SUCCESS", "at": "2026-09-07T07:07:09.066980+00:00", "attempt": 51, "trace_id": "llmjp-B01-H-TRANSLATE", "stop_reason": "eos", "output_token_n": 23}
+{"event": "START", "at": "2026-09-07T07:07:09.067226+00:00", "attempt": 52, "retry": 0, "trace_id": "llmjp-B01-H-EVENT_QA"}
+{"event": "SUCCESS", "at": "2026-09-07T07:07:09.512342+00:00", "attempt": 52, "trace_id": "llmjp-B01-H-EVENT_QA", "stop_reason": "eos", "output_token_n": 20}
+{"event": "START", "at": "2026-09-07T07:07:09.512575+00:00", "attempt": 53, "retry": 0, "trace_id": "llmjp-B01-P-TRANSLATE"}
+{"event": "SUCCESS", "at": "2026-09-07T07:07:10.020658+00:00", "attempt": 53, "trace_id": "llmjp-B01-P-TRANSLATE", "stop_reason": "eos", "output_token_n": 23}
+{"event": "START", "at": "2026-09-07T07:07:10.020815+00:00", "attempt": 54, "retry": 0, "trace_id": "llmjp-B01-P-EVENT_QA"}
+{"event": "SUCCESS", "at": "2026-09-07T07:07:10.403258+00:00", "attempt": 54, "trace_id": "llmjp-B01-P-EVENT_QA", "stop_reason": "eos", "output_token_n": 17}
+{"event": "START", "at": "2026-09-07T07:07:10.403509+00:00", "attempt": 55, "retry": 0, "trace_id": "llmjp-B02-K-TRANSLATE"}
+{"event": "SUCCESS", "at": "2026-09-07T07:07:10.955876+00:00", "attempt": 55, "trace_id": "llmjp-B02-K-TRANSLATE", "stop_reason": "eos", "output_token_n": 25}
+{"event": "START", "at": "2026-09-07T07:07:10.956107+00:00", "attempt": 56, "retry": 0, "trace_id": "llmjp-B02-K-EVENT_QA"}
+{"event": "SUCCESS", "at": "2026-09-07T07:07:11.249266+00:00", "attempt": 56, "trace_id": "llmjp-B02-K-EVENT_QA", "stop_reason": "eos", "output_token_n": 13}
+{"event": "START", "at": "2026-09-07T07:07:11.249501+00:00", "attempt": 57, "retry": 0, "trace_id": "llmjp-B02-H-TRANSLATE"}
+{"event": "SUCCESS", "at": "2026-09-07T07:07:11.823332+00:00", "attempt": 57, "trace_id": "llmjp-B02-H-TRANSLATE", "stop_reason": "eos", "output_token_n": 26}
+{"event": "START", "at": "2026-09-07T07:07:11.823486+00:00", "attempt": 58, "retry": 0, "trace_id": "llmjp-B02-H-EVENT_QA"}
+{"event": "SUCCESS", "at": "2026-09-07T07:07:12.115943+00:00", "attempt": 58, "trace_id": "llmjp-B02-H-EVENT_QA", "stop_reason": "eos", "output_token_n": 13}
+{"event": "START", "at": "2026-09-07T07:07:12.116162+00:00", "attempt": 59, "retry": 0, "trace_id": "llmjp-B02-P-TRANSLATE"}
+{"event": "SUCCESS", "at": "2026-09-07T07:07:12.604516+00:00", "attempt": 59, "trace_id": "llmjp-B02-P-TRANSLATE", "stop_reason": "eos", "output_token_n": 22}
+{"event": "START", "at": "2026-09-07T07:07:12.604680+00:00", "attempt": 60, "retry": 0, "trace_id": "llmjp-B02-P-EVENT_QA"}
+{"event": "SUCCESS", "at": "2026-09-07T07:07:12.897520+00:00", "attempt": 60, "trace_id": "llmjp-B02-P-EVENT_QA", "stop_reason": "eos", "output_token_n": 13}
+{"event": "START", "at": "2026-09-07T07:07:12.897739+00:00", "attempt": 61, "retry": 0, "trace_id": "llmjp-B03-K-TRANSLATE"}
+{"event": "SUCCESS", "at": "2026-09-07T07:07:13.275542+00:00", "attempt": 61, "trace_id": "llmjp-B03-K-TRANSLATE", "stop_reason": "eos", "output_token_n": 17}
+{"event": "START", "at": "2026-09-07T07:07:13.275776+00:00", "attempt": 62, "retry": 0, "trace_id": "llmjp-B03-K-EVENT_QA"}
+{"event": "SUCCESS", "at": "2026-09-07T07:07:13.852914+00:00", "attempt": 62, "trace_id": "llmjp-B03-K-EVENT_QA", "stop_reason": "eos", "output_token_n": 26}
+{"event": "START", "at": "2026-09-07T07:07:13.853222+00:00", "attempt": 63, "retry": 0, "trace_id": "llmjp-B03-H-TRANSLATE"}
+{"event": "SUCCESS", "at": "2026-09-07T07:07:14.252907+00:00", "attempt": 63, "trace_id": "llmjp-B03-H-TRANSLATE", "stop_reason": "eos", "output_token_n": 18}
+{"event": "START", "at": "2026-09-07T07:07:14.253080+00:00", "attempt": 64, "retry": 0, "trace_id": "llmjp-B03-H-EVENT_QA"}
+{"event": "SUCCESS", "at": "2026-09-07T07:07:14.852599+00:00", "attempt": 64, "trace_id": "llmjp-B03-H-EVENT_QA", "stop_reason": "eos", "output_token_n": 27}
+{"event": "START", "at": "2026-09-07T07:07:14.852831+00:00", "attempt": 65, "retry": 0, "trace_id": "llmjp-B03-P-TRANSLATE"}
+{"event": "SUCCESS", "at": "2026-09-07T07:07:15.230483+00:00", "attempt": 65, "trace_id": "llmjp-B03-P-TRANSLATE", "stop_reason": "eos", "output_token_n": 17}
+{"event": "START", "at": "2026-09-07T07:07:15.230639+00:00", "attempt": 66, "retry": 0, "trace_id": "llmjp-B03-P-EVENT_QA"}
+{"event": "SUCCESS", "at": "2026-09-07T07:07:15.808099+00:00", "attempt": 66, "trace_id": "llmjp-B03-P-EVENT_QA", "stop_reason": "eos", "output_token_n": 26}
+{"event": "START", "at": "2026-09-07T07:07:15.808317+00:00", "attempt": 67, "retry": 0, "trace_id": "llmjp-B04-K-TRANSLATE"}
+{"event": "SUCCESS", "at": "2026-09-07T07:07:16.407100+00:00", "attempt": 67, "trace_id": "llmjp-B04-K-TRANSLATE", "stop_reason": "eos", "output_token_n": 27}
+{"event": "START", "at": "2026-09-07T07:07:16.407262+00:00", "attempt": 68, "retry": 0, "trace_id": "llmjp-B04-K-EVENT_QA"}
+{"event": "SUCCESS", "at": "2026-09-07T07:07:17.049352+00:00", "attempt": 68, "trace_id": "llmjp-B04-K-EVENT_QA", "stop_reason": "eos", "output_token_n": 29}
+{"event": "START", "at": "2026-09-07T07:07:17.049577+00:00", "attempt": 69, "retry": 0, "trace_id": "llmjp-B04-H-TRANSLATE"}
+{"event": "SUCCESS", "at": "2026-09-07T07:07:17.648560+00:00", "attempt": 69, "trace_id": "llmjp-B04-H-TRANSLATE", "stop_reason": "eos", "output_token_n": 27}
+{"event": "START", "at": "2026-09-07T07:07:17.648720+00:00", "attempt": 70, "retry": 0, "trace_id": "llmjp-B04-H-EVENT_QA"}
+{"event": "SUCCESS", "at": "2026-09-07T07:07:18.292274+00:00", "attempt": 70, "trace_id": "llmjp-B04-H-EVENT_QA", "stop_reason": "eos", "output_token_n": 29}
+{"event": "START", "at": "2026-09-07T07:07:18.292439+00:00", "attempt": 71, "retry": 0, "trace_id": "llmjp-B04-P-TRANSLATE"}
+{"event": "SUCCESS", "at": "2026-09-07T07:07:18.890902+00:00", "attempt": 71, "trace_id": "llmjp-B04-P-TRANSLATE", "stop_reason": "eos", "output_token_n": 27}
+{"event": "START", "at": "2026-09-07T07:07:18.891062+00:00", "attempt": 72, "retry": 0, "trace_id": "llmjp-B04-P-EVENT_QA"}
+{"event": "SUCCESS", "at": "2026-09-07T07:07:19.535502+00:00", "attempt": 72, "trace_id": "llmjp-B04-P-EVENT_QA", "stop_reason": "eos", "output_token_n": 29}
+{"event": "START", "at": "2026-09-07T07:07:19.535731+00:00", "attempt": 73, "retry": 0, "trace_id": "llmjp-B05-K-TRANSLATE"}
+{"event": "SUCCESS", "at": "2026-09-07T07:07:20.131524+00:00", "attempt": 73, "trace_id": "llmjp-B05-K-TRANSLATE", "stop_reason": "eos", "output_token_n": 27}
+{"event": "START", "at": "2026-09-07T07:07:20.131911+00:00", "attempt": 74, "retry": 0, "trace_id": "llmjp-B05-K-EVENT_QA"}
+{"event": "SUCCESS", "at": "2026-09-07T07:07:21.060356+00:00", "attempt": 74, "trace_id": "llmjp-B05-K-EVENT_QA", "stop_reason": "eos", "output_token_n": 42}
+{"event": "START", "at": "2026-09-07T07:07:21.060606+00:00", "attempt": 75, "retry": 0, "trace_id": "llmjp-B05-H-TRANSLATE"}
+{"event": "SUCCESS", "at": "2026-09-07T07:07:21.634723+00:00", "attempt": 75, "trace_id": "llmjp-B05-H-TRANSLATE", "stop_reason": "eos", "output_token_n": 26}
+{"event": "START", "at": "2026-09-07T07:07:21.634892+00:00", "attempt": 76, "retry": 0, "trace_id": "llmjp-B05-H-EVENT_QA"}
+{"event": "SUCCESS", "at": "2026-09-07T07:07:22.519235+00:00", "attempt": 76, "trace_id": "llmjp-B05-H-EVENT_QA", "stop_reason": "eos", "output_token_n": 40}
+{"event": "START", "at": "2026-09-07T07:07:22.519373+00:00", "attempt": 77, "retry": 0, "trace_id": "llmjp-B05-P-TRANSLATE"}
+{"event": "SUCCESS", "at": "2026-09-07T07:07:23.115701+00:00", "attempt": 77, "trace_id": "llmjp-B05-P-TRANSLATE", "stop_reason": "eos", "output_token_n": 27}
+{"event": "START", "at": "2026-09-07T07:07:23.115850+00:00", "attempt": 78, "retry": 0, "trace_id": "llmjp-B05-P-EVENT_QA"}
+{"event": "SUCCESS", "at": "2026-09-07T07:07:24.152186+00:00", "attempt": 78, "trace_id": "llmjp-B05-P-EVENT_QA", "stop_reason": "eos", "output_token_n": 47}
+{"event": "START", "at": "2026-09-07T07:07:24.152345+00:00", "attempt": 79, "retry": 0, "trace_id": "llmjp-B06-K-TRANSLATE"}
+{"event": "SUCCESS", "at": "2026-09-07T07:07:24.861291+00:00", "attempt": 79, "trace_id": "llmjp-B06-K-TRANSLATE", "stop_reason": "eos", "output_token_n": 32}
+{"event": "START", "at": "2026-09-07T07:07:24.861521+00:00", "attempt": 80, "retry": 0, "trace_id": "llmjp-B06-K-EVENT_QA"}
+{"event": "SUCCESS", "at": "2026-09-07T07:07:25.504594+00:00", "attempt": 80, "trace_id": "llmjp-B06-K-EVENT_QA", "stop_reason": "eos", "output_token_n": 29}
+{"event": "START", "at": "2026-09-07T07:07:25.504747+00:00", "attempt": 81, "retry": 0, "trace_id": "llmjp-B06-H-TRANSLATE"}
+{"event": "SUCCESS", "at": "2026-09-07T07:07:26.190841+00:00", "attempt": 81, "trace_id": "llmjp-B06-H-TRANSLATE", "stop_reason": "eos", "output_token_n": 31}
+{"event": "START", "at": "2026-09-07T07:07:26.191021+00:00", "attempt": 82, "retry": 0, "trace_id": "llmjp-B06-H-EVENT_QA"}
+{"event": "SUCCESS", "at": "2026-09-07T07:07:26.770229+00:00", "attempt": 82, "trace_id": "llmjp-B06-H-EVENT_QA", "stop_reason": "eos", "output_token_n": 26}
+{"event": "START", "at": "2026-09-07T07:07:26.770387+00:00", "attempt": 83, "retry": 0, "trace_id": "llmjp-B06-P-TRANSLATE"}
+{"event": "SUCCESS", "at": "2026-09-07T07:07:27.478124+00:00", "attempt": 83, "trace_id": "llmjp-B06-P-TRANSLATE", "stop_reason": "eos", "output_token_n": 32}
+{"event": "START", "at": "2026-09-07T07:07:27.478345+00:00", "attempt": 84, "retry": 0, "trace_id": "llmjp-B06-P-EVENT_QA"}
+{"event": "SUCCESS", "at": "2026-09-07T07:07:28.275826+00:00", "attempt": 84, "trace_id": "llmjp-B06-P-EVENT_QA", "stop_reason": "eos", "output_token_n": 36}
+{"event": "START", "at": "2026-09-07T07:07:28.275985+00:00", "attempt": 85, "retry": 0, "trace_id": "llmjp-B07-K-TRANSLATE"}
+{"event": "SUCCESS", "at": "2026-09-07T07:07:28.829298+00:00", "attempt": 85, "trace_id": "llmjp-B07-K-TRANSLATE", "stop_reason": "eos", "output_token_n": 25}
+{"event": "START", "at": "2026-09-07T07:07:28.829472+00:00", "attempt": 86, "retry": 0, "trace_id": "llmjp-B07-K-EVENT_QA"}
+{"event": "SUCCESS", "at": "2026-09-07T07:07:29.167005+00:00", "attempt": 86, "trace_id": "llmjp-B07-K-EVENT_QA", "stop_reason": "eos", "output_token_n": 15}
+{"event": "START", "at": "2026-09-07T07:07:29.167239+00:00", "attempt": 87, "retry": 0, "trace_id": "llmjp-B07-H-TRANSLATE"}
+{"event": "SUCCESS", "at": "2026-09-07T07:07:29.676347+00:00", "attempt": 87, "trace_id": "llmjp-B07-H-TRANSLATE", "stop_reason": "eos", "output_token_n": 23}
+{"event": "START", "at": "2026-09-07T07:07:29.676496+00:00", "attempt": 88, "retry": 0, "trace_id": "llmjp-B07-H-EVENT_QA"}
+{"event": "SUCCESS", "at": "2026-09-07T07:07:30.254151+00:00", "attempt": 88, "trace_id": "llmjp-B07-H-EVENT_QA", "stop_reason": "eos", "output_token_n": 26}
+{"event": "START", "at": "2026-09-07T07:07:30.254383+00:00", "attempt": 89, "retry": 0, "trace_id": "llmjp-B07-P-TRANSLATE"}
+{"event": "SUCCESS", "at": "2026-09-07T07:07:30.831088+00:00", "attempt": 89, "trace_id": "llmjp-B07-P-TRANSLATE", "stop_reason": "eos", "output_token_n": 26}
+{"event": "START", "at": "2026-09-07T07:07:30.831240+00:00", "attempt": 90, "retry": 0, "trace_id": "llmjp-B07-P-EVENT_QA"}
+{"event": "SUCCESS", "at": "2026-09-07T07:07:31.167583+00:00", "attempt": 90, "trace_id": "llmjp-B07-P-EVENT_QA", "stop_reason": "eos", "output_token_n": 15}
+{"event": "START", "at": "2026-09-07T07:07:31.167741+00:00", "attempt": 91, "retry": 0, "trace_id": "llmjp-B08-K-TRANSLATE"}
+{"event": "SUCCESS", "at": "2026-09-07T07:07:31.809947+00:00", "attempt": 91, "trace_id": "llmjp-B08-K-TRANSLATE", "stop_reason": "eos", "output_token_n": 29}
+{"event": "START", "at": "2026-09-07T07:07:31.810164+00:00", "attempt": 92, "retry": 0, "trace_id": "llmjp-B08-K-EVENT_QA"}
+{"event": "SUCCESS", "at": "2026-09-07T07:07:32.235491+00:00", "attempt": 92, "trace_id": "llmjp-B08-K-EVENT_QA", "stop_reason": "eos", "output_token_n": 19}
+{"event": "START", "at": "2026-09-07T07:07:32.235650+00:00", "attempt": 93, "retry": 0, "trace_id": "llmjp-B08-H-TRANSLATE"}
+{"event": "SUCCESS", "at": "2026-09-07T07:07:32.899360+00:00", "attempt": 93, "trace_id": "llmjp-B08-H-TRANSLATE", "stop_reason": "eos", "output_token_n": 30}
+{"event": "START", "at": "2026-09-07T07:07:32.899697+00:00", "attempt": 94, "retry": 0, "trace_id": "llmjp-B08-H-EVENT_QA"}
+{"event": "SUCCESS", "at": "2026-09-07T07:07:33.542930+00:00", "attempt": 94, "trace_id": "llmjp-B08-H-EVENT_QA", "stop_reason": "eos", "output_token_n": 29}
+{"event": "START", "at": "2026-09-07T07:07:33.543088+00:00", "attempt": 95, "retry": 0, "trace_id": "llmjp-B08-P-TRANSLATE"}
+{"event": "SUCCESS", "at": "2026-09-07T07:07:34.317490+00:00", "attempt": 95, "trace_id": "llmjp-B08-P-TRANSLATE", "stop_reason": "eos", "output_token_n": 35}
+{"event": "START", "at": "2026-09-07T07:07:34.317648+00:00", "attempt": 96, "retry": 0, "trace_id": "llmjp-B08-P-EVENT_QA"}
+{"event": "SUCCESS", "at": "2026-09-07T07:07:35.070854+00:00", "attempt": 96, "trace_id": "llmjp-B08-P-EVENT_QA", "stop_reason": "eos", "output_token_n": 34}
+{"event": "START", "at": "2026-09-07T07:07:38.745949+00:00", "attempt": 97, "retry": 0, "trace_id": "apertus-B01-K-TRANSLATE"}
+{"event": "SUCCESS", "at": "2026-09-07T07:07:39.440839+00:00", "attempt": 97, "trace_id": "apertus-B01-K-TRANSLATE", "stop_reason": "eos", "output_token_n": 29}
+{"event": "START", "at": "2026-09-07T07:07:39.441020+00:00", "attempt": 98, "retry": 0, "trace_id": "apertus-B01-K-EVENT_QA"}
+{"event": "SUCCESS", "at": "2026-09-07T07:07:40.166157+00:00", "attempt": 98, "trace_id": "apertus-B01-K-EVENT_QA", "stop_reason": "eos", "output_token_n": 31}
+{"event": "START", "at": "2026-09-07T07:07:40.166310+00:00", "attempt": 99, "retry": 0, "trace_id": "apertus-B01-H-TRANSLATE"}
+{"event": "SUCCESS", "at": "2026-09-07T07:07:40.843781+00:00", "attempt": 99, "trace_id": "apertus-B01-H-TRANSLATE", "stop_reason": "eos", "output_token_n": 29}
+{"event": "START", "at": "2026-09-07T07:07:40.843937+00:00", "attempt": 100, "retry": 0, "trace_id": "apertus-B01-H-EVENT_QA"}
+{"event": "SUCCESS", "at": "2026-09-07T07:07:41.546959+00:00", "attempt": 100, "trace_id": "apertus-B01-H-EVENT_QA", "stop_reason": "eos", "output_token_n": 30}
+{"event": "START", "at": "2026-09-07T07:07:41.547115+00:00", "attempt": 101, "retry": 0, "trace_id": "apertus-B01-P-TRANSLATE"}
+{"event": "SUCCESS", "at": "2026-09-07T07:07:42.177395+00:00", "attempt": 101, "trace_id": "apertus-B01-P-TRANSLATE", "stop_reason": "eos", "output_token_n": 27}
+{"event": "START", "at": "2026-09-07T07:07:42.177615+00:00", "attempt": 102, "retry": 0, "trace_id": "apertus-B01-P-EVENT_QA"}
+{"event": "SUCCESS", "at": "2026-09-07T07:07:42.881364+00:00", "attempt": 102, "trace_id": "apertus-B01-P-EVENT_QA", "stop_reason": "eos", "output_token_n": 30}
+{"event": "START", "at": "2026-09-07T07:07:42.881688+00:00", "attempt": 103, "retry": 0, "trace_id": "apertus-B02-K-TRANSLATE"}
+{"event": "SUCCESS", "at": "2026-09-07T07:07:43.512178+00:00", "attempt": 103, "trace_id": "apertus-B02-K-TRANSLATE", "stop_reason": "eos", "output_token_n": 27}
+{"event": "START", "at": "2026-09-07T07:07:43.512401+00:00", "attempt": 104, "retry": 0, "trace_id": "apertus-B02-K-EVENT_QA"}
+{"event": "SUCCESS", "at": "2026-09-07T07:07:44.353712+00:00", "attempt": 104, "trace_id": "apertus-B02-K-EVENT_QA", "stop_reason": "eos", "output_token_n": 36}
+{"event": "START", "at": "2026-09-07T07:07:44.353901+00:00", "attempt": 105, "retry": 0, "trace_id": "apertus-B02-H-TRANSLATE"}
+{"event": "SUCCESS", "at": "2026-09-07T07:07:45.168791+00:00", "attempt": 105, "trace_id": "apertus-B02-H-TRANSLATE", "stop_reason": "eos", "output_token_n": 35}
+{"event": "START", "at": "2026-09-07T07:07:45.168986+00:00", "attempt": 106, "retry": 0, "trace_id": "apertus-B02-H-EVENT_QA"}
+{"event": "SUCCESS", "at": "2026-09-07T07:07:45.594936+00:00", "attempt": 106, "trace_id": "apertus-B02-H-EVENT_QA", "stop_reason": "eos", "output_token_n": 18}
+{"event": "START", "at": "2026-09-07T07:07:45.595118+00:00", "attempt": 107, "retry": 0, "trace_id": "apertus-B02-P-TRANSLATE"}
+{"event": "SUCCESS", "at": "2026-09-07T07:07:46.179547+00:00", "attempt": 107, "trace_id": "apertus-B02-P-TRANSLATE", "stop_reason": "eos", "output_token_n": 25}
+{"event": "START", "at": "2026-09-07T07:07:46.179756+00:00", "attempt": 108, "retry": 0, "trace_id": "apertus-B02-P-EVENT_QA"}
+{"event": "SUCCESS", "at": "2026-09-07T07:07:47.160640+00:00", "attempt": 108, "trace_id": "apertus-B02-P-EVENT_QA", "stop_reason": "eos", "output_token_n": 42}
+{"event": "START", "at": "2026-09-07T07:07:47.160796+00:00", "attempt": 109, "retry": 0, "trace_id": "apertus-B03-K-TRANSLATE"}
+{"event": "SUCCESS", "at": "2026-09-07T07:07:47.698565+00:00", "attempt": 109, "trace_id": "apertus-B03-K-TRANSLATE", "stop_reason": "eos", "output_token_n": 23}
+{"event": "START", "at": "2026-09-07T07:07:47.698724+00:00", "attempt": 110, "retry": 0, "trace_id": "apertus-B03-K-EVENT_QA"}
+{"event": "SUCCESS", "at": "2026-09-07T07:07:48.264904+00:00", "attempt": 110, "trace_id": "apertus-B03-K-EVENT_QA", "stop_reason": "eos", "output_token_n": 24}
+{"event": "START", "at": "2026-09-07T07:07:48.265083+00:00", "attempt": 111, "retry": 0, "trace_id": "apertus-B03-H-TRANSLATE"}
+{"event": "SUCCESS", "at": "2026-09-07T07:07:48.781302+00:00", "attempt": 111, "trace_id": "apertus-B03-H-TRANSLATE", "stop_reason": "eos", "output_token_n": 22}
+{"event": "START", "at": "2026-09-07T07:07:48.781539+00:00", "attempt": 112, "retry": 0, "trace_id": "apertus-B03-H-EVENT_QA"}
+{"event": "SUCCESS", "at": "2026-09-07T07:07:49.347242+00:00", "attempt": 112, "trace_id": "apertus-B03-H-EVENT_QA", "stop_reason": "eos", "output_token_n": 24}
+{"event": "START", "at": "2026-09-07T07:07:49.347398+00:00", "attempt": 113, "retry": 0, "trace_id": "apertus-B03-P-TRANSLATE"}
+{"event": "SUCCESS", "at": "2026-09-07T07:07:49.861998+00:00", "attempt": 113, "trace_id": "apertus-B03-P-TRANSLATE", "stop_reason": "eos", "output_token_n": 22}
+{"event": "START", "at": "2026-09-07T07:07:49.862152+00:00", "attempt": 114, "retry": 0, "trace_id": "apertus-B03-P-EVENT_QA"}
+{"event": "SUCCESS", "at": "2026-09-07T07:07:50.450773+00:00", "attempt": 114, "trace_id": "apertus-B03-P-EVENT_QA", "stop_reason": "eos", "output_token_n": 25}
+{"event": "START", "at": "2026-09-07T07:07:50.450936+00:00", "attempt": 115, "retry": 0, "trace_id": "apertus-B04-K-TRANSLATE"}
+{"event": "SUCCESS", "at": "2026-09-07T07:07:51.383873+00:00", "attempt": 115, "trace_id": "apertus-B04-K-TRANSLATE", "stop_reason": "eos", "output_token_n": 40}
+{"event": "START", "at": "2026-09-07T07:07:51.384028+00:00", "attempt": 116, "retry": 0, "trace_id": "apertus-B04-K-EVENT_QA"}
+{"event": "SUCCESS", "at": "2026-09-07T07:07:52.134057+00:00", "attempt": 116, "trace_id": "apertus-B04-K-EVENT_QA", "stop_reason": "eos", "output_token_n": 32}
+{"event": "START", "at": "2026-09-07T07:07:52.134332+00:00", "attempt": 117, "retry": 0, "trace_id": "apertus-B04-H-TRANSLATE"}
+{"event": "SUCCESS", "at": "2026-09-07T07:07:53.068277+00:00", "attempt": 117, "trace_id": "apertus-B04-H-TRANSLATE", "stop_reason": "eos", "output_token_n": 40}
+{"event": "START", "at": "2026-09-07T07:07:53.068453+00:00", "attempt": 118, "retry": 0, "trace_id": "apertus-B04-H-EVENT_QA"}
+{"event": "SUCCESS", "at": "2026-09-07T07:07:53.796218+00:00", "attempt": 118, "trace_id": "apertus-B04-H-EVENT_QA", "stop_reason": "eos", "output_token_n": 31}
+{"event": "START", "at": "2026-09-07T07:07:53.796420+00:00", "attempt": 119, "retry": 0, "trace_id": "apertus-B04-P-TRANSLATE"}
+{"event": "SUCCESS", "at": "2026-09-07T07:07:54.731056+00:00", "attempt": 119, "trace_id": "apertus-B04-P-TRANSLATE", "stop_reason": "eos", "output_token_n": 40}
+{"event": "START", "at": "2026-09-07T07:07:54.731228+00:00", "attempt": 120, "retry": 0, "trace_id": "apertus-B04-P-EVENT_QA"}
+{"event": "SUCCESS", "at": "2026-09-07T07:07:55.481240+00:00", "attempt": 120, "trace_id": "apertus-B04-P-EVENT_QA", "stop_reason": "eos", "output_token_n": 32}
+{"event": "START", "at": "2026-09-07T07:07:55.481408+00:00", "attempt": 121, "retry": 0, "trace_id": "apertus-B05-K-TRANSLATE"}
+{"event": "SUCCESS", "at": "2026-09-07T07:07:56.276021+00:00", "attempt": 121, "trace_id": "apertus-B05-K-TRANSLATE", "stop_reason": "eos", "output_token_n": 34}
+{"event": "START", "at": "2026-09-07T07:07:56.276186+00:00", "attempt": 122, "retry": 0, "trace_id": "apertus-B05-K-EVENT_QA"}
+{"event": "SUCCESS", "at": "2026-09-07T07:07:57.258366+00:00", "attempt": 122, "trace_id": "apertus-B05-K-EVENT_QA", "stop_reason": "eos", "output_token_n": 42}
+{"event": "START", "at": "2026-09-07T07:07:57.258542+00:00", "attempt": 123, "retry": 0, "trace_id": "apertus-B05-H-TRANSLATE"}
+{"event": "SUCCESS", "at": "2026-09-07T07:07:57.960691+00:00", "attempt": 123, "trace_id": "apertus-B05-H-TRANSLATE", "stop_reason": "eos", "output_token_n": 30}
+{"event": "START", "at": "2026-09-07T07:07:57.960846+00:00", "attempt": 124, "retry": 0, "trace_id": "apertus-B05-H-EVENT_QA"}
+{"event": "SUCCESS", "at": "2026-09-07T07:07:58.943323+00:00", "attempt": 124, "trace_id": "apertus-B05-H-EVENT_QA", "stop_reason": "eos", "output_token_n": 42}
+{"event": "START", "at": "2026-09-07T07:07:58.943482+00:00", "attempt": 125, "retry": 0, "trace_id": "apertus-B05-P-TRANSLATE"}
+{"event": "SUCCESS", "at": "2026-09-07T07:07:59.715122+00:00", "attempt": 125, "trace_id": "apertus-B05-P-TRANSLATE", "stop_reason": "eos", "output_token_n": 33}
+{"event": "START", "at": "2026-09-07T07:07:59.715289+00:00", "attempt": 126, "retry": 0, "trace_id": "apertus-B05-P-EVENT_QA"}
+{"event": "SUCCESS", "at": "2026-09-07T07:08:00.697052+00:00", "attempt": 126, "trace_id": "apertus-B05-P-EVENT_QA", "stop_reason": "eos", "output_token_n": 42}
+{"event": "START", "at": "2026-09-07T07:08:00.697227+00:00", "attempt": 127, "retry": 0, "trace_id": "apertus-B06-K-TRANSLATE"}
+{"event": "SUCCESS", "at": "2026-09-07T07:08:01.908023+00:00", "attempt": 127, "trace_id": "apertus-B06-K-TRANSLATE", "stop_reason": "eos", "output_token_n": 52}
+{"event": "START", "at": "2026-09-07T07:08:01.908192+00:00", "attempt": 128, "retry": 0, "trace_id": "apertus-B06-K-EVENT_QA"}
+{"event": "SUCCESS", "at": "2026-09-07T07:08:02.429108+00:00", "attempt": 128, "trace_id": "apertus-B06-K-EVENT_QA", "stop_reason": "eos", "output_token_n": 22}
+{"event": "START", "at": "2026-09-07T07:08:02.429341+00:00", "attempt": 129, "retry": 0, "trace_id": "apertus-B06-H-TRANSLATE"}
+{"event": "SUCCESS", "at": "2026-09-07T07:08:03.732310+00:00", "attempt": 129, "trace_id": "apertus-B06-H-TRANSLATE", "stop_reason": "eos", "output_token_n": 56}
+{"event": "START", "at": "2026-09-07T07:08:03.732475+00:00", "attempt": 130, "retry": 0, "trace_id": "apertus-B06-H-EVENT_QA"}
+{"event": "SUCCESS", "at": "2026-09-07T07:08:04.252903+00:00", "attempt": 130, "trace_id": "apertus-B06-H-EVENT_QA", "stop_reason": "eos", "output_token_n": 22}
+{"event": "START", "at": "2026-09-07T07:08:04.253170+00:00", "attempt": 131, "retry": 0, "trace_id": "apertus-B06-P-TRANSLATE"}
+{"event": "SUCCESS", "at": "2026-09-07T07:08:05.464525+00:00", "attempt": 131, "trace_id": "apertus-B06-P-TRANSLATE", "stop_reason": "eos", "output_token_n": 52}
+{"event": "START", "at": "2026-09-07T07:08:05.464691+00:00", "attempt": 132, "retry": 0, "trace_id": "apertus-B06-P-EVENT_QA"}
+{"event": "SUCCESS", "at": "2026-09-07T07:08:05.985108+00:00", "attempt": 132, "trace_id": "apertus-B06-P-EVENT_QA", "stop_reason": "eos", "output_token_n": 22}
+{"event": "START", "at": "2026-09-07T07:08:05.985344+00:00", "attempt": 133, "retry": 0, "trace_id": "apertus-B07-K-TRANSLATE"}
+{"event": "SUCCESS", "at": "2026-09-07T07:08:06.780892+00:00", "attempt": 133, "trace_id": "apertus-B07-K-TRANSLATE", "stop_reason": "eos", "output_token_n": 34}
+{"event": "START", "at": "2026-09-07T07:08:06.781194+00:00", "attempt": 134, "retry": 0, "trace_id": "apertus-B07-K-EVENT_QA"}
+{"event": "SUCCESS", "at": "2026-09-07T07:08:07.393111+00:00", "attempt": 134, "trace_id": "apertus-B07-K-EVENT_QA", "stop_reason": "eos", "output_token_n": 26}
+{"event": "START", "at": "2026-09-07T07:08:07.393337+00:00", "attempt": 135, "retry": 0, "trace_id": "apertus-B07-H-TRANSLATE"}
+{"event": "SUCCESS", "at": "2026-09-07T07:08:08.211202+00:00", "attempt": 135, "trace_id": "apertus-B07-H-TRANSLATE", "stop_reason": "eos", "output_token_n": 35}
+{"event": "START", "at": "2026-09-07T07:08:08.211360+00:00", "attempt": 136, "retry": 0, "trace_id": "apertus-B07-H-EVENT_QA"}
+{"event": "SUCCESS", "at": "2026-09-07T07:08:08.824790+00:00", "attempt": 136, "trace_id": "apertus-B07-H-EVENT_QA", "stop_reason": "eos", "output_token_n": 26}
+{"event": "START", "at": "2026-09-07T07:08:08.825042+00:00", "attempt": 137, "retry": 0, "trace_id": "apertus-B07-P-TRANSLATE"}
+{"event": "SUCCESS", "at": "2026-09-07T07:08:09.782332+00:00", "attempt": 137, "trace_id": "apertus-B07-P-TRANSLATE", "stop_reason": "eos", "output_token_n": 41}
+{"event": "START", "at": "2026-09-07T07:08:09.782498+00:00", "attempt": 138, "retry": 0, "trace_id": "apertus-B07-P-EVENT_QA"}
+{"event": "SUCCESS", "at": "2026-09-07T07:08:10.395324+00:00", "attempt": 138, "trace_id": "apertus-B07-P-EVENT_QA", "stop_reason": "eos", "output_token_n": 26}
+{"event": "START", "at": "2026-09-07T07:08:10.395573+00:00", "attempt": 139, "retry": 0, "trace_id": "apertus-B08-K-TRANSLATE"}
+{"event": "SUCCESS", "at": "2026-09-07T07:08:11.422012+00:00", "attempt": 139, "trace_id": "apertus-B08-K-TRANSLATE", "stop_reason": "eos", "output_token_n": 44}
+{"event": "START", "at": "2026-09-07T07:08:11.422169+00:00", "attempt": 140, "retry": 0, "trace_id": "apertus-B08-K-EVENT_QA"}
+{"event": "SUCCESS", "at": "2026-09-07T07:08:11.803435+00:00", "attempt": 140, "trace_id": "apertus-B08-K-EVENT_QA", "stop_reason": "eos", "output_token_n": 16}
+{"event": "START", "at": "2026-09-07T07:08:11.803656+00:00", "attempt": 141, "retry": 0, "trace_id": "apertus-B08-H-TRANSLATE"}
+{"event": "SUCCESS", "at": "2026-09-07T07:08:12.829586+00:00", "attempt": 141, "trace_id": "apertus-B08-H-TRANSLATE", "stop_reason": "eos", "output_token_n": 44}
+{"event": "START", "at": "2026-09-07T07:08:12.829739+00:00", "attempt": 142, "retry": 0, "trace_id": "apertus-B08-H-EVENT_QA"}
+{"event": "SUCCESS", "at": "2026-09-07T07:08:13.211541+00:00", "attempt": 142, "trace_id": "apertus-B08-H-EVENT_QA", "stop_reason": "eos", "output_token_n": 16}
+{"event": "START", "at": "2026-09-07T07:08:13.211799+00:00", "attempt": 143, "retry": 0, "trace_id": "apertus-B08-P-TRANSLATE"}
+{"event": "SUCCESS", "at": "2026-09-07T07:08:14.354374+00:00", "attempt": 143, "trace_id": "apertus-B08-P-TRANSLATE", "stop_reason": "eos", "output_token_n": 49}
+{"event": "START", "at": "2026-09-07T07:08:14.354542+00:00", "attempt": 144, "retry": 0, "trace_id": "apertus-B08-P-EVENT_QA"}
+{"event": "SUCCESS", "at": "2026-09-07T07:08:14.736647+00:00", "attempt": 144, "trace_id": "apertus-B08-P-EVENT_QA", "stop_reason": "eos", "output_token_n": 16}

@@ -1,0 +1,8 @@
+{
+  "at": "2026-09-07T07:04:46.235450+00:00",
+  "outputs": 48,
+  "attempts": 48,
+  "error_type": "AssertionError",
+  "error": "GPU0 not free",
+  "wall_seconds": 27.199674419127405
+}

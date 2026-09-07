@@ -1,0 +1,27 @@
+{
+  "experiment_id": "EXP-20260907-01",
+  "at_utc": "2026-09-07T07:30:42.253900+00:00",
+  "executor": "01a07a97-bec2-7e90-a881-336e7b3b9987",
+  "copies": {
+    "03-实验后总结.docx": {
+      "archive_file": "07-结果与评分口径说明-v3.docx",
+      "sha256": "f07fce95a766cbd48b0114a4effb3934cf086c5a166d27fcd47f77007482ca89"
+    },
+    "04-实验结果审核.xlsx": {
+      "archive_file": "08-完整结果与口径审核-v3.xlsx",
+      "sha256": "987d47bd33b790167c614492585f6a7e381bee54075e19db227dca2fc9f88809"
+    }
+  },
+  "main_artifact_check": {
+    "docx_pages_visually_inspected": 3,
+    "excel_first_sheet": "首审8条",
+    "first8_match_frozen_selection": true,
+    "full_rows": 144,
+    "native_trace_rows": 144,
+    "main_previous_direct_check": "All 144 raw/answer/rendered inputs/input tokens/output tokens/full decodes matched before final byte-hash verification",
+    "human_fields_blank": true
+  },
+  "output_human_review_complete": false,
+  "primary_endpoint_status": "HOLD: scoring implementation deviation; PI review pending",
+  "github_sync": "pending at delivery creation; see separate POSTRUN-SYNC-RECEIPT.json in user folder"
+}

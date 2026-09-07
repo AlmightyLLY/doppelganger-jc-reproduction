@@ -1,0 +1,1293 @@
+{
+  "experiment_id": "EXP-20260907-01",
+  "outputs": 144,
+  "attempts": 144,
+  "paid_usd": 0,
+  "primary_endpoint_status": "not finalized; AI v1 total labels contain scoring implementation deviation",
+  "original_definition": "C为目标事实正确，W为明确矛盾，U为不足以确定；遗漏与添加另列。",
+  "v1_deviation": "AI v1把纯遗漏及无依据具体添加并入总W；该较严格全文保真层不能冒充预注册主分。",
+  "secondary_counts": [
+    {
+      "scope": "ALL",
+      "task": "TRANSLATE",
+      "condition": "ALL",
+      "field": "lexical",
+      "n": 72,
+      "C": 72,
+      "W": 0,
+      "U": 0
+    },
+    {
+      "scope": "ALL",
+      "task": "TRANSLATE",
+      "condition": "ALL",
+      "field": "event",
+      "n": 72,
+      "C": 71,
+      "W": 0,
+      "U": 1
+    },
+    {
+      "scope": "ALL",
+      "task": "TRANSLATE",
+      "condition": "K",
+      "field": "lexical",
+      "n": 24,
+      "C": 24,
+      "W": 0,
+      "U": 0
+    },
+    {
+      "scope": "ALL",
+      "task": "TRANSLATE",
+      "condition": "K",
+      "field": "event",
+      "n": 24,
+      "C": 24,
+      "W": 0,
+      "U": 0
+    },
+    {
+      "scope": "ALL",
+      "task": "TRANSLATE",
+      "condition": "H",
+      "field": "lexical",
+      "n": 24,
+      "C": 24,
+      "W": 0,
+      "U": 0
+    },
+    {
+      "scope": "ALL",
+      "task": "TRANSLATE",
+      "condition": "H",
+      "field": "event",
+      "n": 24,
+      "C": 23,
+      "W": 0,
+      "U": 1
+    },
+    {
+      "scope": "ALL",
+      "task": "TRANSLATE",
+      "condition": "P",
+      "field": "lexical",
+      "n": 24,
+      "C": 24,
+      "W": 0,
+      "U": 0
+    },
+    {
+      "scope": "ALL",
+      "task": "TRANSLATE",
+      "condition": "P",
+      "field": "event",
+      "n": 24,
+      "C": 24,
+      "W": 0,
+      "U": 0
+    },
+    {
+      "scope": "ALL",
+      "task": "EVENT_QA",
+      "condition": "ALL",
+      "field": "lexical",
+      "n": 72,
+      "C": 71,
+      "W": 0,
+      "U": 1
+    },
+    {
+      "scope": "ALL",
+      "task": "EVENT_QA",
+      "condition": "ALL",
+      "field": "event",
+      "n": 72,
+      "C": 66,
+      "W": 6,
+      "U": 0
+    },
+    {
+      "scope": "ALL",
+      "task": "EVENT_QA",
+      "condition": "K",
+      "field": "lexical",
+      "n": 24,
+      "C": 24,
+      "W": 0,
+      "U": 0
+    },
+    {
+      "scope": "ALL",
+      "task": "EVENT_QA",
+      "condition": "K",
+      "field": "event",
+      "n": 24,
+      "C": 22,
+      "W": 2,
+      "U": 0
+    },
+    {
+      "scope": "ALL",
+      "task": "EVENT_QA",
+      "condition": "H",
+      "field": "lexical",
+      "n": 24,
+      "C": 24,
+      "W": 0,
+      "U": 0
+    },
+    {
+      "scope": "ALL",
+      "task": "EVENT_QA",
+      "condition": "H",
+      "field": "event",
+      "n": 24,
+      "C": 22,
+      "W": 2,
+      "U": 0
+    },
+    {
+      "scope": "ALL",
+      "task": "EVENT_QA",
+      "condition": "P",
+      "field": "lexical",
+      "n": 24,
+      "C": 23,
+      "W": 0,
+      "U": 1
+    },
+    {
+      "scope": "ALL",
+      "task": "EVENT_QA",
+      "condition": "P",
+      "field": "event",
+      "n": 24,
+      "C": 22,
+      "W": 2,
+      "U": 0
+    },
+    {
+      "scope": "qwen",
+      "task": "TRANSLATE",
+      "condition": "ALL",
+      "field": "lexical",
+      "n": 24,
+      "C": 24,
+      "W": 0,
+      "U": 0
+    },
+    {
+      "scope": "qwen",
+      "task": "TRANSLATE",
+      "condition": "ALL",
+      "field": "event",
+      "n": 24,
+      "C": 24,
+      "W": 0,
+      "U": 0
+    },
+    {
+      "scope": "qwen",
+      "task": "TRANSLATE",
+      "condition": "K",
+      "field": "lexical",
+      "n": 8,
+      "C": 8,
+      "W": 0,
+      "U": 0
+    },
+    {
+      "scope": "qwen",
+      "task": "TRANSLATE",
+      "condition": "K",
+      "field": "event",
+      "n": 8,
+      "C": 8,
+      "W": 0,
+      "U": 0
+    },
+    {
+      "scope": "qwen",
+      "task": "TRANSLATE",
+      "condition": "H",
+      "field": "lexical",
+      "n": 8,
+      "C": 8,
+      "W": 0,
+      "U": 0
+    },
+    {
+      "scope": "qwen",
+      "task": "TRANSLATE",
+      "condition": "H",
+      "field": "event",
+      "n": 8,
+      "C": 8,
+      "W": 0,
+      "U": 0
+    },
+    {
+      "scope": "qwen",
+      "task": "TRANSLATE",
+      "condition": "P",
+      "field": "lexical",
+      "n": 8,
+      "C": 8,
+      "W": 0,
+      "U": 0
+    },
+    {
+      "scope": "qwen",
+      "task": "TRANSLATE",
+      "condition": "P",
+      "field": "event",
+      "n": 8,
+      "C": 8,
+      "W": 0,
+      "U": 0
+    },
+    {
+      "scope": "qwen",
+      "task": "EVENT_QA",
+      "condition": "ALL",
+      "field": "lexical",
+      "n": 24,
+      "C": 23,
+      "W": 0,
+      "U": 1
+    },
+    {
+      "scope": "qwen",
+      "task": "EVENT_QA",
+      "condition": "ALL",
+      "field": "event",
+      "n": 24,
+      "C": 24,
+      "W": 0,
+      "U": 0
+    },
+    {
+      "scope": "qwen",
+      "task": "EVENT_QA",
+      "condition": "K",
+      "field": "lexical",
+      "n": 8,
+      "C": 8,
+      "W": 0,
+      "U": 0
+    },
+    {
+      "scope": "qwen",
+      "task": "EVENT_QA",
+      "condition": "K",
+      "field": "event",
+      "n": 8,
+      "C": 8,
+      "W": 0,
+      "U": 0
+    },
+    {
+      "scope": "qwen",
+      "task": "EVENT_QA",
+      "condition": "H",
+      "field": "lexical",
+      "n": 8,
+      "C": 8,
+      "W": 0,
+      "U": 0
+    },
+    {
+      "scope": "qwen",
+      "task": "EVENT_QA",
+      "condition": "H",
+      "field": "event",
+      "n": 8,
+      "C": 8,
+      "W": 0,
+      "U": 0
+    },
+    {
+      "scope": "qwen",
+      "task": "EVENT_QA",
+      "condition": "P",
+      "field": "lexical",
+      "n": 8,
+      "C": 7,
+      "W": 0,
+      "U": 1
+    },
+    {
+      "scope": "qwen",
+      "task": "EVENT_QA",
+      "condition": "P",
+      "field": "event",
+      "n": 8,
+      "C": 8,
+      "W": 0,
+      "U": 0
+    },
+    {
+      "scope": "llmjp",
+      "task": "TRANSLATE",
+      "condition": "ALL",
+      "field": "lexical",
+      "n": 24,
+      "C": 24,
+      "W": 0,
+      "U": 0
+    },
+    {
+      "scope": "llmjp",
+      "task": "TRANSLATE",
+      "condition": "ALL",
+      "field": "event",
+      "n": 24,
+      "C": 24,
+      "W": 0,
+      "U": 0
+    },
+    {
+      "scope": "llmjp",
+      "task": "TRANSLATE",
+      "condition": "K",
+      "field": "lexical",
+      "n": 8,
+      "C": 8,
+      "W": 0,
+      "U": 0
+    },
+    {
+      "scope": "llmjp",
+      "task": "TRANSLATE",
+      "condition": "K",
+      "field": "event",
+      "n": 8,
+      "C": 8,
+      "W": 0,
+      "U": 0
+    },
+    {
+      "scope": "llmjp",
+      "task": "TRANSLATE",
+      "condition": "H",
+      "field": "lexical",
+      "n": 8,
+      "C": 8,
+      "W": 0,
+      "U": 0
+    },
+    {
+      "scope": "llmjp",
+      "task": "TRANSLATE",
+      "condition": "H",
+      "field": "event",
+      "n": 8,
+      "C": 8,
+      "W": 0,
+      "U": 0
+    },
+    {
+      "scope": "llmjp",
+      "task": "TRANSLATE",
+      "condition": "P",
+      "field": "lexical",
+      "n": 8,
+      "C": 8,
+      "W": 0,
+      "U": 0
+    },
+    {
+      "scope": "llmjp",
+      "task": "TRANSLATE",
+      "condition": "P",
+      "field": "event",
+      "n": 8,
+      "C": 8,
+      "W": 0,
+      "U": 0
+    },
+    {
+      "scope": "llmjp",
+      "task": "EVENT_QA",
+      "condition": "ALL",
+      "field": "lexical",
+      "n": 24,
+      "C": 24,
+      "W": 0,
+      "U": 0
+    },
+    {
+      "scope": "llmjp",
+      "task": "EVENT_QA",
+      "condition": "ALL",
+      "field": "event",
+      "n": 24,
+      "C": 24,
+      "W": 0,
+      "U": 0
+    },
+    {
+      "scope": "llmjp",
+      "task": "EVENT_QA",
+      "condition": "K",
+      "field": "lexical",
+      "n": 8,
+      "C": 8,
+      "W": 0,
+      "U": 0
+    },
+    {
+      "scope": "llmjp",
+      "task": "EVENT_QA",
+      "condition": "K",
+      "field": "event",
+      "n": 8,
+      "C": 8,
+      "W": 0,
+      "U": 0
+    },
+    {
+      "scope": "llmjp",
+      "task": "EVENT_QA",
+      "condition": "H",
+      "field": "lexical",
+      "n": 8,
+      "C": 8,
+      "W": 0,
+      "U": 0
+    },
+    {
+      "scope": "llmjp",
+      "task": "EVENT_QA",
+      "condition": "H",
+      "field": "event",
+      "n": 8,
+      "C": 8,
+      "W": 0,
+      "U": 0
+    },
+    {
+      "scope": "llmjp",
+      "task": "EVENT_QA",
+      "condition": "P",
+      "field": "lexical",
+      "n": 8,
+      "C": 8,
+      "W": 0,
+      "U": 0
+    },
+    {
+      "scope": "llmjp",
+      "task": "EVENT_QA",
+      "condition": "P",
+      "field": "event",
+      "n": 8,
+      "C": 8,
+      "W": 0,
+      "U": 0
+    },
+    {
+      "scope": "apertus",
+      "task": "TRANSLATE",
+      "condition": "ALL",
+      "field": "lexical",
+      "n": 24,
+      "C": 24,
+      "W": 0,
+      "U": 0
+    },
+    {
+      "scope": "apertus",
+      "task": "TRANSLATE",
+      "condition": "ALL",
+      "field": "event",
+      "n": 24,
+      "C": 23,
+      "W": 0,
+      "U": 1
+    },
+    {
+      "scope": "apertus",
+      "task": "TRANSLATE",
+      "condition": "K",
+      "field": "lexical",
+      "n": 8,
+      "C": 8,
+      "W": 0,
+      "U": 0
+    },
+    {
+      "scope": "apertus",
+      "task": "TRANSLATE",
+      "condition": "K",
+      "field": "event",
+      "n": 8,
+      "C": 8,
+      "W": 0,
+      "U": 0
+    },
+    {
+      "scope": "apertus",
+      "task": "TRANSLATE",
+      "condition": "H",
+      "field": "lexical",
+      "n": 8,
+      "C": 8,
+      "W": 0,
+      "U": 0
+    },
+    {
+      "scope": "apertus",
+      "task": "TRANSLATE",
+      "condition": "H",
+      "field": "event",
+      "n": 8,
+      "C": 7,
+      "W": 0,
+      "U": 1
+    },
+    {
+      "scope": "apertus",
+      "task": "TRANSLATE",
+      "condition": "P",
+      "field": "lexical",
+      "n": 8,
+      "C": 8,
+      "W": 0,
+      "U": 0
+    },
+    {
+      "scope": "apertus",
+      "task": "TRANSLATE",
+      "condition": "P",
+      "field": "event",
+      "n": 8,
+      "C": 8,
+      "W": 0,
+      "U": 0
+    },
+    {
+      "scope": "apertus",
+      "task": "EVENT_QA",
+      "condition": "ALL",
+      "field": "lexical",
+      "n": 24,
+      "C": 24,
+      "W": 0,
+      "U": 0
+    },
+    {
+      "scope": "apertus",
+      "task": "EVENT_QA",
+      "condition": "ALL",
+      "field": "event",
+      "n": 24,
+      "C": 18,
+      "W": 6,
+      "U": 0
+    },
+    {
+      "scope": "apertus",
+      "task": "EVENT_QA",
+      "condition": "K",
+      "field": "lexical",
+      "n": 8,
+      "C": 8,
+      "W": 0,
+      "U": 0
+    },
+    {
+      "scope": "apertus",
+      "task": "EVENT_QA",
+      "condition": "K",
+      "field": "event",
+      "n": 8,
+      "C": 6,
+      "W": 2,
+      "U": 0
+    },
+    {
+      "scope": "apertus",
+      "task": "EVENT_QA",
+      "condition": "H",
+      "field": "lexical",
+      "n": 8,
+      "C": 8,
+      "W": 0,
+      "U": 0
+    },
+    {
+      "scope": "apertus",
+      "task": "EVENT_QA",
+      "condition": "H",
+      "field": "event",
+      "n": 8,
+      "C": 6,
+      "W": 2,
+      "U": 0
+    },
+    {
+      "scope": "apertus",
+      "task": "EVENT_QA",
+      "condition": "P",
+      "field": "lexical",
+      "n": 8,
+      "C": 8,
+      "W": 0,
+      "U": 0
+    },
+    {
+      "scope": "apertus",
+      "task": "EVENT_QA",
+      "condition": "P",
+      "field": "event",
+      "n": 8,
+      "C": 6,
+      "W": 2,
+      "U": 0
+    },
+    {
+      "scope": "F01",
+      "task": "TRANSLATE",
+      "condition": "ALL",
+      "field": "lexical",
+      "n": 18,
+      "C": 18,
+      "W": 0,
+      "U": 0
+    },
+    {
+      "scope": "F01",
+      "task": "TRANSLATE",
+      "condition": "ALL",
+      "field": "event",
+      "n": 18,
+      "C": 18,
+      "W": 0,
+      "U": 0
+    },
+    {
+      "scope": "F01",
+      "task": "TRANSLATE",
+      "condition": "K",
+      "field": "lexical",
+      "n": 6,
+      "C": 6,
+      "W": 0,
+      "U": 0
+    },
+    {
+      "scope": "F01",
+      "task": "TRANSLATE",
+      "condition": "K",
+      "field": "event",
+      "n": 6,
+      "C": 6,
+      "W": 0,
+      "U": 0
+    },
+    {
+      "scope": "F01",
+      "task": "TRANSLATE",
+      "condition": "H",
+      "field": "lexical",
+      "n": 6,
+      "C": 6,
+      "W": 0,
+      "U": 0
+    },
+    {
+      "scope": "F01",
+      "task": "TRANSLATE",
+      "condition": "H",
+      "field": "event",
+      "n": 6,
+      "C": 6,
+      "W": 0,
+      "U": 0
+    },
+    {
+      "scope": "F01",
+      "task": "TRANSLATE",
+      "condition": "P",
+      "field": "lexical",
+      "n": 6,
+      "C": 6,
+      "W": 0,
+      "U": 0
+    },
+    {
+      "scope": "F01",
+      "task": "TRANSLATE",
+      "condition": "P",
+      "field": "event",
+      "n": 6,
+      "C": 6,
+      "W": 0,
+      "U": 0
+    },
+    {
+      "scope": "F01",
+      "task": "EVENT_QA",
+      "condition": "ALL",
+      "field": "lexical",
+      "n": 18,
+      "C": 17,
+      "W": 0,
+      "U": 1
+    },
+    {
+      "scope": "F01",
+      "task": "EVENT_QA",
+      "condition": "ALL",
+      "field": "event",
+      "n": 18,
+      "C": 18,
+      "W": 0,
+      "U": 0
+    },
+    {
+      "scope": "F01",
+      "task": "EVENT_QA",
+      "condition": "K",
+      "field": "lexical",
+      "n": 6,
+      "C": 6,
+      "W": 0,
+      "U": 0
+    },
+    {
+      "scope": "F01",
+      "task": "EVENT_QA",
+      "condition": "K",
+      "field": "event",
+      "n": 6,
+      "C": 6,
+      "W": 0,
+      "U": 0
+    },
+    {
+      "scope": "F01",
+      "task": "EVENT_QA",
+      "condition": "H",
+      "field": "lexical",
+      "n": 6,
+      "C": 6,
+      "W": 0,
+      "U": 0
+    },
+    {
+      "scope": "F01",
+      "task": "EVENT_QA",
+      "condition": "H",
+      "field": "event",
+      "n": 6,
+      "C": 6,
+      "W": 0,
+      "U": 0
+    },
+    {
+      "scope": "F01",
+      "task": "EVENT_QA",
+      "condition": "P",
+      "field": "lexical",
+      "n": 6,
+      "C": 5,
+      "W": 0,
+      "U": 1
+    },
+    {
+      "scope": "F01",
+      "task": "EVENT_QA",
+      "condition": "P",
+      "field": "event",
+      "n": 6,
+      "C": 6,
+      "W": 0,
+      "U": 0
+    },
+    {
+      "scope": "F02",
+      "task": "TRANSLATE",
+      "condition": "ALL",
+      "field": "lexical",
+      "n": 18,
+      "C": 18,
+      "W": 0,
+      "U": 0
+    },
+    {
+      "scope": "F02",
+      "task": "TRANSLATE",
+      "condition": "ALL",
+      "field": "event",
+      "n": 18,
+      "C": 17,
+      "W": 0,
+      "U": 1
+    },
+    {
+      "scope": "F02",
+      "task": "TRANSLATE",
+      "condition": "K",
+      "field": "lexical",
+      "n": 6,
+      "C": 6,
+      "W": 0,
+      "U": 0
+    },
+    {
+      "scope": "F02",
+      "task": "TRANSLATE",
+      "condition": "K",
+      "field": "event",
+      "n": 6,
+      "C": 6,
+      "W": 0,
+      "U": 0
+    },
+    {
+      "scope": "F02",
+      "task": "TRANSLATE",
+      "condition": "H",
+      "field": "lexical",
+      "n": 6,
+      "C": 6,
+      "W": 0,
+      "U": 0
+    },
+    {
+      "scope": "F02",
+      "task": "TRANSLATE",
+      "condition": "H",
+      "field": "event",
+      "n": 6,
+      "C": 5,
+      "W": 0,
+      "U": 1
+    },
+    {
+      "scope": "F02",
+      "task": "TRANSLATE",
+      "condition": "P",
+      "field": "lexical",
+      "n": 6,
+      "C": 6,
+      "W": 0,
+      "U": 0
+    },
+    {
+      "scope": "F02",
+      "task": "TRANSLATE",
+      "condition": "P",
+      "field": "event",
+      "n": 6,
+      "C": 6,
+      "W": 0,
+      "U": 0
+    },
+    {
+      "scope": "F02",
+      "task": "EVENT_QA",
+      "condition": "ALL",
+      "field": "lexical",
+      "n": 18,
+      "C": 18,
+      "W": 0,
+      "U": 0
+    },
+    {
+      "scope": "F02",
+      "task": "EVENT_QA",
+      "condition": "ALL",
+      "field": "event",
+      "n": 18,
+      "C": 18,
+      "W": 0,
+      "U": 0
+    },
+    {
+      "scope": "F02",
+      "task": "EVENT_QA",
+      "condition": "K",
+      "field": "lexical",
+      "n": 6,
+      "C": 6,
+      "W": 0,
+      "U": 0
+    },
+    {
+      "scope": "F02",
+      "task": "EVENT_QA",
+      "condition": "K",
+      "field": "event",
+      "n": 6,
+      "C": 6,
+      "W": 0,
+      "U": 0
+    },
+    {
+      "scope": "F02",
+      "task": "EVENT_QA",
+      "condition": "H",
+      "field": "lexical",
+      "n": 6,
+      "C": 6,
+      "W": 0,
+      "U": 0
+    },
+    {
+      "scope": "F02",
+      "task": "EVENT_QA",
+      "condition": "H",
+      "field": "event",
+      "n": 6,
+      "C": 6,
+      "W": 0,
+      "U": 0
+    },
+    {
+      "scope": "F02",
+      "task": "EVENT_QA",
+      "condition": "P",
+      "field": "lexical",
+      "n": 6,
+      "C": 6,
+      "W": 0,
+      "U": 0
+    },
+    {
+      "scope": "F02",
+      "task": "EVENT_QA",
+      "condition": "P",
+      "field": "event",
+      "n": 6,
+      "C": 6,
+      "W": 0,
+      "U": 0
+    },
+    {
+      "scope": "F03",
+      "task": "TRANSLATE",
+      "condition": "ALL",
+      "field": "lexical",
+      "n": 18,
+      "C": 18,
+      "W": 0,
+      "U": 0
+    },
+    {
+      "scope": "F03",
+      "task": "TRANSLATE",
+      "condition": "ALL",
+      "field": "event",
+      "n": 18,
+      "C": 18,
+      "W": 0,
+      "U": 0
+    },
+    {
+      "scope": "F03",
+      "task": "TRANSLATE",
+      "condition": "K",
+      "field": "lexical",
+      "n": 6,
+      "C": 6,
+      "W": 0,
+      "U": 0
+    },
+    {
+      "scope": "F03",
+      "task": "TRANSLATE",
+      "condition": "K",
+      "field": "event",
+      "n": 6,
+      "C": 6,
+      "W": 0,
+      "U": 0
+    },
+    {
+      "scope": "F03",
+      "task": "TRANSLATE",
+      "condition": "H",
+      "field": "lexical",
+      "n": 6,
+      "C": 6,
+      "W": 0,
+      "U": 0
+    },
+    {
+      "scope": "F03",
+      "task": "TRANSLATE",
+      "condition": "H",
+      "field": "event",
+      "n": 6,
+      "C": 6,
+      "W": 0,
+      "U": 0
+    },
+    {
+      "scope": "F03",
+      "task": "TRANSLATE",
+      "condition": "P",
+      "field": "lexical",
+      "n": 6,
+      "C": 6,
+      "W": 0,
+      "U": 0
+    },
+    {
+      "scope": "F03",
+      "task": "TRANSLATE",
+      "condition": "P",
+      "field": "event",
+      "n": 6,
+      "C": 6,
+      "W": 0,
+      "U": 0
+    },
+    {
+      "scope": "F03",
+      "task": "EVENT_QA",
+      "condition": "ALL",
+      "field": "lexical",
+      "n": 18,
+      "C": 18,
+      "W": 0,
+      "U": 0
+    },
+    {
+      "scope": "F03",
+      "task": "EVENT_QA",
+      "condition": "ALL",
+      "field": "event",
+      "n": 18,
+      "C": 12,
+      "W": 6,
+      "U": 0
+    },
+    {
+      "scope": "F03",
+      "task": "EVENT_QA",
+      "condition": "K",
+      "field": "lexical",
+      "n": 6,
+      "C": 6,
+      "W": 0,
+      "U": 0
+    },
+    {
+      "scope": "F03",
+      "task": "EVENT_QA",
+      "condition": "K",
+      "field": "event",
+      "n": 6,
+      "C": 4,
+      "W": 2,
+      "U": 0
+    },
+    {
+      "scope": "F03",
+      "task": "EVENT_QA",
+      "condition": "H",
+      "field": "lexical",
+      "n": 6,
+      "C": 6,
+      "W": 0,
+      "U": 0
+    },
+    {
+      "scope": "F03",
+      "task": "EVENT_QA",
+      "condition": "H",
+      "field": "event",
+      "n": 6,
+      "C": 4,
+      "W": 2,
+      "U": 0
+    },
+    {
+      "scope": "F03",
+      "task": "EVENT_QA",
+      "condition": "P",
+      "field": "lexical",
+      "n": 6,
+      "C": 6,
+      "W": 0,
+      "U": 0
+    },
+    {
+      "scope": "F03",
+      "task": "EVENT_QA",
+      "condition": "P",
+      "field": "event",
+      "n": 6,
+      "C": 4,
+      "W": 2,
+      "U": 0
+    },
+    {
+      "scope": "F04",
+      "task": "TRANSLATE",
+      "condition": "ALL",
+      "field": "lexical",
+      "n": 18,
+      "C": 18,
+      "W": 0,
+      "U": 0
+    },
+    {
+      "scope": "F04",
+      "task": "TRANSLATE",
+      "condition": "ALL",
+      "field": "event",
+      "n": 18,
+      "C": 18,
+      "W": 0,
+      "U": 0
+    },
+    {
+      "scope": "F04",
+      "task": "TRANSLATE",
+      "condition": "K",
+      "field": "lexical",
+      "n": 6,
+      "C": 6,
+      "W": 0,
+      "U": 0
+    },
+    {
+      "scope": "F04",
+      "task": "TRANSLATE",
+      "condition": "K",
+      "field": "event",
+      "n": 6,
+      "C": 6,
+      "W": 0,
+      "U": 0
+    },
+    {
+      "scope": "F04",
+      "task": "TRANSLATE",
+      "condition": "H",
+      "field": "lexical",
+      "n": 6,
+      "C": 6,
+      "W": 0,
+      "U": 0
+    },
+    {
+      "scope": "F04",
+      "task": "TRANSLATE",
+      "condition": "H",
+      "field": "event",
+      "n": 6,
+      "C": 6,
+      "W": 0,
+      "U": 0
+    },
+    {
+      "scope": "F04",
+      "task": "TRANSLATE",
+      "condition": "P",
+      "field": "lexical",
+      "n": 6,
+      "C": 6,
+      "W": 0,
+      "U": 0
+    },
+    {
+      "scope": "F04",
+      "task": "TRANSLATE",
+      "condition": "P",
+      "field": "event",
+      "n": 6,
+      "C": 6,
+      "W": 0,
+      "U": 0
+    },
+    {
+      "scope": "F04",
+      "task": "EVENT_QA",
+      "condition": "ALL",
+      "field": "lexical",
+      "n": 18,
+      "C": 18,
+      "W": 0,
+      "U": 0
+    },
+    {
+      "scope": "F04",
+      "task": "EVENT_QA",
+      "condition": "ALL",
+      "field": "event",
+      "n": 18,
+      "C": 18,
+      "W": 0,
+      "U": 0
+    },
+    {
+      "scope": "F04",
+      "task": "EVENT_QA",
+      "condition": "K",
+      "field": "lexical",
+      "n": 6,
+      "C": 6,
+      "W": 0,
+      "U": 0
+    },
+    {
+      "scope": "F04",
+      "task": "EVENT_QA",
+      "condition": "K",
+      "field": "event",
+      "n": 6,
+      "C": 6,
+      "W": 0,
+      "U": 0
+    },
+    {
+      "scope": "F04",
+      "task": "EVENT_QA",
+      "condition": "H",
+      "field": "lexical",
+      "n": 6,
+      "C": 6,
+      "W": 0,
+      "U": 0
+    },
+    {
+      "scope": "F04",
+      "task": "EVENT_QA",
+      "condition": "H",
+      "field": "event",
+      "n": 6,
+      "C": 6,
+      "W": 0,
+      "U": 0
+    },
+    {
+      "scope": "F04",
+      "task": "EVENT_QA",
+      "condition": "P",
+      "field": "lexical",
+      "n": 6,
+      "C": 6,
+      "W": 0,
+      "U": 0
+    },
+    {
+      "scope": "F04",
+      "task": "EVENT_QA",
+      "condition": "P",
+      "field": "event",
+      "n": 6,
+      "C": 6,
+      "W": 0,
+      "U": 0
+    }
+  ],
+  "independent_gold": 0,
+  "pi_review_complete": false
+}

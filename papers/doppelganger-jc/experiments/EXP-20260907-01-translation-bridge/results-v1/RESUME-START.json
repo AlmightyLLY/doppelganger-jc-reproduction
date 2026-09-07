@@ -1,0 +1,8 @@
+{
+  "at": "2026-09-07T07:07:02.476437+00:00",
+  "pid": 3953696,
+  "max_wall_minutes": 60,
+  "original_elapsed_seconds": 163.440491,
+  "skip_completed_outputs": 48,
+  "reason": "Resource gate counted own retained CUDA context as foreign use; allow current pid only, retain free-memory gate"
+}
