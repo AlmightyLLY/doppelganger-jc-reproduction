@@ -1,0 +1,43 @@
+{
+  "experiment_id": "EXP-20260907-01",
+  "version": "reviewed-v1",
+  "created_at_utc": "2026-09-07T06:32:26.481354+00:00",
+  "status": "ready for runtime preflight",
+  "files": [
+    {
+      "path": "01-今日实验预注册.docx",
+      "sha256": "4fb3fc7b0157787a6612bc1a378fbba7bbaf6f0e50b0f8888fdf4e48aeb4ce83",
+      "bytes": 3981548
+    },
+    {
+      "path": "02-事前数据审核8组.xlsx",
+      "sha256": "a9ac49f95e67934325a204dd834b9e1e8c7efb1dc1eda28a4ab48b1baaeac0a7",
+      "bytes": 19419
+    },
+    {
+      "path": "FROZEN-RUN-SPEC.json",
+      "sha256": "47a4f6440a4e98c623fb2ee5af21563c8d0d8b9ee0309cb4bf6d8c2191291074",
+      "bytes": 9232
+    },
+    {
+      "path": "MATERIALS.json",
+      "sha256": "4e7bf81911310dee2f2a055003d10f7cacb03c7a89044e93ba322f918ef58266",
+      "bytes": 13838
+    },
+    {
+      "path": "PROMPTS.json",
+      "sha256": "1e5b65d54106f4dff49c406a93574285f3f7772599be98996c6d6558e38e8af6",
+      "bytes": 30021
+    },
+    {
+      "path": "REVIEW-NOTES.zh-CN.md",
+      "sha256": "01e220e667b0c68799e054faad4183e583f529303961c0dba93ae756e0f7376c",
+      "bytes": 3959
+    },
+    {
+      "path": "REVIEW-RECEIPT.json",
+      "sha256": "dab0e30536341cea0bf53406b6cc891fd6334b88b2b4c5d317567965beee4cd8",
+      "bytes": 5249
+    }
+  ]
+}

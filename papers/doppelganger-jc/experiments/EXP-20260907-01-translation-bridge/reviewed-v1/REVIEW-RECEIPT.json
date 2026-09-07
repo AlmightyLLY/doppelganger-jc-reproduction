@@ -1,0 +1,151 @@
+{
+  "experiment_id": "EXP-20260907-01",
+  "version": "reviewed-v1",
+  "recorded_at_utc": "2026-09-07T06:32:26.481354+00:00",
+  "main_thread_id": "01a077f5-873a-7972-9826-27050be3e0ba",
+  "user_statement_verbatim": "我都已经审核并填写好了，你看一下",
+  "terminology_question": "你在 Word 预测中写的“同源词／非同源词”，是指本批的“日中语境同义／异义”，还是指词汇的历史来源关系？这会影响我们如何检验你的预测。",
+  "terminology_reply_verbatim": "同源词是指字形和意思都相同，实际上和历史来源未必相关",
+  "raw_word_changes": [
+    {
+      "paragraph_index_zero_based": 11,
+      "draft": "我更预期哪种情况，为什么（可以写不知道）：________________________________",
+      "user": "我更预期哪种情况，为什么（可以写不知道）：_K 和 H在不同的词和不同的模型上表现可能会有差别，具体表现为，如果是同源词，可能K会好一些，如果是非同源词，H会好一些，但是整体上来看应该是K会更好。P暂时不清楚_______________________________"
+    },
+    {
+      "paragraph_index_zero_based": 12,
+      "draft": "什么结果最会改变我的看法：________________________________________________",
+      "user": "什么结果最会改变我的看法：__如果说H明显比K要好，那么我的看法可能会改变，因为先前的实验结果给我的感觉是，汉字表示会对模型的翻译起到影响，但是整体而言是正向居多______________________________________________"
+    }
+  ],
+  "raw_excel_changes": [
+    {
+      "sheet": "先审8组",
+      "cell": "B14",
+      "draft": null,
+      "user": "信，信息 已经寄给妹妹"
+    },
+    {
+      "sheet": "先审8组",
+      "cell": "B15",
+      "draft": null,
+      "user": "信件和信息是否等价?"
+    },
+    {
+      "sheet": "先审8组",
+      "cell": "B23",
+      "draft": null,
+      "user": "信，信息 没有寄给妹妹"
+    },
+    {
+      "sheet": "先审8组",
+      "cell": "B24",
+      "draft": null,
+      "user": "信件和信息是否等价?"
+    },
+    {
+      "sheet": "先审8组",
+      "cell": "B32",
+      "draft": null,
+      "user": "在桌前学习数学  是自愿"
+    },
+    {
+      "sheet": "先审8组",
+      "cell": "B33",
+      "draft": null,
+      "user": "没有"
+    },
+    {
+      "sheet": "先审8组",
+      "cell": "B41",
+      "draft": null,
+      "user": "本打算学数学， 因为发烧没做"
+    },
+    {
+      "sheet": "先审8组",
+      "cell": "B42",
+      "draft": null,
+      "user": "无"
+    },
+    {
+      "sheet": "先审8组",
+      "cell": "B50",
+      "draft": null,
+      "user": "决定让 还没来上班"
+    },
+    {
+      "sheet": "先审8组",
+      "cell": "B51",
+      "draft": null,
+      "user": "无"
+    },
+    {
+      "sheet": "先审8组",
+      "cell": "B59",
+      "draft": null,
+      "user": "没有 没有开始上班"
+    },
+    {
+      "sheet": "先审8组",
+      "cell": "B60",
+      "draft": null,
+      "user": "无"
+    },
+    {
+      "sheet": "先审8组",
+      "cell": "B68",
+      "draft": null,
+      "user": "定好了 还没付"
+    },
+    {
+      "sheet": "先审8组",
+      "cell": "B69",
+      "draft": null,
+      "user": "无"
+    },
+    {
+      "sheet": "先审8组",
+      "cell": "B77",
+      "draft": null,
+      "user": "没有 没有"
+    },
+    {
+      "sheet": "先审8组",
+      "cell": "B78",
+      "draft": null,
+      "user": "无"
+    }
+  ],
+  "word_sha256": "4fb3fc7b0157787a6612bc1a378fbba7bbaf6f0e50b0f8888fdf4e48aeb4ce83",
+  "excel_sha256": "a9ac49f95e67934325a204dd834b9e1e8c7efb1dc1eda28a4ab48b1baaeac0a7",
+  "reviewed_base_ids": [
+    "B01",
+    "B02",
+    "B03",
+    "B04",
+    "B05",
+    "B06",
+    "B07",
+    "B08"
+  ],
+  "review_evidence": "User stated all reviewed; Word has two personal predictions; Excel has substantive interpretations and comments for every one of eight displayed base groups. Free-text entries are preserved, not replaced with synthetic dropdown passes.",
+  "input_review_complete": true,
+  "mandatory_user_prediction_present": true,
+  "only_human_content_fields_changed": true,
+  "all_input_variants_questions_and_full_prompts_unchanged": true,
+  "source_word_and_excel_preserved_byte_for_byte": true,
+  "assistant_assessment": "Eight event interpretations align with the proposed semantic references. B01/B02 ask whether letter and information are equivalent; assistant addresses this using full context and existing C/W/U semantics, without editing material or user comments.",
+  "reference_status": "AI proposed references with PI input walkthrough; not independent human gold. Per-item historical null fields remain unchanged; this separate receipt records actual review evidence.",
+  "semantic_material_changes": false,
+  "grading_endpoint_changes": false,
+  "supersedes_status_only": [
+    "../REVIEW-STATUS.json",
+    "../PROTOCOL-DRAFT.json",
+    "stale waiting labels inside the user-preserved Word form"
+  ],
+  "runtime_preflight_complete": false,
+  "generation_started": false,
+  "output_human_review_complete": false,
+  "archive_complete": true,
+  "github_sync": "pending; separate sync receipt required"
+}

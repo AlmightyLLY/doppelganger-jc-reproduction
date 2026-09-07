@@ -10,11 +10,13 @@
 
 主窗口 GPT-6 Astra xhigh Standard 负责规划讨论；每项实验运行创建或复用独立执行任务，GPT-6 Astra 默认 medium，复杂时 high，通常低于 xhigh。派工附协议、输入过目证据、范围与交付；主窗口核验实际产物，执行窗口不能自行改变科学方向。
 
+用户最新明确要求实验直接在现有项目开普通 local 新任务，**不要创建或使用 worktree**；当前批使用 Astra medium Standard。遵守科研工作原则 v1.4。EXP-20260907-01 先前排队的 worktree 创建请求不再有实验执行权限，即使稍后创建成功也不得运行；该包 CURRENT-STATUS.json 指定的 local 任务才是唯一执行者。
+
 2026-09-07 用户在知悉现有 GitHub 仓库为公开目的地、此次准则/接续记录/空白模板的具体内容后，明确授权 Main Thread 9.7 直接上传。本窗口相关研究归档同步不再逐次询问上传许可，沿用既有研究分支与资料边界；此权限不替代实验前输入过目。授权原文见科研工作原则第 10 节。
 
 2026-09-07 用户已决定：同形词行为与内部机制、证据使用与诊断干预两线并行，争取基于共同材料和预测整合。先读 [最新方向决定](docs/research-direction-2026-09-07-two-track.zh-CN.md)，保留用户原话，区分已采纳方向与助手的操作化/退出条件建议。此前“支线仅辅助”只是历史建议，不再作为当前限制；方向决定不等于实验输入已过目。
 
-用户随后采纳方向分析并要求简短预注册及约8条事前审核。当前首批包为 [EXP-20260907-01](papers/doppelganger-jc/experiments/EXP-20260907-01-translation-bridge/README.zh-CN.md)，已生成一页Word和含实际输入的Excel，拟144输出；仍待本人预测与实际过目，协议草稿明确不可执行。恢复时先核对该包最新审核状态，不把文件存在当验收完成。
+用户随后采纳方向分析并要求简短预注册及约8条事前审核。当前首批包为 [EXP-20260907-01 reviewed-v1](papers/doppelganger-jc/experiments/EXP-20260907-01-translation-bridge/reviewed-v1/REVIEW-NOTES.zh-CN.md)：用户已填写 Word 两项预测、Excel 全部8组语义理解，并在聊天确认审核完成；实际输入与48条提示未变。用户澄清“同源词”指同形同义，不涉及历史词源。用户文件按原字节归档，当前科学状态为可进入运行环境检查；仅使用 reviewed-v1/FROZEN-RUN-SPEC.json，旧草稿仍不可执行。用户再次指定单独执行任务用 Astra medium Standard，共144预定输出；生成须先通过原定运行前检查。运行及交付最新状态另见该包 CURRENT-STATUS.json；事前审核不等于输出已审核。
 
 2026-09-05 用户已采纳：十月为阶段性尝试，一月为正式目标；将 Astra Ultra 审核的科学要求贯彻到后续工作。历史与持续计划为 `docs/research-plan-2026-09-05.zh-CN.md`，以上最新方向优先。
 

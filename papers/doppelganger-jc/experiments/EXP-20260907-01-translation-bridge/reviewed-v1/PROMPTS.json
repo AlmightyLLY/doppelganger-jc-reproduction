@@ -1,0 +1,674 @@
+[
+  {
+    "prompt_id": "B01-K-TRANSLATE",
+    "base_id": "B01",
+    "family_id": "F01",
+    "condition": "K",
+    "task": "TRANSLATE",
+    "messages": [
+      {
+        "role": "user",
+        "content": "请把下面的日语原文完整翻译成中文。只给译文，不添加原文没有的信息。\n\n日语原文：\n田中は妹に手紙を書き、封筒に入れて昨日郵便で送った。"
+      }
+    ],
+    "prompt_sha256": "da3d03f8f80675eef882af06cd886a444e330a341af5174af9b3bfa08ff8615b"
+  },
+  {
+    "prompt_id": "B01-K-EVENT_QA",
+    "base_id": "B01",
+    "family_id": "F01",
+    "condition": "K",
+    "task": "EVENT_QA",
+    "messages": [
+      {
+        "role": "user",
+        "content": "请只依据下面的日语原文，用中文简短回答问题。原文无法确定的部分请明确说明，不要猜测。\n\n日语原文：\n田中は妹に手紙を書き、封筒に入れて昨日郵便で送った。\n\n问题：\n田中写了什么，是否已经寄给妹妹？"
+      }
+    ],
+    "prompt_sha256": "d20bd2101e5aecaa9990960b27aec6284bce92446906072c19a61dafa768cd6f"
+  },
+  {
+    "prompt_id": "B01-H-TRANSLATE",
+    "base_id": "B01",
+    "family_id": "F01",
+    "condition": "H",
+    "task": "TRANSLATE",
+    "messages": [
+      {
+        "role": "user",
+        "content": "请把下面的日语原文完整翻译成中文。只给译文，不添加原文没有的信息。\n\n日语原文：\n田中は妹にてがみを書き、封筒に入れて昨日郵便で送った。"
+      }
+    ],
+    "prompt_sha256": "01325bb3747f918c28f19128a90019e748c8299ec3be2c7892a4146d3a137be0"
+  },
+  {
+    "prompt_id": "B01-H-EVENT_QA",
+    "base_id": "B01",
+    "family_id": "F01",
+    "condition": "H",
+    "task": "EVENT_QA",
+    "messages": [
+      {
+        "role": "user",
+        "content": "请只依据下面的日语原文，用中文简短回答问题。原文无法确定的部分请明确说明，不要猜测。\n\n日语原文：\n田中は妹にてがみを書き、封筒に入れて昨日郵便で送った。\n\n问题：\n田中写了什么，是否已经寄给妹妹？"
+      }
+    ],
+    "prompt_sha256": "cff43800f590b57dc4779a80cd1064b8f77a0bd261b96081bd8e36f0ee937f8c"
+  },
+  {
+    "prompt_id": "B01-P-TRANSLATE",
+    "base_id": "B01",
+    "family_id": "F01",
+    "condition": "P",
+    "task": "TRANSLATE",
+    "messages": [
+      {
+        "role": "user",
+        "content": "请把下面的日语原文完整翻译成中文。只给译文，不添加原文没有的信息。\n\n日语原文：\n田中は妹に便りを書き、封筒に入れて昨日郵便で送った。"
+      }
+    ],
+    "prompt_sha256": "d73c0d5d87d6814da53e3bee77c0da7043d8fd4d1b9ff4e0e5f69ed0490568e5"
+  },
+  {
+    "prompt_id": "B01-P-EVENT_QA",
+    "base_id": "B01",
+    "family_id": "F01",
+    "condition": "P",
+    "task": "EVENT_QA",
+    "messages": [
+      {
+        "role": "user",
+        "content": "请只依据下面的日语原文，用中文简短回答问题。原文无法确定的部分请明确说明，不要猜测。\n\n日语原文：\n田中は妹に便りを書き、封筒に入れて昨日郵便で送った。\n\n问题：\n田中写了什么，是否已经寄给妹妹？"
+      }
+    ],
+    "prompt_sha256": "10715f3128f8a98e00eb9899947cf4e1b997abe977d1cb19d8476026e9310069"
+  },
+  {
+    "prompt_id": "B02-K-TRANSLATE",
+    "base_id": "B02",
+    "family_id": "F01",
+    "condition": "K",
+    "task": "TRANSLATE",
+    "messages": [
+      {
+        "role": "user",
+        "content": "请把下面的日语原文完整翻译成中文。只给译文，不添加原文没有的信息。\n\n日语原文：\n田中は妹に手紙を書いたが、封筒に入れたまま机に置き、まだ送っていない。"
+      }
+    ],
+    "prompt_sha256": "f941d64b028c73f10aa3a005aff523946c2038515cb5f1823b71a41185f0b862"
+  },
+  {
+    "prompt_id": "B02-K-EVENT_QA",
+    "base_id": "B02",
+    "family_id": "F01",
+    "condition": "K",
+    "task": "EVENT_QA",
+    "messages": [
+      {
+        "role": "user",
+        "content": "请只依据下面的日语原文，用中文简短回答问题。原文无法确定的部分请明确说明，不要猜测。\n\n日语原文：\n田中は妹に手紙を書いたが、封筒に入れたまま机に置き、まだ送っていない。\n\n问题：\n田中写了什么，是否已经寄给妹妹？"
+      }
+    ],
+    "prompt_sha256": "619df543620ced149ddeaedf0dbc6bbcdc1b939e87c0a17963275a3e282f451a"
+  },
+  {
+    "prompt_id": "B02-H-TRANSLATE",
+    "base_id": "B02",
+    "family_id": "F01",
+    "condition": "H",
+    "task": "TRANSLATE",
+    "messages": [
+      {
+        "role": "user",
+        "content": "请把下面的日语原文完整翻译成中文。只给译文，不添加原文没有的信息。\n\n日语原文：\n田中は妹にてがみを書いたが、封筒に入れたまま机に置き、まだ送っていない。"
+      }
+    ],
+    "prompt_sha256": "b1442a6efb670a28778b7b2fc44eaf590bfa76140931060c421be7cd6fb371da"
+  },
+  {
+    "prompt_id": "B02-H-EVENT_QA",
+    "base_id": "B02",
+    "family_id": "F01",
+    "condition": "H",
+    "task": "EVENT_QA",
+    "messages": [
+      {
+        "role": "user",
+        "content": "请只依据下面的日语原文，用中文简短回答问题。原文无法确定的部分请明确说明，不要猜测。\n\n日语原文：\n田中は妹にてがみを書いたが、封筒に入れたまま机に置き、まだ送っていない。\n\n问题：\n田中写了什么，是否已经寄给妹妹？"
+      }
+    ],
+    "prompt_sha256": "d54a7e94d581fbbfc2791eaff43282adb97dbc1b6b2cd63736baf8123283bcbf"
+  },
+  {
+    "prompt_id": "B02-P-TRANSLATE",
+    "base_id": "B02",
+    "family_id": "F01",
+    "condition": "P",
+    "task": "TRANSLATE",
+    "messages": [
+      {
+        "role": "user",
+        "content": "请把下面的日语原文完整翻译成中文。只给译文，不添加原文没有的信息。\n\n日语原文：\n田中は妹に便りを書いたが、封筒に入れたまま机に置き、まだ送っていない。"
+      }
+    ],
+    "prompt_sha256": "b998642087aacbcb4e583a119241723eae31c3157a26566f87eba27789e935d1"
+  },
+  {
+    "prompt_id": "B02-P-EVENT_QA",
+    "base_id": "B02",
+    "family_id": "F01",
+    "condition": "P",
+    "task": "EVENT_QA",
+    "messages": [
+      {
+        "role": "user",
+        "content": "请只依据下面的日语原文，用中文简短回答问题。原文无法确定的部分请明确说明，不要猜测。\n\n日语原文：\n田中は妹に便りを書いたが、封筒に入れたまま机に置き、まだ送っていない。\n\n问题：\n田中写了什么，是否已经寄给妹妹？"
+      }
+    ],
+    "prompt_sha256": "f961f12137c4b223629f11ec51004acd2d68fab76d6113b23ad201c538ff364f"
+  },
+  {
+    "prompt_id": "B03-K-TRANSLATE",
+    "base_id": "B03",
+    "family_id": "F02",
+    "condition": "K",
+    "task": "TRANSLATE",
+    "messages": [
+      {
+        "role": "user",
+        "content": "请把下面的日语原文完整翻译成中文。只给译文，不添加原文没有的信息。\n\n日语原文：\n美咲は昨夜、自分から机に向かい、二時間数学を勉強した。"
+      }
+    ],
+    "prompt_sha256": "333f443526633f7858879aba62daac195286e20b58c380fc90e8811922d3d14c"
+  },
+  {
+    "prompt_id": "B03-K-EVENT_QA",
+    "base_id": "B03",
+    "family_id": "F02",
+    "condition": "K",
+    "task": "EVENT_QA",
+    "messages": [
+      {
+        "role": "user",
+        "content": "请只依据下面的日语原文，用中文简短回答问题。原文无法确定的部分请明确说明，不要猜测。\n\n日语原文：\n美咲は昨夜、自分から机に向かい、二時間数学を勉強した。\n\n问题：\n美咲昨晚做了什么，这件事是否出于自愿？"
+      }
+    ],
+    "prompt_sha256": "1572c9668d70011ebe6c3cbb3186a9ccecdc3ca4e6bdee8a01f9ad2883fbf813"
+  },
+  {
+    "prompt_id": "B03-H-TRANSLATE",
+    "base_id": "B03",
+    "family_id": "F02",
+    "condition": "H",
+    "task": "TRANSLATE",
+    "messages": [
+      {
+        "role": "user",
+        "content": "请把下面的日语原文完整翻译成中文。只给译文，不添加原文没有的信息。\n\n日语原文：\n美咲は昨夜、自分から机に向かい、二時間数学をべんきょうした。"
+      }
+    ],
+    "prompt_sha256": "15a348893af4ca7840f46b3872a5d8d38a74d9f0cc06f7cd4dbff26538f7c03e"
+  },
+  {
+    "prompt_id": "B03-H-EVENT_QA",
+    "base_id": "B03",
+    "family_id": "F02",
+    "condition": "H",
+    "task": "EVENT_QA",
+    "messages": [
+      {
+        "role": "user",
+        "content": "请只依据下面的日语原文，用中文简短回答问题。原文无法确定的部分请明确说明，不要猜测。\n\n日语原文：\n美咲は昨夜、自分から机に向かい、二時間数学をべんきょうした。\n\n问题：\n美咲昨晚做了什么，这件事是否出于自愿？"
+      }
+    ],
+    "prompt_sha256": "02f0c4831742973f9c54a49ae2929ca3f1046f6330ccd06a5bd4bfb602e67150"
+  },
+  {
+    "prompt_id": "B03-P-TRANSLATE",
+    "base_id": "B03",
+    "family_id": "F02",
+    "condition": "P",
+    "task": "TRANSLATE",
+    "messages": [
+      {
+        "role": "user",
+        "content": "请把下面的日语原文完整翻译成中文。只给译文，不添加原文没有的信息。\n\n日语原文：\n美咲は昨夜、自分から机に向かい、二時間数学を学んだ。"
+      }
+    ],
+    "prompt_sha256": "27bffda669ed0033cc50b0cd6eda9c71c424a82977af3adac39f40d9251a4488"
+  },
+  {
+    "prompt_id": "B03-P-EVENT_QA",
+    "base_id": "B03",
+    "family_id": "F02",
+    "condition": "P",
+    "task": "EVENT_QA",
+    "messages": [
+      {
+        "role": "user",
+        "content": "请只依据下面的日语原文，用中文简短回答问题。原文无法确定的部分请明确说明，不要猜测。\n\n日语原文：\n美咲は昨夜、自分から机に向かい、二時間数学を学んだ。\n\n问题：\n美咲昨晚做了什么，这件事是否出于自愿？"
+      }
+    ],
+    "prompt_sha256": "334a61ff36fc0d3b6d5a8893f9ee8d607fae533ef1f2de73fe50f14000ca0d1a"
+  },
+  {
+    "prompt_id": "B04-K-TRANSLATE",
+    "base_id": "B04",
+    "family_id": "F02",
+    "condition": "K",
+    "task": "TRANSLATE",
+    "messages": [
+      {
+        "role": "user",
+        "content": "请把下面的日语原文完整翻译成中文。只给译文，不添加原文没有的信息。\n\n日语原文：\n美咲は昨夜、数学を勉強するつもりだったが、急に熱が出たため、その予定を取りやめ、教科書を開かずに寝た。"
+      }
+    ],
+    "prompt_sha256": "2c31a5f50ee67c0469bfa725842204668efc61b1f786bad1bfc96266c8bf61bf"
+  },
+  {
+    "prompt_id": "B04-K-EVENT_QA",
+    "base_id": "B04",
+    "family_id": "F02",
+    "condition": "K",
+    "task": "EVENT_QA",
+    "messages": [
+      {
+        "role": "user",
+        "content": "请只依据下面的日语原文，用中文简短回答问题。原文无法确定的部分请明确说明，不要猜测。\n\n日语原文：\n美咲は昨夜、数学を勉強するつもりだったが、急に熱が出たため、その予定を取りやめ、教科書を開かずに寝た。\n\n问题：\n美咲昨晚原本打算做什么，实际上做了吗？"
+      }
+    ],
+    "prompt_sha256": "d45af0bc1bf46dd7e5ca0cdf37ae547b398437ebfa86864af918ca1fbb7bc209"
+  },
+  {
+    "prompt_id": "B04-H-TRANSLATE",
+    "base_id": "B04",
+    "family_id": "F02",
+    "condition": "H",
+    "task": "TRANSLATE",
+    "messages": [
+      {
+        "role": "user",
+        "content": "请把下面的日语原文完整翻译成中文。只给译文，不添加原文没有的信息。\n\n日语原文：\n美咲は昨夜、数学をべんきょうするつもりだったが、急に熱が出たため、その予定を取りやめ、教科書を開かずに寝た。"
+      }
+    ],
+    "prompt_sha256": "597d4a46b396098d55dd2f5732cd1c847d1c5d81b1ccb80b81751d31655e6de6"
+  },
+  {
+    "prompt_id": "B04-H-EVENT_QA",
+    "base_id": "B04",
+    "family_id": "F02",
+    "condition": "H",
+    "task": "EVENT_QA",
+    "messages": [
+      {
+        "role": "user",
+        "content": "请只依据下面的日语原文，用中文简短回答问题。原文无法确定的部分请明确说明，不要猜测。\n\n日语原文：\n美咲は昨夜、数学をべんきょうするつもりだったが、急に熱が出たため、その予定を取りやめ、教科書を開かずに寝た。\n\n问题：\n美咲昨晚原本打算做什么，实际上做了吗？"
+      }
+    ],
+    "prompt_sha256": "ef1c8a087f0c1af6461d35ddbd46f5651f08d588e4e3f4958aee6c90e17bdef6"
+  },
+  {
+    "prompt_id": "B04-P-TRANSLATE",
+    "base_id": "B04",
+    "family_id": "F02",
+    "condition": "P",
+    "task": "TRANSLATE",
+    "messages": [
+      {
+        "role": "user",
+        "content": "请把下面的日语原文完整翻译成中文。只给译文，不添加原文没有的信息。\n\n日语原文：\n美咲は昨夜、数学を学ぶつもりだったが、急に熱が出たため、その予定を取りやめ、教科書を開かずに寝た。"
+      }
+    ],
+    "prompt_sha256": "661c9572cf886deaedac2c389dcbea43687514a324055c7c82722f5bfbe1758b"
+  },
+  {
+    "prompt_id": "B04-P-EVENT_QA",
+    "base_id": "B04",
+    "family_id": "F02",
+    "condition": "P",
+    "task": "EVENT_QA",
+    "messages": [
+      {
+        "role": "user",
+        "content": "请只依据下面的日语原文，用中文简短回答问题。原文无法确定的部分请明确说明，不要猜测。\n\n日语原文：\n美咲は昨夜、数学を学ぶつもりだったが、急に熱が出たため、その予定を取りやめ、教科書を開かずに寝た。\n\n问题：\n美咲昨晚原本打算做什么，实际上做了吗？"
+      }
+    ],
+    "prompt_sha256": "3c138be62e0cc71289fc17fa45c03b0beca171f623cc5e3f4f58675578adf778"
+  },
+  {
+    "prompt_id": "B05-K-TRANSLATE",
+    "base_id": "B05",
+    "family_id": "F03",
+    "condition": "K",
+    "task": "TRANSLATE",
+    "messages": [
+      {
+        "role": "user",
+        "content": "请把下面的日语原文完整翻译成中文。只给译文，不添加原文没有的信息。\n\n日语原文：\n印刷会社の社長は、応募してきた技師を雇用し、来月から給料を払って働いてもらうことにした。"
+      }
+    ],
+    "prompt_sha256": "a0fdf2cd65d5feb8189a5b0524a5459bd6d58bf9d26e92adaf6cb199675f23ae"
+  },
+  {
+    "prompt_id": "B05-K-EVENT_QA",
+    "base_id": "B05",
+    "family_id": "F03",
+    "condition": "K",
+    "task": "EVENT_QA",
+    "messages": [
+      {
+        "role": "user",
+        "content": "请只依据下面的日语原文，用中文简短回答问题。原文无法确定的部分请明确说明，不要猜测。\n\n日语原文：\n印刷会社の社長は、応募してきた技師を雇用し、来月から給料を払って働いてもらうことにした。\n\n问题：\n公司最后决定让这名技术人员来工作吗，当时已经开始上班了吗？"
+      }
+    ],
+    "prompt_sha256": "75e47b1629d56211c61b993f46a50667756467498b9a66592ae78538aa185fa0"
+  },
+  {
+    "prompt_id": "B05-H-TRANSLATE",
+    "base_id": "B05",
+    "family_id": "F03",
+    "condition": "H",
+    "task": "TRANSLATE",
+    "messages": [
+      {
+        "role": "user",
+        "content": "请把下面的日语原文完整翻译成中文。只给译文，不添加原文没有的信息。\n\n日语原文：\n印刷会社の社長は、応募してきた技師をこようし、来月から給料を払って働いてもらうことにした。"
+      }
+    ],
+    "prompt_sha256": "fb4390c97c95bf553c9fdc62a3e52a1ebac86ed6a7249cec74ed92d6191917ec"
+  },
+  {
+    "prompt_id": "B05-H-EVENT_QA",
+    "base_id": "B05",
+    "family_id": "F03",
+    "condition": "H",
+    "task": "EVENT_QA",
+    "messages": [
+      {
+        "role": "user",
+        "content": "请只依据下面的日语原文，用中文简短回答问题。原文无法确定的部分请明确说明，不要猜测。\n\n日语原文：\n印刷会社の社長は、応募してきた技師をこようし、来月から給料を払って働いてもらうことにした。\n\n问题：\n公司最后决定让这名技术人员来工作吗，当时已经开始上班了吗？"
+      }
+    ],
+    "prompt_sha256": "6d62828a048776e5fcd7baf2d707d1d1cbb459f493a0043676713986f5d41eea"
+  },
+  {
+    "prompt_id": "B05-P-TRANSLATE",
+    "base_id": "B05",
+    "family_id": "F03",
+    "condition": "P",
+    "task": "TRANSLATE",
+    "messages": [
+      {
+        "role": "user",
+        "content": "请把下面的日语原文完整翻译成中文。只给译文，不添加原文没有的信息。\n\n日语原文：\n印刷会社の社長は、応募してきた技師を雇い入れ、来月から給料を払って働いてもらうことにした。"
+      }
+    ],
+    "prompt_sha256": "1e0c86d3d8241ef68488375161f0b64fcd41d2578ed7d6f2ba01da3168ab5a87"
+  },
+  {
+    "prompt_id": "B05-P-EVENT_QA",
+    "base_id": "B05",
+    "family_id": "F03",
+    "condition": "P",
+    "task": "EVENT_QA",
+    "messages": [
+      {
+        "role": "user",
+        "content": "请只依据下面的日语原文，用中文简短回答问题。原文无法确定的部分请明确说明，不要猜测。\n\n日语原文：\n印刷会社の社長は、応募してきた技師を雇い入れ、来月から給料を払って働いてもらうことにした。\n\n问题：\n公司最后决定让这名技术人员来工作吗，当时已经开始上班了吗？"
+      }
+    ],
+    "prompt_sha256": "ff5fb45bfc1e8de1a7479f38d67d011e221b409d85ba0eb39fdfc3b4e8026ae1"
+  },
+  {
+    "prompt_id": "B06-K-TRANSLATE",
+    "base_id": "B06",
+    "family_id": "F03",
+    "condition": "K",
+    "task": "TRANSLATE",
+    "messages": [
+      {
+        "role": "user",
+        "content": "请把下面的日语原文完整翻译成中文。只给译文，不添加原文没有的信息。\n\n日语原文：\n印刷会社の社長は、応募してきた技師を雇用する予定だったが、契約を結ぶ前に採用を取りやめた。技師はまだ一度もこの会社で働いていない。"
+      }
+    ],
+    "prompt_sha256": "7b308671e4a331059a9ac99515753d68ea3e533f414c9479a0784eded1052b91"
+  },
+  {
+    "prompt_id": "B06-K-EVENT_QA",
+    "base_id": "B06",
+    "family_id": "F03",
+    "condition": "K",
+    "task": "EVENT_QA",
+    "messages": [
+      {
+        "role": "user",
+        "content": "请只依据下面的日语原文，用中文简短回答问题。原文无法确定的部分请明确说明，不要猜测。\n\n日语原文：\n印刷会社の社長は、応募してきた技師を雇用する予定だったが、契約を結ぶ前に採用を取りやめた。技師はまだ一度もこの会社で働いていない。\n\n问题：\n公司最后决定让这名技术人员来工作吗，当时已经开始上班了吗？"
+      }
+    ],
+    "prompt_sha256": "b6465d0665a0e28ff09715bf0b222017ce99dcc4401600404b4c664b1f25f413"
+  },
+  {
+    "prompt_id": "B06-H-TRANSLATE",
+    "base_id": "B06",
+    "family_id": "F03",
+    "condition": "H",
+    "task": "TRANSLATE",
+    "messages": [
+      {
+        "role": "user",
+        "content": "请把下面的日语原文完整翻译成中文。只给译文，不添加原文没有的信息。\n\n日语原文：\n印刷会社の社長は、応募してきた技師をこようする予定だったが、契約を結ぶ前に採用を取りやめた。技師はまだ一度もこの会社で働いていない。"
+      }
+    ],
+    "prompt_sha256": "413d6304fc9ac1dd9aa1ad0581932c6c16e2eb5ffc21799ff0c4752a065d4785"
+  },
+  {
+    "prompt_id": "B06-H-EVENT_QA",
+    "base_id": "B06",
+    "family_id": "F03",
+    "condition": "H",
+    "task": "EVENT_QA",
+    "messages": [
+      {
+        "role": "user",
+        "content": "请只依据下面的日语原文，用中文简短回答问题。原文无法确定的部分请明确说明，不要猜测。\n\n日语原文：\n印刷会社の社長は、応募してきた技師をこようする予定だったが、契約を結ぶ前に採用を取りやめた。技師はまだ一度もこの会社で働いていない。\n\n问题：\n公司最后决定让这名技术人员来工作吗，当时已经开始上班了吗？"
+      }
+    ],
+    "prompt_sha256": "90cfa056397192b7aa5f70aa999ba16499d19e6bd6bdf4a890eb6db80013bc7b"
+  },
+  {
+    "prompt_id": "B06-P-TRANSLATE",
+    "base_id": "B06",
+    "family_id": "F03",
+    "condition": "P",
+    "task": "TRANSLATE",
+    "messages": [
+      {
+        "role": "user",
+        "content": "请把下面的日语原文完整翻译成中文。只给译文，不添加原文没有的信息。\n\n日语原文：\n印刷会社の社長は、応募してきた技師を雇い入れる予定だったが、契約を結ぶ前に採用を取りやめた。技師はまだ一度もこの会社で働いていない。"
+      }
+    ],
+    "prompt_sha256": "26a01d12fe2e419a40f86ae350586594352b197f345994793ad8c5bcf8e39247"
+  },
+  {
+    "prompt_id": "B06-P-EVENT_QA",
+    "base_id": "B06",
+    "family_id": "F03",
+    "condition": "P",
+    "task": "EVENT_QA",
+    "messages": [
+      {
+        "role": "user",
+        "content": "请只依据下面的日语原文，用中文简短回答问题。原文无法确定的部分请明确说明，不要猜测。\n\n日语原文：\n印刷会社の社長は、応募してきた技師を雇い入れる予定だったが、契約を結ぶ前に採用を取りやめた。技師はまだ一度もこの会社で働いていない。\n\n问题：\n公司最后决定让这名技术人员来工作吗，当时已经开始上班了吗？"
+      }
+    ],
+    "prompt_sha256": "764c3e49e91c468280edc975b9e647d16b835a9b1c8539a0714f5d835e3bbb96"
+  },
+  {
+    "prompt_id": "B07-K-TRANSLATE",
+    "base_id": "B07",
+    "family_id": "F04",
+    "condition": "K",
+    "task": "TRANSLATE",
+    "messages": [
+      {
+        "role": "user",
+        "content": "请把下面的日语原文完整翻译成中文。只给译文，不添加原文没有的信息。\n\n日语原文：\n健太は来週の金曜日に泊まるホテルの部屋を予約した。宿泊代はまだ支払っておらず、当日支払うことになっている。"
+      }
+    ],
+    "prompt_sha256": "971a3489f7ed23ab35f6200996bf31dc55f72780a465861cc9291b6eb742ef8e"
+  },
+  {
+    "prompt_id": "B07-K-EVENT_QA",
+    "base_id": "B07",
+    "family_id": "F04",
+    "condition": "K",
+    "task": "EVENT_QA",
+    "messages": [
+      {
+        "role": "user",
+        "content": "请只依据下面的日语原文，用中文简短回答问题。原文无法确定的部分请明确说明，不要猜测。\n\n日语原文：\n健太は来週の金曜日に泊まるホテルの部屋を予約した。宿泊代はまだ支払っておらず、当日支払うことになっている。\n\n问题：\n健太是否已经订好房间，房费是否已经支付？"
+      }
+    ],
+    "prompt_sha256": "ad72fe830636e319ba17f1034e2ab9b8956620fb5127c20b4f3a3f6427914504"
+  },
+  {
+    "prompt_id": "B07-H-TRANSLATE",
+    "base_id": "B07",
+    "family_id": "F04",
+    "condition": "H",
+    "task": "TRANSLATE",
+    "messages": [
+      {
+        "role": "user",
+        "content": "请把下面的日语原文完整翻译成中文。只给译文，不添加原文没有的信息。\n\n日语原文：\n健太は来週の金曜日に泊まるホテルの部屋をよやくした。宿泊代はまだ支払っておらず、当日支払うことになっている。"
+      }
+    ],
+    "prompt_sha256": "1f8847a15a6c2507fbe6d409295c82da3104b734ea9b7b9f624158311885a8e1"
+  },
+  {
+    "prompt_id": "B07-H-EVENT_QA",
+    "base_id": "B07",
+    "family_id": "F04",
+    "condition": "H",
+    "task": "EVENT_QA",
+    "messages": [
+      {
+        "role": "user",
+        "content": "请只依据下面的日语原文，用中文简短回答问题。原文无法确定的部分请明确说明，不要猜测。\n\n日语原文：\n健太は来週の金曜日に泊まるホテルの部屋をよやくした。宿泊代はまだ支払っておらず、当日支払うことになっている。\n\n问题：\n健太是否已经订好房间，房费是否已经支付？"
+      }
+    ],
+    "prompt_sha256": "b565213ded30656d2f99bc0cd341d8856f7d0e5e0534973ca856579e45f31fe1"
+  },
+  {
+    "prompt_id": "B07-P-TRANSLATE",
+    "base_id": "B07",
+    "family_id": "F04",
+    "condition": "P",
+    "task": "TRANSLATE",
+    "messages": [
+      {
+        "role": "user",
+        "content": "请把下面的日语原文完整翻译成中文。只给译文，不添加原文没有的信息。\n\n日语原文：\n健太は来週の金曜日に泊まるホテルの部屋を前もって申し込んで確保した。宿泊代はまだ支払っておらず、当日支払うことになっている。"
+      }
+    ],
+    "prompt_sha256": "d7870e621aa5d4030c1bd0cd71d72d2b0f046ddaf29367253a245ecca5f1641f"
+  },
+  {
+    "prompt_id": "B07-P-EVENT_QA",
+    "base_id": "B07",
+    "family_id": "F04",
+    "condition": "P",
+    "task": "EVENT_QA",
+    "messages": [
+      {
+        "role": "user",
+        "content": "请只依据下面的日语原文，用中文简短回答问题。原文无法确定的部分请明确说明，不要猜测。\n\n日语原文：\n健太は来週の金曜日に泊まるホテルの部屋を前もって申し込んで確保した。宿泊代はまだ支払っておらず、当日支払うことになっている。\n\n问题：\n健太是否已经订好房间，房费是否已经支付？"
+      }
+    ],
+    "prompt_sha256": "e30c885d1217e65576ae670ed22305a65f54693e2eacd7e1f8d7df421344f642"
+  },
+  {
+    "prompt_id": "B08-K-TRANSLATE",
+    "base_id": "B08",
+    "family_id": "F04",
+    "condition": "K",
+    "task": "TRANSLATE",
+    "messages": [
+      {
+        "role": "user",
+        "content": "请把下面的日语原文完整翻译成中文。只给译文，不添加原文没有的信息。\n\n日语原文：\n健太は来週の金曜日に泊まるホテルの部屋を予約しようとしたが、満室だったため、手続きを終えられなかった。宿泊代はまだ支払っていない。"
+      }
+    ],
+    "prompt_sha256": "84f4aec2b7a9cddad1a5881b43e80c0b46f2daebc7c84c8dbd7ef2688c77628f"
+  },
+  {
+    "prompt_id": "B08-K-EVENT_QA",
+    "base_id": "B08",
+    "family_id": "F04",
+    "condition": "K",
+    "task": "EVENT_QA",
+    "messages": [
+      {
+        "role": "user",
+        "content": "请只依据下面的日语原文，用中文简短回答问题。原文无法确定的部分请明确说明，不要猜测。\n\n日语原文：\n健太は来週の金曜日に泊まるホテルの部屋を予約しようとしたが、満室だったため、手続きを終えられなかった。宿泊代はまだ支払っていない。\n\n问题：\n健太是否已经订好房间，房费是否已经支付？"
+      }
+    ],
+    "prompt_sha256": "3706f3317ce90c910e49512b913acf8c5e0dd4f9d83600b87c2fee621e1707aa"
+  },
+  {
+    "prompt_id": "B08-H-TRANSLATE",
+    "base_id": "B08",
+    "family_id": "F04",
+    "condition": "H",
+    "task": "TRANSLATE",
+    "messages": [
+      {
+        "role": "user",
+        "content": "请把下面的日语原文完整翻译成中文。只给译文，不添加原文没有的信息。\n\n日语原文：\n健太は来週の金曜日に泊まるホテルの部屋をよやくしようとしたが、満室だったため、手続きを終えられなかった。宿泊代はまだ支払っていない。"
+      }
+    ],
+    "prompt_sha256": "462708084acad3a87c43c53fa8759c3ae12eb30f9c057d4fe4bacb41f310412d"
+  },
+  {
+    "prompt_id": "B08-H-EVENT_QA",
+    "base_id": "B08",
+    "family_id": "F04",
+    "condition": "H",
+    "task": "EVENT_QA",
+    "messages": [
+      {
+        "role": "user",
+        "content": "请只依据下面的日语原文，用中文简短回答问题。原文无法确定的部分请明确说明，不要猜测。\n\n日语原文：\n健太は来週の金曜日に泊まるホテルの部屋をよやくしようとしたが、満室だったため、手続きを終えられなかった。宿泊代はまだ支払っていない。\n\n问题：\n健太是否已经订好房间，房费是否已经支付？"
+      }
+    ],
+    "prompt_sha256": "781c81676433335cc3c2bc465850ebeffe32b45b11eab458af27b68ecfd8fc24"
+  },
+  {
+    "prompt_id": "B08-P-TRANSLATE",
+    "base_id": "B08",
+    "family_id": "F04",
+    "condition": "P",
+    "task": "TRANSLATE",
+    "messages": [
+      {
+        "role": "user",
+        "content": "请把下面的日语原文完整翻译成中文。只给译文，不添加原文没有的信息。\n\n日语原文：\n健太は来週の金曜日に泊まるホテルの部屋を前もって申し込んで確保しようとしたが、満室だったため、手続きを終えられなかった。宿泊代はまだ支払っていない。"
+      }
+    ],
+    "prompt_sha256": "14bf67814e055ee86668d69f7f511778b3d95f6fbc07f46c1c4494009cb06e5c"
+  },
+  {
+    "prompt_id": "B08-P-EVENT_QA",
+    "base_id": "B08",
+    "family_id": "F04",
+    "condition": "P",
+    "task": "EVENT_QA",
+    "messages": [
+      {
+        "role": "user",
+        "content": "请只依据下面的日语原文，用中文简短回答问题。原文无法确定的部分请明确说明，不要猜测。\n\n日语原文：\n健太は来週の金曜日に泊まるホテルの部屋を前もって申し込んで確保しようとしたが、満室だったため、手続きを終えられなかった。宿泊代はまだ支払っていない。\n\n问题：\n健太是否已经订好房间，房费是否已经支付？"
+      }
+    ],
+    "prompt_sha256": "845f1d0b2eacc9b4d95eb7be87a8039b5d8ce8ccd105effa336d9ed7beb6d0a5"
+  }
+]

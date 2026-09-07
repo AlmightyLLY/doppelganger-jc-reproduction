@@ -1,0 +1,162 @@
+{
+  "experiment_id": "EXP-20260907-01",
+  "version": "v1-frozen-after-user-review",
+  "status": "READY_FOR_RUNTIME_PREFLIGHT",
+  "executable": true,
+  "principles_version": "2026-09-07 v1.3",
+  "user_direction": "two tracks in parallel; assistant advice accepted in latest turn",
+  "question": "共享词形相关的表达变化是否伴随翻译失真；独立事件问答是否出现相同或不同错误？",
+  "base_contexts": 8,
+  "families": 4,
+  "variants": [
+    "K original kanji",
+    "H same word in hiragana",
+    "P contextual paraphrase"
+  ],
+  "tasks": [
+    "TRANSLATE",
+    "EVENT_QA"
+  ],
+  "models": [
+    {
+      "key": "qwen",
+      "model_id": "Qwen/Qwen3-8B",
+      "revision": "b968826d9c46dd6066d109eabc6255188de91218"
+    },
+    {
+      "key": "llmjp",
+      "model_id": "llm-jp/llm-jp-4-8b-instruct",
+      "revision": "098f2b2cf33021eba19a6d3582aa3d071ccc0aff"
+    },
+    {
+      "key": "apertus",
+      "model_id": "swiss-ai/Apertus-8B-Instruct-2509",
+      "revision": "b946d40447b2b597999b9c86d44bee0b452c919f"
+    }
+  ],
+  "planned_outputs": 144,
+  "generation": {
+    "do_sample": false,
+    "max_new_tokens": 256,
+    "seed": 0,
+    "qwen_enable_thinking": false,
+    "fresh_context_per_request": true,
+    "custom_system_message": null,
+    "cross_task_output_passing": false,
+    "instruction_language": "zh",
+    "source_language": "ja",
+    "requested_output_language": "zh"
+  },
+  "runtime_preflight": [
+    "recheck exact cached revisions and native chat templates before generation",
+    "no checkpoint replacement or added system prompt",
+    "save rendered native input, token ids, full output and stop reason",
+    "compare existing template hashes; disclose changes before inference",
+    "Verify this frozen manifest, reviewed Word/Excel hashes, 48 exact messages and current runtime; save a runtime preflight receipt before any generation."
+  ],
+  "expected_template_hashes": {
+    "qwen": "a55ee1b1660128b7098723e0abcd92caa0788061051c62d51cbe87d9cf1974d8",
+    "llmjp": "4b0db696f02c22cbcaf281ddd19d7d4632058b73b1f4c184b58a9bc3cec170c1",
+    "apertus": "56f72c27fa2e565312a830b7315a455c79fb452fdbe7a5b7595d8a094f282b07"
+  },
+  "maximum_attempts": 156,
+  "technical_retry_limit_per_input": 1,
+  "stop_after_consecutive_technical_failures": 2,
+  "maximum_paid_usd": 0,
+  "maximum_run_wall_minutes": 60,
+  "primary_comparison": "Per model paired semantic-fidelity transition K vs H on TRANSLATE; C/W/U counts by base context and family.",
+  "secondary_comparisons": [
+    "K vs P translation",
+    "target lexical meaning and event-state errors separately",
+    "same-condition independent EVENT_QA vs TRANSLATE four-way cross-task pattern",
+    "full translation omissions, invented information, language and format separately"
+  ],
+  "scoring": "Proposed semantic fact checklist; accept valid paraphrases; AI provisional, PI and independent review separate. Ambiguous content U is not W; no post-result changes to frozen scores.",
+  "inference_limits": [
+    "4 families and 8 correlated base contexts; 144 requests are not independent n",
+    "K/H changes tokenization, length, frequency and naturalness; not pure visual causality",
+    "P changes wording and length; not matched frequency or tokenization",
+    "two relation categories are different selected words, not a randomized relation manipulation",
+    "no Chinese-source or nonshared-language control; no homograph-specific or cross-language causal claim",
+    "question wording may supply cues; independent-task inconsistency is not knowledge within one trajectory",
+    "strong contexts and selected familiar concepts may yield ceiling; all correct is not absence of interference"
+  ],
+  "review_sample": {
+    "method": "purposeful coverage, not random",
+    "population": "all 8 authored base contexts, 24 source variants, 48 user messages repeated across 3 checkpoints",
+    "selected_ids": [
+      "B01",
+      "B02",
+      "B03",
+      "B04",
+      "B05",
+      "B06",
+      "B07",
+      "B08"
+    ],
+    "seed": null,
+    "basis": "4 selected families x 2 event outcomes; 8 review groups show all three variants and the event question",
+    "scope": "user reads 8 groups and shared prompt templates; complete 48 user messages available in Excel",
+    "not_covered": "other lexical families, natural population, Chinese source controls, longer documents, internal activations"
+  },
+  "user_prediction": {
+    "raw_word_paragraphs": [
+      "我更预期哪种情况，为什么（可以写不知道）：_K 和 H在不同的词和不同的模型上表现可能会有差别，具体表现为，如果是同源词，可能K会好一些，如果是非同源词，H会好一些，但是整体上来看应该是K会更好。P暂时不清楚_______________________________",
+      "什么结果最会改变我的看法：__如果说H明显比K要好，那么我的看法可能会改变，因为先前的实验结果给我的感觉是，汉字表示会对模型的翻译起到影响，但是整体而言是正向居多______________________________________________"
+    ],
+    "clarification_verbatim": "同源词是指字形和意思都相同，实际上和历史来源未必相关",
+    "assistant_operational_summary": {
+      "same_meaning_group": "K expected better than H",
+      "different_meaning_group": "H expected better than K",
+      "overall": "K expected better than H",
+      "P": "user explicitly uncertain",
+      "heterogeneity": "word and model differences expected",
+      "would_change_mind": "H clearly better than K; qualitative, no fabricated significance threshold"
+    }
+  },
+  "user_reason": "Prior experiments gave the user the impression that kanji influence translation, mostly positively; raw wording retained in REVIEW-RECEIPT.json.",
+  "user_input_review_evidence": {
+    "path": "REVIEW-RECEIPT.json",
+    "sha256": "dab0e30536341cea0bf53406b6cc891fd6334b88b2b4c5d317567965beee4cd8"
+  },
+  "human_reference_status": "AI draft references; no independent gold",
+  "branch_rules": [
+    "Reliable K-to-H rescue across at least 2 families in at least 2 models is a candidate for a new independently sourced behavioral test; this screen is not significance, generality or a mechanism.",
+    "If K/H/P share similar event errors, prioritize evidence-use diagnosis and preserve the specific counterexamples.",
+    "If only P helps, keep a wording/explicitness explanation; do not call it character interference.",
+    "If correct throughout or mixed/sparse, report insufficient discrimination and review difficulty/materials before a separately preregistered next test.",
+    "If references/equivalence/scoring fail, stop causal interpretation and repair materials in a new version; retain outputs."
+  ],
+  "output_review": {
+    "initial_count": 8,
+    "method": "one output per base context; model and condition rotate deterministically over ordered B01..B08, TRANSLATE for odd ids and EVENT_QA for even ids",
+    "additional_review": "all unresolved, model disagreements, K/H/P rescues and harms are listed separately; user reviews necessary cases before dependent follow-up",
+    "full_export": true
+  },
+  "postrun_delivery": [
+    "actual Word summary",
+    "Excel complete 144 planned responses plus failures and review views",
+    "raw/config/hash archive",
+    "verified GitHub publishable archive synchronization"
+  ],
+  "frozen_at_utc": "2026-09-07T06:32:26.481354+00:00",
+  "executable_scope": "Scientific preparation is complete for this exact development batch. Generation requires all runtime checks below to pass and a saved preflight receipt; no prompt or checkpoint substitution.",
+  "draft_created_at": "2026-09-07T13:55:02.759140+08:00",
+  "input_files": {
+    "01-今日实验预注册.docx": "4fb3fc7b0157787a6612bc1a378fbba7bbaf6f0e50b0f8888fdf4e48aeb4ce83",
+    "02-事前数据审核8组.xlsx": "a9ac49f95e67934325a204dd834b9e1e8c7efb1dc1eda28a4ab48b1baaeac0a7",
+    "MATERIALS.json": "4e7bf81911310dee2f2a055003d10f7cacb03c7a89044e93ba322f918ef58266",
+    "PROMPTS.json": "1e5b65d54106f4dff49c406a93574285f3f7772599be98996c6d6558e38e8af6",
+    "REVIEW-RECEIPT.json": "dab0e30536341cea0bf53406b6cc891fd6334b88b2b4c5d317567965beee4cd8"
+  },
+  "comparison_interpretation": "Report both directions of K/H transitions, by checkpoint, family and overall, and explicitly compare with the user prediction. The two-model/two-family rescue screen concerns following up a harm candidate, not a requirement for reporting K benefits. No new thresholds or statistical significance claims.",
+  "terminology": "Contextual same/different meaning among selected shared/near-shared forms, not historical cognacy. 予約/预约 remains a near-form control; character correspondences are not literal Unicode identity.",
+  "existing_score_application_note": "See REVIEW-NOTES.zh-CN.md; examples apply the existing full-response C/W/U rules, not an exact-string dictionary or new endpoint.",
+  "executor": {
+    "model": "gpt-6-astra",
+    "reasoning_effort": "medium",
+    "service_tier_requested": "Standard",
+    "service_tool_parameter_available": false,
+    "service_tier_check": "inherit default; verify observable configuration and do not claim a setting the tool cannot enforce"
+  }
+}

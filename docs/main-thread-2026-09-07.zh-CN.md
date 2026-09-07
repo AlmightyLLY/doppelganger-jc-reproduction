@@ -4,6 +4,10 @@
 
 ## 最新方向决定：两线并行
 
+**执行环境更正：**用户随后明确不要 worktree，直接开普通新任务，已纳入原则 v1.4。已成功创建 local 任务 **EXP-20260907-01 medium 实验执行**（`01a07a97-bec2-7e90-a881-336e7b3b9987`），GPT-6 Astra medium，沿用 default/Standard 配置。之前排队 worktree 请求已撤销实验执行权限，尚未在任务列表出现，不能把该应用请求声称为已取消成功；其若稍后出现也必须停止。唯一执行任务由 CURRENT-STATUS.json 指定。
+
+**最新输入审核与派工：**用户已完成 Word 个人预测及 Excel 8组逐条理解，随后澄清“同源词”指字形和意思都相同、未必有历史来源关系。助手核对仅两段预测及16个人审核单元格变化，实际源文、问题、全部48消息和参考内容未变；按原字节保存[reviewed-v1冻结包](../papers/doppelganger-jc/experiments/EXP-20260907-01-translation-bridge/reviewed-v1/REVIEW-NOTES.zh-CN.md)。用户预计同义组 K 更好、异义组 H 更好、整体 K 更好，P 不确定；保留模型和词的异质性。B01/B02 的信件/信息问题按完整语境和既有 C/W/U 规则解释，未修改材料或代填人审。当前可进入运行环境检查，尚无此批结果；用户再次要求另任务使用 Astra medium Standard，执行任务创建已提交。最新任务 ID、运行/交付/同步状态见[CURRENT-STATUS.json](../papers/doppelganger-jc/experiments/EXP-20260907-01-translation-bridge/CURRENT-STATUS.json)。下方待填写标签描述更早阶段，不替代本条最新证据。
+
 用户随后采纳助手对证据层级、跨模型异质性和转向条件的分析，并要求简短预注册与约8条事前审核。当前可审阅交付为[EXP-20260907-01](../papers/doppelganger-jc/experiments/EXP-20260907-01-translation-bridge/README.zh-CN.md)：一页Word、8组实际输入Excel、完整提示和非执行协议草稿。材料是4词族的作者开发语境；拟3模型、144输出，尚未运行。本人预测、输入实际过目和必要参考审核仍待完成；后续执行必须从本批审核记录冻结，不从旧通用授权直接启动。
 
 2026-09-07 白天，用户已亲自表述问题、成果和定性转向条件，并决定同形词行为/内部机制与证据使用/诊断干预两线并行，争取整合。以[完整方向记录](research-direction-2026-09-07-two-track.zh-CN.md)为当前入口；该记录将用户原话与助手的竞争解释、证据要求及退出条件建议分开。此前“回归翻译为主、支线仅辅助”是已被最新决定替代的助手建议。旧空白判断模板保持历史身份，不再表示用户尚无方向决定。具体预测、首批Word/Excel和输入过目仍待落实；本轮没有新实验。
