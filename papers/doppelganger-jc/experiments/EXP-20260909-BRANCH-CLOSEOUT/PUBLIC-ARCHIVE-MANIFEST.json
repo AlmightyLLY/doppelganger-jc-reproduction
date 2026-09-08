@@ -1,0 +1,60 @@
+{
+  "archive_scope": "B16-B25 allowed public scientific records",
+  "generated_at": "2026-09-08T18:39:26.087024+00:00",
+  "new_model_outputs_total": 4616,
+  "new_forwards_total": 63477,
+  "model_calls_for_archiving": 0,
+  "formal_jsons_recomputed_exactly": 62,
+  "public_file_count_inside_zips": 275,
+  "archives": [
+    {
+      "file": "B16-B18-scientific-records.zip",
+      "scientific_files_inside": 70,
+      "bytes": 1650397,
+      "uncompressed_bytes": 42950919,
+      "sha256": "56c32a8ed750b07555f9bbb1df283387c86cdacf346c5d3ca816686738d7eb43",
+      "git_blob_sha1": "7ad328c626b6c667c54669f09707dff57cb81eca",
+      "member_verification": "EVERY_MEMBER_IDENTICAL_TO_REVIEWED_PUBLIC_STAGING"
+    },
+    {
+      "file": "B19-B23-scientific-records.zip",
+      "scientific_files_inside": 114,
+      "bytes": 2139659,
+      "uncompressed_bytes": 82737031,
+      "sha256": "b86a0773c7babdfb69bd4b3961a5d8182a15b677b13f9c1f894dc8dfe9f2fe6a",
+      "git_blob_sha1": "57c12cbdf41730a296f1744c89769e7bee3edd2a",
+      "member_verification": "EVERY_MEMBER_IDENTICAL_TO_REVIEWED_PUBLIC_STAGING"
+    },
+    {
+      "file": "B24-scientific-records.zip",
+      "scientific_files_inside": 41,
+      "bytes": 474153,
+      "uncompressed_bytes": 11594089,
+      "sha256": "538cfa9afa1ae9bcbd694cd1c25b69247b00d0a9a7e4b7fbd015a239f2425d86",
+      "git_blob_sha1": "9510ab4cf654f7bc65f005c46368e3f98f825a19",
+      "member_verification": "EVERY_MEMBER_IDENTICAL_TO_REVIEWED_PUBLIC_STAGING"
+    },
+    {
+      "file": "B25-scientific-records.zip",
+      "scientific_files_inside": 50,
+      "bytes": 580701,
+      "uncompressed_bytes": 15319794,
+      "sha256": "14de87592ba2c5d113d774789edfb0e40ec3f2bb1ce6449b59a4c9ec67c865ca",
+      "git_blob_sha1": "07dd97c12f3664b7288078bc2a6696f5f398d23b",
+      "member_verification": "EVERY_MEMBER_IDENTICAL_TO_REVIEWED_PUBLIC_STAGING"
+    }
+  ],
+  "readme": {
+    "file": "README.zh-CN.md",
+    "bytes": 4948,
+    "sha256": "24a0c39e97cdb30e02af27de34425b134f7389de718f0f12423fd42b23789597",
+    "git_blob_sha1": "8b6d23e90e5b213044d68bc2f4df410715c8aba6"
+  },
+  "private_native_originals": "LOCAL_ONLY; B24 and B25 include path-free content hashes and truthful unreviewed status",
+  "raw_scientific_messages_and_outputs": "PRESERVED; no privacy rewrite",
+  "publication_branch": "codex/research-day-closeout-2026-09-07",
+  "public_parent_commit": "40a9537b8bedb88f3246bc9d944ed8ba6149b7d4",
+  "B24_P_NEW": false,
+  "B25_T_G_FLIP": true,
+  "independent_human_gold": 0
+}
