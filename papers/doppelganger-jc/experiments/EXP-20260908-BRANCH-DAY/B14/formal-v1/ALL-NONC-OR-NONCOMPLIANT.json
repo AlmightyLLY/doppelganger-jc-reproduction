@@ -1,0 +1,877 @@
+[
+  {
+    "source_id": "SRC026",
+    "domain": "hire",
+    "source_form": "JA_PASSIVE",
+    "language": "JA",
+    "pair_indices": [
+      2,
+      3
+    ],
+    "pair_names": [
+      "小川",
+      "上田"
+    ],
+    "fact": "NO",
+    "source_text": "R1：上田は小川に臨時の助手として雇用されませんでした。",
+    "role_keys": [
+      "employer",
+      "employee"
+    ],
+    "role_definitions": "employer是雇用方，employee是被雇用方。",
+    "call_id": "B14-LLAMA-BASE-SRC026",
+    "model": "llama",
+    "inventory": "NAME_ONLY",
+    "condition": "SINGLE",
+    "target": "R1",
+    "target_id": "R1",
+    "target_record_text": "R1：上田は小川に臨時の助手として雇用されませんでした。",
+    "representation": "NAMES",
+    "entity_map": {
+      "E1": "青木",
+      "E2": "森田",
+      "E3": "小川",
+      "E4": "上田"
+    },
+    "visible_id_map": {},
+    "messages": [
+      {
+        "role": "user",
+        "content": "下面每条记录各自描述不同场合的一次具体事件；不要把不同记录合并成同一次事件。只依据文字，不补充常识或背景。\n记录：\"R1：上田は小川に臨時の助手として雇用されませんでした。\"\n目标记录：R1\n只记录目标记录中讨论的关系命题，不要记录其他记录中的事件。\n实体表：青木；森田；小川；上田\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"employer\":\"姓名\",\"employee\":\"姓名\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\nemployer是雇用方，employee是被雇用方。这两个角色字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中的完整姓名。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+      }
+    ],
+    "stage": "A",
+    "prompt_sha256": "35e172f8a7f1c49a509dd9fa8e3ba533353df00e93546899ded80ad87f39bd95",
+    "execution_origin": "EXACT_OLD_CACHE",
+    "prior_call_id": "B13-LLAMA-NAME_ONLY-SRC026",
+    "position_id": "B14-LLAMA-BASE-SRC026",
+    "kind": "BASELINE",
+    "raw_output": "{\"occurred\":\"NO\",\"employer\":\"上田\",\"employee\":\"小川\"}",
+    "actual_generation_call_id": "B13-LLAMA-NAME_ONLY-SRC026",
+    "new_forwards": 0,
+    "reference": {
+      "position_id": "B14-LLAMA-BASE-SRC026",
+      "source_id": "SRC026",
+      "occurred": "NO",
+      "role_a": "小川",
+      "role_b": "上田",
+      "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+    },
+    "observation": {
+      "strict": {
+        "labels": {
+          "role_a": "W",
+          "role_b": "W",
+          "occurrence": "C",
+          "participant": "W",
+          "record": "W"
+        },
+        "occurred_asserted": "NO",
+        "decoded_names": {
+          "role_a": "上田",
+          "role_b": "小川"
+        },
+        "raw_fields": {
+          "occurred": "NO",
+          "employer": "上田",
+          "employee": "小川"
+        },
+        "field_identity_reasons": {
+          "occurred": "UNIQUE",
+          "employer": "UNIQUE",
+          "employee": "UNIQUE"
+        },
+        "occurrence_reason": "CORRECT",
+        "entity_reasons": {
+          "role_a": "OTHER_LISTED_PERSON",
+          "role_b": "OTHER_LISTED_PERSON"
+        },
+        "unsupported_assertion": false,
+        "explicit_occurrence_contradiction": false,
+        "format_compliance": "PASS",
+        "unique_readable_object": true,
+        "object_or_array_count": 1,
+        "raw_object_pairs": [
+          [
+            "occurred",
+            "NO"
+          ],
+          [
+            "employer",
+            "上田"
+          ],
+          [
+            "employee",
+            "小川"
+          ]
+        ],
+        "duplicate_keys": [],
+        "extra_keys": [],
+        "noncanonical_entities": [],
+        "outside_json_text": "",
+        "language_status": "CANONICAL_SCHEMA_VALUES",
+        "identity": "AI_SCORING_NOT_HUMAN_GOLD",
+        "full_response_read": false
+      },
+      "content": {
+        "labels": {
+          "role_a": "W",
+          "role_b": "W",
+          "occurrence": "C",
+          "participant": "W",
+          "record": "W"
+        },
+        "occurred_asserted": "NO",
+        "decoded_names": {
+          "role_a": "上田",
+          "role_b": "小川"
+        },
+        "raw_fields": {
+          "occurred": "NO",
+          "employer": "上田",
+          "employee": "小川"
+        },
+        "field_identity_reasons": {
+          "occurred": "UNIQUE",
+          "employer": "UNIQUE",
+          "employee": "UNIQUE"
+        },
+        "occurrence_reason": "CORRECT",
+        "entity_reasons": {
+          "role_a": "OTHER_LISTED_PERSON",
+          "role_b": "OTHER_LISTED_PERSON"
+        },
+        "unsupported_assertion": false,
+        "explicit_occurrence_contradiction": false,
+        "format_compliance": "PASS",
+        "unique_readable_object": true,
+        "object_or_array_count": 1,
+        "raw_object_pairs": [
+          [
+            "occurred",
+            "NO"
+          ],
+          [
+            "employer",
+            "上田"
+          ],
+          [
+            "employee",
+            "小川"
+          ]
+        ],
+        "duplicate_keys": [],
+        "extra_keys": [],
+        "noncanonical_entities": [],
+        "outside_json_text": "",
+        "language_status": "CANONICAL_SCHEMA_VALUES",
+        "identity": "AI_SCORING_NOT_HUMAN_GOLD",
+        "full_response_read": false
+      },
+      "visible_map_used": {},
+      "outside_wrapper_allowed": true,
+      "name_representation_compliant": true,
+      "full_response_read": true
+    }
+  },
+  {
+    "source_id": "SRC071",
+    "domain": "loan",
+    "source_form": "JA_PASSIVE",
+    "language": "JA",
+    "pair_indices": [
+      2,
+      1
+    ],
+    "pair_names": [
+      "小川",
+      "森田"
+    ],
+    "fact": "YES",
+    "source_text": "R1：本は小川から森田に貸し出されました。",
+    "role_keys": [
+      "lender",
+      "borrower"
+    ],
+    "role_definitions": "lender是出借方，borrower是借入方。",
+    "call_id": "B14-LLAMA-BASE-SRC071",
+    "model": "llama",
+    "inventory": "NAME_ONLY",
+    "condition": "SINGLE",
+    "target": "R1",
+    "target_id": "R1",
+    "target_record_text": "R1：本は小川から森田に貸し出されました。",
+    "representation": "NAMES",
+    "entity_map": {
+      "E1": "青木",
+      "E2": "森田",
+      "E3": "小川",
+      "E4": "上田"
+    },
+    "visible_id_map": {},
+    "messages": [
+      {
+        "role": "user",
+        "content": "下面每条记录各自描述不同场合的一次具体事件；不要把不同记录合并成同一次事件。只依据文字，不补充常识或背景。\n记录：\"R1：本は小川から森田に貸し出されました。\"\n目标记录：R1\n只记录目标记录中讨论的关系命题，不要记录其他记录中的事件。\n实体表：青木；森田；小川；上田\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"lender\":\"姓名\",\"borrower\":\"姓名\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\nlender是出借方，borrower是借入方。这两个角色字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中的完整姓名。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+      }
+    ],
+    "stage": "A",
+    "prompt_sha256": "d83b4b6fd648d1e18f91ae745ac53dda061c0d30895dba595b0f5065f1775aeb",
+    "execution_origin": "EXACT_OLD_CACHE",
+    "prior_call_id": "B13-LLAMA-NAME_ONLY-SRC071",
+    "position_id": "B14-LLAMA-BASE-SRC071",
+    "kind": "BASELINE",
+    "raw_output": "{\"occurred\":\"YES\",\"lender\":\"森田\",\"borrower\":\"小川\"}",
+    "actual_generation_call_id": "B13-LLAMA-NAME_ONLY-SRC071",
+    "new_forwards": 0,
+    "reference": {
+      "position_id": "B14-LLAMA-BASE-SRC071",
+      "source_id": "SRC071",
+      "occurred": "YES",
+      "role_a": "小川",
+      "role_b": "森田",
+      "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+    },
+    "observation": {
+      "strict": {
+        "labels": {
+          "role_a": "W",
+          "role_b": "W",
+          "occurrence": "C",
+          "participant": "W",
+          "record": "W"
+        },
+        "occurred_asserted": "YES",
+        "decoded_names": {
+          "role_a": "森田",
+          "role_b": "小川"
+        },
+        "raw_fields": {
+          "occurred": "YES",
+          "lender": "森田",
+          "borrower": "小川"
+        },
+        "field_identity_reasons": {
+          "occurred": "UNIQUE",
+          "lender": "UNIQUE",
+          "borrower": "UNIQUE"
+        },
+        "occurrence_reason": "CORRECT",
+        "entity_reasons": {
+          "role_a": "OTHER_LISTED_PERSON",
+          "role_b": "OTHER_LISTED_PERSON"
+        },
+        "unsupported_assertion": false,
+        "explicit_occurrence_contradiction": false,
+        "format_compliance": "PASS",
+        "unique_readable_object": true,
+        "object_or_array_count": 1,
+        "raw_object_pairs": [
+          [
+            "occurred",
+            "YES"
+          ],
+          [
+            "lender",
+            "森田"
+          ],
+          [
+            "borrower",
+            "小川"
+          ]
+        ],
+        "duplicate_keys": [],
+        "extra_keys": [],
+        "noncanonical_entities": [],
+        "outside_json_text": "",
+        "language_status": "CANONICAL_SCHEMA_VALUES",
+        "identity": "AI_SCORING_NOT_HUMAN_GOLD",
+        "full_response_read": false
+      },
+      "content": {
+        "labels": {
+          "role_a": "W",
+          "role_b": "W",
+          "occurrence": "C",
+          "participant": "W",
+          "record": "W"
+        },
+        "occurred_asserted": "YES",
+        "decoded_names": {
+          "role_a": "森田",
+          "role_b": "小川"
+        },
+        "raw_fields": {
+          "occurred": "YES",
+          "lender": "森田",
+          "borrower": "小川"
+        },
+        "field_identity_reasons": {
+          "occurred": "UNIQUE",
+          "lender": "UNIQUE",
+          "borrower": "UNIQUE"
+        },
+        "occurrence_reason": "CORRECT",
+        "entity_reasons": {
+          "role_a": "OTHER_LISTED_PERSON",
+          "role_b": "OTHER_LISTED_PERSON"
+        },
+        "unsupported_assertion": false,
+        "explicit_occurrence_contradiction": false,
+        "format_compliance": "PASS",
+        "unique_readable_object": true,
+        "object_or_array_count": 1,
+        "raw_object_pairs": [
+          [
+            "occurred",
+            "YES"
+          ],
+          [
+            "lender",
+            "森田"
+          ],
+          [
+            "borrower",
+            "小川"
+          ]
+        ],
+        "duplicate_keys": [],
+        "extra_keys": [],
+        "noncanonical_entities": [],
+        "outside_json_text": "",
+        "language_status": "CANONICAL_SCHEMA_VALUES",
+        "identity": "AI_SCORING_NOT_HUMAN_GOLD",
+        "full_response_read": false
+      },
+      "visible_map_used": {},
+      "outside_wrapper_allowed": true,
+      "name_representation_compliant": true,
+      "full_response_read": true
+    }
+  },
+  {
+    "source_id": "SRC072",
+    "domain": "loan",
+    "source_form": "JA_PASSIVE",
+    "language": "JA",
+    "pair_indices": [
+      2,
+      1
+    ],
+    "pair_names": [
+      "小川",
+      "森田"
+    ],
+    "fact": "NO",
+    "source_text": "R1：本は小川から森田に貸し出されませんでした。",
+    "role_keys": [
+      "lender",
+      "borrower"
+    ],
+    "role_definitions": "lender是出借方，borrower是借入方。",
+    "call_id": "B14-LLAMA-BASE-SRC072",
+    "model": "llama",
+    "inventory": "NAME_ONLY",
+    "condition": "SINGLE",
+    "target": "R1",
+    "target_id": "R1",
+    "target_record_text": "R1：本は小川から森田に貸し出されませんでした。",
+    "representation": "NAMES",
+    "entity_map": {
+      "E1": "青木",
+      "E2": "森田",
+      "E3": "小川",
+      "E4": "上田"
+    },
+    "visible_id_map": {},
+    "messages": [
+      {
+        "role": "user",
+        "content": "下面每条记录各自描述不同场合的一次具体事件；不要把不同记录合并成同一次事件。只依据文字，不补充常识或背景。\n记录：\"R1：本は小川から森田に貸し出されませんでした。\"\n目标记录：R1\n只记录目标记录中讨论的关系命题，不要记录其他记录中的事件。\n实体表：青木；森田；小川；上田\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"lender\":\"姓名\",\"borrower\":\"姓名\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\nlender是出借方，borrower是借入方。这两个角色字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中的完整姓名。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+      }
+    ],
+    "stage": "A",
+    "prompt_sha256": "9cc76b312b6d5a732b453e89c5f75e30574b0ae1a6fdde315bae3fa3733e36fb",
+    "execution_origin": "EXACT_OLD_CACHE",
+    "prior_call_id": "B13-LLAMA-NAME_ONLY-SRC072",
+    "position_id": "B14-LLAMA-BASE-SRC072",
+    "kind": "BASELINE",
+    "raw_output": "{\"occurred\":\"NO\",\"lender\":\"森田\",\"borrower\":\"小川\"}",
+    "actual_generation_call_id": "B13-LLAMA-NAME_ONLY-SRC072",
+    "new_forwards": 0,
+    "reference": {
+      "position_id": "B14-LLAMA-BASE-SRC072",
+      "source_id": "SRC072",
+      "occurred": "NO",
+      "role_a": "小川",
+      "role_b": "森田",
+      "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+    },
+    "observation": {
+      "strict": {
+        "labels": {
+          "role_a": "W",
+          "role_b": "W",
+          "occurrence": "C",
+          "participant": "W",
+          "record": "W"
+        },
+        "occurred_asserted": "NO",
+        "decoded_names": {
+          "role_a": "森田",
+          "role_b": "小川"
+        },
+        "raw_fields": {
+          "occurred": "NO",
+          "lender": "森田",
+          "borrower": "小川"
+        },
+        "field_identity_reasons": {
+          "occurred": "UNIQUE",
+          "lender": "UNIQUE",
+          "borrower": "UNIQUE"
+        },
+        "occurrence_reason": "CORRECT",
+        "entity_reasons": {
+          "role_a": "OTHER_LISTED_PERSON",
+          "role_b": "OTHER_LISTED_PERSON"
+        },
+        "unsupported_assertion": false,
+        "explicit_occurrence_contradiction": false,
+        "format_compliance": "PASS",
+        "unique_readable_object": true,
+        "object_or_array_count": 1,
+        "raw_object_pairs": [
+          [
+            "occurred",
+            "NO"
+          ],
+          [
+            "lender",
+            "森田"
+          ],
+          [
+            "borrower",
+            "小川"
+          ]
+        ],
+        "duplicate_keys": [],
+        "extra_keys": [],
+        "noncanonical_entities": [],
+        "outside_json_text": "",
+        "language_status": "CANONICAL_SCHEMA_VALUES",
+        "identity": "AI_SCORING_NOT_HUMAN_GOLD",
+        "full_response_read": false
+      },
+      "content": {
+        "labels": {
+          "role_a": "W",
+          "role_b": "W",
+          "occurrence": "C",
+          "participant": "W",
+          "record": "W"
+        },
+        "occurred_asserted": "NO",
+        "decoded_names": {
+          "role_a": "森田",
+          "role_b": "小川"
+        },
+        "raw_fields": {
+          "occurred": "NO",
+          "lender": "森田",
+          "borrower": "小川"
+        },
+        "field_identity_reasons": {
+          "occurred": "UNIQUE",
+          "lender": "UNIQUE",
+          "borrower": "UNIQUE"
+        },
+        "occurrence_reason": "CORRECT",
+        "entity_reasons": {
+          "role_a": "OTHER_LISTED_PERSON",
+          "role_b": "OTHER_LISTED_PERSON"
+        },
+        "unsupported_assertion": false,
+        "explicit_occurrence_contradiction": false,
+        "format_compliance": "PASS",
+        "unique_readable_object": true,
+        "object_or_array_count": 1,
+        "raw_object_pairs": [
+          [
+            "occurred",
+            "NO"
+          ],
+          [
+            "lender",
+            "森田"
+          ],
+          [
+            "borrower",
+            "小川"
+          ]
+        ],
+        "duplicate_keys": [],
+        "extra_keys": [],
+        "noncanonical_entities": [],
+        "outside_json_text": "",
+        "language_status": "CANONICAL_SCHEMA_VALUES",
+        "identity": "AI_SCORING_NOT_HUMAN_GOLD",
+        "full_response_read": false
+      },
+      "visible_map_used": {},
+      "outside_wrapper_allowed": true,
+      "name_representation_compliant": true,
+      "full_response_read": true
+    }
+  },
+  {
+    "source_id": "SRC073",
+    "domain": "loan",
+    "source_form": "JA_PASSIVE",
+    "language": "JA",
+    "pair_indices": [
+      2,
+      3
+    ],
+    "pair_names": [
+      "小川",
+      "上田"
+    ],
+    "fact": "YES",
+    "source_text": "R1：本は小川から上田に貸し出されました。",
+    "role_keys": [
+      "lender",
+      "borrower"
+    ],
+    "role_definitions": "lender是出借方，borrower是借入方。",
+    "call_id": "B14-LLAMA-BASE-SRC073",
+    "model": "llama",
+    "inventory": "NAME_ONLY",
+    "condition": "SINGLE",
+    "target": "R1",
+    "target_id": "R1",
+    "target_record_text": "R1：本は小川から上田に貸し出されました。",
+    "representation": "NAMES",
+    "entity_map": {
+      "E1": "青木",
+      "E2": "森田",
+      "E3": "小川",
+      "E4": "上田"
+    },
+    "visible_id_map": {},
+    "messages": [
+      {
+        "role": "user",
+        "content": "下面每条记录各自描述不同场合的一次具体事件；不要把不同记录合并成同一次事件。只依据文字，不补充常识或背景。\n记录：\"R1：本は小川から上田に貸し出されました。\"\n目标记录：R1\n只记录目标记录中讨论的关系命题，不要记录其他记录中的事件。\n实体表：青木；森田；小川；上田\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"lender\":\"姓名\",\"borrower\":\"姓名\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\nlender是出借方，borrower是借入方。这两个角色字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中的完整姓名。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+      }
+    ],
+    "stage": "A",
+    "prompt_sha256": "49d05984e14aa10757cbfe076eb015093329ab31b17fa2e93198e20bca9dd5d0",
+    "execution_origin": "EXACT_OLD_CACHE",
+    "prior_call_id": "B13-LLAMA-NAME_ONLY-SRC073",
+    "position_id": "B14-LLAMA-BASE-SRC073",
+    "kind": "BASELINE",
+    "raw_output": "{\"occurred\":\"YES\",\"lender\":\"上田\",\"borrower\":\"小川\"}",
+    "actual_generation_call_id": "B13-LLAMA-NAME_ONLY-SRC073",
+    "new_forwards": 0,
+    "reference": {
+      "position_id": "B14-LLAMA-BASE-SRC073",
+      "source_id": "SRC073",
+      "occurred": "YES",
+      "role_a": "小川",
+      "role_b": "上田",
+      "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+    },
+    "observation": {
+      "strict": {
+        "labels": {
+          "role_a": "W",
+          "role_b": "W",
+          "occurrence": "C",
+          "participant": "W",
+          "record": "W"
+        },
+        "occurred_asserted": "YES",
+        "decoded_names": {
+          "role_a": "上田",
+          "role_b": "小川"
+        },
+        "raw_fields": {
+          "occurred": "YES",
+          "lender": "上田",
+          "borrower": "小川"
+        },
+        "field_identity_reasons": {
+          "occurred": "UNIQUE",
+          "lender": "UNIQUE",
+          "borrower": "UNIQUE"
+        },
+        "occurrence_reason": "CORRECT",
+        "entity_reasons": {
+          "role_a": "OTHER_LISTED_PERSON",
+          "role_b": "OTHER_LISTED_PERSON"
+        },
+        "unsupported_assertion": false,
+        "explicit_occurrence_contradiction": false,
+        "format_compliance": "PASS",
+        "unique_readable_object": true,
+        "object_or_array_count": 1,
+        "raw_object_pairs": [
+          [
+            "occurred",
+            "YES"
+          ],
+          [
+            "lender",
+            "上田"
+          ],
+          [
+            "borrower",
+            "小川"
+          ]
+        ],
+        "duplicate_keys": [],
+        "extra_keys": [],
+        "noncanonical_entities": [],
+        "outside_json_text": "",
+        "language_status": "CANONICAL_SCHEMA_VALUES",
+        "identity": "AI_SCORING_NOT_HUMAN_GOLD",
+        "full_response_read": false
+      },
+      "content": {
+        "labels": {
+          "role_a": "W",
+          "role_b": "W",
+          "occurrence": "C",
+          "participant": "W",
+          "record": "W"
+        },
+        "occurred_asserted": "YES",
+        "decoded_names": {
+          "role_a": "上田",
+          "role_b": "小川"
+        },
+        "raw_fields": {
+          "occurred": "YES",
+          "lender": "上田",
+          "borrower": "小川"
+        },
+        "field_identity_reasons": {
+          "occurred": "UNIQUE",
+          "lender": "UNIQUE",
+          "borrower": "UNIQUE"
+        },
+        "occurrence_reason": "CORRECT",
+        "entity_reasons": {
+          "role_a": "OTHER_LISTED_PERSON",
+          "role_b": "OTHER_LISTED_PERSON"
+        },
+        "unsupported_assertion": false,
+        "explicit_occurrence_contradiction": false,
+        "format_compliance": "PASS",
+        "unique_readable_object": true,
+        "object_or_array_count": 1,
+        "raw_object_pairs": [
+          [
+            "occurred",
+            "YES"
+          ],
+          [
+            "lender",
+            "上田"
+          ],
+          [
+            "borrower",
+            "小川"
+          ]
+        ],
+        "duplicate_keys": [],
+        "extra_keys": [],
+        "noncanonical_entities": [],
+        "outside_json_text": "",
+        "language_status": "CANONICAL_SCHEMA_VALUES",
+        "identity": "AI_SCORING_NOT_HUMAN_GOLD",
+        "full_response_read": false
+      },
+      "visible_map_used": {},
+      "outside_wrapper_allowed": true,
+      "name_representation_compliant": true,
+      "full_response_read": true
+    }
+  },
+  {
+    "source_id": "SRC074",
+    "domain": "loan",
+    "source_form": "JA_PASSIVE",
+    "language": "JA",
+    "pair_indices": [
+      2,
+      3
+    ],
+    "pair_names": [
+      "小川",
+      "上田"
+    ],
+    "fact": "NO",
+    "source_text": "R1：本は小川から上田に貸し出されませんでした。",
+    "role_keys": [
+      "lender",
+      "borrower"
+    ],
+    "role_definitions": "lender是出借方，borrower是借入方。",
+    "call_id": "B14-LLAMA-BASE-SRC074",
+    "model": "llama",
+    "inventory": "NAME_ONLY",
+    "condition": "SINGLE",
+    "target": "R1",
+    "target_id": "R1",
+    "target_record_text": "R1：本は小川から上田に貸し出されませんでした。",
+    "representation": "NAMES",
+    "entity_map": {
+      "E1": "青木",
+      "E2": "森田",
+      "E3": "小川",
+      "E4": "上田"
+    },
+    "visible_id_map": {},
+    "messages": [
+      {
+        "role": "user",
+        "content": "下面每条记录各自描述不同场合的一次具体事件；不要把不同记录合并成同一次事件。只依据文字，不补充常识或背景。\n记录：\"R1：本は小川から上田に貸し出されませんでした。\"\n目标记录：R1\n只记录目标记录中讨论的关系命题，不要记录其他记录中的事件。\n实体表：青木；森田；小川；上田\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"lender\":\"姓名\",\"borrower\":\"姓名\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\nlender是出借方，borrower是借入方。这两个角色字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中的完整姓名。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+      }
+    ],
+    "stage": "A",
+    "prompt_sha256": "1c443cf67774a448bfca49e44f24ccc135a003494f028380cd9bc18885360686",
+    "execution_origin": "EXACT_OLD_CACHE",
+    "prior_call_id": "B13-LLAMA-NAME_ONLY-SRC074",
+    "position_id": "B14-LLAMA-BASE-SRC074",
+    "kind": "BASELINE",
+    "raw_output": "{\"occurred\":\"NO\",\"lender\":\"上田\",\"borrower\":\"小川\"}",
+    "actual_generation_call_id": "B13-LLAMA-NAME_ONLY-SRC074",
+    "new_forwards": 0,
+    "reference": {
+      "position_id": "B14-LLAMA-BASE-SRC074",
+      "source_id": "SRC074",
+      "occurred": "NO",
+      "role_a": "小川",
+      "role_b": "上田",
+      "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+    },
+    "observation": {
+      "strict": {
+        "labels": {
+          "role_a": "W",
+          "role_b": "W",
+          "occurrence": "C",
+          "participant": "W",
+          "record": "W"
+        },
+        "occurred_asserted": "NO",
+        "decoded_names": {
+          "role_a": "上田",
+          "role_b": "小川"
+        },
+        "raw_fields": {
+          "occurred": "NO",
+          "lender": "上田",
+          "borrower": "小川"
+        },
+        "field_identity_reasons": {
+          "occurred": "UNIQUE",
+          "lender": "UNIQUE",
+          "borrower": "UNIQUE"
+        },
+        "occurrence_reason": "CORRECT",
+        "entity_reasons": {
+          "role_a": "OTHER_LISTED_PERSON",
+          "role_b": "OTHER_LISTED_PERSON"
+        },
+        "unsupported_assertion": false,
+        "explicit_occurrence_contradiction": false,
+        "format_compliance": "PASS",
+        "unique_readable_object": true,
+        "object_or_array_count": 1,
+        "raw_object_pairs": [
+          [
+            "occurred",
+            "NO"
+          ],
+          [
+            "lender",
+            "上田"
+          ],
+          [
+            "borrower",
+            "小川"
+          ]
+        ],
+        "duplicate_keys": [],
+        "extra_keys": [],
+        "noncanonical_entities": [],
+        "outside_json_text": "",
+        "language_status": "CANONICAL_SCHEMA_VALUES",
+        "identity": "AI_SCORING_NOT_HUMAN_GOLD",
+        "full_response_read": false
+      },
+      "content": {
+        "labels": {
+          "role_a": "W",
+          "role_b": "W",
+          "occurrence": "C",
+          "participant": "W",
+          "record": "W"
+        },
+        "occurred_asserted": "NO",
+        "decoded_names": {
+          "role_a": "上田",
+          "role_b": "小川"
+        },
+        "raw_fields": {
+          "occurred": "NO",
+          "lender": "上田",
+          "borrower": "小川"
+        },
+        "field_identity_reasons": {
+          "occurred": "UNIQUE",
+          "lender": "UNIQUE",
+          "borrower": "UNIQUE"
+        },
+        "occurrence_reason": "CORRECT",
+        "entity_reasons": {
+          "role_a": "OTHER_LISTED_PERSON",
+          "role_b": "OTHER_LISTED_PERSON"
+        },
+        "unsupported_assertion": false,
+        "explicit_occurrence_contradiction": false,
+        "format_compliance": "PASS",
+        "unique_readable_object": true,
+        "object_or_array_count": 1,
+        "raw_object_pairs": [
+          [
+            "occurred",
+            "NO"
+          ],
+          [
+            "lender",
+            "上田"
+          ],
+          [
+            "borrower",
+            "小川"
+          ]
+        ],
+        "duplicate_keys": [],
+        "extra_keys": [],
+        "noncanonical_entities": [],
+        "outside_json_text": "",
+        "language_status": "CANONICAL_SCHEMA_VALUES",
+        "identity": "AI_SCORING_NOT_HUMAN_GOLD",
+        "full_response_read": false
+      },
+      "visible_map_used": {},
+      "outside_wrapper_allowed": true,
+      "name_representation_compliant": true,
+      "full_response_read": true
+    }
+  }
+]

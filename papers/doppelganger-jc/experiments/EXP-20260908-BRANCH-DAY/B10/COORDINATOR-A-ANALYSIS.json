@@ -1,0 +1,294 @@
+{
+  "experiment_id": "EXP-20260908-B10",
+  "stage": "A",
+  "at": "2026-09-08T05:06:33.111030+00:00",
+  "new_outputs": 200,
+  "new_forwards": 3648,
+  "paid_usd": 0,
+  "finishes": {
+    "EOS": 200
+  },
+  "raw_sha256": "1092f99b2b68945309dfe0b50aa04eb24810304a74d5eec78e1b2a3125e91b38",
+  "all_raw_full_read": true,
+  "independent_human_review": false,
+  "scoring_identity": "COORDINATOR_AI",
+  "noncanonical_entity_components": 0,
+  "counts": [
+    {
+      "condition": "SINGLE",
+      "n": 40,
+      "components": {
+        "occurrence": {
+          "C": 40,
+          "W": 0,
+          "U": 0
+        },
+        "role_a": {
+          "C": 40,
+          "W": 0,
+          "U": 0
+        },
+        "role_b": {
+          "C": 40,
+          "W": 0,
+          "U": 0
+        },
+        "participant": {
+          "C": 40,
+          "W": 0,
+          "U": 0
+        },
+        "record": {
+          "C": 40,
+          "W": 0,
+          "U": 0
+        }
+      },
+      "format": {
+        "PASS": 40
+      }
+    },
+    {
+      "condition": "SAME_TARGET_FIRST",
+      "n": 40,
+      "components": {
+        "occurrence": {
+          "C": 40,
+          "W": 0,
+          "U": 0
+        },
+        "role_a": {
+          "C": 40,
+          "W": 0,
+          "U": 0
+        },
+        "role_b": {
+          "C": 40,
+          "W": 0,
+          "U": 0
+        },
+        "participant": {
+          "C": 40,
+          "W": 0,
+          "U": 0
+        },
+        "record": {
+          "C": 40,
+          "W": 0,
+          "U": 0
+        }
+      },
+      "format": {
+        "PASS": 40
+      }
+    },
+    {
+      "condition": "SAME_TARGET_LAST",
+      "n": 40,
+      "components": {
+        "occurrence": {
+          "C": 39,
+          "W": 1,
+          "U": 0
+        },
+        "role_a": {
+          "C": 40,
+          "W": 0,
+          "U": 0
+        },
+        "role_b": {
+          "C": 40,
+          "W": 0,
+          "U": 0
+        },
+        "participant": {
+          "C": 40,
+          "W": 0,
+          "U": 0
+        },
+        "record": {
+          "C": 39,
+          "W": 1,
+          "U": 0
+        }
+      },
+      "format": {
+        "PASS": 40
+      }
+    },
+    {
+      "condition": "OPPOSITE_TARGET_FIRST",
+      "n": 40,
+      "components": {
+        "occurrence": {
+          "C": 40,
+          "W": 0,
+          "U": 0
+        },
+        "role_a": {
+          "C": 32,
+          "W": 8,
+          "U": 0
+        },
+        "role_b": {
+          "C": 32,
+          "W": 8,
+          "U": 0
+        },
+        "participant": {
+          "C": 32,
+          "W": 8,
+          "U": 0
+        },
+        "record": {
+          "C": 32,
+          "W": 8,
+          "U": 0
+        }
+      },
+      "format": {
+        "PASS": 40
+      }
+    },
+    {
+      "condition": "OPPOSITE_TARGET_LAST",
+      "n": 40,
+      "components": {
+        "occurrence": {
+          "C": 38,
+          "W": 1,
+          "U": 1
+        },
+        "role_a": {
+          "C": 34,
+          "W": 5,
+          "U": 1
+        },
+        "role_b": {
+          "C": 34,
+          "W": 5,
+          "U": 1
+        },
+        "participant": {
+          "C": 34,
+          "W": 5,
+          "U": 1
+        },
+        "record": {
+          "C": 34,
+          "W": 5,
+          "U": 1
+        }
+      },
+      "format": {
+        "PASS": 40
+      }
+    }
+  ],
+  "single_floor": {
+    "pass": true,
+    "full_C": 40,
+    "variant_C": {
+      "BASE": 8,
+      "PARAPHRASE": 8,
+      "ROLE_SWAP": 8,
+      "NEGATED": 8,
+      "UNRESOLVED": 8
+    }
+  },
+  "context_cells": [
+    {
+      "direction": "SAME",
+      "component": "occurrence",
+      "sources": [],
+      "families": [],
+      "pass": false
+    },
+    {
+      "direction": "SAME",
+      "component": "role_a",
+      "sources": [],
+      "families": [],
+      "pass": false
+    },
+    {
+      "direction": "SAME",
+      "component": "role_b",
+      "sources": [],
+      "families": [],
+      "pass": false
+    },
+    {
+      "direction": "OPPOSITE",
+      "component": "occurrence",
+      "sources": [],
+      "families": [],
+      "pass": false
+    },
+    {
+      "direction": "OPPOSITE",
+      "component": "role_a",
+      "sources": [
+        "N02-UNRESOLVED"
+      ],
+      "families": [
+        "N02"
+      ],
+      "pass": false
+    },
+    {
+      "direction": "OPPOSITE",
+      "component": "role_b",
+      "sources": [
+        "N02-UNRESOLVED"
+      ],
+      "families": [
+        "N02"
+      ],
+      "pass": false
+    }
+  ],
+  "binding_cells": [
+    {
+      "correct_direction": "SAME",
+      "wrong_direction": "OPPOSITE",
+      "component": "role_a",
+      "sources": [
+        "N02-UNRESOLVED"
+      ],
+      "families": [
+        "N02"
+      ],
+      "pass": false
+    },
+    {
+      "correct_direction": "SAME",
+      "wrong_direction": "OPPOSITE",
+      "component": "role_b",
+      "sources": [
+        "N02-UNRESOLVED"
+      ],
+      "families": [
+        "N02"
+      ],
+      "pass": false
+    },
+    {
+      "correct_direction": "OPPOSITE",
+      "wrong_direction": "SAME",
+      "component": "role_a",
+      "sources": [],
+      "families": [],
+      "pass": false
+    },
+    {
+      "correct_direction": "OPPOSITE",
+      "wrong_direction": "SAME",
+      "component": "role_b",
+      "sources": [],
+      "families": [],
+      "pass": false
+    }
+  ],
+  "trigger_B": false
+}

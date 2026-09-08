@@ -1,0 +1,3890 @@
+[
+  {
+    "base_call_id": "F0001",
+    "historical_call_id": "RQP-0191",
+    "old_messages": [
+      {
+        "role": "user",
+        "content": "以下四条记录各自描述不同场合的一次具体事件，不要把不同记录合并成同一次事件。\n\nR1：青木は森田を臨時の助手として雇用しました。\nR2：青木は森田を臨時の助手として雇用しました。\nR3：小川は上田を臨時の助手として雇用しました。\nR4：小川は上田を臨時の助手として雇用しました。\n\n目标是记录 R1 中提及的那次事件。\n这次事件中谁雇用了谁？\n只用中文回答，不解释。若答案可唯一确定，用“雇用方是…；受雇方是…”的完整句式填写姓名；若明确这次事件未发生，只回答“雇用未发生”；若现有信息不能唯一确定答案，只回答“信息不足”。不要根据其他事件补全本次事件。"
+      }
+    ],
+    "historical_prompt_sha256": "61da5ad27362496c91115309e97ab99161e9f3e3080960143a9bf11aa13ae31e",
+    "source_form": "JA_ACTIVE",
+    "record_bytes_identical": true,
+    "records": [
+      "R1：青木は森田を臨時の助手として雇用しました。",
+      "R2：青木は森田を臨時の助手として雇用しました。",
+      "R3：小川は上田を臨時の助手として雇用しました。",
+      "R4：小川は上田を臨時の助手として雇用しました。"
+    ],
+    "target_id": "R1",
+    "target_slot": 0,
+    "profile": "SAME",
+    "layout": 0,
+    "single_base_call_id": "S0001",
+    "old_contract": "nonoccurrence answered without roles",
+    "new_contract": "NO retains explicitly mentioned proposition roles",
+    "identity": "REUSED_EXPOSED_AUTHOR_DEVELOPMENT_NOT_NEW_INDEPENDENT_DATA"
+  },
+  {
+    "base_call_id": "F0002",
+    "historical_call_id": "RQP-0192",
+    "old_messages": [
+      {
+        "role": "user",
+        "content": "以下四条记录各自描述不同场合的一次具体事件，不要把不同记录合并成同一次事件。\n\nR1：青木は森田を臨時の助手として雇用しました。\nR2：青木は森田を臨時の助手として雇用しました。\nR3：小川は上田を臨時の助手として雇用しました。\nR4：小川は上田を臨時の助手として雇用しました。\n\n目标是记录 R2 中提及的那次事件。\n这次事件中谁雇用了谁？\n只用中文回答，不解释。若答案可唯一确定，用“雇用方是…；受雇方是…”的完整句式填写姓名；若明确这次事件未发生，只回答“雇用未发生”；若现有信息不能唯一确定答案，只回答“信息不足”。不要根据其他事件补全本次事件。"
+      }
+    ],
+    "historical_prompt_sha256": "588b545145d7d928f84895edc7e00b71d982157ff380765ee58e4f968c47e52b",
+    "source_form": "JA_ACTIVE",
+    "record_bytes_identical": true,
+    "records": [
+      "R1：青木は森田を臨時の助手として雇用しました。",
+      "R2：青木は森田を臨時の助手として雇用しました。",
+      "R3：小川は上田を臨時の助手として雇用しました。",
+      "R4：小川は上田を臨時の助手として雇用しました。"
+    ],
+    "target_id": "R2",
+    "target_slot": 1,
+    "profile": "SAME",
+    "layout": 0,
+    "single_base_call_id": "S0002",
+    "old_contract": "nonoccurrence answered without roles",
+    "new_contract": "NO retains explicitly mentioned proposition roles",
+    "identity": "REUSED_EXPOSED_AUTHOR_DEVELOPMENT_NOT_NEW_INDEPENDENT_DATA"
+  },
+  {
+    "base_call_id": "F0003",
+    "historical_call_id": "RQP-0206",
+    "old_messages": [
+      {
+        "role": "user",
+        "content": "以下四条记录各自描述不同场合的一次具体事件，不要把不同记录合并成同一次事件。\n\nR4：青木は森田を臨時の助手として雇用しました。\nR3：青木は森田を臨時の助手として雇用しました。\nR2：小川は上田を臨時の助手として雇用しました。\nR1：小川は上田を臨時の助手として雇用しました。\n\n目标是记录 R3 中提及的那次事件。\n这次事件中谁雇用了谁？\n只用中文回答，不解释。若答案可唯一确定，用“雇用方是…；受雇方是…”的完整句式填写姓名；若明确这次事件未发生，只回答“雇用未发生”；若现有信息不能唯一确定答案，只回答“信息不足”。不要根据其他事件补全本次事件。"
+      }
+    ],
+    "historical_prompt_sha256": "f0534ee280586048426775e3c1ddb13f48ceb71c51392d65b5b76f72c6d21845",
+    "source_form": "JA_ACTIVE",
+    "record_bytes_identical": true,
+    "records": [
+      "R4：青木は森田を臨時の助手として雇用しました。",
+      "R3：青木は森田を臨時の助手として雇用しました。",
+      "R2：小川は上田を臨時の助手として雇用しました。",
+      "R1：小川は上田を臨時の助手として雇用しました。"
+    ],
+    "target_id": "R3",
+    "target_slot": 0,
+    "profile": "SAME",
+    "layout": 1,
+    "single_base_call_id": "S0003",
+    "old_contract": "nonoccurrence answered without roles",
+    "new_contract": "NO retains explicitly mentioned proposition roles",
+    "identity": "REUSED_EXPOSED_AUTHOR_DEVELOPMENT_NOT_NEW_INDEPENDENT_DATA"
+  },
+  {
+    "base_call_id": "F0004",
+    "historical_call_id": "RQP-0207",
+    "old_messages": [
+      {
+        "role": "user",
+        "content": "以下四条记录各自描述不同场合的一次具体事件，不要把不同记录合并成同一次事件。\n\nR4：青木は森田を臨時の助手として雇用しました。\nR3：青木は森田を臨時の助手として雇用しました。\nR2：小川は上田を臨時の助手として雇用しました。\nR1：小川は上田を臨時の助手として雇用しました。\n\n目标是记录 R4 中提及的那次事件。\n这次事件中谁雇用了谁？\n只用中文回答，不解释。若答案可唯一确定，用“雇用方是…；受雇方是…”的完整句式填写姓名；若明确这次事件未发生，只回答“雇用未发生”；若现有信息不能唯一确定答案，只回答“信息不足”。不要根据其他事件补全本次事件。"
+      }
+    ],
+    "historical_prompt_sha256": "aca925d8b970ea613ea7ce44c85e6b9f307be52696971c2945de47e974a6ad72",
+    "source_form": "JA_ACTIVE",
+    "record_bytes_identical": true,
+    "records": [
+      "R4：青木は森田を臨時の助手として雇用しました。",
+      "R3：青木は森田を臨時の助手として雇用しました。",
+      "R2：小川は上田を臨時の助手として雇用しました。",
+      "R1：小川は上田を臨時の助手として雇用しました。"
+    ],
+    "target_id": "R4",
+    "target_slot": 1,
+    "profile": "SAME",
+    "layout": 1,
+    "single_base_call_id": "S0004",
+    "old_contract": "nonoccurrence answered without roles",
+    "new_contract": "NO retains explicitly mentioned proposition roles",
+    "identity": "REUSED_EXPOSED_AUTHOR_DEVELOPMENT_NOT_NEW_INDEPENDENT_DATA"
+  },
+  {
+    "base_call_id": "F0005",
+    "historical_call_id": "RQP-0221",
+    "old_messages": [
+      {
+        "role": "user",
+        "content": "以下四条记录各自描述不同场合的一次具体事件，不要把不同记录合并成同一次事件。\n\nR1：青木は森田を臨時の助手として雇用しました。\nR2：青木は上田を臨時の助手として雇用しました。\nR3：小川は森田を臨時の助手として雇用しました。\nR4：小川は上田を臨時の助手として雇用しました。\n\n目标是记录 R1 中提及的那次事件。\n这次事件中谁雇用了谁？\n只用中文回答，不解释。若答案可唯一确定，用“雇用方是…；受雇方是…”的完整句式填写姓名；若明确这次事件未发生，只回答“雇用未发生”；若现有信息不能唯一确定答案，只回答“信息不足”。不要根据其他事件补全本次事件。"
+      }
+    ],
+    "historical_prompt_sha256": "2940d90e0d5acf0d3a27c9bbfdf808be30caa846f5ba4469b5c040da9e680da6",
+    "source_form": "JA_ACTIVE",
+    "record_bytes_identical": true,
+    "records": [
+      "R1：青木は森田を臨時の助手として雇用しました。",
+      "R2：青木は上田を臨時の助手として雇用しました。",
+      "R3：小川は森田を臨時の助手として雇用しました。",
+      "R4：小川は上田を臨時の助手として雇用しました。"
+    ],
+    "target_id": "R1",
+    "target_slot": 0,
+    "profile": "COMMON_AGENT",
+    "layout": 0,
+    "single_base_call_id": "S0001",
+    "old_contract": "nonoccurrence answered without roles",
+    "new_contract": "NO retains explicitly mentioned proposition roles",
+    "identity": "REUSED_EXPOSED_AUTHOR_DEVELOPMENT_NOT_NEW_INDEPENDENT_DATA"
+  },
+  {
+    "base_call_id": "F0006",
+    "historical_call_id": "RQP-0222",
+    "old_messages": [
+      {
+        "role": "user",
+        "content": "以下四条记录各自描述不同场合的一次具体事件，不要把不同记录合并成同一次事件。\n\nR1：青木は森田を臨時の助手として雇用しました。\nR2：青木は上田を臨時の助手として雇用しました。\nR3：小川は森田を臨時の助手として雇用しました。\nR4：小川は上田を臨時の助手として雇用しました。\n\n目标是记录 R2 中提及的那次事件。\n这次事件中谁雇用了谁？\n只用中文回答，不解释。若答案可唯一确定，用“雇用方是…；受雇方是…”的完整句式填写姓名；若明确这次事件未发生，只回答“雇用未发生”；若现有信息不能唯一确定答案，只回答“信息不足”。不要根据其他事件补全本次事件。"
+      }
+    ],
+    "historical_prompt_sha256": "554e81f315cb63483bca9b1c72c24341bba7df64397439b0a3f69d918885b971",
+    "source_form": "JA_ACTIVE",
+    "record_bytes_identical": true,
+    "records": [
+      "R1：青木は森田を臨時の助手として雇用しました。",
+      "R2：青木は上田を臨時の助手として雇用しました。",
+      "R3：小川は森田を臨時の助手として雇用しました。",
+      "R4：小川は上田を臨時の助手として雇用しました。"
+    ],
+    "target_id": "R2",
+    "target_slot": 1,
+    "profile": "COMMON_AGENT",
+    "layout": 0,
+    "single_base_call_id": "S0005",
+    "old_contract": "nonoccurrence answered without roles",
+    "new_contract": "NO retains explicitly mentioned proposition roles",
+    "identity": "REUSED_EXPOSED_AUTHOR_DEVELOPMENT_NOT_NEW_INDEPENDENT_DATA"
+  },
+  {
+    "base_call_id": "F0007",
+    "historical_call_id": "RQP-0236",
+    "old_messages": [
+      {
+        "role": "user",
+        "content": "以下四条记录各自描述不同场合的一次具体事件，不要把不同记录合并成同一次事件。\n\nR4：青木は上田を臨時の助手として雇用しました。\nR3：青木は森田を臨時の助手として雇用しました。\nR2：小川は上田を臨時の助手として雇用しました。\nR1：小川は森田を臨時の助手として雇用しました。\n\n目标是记录 R3 中提及的那次事件。\n这次事件中谁雇用了谁？\n只用中文回答，不解释。若答案可唯一确定，用“雇用方是…；受雇方是…”的完整句式填写姓名；若明确这次事件未发生，只回答“雇用未发生”；若现有信息不能唯一确定答案，只回答“信息不足”。不要根据其他事件补全本次事件。"
+      }
+    ],
+    "historical_prompt_sha256": "0f22df7fe35752e4d0062a0a4aac507a805c06a45fed7c1d5b7aed37e3382c3c",
+    "source_form": "JA_ACTIVE",
+    "record_bytes_identical": true,
+    "records": [
+      "R4：青木は上田を臨時の助手として雇用しました。",
+      "R3：青木は森田を臨時の助手として雇用しました。",
+      "R2：小川は上田を臨時の助手として雇用しました。",
+      "R1：小川は森田を臨時の助手として雇用しました。"
+    ],
+    "target_id": "R3",
+    "target_slot": 0,
+    "profile": "COMMON_AGENT",
+    "layout": 1,
+    "single_base_call_id": "S0003",
+    "old_contract": "nonoccurrence answered without roles",
+    "new_contract": "NO retains explicitly mentioned proposition roles",
+    "identity": "REUSED_EXPOSED_AUTHOR_DEVELOPMENT_NOT_NEW_INDEPENDENT_DATA"
+  },
+  {
+    "base_call_id": "F0008",
+    "historical_call_id": "RQP-0237",
+    "old_messages": [
+      {
+        "role": "user",
+        "content": "以下四条记录各自描述不同场合的一次具体事件，不要把不同记录合并成同一次事件。\n\nR4：青木は上田を臨時の助手として雇用しました。\nR3：青木は森田を臨時の助手として雇用しました。\nR2：小川は上田を臨時の助手として雇用しました。\nR1：小川は森田を臨時の助手として雇用しました。\n\n目标是记录 R4 中提及的那次事件。\n这次事件中谁雇用了谁？\n只用中文回答，不解释。若答案可唯一确定，用“雇用方是…；受雇方是…”的完整句式填写姓名；若明确这次事件未发生，只回答“雇用未发生”；若现有信息不能唯一确定答案，只回答“信息不足”。不要根据其他事件补全本次事件。"
+      }
+    ],
+    "historical_prompt_sha256": "a97152371d0f7f5cec89149b2155974713cf2926f378b954a6a808c1d62e4d45",
+    "source_form": "JA_ACTIVE",
+    "record_bytes_identical": true,
+    "records": [
+      "R4：青木は上田を臨時の助手として雇用しました。",
+      "R3：青木は森田を臨時の助手として雇用しました。",
+      "R2：小川は上田を臨時の助手として雇用しました。",
+      "R1：小川は森田を臨時の助手として雇用しました。"
+    ],
+    "target_id": "R4",
+    "target_slot": 1,
+    "profile": "COMMON_AGENT",
+    "layout": 1,
+    "single_base_call_id": "S0006",
+    "old_contract": "nonoccurrence answered without roles",
+    "new_contract": "NO retains explicitly mentioned proposition roles",
+    "identity": "REUSED_EXPOSED_AUTHOR_DEVELOPMENT_NOT_NEW_INDEPENDENT_DATA"
+  },
+  {
+    "base_call_id": "F0009",
+    "historical_call_id": "RQP-0251",
+    "old_messages": [
+      {
+        "role": "user",
+        "content": "以下四条记录各自描述不同场合的一次具体事件，不要把不同记录合并成同一次事件。\n\nR1：青木は森田を臨時の助手として雇用しました。\nR2：小川は森田を臨時の助手として雇用しました。\nR3：青木は上田を臨時の助手として雇用しました。\nR4：小川は上田を臨時の助手として雇用しました。\n\n目标是记录 R1 中提及的那次事件。\n这次事件中谁雇用了谁？\n只用中文回答，不解释。若答案可唯一确定，用“雇用方是…；受雇方是…”的完整句式填写姓名；若明确这次事件未发生，只回答“雇用未发生”；若现有信息不能唯一确定答案，只回答“信息不足”。不要根据其他事件补全本次事件。"
+      }
+    ],
+    "historical_prompt_sha256": "2efddb529e0e425441c67f0279111adf0546669cdbcd69b202997070213ee31d",
+    "source_form": "JA_ACTIVE",
+    "record_bytes_identical": true,
+    "records": [
+      "R1：青木は森田を臨時の助手として雇用しました。",
+      "R2：小川は森田を臨時の助手として雇用しました。",
+      "R3：青木は上田を臨時の助手として雇用しました。",
+      "R4：小川は上田を臨時の助手として雇用しました。"
+    ],
+    "target_id": "R1",
+    "target_slot": 0,
+    "profile": "COMMON_PATIENT",
+    "layout": 0,
+    "single_base_call_id": "S0001",
+    "old_contract": "nonoccurrence answered without roles",
+    "new_contract": "NO retains explicitly mentioned proposition roles",
+    "identity": "REUSED_EXPOSED_AUTHOR_DEVELOPMENT_NOT_NEW_INDEPENDENT_DATA"
+  },
+  {
+    "base_call_id": "F0010",
+    "historical_call_id": "RQP-0252",
+    "old_messages": [
+      {
+        "role": "user",
+        "content": "以下四条记录各自描述不同场合的一次具体事件，不要把不同记录合并成同一次事件。\n\nR1：青木は森田を臨時の助手として雇用しました。\nR2：小川は森田を臨時の助手として雇用しました。\nR3：青木は上田を臨時の助手として雇用しました。\nR4：小川は上田を臨時の助手として雇用しました。\n\n目标是记录 R2 中提及的那次事件。\n这次事件中谁雇用了谁？\n只用中文回答，不解释。若答案可唯一确定，用“雇用方是…；受雇方是…”的完整句式填写姓名；若明确这次事件未发生，只回答“雇用未发生”；若现有信息不能唯一确定答案，只回答“信息不足”。不要根据其他事件补全本次事件。"
+      }
+    ],
+    "historical_prompt_sha256": "4462709c274aeae6638f80ed7cc498b1b8b00226ec8a782779e2112e0186415e",
+    "source_form": "JA_ACTIVE",
+    "record_bytes_identical": true,
+    "records": [
+      "R1：青木は森田を臨時の助手として雇用しました。",
+      "R2：小川は森田を臨時の助手として雇用しました。",
+      "R3：青木は上田を臨時の助手として雇用しました。",
+      "R4：小川は上田を臨時の助手として雇用しました。"
+    ],
+    "target_id": "R2",
+    "target_slot": 1,
+    "profile": "COMMON_PATIENT",
+    "layout": 0,
+    "single_base_call_id": "S0007",
+    "old_contract": "nonoccurrence answered without roles",
+    "new_contract": "NO retains explicitly mentioned proposition roles",
+    "identity": "REUSED_EXPOSED_AUTHOR_DEVELOPMENT_NOT_NEW_INDEPENDENT_DATA"
+  },
+  {
+    "base_call_id": "F0011",
+    "historical_call_id": "RQP-0266",
+    "old_messages": [
+      {
+        "role": "user",
+        "content": "以下四条记录各自描述不同场合的一次具体事件，不要把不同记录合并成同一次事件。\n\nR4：小川は森田を臨時の助手として雇用しました。\nR3：青木は森田を臨時の助手として雇用しました。\nR2：小川は上田を臨時の助手として雇用しました。\nR1：青木は上田を臨時の助手として雇用しました。\n\n目标是记录 R3 中提及的那次事件。\n这次事件中谁雇用了谁？\n只用中文回答，不解释。若答案可唯一确定，用“雇用方是…；受雇方是…”的完整句式填写姓名；若明确这次事件未发生，只回答“雇用未发生”；若现有信息不能唯一确定答案，只回答“信息不足”。不要根据其他事件补全本次事件。"
+      }
+    ],
+    "historical_prompt_sha256": "4354f612854100a54a47b9212de18b13975fa442840336d008cc1bb1182a0e7e",
+    "source_form": "JA_ACTIVE",
+    "record_bytes_identical": true,
+    "records": [
+      "R4：小川は森田を臨時の助手として雇用しました。",
+      "R3：青木は森田を臨時の助手として雇用しました。",
+      "R2：小川は上田を臨時の助手として雇用しました。",
+      "R1：青木は上田を臨時の助手として雇用しました。"
+    ],
+    "target_id": "R3",
+    "target_slot": 0,
+    "profile": "COMMON_PATIENT",
+    "layout": 1,
+    "single_base_call_id": "S0003",
+    "old_contract": "nonoccurrence answered without roles",
+    "new_contract": "NO retains explicitly mentioned proposition roles",
+    "identity": "REUSED_EXPOSED_AUTHOR_DEVELOPMENT_NOT_NEW_INDEPENDENT_DATA"
+  },
+  {
+    "base_call_id": "F0012",
+    "historical_call_id": "RQP-0267",
+    "old_messages": [
+      {
+        "role": "user",
+        "content": "以下四条记录各自描述不同场合的一次具体事件，不要把不同记录合并成同一次事件。\n\nR4：小川は森田を臨時の助手として雇用しました。\nR3：青木は森田を臨時の助手として雇用しました。\nR2：小川は上田を臨時の助手として雇用しました。\nR1：青木は上田を臨時の助手として雇用しました。\n\n目标是记录 R4 中提及的那次事件。\n这次事件中谁雇用了谁？\n只用中文回答，不解释。若答案可唯一确定，用“雇用方是…；受雇方是…”的完整句式填写姓名；若明确这次事件未发生，只回答“雇用未发生”；若现有信息不能唯一确定答案，只回答“信息不足”。不要根据其他事件补全本次事件。"
+      }
+    ],
+    "historical_prompt_sha256": "a5286a429a87fef41b33bb4c561ed7d02fdb36d4b4980e61530951dc2cbd50ee",
+    "source_form": "JA_ACTIVE",
+    "record_bytes_identical": true,
+    "records": [
+      "R4：小川は森田を臨時の助手として雇用しました。",
+      "R3：青木は森田を臨時の助手として雇用しました。",
+      "R2：小川は上田を臨時の助手として雇用しました。",
+      "R1：青木は上田を臨時の助手として雇用しました。"
+    ],
+    "target_id": "R4",
+    "target_slot": 1,
+    "profile": "COMMON_PATIENT",
+    "layout": 1,
+    "single_base_call_id": "S0008",
+    "old_contract": "nonoccurrence answered without roles",
+    "new_contract": "NO retains explicitly mentioned proposition roles",
+    "identity": "REUSED_EXPOSED_AUTHOR_DEVELOPMENT_NOT_NEW_INDEPENDENT_DATA"
+  },
+  {
+    "base_call_id": "F0013",
+    "historical_call_id": "RQP-0281",
+    "old_messages": [
+      {
+        "role": "user",
+        "content": "以下四条记录各自描述不同场合的一次具体事件，不要把不同记录合并成同一次事件。\n\nR1：青木は森田を臨時の助手として雇用しました。\nR2：森田は青木を臨時の助手として雇用しました。\nR3：小川は上田を臨時の助手として雇用しました。\nR4：上田は小川を臨時の助手として雇用しました。\n\n目标是记录 R1 中提及的那次事件。\n这次事件中谁雇用了谁？\n只用中文回答，不解释。若答案可唯一确定，用“雇用方是…；受雇方是…”的完整句式填写姓名；若明确这次事件未发生，只回答“雇用未发生”；若现有信息不能唯一确定答案，只回答“信息不足”。不要根据其他事件补全本次事件。"
+      }
+    ],
+    "historical_prompt_sha256": "b793e830200a8e3cd82e5765f4993ac3d821d86d55b9583278df2b1c02085aae",
+    "source_form": "JA_ACTIVE",
+    "record_bytes_identical": true,
+    "records": [
+      "R1：青木は森田を臨時の助手として雇用しました。",
+      "R2：森田は青木を臨時の助手として雇用しました。",
+      "R3：小川は上田を臨時の助手として雇用しました。",
+      "R4：上田は小川を臨時の助手として雇用しました。"
+    ],
+    "target_id": "R1",
+    "target_slot": 0,
+    "profile": "REVERSED",
+    "layout": 0,
+    "single_base_call_id": "S0001",
+    "old_contract": "nonoccurrence answered without roles",
+    "new_contract": "NO retains explicitly mentioned proposition roles",
+    "identity": "REUSED_EXPOSED_AUTHOR_DEVELOPMENT_NOT_NEW_INDEPENDENT_DATA"
+  },
+  {
+    "base_call_id": "F0014",
+    "historical_call_id": "RQP-0282",
+    "old_messages": [
+      {
+        "role": "user",
+        "content": "以下四条记录各自描述不同场合的一次具体事件，不要把不同记录合并成同一次事件。\n\nR1：青木は森田を臨時の助手として雇用しました。\nR2：森田は青木を臨時の助手として雇用しました。\nR3：小川は上田を臨時の助手として雇用しました。\nR4：上田は小川を臨時の助手として雇用しました。\n\n目标是记录 R2 中提及的那次事件。\n这次事件中谁雇用了谁？\n只用中文回答，不解释。若答案可唯一确定，用“雇用方是…；受雇方是…”的完整句式填写姓名；若明确这次事件未发生，只回答“雇用未发生”；若现有信息不能唯一确定答案，只回答“信息不足”。不要根据其他事件补全本次事件。"
+      }
+    ],
+    "historical_prompt_sha256": "d4bb0d019b3bca7130a106d0479370a9f19822963f409ff52825cd35a7130c82",
+    "source_form": "JA_ACTIVE",
+    "record_bytes_identical": true,
+    "records": [
+      "R1：青木は森田を臨時の助手として雇用しました。",
+      "R2：森田は青木を臨時の助手として雇用しました。",
+      "R3：小川は上田を臨時の助手として雇用しました。",
+      "R4：上田は小川を臨時の助手として雇用しました。"
+    ],
+    "target_id": "R2",
+    "target_slot": 1,
+    "profile": "REVERSED",
+    "layout": 0,
+    "single_base_call_id": "S0009",
+    "old_contract": "nonoccurrence answered without roles",
+    "new_contract": "NO retains explicitly mentioned proposition roles",
+    "identity": "REUSED_EXPOSED_AUTHOR_DEVELOPMENT_NOT_NEW_INDEPENDENT_DATA"
+  },
+  {
+    "base_call_id": "F0015",
+    "historical_call_id": "RQP-0296",
+    "old_messages": [
+      {
+        "role": "user",
+        "content": "以下四条记录各自描述不同场合的一次具体事件，不要把不同记录合并成同一次事件。\n\nR4：森田は青木を臨時の助手として雇用しました。\nR3：青木は森田を臨時の助手として雇用しました。\nR2：上田は小川を臨時の助手として雇用しました。\nR1：小川は上田を臨時の助手として雇用しました。\n\n目标是记录 R3 中提及的那次事件。\n这次事件中谁雇用了谁？\n只用中文回答，不解释。若答案可唯一确定，用“雇用方是…；受雇方是…”的完整句式填写姓名；若明确这次事件未发生，只回答“雇用未发生”；若现有信息不能唯一确定答案，只回答“信息不足”。不要根据其他事件补全本次事件。"
+      }
+    ],
+    "historical_prompt_sha256": "3660a9fa53a3c3d9808f79c58e27d0d3780d907fd40857bfe507745badc64807",
+    "source_form": "JA_ACTIVE",
+    "record_bytes_identical": true,
+    "records": [
+      "R4：森田は青木を臨時の助手として雇用しました。",
+      "R3：青木は森田を臨時の助手として雇用しました。",
+      "R2：上田は小川を臨時の助手として雇用しました。",
+      "R1：小川は上田を臨時の助手として雇用しました。"
+    ],
+    "target_id": "R3",
+    "target_slot": 0,
+    "profile": "REVERSED",
+    "layout": 1,
+    "single_base_call_id": "S0003",
+    "old_contract": "nonoccurrence answered without roles",
+    "new_contract": "NO retains explicitly mentioned proposition roles",
+    "identity": "REUSED_EXPOSED_AUTHOR_DEVELOPMENT_NOT_NEW_INDEPENDENT_DATA"
+  },
+  {
+    "base_call_id": "F0016",
+    "historical_call_id": "RQP-0297",
+    "old_messages": [
+      {
+        "role": "user",
+        "content": "以下四条记录各自描述不同场合的一次具体事件，不要把不同记录合并成同一次事件。\n\nR4：森田は青木を臨時の助手として雇用しました。\nR3：青木は森田を臨時の助手として雇用しました。\nR2：上田は小川を臨時の助手として雇用しました。\nR1：小川は上田を臨時の助手として雇用しました。\n\n目标是记录 R4 中提及的那次事件。\n这次事件中谁雇用了谁？\n只用中文回答，不解释。若答案可唯一确定，用“雇用方是…；受雇方是…”的完整句式填写姓名；若明确这次事件未发生，只回答“雇用未发生”；若现有信息不能唯一确定答案，只回答“信息不足”。不要根据其他事件补全本次事件。"
+      }
+    ],
+    "historical_prompt_sha256": "eac3dbc84960c0eecef06237a6f60b0e19664748017d881234f19d5e4d96c081",
+    "source_form": "JA_ACTIVE",
+    "record_bytes_identical": true,
+    "records": [
+      "R4：森田は青木を臨時の助手として雇用しました。",
+      "R3：青木は森田を臨時の助手として雇用しました。",
+      "R2：上田は小川を臨時の助手として雇用しました。",
+      "R1：小川は上田を臨時の助手として雇用しました。"
+    ],
+    "target_id": "R4",
+    "target_slot": 1,
+    "profile": "REVERSED",
+    "layout": 1,
+    "single_base_call_id": "S0010",
+    "old_contract": "nonoccurrence answered without roles",
+    "new_contract": "NO retains explicitly mentioned proposition roles",
+    "identity": "REUSED_EXPOSED_AUTHOR_DEVELOPMENT_NOT_NEW_INDEPENDENT_DATA"
+  },
+  {
+    "base_call_id": "F0017",
+    "historical_call_id": "RQP-0311",
+    "old_messages": [
+      {
+        "role": "user",
+        "content": "以下四条记录各自描述不同场合的一次具体事件，不要把不同记录合并成同一次事件。\n\nR1：青木は森田を臨時の助手として雇用しました。\nR2：青木は森田を臨時の助手として雇用しませんでした。\nR3：小川は上田を臨時の助手として雇用しました。\nR4：小川は上田を臨時の助手として雇用しませんでした。\n\n目标是记录 R1 中提及的那次事件。\n这次事件中谁雇用了谁？\n只用中文回答，不解释。若答案可唯一确定，用“雇用方是…；受雇方是…”的完整句式填写姓名；若明确这次事件未发生，只回答“雇用未发生”；若现有信息不能唯一确定答案，只回答“信息不足”。不要根据其他事件补全本次事件。"
+      }
+    ],
+    "historical_prompt_sha256": "1be8e044f42c4958589ae40177c5dec6d68c4cc9ee684ac5f0b1573fd271a22c",
+    "source_form": "JA_ACTIVE",
+    "record_bytes_identical": true,
+    "records": [
+      "R1：青木は森田を臨時の助手として雇用しました。",
+      "R2：青木は森田を臨時の助手として雇用しませんでした。",
+      "R3：小川は上田を臨時の助手として雇用しました。",
+      "R4：小川は上田を臨時の助手として雇用しませんでした。"
+    ],
+    "target_id": "R1",
+    "target_slot": 0,
+    "profile": "MIX_POLARITY",
+    "layout": 0,
+    "single_base_call_id": "S0001",
+    "old_contract": "nonoccurrence answered without roles",
+    "new_contract": "NO retains explicitly mentioned proposition roles",
+    "identity": "REUSED_EXPOSED_AUTHOR_DEVELOPMENT_NOT_NEW_INDEPENDENT_DATA"
+  },
+  {
+    "base_call_id": "F0018",
+    "historical_call_id": "RQP-0312",
+    "old_messages": [
+      {
+        "role": "user",
+        "content": "以下四条记录各自描述不同场合的一次具体事件，不要把不同记录合并成同一次事件。\n\nR1：青木は森田を臨時の助手として雇用しました。\nR2：青木は森田を臨時の助手として雇用しませんでした。\nR3：小川は上田を臨時の助手として雇用しました。\nR4：小川は上田を臨時の助手として雇用しませんでした。\n\n目标是记录 R2 中提及的那次事件。\n这次事件中谁雇用了谁？\n只用中文回答，不解释。若答案可唯一确定，用“雇用方是…；受雇方是…”的完整句式填写姓名；若明确这次事件未发生，只回答“雇用未发生”；若现有信息不能唯一确定答案，只回答“信息不足”。不要根据其他事件补全本次事件。"
+      }
+    ],
+    "historical_prompt_sha256": "7cbe426b919abc91e0b96b1f813593a6bd20abd272a945ec4b86fb40383231e5",
+    "source_form": "JA_ACTIVE",
+    "record_bytes_identical": true,
+    "records": [
+      "R1：青木は森田を臨時の助手として雇用しました。",
+      "R2：青木は森田を臨時の助手として雇用しませんでした。",
+      "R3：小川は上田を臨時の助手として雇用しました。",
+      "R4：小川は上田を臨時の助手として雇用しませんでした。"
+    ],
+    "target_id": "R2",
+    "target_slot": 1,
+    "profile": "MIX_POLARITY",
+    "layout": 0,
+    "single_base_call_id": "S0011",
+    "old_contract": "nonoccurrence answered without roles",
+    "new_contract": "NO retains explicitly mentioned proposition roles",
+    "identity": "REUSED_EXPOSED_AUTHOR_DEVELOPMENT_NOT_NEW_INDEPENDENT_DATA"
+  },
+  {
+    "base_call_id": "F0019",
+    "historical_call_id": "RQP-0326",
+    "old_messages": [
+      {
+        "role": "user",
+        "content": "以下四条记录各自描述不同场合的一次具体事件，不要把不同记录合并成同一次事件。\n\nR4：青木は森田を臨時の助手として雇用しませんでした。\nR3：青木は森田を臨時の助手として雇用しました。\nR2：小川は上田を臨時の助手として雇用しませんでした。\nR1：小川は上田を臨時の助手として雇用しました。\n\n目标是记录 R3 中提及的那次事件。\n这次事件中谁雇用了谁？\n只用中文回答，不解释。若答案可唯一确定，用“雇用方是…；受雇方是…”的完整句式填写姓名；若明确这次事件未发生，只回答“雇用未发生”；若现有信息不能唯一确定答案，只回答“信息不足”。不要根据其他事件补全本次事件。"
+      }
+    ],
+    "historical_prompt_sha256": "82d5ed29acd065ff30cc84c964f2d1dc31e556dd25dd8e8e74160c5987c6e58f",
+    "source_form": "JA_ACTIVE",
+    "record_bytes_identical": true,
+    "records": [
+      "R4：青木は森田を臨時の助手として雇用しませんでした。",
+      "R3：青木は森田を臨時の助手として雇用しました。",
+      "R2：小川は上田を臨時の助手として雇用しませんでした。",
+      "R1：小川は上田を臨時の助手として雇用しました。"
+    ],
+    "target_id": "R3",
+    "target_slot": 0,
+    "profile": "MIX_POLARITY",
+    "layout": 1,
+    "single_base_call_id": "S0003",
+    "old_contract": "nonoccurrence answered without roles",
+    "new_contract": "NO retains explicitly mentioned proposition roles",
+    "identity": "REUSED_EXPOSED_AUTHOR_DEVELOPMENT_NOT_NEW_INDEPENDENT_DATA"
+  },
+  {
+    "base_call_id": "F0020",
+    "historical_call_id": "RQP-0327",
+    "old_messages": [
+      {
+        "role": "user",
+        "content": "以下四条记录各自描述不同场合的一次具体事件，不要把不同记录合并成同一次事件。\n\nR4：青木は森田を臨時の助手として雇用しませんでした。\nR3：青木は森田を臨時の助手として雇用しました。\nR2：小川は上田を臨時の助手として雇用しませんでした。\nR1：小川は上田を臨時の助手として雇用しました。\n\n目标是记录 R4 中提及的那次事件。\n这次事件中谁雇用了谁？\n只用中文回答，不解释。若答案可唯一确定，用“雇用方是…；受雇方是…”的完整句式填写姓名；若明确这次事件未发生，只回答“雇用未发生”；若现有信息不能唯一确定答案，只回答“信息不足”。不要根据其他事件补全本次事件。"
+      }
+    ],
+    "historical_prompt_sha256": "57d2cf23e68084307e7d959d87e3de738511f0a990dcec6a40af4567894e90a3",
+    "source_form": "JA_ACTIVE",
+    "record_bytes_identical": true,
+    "records": [
+      "R4：青木は森田を臨時の助手として雇用しませんでした。",
+      "R3：青木は森田を臨時の助手として雇用しました。",
+      "R2：小川は上田を臨時の助手として雇用しませんでした。",
+      "R1：小川は上田を臨時の助手として雇用しました。"
+    ],
+    "target_id": "R4",
+    "target_slot": 1,
+    "profile": "MIX_POLARITY",
+    "layout": 1,
+    "single_base_call_id": "S0012",
+    "old_contract": "nonoccurrence answered without roles",
+    "new_contract": "NO retains explicitly mentioned proposition roles",
+    "identity": "REUSED_EXPOSED_AUTHOR_DEVELOPMENT_NOT_NEW_INDEPENDENT_DATA"
+  },
+  {
+    "base_call_id": "F0021",
+    "historical_call_id": "RQP-0341",
+    "old_messages": [
+      {
+        "role": "user",
+        "content": "以下四条记录各自描述不同场合的一次具体事件，不要把不同记录合并成同一次事件。\n\nR1：青木は森田を臨時の助手として雇用しませんでした。\nR2：小川は上田を臨時の助手として雇用しませんでした。\nR3：青木は森田を臨時の助手として雇用しました。\nR4：小川は上田を臨時の助手として雇用しました。\n\n目标是记录 R1 中提及的那次事件。\n这次事件中谁雇用了谁？\n只用中文回答，不解释。若答案可唯一确定，用“雇用方是…；受雇方是…”的完整句式填写姓名；若明确这次事件未发生，只回答“雇用未发生”；若现有信息不能唯一确定答案，只回答“信息不足”。不要根据其他事件补全本次事件。"
+      }
+    ],
+    "historical_prompt_sha256": "b40d5f719395f4f3dab9e7d81fd0b35900d6fc71443a918635c6741e9ec13d65",
+    "source_form": "JA_ACTIVE",
+    "record_bytes_identical": true,
+    "records": [
+      "R1：青木は森田を臨時の助手として雇用しませんでした。",
+      "R2：小川は上田を臨時の助手として雇用しませんでした。",
+      "R3：青木は森田を臨時の助手として雇用しました。",
+      "R4：小川は上田を臨時の助手として雇用しました。"
+    ],
+    "target_id": "R1",
+    "target_slot": 0,
+    "profile": "BOTH_NEGATIVE",
+    "layout": 0,
+    "single_base_call_id": "S0013",
+    "old_contract": "nonoccurrence answered without roles",
+    "new_contract": "NO retains explicitly mentioned proposition roles",
+    "identity": "REUSED_EXPOSED_AUTHOR_DEVELOPMENT_NOT_NEW_INDEPENDENT_DATA"
+  },
+  {
+    "base_call_id": "F0022",
+    "historical_call_id": "RQP-0342",
+    "old_messages": [
+      {
+        "role": "user",
+        "content": "以下四条记录各自描述不同场合的一次具体事件，不要把不同记录合并成同一次事件。\n\nR1：青木は森田を臨時の助手として雇用しませんでした。\nR2：小川は上田を臨時の助手として雇用しませんでした。\nR3：青木は森田を臨時の助手として雇用しました。\nR4：小川は上田を臨時の助手として雇用しました。\n\n目标是记录 R2 中提及的那次事件。\n这次事件中谁雇用了谁？\n只用中文回答，不解释。若答案可唯一确定，用“雇用方是…；受雇方是…”的完整句式填写姓名；若明确这次事件未发生，只回答“雇用未发生”；若现有信息不能唯一确定答案，只回答“信息不足”。不要根据其他事件补全本次事件。"
+      }
+    ],
+    "historical_prompt_sha256": "c7aed9a58a0ad71993712ba03c7caddc68f4d13d8c40640762ad5c3799d4b11a",
+    "source_form": "JA_ACTIVE",
+    "record_bytes_identical": true,
+    "records": [
+      "R1：青木は森田を臨時の助手として雇用しませんでした。",
+      "R2：小川は上田を臨時の助手として雇用しませんでした。",
+      "R3：青木は森田を臨時の助手として雇用しました。",
+      "R4：小川は上田を臨時の助手として雇用しました。"
+    ],
+    "target_id": "R2",
+    "target_slot": 1,
+    "profile": "BOTH_NEGATIVE",
+    "layout": 0,
+    "single_base_call_id": "S0014",
+    "old_contract": "nonoccurrence answered without roles",
+    "new_contract": "NO retains explicitly mentioned proposition roles",
+    "identity": "REUSED_EXPOSED_AUTHOR_DEVELOPMENT_NOT_NEW_INDEPENDENT_DATA"
+  },
+  {
+    "base_call_id": "F0023",
+    "historical_call_id": "RQP-0356",
+    "old_messages": [
+      {
+        "role": "user",
+        "content": "以下四条记录各自描述不同场合的一次具体事件，不要把不同记录合并成同一次事件。\n\nR4：小川は上田を臨時の助手として雇用しませんでした。\nR3：青木は森田を臨時の助手として雇用しませんでした。\nR2：小川は上田を臨時の助手として雇用しました。\nR1：青木は森田を臨時の助手として雇用しました。\n\n目标是记录 R3 中提及的那次事件。\n这次事件中谁雇用了谁？\n只用中文回答，不解释。若答案可唯一确定，用“雇用方是…；受雇方是…”的完整句式填写姓名；若明确这次事件未发生，只回答“雇用未发生”；若现有信息不能唯一确定答案，只回答“信息不足”。不要根据其他事件补全本次事件。"
+      }
+    ],
+    "historical_prompt_sha256": "b362d96bc6ab9cbecbc3aee22854fa7c113295e64068d1edda5ea61cd1ec1340",
+    "source_form": "JA_ACTIVE",
+    "record_bytes_identical": true,
+    "records": [
+      "R4：小川は上田を臨時の助手として雇用しませんでした。",
+      "R3：青木は森田を臨時の助手として雇用しませんでした。",
+      "R2：小川は上田を臨時の助手として雇用しました。",
+      "R1：青木は森田を臨時の助手として雇用しました。"
+    ],
+    "target_id": "R3",
+    "target_slot": 0,
+    "profile": "BOTH_NEGATIVE",
+    "layout": 1,
+    "single_base_call_id": "S0015",
+    "old_contract": "nonoccurrence answered without roles",
+    "new_contract": "NO retains explicitly mentioned proposition roles",
+    "identity": "REUSED_EXPOSED_AUTHOR_DEVELOPMENT_NOT_NEW_INDEPENDENT_DATA"
+  },
+  {
+    "base_call_id": "F0024",
+    "historical_call_id": "RQP-0357",
+    "old_messages": [
+      {
+        "role": "user",
+        "content": "以下四条记录各自描述不同场合的一次具体事件，不要把不同记录合并成同一次事件。\n\nR4：小川は上田を臨時の助手として雇用しませんでした。\nR3：青木は森田を臨時の助手として雇用しませんでした。\nR2：小川は上田を臨時の助手として雇用しました。\nR1：青木は森田を臨時の助手として雇用しました。\n\n目标是记录 R4 中提及的那次事件。\n这次事件中谁雇用了谁？\n只用中文回答，不解释。若答案可唯一确定，用“雇用方是…；受雇方是…”的完整句式填写姓名；若明确这次事件未发生，只回答“雇用未发生”；若现有信息不能唯一确定答案，只回答“信息不足”。不要根据其他事件补全本次事件。"
+      }
+    ],
+    "historical_prompt_sha256": "20bc592ed41c496b2486ce35a28f4098d5c9ae468fcc425524ff85d2a386a073",
+    "source_form": "JA_ACTIVE",
+    "record_bytes_identical": true,
+    "records": [
+      "R4：小川は上田を臨時の助手として雇用しませんでした。",
+      "R3：青木は森田を臨時の助手として雇用しませんでした。",
+      "R2：小川は上田を臨時の助手として雇用しました。",
+      "R1：青木は森田を臨時の助手として雇用しました。"
+    ],
+    "target_id": "R4",
+    "target_slot": 1,
+    "profile": "BOTH_NEGATIVE",
+    "layout": 1,
+    "single_base_call_id": "S0016",
+    "old_contract": "nonoccurrence answered without roles",
+    "new_contract": "NO retains explicitly mentioned proposition roles",
+    "identity": "REUSED_EXPOSED_AUTHOR_DEVELOPMENT_NOT_NEW_INDEPENDENT_DATA"
+  },
+  {
+    "base_call_id": "F0025",
+    "historical_call_id": "RQP-0551",
+    "old_messages": [
+      {
+        "role": "user",
+        "content": "以下四条记录各自描述不同场合的一次具体事件，不要把不同记录合并成同一次事件。\n\nR1：森田は青木に臨時の助手として雇用されました。\nR2：森田は青木に臨時の助手として雇用されました。\nR3：上田は小川に臨時の助手として雇用されました。\nR4：上田は小川に臨時の助手として雇用されました。\n\n目标是记录 R1 中提及的那次事件。\n这次事件中谁雇用了谁？\n只用中文回答，不解释。若答案可唯一确定，用“雇用方是…；受雇方是…”的完整句式填写姓名；若明确这次事件未发生，只回答“雇用未发生”；若现有信息不能唯一确定答案，只回答“信息不足”。不要根据其他事件补全本次事件。"
+      }
+    ],
+    "historical_prompt_sha256": "a728fabd1867b67750285d2de6fc3c6e452bde7c9bf63163b6495efebda5c3b1",
+    "source_form": "JA_PASSIVE",
+    "record_bytes_identical": true,
+    "records": [
+      "R1：森田は青木に臨時の助手として雇用されました。",
+      "R2：森田は青木に臨時の助手として雇用されました。",
+      "R3：上田は小川に臨時の助手として雇用されました。",
+      "R4：上田は小川に臨時の助手として雇用されました。"
+    ],
+    "target_id": "R1",
+    "target_slot": 0,
+    "profile": "SAME",
+    "layout": 0,
+    "single_base_call_id": "S0017",
+    "old_contract": "nonoccurrence answered without roles",
+    "new_contract": "NO retains explicitly mentioned proposition roles",
+    "identity": "REUSED_EXPOSED_AUTHOR_DEVELOPMENT_NOT_NEW_INDEPENDENT_DATA"
+  },
+  {
+    "base_call_id": "F0026",
+    "historical_call_id": "RQP-0552",
+    "old_messages": [
+      {
+        "role": "user",
+        "content": "以下四条记录各自描述不同场合的一次具体事件，不要把不同记录合并成同一次事件。\n\nR1：森田は青木に臨時の助手として雇用されました。\nR2：森田は青木に臨時の助手として雇用されました。\nR3：上田は小川に臨時の助手として雇用されました。\nR4：上田は小川に臨時の助手として雇用されました。\n\n目标是记录 R2 中提及的那次事件。\n这次事件中谁雇用了谁？\n只用中文回答，不解释。若答案可唯一确定，用“雇用方是…；受雇方是…”的完整句式填写姓名；若明确这次事件未发生，只回答“雇用未发生”；若现有信息不能唯一确定答案，只回答“信息不足”。不要根据其他事件补全本次事件。"
+      }
+    ],
+    "historical_prompt_sha256": "e10fb6a57f4c023a0e3326522bf052a7178b13291587d978e69263ed2f3dea01",
+    "source_form": "JA_PASSIVE",
+    "record_bytes_identical": true,
+    "records": [
+      "R1：森田は青木に臨時の助手として雇用されました。",
+      "R2：森田は青木に臨時の助手として雇用されました。",
+      "R3：上田は小川に臨時の助手として雇用されました。",
+      "R4：上田は小川に臨時の助手として雇用されました。"
+    ],
+    "target_id": "R2",
+    "target_slot": 1,
+    "profile": "SAME",
+    "layout": 0,
+    "single_base_call_id": "S0018",
+    "old_contract": "nonoccurrence answered without roles",
+    "new_contract": "NO retains explicitly mentioned proposition roles",
+    "identity": "REUSED_EXPOSED_AUTHOR_DEVELOPMENT_NOT_NEW_INDEPENDENT_DATA"
+  },
+  {
+    "base_call_id": "F0027",
+    "historical_call_id": "RQP-0566",
+    "old_messages": [
+      {
+        "role": "user",
+        "content": "以下四条记录各自描述不同场合的一次具体事件，不要把不同记录合并成同一次事件。\n\nR4：森田は青木に臨時の助手として雇用されました。\nR3：森田は青木に臨時の助手として雇用されました。\nR2：上田は小川に臨時の助手として雇用されました。\nR1：上田は小川に臨時の助手として雇用されました。\n\n目标是记录 R3 中提及的那次事件。\n这次事件中谁雇用了谁？\n只用中文回答，不解释。若答案可唯一确定，用“雇用方是…；受雇方是…”的完整句式填写姓名；若明确这次事件未发生，只回答“雇用未发生”；若现有信息不能唯一确定答案，只回答“信息不足”。不要根据其他事件补全本次事件。"
+      }
+    ],
+    "historical_prompt_sha256": "4c5f79970603c512ae2169b01fcd0256dcc6b1f245578827d10eb2b29ebfe80f",
+    "source_form": "JA_PASSIVE",
+    "record_bytes_identical": true,
+    "records": [
+      "R4：森田は青木に臨時の助手として雇用されました。",
+      "R3：森田は青木に臨時の助手として雇用されました。",
+      "R2：上田は小川に臨時の助手として雇用されました。",
+      "R1：上田は小川に臨時の助手として雇用されました。"
+    ],
+    "target_id": "R3",
+    "target_slot": 0,
+    "profile": "SAME",
+    "layout": 1,
+    "single_base_call_id": "S0019",
+    "old_contract": "nonoccurrence answered without roles",
+    "new_contract": "NO retains explicitly mentioned proposition roles",
+    "identity": "REUSED_EXPOSED_AUTHOR_DEVELOPMENT_NOT_NEW_INDEPENDENT_DATA"
+  },
+  {
+    "base_call_id": "F0028",
+    "historical_call_id": "RQP-0567",
+    "old_messages": [
+      {
+        "role": "user",
+        "content": "以下四条记录各自描述不同场合的一次具体事件，不要把不同记录合并成同一次事件。\n\nR4：森田は青木に臨時の助手として雇用されました。\nR3：森田は青木に臨時の助手として雇用されました。\nR2：上田は小川に臨時の助手として雇用されました。\nR1：上田は小川に臨時の助手として雇用されました。\n\n目标是记录 R4 中提及的那次事件。\n这次事件中谁雇用了谁？\n只用中文回答，不解释。若答案可唯一确定，用“雇用方是…；受雇方是…”的完整句式填写姓名；若明确这次事件未发生，只回答“雇用未发生”；若现有信息不能唯一确定答案，只回答“信息不足”。不要根据其他事件补全本次事件。"
+      }
+    ],
+    "historical_prompt_sha256": "d755fe053ddb5ff545028b8f1aa14cc9c8e9e8adcb763cfe3104bc0534a17e28",
+    "source_form": "JA_PASSIVE",
+    "record_bytes_identical": true,
+    "records": [
+      "R4：森田は青木に臨時の助手として雇用されました。",
+      "R3：森田は青木に臨時の助手として雇用されました。",
+      "R2：上田は小川に臨時の助手として雇用されました。",
+      "R1：上田は小川に臨時の助手として雇用されました。"
+    ],
+    "target_id": "R4",
+    "target_slot": 1,
+    "profile": "SAME",
+    "layout": 1,
+    "single_base_call_id": "S0020",
+    "old_contract": "nonoccurrence answered without roles",
+    "new_contract": "NO retains explicitly mentioned proposition roles",
+    "identity": "REUSED_EXPOSED_AUTHOR_DEVELOPMENT_NOT_NEW_INDEPENDENT_DATA"
+  },
+  {
+    "base_call_id": "F0029",
+    "historical_call_id": "RQP-0581",
+    "old_messages": [
+      {
+        "role": "user",
+        "content": "以下四条记录各自描述不同场合的一次具体事件，不要把不同记录合并成同一次事件。\n\nR1：森田は青木に臨時の助手として雇用されました。\nR2：上田は青木に臨時の助手として雇用されました。\nR3：森田は小川に臨時の助手として雇用されました。\nR4：上田は小川に臨時の助手として雇用されました。\n\n目标是记录 R1 中提及的那次事件。\n这次事件中谁雇用了谁？\n只用中文回答，不解释。若答案可唯一确定，用“雇用方是…；受雇方是…”的完整句式填写姓名；若明确这次事件未发生，只回答“雇用未发生”；若现有信息不能唯一确定答案，只回答“信息不足”。不要根据其他事件补全本次事件。"
+      }
+    ],
+    "historical_prompt_sha256": "c2f8269fffdeea16c571880c1811503b8ca59f042529a9c067d198728f5dd2e1",
+    "source_form": "JA_PASSIVE",
+    "record_bytes_identical": true,
+    "records": [
+      "R1：森田は青木に臨時の助手として雇用されました。",
+      "R2：上田は青木に臨時の助手として雇用されました。",
+      "R3：森田は小川に臨時の助手として雇用されました。",
+      "R4：上田は小川に臨時の助手として雇用されました。"
+    ],
+    "target_id": "R1",
+    "target_slot": 0,
+    "profile": "COMMON_AGENT",
+    "layout": 0,
+    "single_base_call_id": "S0017",
+    "old_contract": "nonoccurrence answered without roles",
+    "new_contract": "NO retains explicitly mentioned proposition roles",
+    "identity": "REUSED_EXPOSED_AUTHOR_DEVELOPMENT_NOT_NEW_INDEPENDENT_DATA"
+  },
+  {
+    "base_call_id": "F0030",
+    "historical_call_id": "RQP-0582",
+    "old_messages": [
+      {
+        "role": "user",
+        "content": "以下四条记录各自描述不同场合的一次具体事件，不要把不同记录合并成同一次事件。\n\nR1：森田は青木に臨時の助手として雇用されました。\nR2：上田は青木に臨時の助手として雇用されました。\nR3：森田は小川に臨時の助手として雇用されました。\nR4：上田は小川に臨時の助手として雇用されました。\n\n目标是记录 R2 中提及的那次事件。\n这次事件中谁雇用了谁？\n只用中文回答，不解释。若答案可唯一确定，用“雇用方是…；受雇方是…”的完整句式填写姓名；若明确这次事件未发生，只回答“雇用未发生”；若现有信息不能唯一确定答案，只回答“信息不足”。不要根据其他事件补全本次事件。"
+      }
+    ],
+    "historical_prompt_sha256": "12d961842ec46867dab4efffc838d00181432e871a448b3935cf416577dd5782",
+    "source_form": "JA_PASSIVE",
+    "record_bytes_identical": true,
+    "records": [
+      "R1：森田は青木に臨時の助手として雇用されました。",
+      "R2：上田は青木に臨時の助手として雇用されました。",
+      "R3：森田は小川に臨時の助手として雇用されました。",
+      "R4：上田は小川に臨時の助手として雇用されました。"
+    ],
+    "target_id": "R2",
+    "target_slot": 1,
+    "profile": "COMMON_AGENT",
+    "layout": 0,
+    "single_base_call_id": "S0021",
+    "old_contract": "nonoccurrence answered without roles",
+    "new_contract": "NO retains explicitly mentioned proposition roles",
+    "identity": "REUSED_EXPOSED_AUTHOR_DEVELOPMENT_NOT_NEW_INDEPENDENT_DATA"
+  },
+  {
+    "base_call_id": "F0031",
+    "historical_call_id": "RQP-0596",
+    "old_messages": [
+      {
+        "role": "user",
+        "content": "以下四条记录各自描述不同场合的一次具体事件，不要把不同记录合并成同一次事件。\n\nR4：上田は青木に臨時の助手として雇用されました。\nR3：森田は青木に臨時の助手として雇用されました。\nR2：上田は小川に臨時の助手として雇用されました。\nR1：森田は小川に臨時の助手として雇用されました。\n\n目标是记录 R3 中提及的那次事件。\n这次事件中谁雇用了谁？\n只用中文回答，不解释。若答案可唯一确定，用“雇用方是…；受雇方是…”的完整句式填写姓名；若明确这次事件未发生，只回答“雇用未发生”；若现有信息不能唯一确定答案，只回答“信息不足”。不要根据其他事件补全本次事件。"
+      }
+    ],
+    "historical_prompt_sha256": "4761eae87694745de82dc7530d226ebd44b259726d8170ec76073e9b25a726dd",
+    "source_form": "JA_PASSIVE",
+    "record_bytes_identical": true,
+    "records": [
+      "R4：上田は青木に臨時の助手として雇用されました。",
+      "R3：森田は青木に臨時の助手として雇用されました。",
+      "R2：上田は小川に臨時の助手として雇用されました。",
+      "R1：森田は小川に臨時の助手として雇用されました。"
+    ],
+    "target_id": "R3",
+    "target_slot": 0,
+    "profile": "COMMON_AGENT",
+    "layout": 1,
+    "single_base_call_id": "S0019",
+    "old_contract": "nonoccurrence answered without roles",
+    "new_contract": "NO retains explicitly mentioned proposition roles",
+    "identity": "REUSED_EXPOSED_AUTHOR_DEVELOPMENT_NOT_NEW_INDEPENDENT_DATA"
+  },
+  {
+    "base_call_id": "F0032",
+    "historical_call_id": "RQP-0597",
+    "old_messages": [
+      {
+        "role": "user",
+        "content": "以下四条记录各自描述不同场合的一次具体事件，不要把不同记录合并成同一次事件。\n\nR4：上田は青木に臨時の助手として雇用されました。\nR3：森田は青木に臨時の助手として雇用されました。\nR2：上田は小川に臨時の助手として雇用されました。\nR1：森田は小川に臨時の助手として雇用されました。\n\n目标是记录 R4 中提及的那次事件。\n这次事件中谁雇用了谁？\n只用中文回答，不解释。若答案可唯一确定，用“雇用方是…；受雇方是…”的完整句式填写姓名；若明确这次事件未发生，只回答“雇用未发生”；若现有信息不能唯一确定答案，只回答“信息不足”。不要根据其他事件补全本次事件。"
+      }
+    ],
+    "historical_prompt_sha256": "7270a0a585228e94c988ceef99e239214528acac538bc13175bbdac83f87fc97",
+    "source_form": "JA_PASSIVE",
+    "record_bytes_identical": true,
+    "records": [
+      "R4：上田は青木に臨時の助手として雇用されました。",
+      "R3：森田は青木に臨時の助手として雇用されました。",
+      "R2：上田は小川に臨時の助手として雇用されました。",
+      "R1：森田は小川に臨時の助手として雇用されました。"
+    ],
+    "target_id": "R4",
+    "target_slot": 1,
+    "profile": "COMMON_AGENT",
+    "layout": 1,
+    "single_base_call_id": "S0022",
+    "old_contract": "nonoccurrence answered without roles",
+    "new_contract": "NO retains explicitly mentioned proposition roles",
+    "identity": "REUSED_EXPOSED_AUTHOR_DEVELOPMENT_NOT_NEW_INDEPENDENT_DATA"
+  },
+  {
+    "base_call_id": "F0033",
+    "historical_call_id": "RQP-0611",
+    "old_messages": [
+      {
+        "role": "user",
+        "content": "以下四条记录各自描述不同场合的一次具体事件，不要把不同记录合并成同一次事件。\n\nR1：森田は青木に臨時の助手として雇用されました。\nR2：森田は小川に臨時の助手として雇用されました。\nR3：上田は青木に臨時の助手として雇用されました。\nR4：上田は小川に臨時の助手として雇用されました。\n\n目标是记录 R1 中提及的那次事件。\n这次事件中谁雇用了谁？\n只用中文回答，不解释。若答案可唯一确定，用“雇用方是…；受雇方是…”的完整句式填写姓名；若明确这次事件未发生，只回答“雇用未发生”；若现有信息不能唯一确定答案，只回答“信息不足”。不要根据其他事件补全本次事件。"
+      }
+    ],
+    "historical_prompt_sha256": "9076f5c57e78399770a22780fb42d567d9cba78eb3eee0c296173e04773193d9",
+    "source_form": "JA_PASSIVE",
+    "record_bytes_identical": true,
+    "records": [
+      "R1：森田は青木に臨時の助手として雇用されました。",
+      "R2：森田は小川に臨時の助手として雇用されました。",
+      "R3：上田は青木に臨時の助手として雇用されました。",
+      "R4：上田は小川に臨時の助手として雇用されました。"
+    ],
+    "target_id": "R1",
+    "target_slot": 0,
+    "profile": "COMMON_PATIENT",
+    "layout": 0,
+    "single_base_call_id": "S0017",
+    "old_contract": "nonoccurrence answered without roles",
+    "new_contract": "NO retains explicitly mentioned proposition roles",
+    "identity": "REUSED_EXPOSED_AUTHOR_DEVELOPMENT_NOT_NEW_INDEPENDENT_DATA"
+  },
+  {
+    "base_call_id": "F0034",
+    "historical_call_id": "RQP-0612",
+    "old_messages": [
+      {
+        "role": "user",
+        "content": "以下四条记录各自描述不同场合的一次具体事件，不要把不同记录合并成同一次事件。\n\nR1：森田は青木に臨時の助手として雇用されました。\nR2：森田は小川に臨時の助手として雇用されました。\nR3：上田は青木に臨時の助手として雇用されました。\nR4：上田は小川に臨時の助手として雇用されました。\n\n目标是记录 R2 中提及的那次事件。\n这次事件中谁雇用了谁？\n只用中文回答，不解释。若答案可唯一确定，用“雇用方是…；受雇方是…”的完整句式填写姓名；若明确这次事件未发生，只回答“雇用未发生”；若现有信息不能唯一确定答案，只回答“信息不足”。不要根据其他事件补全本次事件。"
+      }
+    ],
+    "historical_prompt_sha256": "444d82ca124c7c9dbf35882af376c56ca75e9ab4f61f636288fe431e9bd672c9",
+    "source_form": "JA_PASSIVE",
+    "record_bytes_identical": true,
+    "records": [
+      "R1：森田は青木に臨時の助手として雇用されました。",
+      "R2：森田は小川に臨時の助手として雇用されました。",
+      "R3：上田は青木に臨時の助手として雇用されました。",
+      "R4：上田は小川に臨時の助手として雇用されました。"
+    ],
+    "target_id": "R2",
+    "target_slot": 1,
+    "profile": "COMMON_PATIENT",
+    "layout": 0,
+    "single_base_call_id": "S0023",
+    "old_contract": "nonoccurrence answered without roles",
+    "new_contract": "NO retains explicitly mentioned proposition roles",
+    "identity": "REUSED_EXPOSED_AUTHOR_DEVELOPMENT_NOT_NEW_INDEPENDENT_DATA"
+  },
+  {
+    "base_call_id": "F0035",
+    "historical_call_id": "RQP-0626",
+    "old_messages": [
+      {
+        "role": "user",
+        "content": "以下四条记录各自描述不同场合的一次具体事件，不要把不同记录合并成同一次事件。\n\nR4：森田は小川に臨時の助手として雇用されました。\nR3：森田は青木に臨時の助手として雇用されました。\nR2：上田は小川に臨時の助手として雇用されました。\nR1：上田は青木に臨時の助手として雇用されました。\n\n目标是记录 R3 中提及的那次事件。\n这次事件中谁雇用了谁？\n只用中文回答，不解释。若答案可唯一确定，用“雇用方是…；受雇方是…”的完整句式填写姓名；若明确这次事件未发生，只回答“雇用未发生”；若现有信息不能唯一确定答案，只回答“信息不足”。不要根据其他事件补全本次事件。"
+      }
+    ],
+    "historical_prompt_sha256": "d2ad5a7700fb1b4e964bb8c4f1954f6a83a3b912f3d527f8f72434ccd44474c8",
+    "source_form": "JA_PASSIVE",
+    "record_bytes_identical": true,
+    "records": [
+      "R4：森田は小川に臨時の助手として雇用されました。",
+      "R3：森田は青木に臨時の助手として雇用されました。",
+      "R2：上田は小川に臨時の助手として雇用されました。",
+      "R1：上田は青木に臨時の助手として雇用されました。"
+    ],
+    "target_id": "R3",
+    "target_slot": 0,
+    "profile": "COMMON_PATIENT",
+    "layout": 1,
+    "single_base_call_id": "S0019",
+    "old_contract": "nonoccurrence answered without roles",
+    "new_contract": "NO retains explicitly mentioned proposition roles",
+    "identity": "REUSED_EXPOSED_AUTHOR_DEVELOPMENT_NOT_NEW_INDEPENDENT_DATA"
+  },
+  {
+    "base_call_id": "F0036",
+    "historical_call_id": "RQP-0627",
+    "old_messages": [
+      {
+        "role": "user",
+        "content": "以下四条记录各自描述不同场合的一次具体事件，不要把不同记录合并成同一次事件。\n\nR4：森田は小川に臨時の助手として雇用されました。\nR3：森田は青木に臨時の助手として雇用されました。\nR2：上田は小川に臨時の助手として雇用されました。\nR1：上田は青木に臨時の助手として雇用されました。\n\n目标是记录 R4 中提及的那次事件。\n这次事件中谁雇用了谁？\n只用中文回答，不解释。若答案可唯一确定，用“雇用方是…；受雇方是…”的完整句式填写姓名；若明确这次事件未发生，只回答“雇用未发生”；若现有信息不能唯一确定答案，只回答“信息不足”。不要根据其他事件补全本次事件。"
+      }
+    ],
+    "historical_prompt_sha256": "7df6274dfef3575916abe3e6d4bc8fabdfba361f279336781a07b9a6b2b54c92",
+    "source_form": "JA_PASSIVE",
+    "record_bytes_identical": true,
+    "records": [
+      "R4：森田は小川に臨時の助手として雇用されました。",
+      "R3：森田は青木に臨時の助手として雇用されました。",
+      "R2：上田は小川に臨時の助手として雇用されました。",
+      "R1：上田は青木に臨時の助手として雇用されました。"
+    ],
+    "target_id": "R4",
+    "target_slot": 1,
+    "profile": "COMMON_PATIENT",
+    "layout": 1,
+    "single_base_call_id": "S0024",
+    "old_contract": "nonoccurrence answered without roles",
+    "new_contract": "NO retains explicitly mentioned proposition roles",
+    "identity": "REUSED_EXPOSED_AUTHOR_DEVELOPMENT_NOT_NEW_INDEPENDENT_DATA"
+  },
+  {
+    "base_call_id": "F0037",
+    "historical_call_id": "RQP-0641",
+    "old_messages": [
+      {
+        "role": "user",
+        "content": "以下四条记录各自描述不同场合的一次具体事件，不要把不同记录合并成同一次事件。\n\nR1：森田は青木に臨時の助手として雇用されました。\nR2：青木は森田に臨時の助手として雇用されました。\nR3：上田は小川に臨時の助手として雇用されました。\nR4：小川は上田に臨時の助手として雇用されました。\n\n目标是记录 R1 中提及的那次事件。\n这次事件中谁雇用了谁？\n只用中文回答，不解释。若答案可唯一确定，用“雇用方是…；受雇方是…”的完整句式填写姓名；若明确这次事件未发生，只回答“雇用未发生”；若现有信息不能唯一确定答案，只回答“信息不足”。不要根据其他事件补全本次事件。"
+      }
+    ],
+    "historical_prompt_sha256": "3d09d173159e0230663a5c1e8e80d50a8b7072bddbaecd716911bd5db9ca75f1",
+    "source_form": "JA_PASSIVE",
+    "record_bytes_identical": true,
+    "records": [
+      "R1：森田は青木に臨時の助手として雇用されました。",
+      "R2：青木は森田に臨時の助手として雇用されました。",
+      "R3：上田は小川に臨時の助手として雇用されました。",
+      "R4：小川は上田に臨時の助手として雇用されました。"
+    ],
+    "target_id": "R1",
+    "target_slot": 0,
+    "profile": "REVERSED",
+    "layout": 0,
+    "single_base_call_id": "S0017",
+    "old_contract": "nonoccurrence answered without roles",
+    "new_contract": "NO retains explicitly mentioned proposition roles",
+    "identity": "REUSED_EXPOSED_AUTHOR_DEVELOPMENT_NOT_NEW_INDEPENDENT_DATA"
+  },
+  {
+    "base_call_id": "F0038",
+    "historical_call_id": "RQP-0642",
+    "old_messages": [
+      {
+        "role": "user",
+        "content": "以下四条记录各自描述不同场合的一次具体事件，不要把不同记录合并成同一次事件。\n\nR1：森田は青木に臨時の助手として雇用されました。\nR2：青木は森田に臨時の助手として雇用されました。\nR3：上田は小川に臨時の助手として雇用されました。\nR4：小川は上田に臨時の助手として雇用されました。\n\n目标是记录 R2 中提及的那次事件。\n这次事件中谁雇用了谁？\n只用中文回答，不解释。若答案可唯一确定，用“雇用方是…；受雇方是…”的完整句式填写姓名；若明确这次事件未发生，只回答“雇用未发生”；若现有信息不能唯一确定答案，只回答“信息不足”。不要根据其他事件补全本次事件。"
+      }
+    ],
+    "historical_prompt_sha256": "cd1b6044d5178c7db1bd7c8b5763f43c2f2319dda1a6c06205017055ca4e08bf",
+    "source_form": "JA_PASSIVE",
+    "record_bytes_identical": true,
+    "records": [
+      "R1：森田は青木に臨時の助手として雇用されました。",
+      "R2：青木は森田に臨時の助手として雇用されました。",
+      "R3：上田は小川に臨時の助手として雇用されました。",
+      "R4：小川は上田に臨時の助手として雇用されました。"
+    ],
+    "target_id": "R2",
+    "target_slot": 1,
+    "profile": "REVERSED",
+    "layout": 0,
+    "single_base_call_id": "S0025",
+    "old_contract": "nonoccurrence answered without roles",
+    "new_contract": "NO retains explicitly mentioned proposition roles",
+    "identity": "REUSED_EXPOSED_AUTHOR_DEVELOPMENT_NOT_NEW_INDEPENDENT_DATA"
+  },
+  {
+    "base_call_id": "F0039",
+    "historical_call_id": "RQP-0656",
+    "old_messages": [
+      {
+        "role": "user",
+        "content": "以下四条记录各自描述不同场合的一次具体事件，不要把不同记录合并成同一次事件。\n\nR4：青木は森田に臨時の助手として雇用されました。\nR3：森田は青木に臨時の助手として雇用されました。\nR2：小川は上田に臨時の助手として雇用されました。\nR1：上田は小川に臨時の助手として雇用されました。\n\n目标是记录 R3 中提及的那次事件。\n这次事件中谁雇用了谁？\n只用中文回答，不解释。若答案可唯一确定，用“雇用方是…；受雇方是…”的完整句式填写姓名；若明确这次事件未发生，只回答“雇用未发生”；若现有信息不能唯一确定答案，只回答“信息不足”。不要根据其他事件补全本次事件。"
+      }
+    ],
+    "historical_prompt_sha256": "692507a34ec2ca18975164a9ba2037526a34cadbf75abe3bfa4bb9708e42bc16",
+    "source_form": "JA_PASSIVE",
+    "record_bytes_identical": true,
+    "records": [
+      "R4：青木は森田に臨時の助手として雇用されました。",
+      "R3：森田は青木に臨時の助手として雇用されました。",
+      "R2：小川は上田に臨時の助手として雇用されました。",
+      "R1：上田は小川に臨時の助手として雇用されました。"
+    ],
+    "target_id": "R3",
+    "target_slot": 0,
+    "profile": "REVERSED",
+    "layout": 1,
+    "single_base_call_id": "S0019",
+    "old_contract": "nonoccurrence answered without roles",
+    "new_contract": "NO retains explicitly mentioned proposition roles",
+    "identity": "REUSED_EXPOSED_AUTHOR_DEVELOPMENT_NOT_NEW_INDEPENDENT_DATA"
+  },
+  {
+    "base_call_id": "F0040",
+    "historical_call_id": "RQP-0657",
+    "old_messages": [
+      {
+        "role": "user",
+        "content": "以下四条记录各自描述不同场合的一次具体事件，不要把不同记录合并成同一次事件。\n\nR4：青木は森田に臨時の助手として雇用されました。\nR3：森田は青木に臨時の助手として雇用されました。\nR2：小川は上田に臨時の助手として雇用されました。\nR1：上田は小川に臨時の助手として雇用されました。\n\n目标是记录 R4 中提及的那次事件。\n这次事件中谁雇用了谁？\n只用中文回答，不解释。若答案可唯一确定，用“雇用方是…；受雇方是…”的完整句式填写姓名；若明确这次事件未发生，只回答“雇用未发生”；若现有信息不能唯一确定答案，只回答“信息不足”。不要根据其他事件补全本次事件。"
+      }
+    ],
+    "historical_prompt_sha256": "239067d1869c5af97a4a5e7b59972a4f5e7031e4b7c9f455271b42e1bbdc6d2d",
+    "source_form": "JA_PASSIVE",
+    "record_bytes_identical": true,
+    "records": [
+      "R4：青木は森田に臨時の助手として雇用されました。",
+      "R3：森田は青木に臨時の助手として雇用されました。",
+      "R2：小川は上田に臨時の助手として雇用されました。",
+      "R1：上田は小川に臨時の助手として雇用されました。"
+    ],
+    "target_id": "R4",
+    "target_slot": 1,
+    "profile": "REVERSED",
+    "layout": 1,
+    "single_base_call_id": "S0026",
+    "old_contract": "nonoccurrence answered without roles",
+    "new_contract": "NO retains explicitly mentioned proposition roles",
+    "identity": "REUSED_EXPOSED_AUTHOR_DEVELOPMENT_NOT_NEW_INDEPENDENT_DATA"
+  },
+  {
+    "base_call_id": "F0041",
+    "historical_call_id": "RQP-0671",
+    "old_messages": [
+      {
+        "role": "user",
+        "content": "以下四条记录各自描述不同场合的一次具体事件，不要把不同记录合并成同一次事件。\n\nR1：森田は青木に臨時の助手として雇用されました。\nR2：森田は青木に臨時の助手として雇用されませんでした。\nR3：上田は小川に臨時の助手として雇用されました。\nR4：上田は小川に臨時の助手として雇用されませんでした。\n\n目标是记录 R1 中提及的那次事件。\n这次事件中谁雇用了谁？\n只用中文回答，不解释。若答案可唯一确定，用“雇用方是…；受雇方是…”的完整句式填写姓名；若明确这次事件未发生，只回答“雇用未发生”；若现有信息不能唯一确定答案，只回答“信息不足”。不要根据其他事件补全本次事件。"
+      }
+    ],
+    "historical_prompt_sha256": "294181a597d75c328cc44135e60aacf757a1a9a4e9790e7cfe78419961431727",
+    "source_form": "JA_PASSIVE",
+    "record_bytes_identical": true,
+    "records": [
+      "R1：森田は青木に臨時の助手として雇用されました。",
+      "R2：森田は青木に臨時の助手として雇用されませんでした。",
+      "R3：上田は小川に臨時の助手として雇用されました。",
+      "R4：上田は小川に臨時の助手として雇用されませんでした。"
+    ],
+    "target_id": "R1",
+    "target_slot": 0,
+    "profile": "MIX_POLARITY",
+    "layout": 0,
+    "single_base_call_id": "S0017",
+    "old_contract": "nonoccurrence answered without roles",
+    "new_contract": "NO retains explicitly mentioned proposition roles",
+    "identity": "REUSED_EXPOSED_AUTHOR_DEVELOPMENT_NOT_NEW_INDEPENDENT_DATA"
+  },
+  {
+    "base_call_id": "F0042",
+    "historical_call_id": "RQP-0672",
+    "old_messages": [
+      {
+        "role": "user",
+        "content": "以下四条记录各自描述不同场合的一次具体事件，不要把不同记录合并成同一次事件。\n\nR1：森田は青木に臨時の助手として雇用されました。\nR2：森田は青木に臨時の助手として雇用されませんでした。\nR3：上田は小川に臨時の助手として雇用されました。\nR4：上田は小川に臨時の助手として雇用されませんでした。\n\n目标是记录 R2 中提及的那次事件。\n这次事件中谁雇用了谁？\n只用中文回答，不解释。若答案可唯一确定，用“雇用方是…；受雇方是…”的完整句式填写姓名；若明确这次事件未发生，只回答“雇用未发生”；若现有信息不能唯一确定答案，只回答“信息不足”。不要根据其他事件补全本次事件。"
+      }
+    ],
+    "historical_prompt_sha256": "144b6172988f42ce435707b812e6af5d6b7f85edf4441ee3b76f6e47b2ea3b96",
+    "source_form": "JA_PASSIVE",
+    "record_bytes_identical": true,
+    "records": [
+      "R1：森田は青木に臨時の助手として雇用されました。",
+      "R2：森田は青木に臨時の助手として雇用されませんでした。",
+      "R3：上田は小川に臨時の助手として雇用されました。",
+      "R4：上田は小川に臨時の助手として雇用されませんでした。"
+    ],
+    "target_id": "R2",
+    "target_slot": 1,
+    "profile": "MIX_POLARITY",
+    "layout": 0,
+    "single_base_call_id": "S0027",
+    "old_contract": "nonoccurrence answered without roles",
+    "new_contract": "NO retains explicitly mentioned proposition roles",
+    "identity": "REUSED_EXPOSED_AUTHOR_DEVELOPMENT_NOT_NEW_INDEPENDENT_DATA"
+  },
+  {
+    "base_call_id": "F0043",
+    "historical_call_id": "RQP-0686",
+    "old_messages": [
+      {
+        "role": "user",
+        "content": "以下四条记录各自描述不同场合的一次具体事件，不要把不同记录合并成同一次事件。\n\nR4：森田は青木に臨時の助手として雇用されませんでした。\nR3：森田は青木に臨時の助手として雇用されました。\nR2：上田は小川に臨時の助手として雇用されませんでした。\nR1：上田は小川に臨時の助手として雇用されました。\n\n目标是记录 R3 中提及的那次事件。\n这次事件中谁雇用了谁？\n只用中文回答，不解释。若答案可唯一确定，用“雇用方是…；受雇方是…”的完整句式填写姓名；若明确这次事件未发生，只回答“雇用未发生”；若现有信息不能唯一确定答案，只回答“信息不足”。不要根据其他事件补全本次事件。"
+      }
+    ],
+    "historical_prompt_sha256": "7790c2c8ace5d9439766322cd0e456b64b2b71e5a287f5fc675fa19ed2aca444",
+    "source_form": "JA_PASSIVE",
+    "record_bytes_identical": true,
+    "records": [
+      "R4：森田は青木に臨時の助手として雇用されませんでした。",
+      "R3：森田は青木に臨時の助手として雇用されました。",
+      "R2：上田は小川に臨時の助手として雇用されませんでした。",
+      "R1：上田は小川に臨時の助手として雇用されました。"
+    ],
+    "target_id": "R3",
+    "target_slot": 0,
+    "profile": "MIX_POLARITY",
+    "layout": 1,
+    "single_base_call_id": "S0019",
+    "old_contract": "nonoccurrence answered without roles",
+    "new_contract": "NO retains explicitly mentioned proposition roles",
+    "identity": "REUSED_EXPOSED_AUTHOR_DEVELOPMENT_NOT_NEW_INDEPENDENT_DATA"
+  },
+  {
+    "base_call_id": "F0044",
+    "historical_call_id": "RQP-0687",
+    "old_messages": [
+      {
+        "role": "user",
+        "content": "以下四条记录各自描述不同场合的一次具体事件，不要把不同记录合并成同一次事件。\n\nR4：森田は青木に臨時の助手として雇用されませんでした。\nR3：森田は青木に臨時の助手として雇用されました。\nR2：上田は小川に臨時の助手として雇用されませんでした。\nR1：上田は小川に臨時の助手として雇用されました。\n\n目标是记录 R4 中提及的那次事件。\n这次事件中谁雇用了谁？\n只用中文回答，不解释。若答案可唯一确定，用“雇用方是…；受雇方是…”的完整句式填写姓名；若明确这次事件未发生，只回答“雇用未发生”；若现有信息不能唯一确定答案，只回答“信息不足”。不要根据其他事件补全本次事件。"
+      }
+    ],
+    "historical_prompt_sha256": "38523bd4bace29950b947f9080b7dd68839703ea593481715465952053dfdb53",
+    "source_form": "JA_PASSIVE",
+    "record_bytes_identical": true,
+    "records": [
+      "R4：森田は青木に臨時の助手として雇用されませんでした。",
+      "R3：森田は青木に臨時の助手として雇用されました。",
+      "R2：上田は小川に臨時の助手として雇用されませんでした。",
+      "R1：上田は小川に臨時の助手として雇用されました。"
+    ],
+    "target_id": "R4",
+    "target_slot": 1,
+    "profile": "MIX_POLARITY",
+    "layout": 1,
+    "single_base_call_id": "S0028",
+    "old_contract": "nonoccurrence answered without roles",
+    "new_contract": "NO retains explicitly mentioned proposition roles",
+    "identity": "REUSED_EXPOSED_AUTHOR_DEVELOPMENT_NOT_NEW_INDEPENDENT_DATA"
+  },
+  {
+    "base_call_id": "F0045",
+    "historical_call_id": "RQP-0701",
+    "old_messages": [
+      {
+        "role": "user",
+        "content": "以下四条记录各自描述不同场合的一次具体事件，不要把不同记录合并成同一次事件。\n\nR1：森田は青木に臨時の助手として雇用されませんでした。\nR2：上田は小川に臨時の助手として雇用されませんでした。\nR3：森田は青木に臨時の助手として雇用されました。\nR4：上田は小川に臨時の助手として雇用されました。\n\n目标是记录 R1 中提及的那次事件。\n这次事件中谁雇用了谁？\n只用中文回答，不解释。若答案可唯一确定，用“雇用方是…；受雇方是…”的完整句式填写姓名；若明确这次事件未发生，只回答“雇用未发生”；若现有信息不能唯一确定答案，只回答“信息不足”。不要根据其他事件补全本次事件。"
+      }
+    ],
+    "historical_prompt_sha256": "b430d40f54afd83b75a4d2ccc73f4bd2bbb942862724a1db6a72f760469fad53",
+    "source_form": "JA_PASSIVE",
+    "record_bytes_identical": true,
+    "records": [
+      "R1：森田は青木に臨時の助手として雇用されませんでした。",
+      "R2：上田は小川に臨時の助手として雇用されませんでした。",
+      "R3：森田は青木に臨時の助手として雇用されました。",
+      "R4：上田は小川に臨時の助手として雇用されました。"
+    ],
+    "target_id": "R1",
+    "target_slot": 0,
+    "profile": "BOTH_NEGATIVE",
+    "layout": 0,
+    "single_base_call_id": "S0029",
+    "old_contract": "nonoccurrence answered without roles",
+    "new_contract": "NO retains explicitly mentioned proposition roles",
+    "identity": "REUSED_EXPOSED_AUTHOR_DEVELOPMENT_NOT_NEW_INDEPENDENT_DATA"
+  },
+  {
+    "base_call_id": "F0046",
+    "historical_call_id": "RQP-0702",
+    "old_messages": [
+      {
+        "role": "user",
+        "content": "以下四条记录各自描述不同场合的一次具体事件，不要把不同记录合并成同一次事件。\n\nR1：森田は青木に臨時の助手として雇用されませんでした。\nR2：上田は小川に臨時の助手として雇用されませんでした。\nR3：森田は青木に臨時の助手として雇用されました。\nR4：上田は小川に臨時の助手として雇用されました。\n\n目标是记录 R2 中提及的那次事件。\n这次事件中谁雇用了谁？\n只用中文回答，不解释。若答案可唯一确定，用“雇用方是…；受雇方是…”的完整句式填写姓名；若明确这次事件未发生，只回答“雇用未发生”；若现有信息不能唯一确定答案，只回答“信息不足”。不要根据其他事件补全本次事件。"
+      }
+    ],
+    "historical_prompt_sha256": "294e10ea2c3275c1f50964900acbce52afe91f7815fbfbdfbc179233fd15b3dc",
+    "source_form": "JA_PASSIVE",
+    "record_bytes_identical": true,
+    "records": [
+      "R1：森田は青木に臨時の助手として雇用されませんでした。",
+      "R2：上田は小川に臨時の助手として雇用されませんでした。",
+      "R3：森田は青木に臨時の助手として雇用されました。",
+      "R4：上田は小川に臨時の助手として雇用されました。"
+    ],
+    "target_id": "R2",
+    "target_slot": 1,
+    "profile": "BOTH_NEGATIVE",
+    "layout": 0,
+    "single_base_call_id": "S0030",
+    "old_contract": "nonoccurrence answered without roles",
+    "new_contract": "NO retains explicitly mentioned proposition roles",
+    "identity": "REUSED_EXPOSED_AUTHOR_DEVELOPMENT_NOT_NEW_INDEPENDENT_DATA"
+  },
+  {
+    "base_call_id": "F0047",
+    "historical_call_id": "RQP-0716",
+    "old_messages": [
+      {
+        "role": "user",
+        "content": "以下四条记录各自描述不同场合的一次具体事件，不要把不同记录合并成同一次事件。\n\nR4：上田は小川に臨時の助手として雇用されませんでした。\nR3：森田は青木に臨時の助手として雇用されませんでした。\nR2：上田は小川に臨時の助手として雇用されました。\nR1：森田は青木に臨時の助手として雇用されました。\n\n目标是记录 R3 中提及的那次事件。\n这次事件中谁雇用了谁？\n只用中文回答，不解释。若答案可唯一确定，用“雇用方是…；受雇方是…”的完整句式填写姓名；若明确这次事件未发生，只回答“雇用未发生”；若现有信息不能唯一确定答案，只回答“信息不足”。不要根据其他事件补全本次事件。"
+      }
+    ],
+    "historical_prompt_sha256": "2cf8c177342856da5b65b597f9455fa0ff1343772ff97e376cef62a364e7a177",
+    "source_form": "JA_PASSIVE",
+    "record_bytes_identical": true,
+    "records": [
+      "R4：上田は小川に臨時の助手として雇用されませんでした。",
+      "R3：森田は青木に臨時の助手として雇用されませんでした。",
+      "R2：上田は小川に臨時の助手として雇用されました。",
+      "R1：森田は青木に臨時の助手として雇用されました。"
+    ],
+    "target_id": "R3",
+    "target_slot": 0,
+    "profile": "BOTH_NEGATIVE",
+    "layout": 1,
+    "single_base_call_id": "S0031",
+    "old_contract": "nonoccurrence answered without roles",
+    "new_contract": "NO retains explicitly mentioned proposition roles",
+    "identity": "REUSED_EXPOSED_AUTHOR_DEVELOPMENT_NOT_NEW_INDEPENDENT_DATA"
+  },
+  {
+    "base_call_id": "F0048",
+    "historical_call_id": "RQP-0717",
+    "old_messages": [
+      {
+        "role": "user",
+        "content": "以下四条记录各自描述不同场合的一次具体事件，不要把不同记录合并成同一次事件。\n\nR4：上田は小川に臨時の助手として雇用されませんでした。\nR3：森田は青木に臨時の助手として雇用されませんでした。\nR2：上田は小川に臨時の助手として雇用されました。\nR1：森田は青木に臨時の助手として雇用されました。\n\n目标是记录 R4 中提及的那次事件。\n这次事件中谁雇用了谁？\n只用中文回答，不解释。若答案可唯一确定，用“雇用方是…；受雇方是…”的完整句式填写姓名；若明确这次事件未发生，只回答“雇用未发生”；若现有信息不能唯一确定答案，只回答“信息不足”。不要根据其他事件补全本次事件。"
+      }
+    ],
+    "historical_prompt_sha256": "1fd39330fa3135afea33577ce6d5dc1115520c74720ec89c83255fac31075b9f",
+    "source_form": "JA_PASSIVE",
+    "record_bytes_identical": true,
+    "records": [
+      "R4：上田は小川に臨時の助手として雇用されませんでした。",
+      "R3：森田は青木に臨時の助手として雇用されませんでした。",
+      "R2：上田は小川に臨時の助手として雇用されました。",
+      "R1：森田は青木に臨時の助手として雇用されました。"
+    ],
+    "target_id": "R4",
+    "target_slot": 1,
+    "profile": "BOTH_NEGATIVE",
+    "layout": 1,
+    "single_base_call_id": "S0032",
+    "old_contract": "nonoccurrence answered without roles",
+    "new_contract": "NO retains explicitly mentioned proposition roles",
+    "identity": "REUSED_EXPOSED_AUTHOR_DEVELOPMENT_NOT_NEW_INDEPENDENT_DATA"
+  },
+  {
+    "base_call_id": "F0049",
+    "historical_call_id": "RQP-0911",
+    "old_messages": [
+      {
+        "role": "user",
+        "content": "以下四条记录各自描述不同场合的一次具体事件，不要把不同记录合并成同一次事件。\n\nR1：青木雇用了森田担任临时助手。\nR2：青木雇用了森田担任临时助手。\nR3：小川雇用了上田担任临时助手。\nR4：小川雇用了上田担任临时助手。\n\n目标是记录 R1 中提及的那次事件。\n这次事件中谁雇用了谁？\n只用中文回答，不解释。若答案可唯一确定，用“雇用方是…；受雇方是…”的完整句式填写姓名；若明确这次事件未发生，只回答“雇用未发生”；若现有信息不能唯一确定答案，只回答“信息不足”。不要根据其他事件补全本次事件。"
+      }
+    ],
+    "historical_prompt_sha256": "ae837c39d3d77764e8fa9a0a1571bb3c20709c2b6d74ab0d43cac36ec5d8494b",
+    "source_form": "ZH_ACTIVE",
+    "record_bytes_identical": true,
+    "records": [
+      "R1：青木雇用了森田担任临时助手。",
+      "R2：青木雇用了森田担任临时助手。",
+      "R3：小川雇用了上田担任临时助手。",
+      "R4：小川雇用了上田担任临时助手。"
+    ],
+    "target_id": "R1",
+    "target_slot": 0,
+    "profile": "SAME",
+    "layout": 0,
+    "single_base_call_id": "S0033",
+    "old_contract": "nonoccurrence answered without roles",
+    "new_contract": "NO retains explicitly mentioned proposition roles",
+    "identity": "REUSED_EXPOSED_AUTHOR_DEVELOPMENT_NOT_NEW_INDEPENDENT_DATA"
+  },
+  {
+    "base_call_id": "F0050",
+    "historical_call_id": "RQP-0912",
+    "old_messages": [
+      {
+        "role": "user",
+        "content": "以下四条记录各自描述不同场合的一次具体事件，不要把不同记录合并成同一次事件。\n\nR1：青木雇用了森田担任临时助手。\nR2：青木雇用了森田担任临时助手。\nR3：小川雇用了上田担任临时助手。\nR4：小川雇用了上田担任临时助手。\n\n目标是记录 R2 中提及的那次事件。\n这次事件中谁雇用了谁？\n只用中文回答，不解释。若答案可唯一确定，用“雇用方是…；受雇方是…”的完整句式填写姓名；若明确这次事件未发生，只回答“雇用未发生”；若现有信息不能唯一确定答案，只回答“信息不足”。不要根据其他事件补全本次事件。"
+      }
+    ],
+    "historical_prompt_sha256": "b2e546955355a745f028d87e86b56f60ea1a8a94f137f17956c7e8ebdb8cb82e",
+    "source_form": "ZH_ACTIVE",
+    "record_bytes_identical": true,
+    "records": [
+      "R1：青木雇用了森田担任临时助手。",
+      "R2：青木雇用了森田担任临时助手。",
+      "R3：小川雇用了上田担任临时助手。",
+      "R4：小川雇用了上田担任临时助手。"
+    ],
+    "target_id": "R2",
+    "target_slot": 1,
+    "profile": "SAME",
+    "layout": 0,
+    "single_base_call_id": "S0034",
+    "old_contract": "nonoccurrence answered without roles",
+    "new_contract": "NO retains explicitly mentioned proposition roles",
+    "identity": "REUSED_EXPOSED_AUTHOR_DEVELOPMENT_NOT_NEW_INDEPENDENT_DATA"
+  },
+  {
+    "base_call_id": "F0051",
+    "historical_call_id": "RQP-0926",
+    "old_messages": [
+      {
+        "role": "user",
+        "content": "以下四条记录各自描述不同场合的一次具体事件，不要把不同记录合并成同一次事件。\n\nR4：青木雇用了森田担任临时助手。\nR3：青木雇用了森田担任临时助手。\nR2：小川雇用了上田担任临时助手。\nR1：小川雇用了上田担任临时助手。\n\n目标是记录 R3 中提及的那次事件。\n这次事件中谁雇用了谁？\n只用中文回答，不解释。若答案可唯一确定，用“雇用方是…；受雇方是…”的完整句式填写姓名；若明确这次事件未发生，只回答“雇用未发生”；若现有信息不能唯一确定答案，只回答“信息不足”。不要根据其他事件补全本次事件。"
+      }
+    ],
+    "historical_prompt_sha256": "ce60e581f9a5b34d36a45d16a018bbc8fdc02a4ab5f64f69585c7cf2632d63a1",
+    "source_form": "ZH_ACTIVE",
+    "record_bytes_identical": true,
+    "records": [
+      "R4：青木雇用了森田担任临时助手。",
+      "R3：青木雇用了森田担任临时助手。",
+      "R2：小川雇用了上田担任临时助手。",
+      "R1：小川雇用了上田担任临时助手。"
+    ],
+    "target_id": "R3",
+    "target_slot": 0,
+    "profile": "SAME",
+    "layout": 1,
+    "single_base_call_id": "S0035",
+    "old_contract": "nonoccurrence answered without roles",
+    "new_contract": "NO retains explicitly mentioned proposition roles",
+    "identity": "REUSED_EXPOSED_AUTHOR_DEVELOPMENT_NOT_NEW_INDEPENDENT_DATA"
+  },
+  {
+    "base_call_id": "F0052",
+    "historical_call_id": "RQP-0927",
+    "old_messages": [
+      {
+        "role": "user",
+        "content": "以下四条记录各自描述不同场合的一次具体事件，不要把不同记录合并成同一次事件。\n\nR4：青木雇用了森田担任临时助手。\nR3：青木雇用了森田担任临时助手。\nR2：小川雇用了上田担任临时助手。\nR1：小川雇用了上田担任临时助手。\n\n目标是记录 R4 中提及的那次事件。\n这次事件中谁雇用了谁？\n只用中文回答，不解释。若答案可唯一确定，用“雇用方是…；受雇方是…”的完整句式填写姓名；若明确这次事件未发生，只回答“雇用未发生”；若现有信息不能唯一确定答案，只回答“信息不足”。不要根据其他事件补全本次事件。"
+      }
+    ],
+    "historical_prompt_sha256": "f461b85f3803cecbc5a64459f523bd3221a985a1fe702cb3e12fb5a8fd58f56f",
+    "source_form": "ZH_ACTIVE",
+    "record_bytes_identical": true,
+    "records": [
+      "R4：青木雇用了森田担任临时助手。",
+      "R3：青木雇用了森田担任临时助手。",
+      "R2：小川雇用了上田担任临时助手。",
+      "R1：小川雇用了上田担任临时助手。"
+    ],
+    "target_id": "R4",
+    "target_slot": 1,
+    "profile": "SAME",
+    "layout": 1,
+    "single_base_call_id": "S0036",
+    "old_contract": "nonoccurrence answered without roles",
+    "new_contract": "NO retains explicitly mentioned proposition roles",
+    "identity": "REUSED_EXPOSED_AUTHOR_DEVELOPMENT_NOT_NEW_INDEPENDENT_DATA"
+  },
+  {
+    "base_call_id": "F0053",
+    "historical_call_id": "RQP-0941",
+    "old_messages": [
+      {
+        "role": "user",
+        "content": "以下四条记录各自描述不同场合的一次具体事件，不要把不同记录合并成同一次事件。\n\nR1：青木雇用了森田担任临时助手。\nR2：青木雇用了上田担任临时助手。\nR3：小川雇用了森田担任临时助手。\nR4：小川雇用了上田担任临时助手。\n\n目标是记录 R1 中提及的那次事件。\n这次事件中谁雇用了谁？\n只用中文回答，不解释。若答案可唯一确定，用“雇用方是…；受雇方是…”的完整句式填写姓名；若明确这次事件未发生，只回答“雇用未发生”；若现有信息不能唯一确定答案，只回答“信息不足”。不要根据其他事件补全本次事件。"
+      }
+    ],
+    "historical_prompt_sha256": "3381984bf6ca6b117571b0c4b6b68f0f8dc075ae86a66a14308b5a186f20def6",
+    "source_form": "ZH_ACTIVE",
+    "record_bytes_identical": true,
+    "records": [
+      "R1：青木雇用了森田担任临时助手。",
+      "R2：青木雇用了上田担任临时助手。",
+      "R3：小川雇用了森田担任临时助手。",
+      "R4：小川雇用了上田担任临时助手。"
+    ],
+    "target_id": "R1",
+    "target_slot": 0,
+    "profile": "COMMON_AGENT",
+    "layout": 0,
+    "single_base_call_id": "S0033",
+    "old_contract": "nonoccurrence answered without roles",
+    "new_contract": "NO retains explicitly mentioned proposition roles",
+    "identity": "REUSED_EXPOSED_AUTHOR_DEVELOPMENT_NOT_NEW_INDEPENDENT_DATA"
+  },
+  {
+    "base_call_id": "F0054",
+    "historical_call_id": "RQP-0942",
+    "old_messages": [
+      {
+        "role": "user",
+        "content": "以下四条记录各自描述不同场合的一次具体事件，不要把不同记录合并成同一次事件。\n\nR1：青木雇用了森田担任临时助手。\nR2：青木雇用了上田担任临时助手。\nR3：小川雇用了森田担任临时助手。\nR4：小川雇用了上田担任临时助手。\n\n目标是记录 R2 中提及的那次事件。\n这次事件中谁雇用了谁？\n只用中文回答，不解释。若答案可唯一确定，用“雇用方是…；受雇方是…”的完整句式填写姓名；若明确这次事件未发生，只回答“雇用未发生”；若现有信息不能唯一确定答案，只回答“信息不足”。不要根据其他事件补全本次事件。"
+      }
+    ],
+    "historical_prompt_sha256": "98e42747279923128e7371fde2612d60062833c924dcf59daccb202800a96413",
+    "source_form": "ZH_ACTIVE",
+    "record_bytes_identical": true,
+    "records": [
+      "R1：青木雇用了森田担任临时助手。",
+      "R2：青木雇用了上田担任临时助手。",
+      "R3：小川雇用了森田担任临时助手。",
+      "R4：小川雇用了上田担任临时助手。"
+    ],
+    "target_id": "R2",
+    "target_slot": 1,
+    "profile": "COMMON_AGENT",
+    "layout": 0,
+    "single_base_call_id": "S0037",
+    "old_contract": "nonoccurrence answered without roles",
+    "new_contract": "NO retains explicitly mentioned proposition roles",
+    "identity": "REUSED_EXPOSED_AUTHOR_DEVELOPMENT_NOT_NEW_INDEPENDENT_DATA"
+  },
+  {
+    "base_call_id": "F0055",
+    "historical_call_id": "RQP-0956",
+    "old_messages": [
+      {
+        "role": "user",
+        "content": "以下四条记录各自描述不同场合的一次具体事件，不要把不同记录合并成同一次事件。\n\nR4：青木雇用了上田担任临时助手。\nR3：青木雇用了森田担任临时助手。\nR2：小川雇用了上田担任临时助手。\nR1：小川雇用了森田担任临时助手。\n\n目标是记录 R3 中提及的那次事件。\n这次事件中谁雇用了谁？\n只用中文回答，不解释。若答案可唯一确定，用“雇用方是…；受雇方是…”的完整句式填写姓名；若明确这次事件未发生，只回答“雇用未发生”；若现有信息不能唯一确定答案，只回答“信息不足”。不要根据其他事件补全本次事件。"
+      }
+    ],
+    "historical_prompt_sha256": "a9f344a4d14e91f81cc18a2bce7f8b63d9e6138b258c790d24f5e737dad84ee7",
+    "source_form": "ZH_ACTIVE",
+    "record_bytes_identical": true,
+    "records": [
+      "R4：青木雇用了上田担任临时助手。",
+      "R3：青木雇用了森田担任临时助手。",
+      "R2：小川雇用了上田担任临时助手。",
+      "R1：小川雇用了森田担任临时助手。"
+    ],
+    "target_id": "R3",
+    "target_slot": 0,
+    "profile": "COMMON_AGENT",
+    "layout": 1,
+    "single_base_call_id": "S0035",
+    "old_contract": "nonoccurrence answered without roles",
+    "new_contract": "NO retains explicitly mentioned proposition roles",
+    "identity": "REUSED_EXPOSED_AUTHOR_DEVELOPMENT_NOT_NEW_INDEPENDENT_DATA"
+  },
+  {
+    "base_call_id": "F0056",
+    "historical_call_id": "RQP-0957",
+    "old_messages": [
+      {
+        "role": "user",
+        "content": "以下四条记录各自描述不同场合的一次具体事件，不要把不同记录合并成同一次事件。\n\nR4：青木雇用了上田担任临时助手。\nR3：青木雇用了森田担任临时助手。\nR2：小川雇用了上田担任临时助手。\nR1：小川雇用了森田担任临时助手。\n\n目标是记录 R4 中提及的那次事件。\n这次事件中谁雇用了谁？\n只用中文回答，不解释。若答案可唯一确定，用“雇用方是…；受雇方是…”的完整句式填写姓名；若明确这次事件未发生，只回答“雇用未发生”；若现有信息不能唯一确定答案，只回答“信息不足”。不要根据其他事件补全本次事件。"
+      }
+    ],
+    "historical_prompt_sha256": "a26945a34a06eaf45bf8c999a5a82c1503b8316cd0326809c54ddfa12746c8a4",
+    "source_form": "ZH_ACTIVE",
+    "record_bytes_identical": true,
+    "records": [
+      "R4：青木雇用了上田担任临时助手。",
+      "R3：青木雇用了森田担任临时助手。",
+      "R2：小川雇用了上田担任临时助手。",
+      "R1：小川雇用了森田担任临时助手。"
+    ],
+    "target_id": "R4",
+    "target_slot": 1,
+    "profile": "COMMON_AGENT",
+    "layout": 1,
+    "single_base_call_id": "S0038",
+    "old_contract": "nonoccurrence answered without roles",
+    "new_contract": "NO retains explicitly mentioned proposition roles",
+    "identity": "REUSED_EXPOSED_AUTHOR_DEVELOPMENT_NOT_NEW_INDEPENDENT_DATA"
+  },
+  {
+    "base_call_id": "F0057",
+    "historical_call_id": "RQP-0971",
+    "old_messages": [
+      {
+        "role": "user",
+        "content": "以下四条记录各自描述不同场合的一次具体事件，不要把不同记录合并成同一次事件。\n\nR1：青木雇用了森田担任临时助手。\nR2：小川雇用了森田担任临时助手。\nR3：青木雇用了上田担任临时助手。\nR4：小川雇用了上田担任临时助手。\n\n目标是记录 R1 中提及的那次事件。\n这次事件中谁雇用了谁？\n只用中文回答，不解释。若答案可唯一确定，用“雇用方是…；受雇方是…”的完整句式填写姓名；若明确这次事件未发生，只回答“雇用未发生”；若现有信息不能唯一确定答案，只回答“信息不足”。不要根据其他事件补全本次事件。"
+      }
+    ],
+    "historical_prompt_sha256": "a46d0bea320885ae486c2f26135d3a6cc4b3589bb695093a9c08fa1c45fc2781",
+    "source_form": "ZH_ACTIVE",
+    "record_bytes_identical": true,
+    "records": [
+      "R1：青木雇用了森田担任临时助手。",
+      "R2：小川雇用了森田担任临时助手。",
+      "R3：青木雇用了上田担任临时助手。",
+      "R4：小川雇用了上田担任临时助手。"
+    ],
+    "target_id": "R1",
+    "target_slot": 0,
+    "profile": "COMMON_PATIENT",
+    "layout": 0,
+    "single_base_call_id": "S0033",
+    "old_contract": "nonoccurrence answered without roles",
+    "new_contract": "NO retains explicitly mentioned proposition roles",
+    "identity": "REUSED_EXPOSED_AUTHOR_DEVELOPMENT_NOT_NEW_INDEPENDENT_DATA"
+  },
+  {
+    "base_call_id": "F0058",
+    "historical_call_id": "RQP-0972",
+    "old_messages": [
+      {
+        "role": "user",
+        "content": "以下四条记录各自描述不同场合的一次具体事件，不要把不同记录合并成同一次事件。\n\nR1：青木雇用了森田担任临时助手。\nR2：小川雇用了森田担任临时助手。\nR3：青木雇用了上田担任临时助手。\nR4：小川雇用了上田担任临时助手。\n\n目标是记录 R2 中提及的那次事件。\n这次事件中谁雇用了谁？\n只用中文回答，不解释。若答案可唯一确定，用“雇用方是…；受雇方是…”的完整句式填写姓名；若明确这次事件未发生，只回答“雇用未发生”；若现有信息不能唯一确定答案，只回答“信息不足”。不要根据其他事件补全本次事件。"
+      }
+    ],
+    "historical_prompt_sha256": "b81fb70dad1443379eb2dafddf45e2a4fdcb57a6df06d74f53d76a9bf4c494ed",
+    "source_form": "ZH_ACTIVE",
+    "record_bytes_identical": true,
+    "records": [
+      "R1：青木雇用了森田担任临时助手。",
+      "R2：小川雇用了森田担任临时助手。",
+      "R3：青木雇用了上田担任临时助手。",
+      "R4：小川雇用了上田担任临时助手。"
+    ],
+    "target_id": "R2",
+    "target_slot": 1,
+    "profile": "COMMON_PATIENT",
+    "layout": 0,
+    "single_base_call_id": "S0039",
+    "old_contract": "nonoccurrence answered without roles",
+    "new_contract": "NO retains explicitly mentioned proposition roles",
+    "identity": "REUSED_EXPOSED_AUTHOR_DEVELOPMENT_NOT_NEW_INDEPENDENT_DATA"
+  },
+  {
+    "base_call_id": "F0059",
+    "historical_call_id": "RQP-0986",
+    "old_messages": [
+      {
+        "role": "user",
+        "content": "以下四条记录各自描述不同场合的一次具体事件，不要把不同记录合并成同一次事件。\n\nR4：小川雇用了森田担任临时助手。\nR3：青木雇用了森田担任临时助手。\nR2：小川雇用了上田担任临时助手。\nR1：青木雇用了上田担任临时助手。\n\n目标是记录 R3 中提及的那次事件。\n这次事件中谁雇用了谁？\n只用中文回答，不解释。若答案可唯一确定，用“雇用方是…；受雇方是…”的完整句式填写姓名；若明确这次事件未发生，只回答“雇用未发生”；若现有信息不能唯一确定答案，只回答“信息不足”。不要根据其他事件补全本次事件。"
+      }
+    ],
+    "historical_prompt_sha256": "c4d6b53167b67933daad84be84eccd8a5282c47e27db1fd36258ae72b7b3d9c4",
+    "source_form": "ZH_ACTIVE",
+    "record_bytes_identical": true,
+    "records": [
+      "R4：小川雇用了森田担任临时助手。",
+      "R3：青木雇用了森田担任临时助手。",
+      "R2：小川雇用了上田担任临时助手。",
+      "R1：青木雇用了上田担任临时助手。"
+    ],
+    "target_id": "R3",
+    "target_slot": 0,
+    "profile": "COMMON_PATIENT",
+    "layout": 1,
+    "single_base_call_id": "S0035",
+    "old_contract": "nonoccurrence answered without roles",
+    "new_contract": "NO retains explicitly mentioned proposition roles",
+    "identity": "REUSED_EXPOSED_AUTHOR_DEVELOPMENT_NOT_NEW_INDEPENDENT_DATA"
+  },
+  {
+    "base_call_id": "F0060",
+    "historical_call_id": "RQP-0987",
+    "old_messages": [
+      {
+        "role": "user",
+        "content": "以下四条记录各自描述不同场合的一次具体事件，不要把不同记录合并成同一次事件。\n\nR4：小川雇用了森田担任临时助手。\nR3：青木雇用了森田担任临时助手。\nR2：小川雇用了上田担任临时助手。\nR1：青木雇用了上田担任临时助手。\n\n目标是记录 R4 中提及的那次事件。\n这次事件中谁雇用了谁？\n只用中文回答，不解释。若答案可唯一确定，用“雇用方是…；受雇方是…”的完整句式填写姓名；若明确这次事件未发生，只回答“雇用未发生”；若现有信息不能唯一确定答案，只回答“信息不足”。不要根据其他事件补全本次事件。"
+      }
+    ],
+    "historical_prompt_sha256": "7d5c2827ab2e20b3807704a6d98975f18e1e8dbab3ebf4ce36e62a3c3da5878d",
+    "source_form": "ZH_ACTIVE",
+    "record_bytes_identical": true,
+    "records": [
+      "R4：小川雇用了森田担任临时助手。",
+      "R3：青木雇用了森田担任临时助手。",
+      "R2：小川雇用了上田担任临时助手。",
+      "R1：青木雇用了上田担任临时助手。"
+    ],
+    "target_id": "R4",
+    "target_slot": 1,
+    "profile": "COMMON_PATIENT",
+    "layout": 1,
+    "single_base_call_id": "S0040",
+    "old_contract": "nonoccurrence answered without roles",
+    "new_contract": "NO retains explicitly mentioned proposition roles",
+    "identity": "REUSED_EXPOSED_AUTHOR_DEVELOPMENT_NOT_NEW_INDEPENDENT_DATA"
+  },
+  {
+    "base_call_id": "F0061",
+    "historical_call_id": "RQP-1001",
+    "old_messages": [
+      {
+        "role": "user",
+        "content": "以下四条记录各自描述不同场合的一次具体事件，不要把不同记录合并成同一次事件。\n\nR1：青木雇用了森田担任临时助手。\nR2：森田雇用了青木担任临时助手。\nR3：小川雇用了上田担任临时助手。\nR4：上田雇用了小川担任临时助手。\n\n目标是记录 R1 中提及的那次事件。\n这次事件中谁雇用了谁？\n只用中文回答，不解释。若答案可唯一确定，用“雇用方是…；受雇方是…”的完整句式填写姓名；若明确这次事件未发生，只回答“雇用未发生”；若现有信息不能唯一确定答案，只回答“信息不足”。不要根据其他事件补全本次事件。"
+      }
+    ],
+    "historical_prompt_sha256": "ffe6463ea1e595d92df47570382bd9eb8108443e5d2f7a7291473b8d39b5bad1",
+    "source_form": "ZH_ACTIVE",
+    "record_bytes_identical": true,
+    "records": [
+      "R1：青木雇用了森田担任临时助手。",
+      "R2：森田雇用了青木担任临时助手。",
+      "R3：小川雇用了上田担任临时助手。",
+      "R4：上田雇用了小川担任临时助手。"
+    ],
+    "target_id": "R1",
+    "target_slot": 0,
+    "profile": "REVERSED",
+    "layout": 0,
+    "single_base_call_id": "S0033",
+    "old_contract": "nonoccurrence answered without roles",
+    "new_contract": "NO retains explicitly mentioned proposition roles",
+    "identity": "REUSED_EXPOSED_AUTHOR_DEVELOPMENT_NOT_NEW_INDEPENDENT_DATA"
+  },
+  {
+    "base_call_id": "F0062",
+    "historical_call_id": "RQP-1002",
+    "old_messages": [
+      {
+        "role": "user",
+        "content": "以下四条记录各自描述不同场合的一次具体事件，不要把不同记录合并成同一次事件。\n\nR1：青木雇用了森田担任临时助手。\nR2：森田雇用了青木担任临时助手。\nR3：小川雇用了上田担任临时助手。\nR4：上田雇用了小川担任临时助手。\n\n目标是记录 R2 中提及的那次事件。\n这次事件中谁雇用了谁？\n只用中文回答，不解释。若答案可唯一确定，用“雇用方是…；受雇方是…”的完整句式填写姓名；若明确这次事件未发生，只回答“雇用未发生”；若现有信息不能唯一确定答案，只回答“信息不足”。不要根据其他事件补全本次事件。"
+      }
+    ],
+    "historical_prompt_sha256": "75aa57f85668668fc5990d4e2a380ba88fb1eaf9fb281f4d9e229365f3077dbe",
+    "source_form": "ZH_ACTIVE",
+    "record_bytes_identical": true,
+    "records": [
+      "R1：青木雇用了森田担任临时助手。",
+      "R2：森田雇用了青木担任临时助手。",
+      "R3：小川雇用了上田担任临时助手。",
+      "R4：上田雇用了小川担任临时助手。"
+    ],
+    "target_id": "R2",
+    "target_slot": 1,
+    "profile": "REVERSED",
+    "layout": 0,
+    "single_base_call_id": "S0041",
+    "old_contract": "nonoccurrence answered without roles",
+    "new_contract": "NO retains explicitly mentioned proposition roles",
+    "identity": "REUSED_EXPOSED_AUTHOR_DEVELOPMENT_NOT_NEW_INDEPENDENT_DATA"
+  },
+  {
+    "base_call_id": "F0063",
+    "historical_call_id": "RQP-1016",
+    "old_messages": [
+      {
+        "role": "user",
+        "content": "以下四条记录各自描述不同场合的一次具体事件，不要把不同记录合并成同一次事件。\n\nR4：森田雇用了青木担任临时助手。\nR3：青木雇用了森田担任临时助手。\nR2：上田雇用了小川担任临时助手。\nR1：小川雇用了上田担任临时助手。\n\n目标是记录 R3 中提及的那次事件。\n这次事件中谁雇用了谁？\n只用中文回答，不解释。若答案可唯一确定，用“雇用方是…；受雇方是…”的完整句式填写姓名；若明确这次事件未发生，只回答“雇用未发生”；若现有信息不能唯一确定答案，只回答“信息不足”。不要根据其他事件补全本次事件。"
+      }
+    ],
+    "historical_prompt_sha256": "ebedd060efd4cdeea0f6c122279602a8ac83ebfee5a84e4bc3deb566de44b20e",
+    "source_form": "ZH_ACTIVE",
+    "record_bytes_identical": true,
+    "records": [
+      "R4：森田雇用了青木担任临时助手。",
+      "R3：青木雇用了森田担任临时助手。",
+      "R2：上田雇用了小川担任临时助手。",
+      "R1：小川雇用了上田担任临时助手。"
+    ],
+    "target_id": "R3",
+    "target_slot": 0,
+    "profile": "REVERSED",
+    "layout": 1,
+    "single_base_call_id": "S0035",
+    "old_contract": "nonoccurrence answered without roles",
+    "new_contract": "NO retains explicitly mentioned proposition roles",
+    "identity": "REUSED_EXPOSED_AUTHOR_DEVELOPMENT_NOT_NEW_INDEPENDENT_DATA"
+  },
+  {
+    "base_call_id": "F0064",
+    "historical_call_id": "RQP-1017",
+    "old_messages": [
+      {
+        "role": "user",
+        "content": "以下四条记录各自描述不同场合的一次具体事件，不要把不同记录合并成同一次事件。\n\nR4：森田雇用了青木担任临时助手。\nR3：青木雇用了森田担任临时助手。\nR2：上田雇用了小川担任临时助手。\nR1：小川雇用了上田担任临时助手。\n\n目标是记录 R4 中提及的那次事件。\n这次事件中谁雇用了谁？\n只用中文回答，不解释。若答案可唯一确定，用“雇用方是…；受雇方是…”的完整句式填写姓名；若明确这次事件未发生，只回答“雇用未发生”；若现有信息不能唯一确定答案，只回答“信息不足”。不要根据其他事件补全本次事件。"
+      }
+    ],
+    "historical_prompt_sha256": "7b11a909960500133ab5ab685f5e85976c10f8b0401ea7931ff9ca3bd00f02ce",
+    "source_form": "ZH_ACTIVE",
+    "record_bytes_identical": true,
+    "records": [
+      "R4：森田雇用了青木担任临时助手。",
+      "R3：青木雇用了森田担任临时助手。",
+      "R2：上田雇用了小川担任临时助手。",
+      "R1：小川雇用了上田担任临时助手。"
+    ],
+    "target_id": "R4",
+    "target_slot": 1,
+    "profile": "REVERSED",
+    "layout": 1,
+    "single_base_call_id": "S0042",
+    "old_contract": "nonoccurrence answered without roles",
+    "new_contract": "NO retains explicitly mentioned proposition roles",
+    "identity": "REUSED_EXPOSED_AUTHOR_DEVELOPMENT_NOT_NEW_INDEPENDENT_DATA"
+  },
+  {
+    "base_call_id": "F0065",
+    "historical_call_id": "RQP-1031",
+    "old_messages": [
+      {
+        "role": "user",
+        "content": "以下四条记录各自描述不同场合的一次具体事件，不要把不同记录合并成同一次事件。\n\nR1：青木雇用了森田担任临时助手。\nR2：青木没有雇用森田担任临时助手。\nR3：小川雇用了上田担任临时助手。\nR4：小川没有雇用上田担任临时助手。\n\n目标是记录 R1 中提及的那次事件。\n这次事件中谁雇用了谁？\n只用中文回答，不解释。若答案可唯一确定，用“雇用方是…；受雇方是…”的完整句式填写姓名；若明确这次事件未发生，只回答“雇用未发生”；若现有信息不能唯一确定答案，只回答“信息不足”。不要根据其他事件补全本次事件。"
+      }
+    ],
+    "historical_prompt_sha256": "2a938f03c9f14bcbaa9ae053a42267e00a5cb29dd19519892b1afa95b3435a12",
+    "source_form": "ZH_ACTIVE",
+    "record_bytes_identical": true,
+    "records": [
+      "R1：青木雇用了森田担任临时助手。",
+      "R2：青木没有雇用森田担任临时助手。",
+      "R3：小川雇用了上田担任临时助手。",
+      "R4：小川没有雇用上田担任临时助手。"
+    ],
+    "target_id": "R1",
+    "target_slot": 0,
+    "profile": "MIX_POLARITY",
+    "layout": 0,
+    "single_base_call_id": "S0033",
+    "old_contract": "nonoccurrence answered without roles",
+    "new_contract": "NO retains explicitly mentioned proposition roles",
+    "identity": "REUSED_EXPOSED_AUTHOR_DEVELOPMENT_NOT_NEW_INDEPENDENT_DATA"
+  },
+  {
+    "base_call_id": "F0066",
+    "historical_call_id": "RQP-1032",
+    "old_messages": [
+      {
+        "role": "user",
+        "content": "以下四条记录各自描述不同场合的一次具体事件，不要把不同记录合并成同一次事件。\n\nR1：青木雇用了森田担任临时助手。\nR2：青木没有雇用森田担任临时助手。\nR3：小川雇用了上田担任临时助手。\nR4：小川没有雇用上田担任临时助手。\n\n目标是记录 R2 中提及的那次事件。\n这次事件中谁雇用了谁？\n只用中文回答，不解释。若答案可唯一确定，用“雇用方是…；受雇方是…”的完整句式填写姓名；若明确这次事件未发生，只回答“雇用未发生”；若现有信息不能唯一确定答案，只回答“信息不足”。不要根据其他事件补全本次事件。"
+      }
+    ],
+    "historical_prompt_sha256": "bff9043f8e1ce9d22a233ccea441e839d372ab18a77e998b81c90579e46f4613",
+    "source_form": "ZH_ACTIVE",
+    "record_bytes_identical": true,
+    "records": [
+      "R1：青木雇用了森田担任临时助手。",
+      "R2：青木没有雇用森田担任临时助手。",
+      "R3：小川雇用了上田担任临时助手。",
+      "R4：小川没有雇用上田担任临时助手。"
+    ],
+    "target_id": "R2",
+    "target_slot": 1,
+    "profile": "MIX_POLARITY",
+    "layout": 0,
+    "single_base_call_id": "S0043",
+    "old_contract": "nonoccurrence answered without roles",
+    "new_contract": "NO retains explicitly mentioned proposition roles",
+    "identity": "REUSED_EXPOSED_AUTHOR_DEVELOPMENT_NOT_NEW_INDEPENDENT_DATA"
+  },
+  {
+    "base_call_id": "F0067",
+    "historical_call_id": "RQP-1046",
+    "old_messages": [
+      {
+        "role": "user",
+        "content": "以下四条记录各自描述不同场合的一次具体事件，不要把不同记录合并成同一次事件。\n\nR4：青木没有雇用森田担任临时助手。\nR3：青木雇用了森田担任临时助手。\nR2：小川没有雇用上田担任临时助手。\nR1：小川雇用了上田担任临时助手。\n\n目标是记录 R3 中提及的那次事件。\n这次事件中谁雇用了谁？\n只用中文回答，不解释。若答案可唯一确定，用“雇用方是…；受雇方是…”的完整句式填写姓名；若明确这次事件未发生，只回答“雇用未发生”；若现有信息不能唯一确定答案，只回答“信息不足”。不要根据其他事件补全本次事件。"
+      }
+    ],
+    "historical_prompt_sha256": "f26976f3110d559acdf493a0cd824dceee4187708eea8ea2e0b706d9804abc4d",
+    "source_form": "ZH_ACTIVE",
+    "record_bytes_identical": true,
+    "records": [
+      "R4：青木没有雇用森田担任临时助手。",
+      "R3：青木雇用了森田担任临时助手。",
+      "R2：小川没有雇用上田担任临时助手。",
+      "R1：小川雇用了上田担任临时助手。"
+    ],
+    "target_id": "R3",
+    "target_slot": 0,
+    "profile": "MIX_POLARITY",
+    "layout": 1,
+    "single_base_call_id": "S0035",
+    "old_contract": "nonoccurrence answered without roles",
+    "new_contract": "NO retains explicitly mentioned proposition roles",
+    "identity": "REUSED_EXPOSED_AUTHOR_DEVELOPMENT_NOT_NEW_INDEPENDENT_DATA"
+  },
+  {
+    "base_call_id": "F0068",
+    "historical_call_id": "RQP-1047",
+    "old_messages": [
+      {
+        "role": "user",
+        "content": "以下四条记录各自描述不同场合的一次具体事件，不要把不同记录合并成同一次事件。\n\nR4：青木没有雇用森田担任临时助手。\nR3：青木雇用了森田担任临时助手。\nR2：小川没有雇用上田担任临时助手。\nR1：小川雇用了上田担任临时助手。\n\n目标是记录 R4 中提及的那次事件。\n这次事件中谁雇用了谁？\n只用中文回答，不解释。若答案可唯一确定，用“雇用方是…；受雇方是…”的完整句式填写姓名；若明确这次事件未发生，只回答“雇用未发生”；若现有信息不能唯一确定答案，只回答“信息不足”。不要根据其他事件补全本次事件。"
+      }
+    ],
+    "historical_prompt_sha256": "3c1a33a7ea8ae4c4c6ac5d03da7daa6edb3378f1c0838a1a1893b83c04341e33",
+    "source_form": "ZH_ACTIVE",
+    "record_bytes_identical": true,
+    "records": [
+      "R4：青木没有雇用森田担任临时助手。",
+      "R3：青木雇用了森田担任临时助手。",
+      "R2：小川没有雇用上田担任临时助手。",
+      "R1：小川雇用了上田担任临时助手。"
+    ],
+    "target_id": "R4",
+    "target_slot": 1,
+    "profile": "MIX_POLARITY",
+    "layout": 1,
+    "single_base_call_id": "S0044",
+    "old_contract": "nonoccurrence answered without roles",
+    "new_contract": "NO retains explicitly mentioned proposition roles",
+    "identity": "REUSED_EXPOSED_AUTHOR_DEVELOPMENT_NOT_NEW_INDEPENDENT_DATA"
+  },
+  {
+    "base_call_id": "F0069",
+    "historical_call_id": "RQP-1061",
+    "old_messages": [
+      {
+        "role": "user",
+        "content": "以下四条记录各自描述不同场合的一次具体事件，不要把不同记录合并成同一次事件。\n\nR1：青木没有雇用森田担任临时助手。\nR2：小川没有雇用上田担任临时助手。\nR3：青木雇用了森田担任临时助手。\nR4：小川雇用了上田担任临时助手。\n\n目标是记录 R1 中提及的那次事件。\n这次事件中谁雇用了谁？\n只用中文回答，不解释。若答案可唯一确定，用“雇用方是…；受雇方是…”的完整句式填写姓名；若明确这次事件未发生，只回答“雇用未发生”；若现有信息不能唯一确定答案，只回答“信息不足”。不要根据其他事件补全本次事件。"
+      }
+    ],
+    "historical_prompt_sha256": "1382c6af4295612e6f425a90f113de570ea939fa7d904873459e2a3925a18b09",
+    "source_form": "ZH_ACTIVE",
+    "record_bytes_identical": true,
+    "records": [
+      "R1：青木没有雇用森田担任临时助手。",
+      "R2：小川没有雇用上田担任临时助手。",
+      "R3：青木雇用了森田担任临时助手。",
+      "R4：小川雇用了上田担任临时助手。"
+    ],
+    "target_id": "R1",
+    "target_slot": 0,
+    "profile": "BOTH_NEGATIVE",
+    "layout": 0,
+    "single_base_call_id": "S0045",
+    "old_contract": "nonoccurrence answered without roles",
+    "new_contract": "NO retains explicitly mentioned proposition roles",
+    "identity": "REUSED_EXPOSED_AUTHOR_DEVELOPMENT_NOT_NEW_INDEPENDENT_DATA"
+  },
+  {
+    "base_call_id": "F0070",
+    "historical_call_id": "RQP-1062",
+    "old_messages": [
+      {
+        "role": "user",
+        "content": "以下四条记录各自描述不同场合的一次具体事件，不要把不同记录合并成同一次事件。\n\nR1：青木没有雇用森田担任临时助手。\nR2：小川没有雇用上田担任临时助手。\nR3：青木雇用了森田担任临时助手。\nR4：小川雇用了上田担任临时助手。\n\n目标是记录 R2 中提及的那次事件。\n这次事件中谁雇用了谁？\n只用中文回答，不解释。若答案可唯一确定，用“雇用方是…；受雇方是…”的完整句式填写姓名；若明确这次事件未发生，只回答“雇用未发生”；若现有信息不能唯一确定答案，只回答“信息不足”。不要根据其他事件补全本次事件。"
+      }
+    ],
+    "historical_prompt_sha256": "4f43b666a6a504a17f6872295e1a40e593c8ce2baa2a3194408c0ab013ea0bac",
+    "source_form": "ZH_ACTIVE",
+    "record_bytes_identical": true,
+    "records": [
+      "R1：青木没有雇用森田担任临时助手。",
+      "R2：小川没有雇用上田担任临时助手。",
+      "R3：青木雇用了森田担任临时助手。",
+      "R4：小川雇用了上田担任临时助手。"
+    ],
+    "target_id": "R2",
+    "target_slot": 1,
+    "profile": "BOTH_NEGATIVE",
+    "layout": 0,
+    "single_base_call_id": "S0046",
+    "old_contract": "nonoccurrence answered without roles",
+    "new_contract": "NO retains explicitly mentioned proposition roles",
+    "identity": "REUSED_EXPOSED_AUTHOR_DEVELOPMENT_NOT_NEW_INDEPENDENT_DATA"
+  },
+  {
+    "base_call_id": "F0071",
+    "historical_call_id": "RQP-1076",
+    "old_messages": [
+      {
+        "role": "user",
+        "content": "以下四条记录各自描述不同场合的一次具体事件，不要把不同记录合并成同一次事件。\n\nR4：小川没有雇用上田担任临时助手。\nR3：青木没有雇用森田担任临时助手。\nR2：小川雇用了上田担任临时助手。\nR1：青木雇用了森田担任临时助手。\n\n目标是记录 R3 中提及的那次事件。\n这次事件中谁雇用了谁？\n只用中文回答，不解释。若答案可唯一确定，用“雇用方是…；受雇方是…”的完整句式填写姓名；若明确这次事件未发生，只回答“雇用未发生”；若现有信息不能唯一确定答案，只回答“信息不足”。不要根据其他事件补全本次事件。"
+      }
+    ],
+    "historical_prompt_sha256": "e7e62444d40aed5cff2a9e85329d397eef496eb5215d3e6031405937d09c60fb",
+    "source_form": "ZH_ACTIVE",
+    "record_bytes_identical": true,
+    "records": [
+      "R4：小川没有雇用上田担任临时助手。",
+      "R3：青木没有雇用森田担任临时助手。",
+      "R2：小川雇用了上田担任临时助手。",
+      "R1：青木雇用了森田担任临时助手。"
+    ],
+    "target_id": "R3",
+    "target_slot": 0,
+    "profile": "BOTH_NEGATIVE",
+    "layout": 1,
+    "single_base_call_id": "S0047",
+    "old_contract": "nonoccurrence answered without roles",
+    "new_contract": "NO retains explicitly mentioned proposition roles",
+    "identity": "REUSED_EXPOSED_AUTHOR_DEVELOPMENT_NOT_NEW_INDEPENDENT_DATA"
+  },
+  {
+    "base_call_id": "F0072",
+    "historical_call_id": "RQP-1077",
+    "old_messages": [
+      {
+        "role": "user",
+        "content": "以下四条记录各自描述不同场合的一次具体事件，不要把不同记录合并成同一次事件。\n\nR4：小川没有雇用上田担任临时助手。\nR3：青木没有雇用森田担任临时助手。\nR2：小川雇用了上田担任临时助手。\nR1：青木雇用了森田担任临时助手。\n\n目标是记录 R4 中提及的那次事件。\n这次事件中谁雇用了谁？\n只用中文回答，不解释。若答案可唯一确定，用“雇用方是…；受雇方是…”的完整句式填写姓名；若明确这次事件未发生，只回答“雇用未发生”；若现有信息不能唯一确定答案，只回答“信息不足”。不要根据其他事件补全本次事件。"
+      }
+    ],
+    "historical_prompt_sha256": "9c0a34a75dc562c7b803ff4a37b7ad07c6c558c3bb33998fe955579c287a9f41",
+    "source_form": "ZH_ACTIVE",
+    "record_bytes_identical": true,
+    "records": [
+      "R4：小川没有雇用上田担任临时助手。",
+      "R3：青木没有雇用森田担任临时助手。",
+      "R2：小川雇用了上田担任临时助手。",
+      "R1：青木雇用了森田担任临时助手。"
+    ],
+    "target_id": "R4",
+    "target_slot": 1,
+    "profile": "BOTH_NEGATIVE",
+    "layout": 1,
+    "single_base_call_id": "S0048",
+    "old_contract": "nonoccurrence answered without roles",
+    "new_contract": "NO retains explicitly mentioned proposition roles",
+    "identity": "REUSED_EXPOSED_AUTHOR_DEVELOPMENT_NOT_NEW_INDEPENDENT_DATA"
+  },
+  {
+    "base_call_id": "F0073",
+    "historical_call_id": "RQP-1271",
+    "old_messages": [
+      {
+        "role": "user",
+        "content": "以下四条记录各自描述不同场合的一次具体事件，不要把不同记录合并成同一次事件。\n\nR1：青木は森田に本を貸し出しました。\nR2：青木は森田に本を貸し出しました。\nR3：小川は上田に本を貸し出しました。\nR4：小川は上田に本を貸し出しました。\n\n目标是记录 R1 中提及的那次事件。\n这次事件中谁把书借给了谁？\n只用中文回答，不解释。若答案可唯一确定，用“出借方是…；借入方是…”的完整句式填写姓名；若明确这次事件未发生，只回答“借书未发生”；若现有信息不能唯一确定答案，只回答“信息不足”。不要根据其他事件补全本次事件。"
+      }
+    ],
+    "historical_prompt_sha256": "b668539d546b35fbb57b494726f31729b767f6bc34127fae69c3088ee8e52008",
+    "source_form": "JA_ACTIVE",
+    "record_bytes_identical": true,
+    "records": [
+      "R1：青木は森田に本を貸し出しました。",
+      "R2：青木は森田に本を貸し出しました。",
+      "R3：小川は上田に本を貸し出しました。",
+      "R4：小川は上田に本を貸し出しました。"
+    ],
+    "target_id": "R1",
+    "target_slot": 0,
+    "profile": "SAME",
+    "layout": 0,
+    "single_base_call_id": "S0049",
+    "old_contract": "nonoccurrence answered without roles",
+    "new_contract": "NO retains explicitly mentioned proposition roles",
+    "identity": "REUSED_EXPOSED_AUTHOR_DEVELOPMENT_NOT_NEW_INDEPENDENT_DATA"
+  },
+  {
+    "base_call_id": "F0074",
+    "historical_call_id": "RQP-1272",
+    "old_messages": [
+      {
+        "role": "user",
+        "content": "以下四条记录各自描述不同场合的一次具体事件，不要把不同记录合并成同一次事件。\n\nR1：青木は森田に本を貸し出しました。\nR2：青木は森田に本を貸し出しました。\nR3：小川は上田に本を貸し出しました。\nR4：小川は上田に本を貸し出しました。\n\n目标是记录 R2 中提及的那次事件。\n这次事件中谁把书借给了谁？\n只用中文回答，不解释。若答案可唯一确定，用“出借方是…；借入方是…”的完整句式填写姓名；若明确这次事件未发生，只回答“借书未发生”；若现有信息不能唯一确定答案，只回答“信息不足”。不要根据其他事件补全本次事件。"
+      }
+    ],
+    "historical_prompt_sha256": "58e85b10e3040be7fb71ca4be2ef7c2d28cdfe4e0a91e9fb8d54787338b72a1e",
+    "source_form": "JA_ACTIVE",
+    "record_bytes_identical": true,
+    "records": [
+      "R1：青木は森田に本を貸し出しました。",
+      "R2：青木は森田に本を貸し出しました。",
+      "R3：小川は上田に本を貸し出しました。",
+      "R4：小川は上田に本を貸し出しました。"
+    ],
+    "target_id": "R2",
+    "target_slot": 1,
+    "profile": "SAME",
+    "layout": 0,
+    "single_base_call_id": "S0050",
+    "old_contract": "nonoccurrence answered without roles",
+    "new_contract": "NO retains explicitly mentioned proposition roles",
+    "identity": "REUSED_EXPOSED_AUTHOR_DEVELOPMENT_NOT_NEW_INDEPENDENT_DATA"
+  },
+  {
+    "base_call_id": "F0075",
+    "historical_call_id": "RQP-1286",
+    "old_messages": [
+      {
+        "role": "user",
+        "content": "以下四条记录各自描述不同场合的一次具体事件，不要把不同记录合并成同一次事件。\n\nR4：青木は森田に本を貸し出しました。\nR3：青木は森田に本を貸し出しました。\nR2：小川は上田に本を貸し出しました。\nR1：小川は上田に本を貸し出しました。\n\n目标是记录 R3 中提及的那次事件。\n这次事件中谁把书借给了谁？\n只用中文回答，不解释。若答案可唯一确定，用“出借方是…；借入方是…”的完整句式填写姓名；若明确这次事件未发生，只回答“借书未发生”；若现有信息不能唯一确定答案，只回答“信息不足”。不要根据其他事件补全本次事件。"
+      }
+    ],
+    "historical_prompt_sha256": "20180741a6c0c0e0706e9838911254fd5c3c16a734a8909cdfd2a8638a58aec1",
+    "source_form": "JA_ACTIVE",
+    "record_bytes_identical": true,
+    "records": [
+      "R4：青木は森田に本を貸し出しました。",
+      "R3：青木は森田に本を貸し出しました。",
+      "R2：小川は上田に本を貸し出しました。",
+      "R1：小川は上田に本を貸し出しました。"
+    ],
+    "target_id": "R3",
+    "target_slot": 0,
+    "profile": "SAME",
+    "layout": 1,
+    "single_base_call_id": "S0051",
+    "old_contract": "nonoccurrence answered without roles",
+    "new_contract": "NO retains explicitly mentioned proposition roles",
+    "identity": "REUSED_EXPOSED_AUTHOR_DEVELOPMENT_NOT_NEW_INDEPENDENT_DATA"
+  },
+  {
+    "base_call_id": "F0076",
+    "historical_call_id": "RQP-1287",
+    "old_messages": [
+      {
+        "role": "user",
+        "content": "以下四条记录各自描述不同场合的一次具体事件，不要把不同记录合并成同一次事件。\n\nR4：青木は森田に本を貸し出しました。\nR3：青木は森田に本を貸し出しました。\nR2：小川は上田に本を貸し出しました。\nR1：小川は上田に本を貸し出しました。\n\n目标是记录 R4 中提及的那次事件。\n这次事件中谁把书借给了谁？\n只用中文回答，不解释。若答案可唯一确定，用“出借方是…；借入方是…”的完整句式填写姓名；若明确这次事件未发生，只回答“借书未发生”；若现有信息不能唯一确定答案，只回答“信息不足”。不要根据其他事件补全本次事件。"
+      }
+    ],
+    "historical_prompt_sha256": "f925dd7ce30d314069dce28f1fedb72a9fa0a63bc3308df7dfca9101215bd8b5",
+    "source_form": "JA_ACTIVE",
+    "record_bytes_identical": true,
+    "records": [
+      "R4：青木は森田に本を貸し出しました。",
+      "R3：青木は森田に本を貸し出しました。",
+      "R2：小川は上田に本を貸し出しました。",
+      "R1：小川は上田に本を貸し出しました。"
+    ],
+    "target_id": "R4",
+    "target_slot": 1,
+    "profile": "SAME",
+    "layout": 1,
+    "single_base_call_id": "S0052",
+    "old_contract": "nonoccurrence answered without roles",
+    "new_contract": "NO retains explicitly mentioned proposition roles",
+    "identity": "REUSED_EXPOSED_AUTHOR_DEVELOPMENT_NOT_NEW_INDEPENDENT_DATA"
+  },
+  {
+    "base_call_id": "F0077",
+    "historical_call_id": "RQP-1301",
+    "old_messages": [
+      {
+        "role": "user",
+        "content": "以下四条记录各自描述不同场合的一次具体事件，不要把不同记录合并成同一次事件。\n\nR1：青木は森田に本を貸し出しました。\nR2：青木は上田に本を貸し出しました。\nR3：小川は森田に本を貸し出しました。\nR4：小川は上田に本を貸し出しました。\n\n目标是记录 R1 中提及的那次事件。\n这次事件中谁把书借给了谁？\n只用中文回答，不解释。若答案可唯一确定，用“出借方是…；借入方是…”的完整句式填写姓名；若明确这次事件未发生，只回答“借书未发生”；若现有信息不能唯一确定答案，只回答“信息不足”。不要根据其他事件补全本次事件。"
+      }
+    ],
+    "historical_prompt_sha256": "8025ca6ad3ba4a7b62a9e6848cdeb5fa200db917fee92ae32cf6bf62f56cddd8",
+    "source_form": "JA_ACTIVE",
+    "record_bytes_identical": true,
+    "records": [
+      "R1：青木は森田に本を貸し出しました。",
+      "R2：青木は上田に本を貸し出しました。",
+      "R3：小川は森田に本を貸し出しました。",
+      "R4：小川は上田に本を貸し出しました。"
+    ],
+    "target_id": "R1",
+    "target_slot": 0,
+    "profile": "COMMON_AGENT",
+    "layout": 0,
+    "single_base_call_id": "S0049",
+    "old_contract": "nonoccurrence answered without roles",
+    "new_contract": "NO retains explicitly mentioned proposition roles",
+    "identity": "REUSED_EXPOSED_AUTHOR_DEVELOPMENT_NOT_NEW_INDEPENDENT_DATA"
+  },
+  {
+    "base_call_id": "F0078",
+    "historical_call_id": "RQP-1302",
+    "old_messages": [
+      {
+        "role": "user",
+        "content": "以下四条记录各自描述不同场合的一次具体事件，不要把不同记录合并成同一次事件。\n\nR1：青木は森田に本を貸し出しました。\nR2：青木は上田に本を貸し出しました。\nR3：小川は森田に本を貸し出しました。\nR4：小川は上田に本を貸し出しました。\n\n目标是记录 R2 中提及的那次事件。\n这次事件中谁把书借给了谁？\n只用中文回答，不解释。若答案可唯一确定，用“出借方是…；借入方是…”的完整句式填写姓名；若明确这次事件未发生，只回答“借书未发生”；若现有信息不能唯一确定答案，只回答“信息不足”。不要根据其他事件补全本次事件。"
+      }
+    ],
+    "historical_prompt_sha256": "43f10bc5e4ebc8e91659d8d7067bcf0e2e1829c1e359aed8a15811f614f2a180",
+    "source_form": "JA_ACTIVE",
+    "record_bytes_identical": true,
+    "records": [
+      "R1：青木は森田に本を貸し出しました。",
+      "R2：青木は上田に本を貸し出しました。",
+      "R3：小川は森田に本を貸し出しました。",
+      "R4：小川は上田に本を貸し出しました。"
+    ],
+    "target_id": "R2",
+    "target_slot": 1,
+    "profile": "COMMON_AGENT",
+    "layout": 0,
+    "single_base_call_id": "S0053",
+    "old_contract": "nonoccurrence answered without roles",
+    "new_contract": "NO retains explicitly mentioned proposition roles",
+    "identity": "REUSED_EXPOSED_AUTHOR_DEVELOPMENT_NOT_NEW_INDEPENDENT_DATA"
+  },
+  {
+    "base_call_id": "F0079",
+    "historical_call_id": "RQP-1316",
+    "old_messages": [
+      {
+        "role": "user",
+        "content": "以下四条记录各自描述不同场合的一次具体事件，不要把不同记录合并成同一次事件。\n\nR4：青木は上田に本を貸し出しました。\nR3：青木は森田に本を貸し出しました。\nR2：小川は上田に本を貸し出しました。\nR1：小川は森田に本を貸し出しました。\n\n目标是记录 R3 中提及的那次事件。\n这次事件中谁把书借给了谁？\n只用中文回答，不解释。若答案可唯一确定，用“出借方是…；借入方是…”的完整句式填写姓名；若明确这次事件未发生，只回答“借书未发生”；若现有信息不能唯一确定答案，只回答“信息不足”。不要根据其他事件补全本次事件。"
+      }
+    ],
+    "historical_prompt_sha256": "a0ee29d1da4985b435d43c6425da2d5bc4cdd5537e3282086ae8d3317db66561",
+    "source_form": "JA_ACTIVE",
+    "record_bytes_identical": true,
+    "records": [
+      "R4：青木は上田に本を貸し出しました。",
+      "R3：青木は森田に本を貸し出しました。",
+      "R2：小川は上田に本を貸し出しました。",
+      "R1：小川は森田に本を貸し出しました。"
+    ],
+    "target_id": "R3",
+    "target_slot": 0,
+    "profile": "COMMON_AGENT",
+    "layout": 1,
+    "single_base_call_id": "S0051",
+    "old_contract": "nonoccurrence answered without roles",
+    "new_contract": "NO retains explicitly mentioned proposition roles",
+    "identity": "REUSED_EXPOSED_AUTHOR_DEVELOPMENT_NOT_NEW_INDEPENDENT_DATA"
+  },
+  {
+    "base_call_id": "F0080",
+    "historical_call_id": "RQP-1317",
+    "old_messages": [
+      {
+        "role": "user",
+        "content": "以下四条记录各自描述不同场合的一次具体事件，不要把不同记录合并成同一次事件。\n\nR4：青木は上田に本を貸し出しました。\nR3：青木は森田に本を貸し出しました。\nR2：小川は上田に本を貸し出しました。\nR1：小川は森田に本を貸し出しました。\n\n目标是记录 R4 中提及的那次事件。\n这次事件中谁把书借给了谁？\n只用中文回答，不解释。若答案可唯一确定，用“出借方是…；借入方是…”的完整句式填写姓名；若明确这次事件未发生，只回答“借书未发生”；若现有信息不能唯一确定答案，只回答“信息不足”。不要根据其他事件补全本次事件。"
+      }
+    ],
+    "historical_prompt_sha256": "564e00d80a6e151b2d0cebff34fdda73e12b230fad77cde12117d607725b54d9",
+    "source_form": "JA_ACTIVE",
+    "record_bytes_identical": true,
+    "records": [
+      "R4：青木は上田に本を貸し出しました。",
+      "R3：青木は森田に本を貸し出しました。",
+      "R2：小川は上田に本を貸し出しました。",
+      "R1：小川は森田に本を貸し出しました。"
+    ],
+    "target_id": "R4",
+    "target_slot": 1,
+    "profile": "COMMON_AGENT",
+    "layout": 1,
+    "single_base_call_id": "S0054",
+    "old_contract": "nonoccurrence answered without roles",
+    "new_contract": "NO retains explicitly mentioned proposition roles",
+    "identity": "REUSED_EXPOSED_AUTHOR_DEVELOPMENT_NOT_NEW_INDEPENDENT_DATA"
+  },
+  {
+    "base_call_id": "F0081",
+    "historical_call_id": "RQP-1331",
+    "old_messages": [
+      {
+        "role": "user",
+        "content": "以下四条记录各自描述不同场合的一次具体事件，不要把不同记录合并成同一次事件。\n\nR1：青木は森田に本を貸し出しました。\nR2：小川は森田に本を貸し出しました。\nR3：青木は上田に本を貸し出しました。\nR4：小川は上田に本を貸し出しました。\n\n目标是记录 R1 中提及的那次事件。\n这次事件中谁把书借给了谁？\n只用中文回答，不解释。若答案可唯一确定，用“出借方是…；借入方是…”的完整句式填写姓名；若明确这次事件未发生，只回答“借书未发生”；若现有信息不能唯一确定答案，只回答“信息不足”。不要根据其他事件补全本次事件。"
+      }
+    ],
+    "historical_prompt_sha256": "7e3bded4851b4ec51384384e918eb9a4a5778f06c05742131f6188a8344a5c00",
+    "source_form": "JA_ACTIVE",
+    "record_bytes_identical": true,
+    "records": [
+      "R1：青木は森田に本を貸し出しました。",
+      "R2：小川は森田に本を貸し出しました。",
+      "R3：青木は上田に本を貸し出しました。",
+      "R4：小川は上田に本を貸し出しました。"
+    ],
+    "target_id": "R1",
+    "target_slot": 0,
+    "profile": "COMMON_PATIENT",
+    "layout": 0,
+    "single_base_call_id": "S0049",
+    "old_contract": "nonoccurrence answered without roles",
+    "new_contract": "NO retains explicitly mentioned proposition roles",
+    "identity": "REUSED_EXPOSED_AUTHOR_DEVELOPMENT_NOT_NEW_INDEPENDENT_DATA"
+  },
+  {
+    "base_call_id": "F0082",
+    "historical_call_id": "RQP-1332",
+    "old_messages": [
+      {
+        "role": "user",
+        "content": "以下四条记录各自描述不同场合的一次具体事件，不要把不同记录合并成同一次事件。\n\nR1：青木は森田に本を貸し出しました。\nR2：小川は森田に本を貸し出しました。\nR3：青木は上田に本を貸し出しました。\nR4：小川は上田に本を貸し出しました。\n\n目标是记录 R2 中提及的那次事件。\n这次事件中谁把书借给了谁？\n只用中文回答，不解释。若答案可唯一确定，用“出借方是…；借入方是…”的完整句式填写姓名；若明确这次事件未发生，只回答“借书未发生”；若现有信息不能唯一确定答案，只回答“信息不足”。不要根据其他事件补全本次事件。"
+      }
+    ],
+    "historical_prompt_sha256": "63d817df26bcc638eea606008d121ddaec4b1e355c17aea6f8f1591d654e1b24",
+    "source_form": "JA_ACTIVE",
+    "record_bytes_identical": true,
+    "records": [
+      "R1：青木は森田に本を貸し出しました。",
+      "R2：小川は森田に本を貸し出しました。",
+      "R3：青木は上田に本を貸し出しました。",
+      "R4：小川は上田に本を貸し出しました。"
+    ],
+    "target_id": "R2",
+    "target_slot": 1,
+    "profile": "COMMON_PATIENT",
+    "layout": 0,
+    "single_base_call_id": "S0055",
+    "old_contract": "nonoccurrence answered without roles",
+    "new_contract": "NO retains explicitly mentioned proposition roles",
+    "identity": "REUSED_EXPOSED_AUTHOR_DEVELOPMENT_NOT_NEW_INDEPENDENT_DATA"
+  },
+  {
+    "base_call_id": "F0083",
+    "historical_call_id": "RQP-1346",
+    "old_messages": [
+      {
+        "role": "user",
+        "content": "以下四条记录各自描述不同场合的一次具体事件，不要把不同记录合并成同一次事件。\n\nR4：小川は森田に本を貸し出しました。\nR3：青木は森田に本を貸し出しました。\nR2：小川は上田に本を貸し出しました。\nR1：青木は上田に本を貸し出しました。\n\n目标是记录 R3 中提及的那次事件。\n这次事件中谁把书借给了谁？\n只用中文回答，不解释。若答案可唯一确定，用“出借方是…；借入方是…”的完整句式填写姓名；若明确这次事件未发生，只回答“借书未发生”；若现有信息不能唯一确定答案，只回答“信息不足”。不要根据其他事件补全本次事件。"
+      }
+    ],
+    "historical_prompt_sha256": "fce882154983daf221368cc8e82c21897944e5c3792eea0c93596965d7e5d5d3",
+    "source_form": "JA_ACTIVE",
+    "record_bytes_identical": true,
+    "records": [
+      "R4：小川は森田に本を貸し出しました。",
+      "R3：青木は森田に本を貸し出しました。",
+      "R2：小川は上田に本を貸し出しました。",
+      "R1：青木は上田に本を貸し出しました。"
+    ],
+    "target_id": "R3",
+    "target_slot": 0,
+    "profile": "COMMON_PATIENT",
+    "layout": 1,
+    "single_base_call_id": "S0051",
+    "old_contract": "nonoccurrence answered without roles",
+    "new_contract": "NO retains explicitly mentioned proposition roles",
+    "identity": "REUSED_EXPOSED_AUTHOR_DEVELOPMENT_NOT_NEW_INDEPENDENT_DATA"
+  },
+  {
+    "base_call_id": "F0084",
+    "historical_call_id": "RQP-1347",
+    "old_messages": [
+      {
+        "role": "user",
+        "content": "以下四条记录各自描述不同场合的一次具体事件，不要把不同记录合并成同一次事件。\n\nR4：小川は森田に本を貸し出しました。\nR3：青木は森田に本を貸し出しました。\nR2：小川は上田に本を貸し出しました。\nR1：青木は上田に本を貸し出しました。\n\n目标是记录 R4 中提及的那次事件。\n这次事件中谁把书借给了谁？\n只用中文回答，不解释。若答案可唯一确定，用“出借方是…；借入方是…”的完整句式填写姓名；若明确这次事件未发生，只回答“借书未发生”；若现有信息不能唯一确定答案，只回答“信息不足”。不要根据其他事件补全本次事件。"
+      }
+    ],
+    "historical_prompt_sha256": "cc8f822c51a7fe4571eac4c12caa6ac17f849fd6fc9a78a583d3ee35e45c4458",
+    "source_form": "JA_ACTIVE",
+    "record_bytes_identical": true,
+    "records": [
+      "R4：小川は森田に本を貸し出しました。",
+      "R3：青木は森田に本を貸し出しました。",
+      "R2：小川は上田に本を貸し出しました。",
+      "R1：青木は上田に本を貸し出しました。"
+    ],
+    "target_id": "R4",
+    "target_slot": 1,
+    "profile": "COMMON_PATIENT",
+    "layout": 1,
+    "single_base_call_id": "S0056",
+    "old_contract": "nonoccurrence answered without roles",
+    "new_contract": "NO retains explicitly mentioned proposition roles",
+    "identity": "REUSED_EXPOSED_AUTHOR_DEVELOPMENT_NOT_NEW_INDEPENDENT_DATA"
+  },
+  {
+    "base_call_id": "F0085",
+    "historical_call_id": "RQP-1361",
+    "old_messages": [
+      {
+        "role": "user",
+        "content": "以下四条记录各自描述不同场合的一次具体事件，不要把不同记录合并成同一次事件。\n\nR1：青木は森田に本を貸し出しました。\nR2：森田は青木に本を貸し出しました。\nR3：小川は上田に本を貸し出しました。\nR4：上田は小川に本を貸し出しました。\n\n目标是记录 R1 中提及的那次事件。\n这次事件中谁把书借给了谁？\n只用中文回答，不解释。若答案可唯一确定，用“出借方是…；借入方是…”的完整句式填写姓名；若明确这次事件未发生，只回答“借书未发生”；若现有信息不能唯一确定答案，只回答“信息不足”。不要根据其他事件补全本次事件。"
+      }
+    ],
+    "historical_prompt_sha256": "f8b1d695990be11134bf8162c43028a33f344437e4be0be6fa235b10ebebee8a",
+    "source_form": "JA_ACTIVE",
+    "record_bytes_identical": true,
+    "records": [
+      "R1：青木は森田に本を貸し出しました。",
+      "R2：森田は青木に本を貸し出しました。",
+      "R3：小川は上田に本を貸し出しました。",
+      "R4：上田は小川に本を貸し出しました。"
+    ],
+    "target_id": "R1",
+    "target_slot": 0,
+    "profile": "REVERSED",
+    "layout": 0,
+    "single_base_call_id": "S0049",
+    "old_contract": "nonoccurrence answered without roles",
+    "new_contract": "NO retains explicitly mentioned proposition roles",
+    "identity": "REUSED_EXPOSED_AUTHOR_DEVELOPMENT_NOT_NEW_INDEPENDENT_DATA"
+  },
+  {
+    "base_call_id": "F0086",
+    "historical_call_id": "RQP-1362",
+    "old_messages": [
+      {
+        "role": "user",
+        "content": "以下四条记录各自描述不同场合的一次具体事件，不要把不同记录合并成同一次事件。\n\nR1：青木は森田に本を貸し出しました。\nR2：森田は青木に本を貸し出しました。\nR3：小川は上田に本を貸し出しました。\nR4：上田は小川に本を貸し出しました。\n\n目标是记录 R2 中提及的那次事件。\n这次事件中谁把书借给了谁？\n只用中文回答，不解释。若答案可唯一确定，用“出借方是…；借入方是…”的完整句式填写姓名；若明确这次事件未发生，只回答“借书未发生”；若现有信息不能唯一确定答案，只回答“信息不足”。不要根据其他事件补全本次事件。"
+      }
+    ],
+    "historical_prompt_sha256": "8da751a49cad9948523f4a3e0260a9cf7e2191c82deedce3d4f2110375681ebf",
+    "source_form": "JA_ACTIVE",
+    "record_bytes_identical": true,
+    "records": [
+      "R1：青木は森田に本を貸し出しました。",
+      "R2：森田は青木に本を貸し出しました。",
+      "R3：小川は上田に本を貸し出しました。",
+      "R4：上田は小川に本を貸し出しました。"
+    ],
+    "target_id": "R2",
+    "target_slot": 1,
+    "profile": "REVERSED",
+    "layout": 0,
+    "single_base_call_id": "S0057",
+    "old_contract": "nonoccurrence answered without roles",
+    "new_contract": "NO retains explicitly mentioned proposition roles",
+    "identity": "REUSED_EXPOSED_AUTHOR_DEVELOPMENT_NOT_NEW_INDEPENDENT_DATA"
+  },
+  {
+    "base_call_id": "F0087",
+    "historical_call_id": "RQP-1376",
+    "old_messages": [
+      {
+        "role": "user",
+        "content": "以下四条记录各自描述不同场合的一次具体事件，不要把不同记录合并成同一次事件。\n\nR4：森田は青木に本を貸し出しました。\nR3：青木は森田に本を貸し出しました。\nR2：上田は小川に本を貸し出しました。\nR1：小川は上田に本を貸し出しました。\n\n目标是记录 R3 中提及的那次事件。\n这次事件中谁把书借给了谁？\n只用中文回答，不解释。若答案可唯一确定，用“出借方是…；借入方是…”的完整句式填写姓名；若明确这次事件未发生，只回答“借书未发生”；若现有信息不能唯一确定答案，只回答“信息不足”。不要根据其他事件补全本次事件。"
+      }
+    ],
+    "historical_prompt_sha256": "82f0028df15e48d1631db2d2a7a98a595f1b01037c80f2c98ca32d6b4bfc8d54",
+    "source_form": "JA_ACTIVE",
+    "record_bytes_identical": true,
+    "records": [
+      "R4：森田は青木に本を貸し出しました。",
+      "R3：青木は森田に本を貸し出しました。",
+      "R2：上田は小川に本を貸し出しました。",
+      "R1：小川は上田に本を貸し出しました。"
+    ],
+    "target_id": "R3",
+    "target_slot": 0,
+    "profile": "REVERSED",
+    "layout": 1,
+    "single_base_call_id": "S0051",
+    "old_contract": "nonoccurrence answered without roles",
+    "new_contract": "NO retains explicitly mentioned proposition roles",
+    "identity": "REUSED_EXPOSED_AUTHOR_DEVELOPMENT_NOT_NEW_INDEPENDENT_DATA"
+  },
+  {
+    "base_call_id": "F0088",
+    "historical_call_id": "RQP-1377",
+    "old_messages": [
+      {
+        "role": "user",
+        "content": "以下四条记录各自描述不同场合的一次具体事件，不要把不同记录合并成同一次事件。\n\nR4：森田は青木に本を貸し出しました。\nR3：青木は森田に本を貸し出しました。\nR2：上田は小川に本を貸し出しました。\nR1：小川は上田に本を貸し出しました。\n\n目标是记录 R4 中提及的那次事件。\n这次事件中谁把书借给了谁？\n只用中文回答，不解释。若答案可唯一确定，用“出借方是…；借入方是…”的完整句式填写姓名；若明确这次事件未发生，只回答“借书未发生”；若现有信息不能唯一确定答案，只回答“信息不足”。不要根据其他事件补全本次事件。"
+      }
+    ],
+    "historical_prompt_sha256": "5590b880d93cac60e61d411a3388afbf9e9344a4e2a1ae98143c4c1bdda76177",
+    "source_form": "JA_ACTIVE",
+    "record_bytes_identical": true,
+    "records": [
+      "R4：森田は青木に本を貸し出しました。",
+      "R3：青木は森田に本を貸し出しました。",
+      "R2：上田は小川に本を貸し出しました。",
+      "R1：小川は上田に本を貸し出しました。"
+    ],
+    "target_id": "R4",
+    "target_slot": 1,
+    "profile": "REVERSED",
+    "layout": 1,
+    "single_base_call_id": "S0058",
+    "old_contract": "nonoccurrence answered without roles",
+    "new_contract": "NO retains explicitly mentioned proposition roles",
+    "identity": "REUSED_EXPOSED_AUTHOR_DEVELOPMENT_NOT_NEW_INDEPENDENT_DATA"
+  },
+  {
+    "base_call_id": "F0089",
+    "historical_call_id": "RQP-1391",
+    "old_messages": [
+      {
+        "role": "user",
+        "content": "以下四条记录各自描述不同场合的一次具体事件，不要把不同记录合并成同一次事件。\n\nR1：青木は森田に本を貸し出しました。\nR2：青木は森田に本を貸し出しませんでした。\nR3：小川は上田に本を貸し出しました。\nR4：小川は上田に本を貸し出しませんでした。\n\n目标是记录 R1 中提及的那次事件。\n这次事件中谁把书借给了谁？\n只用中文回答，不解释。若答案可唯一确定，用“出借方是…；借入方是…”的完整句式填写姓名；若明确这次事件未发生，只回答“借书未发生”；若现有信息不能唯一确定答案，只回答“信息不足”。不要根据其他事件补全本次事件。"
+      }
+    ],
+    "historical_prompt_sha256": "cac0084945d3c2e0faab44bf58a193a6224c5e2fb42ebfa8a222f823b8604d83",
+    "source_form": "JA_ACTIVE",
+    "record_bytes_identical": true,
+    "records": [
+      "R1：青木は森田に本を貸し出しました。",
+      "R2：青木は森田に本を貸し出しませんでした。",
+      "R3：小川は上田に本を貸し出しました。",
+      "R4：小川は上田に本を貸し出しませんでした。"
+    ],
+    "target_id": "R1",
+    "target_slot": 0,
+    "profile": "MIX_POLARITY",
+    "layout": 0,
+    "single_base_call_id": "S0049",
+    "old_contract": "nonoccurrence answered without roles",
+    "new_contract": "NO retains explicitly mentioned proposition roles",
+    "identity": "REUSED_EXPOSED_AUTHOR_DEVELOPMENT_NOT_NEW_INDEPENDENT_DATA"
+  },
+  {
+    "base_call_id": "F0090",
+    "historical_call_id": "RQP-1392",
+    "old_messages": [
+      {
+        "role": "user",
+        "content": "以下四条记录各自描述不同场合的一次具体事件，不要把不同记录合并成同一次事件。\n\nR1：青木は森田に本を貸し出しました。\nR2：青木は森田に本を貸し出しませんでした。\nR3：小川は上田に本を貸し出しました。\nR4：小川は上田に本を貸し出しませんでした。\n\n目标是记录 R2 中提及的那次事件。\n这次事件中谁把书借给了谁？\n只用中文回答，不解释。若答案可唯一确定，用“出借方是…；借入方是…”的完整句式填写姓名；若明确这次事件未发生，只回答“借书未发生”；若现有信息不能唯一确定答案，只回答“信息不足”。不要根据其他事件补全本次事件。"
+      }
+    ],
+    "historical_prompt_sha256": "d236f3cf3dc29cd024e3d3423a2bc39bd18faa02d70fdde326bf0dcb10b77638",
+    "source_form": "JA_ACTIVE",
+    "record_bytes_identical": true,
+    "records": [
+      "R1：青木は森田に本を貸し出しました。",
+      "R2：青木は森田に本を貸し出しませんでした。",
+      "R3：小川は上田に本を貸し出しました。",
+      "R4：小川は上田に本を貸し出しませんでした。"
+    ],
+    "target_id": "R2",
+    "target_slot": 1,
+    "profile": "MIX_POLARITY",
+    "layout": 0,
+    "single_base_call_id": "S0059",
+    "old_contract": "nonoccurrence answered without roles",
+    "new_contract": "NO retains explicitly mentioned proposition roles",
+    "identity": "REUSED_EXPOSED_AUTHOR_DEVELOPMENT_NOT_NEW_INDEPENDENT_DATA"
+  },
+  {
+    "base_call_id": "F0091",
+    "historical_call_id": "RQP-1406",
+    "old_messages": [
+      {
+        "role": "user",
+        "content": "以下四条记录各自描述不同场合的一次具体事件，不要把不同记录合并成同一次事件。\n\nR4：青木は森田に本を貸し出しませんでした。\nR3：青木は森田に本を貸し出しました。\nR2：小川は上田に本を貸し出しませんでした。\nR1：小川は上田に本を貸し出しました。\n\n目标是记录 R3 中提及的那次事件。\n这次事件中谁把书借给了谁？\n只用中文回答，不解释。若答案可唯一确定，用“出借方是…；借入方是…”的完整句式填写姓名；若明确这次事件未发生，只回答“借书未发生”；若现有信息不能唯一确定答案，只回答“信息不足”。不要根据其他事件补全本次事件。"
+      }
+    ],
+    "historical_prompt_sha256": "5d12e91d3cc836428304f9acf2963f39d8d8fd211feb98be5acca749c48482d0",
+    "source_form": "JA_ACTIVE",
+    "record_bytes_identical": true,
+    "records": [
+      "R4：青木は森田に本を貸し出しませんでした。",
+      "R3：青木は森田に本を貸し出しました。",
+      "R2：小川は上田に本を貸し出しませんでした。",
+      "R1：小川は上田に本を貸し出しました。"
+    ],
+    "target_id": "R3",
+    "target_slot": 0,
+    "profile": "MIX_POLARITY",
+    "layout": 1,
+    "single_base_call_id": "S0051",
+    "old_contract": "nonoccurrence answered without roles",
+    "new_contract": "NO retains explicitly mentioned proposition roles",
+    "identity": "REUSED_EXPOSED_AUTHOR_DEVELOPMENT_NOT_NEW_INDEPENDENT_DATA"
+  },
+  {
+    "base_call_id": "F0092",
+    "historical_call_id": "RQP-1407",
+    "old_messages": [
+      {
+        "role": "user",
+        "content": "以下四条记录各自描述不同场合的一次具体事件，不要把不同记录合并成同一次事件。\n\nR4：青木は森田に本を貸し出しませんでした。\nR3：青木は森田に本を貸し出しました。\nR2：小川は上田に本を貸し出しませんでした。\nR1：小川は上田に本を貸し出しました。\n\n目标是记录 R4 中提及的那次事件。\n这次事件中谁把书借给了谁？\n只用中文回答，不解释。若答案可唯一确定，用“出借方是…；借入方是…”的完整句式填写姓名；若明确这次事件未发生，只回答“借书未发生”；若现有信息不能唯一确定答案，只回答“信息不足”。不要根据其他事件补全本次事件。"
+      }
+    ],
+    "historical_prompt_sha256": "6d1ff1b640416672eb5bb19e8b661da6c31ded10dbc301f60a6513163338bcf7",
+    "source_form": "JA_ACTIVE",
+    "record_bytes_identical": true,
+    "records": [
+      "R4：青木は森田に本を貸し出しませんでした。",
+      "R3：青木は森田に本を貸し出しました。",
+      "R2：小川は上田に本を貸し出しませんでした。",
+      "R1：小川は上田に本を貸し出しました。"
+    ],
+    "target_id": "R4",
+    "target_slot": 1,
+    "profile": "MIX_POLARITY",
+    "layout": 1,
+    "single_base_call_id": "S0060",
+    "old_contract": "nonoccurrence answered without roles",
+    "new_contract": "NO retains explicitly mentioned proposition roles",
+    "identity": "REUSED_EXPOSED_AUTHOR_DEVELOPMENT_NOT_NEW_INDEPENDENT_DATA"
+  },
+  {
+    "base_call_id": "F0093",
+    "historical_call_id": "RQP-1421",
+    "old_messages": [
+      {
+        "role": "user",
+        "content": "以下四条记录各自描述不同场合的一次具体事件，不要把不同记录合并成同一次事件。\n\nR1：青木は森田に本を貸し出しませんでした。\nR2：小川は上田に本を貸し出しませんでした。\nR3：青木は森田に本を貸し出しました。\nR4：小川は上田に本を貸し出しました。\n\n目标是记录 R1 中提及的那次事件。\n这次事件中谁把书借给了谁？\n只用中文回答，不解释。若答案可唯一确定，用“出借方是…；借入方是…”的完整句式填写姓名；若明确这次事件未发生，只回答“借书未发生”；若现有信息不能唯一确定答案，只回答“信息不足”。不要根据其他事件补全本次事件。"
+      }
+    ],
+    "historical_prompt_sha256": "fefba2c40b4d2773813c5de82503bb39e53761d1cc7aa025baabb77e13bbe9fd",
+    "source_form": "JA_ACTIVE",
+    "record_bytes_identical": true,
+    "records": [
+      "R1：青木は森田に本を貸し出しませんでした。",
+      "R2：小川は上田に本を貸し出しませんでした。",
+      "R3：青木は森田に本を貸し出しました。",
+      "R4：小川は上田に本を貸し出しました。"
+    ],
+    "target_id": "R1",
+    "target_slot": 0,
+    "profile": "BOTH_NEGATIVE",
+    "layout": 0,
+    "single_base_call_id": "S0061",
+    "old_contract": "nonoccurrence answered without roles",
+    "new_contract": "NO retains explicitly mentioned proposition roles",
+    "identity": "REUSED_EXPOSED_AUTHOR_DEVELOPMENT_NOT_NEW_INDEPENDENT_DATA"
+  },
+  {
+    "base_call_id": "F0094",
+    "historical_call_id": "RQP-1422",
+    "old_messages": [
+      {
+        "role": "user",
+        "content": "以下四条记录各自描述不同场合的一次具体事件，不要把不同记录合并成同一次事件。\n\nR1：青木は森田に本を貸し出しませんでした。\nR2：小川は上田に本を貸し出しませんでした。\nR3：青木は森田に本を貸し出しました。\nR4：小川は上田に本を貸し出しました。\n\n目标是记录 R2 中提及的那次事件。\n这次事件中谁把书借给了谁？\n只用中文回答，不解释。若答案可唯一确定，用“出借方是…；借入方是…”的完整句式填写姓名；若明确这次事件未发生，只回答“借书未发生”；若现有信息不能唯一确定答案，只回答“信息不足”。不要根据其他事件补全本次事件。"
+      }
+    ],
+    "historical_prompt_sha256": "a78fc5949d3bc984881bb7a6df210c5fb64dc3ef0749d600462369d8b21ef8d8",
+    "source_form": "JA_ACTIVE",
+    "record_bytes_identical": true,
+    "records": [
+      "R1：青木は森田に本を貸し出しませんでした。",
+      "R2：小川は上田に本を貸し出しませんでした。",
+      "R3：青木は森田に本を貸し出しました。",
+      "R4：小川は上田に本を貸し出しました。"
+    ],
+    "target_id": "R2",
+    "target_slot": 1,
+    "profile": "BOTH_NEGATIVE",
+    "layout": 0,
+    "single_base_call_id": "S0062",
+    "old_contract": "nonoccurrence answered without roles",
+    "new_contract": "NO retains explicitly mentioned proposition roles",
+    "identity": "REUSED_EXPOSED_AUTHOR_DEVELOPMENT_NOT_NEW_INDEPENDENT_DATA"
+  },
+  {
+    "base_call_id": "F0095",
+    "historical_call_id": "RQP-1436",
+    "old_messages": [
+      {
+        "role": "user",
+        "content": "以下四条记录各自描述不同场合的一次具体事件，不要把不同记录合并成同一次事件。\n\nR4：小川は上田に本を貸し出しませんでした。\nR3：青木は森田に本を貸し出しませんでした。\nR2：小川は上田に本を貸し出しました。\nR1：青木は森田に本を貸し出しました。\n\n目标是记录 R3 中提及的那次事件。\n这次事件中谁把书借给了谁？\n只用中文回答，不解释。若答案可唯一确定，用“出借方是…；借入方是…”的完整句式填写姓名；若明确这次事件未发生，只回答“借书未发生”；若现有信息不能唯一确定答案，只回答“信息不足”。不要根据其他事件补全本次事件。"
+      }
+    ],
+    "historical_prompt_sha256": "0f08ac94463f766fd74680290b7b8ed1c414cd285d86efe1c4701100670c8da5",
+    "source_form": "JA_ACTIVE",
+    "record_bytes_identical": true,
+    "records": [
+      "R4：小川は上田に本を貸し出しませんでした。",
+      "R3：青木は森田に本を貸し出しませんでした。",
+      "R2：小川は上田に本を貸し出しました。",
+      "R1：青木は森田に本を貸し出しました。"
+    ],
+    "target_id": "R3",
+    "target_slot": 0,
+    "profile": "BOTH_NEGATIVE",
+    "layout": 1,
+    "single_base_call_id": "S0063",
+    "old_contract": "nonoccurrence answered without roles",
+    "new_contract": "NO retains explicitly mentioned proposition roles",
+    "identity": "REUSED_EXPOSED_AUTHOR_DEVELOPMENT_NOT_NEW_INDEPENDENT_DATA"
+  },
+  {
+    "base_call_id": "F0096",
+    "historical_call_id": "RQP-1437",
+    "old_messages": [
+      {
+        "role": "user",
+        "content": "以下四条记录各自描述不同场合的一次具体事件，不要把不同记录合并成同一次事件。\n\nR4：小川は上田に本を貸し出しませんでした。\nR3：青木は森田に本を貸し出しませんでした。\nR2：小川は上田に本を貸し出しました。\nR1：青木は森田に本を貸し出しました。\n\n目标是记录 R4 中提及的那次事件。\n这次事件中谁把书借给了谁？\n只用中文回答，不解释。若答案可唯一确定，用“出借方是…；借入方是…”的完整句式填写姓名；若明确这次事件未发生，只回答“借书未发生”；若现有信息不能唯一确定答案，只回答“信息不足”。不要根据其他事件补全本次事件。"
+      }
+    ],
+    "historical_prompt_sha256": "ea147fbabe24a9c4101f37bb2325ffe6e0b3fb90a5c0b5a8ff99dfac84d1a4c9",
+    "source_form": "JA_ACTIVE",
+    "record_bytes_identical": true,
+    "records": [
+      "R4：小川は上田に本を貸し出しませんでした。",
+      "R3：青木は森田に本を貸し出しませんでした。",
+      "R2：小川は上田に本を貸し出しました。",
+      "R1：青木は森田に本を貸し出しました。"
+    ],
+    "target_id": "R4",
+    "target_slot": 1,
+    "profile": "BOTH_NEGATIVE",
+    "layout": 1,
+    "single_base_call_id": "S0064",
+    "old_contract": "nonoccurrence answered without roles",
+    "new_contract": "NO retains explicitly mentioned proposition roles",
+    "identity": "REUSED_EXPOSED_AUTHOR_DEVELOPMENT_NOT_NEW_INDEPENDENT_DATA"
+  },
+  {
+    "base_call_id": "F0097",
+    "historical_call_id": "RQP-1631",
+    "old_messages": [
+      {
+        "role": "user",
+        "content": "以下四条记录各自描述不同场合的一次具体事件，不要把不同记录合并成同一次事件。\n\nR1：本は青木から森田に貸し出されました。\nR2：本は青木から森田に貸し出されました。\nR3：本は小川から上田に貸し出されました。\nR4：本は小川から上田に貸し出されました。\n\n目标是记录 R1 中提及的那次事件。\n这次事件中谁把书借给了谁？\n只用中文回答，不解释。若答案可唯一确定，用“出借方是…；借入方是…”的完整句式填写姓名；若明确这次事件未发生，只回答“借书未发生”；若现有信息不能唯一确定答案，只回答“信息不足”。不要根据其他事件补全本次事件。"
+      }
+    ],
+    "historical_prompt_sha256": "b4a3a0cbf6bf248927ff77febf8213630cbf50b13727f21ea1267c236562fa5c",
+    "source_form": "JA_PASSIVE",
+    "record_bytes_identical": true,
+    "records": [
+      "R1：本は青木から森田に貸し出されました。",
+      "R2：本は青木から森田に貸し出されました。",
+      "R3：本は小川から上田に貸し出されました。",
+      "R4：本は小川から上田に貸し出されました。"
+    ],
+    "target_id": "R1",
+    "target_slot": 0,
+    "profile": "SAME",
+    "layout": 0,
+    "single_base_call_id": "S0065",
+    "old_contract": "nonoccurrence answered without roles",
+    "new_contract": "NO retains explicitly mentioned proposition roles",
+    "identity": "REUSED_EXPOSED_AUTHOR_DEVELOPMENT_NOT_NEW_INDEPENDENT_DATA"
+  },
+  {
+    "base_call_id": "F0098",
+    "historical_call_id": "RQP-1632",
+    "old_messages": [
+      {
+        "role": "user",
+        "content": "以下四条记录各自描述不同场合的一次具体事件，不要把不同记录合并成同一次事件。\n\nR1：本は青木から森田に貸し出されました。\nR2：本は青木から森田に貸し出されました。\nR3：本は小川から上田に貸し出されました。\nR4：本は小川から上田に貸し出されました。\n\n目标是记录 R2 中提及的那次事件。\n这次事件中谁把书借给了谁？\n只用中文回答，不解释。若答案可唯一确定，用“出借方是…；借入方是…”的完整句式填写姓名；若明确这次事件未发生，只回答“借书未发生”；若现有信息不能唯一确定答案，只回答“信息不足”。不要根据其他事件补全本次事件。"
+      }
+    ],
+    "historical_prompt_sha256": "5d92bc1f25f7337d88159c313b73a9474c20dcc71a87e0b425dd796e94a72f30",
+    "source_form": "JA_PASSIVE",
+    "record_bytes_identical": true,
+    "records": [
+      "R1：本は青木から森田に貸し出されました。",
+      "R2：本は青木から森田に貸し出されました。",
+      "R3：本は小川から上田に貸し出されました。",
+      "R4：本は小川から上田に貸し出されました。"
+    ],
+    "target_id": "R2",
+    "target_slot": 1,
+    "profile": "SAME",
+    "layout": 0,
+    "single_base_call_id": "S0066",
+    "old_contract": "nonoccurrence answered without roles",
+    "new_contract": "NO retains explicitly mentioned proposition roles",
+    "identity": "REUSED_EXPOSED_AUTHOR_DEVELOPMENT_NOT_NEW_INDEPENDENT_DATA"
+  },
+  {
+    "base_call_id": "F0099",
+    "historical_call_id": "RQP-1646",
+    "old_messages": [
+      {
+        "role": "user",
+        "content": "以下四条记录各自描述不同场合的一次具体事件，不要把不同记录合并成同一次事件。\n\nR4：本は青木から森田に貸し出されました。\nR3：本は青木から森田に貸し出されました。\nR2：本は小川から上田に貸し出されました。\nR1：本は小川から上田に貸し出されました。\n\n目标是记录 R3 中提及的那次事件。\n这次事件中谁把书借给了谁？\n只用中文回答，不解释。若答案可唯一确定，用“出借方是…；借入方是…”的完整句式填写姓名；若明确这次事件未发生，只回答“借书未发生”；若现有信息不能唯一确定答案，只回答“信息不足”。不要根据其他事件补全本次事件。"
+      }
+    ],
+    "historical_prompt_sha256": "ee7df98e1eb12c7954d547c7d454c07921ae1da55013ffabff55f0dfdf048503",
+    "source_form": "JA_PASSIVE",
+    "record_bytes_identical": true,
+    "records": [
+      "R4：本は青木から森田に貸し出されました。",
+      "R3：本は青木から森田に貸し出されました。",
+      "R2：本は小川から上田に貸し出されました。",
+      "R1：本は小川から上田に貸し出されました。"
+    ],
+    "target_id": "R3",
+    "target_slot": 0,
+    "profile": "SAME",
+    "layout": 1,
+    "single_base_call_id": "S0067",
+    "old_contract": "nonoccurrence answered without roles",
+    "new_contract": "NO retains explicitly mentioned proposition roles",
+    "identity": "REUSED_EXPOSED_AUTHOR_DEVELOPMENT_NOT_NEW_INDEPENDENT_DATA"
+  },
+  {
+    "base_call_id": "F0100",
+    "historical_call_id": "RQP-1647",
+    "old_messages": [
+      {
+        "role": "user",
+        "content": "以下四条记录各自描述不同场合的一次具体事件，不要把不同记录合并成同一次事件。\n\nR4：本は青木から森田に貸し出されました。\nR3：本は青木から森田に貸し出されました。\nR2：本は小川から上田に貸し出されました。\nR1：本は小川から上田に貸し出されました。\n\n目标是记录 R4 中提及的那次事件。\n这次事件中谁把书借给了谁？\n只用中文回答，不解释。若答案可唯一确定，用“出借方是…；借入方是…”的完整句式填写姓名；若明确这次事件未发生，只回答“借书未发生”；若现有信息不能唯一确定答案，只回答“信息不足”。不要根据其他事件补全本次事件。"
+      }
+    ],
+    "historical_prompt_sha256": "c6ea92a852a7f1e12057114bb17f23e8efcd47ff1aebd9be211a890036b9de03",
+    "source_form": "JA_PASSIVE",
+    "record_bytes_identical": true,
+    "records": [
+      "R4：本は青木から森田に貸し出されました。",
+      "R3：本は青木から森田に貸し出されました。",
+      "R2：本は小川から上田に貸し出されました。",
+      "R1：本は小川から上田に貸し出されました。"
+    ],
+    "target_id": "R4",
+    "target_slot": 1,
+    "profile": "SAME",
+    "layout": 1,
+    "single_base_call_id": "S0068",
+    "old_contract": "nonoccurrence answered without roles",
+    "new_contract": "NO retains explicitly mentioned proposition roles",
+    "identity": "REUSED_EXPOSED_AUTHOR_DEVELOPMENT_NOT_NEW_INDEPENDENT_DATA"
+  },
+  {
+    "base_call_id": "F0101",
+    "historical_call_id": "RQP-1661",
+    "old_messages": [
+      {
+        "role": "user",
+        "content": "以下四条记录各自描述不同场合的一次具体事件，不要把不同记录合并成同一次事件。\n\nR1：本は青木から森田に貸し出されました。\nR2：本は青木から上田に貸し出されました。\nR3：本は小川から森田に貸し出されました。\nR4：本は小川から上田に貸し出されました。\n\n目标是记录 R1 中提及的那次事件。\n这次事件中谁把书借给了谁？\n只用中文回答，不解释。若答案可唯一确定，用“出借方是…；借入方是…”的完整句式填写姓名；若明确这次事件未发生，只回答“借书未发生”；若现有信息不能唯一确定答案，只回答“信息不足”。不要根据其他事件补全本次事件。"
+      }
+    ],
+    "historical_prompt_sha256": "eb563821bfaee61e8d7d0b858770bcf38626d7c48e5a10386cbdbde535119546",
+    "source_form": "JA_PASSIVE",
+    "record_bytes_identical": true,
+    "records": [
+      "R1：本は青木から森田に貸し出されました。",
+      "R2：本は青木から上田に貸し出されました。",
+      "R3：本は小川から森田に貸し出されました。",
+      "R4：本は小川から上田に貸し出されました。"
+    ],
+    "target_id": "R1",
+    "target_slot": 0,
+    "profile": "COMMON_AGENT",
+    "layout": 0,
+    "single_base_call_id": "S0065",
+    "old_contract": "nonoccurrence answered without roles",
+    "new_contract": "NO retains explicitly mentioned proposition roles",
+    "identity": "REUSED_EXPOSED_AUTHOR_DEVELOPMENT_NOT_NEW_INDEPENDENT_DATA"
+  },
+  {
+    "base_call_id": "F0102",
+    "historical_call_id": "RQP-1662",
+    "old_messages": [
+      {
+        "role": "user",
+        "content": "以下四条记录各自描述不同场合的一次具体事件，不要把不同记录合并成同一次事件。\n\nR1：本は青木から森田に貸し出されました。\nR2：本は青木から上田に貸し出されました。\nR3：本は小川から森田に貸し出されました。\nR4：本は小川から上田に貸し出されました。\n\n目标是记录 R2 中提及的那次事件。\n这次事件中谁把书借给了谁？\n只用中文回答，不解释。若答案可唯一确定，用“出借方是…；借入方是…”的完整句式填写姓名；若明确这次事件未发生，只回答“借书未发生”；若现有信息不能唯一确定答案，只回答“信息不足”。不要根据其他事件补全本次事件。"
+      }
+    ],
+    "historical_prompt_sha256": "f8a1355485c34eab9de260421140f612bd7bc7efc071e3a1d51839c888cd0d1a",
+    "source_form": "JA_PASSIVE",
+    "record_bytes_identical": true,
+    "records": [
+      "R1：本は青木から森田に貸し出されました。",
+      "R2：本は青木から上田に貸し出されました。",
+      "R3：本は小川から森田に貸し出されました。",
+      "R4：本は小川から上田に貸し出されました。"
+    ],
+    "target_id": "R2",
+    "target_slot": 1,
+    "profile": "COMMON_AGENT",
+    "layout": 0,
+    "single_base_call_id": "S0069",
+    "old_contract": "nonoccurrence answered without roles",
+    "new_contract": "NO retains explicitly mentioned proposition roles",
+    "identity": "REUSED_EXPOSED_AUTHOR_DEVELOPMENT_NOT_NEW_INDEPENDENT_DATA"
+  },
+  {
+    "base_call_id": "F0103",
+    "historical_call_id": "RQP-1676",
+    "old_messages": [
+      {
+        "role": "user",
+        "content": "以下四条记录各自描述不同场合的一次具体事件，不要把不同记录合并成同一次事件。\n\nR4：本は青木から上田に貸し出されました。\nR3：本は青木から森田に貸し出されました。\nR2：本は小川から上田に貸し出されました。\nR1：本は小川から森田に貸し出されました。\n\n目标是记录 R3 中提及的那次事件。\n这次事件中谁把书借给了谁？\n只用中文回答，不解释。若答案可唯一确定，用“出借方是…；借入方是…”的完整句式填写姓名；若明确这次事件未发生，只回答“借书未发生”；若现有信息不能唯一确定答案，只回答“信息不足”。不要根据其他事件补全本次事件。"
+      }
+    ],
+    "historical_prompt_sha256": "30a8e2f0c8426ea1f9d8498f3785d18b64d28c8230ccfba3f0a75d098604f36c",
+    "source_form": "JA_PASSIVE",
+    "record_bytes_identical": true,
+    "records": [
+      "R4：本は青木から上田に貸し出されました。",
+      "R3：本は青木から森田に貸し出されました。",
+      "R2：本は小川から上田に貸し出されました。",
+      "R1：本は小川から森田に貸し出されました。"
+    ],
+    "target_id": "R3",
+    "target_slot": 0,
+    "profile": "COMMON_AGENT",
+    "layout": 1,
+    "single_base_call_id": "S0067",
+    "old_contract": "nonoccurrence answered without roles",
+    "new_contract": "NO retains explicitly mentioned proposition roles",
+    "identity": "REUSED_EXPOSED_AUTHOR_DEVELOPMENT_NOT_NEW_INDEPENDENT_DATA"
+  },
+  {
+    "base_call_id": "F0104",
+    "historical_call_id": "RQP-1677",
+    "old_messages": [
+      {
+        "role": "user",
+        "content": "以下四条记录各自描述不同场合的一次具体事件，不要把不同记录合并成同一次事件。\n\nR4：本は青木から上田に貸し出されました。\nR3：本は青木から森田に貸し出されました。\nR2：本は小川から上田に貸し出されました。\nR1：本は小川から森田に貸し出されました。\n\n目标是记录 R4 中提及的那次事件。\n这次事件中谁把书借给了谁？\n只用中文回答，不解释。若答案可唯一确定，用“出借方是…；借入方是…”的完整句式填写姓名；若明确这次事件未发生，只回答“借书未发生”；若现有信息不能唯一确定答案，只回答“信息不足”。不要根据其他事件补全本次事件。"
+      }
+    ],
+    "historical_prompt_sha256": "347e1a1edcb83ac1a5679240eae97c637e52e64b9e2ad682b39c731a0177cf52",
+    "source_form": "JA_PASSIVE",
+    "record_bytes_identical": true,
+    "records": [
+      "R4：本は青木から上田に貸し出されました。",
+      "R3：本は青木から森田に貸し出されました。",
+      "R2：本は小川から上田に貸し出されました。",
+      "R1：本は小川から森田に貸し出されました。"
+    ],
+    "target_id": "R4",
+    "target_slot": 1,
+    "profile": "COMMON_AGENT",
+    "layout": 1,
+    "single_base_call_id": "S0070",
+    "old_contract": "nonoccurrence answered without roles",
+    "new_contract": "NO retains explicitly mentioned proposition roles",
+    "identity": "REUSED_EXPOSED_AUTHOR_DEVELOPMENT_NOT_NEW_INDEPENDENT_DATA"
+  },
+  {
+    "base_call_id": "F0105",
+    "historical_call_id": "RQP-1691",
+    "old_messages": [
+      {
+        "role": "user",
+        "content": "以下四条记录各自描述不同场合的一次具体事件，不要把不同记录合并成同一次事件。\n\nR1：本は青木から森田に貸し出されました。\nR2：本は小川から森田に貸し出されました。\nR3：本は青木から上田に貸し出されました。\nR4：本は小川から上田に貸し出されました。\n\n目标是记录 R1 中提及的那次事件。\n这次事件中谁把书借给了谁？\n只用中文回答，不解释。若答案可唯一确定，用“出借方是…；借入方是…”的完整句式填写姓名；若明确这次事件未发生，只回答“借书未发生”；若现有信息不能唯一确定答案，只回答“信息不足”。不要根据其他事件补全本次事件。"
+      }
+    ],
+    "historical_prompt_sha256": "c316c8e0726c8c0ed045ed18aa080245f42523e28f23549aa09a4a3f6a5b597e",
+    "source_form": "JA_PASSIVE",
+    "record_bytes_identical": true,
+    "records": [
+      "R1：本は青木から森田に貸し出されました。",
+      "R2：本は小川から森田に貸し出されました。",
+      "R3：本は青木から上田に貸し出されました。",
+      "R4：本は小川から上田に貸し出されました。"
+    ],
+    "target_id": "R1",
+    "target_slot": 0,
+    "profile": "COMMON_PATIENT",
+    "layout": 0,
+    "single_base_call_id": "S0065",
+    "old_contract": "nonoccurrence answered without roles",
+    "new_contract": "NO retains explicitly mentioned proposition roles",
+    "identity": "REUSED_EXPOSED_AUTHOR_DEVELOPMENT_NOT_NEW_INDEPENDENT_DATA"
+  },
+  {
+    "base_call_id": "F0106",
+    "historical_call_id": "RQP-1692",
+    "old_messages": [
+      {
+        "role": "user",
+        "content": "以下四条记录各自描述不同场合的一次具体事件，不要把不同记录合并成同一次事件。\n\nR1：本は青木から森田に貸し出されました。\nR2：本は小川から森田に貸し出されました。\nR3：本は青木から上田に貸し出されました。\nR4：本は小川から上田に貸し出されました。\n\n目标是记录 R2 中提及的那次事件。\n这次事件中谁把书借给了谁？\n只用中文回答，不解释。若答案可唯一确定，用“出借方是…；借入方是…”的完整句式填写姓名；若明确这次事件未发生，只回答“借书未发生”；若现有信息不能唯一确定答案，只回答“信息不足”。不要根据其他事件补全本次事件。"
+      }
+    ],
+    "historical_prompt_sha256": "5c05a6d1aaa7a01721fe47c0a4f9fa537393a6a9518ca95787272e59b4ca2bd4",
+    "source_form": "JA_PASSIVE",
+    "record_bytes_identical": true,
+    "records": [
+      "R1：本は青木から森田に貸し出されました。",
+      "R2：本は小川から森田に貸し出されました。",
+      "R3：本は青木から上田に貸し出されました。",
+      "R4：本は小川から上田に貸し出されました。"
+    ],
+    "target_id": "R2",
+    "target_slot": 1,
+    "profile": "COMMON_PATIENT",
+    "layout": 0,
+    "single_base_call_id": "S0071",
+    "old_contract": "nonoccurrence answered without roles",
+    "new_contract": "NO retains explicitly mentioned proposition roles",
+    "identity": "REUSED_EXPOSED_AUTHOR_DEVELOPMENT_NOT_NEW_INDEPENDENT_DATA"
+  },
+  {
+    "base_call_id": "F0107",
+    "historical_call_id": "RQP-1706",
+    "old_messages": [
+      {
+        "role": "user",
+        "content": "以下四条记录各自描述不同场合的一次具体事件，不要把不同记录合并成同一次事件。\n\nR4：本は小川から森田に貸し出されました。\nR3：本は青木から森田に貸し出されました。\nR2：本は小川から上田に貸し出されました。\nR1：本は青木から上田に貸し出されました。\n\n目标是记录 R3 中提及的那次事件。\n这次事件中谁把书借给了谁？\n只用中文回答，不解释。若答案可唯一确定，用“出借方是…；借入方是…”的完整句式填写姓名；若明确这次事件未发生，只回答“借书未发生”；若现有信息不能唯一确定答案，只回答“信息不足”。不要根据其他事件补全本次事件。"
+      }
+    ],
+    "historical_prompt_sha256": "47f3cd1a6dbb668687f2497c485567ea38c30d8cc99770e6b9b489bf1362016b",
+    "source_form": "JA_PASSIVE",
+    "record_bytes_identical": true,
+    "records": [
+      "R4：本は小川から森田に貸し出されました。",
+      "R3：本は青木から森田に貸し出されました。",
+      "R2：本は小川から上田に貸し出されました。",
+      "R1：本は青木から上田に貸し出されました。"
+    ],
+    "target_id": "R3",
+    "target_slot": 0,
+    "profile": "COMMON_PATIENT",
+    "layout": 1,
+    "single_base_call_id": "S0067",
+    "old_contract": "nonoccurrence answered without roles",
+    "new_contract": "NO retains explicitly mentioned proposition roles",
+    "identity": "REUSED_EXPOSED_AUTHOR_DEVELOPMENT_NOT_NEW_INDEPENDENT_DATA"
+  },
+  {
+    "base_call_id": "F0108",
+    "historical_call_id": "RQP-1707",
+    "old_messages": [
+      {
+        "role": "user",
+        "content": "以下四条记录各自描述不同场合的一次具体事件，不要把不同记录合并成同一次事件。\n\nR4：本は小川から森田に貸し出されました。\nR3：本は青木から森田に貸し出されました。\nR2：本は小川から上田に貸し出されました。\nR1：本は青木から上田に貸し出されました。\n\n目标是记录 R4 中提及的那次事件。\n这次事件中谁把书借给了谁？\n只用中文回答，不解释。若答案可唯一确定，用“出借方是…；借入方是…”的完整句式填写姓名；若明确这次事件未发生，只回答“借书未发生”；若现有信息不能唯一确定答案，只回答“信息不足”。不要根据其他事件补全本次事件。"
+      }
+    ],
+    "historical_prompt_sha256": "0cb5ff88df7ec3d9691558da20d2a856bf36877e8c6a1f7ac7b9a2d04fc9962c",
+    "source_form": "JA_PASSIVE",
+    "record_bytes_identical": true,
+    "records": [
+      "R4：本は小川から森田に貸し出されました。",
+      "R3：本は青木から森田に貸し出されました。",
+      "R2：本は小川から上田に貸し出されました。",
+      "R1：本は青木から上田に貸し出されました。"
+    ],
+    "target_id": "R4",
+    "target_slot": 1,
+    "profile": "COMMON_PATIENT",
+    "layout": 1,
+    "single_base_call_id": "S0072",
+    "old_contract": "nonoccurrence answered without roles",
+    "new_contract": "NO retains explicitly mentioned proposition roles",
+    "identity": "REUSED_EXPOSED_AUTHOR_DEVELOPMENT_NOT_NEW_INDEPENDENT_DATA"
+  },
+  {
+    "base_call_id": "F0109",
+    "historical_call_id": "RQP-1721",
+    "old_messages": [
+      {
+        "role": "user",
+        "content": "以下四条记录各自描述不同场合的一次具体事件，不要把不同记录合并成同一次事件。\n\nR1：本は青木から森田に貸し出されました。\nR2：本は森田から青木に貸し出されました。\nR3：本は小川から上田に貸し出されました。\nR4：本は上田から小川に貸し出されました。\n\n目标是记录 R1 中提及的那次事件。\n这次事件中谁把书借给了谁？\n只用中文回答，不解释。若答案可唯一确定，用“出借方是…；借入方是…”的完整句式填写姓名；若明确这次事件未发生，只回答“借书未发生”；若现有信息不能唯一确定答案，只回答“信息不足”。不要根据其他事件补全本次事件。"
+      }
+    ],
+    "historical_prompt_sha256": "d396a8c2435213e295a6aa1ce3f3d4c2dca4788b1e6b0e025610fc1a2f32c584",
+    "source_form": "JA_PASSIVE",
+    "record_bytes_identical": true,
+    "records": [
+      "R1：本は青木から森田に貸し出されました。",
+      "R2：本は森田から青木に貸し出されました。",
+      "R3：本は小川から上田に貸し出されました。",
+      "R4：本は上田から小川に貸し出されました。"
+    ],
+    "target_id": "R1",
+    "target_slot": 0,
+    "profile": "REVERSED",
+    "layout": 0,
+    "single_base_call_id": "S0065",
+    "old_contract": "nonoccurrence answered without roles",
+    "new_contract": "NO retains explicitly mentioned proposition roles",
+    "identity": "REUSED_EXPOSED_AUTHOR_DEVELOPMENT_NOT_NEW_INDEPENDENT_DATA"
+  },
+  {
+    "base_call_id": "F0110",
+    "historical_call_id": "RQP-1722",
+    "old_messages": [
+      {
+        "role": "user",
+        "content": "以下四条记录各自描述不同场合的一次具体事件，不要把不同记录合并成同一次事件。\n\nR1：本は青木から森田に貸し出されました。\nR2：本は森田から青木に貸し出されました。\nR3：本は小川から上田に貸し出されました。\nR4：本は上田から小川に貸し出されました。\n\n目标是记录 R2 中提及的那次事件。\n这次事件中谁把书借给了谁？\n只用中文回答，不解释。若答案可唯一确定，用“出借方是…；借入方是…”的完整句式填写姓名；若明确这次事件未发生，只回答“借书未发生”；若现有信息不能唯一确定答案，只回答“信息不足”。不要根据其他事件补全本次事件。"
+      }
+    ],
+    "historical_prompt_sha256": "6f1bd2ad969be34aa0d1320e29fba06823f0cc3702bf84cd64557f9bf45d33ce",
+    "source_form": "JA_PASSIVE",
+    "record_bytes_identical": true,
+    "records": [
+      "R1：本は青木から森田に貸し出されました。",
+      "R2：本は森田から青木に貸し出されました。",
+      "R3：本は小川から上田に貸し出されました。",
+      "R4：本は上田から小川に貸し出されました。"
+    ],
+    "target_id": "R2",
+    "target_slot": 1,
+    "profile": "REVERSED",
+    "layout": 0,
+    "single_base_call_id": "S0073",
+    "old_contract": "nonoccurrence answered without roles",
+    "new_contract": "NO retains explicitly mentioned proposition roles",
+    "identity": "REUSED_EXPOSED_AUTHOR_DEVELOPMENT_NOT_NEW_INDEPENDENT_DATA"
+  },
+  {
+    "base_call_id": "F0111",
+    "historical_call_id": "RQP-1736",
+    "old_messages": [
+      {
+        "role": "user",
+        "content": "以下四条记录各自描述不同场合的一次具体事件，不要把不同记录合并成同一次事件。\n\nR4：本は森田から青木に貸し出されました。\nR3：本は青木から森田に貸し出されました。\nR2：本は上田から小川に貸し出されました。\nR1：本は小川から上田に貸し出されました。\n\n目标是记录 R3 中提及的那次事件。\n这次事件中谁把书借给了谁？\n只用中文回答，不解释。若答案可唯一确定，用“出借方是…；借入方是…”的完整句式填写姓名；若明确这次事件未发生，只回答“借书未发生”；若现有信息不能唯一确定答案，只回答“信息不足”。不要根据其他事件补全本次事件。"
+      }
+    ],
+    "historical_prompt_sha256": "1057c3cdb7f35464bb4b27f04e11b7053a54fb3db624f9511ce1c4771637c07c",
+    "source_form": "JA_PASSIVE",
+    "record_bytes_identical": true,
+    "records": [
+      "R4：本は森田から青木に貸し出されました。",
+      "R3：本は青木から森田に貸し出されました。",
+      "R2：本は上田から小川に貸し出されました。",
+      "R1：本は小川から上田に貸し出されました。"
+    ],
+    "target_id": "R3",
+    "target_slot": 0,
+    "profile": "REVERSED",
+    "layout": 1,
+    "single_base_call_id": "S0067",
+    "old_contract": "nonoccurrence answered without roles",
+    "new_contract": "NO retains explicitly mentioned proposition roles",
+    "identity": "REUSED_EXPOSED_AUTHOR_DEVELOPMENT_NOT_NEW_INDEPENDENT_DATA"
+  },
+  {
+    "base_call_id": "F0112",
+    "historical_call_id": "RQP-1737",
+    "old_messages": [
+      {
+        "role": "user",
+        "content": "以下四条记录各自描述不同场合的一次具体事件，不要把不同记录合并成同一次事件。\n\nR4：本は森田から青木に貸し出されました。\nR3：本は青木から森田に貸し出されました。\nR2：本は上田から小川に貸し出されました。\nR1：本は小川から上田に貸し出されました。\n\n目标是记录 R4 中提及的那次事件。\n这次事件中谁把书借给了谁？\n只用中文回答，不解释。若答案可唯一确定，用“出借方是…；借入方是…”的完整句式填写姓名；若明确这次事件未发生，只回答“借书未发生”；若现有信息不能唯一确定答案，只回答“信息不足”。不要根据其他事件补全本次事件。"
+      }
+    ],
+    "historical_prompt_sha256": "087fb131d8f1f55e4f349123d0fb01aa840e50c242758ba0d77f8f44bdb882c2",
+    "source_form": "JA_PASSIVE",
+    "record_bytes_identical": true,
+    "records": [
+      "R4：本は森田から青木に貸し出されました。",
+      "R3：本は青木から森田に貸し出されました。",
+      "R2：本は上田から小川に貸し出されました。",
+      "R1：本は小川から上田に貸し出されました。"
+    ],
+    "target_id": "R4",
+    "target_slot": 1,
+    "profile": "REVERSED",
+    "layout": 1,
+    "single_base_call_id": "S0074",
+    "old_contract": "nonoccurrence answered without roles",
+    "new_contract": "NO retains explicitly mentioned proposition roles",
+    "identity": "REUSED_EXPOSED_AUTHOR_DEVELOPMENT_NOT_NEW_INDEPENDENT_DATA"
+  },
+  {
+    "base_call_id": "F0113",
+    "historical_call_id": "RQP-1751",
+    "old_messages": [
+      {
+        "role": "user",
+        "content": "以下四条记录各自描述不同场合的一次具体事件，不要把不同记录合并成同一次事件。\n\nR1：本は青木から森田に貸し出されました。\nR2：本は青木から森田に貸し出されませんでした。\nR3：本は小川から上田に貸し出されました。\nR4：本は小川から上田に貸し出されませんでした。\n\n目标是记录 R1 中提及的那次事件。\n这次事件中谁把书借给了谁？\n只用中文回答，不解释。若答案可唯一确定，用“出借方是…；借入方是…”的完整句式填写姓名；若明确这次事件未发生，只回答“借书未发生”；若现有信息不能唯一确定答案，只回答“信息不足”。不要根据其他事件补全本次事件。"
+      }
+    ],
+    "historical_prompt_sha256": "63a5beef9f67ff66783f62a7da469ee304f9ce4ab6dab02a1a1f04a69b466916",
+    "source_form": "JA_PASSIVE",
+    "record_bytes_identical": true,
+    "records": [
+      "R1：本は青木から森田に貸し出されました。",
+      "R2：本は青木から森田に貸し出されませんでした。",
+      "R3：本は小川から上田に貸し出されました。",
+      "R4：本は小川から上田に貸し出されませんでした。"
+    ],
+    "target_id": "R1",
+    "target_slot": 0,
+    "profile": "MIX_POLARITY",
+    "layout": 0,
+    "single_base_call_id": "S0065",
+    "old_contract": "nonoccurrence answered without roles",
+    "new_contract": "NO retains explicitly mentioned proposition roles",
+    "identity": "REUSED_EXPOSED_AUTHOR_DEVELOPMENT_NOT_NEW_INDEPENDENT_DATA"
+  },
+  {
+    "base_call_id": "F0114",
+    "historical_call_id": "RQP-1752",
+    "old_messages": [
+      {
+        "role": "user",
+        "content": "以下四条记录各自描述不同场合的一次具体事件，不要把不同记录合并成同一次事件。\n\nR1：本は青木から森田に貸し出されました。\nR2：本は青木から森田に貸し出されませんでした。\nR3：本は小川から上田に貸し出されました。\nR4：本は小川から上田に貸し出されませんでした。\n\n目标是记录 R2 中提及的那次事件。\n这次事件中谁把书借给了谁？\n只用中文回答，不解释。若答案可唯一确定，用“出借方是…；借入方是…”的完整句式填写姓名；若明确这次事件未发生，只回答“借书未发生”；若现有信息不能唯一确定答案，只回答“信息不足”。不要根据其他事件补全本次事件。"
+      }
+    ],
+    "historical_prompt_sha256": "2c20c0c4448c3e59bb2b2932f47b34e4e55eecc8fe1ee0735080aa9dc1ba28c0",
+    "source_form": "JA_PASSIVE",
+    "record_bytes_identical": true,
+    "records": [
+      "R1：本は青木から森田に貸し出されました。",
+      "R2：本は青木から森田に貸し出されませんでした。",
+      "R3：本は小川から上田に貸し出されました。",
+      "R4：本は小川から上田に貸し出されませんでした。"
+    ],
+    "target_id": "R2",
+    "target_slot": 1,
+    "profile": "MIX_POLARITY",
+    "layout": 0,
+    "single_base_call_id": "S0075",
+    "old_contract": "nonoccurrence answered without roles",
+    "new_contract": "NO retains explicitly mentioned proposition roles",
+    "identity": "REUSED_EXPOSED_AUTHOR_DEVELOPMENT_NOT_NEW_INDEPENDENT_DATA"
+  },
+  {
+    "base_call_id": "F0115",
+    "historical_call_id": "RQP-1766",
+    "old_messages": [
+      {
+        "role": "user",
+        "content": "以下四条记录各自描述不同场合的一次具体事件，不要把不同记录合并成同一次事件。\n\nR4：本は青木から森田に貸し出されませんでした。\nR3：本は青木から森田に貸し出されました。\nR2：本は小川から上田に貸し出されませんでした。\nR1：本は小川から上田に貸し出されました。\n\n目标是记录 R3 中提及的那次事件。\n这次事件中谁把书借给了谁？\n只用中文回答，不解释。若答案可唯一确定，用“出借方是…；借入方是…”的完整句式填写姓名；若明确这次事件未发生，只回答“借书未发生”；若现有信息不能唯一确定答案，只回答“信息不足”。不要根据其他事件补全本次事件。"
+      }
+    ],
+    "historical_prompt_sha256": "18844b5c73fe95a8bd567a02e57b755c8bef5625d371ffa24c38bde72330e768",
+    "source_form": "JA_PASSIVE",
+    "record_bytes_identical": true,
+    "records": [
+      "R4：本は青木から森田に貸し出されませんでした。",
+      "R3：本は青木から森田に貸し出されました。",
+      "R2：本は小川から上田に貸し出されませんでした。",
+      "R1：本は小川から上田に貸し出されました。"
+    ],
+    "target_id": "R3",
+    "target_slot": 0,
+    "profile": "MIX_POLARITY",
+    "layout": 1,
+    "single_base_call_id": "S0067",
+    "old_contract": "nonoccurrence answered without roles",
+    "new_contract": "NO retains explicitly mentioned proposition roles",
+    "identity": "REUSED_EXPOSED_AUTHOR_DEVELOPMENT_NOT_NEW_INDEPENDENT_DATA"
+  },
+  {
+    "base_call_id": "F0116",
+    "historical_call_id": "RQP-1767",
+    "old_messages": [
+      {
+        "role": "user",
+        "content": "以下四条记录各自描述不同场合的一次具体事件，不要把不同记录合并成同一次事件。\n\nR4：本は青木から森田に貸し出されませんでした。\nR3：本は青木から森田に貸し出されました。\nR2：本は小川から上田に貸し出されませんでした。\nR1：本は小川から上田に貸し出されました。\n\n目标是记录 R4 中提及的那次事件。\n这次事件中谁把书借给了谁？\n只用中文回答，不解释。若答案可唯一确定，用“出借方是…；借入方是…”的完整句式填写姓名；若明确这次事件未发生，只回答“借书未发生”；若现有信息不能唯一确定答案，只回答“信息不足”。不要根据其他事件补全本次事件。"
+      }
+    ],
+    "historical_prompt_sha256": "523169d5f8ca7b65f469dc464bc8026e0da178e73683285d010e78a75f1cd05a",
+    "source_form": "JA_PASSIVE",
+    "record_bytes_identical": true,
+    "records": [
+      "R4：本は青木から森田に貸し出されませんでした。",
+      "R3：本は青木から森田に貸し出されました。",
+      "R2：本は小川から上田に貸し出されませんでした。",
+      "R1：本は小川から上田に貸し出されました。"
+    ],
+    "target_id": "R4",
+    "target_slot": 1,
+    "profile": "MIX_POLARITY",
+    "layout": 1,
+    "single_base_call_id": "S0076",
+    "old_contract": "nonoccurrence answered without roles",
+    "new_contract": "NO retains explicitly mentioned proposition roles",
+    "identity": "REUSED_EXPOSED_AUTHOR_DEVELOPMENT_NOT_NEW_INDEPENDENT_DATA"
+  },
+  {
+    "base_call_id": "F0117",
+    "historical_call_id": "RQP-1781",
+    "old_messages": [
+      {
+        "role": "user",
+        "content": "以下四条记录各自描述不同场合的一次具体事件，不要把不同记录合并成同一次事件。\n\nR1：本は青木から森田に貸し出されませんでした。\nR2：本は小川から上田に貸し出されませんでした。\nR3：本は青木から森田に貸し出されました。\nR4：本は小川から上田に貸し出されました。\n\n目标是记录 R1 中提及的那次事件。\n这次事件中谁把书借给了谁？\n只用中文回答，不解释。若答案可唯一确定，用“出借方是…；借入方是…”的完整句式填写姓名；若明确这次事件未发生，只回答“借书未发生”；若现有信息不能唯一确定答案，只回答“信息不足”。不要根据其他事件补全本次事件。"
+      }
+    ],
+    "historical_prompt_sha256": "30a5d6a64a8091cc055dd360b7f5ab2bd3d4866ce8b0c02e3052ea617736769e",
+    "source_form": "JA_PASSIVE",
+    "record_bytes_identical": true,
+    "records": [
+      "R1：本は青木から森田に貸し出されませんでした。",
+      "R2：本は小川から上田に貸し出されませんでした。",
+      "R3：本は青木から森田に貸し出されました。",
+      "R4：本は小川から上田に貸し出されました。"
+    ],
+    "target_id": "R1",
+    "target_slot": 0,
+    "profile": "BOTH_NEGATIVE",
+    "layout": 0,
+    "single_base_call_id": "S0077",
+    "old_contract": "nonoccurrence answered without roles",
+    "new_contract": "NO retains explicitly mentioned proposition roles",
+    "identity": "REUSED_EXPOSED_AUTHOR_DEVELOPMENT_NOT_NEW_INDEPENDENT_DATA"
+  },
+  {
+    "base_call_id": "F0118",
+    "historical_call_id": "RQP-1782",
+    "old_messages": [
+      {
+        "role": "user",
+        "content": "以下四条记录各自描述不同场合的一次具体事件，不要把不同记录合并成同一次事件。\n\nR1：本は青木から森田に貸し出されませんでした。\nR2：本は小川から上田に貸し出されませんでした。\nR3：本は青木から森田に貸し出されました。\nR4：本は小川から上田に貸し出されました。\n\n目标是记录 R2 中提及的那次事件。\n这次事件中谁把书借给了谁？\n只用中文回答，不解释。若答案可唯一确定，用“出借方是…；借入方是…”的完整句式填写姓名；若明确这次事件未发生，只回答“借书未发生”；若现有信息不能唯一确定答案，只回答“信息不足”。不要根据其他事件补全本次事件。"
+      }
+    ],
+    "historical_prompt_sha256": "77b701dc3552a53bfa5d49e0dccad5b824b00a177cb0c813043eb2ec01b03d7e",
+    "source_form": "JA_PASSIVE",
+    "record_bytes_identical": true,
+    "records": [
+      "R1：本は青木から森田に貸し出されませんでした。",
+      "R2：本は小川から上田に貸し出されませんでした。",
+      "R3：本は青木から森田に貸し出されました。",
+      "R4：本は小川から上田に貸し出されました。"
+    ],
+    "target_id": "R2",
+    "target_slot": 1,
+    "profile": "BOTH_NEGATIVE",
+    "layout": 0,
+    "single_base_call_id": "S0078",
+    "old_contract": "nonoccurrence answered without roles",
+    "new_contract": "NO retains explicitly mentioned proposition roles",
+    "identity": "REUSED_EXPOSED_AUTHOR_DEVELOPMENT_NOT_NEW_INDEPENDENT_DATA"
+  },
+  {
+    "base_call_id": "F0119",
+    "historical_call_id": "RQP-1796",
+    "old_messages": [
+      {
+        "role": "user",
+        "content": "以下四条记录各自描述不同场合的一次具体事件，不要把不同记录合并成同一次事件。\n\nR4：本は小川から上田に貸し出されませんでした。\nR3：本は青木から森田に貸し出されませんでした。\nR2：本は小川から上田に貸し出されました。\nR1：本は青木から森田に貸し出されました。\n\n目标是记录 R3 中提及的那次事件。\n这次事件中谁把书借给了谁？\n只用中文回答，不解释。若答案可唯一确定，用“出借方是…；借入方是…”的完整句式填写姓名；若明确这次事件未发生，只回答“借书未发生”；若现有信息不能唯一确定答案，只回答“信息不足”。不要根据其他事件补全本次事件。"
+      }
+    ],
+    "historical_prompt_sha256": "458367c70be52f19a91ad4d0bee9962b4e41e6d1c49ef73cc4d5e93167d7f1b2",
+    "source_form": "JA_PASSIVE",
+    "record_bytes_identical": true,
+    "records": [
+      "R4：本は小川から上田に貸し出されませんでした。",
+      "R3：本は青木から森田に貸し出されませんでした。",
+      "R2：本は小川から上田に貸し出されました。",
+      "R1：本は青木から森田に貸し出されました。"
+    ],
+    "target_id": "R3",
+    "target_slot": 0,
+    "profile": "BOTH_NEGATIVE",
+    "layout": 1,
+    "single_base_call_id": "S0079",
+    "old_contract": "nonoccurrence answered without roles",
+    "new_contract": "NO retains explicitly mentioned proposition roles",
+    "identity": "REUSED_EXPOSED_AUTHOR_DEVELOPMENT_NOT_NEW_INDEPENDENT_DATA"
+  },
+  {
+    "base_call_id": "F0120",
+    "historical_call_id": "RQP-1797",
+    "old_messages": [
+      {
+        "role": "user",
+        "content": "以下四条记录各自描述不同场合的一次具体事件，不要把不同记录合并成同一次事件。\n\nR4：本は小川から上田に貸し出されませんでした。\nR3：本は青木から森田に貸し出されませんでした。\nR2：本は小川から上田に貸し出されました。\nR1：本は青木から森田に貸し出されました。\n\n目标是记录 R4 中提及的那次事件。\n这次事件中谁把书借给了谁？\n只用中文回答，不解释。若答案可唯一确定，用“出借方是…；借入方是…”的完整句式填写姓名；若明确这次事件未发生，只回答“借书未发生”；若现有信息不能唯一确定答案，只回答“信息不足”。不要根据其他事件补全本次事件。"
+      }
+    ],
+    "historical_prompt_sha256": "12c02dbb7a24c29d2e2667a35d540034f6d22e99c937511dded636cc144a7823",
+    "source_form": "JA_PASSIVE",
+    "record_bytes_identical": true,
+    "records": [
+      "R4：本は小川から上田に貸し出されませんでした。",
+      "R3：本は青木から森田に貸し出されませんでした。",
+      "R2：本は小川から上田に貸し出されました。",
+      "R1：本は青木から森田に貸し出されました。"
+    ],
+    "target_id": "R4",
+    "target_slot": 1,
+    "profile": "BOTH_NEGATIVE",
+    "layout": 1,
+    "single_base_call_id": "S0080",
+    "old_contract": "nonoccurrence answered without roles",
+    "new_contract": "NO retains explicitly mentioned proposition roles",
+    "identity": "REUSED_EXPOSED_AUTHOR_DEVELOPMENT_NOT_NEW_INDEPENDENT_DATA"
+  },
+  {
+    "base_call_id": "F0121",
+    "historical_call_id": "RQP-1991",
+    "old_messages": [
+      {
+        "role": "user",
+        "content": "以下四条记录各自描述不同场合的一次具体事件，不要把不同记录合并成同一次事件。\n\nR1：青木把一本书借给了森田。\nR2：青木把一本书借给了森田。\nR3：小川把一本书借给了上田。\nR4：小川把一本书借给了上田。\n\n目标是记录 R1 中提及的那次事件。\n这次事件中谁把书借给了谁？\n只用中文回答，不解释。若答案可唯一确定，用“出借方是…；借入方是…”的完整句式填写姓名；若明确这次事件未发生，只回答“借书未发生”；若现有信息不能唯一确定答案，只回答“信息不足”。不要根据其他事件补全本次事件。"
+      }
+    ],
+    "historical_prompt_sha256": "0de01c3f83b392963e8a15af371f513685c4bbafd1afecfc268e4e5580ccdf4b",
+    "source_form": "ZH_ACTIVE",
+    "record_bytes_identical": true,
+    "records": [
+      "R1：青木把一本书借给了森田。",
+      "R2：青木把一本书借给了森田。",
+      "R3：小川把一本书借给了上田。",
+      "R4：小川把一本书借给了上田。"
+    ],
+    "target_id": "R1",
+    "target_slot": 0,
+    "profile": "SAME",
+    "layout": 0,
+    "single_base_call_id": "S0081",
+    "old_contract": "nonoccurrence answered without roles",
+    "new_contract": "NO retains explicitly mentioned proposition roles",
+    "identity": "REUSED_EXPOSED_AUTHOR_DEVELOPMENT_NOT_NEW_INDEPENDENT_DATA"
+  },
+  {
+    "base_call_id": "F0122",
+    "historical_call_id": "RQP-1992",
+    "old_messages": [
+      {
+        "role": "user",
+        "content": "以下四条记录各自描述不同场合的一次具体事件，不要把不同记录合并成同一次事件。\n\nR1：青木把一本书借给了森田。\nR2：青木把一本书借给了森田。\nR3：小川把一本书借给了上田。\nR4：小川把一本书借给了上田。\n\n目标是记录 R2 中提及的那次事件。\n这次事件中谁把书借给了谁？\n只用中文回答，不解释。若答案可唯一确定，用“出借方是…；借入方是…”的完整句式填写姓名；若明确这次事件未发生，只回答“借书未发生”；若现有信息不能唯一确定答案，只回答“信息不足”。不要根据其他事件补全本次事件。"
+      }
+    ],
+    "historical_prompt_sha256": "a0efd5dac4b59191a3f77c4935c6c3f48be62e814776871d81a3c07c8fbab30a",
+    "source_form": "ZH_ACTIVE",
+    "record_bytes_identical": true,
+    "records": [
+      "R1：青木把一本书借给了森田。",
+      "R2：青木把一本书借给了森田。",
+      "R3：小川把一本书借给了上田。",
+      "R4：小川把一本书借给了上田。"
+    ],
+    "target_id": "R2",
+    "target_slot": 1,
+    "profile": "SAME",
+    "layout": 0,
+    "single_base_call_id": "S0082",
+    "old_contract": "nonoccurrence answered without roles",
+    "new_contract": "NO retains explicitly mentioned proposition roles",
+    "identity": "REUSED_EXPOSED_AUTHOR_DEVELOPMENT_NOT_NEW_INDEPENDENT_DATA"
+  },
+  {
+    "base_call_id": "F0123",
+    "historical_call_id": "RQP-2006",
+    "old_messages": [
+      {
+        "role": "user",
+        "content": "以下四条记录各自描述不同场合的一次具体事件，不要把不同记录合并成同一次事件。\n\nR4：青木把一本书借给了森田。\nR3：青木把一本书借给了森田。\nR2：小川把一本书借给了上田。\nR1：小川把一本书借给了上田。\n\n目标是记录 R3 中提及的那次事件。\n这次事件中谁把书借给了谁？\n只用中文回答，不解释。若答案可唯一确定，用“出借方是…；借入方是…”的完整句式填写姓名；若明确这次事件未发生，只回答“借书未发生”；若现有信息不能唯一确定答案，只回答“信息不足”。不要根据其他事件补全本次事件。"
+      }
+    ],
+    "historical_prompt_sha256": "6f6005082453b101d2631b239c2c95cbe8d0c34b4657690a65e92050af050e83",
+    "source_form": "ZH_ACTIVE",
+    "record_bytes_identical": true,
+    "records": [
+      "R4：青木把一本书借给了森田。",
+      "R3：青木把一本书借给了森田。",
+      "R2：小川把一本书借给了上田。",
+      "R1：小川把一本书借给了上田。"
+    ],
+    "target_id": "R3",
+    "target_slot": 0,
+    "profile": "SAME",
+    "layout": 1,
+    "single_base_call_id": "S0083",
+    "old_contract": "nonoccurrence answered without roles",
+    "new_contract": "NO retains explicitly mentioned proposition roles",
+    "identity": "REUSED_EXPOSED_AUTHOR_DEVELOPMENT_NOT_NEW_INDEPENDENT_DATA"
+  },
+  {
+    "base_call_id": "F0124",
+    "historical_call_id": "RQP-2007",
+    "old_messages": [
+      {
+        "role": "user",
+        "content": "以下四条记录各自描述不同场合的一次具体事件，不要把不同记录合并成同一次事件。\n\nR4：青木把一本书借给了森田。\nR3：青木把一本书借给了森田。\nR2：小川把一本书借给了上田。\nR1：小川把一本书借给了上田。\n\n目标是记录 R4 中提及的那次事件。\n这次事件中谁把书借给了谁？\n只用中文回答，不解释。若答案可唯一确定，用“出借方是…；借入方是…”的完整句式填写姓名；若明确这次事件未发生，只回答“借书未发生”；若现有信息不能唯一确定答案，只回答“信息不足”。不要根据其他事件补全本次事件。"
+      }
+    ],
+    "historical_prompt_sha256": "61c4f12e854458c17b84f693c9ae0ee25293386d3261cc2751adba26cdb7e175",
+    "source_form": "ZH_ACTIVE",
+    "record_bytes_identical": true,
+    "records": [
+      "R4：青木把一本书借给了森田。",
+      "R3：青木把一本书借给了森田。",
+      "R2：小川把一本书借给了上田。",
+      "R1：小川把一本书借给了上田。"
+    ],
+    "target_id": "R4",
+    "target_slot": 1,
+    "profile": "SAME",
+    "layout": 1,
+    "single_base_call_id": "S0084",
+    "old_contract": "nonoccurrence answered without roles",
+    "new_contract": "NO retains explicitly mentioned proposition roles",
+    "identity": "REUSED_EXPOSED_AUTHOR_DEVELOPMENT_NOT_NEW_INDEPENDENT_DATA"
+  },
+  {
+    "base_call_id": "F0125",
+    "historical_call_id": "RQP-2021",
+    "old_messages": [
+      {
+        "role": "user",
+        "content": "以下四条记录各自描述不同场合的一次具体事件，不要把不同记录合并成同一次事件。\n\nR1：青木把一本书借给了森田。\nR2：青木把一本书借给了上田。\nR3：小川把一本书借给了森田。\nR4：小川把一本书借给了上田。\n\n目标是记录 R1 中提及的那次事件。\n这次事件中谁把书借给了谁？\n只用中文回答，不解释。若答案可唯一确定，用“出借方是…；借入方是…”的完整句式填写姓名；若明确这次事件未发生，只回答“借书未发生”；若现有信息不能唯一确定答案，只回答“信息不足”。不要根据其他事件补全本次事件。"
+      }
+    ],
+    "historical_prompt_sha256": "6e8eae272d8d0e2c88334dd7d555b7c16ac4b9fe7ca41f17f3c0da4da45ce759",
+    "source_form": "ZH_ACTIVE",
+    "record_bytes_identical": true,
+    "records": [
+      "R1：青木把一本书借给了森田。",
+      "R2：青木把一本书借给了上田。",
+      "R3：小川把一本书借给了森田。",
+      "R4：小川把一本书借给了上田。"
+    ],
+    "target_id": "R1",
+    "target_slot": 0,
+    "profile": "COMMON_AGENT",
+    "layout": 0,
+    "single_base_call_id": "S0081",
+    "old_contract": "nonoccurrence answered without roles",
+    "new_contract": "NO retains explicitly mentioned proposition roles",
+    "identity": "REUSED_EXPOSED_AUTHOR_DEVELOPMENT_NOT_NEW_INDEPENDENT_DATA"
+  },
+  {
+    "base_call_id": "F0126",
+    "historical_call_id": "RQP-2022",
+    "old_messages": [
+      {
+        "role": "user",
+        "content": "以下四条记录各自描述不同场合的一次具体事件，不要把不同记录合并成同一次事件。\n\nR1：青木把一本书借给了森田。\nR2：青木把一本书借给了上田。\nR3：小川把一本书借给了森田。\nR4：小川把一本书借给了上田。\n\n目标是记录 R2 中提及的那次事件。\n这次事件中谁把书借给了谁？\n只用中文回答，不解释。若答案可唯一确定，用“出借方是…；借入方是…”的完整句式填写姓名；若明确这次事件未发生，只回答“借书未发生”；若现有信息不能唯一确定答案，只回答“信息不足”。不要根据其他事件补全本次事件。"
+      }
+    ],
+    "historical_prompt_sha256": "e098e18581243cdd3e82a413ab847641a0e5594938c75f88089dfdb8e3926071",
+    "source_form": "ZH_ACTIVE",
+    "record_bytes_identical": true,
+    "records": [
+      "R1：青木把一本书借给了森田。",
+      "R2：青木把一本书借给了上田。",
+      "R3：小川把一本书借给了森田。",
+      "R4：小川把一本书借给了上田。"
+    ],
+    "target_id": "R2",
+    "target_slot": 1,
+    "profile": "COMMON_AGENT",
+    "layout": 0,
+    "single_base_call_id": "S0085",
+    "old_contract": "nonoccurrence answered without roles",
+    "new_contract": "NO retains explicitly mentioned proposition roles",
+    "identity": "REUSED_EXPOSED_AUTHOR_DEVELOPMENT_NOT_NEW_INDEPENDENT_DATA"
+  },
+  {
+    "base_call_id": "F0127",
+    "historical_call_id": "RQP-2036",
+    "old_messages": [
+      {
+        "role": "user",
+        "content": "以下四条记录各自描述不同场合的一次具体事件，不要把不同记录合并成同一次事件。\n\nR4：青木把一本书借给了上田。\nR3：青木把一本书借给了森田。\nR2：小川把一本书借给了上田。\nR1：小川把一本书借给了森田。\n\n目标是记录 R3 中提及的那次事件。\n这次事件中谁把书借给了谁？\n只用中文回答，不解释。若答案可唯一确定，用“出借方是…；借入方是…”的完整句式填写姓名；若明确这次事件未发生，只回答“借书未发生”；若现有信息不能唯一确定答案，只回答“信息不足”。不要根据其他事件补全本次事件。"
+      }
+    ],
+    "historical_prompt_sha256": "9fc919aa4d1f47cf5e6995d91cb97529bc1aab56b16b669b1ccbcaf5c1936779",
+    "source_form": "ZH_ACTIVE",
+    "record_bytes_identical": true,
+    "records": [
+      "R4：青木把一本书借给了上田。",
+      "R3：青木把一本书借给了森田。",
+      "R2：小川把一本书借给了上田。",
+      "R1：小川把一本书借给了森田。"
+    ],
+    "target_id": "R3",
+    "target_slot": 0,
+    "profile": "COMMON_AGENT",
+    "layout": 1,
+    "single_base_call_id": "S0083",
+    "old_contract": "nonoccurrence answered without roles",
+    "new_contract": "NO retains explicitly mentioned proposition roles",
+    "identity": "REUSED_EXPOSED_AUTHOR_DEVELOPMENT_NOT_NEW_INDEPENDENT_DATA"
+  },
+  {
+    "base_call_id": "F0128",
+    "historical_call_id": "RQP-2037",
+    "old_messages": [
+      {
+        "role": "user",
+        "content": "以下四条记录各自描述不同场合的一次具体事件，不要把不同记录合并成同一次事件。\n\nR4：青木把一本书借给了上田。\nR3：青木把一本书借给了森田。\nR2：小川把一本书借给了上田。\nR1：小川把一本书借给了森田。\n\n目标是记录 R4 中提及的那次事件。\n这次事件中谁把书借给了谁？\n只用中文回答，不解释。若答案可唯一确定，用“出借方是…；借入方是…”的完整句式填写姓名；若明确这次事件未发生，只回答“借书未发生”；若现有信息不能唯一确定答案，只回答“信息不足”。不要根据其他事件补全本次事件。"
+      }
+    ],
+    "historical_prompt_sha256": "d49f5bde4484e3fe23c09bdde764a9a3602e25bfa7c7ecad490b3f57c44095a5",
+    "source_form": "ZH_ACTIVE",
+    "record_bytes_identical": true,
+    "records": [
+      "R4：青木把一本书借给了上田。",
+      "R3：青木把一本书借给了森田。",
+      "R2：小川把一本书借给了上田。",
+      "R1：小川把一本书借给了森田。"
+    ],
+    "target_id": "R4",
+    "target_slot": 1,
+    "profile": "COMMON_AGENT",
+    "layout": 1,
+    "single_base_call_id": "S0086",
+    "old_contract": "nonoccurrence answered without roles",
+    "new_contract": "NO retains explicitly mentioned proposition roles",
+    "identity": "REUSED_EXPOSED_AUTHOR_DEVELOPMENT_NOT_NEW_INDEPENDENT_DATA"
+  },
+  {
+    "base_call_id": "F0129",
+    "historical_call_id": "RQP-2051",
+    "old_messages": [
+      {
+        "role": "user",
+        "content": "以下四条记录各自描述不同场合的一次具体事件，不要把不同记录合并成同一次事件。\n\nR1：青木把一本书借给了森田。\nR2：小川把一本书借给了森田。\nR3：青木把一本书借给了上田。\nR4：小川把一本书借给了上田。\n\n目标是记录 R1 中提及的那次事件。\n这次事件中谁把书借给了谁？\n只用中文回答，不解释。若答案可唯一确定，用“出借方是…；借入方是…”的完整句式填写姓名；若明确这次事件未发生，只回答“借书未发生”；若现有信息不能唯一确定答案，只回答“信息不足”。不要根据其他事件补全本次事件。"
+      }
+    ],
+    "historical_prompt_sha256": "cd390626119381d393d9dd4f9ee4a50fc736d13a99b398c6a2f66e4e67d93557",
+    "source_form": "ZH_ACTIVE",
+    "record_bytes_identical": true,
+    "records": [
+      "R1：青木把一本书借给了森田。",
+      "R2：小川把一本书借给了森田。",
+      "R3：青木把一本书借给了上田。",
+      "R4：小川把一本书借给了上田。"
+    ],
+    "target_id": "R1",
+    "target_slot": 0,
+    "profile": "COMMON_PATIENT",
+    "layout": 0,
+    "single_base_call_id": "S0081",
+    "old_contract": "nonoccurrence answered without roles",
+    "new_contract": "NO retains explicitly mentioned proposition roles",
+    "identity": "REUSED_EXPOSED_AUTHOR_DEVELOPMENT_NOT_NEW_INDEPENDENT_DATA"
+  },
+  {
+    "base_call_id": "F0130",
+    "historical_call_id": "RQP-2052",
+    "old_messages": [
+      {
+        "role": "user",
+        "content": "以下四条记录各自描述不同场合的一次具体事件，不要把不同记录合并成同一次事件。\n\nR1：青木把一本书借给了森田。\nR2：小川把一本书借给了森田。\nR3：青木把一本书借给了上田。\nR4：小川把一本书借给了上田。\n\n目标是记录 R2 中提及的那次事件。\n这次事件中谁把书借给了谁？\n只用中文回答，不解释。若答案可唯一确定，用“出借方是…；借入方是…”的完整句式填写姓名；若明确这次事件未发生，只回答“借书未发生”；若现有信息不能唯一确定答案，只回答“信息不足”。不要根据其他事件补全本次事件。"
+      }
+    ],
+    "historical_prompt_sha256": "95993bee3be0defa15fcba0ee1e54005c4eb446b927590630528f2b3f6702ed4",
+    "source_form": "ZH_ACTIVE",
+    "record_bytes_identical": true,
+    "records": [
+      "R1：青木把一本书借给了森田。",
+      "R2：小川把一本书借给了森田。",
+      "R3：青木把一本书借给了上田。",
+      "R4：小川把一本书借给了上田。"
+    ],
+    "target_id": "R2",
+    "target_slot": 1,
+    "profile": "COMMON_PATIENT",
+    "layout": 0,
+    "single_base_call_id": "S0087",
+    "old_contract": "nonoccurrence answered without roles",
+    "new_contract": "NO retains explicitly mentioned proposition roles",
+    "identity": "REUSED_EXPOSED_AUTHOR_DEVELOPMENT_NOT_NEW_INDEPENDENT_DATA"
+  },
+  {
+    "base_call_id": "F0131",
+    "historical_call_id": "RQP-2066",
+    "old_messages": [
+      {
+        "role": "user",
+        "content": "以下四条记录各自描述不同场合的一次具体事件，不要把不同记录合并成同一次事件。\n\nR4：小川把一本书借给了森田。\nR3：青木把一本书借给了森田。\nR2：小川把一本书借给了上田。\nR1：青木把一本书借给了上田。\n\n目标是记录 R3 中提及的那次事件。\n这次事件中谁把书借给了谁？\n只用中文回答，不解释。若答案可唯一确定，用“出借方是…；借入方是…”的完整句式填写姓名；若明确这次事件未发生，只回答“借书未发生”；若现有信息不能唯一确定答案，只回答“信息不足”。不要根据其他事件补全本次事件。"
+      }
+    ],
+    "historical_prompt_sha256": "6282cc4d3649f350a268fd33d59a6ba9dff374d95ee01866c8eed67d8ee7ff92",
+    "source_form": "ZH_ACTIVE",
+    "record_bytes_identical": true,
+    "records": [
+      "R4：小川把一本书借给了森田。",
+      "R3：青木把一本书借给了森田。",
+      "R2：小川把一本书借给了上田。",
+      "R1：青木把一本书借给了上田。"
+    ],
+    "target_id": "R3",
+    "target_slot": 0,
+    "profile": "COMMON_PATIENT",
+    "layout": 1,
+    "single_base_call_id": "S0083",
+    "old_contract": "nonoccurrence answered without roles",
+    "new_contract": "NO retains explicitly mentioned proposition roles",
+    "identity": "REUSED_EXPOSED_AUTHOR_DEVELOPMENT_NOT_NEW_INDEPENDENT_DATA"
+  },
+  {
+    "base_call_id": "F0132",
+    "historical_call_id": "RQP-2067",
+    "old_messages": [
+      {
+        "role": "user",
+        "content": "以下四条记录各自描述不同场合的一次具体事件，不要把不同记录合并成同一次事件。\n\nR4：小川把一本书借给了森田。\nR3：青木把一本书借给了森田。\nR2：小川把一本书借给了上田。\nR1：青木把一本书借给了上田。\n\n目标是记录 R4 中提及的那次事件。\n这次事件中谁把书借给了谁？\n只用中文回答，不解释。若答案可唯一确定，用“出借方是…；借入方是…”的完整句式填写姓名；若明确这次事件未发生，只回答“借书未发生”；若现有信息不能唯一确定答案，只回答“信息不足”。不要根据其他事件补全本次事件。"
+      }
+    ],
+    "historical_prompt_sha256": "3827fcbd72ca522877f52f8454bc28b75c8f8bbe7528d9e7ec517b4fd73a423c",
+    "source_form": "ZH_ACTIVE",
+    "record_bytes_identical": true,
+    "records": [
+      "R4：小川把一本书借给了森田。",
+      "R3：青木把一本书借给了森田。",
+      "R2：小川把一本书借给了上田。",
+      "R1：青木把一本书借给了上田。"
+    ],
+    "target_id": "R4",
+    "target_slot": 1,
+    "profile": "COMMON_PATIENT",
+    "layout": 1,
+    "single_base_call_id": "S0088",
+    "old_contract": "nonoccurrence answered without roles",
+    "new_contract": "NO retains explicitly mentioned proposition roles",
+    "identity": "REUSED_EXPOSED_AUTHOR_DEVELOPMENT_NOT_NEW_INDEPENDENT_DATA"
+  },
+  {
+    "base_call_id": "F0133",
+    "historical_call_id": "RQP-2081",
+    "old_messages": [
+      {
+        "role": "user",
+        "content": "以下四条记录各自描述不同场合的一次具体事件，不要把不同记录合并成同一次事件。\n\nR1：青木把一本书借给了森田。\nR2：森田把一本书借给了青木。\nR3：小川把一本书借给了上田。\nR4：上田把一本书借给了小川。\n\n目标是记录 R1 中提及的那次事件。\n这次事件中谁把书借给了谁？\n只用中文回答，不解释。若答案可唯一确定，用“出借方是…；借入方是…”的完整句式填写姓名；若明确这次事件未发生，只回答“借书未发生”；若现有信息不能唯一确定答案，只回答“信息不足”。不要根据其他事件补全本次事件。"
+      }
+    ],
+    "historical_prompt_sha256": "c8a3d6104d9d40fbd4194a6dc73d73a55b31282a3aa95eb13c89bde3e74b5d86",
+    "source_form": "ZH_ACTIVE",
+    "record_bytes_identical": true,
+    "records": [
+      "R1：青木把一本书借给了森田。",
+      "R2：森田把一本书借给了青木。",
+      "R3：小川把一本书借给了上田。",
+      "R4：上田把一本书借给了小川。"
+    ],
+    "target_id": "R1",
+    "target_slot": 0,
+    "profile": "REVERSED",
+    "layout": 0,
+    "single_base_call_id": "S0081",
+    "old_contract": "nonoccurrence answered without roles",
+    "new_contract": "NO retains explicitly mentioned proposition roles",
+    "identity": "REUSED_EXPOSED_AUTHOR_DEVELOPMENT_NOT_NEW_INDEPENDENT_DATA"
+  },
+  {
+    "base_call_id": "F0134",
+    "historical_call_id": "RQP-2082",
+    "old_messages": [
+      {
+        "role": "user",
+        "content": "以下四条记录各自描述不同场合的一次具体事件，不要把不同记录合并成同一次事件。\n\nR1：青木把一本书借给了森田。\nR2：森田把一本书借给了青木。\nR3：小川把一本书借给了上田。\nR4：上田把一本书借给了小川。\n\n目标是记录 R2 中提及的那次事件。\n这次事件中谁把书借给了谁？\n只用中文回答，不解释。若答案可唯一确定，用“出借方是…；借入方是…”的完整句式填写姓名；若明确这次事件未发生，只回答“借书未发生”；若现有信息不能唯一确定答案，只回答“信息不足”。不要根据其他事件补全本次事件。"
+      }
+    ],
+    "historical_prompt_sha256": "8012fda5dd64a223e3d3815288710cc4a20db4a805f1753cd47751529da5b9f2",
+    "source_form": "ZH_ACTIVE",
+    "record_bytes_identical": true,
+    "records": [
+      "R1：青木把一本书借给了森田。",
+      "R2：森田把一本书借给了青木。",
+      "R3：小川把一本书借给了上田。",
+      "R4：上田把一本书借给了小川。"
+    ],
+    "target_id": "R2",
+    "target_slot": 1,
+    "profile": "REVERSED",
+    "layout": 0,
+    "single_base_call_id": "S0089",
+    "old_contract": "nonoccurrence answered without roles",
+    "new_contract": "NO retains explicitly mentioned proposition roles",
+    "identity": "REUSED_EXPOSED_AUTHOR_DEVELOPMENT_NOT_NEW_INDEPENDENT_DATA"
+  },
+  {
+    "base_call_id": "F0135",
+    "historical_call_id": "RQP-2096",
+    "old_messages": [
+      {
+        "role": "user",
+        "content": "以下四条记录各自描述不同场合的一次具体事件，不要把不同记录合并成同一次事件。\n\nR4：森田把一本书借给了青木。\nR3：青木把一本书借给了森田。\nR2：上田把一本书借给了小川。\nR1：小川把一本书借给了上田。\n\n目标是记录 R3 中提及的那次事件。\n这次事件中谁把书借给了谁？\n只用中文回答，不解释。若答案可唯一确定，用“出借方是…；借入方是…”的完整句式填写姓名；若明确这次事件未发生，只回答“借书未发生”；若现有信息不能唯一确定答案，只回答“信息不足”。不要根据其他事件补全本次事件。"
+      }
+    ],
+    "historical_prompt_sha256": "da4996224d1d2a02206dcc7c4ec40fb3f9a0405a46366560a7fe311520e226ac",
+    "source_form": "ZH_ACTIVE",
+    "record_bytes_identical": true,
+    "records": [
+      "R4：森田把一本书借给了青木。",
+      "R3：青木把一本书借给了森田。",
+      "R2：上田把一本书借给了小川。",
+      "R1：小川把一本书借给了上田。"
+    ],
+    "target_id": "R3",
+    "target_slot": 0,
+    "profile": "REVERSED",
+    "layout": 1,
+    "single_base_call_id": "S0083",
+    "old_contract": "nonoccurrence answered without roles",
+    "new_contract": "NO retains explicitly mentioned proposition roles",
+    "identity": "REUSED_EXPOSED_AUTHOR_DEVELOPMENT_NOT_NEW_INDEPENDENT_DATA"
+  },
+  {
+    "base_call_id": "F0136",
+    "historical_call_id": "RQP-2097",
+    "old_messages": [
+      {
+        "role": "user",
+        "content": "以下四条记录各自描述不同场合的一次具体事件，不要把不同记录合并成同一次事件。\n\nR4：森田把一本书借给了青木。\nR3：青木把一本书借给了森田。\nR2：上田把一本书借给了小川。\nR1：小川把一本书借给了上田。\n\n目标是记录 R4 中提及的那次事件。\n这次事件中谁把书借给了谁？\n只用中文回答，不解释。若答案可唯一确定，用“出借方是…；借入方是…”的完整句式填写姓名；若明确这次事件未发生，只回答“借书未发生”；若现有信息不能唯一确定答案，只回答“信息不足”。不要根据其他事件补全本次事件。"
+      }
+    ],
+    "historical_prompt_sha256": "f218f817e28328a6d14130350ca1a757f5be3e3ea76661c3943892d8733c7368",
+    "source_form": "ZH_ACTIVE",
+    "record_bytes_identical": true,
+    "records": [
+      "R4：森田把一本书借给了青木。",
+      "R3：青木把一本书借给了森田。",
+      "R2：上田把一本书借给了小川。",
+      "R1：小川把一本书借给了上田。"
+    ],
+    "target_id": "R4",
+    "target_slot": 1,
+    "profile": "REVERSED",
+    "layout": 1,
+    "single_base_call_id": "S0090",
+    "old_contract": "nonoccurrence answered without roles",
+    "new_contract": "NO retains explicitly mentioned proposition roles",
+    "identity": "REUSED_EXPOSED_AUTHOR_DEVELOPMENT_NOT_NEW_INDEPENDENT_DATA"
+  },
+  {
+    "base_call_id": "F0137",
+    "historical_call_id": "RQP-2111",
+    "old_messages": [
+      {
+        "role": "user",
+        "content": "以下四条记录各自描述不同场合的一次具体事件，不要把不同记录合并成同一次事件。\n\nR1：青木把一本书借给了森田。\nR2：青木没有把一本书借给森田。\nR3：小川把一本书借给了上田。\nR4：小川没有把一本书借给上田。\n\n目标是记录 R1 中提及的那次事件。\n这次事件中谁把书借给了谁？\n只用中文回答，不解释。若答案可唯一确定，用“出借方是…；借入方是…”的完整句式填写姓名；若明确这次事件未发生，只回答“借书未发生”；若现有信息不能唯一确定答案，只回答“信息不足”。不要根据其他事件补全本次事件。"
+      }
+    ],
+    "historical_prompt_sha256": "5fc4ef9a062fda72cd2f513a53cbd79127159439bd92d296a3734dfdb417bac1",
+    "source_form": "ZH_ACTIVE",
+    "record_bytes_identical": true,
+    "records": [
+      "R1：青木把一本书借给了森田。",
+      "R2：青木没有把一本书借给森田。",
+      "R3：小川把一本书借给了上田。",
+      "R4：小川没有把一本书借给上田。"
+    ],
+    "target_id": "R1",
+    "target_slot": 0,
+    "profile": "MIX_POLARITY",
+    "layout": 0,
+    "single_base_call_id": "S0081",
+    "old_contract": "nonoccurrence answered without roles",
+    "new_contract": "NO retains explicitly mentioned proposition roles",
+    "identity": "REUSED_EXPOSED_AUTHOR_DEVELOPMENT_NOT_NEW_INDEPENDENT_DATA"
+  },
+  {
+    "base_call_id": "F0138",
+    "historical_call_id": "RQP-2112",
+    "old_messages": [
+      {
+        "role": "user",
+        "content": "以下四条记录各自描述不同场合的一次具体事件，不要把不同记录合并成同一次事件。\n\nR1：青木把一本书借给了森田。\nR2：青木没有把一本书借给森田。\nR3：小川把一本书借给了上田。\nR4：小川没有把一本书借给上田。\n\n目标是记录 R2 中提及的那次事件。\n这次事件中谁把书借给了谁？\n只用中文回答，不解释。若答案可唯一确定，用“出借方是…；借入方是…”的完整句式填写姓名；若明确这次事件未发生，只回答“借书未发生”；若现有信息不能唯一确定答案，只回答“信息不足”。不要根据其他事件补全本次事件。"
+      }
+    ],
+    "historical_prompt_sha256": "5a13138b6297acb42a6915eb2735a984ae34fe482cecb069ef978a414b2ef5bc",
+    "source_form": "ZH_ACTIVE",
+    "record_bytes_identical": true,
+    "records": [
+      "R1：青木把一本书借给了森田。",
+      "R2：青木没有把一本书借给森田。",
+      "R3：小川把一本书借给了上田。",
+      "R4：小川没有把一本书借给上田。"
+    ],
+    "target_id": "R2",
+    "target_slot": 1,
+    "profile": "MIX_POLARITY",
+    "layout": 0,
+    "single_base_call_id": "S0091",
+    "old_contract": "nonoccurrence answered without roles",
+    "new_contract": "NO retains explicitly mentioned proposition roles",
+    "identity": "REUSED_EXPOSED_AUTHOR_DEVELOPMENT_NOT_NEW_INDEPENDENT_DATA"
+  },
+  {
+    "base_call_id": "F0139",
+    "historical_call_id": "RQP-2126",
+    "old_messages": [
+      {
+        "role": "user",
+        "content": "以下四条记录各自描述不同场合的一次具体事件，不要把不同记录合并成同一次事件。\n\nR4：青木没有把一本书借给森田。\nR3：青木把一本书借给了森田。\nR2：小川没有把一本书借给上田。\nR1：小川把一本书借给了上田。\n\n目标是记录 R3 中提及的那次事件。\n这次事件中谁把书借给了谁？\n只用中文回答，不解释。若答案可唯一确定，用“出借方是…；借入方是…”的完整句式填写姓名；若明确这次事件未发生，只回答“借书未发生”；若现有信息不能唯一确定答案，只回答“信息不足”。不要根据其他事件补全本次事件。"
+      }
+    ],
+    "historical_prompt_sha256": "2c4ff5b39ea7918db9d7c6ceb9bc8b05e1d1ac19b1d13f3d0f67c37a9554cad3",
+    "source_form": "ZH_ACTIVE",
+    "record_bytes_identical": true,
+    "records": [
+      "R4：青木没有把一本书借给森田。",
+      "R3：青木把一本书借给了森田。",
+      "R2：小川没有把一本书借给上田。",
+      "R1：小川把一本书借给了上田。"
+    ],
+    "target_id": "R3",
+    "target_slot": 0,
+    "profile": "MIX_POLARITY",
+    "layout": 1,
+    "single_base_call_id": "S0083",
+    "old_contract": "nonoccurrence answered without roles",
+    "new_contract": "NO retains explicitly mentioned proposition roles",
+    "identity": "REUSED_EXPOSED_AUTHOR_DEVELOPMENT_NOT_NEW_INDEPENDENT_DATA"
+  },
+  {
+    "base_call_id": "F0140",
+    "historical_call_id": "RQP-2127",
+    "old_messages": [
+      {
+        "role": "user",
+        "content": "以下四条记录各自描述不同场合的一次具体事件，不要把不同记录合并成同一次事件。\n\nR4：青木没有把一本书借给森田。\nR3：青木把一本书借给了森田。\nR2：小川没有把一本书借给上田。\nR1：小川把一本书借给了上田。\n\n目标是记录 R4 中提及的那次事件。\n这次事件中谁把书借给了谁？\n只用中文回答，不解释。若答案可唯一确定，用“出借方是…；借入方是…”的完整句式填写姓名；若明确这次事件未发生，只回答“借书未发生”；若现有信息不能唯一确定答案，只回答“信息不足”。不要根据其他事件补全本次事件。"
+      }
+    ],
+    "historical_prompt_sha256": "49ca55f46f36c6c744ca2855e32ffef6fd25e5045dff25bbac046d68cf4fbd58",
+    "source_form": "ZH_ACTIVE",
+    "record_bytes_identical": true,
+    "records": [
+      "R4：青木没有把一本书借给森田。",
+      "R3：青木把一本书借给了森田。",
+      "R2：小川没有把一本书借给上田。",
+      "R1：小川把一本书借给了上田。"
+    ],
+    "target_id": "R4",
+    "target_slot": 1,
+    "profile": "MIX_POLARITY",
+    "layout": 1,
+    "single_base_call_id": "S0092",
+    "old_contract": "nonoccurrence answered without roles",
+    "new_contract": "NO retains explicitly mentioned proposition roles",
+    "identity": "REUSED_EXPOSED_AUTHOR_DEVELOPMENT_NOT_NEW_INDEPENDENT_DATA"
+  },
+  {
+    "base_call_id": "F0141",
+    "historical_call_id": "RQP-2141",
+    "old_messages": [
+      {
+        "role": "user",
+        "content": "以下四条记录各自描述不同场合的一次具体事件，不要把不同记录合并成同一次事件。\n\nR1：青木没有把一本书借给森田。\nR2：小川没有把一本书借给上田。\nR3：青木把一本书借给了森田。\nR4：小川把一本书借给了上田。\n\n目标是记录 R1 中提及的那次事件。\n这次事件中谁把书借给了谁？\n只用中文回答，不解释。若答案可唯一确定，用“出借方是…；借入方是…”的完整句式填写姓名；若明确这次事件未发生，只回答“借书未发生”；若现有信息不能唯一确定答案，只回答“信息不足”。不要根据其他事件补全本次事件。"
+      }
+    ],
+    "historical_prompt_sha256": "fda1d28e2b4f14c71877af17824f7a47c0dc1a38bc232b8dc850f41ee32d54cc",
+    "source_form": "ZH_ACTIVE",
+    "record_bytes_identical": true,
+    "records": [
+      "R1：青木没有把一本书借给森田。",
+      "R2：小川没有把一本书借给上田。",
+      "R3：青木把一本书借给了森田。",
+      "R4：小川把一本书借给了上田。"
+    ],
+    "target_id": "R1",
+    "target_slot": 0,
+    "profile": "BOTH_NEGATIVE",
+    "layout": 0,
+    "single_base_call_id": "S0093",
+    "old_contract": "nonoccurrence answered without roles",
+    "new_contract": "NO retains explicitly mentioned proposition roles",
+    "identity": "REUSED_EXPOSED_AUTHOR_DEVELOPMENT_NOT_NEW_INDEPENDENT_DATA"
+  },
+  {
+    "base_call_id": "F0142",
+    "historical_call_id": "RQP-2142",
+    "old_messages": [
+      {
+        "role": "user",
+        "content": "以下四条记录各自描述不同场合的一次具体事件，不要把不同记录合并成同一次事件。\n\nR1：青木没有把一本书借给森田。\nR2：小川没有把一本书借给上田。\nR3：青木把一本书借给了森田。\nR4：小川把一本书借给了上田。\n\n目标是记录 R2 中提及的那次事件。\n这次事件中谁把书借给了谁？\n只用中文回答，不解释。若答案可唯一确定，用“出借方是…；借入方是…”的完整句式填写姓名；若明确这次事件未发生，只回答“借书未发生”；若现有信息不能唯一确定答案，只回答“信息不足”。不要根据其他事件补全本次事件。"
+      }
+    ],
+    "historical_prompt_sha256": "e51c01849660a5dc7d6bda8fc2acb69cb5648aabbefdb0e9b4bd12f04210d475",
+    "source_form": "ZH_ACTIVE",
+    "record_bytes_identical": true,
+    "records": [
+      "R1：青木没有把一本书借给森田。",
+      "R2：小川没有把一本书借给上田。",
+      "R3：青木把一本书借给了森田。",
+      "R4：小川把一本书借给了上田。"
+    ],
+    "target_id": "R2",
+    "target_slot": 1,
+    "profile": "BOTH_NEGATIVE",
+    "layout": 0,
+    "single_base_call_id": "S0094",
+    "old_contract": "nonoccurrence answered without roles",
+    "new_contract": "NO retains explicitly mentioned proposition roles",
+    "identity": "REUSED_EXPOSED_AUTHOR_DEVELOPMENT_NOT_NEW_INDEPENDENT_DATA"
+  },
+  {
+    "base_call_id": "F0143",
+    "historical_call_id": "RQP-2156",
+    "old_messages": [
+      {
+        "role": "user",
+        "content": "以下四条记录各自描述不同场合的一次具体事件，不要把不同记录合并成同一次事件。\n\nR4：小川没有把一本书借给上田。\nR3：青木没有把一本书借给森田。\nR2：小川把一本书借给了上田。\nR1：青木把一本书借给了森田。\n\n目标是记录 R3 中提及的那次事件。\n这次事件中谁把书借给了谁？\n只用中文回答，不解释。若答案可唯一确定，用“出借方是…；借入方是…”的完整句式填写姓名；若明确这次事件未发生，只回答“借书未发生”；若现有信息不能唯一确定答案，只回答“信息不足”。不要根据其他事件补全本次事件。"
+      }
+    ],
+    "historical_prompt_sha256": "3f28508b9cdd4a4047fa0a7e2fbb6f54e818e1e8372f4344c6a41cff6debfdad",
+    "source_form": "ZH_ACTIVE",
+    "record_bytes_identical": true,
+    "records": [
+      "R4：小川没有把一本书借给上田。",
+      "R3：青木没有把一本书借给森田。",
+      "R2：小川把一本书借给了上田。",
+      "R1：青木把一本书借给了森田。"
+    ],
+    "target_id": "R3",
+    "target_slot": 0,
+    "profile": "BOTH_NEGATIVE",
+    "layout": 1,
+    "single_base_call_id": "S0095",
+    "old_contract": "nonoccurrence answered without roles",
+    "new_contract": "NO retains explicitly mentioned proposition roles",
+    "identity": "REUSED_EXPOSED_AUTHOR_DEVELOPMENT_NOT_NEW_INDEPENDENT_DATA"
+  },
+  {
+    "base_call_id": "F0144",
+    "historical_call_id": "RQP-2157",
+    "old_messages": [
+      {
+        "role": "user",
+        "content": "以下四条记录各自描述不同场合的一次具体事件，不要把不同记录合并成同一次事件。\n\nR4：小川没有把一本书借给上田。\nR3：青木没有把一本书借给森田。\nR2：小川把一本书借给了上田。\nR1：青木把一本书借给了森田。\n\n目标是记录 R4 中提及的那次事件。\n这次事件中谁把书借给了谁？\n只用中文回答，不解释。若答案可唯一确定，用“出借方是…；借入方是…”的完整句式填写姓名；若明确这次事件未发生，只回答“借书未发生”；若现有信息不能唯一确定答案，只回答“信息不足”。不要根据其他事件补全本次事件。"
+      }
+    ],
+    "historical_prompt_sha256": "d9ed11bbb54595ae45940e5fc8e52f89556e62372b7536da8af707a4b9add1ee",
+    "source_form": "ZH_ACTIVE",
+    "record_bytes_identical": true,
+    "records": [
+      "R4：小川没有把一本书借给上田。",
+      "R3：青木没有把一本书借给森田。",
+      "R2：小川把一本书借给了上田。",
+      "R1：青木把一本书借给了森田。"
+    ],
+    "target_id": "R4",
+    "target_slot": 1,
+    "profile": "BOTH_NEGATIVE",
+    "layout": 1,
+    "single_base_call_id": "S0096",
+    "old_contract": "nonoccurrence answered without roles",
+    "new_contract": "NO retains explicitly mentioned proposition roles",
+    "identity": "REUSED_EXPOSED_AUTHOR_DEVELOPMENT_NOT_NEW_INDEPENDENT_DATA"
+  }
+]

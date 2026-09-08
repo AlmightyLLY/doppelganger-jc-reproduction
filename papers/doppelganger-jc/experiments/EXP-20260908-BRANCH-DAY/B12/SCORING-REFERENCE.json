@@ -1,0 +1,4322 @@
+[
+  {
+    "call_id": "B12V2-QWEN-S0001",
+    "source_id": "S0001",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R1：青木は森田を臨時の助手として雇用しました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-S0002",
+    "source_id": "S0002",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R2：青木は森田を臨時の助手として雇用しました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-S0003",
+    "source_id": "S0003",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R3：青木は森田を臨時の助手として雇用しました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-S0004",
+    "source_id": "S0004",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R4：青木は森田を臨時の助手として雇用しました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-S0005",
+    "source_id": "S0005",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "上田",
+    "target_sentence": "R2：青木は上田を臨時の助手として雇用しました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-S0006",
+    "source_id": "S0006",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "上田",
+    "target_sentence": "R4：青木は上田を臨時の助手として雇用しました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-S0007",
+    "source_id": "S0007",
+    "occurred": "YES",
+    "role_a": "小川",
+    "role_b": "森田",
+    "target_sentence": "R2：小川は森田を臨時の助手として雇用しました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-S0008",
+    "source_id": "S0008",
+    "occurred": "YES",
+    "role_a": "小川",
+    "role_b": "森田",
+    "target_sentence": "R4：小川は森田を臨時の助手として雇用しました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-S0009",
+    "source_id": "S0009",
+    "occurred": "YES",
+    "role_a": "森田",
+    "role_b": "青木",
+    "target_sentence": "R2：森田は青木を臨時の助手として雇用しました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-S0010",
+    "source_id": "S0010",
+    "occurred": "YES",
+    "role_a": "森田",
+    "role_b": "青木",
+    "target_sentence": "R4：森田は青木を臨時の助手として雇用しました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-S0011",
+    "source_id": "S0011",
+    "occurred": "NO",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R2：青木は森田を臨時の助手として雇用しませんでした。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-S0012",
+    "source_id": "S0012",
+    "occurred": "NO",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R4：青木は森田を臨時の助手として雇用しませんでした。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-S0013",
+    "source_id": "S0013",
+    "occurred": "NO",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R1：青木は森田を臨時の助手として雇用しませんでした。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-S0014",
+    "source_id": "S0014",
+    "occurred": "NO",
+    "role_a": "小川",
+    "role_b": "上田",
+    "target_sentence": "R2：小川は上田を臨時の助手として雇用しませんでした。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-S0015",
+    "source_id": "S0015",
+    "occurred": "NO",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R3：青木は森田を臨時の助手として雇用しませんでした。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-S0016",
+    "source_id": "S0016",
+    "occurred": "NO",
+    "role_a": "小川",
+    "role_b": "上田",
+    "target_sentence": "R4：小川は上田を臨時の助手として雇用しませんでした。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-S0017",
+    "source_id": "S0017",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R1：森田は青木に臨時の助手として雇用されました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-S0018",
+    "source_id": "S0018",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R2：森田は青木に臨時の助手として雇用されました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-S0019",
+    "source_id": "S0019",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R3：森田は青木に臨時の助手として雇用されました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-S0020",
+    "source_id": "S0020",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R4：森田は青木に臨時の助手として雇用されました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-S0021",
+    "source_id": "S0021",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "上田",
+    "target_sentence": "R2：上田は青木に臨時の助手として雇用されました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-S0022",
+    "source_id": "S0022",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "上田",
+    "target_sentence": "R4：上田は青木に臨時の助手として雇用されました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-S0023",
+    "source_id": "S0023",
+    "occurred": "YES",
+    "role_a": "小川",
+    "role_b": "森田",
+    "target_sentence": "R2：森田は小川に臨時の助手として雇用されました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-S0024",
+    "source_id": "S0024",
+    "occurred": "YES",
+    "role_a": "小川",
+    "role_b": "森田",
+    "target_sentence": "R4：森田は小川に臨時の助手として雇用されました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-S0025",
+    "source_id": "S0025",
+    "occurred": "YES",
+    "role_a": "森田",
+    "role_b": "青木",
+    "target_sentence": "R2：青木は森田に臨時の助手として雇用されました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-S0026",
+    "source_id": "S0026",
+    "occurred": "YES",
+    "role_a": "森田",
+    "role_b": "青木",
+    "target_sentence": "R4：青木は森田に臨時の助手として雇用されました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-S0027",
+    "source_id": "S0027",
+    "occurred": "NO",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R2：森田は青木に臨時の助手として雇用されませんでした。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-S0028",
+    "source_id": "S0028",
+    "occurred": "NO",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R4：森田は青木に臨時の助手として雇用されませんでした。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-S0029",
+    "source_id": "S0029",
+    "occurred": "NO",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R1：森田は青木に臨時の助手として雇用されませんでした。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-S0030",
+    "source_id": "S0030",
+    "occurred": "NO",
+    "role_a": "小川",
+    "role_b": "上田",
+    "target_sentence": "R2：上田は小川に臨時の助手として雇用されませんでした。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-S0031",
+    "source_id": "S0031",
+    "occurred": "NO",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R3：森田は青木に臨時の助手として雇用されませんでした。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-S0032",
+    "source_id": "S0032",
+    "occurred": "NO",
+    "role_a": "小川",
+    "role_b": "上田",
+    "target_sentence": "R4：上田は小川に臨時の助手として雇用されませんでした。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-S0033",
+    "source_id": "S0033",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R1：青木雇用了森田担任临时助手。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-S0034",
+    "source_id": "S0034",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R2：青木雇用了森田担任临时助手。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-S0035",
+    "source_id": "S0035",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R3：青木雇用了森田担任临时助手。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-S0036",
+    "source_id": "S0036",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R4：青木雇用了森田担任临时助手。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-S0037",
+    "source_id": "S0037",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "上田",
+    "target_sentence": "R2：青木雇用了上田担任临时助手。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-S0038",
+    "source_id": "S0038",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "上田",
+    "target_sentence": "R4：青木雇用了上田担任临时助手。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-S0039",
+    "source_id": "S0039",
+    "occurred": "YES",
+    "role_a": "小川",
+    "role_b": "森田",
+    "target_sentence": "R2：小川雇用了森田担任临时助手。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-S0040",
+    "source_id": "S0040",
+    "occurred": "YES",
+    "role_a": "小川",
+    "role_b": "森田",
+    "target_sentence": "R4：小川雇用了森田担任临时助手。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-S0041",
+    "source_id": "S0041",
+    "occurred": "YES",
+    "role_a": "森田",
+    "role_b": "青木",
+    "target_sentence": "R2：森田雇用了青木担任临时助手。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-S0042",
+    "source_id": "S0042",
+    "occurred": "YES",
+    "role_a": "森田",
+    "role_b": "青木",
+    "target_sentence": "R4：森田雇用了青木担任临时助手。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-S0043",
+    "source_id": "S0043",
+    "occurred": "NO",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R2：青木没有雇用森田担任临时助手。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-S0044",
+    "source_id": "S0044",
+    "occurred": "NO",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R4：青木没有雇用森田担任临时助手。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-S0045",
+    "source_id": "S0045",
+    "occurred": "NO",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R1：青木没有雇用森田担任临时助手。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-S0046",
+    "source_id": "S0046",
+    "occurred": "NO",
+    "role_a": "小川",
+    "role_b": "上田",
+    "target_sentence": "R2：小川没有雇用上田担任临时助手。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-S0047",
+    "source_id": "S0047",
+    "occurred": "NO",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R3：青木没有雇用森田担任临时助手。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-S0048",
+    "source_id": "S0048",
+    "occurred": "NO",
+    "role_a": "小川",
+    "role_b": "上田",
+    "target_sentence": "R4：小川没有雇用上田担任临时助手。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-S0049",
+    "source_id": "S0049",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R1：青木は森田に本を貸し出しました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-S0050",
+    "source_id": "S0050",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R2：青木は森田に本を貸し出しました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-S0051",
+    "source_id": "S0051",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R3：青木は森田に本を貸し出しました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-S0052",
+    "source_id": "S0052",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R4：青木は森田に本を貸し出しました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-S0053",
+    "source_id": "S0053",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "上田",
+    "target_sentence": "R2：青木は上田に本を貸し出しました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-S0054",
+    "source_id": "S0054",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "上田",
+    "target_sentence": "R4：青木は上田に本を貸し出しました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-S0055",
+    "source_id": "S0055",
+    "occurred": "YES",
+    "role_a": "小川",
+    "role_b": "森田",
+    "target_sentence": "R2：小川は森田に本を貸し出しました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-S0056",
+    "source_id": "S0056",
+    "occurred": "YES",
+    "role_a": "小川",
+    "role_b": "森田",
+    "target_sentence": "R4：小川は森田に本を貸し出しました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-S0057",
+    "source_id": "S0057",
+    "occurred": "YES",
+    "role_a": "森田",
+    "role_b": "青木",
+    "target_sentence": "R2：森田は青木に本を貸し出しました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-S0058",
+    "source_id": "S0058",
+    "occurred": "YES",
+    "role_a": "森田",
+    "role_b": "青木",
+    "target_sentence": "R4：森田は青木に本を貸し出しました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-S0059",
+    "source_id": "S0059",
+    "occurred": "NO",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R2：青木は森田に本を貸し出しませんでした。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-S0060",
+    "source_id": "S0060",
+    "occurred": "NO",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R4：青木は森田に本を貸し出しませんでした。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-S0061",
+    "source_id": "S0061",
+    "occurred": "NO",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R1：青木は森田に本を貸し出しませんでした。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-S0062",
+    "source_id": "S0062",
+    "occurred": "NO",
+    "role_a": "小川",
+    "role_b": "上田",
+    "target_sentence": "R2：小川は上田に本を貸し出しませんでした。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-S0063",
+    "source_id": "S0063",
+    "occurred": "NO",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R3：青木は森田に本を貸し出しませんでした。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-S0064",
+    "source_id": "S0064",
+    "occurred": "NO",
+    "role_a": "小川",
+    "role_b": "上田",
+    "target_sentence": "R4：小川は上田に本を貸し出しませんでした。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-S0065",
+    "source_id": "S0065",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R1：本は青木から森田に貸し出されました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-S0066",
+    "source_id": "S0066",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R2：本は青木から森田に貸し出されました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-S0067",
+    "source_id": "S0067",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R3：本は青木から森田に貸し出されました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-S0068",
+    "source_id": "S0068",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R4：本は青木から森田に貸し出されました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-S0069",
+    "source_id": "S0069",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "上田",
+    "target_sentence": "R2：本は青木から上田に貸し出されました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-S0070",
+    "source_id": "S0070",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "上田",
+    "target_sentence": "R4：本は青木から上田に貸し出されました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-S0071",
+    "source_id": "S0071",
+    "occurred": "YES",
+    "role_a": "小川",
+    "role_b": "森田",
+    "target_sentence": "R2：本は小川から森田に貸し出されました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-S0072",
+    "source_id": "S0072",
+    "occurred": "YES",
+    "role_a": "小川",
+    "role_b": "森田",
+    "target_sentence": "R4：本は小川から森田に貸し出されました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-S0073",
+    "source_id": "S0073",
+    "occurred": "YES",
+    "role_a": "森田",
+    "role_b": "青木",
+    "target_sentence": "R2：本は森田から青木に貸し出されました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-S0074",
+    "source_id": "S0074",
+    "occurred": "YES",
+    "role_a": "森田",
+    "role_b": "青木",
+    "target_sentence": "R4：本は森田から青木に貸し出されました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-S0075",
+    "source_id": "S0075",
+    "occurred": "NO",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R2：本は青木から森田に貸し出されませんでした。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-S0076",
+    "source_id": "S0076",
+    "occurred": "NO",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R4：本は青木から森田に貸し出されませんでした。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-S0077",
+    "source_id": "S0077",
+    "occurred": "NO",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R1：本は青木から森田に貸し出されませんでした。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-S0078",
+    "source_id": "S0078",
+    "occurred": "NO",
+    "role_a": "小川",
+    "role_b": "上田",
+    "target_sentence": "R2：本は小川から上田に貸し出されませんでした。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-S0079",
+    "source_id": "S0079",
+    "occurred": "NO",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R3：本は青木から森田に貸し出されませんでした。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-S0080",
+    "source_id": "S0080",
+    "occurred": "NO",
+    "role_a": "小川",
+    "role_b": "上田",
+    "target_sentence": "R4：本は小川から上田に貸し出されませんでした。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-S0081",
+    "source_id": "S0081",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R1：青木把一本书借给了森田。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-S0082",
+    "source_id": "S0082",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R2：青木把一本书借给了森田。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-S0083",
+    "source_id": "S0083",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R3：青木把一本书借给了森田。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-S0084",
+    "source_id": "S0084",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R4：青木把一本书借给了森田。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-S0085",
+    "source_id": "S0085",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "上田",
+    "target_sentence": "R2：青木把一本书借给了上田。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-S0086",
+    "source_id": "S0086",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "上田",
+    "target_sentence": "R4：青木把一本书借给了上田。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-S0087",
+    "source_id": "S0087",
+    "occurred": "YES",
+    "role_a": "小川",
+    "role_b": "森田",
+    "target_sentence": "R2：小川把一本书借给了森田。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-S0088",
+    "source_id": "S0088",
+    "occurred": "YES",
+    "role_a": "小川",
+    "role_b": "森田",
+    "target_sentence": "R4：小川把一本书借给了森田。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-S0089",
+    "source_id": "S0089",
+    "occurred": "YES",
+    "role_a": "森田",
+    "role_b": "青木",
+    "target_sentence": "R2：森田把一本书借给了青木。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-S0090",
+    "source_id": "S0090",
+    "occurred": "YES",
+    "role_a": "森田",
+    "role_b": "青木",
+    "target_sentence": "R4：森田把一本书借给了青木。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-S0091",
+    "source_id": "S0091",
+    "occurred": "NO",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R2：青木没有把一本书借给森田。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-S0092",
+    "source_id": "S0092",
+    "occurred": "NO",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R4：青木没有把一本书借给森田。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-S0093",
+    "source_id": "S0093",
+    "occurred": "NO",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R1：青木没有把一本书借给森田。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-S0094",
+    "source_id": "S0094",
+    "occurred": "NO",
+    "role_a": "小川",
+    "role_b": "上田",
+    "target_sentence": "R2：小川没有把一本书借给上田。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-S0095",
+    "source_id": "S0095",
+    "occurred": "NO",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R3：青木没有把一本书借给森田。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-S0096",
+    "source_id": "S0096",
+    "occurred": "NO",
+    "role_a": "小川",
+    "role_b": "上田",
+    "target_sentence": "R4：小川没有把一本书借给上田。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-F0001",
+    "source_id": "F0001",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R1：青木は森田を臨時の助手として雇用しました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-F0002",
+    "source_id": "F0002",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R2：青木は森田を臨時の助手として雇用しました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-F0003",
+    "source_id": "F0003",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R3：青木は森田を臨時の助手として雇用しました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-F0004",
+    "source_id": "F0004",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R4：青木は森田を臨時の助手として雇用しました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-F0005",
+    "source_id": "F0005",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R1：青木は森田を臨時の助手として雇用しました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-F0006",
+    "source_id": "F0006",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "上田",
+    "target_sentence": "R2：青木は上田を臨時の助手として雇用しました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-F0007",
+    "source_id": "F0007",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R3：青木は森田を臨時の助手として雇用しました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-F0008",
+    "source_id": "F0008",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "上田",
+    "target_sentence": "R4：青木は上田を臨時の助手として雇用しました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-F0009",
+    "source_id": "F0009",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R1：青木は森田を臨時の助手として雇用しました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-F0010",
+    "source_id": "F0010",
+    "occurred": "YES",
+    "role_a": "小川",
+    "role_b": "森田",
+    "target_sentence": "R2：小川は森田を臨時の助手として雇用しました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-F0011",
+    "source_id": "F0011",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R3：青木は森田を臨時の助手として雇用しました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-F0012",
+    "source_id": "F0012",
+    "occurred": "YES",
+    "role_a": "小川",
+    "role_b": "森田",
+    "target_sentence": "R4：小川は森田を臨時の助手として雇用しました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-F0013",
+    "source_id": "F0013",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R1：青木は森田を臨時の助手として雇用しました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-F0014",
+    "source_id": "F0014",
+    "occurred": "YES",
+    "role_a": "森田",
+    "role_b": "青木",
+    "target_sentence": "R2：森田は青木を臨時の助手として雇用しました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-F0015",
+    "source_id": "F0015",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R3：青木は森田を臨時の助手として雇用しました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-F0016",
+    "source_id": "F0016",
+    "occurred": "YES",
+    "role_a": "森田",
+    "role_b": "青木",
+    "target_sentence": "R4：森田は青木を臨時の助手として雇用しました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-F0017",
+    "source_id": "F0017",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R1：青木は森田を臨時の助手として雇用しました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-F0018",
+    "source_id": "F0018",
+    "occurred": "NO",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R2：青木は森田を臨時の助手として雇用しませんでした。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-F0019",
+    "source_id": "F0019",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R3：青木は森田を臨時の助手として雇用しました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-F0020",
+    "source_id": "F0020",
+    "occurred": "NO",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R4：青木は森田を臨時の助手として雇用しませんでした。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-F0021",
+    "source_id": "F0021",
+    "occurred": "NO",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R1：青木は森田を臨時の助手として雇用しませんでした。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-F0022",
+    "source_id": "F0022",
+    "occurred": "NO",
+    "role_a": "小川",
+    "role_b": "上田",
+    "target_sentence": "R2：小川は上田を臨時の助手として雇用しませんでした。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-F0023",
+    "source_id": "F0023",
+    "occurred": "NO",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R3：青木は森田を臨時の助手として雇用しませんでした。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-F0024",
+    "source_id": "F0024",
+    "occurred": "NO",
+    "role_a": "小川",
+    "role_b": "上田",
+    "target_sentence": "R4：小川は上田を臨時の助手として雇用しませんでした。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-F0025",
+    "source_id": "F0025",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R1：森田は青木に臨時の助手として雇用されました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-F0026",
+    "source_id": "F0026",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R2：森田は青木に臨時の助手として雇用されました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-F0027",
+    "source_id": "F0027",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R3：森田は青木に臨時の助手として雇用されました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-F0028",
+    "source_id": "F0028",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R4：森田は青木に臨時の助手として雇用されました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-F0029",
+    "source_id": "F0029",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R1：森田は青木に臨時の助手として雇用されました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-F0030",
+    "source_id": "F0030",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "上田",
+    "target_sentence": "R2：上田は青木に臨時の助手として雇用されました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-F0031",
+    "source_id": "F0031",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R3：森田は青木に臨時の助手として雇用されました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-F0032",
+    "source_id": "F0032",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "上田",
+    "target_sentence": "R4：上田は青木に臨時の助手として雇用されました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-F0033",
+    "source_id": "F0033",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R1：森田は青木に臨時の助手として雇用されました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-F0034",
+    "source_id": "F0034",
+    "occurred": "YES",
+    "role_a": "小川",
+    "role_b": "森田",
+    "target_sentence": "R2：森田は小川に臨時の助手として雇用されました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-F0035",
+    "source_id": "F0035",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R3：森田は青木に臨時の助手として雇用されました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-F0036",
+    "source_id": "F0036",
+    "occurred": "YES",
+    "role_a": "小川",
+    "role_b": "森田",
+    "target_sentence": "R4：森田は小川に臨時の助手として雇用されました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-F0037",
+    "source_id": "F0037",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R1：森田は青木に臨時の助手として雇用されました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-F0038",
+    "source_id": "F0038",
+    "occurred": "YES",
+    "role_a": "森田",
+    "role_b": "青木",
+    "target_sentence": "R2：青木は森田に臨時の助手として雇用されました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-F0039",
+    "source_id": "F0039",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R3：森田は青木に臨時の助手として雇用されました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-F0040",
+    "source_id": "F0040",
+    "occurred": "YES",
+    "role_a": "森田",
+    "role_b": "青木",
+    "target_sentence": "R4：青木は森田に臨時の助手として雇用されました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-F0041",
+    "source_id": "F0041",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R1：森田は青木に臨時の助手として雇用されました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-F0042",
+    "source_id": "F0042",
+    "occurred": "NO",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R2：森田は青木に臨時の助手として雇用されませんでした。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-F0043",
+    "source_id": "F0043",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R3：森田は青木に臨時の助手として雇用されました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-F0044",
+    "source_id": "F0044",
+    "occurred": "NO",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R4：森田は青木に臨時の助手として雇用されませんでした。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-F0045",
+    "source_id": "F0045",
+    "occurred": "NO",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R1：森田は青木に臨時の助手として雇用されませんでした。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-F0046",
+    "source_id": "F0046",
+    "occurred": "NO",
+    "role_a": "小川",
+    "role_b": "上田",
+    "target_sentence": "R2：上田は小川に臨時の助手として雇用されませんでした。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-F0047",
+    "source_id": "F0047",
+    "occurred": "NO",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R3：森田は青木に臨時の助手として雇用されませんでした。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-F0048",
+    "source_id": "F0048",
+    "occurred": "NO",
+    "role_a": "小川",
+    "role_b": "上田",
+    "target_sentence": "R4：上田は小川に臨時の助手として雇用されませんでした。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-F0049",
+    "source_id": "F0049",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R1：青木雇用了森田担任临时助手。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-F0050",
+    "source_id": "F0050",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R2：青木雇用了森田担任临时助手。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-F0051",
+    "source_id": "F0051",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R3：青木雇用了森田担任临时助手。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-F0052",
+    "source_id": "F0052",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R4：青木雇用了森田担任临时助手。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-F0053",
+    "source_id": "F0053",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R1：青木雇用了森田担任临时助手。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-F0054",
+    "source_id": "F0054",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "上田",
+    "target_sentence": "R2：青木雇用了上田担任临时助手。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-F0055",
+    "source_id": "F0055",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R3：青木雇用了森田担任临时助手。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-F0056",
+    "source_id": "F0056",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "上田",
+    "target_sentence": "R4：青木雇用了上田担任临时助手。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-F0057",
+    "source_id": "F0057",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R1：青木雇用了森田担任临时助手。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-F0058",
+    "source_id": "F0058",
+    "occurred": "YES",
+    "role_a": "小川",
+    "role_b": "森田",
+    "target_sentence": "R2：小川雇用了森田担任临时助手。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-F0059",
+    "source_id": "F0059",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R3：青木雇用了森田担任临时助手。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-F0060",
+    "source_id": "F0060",
+    "occurred": "YES",
+    "role_a": "小川",
+    "role_b": "森田",
+    "target_sentence": "R4：小川雇用了森田担任临时助手。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-F0061",
+    "source_id": "F0061",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R1：青木雇用了森田担任临时助手。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-F0062",
+    "source_id": "F0062",
+    "occurred": "YES",
+    "role_a": "森田",
+    "role_b": "青木",
+    "target_sentence": "R2：森田雇用了青木担任临时助手。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-F0063",
+    "source_id": "F0063",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R3：青木雇用了森田担任临时助手。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-F0064",
+    "source_id": "F0064",
+    "occurred": "YES",
+    "role_a": "森田",
+    "role_b": "青木",
+    "target_sentence": "R4：森田雇用了青木担任临时助手。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-F0065",
+    "source_id": "F0065",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R1：青木雇用了森田担任临时助手。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-F0066",
+    "source_id": "F0066",
+    "occurred": "NO",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R2：青木没有雇用森田担任临时助手。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-F0067",
+    "source_id": "F0067",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R3：青木雇用了森田担任临时助手。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-F0068",
+    "source_id": "F0068",
+    "occurred": "NO",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R4：青木没有雇用森田担任临时助手。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-F0069",
+    "source_id": "F0069",
+    "occurred": "NO",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R1：青木没有雇用森田担任临时助手。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-F0070",
+    "source_id": "F0070",
+    "occurred": "NO",
+    "role_a": "小川",
+    "role_b": "上田",
+    "target_sentence": "R2：小川没有雇用上田担任临时助手。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-F0071",
+    "source_id": "F0071",
+    "occurred": "NO",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R3：青木没有雇用森田担任临时助手。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-F0072",
+    "source_id": "F0072",
+    "occurred": "NO",
+    "role_a": "小川",
+    "role_b": "上田",
+    "target_sentence": "R4：小川没有雇用上田担任临时助手。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-F0073",
+    "source_id": "F0073",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R1：青木は森田に本を貸し出しました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-F0074",
+    "source_id": "F0074",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R2：青木は森田に本を貸し出しました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-F0075",
+    "source_id": "F0075",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R3：青木は森田に本を貸し出しました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-F0076",
+    "source_id": "F0076",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R4：青木は森田に本を貸し出しました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-F0077",
+    "source_id": "F0077",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R1：青木は森田に本を貸し出しました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-F0078",
+    "source_id": "F0078",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "上田",
+    "target_sentence": "R2：青木は上田に本を貸し出しました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-F0079",
+    "source_id": "F0079",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R3：青木は森田に本を貸し出しました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-F0080",
+    "source_id": "F0080",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "上田",
+    "target_sentence": "R4：青木は上田に本を貸し出しました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-F0081",
+    "source_id": "F0081",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R1：青木は森田に本を貸し出しました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-F0082",
+    "source_id": "F0082",
+    "occurred": "YES",
+    "role_a": "小川",
+    "role_b": "森田",
+    "target_sentence": "R2：小川は森田に本を貸し出しました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-F0083",
+    "source_id": "F0083",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R3：青木は森田に本を貸し出しました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-F0084",
+    "source_id": "F0084",
+    "occurred": "YES",
+    "role_a": "小川",
+    "role_b": "森田",
+    "target_sentence": "R4：小川は森田に本を貸し出しました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-F0085",
+    "source_id": "F0085",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R1：青木は森田に本を貸し出しました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-F0086",
+    "source_id": "F0086",
+    "occurred": "YES",
+    "role_a": "森田",
+    "role_b": "青木",
+    "target_sentence": "R2：森田は青木に本を貸し出しました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-F0087",
+    "source_id": "F0087",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R3：青木は森田に本を貸し出しました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-F0088",
+    "source_id": "F0088",
+    "occurred": "YES",
+    "role_a": "森田",
+    "role_b": "青木",
+    "target_sentence": "R4：森田は青木に本を貸し出しました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-F0089",
+    "source_id": "F0089",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R1：青木は森田に本を貸し出しました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-F0090",
+    "source_id": "F0090",
+    "occurred": "NO",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R2：青木は森田に本を貸し出しませんでした。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-F0091",
+    "source_id": "F0091",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R3：青木は森田に本を貸し出しました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-F0092",
+    "source_id": "F0092",
+    "occurred": "NO",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R4：青木は森田に本を貸し出しませんでした。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-F0093",
+    "source_id": "F0093",
+    "occurred": "NO",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R1：青木は森田に本を貸し出しませんでした。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-F0094",
+    "source_id": "F0094",
+    "occurred": "NO",
+    "role_a": "小川",
+    "role_b": "上田",
+    "target_sentence": "R2：小川は上田に本を貸し出しませんでした。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-F0095",
+    "source_id": "F0095",
+    "occurred": "NO",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R3：青木は森田に本を貸し出しませんでした。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-F0096",
+    "source_id": "F0096",
+    "occurred": "NO",
+    "role_a": "小川",
+    "role_b": "上田",
+    "target_sentence": "R4：小川は上田に本を貸し出しませんでした。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-F0097",
+    "source_id": "F0097",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R1：本は青木から森田に貸し出されました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-F0098",
+    "source_id": "F0098",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R2：本は青木から森田に貸し出されました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-F0099",
+    "source_id": "F0099",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R3：本は青木から森田に貸し出されました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-F0100",
+    "source_id": "F0100",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R4：本は青木から森田に貸し出されました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-F0101",
+    "source_id": "F0101",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R1：本は青木から森田に貸し出されました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-F0102",
+    "source_id": "F0102",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "上田",
+    "target_sentence": "R2：本は青木から上田に貸し出されました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-F0103",
+    "source_id": "F0103",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R3：本は青木から森田に貸し出されました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-F0104",
+    "source_id": "F0104",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "上田",
+    "target_sentence": "R4：本は青木から上田に貸し出されました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-F0105",
+    "source_id": "F0105",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R1：本は青木から森田に貸し出されました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-F0106",
+    "source_id": "F0106",
+    "occurred": "YES",
+    "role_a": "小川",
+    "role_b": "森田",
+    "target_sentence": "R2：本は小川から森田に貸し出されました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-F0107",
+    "source_id": "F0107",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R3：本は青木から森田に貸し出されました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-F0108",
+    "source_id": "F0108",
+    "occurred": "YES",
+    "role_a": "小川",
+    "role_b": "森田",
+    "target_sentence": "R4：本は小川から森田に貸し出されました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-F0109",
+    "source_id": "F0109",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R1：本は青木から森田に貸し出されました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-F0110",
+    "source_id": "F0110",
+    "occurred": "YES",
+    "role_a": "森田",
+    "role_b": "青木",
+    "target_sentence": "R2：本は森田から青木に貸し出されました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-F0111",
+    "source_id": "F0111",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R3：本は青木から森田に貸し出されました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-F0112",
+    "source_id": "F0112",
+    "occurred": "YES",
+    "role_a": "森田",
+    "role_b": "青木",
+    "target_sentence": "R4：本は森田から青木に貸し出されました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-F0113",
+    "source_id": "F0113",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R1：本は青木から森田に貸し出されました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-F0114",
+    "source_id": "F0114",
+    "occurred": "NO",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R2：本は青木から森田に貸し出されませんでした。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-F0115",
+    "source_id": "F0115",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R3：本は青木から森田に貸し出されました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-F0116",
+    "source_id": "F0116",
+    "occurred": "NO",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R4：本は青木から森田に貸し出されませんでした。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-F0117",
+    "source_id": "F0117",
+    "occurred": "NO",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R1：本は青木から森田に貸し出されませんでした。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-F0118",
+    "source_id": "F0118",
+    "occurred": "NO",
+    "role_a": "小川",
+    "role_b": "上田",
+    "target_sentence": "R2：本は小川から上田に貸し出されませんでした。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-F0119",
+    "source_id": "F0119",
+    "occurred": "NO",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R3：本は青木から森田に貸し出されませんでした。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-F0120",
+    "source_id": "F0120",
+    "occurred": "NO",
+    "role_a": "小川",
+    "role_b": "上田",
+    "target_sentence": "R4：本は小川から上田に貸し出されませんでした。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-F0121",
+    "source_id": "F0121",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R1：青木把一本书借给了森田。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-F0122",
+    "source_id": "F0122",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R2：青木把一本书借给了森田。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-F0123",
+    "source_id": "F0123",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R3：青木把一本书借给了森田。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-F0124",
+    "source_id": "F0124",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R4：青木把一本书借给了森田。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-F0125",
+    "source_id": "F0125",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R1：青木把一本书借给了森田。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-F0126",
+    "source_id": "F0126",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "上田",
+    "target_sentence": "R2：青木把一本书借给了上田。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-F0127",
+    "source_id": "F0127",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R3：青木把一本书借给了森田。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-F0128",
+    "source_id": "F0128",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "上田",
+    "target_sentence": "R4：青木把一本书借给了上田。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-F0129",
+    "source_id": "F0129",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R1：青木把一本书借给了森田。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-F0130",
+    "source_id": "F0130",
+    "occurred": "YES",
+    "role_a": "小川",
+    "role_b": "森田",
+    "target_sentence": "R2：小川把一本书借给了森田。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-F0131",
+    "source_id": "F0131",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R3：青木把一本书借给了森田。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-F0132",
+    "source_id": "F0132",
+    "occurred": "YES",
+    "role_a": "小川",
+    "role_b": "森田",
+    "target_sentence": "R4：小川把一本书借给了森田。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-F0133",
+    "source_id": "F0133",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R1：青木把一本书借给了森田。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-F0134",
+    "source_id": "F0134",
+    "occurred": "YES",
+    "role_a": "森田",
+    "role_b": "青木",
+    "target_sentence": "R2：森田把一本书借给了青木。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-F0135",
+    "source_id": "F0135",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R3：青木把一本书借给了森田。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-F0136",
+    "source_id": "F0136",
+    "occurred": "YES",
+    "role_a": "森田",
+    "role_b": "青木",
+    "target_sentence": "R4：森田把一本书借给了青木。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-F0137",
+    "source_id": "F0137",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R1：青木把一本书借给了森田。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-F0138",
+    "source_id": "F0138",
+    "occurred": "NO",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R2：青木没有把一本书借给森田。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-F0139",
+    "source_id": "F0139",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R3：青木把一本书借给了森田。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-F0140",
+    "source_id": "F0140",
+    "occurred": "NO",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R4：青木没有把一本书借给森田。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-F0141",
+    "source_id": "F0141",
+    "occurred": "NO",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R1：青木没有把一本书借给森田。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-F0142",
+    "source_id": "F0142",
+    "occurred": "NO",
+    "role_a": "小川",
+    "role_b": "上田",
+    "target_sentence": "R2：小川没有把一本书借给上田。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-F0143",
+    "source_id": "F0143",
+    "occurred": "NO",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R3：青木没有把一本书借给森田。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-QWEN-F0144",
+    "source_id": "F0144",
+    "occurred": "NO",
+    "role_a": "小川",
+    "role_b": "上田",
+    "target_sentence": "R4：小川没有把一本书借给上田。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-S0001",
+    "source_id": "S0001",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R1：青木は森田を臨時の助手として雇用しました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-S0002",
+    "source_id": "S0002",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R2：青木は森田を臨時の助手として雇用しました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-S0003",
+    "source_id": "S0003",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R3：青木は森田を臨時の助手として雇用しました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-S0004",
+    "source_id": "S0004",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R4：青木は森田を臨時の助手として雇用しました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-S0005",
+    "source_id": "S0005",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "上田",
+    "target_sentence": "R2：青木は上田を臨時の助手として雇用しました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-S0006",
+    "source_id": "S0006",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "上田",
+    "target_sentence": "R4：青木は上田を臨時の助手として雇用しました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-S0007",
+    "source_id": "S0007",
+    "occurred": "YES",
+    "role_a": "小川",
+    "role_b": "森田",
+    "target_sentence": "R2：小川は森田を臨時の助手として雇用しました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-S0008",
+    "source_id": "S0008",
+    "occurred": "YES",
+    "role_a": "小川",
+    "role_b": "森田",
+    "target_sentence": "R4：小川は森田を臨時の助手として雇用しました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-S0009",
+    "source_id": "S0009",
+    "occurred": "YES",
+    "role_a": "森田",
+    "role_b": "青木",
+    "target_sentence": "R2：森田は青木を臨時の助手として雇用しました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-S0010",
+    "source_id": "S0010",
+    "occurred": "YES",
+    "role_a": "森田",
+    "role_b": "青木",
+    "target_sentence": "R4：森田は青木を臨時の助手として雇用しました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-S0011",
+    "source_id": "S0011",
+    "occurred": "NO",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R2：青木は森田を臨時の助手として雇用しませんでした。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-S0012",
+    "source_id": "S0012",
+    "occurred": "NO",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R4：青木は森田を臨時の助手として雇用しませんでした。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-S0013",
+    "source_id": "S0013",
+    "occurred": "NO",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R1：青木は森田を臨時の助手として雇用しませんでした。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-S0014",
+    "source_id": "S0014",
+    "occurred": "NO",
+    "role_a": "小川",
+    "role_b": "上田",
+    "target_sentence": "R2：小川は上田を臨時の助手として雇用しませんでした。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-S0015",
+    "source_id": "S0015",
+    "occurred": "NO",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R3：青木は森田を臨時の助手として雇用しませんでした。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-S0016",
+    "source_id": "S0016",
+    "occurred": "NO",
+    "role_a": "小川",
+    "role_b": "上田",
+    "target_sentence": "R4：小川は上田を臨時の助手として雇用しませんでした。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-S0017",
+    "source_id": "S0017",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R1：森田は青木に臨時の助手として雇用されました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-S0018",
+    "source_id": "S0018",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R2：森田は青木に臨時の助手として雇用されました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-S0019",
+    "source_id": "S0019",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R3：森田は青木に臨時の助手として雇用されました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-S0020",
+    "source_id": "S0020",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R4：森田は青木に臨時の助手として雇用されました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-S0021",
+    "source_id": "S0021",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "上田",
+    "target_sentence": "R2：上田は青木に臨時の助手として雇用されました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-S0022",
+    "source_id": "S0022",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "上田",
+    "target_sentence": "R4：上田は青木に臨時の助手として雇用されました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-S0023",
+    "source_id": "S0023",
+    "occurred": "YES",
+    "role_a": "小川",
+    "role_b": "森田",
+    "target_sentence": "R2：森田は小川に臨時の助手として雇用されました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-S0024",
+    "source_id": "S0024",
+    "occurred": "YES",
+    "role_a": "小川",
+    "role_b": "森田",
+    "target_sentence": "R4：森田は小川に臨時の助手として雇用されました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-S0025",
+    "source_id": "S0025",
+    "occurred": "YES",
+    "role_a": "森田",
+    "role_b": "青木",
+    "target_sentence": "R2：青木は森田に臨時の助手として雇用されました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-S0026",
+    "source_id": "S0026",
+    "occurred": "YES",
+    "role_a": "森田",
+    "role_b": "青木",
+    "target_sentence": "R4：青木は森田に臨時の助手として雇用されました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-S0027",
+    "source_id": "S0027",
+    "occurred": "NO",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R2：森田は青木に臨時の助手として雇用されませんでした。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-S0028",
+    "source_id": "S0028",
+    "occurred": "NO",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R4：森田は青木に臨時の助手として雇用されませんでした。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-S0029",
+    "source_id": "S0029",
+    "occurred": "NO",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R1：森田は青木に臨時の助手として雇用されませんでした。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-S0030",
+    "source_id": "S0030",
+    "occurred": "NO",
+    "role_a": "小川",
+    "role_b": "上田",
+    "target_sentence": "R2：上田は小川に臨時の助手として雇用されませんでした。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-S0031",
+    "source_id": "S0031",
+    "occurred": "NO",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R3：森田は青木に臨時の助手として雇用されませんでした。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-S0032",
+    "source_id": "S0032",
+    "occurred": "NO",
+    "role_a": "小川",
+    "role_b": "上田",
+    "target_sentence": "R4：上田は小川に臨時の助手として雇用されませんでした。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-S0033",
+    "source_id": "S0033",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R1：青木雇用了森田担任临时助手。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-S0034",
+    "source_id": "S0034",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R2：青木雇用了森田担任临时助手。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-S0035",
+    "source_id": "S0035",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R3：青木雇用了森田担任临时助手。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-S0036",
+    "source_id": "S0036",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R4：青木雇用了森田担任临时助手。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-S0037",
+    "source_id": "S0037",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "上田",
+    "target_sentence": "R2：青木雇用了上田担任临时助手。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-S0038",
+    "source_id": "S0038",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "上田",
+    "target_sentence": "R4：青木雇用了上田担任临时助手。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-S0039",
+    "source_id": "S0039",
+    "occurred": "YES",
+    "role_a": "小川",
+    "role_b": "森田",
+    "target_sentence": "R2：小川雇用了森田担任临时助手。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-S0040",
+    "source_id": "S0040",
+    "occurred": "YES",
+    "role_a": "小川",
+    "role_b": "森田",
+    "target_sentence": "R4：小川雇用了森田担任临时助手。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-S0041",
+    "source_id": "S0041",
+    "occurred": "YES",
+    "role_a": "森田",
+    "role_b": "青木",
+    "target_sentence": "R2：森田雇用了青木担任临时助手。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-S0042",
+    "source_id": "S0042",
+    "occurred": "YES",
+    "role_a": "森田",
+    "role_b": "青木",
+    "target_sentence": "R4：森田雇用了青木担任临时助手。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-S0043",
+    "source_id": "S0043",
+    "occurred": "NO",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R2：青木没有雇用森田担任临时助手。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-S0044",
+    "source_id": "S0044",
+    "occurred": "NO",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R4：青木没有雇用森田担任临时助手。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-S0045",
+    "source_id": "S0045",
+    "occurred": "NO",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R1：青木没有雇用森田担任临时助手。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-S0046",
+    "source_id": "S0046",
+    "occurred": "NO",
+    "role_a": "小川",
+    "role_b": "上田",
+    "target_sentence": "R2：小川没有雇用上田担任临时助手。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-S0047",
+    "source_id": "S0047",
+    "occurred": "NO",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R3：青木没有雇用森田担任临时助手。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-S0048",
+    "source_id": "S0048",
+    "occurred": "NO",
+    "role_a": "小川",
+    "role_b": "上田",
+    "target_sentence": "R4：小川没有雇用上田担任临时助手。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-S0049",
+    "source_id": "S0049",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R1：青木は森田に本を貸し出しました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-S0050",
+    "source_id": "S0050",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R2：青木は森田に本を貸し出しました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-S0051",
+    "source_id": "S0051",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R3：青木は森田に本を貸し出しました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-S0052",
+    "source_id": "S0052",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R4：青木は森田に本を貸し出しました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-S0053",
+    "source_id": "S0053",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "上田",
+    "target_sentence": "R2：青木は上田に本を貸し出しました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-S0054",
+    "source_id": "S0054",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "上田",
+    "target_sentence": "R4：青木は上田に本を貸し出しました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-S0055",
+    "source_id": "S0055",
+    "occurred": "YES",
+    "role_a": "小川",
+    "role_b": "森田",
+    "target_sentence": "R2：小川は森田に本を貸し出しました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-S0056",
+    "source_id": "S0056",
+    "occurred": "YES",
+    "role_a": "小川",
+    "role_b": "森田",
+    "target_sentence": "R4：小川は森田に本を貸し出しました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-S0057",
+    "source_id": "S0057",
+    "occurred": "YES",
+    "role_a": "森田",
+    "role_b": "青木",
+    "target_sentence": "R2：森田は青木に本を貸し出しました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-S0058",
+    "source_id": "S0058",
+    "occurred": "YES",
+    "role_a": "森田",
+    "role_b": "青木",
+    "target_sentence": "R4：森田は青木に本を貸し出しました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-S0059",
+    "source_id": "S0059",
+    "occurred": "NO",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R2：青木は森田に本を貸し出しませんでした。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-S0060",
+    "source_id": "S0060",
+    "occurred": "NO",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R4：青木は森田に本を貸し出しませんでした。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-S0061",
+    "source_id": "S0061",
+    "occurred": "NO",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R1：青木は森田に本を貸し出しませんでした。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-S0062",
+    "source_id": "S0062",
+    "occurred": "NO",
+    "role_a": "小川",
+    "role_b": "上田",
+    "target_sentence": "R2：小川は上田に本を貸し出しませんでした。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-S0063",
+    "source_id": "S0063",
+    "occurred": "NO",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R3：青木は森田に本を貸し出しませんでした。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-S0064",
+    "source_id": "S0064",
+    "occurred": "NO",
+    "role_a": "小川",
+    "role_b": "上田",
+    "target_sentence": "R4：小川は上田に本を貸し出しませんでした。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-S0065",
+    "source_id": "S0065",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R1：本は青木から森田に貸し出されました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-S0066",
+    "source_id": "S0066",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R2：本は青木から森田に貸し出されました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-S0067",
+    "source_id": "S0067",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R3：本は青木から森田に貸し出されました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-S0068",
+    "source_id": "S0068",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R4：本は青木から森田に貸し出されました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-S0069",
+    "source_id": "S0069",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "上田",
+    "target_sentence": "R2：本は青木から上田に貸し出されました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-S0070",
+    "source_id": "S0070",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "上田",
+    "target_sentence": "R4：本は青木から上田に貸し出されました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-S0071",
+    "source_id": "S0071",
+    "occurred": "YES",
+    "role_a": "小川",
+    "role_b": "森田",
+    "target_sentence": "R2：本は小川から森田に貸し出されました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-S0072",
+    "source_id": "S0072",
+    "occurred": "YES",
+    "role_a": "小川",
+    "role_b": "森田",
+    "target_sentence": "R4：本は小川から森田に貸し出されました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-S0073",
+    "source_id": "S0073",
+    "occurred": "YES",
+    "role_a": "森田",
+    "role_b": "青木",
+    "target_sentence": "R2：本は森田から青木に貸し出されました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-S0074",
+    "source_id": "S0074",
+    "occurred": "YES",
+    "role_a": "森田",
+    "role_b": "青木",
+    "target_sentence": "R4：本は森田から青木に貸し出されました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-S0075",
+    "source_id": "S0075",
+    "occurred": "NO",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R2：本は青木から森田に貸し出されませんでした。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-S0076",
+    "source_id": "S0076",
+    "occurred": "NO",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R4：本は青木から森田に貸し出されませんでした。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-S0077",
+    "source_id": "S0077",
+    "occurred": "NO",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R1：本は青木から森田に貸し出されませんでした。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-S0078",
+    "source_id": "S0078",
+    "occurred": "NO",
+    "role_a": "小川",
+    "role_b": "上田",
+    "target_sentence": "R2：本は小川から上田に貸し出されませんでした。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-S0079",
+    "source_id": "S0079",
+    "occurred": "NO",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R3：本は青木から森田に貸し出されませんでした。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-S0080",
+    "source_id": "S0080",
+    "occurred": "NO",
+    "role_a": "小川",
+    "role_b": "上田",
+    "target_sentence": "R4：本は小川から上田に貸し出されませんでした。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-S0081",
+    "source_id": "S0081",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R1：青木把一本书借给了森田。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-S0082",
+    "source_id": "S0082",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R2：青木把一本书借给了森田。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-S0083",
+    "source_id": "S0083",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R3：青木把一本书借给了森田。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-S0084",
+    "source_id": "S0084",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R4：青木把一本书借给了森田。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-S0085",
+    "source_id": "S0085",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "上田",
+    "target_sentence": "R2：青木把一本书借给了上田。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-S0086",
+    "source_id": "S0086",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "上田",
+    "target_sentence": "R4：青木把一本书借给了上田。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-S0087",
+    "source_id": "S0087",
+    "occurred": "YES",
+    "role_a": "小川",
+    "role_b": "森田",
+    "target_sentence": "R2：小川把一本书借给了森田。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-S0088",
+    "source_id": "S0088",
+    "occurred": "YES",
+    "role_a": "小川",
+    "role_b": "森田",
+    "target_sentence": "R4：小川把一本书借给了森田。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-S0089",
+    "source_id": "S0089",
+    "occurred": "YES",
+    "role_a": "森田",
+    "role_b": "青木",
+    "target_sentence": "R2：森田把一本书借给了青木。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-S0090",
+    "source_id": "S0090",
+    "occurred": "YES",
+    "role_a": "森田",
+    "role_b": "青木",
+    "target_sentence": "R4：森田把一本书借给了青木。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-S0091",
+    "source_id": "S0091",
+    "occurred": "NO",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R2：青木没有把一本书借给森田。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-S0092",
+    "source_id": "S0092",
+    "occurred": "NO",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R4：青木没有把一本书借给森田。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-S0093",
+    "source_id": "S0093",
+    "occurred": "NO",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R1：青木没有把一本书借给森田。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-S0094",
+    "source_id": "S0094",
+    "occurred": "NO",
+    "role_a": "小川",
+    "role_b": "上田",
+    "target_sentence": "R2：小川没有把一本书借给上田。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-S0095",
+    "source_id": "S0095",
+    "occurred": "NO",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R3：青木没有把一本书借给森田。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-S0096",
+    "source_id": "S0096",
+    "occurred": "NO",
+    "role_a": "小川",
+    "role_b": "上田",
+    "target_sentence": "R4：小川没有把一本书借给上田。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-F0001",
+    "source_id": "F0001",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R1：青木は森田を臨時の助手として雇用しました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-F0002",
+    "source_id": "F0002",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R2：青木は森田を臨時の助手として雇用しました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-F0003",
+    "source_id": "F0003",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R3：青木は森田を臨時の助手として雇用しました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-F0004",
+    "source_id": "F0004",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R4：青木は森田を臨時の助手として雇用しました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-F0005",
+    "source_id": "F0005",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R1：青木は森田を臨時の助手として雇用しました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-F0006",
+    "source_id": "F0006",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "上田",
+    "target_sentence": "R2：青木は上田を臨時の助手として雇用しました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-F0007",
+    "source_id": "F0007",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R3：青木は森田を臨時の助手として雇用しました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-F0008",
+    "source_id": "F0008",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "上田",
+    "target_sentence": "R4：青木は上田を臨時の助手として雇用しました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-F0009",
+    "source_id": "F0009",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R1：青木は森田を臨時の助手として雇用しました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-F0010",
+    "source_id": "F0010",
+    "occurred": "YES",
+    "role_a": "小川",
+    "role_b": "森田",
+    "target_sentence": "R2：小川は森田を臨時の助手として雇用しました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-F0011",
+    "source_id": "F0011",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R3：青木は森田を臨時の助手として雇用しました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-F0012",
+    "source_id": "F0012",
+    "occurred": "YES",
+    "role_a": "小川",
+    "role_b": "森田",
+    "target_sentence": "R4：小川は森田を臨時の助手として雇用しました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-F0013",
+    "source_id": "F0013",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R1：青木は森田を臨時の助手として雇用しました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-F0014",
+    "source_id": "F0014",
+    "occurred": "YES",
+    "role_a": "森田",
+    "role_b": "青木",
+    "target_sentence": "R2：森田は青木を臨時の助手として雇用しました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-F0015",
+    "source_id": "F0015",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R3：青木は森田を臨時の助手として雇用しました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-F0016",
+    "source_id": "F0016",
+    "occurred": "YES",
+    "role_a": "森田",
+    "role_b": "青木",
+    "target_sentence": "R4：森田は青木を臨時の助手として雇用しました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-F0017",
+    "source_id": "F0017",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R1：青木は森田を臨時の助手として雇用しました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-F0018",
+    "source_id": "F0018",
+    "occurred": "NO",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R2：青木は森田を臨時の助手として雇用しませんでした。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-F0019",
+    "source_id": "F0019",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R3：青木は森田を臨時の助手として雇用しました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-F0020",
+    "source_id": "F0020",
+    "occurred": "NO",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R4：青木は森田を臨時の助手として雇用しませんでした。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-F0021",
+    "source_id": "F0021",
+    "occurred": "NO",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R1：青木は森田を臨時の助手として雇用しませんでした。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-F0022",
+    "source_id": "F0022",
+    "occurred": "NO",
+    "role_a": "小川",
+    "role_b": "上田",
+    "target_sentence": "R2：小川は上田を臨時の助手として雇用しませんでした。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-F0023",
+    "source_id": "F0023",
+    "occurred": "NO",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R3：青木は森田を臨時の助手として雇用しませんでした。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-F0024",
+    "source_id": "F0024",
+    "occurred": "NO",
+    "role_a": "小川",
+    "role_b": "上田",
+    "target_sentence": "R4：小川は上田を臨時の助手として雇用しませんでした。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-F0025",
+    "source_id": "F0025",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R1：森田は青木に臨時の助手として雇用されました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-F0026",
+    "source_id": "F0026",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R2：森田は青木に臨時の助手として雇用されました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-F0027",
+    "source_id": "F0027",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R3：森田は青木に臨時の助手として雇用されました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-F0028",
+    "source_id": "F0028",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R4：森田は青木に臨時の助手として雇用されました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-F0029",
+    "source_id": "F0029",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R1：森田は青木に臨時の助手として雇用されました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-F0030",
+    "source_id": "F0030",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "上田",
+    "target_sentence": "R2：上田は青木に臨時の助手として雇用されました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-F0031",
+    "source_id": "F0031",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R3：森田は青木に臨時の助手として雇用されました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-F0032",
+    "source_id": "F0032",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "上田",
+    "target_sentence": "R4：上田は青木に臨時の助手として雇用されました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-F0033",
+    "source_id": "F0033",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R1：森田は青木に臨時の助手として雇用されました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-F0034",
+    "source_id": "F0034",
+    "occurred": "YES",
+    "role_a": "小川",
+    "role_b": "森田",
+    "target_sentence": "R2：森田は小川に臨時の助手として雇用されました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-F0035",
+    "source_id": "F0035",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R3：森田は青木に臨時の助手として雇用されました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-F0036",
+    "source_id": "F0036",
+    "occurred": "YES",
+    "role_a": "小川",
+    "role_b": "森田",
+    "target_sentence": "R4：森田は小川に臨時の助手として雇用されました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-F0037",
+    "source_id": "F0037",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R1：森田は青木に臨時の助手として雇用されました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-F0038",
+    "source_id": "F0038",
+    "occurred": "YES",
+    "role_a": "森田",
+    "role_b": "青木",
+    "target_sentence": "R2：青木は森田に臨時の助手として雇用されました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-F0039",
+    "source_id": "F0039",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R3：森田は青木に臨時の助手として雇用されました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-F0040",
+    "source_id": "F0040",
+    "occurred": "YES",
+    "role_a": "森田",
+    "role_b": "青木",
+    "target_sentence": "R4：青木は森田に臨時の助手として雇用されました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-F0041",
+    "source_id": "F0041",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R1：森田は青木に臨時の助手として雇用されました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-F0042",
+    "source_id": "F0042",
+    "occurred": "NO",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R2：森田は青木に臨時の助手として雇用されませんでした。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-F0043",
+    "source_id": "F0043",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R3：森田は青木に臨時の助手として雇用されました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-F0044",
+    "source_id": "F0044",
+    "occurred": "NO",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R4：森田は青木に臨時の助手として雇用されませんでした。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-F0045",
+    "source_id": "F0045",
+    "occurred": "NO",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R1：森田は青木に臨時の助手として雇用されませんでした。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-F0046",
+    "source_id": "F0046",
+    "occurred": "NO",
+    "role_a": "小川",
+    "role_b": "上田",
+    "target_sentence": "R2：上田は小川に臨時の助手として雇用されませんでした。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-F0047",
+    "source_id": "F0047",
+    "occurred": "NO",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R3：森田は青木に臨時の助手として雇用されませんでした。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-F0048",
+    "source_id": "F0048",
+    "occurred": "NO",
+    "role_a": "小川",
+    "role_b": "上田",
+    "target_sentence": "R4：上田は小川に臨時の助手として雇用されませんでした。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-F0049",
+    "source_id": "F0049",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R1：青木雇用了森田担任临时助手。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-F0050",
+    "source_id": "F0050",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R2：青木雇用了森田担任临时助手。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-F0051",
+    "source_id": "F0051",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R3：青木雇用了森田担任临时助手。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-F0052",
+    "source_id": "F0052",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R4：青木雇用了森田担任临时助手。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-F0053",
+    "source_id": "F0053",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R1：青木雇用了森田担任临时助手。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-F0054",
+    "source_id": "F0054",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "上田",
+    "target_sentence": "R2：青木雇用了上田担任临时助手。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-F0055",
+    "source_id": "F0055",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R3：青木雇用了森田担任临时助手。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-F0056",
+    "source_id": "F0056",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "上田",
+    "target_sentence": "R4：青木雇用了上田担任临时助手。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-F0057",
+    "source_id": "F0057",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R1：青木雇用了森田担任临时助手。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-F0058",
+    "source_id": "F0058",
+    "occurred": "YES",
+    "role_a": "小川",
+    "role_b": "森田",
+    "target_sentence": "R2：小川雇用了森田担任临时助手。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-F0059",
+    "source_id": "F0059",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R3：青木雇用了森田担任临时助手。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-F0060",
+    "source_id": "F0060",
+    "occurred": "YES",
+    "role_a": "小川",
+    "role_b": "森田",
+    "target_sentence": "R4：小川雇用了森田担任临时助手。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-F0061",
+    "source_id": "F0061",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R1：青木雇用了森田担任临时助手。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-F0062",
+    "source_id": "F0062",
+    "occurred": "YES",
+    "role_a": "森田",
+    "role_b": "青木",
+    "target_sentence": "R2：森田雇用了青木担任临时助手。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-F0063",
+    "source_id": "F0063",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R3：青木雇用了森田担任临时助手。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-F0064",
+    "source_id": "F0064",
+    "occurred": "YES",
+    "role_a": "森田",
+    "role_b": "青木",
+    "target_sentence": "R4：森田雇用了青木担任临时助手。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-F0065",
+    "source_id": "F0065",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R1：青木雇用了森田担任临时助手。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-F0066",
+    "source_id": "F0066",
+    "occurred": "NO",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R2：青木没有雇用森田担任临时助手。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-F0067",
+    "source_id": "F0067",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R3：青木雇用了森田担任临时助手。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-F0068",
+    "source_id": "F0068",
+    "occurred": "NO",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R4：青木没有雇用森田担任临时助手。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-F0069",
+    "source_id": "F0069",
+    "occurred": "NO",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R1：青木没有雇用森田担任临时助手。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-F0070",
+    "source_id": "F0070",
+    "occurred": "NO",
+    "role_a": "小川",
+    "role_b": "上田",
+    "target_sentence": "R2：小川没有雇用上田担任临时助手。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-F0071",
+    "source_id": "F0071",
+    "occurred": "NO",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R3：青木没有雇用森田担任临时助手。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-F0072",
+    "source_id": "F0072",
+    "occurred": "NO",
+    "role_a": "小川",
+    "role_b": "上田",
+    "target_sentence": "R4：小川没有雇用上田担任临时助手。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-F0073",
+    "source_id": "F0073",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R1：青木は森田に本を貸し出しました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-F0074",
+    "source_id": "F0074",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R2：青木は森田に本を貸し出しました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-F0075",
+    "source_id": "F0075",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R3：青木は森田に本を貸し出しました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-F0076",
+    "source_id": "F0076",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R4：青木は森田に本を貸し出しました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-F0077",
+    "source_id": "F0077",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R1：青木は森田に本を貸し出しました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-F0078",
+    "source_id": "F0078",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "上田",
+    "target_sentence": "R2：青木は上田に本を貸し出しました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-F0079",
+    "source_id": "F0079",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R3：青木は森田に本を貸し出しました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-F0080",
+    "source_id": "F0080",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "上田",
+    "target_sentence": "R4：青木は上田に本を貸し出しました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-F0081",
+    "source_id": "F0081",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R1：青木は森田に本を貸し出しました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-F0082",
+    "source_id": "F0082",
+    "occurred": "YES",
+    "role_a": "小川",
+    "role_b": "森田",
+    "target_sentence": "R2：小川は森田に本を貸し出しました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-F0083",
+    "source_id": "F0083",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R3：青木は森田に本を貸し出しました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-F0084",
+    "source_id": "F0084",
+    "occurred": "YES",
+    "role_a": "小川",
+    "role_b": "森田",
+    "target_sentence": "R4：小川は森田に本を貸し出しました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-F0085",
+    "source_id": "F0085",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R1：青木は森田に本を貸し出しました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-F0086",
+    "source_id": "F0086",
+    "occurred": "YES",
+    "role_a": "森田",
+    "role_b": "青木",
+    "target_sentence": "R2：森田は青木に本を貸し出しました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-F0087",
+    "source_id": "F0087",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R3：青木は森田に本を貸し出しました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-F0088",
+    "source_id": "F0088",
+    "occurred": "YES",
+    "role_a": "森田",
+    "role_b": "青木",
+    "target_sentence": "R4：森田は青木に本を貸し出しました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-F0089",
+    "source_id": "F0089",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R1：青木は森田に本を貸し出しました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-F0090",
+    "source_id": "F0090",
+    "occurred": "NO",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R2：青木は森田に本を貸し出しませんでした。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-F0091",
+    "source_id": "F0091",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R3：青木は森田に本を貸し出しました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-F0092",
+    "source_id": "F0092",
+    "occurred": "NO",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R4：青木は森田に本を貸し出しませんでした。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-F0093",
+    "source_id": "F0093",
+    "occurred": "NO",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R1：青木は森田に本を貸し出しませんでした。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-F0094",
+    "source_id": "F0094",
+    "occurred": "NO",
+    "role_a": "小川",
+    "role_b": "上田",
+    "target_sentence": "R2：小川は上田に本を貸し出しませんでした。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-F0095",
+    "source_id": "F0095",
+    "occurred": "NO",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R3：青木は森田に本を貸し出しませんでした。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-F0096",
+    "source_id": "F0096",
+    "occurred": "NO",
+    "role_a": "小川",
+    "role_b": "上田",
+    "target_sentence": "R4：小川は上田に本を貸し出しませんでした。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-F0097",
+    "source_id": "F0097",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R1：本は青木から森田に貸し出されました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-F0098",
+    "source_id": "F0098",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R2：本は青木から森田に貸し出されました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-F0099",
+    "source_id": "F0099",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R3：本は青木から森田に貸し出されました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-F0100",
+    "source_id": "F0100",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R4：本は青木から森田に貸し出されました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-F0101",
+    "source_id": "F0101",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R1：本は青木から森田に貸し出されました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-F0102",
+    "source_id": "F0102",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "上田",
+    "target_sentence": "R2：本は青木から上田に貸し出されました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-F0103",
+    "source_id": "F0103",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R3：本は青木から森田に貸し出されました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-F0104",
+    "source_id": "F0104",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "上田",
+    "target_sentence": "R4：本は青木から上田に貸し出されました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-F0105",
+    "source_id": "F0105",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R1：本は青木から森田に貸し出されました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-F0106",
+    "source_id": "F0106",
+    "occurred": "YES",
+    "role_a": "小川",
+    "role_b": "森田",
+    "target_sentence": "R2：本は小川から森田に貸し出されました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-F0107",
+    "source_id": "F0107",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R3：本は青木から森田に貸し出されました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-F0108",
+    "source_id": "F0108",
+    "occurred": "YES",
+    "role_a": "小川",
+    "role_b": "森田",
+    "target_sentence": "R4：本は小川から森田に貸し出されました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-F0109",
+    "source_id": "F0109",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R1：本は青木から森田に貸し出されました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-F0110",
+    "source_id": "F0110",
+    "occurred": "YES",
+    "role_a": "森田",
+    "role_b": "青木",
+    "target_sentence": "R2：本は森田から青木に貸し出されました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-F0111",
+    "source_id": "F0111",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R3：本は青木から森田に貸し出されました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-F0112",
+    "source_id": "F0112",
+    "occurred": "YES",
+    "role_a": "森田",
+    "role_b": "青木",
+    "target_sentence": "R4：本は森田から青木に貸し出されました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-F0113",
+    "source_id": "F0113",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R1：本は青木から森田に貸し出されました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-F0114",
+    "source_id": "F0114",
+    "occurred": "NO",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R2：本は青木から森田に貸し出されませんでした。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-F0115",
+    "source_id": "F0115",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R3：本は青木から森田に貸し出されました。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-F0116",
+    "source_id": "F0116",
+    "occurred": "NO",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R4：本は青木から森田に貸し出されませんでした。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-F0117",
+    "source_id": "F0117",
+    "occurred": "NO",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R1：本は青木から森田に貸し出されませんでした。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-F0118",
+    "source_id": "F0118",
+    "occurred": "NO",
+    "role_a": "小川",
+    "role_b": "上田",
+    "target_sentence": "R2：本は小川から上田に貸し出されませんでした。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-F0119",
+    "source_id": "F0119",
+    "occurred": "NO",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R3：本は青木から森田に貸し出されませんでした。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-F0120",
+    "source_id": "F0120",
+    "occurred": "NO",
+    "role_a": "小川",
+    "role_b": "上田",
+    "target_sentence": "R4：本は小川から上田に貸し出されませんでした。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-F0121",
+    "source_id": "F0121",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R1：青木把一本书借给了森田。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-F0122",
+    "source_id": "F0122",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R2：青木把一本书借给了森田。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-F0123",
+    "source_id": "F0123",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R3：青木把一本书借给了森田。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-F0124",
+    "source_id": "F0124",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R4：青木把一本书借给了森田。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-F0125",
+    "source_id": "F0125",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R1：青木把一本书借给了森田。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-F0126",
+    "source_id": "F0126",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "上田",
+    "target_sentence": "R2：青木把一本书借给了上田。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-F0127",
+    "source_id": "F0127",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R3：青木把一本书借给了森田。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-F0128",
+    "source_id": "F0128",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "上田",
+    "target_sentence": "R4：青木把一本书借给了上田。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-F0129",
+    "source_id": "F0129",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R1：青木把一本书借给了森田。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-F0130",
+    "source_id": "F0130",
+    "occurred": "YES",
+    "role_a": "小川",
+    "role_b": "森田",
+    "target_sentence": "R2：小川把一本书借给了森田。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-F0131",
+    "source_id": "F0131",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R3：青木把一本书借给了森田。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-F0132",
+    "source_id": "F0132",
+    "occurred": "YES",
+    "role_a": "小川",
+    "role_b": "森田",
+    "target_sentence": "R4：小川把一本书借给了森田。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-F0133",
+    "source_id": "F0133",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R1：青木把一本书借给了森田。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-F0134",
+    "source_id": "F0134",
+    "occurred": "YES",
+    "role_a": "森田",
+    "role_b": "青木",
+    "target_sentence": "R2：森田把一本书借给了青木。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-F0135",
+    "source_id": "F0135",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R3：青木把一本书借给了森田。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-F0136",
+    "source_id": "F0136",
+    "occurred": "YES",
+    "role_a": "森田",
+    "role_b": "青木",
+    "target_sentence": "R4：森田把一本书借给了青木。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-F0137",
+    "source_id": "F0137",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R1：青木把一本书借给了森田。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-F0138",
+    "source_id": "F0138",
+    "occurred": "NO",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R2：青木没有把一本书借给森田。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-F0139",
+    "source_id": "F0139",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R3：青木把一本书借给了森田。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-F0140",
+    "source_id": "F0140",
+    "occurred": "NO",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R4：青木没有把一本书借给森田。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-F0141",
+    "source_id": "F0141",
+    "occurred": "NO",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R1：青木没有把一本书借给森田。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-F0142",
+    "source_id": "F0142",
+    "occurred": "NO",
+    "role_a": "小川",
+    "role_b": "上田",
+    "target_sentence": "R2：小川没有把一本书借给上田。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-F0143",
+    "source_id": "F0143",
+    "occurred": "NO",
+    "role_a": "青木",
+    "role_b": "森田",
+    "target_sentence": "R3：青木没有把一本书借给森田。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B12V2-LLAMA-F0144",
+    "source_id": "F0144",
+    "occurred": "NO",
+    "role_a": "小川",
+    "role_b": "上田",
+    "target_sentence": "R4：小川没有把一本书借给上田。",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  }
+]

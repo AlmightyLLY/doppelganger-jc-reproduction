@@ -1,0 +1,5126 @@
+[
+  {
+    "call_id": "B12V2-QWEN-F0038",
+    "model": "qwen",
+    "source_form": "JA_PASSIVE",
+    "condition": "FULL",
+    "source_text": "R1：森田は青木に臨時の助手として雇用されました。\nR2：青木は森田に臨時の助手として雇用されました。\nR3：上田は小川に臨時の助手として雇用されました。\nR4：小川は上田に臨時の助手として雇用されました。",
+    "raw_output": "{\"occurred\":\"YES\",\"employer\":\"青木\",\"employee\":\"森田\"}",
+    "reference": {
+      "call_id": "B12V2-QWEN-F0038",
+      "source_id": "F0038",
+      "occurred": "YES",
+      "role_a": "森田",
+      "role_b": "青木",
+      "target_sentence": "R2：青木は森田に臨時の助手として雇用されました。",
+      "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+    },
+    "observation": {
+      "labels": {
+        "role_a": "W",
+        "role_b": "W",
+        "occurrence": "C",
+        "participant": "W",
+        "record": "W"
+      },
+      "occurred_asserted": "YES",
+      "decoded_names": {
+        "role_a": "青木",
+        "role_b": "森田"
+      },
+      "raw_fields": {
+        "occurred": "YES",
+        "employer": "青木",
+        "employee": "森田"
+      },
+      "field_identity_reasons": {
+        "occurred": "UNIQUE",
+        "employer": "UNIQUE",
+        "employee": "UNIQUE"
+      },
+      "occurrence_reason": "CORRECT",
+      "entity_reasons": {
+        "role_a": "OTHER_LISTED_PERSON",
+        "role_b": "OTHER_LISTED_PERSON"
+      },
+      "unsupported_assertion": false,
+      "explicit_occurrence_contradiction": false,
+      "format_compliance": "PASS",
+      "unique_readable_object": true,
+      "object_or_array_count": 1,
+      "raw_object_pairs": [
+        [
+          "occurred",
+          "YES"
+        ],
+        [
+          "employer",
+          "青木"
+        ],
+        [
+          "employee",
+          "森田"
+        ]
+      ],
+      "duplicate_keys": [],
+      "extra_keys": [],
+      "noncanonical_entities": [],
+      "outside_json_text": "",
+      "language_status": "CANONICAL_SCHEMA_VALUES",
+      "identity": "AI_SCORING_NOT_HUMAN_GOLD",
+      "full_response_read": true
+    },
+    "exact_role_reversal": true,
+    "roles_compatible_with_other_record_ids": [
+      "R1"
+    ],
+    "full_compatible_with_other_record_ids": [
+      "R1"
+    ],
+    "compatibility_not_internal_selection_proof": true
+  },
+  {
+    "call_id": "B12V2-QWEN-F0039",
+    "model": "qwen",
+    "source_form": "JA_PASSIVE",
+    "condition": "FULL",
+    "source_text": "R4：青木は森田に臨時の助手として雇用されました。\nR3：森田は青木に臨時の助手として雇用されました。\nR2：小川は上田に臨時の助手として雇用されました。\nR1：上田は小川に臨時の助手として雇用されました。",
+    "raw_output": "{\"occurred\":\"YES\",\"employer\":\"森田\",\"employee\":\"青木\"}",
+    "reference": {
+      "call_id": "B12V2-QWEN-F0039",
+      "source_id": "F0039",
+      "occurred": "YES",
+      "role_a": "青木",
+      "role_b": "森田",
+      "target_sentence": "R3：森田は青木に臨時の助手として雇用されました。",
+      "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+    },
+    "observation": {
+      "labels": {
+        "role_a": "W",
+        "role_b": "W",
+        "occurrence": "C",
+        "participant": "W",
+        "record": "W"
+      },
+      "occurred_asserted": "YES",
+      "decoded_names": {
+        "role_a": "森田",
+        "role_b": "青木"
+      },
+      "raw_fields": {
+        "occurred": "YES",
+        "employer": "森田",
+        "employee": "青木"
+      },
+      "field_identity_reasons": {
+        "occurred": "UNIQUE",
+        "employer": "UNIQUE",
+        "employee": "UNIQUE"
+      },
+      "occurrence_reason": "CORRECT",
+      "entity_reasons": {
+        "role_a": "OTHER_LISTED_PERSON",
+        "role_b": "OTHER_LISTED_PERSON"
+      },
+      "unsupported_assertion": false,
+      "explicit_occurrence_contradiction": false,
+      "format_compliance": "PASS",
+      "unique_readable_object": true,
+      "object_or_array_count": 1,
+      "raw_object_pairs": [
+        [
+          "occurred",
+          "YES"
+        ],
+        [
+          "employer",
+          "森田"
+        ],
+        [
+          "employee",
+          "青木"
+        ]
+      ],
+      "duplicate_keys": [],
+      "extra_keys": [],
+      "noncanonical_entities": [],
+      "outside_json_text": "",
+      "language_status": "CANONICAL_SCHEMA_VALUES",
+      "identity": "AI_SCORING_NOT_HUMAN_GOLD",
+      "full_response_read": true
+    },
+    "exact_role_reversal": true,
+    "roles_compatible_with_other_record_ids": [
+      "R4"
+    ],
+    "full_compatible_with_other_record_ids": [
+      "R4"
+    ],
+    "compatibility_not_internal_selection_proof": true
+  },
+  {
+    "call_id": "B12V2-QWEN-F0103",
+    "model": "qwen",
+    "source_form": "JA_PASSIVE",
+    "condition": "FULL",
+    "source_text": "R4：本は青木から上田に貸し出されました。\nR3：本は青木から森田に貸し出されました。\nR2：本は小川から上田に貸し出されました。\nR1：本は小川から森田に貸し出されました。",
+    "raw_output": "{\"occurred\":\"YES\",\"lender\":\"小川\",\"borrower\":\"森田\"}",
+    "reference": {
+      "call_id": "B12V2-QWEN-F0103",
+      "source_id": "F0103",
+      "occurred": "YES",
+      "role_a": "青木",
+      "role_b": "森田",
+      "target_sentence": "R3：本は青木から森田に貸し出されました。",
+      "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+    },
+    "observation": {
+      "labels": {
+        "role_a": "W",
+        "role_b": "C",
+        "occurrence": "C",
+        "participant": "W",
+        "record": "W"
+      },
+      "occurred_asserted": "YES",
+      "decoded_names": {
+        "role_a": "小川",
+        "role_b": "森田"
+      },
+      "raw_fields": {
+        "occurred": "YES",
+        "lender": "小川",
+        "borrower": "森田"
+      },
+      "field_identity_reasons": {
+        "occurred": "UNIQUE",
+        "lender": "UNIQUE",
+        "borrower": "UNIQUE"
+      },
+      "occurrence_reason": "CORRECT",
+      "entity_reasons": {
+        "role_a": "OTHER_LISTED_PERSON",
+        "role_b": "CORRECT"
+      },
+      "unsupported_assertion": false,
+      "explicit_occurrence_contradiction": false,
+      "format_compliance": "PASS",
+      "unique_readable_object": true,
+      "object_or_array_count": 1,
+      "raw_object_pairs": [
+        [
+          "occurred",
+          "YES"
+        ],
+        [
+          "lender",
+          "小川"
+        ],
+        [
+          "borrower",
+          "森田"
+        ]
+      ],
+      "duplicate_keys": [],
+      "extra_keys": [],
+      "noncanonical_entities": [],
+      "outside_json_text": "",
+      "language_status": "CANONICAL_SCHEMA_VALUES",
+      "identity": "AI_SCORING_NOT_HUMAN_GOLD",
+      "full_response_read": true
+    },
+    "exact_role_reversal": false,
+    "roles_compatible_with_other_record_ids": [
+      "R1"
+    ],
+    "full_compatible_with_other_record_ids": [
+      "R1"
+    ],
+    "compatibility_not_internal_selection_proof": true
+  },
+  {
+    "call_id": "B12V2-QWEN-F0112",
+    "model": "qwen",
+    "source_form": "JA_PASSIVE",
+    "condition": "FULL",
+    "source_text": "R4：本は森田から青木に貸し出されました。\nR3：本は青木から森田に貸し出されました。\nR2：本は上田から小川に貸し出されました。\nR1：本は小川から上田に貸し出されました。",
+    "raw_output": "{\"occurred\":\"YES\",\"lender\":\"青木\",\"borrower\":\"森田\"}",
+    "reference": {
+      "call_id": "B12V2-QWEN-F0112",
+      "source_id": "F0112",
+      "occurred": "YES",
+      "role_a": "森田",
+      "role_b": "青木",
+      "target_sentence": "R4：本は森田から青木に貸し出されました。",
+      "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+    },
+    "observation": {
+      "labels": {
+        "role_a": "W",
+        "role_b": "W",
+        "occurrence": "C",
+        "participant": "W",
+        "record": "W"
+      },
+      "occurred_asserted": "YES",
+      "decoded_names": {
+        "role_a": "青木",
+        "role_b": "森田"
+      },
+      "raw_fields": {
+        "occurred": "YES",
+        "lender": "青木",
+        "borrower": "森田"
+      },
+      "field_identity_reasons": {
+        "occurred": "UNIQUE",
+        "lender": "UNIQUE",
+        "borrower": "UNIQUE"
+      },
+      "occurrence_reason": "CORRECT",
+      "entity_reasons": {
+        "role_a": "OTHER_LISTED_PERSON",
+        "role_b": "OTHER_LISTED_PERSON"
+      },
+      "unsupported_assertion": false,
+      "explicit_occurrence_contradiction": false,
+      "format_compliance": "PASS",
+      "unique_readable_object": true,
+      "object_or_array_count": 1,
+      "raw_object_pairs": [
+        [
+          "occurred",
+          "YES"
+        ],
+        [
+          "lender",
+          "青木"
+        ],
+        [
+          "borrower",
+          "森田"
+        ]
+      ],
+      "duplicate_keys": [],
+      "extra_keys": [],
+      "noncanonical_entities": [],
+      "outside_json_text": "",
+      "language_status": "CANONICAL_SCHEMA_VALUES",
+      "identity": "AI_SCORING_NOT_HUMAN_GOLD",
+      "full_response_read": true
+    },
+    "exact_role_reversal": true,
+    "roles_compatible_with_other_record_ids": [
+      "R3"
+    ],
+    "full_compatible_with_other_record_ids": [
+      "R3"
+    ],
+    "compatibility_not_internal_selection_proof": true
+  },
+  {
+    "call_id": "B12V2-LLAMA-S0021",
+    "model": "llama",
+    "source_form": "JA_PASSIVE",
+    "condition": "SINGLE",
+    "source_text": "R2：上田は青木に臨時の助手として雇用されました。",
+    "raw_output": "{\"occurred\":\"YES\",\"employer\":\"上田\",\"employee\":\"青木\"}",
+    "reference": {
+      "call_id": "B12V2-LLAMA-S0021",
+      "source_id": "S0021",
+      "occurred": "YES",
+      "role_a": "青木",
+      "role_b": "上田",
+      "target_sentence": "R2：上田は青木に臨時の助手として雇用されました。",
+      "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+    },
+    "observation": {
+      "labels": {
+        "role_a": "W",
+        "role_b": "W",
+        "occurrence": "C",
+        "participant": "W",
+        "record": "W"
+      },
+      "occurred_asserted": "YES",
+      "decoded_names": {
+        "role_a": "上田",
+        "role_b": "青木"
+      },
+      "raw_fields": {
+        "occurred": "YES",
+        "employer": "上田",
+        "employee": "青木"
+      },
+      "field_identity_reasons": {
+        "occurred": "UNIQUE",
+        "employer": "UNIQUE",
+        "employee": "UNIQUE"
+      },
+      "occurrence_reason": "CORRECT",
+      "entity_reasons": {
+        "role_a": "OTHER_LISTED_PERSON",
+        "role_b": "OTHER_LISTED_PERSON"
+      },
+      "unsupported_assertion": false,
+      "explicit_occurrence_contradiction": false,
+      "format_compliance": "PASS",
+      "unique_readable_object": true,
+      "object_or_array_count": 1,
+      "raw_object_pairs": [
+        [
+          "occurred",
+          "YES"
+        ],
+        [
+          "employer",
+          "上田"
+        ],
+        [
+          "employee",
+          "青木"
+        ]
+      ],
+      "duplicate_keys": [],
+      "extra_keys": [],
+      "noncanonical_entities": [],
+      "outside_json_text": "",
+      "language_status": "CANONICAL_SCHEMA_VALUES",
+      "identity": "AI_SCORING_NOT_HUMAN_GOLD",
+      "full_response_read": true
+    },
+    "exact_role_reversal": true,
+    "roles_compatible_with_other_record_ids": [],
+    "full_compatible_with_other_record_ids": [],
+    "compatibility_not_internal_selection_proof": true
+  },
+  {
+    "call_id": "B12V2-LLAMA-S0022",
+    "model": "llama",
+    "source_form": "JA_PASSIVE",
+    "condition": "SINGLE",
+    "source_text": "R4：上田は青木に臨時の助手として雇用されました。",
+    "raw_output": "{\"occurred\":\"YES\",\"employer\":\"上田\",\"employee\":\"青木\"}",
+    "reference": {
+      "call_id": "B12V2-LLAMA-S0022",
+      "source_id": "S0022",
+      "occurred": "YES",
+      "role_a": "青木",
+      "role_b": "上田",
+      "target_sentence": "R4：上田は青木に臨時の助手として雇用されました。",
+      "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+    },
+    "observation": {
+      "labels": {
+        "role_a": "W",
+        "role_b": "W",
+        "occurrence": "C",
+        "participant": "W",
+        "record": "W"
+      },
+      "occurred_asserted": "YES",
+      "decoded_names": {
+        "role_a": "上田",
+        "role_b": "青木"
+      },
+      "raw_fields": {
+        "occurred": "YES",
+        "employer": "上田",
+        "employee": "青木"
+      },
+      "field_identity_reasons": {
+        "occurred": "UNIQUE",
+        "employer": "UNIQUE",
+        "employee": "UNIQUE"
+      },
+      "occurrence_reason": "CORRECT",
+      "entity_reasons": {
+        "role_a": "OTHER_LISTED_PERSON",
+        "role_b": "OTHER_LISTED_PERSON"
+      },
+      "unsupported_assertion": false,
+      "explicit_occurrence_contradiction": false,
+      "format_compliance": "PASS",
+      "unique_readable_object": true,
+      "object_or_array_count": 1,
+      "raw_object_pairs": [
+        [
+          "occurred",
+          "YES"
+        ],
+        [
+          "employer",
+          "上田"
+        ],
+        [
+          "employee",
+          "青木"
+        ]
+      ],
+      "duplicate_keys": [],
+      "extra_keys": [],
+      "noncanonical_entities": [],
+      "outside_json_text": "",
+      "language_status": "CANONICAL_SCHEMA_VALUES",
+      "identity": "AI_SCORING_NOT_HUMAN_GOLD",
+      "full_response_read": true
+    },
+    "exact_role_reversal": true,
+    "roles_compatible_with_other_record_ids": [],
+    "full_compatible_with_other_record_ids": [],
+    "compatibility_not_internal_selection_proof": true
+  },
+  {
+    "call_id": "B12V2-LLAMA-S0071",
+    "model": "llama",
+    "source_form": "JA_PASSIVE",
+    "condition": "SINGLE",
+    "source_text": "R2：本は小川から森田に貸し出されました。",
+    "raw_output": "{\"occurred\":\"YES\",\"lender\":\"森田\",\"borrower\":\"小川\"}",
+    "reference": {
+      "call_id": "B12V2-LLAMA-S0071",
+      "source_id": "S0071",
+      "occurred": "YES",
+      "role_a": "小川",
+      "role_b": "森田",
+      "target_sentence": "R2：本は小川から森田に貸し出されました。",
+      "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+    },
+    "observation": {
+      "labels": {
+        "role_a": "W",
+        "role_b": "W",
+        "occurrence": "C",
+        "participant": "W",
+        "record": "W"
+      },
+      "occurred_asserted": "YES",
+      "decoded_names": {
+        "role_a": "森田",
+        "role_b": "小川"
+      },
+      "raw_fields": {
+        "occurred": "YES",
+        "lender": "森田",
+        "borrower": "小川"
+      },
+      "field_identity_reasons": {
+        "occurred": "UNIQUE",
+        "lender": "UNIQUE",
+        "borrower": "UNIQUE"
+      },
+      "occurrence_reason": "CORRECT",
+      "entity_reasons": {
+        "role_a": "OTHER_LISTED_PERSON",
+        "role_b": "OTHER_LISTED_PERSON"
+      },
+      "unsupported_assertion": false,
+      "explicit_occurrence_contradiction": false,
+      "format_compliance": "PASS",
+      "unique_readable_object": true,
+      "object_or_array_count": 1,
+      "raw_object_pairs": [
+        [
+          "occurred",
+          "YES"
+        ],
+        [
+          "lender",
+          "森田"
+        ],
+        [
+          "borrower",
+          "小川"
+        ]
+      ],
+      "duplicate_keys": [],
+      "extra_keys": [],
+      "noncanonical_entities": [],
+      "outside_json_text": "",
+      "language_status": "CANONICAL_SCHEMA_VALUES",
+      "identity": "AI_SCORING_NOT_HUMAN_GOLD",
+      "full_response_read": true
+    },
+    "exact_role_reversal": true,
+    "roles_compatible_with_other_record_ids": [],
+    "full_compatible_with_other_record_ids": [],
+    "compatibility_not_internal_selection_proof": true
+  },
+  {
+    "call_id": "B12V2-LLAMA-S0072",
+    "model": "llama",
+    "source_form": "JA_PASSIVE",
+    "condition": "SINGLE",
+    "source_text": "R4：本は小川から森田に貸し出されました。",
+    "raw_output": "{\"occurred\":\"YES\",\"lender\":\"森田\",\"borrower\":\"小川\"}",
+    "reference": {
+      "call_id": "B12V2-LLAMA-S0072",
+      "source_id": "S0072",
+      "occurred": "YES",
+      "role_a": "小川",
+      "role_b": "森田",
+      "target_sentence": "R4：本は小川から森田に貸し出されました。",
+      "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+    },
+    "observation": {
+      "labels": {
+        "role_a": "W",
+        "role_b": "W",
+        "occurrence": "C",
+        "participant": "W",
+        "record": "W"
+      },
+      "occurred_asserted": "YES",
+      "decoded_names": {
+        "role_a": "森田",
+        "role_b": "小川"
+      },
+      "raw_fields": {
+        "occurred": "YES",
+        "lender": "森田",
+        "borrower": "小川"
+      },
+      "field_identity_reasons": {
+        "occurred": "UNIQUE",
+        "lender": "UNIQUE",
+        "borrower": "UNIQUE"
+      },
+      "occurrence_reason": "CORRECT",
+      "entity_reasons": {
+        "role_a": "OTHER_LISTED_PERSON",
+        "role_b": "OTHER_LISTED_PERSON"
+      },
+      "unsupported_assertion": false,
+      "explicit_occurrence_contradiction": false,
+      "format_compliance": "PASS",
+      "unique_readable_object": true,
+      "object_or_array_count": 1,
+      "raw_object_pairs": [
+        [
+          "occurred",
+          "YES"
+        ],
+        [
+          "lender",
+          "森田"
+        ],
+        [
+          "borrower",
+          "小川"
+        ]
+      ],
+      "duplicate_keys": [],
+      "extra_keys": [],
+      "noncanonical_entities": [],
+      "outside_json_text": "",
+      "language_status": "CANONICAL_SCHEMA_VALUES",
+      "identity": "AI_SCORING_NOT_HUMAN_GOLD",
+      "full_response_read": true
+    },
+    "exact_role_reversal": true,
+    "roles_compatible_with_other_record_ids": [],
+    "full_compatible_with_other_record_ids": [],
+    "compatibility_not_internal_selection_proof": true
+  },
+  {
+    "call_id": "B12V2-LLAMA-S0078",
+    "model": "llama",
+    "source_form": "JA_PASSIVE",
+    "condition": "SINGLE",
+    "source_text": "R2：本は小川から上田に貸し出されませんでした。",
+    "raw_output": "{\"occurred\":\"NO\",\"lender\":\"上田\",\"borrower\":\"小川\"}",
+    "reference": {
+      "call_id": "B12V2-LLAMA-S0078",
+      "source_id": "S0078",
+      "occurred": "NO",
+      "role_a": "小川",
+      "role_b": "上田",
+      "target_sentence": "R2：本は小川から上田に貸し出されませんでした。",
+      "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+    },
+    "observation": {
+      "labels": {
+        "role_a": "W",
+        "role_b": "W",
+        "occurrence": "C",
+        "participant": "W",
+        "record": "W"
+      },
+      "occurred_asserted": "NO",
+      "decoded_names": {
+        "role_a": "上田",
+        "role_b": "小川"
+      },
+      "raw_fields": {
+        "occurred": "NO",
+        "lender": "上田",
+        "borrower": "小川"
+      },
+      "field_identity_reasons": {
+        "occurred": "UNIQUE",
+        "lender": "UNIQUE",
+        "borrower": "UNIQUE"
+      },
+      "occurrence_reason": "CORRECT",
+      "entity_reasons": {
+        "role_a": "OTHER_LISTED_PERSON",
+        "role_b": "OTHER_LISTED_PERSON"
+      },
+      "unsupported_assertion": false,
+      "explicit_occurrence_contradiction": false,
+      "format_compliance": "PASS",
+      "unique_readable_object": true,
+      "object_or_array_count": 1,
+      "raw_object_pairs": [
+        [
+          "occurred",
+          "NO"
+        ],
+        [
+          "lender",
+          "上田"
+        ],
+        [
+          "borrower",
+          "小川"
+        ]
+      ],
+      "duplicate_keys": [],
+      "extra_keys": [],
+      "noncanonical_entities": [],
+      "outside_json_text": "",
+      "language_status": "CANONICAL_SCHEMA_VALUES",
+      "identity": "AI_SCORING_NOT_HUMAN_GOLD",
+      "full_response_read": true
+    },
+    "exact_role_reversal": true,
+    "roles_compatible_with_other_record_ids": [],
+    "full_compatible_with_other_record_ids": [],
+    "compatibility_not_internal_selection_proof": true
+  },
+  {
+    "call_id": "B12V2-LLAMA-S0080",
+    "model": "llama",
+    "source_form": "JA_PASSIVE",
+    "condition": "SINGLE",
+    "source_text": "R4：本は小川から上田に貸し出されませんでした。",
+    "raw_output": "{\"occurred\":\"NO\",\"lender\":\"上田\",\"borrower\":\"小川\"}",
+    "reference": {
+      "call_id": "B12V2-LLAMA-S0080",
+      "source_id": "S0080",
+      "occurred": "NO",
+      "role_a": "小川",
+      "role_b": "上田",
+      "target_sentence": "R4：本は小川から上田に貸し出されませんでした。",
+      "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+    },
+    "observation": {
+      "labels": {
+        "role_a": "W",
+        "role_b": "W",
+        "occurrence": "C",
+        "participant": "W",
+        "record": "W"
+      },
+      "occurred_asserted": "NO",
+      "decoded_names": {
+        "role_a": "上田",
+        "role_b": "小川"
+      },
+      "raw_fields": {
+        "occurred": "NO",
+        "lender": "上田",
+        "borrower": "小川"
+      },
+      "field_identity_reasons": {
+        "occurred": "UNIQUE",
+        "lender": "UNIQUE",
+        "borrower": "UNIQUE"
+      },
+      "occurrence_reason": "CORRECT",
+      "entity_reasons": {
+        "role_a": "OTHER_LISTED_PERSON",
+        "role_b": "OTHER_LISTED_PERSON"
+      },
+      "unsupported_assertion": false,
+      "explicit_occurrence_contradiction": false,
+      "format_compliance": "PASS",
+      "unique_readable_object": true,
+      "object_or_array_count": 1,
+      "raw_object_pairs": [
+        [
+          "occurred",
+          "NO"
+        ],
+        [
+          "lender",
+          "上田"
+        ],
+        [
+          "borrower",
+          "小川"
+        ]
+      ],
+      "duplicate_keys": [],
+      "extra_keys": [],
+      "noncanonical_entities": [],
+      "outside_json_text": "",
+      "language_status": "CANONICAL_SCHEMA_VALUES",
+      "identity": "AI_SCORING_NOT_HUMAN_GOLD",
+      "full_response_read": true
+    },
+    "exact_role_reversal": true,
+    "roles_compatible_with_other_record_ids": [],
+    "full_compatible_with_other_record_ids": [],
+    "compatibility_not_internal_selection_proof": true
+  },
+  {
+    "call_id": "B12V2-LLAMA-F0001",
+    "model": "llama",
+    "source_form": "JA_ACTIVE",
+    "condition": "FULL",
+    "source_text": "R1：青木は森田を臨時の助手として雇用しました。\nR2：青木は森田を臨時の助手として雇用しました。\nR3：小川は上田を臨時の助手として雇用しました。\nR4：小川は上田を臨時の助手として雇用しました。",
+    "raw_output": "```json\n{\n  \"occurred\": \"YES\",\n  \"employer\": \"青木\",\n  \"employee\": \"森田\"\n}\n```",
+    "reference": {
+      "call_id": "B12V2-LLAMA-F0001",
+      "source_id": "F0001",
+      "occurred": "YES",
+      "role_a": "青木",
+      "role_b": "森田",
+      "target_sentence": "R1：青木は森田を臨時の助手として雇用しました。",
+      "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+    },
+    "observation": {
+      "labels": {
+        "role_a": "C",
+        "role_b": "C",
+        "occurrence": "C",
+        "participant": "C",
+        "record": "C"
+      },
+      "occurred_asserted": "YES",
+      "decoded_names": {
+        "role_a": "青木",
+        "role_b": "森田"
+      },
+      "raw_fields": {
+        "occurred": "YES",
+        "employer": "青木",
+        "employee": "森田"
+      },
+      "field_identity_reasons": {
+        "occurred": "UNIQUE",
+        "employer": "UNIQUE",
+        "employee": "UNIQUE"
+      },
+      "occurrence_reason": "CORRECT",
+      "entity_reasons": {
+        "role_a": "CORRECT",
+        "role_b": "CORRECT"
+      },
+      "unsupported_assertion": false,
+      "explicit_occurrence_contradiction": false,
+      "format_compliance": "FAIL",
+      "unique_readable_object": true,
+      "object_or_array_count": 1,
+      "raw_object_pairs": [
+        [
+          "occurred",
+          "YES"
+        ],
+        [
+          "employer",
+          "青木"
+        ],
+        [
+          "employee",
+          "森田"
+        ]
+      ],
+      "duplicate_keys": [],
+      "extra_keys": [],
+      "noncanonical_entities": [],
+      "outside_json_text": "```json\n\n```",
+      "language_status": "REQUIRES_FULL_RESPONSE_LANGUAGE_REVIEW",
+      "identity": "AI_SCORING_NOT_HUMAN_GOLD",
+      "full_response_read": true
+    },
+    "exact_role_reversal": false,
+    "roles_compatible_with_other_record_ids": [
+      "R2"
+    ],
+    "full_compatible_with_other_record_ids": [
+      "R2"
+    ],
+    "compatibility_not_internal_selection_proof": true
+  },
+  {
+    "call_id": "B12V2-LLAMA-F0002",
+    "model": "llama",
+    "source_form": "JA_ACTIVE",
+    "condition": "FULL",
+    "source_text": "R1：青木は森田を臨時の助手として雇用しました。\nR2：青木は森田を臨時の助手として雇用しました。\nR3：小川は上田を臨時の助手として雇用しました。\nR4：小川は上田を臨時の助手として雇用しました。",
+    "raw_output": "```json\n{\n  \"occurred\": \"YES\",\n  \"employer\": \"青木\",\n  \"employee\": \"森田\"\n}\n```",
+    "reference": {
+      "call_id": "B12V2-LLAMA-F0002",
+      "source_id": "F0002",
+      "occurred": "YES",
+      "role_a": "青木",
+      "role_b": "森田",
+      "target_sentence": "R2：青木は森田を臨時の助手として雇用しました。",
+      "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+    },
+    "observation": {
+      "labels": {
+        "role_a": "C",
+        "role_b": "C",
+        "occurrence": "C",
+        "participant": "C",
+        "record": "C"
+      },
+      "occurred_asserted": "YES",
+      "decoded_names": {
+        "role_a": "青木",
+        "role_b": "森田"
+      },
+      "raw_fields": {
+        "occurred": "YES",
+        "employer": "青木",
+        "employee": "森田"
+      },
+      "field_identity_reasons": {
+        "occurred": "UNIQUE",
+        "employer": "UNIQUE",
+        "employee": "UNIQUE"
+      },
+      "occurrence_reason": "CORRECT",
+      "entity_reasons": {
+        "role_a": "CORRECT",
+        "role_b": "CORRECT"
+      },
+      "unsupported_assertion": false,
+      "explicit_occurrence_contradiction": false,
+      "format_compliance": "FAIL",
+      "unique_readable_object": true,
+      "object_or_array_count": 1,
+      "raw_object_pairs": [
+        [
+          "occurred",
+          "YES"
+        ],
+        [
+          "employer",
+          "青木"
+        ],
+        [
+          "employee",
+          "森田"
+        ]
+      ],
+      "duplicate_keys": [],
+      "extra_keys": [],
+      "noncanonical_entities": [],
+      "outside_json_text": "```json\n\n```",
+      "language_status": "REQUIRES_FULL_RESPONSE_LANGUAGE_REVIEW",
+      "identity": "AI_SCORING_NOT_HUMAN_GOLD",
+      "full_response_read": true
+    },
+    "exact_role_reversal": false,
+    "roles_compatible_with_other_record_ids": [
+      "R1"
+    ],
+    "full_compatible_with_other_record_ids": [
+      "R1"
+    ],
+    "compatibility_not_internal_selection_proof": true
+  },
+  {
+    "call_id": "B12V2-LLAMA-F0005",
+    "model": "llama",
+    "source_form": "JA_ACTIVE",
+    "condition": "FULL",
+    "source_text": "R1：青木は森田を臨時の助手として雇用しました。\nR2：青木は上田を臨時の助手として雇用しました。\nR3：小川は森田を臨時の助手として雇用しました。\nR4：小川は上田を臨時の助手として雇用しました。",
+    "raw_output": "```json\n{\n  \"occurred\": \"YES\",\n  \"employer\": \"青木\",\n  \"employee\": \"森田\"\n}\n```",
+    "reference": {
+      "call_id": "B12V2-LLAMA-F0005",
+      "source_id": "F0005",
+      "occurred": "YES",
+      "role_a": "青木",
+      "role_b": "森田",
+      "target_sentence": "R1：青木は森田を臨時の助手として雇用しました。",
+      "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+    },
+    "observation": {
+      "labels": {
+        "role_a": "C",
+        "role_b": "C",
+        "occurrence": "C",
+        "participant": "C",
+        "record": "C"
+      },
+      "occurred_asserted": "YES",
+      "decoded_names": {
+        "role_a": "青木",
+        "role_b": "森田"
+      },
+      "raw_fields": {
+        "occurred": "YES",
+        "employer": "青木",
+        "employee": "森田"
+      },
+      "field_identity_reasons": {
+        "occurred": "UNIQUE",
+        "employer": "UNIQUE",
+        "employee": "UNIQUE"
+      },
+      "occurrence_reason": "CORRECT",
+      "entity_reasons": {
+        "role_a": "CORRECT",
+        "role_b": "CORRECT"
+      },
+      "unsupported_assertion": false,
+      "explicit_occurrence_contradiction": false,
+      "format_compliance": "FAIL",
+      "unique_readable_object": true,
+      "object_or_array_count": 1,
+      "raw_object_pairs": [
+        [
+          "occurred",
+          "YES"
+        ],
+        [
+          "employer",
+          "青木"
+        ],
+        [
+          "employee",
+          "森田"
+        ]
+      ],
+      "duplicate_keys": [],
+      "extra_keys": [],
+      "noncanonical_entities": [],
+      "outside_json_text": "```json\n\n```",
+      "language_status": "REQUIRES_FULL_RESPONSE_LANGUAGE_REVIEW",
+      "identity": "AI_SCORING_NOT_HUMAN_GOLD",
+      "full_response_read": true
+    },
+    "exact_role_reversal": false,
+    "roles_compatible_with_other_record_ids": [],
+    "full_compatible_with_other_record_ids": [],
+    "compatibility_not_internal_selection_proof": true
+  },
+  {
+    "call_id": "B12V2-LLAMA-F0012",
+    "model": "llama",
+    "source_form": "JA_ACTIVE",
+    "condition": "FULL",
+    "source_text": "R4：小川は森田を臨時の助手として雇用しました。\nR3：青木は森田を臨時の助手として雇用しました。\nR2：小川は上田を臨時の助手として雇用しました。\nR1：青木は上田を臨時の助手として雇用しました。",
+    "raw_output": "{\"occurred\":\"YES\",\"employer\":\"青木\",\"employee\":\"森田\"}",
+    "reference": {
+      "call_id": "B12V2-LLAMA-F0012",
+      "source_id": "F0012",
+      "occurred": "YES",
+      "role_a": "小川",
+      "role_b": "森田",
+      "target_sentence": "R4：小川は森田を臨時の助手として雇用しました。",
+      "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+    },
+    "observation": {
+      "labels": {
+        "role_a": "W",
+        "role_b": "C",
+        "occurrence": "C",
+        "participant": "W",
+        "record": "W"
+      },
+      "occurred_asserted": "YES",
+      "decoded_names": {
+        "role_a": "青木",
+        "role_b": "森田"
+      },
+      "raw_fields": {
+        "occurred": "YES",
+        "employer": "青木",
+        "employee": "森田"
+      },
+      "field_identity_reasons": {
+        "occurred": "UNIQUE",
+        "employer": "UNIQUE",
+        "employee": "UNIQUE"
+      },
+      "occurrence_reason": "CORRECT",
+      "entity_reasons": {
+        "role_a": "OTHER_LISTED_PERSON",
+        "role_b": "CORRECT"
+      },
+      "unsupported_assertion": false,
+      "explicit_occurrence_contradiction": false,
+      "format_compliance": "PASS",
+      "unique_readable_object": true,
+      "object_or_array_count": 1,
+      "raw_object_pairs": [
+        [
+          "occurred",
+          "YES"
+        ],
+        [
+          "employer",
+          "青木"
+        ],
+        [
+          "employee",
+          "森田"
+        ]
+      ],
+      "duplicate_keys": [],
+      "extra_keys": [],
+      "noncanonical_entities": [],
+      "outside_json_text": "",
+      "language_status": "CANONICAL_SCHEMA_VALUES",
+      "identity": "AI_SCORING_NOT_HUMAN_GOLD",
+      "full_response_read": true
+    },
+    "exact_role_reversal": false,
+    "roles_compatible_with_other_record_ids": [
+      "R3"
+    ],
+    "full_compatible_with_other_record_ids": [
+      "R3"
+    ],
+    "compatibility_not_internal_selection_proof": true
+  },
+  {
+    "call_id": "B12V2-LLAMA-F0013",
+    "model": "llama",
+    "source_form": "JA_ACTIVE",
+    "condition": "FULL",
+    "source_text": "R1：青木は森田を臨時の助手として雇用しました。\nR2：森田は青木を臨時の助手として雇用しました。\nR3：小川は上田を臨時の助手として雇用しました。\nR4：上田は小川を臨時の助手として雇用しました。",
+    "raw_output": "```json\n{\n  \"occurred\": \"YES\",\n  \"employer\": \"青木\",\n  \"employee\": \"森田\"\n}\n```",
+    "reference": {
+      "call_id": "B12V2-LLAMA-F0013",
+      "source_id": "F0013",
+      "occurred": "YES",
+      "role_a": "青木",
+      "role_b": "森田",
+      "target_sentence": "R1：青木は森田を臨時の助手として雇用しました。",
+      "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+    },
+    "observation": {
+      "labels": {
+        "role_a": "C",
+        "role_b": "C",
+        "occurrence": "C",
+        "participant": "C",
+        "record": "C"
+      },
+      "occurred_asserted": "YES",
+      "decoded_names": {
+        "role_a": "青木",
+        "role_b": "森田"
+      },
+      "raw_fields": {
+        "occurred": "YES",
+        "employer": "青木",
+        "employee": "森田"
+      },
+      "field_identity_reasons": {
+        "occurred": "UNIQUE",
+        "employer": "UNIQUE",
+        "employee": "UNIQUE"
+      },
+      "occurrence_reason": "CORRECT",
+      "entity_reasons": {
+        "role_a": "CORRECT",
+        "role_b": "CORRECT"
+      },
+      "unsupported_assertion": false,
+      "explicit_occurrence_contradiction": false,
+      "format_compliance": "FAIL",
+      "unique_readable_object": true,
+      "object_or_array_count": 1,
+      "raw_object_pairs": [
+        [
+          "occurred",
+          "YES"
+        ],
+        [
+          "employer",
+          "青木"
+        ],
+        [
+          "employee",
+          "森田"
+        ]
+      ],
+      "duplicate_keys": [],
+      "extra_keys": [],
+      "noncanonical_entities": [],
+      "outside_json_text": "```json\n\n```",
+      "language_status": "REQUIRES_FULL_RESPONSE_LANGUAGE_REVIEW",
+      "identity": "AI_SCORING_NOT_HUMAN_GOLD",
+      "full_response_read": true
+    },
+    "exact_role_reversal": false,
+    "roles_compatible_with_other_record_ids": [],
+    "full_compatible_with_other_record_ids": [],
+    "compatibility_not_internal_selection_proof": true
+  },
+  {
+    "call_id": "B12V2-LLAMA-F0014",
+    "model": "llama",
+    "source_form": "JA_ACTIVE",
+    "condition": "FULL",
+    "source_text": "R1：青木は森田を臨時の助手として雇用しました。\nR2：森田は青木を臨時の助手として雇用しました。\nR3：小川は上田を臨時の助手として雇用しました。\nR4：上田は小川を臨時の助手として雇用しました。",
+    "raw_output": "```json\n{\n  \"occurred\": \"YES\",\n  \"employer\": \"森田\",\n  \"employee\": \"青木\"\n}\n```",
+    "reference": {
+      "call_id": "B12V2-LLAMA-F0014",
+      "source_id": "F0014",
+      "occurred": "YES",
+      "role_a": "森田",
+      "role_b": "青木",
+      "target_sentence": "R2：森田は青木を臨時の助手として雇用しました。",
+      "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+    },
+    "observation": {
+      "labels": {
+        "role_a": "C",
+        "role_b": "C",
+        "occurrence": "C",
+        "participant": "C",
+        "record": "C"
+      },
+      "occurred_asserted": "YES",
+      "decoded_names": {
+        "role_a": "森田",
+        "role_b": "青木"
+      },
+      "raw_fields": {
+        "occurred": "YES",
+        "employer": "森田",
+        "employee": "青木"
+      },
+      "field_identity_reasons": {
+        "occurred": "UNIQUE",
+        "employer": "UNIQUE",
+        "employee": "UNIQUE"
+      },
+      "occurrence_reason": "CORRECT",
+      "entity_reasons": {
+        "role_a": "CORRECT",
+        "role_b": "CORRECT"
+      },
+      "unsupported_assertion": false,
+      "explicit_occurrence_contradiction": false,
+      "format_compliance": "FAIL",
+      "unique_readable_object": true,
+      "object_or_array_count": 1,
+      "raw_object_pairs": [
+        [
+          "occurred",
+          "YES"
+        ],
+        [
+          "employer",
+          "森田"
+        ],
+        [
+          "employee",
+          "青木"
+        ]
+      ],
+      "duplicate_keys": [],
+      "extra_keys": [],
+      "noncanonical_entities": [],
+      "outside_json_text": "```json\n\n```",
+      "language_status": "REQUIRES_FULL_RESPONSE_LANGUAGE_REVIEW",
+      "identity": "AI_SCORING_NOT_HUMAN_GOLD",
+      "full_response_read": true
+    },
+    "exact_role_reversal": false,
+    "roles_compatible_with_other_record_ids": [],
+    "full_compatible_with_other_record_ids": [],
+    "compatibility_not_internal_selection_proof": true
+  },
+  {
+    "call_id": "B12V2-LLAMA-F0015",
+    "model": "llama",
+    "source_form": "JA_ACTIVE",
+    "condition": "FULL",
+    "source_text": "R4：森田は青木を臨時の助手として雇用しました。\nR3：青木は森田を臨時の助手として雇用しました。\nR2：上田は小川を臨時の助手として雇用しました。\nR1：小川は上田を臨時の助手として雇用しました。",
+    "raw_output": "```json\n{\n  \"occurred\": \"YES\",\n  \"employer\": \"青木\",\n  \"employee\": \"森田\"\n}\n```",
+    "reference": {
+      "call_id": "B12V2-LLAMA-F0015",
+      "source_id": "F0015",
+      "occurred": "YES",
+      "role_a": "青木",
+      "role_b": "森田",
+      "target_sentence": "R3：青木は森田を臨時の助手として雇用しました。",
+      "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+    },
+    "observation": {
+      "labels": {
+        "role_a": "C",
+        "role_b": "C",
+        "occurrence": "C",
+        "participant": "C",
+        "record": "C"
+      },
+      "occurred_asserted": "YES",
+      "decoded_names": {
+        "role_a": "青木",
+        "role_b": "森田"
+      },
+      "raw_fields": {
+        "occurred": "YES",
+        "employer": "青木",
+        "employee": "森田"
+      },
+      "field_identity_reasons": {
+        "occurred": "UNIQUE",
+        "employer": "UNIQUE",
+        "employee": "UNIQUE"
+      },
+      "occurrence_reason": "CORRECT",
+      "entity_reasons": {
+        "role_a": "CORRECT",
+        "role_b": "CORRECT"
+      },
+      "unsupported_assertion": false,
+      "explicit_occurrence_contradiction": false,
+      "format_compliance": "FAIL",
+      "unique_readable_object": true,
+      "object_or_array_count": 1,
+      "raw_object_pairs": [
+        [
+          "occurred",
+          "YES"
+        ],
+        [
+          "employer",
+          "青木"
+        ],
+        [
+          "employee",
+          "森田"
+        ]
+      ],
+      "duplicate_keys": [],
+      "extra_keys": [],
+      "noncanonical_entities": [],
+      "outside_json_text": "```json\n\n```",
+      "language_status": "REQUIRES_FULL_RESPONSE_LANGUAGE_REVIEW",
+      "identity": "AI_SCORING_NOT_HUMAN_GOLD",
+      "full_response_read": true
+    },
+    "exact_role_reversal": false,
+    "roles_compatible_with_other_record_ids": [],
+    "full_compatible_with_other_record_ids": [],
+    "compatibility_not_internal_selection_proof": true
+  },
+  {
+    "call_id": "B12V2-LLAMA-F0016",
+    "model": "llama",
+    "source_form": "JA_ACTIVE",
+    "condition": "FULL",
+    "source_text": "R4：森田は青木を臨時の助手として雇用しました。\nR3：青木は森田を臨時の助手として雇用しました。\nR2：上田は小川を臨時の助手として雇用しました。\nR1：小川は上田を臨時の助手として雇用しました。",
+    "raw_output": "```json\n{\n  \"occurred\": \"YES\",\n  \"employer\": \"森田\",\n  \"employee\": \"青木\"\n}\n```",
+    "reference": {
+      "call_id": "B12V2-LLAMA-F0016",
+      "source_id": "F0016",
+      "occurred": "YES",
+      "role_a": "森田",
+      "role_b": "青木",
+      "target_sentence": "R4：森田は青木を臨時の助手として雇用しました。",
+      "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+    },
+    "observation": {
+      "labels": {
+        "role_a": "C",
+        "role_b": "C",
+        "occurrence": "C",
+        "participant": "C",
+        "record": "C"
+      },
+      "occurred_asserted": "YES",
+      "decoded_names": {
+        "role_a": "森田",
+        "role_b": "青木"
+      },
+      "raw_fields": {
+        "occurred": "YES",
+        "employer": "森田",
+        "employee": "青木"
+      },
+      "field_identity_reasons": {
+        "occurred": "UNIQUE",
+        "employer": "UNIQUE",
+        "employee": "UNIQUE"
+      },
+      "occurrence_reason": "CORRECT",
+      "entity_reasons": {
+        "role_a": "CORRECT",
+        "role_b": "CORRECT"
+      },
+      "unsupported_assertion": false,
+      "explicit_occurrence_contradiction": false,
+      "format_compliance": "FAIL",
+      "unique_readable_object": true,
+      "object_or_array_count": 1,
+      "raw_object_pairs": [
+        [
+          "occurred",
+          "YES"
+        ],
+        [
+          "employer",
+          "森田"
+        ],
+        [
+          "employee",
+          "青木"
+        ]
+      ],
+      "duplicate_keys": [],
+      "extra_keys": [],
+      "noncanonical_entities": [],
+      "outside_json_text": "```json\n\n```",
+      "language_status": "REQUIRES_FULL_RESPONSE_LANGUAGE_REVIEW",
+      "identity": "AI_SCORING_NOT_HUMAN_GOLD",
+      "full_response_read": true
+    },
+    "exact_role_reversal": false,
+    "roles_compatible_with_other_record_ids": [],
+    "full_compatible_with_other_record_ids": [],
+    "compatibility_not_internal_selection_proof": true
+  },
+  {
+    "call_id": "B12V2-LLAMA-F0017",
+    "model": "llama",
+    "source_form": "JA_ACTIVE",
+    "condition": "FULL",
+    "source_text": "R1：青木は森田を臨時の助手として雇用しました。\nR2：青木は森田を臨時の助手として雇用しませんでした。\nR3：小川は上田を臨時の助手として雇用しました。\nR4：小川は上田を臨時の助手として雇用しませんでした。",
+    "raw_output": "```json\n{\n  \"occurred\": \"YES\",\n  \"employer\": \"青木\",\n  \"employee\": \"森田\"\n}\n```",
+    "reference": {
+      "call_id": "B12V2-LLAMA-F0017",
+      "source_id": "F0017",
+      "occurred": "YES",
+      "role_a": "青木",
+      "role_b": "森田",
+      "target_sentence": "R1：青木は森田を臨時の助手として雇用しました。",
+      "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+    },
+    "observation": {
+      "labels": {
+        "role_a": "C",
+        "role_b": "C",
+        "occurrence": "C",
+        "participant": "C",
+        "record": "C"
+      },
+      "occurred_asserted": "YES",
+      "decoded_names": {
+        "role_a": "青木",
+        "role_b": "森田"
+      },
+      "raw_fields": {
+        "occurred": "YES",
+        "employer": "青木",
+        "employee": "森田"
+      },
+      "field_identity_reasons": {
+        "occurred": "UNIQUE",
+        "employer": "UNIQUE",
+        "employee": "UNIQUE"
+      },
+      "occurrence_reason": "CORRECT",
+      "entity_reasons": {
+        "role_a": "CORRECT",
+        "role_b": "CORRECT"
+      },
+      "unsupported_assertion": false,
+      "explicit_occurrence_contradiction": false,
+      "format_compliance": "FAIL",
+      "unique_readable_object": true,
+      "object_or_array_count": 1,
+      "raw_object_pairs": [
+        [
+          "occurred",
+          "YES"
+        ],
+        [
+          "employer",
+          "青木"
+        ],
+        [
+          "employee",
+          "森田"
+        ]
+      ],
+      "duplicate_keys": [],
+      "extra_keys": [],
+      "noncanonical_entities": [],
+      "outside_json_text": "```json\n\n```",
+      "language_status": "REQUIRES_FULL_RESPONSE_LANGUAGE_REVIEW",
+      "identity": "AI_SCORING_NOT_HUMAN_GOLD",
+      "full_response_read": true
+    },
+    "exact_role_reversal": false,
+    "roles_compatible_with_other_record_ids": [
+      "R2"
+    ],
+    "full_compatible_with_other_record_ids": [],
+    "compatibility_not_internal_selection_proof": true
+  },
+  {
+    "call_id": "B12V2-LLAMA-F0019",
+    "model": "llama",
+    "source_form": "JA_ACTIVE",
+    "condition": "FULL",
+    "source_text": "R4：青木は森田を臨時の助手として雇用しませんでした。\nR3：青木は森田を臨時の助手として雇用しました。\nR2：小川は上田を臨時の助手として雇用しませんでした。\nR1：小川は上田を臨時の助手として雇用しました。",
+    "raw_output": "```json\n{\n  \"occurred\": \"YES\",\n  \"employer\": \"青木\",\n  \"employee\": \"森田\"\n}\n```",
+    "reference": {
+      "call_id": "B12V2-LLAMA-F0019",
+      "source_id": "F0019",
+      "occurred": "YES",
+      "role_a": "青木",
+      "role_b": "森田",
+      "target_sentence": "R3：青木は森田を臨時の助手として雇用しました。",
+      "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+    },
+    "observation": {
+      "labels": {
+        "role_a": "C",
+        "role_b": "C",
+        "occurrence": "C",
+        "participant": "C",
+        "record": "C"
+      },
+      "occurred_asserted": "YES",
+      "decoded_names": {
+        "role_a": "青木",
+        "role_b": "森田"
+      },
+      "raw_fields": {
+        "occurred": "YES",
+        "employer": "青木",
+        "employee": "森田"
+      },
+      "field_identity_reasons": {
+        "occurred": "UNIQUE",
+        "employer": "UNIQUE",
+        "employee": "UNIQUE"
+      },
+      "occurrence_reason": "CORRECT",
+      "entity_reasons": {
+        "role_a": "CORRECT",
+        "role_b": "CORRECT"
+      },
+      "unsupported_assertion": false,
+      "explicit_occurrence_contradiction": false,
+      "format_compliance": "FAIL",
+      "unique_readable_object": true,
+      "object_or_array_count": 1,
+      "raw_object_pairs": [
+        [
+          "occurred",
+          "YES"
+        ],
+        [
+          "employer",
+          "青木"
+        ],
+        [
+          "employee",
+          "森田"
+        ]
+      ],
+      "duplicate_keys": [],
+      "extra_keys": [],
+      "noncanonical_entities": [],
+      "outside_json_text": "```json\n\n```",
+      "language_status": "REQUIRES_FULL_RESPONSE_LANGUAGE_REVIEW",
+      "identity": "AI_SCORING_NOT_HUMAN_GOLD",
+      "full_response_read": true
+    },
+    "exact_role_reversal": false,
+    "roles_compatible_with_other_record_ids": [
+      "R4"
+    ],
+    "full_compatible_with_other_record_ids": [],
+    "compatibility_not_internal_selection_proof": true
+  },
+  {
+    "call_id": "B12V2-LLAMA-F0038",
+    "model": "llama",
+    "source_form": "JA_PASSIVE",
+    "condition": "FULL",
+    "source_text": "R1：森田は青木に臨時の助手として雇用されました。\nR2：青木は森田に臨時の助手として雇用されました。\nR3：上田は小川に臨時の助手として雇用されました。\nR4：小川は上田に臨時の助手として雇用されました。",
+    "raw_output": "{\"occurred\":\"YES\",\"employer\":\"青木\",\"employee\":\"森田\"}",
+    "reference": {
+      "call_id": "B12V2-LLAMA-F0038",
+      "source_id": "F0038",
+      "occurred": "YES",
+      "role_a": "森田",
+      "role_b": "青木",
+      "target_sentence": "R2：青木は森田に臨時の助手として雇用されました。",
+      "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+    },
+    "observation": {
+      "labels": {
+        "role_a": "W",
+        "role_b": "W",
+        "occurrence": "C",
+        "participant": "W",
+        "record": "W"
+      },
+      "occurred_asserted": "YES",
+      "decoded_names": {
+        "role_a": "青木",
+        "role_b": "森田"
+      },
+      "raw_fields": {
+        "occurred": "YES",
+        "employer": "青木",
+        "employee": "森田"
+      },
+      "field_identity_reasons": {
+        "occurred": "UNIQUE",
+        "employer": "UNIQUE",
+        "employee": "UNIQUE"
+      },
+      "occurrence_reason": "CORRECT",
+      "entity_reasons": {
+        "role_a": "OTHER_LISTED_PERSON",
+        "role_b": "OTHER_LISTED_PERSON"
+      },
+      "unsupported_assertion": false,
+      "explicit_occurrence_contradiction": false,
+      "format_compliance": "PASS",
+      "unique_readable_object": true,
+      "object_or_array_count": 1,
+      "raw_object_pairs": [
+        [
+          "occurred",
+          "YES"
+        ],
+        [
+          "employer",
+          "青木"
+        ],
+        [
+          "employee",
+          "森田"
+        ]
+      ],
+      "duplicate_keys": [],
+      "extra_keys": [],
+      "noncanonical_entities": [],
+      "outside_json_text": "",
+      "language_status": "CANONICAL_SCHEMA_VALUES",
+      "identity": "AI_SCORING_NOT_HUMAN_GOLD",
+      "full_response_read": true
+    },
+    "exact_role_reversal": true,
+    "roles_compatible_with_other_record_ids": [
+      "R1"
+    ],
+    "full_compatible_with_other_record_ids": [
+      "R1"
+    ],
+    "compatibility_not_internal_selection_proof": true
+  },
+  {
+    "call_id": "B12V2-LLAMA-F0039",
+    "model": "llama",
+    "source_form": "JA_PASSIVE",
+    "condition": "FULL",
+    "source_text": "R4：青木は森田に臨時の助手として雇用されました。\nR3：森田は青木に臨時の助手として雇用されました。\nR2：小川は上田に臨時の助手として雇用されました。\nR1：上田は小川に臨時の助手として雇用されました。",
+    "raw_output": "{\"occurred\":\"YES\",\"employer\":\"森田\",\"employee\":\"青木\"}",
+    "reference": {
+      "call_id": "B12V2-LLAMA-F0039",
+      "source_id": "F0039",
+      "occurred": "YES",
+      "role_a": "青木",
+      "role_b": "森田",
+      "target_sentence": "R3：森田は青木に臨時の助手として雇用されました。",
+      "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+    },
+    "observation": {
+      "labels": {
+        "role_a": "W",
+        "role_b": "W",
+        "occurrence": "C",
+        "participant": "W",
+        "record": "W"
+      },
+      "occurred_asserted": "YES",
+      "decoded_names": {
+        "role_a": "森田",
+        "role_b": "青木"
+      },
+      "raw_fields": {
+        "occurred": "YES",
+        "employer": "森田",
+        "employee": "青木"
+      },
+      "field_identity_reasons": {
+        "occurred": "UNIQUE",
+        "employer": "UNIQUE",
+        "employee": "UNIQUE"
+      },
+      "occurrence_reason": "CORRECT",
+      "entity_reasons": {
+        "role_a": "OTHER_LISTED_PERSON",
+        "role_b": "OTHER_LISTED_PERSON"
+      },
+      "unsupported_assertion": false,
+      "explicit_occurrence_contradiction": false,
+      "format_compliance": "PASS",
+      "unique_readable_object": true,
+      "object_or_array_count": 1,
+      "raw_object_pairs": [
+        [
+          "occurred",
+          "YES"
+        ],
+        [
+          "employer",
+          "森田"
+        ],
+        [
+          "employee",
+          "青木"
+        ]
+      ],
+      "duplicate_keys": [],
+      "extra_keys": [],
+      "noncanonical_entities": [],
+      "outside_json_text": "",
+      "language_status": "CANONICAL_SCHEMA_VALUES",
+      "identity": "AI_SCORING_NOT_HUMAN_GOLD",
+      "full_response_read": true
+    },
+    "exact_role_reversal": true,
+    "roles_compatible_with_other_record_ids": [
+      "R4"
+    ],
+    "full_compatible_with_other_record_ids": [
+      "R4"
+    ],
+    "compatibility_not_internal_selection_proof": true
+  },
+  {
+    "call_id": "B12V2-LLAMA-F0041",
+    "model": "llama",
+    "source_form": "JA_PASSIVE",
+    "condition": "FULL",
+    "source_text": "R1：森田は青木に臨時の助手として雇用されました。\nR2：森田は青木に臨時の助手として雇用されませんでした。\nR3：上田は小川に臨時の助手として雇用されました。\nR4：上田は小川に臨時の助手として雇用されませんでした。",
+    "raw_output": "```json\n{\n  \"occurred\": \"YES\",\n  \"employer\": \"青木\",\n  \"employee\": \"森田\"\n}\n```",
+    "reference": {
+      "call_id": "B12V2-LLAMA-F0041",
+      "source_id": "F0041",
+      "occurred": "YES",
+      "role_a": "青木",
+      "role_b": "森田",
+      "target_sentence": "R1：森田は青木に臨時の助手として雇用されました。",
+      "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+    },
+    "observation": {
+      "labels": {
+        "role_a": "C",
+        "role_b": "C",
+        "occurrence": "C",
+        "participant": "C",
+        "record": "C"
+      },
+      "occurred_asserted": "YES",
+      "decoded_names": {
+        "role_a": "青木",
+        "role_b": "森田"
+      },
+      "raw_fields": {
+        "occurred": "YES",
+        "employer": "青木",
+        "employee": "森田"
+      },
+      "field_identity_reasons": {
+        "occurred": "UNIQUE",
+        "employer": "UNIQUE",
+        "employee": "UNIQUE"
+      },
+      "occurrence_reason": "CORRECT",
+      "entity_reasons": {
+        "role_a": "CORRECT",
+        "role_b": "CORRECT"
+      },
+      "unsupported_assertion": false,
+      "explicit_occurrence_contradiction": false,
+      "format_compliance": "FAIL",
+      "unique_readable_object": true,
+      "object_or_array_count": 1,
+      "raw_object_pairs": [
+        [
+          "occurred",
+          "YES"
+        ],
+        [
+          "employer",
+          "青木"
+        ],
+        [
+          "employee",
+          "森田"
+        ]
+      ],
+      "duplicate_keys": [],
+      "extra_keys": [],
+      "noncanonical_entities": [],
+      "outside_json_text": "```json\n\n```",
+      "language_status": "REQUIRES_FULL_RESPONSE_LANGUAGE_REVIEW",
+      "identity": "AI_SCORING_NOT_HUMAN_GOLD",
+      "full_response_read": true
+    },
+    "exact_role_reversal": false,
+    "roles_compatible_with_other_record_ids": [
+      "R2"
+    ],
+    "full_compatible_with_other_record_ids": [],
+    "compatibility_not_internal_selection_proof": true
+  },
+  {
+    "call_id": "B12V2-LLAMA-F0043",
+    "model": "llama",
+    "source_form": "JA_PASSIVE",
+    "condition": "FULL",
+    "source_text": "R4：森田は青木に臨時の助手として雇用されませんでした。\nR3：森田は青木に臨時の助手として雇用されました。\nR2：上田は小川に臨時の助手として雇用されませんでした。\nR1：上田は小川に臨時の助手として雇用されました。",
+    "raw_output": "```json\n{\n  \"occurred\": \"YES\",\n  \"employer\": \"青木\",\n  \"employee\": \"森田\"\n}\n```",
+    "reference": {
+      "call_id": "B12V2-LLAMA-F0043",
+      "source_id": "F0043",
+      "occurred": "YES",
+      "role_a": "青木",
+      "role_b": "森田",
+      "target_sentence": "R3：森田は青木に臨時の助手として雇用されました。",
+      "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+    },
+    "observation": {
+      "labels": {
+        "role_a": "C",
+        "role_b": "C",
+        "occurrence": "C",
+        "participant": "C",
+        "record": "C"
+      },
+      "occurred_asserted": "YES",
+      "decoded_names": {
+        "role_a": "青木",
+        "role_b": "森田"
+      },
+      "raw_fields": {
+        "occurred": "YES",
+        "employer": "青木",
+        "employee": "森田"
+      },
+      "field_identity_reasons": {
+        "occurred": "UNIQUE",
+        "employer": "UNIQUE",
+        "employee": "UNIQUE"
+      },
+      "occurrence_reason": "CORRECT",
+      "entity_reasons": {
+        "role_a": "CORRECT",
+        "role_b": "CORRECT"
+      },
+      "unsupported_assertion": false,
+      "explicit_occurrence_contradiction": false,
+      "format_compliance": "FAIL",
+      "unique_readable_object": true,
+      "object_or_array_count": 1,
+      "raw_object_pairs": [
+        [
+          "occurred",
+          "YES"
+        ],
+        [
+          "employer",
+          "青木"
+        ],
+        [
+          "employee",
+          "森田"
+        ]
+      ],
+      "duplicate_keys": [],
+      "extra_keys": [],
+      "noncanonical_entities": [],
+      "outside_json_text": "```json\n\n```",
+      "language_status": "REQUIRES_FULL_RESPONSE_LANGUAGE_REVIEW",
+      "identity": "AI_SCORING_NOT_HUMAN_GOLD",
+      "full_response_read": true
+    },
+    "exact_role_reversal": false,
+    "roles_compatible_with_other_record_ids": [
+      "R4"
+    ],
+    "full_compatible_with_other_record_ids": [],
+    "compatibility_not_internal_selection_proof": true
+  },
+  {
+    "call_id": "B12V2-LLAMA-F0048",
+    "model": "llama",
+    "source_form": "JA_PASSIVE",
+    "condition": "FULL",
+    "source_text": "R4：上田は小川に臨時の助手として雇用されませんでした。\nR3：森田は青木に臨時の助手として雇用されませんでした。\nR2：上田は小川に臨時の助手として雇用されました。\nR1：森田は青木に臨時の助手として雇用されました。",
+    "raw_output": "{\"occurred\":\"NO\",\"employer\":\"青木\",\"employee\":\"上田\"}",
+    "reference": {
+      "call_id": "B12V2-LLAMA-F0048",
+      "source_id": "F0048",
+      "occurred": "NO",
+      "role_a": "小川",
+      "role_b": "上田",
+      "target_sentence": "R4：上田は小川に臨時の助手として雇用されませんでした。",
+      "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+    },
+    "observation": {
+      "labels": {
+        "role_a": "W",
+        "role_b": "C",
+        "occurrence": "C",
+        "participant": "W",
+        "record": "W"
+      },
+      "occurred_asserted": "NO",
+      "decoded_names": {
+        "role_a": "青木",
+        "role_b": "上田"
+      },
+      "raw_fields": {
+        "occurred": "NO",
+        "employer": "青木",
+        "employee": "上田"
+      },
+      "field_identity_reasons": {
+        "occurred": "UNIQUE",
+        "employer": "UNIQUE",
+        "employee": "UNIQUE"
+      },
+      "occurrence_reason": "CORRECT",
+      "entity_reasons": {
+        "role_a": "OTHER_LISTED_PERSON",
+        "role_b": "CORRECT"
+      },
+      "unsupported_assertion": false,
+      "explicit_occurrence_contradiction": false,
+      "format_compliance": "PASS",
+      "unique_readable_object": true,
+      "object_or_array_count": 1,
+      "raw_object_pairs": [
+        [
+          "occurred",
+          "NO"
+        ],
+        [
+          "employer",
+          "青木"
+        ],
+        [
+          "employee",
+          "上田"
+        ]
+      ],
+      "duplicate_keys": [],
+      "extra_keys": [],
+      "noncanonical_entities": [],
+      "outside_json_text": "",
+      "language_status": "CANONICAL_SCHEMA_VALUES",
+      "identity": "AI_SCORING_NOT_HUMAN_GOLD",
+      "full_response_read": true
+    },
+    "exact_role_reversal": false,
+    "roles_compatible_with_other_record_ids": [],
+    "full_compatible_with_other_record_ids": [],
+    "compatibility_not_internal_selection_proof": true
+  },
+  {
+    "call_id": "B12V2-LLAMA-F0049",
+    "model": "llama",
+    "source_form": "ZH_ACTIVE",
+    "condition": "FULL",
+    "source_text": "R1：青木雇用了森田担任临时助手。\nR2：青木雇用了森田担任临时助手。\nR3：小川雇用了上田担任临时助手。\nR4：小川雇用了上田担任临时助手。",
+    "raw_output": "```json\n{\n  \"occurred\": \"YES\",\n  \"employer\": \"青木\",\n  \"employee\": \"森田\"\n}\n```",
+    "reference": {
+      "call_id": "B12V2-LLAMA-F0049",
+      "source_id": "F0049",
+      "occurred": "YES",
+      "role_a": "青木",
+      "role_b": "森田",
+      "target_sentence": "R1：青木雇用了森田担任临时助手。",
+      "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+    },
+    "observation": {
+      "labels": {
+        "role_a": "C",
+        "role_b": "C",
+        "occurrence": "C",
+        "participant": "C",
+        "record": "C"
+      },
+      "occurred_asserted": "YES",
+      "decoded_names": {
+        "role_a": "青木",
+        "role_b": "森田"
+      },
+      "raw_fields": {
+        "occurred": "YES",
+        "employer": "青木",
+        "employee": "森田"
+      },
+      "field_identity_reasons": {
+        "occurred": "UNIQUE",
+        "employer": "UNIQUE",
+        "employee": "UNIQUE"
+      },
+      "occurrence_reason": "CORRECT",
+      "entity_reasons": {
+        "role_a": "CORRECT",
+        "role_b": "CORRECT"
+      },
+      "unsupported_assertion": false,
+      "explicit_occurrence_contradiction": false,
+      "format_compliance": "FAIL",
+      "unique_readable_object": true,
+      "object_or_array_count": 1,
+      "raw_object_pairs": [
+        [
+          "occurred",
+          "YES"
+        ],
+        [
+          "employer",
+          "青木"
+        ],
+        [
+          "employee",
+          "森田"
+        ]
+      ],
+      "duplicate_keys": [],
+      "extra_keys": [],
+      "noncanonical_entities": [],
+      "outside_json_text": "```json\n\n```",
+      "language_status": "REQUIRES_FULL_RESPONSE_LANGUAGE_REVIEW",
+      "identity": "AI_SCORING_NOT_HUMAN_GOLD",
+      "full_response_read": true
+    },
+    "exact_role_reversal": false,
+    "roles_compatible_with_other_record_ids": [
+      "R2"
+    ],
+    "full_compatible_with_other_record_ids": [
+      "R2"
+    ],
+    "compatibility_not_internal_selection_proof": true
+  },
+  {
+    "call_id": "B12V2-LLAMA-F0050",
+    "model": "llama",
+    "source_form": "ZH_ACTIVE",
+    "condition": "FULL",
+    "source_text": "R1：青木雇用了森田担任临时助手。\nR2：青木雇用了森田担任临时助手。\nR3：小川雇用了上田担任临时助手。\nR4：小川雇用了上田担任临时助手。",
+    "raw_output": "```json\n{\n  \"occurred\": \"YES\",\n  \"employer\": \"青木\",\n  \"employee\": \"森田\"\n}\n```",
+    "reference": {
+      "call_id": "B12V2-LLAMA-F0050",
+      "source_id": "F0050",
+      "occurred": "YES",
+      "role_a": "青木",
+      "role_b": "森田",
+      "target_sentence": "R2：青木雇用了森田担任临时助手。",
+      "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+    },
+    "observation": {
+      "labels": {
+        "role_a": "C",
+        "role_b": "C",
+        "occurrence": "C",
+        "participant": "C",
+        "record": "C"
+      },
+      "occurred_asserted": "YES",
+      "decoded_names": {
+        "role_a": "青木",
+        "role_b": "森田"
+      },
+      "raw_fields": {
+        "occurred": "YES",
+        "employer": "青木",
+        "employee": "森田"
+      },
+      "field_identity_reasons": {
+        "occurred": "UNIQUE",
+        "employer": "UNIQUE",
+        "employee": "UNIQUE"
+      },
+      "occurrence_reason": "CORRECT",
+      "entity_reasons": {
+        "role_a": "CORRECT",
+        "role_b": "CORRECT"
+      },
+      "unsupported_assertion": false,
+      "explicit_occurrence_contradiction": false,
+      "format_compliance": "FAIL",
+      "unique_readable_object": true,
+      "object_or_array_count": 1,
+      "raw_object_pairs": [
+        [
+          "occurred",
+          "YES"
+        ],
+        [
+          "employer",
+          "青木"
+        ],
+        [
+          "employee",
+          "森田"
+        ]
+      ],
+      "duplicate_keys": [],
+      "extra_keys": [],
+      "noncanonical_entities": [],
+      "outside_json_text": "```json\n\n```",
+      "language_status": "REQUIRES_FULL_RESPONSE_LANGUAGE_REVIEW",
+      "identity": "AI_SCORING_NOT_HUMAN_GOLD",
+      "full_response_read": true
+    },
+    "exact_role_reversal": false,
+    "roles_compatible_with_other_record_ids": [
+      "R1"
+    ],
+    "full_compatible_with_other_record_ids": [
+      "R1"
+    ],
+    "compatibility_not_internal_selection_proof": true
+  },
+  {
+    "call_id": "B12V2-LLAMA-F0052",
+    "model": "llama",
+    "source_form": "ZH_ACTIVE",
+    "condition": "FULL",
+    "source_text": "R4：青木雇用了森田担任临时助手。\nR3：青木雇用了森田担任临时助手。\nR2：小川雇用了上田担任临时助手。\nR1：小川雇用了上田担任临时助手。",
+    "raw_output": "```json\n{\n  \"occurred\": \"YES\",\n  \"employer\": \"青木\",\n  \"employee\": \"森田\"\n}\n```",
+    "reference": {
+      "call_id": "B12V2-LLAMA-F0052",
+      "source_id": "F0052",
+      "occurred": "YES",
+      "role_a": "青木",
+      "role_b": "森田",
+      "target_sentence": "R4：青木雇用了森田担任临时助手。",
+      "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+    },
+    "observation": {
+      "labels": {
+        "role_a": "C",
+        "role_b": "C",
+        "occurrence": "C",
+        "participant": "C",
+        "record": "C"
+      },
+      "occurred_asserted": "YES",
+      "decoded_names": {
+        "role_a": "青木",
+        "role_b": "森田"
+      },
+      "raw_fields": {
+        "occurred": "YES",
+        "employer": "青木",
+        "employee": "森田"
+      },
+      "field_identity_reasons": {
+        "occurred": "UNIQUE",
+        "employer": "UNIQUE",
+        "employee": "UNIQUE"
+      },
+      "occurrence_reason": "CORRECT",
+      "entity_reasons": {
+        "role_a": "CORRECT",
+        "role_b": "CORRECT"
+      },
+      "unsupported_assertion": false,
+      "explicit_occurrence_contradiction": false,
+      "format_compliance": "FAIL",
+      "unique_readable_object": true,
+      "object_or_array_count": 1,
+      "raw_object_pairs": [
+        [
+          "occurred",
+          "YES"
+        ],
+        [
+          "employer",
+          "青木"
+        ],
+        [
+          "employee",
+          "森田"
+        ]
+      ],
+      "duplicate_keys": [],
+      "extra_keys": [],
+      "noncanonical_entities": [],
+      "outside_json_text": "```json\n\n```",
+      "language_status": "REQUIRES_FULL_RESPONSE_LANGUAGE_REVIEW",
+      "identity": "AI_SCORING_NOT_HUMAN_GOLD",
+      "full_response_read": true
+    },
+    "exact_role_reversal": false,
+    "roles_compatible_with_other_record_ids": [
+      "R3"
+    ],
+    "full_compatible_with_other_record_ids": [
+      "R3"
+    ],
+    "compatibility_not_internal_selection_proof": true
+  },
+  {
+    "call_id": "B12V2-LLAMA-F0053",
+    "model": "llama",
+    "source_form": "ZH_ACTIVE",
+    "condition": "FULL",
+    "source_text": "R1：青木雇用了森田担任临时助手。\nR2：青木雇用了上田担任临时助手。\nR3：小川雇用了森田担任临时助手。\nR4：小川雇用了上田担任临时助手。",
+    "raw_output": "```json\n{\n  \"occurred\": \"YES\",\n  \"employer\": \"青木\",\n  \"employee\": \"森田\"\n}\n```",
+    "reference": {
+      "call_id": "B12V2-LLAMA-F0053",
+      "source_id": "F0053",
+      "occurred": "YES",
+      "role_a": "青木",
+      "role_b": "森田",
+      "target_sentence": "R1：青木雇用了森田担任临时助手。",
+      "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+    },
+    "observation": {
+      "labels": {
+        "role_a": "C",
+        "role_b": "C",
+        "occurrence": "C",
+        "participant": "C",
+        "record": "C"
+      },
+      "occurred_asserted": "YES",
+      "decoded_names": {
+        "role_a": "青木",
+        "role_b": "森田"
+      },
+      "raw_fields": {
+        "occurred": "YES",
+        "employer": "青木",
+        "employee": "森田"
+      },
+      "field_identity_reasons": {
+        "occurred": "UNIQUE",
+        "employer": "UNIQUE",
+        "employee": "UNIQUE"
+      },
+      "occurrence_reason": "CORRECT",
+      "entity_reasons": {
+        "role_a": "CORRECT",
+        "role_b": "CORRECT"
+      },
+      "unsupported_assertion": false,
+      "explicit_occurrence_contradiction": false,
+      "format_compliance": "FAIL",
+      "unique_readable_object": true,
+      "object_or_array_count": 1,
+      "raw_object_pairs": [
+        [
+          "occurred",
+          "YES"
+        ],
+        [
+          "employer",
+          "青木"
+        ],
+        [
+          "employee",
+          "森田"
+        ]
+      ],
+      "duplicate_keys": [],
+      "extra_keys": [],
+      "noncanonical_entities": [],
+      "outside_json_text": "```json\n\n```",
+      "language_status": "REQUIRES_FULL_RESPONSE_LANGUAGE_REVIEW",
+      "identity": "AI_SCORING_NOT_HUMAN_GOLD",
+      "full_response_read": true
+    },
+    "exact_role_reversal": false,
+    "roles_compatible_with_other_record_ids": [],
+    "full_compatible_with_other_record_ids": [],
+    "compatibility_not_internal_selection_proof": true
+  },
+  {
+    "call_id": "B12V2-LLAMA-F0054",
+    "model": "llama",
+    "source_form": "ZH_ACTIVE",
+    "condition": "FULL",
+    "source_text": "R1：青木雇用了森田担任临时助手。\nR2：青木雇用了上田担任临时助手。\nR3：小川雇用了森田担任临时助手。\nR4：小川雇用了上田担任临时助手。",
+    "raw_output": "```json\n{\n  \"occurred\": \"YES\",\n  \"employer\": \"青木\",\n  \"employee\": \"上田\"\n}\n```",
+    "reference": {
+      "call_id": "B12V2-LLAMA-F0054",
+      "source_id": "F0054",
+      "occurred": "YES",
+      "role_a": "青木",
+      "role_b": "上田",
+      "target_sentence": "R2：青木雇用了上田担任临时助手。",
+      "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+    },
+    "observation": {
+      "labels": {
+        "role_a": "C",
+        "role_b": "C",
+        "occurrence": "C",
+        "participant": "C",
+        "record": "C"
+      },
+      "occurred_asserted": "YES",
+      "decoded_names": {
+        "role_a": "青木",
+        "role_b": "上田"
+      },
+      "raw_fields": {
+        "occurred": "YES",
+        "employer": "青木",
+        "employee": "上田"
+      },
+      "field_identity_reasons": {
+        "occurred": "UNIQUE",
+        "employer": "UNIQUE",
+        "employee": "UNIQUE"
+      },
+      "occurrence_reason": "CORRECT",
+      "entity_reasons": {
+        "role_a": "CORRECT",
+        "role_b": "CORRECT"
+      },
+      "unsupported_assertion": false,
+      "explicit_occurrence_contradiction": false,
+      "format_compliance": "FAIL",
+      "unique_readable_object": true,
+      "object_or_array_count": 1,
+      "raw_object_pairs": [
+        [
+          "occurred",
+          "YES"
+        ],
+        [
+          "employer",
+          "青木"
+        ],
+        [
+          "employee",
+          "上田"
+        ]
+      ],
+      "duplicate_keys": [],
+      "extra_keys": [],
+      "noncanonical_entities": [],
+      "outside_json_text": "```json\n\n```",
+      "language_status": "REQUIRES_FULL_RESPONSE_LANGUAGE_REVIEW",
+      "identity": "AI_SCORING_NOT_HUMAN_GOLD",
+      "full_response_read": true
+    },
+    "exact_role_reversal": false,
+    "roles_compatible_with_other_record_ids": [],
+    "full_compatible_with_other_record_ids": [],
+    "compatibility_not_internal_selection_proof": true
+  },
+  {
+    "call_id": "B12V2-LLAMA-F0057",
+    "model": "llama",
+    "source_form": "ZH_ACTIVE",
+    "condition": "FULL",
+    "source_text": "R1：青木雇用了森田担任临时助手。\nR2：小川雇用了森田担任临时助手。\nR3：青木雇用了上田担任临时助手。\nR4：小川雇用了上田担任临时助手。",
+    "raw_output": "```json\n{\n  \"occurred\": \"YES\",\n  \"employer\": \"E1\",\n  \"employee\": \"E2\"\n}\n```",
+    "reference": {
+      "call_id": "B12V2-LLAMA-F0057",
+      "source_id": "F0057",
+      "occurred": "YES",
+      "role_a": "青木",
+      "role_b": "森田",
+      "target_sentence": "R1：青木雇用了森田担任临时助手。",
+      "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+    },
+    "observation": {
+      "labels": {
+        "role_a": "U",
+        "role_b": "U",
+        "occurrence": "C",
+        "participant": "U",
+        "record": "U"
+      },
+      "occurred_asserted": "YES",
+      "decoded_names": {
+        "role_a": null,
+        "role_b": null
+      },
+      "raw_fields": {
+        "occurred": "YES",
+        "employer": "E1",
+        "employee": "E2"
+      },
+      "field_identity_reasons": {
+        "occurred": "UNIQUE",
+        "employer": "UNIQUE",
+        "employee": "UNIQUE"
+      },
+      "occurrence_reason": "CORRECT",
+      "entity_reasons": {
+        "role_a": "UNLISTED_OR_INVALID_REPRESENTATION",
+        "role_b": "UNLISTED_OR_INVALID_REPRESENTATION"
+      },
+      "unsupported_assertion": false,
+      "explicit_occurrence_contradiction": false,
+      "format_compliance": "FAIL",
+      "unique_readable_object": true,
+      "object_or_array_count": 1,
+      "raw_object_pairs": [
+        [
+          "occurred",
+          "YES"
+        ],
+        [
+          "employer",
+          "E1"
+        ],
+        [
+          "employee",
+          "E2"
+        ]
+      ],
+      "duplicate_keys": [],
+      "extra_keys": [],
+      "noncanonical_entities": [
+        {
+          "field": "employer",
+          "raw_value": "E1",
+          "representation": "NAMES",
+          "reason": "UNLISTED_OR_INVALID_REPRESENTATION"
+        },
+        {
+          "field": "employee",
+          "raw_value": "E2",
+          "representation": "NAMES",
+          "reason": "UNLISTED_OR_INVALID_REPRESENTATION"
+        }
+      ],
+      "outside_json_text": "```json\n\n```",
+      "language_status": "REQUIRES_FULL_RESPONSE_LANGUAGE_REVIEW",
+      "identity": "AI_SCORING_NOT_HUMAN_GOLD",
+      "full_response_read": true
+    },
+    "exact_role_reversal": false,
+    "roles_compatible_with_other_record_ids": [],
+    "full_compatible_with_other_record_ids": [],
+    "compatibility_not_internal_selection_proof": true
+  },
+  {
+    "call_id": "B12V2-LLAMA-F0058",
+    "model": "llama",
+    "source_form": "ZH_ACTIVE",
+    "condition": "FULL",
+    "source_text": "R1：青木雇用了森田担任临时助手。\nR2：小川雇用了森田担任临时助手。\nR3：青木雇用了上田担任临时助手。\nR4：小川雇用了上田担任临时助手。",
+    "raw_output": "```json\n{\n  \"occurred\": \"YES\",\n  \"employer\": \"小川\",\n  \"employee\": \"森田\"\n}\n```",
+    "reference": {
+      "call_id": "B12V2-LLAMA-F0058",
+      "source_id": "F0058",
+      "occurred": "YES",
+      "role_a": "小川",
+      "role_b": "森田",
+      "target_sentence": "R2：小川雇用了森田担任临时助手。",
+      "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+    },
+    "observation": {
+      "labels": {
+        "role_a": "C",
+        "role_b": "C",
+        "occurrence": "C",
+        "participant": "C",
+        "record": "C"
+      },
+      "occurred_asserted": "YES",
+      "decoded_names": {
+        "role_a": "小川",
+        "role_b": "森田"
+      },
+      "raw_fields": {
+        "occurred": "YES",
+        "employer": "小川",
+        "employee": "森田"
+      },
+      "field_identity_reasons": {
+        "occurred": "UNIQUE",
+        "employer": "UNIQUE",
+        "employee": "UNIQUE"
+      },
+      "occurrence_reason": "CORRECT",
+      "entity_reasons": {
+        "role_a": "CORRECT",
+        "role_b": "CORRECT"
+      },
+      "unsupported_assertion": false,
+      "explicit_occurrence_contradiction": false,
+      "format_compliance": "FAIL",
+      "unique_readable_object": true,
+      "object_or_array_count": 1,
+      "raw_object_pairs": [
+        [
+          "occurred",
+          "YES"
+        ],
+        [
+          "employer",
+          "小川"
+        ],
+        [
+          "employee",
+          "森田"
+        ]
+      ],
+      "duplicate_keys": [],
+      "extra_keys": [],
+      "noncanonical_entities": [],
+      "outside_json_text": "```json\n\n```",
+      "language_status": "REQUIRES_FULL_RESPONSE_LANGUAGE_REVIEW",
+      "identity": "AI_SCORING_NOT_HUMAN_GOLD",
+      "full_response_read": true
+    },
+    "exact_role_reversal": false,
+    "roles_compatible_with_other_record_ids": [],
+    "full_compatible_with_other_record_ids": [],
+    "compatibility_not_internal_selection_proof": true
+  },
+  {
+    "call_id": "B12V2-LLAMA-F0060",
+    "model": "llama",
+    "source_form": "ZH_ACTIVE",
+    "condition": "FULL",
+    "source_text": "R4：小川雇用了森田担任临时助手。\nR3：青木雇用了森田担任临时助手。\nR2：小川雇用了上田担任临时助手。\nR1：青木雇用了上田担任临时助手。",
+    "raw_output": "{\"occurred\":\"YES\",\"employer\":\"E3\",\"employee\":\"E2\"}",
+    "reference": {
+      "call_id": "B12V2-LLAMA-F0060",
+      "source_id": "F0060",
+      "occurred": "YES",
+      "role_a": "小川",
+      "role_b": "森田",
+      "target_sentence": "R4：小川雇用了森田担任临时助手。",
+      "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+    },
+    "observation": {
+      "labels": {
+        "role_a": "U",
+        "role_b": "U",
+        "occurrence": "C",
+        "participant": "U",
+        "record": "U"
+      },
+      "occurred_asserted": "YES",
+      "decoded_names": {
+        "role_a": null,
+        "role_b": null
+      },
+      "raw_fields": {
+        "occurred": "YES",
+        "employer": "E3",
+        "employee": "E2"
+      },
+      "field_identity_reasons": {
+        "occurred": "UNIQUE",
+        "employer": "UNIQUE",
+        "employee": "UNIQUE"
+      },
+      "occurrence_reason": "CORRECT",
+      "entity_reasons": {
+        "role_a": "UNLISTED_OR_INVALID_REPRESENTATION",
+        "role_b": "UNLISTED_OR_INVALID_REPRESENTATION"
+      },
+      "unsupported_assertion": false,
+      "explicit_occurrence_contradiction": false,
+      "format_compliance": "PASS",
+      "unique_readable_object": true,
+      "object_or_array_count": 1,
+      "raw_object_pairs": [
+        [
+          "occurred",
+          "YES"
+        ],
+        [
+          "employer",
+          "E3"
+        ],
+        [
+          "employee",
+          "E2"
+        ]
+      ],
+      "duplicate_keys": [],
+      "extra_keys": [],
+      "noncanonical_entities": [
+        {
+          "field": "employer",
+          "raw_value": "E3",
+          "representation": "NAMES",
+          "reason": "UNLISTED_OR_INVALID_REPRESENTATION"
+        },
+        {
+          "field": "employee",
+          "raw_value": "E2",
+          "representation": "NAMES",
+          "reason": "UNLISTED_OR_INVALID_REPRESENTATION"
+        }
+      ],
+      "outside_json_text": "",
+      "language_status": "REQUIRES_FULL_RESPONSE_LANGUAGE_REVIEW",
+      "identity": "AI_SCORING_NOT_HUMAN_GOLD",
+      "full_response_read": true
+    },
+    "exact_role_reversal": false,
+    "roles_compatible_with_other_record_ids": [],
+    "full_compatible_with_other_record_ids": [],
+    "compatibility_not_internal_selection_proof": true
+  },
+  {
+    "call_id": "B12V2-LLAMA-F0061",
+    "model": "llama",
+    "source_form": "ZH_ACTIVE",
+    "condition": "FULL",
+    "source_text": "R1：青木雇用了森田担任临时助手。\nR2：森田雇用了青木担任临时助手。\nR3：小川雇用了上田担任临时助手。\nR4：上田雇用了小川担任临时助手。",
+    "raw_output": "```json\n{\n  \"occurred\": \"YES\",\n  \"employer\": \"E1\",\n  \"employee\": \"E2\"\n}\n```",
+    "reference": {
+      "call_id": "B12V2-LLAMA-F0061",
+      "source_id": "F0061",
+      "occurred": "YES",
+      "role_a": "青木",
+      "role_b": "森田",
+      "target_sentence": "R1：青木雇用了森田担任临时助手。",
+      "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+    },
+    "observation": {
+      "labels": {
+        "role_a": "U",
+        "role_b": "U",
+        "occurrence": "C",
+        "participant": "U",
+        "record": "U"
+      },
+      "occurred_asserted": "YES",
+      "decoded_names": {
+        "role_a": null,
+        "role_b": null
+      },
+      "raw_fields": {
+        "occurred": "YES",
+        "employer": "E1",
+        "employee": "E2"
+      },
+      "field_identity_reasons": {
+        "occurred": "UNIQUE",
+        "employer": "UNIQUE",
+        "employee": "UNIQUE"
+      },
+      "occurrence_reason": "CORRECT",
+      "entity_reasons": {
+        "role_a": "UNLISTED_OR_INVALID_REPRESENTATION",
+        "role_b": "UNLISTED_OR_INVALID_REPRESENTATION"
+      },
+      "unsupported_assertion": false,
+      "explicit_occurrence_contradiction": false,
+      "format_compliance": "FAIL",
+      "unique_readable_object": true,
+      "object_or_array_count": 1,
+      "raw_object_pairs": [
+        [
+          "occurred",
+          "YES"
+        ],
+        [
+          "employer",
+          "E1"
+        ],
+        [
+          "employee",
+          "E2"
+        ]
+      ],
+      "duplicate_keys": [],
+      "extra_keys": [],
+      "noncanonical_entities": [
+        {
+          "field": "employer",
+          "raw_value": "E1",
+          "representation": "NAMES",
+          "reason": "UNLISTED_OR_INVALID_REPRESENTATION"
+        },
+        {
+          "field": "employee",
+          "raw_value": "E2",
+          "representation": "NAMES",
+          "reason": "UNLISTED_OR_INVALID_REPRESENTATION"
+        }
+      ],
+      "outside_json_text": "```json\n\n```",
+      "language_status": "REQUIRES_FULL_RESPONSE_LANGUAGE_REVIEW",
+      "identity": "AI_SCORING_NOT_HUMAN_GOLD",
+      "full_response_read": true
+    },
+    "exact_role_reversal": false,
+    "roles_compatible_with_other_record_ids": [],
+    "full_compatible_with_other_record_ids": [],
+    "compatibility_not_internal_selection_proof": true
+  },
+  {
+    "call_id": "B12V2-LLAMA-F0064",
+    "model": "llama",
+    "source_form": "ZH_ACTIVE",
+    "condition": "FULL",
+    "source_text": "R4：森田雇用了青木担任临时助手。\nR3：青木雇用了森田担任临时助手。\nR2：上田雇用了小川担任临时助手。\nR1：小川雇用了上田担任临时助手。",
+    "raw_output": "{\"occurred\":\"YES\",\"employer\":\"青木\",\"employee\":\"森田\"}",
+    "reference": {
+      "call_id": "B12V2-LLAMA-F0064",
+      "source_id": "F0064",
+      "occurred": "YES",
+      "role_a": "森田",
+      "role_b": "青木",
+      "target_sentence": "R4：森田雇用了青木担任临时助手。",
+      "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+    },
+    "observation": {
+      "labels": {
+        "role_a": "W",
+        "role_b": "W",
+        "occurrence": "C",
+        "participant": "W",
+        "record": "W"
+      },
+      "occurred_asserted": "YES",
+      "decoded_names": {
+        "role_a": "青木",
+        "role_b": "森田"
+      },
+      "raw_fields": {
+        "occurred": "YES",
+        "employer": "青木",
+        "employee": "森田"
+      },
+      "field_identity_reasons": {
+        "occurred": "UNIQUE",
+        "employer": "UNIQUE",
+        "employee": "UNIQUE"
+      },
+      "occurrence_reason": "CORRECT",
+      "entity_reasons": {
+        "role_a": "OTHER_LISTED_PERSON",
+        "role_b": "OTHER_LISTED_PERSON"
+      },
+      "unsupported_assertion": false,
+      "explicit_occurrence_contradiction": false,
+      "format_compliance": "PASS",
+      "unique_readable_object": true,
+      "object_or_array_count": 1,
+      "raw_object_pairs": [
+        [
+          "occurred",
+          "YES"
+        ],
+        [
+          "employer",
+          "青木"
+        ],
+        [
+          "employee",
+          "森田"
+        ]
+      ],
+      "duplicate_keys": [],
+      "extra_keys": [],
+      "noncanonical_entities": [],
+      "outside_json_text": "",
+      "language_status": "CANONICAL_SCHEMA_VALUES",
+      "identity": "AI_SCORING_NOT_HUMAN_GOLD",
+      "full_response_read": true
+    },
+    "exact_role_reversal": true,
+    "roles_compatible_with_other_record_ids": [
+      "R3"
+    ],
+    "full_compatible_with_other_record_ids": [
+      "R3"
+    ],
+    "compatibility_not_internal_selection_proof": true
+  },
+  {
+    "call_id": "B12V2-LLAMA-F0065",
+    "model": "llama",
+    "source_form": "ZH_ACTIVE",
+    "condition": "FULL",
+    "source_text": "R1：青木雇用了森田担任临时助手。\nR2：青木没有雇用森田担任临时助手。\nR3：小川雇用了上田担任临时助手。\nR4：小川没有雇用上田担任临时助手。",
+    "raw_output": "```json\n{\n  \"occurred\": \"YES\",\n  \"employer\": \"E1\",\n  \"employee\": \"E2\"\n}\n```",
+    "reference": {
+      "call_id": "B12V2-LLAMA-F0065",
+      "source_id": "F0065",
+      "occurred": "YES",
+      "role_a": "青木",
+      "role_b": "森田",
+      "target_sentence": "R1：青木雇用了森田担任临时助手。",
+      "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+    },
+    "observation": {
+      "labels": {
+        "role_a": "U",
+        "role_b": "U",
+        "occurrence": "C",
+        "participant": "U",
+        "record": "U"
+      },
+      "occurred_asserted": "YES",
+      "decoded_names": {
+        "role_a": null,
+        "role_b": null
+      },
+      "raw_fields": {
+        "occurred": "YES",
+        "employer": "E1",
+        "employee": "E2"
+      },
+      "field_identity_reasons": {
+        "occurred": "UNIQUE",
+        "employer": "UNIQUE",
+        "employee": "UNIQUE"
+      },
+      "occurrence_reason": "CORRECT",
+      "entity_reasons": {
+        "role_a": "UNLISTED_OR_INVALID_REPRESENTATION",
+        "role_b": "UNLISTED_OR_INVALID_REPRESENTATION"
+      },
+      "unsupported_assertion": false,
+      "explicit_occurrence_contradiction": false,
+      "format_compliance": "FAIL",
+      "unique_readable_object": true,
+      "object_or_array_count": 1,
+      "raw_object_pairs": [
+        [
+          "occurred",
+          "YES"
+        ],
+        [
+          "employer",
+          "E1"
+        ],
+        [
+          "employee",
+          "E2"
+        ]
+      ],
+      "duplicate_keys": [],
+      "extra_keys": [],
+      "noncanonical_entities": [
+        {
+          "field": "employer",
+          "raw_value": "E1",
+          "representation": "NAMES",
+          "reason": "UNLISTED_OR_INVALID_REPRESENTATION"
+        },
+        {
+          "field": "employee",
+          "raw_value": "E2",
+          "representation": "NAMES",
+          "reason": "UNLISTED_OR_INVALID_REPRESENTATION"
+        }
+      ],
+      "outside_json_text": "```json\n\n```",
+      "language_status": "REQUIRES_FULL_RESPONSE_LANGUAGE_REVIEW",
+      "identity": "AI_SCORING_NOT_HUMAN_GOLD",
+      "full_response_read": true
+    },
+    "exact_role_reversal": false,
+    "roles_compatible_with_other_record_ids": [],
+    "full_compatible_with_other_record_ids": [],
+    "compatibility_not_internal_selection_proof": true
+  },
+  {
+    "call_id": "B12V2-LLAMA-F0067",
+    "model": "llama",
+    "source_form": "ZH_ACTIVE",
+    "condition": "FULL",
+    "source_text": "R4：青木没有雇用森田担任临时助手。\nR3：青木雇用了森田担任临时助手。\nR2：小川没有雇用上田担任临时助手。\nR1：小川雇用了上田担任临时助手。",
+    "raw_output": "```json\n{\n  \"occurred\": \"YES\",\n  \"employer\": \"青木\",\n  \"employee\": \"森田\"\n}\n```",
+    "reference": {
+      "call_id": "B12V2-LLAMA-F0067",
+      "source_id": "F0067",
+      "occurred": "YES",
+      "role_a": "青木",
+      "role_b": "森田",
+      "target_sentence": "R3：青木雇用了森田担任临时助手。",
+      "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+    },
+    "observation": {
+      "labels": {
+        "role_a": "C",
+        "role_b": "C",
+        "occurrence": "C",
+        "participant": "C",
+        "record": "C"
+      },
+      "occurred_asserted": "YES",
+      "decoded_names": {
+        "role_a": "青木",
+        "role_b": "森田"
+      },
+      "raw_fields": {
+        "occurred": "YES",
+        "employer": "青木",
+        "employee": "森田"
+      },
+      "field_identity_reasons": {
+        "occurred": "UNIQUE",
+        "employer": "UNIQUE",
+        "employee": "UNIQUE"
+      },
+      "occurrence_reason": "CORRECT",
+      "entity_reasons": {
+        "role_a": "CORRECT",
+        "role_b": "CORRECT"
+      },
+      "unsupported_assertion": false,
+      "explicit_occurrence_contradiction": false,
+      "format_compliance": "FAIL",
+      "unique_readable_object": true,
+      "object_or_array_count": 1,
+      "raw_object_pairs": [
+        [
+          "occurred",
+          "YES"
+        ],
+        [
+          "employer",
+          "青木"
+        ],
+        [
+          "employee",
+          "森田"
+        ]
+      ],
+      "duplicate_keys": [],
+      "extra_keys": [],
+      "noncanonical_entities": [],
+      "outside_json_text": "```json\n\n```",
+      "language_status": "REQUIRES_FULL_RESPONSE_LANGUAGE_REVIEW",
+      "identity": "AI_SCORING_NOT_HUMAN_GOLD",
+      "full_response_read": true
+    },
+    "exact_role_reversal": false,
+    "roles_compatible_with_other_record_ids": [
+      "R4"
+    ],
+    "full_compatible_with_other_record_ids": [],
+    "compatibility_not_internal_selection_proof": true
+  },
+  {
+    "call_id": "B12V2-LLAMA-F0072",
+    "model": "llama",
+    "source_form": "ZH_ACTIVE",
+    "condition": "FULL",
+    "source_text": "R4：小川没有雇用上田担任临时助手。\nR3：青木没有雇用森田担任临时助手。\nR2：小川雇用了上田担任临时助手。\nR1：青木雇用了森田担任临时助手。",
+    "raw_output": "{\"occurred\":\"NO\",\"employer\":\"青木\",\"employee\":\"森田\"}",
+    "reference": {
+      "call_id": "B12V2-LLAMA-F0072",
+      "source_id": "F0072",
+      "occurred": "NO",
+      "role_a": "小川",
+      "role_b": "上田",
+      "target_sentence": "R4：小川没有雇用上田担任临时助手。",
+      "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+    },
+    "observation": {
+      "labels": {
+        "role_a": "W",
+        "role_b": "W",
+        "occurrence": "C",
+        "participant": "W",
+        "record": "W"
+      },
+      "occurred_asserted": "NO",
+      "decoded_names": {
+        "role_a": "青木",
+        "role_b": "森田"
+      },
+      "raw_fields": {
+        "occurred": "NO",
+        "employer": "青木",
+        "employee": "森田"
+      },
+      "field_identity_reasons": {
+        "occurred": "UNIQUE",
+        "employer": "UNIQUE",
+        "employee": "UNIQUE"
+      },
+      "occurrence_reason": "CORRECT",
+      "entity_reasons": {
+        "role_a": "OTHER_LISTED_PERSON",
+        "role_b": "OTHER_LISTED_PERSON"
+      },
+      "unsupported_assertion": false,
+      "explicit_occurrence_contradiction": false,
+      "format_compliance": "PASS",
+      "unique_readable_object": true,
+      "object_or_array_count": 1,
+      "raw_object_pairs": [
+        [
+          "occurred",
+          "NO"
+        ],
+        [
+          "employer",
+          "青木"
+        ],
+        [
+          "employee",
+          "森田"
+        ]
+      ],
+      "duplicate_keys": [],
+      "extra_keys": [],
+      "noncanonical_entities": [],
+      "outside_json_text": "",
+      "language_status": "CANONICAL_SCHEMA_VALUES",
+      "identity": "AI_SCORING_NOT_HUMAN_GOLD",
+      "full_response_read": true
+    },
+    "exact_role_reversal": false,
+    "roles_compatible_with_other_record_ids": [
+      "R3",
+      "R1"
+    ],
+    "full_compatible_with_other_record_ids": [
+      "R3"
+    ],
+    "compatibility_not_internal_selection_proof": true
+  },
+  {
+    "call_id": "B12V2-LLAMA-F0079",
+    "model": "llama",
+    "source_form": "JA_ACTIVE",
+    "condition": "FULL",
+    "source_text": "R4：青木は上田に本を貸し出しました。\nR3：青木は森田に本を貸し出しました。\nR2：小川は上田に本を貸し出しました。\nR1：小川は森田に本を貸し出しました。",
+    "raw_output": "{\"occurred\":\"YES\",\"lender\":\"森田\",\"borrower\":\"青木\"}",
+    "reference": {
+      "call_id": "B12V2-LLAMA-F0079",
+      "source_id": "F0079",
+      "occurred": "YES",
+      "role_a": "青木",
+      "role_b": "森田",
+      "target_sentence": "R3：青木は森田に本を貸し出しました。",
+      "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+    },
+    "observation": {
+      "labels": {
+        "role_a": "W",
+        "role_b": "W",
+        "occurrence": "C",
+        "participant": "W",
+        "record": "W"
+      },
+      "occurred_asserted": "YES",
+      "decoded_names": {
+        "role_a": "森田",
+        "role_b": "青木"
+      },
+      "raw_fields": {
+        "occurred": "YES",
+        "lender": "森田",
+        "borrower": "青木"
+      },
+      "field_identity_reasons": {
+        "occurred": "UNIQUE",
+        "lender": "UNIQUE",
+        "borrower": "UNIQUE"
+      },
+      "occurrence_reason": "CORRECT",
+      "entity_reasons": {
+        "role_a": "OTHER_LISTED_PERSON",
+        "role_b": "OTHER_LISTED_PERSON"
+      },
+      "unsupported_assertion": false,
+      "explicit_occurrence_contradiction": false,
+      "format_compliance": "PASS",
+      "unique_readable_object": true,
+      "object_or_array_count": 1,
+      "raw_object_pairs": [
+        [
+          "occurred",
+          "YES"
+        ],
+        [
+          "lender",
+          "森田"
+        ],
+        [
+          "borrower",
+          "青木"
+        ]
+      ],
+      "duplicate_keys": [],
+      "extra_keys": [],
+      "noncanonical_entities": [],
+      "outside_json_text": "",
+      "language_status": "CANONICAL_SCHEMA_VALUES",
+      "identity": "AI_SCORING_NOT_HUMAN_GOLD",
+      "full_response_read": true
+    },
+    "exact_role_reversal": true,
+    "roles_compatible_with_other_record_ids": [],
+    "full_compatible_with_other_record_ids": [],
+    "compatibility_not_internal_selection_proof": true
+  },
+  {
+    "call_id": "B12V2-LLAMA-F0084",
+    "model": "llama",
+    "source_form": "JA_ACTIVE",
+    "condition": "FULL",
+    "source_text": "R4：小川は森田に本を貸し出しました。\nR3：青木は森田に本を貸し出しました。\nR2：小川は上田に本を貸し出しました。\nR1：青木は上田に本を貸し出しました。",
+    "raw_output": "{\"occurred\":\"YES\",\"lender\":\"森田\",\"borrower\":\"小川\"}",
+    "reference": {
+      "call_id": "B12V2-LLAMA-F0084",
+      "source_id": "F0084",
+      "occurred": "YES",
+      "role_a": "小川",
+      "role_b": "森田",
+      "target_sentence": "R4：小川は森田に本を貸し出しました。",
+      "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+    },
+    "observation": {
+      "labels": {
+        "role_a": "W",
+        "role_b": "W",
+        "occurrence": "C",
+        "participant": "W",
+        "record": "W"
+      },
+      "occurred_asserted": "YES",
+      "decoded_names": {
+        "role_a": "森田",
+        "role_b": "小川"
+      },
+      "raw_fields": {
+        "occurred": "YES",
+        "lender": "森田",
+        "borrower": "小川"
+      },
+      "field_identity_reasons": {
+        "occurred": "UNIQUE",
+        "lender": "UNIQUE",
+        "borrower": "UNIQUE"
+      },
+      "occurrence_reason": "CORRECT",
+      "entity_reasons": {
+        "role_a": "OTHER_LISTED_PERSON",
+        "role_b": "OTHER_LISTED_PERSON"
+      },
+      "unsupported_assertion": false,
+      "explicit_occurrence_contradiction": false,
+      "format_compliance": "PASS",
+      "unique_readable_object": true,
+      "object_or_array_count": 1,
+      "raw_object_pairs": [
+        [
+          "occurred",
+          "YES"
+        ],
+        [
+          "lender",
+          "森田"
+        ],
+        [
+          "borrower",
+          "小川"
+        ]
+      ],
+      "duplicate_keys": [],
+      "extra_keys": [],
+      "noncanonical_entities": [],
+      "outside_json_text": "",
+      "language_status": "CANONICAL_SCHEMA_VALUES",
+      "identity": "AI_SCORING_NOT_HUMAN_GOLD",
+      "full_response_read": true
+    },
+    "exact_role_reversal": true,
+    "roles_compatible_with_other_record_ids": [],
+    "full_compatible_with_other_record_ids": [],
+    "compatibility_not_internal_selection_proof": true
+  },
+  {
+    "call_id": "B12V2-LLAMA-F0101",
+    "model": "llama",
+    "source_form": "JA_PASSIVE",
+    "condition": "FULL",
+    "source_text": "R1：本は青木から森田に貸し出されました。\nR2：本は青木から上田に貸し出されました。\nR3：本は小川から森田に貸し出されました。\nR4：本は小川から上田に貸し出されました。",
+    "raw_output": "```json\n{\n  \"occurred\": \"YES\",\n  \"lender\": \"青木\",\n  \"borrower\": \"森田\"\n}\n```",
+    "reference": {
+      "call_id": "B12V2-LLAMA-F0101",
+      "source_id": "F0101",
+      "occurred": "YES",
+      "role_a": "青木",
+      "role_b": "森田",
+      "target_sentence": "R1：本は青木から森田に貸し出されました。",
+      "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+    },
+    "observation": {
+      "labels": {
+        "role_a": "C",
+        "role_b": "C",
+        "occurrence": "C",
+        "participant": "C",
+        "record": "C"
+      },
+      "occurred_asserted": "YES",
+      "decoded_names": {
+        "role_a": "青木",
+        "role_b": "森田"
+      },
+      "raw_fields": {
+        "occurred": "YES",
+        "lender": "青木",
+        "borrower": "森田"
+      },
+      "field_identity_reasons": {
+        "occurred": "UNIQUE",
+        "lender": "UNIQUE",
+        "borrower": "UNIQUE"
+      },
+      "occurrence_reason": "CORRECT",
+      "entity_reasons": {
+        "role_a": "CORRECT",
+        "role_b": "CORRECT"
+      },
+      "unsupported_assertion": false,
+      "explicit_occurrence_contradiction": false,
+      "format_compliance": "FAIL",
+      "unique_readable_object": true,
+      "object_or_array_count": 1,
+      "raw_object_pairs": [
+        [
+          "occurred",
+          "YES"
+        ],
+        [
+          "lender",
+          "青木"
+        ],
+        [
+          "borrower",
+          "森田"
+        ]
+      ],
+      "duplicate_keys": [],
+      "extra_keys": [],
+      "noncanonical_entities": [],
+      "outside_json_text": "```json\n\n```",
+      "language_status": "REQUIRES_FULL_RESPONSE_LANGUAGE_REVIEW",
+      "identity": "AI_SCORING_NOT_HUMAN_GOLD",
+      "full_response_read": true
+    },
+    "exact_role_reversal": false,
+    "roles_compatible_with_other_record_ids": [],
+    "full_compatible_with_other_record_ids": [],
+    "compatibility_not_internal_selection_proof": true
+  },
+  {
+    "call_id": "B12V2-LLAMA-F0102",
+    "model": "llama",
+    "source_form": "JA_PASSIVE",
+    "condition": "FULL",
+    "source_text": "R1：本は青木から森田に貸し出されました。\nR2：本は青木から上田に貸し出されました。\nR3：本は小川から森田に貸し出されました。\nR4：本は小川から上田に貸し出されました。",
+    "raw_output": "{\"occurred\":\"YES\",\"lender\":\"上田\",\"borrower\":null}",
+    "reference": {
+      "call_id": "B12V2-LLAMA-F0102",
+      "source_id": "F0102",
+      "occurred": "YES",
+      "role_a": "青木",
+      "role_b": "上田",
+      "target_sentence": "R2：本は青木から上田に貸し出されました。",
+      "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+    },
+    "observation": {
+      "labels": {
+        "role_a": "W",
+        "role_b": "U",
+        "occurrence": "C",
+        "participant": "W",
+        "record": "W"
+      },
+      "occurred_asserted": "YES",
+      "decoded_names": {
+        "role_a": "上田",
+        "role_b": null
+      },
+      "raw_fields": {
+        "occurred": "YES",
+        "lender": "上田",
+        "borrower": null
+      },
+      "field_identity_reasons": {
+        "occurred": "UNIQUE",
+        "lender": "UNIQUE",
+        "borrower": "UNIQUE"
+      },
+      "occurrence_reason": "CORRECT",
+      "entity_reasons": {
+        "role_a": "OTHER_LISTED_PERSON",
+        "role_b": "NULL_OMISSION"
+      },
+      "unsupported_assertion": false,
+      "explicit_occurrence_contradiction": false,
+      "format_compliance": "PASS",
+      "unique_readable_object": true,
+      "object_or_array_count": 1,
+      "raw_object_pairs": [
+        [
+          "occurred",
+          "YES"
+        ],
+        [
+          "lender",
+          "上田"
+        ],
+        [
+          "borrower",
+          null
+        ]
+      ],
+      "duplicate_keys": [],
+      "extra_keys": [],
+      "noncanonical_entities": [],
+      "outside_json_text": "",
+      "language_status": "CANONICAL_SCHEMA_VALUES",
+      "identity": "AI_SCORING_NOT_HUMAN_GOLD",
+      "full_response_read": true
+    },
+    "exact_role_reversal": false,
+    "roles_compatible_with_other_record_ids": [],
+    "full_compatible_with_other_record_ids": [],
+    "compatibility_not_internal_selection_proof": true
+  },
+  {
+    "call_id": "B12V2-LLAMA-F0103",
+    "model": "llama",
+    "source_form": "JA_PASSIVE",
+    "condition": "FULL",
+    "source_text": "R4：本は青木から上田に貸し出されました。\nR3：本は青木から森田に貸し出されました。\nR2：本は小川から上田に貸し出されました。\nR1：本は小川から森田に貸し出されました。",
+    "raw_output": "{\"occurred\":\"YES\",\"lender\":\"森田\",\"borrower\":\"青木\"}",
+    "reference": {
+      "call_id": "B12V2-LLAMA-F0103",
+      "source_id": "F0103",
+      "occurred": "YES",
+      "role_a": "青木",
+      "role_b": "森田",
+      "target_sentence": "R3：本は青木から森田に貸し出されました。",
+      "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+    },
+    "observation": {
+      "labels": {
+        "role_a": "W",
+        "role_b": "W",
+        "occurrence": "C",
+        "participant": "W",
+        "record": "W"
+      },
+      "occurred_asserted": "YES",
+      "decoded_names": {
+        "role_a": "森田",
+        "role_b": "青木"
+      },
+      "raw_fields": {
+        "occurred": "YES",
+        "lender": "森田",
+        "borrower": "青木"
+      },
+      "field_identity_reasons": {
+        "occurred": "UNIQUE",
+        "lender": "UNIQUE",
+        "borrower": "UNIQUE"
+      },
+      "occurrence_reason": "CORRECT",
+      "entity_reasons": {
+        "role_a": "OTHER_LISTED_PERSON",
+        "role_b": "OTHER_LISTED_PERSON"
+      },
+      "unsupported_assertion": false,
+      "explicit_occurrence_contradiction": false,
+      "format_compliance": "PASS",
+      "unique_readable_object": true,
+      "object_or_array_count": 1,
+      "raw_object_pairs": [
+        [
+          "occurred",
+          "YES"
+        ],
+        [
+          "lender",
+          "森田"
+        ],
+        [
+          "borrower",
+          "青木"
+        ]
+      ],
+      "duplicate_keys": [],
+      "extra_keys": [],
+      "noncanonical_entities": [],
+      "outside_json_text": "",
+      "language_status": "CANONICAL_SCHEMA_VALUES",
+      "identity": "AI_SCORING_NOT_HUMAN_GOLD",
+      "full_response_read": true
+    },
+    "exact_role_reversal": true,
+    "roles_compatible_with_other_record_ids": [],
+    "full_compatible_with_other_record_ids": [],
+    "compatibility_not_internal_selection_proof": true
+  },
+  {
+    "call_id": "B12V2-LLAMA-F0108",
+    "model": "llama",
+    "source_form": "JA_PASSIVE",
+    "condition": "FULL",
+    "source_text": "R4：本は小川から森田に貸し出されました。\nR3：本は青木から森田に貸し出されました。\nR2：本は小川から上田に貸し出されました。\nR1：本は青木から上田に貸し出されました。",
+    "raw_output": "{\"occurred\":\"YES\",\"lender\":\"森田\",\"borrower\":null}",
+    "reference": {
+      "call_id": "B12V2-LLAMA-F0108",
+      "source_id": "F0108",
+      "occurred": "YES",
+      "role_a": "小川",
+      "role_b": "森田",
+      "target_sentence": "R4：本は小川から森田に貸し出されました。",
+      "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+    },
+    "observation": {
+      "labels": {
+        "role_a": "W",
+        "role_b": "U",
+        "occurrence": "C",
+        "participant": "W",
+        "record": "W"
+      },
+      "occurred_asserted": "YES",
+      "decoded_names": {
+        "role_a": "森田",
+        "role_b": null
+      },
+      "raw_fields": {
+        "occurred": "YES",
+        "lender": "森田",
+        "borrower": null
+      },
+      "field_identity_reasons": {
+        "occurred": "UNIQUE",
+        "lender": "UNIQUE",
+        "borrower": "UNIQUE"
+      },
+      "occurrence_reason": "CORRECT",
+      "entity_reasons": {
+        "role_a": "OTHER_LISTED_PERSON",
+        "role_b": "NULL_OMISSION"
+      },
+      "unsupported_assertion": false,
+      "explicit_occurrence_contradiction": false,
+      "format_compliance": "PASS",
+      "unique_readable_object": true,
+      "object_or_array_count": 1,
+      "raw_object_pairs": [
+        [
+          "occurred",
+          "YES"
+        ],
+        [
+          "lender",
+          "森田"
+        ],
+        [
+          "borrower",
+          null
+        ]
+      ],
+      "duplicate_keys": [],
+      "extra_keys": [],
+      "noncanonical_entities": [],
+      "outside_json_text": "",
+      "language_status": "CANONICAL_SCHEMA_VALUES",
+      "identity": "AI_SCORING_NOT_HUMAN_GOLD",
+      "full_response_read": true
+    },
+    "exact_role_reversal": false,
+    "roles_compatible_with_other_record_ids": [],
+    "full_compatible_with_other_record_ids": [],
+    "compatibility_not_internal_selection_proof": true
+  },
+  {
+    "call_id": "B12V2-LLAMA-F0109",
+    "model": "llama",
+    "source_form": "JA_PASSIVE",
+    "condition": "FULL",
+    "source_text": "R1：本は青木から森田に貸し出されました。\nR2：本は森田から青木に貸し出されました。\nR3：本は小川から上田に貸し出されました。\nR4：本は上田から小川に貸し出されました。",
+    "raw_output": "```json\n{\n  \"occurred\": \"YES\",\n  \"lender\": \"青木\",\n  \"borrower\": \"森田\"\n}\n```",
+    "reference": {
+      "call_id": "B12V2-LLAMA-F0109",
+      "source_id": "F0109",
+      "occurred": "YES",
+      "role_a": "青木",
+      "role_b": "森田",
+      "target_sentence": "R1：本は青木から森田に貸し出されました。",
+      "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+    },
+    "observation": {
+      "labels": {
+        "role_a": "C",
+        "role_b": "C",
+        "occurrence": "C",
+        "participant": "C",
+        "record": "C"
+      },
+      "occurred_asserted": "YES",
+      "decoded_names": {
+        "role_a": "青木",
+        "role_b": "森田"
+      },
+      "raw_fields": {
+        "occurred": "YES",
+        "lender": "青木",
+        "borrower": "森田"
+      },
+      "field_identity_reasons": {
+        "occurred": "UNIQUE",
+        "lender": "UNIQUE",
+        "borrower": "UNIQUE"
+      },
+      "occurrence_reason": "CORRECT",
+      "entity_reasons": {
+        "role_a": "CORRECT",
+        "role_b": "CORRECT"
+      },
+      "unsupported_assertion": false,
+      "explicit_occurrence_contradiction": false,
+      "format_compliance": "FAIL",
+      "unique_readable_object": true,
+      "object_or_array_count": 1,
+      "raw_object_pairs": [
+        [
+          "occurred",
+          "YES"
+        ],
+        [
+          "lender",
+          "青木"
+        ],
+        [
+          "borrower",
+          "森田"
+        ]
+      ],
+      "duplicate_keys": [],
+      "extra_keys": [],
+      "noncanonical_entities": [],
+      "outside_json_text": "```json\n\n```",
+      "language_status": "REQUIRES_FULL_RESPONSE_LANGUAGE_REVIEW",
+      "identity": "AI_SCORING_NOT_HUMAN_GOLD",
+      "full_response_read": true
+    },
+    "exact_role_reversal": false,
+    "roles_compatible_with_other_record_ids": [],
+    "full_compatible_with_other_record_ids": [],
+    "compatibility_not_internal_selection_proof": true
+  },
+  {
+    "call_id": "B12V2-LLAMA-F0111",
+    "model": "llama",
+    "source_form": "JA_PASSIVE",
+    "condition": "FULL",
+    "source_text": "R4：本は森田から青木に貸し出されました。\nR3：本は青木から森田に貸し出されました。\nR2：本は上田から小川に貸し出されました。\nR1：本は小川から上田に貸し出されました。",
+    "raw_output": "{\"occurred\":\"YES\",\"lender\":\"森田\",\"borrower\":\"青木\"}",
+    "reference": {
+      "call_id": "B12V2-LLAMA-F0111",
+      "source_id": "F0111",
+      "occurred": "YES",
+      "role_a": "青木",
+      "role_b": "森田",
+      "target_sentence": "R3：本は青木から森田に貸し出されました。",
+      "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+    },
+    "observation": {
+      "labels": {
+        "role_a": "W",
+        "role_b": "W",
+        "occurrence": "C",
+        "participant": "W",
+        "record": "W"
+      },
+      "occurred_asserted": "YES",
+      "decoded_names": {
+        "role_a": "森田",
+        "role_b": "青木"
+      },
+      "raw_fields": {
+        "occurred": "YES",
+        "lender": "森田",
+        "borrower": "青木"
+      },
+      "field_identity_reasons": {
+        "occurred": "UNIQUE",
+        "lender": "UNIQUE",
+        "borrower": "UNIQUE"
+      },
+      "occurrence_reason": "CORRECT",
+      "entity_reasons": {
+        "role_a": "OTHER_LISTED_PERSON",
+        "role_b": "OTHER_LISTED_PERSON"
+      },
+      "unsupported_assertion": false,
+      "explicit_occurrence_contradiction": false,
+      "format_compliance": "PASS",
+      "unique_readable_object": true,
+      "object_or_array_count": 1,
+      "raw_object_pairs": [
+        [
+          "occurred",
+          "YES"
+        ],
+        [
+          "lender",
+          "森田"
+        ],
+        [
+          "borrower",
+          "青木"
+        ]
+      ],
+      "duplicate_keys": [],
+      "extra_keys": [],
+      "noncanonical_entities": [],
+      "outside_json_text": "",
+      "language_status": "CANONICAL_SCHEMA_VALUES",
+      "identity": "AI_SCORING_NOT_HUMAN_GOLD",
+      "full_response_read": true
+    },
+    "exact_role_reversal": true,
+    "roles_compatible_with_other_record_ids": [
+      "R4"
+    ],
+    "full_compatible_with_other_record_ids": [
+      "R4"
+    ],
+    "compatibility_not_internal_selection_proof": true
+  },
+  {
+    "call_id": "B12V2-LLAMA-F0113",
+    "model": "llama",
+    "source_form": "JA_PASSIVE",
+    "condition": "FULL",
+    "source_text": "R1：本は青木から森田に貸し出されました。\nR2：本は青木から森田に貸し出されませんでした。\nR3：本は小川から上田に貸し出されました。\nR4：本は小川から上田に貸し出されませんでした。",
+    "raw_output": "```json\n{\n  \"occurred\": \"YES\",\n  \"lender\": \"青木\",\n  \"borrower\": \"森田\"\n}\n```",
+    "reference": {
+      "call_id": "B12V2-LLAMA-F0113",
+      "source_id": "F0113",
+      "occurred": "YES",
+      "role_a": "青木",
+      "role_b": "森田",
+      "target_sentence": "R1：本は青木から森田に貸し出されました。",
+      "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+    },
+    "observation": {
+      "labels": {
+        "role_a": "C",
+        "role_b": "C",
+        "occurrence": "C",
+        "participant": "C",
+        "record": "C"
+      },
+      "occurred_asserted": "YES",
+      "decoded_names": {
+        "role_a": "青木",
+        "role_b": "森田"
+      },
+      "raw_fields": {
+        "occurred": "YES",
+        "lender": "青木",
+        "borrower": "森田"
+      },
+      "field_identity_reasons": {
+        "occurred": "UNIQUE",
+        "lender": "UNIQUE",
+        "borrower": "UNIQUE"
+      },
+      "occurrence_reason": "CORRECT",
+      "entity_reasons": {
+        "role_a": "CORRECT",
+        "role_b": "CORRECT"
+      },
+      "unsupported_assertion": false,
+      "explicit_occurrence_contradiction": false,
+      "format_compliance": "FAIL",
+      "unique_readable_object": true,
+      "object_or_array_count": 1,
+      "raw_object_pairs": [
+        [
+          "occurred",
+          "YES"
+        ],
+        [
+          "lender",
+          "青木"
+        ],
+        [
+          "borrower",
+          "森田"
+        ]
+      ],
+      "duplicate_keys": [],
+      "extra_keys": [],
+      "noncanonical_entities": [],
+      "outside_json_text": "```json\n\n```",
+      "language_status": "REQUIRES_FULL_RESPONSE_LANGUAGE_REVIEW",
+      "identity": "AI_SCORING_NOT_HUMAN_GOLD",
+      "full_response_read": true
+    },
+    "exact_role_reversal": false,
+    "roles_compatible_with_other_record_ids": [
+      "R2"
+    ],
+    "full_compatible_with_other_record_ids": [],
+    "compatibility_not_internal_selection_proof": true
+  },
+  {
+    "call_id": "B12V2-LLAMA-F0120",
+    "model": "llama",
+    "source_form": "JA_PASSIVE",
+    "condition": "FULL",
+    "source_text": "R4：本は小川から上田に貸し出されませんでした。\nR3：本は青木から森田に貸し出されませんでした。\nR2：本は小川から上田に貸し出されました。\nR1：本は青木から森田に貸し出されました。",
+    "raw_output": "{\"occurred\":\"NO\",\"lender\":\"青木\",\"borrower\":\"上田\"}",
+    "reference": {
+      "call_id": "B12V2-LLAMA-F0120",
+      "source_id": "F0120",
+      "occurred": "NO",
+      "role_a": "小川",
+      "role_b": "上田",
+      "target_sentence": "R4：本は小川から上田に貸し出されませんでした。",
+      "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+    },
+    "observation": {
+      "labels": {
+        "role_a": "W",
+        "role_b": "C",
+        "occurrence": "C",
+        "participant": "W",
+        "record": "W"
+      },
+      "occurred_asserted": "NO",
+      "decoded_names": {
+        "role_a": "青木",
+        "role_b": "上田"
+      },
+      "raw_fields": {
+        "occurred": "NO",
+        "lender": "青木",
+        "borrower": "上田"
+      },
+      "field_identity_reasons": {
+        "occurred": "UNIQUE",
+        "lender": "UNIQUE",
+        "borrower": "UNIQUE"
+      },
+      "occurrence_reason": "CORRECT",
+      "entity_reasons": {
+        "role_a": "OTHER_LISTED_PERSON",
+        "role_b": "CORRECT"
+      },
+      "unsupported_assertion": false,
+      "explicit_occurrence_contradiction": false,
+      "format_compliance": "PASS",
+      "unique_readable_object": true,
+      "object_or_array_count": 1,
+      "raw_object_pairs": [
+        [
+          "occurred",
+          "NO"
+        ],
+        [
+          "lender",
+          "青木"
+        ],
+        [
+          "borrower",
+          "上田"
+        ]
+      ],
+      "duplicate_keys": [],
+      "extra_keys": [],
+      "noncanonical_entities": [],
+      "outside_json_text": "",
+      "language_status": "CANONICAL_SCHEMA_VALUES",
+      "identity": "AI_SCORING_NOT_HUMAN_GOLD",
+      "full_response_read": true
+    },
+    "exact_role_reversal": false,
+    "roles_compatible_with_other_record_ids": [],
+    "full_compatible_with_other_record_ids": [],
+    "compatibility_not_internal_selection_proof": true
+  },
+  {
+    "call_id": "B12V2-LLAMA-F0121",
+    "model": "llama",
+    "source_form": "ZH_ACTIVE",
+    "condition": "FULL",
+    "source_text": "R1：青木把一本书借给了森田。\nR2：青木把一本书借给了森田。\nR3：小川把一本书借给了上田。\nR4：小川把一本书借给了上田。",
+    "raw_output": "```json\n{\n  \"occurred\": \"YES\",\n  \"lender\": \"E1\",\n  \"borrower\": \"E2\"\n}\n```",
+    "reference": {
+      "call_id": "B12V2-LLAMA-F0121",
+      "source_id": "F0121",
+      "occurred": "YES",
+      "role_a": "青木",
+      "role_b": "森田",
+      "target_sentence": "R1：青木把一本书借给了森田。",
+      "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+    },
+    "observation": {
+      "labels": {
+        "role_a": "U",
+        "role_b": "U",
+        "occurrence": "C",
+        "participant": "U",
+        "record": "U"
+      },
+      "occurred_asserted": "YES",
+      "decoded_names": {
+        "role_a": null,
+        "role_b": null
+      },
+      "raw_fields": {
+        "occurred": "YES",
+        "lender": "E1",
+        "borrower": "E2"
+      },
+      "field_identity_reasons": {
+        "occurred": "UNIQUE",
+        "lender": "UNIQUE",
+        "borrower": "UNIQUE"
+      },
+      "occurrence_reason": "CORRECT",
+      "entity_reasons": {
+        "role_a": "UNLISTED_OR_INVALID_REPRESENTATION",
+        "role_b": "UNLISTED_OR_INVALID_REPRESENTATION"
+      },
+      "unsupported_assertion": false,
+      "explicit_occurrence_contradiction": false,
+      "format_compliance": "FAIL",
+      "unique_readable_object": true,
+      "object_or_array_count": 1,
+      "raw_object_pairs": [
+        [
+          "occurred",
+          "YES"
+        ],
+        [
+          "lender",
+          "E1"
+        ],
+        [
+          "borrower",
+          "E2"
+        ]
+      ],
+      "duplicate_keys": [],
+      "extra_keys": [],
+      "noncanonical_entities": [
+        {
+          "field": "lender",
+          "raw_value": "E1",
+          "representation": "NAMES",
+          "reason": "UNLISTED_OR_INVALID_REPRESENTATION"
+        },
+        {
+          "field": "borrower",
+          "raw_value": "E2",
+          "representation": "NAMES",
+          "reason": "UNLISTED_OR_INVALID_REPRESENTATION"
+        }
+      ],
+      "outside_json_text": "```json\n\n```",
+      "language_status": "REQUIRES_FULL_RESPONSE_LANGUAGE_REVIEW",
+      "identity": "AI_SCORING_NOT_HUMAN_GOLD",
+      "full_response_read": true
+    },
+    "exact_role_reversal": false,
+    "roles_compatible_with_other_record_ids": [],
+    "full_compatible_with_other_record_ids": [],
+    "compatibility_not_internal_selection_proof": true
+  },
+  {
+    "call_id": "B12V2-LLAMA-F0122",
+    "model": "llama",
+    "source_form": "ZH_ACTIVE",
+    "condition": "FULL",
+    "source_text": "R1：青木把一本书借给了森田。\nR2：青木把一本书借给了森田。\nR3：小川把一本书借给了上田。\nR4：小川把一本书借给了上田。",
+    "raw_output": "```json\n{\n  \"occurred\": \"YES\",\n  \"lender\": \"青木\",\n  \"borrower\": \"森田\"\n}\n```",
+    "reference": {
+      "call_id": "B12V2-LLAMA-F0122",
+      "source_id": "F0122",
+      "occurred": "YES",
+      "role_a": "青木",
+      "role_b": "森田",
+      "target_sentence": "R2：青木把一本书借给了森田。",
+      "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+    },
+    "observation": {
+      "labels": {
+        "role_a": "C",
+        "role_b": "C",
+        "occurrence": "C",
+        "participant": "C",
+        "record": "C"
+      },
+      "occurred_asserted": "YES",
+      "decoded_names": {
+        "role_a": "青木",
+        "role_b": "森田"
+      },
+      "raw_fields": {
+        "occurred": "YES",
+        "lender": "青木",
+        "borrower": "森田"
+      },
+      "field_identity_reasons": {
+        "occurred": "UNIQUE",
+        "lender": "UNIQUE",
+        "borrower": "UNIQUE"
+      },
+      "occurrence_reason": "CORRECT",
+      "entity_reasons": {
+        "role_a": "CORRECT",
+        "role_b": "CORRECT"
+      },
+      "unsupported_assertion": false,
+      "explicit_occurrence_contradiction": false,
+      "format_compliance": "FAIL",
+      "unique_readable_object": true,
+      "object_or_array_count": 1,
+      "raw_object_pairs": [
+        [
+          "occurred",
+          "YES"
+        ],
+        [
+          "lender",
+          "青木"
+        ],
+        [
+          "borrower",
+          "森田"
+        ]
+      ],
+      "duplicate_keys": [],
+      "extra_keys": [],
+      "noncanonical_entities": [],
+      "outside_json_text": "```json\n\n```",
+      "language_status": "REQUIRES_FULL_RESPONSE_LANGUAGE_REVIEW",
+      "identity": "AI_SCORING_NOT_HUMAN_GOLD",
+      "full_response_read": true
+    },
+    "exact_role_reversal": false,
+    "roles_compatible_with_other_record_ids": [
+      "R1"
+    ],
+    "full_compatible_with_other_record_ids": [
+      "R1"
+    ],
+    "compatibility_not_internal_selection_proof": true
+  },
+  {
+    "call_id": "B12V2-LLAMA-F0123",
+    "model": "llama",
+    "source_form": "ZH_ACTIVE",
+    "condition": "FULL",
+    "source_text": "R4：青木把一本书借给了森田。\nR3：青木把一本书借给了森田。\nR2：小川把一本书借给了上田。\nR1：小川把一本书借给了上田。",
+    "raw_output": "```json\n{\n  \"occurred\": \"YES\",\n  \"lender\": \"青木\",\n  \"borrower\": \"森田\"\n}\n```",
+    "reference": {
+      "call_id": "B12V2-LLAMA-F0123",
+      "source_id": "F0123",
+      "occurred": "YES",
+      "role_a": "青木",
+      "role_b": "森田",
+      "target_sentence": "R3：青木把一本书借给了森田。",
+      "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+    },
+    "observation": {
+      "labels": {
+        "role_a": "C",
+        "role_b": "C",
+        "occurrence": "C",
+        "participant": "C",
+        "record": "C"
+      },
+      "occurred_asserted": "YES",
+      "decoded_names": {
+        "role_a": "青木",
+        "role_b": "森田"
+      },
+      "raw_fields": {
+        "occurred": "YES",
+        "lender": "青木",
+        "borrower": "森田"
+      },
+      "field_identity_reasons": {
+        "occurred": "UNIQUE",
+        "lender": "UNIQUE",
+        "borrower": "UNIQUE"
+      },
+      "occurrence_reason": "CORRECT",
+      "entity_reasons": {
+        "role_a": "CORRECT",
+        "role_b": "CORRECT"
+      },
+      "unsupported_assertion": false,
+      "explicit_occurrence_contradiction": false,
+      "format_compliance": "FAIL",
+      "unique_readable_object": true,
+      "object_or_array_count": 1,
+      "raw_object_pairs": [
+        [
+          "occurred",
+          "YES"
+        ],
+        [
+          "lender",
+          "青木"
+        ],
+        [
+          "borrower",
+          "森田"
+        ]
+      ],
+      "duplicate_keys": [],
+      "extra_keys": [],
+      "noncanonical_entities": [],
+      "outside_json_text": "```json\n\n```",
+      "language_status": "REQUIRES_FULL_RESPONSE_LANGUAGE_REVIEW",
+      "identity": "AI_SCORING_NOT_HUMAN_GOLD",
+      "full_response_read": true
+    },
+    "exact_role_reversal": false,
+    "roles_compatible_with_other_record_ids": [
+      "R4"
+    ],
+    "full_compatible_with_other_record_ids": [
+      "R4"
+    ],
+    "compatibility_not_internal_selection_proof": true
+  },
+  {
+    "call_id": "B12V2-LLAMA-F0124",
+    "model": "llama",
+    "source_form": "ZH_ACTIVE",
+    "condition": "FULL",
+    "source_text": "R4：青木把一本书借给了森田。\nR3：青木把一本书借给了森田。\nR2：小川把一本书借给了上田。\nR1：小川把一本书借给了上田。",
+    "raw_output": "```json\n{\n  \"occurred\": \"YES\",\n  \"lender\": \"E1\",\n  \"borrower\": \"E2\"\n}\n```",
+    "reference": {
+      "call_id": "B12V2-LLAMA-F0124",
+      "source_id": "F0124",
+      "occurred": "YES",
+      "role_a": "青木",
+      "role_b": "森田",
+      "target_sentence": "R4：青木把一本书借给了森田。",
+      "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+    },
+    "observation": {
+      "labels": {
+        "role_a": "U",
+        "role_b": "U",
+        "occurrence": "C",
+        "participant": "U",
+        "record": "U"
+      },
+      "occurred_asserted": "YES",
+      "decoded_names": {
+        "role_a": null,
+        "role_b": null
+      },
+      "raw_fields": {
+        "occurred": "YES",
+        "lender": "E1",
+        "borrower": "E2"
+      },
+      "field_identity_reasons": {
+        "occurred": "UNIQUE",
+        "lender": "UNIQUE",
+        "borrower": "UNIQUE"
+      },
+      "occurrence_reason": "CORRECT",
+      "entity_reasons": {
+        "role_a": "UNLISTED_OR_INVALID_REPRESENTATION",
+        "role_b": "UNLISTED_OR_INVALID_REPRESENTATION"
+      },
+      "unsupported_assertion": false,
+      "explicit_occurrence_contradiction": false,
+      "format_compliance": "FAIL",
+      "unique_readable_object": true,
+      "object_or_array_count": 1,
+      "raw_object_pairs": [
+        [
+          "occurred",
+          "YES"
+        ],
+        [
+          "lender",
+          "E1"
+        ],
+        [
+          "borrower",
+          "E2"
+        ]
+      ],
+      "duplicate_keys": [],
+      "extra_keys": [],
+      "noncanonical_entities": [
+        {
+          "field": "lender",
+          "raw_value": "E1",
+          "representation": "NAMES",
+          "reason": "UNLISTED_OR_INVALID_REPRESENTATION"
+        },
+        {
+          "field": "borrower",
+          "raw_value": "E2",
+          "representation": "NAMES",
+          "reason": "UNLISTED_OR_INVALID_REPRESENTATION"
+        }
+      ],
+      "outside_json_text": "```json\n\n```",
+      "language_status": "REQUIRES_FULL_RESPONSE_LANGUAGE_REVIEW",
+      "identity": "AI_SCORING_NOT_HUMAN_GOLD",
+      "full_response_read": true
+    },
+    "exact_role_reversal": false,
+    "roles_compatible_with_other_record_ids": [],
+    "full_compatible_with_other_record_ids": [],
+    "compatibility_not_internal_selection_proof": true
+  },
+  {
+    "call_id": "B12V2-LLAMA-F0125",
+    "model": "llama",
+    "source_form": "ZH_ACTIVE",
+    "condition": "FULL",
+    "source_text": "R1：青木把一本书借给了森田。\nR2：青木把一本书借给了上田。\nR3：小川把一本书借给了森田。\nR4：小川把一本书借给了上田。",
+    "raw_output": "```json\n{\n  \"occurred\": \"YES\",\n  \"lender\": \"青木\",\n  \"borrower\": \"森田\"\n}\n```",
+    "reference": {
+      "call_id": "B12V2-LLAMA-F0125",
+      "source_id": "F0125",
+      "occurred": "YES",
+      "role_a": "青木",
+      "role_b": "森田",
+      "target_sentence": "R1：青木把一本书借给了森田。",
+      "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+    },
+    "observation": {
+      "labels": {
+        "role_a": "C",
+        "role_b": "C",
+        "occurrence": "C",
+        "participant": "C",
+        "record": "C"
+      },
+      "occurred_asserted": "YES",
+      "decoded_names": {
+        "role_a": "青木",
+        "role_b": "森田"
+      },
+      "raw_fields": {
+        "occurred": "YES",
+        "lender": "青木",
+        "borrower": "森田"
+      },
+      "field_identity_reasons": {
+        "occurred": "UNIQUE",
+        "lender": "UNIQUE",
+        "borrower": "UNIQUE"
+      },
+      "occurrence_reason": "CORRECT",
+      "entity_reasons": {
+        "role_a": "CORRECT",
+        "role_b": "CORRECT"
+      },
+      "unsupported_assertion": false,
+      "explicit_occurrence_contradiction": false,
+      "format_compliance": "FAIL",
+      "unique_readable_object": true,
+      "object_or_array_count": 1,
+      "raw_object_pairs": [
+        [
+          "occurred",
+          "YES"
+        ],
+        [
+          "lender",
+          "青木"
+        ],
+        [
+          "borrower",
+          "森田"
+        ]
+      ],
+      "duplicate_keys": [],
+      "extra_keys": [],
+      "noncanonical_entities": [],
+      "outside_json_text": "```json\n\n```",
+      "language_status": "REQUIRES_FULL_RESPONSE_LANGUAGE_REVIEW",
+      "identity": "AI_SCORING_NOT_HUMAN_GOLD",
+      "full_response_read": true
+    },
+    "exact_role_reversal": false,
+    "roles_compatible_with_other_record_ids": [],
+    "full_compatible_with_other_record_ids": [],
+    "compatibility_not_internal_selection_proof": true
+  },
+  {
+    "call_id": "B12V2-LLAMA-F0128",
+    "model": "llama",
+    "source_form": "ZH_ACTIVE",
+    "condition": "FULL",
+    "source_text": "R4：青木把一本书借给了上田。\nR3：青木把一本书借给了森田。\nR2：小川把一本书借给了上田。\nR1：小川把一本书借给了森田。",
+    "raw_output": "```json\n{\n  \"occurred\": \"YES\",\n  \"lender\": \"E1\",\n  \"borrower\": \"E2\"\n}\n```",
+    "reference": {
+      "call_id": "B12V2-LLAMA-F0128",
+      "source_id": "F0128",
+      "occurred": "YES",
+      "role_a": "青木",
+      "role_b": "上田",
+      "target_sentence": "R4：青木把一本书借给了上田。",
+      "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+    },
+    "observation": {
+      "labels": {
+        "role_a": "U",
+        "role_b": "U",
+        "occurrence": "C",
+        "participant": "U",
+        "record": "U"
+      },
+      "occurred_asserted": "YES",
+      "decoded_names": {
+        "role_a": null,
+        "role_b": null
+      },
+      "raw_fields": {
+        "occurred": "YES",
+        "lender": "E1",
+        "borrower": "E2"
+      },
+      "field_identity_reasons": {
+        "occurred": "UNIQUE",
+        "lender": "UNIQUE",
+        "borrower": "UNIQUE"
+      },
+      "occurrence_reason": "CORRECT",
+      "entity_reasons": {
+        "role_a": "UNLISTED_OR_INVALID_REPRESENTATION",
+        "role_b": "UNLISTED_OR_INVALID_REPRESENTATION"
+      },
+      "unsupported_assertion": false,
+      "explicit_occurrence_contradiction": false,
+      "format_compliance": "FAIL",
+      "unique_readable_object": true,
+      "object_or_array_count": 1,
+      "raw_object_pairs": [
+        [
+          "occurred",
+          "YES"
+        ],
+        [
+          "lender",
+          "E1"
+        ],
+        [
+          "borrower",
+          "E2"
+        ]
+      ],
+      "duplicate_keys": [],
+      "extra_keys": [],
+      "noncanonical_entities": [
+        {
+          "field": "lender",
+          "raw_value": "E1",
+          "representation": "NAMES",
+          "reason": "UNLISTED_OR_INVALID_REPRESENTATION"
+        },
+        {
+          "field": "borrower",
+          "raw_value": "E2",
+          "representation": "NAMES",
+          "reason": "UNLISTED_OR_INVALID_REPRESENTATION"
+        }
+      ],
+      "outside_json_text": "```json\n\n```",
+      "language_status": "REQUIRES_FULL_RESPONSE_LANGUAGE_REVIEW",
+      "identity": "AI_SCORING_NOT_HUMAN_GOLD",
+      "full_response_read": true
+    },
+    "exact_role_reversal": false,
+    "roles_compatible_with_other_record_ids": [],
+    "full_compatible_with_other_record_ids": [],
+    "compatibility_not_internal_selection_proof": true
+  },
+  {
+    "call_id": "B12V2-LLAMA-F0129",
+    "model": "llama",
+    "source_form": "ZH_ACTIVE",
+    "condition": "FULL",
+    "source_text": "R1：青木把一本书借给了森田。\nR2：小川把一本书借给了森田。\nR3：青木把一本书借给了上田。\nR4：小川把一本书借给了上田。",
+    "raw_output": "```json\n{\n  \"occurred\": \"YES\",\n  \"lender\": \"E1\",\n  \"borrower\": \"E2\"\n}\n```",
+    "reference": {
+      "call_id": "B12V2-LLAMA-F0129",
+      "source_id": "F0129",
+      "occurred": "YES",
+      "role_a": "青木",
+      "role_b": "森田",
+      "target_sentence": "R1：青木把一本书借给了森田。",
+      "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+    },
+    "observation": {
+      "labels": {
+        "role_a": "U",
+        "role_b": "U",
+        "occurrence": "C",
+        "participant": "U",
+        "record": "U"
+      },
+      "occurred_asserted": "YES",
+      "decoded_names": {
+        "role_a": null,
+        "role_b": null
+      },
+      "raw_fields": {
+        "occurred": "YES",
+        "lender": "E1",
+        "borrower": "E2"
+      },
+      "field_identity_reasons": {
+        "occurred": "UNIQUE",
+        "lender": "UNIQUE",
+        "borrower": "UNIQUE"
+      },
+      "occurrence_reason": "CORRECT",
+      "entity_reasons": {
+        "role_a": "UNLISTED_OR_INVALID_REPRESENTATION",
+        "role_b": "UNLISTED_OR_INVALID_REPRESENTATION"
+      },
+      "unsupported_assertion": false,
+      "explicit_occurrence_contradiction": false,
+      "format_compliance": "FAIL",
+      "unique_readable_object": true,
+      "object_or_array_count": 1,
+      "raw_object_pairs": [
+        [
+          "occurred",
+          "YES"
+        ],
+        [
+          "lender",
+          "E1"
+        ],
+        [
+          "borrower",
+          "E2"
+        ]
+      ],
+      "duplicate_keys": [],
+      "extra_keys": [],
+      "noncanonical_entities": [
+        {
+          "field": "lender",
+          "raw_value": "E1",
+          "representation": "NAMES",
+          "reason": "UNLISTED_OR_INVALID_REPRESENTATION"
+        },
+        {
+          "field": "borrower",
+          "raw_value": "E2",
+          "representation": "NAMES",
+          "reason": "UNLISTED_OR_INVALID_REPRESENTATION"
+        }
+      ],
+      "outside_json_text": "```json\n\n```",
+      "language_status": "REQUIRES_FULL_RESPONSE_LANGUAGE_REVIEW",
+      "identity": "AI_SCORING_NOT_HUMAN_GOLD",
+      "full_response_read": true
+    },
+    "exact_role_reversal": false,
+    "roles_compatible_with_other_record_ids": [],
+    "full_compatible_with_other_record_ids": [],
+    "compatibility_not_internal_selection_proof": true
+  },
+  {
+    "call_id": "B12V2-LLAMA-F0132",
+    "model": "llama",
+    "source_form": "ZH_ACTIVE",
+    "condition": "FULL",
+    "source_text": "R4：小川把一本书借给了森田。\nR3：青木把一本书借给了森田。\nR2：小川把一本书借给了上田。\nR1：青木把一本书借给了上田。",
+    "raw_output": "```json\n{\n  \"occurred\": \"YES\",\n  \"lender\": \"E3\",\n  \"borrower\": \"E2\"\n}\n```",
+    "reference": {
+      "call_id": "B12V2-LLAMA-F0132",
+      "source_id": "F0132",
+      "occurred": "YES",
+      "role_a": "小川",
+      "role_b": "森田",
+      "target_sentence": "R4：小川把一本书借给了森田。",
+      "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+    },
+    "observation": {
+      "labels": {
+        "role_a": "U",
+        "role_b": "U",
+        "occurrence": "C",
+        "participant": "U",
+        "record": "U"
+      },
+      "occurred_asserted": "YES",
+      "decoded_names": {
+        "role_a": null,
+        "role_b": null
+      },
+      "raw_fields": {
+        "occurred": "YES",
+        "lender": "E3",
+        "borrower": "E2"
+      },
+      "field_identity_reasons": {
+        "occurred": "UNIQUE",
+        "lender": "UNIQUE",
+        "borrower": "UNIQUE"
+      },
+      "occurrence_reason": "CORRECT",
+      "entity_reasons": {
+        "role_a": "UNLISTED_OR_INVALID_REPRESENTATION",
+        "role_b": "UNLISTED_OR_INVALID_REPRESENTATION"
+      },
+      "unsupported_assertion": false,
+      "explicit_occurrence_contradiction": false,
+      "format_compliance": "FAIL",
+      "unique_readable_object": true,
+      "object_or_array_count": 1,
+      "raw_object_pairs": [
+        [
+          "occurred",
+          "YES"
+        ],
+        [
+          "lender",
+          "E3"
+        ],
+        [
+          "borrower",
+          "E2"
+        ]
+      ],
+      "duplicate_keys": [],
+      "extra_keys": [],
+      "noncanonical_entities": [
+        {
+          "field": "lender",
+          "raw_value": "E3",
+          "representation": "NAMES",
+          "reason": "UNLISTED_OR_INVALID_REPRESENTATION"
+        },
+        {
+          "field": "borrower",
+          "raw_value": "E2",
+          "representation": "NAMES",
+          "reason": "UNLISTED_OR_INVALID_REPRESENTATION"
+        }
+      ],
+      "outside_json_text": "```json\n\n```",
+      "language_status": "REQUIRES_FULL_RESPONSE_LANGUAGE_REVIEW",
+      "identity": "AI_SCORING_NOT_HUMAN_GOLD",
+      "full_response_read": true
+    },
+    "exact_role_reversal": false,
+    "roles_compatible_with_other_record_ids": [],
+    "full_compatible_with_other_record_ids": [],
+    "compatibility_not_internal_selection_proof": true
+  },
+  {
+    "call_id": "B12V2-LLAMA-F0133",
+    "model": "llama",
+    "source_form": "ZH_ACTIVE",
+    "condition": "FULL",
+    "source_text": "R1：青木把一本书借给了森田。\nR2：森田把一本书借给了青木。\nR3：小川把一本书借给了上田。\nR4：上田把一本书借给了小川。",
+    "raw_output": "```json\n{\n  \"occurred\": \"YES\",\n  \"lender\": \"E1\",\n  \"borrower\": \"E2\"\n}\n```",
+    "reference": {
+      "call_id": "B12V2-LLAMA-F0133",
+      "source_id": "F0133",
+      "occurred": "YES",
+      "role_a": "青木",
+      "role_b": "森田",
+      "target_sentence": "R1：青木把一本书借给了森田。",
+      "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+    },
+    "observation": {
+      "labels": {
+        "role_a": "U",
+        "role_b": "U",
+        "occurrence": "C",
+        "participant": "U",
+        "record": "U"
+      },
+      "occurred_asserted": "YES",
+      "decoded_names": {
+        "role_a": null,
+        "role_b": null
+      },
+      "raw_fields": {
+        "occurred": "YES",
+        "lender": "E1",
+        "borrower": "E2"
+      },
+      "field_identity_reasons": {
+        "occurred": "UNIQUE",
+        "lender": "UNIQUE",
+        "borrower": "UNIQUE"
+      },
+      "occurrence_reason": "CORRECT",
+      "entity_reasons": {
+        "role_a": "UNLISTED_OR_INVALID_REPRESENTATION",
+        "role_b": "UNLISTED_OR_INVALID_REPRESENTATION"
+      },
+      "unsupported_assertion": false,
+      "explicit_occurrence_contradiction": false,
+      "format_compliance": "FAIL",
+      "unique_readable_object": true,
+      "object_or_array_count": 1,
+      "raw_object_pairs": [
+        [
+          "occurred",
+          "YES"
+        ],
+        [
+          "lender",
+          "E1"
+        ],
+        [
+          "borrower",
+          "E2"
+        ]
+      ],
+      "duplicate_keys": [],
+      "extra_keys": [],
+      "noncanonical_entities": [
+        {
+          "field": "lender",
+          "raw_value": "E1",
+          "representation": "NAMES",
+          "reason": "UNLISTED_OR_INVALID_REPRESENTATION"
+        },
+        {
+          "field": "borrower",
+          "raw_value": "E2",
+          "representation": "NAMES",
+          "reason": "UNLISTED_OR_INVALID_REPRESENTATION"
+        }
+      ],
+      "outside_json_text": "```json\n\n```",
+      "language_status": "REQUIRES_FULL_RESPONSE_LANGUAGE_REVIEW",
+      "identity": "AI_SCORING_NOT_HUMAN_GOLD",
+      "full_response_read": true
+    },
+    "exact_role_reversal": false,
+    "roles_compatible_with_other_record_ids": [],
+    "full_compatible_with_other_record_ids": [],
+    "compatibility_not_internal_selection_proof": true
+  },
+  {
+    "call_id": "B12V2-LLAMA-F0135",
+    "model": "llama",
+    "source_form": "ZH_ACTIVE",
+    "condition": "FULL",
+    "source_text": "R4：森田把一本书借给了青木。\nR3：青木把一本书借给了森田。\nR2：上田把一本书借给了小川。\nR1：小川把一本书借给了上田。",
+    "raw_output": "{\"occurred\":\"YES\",\"lender\":\"森田\",\"borrower\":\"青木\"}",
+    "reference": {
+      "call_id": "B12V2-LLAMA-F0135",
+      "source_id": "F0135",
+      "occurred": "YES",
+      "role_a": "青木",
+      "role_b": "森田",
+      "target_sentence": "R3：青木把一本书借给了森田。",
+      "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+    },
+    "observation": {
+      "labels": {
+        "role_a": "W",
+        "role_b": "W",
+        "occurrence": "C",
+        "participant": "W",
+        "record": "W"
+      },
+      "occurred_asserted": "YES",
+      "decoded_names": {
+        "role_a": "森田",
+        "role_b": "青木"
+      },
+      "raw_fields": {
+        "occurred": "YES",
+        "lender": "森田",
+        "borrower": "青木"
+      },
+      "field_identity_reasons": {
+        "occurred": "UNIQUE",
+        "lender": "UNIQUE",
+        "borrower": "UNIQUE"
+      },
+      "occurrence_reason": "CORRECT",
+      "entity_reasons": {
+        "role_a": "OTHER_LISTED_PERSON",
+        "role_b": "OTHER_LISTED_PERSON"
+      },
+      "unsupported_assertion": false,
+      "explicit_occurrence_contradiction": false,
+      "format_compliance": "PASS",
+      "unique_readable_object": true,
+      "object_or_array_count": 1,
+      "raw_object_pairs": [
+        [
+          "occurred",
+          "YES"
+        ],
+        [
+          "lender",
+          "森田"
+        ],
+        [
+          "borrower",
+          "青木"
+        ]
+      ],
+      "duplicate_keys": [],
+      "extra_keys": [],
+      "noncanonical_entities": [],
+      "outside_json_text": "",
+      "language_status": "CANONICAL_SCHEMA_VALUES",
+      "identity": "AI_SCORING_NOT_HUMAN_GOLD",
+      "full_response_read": true
+    },
+    "exact_role_reversal": true,
+    "roles_compatible_with_other_record_ids": [
+      "R4"
+    ],
+    "full_compatible_with_other_record_ids": [
+      "R4"
+    ],
+    "compatibility_not_internal_selection_proof": true
+  },
+  {
+    "call_id": "B12V2-LLAMA-F0137",
+    "model": "llama",
+    "source_form": "ZH_ACTIVE",
+    "condition": "FULL",
+    "source_text": "R1：青木把一本书借给了森田。\nR2：青木没有把一本书借给森田。\nR3：小川把一本书借给了上田。\nR4：小川没有把一本书借给上田。",
+    "raw_output": "```json\n{\n  \"occurred\": \"YES\",\n  \"lender\": \"E1\",\n  \"borrower\": \"E2\"\n}\n```",
+    "reference": {
+      "call_id": "B12V2-LLAMA-F0137",
+      "source_id": "F0137",
+      "occurred": "YES",
+      "role_a": "青木",
+      "role_b": "森田",
+      "target_sentence": "R1：青木把一本书借给了森田。",
+      "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+    },
+    "observation": {
+      "labels": {
+        "role_a": "U",
+        "role_b": "U",
+        "occurrence": "C",
+        "participant": "U",
+        "record": "U"
+      },
+      "occurred_asserted": "YES",
+      "decoded_names": {
+        "role_a": null,
+        "role_b": null
+      },
+      "raw_fields": {
+        "occurred": "YES",
+        "lender": "E1",
+        "borrower": "E2"
+      },
+      "field_identity_reasons": {
+        "occurred": "UNIQUE",
+        "lender": "UNIQUE",
+        "borrower": "UNIQUE"
+      },
+      "occurrence_reason": "CORRECT",
+      "entity_reasons": {
+        "role_a": "UNLISTED_OR_INVALID_REPRESENTATION",
+        "role_b": "UNLISTED_OR_INVALID_REPRESENTATION"
+      },
+      "unsupported_assertion": false,
+      "explicit_occurrence_contradiction": false,
+      "format_compliance": "FAIL",
+      "unique_readable_object": true,
+      "object_or_array_count": 1,
+      "raw_object_pairs": [
+        [
+          "occurred",
+          "YES"
+        ],
+        [
+          "lender",
+          "E1"
+        ],
+        [
+          "borrower",
+          "E2"
+        ]
+      ],
+      "duplicate_keys": [],
+      "extra_keys": [],
+      "noncanonical_entities": [
+        {
+          "field": "lender",
+          "raw_value": "E1",
+          "representation": "NAMES",
+          "reason": "UNLISTED_OR_INVALID_REPRESENTATION"
+        },
+        {
+          "field": "borrower",
+          "raw_value": "E2",
+          "representation": "NAMES",
+          "reason": "UNLISTED_OR_INVALID_REPRESENTATION"
+        }
+      ],
+      "outside_json_text": "```json\n\n```",
+      "language_status": "REQUIRES_FULL_RESPONSE_LANGUAGE_REVIEW",
+      "identity": "AI_SCORING_NOT_HUMAN_GOLD",
+      "full_response_read": true
+    },
+    "exact_role_reversal": false,
+    "roles_compatible_with_other_record_ids": [],
+    "full_compatible_with_other_record_ids": [],
+    "compatibility_not_internal_selection_proof": true
+  },
+  {
+    "call_id": "B12V2-LLAMA-F0138",
+    "model": "llama",
+    "source_form": "ZH_ACTIVE",
+    "condition": "FULL",
+    "source_text": "R1：青木把一本书借给了森田。\nR2：青木没有把一本书借给森田。\nR3：小川把一本书借给了上田。\nR4：小川没有把一本书借给上田。",
+    "raw_output": "```json\n{\n  \"occurred\": \"NO\",\n  \"lender\": \"青木\",\n  \"borrower\": \"森田\"\n}\n```",
+    "reference": {
+      "call_id": "B12V2-LLAMA-F0138",
+      "source_id": "F0138",
+      "occurred": "NO",
+      "role_a": "青木",
+      "role_b": "森田",
+      "target_sentence": "R2：青木没有把一本书借给森田。",
+      "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+    },
+    "observation": {
+      "labels": {
+        "role_a": "C",
+        "role_b": "C",
+        "occurrence": "C",
+        "participant": "C",
+        "record": "C"
+      },
+      "occurred_asserted": "NO",
+      "decoded_names": {
+        "role_a": "青木",
+        "role_b": "森田"
+      },
+      "raw_fields": {
+        "occurred": "NO",
+        "lender": "青木",
+        "borrower": "森田"
+      },
+      "field_identity_reasons": {
+        "occurred": "UNIQUE",
+        "lender": "UNIQUE",
+        "borrower": "UNIQUE"
+      },
+      "occurrence_reason": "CORRECT",
+      "entity_reasons": {
+        "role_a": "CORRECT",
+        "role_b": "CORRECT"
+      },
+      "unsupported_assertion": false,
+      "explicit_occurrence_contradiction": false,
+      "format_compliance": "FAIL",
+      "unique_readable_object": true,
+      "object_or_array_count": 1,
+      "raw_object_pairs": [
+        [
+          "occurred",
+          "NO"
+        ],
+        [
+          "lender",
+          "青木"
+        ],
+        [
+          "borrower",
+          "森田"
+        ]
+      ],
+      "duplicate_keys": [],
+      "extra_keys": [],
+      "noncanonical_entities": [],
+      "outside_json_text": "```json\n\n```",
+      "language_status": "REQUIRES_FULL_RESPONSE_LANGUAGE_REVIEW",
+      "identity": "AI_SCORING_NOT_HUMAN_GOLD",
+      "full_response_read": true
+    },
+    "exact_role_reversal": false,
+    "roles_compatible_with_other_record_ids": [
+      "R1"
+    ],
+    "full_compatible_with_other_record_ids": [],
+    "compatibility_not_internal_selection_proof": true
+  },
+  {
+    "call_id": "B12V2-LLAMA-F0139",
+    "model": "llama",
+    "source_form": "ZH_ACTIVE",
+    "condition": "FULL",
+    "source_text": "R4：青木没有把一本书借给森田。\nR3：青木把一本书借给了森田。\nR2：小川没有把一本书借给上田。\nR1：小川把一本书借给了上田。",
+    "raw_output": "```json\n{\n  \"occurred\": \"YES\",\n  \"lender\": \"青木\",\n  \"borrower\": \"森田\"\n}\n```",
+    "reference": {
+      "call_id": "B12V2-LLAMA-F0139",
+      "source_id": "F0139",
+      "occurred": "YES",
+      "role_a": "青木",
+      "role_b": "森田",
+      "target_sentence": "R3：青木把一本书借给了森田。",
+      "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+    },
+    "observation": {
+      "labels": {
+        "role_a": "C",
+        "role_b": "C",
+        "occurrence": "C",
+        "participant": "C",
+        "record": "C"
+      },
+      "occurred_asserted": "YES",
+      "decoded_names": {
+        "role_a": "青木",
+        "role_b": "森田"
+      },
+      "raw_fields": {
+        "occurred": "YES",
+        "lender": "青木",
+        "borrower": "森田"
+      },
+      "field_identity_reasons": {
+        "occurred": "UNIQUE",
+        "lender": "UNIQUE",
+        "borrower": "UNIQUE"
+      },
+      "occurrence_reason": "CORRECT",
+      "entity_reasons": {
+        "role_a": "CORRECT",
+        "role_b": "CORRECT"
+      },
+      "unsupported_assertion": false,
+      "explicit_occurrence_contradiction": false,
+      "format_compliance": "FAIL",
+      "unique_readable_object": true,
+      "object_or_array_count": 1,
+      "raw_object_pairs": [
+        [
+          "occurred",
+          "YES"
+        ],
+        [
+          "lender",
+          "青木"
+        ],
+        [
+          "borrower",
+          "森田"
+        ]
+      ],
+      "duplicate_keys": [],
+      "extra_keys": [],
+      "noncanonical_entities": [],
+      "outside_json_text": "```json\n\n```",
+      "language_status": "REQUIRES_FULL_RESPONSE_LANGUAGE_REVIEW",
+      "identity": "AI_SCORING_NOT_HUMAN_GOLD",
+      "full_response_read": true
+    },
+    "exact_role_reversal": false,
+    "roles_compatible_with_other_record_ids": [
+      "R4"
+    ],
+    "full_compatible_with_other_record_ids": [],
+    "compatibility_not_internal_selection_proof": true
+  },
+  {
+    "call_id": "B12V2-LLAMA-F0140",
+    "model": "llama",
+    "source_form": "ZH_ACTIVE",
+    "condition": "FULL",
+    "source_text": "R4：青木没有把一本书借给森田。\nR3：青木把一本书借给了森田。\nR2：小川没有把一本书借给上田。\nR1：小川把一本书借给了上田。",
+    "raw_output": "```json\n{\n  \"occurred\": \"NO\",\n  \"lender\": \"青木\",\n  \"borrower\": \"森田\"\n}\n```",
+    "reference": {
+      "call_id": "B12V2-LLAMA-F0140",
+      "source_id": "F0140",
+      "occurred": "NO",
+      "role_a": "青木",
+      "role_b": "森田",
+      "target_sentence": "R4：青木没有把一本书借给森田。",
+      "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+    },
+    "observation": {
+      "labels": {
+        "role_a": "C",
+        "role_b": "C",
+        "occurrence": "C",
+        "participant": "C",
+        "record": "C"
+      },
+      "occurred_asserted": "NO",
+      "decoded_names": {
+        "role_a": "青木",
+        "role_b": "森田"
+      },
+      "raw_fields": {
+        "occurred": "NO",
+        "lender": "青木",
+        "borrower": "森田"
+      },
+      "field_identity_reasons": {
+        "occurred": "UNIQUE",
+        "lender": "UNIQUE",
+        "borrower": "UNIQUE"
+      },
+      "occurrence_reason": "CORRECT",
+      "entity_reasons": {
+        "role_a": "CORRECT",
+        "role_b": "CORRECT"
+      },
+      "unsupported_assertion": false,
+      "explicit_occurrence_contradiction": false,
+      "format_compliance": "FAIL",
+      "unique_readable_object": true,
+      "object_or_array_count": 1,
+      "raw_object_pairs": [
+        [
+          "occurred",
+          "NO"
+        ],
+        [
+          "lender",
+          "青木"
+        ],
+        [
+          "borrower",
+          "森田"
+        ]
+      ],
+      "duplicate_keys": [],
+      "extra_keys": [],
+      "noncanonical_entities": [],
+      "outside_json_text": "```json\n\n```",
+      "language_status": "REQUIRES_FULL_RESPONSE_LANGUAGE_REVIEW",
+      "identity": "AI_SCORING_NOT_HUMAN_GOLD",
+      "full_response_read": true
+    },
+    "exact_role_reversal": false,
+    "roles_compatible_with_other_record_ids": [
+      "R3"
+    ],
+    "full_compatible_with_other_record_ids": [],
+    "compatibility_not_internal_selection_proof": true
+  },
+  {
+    "call_id": "B12V2-LLAMA-F0141",
+    "model": "llama",
+    "source_form": "ZH_ACTIVE",
+    "condition": "FULL",
+    "source_text": "R1：青木没有把一本书借给森田。\nR2：小川没有把一本书借给上田。\nR3：青木把一本书借给了森田。\nR4：小川把一本书借给了上田。",
+    "raw_output": "```json\n{\n  \"occurred\": \"NO\",\n  \"lender\": \"E1\",\n  \"borrower\": \"E2\"\n}\n```",
+    "reference": {
+      "call_id": "B12V2-LLAMA-F0141",
+      "source_id": "F0141",
+      "occurred": "NO",
+      "role_a": "青木",
+      "role_b": "森田",
+      "target_sentence": "R1：青木没有把一本书借给森田。",
+      "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+    },
+    "observation": {
+      "labels": {
+        "role_a": "U",
+        "role_b": "U",
+        "occurrence": "C",
+        "participant": "U",
+        "record": "U"
+      },
+      "occurred_asserted": "NO",
+      "decoded_names": {
+        "role_a": null,
+        "role_b": null
+      },
+      "raw_fields": {
+        "occurred": "NO",
+        "lender": "E1",
+        "borrower": "E2"
+      },
+      "field_identity_reasons": {
+        "occurred": "UNIQUE",
+        "lender": "UNIQUE",
+        "borrower": "UNIQUE"
+      },
+      "occurrence_reason": "CORRECT",
+      "entity_reasons": {
+        "role_a": "UNLISTED_OR_INVALID_REPRESENTATION",
+        "role_b": "UNLISTED_OR_INVALID_REPRESENTATION"
+      },
+      "unsupported_assertion": false,
+      "explicit_occurrence_contradiction": false,
+      "format_compliance": "FAIL",
+      "unique_readable_object": true,
+      "object_or_array_count": 1,
+      "raw_object_pairs": [
+        [
+          "occurred",
+          "NO"
+        ],
+        [
+          "lender",
+          "E1"
+        ],
+        [
+          "borrower",
+          "E2"
+        ]
+      ],
+      "duplicate_keys": [],
+      "extra_keys": [],
+      "noncanonical_entities": [
+        {
+          "field": "lender",
+          "raw_value": "E1",
+          "representation": "NAMES",
+          "reason": "UNLISTED_OR_INVALID_REPRESENTATION"
+        },
+        {
+          "field": "borrower",
+          "raw_value": "E2",
+          "representation": "NAMES",
+          "reason": "UNLISTED_OR_INVALID_REPRESENTATION"
+        }
+      ],
+      "outside_json_text": "```json\n\n```",
+      "language_status": "REQUIRES_FULL_RESPONSE_LANGUAGE_REVIEW",
+      "identity": "AI_SCORING_NOT_HUMAN_GOLD",
+      "full_response_read": true
+    },
+    "exact_role_reversal": false,
+    "roles_compatible_with_other_record_ids": [],
+    "full_compatible_with_other_record_ids": [],
+    "compatibility_not_internal_selection_proof": true
+  },
+  {
+    "call_id": "B12V2-LLAMA-F0144",
+    "model": "llama",
+    "source_form": "ZH_ACTIVE",
+    "condition": "FULL",
+    "source_text": "R4：小川没有把一本书借给上田。\nR3：青木没有把一本书借给森田。\nR2：小川把一本书借给了上田。\nR1：青木把一本书借给了森田。",
+    "raw_output": "{\"occurred\":\"NO\",\"lender\":\"E3\",\"borrower\":\"E4\"}",
+    "reference": {
+      "call_id": "B12V2-LLAMA-F0144",
+      "source_id": "F0144",
+      "occurred": "NO",
+      "role_a": "小川",
+      "role_b": "上田",
+      "target_sentence": "R4：小川没有把一本书借给上田。",
+      "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+    },
+    "observation": {
+      "labels": {
+        "role_a": "U",
+        "role_b": "U",
+        "occurrence": "C",
+        "participant": "U",
+        "record": "U"
+      },
+      "occurred_asserted": "NO",
+      "decoded_names": {
+        "role_a": null,
+        "role_b": null
+      },
+      "raw_fields": {
+        "occurred": "NO",
+        "lender": "E3",
+        "borrower": "E4"
+      },
+      "field_identity_reasons": {
+        "occurred": "UNIQUE",
+        "lender": "UNIQUE",
+        "borrower": "UNIQUE"
+      },
+      "occurrence_reason": "CORRECT",
+      "entity_reasons": {
+        "role_a": "UNLISTED_OR_INVALID_REPRESENTATION",
+        "role_b": "UNLISTED_OR_INVALID_REPRESENTATION"
+      },
+      "unsupported_assertion": false,
+      "explicit_occurrence_contradiction": false,
+      "format_compliance": "PASS",
+      "unique_readable_object": true,
+      "object_or_array_count": 1,
+      "raw_object_pairs": [
+        [
+          "occurred",
+          "NO"
+        ],
+        [
+          "lender",
+          "E3"
+        ],
+        [
+          "borrower",
+          "E4"
+        ]
+      ],
+      "duplicate_keys": [],
+      "extra_keys": [],
+      "noncanonical_entities": [
+        {
+          "field": "lender",
+          "raw_value": "E3",
+          "representation": "NAMES",
+          "reason": "UNLISTED_OR_INVALID_REPRESENTATION"
+        },
+        {
+          "field": "borrower",
+          "raw_value": "E4",
+          "representation": "NAMES",
+          "reason": "UNLISTED_OR_INVALID_REPRESENTATION"
+        }
+      ],
+      "outside_json_text": "",
+      "language_status": "REQUIRES_FULL_RESPONSE_LANGUAGE_REVIEW",
+      "identity": "AI_SCORING_NOT_HUMAN_GOLD",
+      "full_response_read": true
+    },
+    "exact_role_reversal": false,
+    "roles_compatible_with_other_record_ids": [],
+    "full_compatible_with_other_record_ids": [],
+    "compatibility_not_internal_selection_proof": true
+  }
+]

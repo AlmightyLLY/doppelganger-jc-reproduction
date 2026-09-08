@@ -1,0 +1,338 @@
+{
+  "at": "2026-09-08T05:07:57.624855+00:00",
+  "identity": "POST_RUN_DESCRIPTIVE_ANALYSIS_NOT_NEW_GATE",
+  "double_records": {
+    "C": 145,
+    "W": 14,
+    "U": 1
+  },
+  "double_nonC_distinct_sources": 14,
+  "double_nonC_distinct_families": 7,
+  "error_classes": {
+    "ENTIRE_RECORD_COMPATIBLE_WITH_OTHER_EVENT": 8,
+    "TARGET_FACTUALITY_WITH_OTHER_EVENT_ROLES": 4,
+    "UNRESOLVED_RECORD": 1,
+    "OTHER_ERROR": 2
+  },
+  "pairs": [
+    {
+      "pair_type": "FIRST_TO_LAST",
+      "n": 80,
+      "record": {
+        "C->C": 66,
+        "W->C": 7,
+        "C->W": 5,
+        "W->W": 1,
+        "C->U": 1
+      },
+      "component_transition_counts": {
+        "occurrence": {
+          "C->C": 77,
+          "C->U": 1,
+          "C->W": 2
+        },
+        "role_a": {
+          "C->C": 67,
+          "W->C": 7,
+          "C->W": 4,
+          "W->W": 1,
+          "C->U": 1
+        },
+        "role_b": {
+          "C->C": 67,
+          "W->C": 7,
+          "C->W": 4,
+          "W->W": 1,
+          "C->U": 1
+        }
+      },
+      "harm_hidden_in_record_W_to_W": []
+    },
+    {
+      "pair_type": "SAME_TO_OPPOSITE",
+      "n": 80,
+      "record": {
+        "C->C": 65,
+        "C->W": 13,
+        "C->U": 1,
+        "W->C": 1
+      },
+      "component_transition_counts": {
+        "occurrence": {
+          "C->C": 77,
+          "C->U": 1,
+          "W->C": 1,
+          "C->W": 1
+        },
+        "role_a": {
+          "C->C": 66,
+          "C->W": 13,
+          "C->U": 1
+        },
+        "role_b": {
+          "C->C": 66,
+          "C->W": 13,
+          "C->U": 1
+        }
+      },
+      "harm_hidden_in_record_W_to_W": []
+    },
+    {
+      "pair_type": "SINGLE_TO_CONTEXT",
+      "n": 160,
+      "record": {
+        "C->C": 145,
+        "C->W": 14,
+        "C->U": 1
+      },
+      "component_transition_counts": {
+        "occurrence": {
+          "C->C": 157,
+          "C->U": 1,
+          "C->W": 2
+        },
+        "role_a": {
+          "C->C": 146,
+          "C->W": 13,
+          "C->U": 1
+        },
+        "role_b": {
+          "C->C": 146,
+          "C->W": 13,
+          "C->U": 1
+        }
+      },
+      "harm_hidden_in_record_W_to_W": []
+    }
+  ],
+  "variant_cells": [
+    {
+      "condition": "SINGLE",
+      "variant": "BASE",
+      "n": 8,
+      "record": {
+        "C": 8
+      }
+    },
+    {
+      "condition": "SINGLE",
+      "variant": "PARAPHRASE",
+      "n": 8,
+      "record": {
+        "C": 8
+      }
+    },
+    {
+      "condition": "SINGLE",
+      "variant": "ROLE_SWAP",
+      "n": 8,
+      "record": {
+        "C": 8
+      }
+    },
+    {
+      "condition": "SINGLE",
+      "variant": "NEGATED",
+      "n": 8,
+      "record": {
+        "C": 8
+      }
+    },
+    {
+      "condition": "SINGLE",
+      "variant": "UNRESOLVED",
+      "n": 8,
+      "record": {
+        "C": 8
+      }
+    },
+    {
+      "condition": "SAME_TARGET_FIRST",
+      "variant": "BASE",
+      "n": 8,
+      "record": {
+        "C": 8
+      }
+    },
+    {
+      "condition": "SAME_TARGET_FIRST",
+      "variant": "PARAPHRASE",
+      "n": 8,
+      "record": {
+        "C": 8
+      }
+    },
+    {
+      "condition": "SAME_TARGET_FIRST",
+      "variant": "ROLE_SWAP",
+      "n": 8,
+      "record": {
+        "C": 8
+      }
+    },
+    {
+      "condition": "SAME_TARGET_FIRST",
+      "variant": "NEGATED",
+      "n": 8,
+      "record": {
+        "C": 8
+      }
+    },
+    {
+      "condition": "SAME_TARGET_FIRST",
+      "variant": "UNRESOLVED",
+      "n": 8,
+      "record": {
+        "C": 8
+      }
+    },
+    {
+      "condition": "SAME_TARGET_LAST",
+      "variant": "BASE",
+      "n": 8,
+      "record": {
+        "C": 8
+      }
+    },
+    {
+      "condition": "SAME_TARGET_LAST",
+      "variant": "PARAPHRASE",
+      "n": 8,
+      "record": {
+        "C": 7,
+        "W": 1
+      }
+    },
+    {
+      "condition": "SAME_TARGET_LAST",
+      "variant": "ROLE_SWAP",
+      "n": 8,
+      "record": {
+        "C": 8
+      }
+    },
+    {
+      "condition": "SAME_TARGET_LAST",
+      "variant": "NEGATED",
+      "n": 8,
+      "record": {
+        "C": 8
+      }
+    },
+    {
+      "condition": "SAME_TARGET_LAST",
+      "variant": "UNRESOLVED",
+      "n": 8,
+      "record": {
+        "C": 8
+      }
+    },
+    {
+      "condition": "OPPOSITE_TARGET_FIRST",
+      "variant": "BASE",
+      "n": 8,
+      "record": {
+        "C": 8
+      }
+    },
+    {
+      "condition": "OPPOSITE_TARGET_FIRST",
+      "variant": "PARAPHRASE",
+      "n": 8,
+      "record": {
+        "C": 8
+      }
+    },
+    {
+      "condition": "OPPOSITE_TARGET_FIRST",
+      "variant": "ROLE_SWAP",
+      "n": 8,
+      "record": {
+        "W": 6,
+        "C": 2
+      }
+    },
+    {
+      "condition": "OPPOSITE_TARGET_FIRST",
+      "variant": "NEGATED",
+      "n": 8,
+      "record": {
+        "C": 7,
+        "W": 1
+      }
+    },
+    {
+      "condition": "OPPOSITE_TARGET_FIRST",
+      "variant": "UNRESOLVED",
+      "n": 8,
+      "record": {
+        "C": 7,
+        "W": 1
+      }
+    },
+    {
+      "condition": "OPPOSITE_TARGET_LAST",
+      "variant": "BASE",
+      "n": 8,
+      "record": {
+        "C": 8
+      }
+    },
+    {
+      "condition": "OPPOSITE_TARGET_LAST",
+      "variant": "PARAPHRASE",
+      "n": 8,
+      "record": {
+        "C": 5,
+        "W": 3
+      }
+    },
+    {
+      "condition": "OPPOSITE_TARGET_LAST",
+      "variant": "ROLE_SWAP",
+      "n": 8,
+      "record": {
+        "C": 8
+      }
+    },
+    {
+      "condition": "OPPOSITE_TARGET_LAST",
+      "variant": "NEGATED",
+      "n": 8,
+      "record": {
+        "C": 6,
+        "W": 1,
+        "U": 1
+      }
+    },
+    {
+      "condition": "OPPOSITE_TARGET_LAST",
+      "variant": "UNRESOLVED",
+      "n": 8,
+      "record": {
+        "C": 7,
+        "W": 1
+      }
+    }
+  ],
+  "cheap_baseline": {
+    "prerun_selector_at": "2026-09-08T04:51:26.959390+00:00",
+    "selected_double_inputs": 160,
+    "distinct_actual_single_outputs_reused": 40,
+    "new_calls": 0,
+    "cached_record": {
+      "C": 160
+    },
+    "record_transition": {
+      "C->C": 145,
+      "W->C": 14,
+      "U->C": 1
+    },
+    "component_C_to_nonC": 0,
+    "claim_limit": "Exact-message cached composition on literal unique-line author materials, not 160 independent reruns or natural-data method validation"
+  },
+  "B_decision": "NOT_RUN_PREWRITTEN_TRIGGER_NOT_MET",
+  "B_calls": 0,
+  "no_B11": true,
+  "independent_human_gold": 0
+}

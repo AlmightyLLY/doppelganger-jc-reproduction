@@ -1,0 +1,11 @@
+{
+  "experiment_id": "EXP-20260908-B12",
+  "version": "ja_return_v2",
+  "at": "2026-09-08T07:20:31.829109+00:00",
+  "protocol_sha256": "f6d565f02efabe7440a31072b9de707ac8ee27bcae28fa29f26d65683be865c6",
+  "science_manifest_sha256": "1d550b2aede0ba5d797ae9f91bcdfb9396d736ff924caf47a70869273d6c1a96",
+  "planned_starts": 480,
+  "paid_usd": 0,
+  "human_review_attested": false,
+  "technical_spec_sha256": "7825a0ec340e73b2a795f5aab7f409eb8f62ecf74d64127c595ab3b43bf7f3c4"
+}

@@ -1,0 +1,4964 @@
+{
+  "new_calls": [
+    {
+      "call_id": "B09-qwen-N01-BASE-NAMES-MAP12",
+      "model": "qwen",
+      "source_id": "N01-BASE",
+      "family_id": "N01",
+      "domain": "lend",
+      "variant": "BASE",
+      "representation": "NAMES",
+      "mapping": "MAP12",
+      "entity_map": {
+        "E1": "陈悦",
+        "E2": "周宁"
+      },
+      "source_text": "陈悦把这把雨伞借给了周宁。",
+      "role_keys": [
+        "lender",
+        "borrower"
+      ],
+      "role_definitions": "lender是借出方，borrower是借入方。",
+      "messages": [
+        {
+          "role": "user",
+          "content": "根据下面这段文字，记录文中讨论的一个关系命题。只依据文字，不补充常识或背景。\n原文：\"陈悦把这把雨伞借给了周宁。\"\n实体表：E1对应陈悦；E2对应周宁\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"lender\":\"姓名\",\"borrower\":\"姓名\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\nlender是借出方，borrower是借入方。这两个字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中的完整姓名。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+        }
+      ],
+      "prompt_sha256": "d6401a4af3365b2e2dc3ff06011210ada8cfeca0fb60708618c4b8894acb4539",
+      "sequence": 1,
+      "family_order": 1,
+      "variant_order": 1,
+      "condition_order": 1
+    },
+    {
+      "call_id": "B09-qwen-N01-BASE-IDS-MAP12",
+      "model": "qwen",
+      "source_id": "N01-BASE",
+      "family_id": "N01",
+      "domain": "lend",
+      "variant": "BASE",
+      "representation": "IDS",
+      "mapping": "MAP12",
+      "entity_map": {
+        "E1": "陈悦",
+        "E2": "周宁"
+      },
+      "source_text": "陈悦把这把雨伞借给了周宁。",
+      "role_keys": [
+        "lender",
+        "borrower"
+      ],
+      "role_definitions": "lender是借出方，borrower是借入方。",
+      "messages": [
+        {
+          "role": "user",
+          "content": "根据下面这段文字，记录文中讨论的一个关系命题。只依据文字，不补充常识或背景。\n原文：\"陈悦把这把雨伞借给了周宁。\"\n实体表：E1对应陈悦；E2对应周宁\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"lender\":\"ID\",\"borrower\":\"ID\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\nlender是借出方，borrower是借入方。这两个字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中相应的E1或E2。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+        }
+      ],
+      "prompt_sha256": "17af07b27b80acb13195bd4fe8d00c0e991fd0a8bce0c1f9dcaed49b001a3289",
+      "sequence": 2,
+      "family_order": 1,
+      "variant_order": 1,
+      "condition_order": 2
+    },
+    {
+      "call_id": "B09-qwen-N01-BASE-NAMES-MAP21",
+      "model": "qwen",
+      "source_id": "N01-BASE",
+      "family_id": "N01",
+      "domain": "lend",
+      "variant": "BASE",
+      "representation": "NAMES",
+      "mapping": "MAP21",
+      "entity_map": {
+        "E1": "周宁",
+        "E2": "陈悦"
+      },
+      "source_text": "陈悦把这把雨伞借给了周宁。",
+      "role_keys": [
+        "lender",
+        "borrower"
+      ],
+      "role_definitions": "lender是借出方，borrower是借入方。",
+      "messages": [
+        {
+          "role": "user",
+          "content": "根据下面这段文字，记录文中讨论的一个关系命题。只依据文字，不补充常识或背景。\n原文：\"陈悦把这把雨伞借给了周宁。\"\n实体表：E1对应周宁；E2对应陈悦\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"lender\":\"姓名\",\"borrower\":\"姓名\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\nlender是借出方，borrower是借入方。这两个字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中的完整姓名。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+        }
+      ],
+      "prompt_sha256": "cf0a17c51e56f2d610b0f5484b8120a85d3b48e9ccd5fef585836fd910014f4b",
+      "sequence": 3,
+      "family_order": 1,
+      "variant_order": 1,
+      "condition_order": 3
+    },
+    {
+      "call_id": "B09-qwen-N01-BASE-IDS-MAP21",
+      "model": "qwen",
+      "source_id": "N01-BASE",
+      "family_id": "N01",
+      "domain": "lend",
+      "variant": "BASE",
+      "representation": "IDS",
+      "mapping": "MAP21",
+      "entity_map": {
+        "E1": "周宁",
+        "E2": "陈悦"
+      },
+      "source_text": "陈悦把这把雨伞借给了周宁。",
+      "role_keys": [
+        "lender",
+        "borrower"
+      ],
+      "role_definitions": "lender是借出方，borrower是借入方。",
+      "messages": [
+        {
+          "role": "user",
+          "content": "根据下面这段文字，记录文中讨论的一个关系命题。只依据文字，不补充常识或背景。\n原文：\"陈悦把这把雨伞借给了周宁。\"\n实体表：E1对应周宁；E2对应陈悦\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"lender\":\"ID\",\"borrower\":\"ID\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\nlender是借出方，borrower是借入方。这两个字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中相应的E1或E2。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+        }
+      ],
+      "prompt_sha256": "f2467189dd314abec226a233a048f54d7393baa11c719836dfb7c2121ab192a3",
+      "sequence": 4,
+      "family_order": 1,
+      "variant_order": 1,
+      "condition_order": 4
+    },
+    {
+      "call_id": "B09-qwen-N01-PARAPHRASE-IDS-MAP12",
+      "model": "qwen",
+      "source_id": "N01-PARAPHRASE",
+      "family_id": "N01",
+      "domain": "lend",
+      "variant": "PARAPHRASE",
+      "representation": "IDS",
+      "mapping": "MAP12",
+      "entity_map": {
+        "E1": "陈悦",
+        "E2": "周宁"
+      },
+      "source_text": "周宁从陈悦那里借到了这把雨伞。",
+      "role_keys": [
+        "lender",
+        "borrower"
+      ],
+      "role_definitions": "lender是借出方，borrower是借入方。",
+      "messages": [
+        {
+          "role": "user",
+          "content": "根据下面这段文字，记录文中讨论的一个关系命题。只依据文字，不补充常识或背景。\n原文：\"周宁从陈悦那里借到了这把雨伞。\"\n实体表：E1对应陈悦；E2对应周宁\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"lender\":\"ID\",\"borrower\":\"ID\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\nlender是借出方，borrower是借入方。这两个字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中相应的E1或E2。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+        }
+      ],
+      "prompt_sha256": "c0ad5692589e51f4fc370c4710fa8f09b88c0f4bcfa76d4a7bfbd8ad0fd26928",
+      "sequence": 5,
+      "family_order": 1,
+      "variant_order": 2,
+      "condition_order": 1
+    },
+    {
+      "call_id": "B09-qwen-N01-PARAPHRASE-NAMES-MAP21",
+      "model": "qwen",
+      "source_id": "N01-PARAPHRASE",
+      "family_id": "N01",
+      "domain": "lend",
+      "variant": "PARAPHRASE",
+      "representation": "NAMES",
+      "mapping": "MAP21",
+      "entity_map": {
+        "E1": "周宁",
+        "E2": "陈悦"
+      },
+      "source_text": "周宁从陈悦那里借到了这把雨伞。",
+      "role_keys": [
+        "lender",
+        "borrower"
+      ],
+      "role_definitions": "lender是借出方，borrower是借入方。",
+      "messages": [
+        {
+          "role": "user",
+          "content": "根据下面这段文字，记录文中讨论的一个关系命题。只依据文字，不补充常识或背景。\n原文：\"周宁从陈悦那里借到了这把雨伞。\"\n实体表：E1对应周宁；E2对应陈悦\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"lender\":\"姓名\",\"borrower\":\"姓名\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\nlender是借出方，borrower是借入方。这两个字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中的完整姓名。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+        }
+      ],
+      "prompt_sha256": "507e3b93454aa8bfdda9efd19c6cb674b1d802e9bffc82f6a1aab121f037c8e8",
+      "sequence": 6,
+      "family_order": 1,
+      "variant_order": 2,
+      "condition_order": 2
+    },
+    {
+      "call_id": "B09-qwen-N01-PARAPHRASE-IDS-MAP21",
+      "model": "qwen",
+      "source_id": "N01-PARAPHRASE",
+      "family_id": "N01",
+      "domain": "lend",
+      "variant": "PARAPHRASE",
+      "representation": "IDS",
+      "mapping": "MAP21",
+      "entity_map": {
+        "E1": "周宁",
+        "E2": "陈悦"
+      },
+      "source_text": "周宁从陈悦那里借到了这把雨伞。",
+      "role_keys": [
+        "lender",
+        "borrower"
+      ],
+      "role_definitions": "lender是借出方，borrower是借入方。",
+      "messages": [
+        {
+          "role": "user",
+          "content": "根据下面这段文字，记录文中讨论的一个关系命题。只依据文字，不补充常识或背景。\n原文：\"周宁从陈悦那里借到了这把雨伞。\"\n实体表：E1对应周宁；E2对应陈悦\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"lender\":\"ID\",\"borrower\":\"ID\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\nlender是借出方，borrower是借入方。这两个字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中相应的E1或E2。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+        }
+      ],
+      "prompt_sha256": "abd661ed53528a0e00d078ff3e2ae4cc76a2732345f525eec25c8c51e5e01e0f",
+      "sequence": 7,
+      "family_order": 1,
+      "variant_order": 2,
+      "condition_order": 3
+    },
+    {
+      "call_id": "B09-qwen-N01-PARAPHRASE-NAMES-MAP12",
+      "model": "qwen",
+      "source_id": "N01-PARAPHRASE",
+      "family_id": "N01",
+      "domain": "lend",
+      "variant": "PARAPHRASE",
+      "representation": "NAMES",
+      "mapping": "MAP12",
+      "entity_map": {
+        "E1": "陈悦",
+        "E2": "周宁"
+      },
+      "source_text": "周宁从陈悦那里借到了这把雨伞。",
+      "role_keys": [
+        "lender",
+        "borrower"
+      ],
+      "role_definitions": "lender是借出方，borrower是借入方。",
+      "messages": [
+        {
+          "role": "user",
+          "content": "根据下面这段文字，记录文中讨论的一个关系命题。只依据文字，不补充常识或背景。\n原文：\"周宁从陈悦那里借到了这把雨伞。\"\n实体表：E1对应陈悦；E2对应周宁\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"lender\":\"姓名\",\"borrower\":\"姓名\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\nlender是借出方，borrower是借入方。这两个字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中的完整姓名。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+        }
+      ],
+      "prompt_sha256": "c7454d0f4245680dcfa56556a548870aa9cbe327eebe345b69055ad55d6bf688",
+      "sequence": 8,
+      "family_order": 1,
+      "variant_order": 2,
+      "condition_order": 4
+    },
+    {
+      "call_id": "B09-qwen-N01-ROLE_SWAP-NAMES-MAP21",
+      "model": "qwen",
+      "source_id": "N01-ROLE_SWAP",
+      "family_id": "N01",
+      "domain": "lend",
+      "variant": "ROLE_SWAP",
+      "representation": "NAMES",
+      "mapping": "MAP21",
+      "entity_map": {
+        "E1": "周宁",
+        "E2": "陈悦"
+      },
+      "source_text": "周宁把这把雨伞借给了陈悦。",
+      "role_keys": [
+        "lender",
+        "borrower"
+      ],
+      "role_definitions": "lender是借出方，borrower是借入方。",
+      "messages": [
+        {
+          "role": "user",
+          "content": "根据下面这段文字，记录文中讨论的一个关系命题。只依据文字，不补充常识或背景。\n原文：\"周宁把这把雨伞借给了陈悦。\"\n实体表：E1对应周宁；E2对应陈悦\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"lender\":\"姓名\",\"borrower\":\"姓名\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\nlender是借出方，borrower是借入方。这两个字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中的完整姓名。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+        }
+      ],
+      "prompt_sha256": "7cd2cbfdf2edfd0d5f9a28144edb427bd78d7f3f328d6983e5da6811e1c974cb",
+      "sequence": 9,
+      "family_order": 1,
+      "variant_order": 3,
+      "condition_order": 1
+    },
+    {
+      "call_id": "B09-qwen-N01-ROLE_SWAP-IDS-MAP21",
+      "model": "qwen",
+      "source_id": "N01-ROLE_SWAP",
+      "family_id": "N01",
+      "domain": "lend",
+      "variant": "ROLE_SWAP",
+      "representation": "IDS",
+      "mapping": "MAP21",
+      "entity_map": {
+        "E1": "周宁",
+        "E2": "陈悦"
+      },
+      "source_text": "周宁把这把雨伞借给了陈悦。",
+      "role_keys": [
+        "lender",
+        "borrower"
+      ],
+      "role_definitions": "lender是借出方，borrower是借入方。",
+      "messages": [
+        {
+          "role": "user",
+          "content": "根据下面这段文字，记录文中讨论的一个关系命题。只依据文字，不补充常识或背景。\n原文：\"周宁把这把雨伞借给了陈悦。\"\n实体表：E1对应周宁；E2对应陈悦\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"lender\":\"ID\",\"borrower\":\"ID\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\nlender是借出方，borrower是借入方。这两个字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中相应的E1或E2。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+        }
+      ],
+      "prompt_sha256": "fad1b59111304bb8144a26a4616c10763922297cd79b9b028d2747cdcf5cfcbf",
+      "sequence": 10,
+      "family_order": 1,
+      "variant_order": 3,
+      "condition_order": 2
+    },
+    {
+      "call_id": "B09-qwen-N01-ROLE_SWAP-NAMES-MAP12",
+      "model": "qwen",
+      "source_id": "N01-ROLE_SWAP",
+      "family_id": "N01",
+      "domain": "lend",
+      "variant": "ROLE_SWAP",
+      "representation": "NAMES",
+      "mapping": "MAP12",
+      "entity_map": {
+        "E1": "陈悦",
+        "E2": "周宁"
+      },
+      "source_text": "周宁把这把雨伞借给了陈悦。",
+      "role_keys": [
+        "lender",
+        "borrower"
+      ],
+      "role_definitions": "lender是借出方，borrower是借入方。",
+      "messages": [
+        {
+          "role": "user",
+          "content": "根据下面这段文字，记录文中讨论的一个关系命题。只依据文字，不补充常识或背景。\n原文：\"周宁把这把雨伞借给了陈悦。\"\n实体表：E1对应陈悦；E2对应周宁\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"lender\":\"姓名\",\"borrower\":\"姓名\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\nlender是借出方，borrower是借入方。这两个字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中的完整姓名。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+        }
+      ],
+      "prompt_sha256": "7c3c4ffc6091b93b71b79b6e42ce33e14f940081ecf867d895ac35cb5e5c873f",
+      "sequence": 11,
+      "family_order": 1,
+      "variant_order": 3,
+      "condition_order": 3
+    },
+    {
+      "call_id": "B09-qwen-N01-ROLE_SWAP-IDS-MAP12",
+      "model": "qwen",
+      "source_id": "N01-ROLE_SWAP",
+      "family_id": "N01",
+      "domain": "lend",
+      "variant": "ROLE_SWAP",
+      "representation": "IDS",
+      "mapping": "MAP12",
+      "entity_map": {
+        "E1": "陈悦",
+        "E2": "周宁"
+      },
+      "source_text": "周宁把这把雨伞借给了陈悦。",
+      "role_keys": [
+        "lender",
+        "borrower"
+      ],
+      "role_definitions": "lender是借出方，borrower是借入方。",
+      "messages": [
+        {
+          "role": "user",
+          "content": "根据下面这段文字，记录文中讨论的一个关系命题。只依据文字，不补充常识或背景。\n原文：\"周宁把这把雨伞借给了陈悦。\"\n实体表：E1对应陈悦；E2对应周宁\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"lender\":\"ID\",\"borrower\":\"ID\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\nlender是借出方，borrower是借入方。这两个字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中相应的E1或E2。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+        }
+      ],
+      "prompt_sha256": "9c3ae5d008990abbf6eda2162b3cd0a38e79a6006abc49c8c330e8645b1d7817",
+      "sequence": 12,
+      "family_order": 1,
+      "variant_order": 3,
+      "condition_order": 4
+    },
+    {
+      "call_id": "B09-qwen-N01-NEGATED-IDS-MAP21",
+      "model": "qwen",
+      "source_id": "N01-NEGATED",
+      "family_id": "N01",
+      "domain": "lend",
+      "variant": "NEGATED",
+      "representation": "IDS",
+      "mapping": "MAP21",
+      "entity_map": {
+        "E1": "周宁",
+        "E2": "陈悦"
+      },
+      "source_text": "陈悦没有把这把雨伞借给周宁。",
+      "role_keys": [
+        "lender",
+        "borrower"
+      ],
+      "role_definitions": "lender是借出方，borrower是借入方。",
+      "messages": [
+        {
+          "role": "user",
+          "content": "根据下面这段文字，记录文中讨论的一个关系命题。只依据文字，不补充常识或背景。\n原文：\"陈悦没有把这把雨伞借给周宁。\"\n实体表：E1对应周宁；E2对应陈悦\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"lender\":\"ID\",\"borrower\":\"ID\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\nlender是借出方，borrower是借入方。这两个字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中相应的E1或E2。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+        }
+      ],
+      "prompt_sha256": "931703470bdcb4a02e67a9036723755ceafcdda3942c5aa9ed7a70852c399483",
+      "sequence": 13,
+      "family_order": 1,
+      "variant_order": 4,
+      "condition_order": 1
+    },
+    {
+      "call_id": "B09-qwen-N01-NEGATED-NAMES-MAP12",
+      "model": "qwen",
+      "source_id": "N01-NEGATED",
+      "family_id": "N01",
+      "domain": "lend",
+      "variant": "NEGATED",
+      "representation": "NAMES",
+      "mapping": "MAP12",
+      "entity_map": {
+        "E1": "陈悦",
+        "E2": "周宁"
+      },
+      "source_text": "陈悦没有把这把雨伞借给周宁。",
+      "role_keys": [
+        "lender",
+        "borrower"
+      ],
+      "role_definitions": "lender是借出方，borrower是借入方。",
+      "messages": [
+        {
+          "role": "user",
+          "content": "根据下面这段文字，记录文中讨论的一个关系命题。只依据文字，不补充常识或背景。\n原文：\"陈悦没有把这把雨伞借给周宁。\"\n实体表：E1对应陈悦；E2对应周宁\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"lender\":\"姓名\",\"borrower\":\"姓名\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\nlender是借出方，borrower是借入方。这两个字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中的完整姓名。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+        }
+      ],
+      "prompt_sha256": "ba1e3f742bd805eb2829b9eac388ce24868d7740e76fdf312c9ca3acf17c9f2a",
+      "sequence": 14,
+      "family_order": 1,
+      "variant_order": 4,
+      "condition_order": 2
+    },
+    {
+      "call_id": "B09-qwen-N01-NEGATED-IDS-MAP12",
+      "model": "qwen",
+      "source_id": "N01-NEGATED",
+      "family_id": "N01",
+      "domain": "lend",
+      "variant": "NEGATED",
+      "representation": "IDS",
+      "mapping": "MAP12",
+      "entity_map": {
+        "E1": "陈悦",
+        "E2": "周宁"
+      },
+      "source_text": "陈悦没有把这把雨伞借给周宁。",
+      "role_keys": [
+        "lender",
+        "borrower"
+      ],
+      "role_definitions": "lender是借出方，borrower是借入方。",
+      "messages": [
+        {
+          "role": "user",
+          "content": "根据下面这段文字，记录文中讨论的一个关系命题。只依据文字，不补充常识或背景。\n原文：\"陈悦没有把这把雨伞借给周宁。\"\n实体表：E1对应陈悦；E2对应周宁\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"lender\":\"ID\",\"borrower\":\"ID\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\nlender是借出方，borrower是借入方。这两个字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中相应的E1或E2。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+        }
+      ],
+      "prompt_sha256": "ffced7dae2f037310976b1c8c81577b289653ab7857a551e95211d730e17a3e3",
+      "sequence": 15,
+      "family_order": 1,
+      "variant_order": 4,
+      "condition_order": 3
+    },
+    {
+      "call_id": "B09-qwen-N01-NEGATED-NAMES-MAP21",
+      "model": "qwen",
+      "source_id": "N01-NEGATED",
+      "family_id": "N01",
+      "domain": "lend",
+      "variant": "NEGATED",
+      "representation": "NAMES",
+      "mapping": "MAP21",
+      "entity_map": {
+        "E1": "周宁",
+        "E2": "陈悦"
+      },
+      "source_text": "陈悦没有把这把雨伞借给周宁。",
+      "role_keys": [
+        "lender",
+        "borrower"
+      ],
+      "role_definitions": "lender是借出方，borrower是借入方。",
+      "messages": [
+        {
+          "role": "user",
+          "content": "根据下面这段文字，记录文中讨论的一个关系命题。只依据文字，不补充常识或背景。\n原文：\"陈悦没有把这把雨伞借给周宁。\"\n实体表：E1对应周宁；E2对应陈悦\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"lender\":\"姓名\",\"borrower\":\"姓名\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\nlender是借出方，borrower是借入方。这两个字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中的完整姓名。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+        }
+      ],
+      "prompt_sha256": "55c3c277d65411a199f54d37771f35f5a3188450788794575ab4c0f75ec959a5",
+      "sequence": 16,
+      "family_order": 1,
+      "variant_order": 4,
+      "condition_order": 4
+    },
+    {
+      "call_id": "B09-qwen-N01-UNRESOLVED-NAMES-MAP12",
+      "model": "qwen",
+      "source_id": "N01-UNRESOLVED",
+      "family_id": "N01",
+      "domain": "lend",
+      "variant": "UNRESOLVED",
+      "representation": "NAMES",
+      "mapping": "MAP12",
+      "entity_map": {
+        "E1": "陈悦",
+        "E2": "周宁"
+      },
+      "source_text": "工作人员正在核实陈悦是否把这把雨伞借给了周宁，目前尚无结论。",
+      "role_keys": [
+        "lender",
+        "borrower"
+      ],
+      "role_definitions": "lender是借出方，borrower是借入方。",
+      "messages": [
+        {
+          "role": "user",
+          "content": "根据下面这段文字，记录文中讨论的一个关系命题。只依据文字，不补充常识或背景。\n原文：\"工作人员正在核实陈悦是否把这把雨伞借给了周宁，目前尚无结论。\"\n实体表：E1对应陈悦；E2对应周宁\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"lender\":\"姓名\",\"borrower\":\"姓名\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\nlender是借出方，borrower是借入方。这两个字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中的完整姓名。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+        }
+      ],
+      "prompt_sha256": "8830306cc5800aa9e9a7c9c77d0fff2e69a5845d438b31c828c88e7b1a6e9661",
+      "sequence": 17,
+      "family_order": 1,
+      "variant_order": 5,
+      "condition_order": 1
+    },
+    {
+      "call_id": "B09-qwen-N01-UNRESOLVED-IDS-MAP12",
+      "model": "qwen",
+      "source_id": "N01-UNRESOLVED",
+      "family_id": "N01",
+      "domain": "lend",
+      "variant": "UNRESOLVED",
+      "representation": "IDS",
+      "mapping": "MAP12",
+      "entity_map": {
+        "E1": "陈悦",
+        "E2": "周宁"
+      },
+      "source_text": "工作人员正在核实陈悦是否把这把雨伞借给了周宁，目前尚无结论。",
+      "role_keys": [
+        "lender",
+        "borrower"
+      ],
+      "role_definitions": "lender是借出方，borrower是借入方。",
+      "messages": [
+        {
+          "role": "user",
+          "content": "根据下面这段文字，记录文中讨论的一个关系命题。只依据文字，不补充常识或背景。\n原文：\"工作人员正在核实陈悦是否把这把雨伞借给了周宁，目前尚无结论。\"\n实体表：E1对应陈悦；E2对应周宁\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"lender\":\"ID\",\"borrower\":\"ID\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\nlender是借出方，borrower是借入方。这两个字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中相应的E1或E2。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+        }
+      ],
+      "prompt_sha256": "9698ef6131ca71f284a8f579b9cccc4aa57a98eeb5c4e5d865493f92286e6f2d",
+      "sequence": 18,
+      "family_order": 1,
+      "variant_order": 5,
+      "condition_order": 2
+    },
+    {
+      "call_id": "B09-qwen-N01-UNRESOLVED-NAMES-MAP21",
+      "model": "qwen",
+      "source_id": "N01-UNRESOLVED",
+      "family_id": "N01",
+      "domain": "lend",
+      "variant": "UNRESOLVED",
+      "representation": "NAMES",
+      "mapping": "MAP21",
+      "entity_map": {
+        "E1": "周宁",
+        "E2": "陈悦"
+      },
+      "source_text": "工作人员正在核实陈悦是否把这把雨伞借给了周宁，目前尚无结论。",
+      "role_keys": [
+        "lender",
+        "borrower"
+      ],
+      "role_definitions": "lender是借出方，borrower是借入方。",
+      "messages": [
+        {
+          "role": "user",
+          "content": "根据下面这段文字，记录文中讨论的一个关系命题。只依据文字，不补充常识或背景。\n原文：\"工作人员正在核实陈悦是否把这把雨伞借给了周宁，目前尚无结论。\"\n实体表：E1对应周宁；E2对应陈悦\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"lender\":\"姓名\",\"borrower\":\"姓名\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\nlender是借出方，borrower是借入方。这两个字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中的完整姓名。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+        }
+      ],
+      "prompt_sha256": "7a050ff8a552cdb1c11ac4fa3a769c43e322f8e1b3a4675f0505fed562d48151",
+      "sequence": 19,
+      "family_order": 1,
+      "variant_order": 5,
+      "condition_order": 3
+    },
+    {
+      "call_id": "B09-qwen-N01-UNRESOLVED-IDS-MAP21",
+      "model": "qwen",
+      "source_id": "N01-UNRESOLVED",
+      "family_id": "N01",
+      "domain": "lend",
+      "variant": "UNRESOLVED",
+      "representation": "IDS",
+      "mapping": "MAP21",
+      "entity_map": {
+        "E1": "周宁",
+        "E2": "陈悦"
+      },
+      "source_text": "工作人员正在核实陈悦是否把这把雨伞借给了周宁，目前尚无结论。",
+      "role_keys": [
+        "lender",
+        "borrower"
+      ],
+      "role_definitions": "lender是借出方，borrower是借入方。",
+      "messages": [
+        {
+          "role": "user",
+          "content": "根据下面这段文字，记录文中讨论的一个关系命题。只依据文字，不补充常识或背景。\n原文：\"工作人员正在核实陈悦是否把这把雨伞借给了周宁，目前尚无结论。\"\n实体表：E1对应周宁；E2对应陈悦\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"lender\":\"ID\",\"borrower\":\"ID\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\nlender是借出方，borrower是借入方。这两个字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中相应的E1或E2。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+        }
+      ],
+      "prompt_sha256": "9956f12a3c9b6cced29a394ec4d58d20a13141dd098cb1e6a0da8e70b69a02b7",
+      "sequence": 20,
+      "family_order": 1,
+      "variant_order": 5,
+      "condition_order": 4
+    },
+    {
+      "call_id": "B09-qwen-N02-PARAPHRASE-IDS-MAP12",
+      "model": "qwen",
+      "source_id": "N02-PARAPHRASE",
+      "family_id": "N02",
+      "domain": "lend",
+      "variant": "PARAPHRASE",
+      "representation": "IDS",
+      "mapping": "MAP12",
+      "entity_map": {
+        "E1": "林涛",
+        "E2": "许静"
+      },
+      "source_text": "许静从林涛那里借到了这个充电器。",
+      "role_keys": [
+        "lender",
+        "borrower"
+      ],
+      "role_definitions": "lender是借出方，borrower是借入方。",
+      "messages": [
+        {
+          "role": "user",
+          "content": "根据下面这段文字，记录文中讨论的一个关系命题。只依据文字，不补充常识或背景。\n原文：\"许静从林涛那里借到了这个充电器。\"\n实体表：E1对应林涛；E2对应许静\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"lender\":\"ID\",\"borrower\":\"ID\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\nlender是借出方，borrower是借入方。这两个字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中相应的E1或E2。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+        }
+      ],
+      "prompt_sha256": "bec6d629bcbde8ddbae80390b5b139b76ce28284dd191431afeacb0b8fe0443e",
+      "sequence": 21,
+      "family_order": 2,
+      "variant_order": 1,
+      "condition_order": 1
+    },
+    {
+      "call_id": "B09-qwen-N02-PARAPHRASE-NAMES-MAP21",
+      "model": "qwen",
+      "source_id": "N02-PARAPHRASE",
+      "family_id": "N02",
+      "domain": "lend",
+      "variant": "PARAPHRASE",
+      "representation": "NAMES",
+      "mapping": "MAP21",
+      "entity_map": {
+        "E1": "许静",
+        "E2": "林涛"
+      },
+      "source_text": "许静从林涛那里借到了这个充电器。",
+      "role_keys": [
+        "lender",
+        "borrower"
+      ],
+      "role_definitions": "lender是借出方，borrower是借入方。",
+      "messages": [
+        {
+          "role": "user",
+          "content": "根据下面这段文字，记录文中讨论的一个关系命题。只依据文字，不补充常识或背景。\n原文：\"许静从林涛那里借到了这个充电器。\"\n实体表：E1对应许静；E2对应林涛\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"lender\":\"姓名\",\"borrower\":\"姓名\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\nlender是借出方，borrower是借入方。这两个字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中的完整姓名。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+        }
+      ],
+      "prompt_sha256": "5b47a96ddad9391a14d402bda614817c08380257ded1d3f5bc7975bf4bec517a",
+      "sequence": 22,
+      "family_order": 2,
+      "variant_order": 1,
+      "condition_order": 2
+    },
+    {
+      "call_id": "B09-qwen-N02-PARAPHRASE-IDS-MAP21",
+      "model": "qwen",
+      "source_id": "N02-PARAPHRASE",
+      "family_id": "N02",
+      "domain": "lend",
+      "variant": "PARAPHRASE",
+      "representation": "IDS",
+      "mapping": "MAP21",
+      "entity_map": {
+        "E1": "许静",
+        "E2": "林涛"
+      },
+      "source_text": "许静从林涛那里借到了这个充电器。",
+      "role_keys": [
+        "lender",
+        "borrower"
+      ],
+      "role_definitions": "lender是借出方，borrower是借入方。",
+      "messages": [
+        {
+          "role": "user",
+          "content": "根据下面这段文字，记录文中讨论的一个关系命题。只依据文字，不补充常识或背景。\n原文：\"许静从林涛那里借到了这个充电器。\"\n实体表：E1对应许静；E2对应林涛\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"lender\":\"ID\",\"borrower\":\"ID\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\nlender是借出方，borrower是借入方。这两个字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中相应的E1或E2。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+        }
+      ],
+      "prompt_sha256": "d4dd7194a774d1baaaaf5f0d3faaa735b175a3920b10f41e6f34091e82bce8aa",
+      "sequence": 23,
+      "family_order": 2,
+      "variant_order": 1,
+      "condition_order": 3
+    },
+    {
+      "call_id": "B09-qwen-N02-PARAPHRASE-NAMES-MAP12",
+      "model": "qwen",
+      "source_id": "N02-PARAPHRASE",
+      "family_id": "N02",
+      "domain": "lend",
+      "variant": "PARAPHRASE",
+      "representation": "NAMES",
+      "mapping": "MAP12",
+      "entity_map": {
+        "E1": "林涛",
+        "E2": "许静"
+      },
+      "source_text": "许静从林涛那里借到了这个充电器。",
+      "role_keys": [
+        "lender",
+        "borrower"
+      ],
+      "role_definitions": "lender是借出方，borrower是借入方。",
+      "messages": [
+        {
+          "role": "user",
+          "content": "根据下面这段文字，记录文中讨论的一个关系命题。只依据文字，不补充常识或背景。\n原文：\"许静从林涛那里借到了这个充电器。\"\n实体表：E1对应林涛；E2对应许静\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"lender\":\"姓名\",\"borrower\":\"姓名\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\nlender是借出方，borrower是借入方。这两个字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中的完整姓名。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+        }
+      ],
+      "prompt_sha256": "68e4ffae304ec89a46e695edf0131aa5e2dca8197b228ab8e84703da88b20a9c",
+      "sequence": 24,
+      "family_order": 2,
+      "variant_order": 1,
+      "condition_order": 4
+    },
+    {
+      "call_id": "B09-qwen-N02-ROLE_SWAP-NAMES-MAP21",
+      "model": "qwen",
+      "source_id": "N02-ROLE_SWAP",
+      "family_id": "N02",
+      "domain": "lend",
+      "variant": "ROLE_SWAP",
+      "representation": "NAMES",
+      "mapping": "MAP21",
+      "entity_map": {
+        "E1": "许静",
+        "E2": "林涛"
+      },
+      "source_text": "许静把这个充电器借给了林涛。",
+      "role_keys": [
+        "lender",
+        "borrower"
+      ],
+      "role_definitions": "lender是借出方，borrower是借入方。",
+      "messages": [
+        {
+          "role": "user",
+          "content": "根据下面这段文字，记录文中讨论的一个关系命题。只依据文字，不补充常识或背景。\n原文：\"许静把这个充电器借给了林涛。\"\n实体表：E1对应许静；E2对应林涛\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"lender\":\"姓名\",\"borrower\":\"姓名\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\nlender是借出方，borrower是借入方。这两个字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中的完整姓名。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+        }
+      ],
+      "prompt_sha256": "e49043221bd98717e517583aadff8a288c75cc4107e27f1c83d80b4d00c95543",
+      "sequence": 25,
+      "family_order": 2,
+      "variant_order": 2,
+      "condition_order": 1
+    },
+    {
+      "call_id": "B09-qwen-N02-ROLE_SWAP-IDS-MAP21",
+      "model": "qwen",
+      "source_id": "N02-ROLE_SWAP",
+      "family_id": "N02",
+      "domain": "lend",
+      "variant": "ROLE_SWAP",
+      "representation": "IDS",
+      "mapping": "MAP21",
+      "entity_map": {
+        "E1": "许静",
+        "E2": "林涛"
+      },
+      "source_text": "许静把这个充电器借给了林涛。",
+      "role_keys": [
+        "lender",
+        "borrower"
+      ],
+      "role_definitions": "lender是借出方，borrower是借入方。",
+      "messages": [
+        {
+          "role": "user",
+          "content": "根据下面这段文字，记录文中讨论的一个关系命题。只依据文字，不补充常识或背景。\n原文：\"许静把这个充电器借给了林涛。\"\n实体表：E1对应许静；E2对应林涛\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"lender\":\"ID\",\"borrower\":\"ID\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\nlender是借出方，borrower是借入方。这两个字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中相应的E1或E2。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+        }
+      ],
+      "prompt_sha256": "36dae4d2e53bae9a36179147a0c423db28dde993abdb6f097c3ca63157f03d29",
+      "sequence": 26,
+      "family_order": 2,
+      "variant_order": 2,
+      "condition_order": 2
+    },
+    {
+      "call_id": "B09-qwen-N02-ROLE_SWAP-NAMES-MAP12",
+      "model": "qwen",
+      "source_id": "N02-ROLE_SWAP",
+      "family_id": "N02",
+      "domain": "lend",
+      "variant": "ROLE_SWAP",
+      "representation": "NAMES",
+      "mapping": "MAP12",
+      "entity_map": {
+        "E1": "林涛",
+        "E2": "许静"
+      },
+      "source_text": "许静把这个充电器借给了林涛。",
+      "role_keys": [
+        "lender",
+        "borrower"
+      ],
+      "role_definitions": "lender是借出方，borrower是借入方。",
+      "messages": [
+        {
+          "role": "user",
+          "content": "根据下面这段文字，记录文中讨论的一个关系命题。只依据文字，不补充常识或背景。\n原文：\"许静把这个充电器借给了林涛。\"\n实体表：E1对应林涛；E2对应许静\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"lender\":\"姓名\",\"borrower\":\"姓名\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\nlender是借出方，borrower是借入方。这两个字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中的完整姓名。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+        }
+      ],
+      "prompt_sha256": "a7f156bfa9fba43fbd2b87b9a3c026a827c371e74a930a994777f347334ce820",
+      "sequence": 27,
+      "family_order": 2,
+      "variant_order": 2,
+      "condition_order": 3
+    },
+    {
+      "call_id": "B09-qwen-N02-ROLE_SWAP-IDS-MAP12",
+      "model": "qwen",
+      "source_id": "N02-ROLE_SWAP",
+      "family_id": "N02",
+      "domain": "lend",
+      "variant": "ROLE_SWAP",
+      "representation": "IDS",
+      "mapping": "MAP12",
+      "entity_map": {
+        "E1": "林涛",
+        "E2": "许静"
+      },
+      "source_text": "许静把这个充电器借给了林涛。",
+      "role_keys": [
+        "lender",
+        "borrower"
+      ],
+      "role_definitions": "lender是借出方，borrower是借入方。",
+      "messages": [
+        {
+          "role": "user",
+          "content": "根据下面这段文字，记录文中讨论的一个关系命题。只依据文字，不补充常识或背景。\n原文：\"许静把这个充电器借给了林涛。\"\n实体表：E1对应林涛；E2对应许静\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"lender\":\"ID\",\"borrower\":\"ID\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\nlender是借出方，borrower是借入方。这两个字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中相应的E1或E2。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+        }
+      ],
+      "prompt_sha256": "fcab7355b56302ac28033a1cfb628966823c1566727e59bf6f1fd6426f42e058",
+      "sequence": 28,
+      "family_order": 2,
+      "variant_order": 2,
+      "condition_order": 4
+    },
+    {
+      "call_id": "B09-qwen-N02-NEGATED-IDS-MAP21",
+      "model": "qwen",
+      "source_id": "N02-NEGATED",
+      "family_id": "N02",
+      "domain": "lend",
+      "variant": "NEGATED",
+      "representation": "IDS",
+      "mapping": "MAP21",
+      "entity_map": {
+        "E1": "许静",
+        "E2": "林涛"
+      },
+      "source_text": "林涛没有把这个充电器借给许静。",
+      "role_keys": [
+        "lender",
+        "borrower"
+      ],
+      "role_definitions": "lender是借出方，borrower是借入方。",
+      "messages": [
+        {
+          "role": "user",
+          "content": "根据下面这段文字，记录文中讨论的一个关系命题。只依据文字，不补充常识或背景。\n原文：\"林涛没有把这个充电器借给许静。\"\n实体表：E1对应许静；E2对应林涛\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"lender\":\"ID\",\"borrower\":\"ID\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\nlender是借出方，borrower是借入方。这两个字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中相应的E1或E2。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+        }
+      ],
+      "prompt_sha256": "39dc8de8692cf87e542a82b304a0d22f05dc47e870daaed502eeac430d606592",
+      "sequence": 29,
+      "family_order": 2,
+      "variant_order": 3,
+      "condition_order": 1
+    },
+    {
+      "call_id": "B09-qwen-N02-NEGATED-NAMES-MAP12",
+      "model": "qwen",
+      "source_id": "N02-NEGATED",
+      "family_id": "N02",
+      "domain": "lend",
+      "variant": "NEGATED",
+      "representation": "NAMES",
+      "mapping": "MAP12",
+      "entity_map": {
+        "E1": "林涛",
+        "E2": "许静"
+      },
+      "source_text": "林涛没有把这个充电器借给许静。",
+      "role_keys": [
+        "lender",
+        "borrower"
+      ],
+      "role_definitions": "lender是借出方，borrower是借入方。",
+      "messages": [
+        {
+          "role": "user",
+          "content": "根据下面这段文字，记录文中讨论的一个关系命题。只依据文字，不补充常识或背景。\n原文：\"林涛没有把这个充电器借给许静。\"\n实体表：E1对应林涛；E2对应许静\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"lender\":\"姓名\",\"borrower\":\"姓名\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\nlender是借出方，borrower是借入方。这两个字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中的完整姓名。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+        }
+      ],
+      "prompt_sha256": "62c067223de8cd4bc3522888a2943acb546b48581af17a6893ec0d3b9c410119",
+      "sequence": 30,
+      "family_order": 2,
+      "variant_order": 3,
+      "condition_order": 2
+    },
+    {
+      "call_id": "B09-qwen-N02-NEGATED-IDS-MAP12",
+      "model": "qwen",
+      "source_id": "N02-NEGATED",
+      "family_id": "N02",
+      "domain": "lend",
+      "variant": "NEGATED",
+      "representation": "IDS",
+      "mapping": "MAP12",
+      "entity_map": {
+        "E1": "林涛",
+        "E2": "许静"
+      },
+      "source_text": "林涛没有把这个充电器借给许静。",
+      "role_keys": [
+        "lender",
+        "borrower"
+      ],
+      "role_definitions": "lender是借出方，borrower是借入方。",
+      "messages": [
+        {
+          "role": "user",
+          "content": "根据下面这段文字，记录文中讨论的一个关系命题。只依据文字，不补充常识或背景。\n原文：\"林涛没有把这个充电器借给许静。\"\n实体表：E1对应林涛；E2对应许静\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"lender\":\"ID\",\"borrower\":\"ID\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\nlender是借出方，borrower是借入方。这两个字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中相应的E1或E2。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+        }
+      ],
+      "prompt_sha256": "a541c00c790e5bcc850d32d0f328dda6f2c68b7181218f95628888ec0c2dc533",
+      "sequence": 31,
+      "family_order": 2,
+      "variant_order": 3,
+      "condition_order": 3
+    },
+    {
+      "call_id": "B09-qwen-N02-NEGATED-NAMES-MAP21",
+      "model": "qwen",
+      "source_id": "N02-NEGATED",
+      "family_id": "N02",
+      "domain": "lend",
+      "variant": "NEGATED",
+      "representation": "NAMES",
+      "mapping": "MAP21",
+      "entity_map": {
+        "E1": "许静",
+        "E2": "林涛"
+      },
+      "source_text": "林涛没有把这个充电器借给许静。",
+      "role_keys": [
+        "lender",
+        "borrower"
+      ],
+      "role_definitions": "lender是借出方，borrower是借入方。",
+      "messages": [
+        {
+          "role": "user",
+          "content": "根据下面这段文字，记录文中讨论的一个关系命题。只依据文字，不补充常识或背景。\n原文：\"林涛没有把这个充电器借给许静。\"\n实体表：E1对应许静；E2对应林涛\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"lender\":\"姓名\",\"borrower\":\"姓名\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\nlender是借出方，borrower是借入方。这两个字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中的完整姓名。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+        }
+      ],
+      "prompt_sha256": "5087c110b46d8d12cc5bdb716e4d890000cc7c89d747435c7e39211e62667faa",
+      "sequence": 32,
+      "family_order": 2,
+      "variant_order": 3,
+      "condition_order": 4
+    },
+    {
+      "call_id": "B09-qwen-N02-UNRESOLVED-NAMES-MAP12",
+      "model": "qwen",
+      "source_id": "N02-UNRESOLVED",
+      "family_id": "N02",
+      "domain": "lend",
+      "variant": "UNRESOLVED",
+      "representation": "NAMES",
+      "mapping": "MAP12",
+      "entity_map": {
+        "E1": "林涛",
+        "E2": "许静"
+      },
+      "source_text": "工作人员正在核实林涛是否把这个充电器借给了许静，目前尚无结论。",
+      "role_keys": [
+        "lender",
+        "borrower"
+      ],
+      "role_definitions": "lender是借出方，borrower是借入方。",
+      "messages": [
+        {
+          "role": "user",
+          "content": "根据下面这段文字，记录文中讨论的一个关系命题。只依据文字，不补充常识或背景。\n原文：\"工作人员正在核实林涛是否把这个充电器借给了许静，目前尚无结论。\"\n实体表：E1对应林涛；E2对应许静\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"lender\":\"姓名\",\"borrower\":\"姓名\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\nlender是借出方，borrower是借入方。这两个字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中的完整姓名。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+        }
+      ],
+      "prompt_sha256": "ddae4d0683b3fe720eb30f41a6dc8152d7fd2d0567e9f571ced82017a40bacbe",
+      "sequence": 33,
+      "family_order": 2,
+      "variant_order": 4,
+      "condition_order": 1
+    },
+    {
+      "call_id": "B09-qwen-N02-UNRESOLVED-IDS-MAP12",
+      "model": "qwen",
+      "source_id": "N02-UNRESOLVED",
+      "family_id": "N02",
+      "domain": "lend",
+      "variant": "UNRESOLVED",
+      "representation": "IDS",
+      "mapping": "MAP12",
+      "entity_map": {
+        "E1": "林涛",
+        "E2": "许静"
+      },
+      "source_text": "工作人员正在核实林涛是否把这个充电器借给了许静，目前尚无结论。",
+      "role_keys": [
+        "lender",
+        "borrower"
+      ],
+      "role_definitions": "lender是借出方，borrower是借入方。",
+      "messages": [
+        {
+          "role": "user",
+          "content": "根据下面这段文字，记录文中讨论的一个关系命题。只依据文字，不补充常识或背景。\n原文：\"工作人员正在核实林涛是否把这个充电器借给了许静，目前尚无结论。\"\n实体表：E1对应林涛；E2对应许静\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"lender\":\"ID\",\"borrower\":\"ID\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\nlender是借出方，borrower是借入方。这两个字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中相应的E1或E2。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+        }
+      ],
+      "prompt_sha256": "c3941b8a25988307ae3137297f1936533a6c88d3d422c7267ace78fd14bc499f",
+      "sequence": 34,
+      "family_order": 2,
+      "variant_order": 4,
+      "condition_order": 2
+    },
+    {
+      "call_id": "B09-qwen-N02-UNRESOLVED-NAMES-MAP21",
+      "model": "qwen",
+      "source_id": "N02-UNRESOLVED",
+      "family_id": "N02",
+      "domain": "lend",
+      "variant": "UNRESOLVED",
+      "representation": "NAMES",
+      "mapping": "MAP21",
+      "entity_map": {
+        "E1": "许静",
+        "E2": "林涛"
+      },
+      "source_text": "工作人员正在核实林涛是否把这个充电器借给了许静，目前尚无结论。",
+      "role_keys": [
+        "lender",
+        "borrower"
+      ],
+      "role_definitions": "lender是借出方，borrower是借入方。",
+      "messages": [
+        {
+          "role": "user",
+          "content": "根据下面这段文字，记录文中讨论的一个关系命题。只依据文字，不补充常识或背景。\n原文：\"工作人员正在核实林涛是否把这个充电器借给了许静，目前尚无结论。\"\n实体表：E1对应许静；E2对应林涛\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"lender\":\"姓名\",\"borrower\":\"姓名\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\nlender是借出方，borrower是借入方。这两个字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中的完整姓名。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+        }
+      ],
+      "prompt_sha256": "139556e394b58bfe2a1fb7b45891b459be46018542a2bfdc5215e484d2f97b3f",
+      "sequence": 35,
+      "family_order": 2,
+      "variant_order": 4,
+      "condition_order": 3
+    },
+    {
+      "call_id": "B09-qwen-N02-UNRESOLVED-IDS-MAP21",
+      "model": "qwen",
+      "source_id": "N02-UNRESOLVED",
+      "family_id": "N02",
+      "domain": "lend",
+      "variant": "UNRESOLVED",
+      "representation": "IDS",
+      "mapping": "MAP21",
+      "entity_map": {
+        "E1": "许静",
+        "E2": "林涛"
+      },
+      "source_text": "工作人员正在核实林涛是否把这个充电器借给了许静，目前尚无结论。",
+      "role_keys": [
+        "lender",
+        "borrower"
+      ],
+      "role_definitions": "lender是借出方，borrower是借入方。",
+      "messages": [
+        {
+          "role": "user",
+          "content": "根据下面这段文字，记录文中讨论的一个关系命题。只依据文字，不补充常识或背景。\n原文：\"工作人员正在核实林涛是否把这个充电器借给了许静，目前尚无结论。\"\n实体表：E1对应许静；E2对应林涛\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"lender\":\"ID\",\"borrower\":\"ID\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\nlender是借出方，borrower是借入方。这两个字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中相应的E1或E2。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+        }
+      ],
+      "prompt_sha256": "9efb3812d9ccde8b219d18ce891bc424a3edbf92aac178b806ca89ff75000b45",
+      "sequence": 36,
+      "family_order": 2,
+      "variant_order": 4,
+      "condition_order": 4
+    },
+    {
+      "call_id": "B09-qwen-N02-BASE-IDS-MAP12",
+      "model": "qwen",
+      "source_id": "N02-BASE",
+      "family_id": "N02",
+      "domain": "lend",
+      "variant": "BASE",
+      "representation": "IDS",
+      "mapping": "MAP12",
+      "entity_map": {
+        "E1": "林涛",
+        "E2": "许静"
+      },
+      "source_text": "林涛把这个充电器借给了许静。",
+      "role_keys": [
+        "lender",
+        "borrower"
+      ],
+      "role_definitions": "lender是借出方，borrower是借入方。",
+      "messages": [
+        {
+          "role": "user",
+          "content": "根据下面这段文字，记录文中讨论的一个关系命题。只依据文字，不补充常识或背景。\n原文：\"林涛把这个充电器借给了许静。\"\n实体表：E1对应林涛；E2对应许静\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"lender\":\"ID\",\"borrower\":\"ID\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\nlender是借出方，borrower是借入方。这两个字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中相应的E1或E2。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+        }
+      ],
+      "prompt_sha256": "8cc79b3f43689a1aae29ca72555d17fadd00ba5e810d5e0b66cfb6ce5168e798",
+      "sequence": 37,
+      "family_order": 2,
+      "variant_order": 5,
+      "condition_order": 1
+    },
+    {
+      "call_id": "B09-qwen-N02-BASE-NAMES-MAP21",
+      "model": "qwen",
+      "source_id": "N02-BASE",
+      "family_id": "N02",
+      "domain": "lend",
+      "variant": "BASE",
+      "representation": "NAMES",
+      "mapping": "MAP21",
+      "entity_map": {
+        "E1": "许静",
+        "E2": "林涛"
+      },
+      "source_text": "林涛把这个充电器借给了许静。",
+      "role_keys": [
+        "lender",
+        "borrower"
+      ],
+      "role_definitions": "lender是借出方，borrower是借入方。",
+      "messages": [
+        {
+          "role": "user",
+          "content": "根据下面这段文字，记录文中讨论的一个关系命题。只依据文字，不补充常识或背景。\n原文：\"林涛把这个充电器借给了许静。\"\n实体表：E1对应许静；E2对应林涛\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"lender\":\"姓名\",\"borrower\":\"姓名\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\nlender是借出方，borrower是借入方。这两个字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中的完整姓名。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+        }
+      ],
+      "prompt_sha256": "483fc7c578ac7a60a95f4950da5d6096dd62713d4ee5cf2229a7c63236f4be1d",
+      "sequence": 38,
+      "family_order": 2,
+      "variant_order": 5,
+      "condition_order": 2
+    },
+    {
+      "call_id": "B09-qwen-N02-BASE-IDS-MAP21",
+      "model": "qwen",
+      "source_id": "N02-BASE",
+      "family_id": "N02",
+      "domain": "lend",
+      "variant": "BASE",
+      "representation": "IDS",
+      "mapping": "MAP21",
+      "entity_map": {
+        "E1": "许静",
+        "E2": "林涛"
+      },
+      "source_text": "林涛把这个充电器借给了许静。",
+      "role_keys": [
+        "lender",
+        "borrower"
+      ],
+      "role_definitions": "lender是借出方，borrower是借入方。",
+      "messages": [
+        {
+          "role": "user",
+          "content": "根据下面这段文字，记录文中讨论的一个关系命题。只依据文字，不补充常识或背景。\n原文：\"林涛把这个充电器借给了许静。\"\n实体表：E1对应许静；E2对应林涛\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"lender\":\"ID\",\"borrower\":\"ID\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\nlender是借出方，borrower是借入方。这两个字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中相应的E1或E2。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+        }
+      ],
+      "prompt_sha256": "d0df7d4a58c3a02c3275b949cb4c9774f4fa0332e3ebd920ca663503e2217ee2",
+      "sequence": 39,
+      "family_order": 2,
+      "variant_order": 5,
+      "condition_order": 3
+    },
+    {
+      "call_id": "B09-qwen-N02-BASE-NAMES-MAP12",
+      "model": "qwen",
+      "source_id": "N02-BASE",
+      "family_id": "N02",
+      "domain": "lend",
+      "variant": "BASE",
+      "representation": "NAMES",
+      "mapping": "MAP12",
+      "entity_map": {
+        "E1": "林涛",
+        "E2": "许静"
+      },
+      "source_text": "林涛把这个充电器借给了许静。",
+      "role_keys": [
+        "lender",
+        "borrower"
+      ],
+      "role_definitions": "lender是借出方，borrower是借入方。",
+      "messages": [
+        {
+          "role": "user",
+          "content": "根据下面这段文字，记录文中讨论的一个关系命题。只依据文字，不补充常识或背景。\n原文：\"林涛把这个充电器借给了许静。\"\n实体表：E1对应林涛；E2对应许静\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"lender\":\"姓名\",\"borrower\":\"姓名\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\nlender是借出方，borrower是借入方。这两个字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中的完整姓名。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+        }
+      ],
+      "prompt_sha256": "c306d3b8ee737891d54d05f7b2aa371e5a875cba70bc287a9d343b1aa8fdfd95",
+      "sequence": 40,
+      "family_order": 2,
+      "variant_order": 5,
+      "condition_order": 4
+    },
+    {
+      "call_id": "B09-qwen-N03-ROLE_SWAP-NAMES-MAP21",
+      "model": "qwen",
+      "source_id": "N03-ROLE_SWAP",
+      "family_id": "N03",
+      "domain": "sell",
+      "variant": "ROLE_SWAP",
+      "representation": "NAMES",
+      "mapping": "MAP21",
+      "entity_map": {
+        "E1": "刘宁",
+        "E2": "王晨"
+      },
+      "source_text": "刘宁把这辆自行车卖给了王晨。",
+      "role_keys": [
+        "seller",
+        "buyer"
+      ],
+      "role_definitions": "seller是卖出方，buyer是买入方。",
+      "messages": [
+        {
+          "role": "user",
+          "content": "根据下面这段文字，记录文中讨论的一个关系命题。只依据文字，不补充常识或背景。\n原文：\"刘宁把这辆自行车卖给了王晨。\"\n实体表：E1对应刘宁；E2对应王晨\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"seller\":\"姓名\",\"buyer\":\"姓名\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\nseller是卖出方，buyer是买入方。这两个字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中的完整姓名。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+        }
+      ],
+      "prompt_sha256": "18fe30d1ce820826cc2471e8c78444c85b29a69a4f3d1e00ce13ff8e8203f3f1",
+      "sequence": 41,
+      "family_order": 3,
+      "variant_order": 1,
+      "condition_order": 1
+    },
+    {
+      "call_id": "B09-qwen-N03-ROLE_SWAP-IDS-MAP21",
+      "model": "qwen",
+      "source_id": "N03-ROLE_SWAP",
+      "family_id": "N03",
+      "domain": "sell",
+      "variant": "ROLE_SWAP",
+      "representation": "IDS",
+      "mapping": "MAP21",
+      "entity_map": {
+        "E1": "刘宁",
+        "E2": "王晨"
+      },
+      "source_text": "刘宁把这辆自行车卖给了王晨。",
+      "role_keys": [
+        "seller",
+        "buyer"
+      ],
+      "role_definitions": "seller是卖出方，buyer是买入方。",
+      "messages": [
+        {
+          "role": "user",
+          "content": "根据下面这段文字，记录文中讨论的一个关系命题。只依据文字，不补充常识或背景。\n原文：\"刘宁把这辆自行车卖给了王晨。\"\n实体表：E1对应刘宁；E2对应王晨\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"seller\":\"ID\",\"buyer\":\"ID\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\nseller是卖出方，buyer是买入方。这两个字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中相应的E1或E2。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+        }
+      ],
+      "prompt_sha256": "0cf50274f9f2b637de750b4d99d8ba88f4264fa0ed04eb60f9bde30d3ed03296",
+      "sequence": 42,
+      "family_order": 3,
+      "variant_order": 1,
+      "condition_order": 2
+    },
+    {
+      "call_id": "B09-qwen-N03-ROLE_SWAP-NAMES-MAP12",
+      "model": "qwen",
+      "source_id": "N03-ROLE_SWAP",
+      "family_id": "N03",
+      "domain": "sell",
+      "variant": "ROLE_SWAP",
+      "representation": "NAMES",
+      "mapping": "MAP12",
+      "entity_map": {
+        "E1": "王晨",
+        "E2": "刘宁"
+      },
+      "source_text": "刘宁把这辆自行车卖给了王晨。",
+      "role_keys": [
+        "seller",
+        "buyer"
+      ],
+      "role_definitions": "seller是卖出方，buyer是买入方。",
+      "messages": [
+        {
+          "role": "user",
+          "content": "根据下面这段文字，记录文中讨论的一个关系命题。只依据文字，不补充常识或背景。\n原文：\"刘宁把这辆自行车卖给了王晨。\"\n实体表：E1对应王晨；E2对应刘宁\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"seller\":\"姓名\",\"buyer\":\"姓名\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\nseller是卖出方，buyer是买入方。这两个字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中的完整姓名。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+        }
+      ],
+      "prompt_sha256": "69017bb63150b74925ebd1a69eeb22442444b0316d24b748c72e7f98675bd200",
+      "sequence": 43,
+      "family_order": 3,
+      "variant_order": 1,
+      "condition_order": 3
+    },
+    {
+      "call_id": "B09-qwen-N03-ROLE_SWAP-IDS-MAP12",
+      "model": "qwen",
+      "source_id": "N03-ROLE_SWAP",
+      "family_id": "N03",
+      "domain": "sell",
+      "variant": "ROLE_SWAP",
+      "representation": "IDS",
+      "mapping": "MAP12",
+      "entity_map": {
+        "E1": "王晨",
+        "E2": "刘宁"
+      },
+      "source_text": "刘宁把这辆自行车卖给了王晨。",
+      "role_keys": [
+        "seller",
+        "buyer"
+      ],
+      "role_definitions": "seller是卖出方，buyer是买入方。",
+      "messages": [
+        {
+          "role": "user",
+          "content": "根据下面这段文字，记录文中讨论的一个关系命题。只依据文字，不补充常识或背景。\n原文：\"刘宁把这辆自行车卖给了王晨。\"\n实体表：E1对应王晨；E2对应刘宁\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"seller\":\"ID\",\"buyer\":\"ID\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\nseller是卖出方，buyer是买入方。这两个字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中相应的E1或E2。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+        }
+      ],
+      "prompt_sha256": "a0bdcb68aac970ffb7c4b77d50f3eb5c4fcd10fdb15035d2eb8c7e6ca919b92b",
+      "sequence": 44,
+      "family_order": 3,
+      "variant_order": 1,
+      "condition_order": 4
+    },
+    {
+      "call_id": "B09-qwen-N03-NEGATED-IDS-MAP21",
+      "model": "qwen",
+      "source_id": "N03-NEGATED",
+      "family_id": "N03",
+      "domain": "sell",
+      "variant": "NEGATED",
+      "representation": "IDS",
+      "mapping": "MAP21",
+      "entity_map": {
+        "E1": "刘宁",
+        "E2": "王晨"
+      },
+      "source_text": "王晨没有把这辆自行车卖给刘宁。",
+      "role_keys": [
+        "seller",
+        "buyer"
+      ],
+      "role_definitions": "seller是卖出方，buyer是买入方。",
+      "messages": [
+        {
+          "role": "user",
+          "content": "根据下面这段文字，记录文中讨论的一个关系命题。只依据文字，不补充常识或背景。\n原文：\"王晨没有把这辆自行车卖给刘宁。\"\n实体表：E1对应刘宁；E2对应王晨\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"seller\":\"ID\",\"buyer\":\"ID\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\nseller是卖出方，buyer是买入方。这两个字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中相应的E1或E2。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+        }
+      ],
+      "prompt_sha256": "bb06641f6f12445e61ffe5c222a6de68820b96b4466f65040420a34bc0659420",
+      "sequence": 45,
+      "family_order": 3,
+      "variant_order": 2,
+      "condition_order": 1
+    },
+    {
+      "call_id": "B09-qwen-N03-NEGATED-NAMES-MAP12",
+      "model": "qwen",
+      "source_id": "N03-NEGATED",
+      "family_id": "N03",
+      "domain": "sell",
+      "variant": "NEGATED",
+      "representation": "NAMES",
+      "mapping": "MAP12",
+      "entity_map": {
+        "E1": "王晨",
+        "E2": "刘宁"
+      },
+      "source_text": "王晨没有把这辆自行车卖给刘宁。",
+      "role_keys": [
+        "seller",
+        "buyer"
+      ],
+      "role_definitions": "seller是卖出方，buyer是买入方。",
+      "messages": [
+        {
+          "role": "user",
+          "content": "根据下面这段文字，记录文中讨论的一个关系命题。只依据文字，不补充常识或背景。\n原文：\"王晨没有把这辆自行车卖给刘宁。\"\n实体表：E1对应王晨；E2对应刘宁\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"seller\":\"姓名\",\"buyer\":\"姓名\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\nseller是卖出方，buyer是买入方。这两个字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中的完整姓名。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+        }
+      ],
+      "prompt_sha256": "fe0b9dbb3cdbce55c2ebd7a6d0235a796add81f0440d72e86a80a74894b41e6c",
+      "sequence": 46,
+      "family_order": 3,
+      "variant_order": 2,
+      "condition_order": 2
+    },
+    {
+      "call_id": "B09-qwen-N03-NEGATED-IDS-MAP12",
+      "model": "qwen",
+      "source_id": "N03-NEGATED",
+      "family_id": "N03",
+      "domain": "sell",
+      "variant": "NEGATED",
+      "representation": "IDS",
+      "mapping": "MAP12",
+      "entity_map": {
+        "E1": "王晨",
+        "E2": "刘宁"
+      },
+      "source_text": "王晨没有把这辆自行车卖给刘宁。",
+      "role_keys": [
+        "seller",
+        "buyer"
+      ],
+      "role_definitions": "seller是卖出方，buyer是买入方。",
+      "messages": [
+        {
+          "role": "user",
+          "content": "根据下面这段文字，记录文中讨论的一个关系命题。只依据文字，不补充常识或背景。\n原文：\"王晨没有把这辆自行车卖给刘宁。\"\n实体表：E1对应王晨；E2对应刘宁\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"seller\":\"ID\",\"buyer\":\"ID\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\nseller是卖出方，buyer是买入方。这两个字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中相应的E1或E2。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+        }
+      ],
+      "prompt_sha256": "668a9f8941762644f9239a24f7feb3f4941db98285b5ee20cc02dec601ef5caa",
+      "sequence": 47,
+      "family_order": 3,
+      "variant_order": 2,
+      "condition_order": 3
+    },
+    {
+      "call_id": "B09-qwen-N03-NEGATED-NAMES-MAP21",
+      "model": "qwen",
+      "source_id": "N03-NEGATED",
+      "family_id": "N03",
+      "domain": "sell",
+      "variant": "NEGATED",
+      "representation": "NAMES",
+      "mapping": "MAP21",
+      "entity_map": {
+        "E1": "刘宁",
+        "E2": "王晨"
+      },
+      "source_text": "王晨没有把这辆自行车卖给刘宁。",
+      "role_keys": [
+        "seller",
+        "buyer"
+      ],
+      "role_definitions": "seller是卖出方，buyer是买入方。",
+      "messages": [
+        {
+          "role": "user",
+          "content": "根据下面这段文字，记录文中讨论的一个关系命题。只依据文字，不补充常识或背景。\n原文：\"王晨没有把这辆自行车卖给刘宁。\"\n实体表：E1对应刘宁；E2对应王晨\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"seller\":\"姓名\",\"buyer\":\"姓名\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\nseller是卖出方，buyer是买入方。这两个字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中的完整姓名。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+        }
+      ],
+      "prompt_sha256": "6ae04e3bd61b039f11cfef5d45b271974b4be268371511301af07e79b29699ce",
+      "sequence": 48,
+      "family_order": 3,
+      "variant_order": 2,
+      "condition_order": 4
+    },
+    {
+      "call_id": "B09-qwen-N03-UNRESOLVED-NAMES-MAP12",
+      "model": "qwen",
+      "source_id": "N03-UNRESOLVED",
+      "family_id": "N03",
+      "domain": "sell",
+      "variant": "UNRESOLVED",
+      "representation": "NAMES",
+      "mapping": "MAP12",
+      "entity_map": {
+        "E1": "王晨",
+        "E2": "刘宁"
+      },
+      "source_text": "工作人员正在核实王晨是否把这辆自行车卖给了刘宁，目前尚无结论。",
+      "role_keys": [
+        "seller",
+        "buyer"
+      ],
+      "role_definitions": "seller是卖出方，buyer是买入方。",
+      "messages": [
+        {
+          "role": "user",
+          "content": "根据下面这段文字，记录文中讨论的一个关系命题。只依据文字，不补充常识或背景。\n原文：\"工作人员正在核实王晨是否把这辆自行车卖给了刘宁，目前尚无结论。\"\n实体表：E1对应王晨；E2对应刘宁\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"seller\":\"姓名\",\"buyer\":\"姓名\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\nseller是卖出方，buyer是买入方。这两个字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中的完整姓名。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+        }
+      ],
+      "prompt_sha256": "c9af18706fd89789420e978b05ef0dd82245ef92bffbed777a7ce39d7c071e1b",
+      "sequence": 49,
+      "family_order": 3,
+      "variant_order": 3,
+      "condition_order": 1
+    },
+    {
+      "call_id": "B09-qwen-N03-UNRESOLVED-IDS-MAP12",
+      "model": "qwen",
+      "source_id": "N03-UNRESOLVED",
+      "family_id": "N03",
+      "domain": "sell",
+      "variant": "UNRESOLVED",
+      "representation": "IDS",
+      "mapping": "MAP12",
+      "entity_map": {
+        "E1": "王晨",
+        "E2": "刘宁"
+      },
+      "source_text": "工作人员正在核实王晨是否把这辆自行车卖给了刘宁，目前尚无结论。",
+      "role_keys": [
+        "seller",
+        "buyer"
+      ],
+      "role_definitions": "seller是卖出方，buyer是买入方。",
+      "messages": [
+        {
+          "role": "user",
+          "content": "根据下面这段文字，记录文中讨论的一个关系命题。只依据文字，不补充常识或背景。\n原文：\"工作人员正在核实王晨是否把这辆自行车卖给了刘宁，目前尚无结论。\"\n实体表：E1对应王晨；E2对应刘宁\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"seller\":\"ID\",\"buyer\":\"ID\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\nseller是卖出方，buyer是买入方。这两个字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中相应的E1或E2。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+        }
+      ],
+      "prompt_sha256": "23bd0b5307365f18413909578b15dbb5d4be59da852d053be4da6caa6c27cf3f",
+      "sequence": 50,
+      "family_order": 3,
+      "variant_order": 3,
+      "condition_order": 2
+    },
+    {
+      "call_id": "B09-qwen-N03-UNRESOLVED-NAMES-MAP21",
+      "model": "qwen",
+      "source_id": "N03-UNRESOLVED",
+      "family_id": "N03",
+      "domain": "sell",
+      "variant": "UNRESOLVED",
+      "representation": "NAMES",
+      "mapping": "MAP21",
+      "entity_map": {
+        "E1": "刘宁",
+        "E2": "王晨"
+      },
+      "source_text": "工作人员正在核实王晨是否把这辆自行车卖给了刘宁，目前尚无结论。",
+      "role_keys": [
+        "seller",
+        "buyer"
+      ],
+      "role_definitions": "seller是卖出方，buyer是买入方。",
+      "messages": [
+        {
+          "role": "user",
+          "content": "根据下面这段文字，记录文中讨论的一个关系命题。只依据文字，不补充常识或背景。\n原文：\"工作人员正在核实王晨是否把这辆自行车卖给了刘宁，目前尚无结论。\"\n实体表：E1对应刘宁；E2对应王晨\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"seller\":\"姓名\",\"buyer\":\"姓名\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\nseller是卖出方，buyer是买入方。这两个字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中的完整姓名。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+        }
+      ],
+      "prompt_sha256": "28c4ff73e262cd9aa57037b8ca700f62b07a655fc93e813d57743e440ed99626",
+      "sequence": 51,
+      "family_order": 3,
+      "variant_order": 3,
+      "condition_order": 3
+    },
+    {
+      "call_id": "B09-qwen-N03-UNRESOLVED-IDS-MAP21",
+      "model": "qwen",
+      "source_id": "N03-UNRESOLVED",
+      "family_id": "N03",
+      "domain": "sell",
+      "variant": "UNRESOLVED",
+      "representation": "IDS",
+      "mapping": "MAP21",
+      "entity_map": {
+        "E1": "刘宁",
+        "E2": "王晨"
+      },
+      "source_text": "工作人员正在核实王晨是否把这辆自行车卖给了刘宁，目前尚无结论。",
+      "role_keys": [
+        "seller",
+        "buyer"
+      ],
+      "role_definitions": "seller是卖出方，buyer是买入方。",
+      "messages": [
+        {
+          "role": "user",
+          "content": "根据下面这段文字，记录文中讨论的一个关系命题。只依据文字，不补充常识或背景。\n原文：\"工作人员正在核实王晨是否把这辆自行车卖给了刘宁，目前尚无结论。\"\n实体表：E1对应刘宁；E2对应王晨\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"seller\":\"ID\",\"buyer\":\"ID\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\nseller是卖出方，buyer是买入方。这两个字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中相应的E1或E2。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+        }
+      ],
+      "prompt_sha256": "18df18f6a4af7489fbe1aee5308f72c9d2f8b498e0fcd4d8219ff2aa4f98d15e",
+      "sequence": 52,
+      "family_order": 3,
+      "variant_order": 3,
+      "condition_order": 4
+    },
+    {
+      "call_id": "B09-qwen-N03-BASE-IDS-MAP12",
+      "model": "qwen",
+      "source_id": "N03-BASE",
+      "family_id": "N03",
+      "domain": "sell",
+      "variant": "BASE",
+      "representation": "IDS",
+      "mapping": "MAP12",
+      "entity_map": {
+        "E1": "王晨",
+        "E2": "刘宁"
+      },
+      "source_text": "王晨把这辆自行车卖给了刘宁。",
+      "role_keys": [
+        "seller",
+        "buyer"
+      ],
+      "role_definitions": "seller是卖出方，buyer是买入方。",
+      "messages": [
+        {
+          "role": "user",
+          "content": "根据下面这段文字，记录文中讨论的一个关系命题。只依据文字，不补充常识或背景。\n原文：\"王晨把这辆自行车卖给了刘宁。\"\n实体表：E1对应王晨；E2对应刘宁\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"seller\":\"ID\",\"buyer\":\"ID\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\nseller是卖出方，buyer是买入方。这两个字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中相应的E1或E2。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+        }
+      ],
+      "prompt_sha256": "921a726e9ba606de95d248c570776b4a27a9ada5987b3d4d565e97c9aac5fdb5",
+      "sequence": 53,
+      "family_order": 3,
+      "variant_order": 4,
+      "condition_order": 1
+    },
+    {
+      "call_id": "B09-qwen-N03-BASE-NAMES-MAP21",
+      "model": "qwen",
+      "source_id": "N03-BASE",
+      "family_id": "N03",
+      "domain": "sell",
+      "variant": "BASE",
+      "representation": "NAMES",
+      "mapping": "MAP21",
+      "entity_map": {
+        "E1": "刘宁",
+        "E2": "王晨"
+      },
+      "source_text": "王晨把这辆自行车卖给了刘宁。",
+      "role_keys": [
+        "seller",
+        "buyer"
+      ],
+      "role_definitions": "seller是卖出方，buyer是买入方。",
+      "messages": [
+        {
+          "role": "user",
+          "content": "根据下面这段文字，记录文中讨论的一个关系命题。只依据文字，不补充常识或背景。\n原文：\"王晨把这辆自行车卖给了刘宁。\"\n实体表：E1对应刘宁；E2对应王晨\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"seller\":\"姓名\",\"buyer\":\"姓名\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\nseller是卖出方，buyer是买入方。这两个字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中的完整姓名。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+        }
+      ],
+      "prompt_sha256": "7bc655bcf865c4ecf3d526444725682c74c8e4535a7a5ce2aa4f402e13ae895a",
+      "sequence": 54,
+      "family_order": 3,
+      "variant_order": 4,
+      "condition_order": 2
+    },
+    {
+      "call_id": "B09-qwen-N03-BASE-IDS-MAP21",
+      "model": "qwen",
+      "source_id": "N03-BASE",
+      "family_id": "N03",
+      "domain": "sell",
+      "variant": "BASE",
+      "representation": "IDS",
+      "mapping": "MAP21",
+      "entity_map": {
+        "E1": "刘宁",
+        "E2": "王晨"
+      },
+      "source_text": "王晨把这辆自行车卖给了刘宁。",
+      "role_keys": [
+        "seller",
+        "buyer"
+      ],
+      "role_definitions": "seller是卖出方，buyer是买入方。",
+      "messages": [
+        {
+          "role": "user",
+          "content": "根据下面这段文字，记录文中讨论的一个关系命题。只依据文字，不补充常识或背景。\n原文：\"王晨把这辆自行车卖给了刘宁。\"\n实体表：E1对应刘宁；E2对应王晨\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"seller\":\"ID\",\"buyer\":\"ID\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\nseller是卖出方，buyer是买入方。这两个字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中相应的E1或E2。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+        }
+      ],
+      "prompt_sha256": "f8aabce0ffa6cfc6a4745f123aec9fade52015f981eebff211638ea2283b76b2",
+      "sequence": 55,
+      "family_order": 3,
+      "variant_order": 4,
+      "condition_order": 3
+    },
+    {
+      "call_id": "B09-qwen-N03-BASE-NAMES-MAP12",
+      "model": "qwen",
+      "source_id": "N03-BASE",
+      "family_id": "N03",
+      "domain": "sell",
+      "variant": "BASE",
+      "representation": "NAMES",
+      "mapping": "MAP12",
+      "entity_map": {
+        "E1": "王晨",
+        "E2": "刘宁"
+      },
+      "source_text": "王晨把这辆自行车卖给了刘宁。",
+      "role_keys": [
+        "seller",
+        "buyer"
+      ],
+      "role_definitions": "seller是卖出方，buyer是买入方。",
+      "messages": [
+        {
+          "role": "user",
+          "content": "根据下面这段文字，记录文中讨论的一个关系命题。只依据文字，不补充常识或背景。\n原文：\"王晨把这辆自行车卖给了刘宁。\"\n实体表：E1对应王晨；E2对应刘宁\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"seller\":\"姓名\",\"buyer\":\"姓名\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\nseller是卖出方，buyer是买入方。这两个字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中的完整姓名。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+        }
+      ],
+      "prompt_sha256": "8eea7e7034242d0205ecfb3cd0be7de92b1294b35233505d099f4a20858da4ff",
+      "sequence": 56,
+      "family_order": 3,
+      "variant_order": 4,
+      "condition_order": 4
+    },
+    {
+      "call_id": "B09-qwen-N03-PARAPHRASE-NAMES-MAP21",
+      "model": "qwen",
+      "source_id": "N03-PARAPHRASE",
+      "family_id": "N03",
+      "domain": "sell",
+      "variant": "PARAPHRASE",
+      "representation": "NAMES",
+      "mapping": "MAP21",
+      "entity_map": {
+        "E1": "刘宁",
+        "E2": "王晨"
+      },
+      "source_text": "刘宁从王晨那里买到了这辆自行车。",
+      "role_keys": [
+        "seller",
+        "buyer"
+      ],
+      "role_definitions": "seller是卖出方，buyer是买入方。",
+      "messages": [
+        {
+          "role": "user",
+          "content": "根据下面这段文字，记录文中讨论的一个关系命题。只依据文字，不补充常识或背景。\n原文：\"刘宁从王晨那里买到了这辆自行车。\"\n实体表：E1对应刘宁；E2对应王晨\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"seller\":\"姓名\",\"buyer\":\"姓名\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\nseller是卖出方，buyer是买入方。这两个字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中的完整姓名。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+        }
+      ],
+      "prompt_sha256": "81d90c9d5bc856944f68080d91ab9eabcf0fa65c9437e6e6a6720074b6a970c5",
+      "sequence": 57,
+      "family_order": 3,
+      "variant_order": 5,
+      "condition_order": 1
+    },
+    {
+      "call_id": "B09-qwen-N03-PARAPHRASE-IDS-MAP21",
+      "model": "qwen",
+      "source_id": "N03-PARAPHRASE",
+      "family_id": "N03",
+      "domain": "sell",
+      "variant": "PARAPHRASE",
+      "representation": "IDS",
+      "mapping": "MAP21",
+      "entity_map": {
+        "E1": "刘宁",
+        "E2": "王晨"
+      },
+      "source_text": "刘宁从王晨那里买到了这辆自行车。",
+      "role_keys": [
+        "seller",
+        "buyer"
+      ],
+      "role_definitions": "seller是卖出方，buyer是买入方。",
+      "messages": [
+        {
+          "role": "user",
+          "content": "根据下面这段文字，记录文中讨论的一个关系命题。只依据文字，不补充常识或背景。\n原文：\"刘宁从王晨那里买到了这辆自行车。\"\n实体表：E1对应刘宁；E2对应王晨\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"seller\":\"ID\",\"buyer\":\"ID\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\nseller是卖出方，buyer是买入方。这两个字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中相应的E1或E2。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+        }
+      ],
+      "prompt_sha256": "aab8394aa6a3efd97f072094542f68e402f7a700d4ba5ca67478af4a83a0d5bb",
+      "sequence": 58,
+      "family_order": 3,
+      "variant_order": 5,
+      "condition_order": 2
+    },
+    {
+      "call_id": "B09-qwen-N03-PARAPHRASE-NAMES-MAP12",
+      "model": "qwen",
+      "source_id": "N03-PARAPHRASE",
+      "family_id": "N03",
+      "domain": "sell",
+      "variant": "PARAPHRASE",
+      "representation": "NAMES",
+      "mapping": "MAP12",
+      "entity_map": {
+        "E1": "王晨",
+        "E2": "刘宁"
+      },
+      "source_text": "刘宁从王晨那里买到了这辆自行车。",
+      "role_keys": [
+        "seller",
+        "buyer"
+      ],
+      "role_definitions": "seller是卖出方，buyer是买入方。",
+      "messages": [
+        {
+          "role": "user",
+          "content": "根据下面这段文字，记录文中讨论的一个关系命题。只依据文字，不补充常识或背景。\n原文：\"刘宁从王晨那里买到了这辆自行车。\"\n实体表：E1对应王晨；E2对应刘宁\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"seller\":\"姓名\",\"buyer\":\"姓名\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\nseller是卖出方，buyer是买入方。这两个字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中的完整姓名。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+        }
+      ],
+      "prompt_sha256": "ecfab223a81f313f61a8470a921dc4c3117c2de128ffd988b46ee0192d9caf0d",
+      "sequence": 59,
+      "family_order": 3,
+      "variant_order": 5,
+      "condition_order": 3
+    },
+    {
+      "call_id": "B09-qwen-N03-PARAPHRASE-IDS-MAP12",
+      "model": "qwen",
+      "source_id": "N03-PARAPHRASE",
+      "family_id": "N03",
+      "domain": "sell",
+      "variant": "PARAPHRASE",
+      "representation": "IDS",
+      "mapping": "MAP12",
+      "entity_map": {
+        "E1": "王晨",
+        "E2": "刘宁"
+      },
+      "source_text": "刘宁从王晨那里买到了这辆自行车。",
+      "role_keys": [
+        "seller",
+        "buyer"
+      ],
+      "role_definitions": "seller是卖出方，buyer是买入方。",
+      "messages": [
+        {
+          "role": "user",
+          "content": "根据下面这段文字，记录文中讨论的一个关系命题。只依据文字，不补充常识或背景。\n原文：\"刘宁从王晨那里买到了这辆自行车。\"\n实体表：E1对应王晨；E2对应刘宁\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"seller\":\"ID\",\"buyer\":\"ID\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\nseller是卖出方，buyer是买入方。这两个字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中相应的E1或E2。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+        }
+      ],
+      "prompt_sha256": "96018a1a9b34f755f22ccaec8f60eaad4fa3f1eb1848e92a88dd4dcc6b3b56b0",
+      "sequence": 60,
+      "family_order": 3,
+      "variant_order": 5,
+      "condition_order": 4
+    },
+    {
+      "call_id": "B09-qwen-N04-NEGATED-IDS-MAP21",
+      "model": "qwen",
+      "source_id": "N04-NEGATED",
+      "family_id": "N04",
+      "domain": "sell",
+      "variant": "NEGATED",
+      "representation": "IDS",
+      "mapping": "MAP21",
+      "entity_map": {
+        "E1": "赵凯",
+        "E2": "苏敏"
+      },
+      "source_text": "苏敏没有把这盏台灯卖给赵凯。",
+      "role_keys": [
+        "seller",
+        "buyer"
+      ],
+      "role_definitions": "seller是卖出方，buyer是买入方。",
+      "messages": [
+        {
+          "role": "user",
+          "content": "根据下面这段文字，记录文中讨论的一个关系命题。只依据文字，不补充常识或背景。\n原文：\"苏敏没有把这盏台灯卖给赵凯。\"\n实体表：E1对应赵凯；E2对应苏敏\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"seller\":\"ID\",\"buyer\":\"ID\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\nseller是卖出方，buyer是买入方。这两个字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中相应的E1或E2。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+        }
+      ],
+      "prompt_sha256": "b4e599ac24656bc011b030c08faeb4ddec36ed6ddbd52b069dec644f72ee758a",
+      "sequence": 61,
+      "family_order": 4,
+      "variant_order": 1,
+      "condition_order": 1
+    },
+    {
+      "call_id": "B09-qwen-N04-NEGATED-NAMES-MAP12",
+      "model": "qwen",
+      "source_id": "N04-NEGATED",
+      "family_id": "N04",
+      "domain": "sell",
+      "variant": "NEGATED",
+      "representation": "NAMES",
+      "mapping": "MAP12",
+      "entity_map": {
+        "E1": "苏敏",
+        "E2": "赵凯"
+      },
+      "source_text": "苏敏没有把这盏台灯卖给赵凯。",
+      "role_keys": [
+        "seller",
+        "buyer"
+      ],
+      "role_definitions": "seller是卖出方，buyer是买入方。",
+      "messages": [
+        {
+          "role": "user",
+          "content": "根据下面这段文字，记录文中讨论的一个关系命题。只依据文字，不补充常识或背景。\n原文：\"苏敏没有把这盏台灯卖给赵凯。\"\n实体表：E1对应苏敏；E2对应赵凯\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"seller\":\"姓名\",\"buyer\":\"姓名\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\nseller是卖出方，buyer是买入方。这两个字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中的完整姓名。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+        }
+      ],
+      "prompt_sha256": "c50f4681f7021ad786a5714f7ad5e94b41fc2bf9579f2eaa163cff70be652590",
+      "sequence": 62,
+      "family_order": 4,
+      "variant_order": 1,
+      "condition_order": 2
+    },
+    {
+      "call_id": "B09-qwen-N04-NEGATED-IDS-MAP12",
+      "model": "qwen",
+      "source_id": "N04-NEGATED",
+      "family_id": "N04",
+      "domain": "sell",
+      "variant": "NEGATED",
+      "representation": "IDS",
+      "mapping": "MAP12",
+      "entity_map": {
+        "E1": "苏敏",
+        "E2": "赵凯"
+      },
+      "source_text": "苏敏没有把这盏台灯卖给赵凯。",
+      "role_keys": [
+        "seller",
+        "buyer"
+      ],
+      "role_definitions": "seller是卖出方，buyer是买入方。",
+      "messages": [
+        {
+          "role": "user",
+          "content": "根据下面这段文字，记录文中讨论的一个关系命题。只依据文字，不补充常识或背景。\n原文：\"苏敏没有把这盏台灯卖给赵凯。\"\n实体表：E1对应苏敏；E2对应赵凯\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"seller\":\"ID\",\"buyer\":\"ID\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\nseller是卖出方，buyer是买入方。这两个字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中相应的E1或E2。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+        }
+      ],
+      "prompt_sha256": "473a5aa7d59600b929adff6cf65e4a67641be66c64d104bc75cdd322c355ba12",
+      "sequence": 63,
+      "family_order": 4,
+      "variant_order": 1,
+      "condition_order": 3
+    },
+    {
+      "call_id": "B09-qwen-N04-NEGATED-NAMES-MAP21",
+      "model": "qwen",
+      "source_id": "N04-NEGATED",
+      "family_id": "N04",
+      "domain": "sell",
+      "variant": "NEGATED",
+      "representation": "NAMES",
+      "mapping": "MAP21",
+      "entity_map": {
+        "E1": "赵凯",
+        "E2": "苏敏"
+      },
+      "source_text": "苏敏没有把这盏台灯卖给赵凯。",
+      "role_keys": [
+        "seller",
+        "buyer"
+      ],
+      "role_definitions": "seller是卖出方，buyer是买入方。",
+      "messages": [
+        {
+          "role": "user",
+          "content": "根据下面这段文字，记录文中讨论的一个关系命题。只依据文字，不补充常识或背景。\n原文：\"苏敏没有把这盏台灯卖给赵凯。\"\n实体表：E1对应赵凯；E2对应苏敏\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"seller\":\"姓名\",\"buyer\":\"姓名\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\nseller是卖出方，buyer是买入方。这两个字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中的完整姓名。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+        }
+      ],
+      "prompt_sha256": "f7543a07a31c9570d9c799212ea1df2b826b3c5bc7964edd13b1272696b72e79",
+      "sequence": 64,
+      "family_order": 4,
+      "variant_order": 1,
+      "condition_order": 4
+    },
+    {
+      "call_id": "B09-qwen-N04-UNRESOLVED-NAMES-MAP12",
+      "model": "qwen",
+      "source_id": "N04-UNRESOLVED",
+      "family_id": "N04",
+      "domain": "sell",
+      "variant": "UNRESOLVED",
+      "representation": "NAMES",
+      "mapping": "MAP12",
+      "entity_map": {
+        "E1": "苏敏",
+        "E2": "赵凯"
+      },
+      "source_text": "工作人员正在核实苏敏是否把这盏台灯卖给了赵凯，目前尚无结论。",
+      "role_keys": [
+        "seller",
+        "buyer"
+      ],
+      "role_definitions": "seller是卖出方，buyer是买入方。",
+      "messages": [
+        {
+          "role": "user",
+          "content": "根据下面这段文字，记录文中讨论的一个关系命题。只依据文字，不补充常识或背景。\n原文：\"工作人员正在核实苏敏是否把这盏台灯卖给了赵凯，目前尚无结论。\"\n实体表：E1对应苏敏；E2对应赵凯\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"seller\":\"姓名\",\"buyer\":\"姓名\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\nseller是卖出方，buyer是买入方。这两个字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中的完整姓名。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+        }
+      ],
+      "prompt_sha256": "e022fef7ff4f682cb9118781293ae2fa507b93be6cc30bc913ab5b0418655b07",
+      "sequence": 65,
+      "family_order": 4,
+      "variant_order": 2,
+      "condition_order": 1
+    },
+    {
+      "call_id": "B09-qwen-N04-UNRESOLVED-IDS-MAP12",
+      "model": "qwen",
+      "source_id": "N04-UNRESOLVED",
+      "family_id": "N04",
+      "domain": "sell",
+      "variant": "UNRESOLVED",
+      "representation": "IDS",
+      "mapping": "MAP12",
+      "entity_map": {
+        "E1": "苏敏",
+        "E2": "赵凯"
+      },
+      "source_text": "工作人员正在核实苏敏是否把这盏台灯卖给了赵凯，目前尚无结论。",
+      "role_keys": [
+        "seller",
+        "buyer"
+      ],
+      "role_definitions": "seller是卖出方，buyer是买入方。",
+      "messages": [
+        {
+          "role": "user",
+          "content": "根据下面这段文字，记录文中讨论的一个关系命题。只依据文字，不补充常识或背景。\n原文：\"工作人员正在核实苏敏是否把这盏台灯卖给了赵凯，目前尚无结论。\"\n实体表：E1对应苏敏；E2对应赵凯\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"seller\":\"ID\",\"buyer\":\"ID\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\nseller是卖出方，buyer是买入方。这两个字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中相应的E1或E2。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+        }
+      ],
+      "prompt_sha256": "dd542fc8b7c59605708c2c4ee676f60d9bd352e06fa4165809e8edaa97d0ac9c",
+      "sequence": 66,
+      "family_order": 4,
+      "variant_order": 2,
+      "condition_order": 2
+    },
+    {
+      "call_id": "B09-qwen-N04-UNRESOLVED-NAMES-MAP21",
+      "model": "qwen",
+      "source_id": "N04-UNRESOLVED",
+      "family_id": "N04",
+      "domain": "sell",
+      "variant": "UNRESOLVED",
+      "representation": "NAMES",
+      "mapping": "MAP21",
+      "entity_map": {
+        "E1": "赵凯",
+        "E2": "苏敏"
+      },
+      "source_text": "工作人员正在核实苏敏是否把这盏台灯卖给了赵凯，目前尚无结论。",
+      "role_keys": [
+        "seller",
+        "buyer"
+      ],
+      "role_definitions": "seller是卖出方，buyer是买入方。",
+      "messages": [
+        {
+          "role": "user",
+          "content": "根据下面这段文字，记录文中讨论的一个关系命题。只依据文字，不补充常识或背景。\n原文：\"工作人员正在核实苏敏是否把这盏台灯卖给了赵凯，目前尚无结论。\"\n实体表：E1对应赵凯；E2对应苏敏\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"seller\":\"姓名\",\"buyer\":\"姓名\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\nseller是卖出方，buyer是买入方。这两个字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中的完整姓名。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+        }
+      ],
+      "prompt_sha256": "f2fa82ea7be993aaf00b77f370ae1c1e0025871f1d00bc91d3dd54128fdba9c0",
+      "sequence": 67,
+      "family_order": 4,
+      "variant_order": 2,
+      "condition_order": 3
+    },
+    {
+      "call_id": "B09-qwen-N04-UNRESOLVED-IDS-MAP21",
+      "model": "qwen",
+      "source_id": "N04-UNRESOLVED",
+      "family_id": "N04",
+      "domain": "sell",
+      "variant": "UNRESOLVED",
+      "representation": "IDS",
+      "mapping": "MAP21",
+      "entity_map": {
+        "E1": "赵凯",
+        "E2": "苏敏"
+      },
+      "source_text": "工作人员正在核实苏敏是否把这盏台灯卖给了赵凯，目前尚无结论。",
+      "role_keys": [
+        "seller",
+        "buyer"
+      ],
+      "role_definitions": "seller是卖出方，buyer是买入方。",
+      "messages": [
+        {
+          "role": "user",
+          "content": "根据下面这段文字，记录文中讨论的一个关系命题。只依据文字，不补充常识或背景。\n原文：\"工作人员正在核实苏敏是否把这盏台灯卖给了赵凯，目前尚无结论。\"\n实体表：E1对应赵凯；E2对应苏敏\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"seller\":\"ID\",\"buyer\":\"ID\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\nseller是卖出方，buyer是买入方。这两个字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中相应的E1或E2。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+        }
+      ],
+      "prompt_sha256": "de16f991e6214ce530b293c7d0a68f96cb15ed83b28dc0acdde6d8df953d231d",
+      "sequence": 68,
+      "family_order": 4,
+      "variant_order": 2,
+      "condition_order": 4
+    },
+    {
+      "call_id": "B09-qwen-N04-BASE-IDS-MAP12",
+      "model": "qwen",
+      "source_id": "N04-BASE",
+      "family_id": "N04",
+      "domain": "sell",
+      "variant": "BASE",
+      "representation": "IDS",
+      "mapping": "MAP12",
+      "entity_map": {
+        "E1": "苏敏",
+        "E2": "赵凯"
+      },
+      "source_text": "苏敏把这盏台灯卖给了赵凯。",
+      "role_keys": [
+        "seller",
+        "buyer"
+      ],
+      "role_definitions": "seller是卖出方，buyer是买入方。",
+      "messages": [
+        {
+          "role": "user",
+          "content": "根据下面这段文字，记录文中讨论的一个关系命题。只依据文字，不补充常识或背景。\n原文：\"苏敏把这盏台灯卖给了赵凯。\"\n实体表：E1对应苏敏；E2对应赵凯\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"seller\":\"ID\",\"buyer\":\"ID\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\nseller是卖出方，buyer是买入方。这两个字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中相应的E1或E2。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+        }
+      ],
+      "prompt_sha256": "55ce17f8237a3159e0255c0221a1be9ab5f1f2b60c93debce8ca0597eaec2c54",
+      "sequence": 69,
+      "family_order": 4,
+      "variant_order": 3,
+      "condition_order": 1
+    },
+    {
+      "call_id": "B09-qwen-N04-BASE-NAMES-MAP21",
+      "model": "qwen",
+      "source_id": "N04-BASE",
+      "family_id": "N04",
+      "domain": "sell",
+      "variant": "BASE",
+      "representation": "NAMES",
+      "mapping": "MAP21",
+      "entity_map": {
+        "E1": "赵凯",
+        "E2": "苏敏"
+      },
+      "source_text": "苏敏把这盏台灯卖给了赵凯。",
+      "role_keys": [
+        "seller",
+        "buyer"
+      ],
+      "role_definitions": "seller是卖出方，buyer是买入方。",
+      "messages": [
+        {
+          "role": "user",
+          "content": "根据下面这段文字，记录文中讨论的一个关系命题。只依据文字，不补充常识或背景。\n原文：\"苏敏把这盏台灯卖给了赵凯。\"\n实体表：E1对应赵凯；E2对应苏敏\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"seller\":\"姓名\",\"buyer\":\"姓名\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\nseller是卖出方，buyer是买入方。这两个字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中的完整姓名。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+        }
+      ],
+      "prompt_sha256": "78ada9c01aeb173e937d8c0db98f36a85a37f6196f15b54760fab38a20d3edb4",
+      "sequence": 70,
+      "family_order": 4,
+      "variant_order": 3,
+      "condition_order": 2
+    },
+    {
+      "call_id": "B09-qwen-N04-BASE-IDS-MAP21",
+      "model": "qwen",
+      "source_id": "N04-BASE",
+      "family_id": "N04",
+      "domain": "sell",
+      "variant": "BASE",
+      "representation": "IDS",
+      "mapping": "MAP21",
+      "entity_map": {
+        "E1": "赵凯",
+        "E2": "苏敏"
+      },
+      "source_text": "苏敏把这盏台灯卖给了赵凯。",
+      "role_keys": [
+        "seller",
+        "buyer"
+      ],
+      "role_definitions": "seller是卖出方，buyer是买入方。",
+      "messages": [
+        {
+          "role": "user",
+          "content": "根据下面这段文字，记录文中讨论的一个关系命题。只依据文字，不补充常识或背景。\n原文：\"苏敏把这盏台灯卖给了赵凯。\"\n实体表：E1对应赵凯；E2对应苏敏\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"seller\":\"ID\",\"buyer\":\"ID\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\nseller是卖出方，buyer是买入方。这两个字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中相应的E1或E2。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+        }
+      ],
+      "prompt_sha256": "89cbebaa9a57004e5801d890903f6bc9e70fb218b182e3d82362243ba4222a9f",
+      "sequence": 71,
+      "family_order": 4,
+      "variant_order": 3,
+      "condition_order": 3
+    },
+    {
+      "call_id": "B09-qwen-N04-BASE-NAMES-MAP12",
+      "model": "qwen",
+      "source_id": "N04-BASE",
+      "family_id": "N04",
+      "domain": "sell",
+      "variant": "BASE",
+      "representation": "NAMES",
+      "mapping": "MAP12",
+      "entity_map": {
+        "E1": "苏敏",
+        "E2": "赵凯"
+      },
+      "source_text": "苏敏把这盏台灯卖给了赵凯。",
+      "role_keys": [
+        "seller",
+        "buyer"
+      ],
+      "role_definitions": "seller是卖出方，buyer是买入方。",
+      "messages": [
+        {
+          "role": "user",
+          "content": "根据下面这段文字，记录文中讨论的一个关系命题。只依据文字，不补充常识或背景。\n原文：\"苏敏把这盏台灯卖给了赵凯。\"\n实体表：E1对应苏敏；E2对应赵凯\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"seller\":\"姓名\",\"buyer\":\"姓名\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\nseller是卖出方，buyer是买入方。这两个字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中的完整姓名。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+        }
+      ],
+      "prompt_sha256": "b947ba43d347623cc3ab693433516296a994f73d5d4a19f5e3550a6d23591c72",
+      "sequence": 72,
+      "family_order": 4,
+      "variant_order": 3,
+      "condition_order": 4
+    },
+    {
+      "call_id": "B09-qwen-N04-PARAPHRASE-NAMES-MAP21",
+      "model": "qwen",
+      "source_id": "N04-PARAPHRASE",
+      "family_id": "N04",
+      "domain": "sell",
+      "variant": "PARAPHRASE",
+      "representation": "NAMES",
+      "mapping": "MAP21",
+      "entity_map": {
+        "E1": "赵凯",
+        "E2": "苏敏"
+      },
+      "source_text": "赵凯从苏敏那里买到了这盏台灯。",
+      "role_keys": [
+        "seller",
+        "buyer"
+      ],
+      "role_definitions": "seller是卖出方，buyer是买入方。",
+      "messages": [
+        {
+          "role": "user",
+          "content": "根据下面这段文字，记录文中讨论的一个关系命题。只依据文字，不补充常识或背景。\n原文：\"赵凯从苏敏那里买到了这盏台灯。\"\n实体表：E1对应赵凯；E2对应苏敏\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"seller\":\"姓名\",\"buyer\":\"姓名\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\nseller是卖出方，buyer是买入方。这两个字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中的完整姓名。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+        }
+      ],
+      "prompt_sha256": "49ed5820ab8abcfe583bc84d4dc8646d46bda767b0a3432abc3d711499e5b614",
+      "sequence": 73,
+      "family_order": 4,
+      "variant_order": 4,
+      "condition_order": 1
+    },
+    {
+      "call_id": "B09-qwen-N04-PARAPHRASE-IDS-MAP21",
+      "model": "qwen",
+      "source_id": "N04-PARAPHRASE",
+      "family_id": "N04",
+      "domain": "sell",
+      "variant": "PARAPHRASE",
+      "representation": "IDS",
+      "mapping": "MAP21",
+      "entity_map": {
+        "E1": "赵凯",
+        "E2": "苏敏"
+      },
+      "source_text": "赵凯从苏敏那里买到了这盏台灯。",
+      "role_keys": [
+        "seller",
+        "buyer"
+      ],
+      "role_definitions": "seller是卖出方，buyer是买入方。",
+      "messages": [
+        {
+          "role": "user",
+          "content": "根据下面这段文字，记录文中讨论的一个关系命题。只依据文字，不补充常识或背景。\n原文：\"赵凯从苏敏那里买到了这盏台灯。\"\n实体表：E1对应赵凯；E2对应苏敏\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"seller\":\"ID\",\"buyer\":\"ID\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\nseller是卖出方，buyer是买入方。这两个字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中相应的E1或E2。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+        }
+      ],
+      "prompt_sha256": "1e6f723e2e5a24cd9e2cbfbb11423b0836da8a986c7969474fe81bac96d1791a",
+      "sequence": 74,
+      "family_order": 4,
+      "variant_order": 4,
+      "condition_order": 2
+    },
+    {
+      "call_id": "B09-qwen-N04-PARAPHRASE-NAMES-MAP12",
+      "model": "qwen",
+      "source_id": "N04-PARAPHRASE",
+      "family_id": "N04",
+      "domain": "sell",
+      "variant": "PARAPHRASE",
+      "representation": "NAMES",
+      "mapping": "MAP12",
+      "entity_map": {
+        "E1": "苏敏",
+        "E2": "赵凯"
+      },
+      "source_text": "赵凯从苏敏那里买到了这盏台灯。",
+      "role_keys": [
+        "seller",
+        "buyer"
+      ],
+      "role_definitions": "seller是卖出方，buyer是买入方。",
+      "messages": [
+        {
+          "role": "user",
+          "content": "根据下面这段文字，记录文中讨论的一个关系命题。只依据文字，不补充常识或背景。\n原文：\"赵凯从苏敏那里买到了这盏台灯。\"\n实体表：E1对应苏敏；E2对应赵凯\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"seller\":\"姓名\",\"buyer\":\"姓名\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\nseller是卖出方，buyer是买入方。这两个字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中的完整姓名。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+        }
+      ],
+      "prompt_sha256": "75a80bcd8aa24a44a4f71c1d674d31b06885e1bd6c6f452cfe756410b64a7de8",
+      "sequence": 75,
+      "family_order": 4,
+      "variant_order": 4,
+      "condition_order": 3
+    },
+    {
+      "call_id": "B09-qwen-N04-PARAPHRASE-IDS-MAP12",
+      "model": "qwen",
+      "source_id": "N04-PARAPHRASE",
+      "family_id": "N04",
+      "domain": "sell",
+      "variant": "PARAPHRASE",
+      "representation": "IDS",
+      "mapping": "MAP12",
+      "entity_map": {
+        "E1": "苏敏",
+        "E2": "赵凯"
+      },
+      "source_text": "赵凯从苏敏那里买到了这盏台灯。",
+      "role_keys": [
+        "seller",
+        "buyer"
+      ],
+      "role_definitions": "seller是卖出方，buyer是买入方。",
+      "messages": [
+        {
+          "role": "user",
+          "content": "根据下面这段文字，记录文中讨论的一个关系命题。只依据文字，不补充常识或背景。\n原文：\"赵凯从苏敏那里买到了这盏台灯。\"\n实体表：E1对应苏敏；E2对应赵凯\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"seller\":\"ID\",\"buyer\":\"ID\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\nseller是卖出方，buyer是买入方。这两个字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中相应的E1或E2。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+        }
+      ],
+      "prompt_sha256": "318db48f38a339df7942c0668007146bfc952799abd21a8ea4a70fd483b78c41",
+      "sequence": 76,
+      "family_order": 4,
+      "variant_order": 4,
+      "condition_order": 4
+    },
+    {
+      "call_id": "B09-qwen-N04-ROLE_SWAP-IDS-MAP21",
+      "model": "qwen",
+      "source_id": "N04-ROLE_SWAP",
+      "family_id": "N04",
+      "domain": "sell",
+      "variant": "ROLE_SWAP",
+      "representation": "IDS",
+      "mapping": "MAP21",
+      "entity_map": {
+        "E1": "赵凯",
+        "E2": "苏敏"
+      },
+      "source_text": "赵凯把这盏台灯卖给了苏敏。",
+      "role_keys": [
+        "seller",
+        "buyer"
+      ],
+      "role_definitions": "seller是卖出方，buyer是买入方。",
+      "messages": [
+        {
+          "role": "user",
+          "content": "根据下面这段文字，记录文中讨论的一个关系命题。只依据文字，不补充常识或背景。\n原文：\"赵凯把这盏台灯卖给了苏敏。\"\n实体表：E1对应赵凯；E2对应苏敏\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"seller\":\"ID\",\"buyer\":\"ID\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\nseller是卖出方，buyer是买入方。这两个字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中相应的E1或E2。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+        }
+      ],
+      "prompt_sha256": "4924c57c4a85dbdaed5bcfc453f87e04391a897c610dd424abafa5d7b8d5df60",
+      "sequence": 77,
+      "family_order": 4,
+      "variant_order": 5,
+      "condition_order": 1
+    },
+    {
+      "call_id": "B09-qwen-N04-ROLE_SWAP-NAMES-MAP12",
+      "model": "qwen",
+      "source_id": "N04-ROLE_SWAP",
+      "family_id": "N04",
+      "domain": "sell",
+      "variant": "ROLE_SWAP",
+      "representation": "NAMES",
+      "mapping": "MAP12",
+      "entity_map": {
+        "E1": "苏敏",
+        "E2": "赵凯"
+      },
+      "source_text": "赵凯把这盏台灯卖给了苏敏。",
+      "role_keys": [
+        "seller",
+        "buyer"
+      ],
+      "role_definitions": "seller是卖出方，buyer是买入方。",
+      "messages": [
+        {
+          "role": "user",
+          "content": "根据下面这段文字，记录文中讨论的一个关系命题。只依据文字，不补充常识或背景。\n原文：\"赵凯把这盏台灯卖给了苏敏。\"\n实体表：E1对应苏敏；E2对应赵凯\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"seller\":\"姓名\",\"buyer\":\"姓名\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\nseller是卖出方，buyer是买入方。这两个字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中的完整姓名。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+        }
+      ],
+      "prompt_sha256": "f1559bfae00f0c09db6275b3ec93598dc1c531d30c37496b118c5352d6391b0b",
+      "sequence": 78,
+      "family_order": 4,
+      "variant_order": 5,
+      "condition_order": 2
+    },
+    {
+      "call_id": "B09-qwen-N04-ROLE_SWAP-IDS-MAP12",
+      "model": "qwen",
+      "source_id": "N04-ROLE_SWAP",
+      "family_id": "N04",
+      "domain": "sell",
+      "variant": "ROLE_SWAP",
+      "representation": "IDS",
+      "mapping": "MAP12",
+      "entity_map": {
+        "E1": "苏敏",
+        "E2": "赵凯"
+      },
+      "source_text": "赵凯把这盏台灯卖给了苏敏。",
+      "role_keys": [
+        "seller",
+        "buyer"
+      ],
+      "role_definitions": "seller是卖出方，buyer是买入方。",
+      "messages": [
+        {
+          "role": "user",
+          "content": "根据下面这段文字，记录文中讨论的一个关系命题。只依据文字，不补充常识或背景。\n原文：\"赵凯把这盏台灯卖给了苏敏。\"\n实体表：E1对应苏敏；E2对应赵凯\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"seller\":\"ID\",\"buyer\":\"ID\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\nseller是卖出方，buyer是买入方。这两个字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中相应的E1或E2。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+        }
+      ],
+      "prompt_sha256": "04f851db52dbdb3d3222cf48f45195efcd240c847e7552de898ba3cd8f21dea9",
+      "sequence": 79,
+      "family_order": 4,
+      "variant_order": 5,
+      "condition_order": 3
+    },
+    {
+      "call_id": "B09-qwen-N04-ROLE_SWAP-NAMES-MAP21",
+      "model": "qwen",
+      "source_id": "N04-ROLE_SWAP",
+      "family_id": "N04",
+      "domain": "sell",
+      "variant": "ROLE_SWAP",
+      "representation": "NAMES",
+      "mapping": "MAP21",
+      "entity_map": {
+        "E1": "赵凯",
+        "E2": "苏敏"
+      },
+      "source_text": "赵凯把这盏台灯卖给了苏敏。",
+      "role_keys": [
+        "seller",
+        "buyer"
+      ],
+      "role_definitions": "seller是卖出方，buyer是买入方。",
+      "messages": [
+        {
+          "role": "user",
+          "content": "根据下面这段文字，记录文中讨论的一个关系命题。只依据文字，不补充常识或背景。\n原文：\"赵凯把这盏台灯卖给了苏敏。\"\n实体表：E1对应赵凯；E2对应苏敏\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"seller\":\"姓名\",\"buyer\":\"姓名\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\nseller是卖出方，buyer是买入方。这两个字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中的完整姓名。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+        }
+      ],
+      "prompt_sha256": "a2d9d9d51f9a15f7e5f44fa858dbca4b66bd6052efa729e283230f3d89d9a4a8",
+      "sequence": 80,
+      "family_order": 4,
+      "variant_order": 5,
+      "condition_order": 4
+    },
+    {
+      "call_id": "B09-qwen-N05-UNRESOLVED-NAMES-MAP12",
+      "model": "qwen",
+      "source_id": "N05-UNRESOLVED",
+      "family_id": "N05",
+      "domain": "give",
+      "variant": "UNRESOLVED",
+      "representation": "NAMES",
+      "mapping": "MAP12",
+      "entity_map": {
+        "E1": "何杰",
+        "E2": "杨帆"
+      },
+      "source_text": "工作人员正在核实何杰是否把这本画册赠送给了杨帆，目前尚无结论。",
+      "role_keys": [
+        "giver",
+        "recipient"
+      ],
+      "role_definitions": "giver是赠送方，recipient是受赠方。",
+      "messages": [
+        {
+          "role": "user",
+          "content": "根据下面这段文字，记录文中讨论的一个关系命题。只依据文字，不补充常识或背景。\n原文：\"工作人员正在核实何杰是否把这本画册赠送给了杨帆，目前尚无结论。\"\n实体表：E1对应何杰；E2对应杨帆\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"giver\":\"姓名\",\"recipient\":\"姓名\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\ngiver是赠送方，recipient是受赠方。这两个字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中的完整姓名。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+        }
+      ],
+      "prompt_sha256": "478ebc08de1b658673fb2cc95903dc29c0d89e86da76181ccbece81fdc90989b",
+      "sequence": 81,
+      "family_order": 5,
+      "variant_order": 1,
+      "condition_order": 1
+    },
+    {
+      "call_id": "B09-qwen-N05-UNRESOLVED-IDS-MAP12",
+      "model": "qwen",
+      "source_id": "N05-UNRESOLVED",
+      "family_id": "N05",
+      "domain": "give",
+      "variant": "UNRESOLVED",
+      "representation": "IDS",
+      "mapping": "MAP12",
+      "entity_map": {
+        "E1": "何杰",
+        "E2": "杨帆"
+      },
+      "source_text": "工作人员正在核实何杰是否把这本画册赠送给了杨帆，目前尚无结论。",
+      "role_keys": [
+        "giver",
+        "recipient"
+      ],
+      "role_definitions": "giver是赠送方，recipient是受赠方。",
+      "messages": [
+        {
+          "role": "user",
+          "content": "根据下面这段文字，记录文中讨论的一个关系命题。只依据文字，不补充常识或背景。\n原文：\"工作人员正在核实何杰是否把这本画册赠送给了杨帆，目前尚无结论。\"\n实体表：E1对应何杰；E2对应杨帆\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"giver\":\"ID\",\"recipient\":\"ID\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\ngiver是赠送方，recipient是受赠方。这两个字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中相应的E1或E2。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+        }
+      ],
+      "prompt_sha256": "c0ca7d059f8b25a05744f329c8e4ffcf2e90077ab7868a8e327264c97653e073",
+      "sequence": 82,
+      "family_order": 5,
+      "variant_order": 1,
+      "condition_order": 2
+    },
+    {
+      "call_id": "B09-qwen-N05-UNRESOLVED-NAMES-MAP21",
+      "model": "qwen",
+      "source_id": "N05-UNRESOLVED",
+      "family_id": "N05",
+      "domain": "give",
+      "variant": "UNRESOLVED",
+      "representation": "NAMES",
+      "mapping": "MAP21",
+      "entity_map": {
+        "E1": "杨帆",
+        "E2": "何杰"
+      },
+      "source_text": "工作人员正在核实何杰是否把这本画册赠送给了杨帆，目前尚无结论。",
+      "role_keys": [
+        "giver",
+        "recipient"
+      ],
+      "role_definitions": "giver是赠送方，recipient是受赠方。",
+      "messages": [
+        {
+          "role": "user",
+          "content": "根据下面这段文字，记录文中讨论的一个关系命题。只依据文字，不补充常识或背景。\n原文：\"工作人员正在核实何杰是否把这本画册赠送给了杨帆，目前尚无结论。\"\n实体表：E1对应杨帆；E2对应何杰\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"giver\":\"姓名\",\"recipient\":\"姓名\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\ngiver是赠送方，recipient是受赠方。这两个字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中的完整姓名。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+        }
+      ],
+      "prompt_sha256": "1688c0e13af09fd69bc79551f2ea6b0174be22090ab9407a34740240fa124182",
+      "sequence": 83,
+      "family_order": 5,
+      "variant_order": 1,
+      "condition_order": 3
+    },
+    {
+      "call_id": "B09-qwen-N05-UNRESOLVED-IDS-MAP21",
+      "model": "qwen",
+      "source_id": "N05-UNRESOLVED",
+      "family_id": "N05",
+      "domain": "give",
+      "variant": "UNRESOLVED",
+      "representation": "IDS",
+      "mapping": "MAP21",
+      "entity_map": {
+        "E1": "杨帆",
+        "E2": "何杰"
+      },
+      "source_text": "工作人员正在核实何杰是否把这本画册赠送给了杨帆，目前尚无结论。",
+      "role_keys": [
+        "giver",
+        "recipient"
+      ],
+      "role_definitions": "giver是赠送方，recipient是受赠方。",
+      "messages": [
+        {
+          "role": "user",
+          "content": "根据下面这段文字，记录文中讨论的一个关系命题。只依据文字，不补充常识或背景。\n原文：\"工作人员正在核实何杰是否把这本画册赠送给了杨帆，目前尚无结论。\"\n实体表：E1对应杨帆；E2对应何杰\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"giver\":\"ID\",\"recipient\":\"ID\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\ngiver是赠送方，recipient是受赠方。这两个字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中相应的E1或E2。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+        }
+      ],
+      "prompt_sha256": "4a9dc61dfaf375dc3257297edf9fb5b999097bf4a71668eb4707f5f72de2f166",
+      "sequence": 84,
+      "family_order": 5,
+      "variant_order": 1,
+      "condition_order": 4
+    },
+    {
+      "call_id": "B09-qwen-N05-BASE-IDS-MAP12",
+      "model": "qwen",
+      "source_id": "N05-BASE",
+      "family_id": "N05",
+      "domain": "give",
+      "variant": "BASE",
+      "representation": "IDS",
+      "mapping": "MAP12",
+      "entity_map": {
+        "E1": "何杰",
+        "E2": "杨帆"
+      },
+      "source_text": "何杰把这本画册赠送给了杨帆。",
+      "role_keys": [
+        "giver",
+        "recipient"
+      ],
+      "role_definitions": "giver是赠送方，recipient是受赠方。",
+      "messages": [
+        {
+          "role": "user",
+          "content": "根据下面这段文字，记录文中讨论的一个关系命题。只依据文字，不补充常识或背景。\n原文：\"何杰把这本画册赠送给了杨帆。\"\n实体表：E1对应何杰；E2对应杨帆\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"giver\":\"ID\",\"recipient\":\"ID\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\ngiver是赠送方，recipient是受赠方。这两个字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中相应的E1或E2。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+        }
+      ],
+      "prompt_sha256": "47a1077fa8ad06a24470aadcb7b72a9abf1dad0ebf6d0c7f44350ffc7d924ed9",
+      "sequence": 85,
+      "family_order": 5,
+      "variant_order": 2,
+      "condition_order": 1
+    },
+    {
+      "call_id": "B09-qwen-N05-BASE-NAMES-MAP21",
+      "model": "qwen",
+      "source_id": "N05-BASE",
+      "family_id": "N05",
+      "domain": "give",
+      "variant": "BASE",
+      "representation": "NAMES",
+      "mapping": "MAP21",
+      "entity_map": {
+        "E1": "杨帆",
+        "E2": "何杰"
+      },
+      "source_text": "何杰把这本画册赠送给了杨帆。",
+      "role_keys": [
+        "giver",
+        "recipient"
+      ],
+      "role_definitions": "giver是赠送方，recipient是受赠方。",
+      "messages": [
+        {
+          "role": "user",
+          "content": "根据下面这段文字，记录文中讨论的一个关系命题。只依据文字，不补充常识或背景。\n原文：\"何杰把这本画册赠送给了杨帆。\"\n实体表：E1对应杨帆；E2对应何杰\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"giver\":\"姓名\",\"recipient\":\"姓名\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\ngiver是赠送方，recipient是受赠方。这两个字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中的完整姓名。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+        }
+      ],
+      "prompt_sha256": "12abd8206974fea3eec6ce0e2a80aceaab5c43c8838c69a1e15d61e950d195de",
+      "sequence": 86,
+      "family_order": 5,
+      "variant_order": 2,
+      "condition_order": 2
+    },
+    {
+      "call_id": "B09-qwen-N05-BASE-IDS-MAP21",
+      "model": "qwen",
+      "source_id": "N05-BASE",
+      "family_id": "N05",
+      "domain": "give",
+      "variant": "BASE",
+      "representation": "IDS",
+      "mapping": "MAP21",
+      "entity_map": {
+        "E1": "杨帆",
+        "E2": "何杰"
+      },
+      "source_text": "何杰把这本画册赠送给了杨帆。",
+      "role_keys": [
+        "giver",
+        "recipient"
+      ],
+      "role_definitions": "giver是赠送方，recipient是受赠方。",
+      "messages": [
+        {
+          "role": "user",
+          "content": "根据下面这段文字，记录文中讨论的一个关系命题。只依据文字，不补充常识或背景。\n原文：\"何杰把这本画册赠送给了杨帆。\"\n实体表：E1对应杨帆；E2对应何杰\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"giver\":\"ID\",\"recipient\":\"ID\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\ngiver是赠送方，recipient是受赠方。这两个字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中相应的E1或E2。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+        }
+      ],
+      "prompt_sha256": "8f6226020ee76952fa06c56c84b9cfccf76f17f8ea5320bef2db67ef9e73f2fb",
+      "sequence": 87,
+      "family_order": 5,
+      "variant_order": 2,
+      "condition_order": 3
+    },
+    {
+      "call_id": "B09-qwen-N05-BASE-NAMES-MAP12",
+      "model": "qwen",
+      "source_id": "N05-BASE",
+      "family_id": "N05",
+      "domain": "give",
+      "variant": "BASE",
+      "representation": "NAMES",
+      "mapping": "MAP12",
+      "entity_map": {
+        "E1": "何杰",
+        "E2": "杨帆"
+      },
+      "source_text": "何杰把这本画册赠送给了杨帆。",
+      "role_keys": [
+        "giver",
+        "recipient"
+      ],
+      "role_definitions": "giver是赠送方，recipient是受赠方。",
+      "messages": [
+        {
+          "role": "user",
+          "content": "根据下面这段文字，记录文中讨论的一个关系命题。只依据文字，不补充常识或背景。\n原文：\"何杰把这本画册赠送给了杨帆。\"\n实体表：E1对应何杰；E2对应杨帆\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"giver\":\"姓名\",\"recipient\":\"姓名\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\ngiver是赠送方，recipient是受赠方。这两个字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中的完整姓名。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+        }
+      ],
+      "prompt_sha256": "d979e6d055392364262e98504a73738b0a8bc3c7d7723d4da9fc913721ff6540",
+      "sequence": 88,
+      "family_order": 5,
+      "variant_order": 2,
+      "condition_order": 4
+    },
+    {
+      "call_id": "B09-qwen-N05-PARAPHRASE-NAMES-MAP21",
+      "model": "qwen",
+      "source_id": "N05-PARAPHRASE",
+      "family_id": "N05",
+      "domain": "give",
+      "variant": "PARAPHRASE",
+      "representation": "NAMES",
+      "mapping": "MAP21",
+      "entity_map": {
+        "E1": "杨帆",
+        "E2": "何杰"
+      },
+      "source_text": "杨帆收到了何杰赠送的这本画册。",
+      "role_keys": [
+        "giver",
+        "recipient"
+      ],
+      "role_definitions": "giver是赠送方，recipient是受赠方。",
+      "messages": [
+        {
+          "role": "user",
+          "content": "根据下面这段文字，记录文中讨论的一个关系命题。只依据文字，不补充常识或背景。\n原文：\"杨帆收到了何杰赠送的这本画册。\"\n实体表：E1对应杨帆；E2对应何杰\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"giver\":\"姓名\",\"recipient\":\"姓名\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\ngiver是赠送方，recipient是受赠方。这两个字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中的完整姓名。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+        }
+      ],
+      "prompt_sha256": "b525a2533f88c706538b69a1d84b91cd936a1ac85503022f42b5801eebeefce6",
+      "sequence": 89,
+      "family_order": 5,
+      "variant_order": 3,
+      "condition_order": 1
+    },
+    {
+      "call_id": "B09-qwen-N05-PARAPHRASE-IDS-MAP21",
+      "model": "qwen",
+      "source_id": "N05-PARAPHRASE",
+      "family_id": "N05",
+      "domain": "give",
+      "variant": "PARAPHRASE",
+      "representation": "IDS",
+      "mapping": "MAP21",
+      "entity_map": {
+        "E1": "杨帆",
+        "E2": "何杰"
+      },
+      "source_text": "杨帆收到了何杰赠送的这本画册。",
+      "role_keys": [
+        "giver",
+        "recipient"
+      ],
+      "role_definitions": "giver是赠送方，recipient是受赠方。",
+      "messages": [
+        {
+          "role": "user",
+          "content": "根据下面这段文字，记录文中讨论的一个关系命题。只依据文字，不补充常识或背景。\n原文：\"杨帆收到了何杰赠送的这本画册。\"\n实体表：E1对应杨帆；E2对应何杰\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"giver\":\"ID\",\"recipient\":\"ID\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\ngiver是赠送方，recipient是受赠方。这两个字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中相应的E1或E2。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+        }
+      ],
+      "prompt_sha256": "02f58bd6a86f3a90c33c3e0adaa074575142f4883c91cec0e72a35279b9f9f0f",
+      "sequence": 90,
+      "family_order": 5,
+      "variant_order": 3,
+      "condition_order": 2
+    },
+    {
+      "call_id": "B09-qwen-N05-PARAPHRASE-NAMES-MAP12",
+      "model": "qwen",
+      "source_id": "N05-PARAPHRASE",
+      "family_id": "N05",
+      "domain": "give",
+      "variant": "PARAPHRASE",
+      "representation": "NAMES",
+      "mapping": "MAP12",
+      "entity_map": {
+        "E1": "何杰",
+        "E2": "杨帆"
+      },
+      "source_text": "杨帆收到了何杰赠送的这本画册。",
+      "role_keys": [
+        "giver",
+        "recipient"
+      ],
+      "role_definitions": "giver是赠送方，recipient是受赠方。",
+      "messages": [
+        {
+          "role": "user",
+          "content": "根据下面这段文字，记录文中讨论的一个关系命题。只依据文字，不补充常识或背景。\n原文：\"杨帆收到了何杰赠送的这本画册。\"\n实体表：E1对应何杰；E2对应杨帆\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"giver\":\"姓名\",\"recipient\":\"姓名\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\ngiver是赠送方，recipient是受赠方。这两个字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中的完整姓名。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+        }
+      ],
+      "prompt_sha256": "3343cb14c35cf3dec254c84eb0854f91ae7091f01a2b93115e12edbddf23a376",
+      "sequence": 91,
+      "family_order": 5,
+      "variant_order": 3,
+      "condition_order": 3
+    },
+    {
+      "call_id": "B09-qwen-N05-PARAPHRASE-IDS-MAP12",
+      "model": "qwen",
+      "source_id": "N05-PARAPHRASE",
+      "family_id": "N05",
+      "domain": "give",
+      "variant": "PARAPHRASE",
+      "representation": "IDS",
+      "mapping": "MAP12",
+      "entity_map": {
+        "E1": "何杰",
+        "E2": "杨帆"
+      },
+      "source_text": "杨帆收到了何杰赠送的这本画册。",
+      "role_keys": [
+        "giver",
+        "recipient"
+      ],
+      "role_definitions": "giver是赠送方，recipient是受赠方。",
+      "messages": [
+        {
+          "role": "user",
+          "content": "根据下面这段文字，记录文中讨论的一个关系命题。只依据文字，不补充常识或背景。\n原文：\"杨帆收到了何杰赠送的这本画册。\"\n实体表：E1对应何杰；E2对应杨帆\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"giver\":\"ID\",\"recipient\":\"ID\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\ngiver是赠送方，recipient是受赠方。这两个字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中相应的E1或E2。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+        }
+      ],
+      "prompt_sha256": "3fd9681aac8e7dde1a3d71cec578e1c41145036b4d0c94101160728a5ba92d7f",
+      "sequence": 92,
+      "family_order": 5,
+      "variant_order": 3,
+      "condition_order": 4
+    },
+    {
+      "call_id": "B09-qwen-N05-ROLE_SWAP-IDS-MAP21",
+      "model": "qwen",
+      "source_id": "N05-ROLE_SWAP",
+      "family_id": "N05",
+      "domain": "give",
+      "variant": "ROLE_SWAP",
+      "representation": "IDS",
+      "mapping": "MAP21",
+      "entity_map": {
+        "E1": "杨帆",
+        "E2": "何杰"
+      },
+      "source_text": "杨帆把这本画册赠送给了何杰。",
+      "role_keys": [
+        "giver",
+        "recipient"
+      ],
+      "role_definitions": "giver是赠送方，recipient是受赠方。",
+      "messages": [
+        {
+          "role": "user",
+          "content": "根据下面这段文字，记录文中讨论的一个关系命题。只依据文字，不补充常识或背景。\n原文：\"杨帆把这本画册赠送给了何杰。\"\n实体表：E1对应杨帆；E2对应何杰\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"giver\":\"ID\",\"recipient\":\"ID\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\ngiver是赠送方，recipient是受赠方。这两个字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中相应的E1或E2。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+        }
+      ],
+      "prompt_sha256": "6cb63109735073dcc9245e2a056e50f6ebcbce814c37c0187114868b0efd30a6",
+      "sequence": 93,
+      "family_order": 5,
+      "variant_order": 4,
+      "condition_order": 1
+    },
+    {
+      "call_id": "B09-qwen-N05-ROLE_SWAP-NAMES-MAP12",
+      "model": "qwen",
+      "source_id": "N05-ROLE_SWAP",
+      "family_id": "N05",
+      "domain": "give",
+      "variant": "ROLE_SWAP",
+      "representation": "NAMES",
+      "mapping": "MAP12",
+      "entity_map": {
+        "E1": "何杰",
+        "E2": "杨帆"
+      },
+      "source_text": "杨帆把这本画册赠送给了何杰。",
+      "role_keys": [
+        "giver",
+        "recipient"
+      ],
+      "role_definitions": "giver是赠送方，recipient是受赠方。",
+      "messages": [
+        {
+          "role": "user",
+          "content": "根据下面这段文字，记录文中讨论的一个关系命题。只依据文字，不补充常识或背景。\n原文：\"杨帆把这本画册赠送给了何杰。\"\n实体表：E1对应何杰；E2对应杨帆\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"giver\":\"姓名\",\"recipient\":\"姓名\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\ngiver是赠送方，recipient是受赠方。这两个字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中的完整姓名。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+        }
+      ],
+      "prompt_sha256": "70a245b25a524a178a4aeefcf0e82fd140905a5907926e93f5e9579436198788",
+      "sequence": 94,
+      "family_order": 5,
+      "variant_order": 4,
+      "condition_order": 2
+    },
+    {
+      "call_id": "B09-qwen-N05-ROLE_SWAP-IDS-MAP12",
+      "model": "qwen",
+      "source_id": "N05-ROLE_SWAP",
+      "family_id": "N05",
+      "domain": "give",
+      "variant": "ROLE_SWAP",
+      "representation": "IDS",
+      "mapping": "MAP12",
+      "entity_map": {
+        "E1": "何杰",
+        "E2": "杨帆"
+      },
+      "source_text": "杨帆把这本画册赠送给了何杰。",
+      "role_keys": [
+        "giver",
+        "recipient"
+      ],
+      "role_definitions": "giver是赠送方，recipient是受赠方。",
+      "messages": [
+        {
+          "role": "user",
+          "content": "根据下面这段文字，记录文中讨论的一个关系命题。只依据文字，不补充常识或背景。\n原文：\"杨帆把这本画册赠送给了何杰。\"\n实体表：E1对应何杰；E2对应杨帆\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"giver\":\"ID\",\"recipient\":\"ID\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\ngiver是赠送方，recipient是受赠方。这两个字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中相应的E1或E2。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+        }
+      ],
+      "prompt_sha256": "d85b0ee663ecc4886468d098a6bd970ec2cc7f6d1b5150ba34592cc96a72a026",
+      "sequence": 95,
+      "family_order": 5,
+      "variant_order": 4,
+      "condition_order": 3
+    },
+    {
+      "call_id": "B09-qwen-N05-ROLE_SWAP-NAMES-MAP21",
+      "model": "qwen",
+      "source_id": "N05-ROLE_SWAP",
+      "family_id": "N05",
+      "domain": "give",
+      "variant": "ROLE_SWAP",
+      "representation": "NAMES",
+      "mapping": "MAP21",
+      "entity_map": {
+        "E1": "杨帆",
+        "E2": "何杰"
+      },
+      "source_text": "杨帆把这本画册赠送给了何杰。",
+      "role_keys": [
+        "giver",
+        "recipient"
+      ],
+      "role_definitions": "giver是赠送方，recipient是受赠方。",
+      "messages": [
+        {
+          "role": "user",
+          "content": "根据下面这段文字，记录文中讨论的一个关系命题。只依据文字，不补充常识或背景。\n原文：\"杨帆把这本画册赠送给了何杰。\"\n实体表：E1对应杨帆；E2对应何杰\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"giver\":\"姓名\",\"recipient\":\"姓名\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\ngiver是赠送方，recipient是受赠方。这两个字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中的完整姓名。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+        }
+      ],
+      "prompt_sha256": "c74fc311a33728c8ddd04aa9cd4d62a3471652135112582726425849197a3961",
+      "sequence": 96,
+      "family_order": 5,
+      "variant_order": 4,
+      "condition_order": 4
+    },
+    {
+      "call_id": "B09-qwen-N05-NEGATED-NAMES-MAP12",
+      "model": "qwen",
+      "source_id": "N05-NEGATED",
+      "family_id": "N05",
+      "domain": "give",
+      "variant": "NEGATED",
+      "representation": "NAMES",
+      "mapping": "MAP12",
+      "entity_map": {
+        "E1": "何杰",
+        "E2": "杨帆"
+      },
+      "source_text": "何杰没有把这本画册赠送给杨帆。",
+      "role_keys": [
+        "giver",
+        "recipient"
+      ],
+      "role_definitions": "giver是赠送方，recipient是受赠方。",
+      "messages": [
+        {
+          "role": "user",
+          "content": "根据下面这段文字，记录文中讨论的一个关系命题。只依据文字，不补充常识或背景。\n原文：\"何杰没有把这本画册赠送给杨帆。\"\n实体表：E1对应何杰；E2对应杨帆\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"giver\":\"姓名\",\"recipient\":\"姓名\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\ngiver是赠送方，recipient是受赠方。这两个字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中的完整姓名。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+        }
+      ],
+      "prompt_sha256": "4a823399300a17c7571341907d9f4b2d07476a4c1a910daa0b3085521513b5b6",
+      "sequence": 97,
+      "family_order": 5,
+      "variant_order": 5,
+      "condition_order": 1
+    },
+    {
+      "call_id": "B09-qwen-N05-NEGATED-IDS-MAP12",
+      "model": "qwen",
+      "source_id": "N05-NEGATED",
+      "family_id": "N05",
+      "domain": "give",
+      "variant": "NEGATED",
+      "representation": "IDS",
+      "mapping": "MAP12",
+      "entity_map": {
+        "E1": "何杰",
+        "E2": "杨帆"
+      },
+      "source_text": "何杰没有把这本画册赠送给杨帆。",
+      "role_keys": [
+        "giver",
+        "recipient"
+      ],
+      "role_definitions": "giver是赠送方，recipient是受赠方。",
+      "messages": [
+        {
+          "role": "user",
+          "content": "根据下面这段文字，记录文中讨论的一个关系命题。只依据文字，不补充常识或背景。\n原文：\"何杰没有把这本画册赠送给杨帆。\"\n实体表：E1对应何杰；E2对应杨帆\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"giver\":\"ID\",\"recipient\":\"ID\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\ngiver是赠送方，recipient是受赠方。这两个字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中相应的E1或E2。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+        }
+      ],
+      "prompt_sha256": "c901661b9e56cac4979d9770cc28a64f6edbb197de51c338b153a91a06515ffa",
+      "sequence": 98,
+      "family_order": 5,
+      "variant_order": 5,
+      "condition_order": 2
+    },
+    {
+      "call_id": "B09-qwen-N05-NEGATED-NAMES-MAP21",
+      "model": "qwen",
+      "source_id": "N05-NEGATED",
+      "family_id": "N05",
+      "domain": "give",
+      "variant": "NEGATED",
+      "representation": "NAMES",
+      "mapping": "MAP21",
+      "entity_map": {
+        "E1": "杨帆",
+        "E2": "何杰"
+      },
+      "source_text": "何杰没有把这本画册赠送给杨帆。",
+      "role_keys": [
+        "giver",
+        "recipient"
+      ],
+      "role_definitions": "giver是赠送方，recipient是受赠方。",
+      "messages": [
+        {
+          "role": "user",
+          "content": "根据下面这段文字，记录文中讨论的一个关系命题。只依据文字，不补充常识或背景。\n原文：\"何杰没有把这本画册赠送给杨帆。\"\n实体表：E1对应杨帆；E2对应何杰\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"giver\":\"姓名\",\"recipient\":\"姓名\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\ngiver是赠送方，recipient是受赠方。这两个字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中的完整姓名。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+        }
+      ],
+      "prompt_sha256": "46910b3f7388a26d827fa914798173770bcd3bbe5962df39dbdeff7f7eb38eac",
+      "sequence": 99,
+      "family_order": 5,
+      "variant_order": 5,
+      "condition_order": 3
+    },
+    {
+      "call_id": "B09-qwen-N05-NEGATED-IDS-MAP21",
+      "model": "qwen",
+      "source_id": "N05-NEGATED",
+      "family_id": "N05",
+      "domain": "give",
+      "variant": "NEGATED",
+      "representation": "IDS",
+      "mapping": "MAP21",
+      "entity_map": {
+        "E1": "杨帆",
+        "E2": "何杰"
+      },
+      "source_text": "何杰没有把这本画册赠送给杨帆。",
+      "role_keys": [
+        "giver",
+        "recipient"
+      ],
+      "role_definitions": "giver是赠送方，recipient是受赠方。",
+      "messages": [
+        {
+          "role": "user",
+          "content": "根据下面这段文字，记录文中讨论的一个关系命题。只依据文字，不补充常识或背景。\n原文：\"何杰没有把这本画册赠送给杨帆。\"\n实体表：E1对应杨帆；E2对应何杰\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"giver\":\"ID\",\"recipient\":\"ID\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\ngiver是赠送方，recipient是受赠方。这两个字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中相应的E1或E2。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+        }
+      ],
+      "prompt_sha256": "da17fe2240e92c240b1838b8029d5014321e18df5fdbff0546d1638a1e7b045d",
+      "sequence": 100,
+      "family_order": 5,
+      "variant_order": 5,
+      "condition_order": 4
+    },
+    {
+      "call_id": "B09-qwen-N06-BASE-IDS-MAP12",
+      "model": "qwen",
+      "source_id": "N06-BASE",
+      "family_id": "N06",
+      "domain": "give",
+      "variant": "BASE",
+      "representation": "IDS",
+      "mapping": "MAP12",
+      "entity_map": {
+        "E1": "吴桐",
+        "E2": "郑蕾"
+      },
+      "source_text": "吴桐把这条围巾赠送给了郑蕾。",
+      "role_keys": [
+        "giver",
+        "recipient"
+      ],
+      "role_definitions": "giver是赠送方，recipient是受赠方。",
+      "messages": [
+        {
+          "role": "user",
+          "content": "根据下面这段文字，记录文中讨论的一个关系命题。只依据文字，不补充常识或背景。\n原文：\"吴桐把这条围巾赠送给了郑蕾。\"\n实体表：E1对应吴桐；E2对应郑蕾\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"giver\":\"ID\",\"recipient\":\"ID\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\ngiver是赠送方，recipient是受赠方。这两个字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中相应的E1或E2。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+        }
+      ],
+      "prompt_sha256": "ff75c6fb707a2eafb1eeb06220f3c6865a3ed85b6168ba0d0476e558a8c40f65",
+      "sequence": 101,
+      "family_order": 6,
+      "variant_order": 1,
+      "condition_order": 1
+    },
+    {
+      "call_id": "B09-qwen-N06-BASE-NAMES-MAP21",
+      "model": "qwen",
+      "source_id": "N06-BASE",
+      "family_id": "N06",
+      "domain": "give",
+      "variant": "BASE",
+      "representation": "NAMES",
+      "mapping": "MAP21",
+      "entity_map": {
+        "E1": "郑蕾",
+        "E2": "吴桐"
+      },
+      "source_text": "吴桐把这条围巾赠送给了郑蕾。",
+      "role_keys": [
+        "giver",
+        "recipient"
+      ],
+      "role_definitions": "giver是赠送方，recipient是受赠方。",
+      "messages": [
+        {
+          "role": "user",
+          "content": "根据下面这段文字，记录文中讨论的一个关系命题。只依据文字，不补充常识或背景。\n原文：\"吴桐把这条围巾赠送给了郑蕾。\"\n实体表：E1对应郑蕾；E2对应吴桐\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"giver\":\"姓名\",\"recipient\":\"姓名\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\ngiver是赠送方，recipient是受赠方。这两个字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中的完整姓名。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+        }
+      ],
+      "prompt_sha256": "c320621558526f79d6b20ad447d255637a5ab352d3a31d37e64d4da78a781289",
+      "sequence": 102,
+      "family_order": 6,
+      "variant_order": 1,
+      "condition_order": 2
+    },
+    {
+      "call_id": "B09-qwen-N06-BASE-IDS-MAP21",
+      "model": "qwen",
+      "source_id": "N06-BASE",
+      "family_id": "N06",
+      "domain": "give",
+      "variant": "BASE",
+      "representation": "IDS",
+      "mapping": "MAP21",
+      "entity_map": {
+        "E1": "郑蕾",
+        "E2": "吴桐"
+      },
+      "source_text": "吴桐把这条围巾赠送给了郑蕾。",
+      "role_keys": [
+        "giver",
+        "recipient"
+      ],
+      "role_definitions": "giver是赠送方，recipient是受赠方。",
+      "messages": [
+        {
+          "role": "user",
+          "content": "根据下面这段文字，记录文中讨论的一个关系命题。只依据文字，不补充常识或背景。\n原文：\"吴桐把这条围巾赠送给了郑蕾。\"\n实体表：E1对应郑蕾；E2对应吴桐\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"giver\":\"ID\",\"recipient\":\"ID\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\ngiver是赠送方，recipient是受赠方。这两个字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中相应的E1或E2。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+        }
+      ],
+      "prompt_sha256": "87be98c632925ab8e18f54408da4130729dd801abddc6ee9e2e1663025375f99",
+      "sequence": 103,
+      "family_order": 6,
+      "variant_order": 1,
+      "condition_order": 3
+    },
+    {
+      "call_id": "B09-qwen-N06-BASE-NAMES-MAP12",
+      "model": "qwen",
+      "source_id": "N06-BASE",
+      "family_id": "N06",
+      "domain": "give",
+      "variant": "BASE",
+      "representation": "NAMES",
+      "mapping": "MAP12",
+      "entity_map": {
+        "E1": "吴桐",
+        "E2": "郑蕾"
+      },
+      "source_text": "吴桐把这条围巾赠送给了郑蕾。",
+      "role_keys": [
+        "giver",
+        "recipient"
+      ],
+      "role_definitions": "giver是赠送方，recipient是受赠方。",
+      "messages": [
+        {
+          "role": "user",
+          "content": "根据下面这段文字，记录文中讨论的一个关系命题。只依据文字，不补充常识或背景。\n原文：\"吴桐把这条围巾赠送给了郑蕾。\"\n实体表：E1对应吴桐；E2对应郑蕾\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"giver\":\"姓名\",\"recipient\":\"姓名\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\ngiver是赠送方，recipient是受赠方。这两个字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中的完整姓名。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+        }
+      ],
+      "prompt_sha256": "1e238743fc5f59f20bdbaa0ce16d209d01c78b1828da7789dd66971dbc845edc",
+      "sequence": 104,
+      "family_order": 6,
+      "variant_order": 1,
+      "condition_order": 4
+    },
+    {
+      "call_id": "B09-qwen-N06-PARAPHRASE-NAMES-MAP21",
+      "model": "qwen",
+      "source_id": "N06-PARAPHRASE",
+      "family_id": "N06",
+      "domain": "give",
+      "variant": "PARAPHRASE",
+      "representation": "NAMES",
+      "mapping": "MAP21",
+      "entity_map": {
+        "E1": "郑蕾",
+        "E2": "吴桐"
+      },
+      "source_text": "郑蕾收到了吴桐赠送的这条围巾。",
+      "role_keys": [
+        "giver",
+        "recipient"
+      ],
+      "role_definitions": "giver是赠送方，recipient是受赠方。",
+      "messages": [
+        {
+          "role": "user",
+          "content": "根据下面这段文字，记录文中讨论的一个关系命题。只依据文字，不补充常识或背景。\n原文：\"郑蕾收到了吴桐赠送的这条围巾。\"\n实体表：E1对应郑蕾；E2对应吴桐\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"giver\":\"姓名\",\"recipient\":\"姓名\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\ngiver是赠送方，recipient是受赠方。这两个字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中的完整姓名。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+        }
+      ],
+      "prompt_sha256": "5f009414add633af0e96dbff7039208c61dedc1d7301dc093a1f760c9569ae32",
+      "sequence": 105,
+      "family_order": 6,
+      "variant_order": 2,
+      "condition_order": 1
+    },
+    {
+      "call_id": "B09-qwen-N06-PARAPHRASE-IDS-MAP21",
+      "model": "qwen",
+      "source_id": "N06-PARAPHRASE",
+      "family_id": "N06",
+      "domain": "give",
+      "variant": "PARAPHRASE",
+      "representation": "IDS",
+      "mapping": "MAP21",
+      "entity_map": {
+        "E1": "郑蕾",
+        "E2": "吴桐"
+      },
+      "source_text": "郑蕾收到了吴桐赠送的这条围巾。",
+      "role_keys": [
+        "giver",
+        "recipient"
+      ],
+      "role_definitions": "giver是赠送方，recipient是受赠方。",
+      "messages": [
+        {
+          "role": "user",
+          "content": "根据下面这段文字，记录文中讨论的一个关系命题。只依据文字，不补充常识或背景。\n原文：\"郑蕾收到了吴桐赠送的这条围巾。\"\n实体表：E1对应郑蕾；E2对应吴桐\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"giver\":\"ID\",\"recipient\":\"ID\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\ngiver是赠送方，recipient是受赠方。这两个字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中相应的E1或E2。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+        }
+      ],
+      "prompt_sha256": "c3eaf5b67d79d4103514f673848714c334aea65d4351d4bd02a0ee89d90bbfcd",
+      "sequence": 106,
+      "family_order": 6,
+      "variant_order": 2,
+      "condition_order": 2
+    },
+    {
+      "call_id": "B09-qwen-N06-PARAPHRASE-NAMES-MAP12",
+      "model": "qwen",
+      "source_id": "N06-PARAPHRASE",
+      "family_id": "N06",
+      "domain": "give",
+      "variant": "PARAPHRASE",
+      "representation": "NAMES",
+      "mapping": "MAP12",
+      "entity_map": {
+        "E1": "吴桐",
+        "E2": "郑蕾"
+      },
+      "source_text": "郑蕾收到了吴桐赠送的这条围巾。",
+      "role_keys": [
+        "giver",
+        "recipient"
+      ],
+      "role_definitions": "giver是赠送方，recipient是受赠方。",
+      "messages": [
+        {
+          "role": "user",
+          "content": "根据下面这段文字，记录文中讨论的一个关系命题。只依据文字，不补充常识或背景。\n原文：\"郑蕾收到了吴桐赠送的这条围巾。\"\n实体表：E1对应吴桐；E2对应郑蕾\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"giver\":\"姓名\",\"recipient\":\"姓名\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\ngiver是赠送方，recipient是受赠方。这两个字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中的完整姓名。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+        }
+      ],
+      "prompt_sha256": "16cd2eb1171386c04f6a526186066027ec6743df8928adb20ef2b9d77d34d2c6",
+      "sequence": 107,
+      "family_order": 6,
+      "variant_order": 2,
+      "condition_order": 3
+    },
+    {
+      "call_id": "B09-qwen-N06-PARAPHRASE-IDS-MAP12",
+      "model": "qwen",
+      "source_id": "N06-PARAPHRASE",
+      "family_id": "N06",
+      "domain": "give",
+      "variant": "PARAPHRASE",
+      "representation": "IDS",
+      "mapping": "MAP12",
+      "entity_map": {
+        "E1": "吴桐",
+        "E2": "郑蕾"
+      },
+      "source_text": "郑蕾收到了吴桐赠送的这条围巾。",
+      "role_keys": [
+        "giver",
+        "recipient"
+      ],
+      "role_definitions": "giver是赠送方，recipient是受赠方。",
+      "messages": [
+        {
+          "role": "user",
+          "content": "根据下面这段文字，记录文中讨论的一个关系命题。只依据文字，不补充常识或背景。\n原文：\"郑蕾收到了吴桐赠送的这条围巾。\"\n实体表：E1对应吴桐；E2对应郑蕾\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"giver\":\"ID\",\"recipient\":\"ID\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\ngiver是赠送方，recipient是受赠方。这两个字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中相应的E1或E2。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+        }
+      ],
+      "prompt_sha256": "a52032d810e3b2dda4e1e7646851d87e5640b113bc90f01865e30f304e2bac11",
+      "sequence": 108,
+      "family_order": 6,
+      "variant_order": 2,
+      "condition_order": 4
+    },
+    {
+      "call_id": "B09-qwen-N06-ROLE_SWAP-IDS-MAP21",
+      "model": "qwen",
+      "source_id": "N06-ROLE_SWAP",
+      "family_id": "N06",
+      "domain": "give",
+      "variant": "ROLE_SWAP",
+      "representation": "IDS",
+      "mapping": "MAP21",
+      "entity_map": {
+        "E1": "郑蕾",
+        "E2": "吴桐"
+      },
+      "source_text": "郑蕾把这条围巾赠送给了吴桐。",
+      "role_keys": [
+        "giver",
+        "recipient"
+      ],
+      "role_definitions": "giver是赠送方，recipient是受赠方。",
+      "messages": [
+        {
+          "role": "user",
+          "content": "根据下面这段文字，记录文中讨论的一个关系命题。只依据文字，不补充常识或背景。\n原文：\"郑蕾把这条围巾赠送给了吴桐。\"\n实体表：E1对应郑蕾；E2对应吴桐\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"giver\":\"ID\",\"recipient\":\"ID\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\ngiver是赠送方，recipient是受赠方。这两个字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中相应的E1或E2。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+        }
+      ],
+      "prompt_sha256": "bce14c80e7f41381d9c29f4f12644fa0346160d3ff20ca2bab7e5d0709cc15cc",
+      "sequence": 109,
+      "family_order": 6,
+      "variant_order": 3,
+      "condition_order": 1
+    },
+    {
+      "call_id": "B09-qwen-N06-ROLE_SWAP-NAMES-MAP12",
+      "model": "qwen",
+      "source_id": "N06-ROLE_SWAP",
+      "family_id": "N06",
+      "domain": "give",
+      "variant": "ROLE_SWAP",
+      "representation": "NAMES",
+      "mapping": "MAP12",
+      "entity_map": {
+        "E1": "吴桐",
+        "E2": "郑蕾"
+      },
+      "source_text": "郑蕾把这条围巾赠送给了吴桐。",
+      "role_keys": [
+        "giver",
+        "recipient"
+      ],
+      "role_definitions": "giver是赠送方，recipient是受赠方。",
+      "messages": [
+        {
+          "role": "user",
+          "content": "根据下面这段文字，记录文中讨论的一个关系命题。只依据文字，不补充常识或背景。\n原文：\"郑蕾把这条围巾赠送给了吴桐。\"\n实体表：E1对应吴桐；E2对应郑蕾\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"giver\":\"姓名\",\"recipient\":\"姓名\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\ngiver是赠送方，recipient是受赠方。这两个字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中的完整姓名。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+        }
+      ],
+      "prompt_sha256": "f3ab9c21f97c542bcdabbbbf1114b68cd641bdb1afff967422175f80cd9ed4d2",
+      "sequence": 110,
+      "family_order": 6,
+      "variant_order": 3,
+      "condition_order": 2
+    },
+    {
+      "call_id": "B09-qwen-N06-ROLE_SWAP-IDS-MAP12",
+      "model": "qwen",
+      "source_id": "N06-ROLE_SWAP",
+      "family_id": "N06",
+      "domain": "give",
+      "variant": "ROLE_SWAP",
+      "representation": "IDS",
+      "mapping": "MAP12",
+      "entity_map": {
+        "E1": "吴桐",
+        "E2": "郑蕾"
+      },
+      "source_text": "郑蕾把这条围巾赠送给了吴桐。",
+      "role_keys": [
+        "giver",
+        "recipient"
+      ],
+      "role_definitions": "giver是赠送方，recipient是受赠方。",
+      "messages": [
+        {
+          "role": "user",
+          "content": "根据下面这段文字，记录文中讨论的一个关系命题。只依据文字，不补充常识或背景。\n原文：\"郑蕾把这条围巾赠送给了吴桐。\"\n实体表：E1对应吴桐；E2对应郑蕾\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"giver\":\"ID\",\"recipient\":\"ID\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\ngiver是赠送方，recipient是受赠方。这两个字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中相应的E1或E2。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+        }
+      ],
+      "prompt_sha256": "a2a37201ffe6ffe36ae95a9ba4eef190e1c9b325d35794a50b29ca2907fddcf7",
+      "sequence": 111,
+      "family_order": 6,
+      "variant_order": 3,
+      "condition_order": 3
+    },
+    {
+      "call_id": "B09-qwen-N06-ROLE_SWAP-NAMES-MAP21",
+      "model": "qwen",
+      "source_id": "N06-ROLE_SWAP",
+      "family_id": "N06",
+      "domain": "give",
+      "variant": "ROLE_SWAP",
+      "representation": "NAMES",
+      "mapping": "MAP21",
+      "entity_map": {
+        "E1": "郑蕾",
+        "E2": "吴桐"
+      },
+      "source_text": "郑蕾把这条围巾赠送给了吴桐。",
+      "role_keys": [
+        "giver",
+        "recipient"
+      ],
+      "role_definitions": "giver是赠送方，recipient是受赠方。",
+      "messages": [
+        {
+          "role": "user",
+          "content": "根据下面这段文字，记录文中讨论的一个关系命题。只依据文字，不补充常识或背景。\n原文：\"郑蕾把这条围巾赠送给了吴桐。\"\n实体表：E1对应郑蕾；E2对应吴桐\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"giver\":\"姓名\",\"recipient\":\"姓名\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\ngiver是赠送方，recipient是受赠方。这两个字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中的完整姓名。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+        }
+      ],
+      "prompt_sha256": "9084009949095b98cd24b26b31a65aba332094ccdffe33fd100124509a72e336",
+      "sequence": 112,
+      "family_order": 6,
+      "variant_order": 3,
+      "condition_order": 4
+    },
+    {
+      "call_id": "B09-qwen-N06-NEGATED-NAMES-MAP12",
+      "model": "qwen",
+      "source_id": "N06-NEGATED",
+      "family_id": "N06",
+      "domain": "give",
+      "variant": "NEGATED",
+      "representation": "NAMES",
+      "mapping": "MAP12",
+      "entity_map": {
+        "E1": "吴桐",
+        "E2": "郑蕾"
+      },
+      "source_text": "吴桐没有把这条围巾赠送给郑蕾。",
+      "role_keys": [
+        "giver",
+        "recipient"
+      ],
+      "role_definitions": "giver是赠送方，recipient是受赠方。",
+      "messages": [
+        {
+          "role": "user",
+          "content": "根据下面这段文字，记录文中讨论的一个关系命题。只依据文字，不补充常识或背景。\n原文：\"吴桐没有把这条围巾赠送给郑蕾。\"\n实体表：E1对应吴桐；E2对应郑蕾\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"giver\":\"姓名\",\"recipient\":\"姓名\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\ngiver是赠送方，recipient是受赠方。这两个字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中的完整姓名。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+        }
+      ],
+      "prompt_sha256": "fb31ca17b27cad00949ce4569b2e9b87a65f697e00bdf279a7e89c7e26be2d59",
+      "sequence": 113,
+      "family_order": 6,
+      "variant_order": 4,
+      "condition_order": 1
+    },
+    {
+      "call_id": "B09-qwen-N06-NEGATED-IDS-MAP12",
+      "model": "qwen",
+      "source_id": "N06-NEGATED",
+      "family_id": "N06",
+      "domain": "give",
+      "variant": "NEGATED",
+      "representation": "IDS",
+      "mapping": "MAP12",
+      "entity_map": {
+        "E1": "吴桐",
+        "E2": "郑蕾"
+      },
+      "source_text": "吴桐没有把这条围巾赠送给郑蕾。",
+      "role_keys": [
+        "giver",
+        "recipient"
+      ],
+      "role_definitions": "giver是赠送方，recipient是受赠方。",
+      "messages": [
+        {
+          "role": "user",
+          "content": "根据下面这段文字，记录文中讨论的一个关系命题。只依据文字，不补充常识或背景。\n原文：\"吴桐没有把这条围巾赠送给郑蕾。\"\n实体表：E1对应吴桐；E2对应郑蕾\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"giver\":\"ID\",\"recipient\":\"ID\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\ngiver是赠送方，recipient是受赠方。这两个字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中相应的E1或E2。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+        }
+      ],
+      "prompt_sha256": "44da88200b193cb99aa37f1cb36f1145026ce147e4f55b04fdfdf62ad7519867",
+      "sequence": 114,
+      "family_order": 6,
+      "variant_order": 4,
+      "condition_order": 2
+    },
+    {
+      "call_id": "B09-qwen-N06-NEGATED-NAMES-MAP21",
+      "model": "qwen",
+      "source_id": "N06-NEGATED",
+      "family_id": "N06",
+      "domain": "give",
+      "variant": "NEGATED",
+      "representation": "NAMES",
+      "mapping": "MAP21",
+      "entity_map": {
+        "E1": "郑蕾",
+        "E2": "吴桐"
+      },
+      "source_text": "吴桐没有把这条围巾赠送给郑蕾。",
+      "role_keys": [
+        "giver",
+        "recipient"
+      ],
+      "role_definitions": "giver是赠送方，recipient是受赠方。",
+      "messages": [
+        {
+          "role": "user",
+          "content": "根据下面这段文字，记录文中讨论的一个关系命题。只依据文字，不补充常识或背景。\n原文：\"吴桐没有把这条围巾赠送给郑蕾。\"\n实体表：E1对应郑蕾；E2对应吴桐\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"giver\":\"姓名\",\"recipient\":\"姓名\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\ngiver是赠送方，recipient是受赠方。这两个字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中的完整姓名。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+        }
+      ],
+      "prompt_sha256": "229c12688f40f424a56cfbb572ab2bf9ad839277fa421736df563799e510a88e",
+      "sequence": 115,
+      "family_order": 6,
+      "variant_order": 4,
+      "condition_order": 3
+    },
+    {
+      "call_id": "B09-qwen-N06-NEGATED-IDS-MAP21",
+      "model": "qwen",
+      "source_id": "N06-NEGATED",
+      "family_id": "N06",
+      "domain": "give",
+      "variant": "NEGATED",
+      "representation": "IDS",
+      "mapping": "MAP21",
+      "entity_map": {
+        "E1": "郑蕾",
+        "E2": "吴桐"
+      },
+      "source_text": "吴桐没有把这条围巾赠送给郑蕾。",
+      "role_keys": [
+        "giver",
+        "recipient"
+      ],
+      "role_definitions": "giver是赠送方，recipient是受赠方。",
+      "messages": [
+        {
+          "role": "user",
+          "content": "根据下面这段文字，记录文中讨论的一个关系命题。只依据文字，不补充常识或背景。\n原文：\"吴桐没有把这条围巾赠送给郑蕾。\"\n实体表：E1对应郑蕾；E2对应吴桐\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"giver\":\"ID\",\"recipient\":\"ID\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\ngiver是赠送方，recipient是受赠方。这两个字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中相应的E1或E2。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+        }
+      ],
+      "prompt_sha256": "7310a5576c007b7fab2fef6f0f38b87dff481ca3d9d64481381f7c78ab94b54f",
+      "sequence": 116,
+      "family_order": 6,
+      "variant_order": 4,
+      "condition_order": 4
+    },
+    {
+      "call_id": "B09-qwen-N06-UNRESOLVED-IDS-MAP12",
+      "model": "qwen",
+      "source_id": "N06-UNRESOLVED",
+      "family_id": "N06",
+      "domain": "give",
+      "variant": "UNRESOLVED",
+      "representation": "IDS",
+      "mapping": "MAP12",
+      "entity_map": {
+        "E1": "吴桐",
+        "E2": "郑蕾"
+      },
+      "source_text": "工作人员正在核实吴桐是否把这条围巾赠送给了郑蕾，目前尚无结论。",
+      "role_keys": [
+        "giver",
+        "recipient"
+      ],
+      "role_definitions": "giver是赠送方，recipient是受赠方。",
+      "messages": [
+        {
+          "role": "user",
+          "content": "根据下面这段文字，记录文中讨论的一个关系命题。只依据文字，不补充常识或背景。\n原文：\"工作人员正在核实吴桐是否把这条围巾赠送给了郑蕾，目前尚无结论。\"\n实体表：E1对应吴桐；E2对应郑蕾\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"giver\":\"ID\",\"recipient\":\"ID\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\ngiver是赠送方，recipient是受赠方。这两个字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中相应的E1或E2。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+        }
+      ],
+      "prompt_sha256": "77e87504be56b39d4fef9e4c55b01a8bba0928423373d60005e006d6c8da4afb",
+      "sequence": 117,
+      "family_order": 6,
+      "variant_order": 5,
+      "condition_order": 1
+    },
+    {
+      "call_id": "B09-qwen-N06-UNRESOLVED-NAMES-MAP21",
+      "model": "qwen",
+      "source_id": "N06-UNRESOLVED",
+      "family_id": "N06",
+      "domain": "give",
+      "variant": "UNRESOLVED",
+      "representation": "NAMES",
+      "mapping": "MAP21",
+      "entity_map": {
+        "E1": "郑蕾",
+        "E2": "吴桐"
+      },
+      "source_text": "工作人员正在核实吴桐是否把这条围巾赠送给了郑蕾，目前尚无结论。",
+      "role_keys": [
+        "giver",
+        "recipient"
+      ],
+      "role_definitions": "giver是赠送方，recipient是受赠方。",
+      "messages": [
+        {
+          "role": "user",
+          "content": "根据下面这段文字，记录文中讨论的一个关系命题。只依据文字，不补充常识或背景。\n原文：\"工作人员正在核实吴桐是否把这条围巾赠送给了郑蕾，目前尚无结论。\"\n实体表：E1对应郑蕾；E2对应吴桐\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"giver\":\"姓名\",\"recipient\":\"姓名\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\ngiver是赠送方，recipient是受赠方。这两个字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中的完整姓名。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+        }
+      ],
+      "prompt_sha256": "65fca45e57f1b4b81a20539a87bd0790bbf9f457a3900ba82604c6186295a9f8",
+      "sequence": 118,
+      "family_order": 6,
+      "variant_order": 5,
+      "condition_order": 2
+    },
+    {
+      "call_id": "B09-qwen-N06-UNRESOLVED-IDS-MAP21",
+      "model": "qwen",
+      "source_id": "N06-UNRESOLVED",
+      "family_id": "N06",
+      "domain": "give",
+      "variant": "UNRESOLVED",
+      "representation": "IDS",
+      "mapping": "MAP21",
+      "entity_map": {
+        "E1": "郑蕾",
+        "E2": "吴桐"
+      },
+      "source_text": "工作人员正在核实吴桐是否把这条围巾赠送给了郑蕾，目前尚无结论。",
+      "role_keys": [
+        "giver",
+        "recipient"
+      ],
+      "role_definitions": "giver是赠送方，recipient是受赠方。",
+      "messages": [
+        {
+          "role": "user",
+          "content": "根据下面这段文字，记录文中讨论的一个关系命题。只依据文字，不补充常识或背景。\n原文：\"工作人员正在核实吴桐是否把这条围巾赠送给了郑蕾，目前尚无结论。\"\n实体表：E1对应郑蕾；E2对应吴桐\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"giver\":\"ID\",\"recipient\":\"ID\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\ngiver是赠送方，recipient是受赠方。这两个字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中相应的E1或E2。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+        }
+      ],
+      "prompt_sha256": "5d18a7090dcb5c300a8869e91ca6af17c0f913e34f890cd1d7811e0fd692b011",
+      "sequence": 119,
+      "family_order": 6,
+      "variant_order": 5,
+      "condition_order": 3
+    },
+    {
+      "call_id": "B09-qwen-N06-UNRESOLVED-NAMES-MAP12",
+      "model": "qwen",
+      "source_id": "N06-UNRESOLVED",
+      "family_id": "N06",
+      "domain": "give",
+      "variant": "UNRESOLVED",
+      "representation": "NAMES",
+      "mapping": "MAP12",
+      "entity_map": {
+        "E1": "吴桐",
+        "E2": "郑蕾"
+      },
+      "source_text": "工作人员正在核实吴桐是否把这条围巾赠送给了郑蕾，目前尚无结论。",
+      "role_keys": [
+        "giver",
+        "recipient"
+      ],
+      "role_definitions": "giver是赠送方，recipient是受赠方。",
+      "messages": [
+        {
+          "role": "user",
+          "content": "根据下面这段文字，记录文中讨论的一个关系命题。只依据文字，不补充常识或背景。\n原文：\"工作人员正在核实吴桐是否把这条围巾赠送给了郑蕾，目前尚无结论。\"\n实体表：E1对应吴桐；E2对应郑蕾\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"giver\":\"姓名\",\"recipient\":\"姓名\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\ngiver是赠送方，recipient是受赠方。这两个字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中的完整姓名。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+        }
+      ],
+      "prompt_sha256": "39cdef8e00741b7c9da737aed47fb697f2684f4b7e06ae365f38c858dfb750da",
+      "sequence": 120,
+      "family_order": 6,
+      "variant_order": 5,
+      "condition_order": 4
+    },
+    {
+      "call_id": "B09-qwen-N07-PARAPHRASE-NAMES-MAP21",
+      "model": "qwen",
+      "source_id": "N07-PARAPHRASE",
+      "family_id": "N07",
+      "domain": "invite",
+      "variant": "PARAPHRASE",
+      "representation": "NAMES",
+      "mapping": "MAP21",
+      "entity_map": {
+        "E1": "邓宇",
+        "E2": "蒋欣"
+      },
+      "source_text": "邓宇被蒋欣邀请参加读书会。",
+      "role_keys": [
+        "inviter",
+        "invitee"
+      ],
+      "role_definitions": "inviter是发出邀请的人，invitee是被邀请的人；邀请成立不等于接受邀请或实际参加。",
+      "messages": [
+        {
+          "role": "user",
+          "content": "根据下面这段文字，记录文中讨论的一个关系命题。只依据文字，不补充常识或背景。\n原文：\"邓宇被蒋欣邀请参加读书会。\"\n实体表：E1对应邓宇；E2对应蒋欣\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"inviter\":\"姓名\",\"invitee\":\"姓名\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\ninviter是发出邀请的人，invitee是被邀请的人；邀请成立不等于接受邀请或实际参加。这两个字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中的完整姓名。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+        }
+      ],
+      "prompt_sha256": "61cf1f1966f9c2e2702ddf90357805d8440f322f363f323068e3c3cdd25588d3",
+      "sequence": 121,
+      "family_order": 7,
+      "variant_order": 1,
+      "condition_order": 1
+    },
+    {
+      "call_id": "B09-qwen-N07-PARAPHRASE-IDS-MAP21",
+      "model": "qwen",
+      "source_id": "N07-PARAPHRASE",
+      "family_id": "N07",
+      "domain": "invite",
+      "variant": "PARAPHRASE",
+      "representation": "IDS",
+      "mapping": "MAP21",
+      "entity_map": {
+        "E1": "邓宇",
+        "E2": "蒋欣"
+      },
+      "source_text": "邓宇被蒋欣邀请参加读书会。",
+      "role_keys": [
+        "inviter",
+        "invitee"
+      ],
+      "role_definitions": "inviter是发出邀请的人，invitee是被邀请的人；邀请成立不等于接受邀请或实际参加。",
+      "messages": [
+        {
+          "role": "user",
+          "content": "根据下面这段文字，记录文中讨论的一个关系命题。只依据文字，不补充常识或背景。\n原文：\"邓宇被蒋欣邀请参加读书会。\"\n实体表：E1对应邓宇；E2对应蒋欣\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"inviter\":\"ID\",\"invitee\":\"ID\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\ninviter是发出邀请的人，invitee是被邀请的人；邀请成立不等于接受邀请或实际参加。这两个字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中相应的E1或E2。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+        }
+      ],
+      "prompt_sha256": "e1f275fe1a229ca2c84b9243a741485665c86fa402e73aef9862c1c5b48727ec",
+      "sequence": 122,
+      "family_order": 7,
+      "variant_order": 1,
+      "condition_order": 2
+    },
+    {
+      "call_id": "B09-qwen-N07-PARAPHRASE-NAMES-MAP12",
+      "model": "qwen",
+      "source_id": "N07-PARAPHRASE",
+      "family_id": "N07",
+      "domain": "invite",
+      "variant": "PARAPHRASE",
+      "representation": "NAMES",
+      "mapping": "MAP12",
+      "entity_map": {
+        "E1": "蒋欣",
+        "E2": "邓宇"
+      },
+      "source_text": "邓宇被蒋欣邀请参加读书会。",
+      "role_keys": [
+        "inviter",
+        "invitee"
+      ],
+      "role_definitions": "inviter是发出邀请的人，invitee是被邀请的人；邀请成立不等于接受邀请或实际参加。",
+      "messages": [
+        {
+          "role": "user",
+          "content": "根据下面这段文字，记录文中讨论的一个关系命题。只依据文字，不补充常识或背景。\n原文：\"邓宇被蒋欣邀请参加读书会。\"\n实体表：E1对应蒋欣；E2对应邓宇\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"inviter\":\"姓名\",\"invitee\":\"姓名\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\ninviter是发出邀请的人，invitee是被邀请的人；邀请成立不等于接受邀请或实际参加。这两个字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中的完整姓名。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+        }
+      ],
+      "prompt_sha256": "40246159751cdb067c3be70514871d8cdc6dab7c38c6fd52d9ab9843a4f2f570",
+      "sequence": 123,
+      "family_order": 7,
+      "variant_order": 1,
+      "condition_order": 3
+    },
+    {
+      "call_id": "B09-qwen-N07-PARAPHRASE-IDS-MAP12",
+      "model": "qwen",
+      "source_id": "N07-PARAPHRASE",
+      "family_id": "N07",
+      "domain": "invite",
+      "variant": "PARAPHRASE",
+      "representation": "IDS",
+      "mapping": "MAP12",
+      "entity_map": {
+        "E1": "蒋欣",
+        "E2": "邓宇"
+      },
+      "source_text": "邓宇被蒋欣邀请参加读书会。",
+      "role_keys": [
+        "inviter",
+        "invitee"
+      ],
+      "role_definitions": "inviter是发出邀请的人，invitee是被邀请的人；邀请成立不等于接受邀请或实际参加。",
+      "messages": [
+        {
+          "role": "user",
+          "content": "根据下面这段文字，记录文中讨论的一个关系命题。只依据文字，不补充常识或背景。\n原文：\"邓宇被蒋欣邀请参加读书会。\"\n实体表：E1对应蒋欣；E2对应邓宇\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"inviter\":\"ID\",\"invitee\":\"ID\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\ninviter是发出邀请的人，invitee是被邀请的人；邀请成立不等于接受邀请或实际参加。这两个字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中相应的E1或E2。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+        }
+      ],
+      "prompt_sha256": "bb43ffb9ce6e3840ad27414f101d5f0e500ca769fecadaa75561569d614c9b80",
+      "sequence": 124,
+      "family_order": 7,
+      "variant_order": 1,
+      "condition_order": 4
+    },
+    {
+      "call_id": "B09-qwen-N07-ROLE_SWAP-IDS-MAP21",
+      "model": "qwen",
+      "source_id": "N07-ROLE_SWAP",
+      "family_id": "N07",
+      "domain": "invite",
+      "variant": "ROLE_SWAP",
+      "representation": "IDS",
+      "mapping": "MAP21",
+      "entity_map": {
+        "E1": "邓宇",
+        "E2": "蒋欣"
+      },
+      "source_text": "邓宇邀请了蒋欣参加读书会。",
+      "role_keys": [
+        "inviter",
+        "invitee"
+      ],
+      "role_definitions": "inviter是发出邀请的人，invitee是被邀请的人；邀请成立不等于接受邀请或实际参加。",
+      "messages": [
+        {
+          "role": "user",
+          "content": "根据下面这段文字，记录文中讨论的一个关系命题。只依据文字，不补充常识或背景。\n原文：\"邓宇邀请了蒋欣参加读书会。\"\n实体表：E1对应邓宇；E2对应蒋欣\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"inviter\":\"ID\",\"invitee\":\"ID\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\ninviter是发出邀请的人，invitee是被邀请的人；邀请成立不等于接受邀请或实际参加。这两个字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中相应的E1或E2。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+        }
+      ],
+      "prompt_sha256": "800eefa0d9d16f7540273e02e7f35303dbc552d518c6f13a5427d15c0e95a733",
+      "sequence": 125,
+      "family_order": 7,
+      "variant_order": 2,
+      "condition_order": 1
+    },
+    {
+      "call_id": "B09-qwen-N07-ROLE_SWAP-NAMES-MAP12",
+      "model": "qwen",
+      "source_id": "N07-ROLE_SWAP",
+      "family_id": "N07",
+      "domain": "invite",
+      "variant": "ROLE_SWAP",
+      "representation": "NAMES",
+      "mapping": "MAP12",
+      "entity_map": {
+        "E1": "蒋欣",
+        "E2": "邓宇"
+      },
+      "source_text": "邓宇邀请了蒋欣参加读书会。",
+      "role_keys": [
+        "inviter",
+        "invitee"
+      ],
+      "role_definitions": "inviter是发出邀请的人，invitee是被邀请的人；邀请成立不等于接受邀请或实际参加。",
+      "messages": [
+        {
+          "role": "user",
+          "content": "根据下面这段文字，记录文中讨论的一个关系命题。只依据文字，不补充常识或背景。\n原文：\"邓宇邀请了蒋欣参加读书会。\"\n实体表：E1对应蒋欣；E2对应邓宇\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"inviter\":\"姓名\",\"invitee\":\"姓名\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\ninviter是发出邀请的人，invitee是被邀请的人；邀请成立不等于接受邀请或实际参加。这两个字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中的完整姓名。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+        }
+      ],
+      "prompt_sha256": "420d1efa64b3f4d2251b9e75a819b4133d35a7bb89d28b6435a25cd80bb033ed",
+      "sequence": 126,
+      "family_order": 7,
+      "variant_order": 2,
+      "condition_order": 2
+    },
+    {
+      "call_id": "B09-qwen-N07-ROLE_SWAP-IDS-MAP12",
+      "model": "qwen",
+      "source_id": "N07-ROLE_SWAP",
+      "family_id": "N07",
+      "domain": "invite",
+      "variant": "ROLE_SWAP",
+      "representation": "IDS",
+      "mapping": "MAP12",
+      "entity_map": {
+        "E1": "蒋欣",
+        "E2": "邓宇"
+      },
+      "source_text": "邓宇邀请了蒋欣参加读书会。",
+      "role_keys": [
+        "inviter",
+        "invitee"
+      ],
+      "role_definitions": "inviter是发出邀请的人，invitee是被邀请的人；邀请成立不等于接受邀请或实际参加。",
+      "messages": [
+        {
+          "role": "user",
+          "content": "根据下面这段文字，记录文中讨论的一个关系命题。只依据文字，不补充常识或背景。\n原文：\"邓宇邀请了蒋欣参加读书会。\"\n实体表：E1对应蒋欣；E2对应邓宇\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"inviter\":\"ID\",\"invitee\":\"ID\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\ninviter是发出邀请的人，invitee是被邀请的人；邀请成立不等于接受邀请或实际参加。这两个字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中相应的E1或E2。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+        }
+      ],
+      "prompt_sha256": "954571d8471a34e341df6e3c9356313935b1d5eb19c4db2791206cf529d05e62",
+      "sequence": 127,
+      "family_order": 7,
+      "variant_order": 2,
+      "condition_order": 3
+    },
+    {
+      "call_id": "B09-qwen-N07-ROLE_SWAP-NAMES-MAP21",
+      "model": "qwen",
+      "source_id": "N07-ROLE_SWAP",
+      "family_id": "N07",
+      "domain": "invite",
+      "variant": "ROLE_SWAP",
+      "representation": "NAMES",
+      "mapping": "MAP21",
+      "entity_map": {
+        "E1": "邓宇",
+        "E2": "蒋欣"
+      },
+      "source_text": "邓宇邀请了蒋欣参加读书会。",
+      "role_keys": [
+        "inviter",
+        "invitee"
+      ],
+      "role_definitions": "inviter是发出邀请的人，invitee是被邀请的人；邀请成立不等于接受邀请或实际参加。",
+      "messages": [
+        {
+          "role": "user",
+          "content": "根据下面这段文字，记录文中讨论的一个关系命题。只依据文字，不补充常识或背景。\n原文：\"邓宇邀请了蒋欣参加读书会。\"\n实体表：E1对应邓宇；E2对应蒋欣\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"inviter\":\"姓名\",\"invitee\":\"姓名\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\ninviter是发出邀请的人，invitee是被邀请的人；邀请成立不等于接受邀请或实际参加。这两个字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中的完整姓名。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+        }
+      ],
+      "prompt_sha256": "c3414b7ca0547dcac110b96c3ceecc18c6515753ed2d1e62431f5b3f5fcfa3d3",
+      "sequence": 128,
+      "family_order": 7,
+      "variant_order": 2,
+      "condition_order": 4
+    },
+    {
+      "call_id": "B09-qwen-N07-NEGATED-NAMES-MAP12",
+      "model": "qwen",
+      "source_id": "N07-NEGATED",
+      "family_id": "N07",
+      "domain": "invite",
+      "variant": "NEGATED",
+      "representation": "NAMES",
+      "mapping": "MAP12",
+      "entity_map": {
+        "E1": "蒋欣",
+        "E2": "邓宇"
+      },
+      "source_text": "蒋欣没有邀请邓宇参加读书会。",
+      "role_keys": [
+        "inviter",
+        "invitee"
+      ],
+      "role_definitions": "inviter是发出邀请的人，invitee是被邀请的人；邀请成立不等于接受邀请或实际参加。",
+      "messages": [
+        {
+          "role": "user",
+          "content": "根据下面这段文字，记录文中讨论的一个关系命题。只依据文字，不补充常识或背景。\n原文：\"蒋欣没有邀请邓宇参加读书会。\"\n实体表：E1对应蒋欣；E2对应邓宇\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"inviter\":\"姓名\",\"invitee\":\"姓名\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\ninviter是发出邀请的人，invitee是被邀请的人；邀请成立不等于接受邀请或实际参加。这两个字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中的完整姓名。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+        }
+      ],
+      "prompt_sha256": "df582f67cb2dc46208a41f2bfd2fcc1e5c2bef8e4f13e58d73cddb36d0c6e3ee",
+      "sequence": 129,
+      "family_order": 7,
+      "variant_order": 3,
+      "condition_order": 1
+    },
+    {
+      "call_id": "B09-qwen-N07-NEGATED-IDS-MAP12",
+      "model": "qwen",
+      "source_id": "N07-NEGATED",
+      "family_id": "N07",
+      "domain": "invite",
+      "variant": "NEGATED",
+      "representation": "IDS",
+      "mapping": "MAP12",
+      "entity_map": {
+        "E1": "蒋欣",
+        "E2": "邓宇"
+      },
+      "source_text": "蒋欣没有邀请邓宇参加读书会。",
+      "role_keys": [
+        "inviter",
+        "invitee"
+      ],
+      "role_definitions": "inviter是发出邀请的人，invitee是被邀请的人；邀请成立不等于接受邀请或实际参加。",
+      "messages": [
+        {
+          "role": "user",
+          "content": "根据下面这段文字，记录文中讨论的一个关系命题。只依据文字，不补充常识或背景。\n原文：\"蒋欣没有邀请邓宇参加读书会。\"\n实体表：E1对应蒋欣；E2对应邓宇\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"inviter\":\"ID\",\"invitee\":\"ID\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\ninviter是发出邀请的人，invitee是被邀请的人；邀请成立不等于接受邀请或实际参加。这两个字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中相应的E1或E2。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+        }
+      ],
+      "prompt_sha256": "894d4d704654f8a72860ce3425950eda3414e7d944807dcde628b03c77ffebbe",
+      "sequence": 130,
+      "family_order": 7,
+      "variant_order": 3,
+      "condition_order": 2
+    },
+    {
+      "call_id": "B09-qwen-N07-NEGATED-NAMES-MAP21",
+      "model": "qwen",
+      "source_id": "N07-NEGATED",
+      "family_id": "N07",
+      "domain": "invite",
+      "variant": "NEGATED",
+      "representation": "NAMES",
+      "mapping": "MAP21",
+      "entity_map": {
+        "E1": "邓宇",
+        "E2": "蒋欣"
+      },
+      "source_text": "蒋欣没有邀请邓宇参加读书会。",
+      "role_keys": [
+        "inviter",
+        "invitee"
+      ],
+      "role_definitions": "inviter是发出邀请的人，invitee是被邀请的人；邀请成立不等于接受邀请或实际参加。",
+      "messages": [
+        {
+          "role": "user",
+          "content": "根据下面这段文字，记录文中讨论的一个关系命题。只依据文字，不补充常识或背景。\n原文：\"蒋欣没有邀请邓宇参加读书会。\"\n实体表：E1对应邓宇；E2对应蒋欣\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"inviter\":\"姓名\",\"invitee\":\"姓名\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\ninviter是发出邀请的人，invitee是被邀请的人；邀请成立不等于接受邀请或实际参加。这两个字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中的完整姓名。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+        }
+      ],
+      "prompt_sha256": "2165a64d4a7b05f83bcd047d562317f6e7941f985815dc113913d73b45ae6d7a",
+      "sequence": 131,
+      "family_order": 7,
+      "variant_order": 3,
+      "condition_order": 3
+    },
+    {
+      "call_id": "B09-qwen-N07-NEGATED-IDS-MAP21",
+      "model": "qwen",
+      "source_id": "N07-NEGATED",
+      "family_id": "N07",
+      "domain": "invite",
+      "variant": "NEGATED",
+      "representation": "IDS",
+      "mapping": "MAP21",
+      "entity_map": {
+        "E1": "邓宇",
+        "E2": "蒋欣"
+      },
+      "source_text": "蒋欣没有邀请邓宇参加读书会。",
+      "role_keys": [
+        "inviter",
+        "invitee"
+      ],
+      "role_definitions": "inviter是发出邀请的人，invitee是被邀请的人；邀请成立不等于接受邀请或实际参加。",
+      "messages": [
+        {
+          "role": "user",
+          "content": "根据下面这段文字，记录文中讨论的一个关系命题。只依据文字，不补充常识或背景。\n原文：\"蒋欣没有邀请邓宇参加读书会。\"\n实体表：E1对应邓宇；E2对应蒋欣\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"inviter\":\"ID\",\"invitee\":\"ID\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\ninviter是发出邀请的人，invitee是被邀请的人；邀请成立不等于接受邀请或实际参加。这两个字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中相应的E1或E2。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+        }
+      ],
+      "prompt_sha256": "680ce6842cc9812668d4937b7ad8219d5639ddfe448c5912518d3abd748c7412",
+      "sequence": 132,
+      "family_order": 7,
+      "variant_order": 3,
+      "condition_order": 4
+    },
+    {
+      "call_id": "B09-qwen-N07-UNRESOLVED-IDS-MAP12",
+      "model": "qwen",
+      "source_id": "N07-UNRESOLVED",
+      "family_id": "N07",
+      "domain": "invite",
+      "variant": "UNRESOLVED",
+      "representation": "IDS",
+      "mapping": "MAP12",
+      "entity_map": {
+        "E1": "蒋欣",
+        "E2": "邓宇"
+      },
+      "source_text": "工作人员正在核实蒋欣是否邀请了邓宇参加读书会，目前尚无结论。",
+      "role_keys": [
+        "inviter",
+        "invitee"
+      ],
+      "role_definitions": "inviter是发出邀请的人，invitee是被邀请的人；邀请成立不等于接受邀请或实际参加。",
+      "messages": [
+        {
+          "role": "user",
+          "content": "根据下面这段文字，记录文中讨论的一个关系命题。只依据文字，不补充常识或背景。\n原文：\"工作人员正在核实蒋欣是否邀请了邓宇参加读书会，目前尚无结论。\"\n实体表：E1对应蒋欣；E2对应邓宇\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"inviter\":\"ID\",\"invitee\":\"ID\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\ninviter是发出邀请的人，invitee是被邀请的人；邀请成立不等于接受邀请或实际参加。这两个字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中相应的E1或E2。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+        }
+      ],
+      "prompt_sha256": "18129c2d34afd49c92e72d75ba363dc4b47bb4b22e59f2b94cf741be4cb0eb32",
+      "sequence": 133,
+      "family_order": 7,
+      "variant_order": 4,
+      "condition_order": 1
+    },
+    {
+      "call_id": "B09-qwen-N07-UNRESOLVED-NAMES-MAP21",
+      "model": "qwen",
+      "source_id": "N07-UNRESOLVED",
+      "family_id": "N07",
+      "domain": "invite",
+      "variant": "UNRESOLVED",
+      "representation": "NAMES",
+      "mapping": "MAP21",
+      "entity_map": {
+        "E1": "邓宇",
+        "E2": "蒋欣"
+      },
+      "source_text": "工作人员正在核实蒋欣是否邀请了邓宇参加读书会，目前尚无结论。",
+      "role_keys": [
+        "inviter",
+        "invitee"
+      ],
+      "role_definitions": "inviter是发出邀请的人，invitee是被邀请的人；邀请成立不等于接受邀请或实际参加。",
+      "messages": [
+        {
+          "role": "user",
+          "content": "根据下面这段文字，记录文中讨论的一个关系命题。只依据文字，不补充常识或背景。\n原文：\"工作人员正在核实蒋欣是否邀请了邓宇参加读书会，目前尚无结论。\"\n实体表：E1对应邓宇；E2对应蒋欣\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"inviter\":\"姓名\",\"invitee\":\"姓名\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\ninviter是发出邀请的人，invitee是被邀请的人；邀请成立不等于接受邀请或实际参加。这两个字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中的完整姓名。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+        }
+      ],
+      "prompt_sha256": "9a8457bb8fbb456c38a0ff8efc6623759685888e2702b3502048247440d906b8",
+      "sequence": 134,
+      "family_order": 7,
+      "variant_order": 4,
+      "condition_order": 2
+    },
+    {
+      "call_id": "B09-qwen-N07-UNRESOLVED-IDS-MAP21",
+      "model": "qwen",
+      "source_id": "N07-UNRESOLVED",
+      "family_id": "N07",
+      "domain": "invite",
+      "variant": "UNRESOLVED",
+      "representation": "IDS",
+      "mapping": "MAP21",
+      "entity_map": {
+        "E1": "邓宇",
+        "E2": "蒋欣"
+      },
+      "source_text": "工作人员正在核实蒋欣是否邀请了邓宇参加读书会，目前尚无结论。",
+      "role_keys": [
+        "inviter",
+        "invitee"
+      ],
+      "role_definitions": "inviter是发出邀请的人，invitee是被邀请的人；邀请成立不等于接受邀请或实际参加。",
+      "messages": [
+        {
+          "role": "user",
+          "content": "根据下面这段文字，记录文中讨论的一个关系命题。只依据文字，不补充常识或背景。\n原文：\"工作人员正在核实蒋欣是否邀请了邓宇参加读书会，目前尚无结论。\"\n实体表：E1对应邓宇；E2对应蒋欣\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"inviter\":\"ID\",\"invitee\":\"ID\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\ninviter是发出邀请的人，invitee是被邀请的人；邀请成立不等于接受邀请或实际参加。这两个字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中相应的E1或E2。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+        }
+      ],
+      "prompt_sha256": "df694ee9ba1e66b9d8eb304406615ab2b6793e74f09f68da300eeaf73de3acf6",
+      "sequence": 135,
+      "family_order": 7,
+      "variant_order": 4,
+      "condition_order": 3
+    },
+    {
+      "call_id": "B09-qwen-N07-UNRESOLVED-NAMES-MAP12",
+      "model": "qwen",
+      "source_id": "N07-UNRESOLVED",
+      "family_id": "N07",
+      "domain": "invite",
+      "variant": "UNRESOLVED",
+      "representation": "NAMES",
+      "mapping": "MAP12",
+      "entity_map": {
+        "E1": "蒋欣",
+        "E2": "邓宇"
+      },
+      "source_text": "工作人员正在核实蒋欣是否邀请了邓宇参加读书会，目前尚无结论。",
+      "role_keys": [
+        "inviter",
+        "invitee"
+      ],
+      "role_definitions": "inviter是发出邀请的人，invitee是被邀请的人；邀请成立不等于接受邀请或实际参加。",
+      "messages": [
+        {
+          "role": "user",
+          "content": "根据下面这段文字，记录文中讨论的一个关系命题。只依据文字，不补充常识或背景。\n原文：\"工作人员正在核实蒋欣是否邀请了邓宇参加读书会，目前尚无结论。\"\n实体表：E1对应蒋欣；E2对应邓宇\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"inviter\":\"姓名\",\"invitee\":\"姓名\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\ninviter是发出邀请的人，invitee是被邀请的人；邀请成立不等于接受邀请或实际参加。这两个字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中的完整姓名。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+        }
+      ],
+      "prompt_sha256": "67af19ef031b36b28b44520d39abd6f8b4e0032f84a7bd918437efe8e3e4a6c7",
+      "sequence": 136,
+      "family_order": 7,
+      "variant_order": 4,
+      "condition_order": 4
+    },
+    {
+      "call_id": "B09-qwen-N07-BASE-NAMES-MAP21",
+      "model": "qwen",
+      "source_id": "N07-BASE",
+      "family_id": "N07",
+      "domain": "invite",
+      "variant": "BASE",
+      "representation": "NAMES",
+      "mapping": "MAP21",
+      "entity_map": {
+        "E1": "邓宇",
+        "E2": "蒋欣"
+      },
+      "source_text": "蒋欣邀请了邓宇参加读书会。",
+      "role_keys": [
+        "inviter",
+        "invitee"
+      ],
+      "role_definitions": "inviter是发出邀请的人，invitee是被邀请的人；邀请成立不等于接受邀请或实际参加。",
+      "messages": [
+        {
+          "role": "user",
+          "content": "根据下面这段文字，记录文中讨论的一个关系命题。只依据文字，不补充常识或背景。\n原文：\"蒋欣邀请了邓宇参加读书会。\"\n实体表：E1对应邓宇；E2对应蒋欣\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"inviter\":\"姓名\",\"invitee\":\"姓名\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\ninviter是发出邀请的人，invitee是被邀请的人；邀请成立不等于接受邀请或实际参加。这两个字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中的完整姓名。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+        }
+      ],
+      "prompt_sha256": "17b1fc6bea5a765f95c39af2382c872e3a121c4f9695cbaf17af8031c1ce4a51",
+      "sequence": 137,
+      "family_order": 7,
+      "variant_order": 5,
+      "condition_order": 1
+    },
+    {
+      "call_id": "B09-qwen-N07-BASE-IDS-MAP21",
+      "model": "qwen",
+      "source_id": "N07-BASE",
+      "family_id": "N07",
+      "domain": "invite",
+      "variant": "BASE",
+      "representation": "IDS",
+      "mapping": "MAP21",
+      "entity_map": {
+        "E1": "邓宇",
+        "E2": "蒋欣"
+      },
+      "source_text": "蒋欣邀请了邓宇参加读书会。",
+      "role_keys": [
+        "inviter",
+        "invitee"
+      ],
+      "role_definitions": "inviter是发出邀请的人，invitee是被邀请的人；邀请成立不等于接受邀请或实际参加。",
+      "messages": [
+        {
+          "role": "user",
+          "content": "根据下面这段文字，记录文中讨论的一个关系命题。只依据文字，不补充常识或背景。\n原文：\"蒋欣邀请了邓宇参加读书会。\"\n实体表：E1对应邓宇；E2对应蒋欣\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"inviter\":\"ID\",\"invitee\":\"ID\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\ninviter是发出邀请的人，invitee是被邀请的人；邀请成立不等于接受邀请或实际参加。这两个字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中相应的E1或E2。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+        }
+      ],
+      "prompt_sha256": "cca3817833587ecde08aec527f1476a2f9e776b1902454ed43f6118ed1e8ef32",
+      "sequence": 138,
+      "family_order": 7,
+      "variant_order": 5,
+      "condition_order": 2
+    },
+    {
+      "call_id": "B09-qwen-N07-BASE-NAMES-MAP12",
+      "model": "qwen",
+      "source_id": "N07-BASE",
+      "family_id": "N07",
+      "domain": "invite",
+      "variant": "BASE",
+      "representation": "NAMES",
+      "mapping": "MAP12",
+      "entity_map": {
+        "E1": "蒋欣",
+        "E2": "邓宇"
+      },
+      "source_text": "蒋欣邀请了邓宇参加读书会。",
+      "role_keys": [
+        "inviter",
+        "invitee"
+      ],
+      "role_definitions": "inviter是发出邀请的人，invitee是被邀请的人；邀请成立不等于接受邀请或实际参加。",
+      "messages": [
+        {
+          "role": "user",
+          "content": "根据下面这段文字，记录文中讨论的一个关系命题。只依据文字，不补充常识或背景。\n原文：\"蒋欣邀请了邓宇参加读书会。\"\n实体表：E1对应蒋欣；E2对应邓宇\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"inviter\":\"姓名\",\"invitee\":\"姓名\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\ninviter是发出邀请的人，invitee是被邀请的人；邀请成立不等于接受邀请或实际参加。这两个字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中的完整姓名。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+        }
+      ],
+      "prompt_sha256": "2feb86885fbf31673663b39b1080eb3e477c6857057850973bb21ded38b00acc",
+      "sequence": 139,
+      "family_order": 7,
+      "variant_order": 5,
+      "condition_order": 3
+    },
+    {
+      "call_id": "B09-qwen-N07-BASE-IDS-MAP12",
+      "model": "qwen",
+      "source_id": "N07-BASE",
+      "family_id": "N07",
+      "domain": "invite",
+      "variant": "BASE",
+      "representation": "IDS",
+      "mapping": "MAP12",
+      "entity_map": {
+        "E1": "蒋欣",
+        "E2": "邓宇"
+      },
+      "source_text": "蒋欣邀请了邓宇参加读书会。",
+      "role_keys": [
+        "inviter",
+        "invitee"
+      ],
+      "role_definitions": "inviter是发出邀请的人，invitee是被邀请的人；邀请成立不等于接受邀请或实际参加。",
+      "messages": [
+        {
+          "role": "user",
+          "content": "根据下面这段文字，记录文中讨论的一个关系命题。只依据文字，不补充常识或背景。\n原文：\"蒋欣邀请了邓宇参加读书会。\"\n实体表：E1对应蒋欣；E2对应邓宇\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"inviter\":\"ID\",\"invitee\":\"ID\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\ninviter是发出邀请的人，invitee是被邀请的人；邀请成立不等于接受邀请或实际参加。这两个字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中相应的E1或E2。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+        }
+      ],
+      "prompt_sha256": "3a6bf6e4108a385e3c438e1c440d4b7b0534b0fbbc0b1c7035b5c70c117abe26",
+      "sequence": 140,
+      "family_order": 7,
+      "variant_order": 5,
+      "condition_order": 4
+    },
+    {
+      "call_id": "B09-qwen-N08-ROLE_SWAP-IDS-MAP21",
+      "model": "qwen",
+      "source_id": "N08-ROLE_SWAP",
+      "family_id": "N08",
+      "domain": "invite",
+      "variant": "ROLE_SWAP",
+      "representation": "IDS",
+      "mapping": "MAP21",
+      "entity_map": {
+        "E1": "罗晴",
+        "E2": "潘越"
+      },
+      "source_text": "罗晴邀请了潘越参加摄影展。",
+      "role_keys": [
+        "inviter",
+        "invitee"
+      ],
+      "role_definitions": "inviter是发出邀请的人，invitee是被邀请的人；邀请成立不等于接受邀请或实际参加。",
+      "messages": [
+        {
+          "role": "user",
+          "content": "根据下面这段文字，记录文中讨论的一个关系命题。只依据文字，不补充常识或背景。\n原文：\"罗晴邀请了潘越参加摄影展。\"\n实体表：E1对应罗晴；E2对应潘越\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"inviter\":\"ID\",\"invitee\":\"ID\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\ninviter是发出邀请的人，invitee是被邀请的人；邀请成立不等于接受邀请或实际参加。这两个字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中相应的E1或E2。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+        }
+      ],
+      "prompt_sha256": "9ad551db8244bfdbf4468a8173f6cd432dd265b770af461f6b5056dd674d68c3",
+      "sequence": 141,
+      "family_order": 8,
+      "variant_order": 1,
+      "condition_order": 1
+    },
+    {
+      "call_id": "B09-qwen-N08-ROLE_SWAP-NAMES-MAP12",
+      "model": "qwen",
+      "source_id": "N08-ROLE_SWAP",
+      "family_id": "N08",
+      "domain": "invite",
+      "variant": "ROLE_SWAP",
+      "representation": "NAMES",
+      "mapping": "MAP12",
+      "entity_map": {
+        "E1": "潘越",
+        "E2": "罗晴"
+      },
+      "source_text": "罗晴邀请了潘越参加摄影展。",
+      "role_keys": [
+        "inviter",
+        "invitee"
+      ],
+      "role_definitions": "inviter是发出邀请的人，invitee是被邀请的人；邀请成立不等于接受邀请或实际参加。",
+      "messages": [
+        {
+          "role": "user",
+          "content": "根据下面这段文字，记录文中讨论的一个关系命题。只依据文字，不补充常识或背景。\n原文：\"罗晴邀请了潘越参加摄影展。\"\n实体表：E1对应潘越；E2对应罗晴\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"inviter\":\"姓名\",\"invitee\":\"姓名\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\ninviter是发出邀请的人，invitee是被邀请的人；邀请成立不等于接受邀请或实际参加。这两个字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中的完整姓名。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+        }
+      ],
+      "prompt_sha256": "8b91b27c264695b4c5e8b6b8d1da3b19b5c6ba116a45043bb85ac0b8b127091e",
+      "sequence": 142,
+      "family_order": 8,
+      "variant_order": 1,
+      "condition_order": 2
+    },
+    {
+      "call_id": "B09-qwen-N08-ROLE_SWAP-IDS-MAP12",
+      "model": "qwen",
+      "source_id": "N08-ROLE_SWAP",
+      "family_id": "N08",
+      "domain": "invite",
+      "variant": "ROLE_SWAP",
+      "representation": "IDS",
+      "mapping": "MAP12",
+      "entity_map": {
+        "E1": "潘越",
+        "E2": "罗晴"
+      },
+      "source_text": "罗晴邀请了潘越参加摄影展。",
+      "role_keys": [
+        "inviter",
+        "invitee"
+      ],
+      "role_definitions": "inviter是发出邀请的人，invitee是被邀请的人；邀请成立不等于接受邀请或实际参加。",
+      "messages": [
+        {
+          "role": "user",
+          "content": "根据下面这段文字，记录文中讨论的一个关系命题。只依据文字，不补充常识或背景。\n原文：\"罗晴邀请了潘越参加摄影展。\"\n实体表：E1对应潘越；E2对应罗晴\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"inviter\":\"ID\",\"invitee\":\"ID\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\ninviter是发出邀请的人，invitee是被邀请的人；邀请成立不等于接受邀请或实际参加。这两个字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中相应的E1或E2。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+        }
+      ],
+      "prompt_sha256": "9c70c3264d99ab9e28e293c0402f27cce9dde0e722229ab07a43553215098bb2",
+      "sequence": 143,
+      "family_order": 8,
+      "variant_order": 1,
+      "condition_order": 3
+    },
+    {
+      "call_id": "B09-qwen-N08-ROLE_SWAP-NAMES-MAP21",
+      "model": "qwen",
+      "source_id": "N08-ROLE_SWAP",
+      "family_id": "N08",
+      "domain": "invite",
+      "variant": "ROLE_SWAP",
+      "representation": "NAMES",
+      "mapping": "MAP21",
+      "entity_map": {
+        "E1": "罗晴",
+        "E2": "潘越"
+      },
+      "source_text": "罗晴邀请了潘越参加摄影展。",
+      "role_keys": [
+        "inviter",
+        "invitee"
+      ],
+      "role_definitions": "inviter是发出邀请的人，invitee是被邀请的人；邀请成立不等于接受邀请或实际参加。",
+      "messages": [
+        {
+          "role": "user",
+          "content": "根据下面这段文字，记录文中讨论的一个关系命题。只依据文字，不补充常识或背景。\n原文：\"罗晴邀请了潘越参加摄影展。\"\n实体表：E1对应罗晴；E2对应潘越\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"inviter\":\"姓名\",\"invitee\":\"姓名\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\ninviter是发出邀请的人，invitee是被邀请的人；邀请成立不等于接受邀请或实际参加。这两个字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中的完整姓名。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+        }
+      ],
+      "prompt_sha256": "8edab3a51a241aad2317fda7741cda63501642e5539aa91fef9cc4179a7f0b22",
+      "sequence": 144,
+      "family_order": 8,
+      "variant_order": 1,
+      "condition_order": 4
+    },
+    {
+      "call_id": "B09-qwen-N08-NEGATED-NAMES-MAP12",
+      "model": "qwen",
+      "source_id": "N08-NEGATED",
+      "family_id": "N08",
+      "domain": "invite",
+      "variant": "NEGATED",
+      "representation": "NAMES",
+      "mapping": "MAP12",
+      "entity_map": {
+        "E1": "潘越",
+        "E2": "罗晴"
+      },
+      "source_text": "潘越没有邀请罗晴参加摄影展。",
+      "role_keys": [
+        "inviter",
+        "invitee"
+      ],
+      "role_definitions": "inviter是发出邀请的人，invitee是被邀请的人；邀请成立不等于接受邀请或实际参加。",
+      "messages": [
+        {
+          "role": "user",
+          "content": "根据下面这段文字，记录文中讨论的一个关系命题。只依据文字，不补充常识或背景。\n原文：\"潘越没有邀请罗晴参加摄影展。\"\n实体表：E1对应潘越；E2对应罗晴\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"inviter\":\"姓名\",\"invitee\":\"姓名\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\ninviter是发出邀请的人，invitee是被邀请的人；邀请成立不等于接受邀请或实际参加。这两个字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中的完整姓名。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+        }
+      ],
+      "prompt_sha256": "129f3a0fd69f68e04b5c6a20280815a3df707d133bd0a325b894c27d638fc6b2",
+      "sequence": 145,
+      "family_order": 8,
+      "variant_order": 2,
+      "condition_order": 1
+    },
+    {
+      "call_id": "B09-qwen-N08-NEGATED-IDS-MAP12",
+      "model": "qwen",
+      "source_id": "N08-NEGATED",
+      "family_id": "N08",
+      "domain": "invite",
+      "variant": "NEGATED",
+      "representation": "IDS",
+      "mapping": "MAP12",
+      "entity_map": {
+        "E1": "潘越",
+        "E2": "罗晴"
+      },
+      "source_text": "潘越没有邀请罗晴参加摄影展。",
+      "role_keys": [
+        "inviter",
+        "invitee"
+      ],
+      "role_definitions": "inviter是发出邀请的人，invitee是被邀请的人；邀请成立不等于接受邀请或实际参加。",
+      "messages": [
+        {
+          "role": "user",
+          "content": "根据下面这段文字，记录文中讨论的一个关系命题。只依据文字，不补充常识或背景。\n原文：\"潘越没有邀请罗晴参加摄影展。\"\n实体表：E1对应潘越；E2对应罗晴\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"inviter\":\"ID\",\"invitee\":\"ID\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\ninviter是发出邀请的人，invitee是被邀请的人；邀请成立不等于接受邀请或实际参加。这两个字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中相应的E1或E2。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+        }
+      ],
+      "prompt_sha256": "a2016f347d3d65a06ca54bc4514894fd058820d3f5f93bbce19676de2be9967e",
+      "sequence": 146,
+      "family_order": 8,
+      "variant_order": 2,
+      "condition_order": 2
+    },
+    {
+      "call_id": "B09-qwen-N08-NEGATED-NAMES-MAP21",
+      "model": "qwen",
+      "source_id": "N08-NEGATED",
+      "family_id": "N08",
+      "domain": "invite",
+      "variant": "NEGATED",
+      "representation": "NAMES",
+      "mapping": "MAP21",
+      "entity_map": {
+        "E1": "罗晴",
+        "E2": "潘越"
+      },
+      "source_text": "潘越没有邀请罗晴参加摄影展。",
+      "role_keys": [
+        "inviter",
+        "invitee"
+      ],
+      "role_definitions": "inviter是发出邀请的人，invitee是被邀请的人；邀请成立不等于接受邀请或实际参加。",
+      "messages": [
+        {
+          "role": "user",
+          "content": "根据下面这段文字，记录文中讨论的一个关系命题。只依据文字，不补充常识或背景。\n原文：\"潘越没有邀请罗晴参加摄影展。\"\n实体表：E1对应罗晴；E2对应潘越\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"inviter\":\"姓名\",\"invitee\":\"姓名\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\ninviter是发出邀请的人，invitee是被邀请的人；邀请成立不等于接受邀请或实际参加。这两个字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中的完整姓名。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+        }
+      ],
+      "prompt_sha256": "6f863a87a9a69e10c700008e7e048d9994d451c112d94d7db357b6a8dea12cd7",
+      "sequence": 147,
+      "family_order": 8,
+      "variant_order": 2,
+      "condition_order": 3
+    },
+    {
+      "call_id": "B09-qwen-N08-NEGATED-IDS-MAP21",
+      "model": "qwen",
+      "source_id": "N08-NEGATED",
+      "family_id": "N08",
+      "domain": "invite",
+      "variant": "NEGATED",
+      "representation": "IDS",
+      "mapping": "MAP21",
+      "entity_map": {
+        "E1": "罗晴",
+        "E2": "潘越"
+      },
+      "source_text": "潘越没有邀请罗晴参加摄影展。",
+      "role_keys": [
+        "inviter",
+        "invitee"
+      ],
+      "role_definitions": "inviter是发出邀请的人，invitee是被邀请的人；邀请成立不等于接受邀请或实际参加。",
+      "messages": [
+        {
+          "role": "user",
+          "content": "根据下面这段文字，记录文中讨论的一个关系命题。只依据文字，不补充常识或背景。\n原文：\"潘越没有邀请罗晴参加摄影展。\"\n实体表：E1对应罗晴；E2对应潘越\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"inviter\":\"ID\",\"invitee\":\"ID\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\ninviter是发出邀请的人，invitee是被邀请的人；邀请成立不等于接受邀请或实际参加。这两个字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中相应的E1或E2。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+        }
+      ],
+      "prompt_sha256": "4e79e8de8b41452406db7e26edf149f06b1560ad5071c360397b8d7b53322964",
+      "sequence": 148,
+      "family_order": 8,
+      "variant_order": 2,
+      "condition_order": 4
+    },
+    {
+      "call_id": "B09-qwen-N08-UNRESOLVED-IDS-MAP12",
+      "model": "qwen",
+      "source_id": "N08-UNRESOLVED",
+      "family_id": "N08",
+      "domain": "invite",
+      "variant": "UNRESOLVED",
+      "representation": "IDS",
+      "mapping": "MAP12",
+      "entity_map": {
+        "E1": "潘越",
+        "E2": "罗晴"
+      },
+      "source_text": "工作人员正在核实潘越是否邀请了罗晴参加摄影展，目前尚无结论。",
+      "role_keys": [
+        "inviter",
+        "invitee"
+      ],
+      "role_definitions": "inviter是发出邀请的人，invitee是被邀请的人；邀请成立不等于接受邀请或实际参加。",
+      "messages": [
+        {
+          "role": "user",
+          "content": "根据下面这段文字，记录文中讨论的一个关系命题。只依据文字，不补充常识或背景。\n原文：\"工作人员正在核实潘越是否邀请了罗晴参加摄影展，目前尚无结论。\"\n实体表：E1对应潘越；E2对应罗晴\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"inviter\":\"ID\",\"invitee\":\"ID\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\ninviter是发出邀请的人，invitee是被邀请的人；邀请成立不等于接受邀请或实际参加。这两个字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中相应的E1或E2。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+        }
+      ],
+      "prompt_sha256": "d031112780ca681dbaa7badcf89f5b013052097b5b0d63888ca1ff036729cfa8",
+      "sequence": 149,
+      "family_order": 8,
+      "variant_order": 3,
+      "condition_order": 1
+    },
+    {
+      "call_id": "B09-qwen-N08-UNRESOLVED-NAMES-MAP21",
+      "model": "qwen",
+      "source_id": "N08-UNRESOLVED",
+      "family_id": "N08",
+      "domain": "invite",
+      "variant": "UNRESOLVED",
+      "representation": "NAMES",
+      "mapping": "MAP21",
+      "entity_map": {
+        "E1": "罗晴",
+        "E2": "潘越"
+      },
+      "source_text": "工作人员正在核实潘越是否邀请了罗晴参加摄影展，目前尚无结论。",
+      "role_keys": [
+        "inviter",
+        "invitee"
+      ],
+      "role_definitions": "inviter是发出邀请的人，invitee是被邀请的人；邀请成立不等于接受邀请或实际参加。",
+      "messages": [
+        {
+          "role": "user",
+          "content": "根据下面这段文字，记录文中讨论的一个关系命题。只依据文字，不补充常识或背景。\n原文：\"工作人员正在核实潘越是否邀请了罗晴参加摄影展，目前尚无结论。\"\n实体表：E1对应罗晴；E2对应潘越\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"inviter\":\"姓名\",\"invitee\":\"姓名\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\ninviter是发出邀请的人，invitee是被邀请的人；邀请成立不等于接受邀请或实际参加。这两个字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中的完整姓名。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+        }
+      ],
+      "prompt_sha256": "8c149ac9bc79a33f6f36778170acf16af103e2a0a6258a9f97ce7d37eb48c5e3",
+      "sequence": 150,
+      "family_order": 8,
+      "variant_order": 3,
+      "condition_order": 2
+    },
+    {
+      "call_id": "B09-qwen-N08-UNRESOLVED-IDS-MAP21",
+      "model": "qwen",
+      "source_id": "N08-UNRESOLVED",
+      "family_id": "N08",
+      "domain": "invite",
+      "variant": "UNRESOLVED",
+      "representation": "IDS",
+      "mapping": "MAP21",
+      "entity_map": {
+        "E1": "罗晴",
+        "E2": "潘越"
+      },
+      "source_text": "工作人员正在核实潘越是否邀请了罗晴参加摄影展，目前尚无结论。",
+      "role_keys": [
+        "inviter",
+        "invitee"
+      ],
+      "role_definitions": "inviter是发出邀请的人，invitee是被邀请的人；邀请成立不等于接受邀请或实际参加。",
+      "messages": [
+        {
+          "role": "user",
+          "content": "根据下面这段文字，记录文中讨论的一个关系命题。只依据文字，不补充常识或背景。\n原文：\"工作人员正在核实潘越是否邀请了罗晴参加摄影展，目前尚无结论。\"\n实体表：E1对应罗晴；E2对应潘越\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"inviter\":\"ID\",\"invitee\":\"ID\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\ninviter是发出邀请的人，invitee是被邀请的人；邀请成立不等于接受邀请或实际参加。这两个字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中相应的E1或E2。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+        }
+      ],
+      "prompt_sha256": "3e6e9308ab260c32bf2febfb844ccadd65579adc06d1b170d3551fef3f1e3345",
+      "sequence": 151,
+      "family_order": 8,
+      "variant_order": 3,
+      "condition_order": 3
+    },
+    {
+      "call_id": "B09-qwen-N08-UNRESOLVED-NAMES-MAP12",
+      "model": "qwen",
+      "source_id": "N08-UNRESOLVED",
+      "family_id": "N08",
+      "domain": "invite",
+      "variant": "UNRESOLVED",
+      "representation": "NAMES",
+      "mapping": "MAP12",
+      "entity_map": {
+        "E1": "潘越",
+        "E2": "罗晴"
+      },
+      "source_text": "工作人员正在核实潘越是否邀请了罗晴参加摄影展，目前尚无结论。",
+      "role_keys": [
+        "inviter",
+        "invitee"
+      ],
+      "role_definitions": "inviter是发出邀请的人，invitee是被邀请的人；邀请成立不等于接受邀请或实际参加。",
+      "messages": [
+        {
+          "role": "user",
+          "content": "根据下面这段文字，记录文中讨论的一个关系命题。只依据文字，不补充常识或背景。\n原文：\"工作人员正在核实潘越是否邀请了罗晴参加摄影展，目前尚无结论。\"\n实体表：E1对应潘越；E2对应罗晴\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"inviter\":\"姓名\",\"invitee\":\"姓名\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\ninviter是发出邀请的人，invitee是被邀请的人；邀请成立不等于接受邀请或实际参加。这两个字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中的完整姓名。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+        }
+      ],
+      "prompt_sha256": "b3e20f450c217d2227a6e374b1183efa1bbf1ad7ba416b1238a17386f60de140",
+      "sequence": 152,
+      "family_order": 8,
+      "variant_order": 3,
+      "condition_order": 4
+    },
+    {
+      "call_id": "B09-qwen-N08-BASE-NAMES-MAP21",
+      "model": "qwen",
+      "source_id": "N08-BASE",
+      "family_id": "N08",
+      "domain": "invite",
+      "variant": "BASE",
+      "representation": "NAMES",
+      "mapping": "MAP21",
+      "entity_map": {
+        "E1": "罗晴",
+        "E2": "潘越"
+      },
+      "source_text": "潘越邀请了罗晴参加摄影展。",
+      "role_keys": [
+        "inviter",
+        "invitee"
+      ],
+      "role_definitions": "inviter是发出邀请的人，invitee是被邀请的人；邀请成立不等于接受邀请或实际参加。",
+      "messages": [
+        {
+          "role": "user",
+          "content": "根据下面这段文字，记录文中讨论的一个关系命题。只依据文字，不补充常识或背景。\n原文：\"潘越邀请了罗晴参加摄影展。\"\n实体表：E1对应罗晴；E2对应潘越\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"inviter\":\"姓名\",\"invitee\":\"姓名\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\ninviter是发出邀请的人，invitee是被邀请的人；邀请成立不等于接受邀请或实际参加。这两个字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中的完整姓名。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+        }
+      ],
+      "prompt_sha256": "f39dd59c6f25942ad0485fdb853857b14ff7625113ac73b03e71d7d9dc0381f9",
+      "sequence": 153,
+      "family_order": 8,
+      "variant_order": 4,
+      "condition_order": 1
+    },
+    {
+      "call_id": "B09-qwen-N08-BASE-IDS-MAP21",
+      "model": "qwen",
+      "source_id": "N08-BASE",
+      "family_id": "N08",
+      "domain": "invite",
+      "variant": "BASE",
+      "representation": "IDS",
+      "mapping": "MAP21",
+      "entity_map": {
+        "E1": "罗晴",
+        "E2": "潘越"
+      },
+      "source_text": "潘越邀请了罗晴参加摄影展。",
+      "role_keys": [
+        "inviter",
+        "invitee"
+      ],
+      "role_definitions": "inviter是发出邀请的人，invitee是被邀请的人；邀请成立不等于接受邀请或实际参加。",
+      "messages": [
+        {
+          "role": "user",
+          "content": "根据下面这段文字，记录文中讨论的一个关系命题。只依据文字，不补充常识或背景。\n原文：\"潘越邀请了罗晴参加摄影展。\"\n实体表：E1对应罗晴；E2对应潘越\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"inviter\":\"ID\",\"invitee\":\"ID\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\ninviter是发出邀请的人，invitee是被邀请的人；邀请成立不等于接受邀请或实际参加。这两个字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中相应的E1或E2。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+        }
+      ],
+      "prompt_sha256": "fc2fd4acb3e5f44c7ef53f432ad0e2e82dd1e514999862fd1e30712dea2bee7c",
+      "sequence": 154,
+      "family_order": 8,
+      "variant_order": 4,
+      "condition_order": 2
+    },
+    {
+      "call_id": "B09-qwen-N08-BASE-NAMES-MAP12",
+      "model": "qwen",
+      "source_id": "N08-BASE",
+      "family_id": "N08",
+      "domain": "invite",
+      "variant": "BASE",
+      "representation": "NAMES",
+      "mapping": "MAP12",
+      "entity_map": {
+        "E1": "潘越",
+        "E2": "罗晴"
+      },
+      "source_text": "潘越邀请了罗晴参加摄影展。",
+      "role_keys": [
+        "inviter",
+        "invitee"
+      ],
+      "role_definitions": "inviter是发出邀请的人，invitee是被邀请的人；邀请成立不等于接受邀请或实际参加。",
+      "messages": [
+        {
+          "role": "user",
+          "content": "根据下面这段文字，记录文中讨论的一个关系命题。只依据文字，不补充常识或背景。\n原文：\"潘越邀请了罗晴参加摄影展。\"\n实体表：E1对应潘越；E2对应罗晴\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"inviter\":\"姓名\",\"invitee\":\"姓名\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\ninviter是发出邀请的人，invitee是被邀请的人；邀请成立不等于接受邀请或实际参加。这两个字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中的完整姓名。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+        }
+      ],
+      "prompt_sha256": "adb1c72ce39f9d859c650c09fcc5c89f0bf8ab70c192b4c07ea9fbb2e4c0b208",
+      "sequence": 155,
+      "family_order": 8,
+      "variant_order": 4,
+      "condition_order": 3
+    },
+    {
+      "call_id": "B09-qwen-N08-BASE-IDS-MAP12",
+      "model": "qwen",
+      "source_id": "N08-BASE",
+      "family_id": "N08",
+      "domain": "invite",
+      "variant": "BASE",
+      "representation": "IDS",
+      "mapping": "MAP12",
+      "entity_map": {
+        "E1": "潘越",
+        "E2": "罗晴"
+      },
+      "source_text": "潘越邀请了罗晴参加摄影展。",
+      "role_keys": [
+        "inviter",
+        "invitee"
+      ],
+      "role_definitions": "inviter是发出邀请的人，invitee是被邀请的人；邀请成立不等于接受邀请或实际参加。",
+      "messages": [
+        {
+          "role": "user",
+          "content": "根据下面这段文字，记录文中讨论的一个关系命题。只依据文字，不补充常识或背景。\n原文：\"潘越邀请了罗晴参加摄影展。\"\n实体表：E1对应潘越；E2对应罗晴\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"inviter\":\"ID\",\"invitee\":\"ID\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\ninviter是发出邀请的人，invitee是被邀请的人；邀请成立不等于接受邀请或实际参加。这两个字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中相应的E1或E2。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+        }
+      ],
+      "prompt_sha256": "3fee49bafed8fe78d520779d063a2f018e242fd629f3819bde935bf663876148",
+      "sequence": 156,
+      "family_order": 8,
+      "variant_order": 4,
+      "condition_order": 4
+    },
+    {
+      "call_id": "B09-qwen-N08-PARAPHRASE-IDS-MAP21",
+      "model": "qwen",
+      "source_id": "N08-PARAPHRASE",
+      "family_id": "N08",
+      "domain": "invite",
+      "variant": "PARAPHRASE",
+      "representation": "IDS",
+      "mapping": "MAP21",
+      "entity_map": {
+        "E1": "罗晴",
+        "E2": "潘越"
+      },
+      "source_text": "罗晴被潘越邀请参加摄影展。",
+      "role_keys": [
+        "inviter",
+        "invitee"
+      ],
+      "role_definitions": "inviter是发出邀请的人，invitee是被邀请的人；邀请成立不等于接受邀请或实际参加。",
+      "messages": [
+        {
+          "role": "user",
+          "content": "根据下面这段文字，记录文中讨论的一个关系命题。只依据文字，不补充常识或背景。\n原文：\"罗晴被潘越邀请参加摄影展。\"\n实体表：E1对应罗晴；E2对应潘越\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"inviter\":\"ID\",\"invitee\":\"ID\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\ninviter是发出邀请的人，invitee是被邀请的人；邀请成立不等于接受邀请或实际参加。这两个字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中相应的E1或E2。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+        }
+      ],
+      "prompt_sha256": "fb8987a5b54b4add2f1f54147f705edc79d07959c90bc5fccac5222c70af83bb",
+      "sequence": 157,
+      "family_order": 8,
+      "variant_order": 5,
+      "condition_order": 1
+    },
+    {
+      "call_id": "B09-qwen-N08-PARAPHRASE-NAMES-MAP12",
+      "model": "qwen",
+      "source_id": "N08-PARAPHRASE",
+      "family_id": "N08",
+      "domain": "invite",
+      "variant": "PARAPHRASE",
+      "representation": "NAMES",
+      "mapping": "MAP12",
+      "entity_map": {
+        "E1": "潘越",
+        "E2": "罗晴"
+      },
+      "source_text": "罗晴被潘越邀请参加摄影展。",
+      "role_keys": [
+        "inviter",
+        "invitee"
+      ],
+      "role_definitions": "inviter是发出邀请的人，invitee是被邀请的人；邀请成立不等于接受邀请或实际参加。",
+      "messages": [
+        {
+          "role": "user",
+          "content": "根据下面这段文字，记录文中讨论的一个关系命题。只依据文字，不补充常识或背景。\n原文：\"罗晴被潘越邀请参加摄影展。\"\n实体表：E1对应潘越；E2对应罗晴\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"inviter\":\"姓名\",\"invitee\":\"姓名\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\ninviter是发出邀请的人，invitee是被邀请的人；邀请成立不等于接受邀请或实际参加。这两个字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中的完整姓名。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+        }
+      ],
+      "prompt_sha256": "163ae44e3822b91044d7d7e666c1f2ae8c00bedbd59ee2de1f807b02594a14d8",
+      "sequence": 158,
+      "family_order": 8,
+      "variant_order": 5,
+      "condition_order": 2
+    },
+    {
+      "call_id": "B09-qwen-N08-PARAPHRASE-IDS-MAP12",
+      "model": "qwen",
+      "source_id": "N08-PARAPHRASE",
+      "family_id": "N08",
+      "domain": "invite",
+      "variant": "PARAPHRASE",
+      "representation": "IDS",
+      "mapping": "MAP12",
+      "entity_map": {
+        "E1": "潘越",
+        "E2": "罗晴"
+      },
+      "source_text": "罗晴被潘越邀请参加摄影展。",
+      "role_keys": [
+        "inviter",
+        "invitee"
+      ],
+      "role_definitions": "inviter是发出邀请的人，invitee是被邀请的人；邀请成立不等于接受邀请或实际参加。",
+      "messages": [
+        {
+          "role": "user",
+          "content": "根据下面这段文字，记录文中讨论的一个关系命题。只依据文字，不补充常识或背景。\n原文：\"罗晴被潘越邀请参加摄影展。\"\n实体表：E1对应潘越；E2对应罗晴\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"inviter\":\"ID\",\"invitee\":\"ID\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\ninviter是发出邀请的人，invitee是被邀请的人；邀请成立不等于接受邀请或实际参加。这两个字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中相应的E1或E2。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+        }
+      ],
+      "prompt_sha256": "ee79d9aab8da1ae128b54dfa513723f8b8647b1d5f600d36fca406c86b02a43f",
+      "sequence": 159,
+      "family_order": 8,
+      "variant_order": 5,
+      "condition_order": 3
+    },
+    {
+      "call_id": "B09-qwen-N08-PARAPHRASE-NAMES-MAP21",
+      "model": "qwen",
+      "source_id": "N08-PARAPHRASE",
+      "family_id": "N08",
+      "domain": "invite",
+      "variant": "PARAPHRASE",
+      "representation": "NAMES",
+      "mapping": "MAP21",
+      "entity_map": {
+        "E1": "罗晴",
+        "E2": "潘越"
+      },
+      "source_text": "罗晴被潘越邀请参加摄影展。",
+      "role_keys": [
+        "inviter",
+        "invitee"
+      ],
+      "role_definitions": "inviter是发出邀请的人，invitee是被邀请的人；邀请成立不等于接受邀请或实际参加。",
+      "messages": [
+        {
+          "role": "user",
+          "content": "根据下面这段文字，记录文中讨论的一个关系命题。只依据文字，不补充常识或背景。\n原文：\"罗晴被潘越邀请参加摄影展。\"\n实体表：E1对应罗晴；E2对应潘越\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"inviter\":\"姓名\",\"invitee\":\"姓名\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\ninviter是发出邀请的人，invitee是被邀请的人；邀请成立不等于接受邀请或实际参加。这两个字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中的完整姓名。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+        }
+      ],
+      "prompt_sha256": "4dc3a92d366463149d0c4a2554f2063a92e1655097395df303f7818558e2ddd8",
+      "sequence": 160,
+      "family_order": 8,
+      "variant_order": 5,
+      "condition_order": 4
+    }
+  ]
+}

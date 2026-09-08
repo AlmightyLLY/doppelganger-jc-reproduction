@@ -1,0 +1,1610 @@
+{
+  "experiment_id": "EXP-20260908-B12",
+  "protocol_version": "ja_return_v2",
+  "grids": [
+    {
+      "model": "qwen",
+      "source_form": "JA_ACTIVE",
+      "single_actual_n": 32,
+      "single_scores": {
+        "record": {
+          "C": 32,
+          "W": 0,
+          "U": 0
+        },
+        "occurrence": {
+          "C": 32,
+          "W": 0,
+          "U": 0
+        },
+        "role_a": {
+          "C": 32,
+          "W": 0,
+          "U": 0
+        },
+        "role_b": {
+          "C": 32,
+          "W": 0,
+          "U": 0
+        },
+        "participant": {
+          "C": 32,
+          "W": 0,
+          "U": 0
+        }
+      },
+      "full_n": 48,
+      "full_scores": {
+        "record": {
+          "C": 48,
+          "W": 0,
+          "U": 0
+        },
+        "occurrence": {
+          "C": 48,
+          "W": 0,
+          "U": 0
+        },
+        "role_a": {
+          "C": 48,
+          "W": 0,
+          "U": 0
+        },
+        "role_b": {
+          "C": 48,
+          "W": 0,
+          "U": 0
+        },
+        "participant": {
+          "C": 48,
+          "W": 0,
+          "U": 0
+        }
+      },
+      "single_mapped_n": 48,
+      "single_mapped_scores": {
+        "record": {
+          "C": 48,
+          "W": 0,
+          "U": 0
+        },
+        "occurrence": {
+          "C": 48,
+          "W": 0,
+          "U": 0
+        },
+        "role_a": {
+          "C": 48,
+          "W": 0,
+          "U": 0
+        },
+        "role_b": {
+          "C": 48,
+          "W": 0,
+          "U": 0
+        },
+        "participant": {
+          "C": 48,
+          "W": 0,
+          "U": 0
+        }
+      },
+      "single_floor": {
+        "pass": true,
+        "C": 32,
+        "positive_C": 20,
+        "positive_n": 20,
+        "negative_C": 12,
+        "negative_n": 12
+      },
+      "simple_isolation": {
+        "n": 48,
+        "transitions": {
+          "record": {
+            "C->C": 48
+          },
+          "occurrence": {
+            "C->C": 48
+          },
+          "role_a": {
+            "C->C": 48
+          },
+          "role_b": {
+            "C->C": 48
+          },
+          "participant": {
+            "C->C": 48
+          }
+        },
+        "any_component_new_harm": 0,
+        "hidden_harm_record_WW": []
+      },
+      "simple_isolation_new_calls": 0,
+      "format": {
+        "SINGLE": {
+          "PASS": 32
+        },
+        "FULL": {
+          "PASS": 48
+        }
+      }
+    },
+    {
+      "model": "qwen",
+      "source_form": "JA_PASSIVE",
+      "single_actual_n": 32,
+      "single_scores": {
+        "record": {
+          "C": 32,
+          "W": 0,
+          "U": 0
+        },
+        "occurrence": {
+          "C": 32,
+          "W": 0,
+          "U": 0
+        },
+        "role_a": {
+          "C": 32,
+          "W": 0,
+          "U": 0
+        },
+        "role_b": {
+          "C": 32,
+          "W": 0,
+          "U": 0
+        },
+        "participant": {
+          "C": 32,
+          "W": 0,
+          "U": 0
+        }
+      },
+      "full_n": 48,
+      "full_scores": {
+        "record": {
+          "C": 44,
+          "W": 4,
+          "U": 0
+        },
+        "occurrence": {
+          "C": 48,
+          "W": 0,
+          "U": 0
+        },
+        "role_a": {
+          "C": 44,
+          "W": 4,
+          "U": 0
+        },
+        "role_b": {
+          "C": 45,
+          "W": 3,
+          "U": 0
+        },
+        "participant": {
+          "C": 44,
+          "W": 4,
+          "U": 0
+        }
+      },
+      "single_mapped_n": 48,
+      "single_mapped_scores": {
+        "record": {
+          "C": 48,
+          "W": 0,
+          "U": 0
+        },
+        "occurrence": {
+          "C": 48,
+          "W": 0,
+          "U": 0
+        },
+        "role_a": {
+          "C": 48,
+          "W": 0,
+          "U": 0
+        },
+        "role_b": {
+          "C": 48,
+          "W": 0,
+          "U": 0
+        },
+        "participant": {
+          "C": 48,
+          "W": 0,
+          "U": 0
+        }
+      },
+      "single_floor": {
+        "pass": true,
+        "C": 32,
+        "positive_C": 20,
+        "positive_n": 20,
+        "negative_C": 12,
+        "negative_n": 12
+      },
+      "simple_isolation": {
+        "n": 48,
+        "transitions": {
+          "record": {
+            "C->C": 44,
+            "W->C": 4
+          },
+          "occurrence": {
+            "C->C": 48
+          },
+          "role_a": {
+            "C->C": 44,
+            "W->C": 4
+          },
+          "role_b": {
+            "C->C": 45,
+            "W->C": 3
+          },
+          "participant": {
+            "C->C": 44,
+            "W->C": 4
+          }
+        },
+        "any_component_new_harm": 0,
+        "hidden_harm_record_WW": []
+      },
+      "simple_isolation_new_calls": 0,
+      "format": {
+        "SINGLE": {
+          "PASS": 32
+        },
+        "FULL": {
+          "PASS": 48
+        }
+      }
+    },
+    {
+      "model": "qwen",
+      "source_form": "ZH_ACTIVE",
+      "single_actual_n": 32,
+      "single_scores": {
+        "record": {
+          "C": 32,
+          "W": 0,
+          "U": 0
+        },
+        "occurrence": {
+          "C": 32,
+          "W": 0,
+          "U": 0
+        },
+        "role_a": {
+          "C": 32,
+          "W": 0,
+          "U": 0
+        },
+        "role_b": {
+          "C": 32,
+          "W": 0,
+          "U": 0
+        },
+        "participant": {
+          "C": 32,
+          "W": 0,
+          "U": 0
+        }
+      },
+      "full_n": 48,
+      "full_scores": {
+        "record": {
+          "C": 48,
+          "W": 0,
+          "U": 0
+        },
+        "occurrence": {
+          "C": 48,
+          "W": 0,
+          "U": 0
+        },
+        "role_a": {
+          "C": 48,
+          "W": 0,
+          "U": 0
+        },
+        "role_b": {
+          "C": 48,
+          "W": 0,
+          "U": 0
+        },
+        "participant": {
+          "C": 48,
+          "W": 0,
+          "U": 0
+        }
+      },
+      "single_mapped_n": 48,
+      "single_mapped_scores": {
+        "record": {
+          "C": 48,
+          "W": 0,
+          "U": 0
+        },
+        "occurrence": {
+          "C": 48,
+          "W": 0,
+          "U": 0
+        },
+        "role_a": {
+          "C": 48,
+          "W": 0,
+          "U": 0
+        },
+        "role_b": {
+          "C": 48,
+          "W": 0,
+          "U": 0
+        },
+        "participant": {
+          "C": 48,
+          "W": 0,
+          "U": 0
+        }
+      },
+      "single_floor": {
+        "pass": true,
+        "C": 32,
+        "positive_C": 20,
+        "positive_n": 20,
+        "negative_C": 12,
+        "negative_n": 12
+      },
+      "simple_isolation": {
+        "n": 48,
+        "transitions": {
+          "record": {
+            "C->C": 48
+          },
+          "occurrence": {
+            "C->C": 48
+          },
+          "role_a": {
+            "C->C": 48
+          },
+          "role_b": {
+            "C->C": 48
+          },
+          "participant": {
+            "C->C": 48
+          }
+        },
+        "any_component_new_harm": 0,
+        "hidden_harm_record_WW": []
+      },
+      "simple_isolation_new_calls": 0,
+      "format": {
+        "SINGLE": {
+          "PASS": 32
+        },
+        "FULL": {
+          "PASS": 48
+        }
+      }
+    },
+    {
+      "model": "llama",
+      "source_form": "JA_ACTIVE",
+      "single_actual_n": 32,
+      "single_scores": {
+        "record": {
+          "C": 32,
+          "W": 0,
+          "U": 0
+        },
+        "occurrence": {
+          "C": 32,
+          "W": 0,
+          "U": 0
+        },
+        "role_a": {
+          "C": 32,
+          "W": 0,
+          "U": 0
+        },
+        "role_b": {
+          "C": 32,
+          "W": 0,
+          "U": 0
+        },
+        "participant": {
+          "C": 32,
+          "W": 0,
+          "U": 0
+        }
+      },
+      "full_n": 48,
+      "full_scores": {
+        "record": {
+          "C": 45,
+          "W": 3,
+          "U": 0
+        },
+        "occurrence": {
+          "C": 48,
+          "W": 0,
+          "U": 0
+        },
+        "role_a": {
+          "C": 45,
+          "W": 3,
+          "U": 0
+        },
+        "role_b": {
+          "C": 46,
+          "W": 2,
+          "U": 0
+        },
+        "participant": {
+          "C": 45,
+          "W": 3,
+          "U": 0
+        }
+      },
+      "single_mapped_n": 48,
+      "single_mapped_scores": {
+        "record": {
+          "C": 48,
+          "W": 0,
+          "U": 0
+        },
+        "occurrence": {
+          "C": 48,
+          "W": 0,
+          "U": 0
+        },
+        "role_a": {
+          "C": 48,
+          "W": 0,
+          "U": 0
+        },
+        "role_b": {
+          "C": 48,
+          "W": 0,
+          "U": 0
+        },
+        "participant": {
+          "C": 48,
+          "W": 0,
+          "U": 0
+        }
+      },
+      "single_floor": {
+        "pass": true,
+        "C": 32,
+        "positive_C": 20,
+        "positive_n": 20,
+        "negative_C": 12,
+        "negative_n": 12
+      },
+      "simple_isolation": {
+        "n": 48,
+        "transitions": {
+          "record": {
+            "C->C": 45,
+            "W->C": 3
+          },
+          "occurrence": {
+            "C->C": 48
+          },
+          "role_a": {
+            "C->C": 45,
+            "W->C": 3
+          },
+          "role_b": {
+            "C->C": 46,
+            "W->C": 2
+          },
+          "participant": {
+            "C->C": 45,
+            "W->C": 3
+          }
+        },
+        "any_component_new_harm": 0,
+        "hidden_harm_record_WW": []
+      },
+      "simple_isolation_new_calls": 0,
+      "format": {
+        "SINGLE": {
+          "PASS": 32
+        },
+        "FULL": {
+          "FAIL": 9,
+          "PASS": 39
+        }
+      }
+    },
+    {
+      "model": "llama",
+      "source_form": "JA_PASSIVE",
+      "single_actual_n": 32,
+      "single_scores": {
+        "record": {
+          "C": 26,
+          "W": 6,
+          "U": 0
+        },
+        "occurrence": {
+          "C": 32,
+          "W": 0,
+          "U": 0
+        },
+        "role_a": {
+          "C": 26,
+          "W": 6,
+          "U": 0
+        },
+        "role_b": {
+          "C": 26,
+          "W": 6,
+          "U": 0
+        },
+        "participant": {
+          "C": 26,
+          "W": 6,
+          "U": 0
+        }
+      },
+      "full_n": 48,
+      "full_scores": {
+        "record": {
+          "C": 40,
+          "W": 8,
+          "U": 0
+        },
+        "occurrence": {
+          "C": 48,
+          "W": 0,
+          "U": 0
+        },
+        "role_a": {
+          "C": 40,
+          "W": 8,
+          "U": 0
+        },
+        "role_b": {
+          "C": 42,
+          "W": 4,
+          "U": 2
+        },
+        "participant": {
+          "C": 40,
+          "W": 8,
+          "U": 0
+        }
+      },
+      "single_mapped_n": 48,
+      "single_mapped_scores": {
+        "record": {
+          "C": 42,
+          "W": 6,
+          "U": 0
+        },
+        "occurrence": {
+          "C": 48,
+          "W": 0,
+          "U": 0
+        },
+        "role_a": {
+          "C": 42,
+          "W": 6,
+          "U": 0
+        },
+        "role_b": {
+          "C": 42,
+          "W": 6,
+          "U": 0
+        },
+        "participant": {
+          "C": 42,
+          "W": 6,
+          "U": 0
+        }
+      },
+      "single_floor": {
+        "pass": false,
+        "C": 26,
+        "positive_C": 16,
+        "positive_n": 20,
+        "negative_C": 10,
+        "negative_n": 12
+      },
+      "simple_isolation": {
+        "n": 48,
+        "transitions": {
+          "record": {
+            "C->C": 36,
+            "C->W": 4,
+            "W->C": 6,
+            "W->W": 2
+          },
+          "occurrence": {
+            "C->C": 48
+          },
+          "role_a": {
+            "C->C": 36,
+            "C->W": 4,
+            "W->C": 6,
+            "W->W": 2
+          },
+          "role_b": {
+            "C->C": 37,
+            "C->W": 5,
+            "W->C": 4,
+            "U->C": 1,
+            "U->W": 1
+          },
+          "participant": {
+            "C->C": 36,
+            "C->W": 4,
+            "W->C": 6,
+            "W->W": 2
+          }
+        },
+        "any_component_new_harm": 5,
+        "hidden_harm_record_WW": [
+          "ISOLATE:B12V2-LLAMA-F0120--B12V2-LLAMA-S0080"
+        ]
+      },
+      "simple_isolation_new_calls": 0,
+      "format": {
+        "SINGLE": {
+          "PASS": 32
+        },
+        "FULL": {
+          "PASS": 43,
+          "FAIL": 5
+        }
+      }
+    },
+    {
+      "model": "llama",
+      "source_form": "ZH_ACTIVE",
+      "single_actual_n": 32,
+      "single_scores": {
+        "record": {
+          "C": 32,
+          "W": 0,
+          "U": 0
+        },
+        "occurrence": {
+          "C": 32,
+          "W": 0,
+          "U": 0
+        },
+        "role_a": {
+          "C": 32,
+          "W": 0,
+          "U": 0
+        },
+        "role_b": {
+          "C": 32,
+          "W": 0,
+          "U": 0
+        },
+        "participant": {
+          "C": 32,
+          "W": 0,
+          "U": 0
+        }
+      },
+      "full_n": 48,
+      "full_scores": {
+        "record": {
+          "C": 32,
+          "W": 3,
+          "U": 13
+        },
+        "occurrence": {
+          "C": 48,
+          "W": 0,
+          "U": 0
+        },
+        "role_a": {
+          "C": 32,
+          "W": 3,
+          "U": 13
+        },
+        "role_b": {
+          "C": 32,
+          "W": 3,
+          "U": 13
+        },
+        "participant": {
+          "C": 32,
+          "W": 3,
+          "U": 13
+        }
+      },
+      "single_mapped_n": 48,
+      "single_mapped_scores": {
+        "record": {
+          "C": 48,
+          "W": 0,
+          "U": 0
+        },
+        "occurrence": {
+          "C": 48,
+          "W": 0,
+          "U": 0
+        },
+        "role_a": {
+          "C": 48,
+          "W": 0,
+          "U": 0
+        },
+        "role_b": {
+          "C": 48,
+          "W": 0,
+          "U": 0
+        },
+        "participant": {
+          "C": 48,
+          "W": 0,
+          "U": 0
+        }
+      },
+      "single_floor": {
+        "pass": true,
+        "C": 32,
+        "positive_C": 20,
+        "positive_n": 20,
+        "negative_C": 12,
+        "negative_n": 12
+      },
+      "simple_isolation": {
+        "n": 48,
+        "transitions": {
+          "record": {
+            "C->C": 32,
+            "U->C": 13,
+            "W->C": 3
+          },
+          "occurrence": {
+            "C->C": 48
+          },
+          "role_a": {
+            "C->C": 32,
+            "U->C": 13,
+            "W->C": 3
+          },
+          "role_b": {
+            "C->C": 32,
+            "U->C": 13,
+            "W->C": 3
+          },
+          "participant": {
+            "C->C": 32,
+            "U->C": 13,
+            "W->C": 3
+          }
+        },
+        "any_component_new_harm": 0,
+        "hidden_harm_record_WW": []
+      },
+      "simple_isolation_new_calls": 0,
+      "format": {
+        "SINGLE": {
+          "PASS": 32
+        },
+        "FULL": {
+          "FAIL": 24,
+          "PASS": 24
+        }
+      }
+    }
+  ],
+  "japanese_context_signals": [
+    {
+      "model": "qwen",
+      "component": "occurrence",
+      "japanese_floors_pass": true,
+      "matched_layout_positions": [],
+      "semantic_positions": [],
+      "semantic_position_n": 0,
+      "domains": [],
+      "pass": false,
+      "independent_n": false
+    },
+    {
+      "model": "qwen",
+      "component": "role_a",
+      "japanese_floors_pass": true,
+      "matched_layout_positions": [],
+      "semantic_positions": [],
+      "semantic_position_n": 0,
+      "domains": [],
+      "pass": false,
+      "independent_n": false
+    },
+    {
+      "model": "qwen",
+      "component": "role_b",
+      "japanese_floors_pass": true,
+      "matched_layout_positions": [],
+      "semantic_positions": [],
+      "semantic_position_n": 0,
+      "domains": [],
+      "pass": false,
+      "independent_n": false
+    },
+    {
+      "model": "llama",
+      "component": "occurrence",
+      "japanese_floors_pass": false,
+      "matched_layout_positions": [],
+      "semantic_positions": [],
+      "semantic_position_n": 0,
+      "domains": [],
+      "pass": false,
+      "independent_n": false
+    },
+    {
+      "model": "llama",
+      "component": "role_a",
+      "japanese_floors_pass": false,
+      "matched_layout_positions": [
+        {
+          "domain": "loan",
+          "profile": "COMMON_AGENT",
+          "target_slot": 0,
+          "layout": 1,
+          "full_call_ids": [
+            "B12V2-LLAMA-F0079",
+            "B12V2-LLAMA-F0103"
+          ],
+          "single_call_ids": [
+            "B12V2-LLAMA-S0051",
+            "B12V2-LLAMA-S0067"
+          ]
+        }
+      ],
+      "semantic_positions": [
+        [
+          "loan",
+          "COMMON_AGENT",
+          0
+        ]
+      ],
+      "semantic_position_n": 1,
+      "domains": [
+        "loan"
+      ],
+      "pass": false,
+      "independent_n": false
+    },
+    {
+      "model": "llama",
+      "component": "role_b",
+      "japanese_floors_pass": false,
+      "matched_layout_positions": [
+        {
+          "domain": "loan",
+          "profile": "COMMON_AGENT",
+          "target_slot": 0,
+          "layout": 1,
+          "full_call_ids": [
+            "B12V2-LLAMA-F0079",
+            "B12V2-LLAMA-F0103"
+          ],
+          "single_call_ids": [
+            "B12V2-LLAMA-S0051",
+            "B12V2-LLAMA-S0067"
+          ]
+        }
+      ],
+      "semantic_positions": [
+        [
+          "loan",
+          "COMMON_AGENT",
+          0
+        ]
+      ],
+      "semantic_position_n": 1,
+      "domains": [
+        "loan"
+      ],
+      "pass": false,
+      "independent_n": false
+    }
+  ],
+  "cross_model_shared_signals": [
+    {
+      "component": "occurrence",
+      "same_layout_hits": [],
+      "semantic_positions": [],
+      "semantic_position_n": 0,
+      "domains": [],
+      "all_japanese_floors_pass": false,
+      "pass": false,
+      "independent_n": false
+    },
+    {
+      "component": "role_a",
+      "same_layout_hits": [],
+      "semantic_positions": [],
+      "semantic_position_n": 0,
+      "domains": [],
+      "all_japanese_floors_pass": false,
+      "pass": false,
+      "independent_n": false
+    },
+    {
+      "component": "role_b",
+      "same_layout_hits": [],
+      "semantic_positions": [],
+      "semantic_position_n": 0,
+      "domains": [],
+      "all_japanese_floors_pass": false,
+      "pass": false,
+      "independent_n": false
+    }
+  ],
+  "any_shared_signal": false,
+  "pair_summary": [
+    {
+      "pair_type": "ISOLATE",
+      "model_a": "qwen",
+      "all": {
+        "n": 144,
+        "transitions": {
+          "record": {
+            "C->C": 140,
+            "W->C": 4
+          },
+          "occurrence": {
+            "C->C": 144
+          },
+          "role_a": {
+            "C->C": 140,
+            "W->C": 4
+          },
+          "role_b": {
+            "C->C": 141,
+            "W->C": 3
+          },
+          "participant": {
+            "C->C": 140,
+            "W->C": 4
+          }
+        },
+        "any_component_new_harm": 0,
+        "hidden_harm_record_WW": []
+      },
+      "single_roles_C_eligible": {
+        "n": 144,
+        "transitions": {
+          "record": {
+            "C->C": 140,
+            "W->C": 4
+          },
+          "occurrence": {
+            "C->C": 144
+          },
+          "role_a": {
+            "C->C": 140,
+            "W->C": 4
+          },
+          "role_b": {
+            "C->C": 141,
+            "W->C": 3
+          },
+          "participant": {
+            "C->C": 140,
+            "W->C": 4
+          }
+        },
+        "any_component_new_harm": 0,
+        "hidden_harm_record_WW": []
+      }
+    },
+    {
+      "pair_type": "ISOLATE",
+      "model_a": "llama",
+      "all": {
+        "n": 144,
+        "transitions": {
+          "record": {
+            "C->C": 113,
+            "W->C": 12,
+            "C->W": 4,
+            "U->C": 13,
+            "W->W": 2
+          },
+          "occurrence": {
+            "C->C": 144
+          },
+          "role_a": {
+            "C->C": 113,
+            "W->C": 12,
+            "C->W": 4,
+            "U->C": 13,
+            "W->W": 2
+          },
+          "role_b": {
+            "C->C": 115,
+            "C->W": 5,
+            "W->C": 9,
+            "U->C": 14,
+            "U->W": 1
+          },
+          "participant": {
+            "C->C": 113,
+            "W->C": 12,
+            "C->W": 4,
+            "U->C": 13,
+            "W->W": 2
+          }
+        },
+        "any_component_new_harm": 5,
+        "hidden_harm_record_WW": [
+          "ISOLATE:B12V2-LLAMA-F0120--B12V2-LLAMA-S0080"
+        ]
+      },
+      "single_roles_C_eligible": {
+        "n": 138,
+        "transitions": {
+          "record": {
+            "C->C": 113,
+            "W->C": 12,
+            "U->C": 13
+          },
+          "occurrence": {
+            "C->C": 138
+          },
+          "role_a": {
+            "C->C": 113,
+            "W->C": 12,
+            "U->C": 13
+          },
+          "role_b": {
+            "C->C": 115,
+            "W->C": 9,
+            "U->C": 14
+          },
+          "participant": {
+            "C->C": 113,
+            "W->C": 12,
+            "U->C": 13
+          }
+        },
+        "any_component_new_harm": 0,
+        "hidden_harm_record_WW": []
+      }
+    },
+    {
+      "pair_type": "JA_ACTIVE_TO_JA_PASSIVE",
+      "model_a": "qwen",
+      "all": {
+        "n": 48,
+        "transitions": {
+          "record": {
+            "C->C": 44,
+            "C->W": 4
+          },
+          "occurrence": {
+            "C->C": 48
+          },
+          "role_a": {
+            "C->C": 44,
+            "C->W": 4
+          },
+          "role_b": {
+            "C->C": 45,
+            "C->W": 3
+          },
+          "participant": {
+            "C->C": 44,
+            "C->W": 4
+          }
+        },
+        "any_component_new_harm": 4,
+        "hidden_harm_record_WW": []
+      },
+      "single_roles_C_eligible": {
+        "n": 48,
+        "transitions": {
+          "record": {
+            "C->C": 44,
+            "C->W": 4
+          },
+          "occurrence": {
+            "C->C": 48
+          },
+          "role_a": {
+            "C->C": 44,
+            "C->W": 4
+          },
+          "role_b": {
+            "C->C": 45,
+            "C->W": 3
+          },
+          "participant": {
+            "C->C": 44,
+            "C->W": 4
+          }
+        },
+        "any_component_new_harm": 4,
+        "hidden_harm_record_WW": []
+      }
+    },
+    {
+      "pair_type": "JA_ACTIVE_TO_JA_PASSIVE",
+      "model_a": "llama",
+      "all": {
+        "n": 48,
+        "transitions": {
+          "record": {
+            "C->C": 39,
+            "W->C": 1,
+            "C->W": 6,
+            "W->W": 2
+          },
+          "occurrence": {
+            "C->C": 48
+          },
+          "role_a": {
+            "C->C": 39,
+            "W->C": 1,
+            "C->W": 6,
+            "W->W": 2
+          },
+          "role_b": {
+            "C->C": 42,
+            "C->W": 3,
+            "C->U": 1,
+            "W->W": 1,
+            "W->U": 1
+          },
+          "participant": {
+            "C->C": 39,
+            "W->C": 1,
+            "C->W": 6,
+            "W->W": 2
+          }
+        },
+        "any_component_new_harm": 6,
+        "hidden_harm_record_WW": []
+      },
+      "single_roles_C_eligible": {
+        "n": 42,
+        "transitions": {
+          "record": {
+            "C->C": 35,
+            "W->C": 1,
+            "C->W": 5,
+            "W->W": 1
+          },
+          "occurrence": {
+            "C->C": 42
+          },
+          "role_a": {
+            "C->C": 35,
+            "W->C": 1,
+            "C->W": 5,
+            "W->W": 1
+          },
+          "role_b": {
+            "C->C": 37,
+            "C->W": 3,
+            "C->U": 1,
+            "W->W": 1
+          },
+          "participant": {
+            "C->C": 35,
+            "W->C": 1,
+            "C->W": 5,
+            "W->W": 1
+          }
+        },
+        "any_component_new_harm": 5,
+        "hidden_harm_record_WW": []
+      }
+    },
+    {
+      "pair_type": "JA_ACTIVE_TO_ZH_ACTIVE",
+      "model_a": "qwen",
+      "all": {
+        "n": 48,
+        "transitions": {
+          "record": {
+            "C->C": 48
+          },
+          "occurrence": {
+            "C->C": 48
+          },
+          "role_a": {
+            "C->C": 48
+          },
+          "role_b": {
+            "C->C": 48
+          },
+          "participant": {
+            "C->C": 48
+          }
+        },
+        "any_component_new_harm": 0,
+        "hidden_harm_record_WW": []
+      },
+      "single_roles_C_eligible": {
+        "n": 48,
+        "transitions": {
+          "record": {
+            "C->C": 48
+          },
+          "occurrence": {
+            "C->C": 48
+          },
+          "role_a": {
+            "C->C": 48
+          },
+          "role_b": {
+            "C->C": 48
+          },
+          "participant": {
+            "C->C": 48
+          }
+        },
+        "any_component_new_harm": 0,
+        "hidden_harm_record_WW": []
+      }
+    },
+    {
+      "pair_type": "JA_ACTIVE_TO_ZH_ACTIVE",
+      "model_a": "llama",
+      "all": {
+        "n": 48,
+        "transitions": {
+          "record": {
+            "C->C": 31,
+            "C->U": 11,
+            "W->U": 2,
+            "C->W": 3,
+            "W->C": 1
+          },
+          "occurrence": {
+            "C->C": 48
+          },
+          "role_a": {
+            "C->C": 31,
+            "C->U": 11,
+            "W->U": 2,
+            "C->W": 3,
+            "W->C": 1
+          },
+          "role_b": {
+            "C->C": 31,
+            "C->U": 12,
+            "C->W": 3,
+            "W->C": 1,
+            "W->U": 1
+          },
+          "participant": {
+            "C->C": 31,
+            "C->U": 11,
+            "W->U": 2,
+            "C->W": 3,
+            "W->C": 1
+          }
+        },
+        "any_component_new_harm": 15,
+        "hidden_harm_record_WW": []
+      },
+      "single_roles_C_eligible": {
+        "n": 48,
+        "transitions": {
+          "record": {
+            "C->C": 31,
+            "C->U": 11,
+            "W->U": 2,
+            "C->W": 3,
+            "W->C": 1
+          },
+          "occurrence": {
+            "C->C": 48
+          },
+          "role_a": {
+            "C->C": 31,
+            "C->U": 11,
+            "W->U": 2,
+            "C->W": 3,
+            "W->C": 1
+          },
+          "role_b": {
+            "C->C": 31,
+            "C->U": 12,
+            "C->W": 3,
+            "W->C": 1,
+            "W->U": 1
+          },
+          "participant": {
+            "C->C": 31,
+            "C->U": 11,
+            "W->U": 2,
+            "C->W": 3,
+            "W->C": 1
+          }
+        },
+        "any_component_new_harm": 15,
+        "hidden_harm_record_WW": []
+      }
+    },
+    {
+      "pair_type": "JA_PASSIVE_TO_ZH_ACTIVE",
+      "model_a": "qwen",
+      "all": {
+        "n": 48,
+        "transitions": {
+          "record": {
+            "C->C": 44,
+            "W->C": 4
+          },
+          "occurrence": {
+            "C->C": 48
+          },
+          "role_a": {
+            "C->C": 44,
+            "W->C": 4
+          },
+          "role_b": {
+            "C->C": 45,
+            "W->C": 3
+          },
+          "participant": {
+            "C->C": 44,
+            "W->C": 4
+          }
+        },
+        "any_component_new_harm": 0,
+        "hidden_harm_record_WW": []
+      },
+      "single_roles_C_eligible": {
+        "n": 48,
+        "transitions": {
+          "record": {
+            "C->C": 44,
+            "W->C": 4
+          },
+          "occurrence": {
+            "C->C": 48
+          },
+          "role_a": {
+            "C->C": 44,
+            "W->C": 4
+          },
+          "role_b": {
+            "C->C": 45,
+            "W->C": 3
+          },
+          "participant": {
+            "C->C": 44,
+            "W->C": 4
+          }
+        },
+        "any_component_new_harm": 0,
+        "hidden_harm_record_WW": []
+      }
+    },
+    {
+      "pair_type": "JA_PASSIVE_TO_ZH_ACTIVE",
+      "model_a": "llama",
+      "all": {
+        "n": 48,
+        "transitions": {
+          "record": {
+            "C->C": 28,
+            "C->U": 11,
+            "W->C": 4,
+            "C->W": 1,
+            "W->W": 2,
+            "W->U": 2
+          },
+          "occurrence": {
+            "C->C": 48
+          },
+          "role_a": {
+            "C->C": 28,
+            "C->U": 11,
+            "W->C": 4,
+            "C->W": 1,
+            "W->W": 2,
+            "W->U": 2
+          },
+          "role_b": {
+            "C->C": 28,
+            "C->U": 12,
+            "W->C": 3,
+            "C->W": 2,
+            "U->C": 1,
+            "U->U": 1,
+            "W->W": 1
+          },
+          "participant": {
+            "C->C": 28,
+            "C->U": 11,
+            "W->C": 4,
+            "C->W": 1,
+            "W->W": 2,
+            "W->U": 2
+          }
+        },
+        "any_component_new_harm": 14,
+        "hidden_harm_record_WW": [
+          "JA_PASSIVE_TO_ZH_ACTIVE:B12V2-LLAMA-F0048--B12V2-LLAMA-F0072"
+        ]
+      },
+      "single_roles_C_eligible": {
+        "n": 42,
+        "transitions": {
+          "record": {
+            "C->C": 24,
+            "C->U": 11,
+            "W->C": 4,
+            "C->W": 1,
+            "W->W": 2
+          },
+          "occurrence": {
+            "C->C": 42
+          },
+          "role_a": {
+            "C->C": 24,
+            "C->U": 11,
+            "W->C": 4,
+            "C->W": 1,
+            "W->W": 2
+          },
+          "role_b": {
+            "C->C": 24,
+            "C->U": 11,
+            "W->C": 3,
+            "C->W": 2,
+            "U->C": 1,
+            "W->W": 1
+          },
+          "participant": {
+            "C->C": 24,
+            "C->U": 11,
+            "W->C": 4,
+            "C->W": 1,
+            "W->W": 2
+          }
+        },
+        "any_component_new_harm": 13,
+        "hidden_harm_record_WW": [
+          "JA_PASSIVE_TO_ZH_ACTIVE:B12V2-LLAMA-F0048--B12V2-LLAMA-F0072"
+        ]
+      }
+    },
+    {
+      "pair_type": "MODEL",
+      "model_a": "qwen",
+      "all": {
+        "n": 240,
+        "transitions": {
+          "record": {
+            "C->C": 206,
+            "C->W": 17,
+            "W->W": 3,
+            "C->U": 13,
+            "W->C": 1
+          },
+          "occurrence": {
+            "C->C": 240
+          },
+          "role_a": {
+            "C->C": 206,
+            "C->W": 17,
+            "W->W": 3,
+            "C->U": 13,
+            "W->C": 1
+          },
+          "role_b": {
+            "C->C": 209,
+            "C->W": 13,
+            "W->W": 2,
+            "C->U": 15,
+            "W->C": 1
+          },
+          "participant": {
+            "C->C": 206,
+            "C->W": 17,
+            "W->W": 3,
+            "C->U": 13,
+            "W->C": 1
+          }
+        },
+        "any_component_new_harm": 31,
+        "hidden_harm_record_WW": [
+          "MODEL:B12V2-QWEN-F0103--B12V2-LLAMA-F0103"
+        ]
+      },
+      "single_roles_C_eligible": {
+        "n": 228,
+        "transitions": {
+          "record": {
+            "C->C": 202,
+            "C->W": 9,
+            "W->W": 3,
+            "C->U": 13,
+            "W->C": 1
+          },
+          "occurrence": {
+            "C->C": 228
+          },
+          "role_a": {
+            "C->C": 202,
+            "C->W": 9,
+            "W->W": 3,
+            "C->U": 13,
+            "W->C": 1
+          },
+          "role_b": {
+            "C->C": 204,
+            "W->W": 2,
+            "C->U": 14,
+            "C->W": 7,
+            "W->C": 1
+          },
+          "participant": {
+            "C->C": 202,
+            "C->W": 9,
+            "W->W": 3,
+            "C->U": 13,
+            "W->C": 1
+          }
+        },
+        "any_component_new_harm": 23,
+        "hidden_harm_record_WW": [
+          "MODEL:B12V2-QWEN-F0103--B12V2-LLAMA-F0103"
+        ]
+      }
+    }
+  ],
+  "new_outputs": 480,
+  "pair_positions": 816,
+  "cache_positions": 288,
+  "cache_new_calls": 0,
+  "independent_human_gold": 0,
+  "independent_confirmation": false,
+  "automatic_next_run": false,
+  "all_scores": {
+    "record": {
+      "C": 443,
+      "W": 24,
+      "U": 13
+    },
+    "occurrence": {
+      "C": 480,
+      "W": 0,
+      "U": 0
+    },
+    "role_a": {
+      "C": 443,
+      "W": 24,
+      "U": 13
+    },
+    "role_b": {
+      "C": 447,
+      "W": 18,
+      "U": 15
+    },
+    "participant": {
+      "C": 443,
+      "W": 24,
+      "U": 13
+    }
+  },
+  "all_nonC_or_format_failure": 64,
+  "at": "2026-09-08T07:44:08.019493+00:00",
+  "forwards": 9170,
+  "finishes": {
+    "EOS": 480
+  },
+  "raw_sha256": "d6b607b00bcd9bdc186cccaf56354a32f5efd314160510f51b255fc277be223c",
+  "all_raw_reviewed": true
+}

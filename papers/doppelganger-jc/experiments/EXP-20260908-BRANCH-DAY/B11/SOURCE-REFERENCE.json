@@ -1,0 +1,1202 @@
+[
+  {
+    "source_id": "F01-YES-AB-ACTIVE",
+    "family_id": "F01",
+    "domain": "interview",
+    "verb": "采访",
+    "target": "这次直播",
+    "other_activity": "这次访谈",
+    "fact": "YES",
+    "semantic_direction": "AB",
+    "voice": "ACTIVE",
+    "source_text": "在这次直播中，贺晨采访了陶然。",
+    "distractor_text": "在这次访谈中，陶然采访了贺晨。",
+    "role_a": "贺晨",
+    "role_b": "陶然",
+    "entity_map": {
+      "E1": "贺晨",
+      "E2": "陶然"
+    },
+    "role_keys": [
+      "interviewer",
+      "interviewee"
+    ],
+    "role_definitions": "interviewer是采访方，interviewee是受访方。",
+    "identity": "NEW_AUTHOR_AI_MATERIAL_NOT_INDEPENDENT_GOLD"
+  },
+  {
+    "source_id": "F01-YES-AB-PASSIVE",
+    "family_id": "F01",
+    "domain": "interview",
+    "verb": "采访",
+    "target": "这次直播",
+    "other_activity": "这次访谈",
+    "fact": "YES",
+    "semantic_direction": "AB",
+    "voice": "PASSIVE",
+    "source_text": "在这次直播中，陶然被贺晨采访了。",
+    "distractor_text": "在这次访谈中，陶然采访了贺晨。",
+    "role_a": "贺晨",
+    "role_b": "陶然",
+    "entity_map": {
+      "E1": "贺晨",
+      "E2": "陶然"
+    },
+    "role_keys": [
+      "interviewer",
+      "interviewee"
+    ],
+    "role_definitions": "interviewer是采访方，interviewee是受访方。",
+    "identity": "NEW_AUTHOR_AI_MATERIAL_NOT_INDEPENDENT_GOLD"
+  },
+  {
+    "source_id": "F01-YES-BA-ACTIVE",
+    "family_id": "F01",
+    "domain": "interview",
+    "verb": "采访",
+    "target": "这次直播",
+    "other_activity": "这次访谈",
+    "fact": "YES",
+    "semantic_direction": "BA",
+    "voice": "ACTIVE",
+    "source_text": "在这次直播中，陶然采访了贺晨。",
+    "distractor_text": "在这次访谈中，贺晨采访了陶然。",
+    "role_a": "陶然",
+    "role_b": "贺晨",
+    "entity_map": {
+      "E1": "贺晨",
+      "E2": "陶然"
+    },
+    "role_keys": [
+      "interviewer",
+      "interviewee"
+    ],
+    "role_definitions": "interviewer是采访方，interviewee是受访方。",
+    "identity": "NEW_AUTHOR_AI_MATERIAL_NOT_INDEPENDENT_GOLD"
+  },
+  {
+    "source_id": "F01-YES-BA-PASSIVE",
+    "family_id": "F01",
+    "domain": "interview",
+    "verb": "采访",
+    "target": "这次直播",
+    "other_activity": "这次访谈",
+    "fact": "YES",
+    "semantic_direction": "BA",
+    "voice": "PASSIVE",
+    "source_text": "在这次直播中，贺晨被陶然采访了。",
+    "distractor_text": "在这次访谈中，贺晨采访了陶然。",
+    "role_a": "陶然",
+    "role_b": "贺晨",
+    "entity_map": {
+      "E1": "贺晨",
+      "E2": "陶然"
+    },
+    "role_keys": [
+      "interviewer",
+      "interviewee"
+    ],
+    "role_definitions": "interviewer是采访方，interviewee是受访方。",
+    "identity": "NEW_AUTHOR_AI_MATERIAL_NOT_INDEPENDENT_GOLD"
+  },
+  {
+    "source_id": "F01-NO-AB-ACTIVE",
+    "family_id": "F01",
+    "domain": "interview",
+    "verb": "采访",
+    "target": "这次直播",
+    "other_activity": "这次访谈",
+    "fact": "NO",
+    "semantic_direction": "AB",
+    "voice": "ACTIVE",
+    "source_text": "在这次直播中，贺晨没有采访陶然。",
+    "distractor_text": "在这次访谈中，陶然采访了贺晨。",
+    "role_a": "贺晨",
+    "role_b": "陶然",
+    "entity_map": {
+      "E1": "贺晨",
+      "E2": "陶然"
+    },
+    "role_keys": [
+      "interviewer",
+      "interviewee"
+    ],
+    "role_definitions": "interviewer是采访方，interviewee是受访方。",
+    "identity": "NEW_AUTHOR_AI_MATERIAL_NOT_INDEPENDENT_GOLD"
+  },
+  {
+    "source_id": "F01-NO-AB-PASSIVE",
+    "family_id": "F01",
+    "domain": "interview",
+    "verb": "采访",
+    "target": "这次直播",
+    "other_activity": "这次访谈",
+    "fact": "NO",
+    "semantic_direction": "AB",
+    "voice": "PASSIVE",
+    "source_text": "在这次直播中，陶然没有被贺晨采访。",
+    "distractor_text": "在这次访谈中，陶然采访了贺晨。",
+    "role_a": "贺晨",
+    "role_b": "陶然",
+    "entity_map": {
+      "E1": "贺晨",
+      "E2": "陶然"
+    },
+    "role_keys": [
+      "interviewer",
+      "interviewee"
+    ],
+    "role_definitions": "interviewer是采访方，interviewee是受访方。",
+    "identity": "NEW_AUTHOR_AI_MATERIAL_NOT_INDEPENDENT_GOLD"
+  },
+  {
+    "source_id": "F01-NO-BA-ACTIVE",
+    "family_id": "F01",
+    "domain": "interview",
+    "verb": "采访",
+    "target": "这次直播",
+    "other_activity": "这次访谈",
+    "fact": "NO",
+    "semantic_direction": "BA",
+    "voice": "ACTIVE",
+    "source_text": "在这次直播中，陶然没有采访贺晨。",
+    "distractor_text": "在这次访谈中，贺晨采访了陶然。",
+    "role_a": "陶然",
+    "role_b": "贺晨",
+    "entity_map": {
+      "E1": "贺晨",
+      "E2": "陶然"
+    },
+    "role_keys": [
+      "interviewer",
+      "interviewee"
+    ],
+    "role_definitions": "interviewer是采访方，interviewee是受访方。",
+    "identity": "NEW_AUTHOR_AI_MATERIAL_NOT_INDEPENDENT_GOLD"
+  },
+  {
+    "source_id": "F01-NO-BA-PASSIVE",
+    "family_id": "F01",
+    "domain": "interview",
+    "verb": "采访",
+    "target": "这次直播",
+    "other_activity": "这次访谈",
+    "fact": "NO",
+    "semantic_direction": "BA",
+    "voice": "PASSIVE",
+    "source_text": "在这次直播中，贺晨没有被陶然采访。",
+    "distractor_text": "在这次访谈中，贺晨采访了陶然。",
+    "role_a": "陶然",
+    "role_b": "贺晨",
+    "entity_map": {
+      "E1": "贺晨",
+      "E2": "陶然"
+    },
+    "role_keys": [
+      "interviewer",
+      "interviewee"
+    ],
+    "role_definitions": "interviewer是采访方，interviewee是受访方。",
+    "identity": "NEW_AUTHOR_AI_MATERIAL_NOT_INDEPENDENT_GOLD"
+  },
+  {
+    "source_id": "F01-UNKNOWN-AB-ACTIVE",
+    "family_id": "F01",
+    "domain": "interview",
+    "verb": "采访",
+    "target": "这次直播",
+    "other_activity": "这次访谈",
+    "fact": "UNKNOWN",
+    "semantic_direction": "AB",
+    "voice": "ACTIVE",
+    "source_text": "在这次直播中，贺晨是否采访了陶然，目前尚无结论。",
+    "distractor_text": "在这次访谈中，陶然采访了贺晨。",
+    "role_a": "贺晨",
+    "role_b": "陶然",
+    "entity_map": {
+      "E1": "贺晨",
+      "E2": "陶然"
+    },
+    "role_keys": [
+      "interviewer",
+      "interviewee"
+    ],
+    "role_definitions": "interviewer是采访方，interviewee是受访方。",
+    "identity": "NEW_AUTHOR_AI_MATERIAL_NOT_INDEPENDENT_GOLD"
+  },
+  {
+    "source_id": "F01-UNKNOWN-AB-PASSIVE",
+    "family_id": "F01",
+    "domain": "interview",
+    "verb": "采访",
+    "target": "这次直播",
+    "other_activity": "这次访谈",
+    "fact": "UNKNOWN",
+    "semantic_direction": "AB",
+    "voice": "PASSIVE",
+    "source_text": "在这次直播中，陶然是否被贺晨采访了，目前尚无结论。",
+    "distractor_text": "在这次访谈中，陶然采访了贺晨。",
+    "role_a": "贺晨",
+    "role_b": "陶然",
+    "entity_map": {
+      "E1": "贺晨",
+      "E2": "陶然"
+    },
+    "role_keys": [
+      "interviewer",
+      "interviewee"
+    ],
+    "role_definitions": "interviewer是采访方，interviewee是受访方。",
+    "identity": "NEW_AUTHOR_AI_MATERIAL_NOT_INDEPENDENT_GOLD"
+  },
+  {
+    "source_id": "F01-UNKNOWN-BA-ACTIVE",
+    "family_id": "F01",
+    "domain": "interview",
+    "verb": "采访",
+    "target": "这次直播",
+    "other_activity": "这次访谈",
+    "fact": "UNKNOWN",
+    "semantic_direction": "BA",
+    "voice": "ACTIVE",
+    "source_text": "在这次直播中，陶然是否采访了贺晨，目前尚无结论。",
+    "distractor_text": "在这次访谈中，贺晨采访了陶然。",
+    "role_a": "陶然",
+    "role_b": "贺晨",
+    "entity_map": {
+      "E1": "贺晨",
+      "E2": "陶然"
+    },
+    "role_keys": [
+      "interviewer",
+      "interviewee"
+    ],
+    "role_definitions": "interviewer是采访方，interviewee是受访方。",
+    "identity": "NEW_AUTHOR_AI_MATERIAL_NOT_INDEPENDENT_GOLD"
+  },
+  {
+    "source_id": "F01-UNKNOWN-BA-PASSIVE",
+    "family_id": "F01",
+    "domain": "interview",
+    "verb": "采访",
+    "target": "这次直播",
+    "other_activity": "这次访谈",
+    "fact": "UNKNOWN",
+    "semantic_direction": "BA",
+    "voice": "PASSIVE",
+    "source_text": "在这次直播中，贺晨是否被陶然采访了，目前尚无结论。",
+    "distractor_text": "在这次访谈中，贺晨采访了陶然。",
+    "role_a": "陶然",
+    "role_b": "贺晨",
+    "entity_map": {
+      "E1": "贺晨",
+      "E2": "陶然"
+    },
+    "role_keys": [
+      "interviewer",
+      "interviewee"
+    ],
+    "role_definitions": "interviewer是采访方，interviewee是受访方。",
+    "identity": "NEW_AUTHOR_AI_MATERIAL_NOT_INDEPENDENT_GOLD"
+  },
+  {
+    "source_id": "F02-YES-AB-ACTIVE",
+    "family_id": "F02",
+    "domain": "praise",
+    "verb": "表扬",
+    "target": "这次排练",
+    "other_activity": "这次训练",
+    "fact": "YES",
+    "semantic_direction": "AB",
+    "voice": "ACTIVE",
+    "source_text": "在这次排练中，汪宁表扬了宋悦。",
+    "distractor_text": "在这次训练中，宋悦表扬了汪宁。",
+    "role_a": "汪宁",
+    "role_b": "宋悦",
+    "entity_map": {
+      "E1": "汪宁",
+      "E2": "宋悦"
+    },
+    "role_keys": [
+      "praiser",
+      "praised"
+    ],
+    "role_definitions": "praiser是表扬方，praised是被表扬方。",
+    "identity": "NEW_AUTHOR_AI_MATERIAL_NOT_INDEPENDENT_GOLD"
+  },
+  {
+    "source_id": "F02-YES-AB-PASSIVE",
+    "family_id": "F02",
+    "domain": "praise",
+    "verb": "表扬",
+    "target": "这次排练",
+    "other_activity": "这次训练",
+    "fact": "YES",
+    "semantic_direction": "AB",
+    "voice": "PASSIVE",
+    "source_text": "在这次排练中，宋悦被汪宁表扬了。",
+    "distractor_text": "在这次训练中，宋悦表扬了汪宁。",
+    "role_a": "汪宁",
+    "role_b": "宋悦",
+    "entity_map": {
+      "E1": "汪宁",
+      "E2": "宋悦"
+    },
+    "role_keys": [
+      "praiser",
+      "praised"
+    ],
+    "role_definitions": "praiser是表扬方，praised是被表扬方。",
+    "identity": "NEW_AUTHOR_AI_MATERIAL_NOT_INDEPENDENT_GOLD"
+  },
+  {
+    "source_id": "F02-YES-BA-ACTIVE",
+    "family_id": "F02",
+    "domain": "praise",
+    "verb": "表扬",
+    "target": "这次排练",
+    "other_activity": "这次训练",
+    "fact": "YES",
+    "semantic_direction": "BA",
+    "voice": "ACTIVE",
+    "source_text": "在这次排练中，宋悦表扬了汪宁。",
+    "distractor_text": "在这次训练中，汪宁表扬了宋悦。",
+    "role_a": "宋悦",
+    "role_b": "汪宁",
+    "entity_map": {
+      "E1": "汪宁",
+      "E2": "宋悦"
+    },
+    "role_keys": [
+      "praiser",
+      "praised"
+    ],
+    "role_definitions": "praiser是表扬方，praised是被表扬方。",
+    "identity": "NEW_AUTHOR_AI_MATERIAL_NOT_INDEPENDENT_GOLD"
+  },
+  {
+    "source_id": "F02-YES-BA-PASSIVE",
+    "family_id": "F02",
+    "domain": "praise",
+    "verb": "表扬",
+    "target": "这次排练",
+    "other_activity": "这次训练",
+    "fact": "YES",
+    "semantic_direction": "BA",
+    "voice": "PASSIVE",
+    "source_text": "在这次排练中，汪宁被宋悦表扬了。",
+    "distractor_text": "在这次训练中，汪宁表扬了宋悦。",
+    "role_a": "宋悦",
+    "role_b": "汪宁",
+    "entity_map": {
+      "E1": "汪宁",
+      "E2": "宋悦"
+    },
+    "role_keys": [
+      "praiser",
+      "praised"
+    ],
+    "role_definitions": "praiser是表扬方，praised是被表扬方。",
+    "identity": "NEW_AUTHOR_AI_MATERIAL_NOT_INDEPENDENT_GOLD"
+  },
+  {
+    "source_id": "F02-NO-AB-ACTIVE",
+    "family_id": "F02",
+    "domain": "praise",
+    "verb": "表扬",
+    "target": "这次排练",
+    "other_activity": "这次训练",
+    "fact": "NO",
+    "semantic_direction": "AB",
+    "voice": "ACTIVE",
+    "source_text": "在这次排练中，汪宁没有表扬宋悦。",
+    "distractor_text": "在这次训练中，宋悦表扬了汪宁。",
+    "role_a": "汪宁",
+    "role_b": "宋悦",
+    "entity_map": {
+      "E1": "汪宁",
+      "E2": "宋悦"
+    },
+    "role_keys": [
+      "praiser",
+      "praised"
+    ],
+    "role_definitions": "praiser是表扬方，praised是被表扬方。",
+    "identity": "NEW_AUTHOR_AI_MATERIAL_NOT_INDEPENDENT_GOLD"
+  },
+  {
+    "source_id": "F02-NO-AB-PASSIVE",
+    "family_id": "F02",
+    "domain": "praise",
+    "verb": "表扬",
+    "target": "这次排练",
+    "other_activity": "这次训练",
+    "fact": "NO",
+    "semantic_direction": "AB",
+    "voice": "PASSIVE",
+    "source_text": "在这次排练中，宋悦没有被汪宁表扬。",
+    "distractor_text": "在这次训练中，宋悦表扬了汪宁。",
+    "role_a": "汪宁",
+    "role_b": "宋悦",
+    "entity_map": {
+      "E1": "汪宁",
+      "E2": "宋悦"
+    },
+    "role_keys": [
+      "praiser",
+      "praised"
+    ],
+    "role_definitions": "praiser是表扬方，praised是被表扬方。",
+    "identity": "NEW_AUTHOR_AI_MATERIAL_NOT_INDEPENDENT_GOLD"
+  },
+  {
+    "source_id": "F02-NO-BA-ACTIVE",
+    "family_id": "F02",
+    "domain": "praise",
+    "verb": "表扬",
+    "target": "这次排练",
+    "other_activity": "这次训练",
+    "fact": "NO",
+    "semantic_direction": "BA",
+    "voice": "ACTIVE",
+    "source_text": "在这次排练中，宋悦没有表扬汪宁。",
+    "distractor_text": "在这次训练中，汪宁表扬了宋悦。",
+    "role_a": "宋悦",
+    "role_b": "汪宁",
+    "entity_map": {
+      "E1": "汪宁",
+      "E2": "宋悦"
+    },
+    "role_keys": [
+      "praiser",
+      "praised"
+    ],
+    "role_definitions": "praiser是表扬方，praised是被表扬方。",
+    "identity": "NEW_AUTHOR_AI_MATERIAL_NOT_INDEPENDENT_GOLD"
+  },
+  {
+    "source_id": "F02-NO-BA-PASSIVE",
+    "family_id": "F02",
+    "domain": "praise",
+    "verb": "表扬",
+    "target": "这次排练",
+    "other_activity": "这次训练",
+    "fact": "NO",
+    "semantic_direction": "BA",
+    "voice": "PASSIVE",
+    "source_text": "在这次排练中，汪宁没有被宋悦表扬。",
+    "distractor_text": "在这次训练中，汪宁表扬了宋悦。",
+    "role_a": "宋悦",
+    "role_b": "汪宁",
+    "entity_map": {
+      "E1": "汪宁",
+      "E2": "宋悦"
+    },
+    "role_keys": [
+      "praiser",
+      "praised"
+    ],
+    "role_definitions": "praiser是表扬方，praised是被表扬方。",
+    "identity": "NEW_AUTHOR_AI_MATERIAL_NOT_INDEPENDENT_GOLD"
+  },
+  {
+    "source_id": "F02-UNKNOWN-AB-ACTIVE",
+    "family_id": "F02",
+    "domain": "praise",
+    "verb": "表扬",
+    "target": "这次排练",
+    "other_activity": "这次训练",
+    "fact": "UNKNOWN",
+    "semantic_direction": "AB",
+    "voice": "ACTIVE",
+    "source_text": "在这次排练中，汪宁是否表扬了宋悦，目前尚无结论。",
+    "distractor_text": "在这次训练中，宋悦表扬了汪宁。",
+    "role_a": "汪宁",
+    "role_b": "宋悦",
+    "entity_map": {
+      "E1": "汪宁",
+      "E2": "宋悦"
+    },
+    "role_keys": [
+      "praiser",
+      "praised"
+    ],
+    "role_definitions": "praiser是表扬方，praised是被表扬方。",
+    "identity": "NEW_AUTHOR_AI_MATERIAL_NOT_INDEPENDENT_GOLD"
+  },
+  {
+    "source_id": "F02-UNKNOWN-AB-PASSIVE",
+    "family_id": "F02",
+    "domain": "praise",
+    "verb": "表扬",
+    "target": "这次排练",
+    "other_activity": "这次训练",
+    "fact": "UNKNOWN",
+    "semantic_direction": "AB",
+    "voice": "PASSIVE",
+    "source_text": "在这次排练中，宋悦是否被汪宁表扬了，目前尚无结论。",
+    "distractor_text": "在这次训练中，宋悦表扬了汪宁。",
+    "role_a": "汪宁",
+    "role_b": "宋悦",
+    "entity_map": {
+      "E1": "汪宁",
+      "E2": "宋悦"
+    },
+    "role_keys": [
+      "praiser",
+      "praised"
+    ],
+    "role_definitions": "praiser是表扬方，praised是被表扬方。",
+    "identity": "NEW_AUTHOR_AI_MATERIAL_NOT_INDEPENDENT_GOLD"
+  },
+  {
+    "source_id": "F02-UNKNOWN-BA-ACTIVE",
+    "family_id": "F02",
+    "domain": "praise",
+    "verb": "表扬",
+    "target": "这次排练",
+    "other_activity": "这次训练",
+    "fact": "UNKNOWN",
+    "semantic_direction": "BA",
+    "voice": "ACTIVE",
+    "source_text": "在这次排练中，宋悦是否表扬了汪宁，目前尚无结论。",
+    "distractor_text": "在这次训练中，汪宁表扬了宋悦。",
+    "role_a": "宋悦",
+    "role_b": "汪宁",
+    "entity_map": {
+      "E1": "汪宁",
+      "E2": "宋悦"
+    },
+    "role_keys": [
+      "praiser",
+      "praised"
+    ],
+    "role_definitions": "praiser是表扬方，praised是被表扬方。",
+    "identity": "NEW_AUTHOR_AI_MATERIAL_NOT_INDEPENDENT_GOLD"
+  },
+  {
+    "source_id": "F02-UNKNOWN-BA-PASSIVE",
+    "family_id": "F02",
+    "domain": "praise",
+    "verb": "表扬",
+    "target": "这次排练",
+    "other_activity": "这次训练",
+    "fact": "UNKNOWN",
+    "semantic_direction": "BA",
+    "voice": "PASSIVE",
+    "source_text": "在这次排练中，汪宁是否被宋悦表扬了，目前尚无结论。",
+    "distractor_text": "在这次训练中，汪宁表扬了宋悦。",
+    "role_a": "宋悦",
+    "role_b": "汪宁",
+    "entity_map": {
+      "E1": "汪宁",
+      "E2": "宋悦"
+    },
+    "role_keys": [
+      "praiser",
+      "praised"
+    ],
+    "role_definitions": "praiser是表扬方，praised是被表扬方。",
+    "identity": "NEW_AUTHOR_AI_MATERIAL_NOT_INDEPENDENT_GOLD"
+  },
+  {
+    "source_id": "F03-YES-AB-ACTIVE",
+    "family_id": "F03",
+    "domain": "criticize",
+    "verb": "批评",
+    "target": "这次复盘",
+    "other_activity": "这次例会",
+    "fact": "YES",
+    "semantic_direction": "AB",
+    "voice": "ACTIVE",
+    "source_text": "在这次复盘中，顾航批评了孟欣。",
+    "distractor_text": "在这次例会中，孟欣批评了顾航。",
+    "role_a": "顾航",
+    "role_b": "孟欣",
+    "entity_map": {
+      "E1": "顾航",
+      "E2": "孟欣"
+    },
+    "role_keys": [
+      "critic",
+      "criticized"
+    ],
+    "role_definitions": "critic是批评方，criticized是被批评方。",
+    "identity": "NEW_AUTHOR_AI_MATERIAL_NOT_INDEPENDENT_GOLD"
+  },
+  {
+    "source_id": "F03-YES-AB-PASSIVE",
+    "family_id": "F03",
+    "domain": "criticize",
+    "verb": "批评",
+    "target": "这次复盘",
+    "other_activity": "这次例会",
+    "fact": "YES",
+    "semantic_direction": "AB",
+    "voice": "PASSIVE",
+    "source_text": "在这次复盘中，孟欣被顾航批评了。",
+    "distractor_text": "在这次例会中，孟欣批评了顾航。",
+    "role_a": "顾航",
+    "role_b": "孟欣",
+    "entity_map": {
+      "E1": "顾航",
+      "E2": "孟欣"
+    },
+    "role_keys": [
+      "critic",
+      "criticized"
+    ],
+    "role_definitions": "critic是批评方，criticized是被批评方。",
+    "identity": "NEW_AUTHOR_AI_MATERIAL_NOT_INDEPENDENT_GOLD"
+  },
+  {
+    "source_id": "F03-YES-BA-ACTIVE",
+    "family_id": "F03",
+    "domain": "criticize",
+    "verb": "批评",
+    "target": "这次复盘",
+    "other_activity": "这次例会",
+    "fact": "YES",
+    "semantic_direction": "BA",
+    "voice": "ACTIVE",
+    "source_text": "在这次复盘中，孟欣批评了顾航。",
+    "distractor_text": "在这次例会中，顾航批评了孟欣。",
+    "role_a": "孟欣",
+    "role_b": "顾航",
+    "entity_map": {
+      "E1": "顾航",
+      "E2": "孟欣"
+    },
+    "role_keys": [
+      "critic",
+      "criticized"
+    ],
+    "role_definitions": "critic是批评方，criticized是被批评方。",
+    "identity": "NEW_AUTHOR_AI_MATERIAL_NOT_INDEPENDENT_GOLD"
+  },
+  {
+    "source_id": "F03-YES-BA-PASSIVE",
+    "family_id": "F03",
+    "domain": "criticize",
+    "verb": "批评",
+    "target": "这次复盘",
+    "other_activity": "这次例会",
+    "fact": "YES",
+    "semantic_direction": "BA",
+    "voice": "PASSIVE",
+    "source_text": "在这次复盘中，顾航被孟欣批评了。",
+    "distractor_text": "在这次例会中，顾航批评了孟欣。",
+    "role_a": "孟欣",
+    "role_b": "顾航",
+    "entity_map": {
+      "E1": "顾航",
+      "E2": "孟欣"
+    },
+    "role_keys": [
+      "critic",
+      "criticized"
+    ],
+    "role_definitions": "critic是批评方，criticized是被批评方。",
+    "identity": "NEW_AUTHOR_AI_MATERIAL_NOT_INDEPENDENT_GOLD"
+  },
+  {
+    "source_id": "F03-NO-AB-ACTIVE",
+    "family_id": "F03",
+    "domain": "criticize",
+    "verb": "批评",
+    "target": "这次复盘",
+    "other_activity": "这次例会",
+    "fact": "NO",
+    "semantic_direction": "AB",
+    "voice": "ACTIVE",
+    "source_text": "在这次复盘中，顾航没有批评孟欣。",
+    "distractor_text": "在这次例会中，孟欣批评了顾航。",
+    "role_a": "顾航",
+    "role_b": "孟欣",
+    "entity_map": {
+      "E1": "顾航",
+      "E2": "孟欣"
+    },
+    "role_keys": [
+      "critic",
+      "criticized"
+    ],
+    "role_definitions": "critic是批评方，criticized是被批评方。",
+    "identity": "NEW_AUTHOR_AI_MATERIAL_NOT_INDEPENDENT_GOLD"
+  },
+  {
+    "source_id": "F03-NO-AB-PASSIVE",
+    "family_id": "F03",
+    "domain": "criticize",
+    "verb": "批评",
+    "target": "这次复盘",
+    "other_activity": "这次例会",
+    "fact": "NO",
+    "semantic_direction": "AB",
+    "voice": "PASSIVE",
+    "source_text": "在这次复盘中，孟欣没有被顾航批评。",
+    "distractor_text": "在这次例会中，孟欣批评了顾航。",
+    "role_a": "顾航",
+    "role_b": "孟欣",
+    "entity_map": {
+      "E1": "顾航",
+      "E2": "孟欣"
+    },
+    "role_keys": [
+      "critic",
+      "criticized"
+    ],
+    "role_definitions": "critic是批评方，criticized是被批评方。",
+    "identity": "NEW_AUTHOR_AI_MATERIAL_NOT_INDEPENDENT_GOLD"
+  },
+  {
+    "source_id": "F03-NO-BA-ACTIVE",
+    "family_id": "F03",
+    "domain": "criticize",
+    "verb": "批评",
+    "target": "这次复盘",
+    "other_activity": "这次例会",
+    "fact": "NO",
+    "semantic_direction": "BA",
+    "voice": "ACTIVE",
+    "source_text": "在这次复盘中，孟欣没有批评顾航。",
+    "distractor_text": "在这次例会中，顾航批评了孟欣。",
+    "role_a": "孟欣",
+    "role_b": "顾航",
+    "entity_map": {
+      "E1": "顾航",
+      "E2": "孟欣"
+    },
+    "role_keys": [
+      "critic",
+      "criticized"
+    ],
+    "role_definitions": "critic是批评方，criticized是被批评方。",
+    "identity": "NEW_AUTHOR_AI_MATERIAL_NOT_INDEPENDENT_GOLD"
+  },
+  {
+    "source_id": "F03-NO-BA-PASSIVE",
+    "family_id": "F03",
+    "domain": "criticize",
+    "verb": "批评",
+    "target": "这次复盘",
+    "other_activity": "这次例会",
+    "fact": "NO",
+    "semantic_direction": "BA",
+    "voice": "PASSIVE",
+    "source_text": "在这次复盘中，顾航没有被孟欣批评。",
+    "distractor_text": "在这次例会中，顾航批评了孟欣。",
+    "role_a": "孟欣",
+    "role_b": "顾航",
+    "entity_map": {
+      "E1": "顾航",
+      "E2": "孟欣"
+    },
+    "role_keys": [
+      "critic",
+      "criticized"
+    ],
+    "role_definitions": "critic是批评方，criticized是被批评方。",
+    "identity": "NEW_AUTHOR_AI_MATERIAL_NOT_INDEPENDENT_GOLD"
+  },
+  {
+    "source_id": "F03-UNKNOWN-AB-ACTIVE",
+    "family_id": "F03",
+    "domain": "criticize",
+    "verb": "批评",
+    "target": "这次复盘",
+    "other_activity": "这次例会",
+    "fact": "UNKNOWN",
+    "semantic_direction": "AB",
+    "voice": "ACTIVE",
+    "source_text": "在这次复盘中，顾航是否批评了孟欣，目前尚无结论。",
+    "distractor_text": "在这次例会中，孟欣批评了顾航。",
+    "role_a": "顾航",
+    "role_b": "孟欣",
+    "entity_map": {
+      "E1": "顾航",
+      "E2": "孟欣"
+    },
+    "role_keys": [
+      "critic",
+      "criticized"
+    ],
+    "role_definitions": "critic是批评方，criticized是被批评方。",
+    "identity": "NEW_AUTHOR_AI_MATERIAL_NOT_INDEPENDENT_GOLD"
+  },
+  {
+    "source_id": "F03-UNKNOWN-AB-PASSIVE",
+    "family_id": "F03",
+    "domain": "criticize",
+    "verb": "批评",
+    "target": "这次复盘",
+    "other_activity": "这次例会",
+    "fact": "UNKNOWN",
+    "semantic_direction": "AB",
+    "voice": "PASSIVE",
+    "source_text": "在这次复盘中，孟欣是否被顾航批评了，目前尚无结论。",
+    "distractor_text": "在这次例会中，孟欣批评了顾航。",
+    "role_a": "顾航",
+    "role_b": "孟欣",
+    "entity_map": {
+      "E1": "顾航",
+      "E2": "孟欣"
+    },
+    "role_keys": [
+      "critic",
+      "criticized"
+    ],
+    "role_definitions": "critic是批评方，criticized是被批评方。",
+    "identity": "NEW_AUTHOR_AI_MATERIAL_NOT_INDEPENDENT_GOLD"
+  },
+  {
+    "source_id": "F03-UNKNOWN-BA-ACTIVE",
+    "family_id": "F03",
+    "domain": "criticize",
+    "verb": "批评",
+    "target": "这次复盘",
+    "other_activity": "这次例会",
+    "fact": "UNKNOWN",
+    "semantic_direction": "BA",
+    "voice": "ACTIVE",
+    "source_text": "在这次复盘中，孟欣是否批评了顾航，目前尚无结论。",
+    "distractor_text": "在这次例会中，顾航批评了孟欣。",
+    "role_a": "孟欣",
+    "role_b": "顾航",
+    "entity_map": {
+      "E1": "顾航",
+      "E2": "孟欣"
+    },
+    "role_keys": [
+      "critic",
+      "criticized"
+    ],
+    "role_definitions": "critic是批评方，criticized是被批评方。",
+    "identity": "NEW_AUTHOR_AI_MATERIAL_NOT_INDEPENDENT_GOLD"
+  },
+  {
+    "source_id": "F03-UNKNOWN-BA-PASSIVE",
+    "family_id": "F03",
+    "domain": "criticize",
+    "verb": "批评",
+    "target": "这次复盘",
+    "other_activity": "这次例会",
+    "fact": "UNKNOWN",
+    "semantic_direction": "BA",
+    "voice": "PASSIVE",
+    "source_text": "在这次复盘中，顾航是否被孟欣批评了，目前尚无结论。",
+    "distractor_text": "在这次例会中，顾航批评了孟欣。",
+    "role_a": "孟欣",
+    "role_b": "顾航",
+    "entity_map": {
+      "E1": "顾航",
+      "E2": "孟欣"
+    },
+    "role_keys": [
+      "critic",
+      "criticized"
+    ],
+    "role_definitions": "critic是批评方，criticized是被批评方。",
+    "identity": "NEW_AUTHOR_AI_MATERIAL_NOT_INDEPENDENT_GOLD"
+  },
+  {
+    "source_id": "F04-YES-AB-ACTIVE",
+    "family_id": "F04",
+    "domain": "recommend",
+    "verb": "推荐",
+    "target": "这次评选",
+    "other_activity": "这次选拔",
+    "fact": "YES",
+    "semantic_direction": "AB",
+    "voice": "ACTIVE",
+    "source_text": "在这次评选中，程昊推荐了杜晴。",
+    "distractor_text": "在这次选拔中，杜晴推荐了程昊。",
+    "role_a": "程昊",
+    "role_b": "杜晴",
+    "entity_map": {
+      "E1": "程昊",
+      "E2": "杜晴"
+    },
+    "role_keys": [
+      "recommender",
+      "recommended"
+    ],
+    "role_definitions": "recommender是推荐方，recommended是被推荐方。",
+    "identity": "NEW_AUTHOR_AI_MATERIAL_NOT_INDEPENDENT_GOLD"
+  },
+  {
+    "source_id": "F04-YES-AB-PASSIVE",
+    "family_id": "F04",
+    "domain": "recommend",
+    "verb": "推荐",
+    "target": "这次评选",
+    "other_activity": "这次选拔",
+    "fact": "YES",
+    "semantic_direction": "AB",
+    "voice": "PASSIVE",
+    "source_text": "在这次评选中，杜晴被程昊推荐了。",
+    "distractor_text": "在这次选拔中，杜晴推荐了程昊。",
+    "role_a": "程昊",
+    "role_b": "杜晴",
+    "entity_map": {
+      "E1": "程昊",
+      "E2": "杜晴"
+    },
+    "role_keys": [
+      "recommender",
+      "recommended"
+    ],
+    "role_definitions": "recommender是推荐方，recommended是被推荐方。",
+    "identity": "NEW_AUTHOR_AI_MATERIAL_NOT_INDEPENDENT_GOLD"
+  },
+  {
+    "source_id": "F04-YES-BA-ACTIVE",
+    "family_id": "F04",
+    "domain": "recommend",
+    "verb": "推荐",
+    "target": "这次评选",
+    "other_activity": "这次选拔",
+    "fact": "YES",
+    "semantic_direction": "BA",
+    "voice": "ACTIVE",
+    "source_text": "在这次评选中，杜晴推荐了程昊。",
+    "distractor_text": "在这次选拔中，程昊推荐了杜晴。",
+    "role_a": "杜晴",
+    "role_b": "程昊",
+    "entity_map": {
+      "E1": "程昊",
+      "E2": "杜晴"
+    },
+    "role_keys": [
+      "recommender",
+      "recommended"
+    ],
+    "role_definitions": "recommender是推荐方，recommended是被推荐方。",
+    "identity": "NEW_AUTHOR_AI_MATERIAL_NOT_INDEPENDENT_GOLD"
+  },
+  {
+    "source_id": "F04-YES-BA-PASSIVE",
+    "family_id": "F04",
+    "domain": "recommend",
+    "verb": "推荐",
+    "target": "这次评选",
+    "other_activity": "这次选拔",
+    "fact": "YES",
+    "semantic_direction": "BA",
+    "voice": "PASSIVE",
+    "source_text": "在这次评选中，程昊被杜晴推荐了。",
+    "distractor_text": "在这次选拔中，程昊推荐了杜晴。",
+    "role_a": "杜晴",
+    "role_b": "程昊",
+    "entity_map": {
+      "E1": "程昊",
+      "E2": "杜晴"
+    },
+    "role_keys": [
+      "recommender",
+      "recommended"
+    ],
+    "role_definitions": "recommender是推荐方，recommended是被推荐方。",
+    "identity": "NEW_AUTHOR_AI_MATERIAL_NOT_INDEPENDENT_GOLD"
+  },
+  {
+    "source_id": "F04-NO-AB-ACTIVE",
+    "family_id": "F04",
+    "domain": "recommend",
+    "verb": "推荐",
+    "target": "这次评选",
+    "other_activity": "这次选拔",
+    "fact": "NO",
+    "semantic_direction": "AB",
+    "voice": "ACTIVE",
+    "source_text": "在这次评选中，程昊没有推荐杜晴。",
+    "distractor_text": "在这次选拔中，杜晴推荐了程昊。",
+    "role_a": "程昊",
+    "role_b": "杜晴",
+    "entity_map": {
+      "E1": "程昊",
+      "E2": "杜晴"
+    },
+    "role_keys": [
+      "recommender",
+      "recommended"
+    ],
+    "role_definitions": "recommender是推荐方，recommended是被推荐方。",
+    "identity": "NEW_AUTHOR_AI_MATERIAL_NOT_INDEPENDENT_GOLD"
+  },
+  {
+    "source_id": "F04-NO-AB-PASSIVE",
+    "family_id": "F04",
+    "domain": "recommend",
+    "verb": "推荐",
+    "target": "这次评选",
+    "other_activity": "这次选拔",
+    "fact": "NO",
+    "semantic_direction": "AB",
+    "voice": "PASSIVE",
+    "source_text": "在这次评选中，杜晴没有被程昊推荐。",
+    "distractor_text": "在这次选拔中，杜晴推荐了程昊。",
+    "role_a": "程昊",
+    "role_b": "杜晴",
+    "entity_map": {
+      "E1": "程昊",
+      "E2": "杜晴"
+    },
+    "role_keys": [
+      "recommender",
+      "recommended"
+    ],
+    "role_definitions": "recommender是推荐方，recommended是被推荐方。",
+    "identity": "NEW_AUTHOR_AI_MATERIAL_NOT_INDEPENDENT_GOLD"
+  },
+  {
+    "source_id": "F04-NO-BA-ACTIVE",
+    "family_id": "F04",
+    "domain": "recommend",
+    "verb": "推荐",
+    "target": "这次评选",
+    "other_activity": "这次选拔",
+    "fact": "NO",
+    "semantic_direction": "BA",
+    "voice": "ACTIVE",
+    "source_text": "在这次评选中，杜晴没有推荐程昊。",
+    "distractor_text": "在这次选拔中，程昊推荐了杜晴。",
+    "role_a": "杜晴",
+    "role_b": "程昊",
+    "entity_map": {
+      "E1": "程昊",
+      "E2": "杜晴"
+    },
+    "role_keys": [
+      "recommender",
+      "recommended"
+    ],
+    "role_definitions": "recommender是推荐方，recommended是被推荐方。",
+    "identity": "NEW_AUTHOR_AI_MATERIAL_NOT_INDEPENDENT_GOLD"
+  },
+  {
+    "source_id": "F04-NO-BA-PASSIVE",
+    "family_id": "F04",
+    "domain": "recommend",
+    "verb": "推荐",
+    "target": "这次评选",
+    "other_activity": "这次选拔",
+    "fact": "NO",
+    "semantic_direction": "BA",
+    "voice": "PASSIVE",
+    "source_text": "在这次评选中，程昊没有被杜晴推荐。",
+    "distractor_text": "在这次选拔中，程昊推荐了杜晴。",
+    "role_a": "杜晴",
+    "role_b": "程昊",
+    "entity_map": {
+      "E1": "程昊",
+      "E2": "杜晴"
+    },
+    "role_keys": [
+      "recommender",
+      "recommended"
+    ],
+    "role_definitions": "recommender是推荐方，recommended是被推荐方。",
+    "identity": "NEW_AUTHOR_AI_MATERIAL_NOT_INDEPENDENT_GOLD"
+  },
+  {
+    "source_id": "F04-UNKNOWN-AB-ACTIVE",
+    "family_id": "F04",
+    "domain": "recommend",
+    "verb": "推荐",
+    "target": "这次评选",
+    "other_activity": "这次选拔",
+    "fact": "UNKNOWN",
+    "semantic_direction": "AB",
+    "voice": "ACTIVE",
+    "source_text": "在这次评选中，程昊是否推荐了杜晴，目前尚无结论。",
+    "distractor_text": "在这次选拔中，杜晴推荐了程昊。",
+    "role_a": "程昊",
+    "role_b": "杜晴",
+    "entity_map": {
+      "E1": "程昊",
+      "E2": "杜晴"
+    },
+    "role_keys": [
+      "recommender",
+      "recommended"
+    ],
+    "role_definitions": "recommender是推荐方，recommended是被推荐方。",
+    "identity": "NEW_AUTHOR_AI_MATERIAL_NOT_INDEPENDENT_GOLD"
+  },
+  {
+    "source_id": "F04-UNKNOWN-AB-PASSIVE",
+    "family_id": "F04",
+    "domain": "recommend",
+    "verb": "推荐",
+    "target": "这次评选",
+    "other_activity": "这次选拔",
+    "fact": "UNKNOWN",
+    "semantic_direction": "AB",
+    "voice": "PASSIVE",
+    "source_text": "在这次评选中，杜晴是否被程昊推荐了，目前尚无结论。",
+    "distractor_text": "在这次选拔中，杜晴推荐了程昊。",
+    "role_a": "程昊",
+    "role_b": "杜晴",
+    "entity_map": {
+      "E1": "程昊",
+      "E2": "杜晴"
+    },
+    "role_keys": [
+      "recommender",
+      "recommended"
+    ],
+    "role_definitions": "recommender是推荐方，recommended是被推荐方。",
+    "identity": "NEW_AUTHOR_AI_MATERIAL_NOT_INDEPENDENT_GOLD"
+  },
+  {
+    "source_id": "F04-UNKNOWN-BA-ACTIVE",
+    "family_id": "F04",
+    "domain": "recommend",
+    "verb": "推荐",
+    "target": "这次评选",
+    "other_activity": "这次选拔",
+    "fact": "UNKNOWN",
+    "semantic_direction": "BA",
+    "voice": "ACTIVE",
+    "source_text": "在这次评选中，杜晴是否推荐了程昊，目前尚无结论。",
+    "distractor_text": "在这次选拔中，程昊推荐了杜晴。",
+    "role_a": "杜晴",
+    "role_b": "程昊",
+    "entity_map": {
+      "E1": "程昊",
+      "E2": "杜晴"
+    },
+    "role_keys": [
+      "recommender",
+      "recommended"
+    ],
+    "role_definitions": "recommender是推荐方，recommended是被推荐方。",
+    "identity": "NEW_AUTHOR_AI_MATERIAL_NOT_INDEPENDENT_GOLD"
+  },
+  {
+    "source_id": "F04-UNKNOWN-BA-PASSIVE",
+    "family_id": "F04",
+    "domain": "recommend",
+    "verb": "推荐",
+    "target": "这次评选",
+    "other_activity": "这次选拔",
+    "fact": "UNKNOWN",
+    "semantic_direction": "BA",
+    "voice": "PASSIVE",
+    "source_text": "在这次评选中，程昊是否被杜晴推荐了，目前尚无结论。",
+    "distractor_text": "在这次选拔中，程昊推荐了杜晴。",
+    "role_a": "杜晴",
+    "role_b": "程昊",
+    "entity_map": {
+      "E1": "程昊",
+      "E2": "杜晴"
+    },
+    "role_keys": [
+      "recommender",
+      "recommended"
+    ],
+    "role_definitions": "recommender是推荐方，recommended是被推荐方。",
+    "identity": "NEW_AUTHOR_AI_MATERIAL_NOT_INDEPENDENT_GOLD"
+  }
+]

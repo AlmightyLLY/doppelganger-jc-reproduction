@@ -1,0 +1,91 @@
+{
+  "models": [
+    {
+      "key": "qwen",
+      "model_id": "Qwen/Qwen3-8B",
+      "revision": "b968826d9c46dd6066d109eabc6255188de91218"
+    }
+  ],
+  "model_files": {
+    "qwen": {
+      "config.json": {
+        "sha256": "f7c4eadfbbf522470667b797a3c89be2524832d2d599797248dc304fff447c30",
+        "bytes": 728
+      },
+      "tokenizer_config.json": {
+        "sha256": "d5d09f07b48c3086c508b30d1c9114bd1189145b74e982a265350c923acd8101",
+        "bytes": 9732
+      },
+      "tokenizer.json": {
+        "sha256": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4",
+        "bytes": 11422654
+      },
+      "model.safetensors.index.json": {
+        "sha256": "f9fdbcb91c23971c13ec5d5f2573d2349e8f61f2f049371ec699281748fdb1bc",
+        "bytes": 32878
+      },
+      "generation_config.json": {
+        "sha256": "2325da0f15bb848e018c5ae071b7943332e9f871d6b60e2ed22ca97d4cb993d2",
+        "bytes": 239
+      },
+      "model-00001-of-00005.safetensors": {
+        "sha256": "31d6a825ae35f11fb85b195b4c42c146c051e446433125a215336abdf95cbf5f",
+        "bytes": 3996250744
+      },
+      "model-00002-of-00005.safetensors": {
+        "sha256": "5991236cea6fe21f3d43cab0f0e84448734fbbe0789816202989f2ddc9d18282",
+        "bytes": 3993160032
+      },
+      "model-00003-of-00005.safetensors": {
+        "sha256": "c5185c4794be2d8a9784d5753c9922db38df478ce11f9ed0b415b7304d896836",
+        "bytes": 3959604768
+      },
+      "model-00004-of-00005.safetensors": {
+        "sha256": "b5ee7de71fbf17db3d5704e0c8f2bc7d005ca9e1d7ca2aeb19827b0cfcaa917a",
+        "bytes": 3187841392
+      },
+      "model-00005-of-00005.safetensors": {
+        "sha256": "20c2d6366ab85c90786ccdd829cd2b9e7d30ef3b2ebbb998280e7e4014b542ff",
+        "bytes": 1244659840
+      }
+    }
+  },
+  "template_hashes": {
+    "qwen": "a55ee1b1660128b7098723e0abcd92caa0788061051c62d51cbe87d9cf1974d8"
+  },
+  "eos_by_model_key": {
+    "qwen": [
+      151645,
+      151643
+    ]
+  },
+  "fixed_date": "2026-09-06",
+  "seed": 0,
+  "max_new_tokens": 256,
+  "max_input_tokens": 4096,
+  "core_versions": {
+    "python": "3.10.12",
+    "torch": "2.5.1+cu121",
+    "transformers": "4.57.6"
+  },
+  "environment_lock_sha256": "11e2faccd913b6ddea15bea9f3d817f67b162236a8d438ce5e294d5a21678a94",
+  "experiment_id": "EXP-20260908-B11",
+  "new_calls": 288,
+  "calls_per_model": 288,
+  "archived_reused": 0,
+  "new_legacy_calls": 0,
+  "paid_cost_usd": 0,
+  "generation_policy": "bf16 eager no-KV TF32-off full-vocab raw-logit argmax; no processors; no retry of any started call",
+  "expected_gpu": "NVIDIA RTX 6000 Ada Generation",
+  "scientific_manifest_sha256": "68c07a31c2fc06352fbe39838c72a42476b7fcb98bce3601297dfe6c8624c276",
+  "weight_reuse_started_at": "2026-09-07T09:30:03.288781+00:00",
+  "weight_proof_sha256": {
+    "qwen": "7cc6686ac74f01252fcaad457664b6b1c48709be13d181ff71085e4523934115"
+  },
+  "stage": "B11A",
+  "new_calls_limit": 288,
+  "batch_attempt_cap": 288,
+  "B08_run_spec_sha256": "db0c438706538e1e601bd6cd500c35e1c32625a8340257e6cf64c5ebe8a94b75",
+  "whole_experiment_start_cap": 288,
+  "preparation_manifest_sha256": "cd859c772f67062ad7f6576ae6cd10e37ff9a9e4a1f06d7a37307d70560eba88"
+}

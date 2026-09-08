@@ -1,0 +1,4642 @@
+[
+  {
+    "context_call_id": "B10-A-N01-BASE-SAME_TARGET_FIRST",
+    "reused_actual_single_call_id": "B10-A-N01-BASE-SINGLE",
+    "selected_text": "陈悦把这把雨伞借给了周宁。",
+    "reused_actual_raw_output": "{\"occurred\":\"YES\",\"lender\":\"陈悦\",\"borrower\":\"周宁\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_inference": false,
+    "independent_output": false
+  },
+  {
+    "context_call_id": "B10-A-N01-BASE-SAME_TARGET_LAST",
+    "reused_actual_single_call_id": "B10-A-N01-BASE-SINGLE",
+    "selected_text": "陈悦把这把雨伞借给了周宁。",
+    "reused_actual_raw_output": "{\"occurred\":\"YES\",\"lender\":\"陈悦\",\"borrower\":\"周宁\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_inference": false,
+    "independent_output": false
+  },
+  {
+    "context_call_id": "B10-A-N01-BASE-OPPOSITE_TARGET_FIRST",
+    "reused_actual_single_call_id": "B10-A-N01-BASE-SINGLE",
+    "selected_text": "陈悦把这把雨伞借给了周宁。",
+    "reused_actual_raw_output": "{\"occurred\":\"YES\",\"lender\":\"陈悦\",\"borrower\":\"周宁\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_inference": false,
+    "independent_output": false
+  },
+  {
+    "context_call_id": "B10-A-N01-BASE-OPPOSITE_TARGET_LAST",
+    "reused_actual_single_call_id": "B10-A-N01-BASE-SINGLE",
+    "selected_text": "陈悦把这把雨伞借给了周宁。",
+    "reused_actual_raw_output": "{\"occurred\":\"YES\",\"lender\":\"陈悦\",\"borrower\":\"周宁\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_inference": false,
+    "independent_output": false
+  },
+  {
+    "context_call_id": "B10-A-N01-PARAPHRASE-SAME_TARGET_FIRST",
+    "reused_actual_single_call_id": "B10-A-N01-PARAPHRASE-SINGLE",
+    "selected_text": "周宁从陈悦那里借到了这把雨伞。",
+    "reused_actual_raw_output": "{\"occurred\":\"YES\",\"lender\":\"陈悦\",\"borrower\":\"周宁\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_inference": false,
+    "independent_output": false
+  },
+  {
+    "context_call_id": "B10-A-N01-PARAPHRASE-SAME_TARGET_LAST",
+    "reused_actual_single_call_id": "B10-A-N01-PARAPHRASE-SINGLE",
+    "selected_text": "周宁从陈悦那里借到了这把雨伞。",
+    "reused_actual_raw_output": "{\"occurred\":\"YES\",\"lender\":\"陈悦\",\"borrower\":\"周宁\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_inference": false,
+    "independent_output": false
+  },
+  {
+    "context_call_id": "B10-A-N01-PARAPHRASE-OPPOSITE_TARGET_FIRST",
+    "reused_actual_single_call_id": "B10-A-N01-PARAPHRASE-SINGLE",
+    "selected_text": "周宁从陈悦那里借到了这把雨伞。",
+    "reused_actual_raw_output": "{\"occurred\":\"YES\",\"lender\":\"陈悦\",\"borrower\":\"周宁\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_inference": false,
+    "independent_output": false
+  },
+  {
+    "context_call_id": "B10-A-N01-PARAPHRASE-OPPOSITE_TARGET_LAST",
+    "reused_actual_single_call_id": "B10-A-N01-PARAPHRASE-SINGLE",
+    "selected_text": "周宁从陈悦那里借到了这把雨伞。",
+    "reused_actual_raw_output": "{\"occurred\":\"YES\",\"lender\":\"陈悦\",\"borrower\":\"周宁\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_inference": false,
+    "independent_output": false
+  },
+  {
+    "context_call_id": "B10-A-N01-ROLE_SWAP-SAME_TARGET_LAST",
+    "reused_actual_single_call_id": "B10-A-N01-ROLE_SWAP-SINGLE",
+    "selected_text": "周宁把这把雨伞借给了陈悦。",
+    "reused_actual_raw_output": "{\"occurred\":\"YES\",\"lender\":\"周宁\",\"borrower\":\"陈悦\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_inference": false,
+    "independent_output": false
+  },
+  {
+    "context_call_id": "B10-A-N01-ROLE_SWAP-OPPOSITE_TARGET_FIRST",
+    "reused_actual_single_call_id": "B10-A-N01-ROLE_SWAP-SINGLE",
+    "selected_text": "周宁把这把雨伞借给了陈悦。",
+    "reused_actual_raw_output": "{\"occurred\":\"YES\",\"lender\":\"周宁\",\"borrower\":\"陈悦\"}",
+    "direct_labels": {
+      "role_a": "W",
+      "role_b": "W",
+      "occurrence": "C",
+      "participant": "W",
+      "record": "W"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "W->C",
+      "role_b": "W->C",
+      "occurrence": "C->C",
+      "participant": "W->C",
+      "record": "W->C"
+    },
+    "new_inference": false,
+    "independent_output": false
+  },
+  {
+    "context_call_id": "B10-A-N01-ROLE_SWAP-OPPOSITE_TARGET_LAST",
+    "reused_actual_single_call_id": "B10-A-N01-ROLE_SWAP-SINGLE",
+    "selected_text": "周宁把这把雨伞借给了陈悦。",
+    "reused_actual_raw_output": "{\"occurred\":\"YES\",\"lender\":\"周宁\",\"borrower\":\"陈悦\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_inference": false,
+    "independent_output": false
+  },
+  {
+    "context_call_id": "B10-A-N01-ROLE_SWAP-SAME_TARGET_FIRST",
+    "reused_actual_single_call_id": "B10-A-N01-ROLE_SWAP-SINGLE",
+    "selected_text": "周宁把这把雨伞借给了陈悦。",
+    "reused_actual_raw_output": "{\"occurred\":\"YES\",\"lender\":\"周宁\",\"borrower\":\"陈悦\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_inference": false,
+    "independent_output": false
+  },
+  {
+    "context_call_id": "B10-A-N01-NEGATED-OPPOSITE_TARGET_FIRST",
+    "reused_actual_single_call_id": "B10-A-N01-NEGATED-SINGLE",
+    "selected_text": "陈悦没有把这把雨伞借给周宁。",
+    "reused_actual_raw_output": "{\"occurred\":\"NO\",\"lender\":\"陈悦\",\"borrower\":\"周宁\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_inference": false,
+    "independent_output": false
+  },
+  {
+    "context_call_id": "B10-A-N01-NEGATED-OPPOSITE_TARGET_LAST",
+    "reused_actual_single_call_id": "B10-A-N01-NEGATED-SINGLE",
+    "selected_text": "陈悦没有把这把雨伞借给周宁。",
+    "reused_actual_raw_output": "{\"occurred\":\"NO\",\"lender\":\"陈悦\",\"borrower\":\"周宁\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_inference": false,
+    "independent_output": false
+  },
+  {
+    "context_call_id": "B10-A-N01-NEGATED-SAME_TARGET_FIRST",
+    "reused_actual_single_call_id": "B10-A-N01-NEGATED-SINGLE",
+    "selected_text": "陈悦没有把这把雨伞借给周宁。",
+    "reused_actual_raw_output": "{\"occurred\":\"NO\",\"lender\":\"陈悦\",\"borrower\":\"周宁\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_inference": false,
+    "independent_output": false
+  },
+  {
+    "context_call_id": "B10-A-N01-NEGATED-SAME_TARGET_LAST",
+    "reused_actual_single_call_id": "B10-A-N01-NEGATED-SINGLE",
+    "selected_text": "陈悦没有把这把雨伞借给周宁。",
+    "reused_actual_raw_output": "{\"occurred\":\"NO\",\"lender\":\"陈悦\",\"borrower\":\"周宁\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_inference": false,
+    "independent_output": false
+  },
+  {
+    "context_call_id": "B10-A-N01-UNRESOLVED-OPPOSITE_TARGET_LAST",
+    "reused_actual_single_call_id": "B10-A-N01-UNRESOLVED-SINGLE",
+    "selected_text": "工作人员正在核实陈悦是否把这把雨伞借给了周宁，目前尚无结论。",
+    "reused_actual_raw_output": "{\"occurred\":\"UNKNOWN\",\"lender\":\"陈悦\",\"borrower\":\"周宁\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_inference": false,
+    "independent_output": false
+  },
+  {
+    "context_call_id": "B10-A-N01-UNRESOLVED-SAME_TARGET_FIRST",
+    "reused_actual_single_call_id": "B10-A-N01-UNRESOLVED-SINGLE",
+    "selected_text": "工作人员正在核实陈悦是否把这把雨伞借给了周宁，目前尚无结论。",
+    "reused_actual_raw_output": "{\"occurred\":\"UNKNOWN\",\"lender\":\"陈悦\",\"borrower\":\"周宁\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_inference": false,
+    "independent_output": false
+  },
+  {
+    "context_call_id": "B10-A-N01-UNRESOLVED-SAME_TARGET_LAST",
+    "reused_actual_single_call_id": "B10-A-N01-UNRESOLVED-SINGLE",
+    "selected_text": "工作人员正在核实陈悦是否把这把雨伞借给了周宁，目前尚无结论。",
+    "reused_actual_raw_output": "{\"occurred\":\"UNKNOWN\",\"lender\":\"陈悦\",\"borrower\":\"周宁\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_inference": false,
+    "independent_output": false
+  },
+  {
+    "context_call_id": "B10-A-N01-UNRESOLVED-OPPOSITE_TARGET_FIRST",
+    "reused_actual_single_call_id": "B10-A-N01-UNRESOLVED-SINGLE",
+    "selected_text": "工作人员正在核实陈悦是否把这把雨伞借给了周宁，目前尚无结论。",
+    "reused_actual_raw_output": "{\"occurred\":\"UNKNOWN\",\"lender\":\"陈悦\",\"borrower\":\"周宁\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_inference": false,
+    "independent_output": false
+  },
+  {
+    "context_call_id": "B10-A-N02-PARAPHRASE-SAME_TARGET_FIRST",
+    "reused_actual_single_call_id": "B10-A-N02-PARAPHRASE-SINGLE",
+    "selected_text": "许静从林涛那里借到了这个充电器。",
+    "reused_actual_raw_output": "{\"occurred\":\"YES\",\"lender\":\"林涛\",\"borrower\":\"许静\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_inference": false,
+    "independent_output": false
+  },
+  {
+    "context_call_id": "B10-A-N02-PARAPHRASE-SAME_TARGET_LAST",
+    "reused_actual_single_call_id": "B10-A-N02-PARAPHRASE-SINGLE",
+    "selected_text": "许静从林涛那里借到了这个充电器。",
+    "reused_actual_raw_output": "{\"occurred\":\"YES\",\"lender\":\"林涛\",\"borrower\":\"许静\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_inference": false,
+    "independent_output": false
+  },
+  {
+    "context_call_id": "B10-A-N02-PARAPHRASE-OPPOSITE_TARGET_FIRST",
+    "reused_actual_single_call_id": "B10-A-N02-PARAPHRASE-SINGLE",
+    "selected_text": "许静从林涛那里借到了这个充电器。",
+    "reused_actual_raw_output": "{\"occurred\":\"YES\",\"lender\":\"林涛\",\"borrower\":\"许静\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_inference": false,
+    "independent_output": false
+  },
+  {
+    "context_call_id": "B10-A-N02-PARAPHRASE-OPPOSITE_TARGET_LAST",
+    "reused_actual_single_call_id": "B10-A-N02-PARAPHRASE-SINGLE",
+    "selected_text": "许静从林涛那里借到了这个充电器。",
+    "reused_actual_raw_output": "{\"occurred\":\"YES\",\"lender\":\"林涛\",\"borrower\":\"许静\"}",
+    "direct_labels": {
+      "role_a": "W",
+      "role_b": "W",
+      "occurrence": "C",
+      "participant": "W",
+      "record": "W"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "W->C",
+      "role_b": "W->C",
+      "occurrence": "C->C",
+      "participant": "W->C",
+      "record": "W->C"
+    },
+    "new_inference": false,
+    "independent_output": false
+  },
+  {
+    "context_call_id": "B10-A-N02-ROLE_SWAP-SAME_TARGET_LAST",
+    "reused_actual_single_call_id": "B10-A-N02-ROLE_SWAP-SINGLE",
+    "selected_text": "许静把这个充电器借给了林涛。",
+    "reused_actual_raw_output": "{\"occurred\":\"YES\",\"lender\":\"许静\",\"borrower\":\"林涛\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_inference": false,
+    "independent_output": false
+  },
+  {
+    "context_call_id": "B10-A-N02-ROLE_SWAP-OPPOSITE_TARGET_FIRST",
+    "reused_actual_single_call_id": "B10-A-N02-ROLE_SWAP-SINGLE",
+    "selected_text": "许静把这个充电器借给了林涛。",
+    "reused_actual_raw_output": "{\"occurred\":\"YES\",\"lender\":\"许静\",\"borrower\":\"林涛\"}",
+    "direct_labels": {
+      "role_a": "W",
+      "role_b": "W",
+      "occurrence": "C",
+      "participant": "W",
+      "record": "W"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "W->C",
+      "role_b": "W->C",
+      "occurrence": "C->C",
+      "participant": "W->C",
+      "record": "W->C"
+    },
+    "new_inference": false,
+    "independent_output": false
+  },
+  {
+    "context_call_id": "B10-A-N02-ROLE_SWAP-OPPOSITE_TARGET_LAST",
+    "reused_actual_single_call_id": "B10-A-N02-ROLE_SWAP-SINGLE",
+    "selected_text": "许静把这个充电器借给了林涛。",
+    "reused_actual_raw_output": "{\"occurred\":\"YES\",\"lender\":\"许静\",\"borrower\":\"林涛\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_inference": false,
+    "independent_output": false
+  },
+  {
+    "context_call_id": "B10-A-N02-ROLE_SWAP-SAME_TARGET_FIRST",
+    "reused_actual_single_call_id": "B10-A-N02-ROLE_SWAP-SINGLE",
+    "selected_text": "许静把这个充电器借给了林涛。",
+    "reused_actual_raw_output": "{\"occurred\":\"YES\",\"lender\":\"许静\",\"borrower\":\"林涛\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_inference": false,
+    "independent_output": false
+  },
+  {
+    "context_call_id": "B10-A-N02-NEGATED-OPPOSITE_TARGET_FIRST",
+    "reused_actual_single_call_id": "B10-A-N02-NEGATED-SINGLE",
+    "selected_text": "林涛没有把这个充电器借给许静。",
+    "reused_actual_raw_output": "{\"occurred\":\"NO\",\"lender\":\"林涛\",\"borrower\":\"许静\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_inference": false,
+    "independent_output": false
+  },
+  {
+    "context_call_id": "B10-A-N02-NEGATED-OPPOSITE_TARGET_LAST",
+    "reused_actual_single_call_id": "B10-A-N02-NEGATED-SINGLE",
+    "selected_text": "林涛没有把这个充电器借给许静。",
+    "reused_actual_raw_output": "{\"occurred\":\"NO\",\"lender\":\"林涛\",\"borrower\":\"许静\"}",
+    "direct_labels": {
+      "role_a": "W",
+      "role_b": "W",
+      "occurrence": "C",
+      "participant": "W",
+      "record": "W"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "W->C",
+      "role_b": "W->C",
+      "occurrence": "C->C",
+      "participant": "W->C",
+      "record": "W->C"
+    },
+    "new_inference": false,
+    "independent_output": false
+  },
+  {
+    "context_call_id": "B10-A-N02-NEGATED-SAME_TARGET_FIRST",
+    "reused_actual_single_call_id": "B10-A-N02-NEGATED-SINGLE",
+    "selected_text": "林涛没有把这个充电器借给许静。",
+    "reused_actual_raw_output": "{\"occurred\":\"NO\",\"lender\":\"林涛\",\"borrower\":\"许静\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_inference": false,
+    "independent_output": false
+  },
+  {
+    "context_call_id": "B10-A-N02-NEGATED-SAME_TARGET_LAST",
+    "reused_actual_single_call_id": "B10-A-N02-NEGATED-SINGLE",
+    "selected_text": "林涛没有把这个充电器借给许静。",
+    "reused_actual_raw_output": "{\"occurred\":\"NO\",\"lender\":\"林涛\",\"borrower\":\"许静\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_inference": false,
+    "independent_output": false
+  },
+  {
+    "context_call_id": "B10-A-N02-UNRESOLVED-OPPOSITE_TARGET_LAST",
+    "reused_actual_single_call_id": "B10-A-N02-UNRESOLVED-SINGLE",
+    "selected_text": "工作人员正在核实林涛是否把这个充电器借给了许静，目前尚无结论。",
+    "reused_actual_raw_output": "{\"occurred\":\"UNKNOWN\",\"lender\":\"林涛\",\"borrower\":\"许静\"}",
+    "direct_labels": {
+      "role_a": "W",
+      "role_b": "W",
+      "occurrence": "C",
+      "participant": "W",
+      "record": "W"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "W->C",
+      "role_b": "W->C",
+      "occurrence": "C->C",
+      "participant": "W->C",
+      "record": "W->C"
+    },
+    "new_inference": false,
+    "independent_output": false
+  },
+  {
+    "context_call_id": "B10-A-N02-UNRESOLVED-SAME_TARGET_FIRST",
+    "reused_actual_single_call_id": "B10-A-N02-UNRESOLVED-SINGLE",
+    "selected_text": "工作人员正在核实林涛是否把这个充电器借给了许静，目前尚无结论。",
+    "reused_actual_raw_output": "{\"occurred\":\"UNKNOWN\",\"lender\":\"林涛\",\"borrower\":\"许静\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_inference": false,
+    "independent_output": false
+  },
+  {
+    "context_call_id": "B10-A-N02-UNRESOLVED-SAME_TARGET_LAST",
+    "reused_actual_single_call_id": "B10-A-N02-UNRESOLVED-SINGLE",
+    "selected_text": "工作人员正在核实林涛是否把这个充电器借给了许静，目前尚无结论。",
+    "reused_actual_raw_output": "{\"occurred\":\"UNKNOWN\",\"lender\":\"林涛\",\"borrower\":\"许静\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_inference": false,
+    "independent_output": false
+  },
+  {
+    "context_call_id": "B10-A-N02-UNRESOLVED-OPPOSITE_TARGET_FIRST",
+    "reused_actual_single_call_id": "B10-A-N02-UNRESOLVED-SINGLE",
+    "selected_text": "工作人员正在核实林涛是否把这个充电器借给了许静，目前尚无结论。",
+    "reused_actual_raw_output": "{\"occurred\":\"UNKNOWN\",\"lender\":\"林涛\",\"borrower\":\"许静\"}",
+    "direct_labels": {
+      "role_a": "W",
+      "role_b": "W",
+      "occurrence": "C",
+      "participant": "W",
+      "record": "W"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "W->C",
+      "role_b": "W->C",
+      "occurrence": "C->C",
+      "participant": "W->C",
+      "record": "W->C"
+    },
+    "new_inference": false,
+    "independent_output": false
+  },
+  {
+    "context_call_id": "B10-A-N02-BASE-SAME_TARGET_FIRST",
+    "reused_actual_single_call_id": "B10-A-N02-BASE-SINGLE",
+    "selected_text": "林涛把这个充电器借给了许静。",
+    "reused_actual_raw_output": "{\"occurred\":\"YES\",\"lender\":\"林涛\",\"borrower\":\"许静\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_inference": false,
+    "independent_output": false
+  },
+  {
+    "context_call_id": "B10-A-N02-BASE-SAME_TARGET_LAST",
+    "reused_actual_single_call_id": "B10-A-N02-BASE-SINGLE",
+    "selected_text": "林涛把这个充电器借给了许静。",
+    "reused_actual_raw_output": "{\"occurred\":\"YES\",\"lender\":\"林涛\",\"borrower\":\"许静\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_inference": false,
+    "independent_output": false
+  },
+  {
+    "context_call_id": "B10-A-N02-BASE-OPPOSITE_TARGET_FIRST",
+    "reused_actual_single_call_id": "B10-A-N02-BASE-SINGLE",
+    "selected_text": "林涛把这个充电器借给了许静。",
+    "reused_actual_raw_output": "{\"occurred\":\"YES\",\"lender\":\"林涛\",\"borrower\":\"许静\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_inference": false,
+    "independent_output": false
+  },
+  {
+    "context_call_id": "B10-A-N02-BASE-OPPOSITE_TARGET_LAST",
+    "reused_actual_single_call_id": "B10-A-N02-BASE-SINGLE",
+    "selected_text": "林涛把这个充电器借给了许静。",
+    "reused_actual_raw_output": "{\"occurred\":\"YES\",\"lender\":\"林涛\",\"borrower\":\"许静\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_inference": false,
+    "independent_output": false
+  },
+  {
+    "context_call_id": "B10-A-N03-ROLE_SWAP-SAME_TARGET_LAST",
+    "reused_actual_single_call_id": "B10-A-N03-ROLE_SWAP-SINGLE",
+    "selected_text": "刘宁把这辆自行车卖给了王晨。",
+    "reused_actual_raw_output": "{\"occurred\":\"YES\",\"seller\":\"刘宁\",\"buyer\":\"王晨\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_inference": false,
+    "independent_output": false
+  },
+  {
+    "context_call_id": "B10-A-N03-ROLE_SWAP-OPPOSITE_TARGET_FIRST",
+    "reused_actual_single_call_id": "B10-A-N03-ROLE_SWAP-SINGLE",
+    "selected_text": "刘宁把这辆自行车卖给了王晨。",
+    "reused_actual_raw_output": "{\"occurred\":\"YES\",\"seller\":\"刘宁\",\"buyer\":\"王晨\"}",
+    "direct_labels": {
+      "role_a": "W",
+      "role_b": "W",
+      "occurrence": "C",
+      "participant": "W",
+      "record": "W"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "W->C",
+      "role_b": "W->C",
+      "occurrence": "C->C",
+      "participant": "W->C",
+      "record": "W->C"
+    },
+    "new_inference": false,
+    "independent_output": false
+  },
+  {
+    "context_call_id": "B10-A-N03-ROLE_SWAP-OPPOSITE_TARGET_LAST",
+    "reused_actual_single_call_id": "B10-A-N03-ROLE_SWAP-SINGLE",
+    "selected_text": "刘宁把这辆自行车卖给了王晨。",
+    "reused_actual_raw_output": "{\"occurred\":\"YES\",\"seller\":\"刘宁\",\"buyer\":\"王晨\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_inference": false,
+    "independent_output": false
+  },
+  {
+    "context_call_id": "B10-A-N03-ROLE_SWAP-SAME_TARGET_FIRST",
+    "reused_actual_single_call_id": "B10-A-N03-ROLE_SWAP-SINGLE",
+    "selected_text": "刘宁把这辆自行车卖给了王晨。",
+    "reused_actual_raw_output": "{\"occurred\":\"YES\",\"seller\":\"刘宁\",\"buyer\":\"王晨\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_inference": false,
+    "independent_output": false
+  },
+  {
+    "context_call_id": "B10-A-N03-NEGATED-OPPOSITE_TARGET_FIRST",
+    "reused_actual_single_call_id": "B10-A-N03-NEGATED-SINGLE",
+    "selected_text": "王晨没有把这辆自行车卖给刘宁。",
+    "reused_actual_raw_output": "{\"occurred\":\"NO\",\"seller\":\"王晨\",\"buyer\":\"刘宁\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_inference": false,
+    "independent_output": false
+  },
+  {
+    "context_call_id": "B10-A-N03-NEGATED-OPPOSITE_TARGET_LAST",
+    "reused_actual_single_call_id": "B10-A-N03-NEGATED-SINGLE",
+    "selected_text": "王晨没有把这辆自行车卖给刘宁。",
+    "reused_actual_raw_output": "{\"occurred\":\"NO\",\"seller\":\"王晨\",\"buyer\":\"刘宁\"}",
+    "direct_labels": {
+      "role_a": "U",
+      "role_b": "U",
+      "occurrence": "U",
+      "participant": "U",
+      "record": "U"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "U->C",
+      "role_b": "U->C",
+      "occurrence": "U->C",
+      "participant": "U->C",
+      "record": "U->C"
+    },
+    "new_inference": false,
+    "independent_output": false
+  },
+  {
+    "context_call_id": "B10-A-N03-NEGATED-SAME_TARGET_FIRST",
+    "reused_actual_single_call_id": "B10-A-N03-NEGATED-SINGLE",
+    "selected_text": "王晨没有把这辆自行车卖给刘宁。",
+    "reused_actual_raw_output": "{\"occurred\":\"NO\",\"seller\":\"王晨\",\"buyer\":\"刘宁\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_inference": false,
+    "independent_output": false
+  },
+  {
+    "context_call_id": "B10-A-N03-NEGATED-SAME_TARGET_LAST",
+    "reused_actual_single_call_id": "B10-A-N03-NEGATED-SINGLE",
+    "selected_text": "王晨没有把这辆自行车卖给刘宁。",
+    "reused_actual_raw_output": "{\"occurred\":\"NO\",\"seller\":\"王晨\",\"buyer\":\"刘宁\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_inference": false,
+    "independent_output": false
+  },
+  {
+    "context_call_id": "B10-A-N03-UNRESOLVED-OPPOSITE_TARGET_LAST",
+    "reused_actual_single_call_id": "B10-A-N03-UNRESOLVED-SINGLE",
+    "selected_text": "工作人员正在核实王晨是否把这辆自行车卖给了刘宁，目前尚无结论。",
+    "reused_actual_raw_output": "{\"occurred\":\"UNKNOWN\",\"seller\":\"王晨\",\"buyer\":\"刘宁\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_inference": false,
+    "independent_output": false
+  },
+  {
+    "context_call_id": "B10-A-N03-UNRESOLVED-SAME_TARGET_FIRST",
+    "reused_actual_single_call_id": "B10-A-N03-UNRESOLVED-SINGLE",
+    "selected_text": "工作人员正在核实王晨是否把这辆自行车卖给了刘宁，目前尚无结论。",
+    "reused_actual_raw_output": "{\"occurred\":\"UNKNOWN\",\"seller\":\"王晨\",\"buyer\":\"刘宁\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_inference": false,
+    "independent_output": false
+  },
+  {
+    "context_call_id": "B10-A-N03-UNRESOLVED-SAME_TARGET_LAST",
+    "reused_actual_single_call_id": "B10-A-N03-UNRESOLVED-SINGLE",
+    "selected_text": "工作人员正在核实王晨是否把这辆自行车卖给了刘宁，目前尚无结论。",
+    "reused_actual_raw_output": "{\"occurred\":\"UNKNOWN\",\"seller\":\"王晨\",\"buyer\":\"刘宁\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_inference": false,
+    "independent_output": false
+  },
+  {
+    "context_call_id": "B10-A-N03-UNRESOLVED-OPPOSITE_TARGET_FIRST",
+    "reused_actual_single_call_id": "B10-A-N03-UNRESOLVED-SINGLE",
+    "selected_text": "工作人员正在核实王晨是否把这辆自行车卖给了刘宁，目前尚无结论。",
+    "reused_actual_raw_output": "{\"occurred\":\"UNKNOWN\",\"seller\":\"王晨\",\"buyer\":\"刘宁\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_inference": false,
+    "independent_output": false
+  },
+  {
+    "context_call_id": "B10-A-N03-BASE-SAME_TARGET_FIRST",
+    "reused_actual_single_call_id": "B10-A-N03-BASE-SINGLE",
+    "selected_text": "王晨把这辆自行车卖给了刘宁。",
+    "reused_actual_raw_output": "{\"occurred\":\"YES\",\"seller\":\"王晨\",\"buyer\":\"刘宁\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_inference": false,
+    "independent_output": false
+  },
+  {
+    "context_call_id": "B10-A-N03-BASE-SAME_TARGET_LAST",
+    "reused_actual_single_call_id": "B10-A-N03-BASE-SINGLE",
+    "selected_text": "王晨把这辆自行车卖给了刘宁。",
+    "reused_actual_raw_output": "{\"occurred\":\"YES\",\"seller\":\"王晨\",\"buyer\":\"刘宁\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_inference": false,
+    "independent_output": false
+  },
+  {
+    "context_call_id": "B10-A-N03-BASE-OPPOSITE_TARGET_FIRST",
+    "reused_actual_single_call_id": "B10-A-N03-BASE-SINGLE",
+    "selected_text": "王晨把这辆自行车卖给了刘宁。",
+    "reused_actual_raw_output": "{\"occurred\":\"YES\",\"seller\":\"王晨\",\"buyer\":\"刘宁\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_inference": false,
+    "independent_output": false
+  },
+  {
+    "context_call_id": "B10-A-N03-BASE-OPPOSITE_TARGET_LAST",
+    "reused_actual_single_call_id": "B10-A-N03-BASE-SINGLE",
+    "selected_text": "王晨把这辆自行车卖给了刘宁。",
+    "reused_actual_raw_output": "{\"occurred\":\"YES\",\"seller\":\"王晨\",\"buyer\":\"刘宁\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_inference": false,
+    "independent_output": false
+  },
+  {
+    "context_call_id": "B10-A-N03-PARAPHRASE-SAME_TARGET_FIRST",
+    "reused_actual_single_call_id": "B10-A-N03-PARAPHRASE-SINGLE",
+    "selected_text": "刘宁从王晨那里买到了这辆自行车。",
+    "reused_actual_raw_output": "{\"occurred\":\"YES\",\"seller\":\"王晨\",\"buyer\":\"刘宁\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_inference": false,
+    "independent_output": false
+  },
+  {
+    "context_call_id": "B10-A-N03-PARAPHRASE-SAME_TARGET_LAST",
+    "reused_actual_single_call_id": "B10-A-N03-PARAPHRASE-SINGLE",
+    "selected_text": "刘宁从王晨那里买到了这辆自行车。",
+    "reused_actual_raw_output": "{\"occurred\":\"YES\",\"seller\":\"王晨\",\"buyer\":\"刘宁\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_inference": false,
+    "independent_output": false
+  },
+  {
+    "context_call_id": "B10-A-N03-PARAPHRASE-OPPOSITE_TARGET_FIRST",
+    "reused_actual_single_call_id": "B10-A-N03-PARAPHRASE-SINGLE",
+    "selected_text": "刘宁从王晨那里买到了这辆自行车。",
+    "reused_actual_raw_output": "{\"occurred\":\"YES\",\"seller\":\"王晨\",\"buyer\":\"刘宁\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_inference": false,
+    "independent_output": false
+  },
+  {
+    "context_call_id": "B10-A-N03-PARAPHRASE-OPPOSITE_TARGET_LAST",
+    "reused_actual_single_call_id": "B10-A-N03-PARAPHRASE-SINGLE",
+    "selected_text": "刘宁从王晨那里买到了这辆自行车。",
+    "reused_actual_raw_output": "{\"occurred\":\"YES\",\"seller\":\"王晨\",\"buyer\":\"刘宁\"}",
+    "direct_labels": {
+      "role_a": "W",
+      "role_b": "W",
+      "occurrence": "C",
+      "participant": "W",
+      "record": "W"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "W->C",
+      "role_b": "W->C",
+      "occurrence": "C->C",
+      "participant": "W->C",
+      "record": "W->C"
+    },
+    "new_inference": false,
+    "independent_output": false
+  },
+  {
+    "context_call_id": "B10-A-N04-NEGATED-OPPOSITE_TARGET_FIRST",
+    "reused_actual_single_call_id": "B10-A-N04-NEGATED-SINGLE",
+    "selected_text": "苏敏没有把这盏台灯卖给赵凯。",
+    "reused_actual_raw_output": "{\"occurred\":\"NO\",\"seller\":\"苏敏\",\"buyer\":\"赵凯\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_inference": false,
+    "independent_output": false
+  },
+  {
+    "context_call_id": "B10-A-N04-NEGATED-OPPOSITE_TARGET_LAST",
+    "reused_actual_single_call_id": "B10-A-N04-NEGATED-SINGLE",
+    "selected_text": "苏敏没有把这盏台灯卖给赵凯。",
+    "reused_actual_raw_output": "{\"occurred\":\"NO\",\"seller\":\"苏敏\",\"buyer\":\"赵凯\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_inference": false,
+    "independent_output": false
+  },
+  {
+    "context_call_id": "B10-A-N04-NEGATED-SAME_TARGET_FIRST",
+    "reused_actual_single_call_id": "B10-A-N04-NEGATED-SINGLE",
+    "selected_text": "苏敏没有把这盏台灯卖给赵凯。",
+    "reused_actual_raw_output": "{\"occurred\":\"NO\",\"seller\":\"苏敏\",\"buyer\":\"赵凯\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_inference": false,
+    "independent_output": false
+  },
+  {
+    "context_call_id": "B10-A-N04-NEGATED-SAME_TARGET_LAST",
+    "reused_actual_single_call_id": "B10-A-N04-NEGATED-SINGLE",
+    "selected_text": "苏敏没有把这盏台灯卖给赵凯。",
+    "reused_actual_raw_output": "{\"occurred\":\"NO\",\"seller\":\"苏敏\",\"buyer\":\"赵凯\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_inference": false,
+    "independent_output": false
+  },
+  {
+    "context_call_id": "B10-A-N04-UNRESOLVED-OPPOSITE_TARGET_LAST",
+    "reused_actual_single_call_id": "B10-A-N04-UNRESOLVED-SINGLE",
+    "selected_text": "工作人员正在核实苏敏是否把这盏台灯卖给了赵凯，目前尚无结论。",
+    "reused_actual_raw_output": "{\"occurred\":\"UNKNOWN\",\"seller\":\"苏敏\",\"buyer\":\"赵凯\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_inference": false,
+    "independent_output": false
+  },
+  {
+    "context_call_id": "B10-A-N04-UNRESOLVED-SAME_TARGET_FIRST",
+    "reused_actual_single_call_id": "B10-A-N04-UNRESOLVED-SINGLE",
+    "selected_text": "工作人员正在核实苏敏是否把这盏台灯卖给了赵凯，目前尚无结论。",
+    "reused_actual_raw_output": "{\"occurred\":\"UNKNOWN\",\"seller\":\"苏敏\",\"buyer\":\"赵凯\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_inference": false,
+    "independent_output": false
+  },
+  {
+    "context_call_id": "B10-A-N04-UNRESOLVED-SAME_TARGET_LAST",
+    "reused_actual_single_call_id": "B10-A-N04-UNRESOLVED-SINGLE",
+    "selected_text": "工作人员正在核实苏敏是否把这盏台灯卖给了赵凯，目前尚无结论。",
+    "reused_actual_raw_output": "{\"occurred\":\"UNKNOWN\",\"seller\":\"苏敏\",\"buyer\":\"赵凯\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_inference": false,
+    "independent_output": false
+  },
+  {
+    "context_call_id": "B10-A-N04-UNRESOLVED-OPPOSITE_TARGET_FIRST",
+    "reused_actual_single_call_id": "B10-A-N04-UNRESOLVED-SINGLE",
+    "selected_text": "工作人员正在核实苏敏是否把这盏台灯卖给了赵凯，目前尚无结论。",
+    "reused_actual_raw_output": "{\"occurred\":\"UNKNOWN\",\"seller\":\"苏敏\",\"buyer\":\"赵凯\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_inference": false,
+    "independent_output": false
+  },
+  {
+    "context_call_id": "B10-A-N04-BASE-SAME_TARGET_FIRST",
+    "reused_actual_single_call_id": "B10-A-N04-BASE-SINGLE",
+    "selected_text": "苏敏把这盏台灯卖给了赵凯。",
+    "reused_actual_raw_output": "{\"occurred\":\"YES\",\"seller\":\"苏敏\",\"buyer\":\"赵凯\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_inference": false,
+    "independent_output": false
+  },
+  {
+    "context_call_id": "B10-A-N04-BASE-SAME_TARGET_LAST",
+    "reused_actual_single_call_id": "B10-A-N04-BASE-SINGLE",
+    "selected_text": "苏敏把这盏台灯卖给了赵凯。",
+    "reused_actual_raw_output": "{\"occurred\":\"YES\",\"seller\":\"苏敏\",\"buyer\":\"赵凯\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_inference": false,
+    "independent_output": false
+  },
+  {
+    "context_call_id": "B10-A-N04-BASE-OPPOSITE_TARGET_FIRST",
+    "reused_actual_single_call_id": "B10-A-N04-BASE-SINGLE",
+    "selected_text": "苏敏把这盏台灯卖给了赵凯。",
+    "reused_actual_raw_output": "{\"occurred\":\"YES\",\"seller\":\"苏敏\",\"buyer\":\"赵凯\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_inference": false,
+    "independent_output": false
+  },
+  {
+    "context_call_id": "B10-A-N04-BASE-OPPOSITE_TARGET_LAST",
+    "reused_actual_single_call_id": "B10-A-N04-BASE-SINGLE",
+    "selected_text": "苏敏把这盏台灯卖给了赵凯。",
+    "reused_actual_raw_output": "{\"occurred\":\"YES\",\"seller\":\"苏敏\",\"buyer\":\"赵凯\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_inference": false,
+    "independent_output": false
+  },
+  {
+    "context_call_id": "B10-A-N04-PARAPHRASE-SAME_TARGET_FIRST",
+    "reused_actual_single_call_id": "B10-A-N04-PARAPHRASE-SINGLE",
+    "selected_text": "赵凯从苏敏那里买到了这盏台灯。",
+    "reused_actual_raw_output": "{\"occurred\":\"YES\",\"seller\":\"苏敏\",\"buyer\":\"赵凯\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_inference": false,
+    "independent_output": false
+  },
+  {
+    "context_call_id": "B10-A-N04-PARAPHRASE-SAME_TARGET_LAST",
+    "reused_actual_single_call_id": "B10-A-N04-PARAPHRASE-SINGLE",
+    "selected_text": "赵凯从苏敏那里买到了这盏台灯。",
+    "reused_actual_raw_output": "{\"occurred\":\"YES\",\"seller\":\"苏敏\",\"buyer\":\"赵凯\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "W",
+      "participant": "C",
+      "record": "W"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "W->C",
+      "participant": "C->C",
+      "record": "W->C"
+    },
+    "new_inference": false,
+    "independent_output": false
+  },
+  {
+    "context_call_id": "B10-A-N04-PARAPHRASE-OPPOSITE_TARGET_FIRST",
+    "reused_actual_single_call_id": "B10-A-N04-PARAPHRASE-SINGLE",
+    "selected_text": "赵凯从苏敏那里买到了这盏台灯。",
+    "reused_actual_raw_output": "{\"occurred\":\"YES\",\"seller\":\"苏敏\",\"buyer\":\"赵凯\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_inference": false,
+    "independent_output": false
+  },
+  {
+    "context_call_id": "B10-A-N04-PARAPHRASE-OPPOSITE_TARGET_LAST",
+    "reused_actual_single_call_id": "B10-A-N04-PARAPHRASE-SINGLE",
+    "selected_text": "赵凯从苏敏那里买到了这盏台灯。",
+    "reused_actual_raw_output": "{\"occurred\":\"YES\",\"seller\":\"苏敏\",\"buyer\":\"赵凯\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_inference": false,
+    "independent_output": false
+  },
+  {
+    "context_call_id": "B10-A-N04-ROLE_SWAP-SAME_TARGET_LAST",
+    "reused_actual_single_call_id": "B10-A-N04-ROLE_SWAP-SINGLE",
+    "selected_text": "赵凯把这盏台灯卖给了苏敏。",
+    "reused_actual_raw_output": "{\"occurred\":\"YES\",\"seller\":\"赵凯\",\"buyer\":\"苏敏\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_inference": false,
+    "independent_output": false
+  },
+  {
+    "context_call_id": "B10-A-N04-ROLE_SWAP-OPPOSITE_TARGET_FIRST",
+    "reused_actual_single_call_id": "B10-A-N04-ROLE_SWAP-SINGLE",
+    "selected_text": "赵凯把这盏台灯卖给了苏敏。",
+    "reused_actual_raw_output": "{\"occurred\":\"YES\",\"seller\":\"赵凯\",\"buyer\":\"苏敏\"}",
+    "direct_labels": {
+      "role_a": "W",
+      "role_b": "W",
+      "occurrence": "C",
+      "participant": "W",
+      "record": "W"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "W->C",
+      "role_b": "W->C",
+      "occurrence": "C->C",
+      "participant": "W->C",
+      "record": "W->C"
+    },
+    "new_inference": false,
+    "independent_output": false
+  },
+  {
+    "context_call_id": "B10-A-N04-ROLE_SWAP-OPPOSITE_TARGET_LAST",
+    "reused_actual_single_call_id": "B10-A-N04-ROLE_SWAP-SINGLE",
+    "selected_text": "赵凯把这盏台灯卖给了苏敏。",
+    "reused_actual_raw_output": "{\"occurred\":\"YES\",\"seller\":\"赵凯\",\"buyer\":\"苏敏\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_inference": false,
+    "independent_output": false
+  },
+  {
+    "context_call_id": "B10-A-N04-ROLE_SWAP-SAME_TARGET_FIRST",
+    "reused_actual_single_call_id": "B10-A-N04-ROLE_SWAP-SINGLE",
+    "selected_text": "赵凯把这盏台灯卖给了苏敏。",
+    "reused_actual_raw_output": "{\"occurred\":\"YES\",\"seller\":\"赵凯\",\"buyer\":\"苏敏\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_inference": false,
+    "independent_output": false
+  },
+  {
+    "context_call_id": "B10-A-N05-UNRESOLVED-OPPOSITE_TARGET_LAST",
+    "reused_actual_single_call_id": "B10-A-N05-UNRESOLVED-SINGLE",
+    "selected_text": "工作人员正在核实何杰是否把这本画册赠送给了杨帆，目前尚无结论。",
+    "reused_actual_raw_output": "{\"occurred\":\"UNKNOWN\",\"giver\":\"何杰\",\"recipient\":\"杨帆\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_inference": false,
+    "independent_output": false
+  },
+  {
+    "context_call_id": "B10-A-N05-UNRESOLVED-SAME_TARGET_FIRST",
+    "reused_actual_single_call_id": "B10-A-N05-UNRESOLVED-SINGLE",
+    "selected_text": "工作人员正在核实何杰是否把这本画册赠送给了杨帆，目前尚无结论。",
+    "reused_actual_raw_output": "{\"occurred\":\"UNKNOWN\",\"giver\":\"何杰\",\"recipient\":\"杨帆\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_inference": false,
+    "independent_output": false
+  },
+  {
+    "context_call_id": "B10-A-N05-UNRESOLVED-SAME_TARGET_LAST",
+    "reused_actual_single_call_id": "B10-A-N05-UNRESOLVED-SINGLE",
+    "selected_text": "工作人员正在核实何杰是否把这本画册赠送给了杨帆，目前尚无结论。",
+    "reused_actual_raw_output": "{\"occurred\":\"UNKNOWN\",\"giver\":\"何杰\",\"recipient\":\"杨帆\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_inference": false,
+    "independent_output": false
+  },
+  {
+    "context_call_id": "B10-A-N05-UNRESOLVED-OPPOSITE_TARGET_FIRST",
+    "reused_actual_single_call_id": "B10-A-N05-UNRESOLVED-SINGLE",
+    "selected_text": "工作人员正在核实何杰是否把这本画册赠送给了杨帆，目前尚无结论。",
+    "reused_actual_raw_output": "{\"occurred\":\"UNKNOWN\",\"giver\":\"何杰\",\"recipient\":\"杨帆\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_inference": false,
+    "independent_output": false
+  },
+  {
+    "context_call_id": "B10-A-N05-BASE-SAME_TARGET_FIRST",
+    "reused_actual_single_call_id": "B10-A-N05-BASE-SINGLE",
+    "selected_text": "何杰把这本画册赠送给了杨帆。",
+    "reused_actual_raw_output": "{\"occurred\":\"YES\",\"giver\":\"何杰\",\"recipient\":\"杨帆\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_inference": false,
+    "independent_output": false
+  },
+  {
+    "context_call_id": "B10-A-N05-BASE-SAME_TARGET_LAST",
+    "reused_actual_single_call_id": "B10-A-N05-BASE-SINGLE",
+    "selected_text": "何杰把这本画册赠送给了杨帆。",
+    "reused_actual_raw_output": "{\"occurred\":\"YES\",\"giver\":\"何杰\",\"recipient\":\"杨帆\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_inference": false,
+    "independent_output": false
+  },
+  {
+    "context_call_id": "B10-A-N05-BASE-OPPOSITE_TARGET_FIRST",
+    "reused_actual_single_call_id": "B10-A-N05-BASE-SINGLE",
+    "selected_text": "何杰把这本画册赠送给了杨帆。",
+    "reused_actual_raw_output": "{\"occurred\":\"YES\",\"giver\":\"何杰\",\"recipient\":\"杨帆\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_inference": false,
+    "independent_output": false
+  },
+  {
+    "context_call_id": "B10-A-N05-BASE-OPPOSITE_TARGET_LAST",
+    "reused_actual_single_call_id": "B10-A-N05-BASE-SINGLE",
+    "selected_text": "何杰把这本画册赠送给了杨帆。",
+    "reused_actual_raw_output": "{\"occurred\":\"YES\",\"giver\":\"何杰\",\"recipient\":\"杨帆\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_inference": false,
+    "independent_output": false
+  },
+  {
+    "context_call_id": "B10-A-N05-PARAPHRASE-SAME_TARGET_FIRST",
+    "reused_actual_single_call_id": "B10-A-N05-PARAPHRASE-SINGLE",
+    "selected_text": "杨帆收到了何杰赠送的这本画册。",
+    "reused_actual_raw_output": "{\"occurred\":\"YES\",\"giver\":\"何杰\",\"recipient\":\"杨帆\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_inference": false,
+    "independent_output": false
+  },
+  {
+    "context_call_id": "B10-A-N05-PARAPHRASE-SAME_TARGET_LAST",
+    "reused_actual_single_call_id": "B10-A-N05-PARAPHRASE-SINGLE",
+    "selected_text": "杨帆收到了何杰赠送的这本画册。",
+    "reused_actual_raw_output": "{\"occurred\":\"YES\",\"giver\":\"何杰\",\"recipient\":\"杨帆\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_inference": false,
+    "independent_output": false
+  },
+  {
+    "context_call_id": "B10-A-N05-PARAPHRASE-OPPOSITE_TARGET_FIRST",
+    "reused_actual_single_call_id": "B10-A-N05-PARAPHRASE-SINGLE",
+    "selected_text": "杨帆收到了何杰赠送的这本画册。",
+    "reused_actual_raw_output": "{\"occurred\":\"YES\",\"giver\":\"何杰\",\"recipient\":\"杨帆\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_inference": false,
+    "independent_output": false
+  },
+  {
+    "context_call_id": "B10-A-N05-PARAPHRASE-OPPOSITE_TARGET_LAST",
+    "reused_actual_single_call_id": "B10-A-N05-PARAPHRASE-SINGLE",
+    "selected_text": "杨帆收到了何杰赠送的这本画册。",
+    "reused_actual_raw_output": "{\"occurred\":\"YES\",\"giver\":\"何杰\",\"recipient\":\"杨帆\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_inference": false,
+    "independent_output": false
+  },
+  {
+    "context_call_id": "B10-A-N05-ROLE_SWAP-SAME_TARGET_LAST",
+    "reused_actual_single_call_id": "B10-A-N05-ROLE_SWAP-SINGLE",
+    "selected_text": "杨帆把这本画册赠送给了何杰。",
+    "reused_actual_raw_output": "{\"occurred\":\"YES\",\"giver\":\"杨帆\",\"recipient\":\"何杰\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_inference": false,
+    "independent_output": false
+  },
+  {
+    "context_call_id": "B10-A-N05-ROLE_SWAP-OPPOSITE_TARGET_FIRST",
+    "reused_actual_single_call_id": "B10-A-N05-ROLE_SWAP-SINGLE",
+    "selected_text": "杨帆把这本画册赠送给了何杰。",
+    "reused_actual_raw_output": "{\"occurred\":\"YES\",\"giver\":\"杨帆\",\"recipient\":\"何杰\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_inference": false,
+    "independent_output": false
+  },
+  {
+    "context_call_id": "B10-A-N05-ROLE_SWAP-OPPOSITE_TARGET_LAST",
+    "reused_actual_single_call_id": "B10-A-N05-ROLE_SWAP-SINGLE",
+    "selected_text": "杨帆把这本画册赠送给了何杰。",
+    "reused_actual_raw_output": "{\"occurred\":\"YES\",\"giver\":\"杨帆\",\"recipient\":\"何杰\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_inference": false,
+    "independent_output": false
+  },
+  {
+    "context_call_id": "B10-A-N05-ROLE_SWAP-SAME_TARGET_FIRST",
+    "reused_actual_single_call_id": "B10-A-N05-ROLE_SWAP-SINGLE",
+    "selected_text": "杨帆把这本画册赠送给了何杰。",
+    "reused_actual_raw_output": "{\"occurred\":\"YES\",\"giver\":\"杨帆\",\"recipient\":\"何杰\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_inference": false,
+    "independent_output": false
+  },
+  {
+    "context_call_id": "B10-A-N05-NEGATED-OPPOSITE_TARGET_FIRST",
+    "reused_actual_single_call_id": "B10-A-N05-NEGATED-SINGLE",
+    "selected_text": "何杰没有把这本画册赠送给杨帆。",
+    "reused_actual_raw_output": "{\"occurred\":\"NO\",\"giver\":\"何杰\",\"recipient\":\"杨帆\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_inference": false,
+    "independent_output": false
+  },
+  {
+    "context_call_id": "B10-A-N05-NEGATED-OPPOSITE_TARGET_LAST",
+    "reused_actual_single_call_id": "B10-A-N05-NEGATED-SINGLE",
+    "selected_text": "何杰没有把这本画册赠送给杨帆。",
+    "reused_actual_raw_output": "{\"occurred\":\"NO\",\"giver\":\"何杰\",\"recipient\":\"杨帆\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_inference": false,
+    "independent_output": false
+  },
+  {
+    "context_call_id": "B10-A-N05-NEGATED-SAME_TARGET_FIRST",
+    "reused_actual_single_call_id": "B10-A-N05-NEGATED-SINGLE",
+    "selected_text": "何杰没有把这本画册赠送给杨帆。",
+    "reused_actual_raw_output": "{\"occurred\":\"NO\",\"giver\":\"何杰\",\"recipient\":\"杨帆\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_inference": false,
+    "independent_output": false
+  },
+  {
+    "context_call_id": "B10-A-N05-NEGATED-SAME_TARGET_LAST",
+    "reused_actual_single_call_id": "B10-A-N05-NEGATED-SINGLE",
+    "selected_text": "何杰没有把这本画册赠送给杨帆。",
+    "reused_actual_raw_output": "{\"occurred\":\"NO\",\"giver\":\"何杰\",\"recipient\":\"杨帆\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_inference": false,
+    "independent_output": false
+  },
+  {
+    "context_call_id": "B10-A-N06-BASE-SAME_TARGET_FIRST",
+    "reused_actual_single_call_id": "B10-A-N06-BASE-SINGLE",
+    "selected_text": "吴桐把这条围巾赠送给了郑蕾。",
+    "reused_actual_raw_output": "{\"occurred\":\"YES\",\"giver\":\"吴桐\",\"recipient\":\"郑蕾\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_inference": false,
+    "independent_output": false
+  },
+  {
+    "context_call_id": "B10-A-N06-BASE-SAME_TARGET_LAST",
+    "reused_actual_single_call_id": "B10-A-N06-BASE-SINGLE",
+    "selected_text": "吴桐把这条围巾赠送给了郑蕾。",
+    "reused_actual_raw_output": "{\"occurred\":\"YES\",\"giver\":\"吴桐\",\"recipient\":\"郑蕾\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_inference": false,
+    "independent_output": false
+  },
+  {
+    "context_call_id": "B10-A-N06-BASE-OPPOSITE_TARGET_FIRST",
+    "reused_actual_single_call_id": "B10-A-N06-BASE-SINGLE",
+    "selected_text": "吴桐把这条围巾赠送给了郑蕾。",
+    "reused_actual_raw_output": "{\"occurred\":\"YES\",\"giver\":\"吴桐\",\"recipient\":\"郑蕾\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_inference": false,
+    "independent_output": false
+  },
+  {
+    "context_call_id": "B10-A-N06-BASE-OPPOSITE_TARGET_LAST",
+    "reused_actual_single_call_id": "B10-A-N06-BASE-SINGLE",
+    "selected_text": "吴桐把这条围巾赠送给了郑蕾。",
+    "reused_actual_raw_output": "{\"occurred\":\"YES\",\"giver\":\"吴桐\",\"recipient\":\"郑蕾\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_inference": false,
+    "independent_output": false
+  },
+  {
+    "context_call_id": "B10-A-N06-PARAPHRASE-SAME_TARGET_FIRST",
+    "reused_actual_single_call_id": "B10-A-N06-PARAPHRASE-SINGLE",
+    "selected_text": "郑蕾收到了吴桐赠送的这条围巾。",
+    "reused_actual_raw_output": "{\"occurred\":\"YES\",\"giver\":\"吴桐\",\"recipient\":\"郑蕾\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_inference": false,
+    "independent_output": false
+  },
+  {
+    "context_call_id": "B10-A-N06-PARAPHRASE-SAME_TARGET_LAST",
+    "reused_actual_single_call_id": "B10-A-N06-PARAPHRASE-SINGLE",
+    "selected_text": "郑蕾收到了吴桐赠送的这条围巾。",
+    "reused_actual_raw_output": "{\"occurred\":\"YES\",\"giver\":\"吴桐\",\"recipient\":\"郑蕾\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_inference": false,
+    "independent_output": false
+  },
+  {
+    "context_call_id": "B10-A-N06-PARAPHRASE-OPPOSITE_TARGET_FIRST",
+    "reused_actual_single_call_id": "B10-A-N06-PARAPHRASE-SINGLE",
+    "selected_text": "郑蕾收到了吴桐赠送的这条围巾。",
+    "reused_actual_raw_output": "{\"occurred\":\"YES\",\"giver\":\"吴桐\",\"recipient\":\"郑蕾\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_inference": false,
+    "independent_output": false
+  },
+  {
+    "context_call_id": "B10-A-N06-PARAPHRASE-OPPOSITE_TARGET_LAST",
+    "reused_actual_single_call_id": "B10-A-N06-PARAPHRASE-SINGLE",
+    "selected_text": "郑蕾收到了吴桐赠送的这条围巾。",
+    "reused_actual_raw_output": "{\"occurred\":\"YES\",\"giver\":\"吴桐\",\"recipient\":\"郑蕾\"}",
+    "direct_labels": {
+      "role_a": "W",
+      "role_b": "W",
+      "occurrence": "W",
+      "participant": "W",
+      "record": "W"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "W->C",
+      "role_b": "W->C",
+      "occurrence": "W->C",
+      "participant": "W->C",
+      "record": "W->C"
+    },
+    "new_inference": false,
+    "independent_output": false
+  },
+  {
+    "context_call_id": "B10-A-N06-ROLE_SWAP-SAME_TARGET_LAST",
+    "reused_actual_single_call_id": "B10-A-N06-ROLE_SWAP-SINGLE",
+    "selected_text": "郑蕾把这条围巾赠送给了吴桐。",
+    "reused_actual_raw_output": "{\"occurred\":\"YES\",\"giver\":\"郑蕾\",\"recipient\":\"吴桐\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_inference": false,
+    "independent_output": false
+  },
+  {
+    "context_call_id": "B10-A-N06-ROLE_SWAP-OPPOSITE_TARGET_FIRST",
+    "reused_actual_single_call_id": "B10-A-N06-ROLE_SWAP-SINGLE",
+    "selected_text": "郑蕾把这条围巾赠送给了吴桐。",
+    "reused_actual_raw_output": "{\"occurred\":\"YES\",\"giver\":\"郑蕾\",\"recipient\":\"吴桐\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_inference": false,
+    "independent_output": false
+  },
+  {
+    "context_call_id": "B10-A-N06-ROLE_SWAP-OPPOSITE_TARGET_LAST",
+    "reused_actual_single_call_id": "B10-A-N06-ROLE_SWAP-SINGLE",
+    "selected_text": "郑蕾把这条围巾赠送给了吴桐。",
+    "reused_actual_raw_output": "{\"occurred\":\"YES\",\"giver\":\"郑蕾\",\"recipient\":\"吴桐\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_inference": false,
+    "independent_output": false
+  },
+  {
+    "context_call_id": "B10-A-N06-ROLE_SWAP-SAME_TARGET_FIRST",
+    "reused_actual_single_call_id": "B10-A-N06-ROLE_SWAP-SINGLE",
+    "selected_text": "郑蕾把这条围巾赠送给了吴桐。",
+    "reused_actual_raw_output": "{\"occurred\":\"YES\",\"giver\":\"郑蕾\",\"recipient\":\"吴桐\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_inference": false,
+    "independent_output": false
+  },
+  {
+    "context_call_id": "B10-A-N06-NEGATED-OPPOSITE_TARGET_FIRST",
+    "reused_actual_single_call_id": "B10-A-N06-NEGATED-SINGLE",
+    "selected_text": "吴桐没有把这条围巾赠送给郑蕾。",
+    "reused_actual_raw_output": "{\"occurred\":\"NO\",\"giver\":\"吴桐\",\"recipient\":\"郑蕾\"}",
+    "direct_labels": {
+      "role_a": "W",
+      "role_b": "W",
+      "occurrence": "C",
+      "participant": "W",
+      "record": "W"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "W->C",
+      "role_b": "W->C",
+      "occurrence": "C->C",
+      "participant": "W->C",
+      "record": "W->C"
+    },
+    "new_inference": false,
+    "independent_output": false
+  },
+  {
+    "context_call_id": "B10-A-N06-NEGATED-OPPOSITE_TARGET_LAST",
+    "reused_actual_single_call_id": "B10-A-N06-NEGATED-SINGLE",
+    "selected_text": "吴桐没有把这条围巾赠送给郑蕾。",
+    "reused_actual_raw_output": "{\"occurred\":\"NO\",\"giver\":\"吴桐\",\"recipient\":\"郑蕾\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_inference": false,
+    "independent_output": false
+  },
+  {
+    "context_call_id": "B10-A-N06-NEGATED-SAME_TARGET_FIRST",
+    "reused_actual_single_call_id": "B10-A-N06-NEGATED-SINGLE",
+    "selected_text": "吴桐没有把这条围巾赠送给郑蕾。",
+    "reused_actual_raw_output": "{\"occurred\":\"NO\",\"giver\":\"吴桐\",\"recipient\":\"郑蕾\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_inference": false,
+    "independent_output": false
+  },
+  {
+    "context_call_id": "B10-A-N06-NEGATED-SAME_TARGET_LAST",
+    "reused_actual_single_call_id": "B10-A-N06-NEGATED-SINGLE",
+    "selected_text": "吴桐没有把这条围巾赠送给郑蕾。",
+    "reused_actual_raw_output": "{\"occurred\":\"NO\",\"giver\":\"吴桐\",\"recipient\":\"郑蕾\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_inference": false,
+    "independent_output": false
+  },
+  {
+    "context_call_id": "B10-A-N06-UNRESOLVED-OPPOSITE_TARGET_LAST",
+    "reused_actual_single_call_id": "B10-A-N06-UNRESOLVED-SINGLE",
+    "selected_text": "工作人员正在核实吴桐是否把这条围巾赠送给了郑蕾，目前尚无结论。",
+    "reused_actual_raw_output": "{\"occurred\":\"UNKNOWN\",\"giver\":\"吴桐\",\"recipient\":\"郑蕾\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_inference": false,
+    "independent_output": false
+  },
+  {
+    "context_call_id": "B10-A-N06-UNRESOLVED-SAME_TARGET_FIRST",
+    "reused_actual_single_call_id": "B10-A-N06-UNRESOLVED-SINGLE",
+    "selected_text": "工作人员正在核实吴桐是否把这条围巾赠送给了郑蕾，目前尚无结论。",
+    "reused_actual_raw_output": "{\"occurred\":\"UNKNOWN\",\"giver\":\"吴桐\",\"recipient\":\"郑蕾\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_inference": false,
+    "independent_output": false
+  },
+  {
+    "context_call_id": "B10-A-N06-UNRESOLVED-SAME_TARGET_LAST",
+    "reused_actual_single_call_id": "B10-A-N06-UNRESOLVED-SINGLE",
+    "selected_text": "工作人员正在核实吴桐是否把这条围巾赠送给了郑蕾，目前尚无结论。",
+    "reused_actual_raw_output": "{\"occurred\":\"UNKNOWN\",\"giver\":\"吴桐\",\"recipient\":\"郑蕾\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_inference": false,
+    "independent_output": false
+  },
+  {
+    "context_call_id": "B10-A-N06-UNRESOLVED-OPPOSITE_TARGET_FIRST",
+    "reused_actual_single_call_id": "B10-A-N06-UNRESOLVED-SINGLE",
+    "selected_text": "工作人员正在核实吴桐是否把这条围巾赠送给了郑蕾，目前尚无结论。",
+    "reused_actual_raw_output": "{\"occurred\":\"UNKNOWN\",\"giver\":\"吴桐\",\"recipient\":\"郑蕾\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_inference": false,
+    "independent_output": false
+  },
+  {
+    "context_call_id": "B10-A-N07-PARAPHRASE-SAME_TARGET_FIRST",
+    "reused_actual_single_call_id": "B10-A-N07-PARAPHRASE-SINGLE",
+    "selected_text": "邓宇被蒋欣邀请参加读书会。",
+    "reused_actual_raw_output": "{\"occurred\":\"YES\",\"inviter\":\"蒋欣\",\"invitee\":\"邓宇\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_inference": false,
+    "independent_output": false
+  },
+  {
+    "context_call_id": "B10-A-N07-PARAPHRASE-SAME_TARGET_LAST",
+    "reused_actual_single_call_id": "B10-A-N07-PARAPHRASE-SINGLE",
+    "selected_text": "邓宇被蒋欣邀请参加读书会。",
+    "reused_actual_raw_output": "{\"occurred\":\"YES\",\"inviter\":\"蒋欣\",\"invitee\":\"邓宇\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_inference": false,
+    "independent_output": false
+  },
+  {
+    "context_call_id": "B10-A-N07-PARAPHRASE-OPPOSITE_TARGET_FIRST",
+    "reused_actual_single_call_id": "B10-A-N07-PARAPHRASE-SINGLE",
+    "selected_text": "邓宇被蒋欣邀请参加读书会。",
+    "reused_actual_raw_output": "{\"occurred\":\"YES\",\"inviter\":\"蒋欣\",\"invitee\":\"邓宇\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_inference": false,
+    "independent_output": false
+  },
+  {
+    "context_call_id": "B10-A-N07-PARAPHRASE-OPPOSITE_TARGET_LAST",
+    "reused_actual_single_call_id": "B10-A-N07-PARAPHRASE-SINGLE",
+    "selected_text": "邓宇被蒋欣邀请参加读书会。",
+    "reused_actual_raw_output": "{\"occurred\":\"YES\",\"inviter\":\"蒋欣\",\"invitee\":\"邓宇\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_inference": false,
+    "independent_output": false
+  },
+  {
+    "context_call_id": "B10-A-N07-ROLE_SWAP-SAME_TARGET_LAST",
+    "reused_actual_single_call_id": "B10-A-N07-ROLE_SWAP-SINGLE",
+    "selected_text": "邓宇邀请了蒋欣参加读书会。",
+    "reused_actual_raw_output": "{\"occurred\":\"YES\",\"inviter\":\"邓宇\",\"invitee\":\"蒋欣\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_inference": false,
+    "independent_output": false
+  },
+  {
+    "context_call_id": "B10-A-N07-ROLE_SWAP-OPPOSITE_TARGET_FIRST",
+    "reused_actual_single_call_id": "B10-A-N07-ROLE_SWAP-SINGLE",
+    "selected_text": "邓宇邀请了蒋欣参加读书会。",
+    "reused_actual_raw_output": "{\"occurred\":\"YES\",\"inviter\":\"邓宇\",\"invitee\":\"蒋欣\"}",
+    "direct_labels": {
+      "role_a": "W",
+      "role_b": "W",
+      "occurrence": "C",
+      "participant": "W",
+      "record": "W"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "W->C",
+      "role_b": "W->C",
+      "occurrence": "C->C",
+      "participant": "W->C",
+      "record": "W->C"
+    },
+    "new_inference": false,
+    "independent_output": false
+  },
+  {
+    "context_call_id": "B10-A-N07-ROLE_SWAP-OPPOSITE_TARGET_LAST",
+    "reused_actual_single_call_id": "B10-A-N07-ROLE_SWAP-SINGLE",
+    "selected_text": "邓宇邀请了蒋欣参加读书会。",
+    "reused_actual_raw_output": "{\"occurred\":\"YES\",\"inviter\":\"邓宇\",\"invitee\":\"蒋欣\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_inference": false,
+    "independent_output": false
+  },
+  {
+    "context_call_id": "B10-A-N07-ROLE_SWAP-SAME_TARGET_FIRST",
+    "reused_actual_single_call_id": "B10-A-N07-ROLE_SWAP-SINGLE",
+    "selected_text": "邓宇邀请了蒋欣参加读书会。",
+    "reused_actual_raw_output": "{\"occurred\":\"YES\",\"inviter\":\"邓宇\",\"invitee\":\"蒋欣\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_inference": false,
+    "independent_output": false
+  },
+  {
+    "context_call_id": "B10-A-N07-NEGATED-OPPOSITE_TARGET_FIRST",
+    "reused_actual_single_call_id": "B10-A-N07-NEGATED-SINGLE",
+    "selected_text": "蒋欣没有邀请邓宇参加读书会。",
+    "reused_actual_raw_output": "{\"occurred\":\"NO\",\"inviter\":\"蒋欣\",\"invitee\":\"邓宇\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_inference": false,
+    "independent_output": false
+  },
+  {
+    "context_call_id": "B10-A-N07-NEGATED-OPPOSITE_TARGET_LAST",
+    "reused_actual_single_call_id": "B10-A-N07-NEGATED-SINGLE",
+    "selected_text": "蒋欣没有邀请邓宇参加读书会。",
+    "reused_actual_raw_output": "{\"occurred\":\"NO\",\"inviter\":\"蒋欣\",\"invitee\":\"邓宇\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_inference": false,
+    "independent_output": false
+  },
+  {
+    "context_call_id": "B10-A-N07-NEGATED-SAME_TARGET_FIRST",
+    "reused_actual_single_call_id": "B10-A-N07-NEGATED-SINGLE",
+    "selected_text": "蒋欣没有邀请邓宇参加读书会。",
+    "reused_actual_raw_output": "{\"occurred\":\"NO\",\"inviter\":\"蒋欣\",\"invitee\":\"邓宇\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_inference": false,
+    "independent_output": false
+  },
+  {
+    "context_call_id": "B10-A-N07-NEGATED-SAME_TARGET_LAST",
+    "reused_actual_single_call_id": "B10-A-N07-NEGATED-SINGLE",
+    "selected_text": "蒋欣没有邀请邓宇参加读书会。",
+    "reused_actual_raw_output": "{\"occurred\":\"NO\",\"inviter\":\"蒋欣\",\"invitee\":\"邓宇\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_inference": false,
+    "independent_output": false
+  },
+  {
+    "context_call_id": "B10-A-N07-UNRESOLVED-OPPOSITE_TARGET_LAST",
+    "reused_actual_single_call_id": "B10-A-N07-UNRESOLVED-SINGLE",
+    "selected_text": "工作人员正在核实蒋欣是否邀请了邓宇参加读书会，目前尚无结论。",
+    "reused_actual_raw_output": "{\"occurred\":\"UNKNOWN\",\"inviter\":\"蒋欣\",\"invitee\":\"邓宇\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_inference": false,
+    "independent_output": false
+  },
+  {
+    "context_call_id": "B10-A-N07-UNRESOLVED-SAME_TARGET_FIRST",
+    "reused_actual_single_call_id": "B10-A-N07-UNRESOLVED-SINGLE",
+    "selected_text": "工作人员正在核实蒋欣是否邀请了邓宇参加读书会，目前尚无结论。",
+    "reused_actual_raw_output": "{\"occurred\":\"UNKNOWN\",\"inviter\":\"蒋欣\",\"invitee\":\"邓宇\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_inference": false,
+    "independent_output": false
+  },
+  {
+    "context_call_id": "B10-A-N07-UNRESOLVED-SAME_TARGET_LAST",
+    "reused_actual_single_call_id": "B10-A-N07-UNRESOLVED-SINGLE",
+    "selected_text": "工作人员正在核实蒋欣是否邀请了邓宇参加读书会，目前尚无结论。",
+    "reused_actual_raw_output": "{\"occurred\":\"UNKNOWN\",\"inviter\":\"蒋欣\",\"invitee\":\"邓宇\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_inference": false,
+    "independent_output": false
+  },
+  {
+    "context_call_id": "B10-A-N07-UNRESOLVED-OPPOSITE_TARGET_FIRST",
+    "reused_actual_single_call_id": "B10-A-N07-UNRESOLVED-SINGLE",
+    "selected_text": "工作人员正在核实蒋欣是否邀请了邓宇参加读书会，目前尚无结论。",
+    "reused_actual_raw_output": "{\"occurred\":\"UNKNOWN\",\"inviter\":\"蒋欣\",\"invitee\":\"邓宇\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_inference": false,
+    "independent_output": false
+  },
+  {
+    "context_call_id": "B10-A-N07-BASE-SAME_TARGET_FIRST",
+    "reused_actual_single_call_id": "B10-A-N07-BASE-SINGLE",
+    "selected_text": "蒋欣邀请了邓宇参加读书会。",
+    "reused_actual_raw_output": "{\"occurred\":\"YES\",\"inviter\":\"蒋欣\",\"invitee\":\"邓宇\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_inference": false,
+    "independent_output": false
+  },
+  {
+    "context_call_id": "B10-A-N07-BASE-SAME_TARGET_LAST",
+    "reused_actual_single_call_id": "B10-A-N07-BASE-SINGLE",
+    "selected_text": "蒋欣邀请了邓宇参加读书会。",
+    "reused_actual_raw_output": "{\"occurred\":\"YES\",\"inviter\":\"蒋欣\",\"invitee\":\"邓宇\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_inference": false,
+    "independent_output": false
+  },
+  {
+    "context_call_id": "B10-A-N07-BASE-OPPOSITE_TARGET_FIRST",
+    "reused_actual_single_call_id": "B10-A-N07-BASE-SINGLE",
+    "selected_text": "蒋欣邀请了邓宇参加读书会。",
+    "reused_actual_raw_output": "{\"occurred\":\"YES\",\"inviter\":\"蒋欣\",\"invitee\":\"邓宇\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_inference": false,
+    "independent_output": false
+  },
+  {
+    "context_call_id": "B10-A-N07-BASE-OPPOSITE_TARGET_LAST",
+    "reused_actual_single_call_id": "B10-A-N07-BASE-SINGLE",
+    "selected_text": "蒋欣邀请了邓宇参加读书会。",
+    "reused_actual_raw_output": "{\"occurred\":\"YES\",\"inviter\":\"蒋欣\",\"invitee\":\"邓宇\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_inference": false,
+    "independent_output": false
+  },
+  {
+    "context_call_id": "B10-A-N08-ROLE_SWAP-SAME_TARGET_LAST",
+    "reused_actual_single_call_id": "B10-A-N08-ROLE_SWAP-SINGLE",
+    "selected_text": "罗晴邀请了潘越参加摄影展。",
+    "reused_actual_raw_output": "{\"occurred\":\"YES\",\"inviter\":\"罗晴\",\"invitee\":\"潘越\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_inference": false,
+    "independent_output": false
+  },
+  {
+    "context_call_id": "B10-A-N08-ROLE_SWAP-OPPOSITE_TARGET_FIRST",
+    "reused_actual_single_call_id": "B10-A-N08-ROLE_SWAP-SINGLE",
+    "selected_text": "罗晴邀请了潘越参加摄影展。",
+    "reused_actual_raw_output": "{\"occurred\":\"YES\",\"inviter\":\"罗晴\",\"invitee\":\"潘越\"}",
+    "direct_labels": {
+      "role_a": "W",
+      "role_b": "W",
+      "occurrence": "C",
+      "participant": "W",
+      "record": "W"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "W->C",
+      "role_b": "W->C",
+      "occurrence": "C->C",
+      "participant": "W->C",
+      "record": "W->C"
+    },
+    "new_inference": false,
+    "independent_output": false
+  },
+  {
+    "context_call_id": "B10-A-N08-ROLE_SWAP-OPPOSITE_TARGET_LAST",
+    "reused_actual_single_call_id": "B10-A-N08-ROLE_SWAP-SINGLE",
+    "selected_text": "罗晴邀请了潘越参加摄影展。",
+    "reused_actual_raw_output": "{\"occurred\":\"YES\",\"inviter\":\"罗晴\",\"invitee\":\"潘越\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_inference": false,
+    "independent_output": false
+  },
+  {
+    "context_call_id": "B10-A-N08-ROLE_SWAP-SAME_TARGET_FIRST",
+    "reused_actual_single_call_id": "B10-A-N08-ROLE_SWAP-SINGLE",
+    "selected_text": "罗晴邀请了潘越参加摄影展。",
+    "reused_actual_raw_output": "{\"occurred\":\"YES\",\"inviter\":\"罗晴\",\"invitee\":\"潘越\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_inference": false,
+    "independent_output": false
+  },
+  {
+    "context_call_id": "B10-A-N08-NEGATED-OPPOSITE_TARGET_FIRST",
+    "reused_actual_single_call_id": "B10-A-N08-NEGATED-SINGLE",
+    "selected_text": "潘越没有邀请罗晴参加摄影展。",
+    "reused_actual_raw_output": "{\"occurred\":\"NO\",\"inviter\":\"潘越\",\"invitee\":\"罗晴\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_inference": false,
+    "independent_output": false
+  },
+  {
+    "context_call_id": "B10-A-N08-NEGATED-OPPOSITE_TARGET_LAST",
+    "reused_actual_single_call_id": "B10-A-N08-NEGATED-SINGLE",
+    "selected_text": "潘越没有邀请罗晴参加摄影展。",
+    "reused_actual_raw_output": "{\"occurred\":\"NO\",\"inviter\":\"潘越\",\"invitee\":\"罗晴\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_inference": false,
+    "independent_output": false
+  },
+  {
+    "context_call_id": "B10-A-N08-NEGATED-SAME_TARGET_FIRST",
+    "reused_actual_single_call_id": "B10-A-N08-NEGATED-SINGLE",
+    "selected_text": "潘越没有邀请罗晴参加摄影展。",
+    "reused_actual_raw_output": "{\"occurred\":\"NO\",\"inviter\":\"潘越\",\"invitee\":\"罗晴\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_inference": false,
+    "independent_output": false
+  },
+  {
+    "context_call_id": "B10-A-N08-NEGATED-SAME_TARGET_LAST",
+    "reused_actual_single_call_id": "B10-A-N08-NEGATED-SINGLE",
+    "selected_text": "潘越没有邀请罗晴参加摄影展。",
+    "reused_actual_raw_output": "{\"occurred\":\"NO\",\"inviter\":\"潘越\",\"invitee\":\"罗晴\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_inference": false,
+    "independent_output": false
+  },
+  {
+    "context_call_id": "B10-A-N08-UNRESOLVED-OPPOSITE_TARGET_LAST",
+    "reused_actual_single_call_id": "B10-A-N08-UNRESOLVED-SINGLE",
+    "selected_text": "工作人员正在核实潘越是否邀请了罗晴参加摄影展，目前尚无结论。",
+    "reused_actual_raw_output": "{\"occurred\":\"UNKNOWN\",\"inviter\":\"潘越\",\"invitee\":\"罗晴\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_inference": false,
+    "independent_output": false
+  },
+  {
+    "context_call_id": "B10-A-N08-UNRESOLVED-SAME_TARGET_FIRST",
+    "reused_actual_single_call_id": "B10-A-N08-UNRESOLVED-SINGLE",
+    "selected_text": "工作人员正在核实潘越是否邀请了罗晴参加摄影展，目前尚无结论。",
+    "reused_actual_raw_output": "{\"occurred\":\"UNKNOWN\",\"inviter\":\"潘越\",\"invitee\":\"罗晴\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_inference": false,
+    "independent_output": false
+  },
+  {
+    "context_call_id": "B10-A-N08-UNRESOLVED-SAME_TARGET_LAST",
+    "reused_actual_single_call_id": "B10-A-N08-UNRESOLVED-SINGLE",
+    "selected_text": "工作人员正在核实潘越是否邀请了罗晴参加摄影展，目前尚无结论。",
+    "reused_actual_raw_output": "{\"occurred\":\"UNKNOWN\",\"inviter\":\"潘越\",\"invitee\":\"罗晴\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_inference": false,
+    "independent_output": false
+  },
+  {
+    "context_call_id": "B10-A-N08-UNRESOLVED-OPPOSITE_TARGET_FIRST",
+    "reused_actual_single_call_id": "B10-A-N08-UNRESOLVED-SINGLE",
+    "selected_text": "工作人员正在核实潘越是否邀请了罗晴参加摄影展，目前尚无结论。",
+    "reused_actual_raw_output": "{\"occurred\":\"UNKNOWN\",\"inviter\":\"潘越\",\"invitee\":\"罗晴\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_inference": false,
+    "independent_output": false
+  },
+  {
+    "context_call_id": "B10-A-N08-BASE-SAME_TARGET_FIRST",
+    "reused_actual_single_call_id": "B10-A-N08-BASE-SINGLE",
+    "selected_text": "潘越邀请了罗晴参加摄影展。",
+    "reused_actual_raw_output": "{\"occurred\":\"YES\",\"inviter\":\"潘越\",\"invitee\":\"罗晴\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_inference": false,
+    "independent_output": false
+  },
+  {
+    "context_call_id": "B10-A-N08-BASE-SAME_TARGET_LAST",
+    "reused_actual_single_call_id": "B10-A-N08-BASE-SINGLE",
+    "selected_text": "潘越邀请了罗晴参加摄影展。",
+    "reused_actual_raw_output": "{\"occurred\":\"YES\",\"inviter\":\"潘越\",\"invitee\":\"罗晴\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_inference": false,
+    "independent_output": false
+  },
+  {
+    "context_call_id": "B10-A-N08-BASE-OPPOSITE_TARGET_FIRST",
+    "reused_actual_single_call_id": "B10-A-N08-BASE-SINGLE",
+    "selected_text": "潘越邀请了罗晴参加摄影展。",
+    "reused_actual_raw_output": "{\"occurred\":\"YES\",\"inviter\":\"潘越\",\"invitee\":\"罗晴\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_inference": false,
+    "independent_output": false
+  },
+  {
+    "context_call_id": "B10-A-N08-BASE-OPPOSITE_TARGET_LAST",
+    "reused_actual_single_call_id": "B10-A-N08-BASE-SINGLE",
+    "selected_text": "潘越邀请了罗晴参加摄影展。",
+    "reused_actual_raw_output": "{\"occurred\":\"YES\",\"inviter\":\"潘越\",\"invitee\":\"罗晴\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_inference": false,
+    "independent_output": false
+  },
+  {
+    "context_call_id": "B10-A-N08-PARAPHRASE-SAME_TARGET_FIRST",
+    "reused_actual_single_call_id": "B10-A-N08-PARAPHRASE-SINGLE",
+    "selected_text": "罗晴被潘越邀请参加摄影展。",
+    "reused_actual_raw_output": "{\"occurred\":\"YES\",\"inviter\":\"潘越\",\"invitee\":\"罗晴\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_inference": false,
+    "independent_output": false
+  },
+  {
+    "context_call_id": "B10-A-N08-PARAPHRASE-SAME_TARGET_LAST",
+    "reused_actual_single_call_id": "B10-A-N08-PARAPHRASE-SINGLE",
+    "selected_text": "罗晴被潘越邀请参加摄影展。",
+    "reused_actual_raw_output": "{\"occurred\":\"YES\",\"inviter\":\"潘越\",\"invitee\":\"罗晴\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_inference": false,
+    "independent_output": false
+  },
+  {
+    "context_call_id": "B10-A-N08-PARAPHRASE-OPPOSITE_TARGET_FIRST",
+    "reused_actual_single_call_id": "B10-A-N08-PARAPHRASE-SINGLE",
+    "selected_text": "罗晴被潘越邀请参加摄影展。",
+    "reused_actual_raw_output": "{\"occurred\":\"YES\",\"inviter\":\"潘越\",\"invitee\":\"罗晴\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_inference": false,
+    "independent_output": false
+  },
+  {
+    "context_call_id": "B10-A-N08-PARAPHRASE-OPPOSITE_TARGET_LAST",
+    "reused_actual_single_call_id": "B10-A-N08-PARAPHRASE-SINGLE",
+    "selected_text": "罗晴被潘越邀请参加摄影展。",
+    "reused_actual_raw_output": "{\"occurred\":\"YES\",\"inviter\":\"潘越\",\"invitee\":\"罗晴\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_inference": false,
+    "independent_output": false
+  }
+]

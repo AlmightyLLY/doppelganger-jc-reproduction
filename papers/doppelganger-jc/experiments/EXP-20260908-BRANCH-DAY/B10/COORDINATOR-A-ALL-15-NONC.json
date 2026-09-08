@@ -1,0 +1,422 @@
+[
+  {
+    "call_id": "B10-A-N01-ROLE_SWAP-OPPOSITE_TARGET_FIRST",
+    "source_id": "N01-ROLE_SWAP",
+    "family_id": "N01",
+    "variant": "ROLE_SWAP",
+    "condition": "OPPOSITE_TARGET_FIRST",
+    "source_text": "周宁把这把雨伞借给了陈悦。\n陈悦把这个充电器借给了周宁。",
+    "target_reference": {
+      "occurred": "YES",
+      "lender": "周宁",
+      "borrower": "陈悦"
+    },
+    "other_event_reference": {
+      "occurred": "YES",
+      "lender": "陈悦",
+      "borrower": "周宁"
+    },
+    "raw_output": "{\"occurred\":\"YES\",\"lender\":\"陈悦\",\"borrower\":\"周宁\"}",
+    "labels": {
+      "role_a": "W",
+      "role_b": "W",
+      "occurrence": "C",
+      "participant": "W",
+      "record": "W"
+    },
+    "descriptive_class": "ENTIRE_RECORD_COMPATIBLE_WITH_OTHER_EVENT",
+    "identity": "POSTHOC_OUTPUT_COMPATIBILITY_NOT_INTERNAL_MECHANISM"
+  },
+  {
+    "call_id": "B10-A-N02-PARAPHRASE-OPPOSITE_TARGET_LAST",
+    "source_id": "N02-PARAPHRASE",
+    "family_id": "N02",
+    "variant": "PARAPHRASE",
+    "condition": "OPPOSITE_TARGET_LAST",
+    "source_text": "许静把这把雨伞借给了林涛。\n许静从林涛那里借到了这个充电器。",
+    "target_reference": {
+      "occurred": "YES",
+      "lender": "林涛",
+      "borrower": "许静"
+    },
+    "other_event_reference": {
+      "occurred": "YES",
+      "lender": "许静",
+      "borrower": "林涛"
+    },
+    "raw_output": "{\"occurred\":\"YES\",\"lender\":\"许静\",\"borrower\":\"林涛\"}",
+    "labels": {
+      "role_a": "W",
+      "role_b": "W",
+      "occurrence": "C",
+      "participant": "W",
+      "record": "W"
+    },
+    "descriptive_class": "ENTIRE_RECORD_COMPATIBLE_WITH_OTHER_EVENT",
+    "identity": "POSTHOC_OUTPUT_COMPATIBILITY_NOT_INTERNAL_MECHANISM"
+  },
+  {
+    "call_id": "B10-A-N02-ROLE_SWAP-OPPOSITE_TARGET_FIRST",
+    "source_id": "N02-ROLE_SWAP",
+    "family_id": "N02",
+    "variant": "ROLE_SWAP",
+    "condition": "OPPOSITE_TARGET_FIRST",
+    "source_text": "许静把这个充电器借给了林涛。\n林涛把这把雨伞借给了许静。",
+    "target_reference": {
+      "occurred": "YES",
+      "lender": "许静",
+      "borrower": "林涛"
+    },
+    "other_event_reference": {
+      "occurred": "YES",
+      "lender": "林涛",
+      "borrower": "许静"
+    },
+    "raw_output": "{\"occurred\":\"YES\",\"lender\":\"林涛\",\"borrower\":\"许静\"}",
+    "labels": {
+      "role_a": "W",
+      "role_b": "W",
+      "occurrence": "C",
+      "participant": "W",
+      "record": "W"
+    },
+    "descriptive_class": "ENTIRE_RECORD_COMPATIBLE_WITH_OTHER_EVENT",
+    "identity": "POSTHOC_OUTPUT_COMPATIBILITY_NOT_INTERNAL_MECHANISM"
+  },
+  {
+    "call_id": "B10-A-N02-NEGATED-OPPOSITE_TARGET_LAST",
+    "source_id": "N02-NEGATED",
+    "family_id": "N02",
+    "variant": "NEGATED",
+    "condition": "OPPOSITE_TARGET_LAST",
+    "source_text": "许静把这把雨伞借给了林涛。\n林涛没有把这个充电器借给许静。",
+    "target_reference": {
+      "occurred": "NO",
+      "lender": "林涛",
+      "borrower": "许静"
+    },
+    "other_event_reference": {
+      "occurred": "YES",
+      "lender": "许静",
+      "borrower": "林涛"
+    },
+    "raw_output": "{\"occurred\":\"NO\",\"lender\":\"许静\",\"borrower\":\"林涛\"}",
+    "labels": {
+      "role_a": "W",
+      "role_b": "W",
+      "occurrence": "C",
+      "participant": "W",
+      "record": "W"
+    },
+    "descriptive_class": "TARGET_FACTUALITY_WITH_OTHER_EVENT_ROLES",
+    "identity": "POSTHOC_OUTPUT_COMPATIBILITY_NOT_INTERNAL_MECHANISM"
+  },
+  {
+    "call_id": "B10-A-N02-UNRESOLVED-OPPOSITE_TARGET_LAST",
+    "source_id": "N02-UNRESOLVED",
+    "family_id": "N02",
+    "variant": "UNRESOLVED",
+    "condition": "OPPOSITE_TARGET_LAST",
+    "source_text": "许静把这把雨伞借给了林涛。\n工作人员正在核实林涛是否把这个充电器借给了许静，目前尚无结论。",
+    "target_reference": {
+      "occurred": "UNKNOWN",
+      "lender": "林涛",
+      "borrower": "许静"
+    },
+    "other_event_reference": {
+      "occurred": "YES",
+      "lender": "许静",
+      "borrower": "林涛"
+    },
+    "raw_output": "{\"occurred\":\"UNKNOWN\",\"lender\":\"许静\",\"borrower\":\"林涛\"}",
+    "labels": {
+      "role_a": "W",
+      "role_b": "W",
+      "occurrence": "C",
+      "participant": "W",
+      "record": "W"
+    },
+    "descriptive_class": "TARGET_FACTUALITY_WITH_OTHER_EVENT_ROLES",
+    "identity": "POSTHOC_OUTPUT_COMPATIBILITY_NOT_INTERNAL_MECHANISM"
+  },
+  {
+    "call_id": "B10-A-N02-UNRESOLVED-OPPOSITE_TARGET_FIRST",
+    "source_id": "N02-UNRESOLVED",
+    "family_id": "N02",
+    "variant": "UNRESOLVED",
+    "condition": "OPPOSITE_TARGET_FIRST",
+    "source_text": "工作人员正在核实林涛是否把这个充电器借给了许静，目前尚无结论。\n许静把这把雨伞借给了林涛。",
+    "target_reference": {
+      "occurred": "UNKNOWN",
+      "lender": "林涛",
+      "borrower": "许静"
+    },
+    "other_event_reference": {
+      "occurred": "YES",
+      "lender": "许静",
+      "borrower": "林涛"
+    },
+    "raw_output": "{\"occurred\":\"UNKNOWN\",\"lender\":\"许静\",\"borrower\":\"林涛\"}",
+    "labels": {
+      "role_a": "W",
+      "role_b": "W",
+      "occurrence": "C",
+      "participant": "W",
+      "record": "W"
+    },
+    "descriptive_class": "TARGET_FACTUALITY_WITH_OTHER_EVENT_ROLES",
+    "identity": "POSTHOC_OUTPUT_COMPATIBILITY_NOT_INTERNAL_MECHANISM"
+  },
+  {
+    "call_id": "B10-A-N03-ROLE_SWAP-OPPOSITE_TARGET_FIRST",
+    "source_id": "N03-ROLE_SWAP",
+    "family_id": "N03",
+    "variant": "ROLE_SWAP",
+    "condition": "OPPOSITE_TARGET_FIRST",
+    "source_text": "刘宁把这辆自行车卖给了王晨。\n王晨把这盏台灯卖给了刘宁。",
+    "target_reference": {
+      "occurred": "YES",
+      "seller": "刘宁",
+      "buyer": "王晨"
+    },
+    "other_event_reference": {
+      "occurred": "YES",
+      "seller": "王晨",
+      "buyer": "刘宁"
+    },
+    "raw_output": "{\"occurred\":\"YES\",\"seller\":\"王晨\",\"buyer\":\"刘宁\"}",
+    "labels": {
+      "role_a": "W",
+      "role_b": "W",
+      "occurrence": "C",
+      "participant": "W",
+      "record": "W"
+    },
+    "descriptive_class": "ENTIRE_RECORD_COMPATIBLE_WITH_OTHER_EVENT",
+    "identity": "POSTHOC_OUTPUT_COMPATIBILITY_NOT_INTERNAL_MECHANISM"
+  },
+  {
+    "call_id": "B10-A-N03-NEGATED-OPPOSITE_TARGET_LAST",
+    "source_id": "N03-NEGATED",
+    "family_id": "N03",
+    "variant": "NEGATED",
+    "condition": "OPPOSITE_TARGET_LAST",
+    "source_text": "刘宁把这盏台灯卖给了王晨。\n王晨没有把这辆自行车卖给刘宁。",
+    "target_reference": {
+      "occurred": "NO",
+      "seller": "王晨",
+      "buyer": "刘宁"
+    },
+    "other_event_reference": {
+      "occurred": "YES",
+      "seller": "刘宁",
+      "buyer": "王晨"
+    },
+    "raw_output": "{\"occurred\":\"UNKNOWN\",\"seller\":null,\"buyer\":null}",
+    "labels": {
+      "role_a": "U",
+      "role_b": "U",
+      "occurrence": "U",
+      "participant": "U",
+      "record": "U"
+    },
+    "descriptive_class": "UNRESOLVED_RECORD",
+    "identity": "POSTHOC_OUTPUT_COMPATIBILITY_NOT_INTERNAL_MECHANISM"
+  },
+  {
+    "call_id": "B10-A-N03-PARAPHRASE-OPPOSITE_TARGET_LAST",
+    "source_id": "N03-PARAPHRASE",
+    "family_id": "N03",
+    "variant": "PARAPHRASE",
+    "condition": "OPPOSITE_TARGET_LAST",
+    "source_text": "刘宁把这盏台灯卖给了王晨。\n刘宁从王晨那里买到了这辆自行车。",
+    "target_reference": {
+      "occurred": "YES",
+      "seller": "王晨",
+      "buyer": "刘宁"
+    },
+    "other_event_reference": {
+      "occurred": "YES",
+      "seller": "刘宁",
+      "buyer": "王晨"
+    },
+    "raw_output": "{\"occurred\":\"YES\",\"seller\":\"刘宁\",\"buyer\":\"王晨\"}",
+    "labels": {
+      "role_a": "W",
+      "role_b": "W",
+      "occurrence": "C",
+      "participant": "W",
+      "record": "W"
+    },
+    "descriptive_class": "ENTIRE_RECORD_COMPATIBLE_WITH_OTHER_EVENT",
+    "identity": "POSTHOC_OUTPUT_COMPATIBILITY_NOT_INTERNAL_MECHANISM"
+  },
+  {
+    "call_id": "B10-A-N04-PARAPHRASE-SAME_TARGET_LAST",
+    "source_id": "N04-PARAPHRASE",
+    "family_id": "N04",
+    "variant": "PARAPHRASE",
+    "condition": "SAME_TARGET_LAST",
+    "source_text": "苏敏把这辆自行车卖给了赵凯。\n赵凯从苏敏那里买到了这盏台灯。",
+    "target_reference": {
+      "occurred": "YES",
+      "seller": "苏敏",
+      "buyer": "赵凯"
+    },
+    "other_event_reference": {
+      "occurred": "YES",
+      "seller": "苏敏",
+      "buyer": "赵凯"
+    },
+    "raw_output": "{\"occurred\":\"NO\",\"seller\":\"苏敏\",\"buyer\":\"赵凯\"}",
+    "labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "W",
+      "participant": "C",
+      "record": "W"
+    },
+    "descriptive_class": "OTHER_ERROR",
+    "identity": "POSTHOC_OUTPUT_COMPATIBILITY_NOT_INTERNAL_MECHANISM"
+  },
+  {
+    "call_id": "B10-A-N04-ROLE_SWAP-OPPOSITE_TARGET_FIRST",
+    "source_id": "N04-ROLE_SWAP",
+    "family_id": "N04",
+    "variant": "ROLE_SWAP",
+    "condition": "OPPOSITE_TARGET_FIRST",
+    "source_text": "赵凯把这盏台灯卖给了苏敏。\n苏敏把这辆自行车卖给了赵凯。",
+    "target_reference": {
+      "occurred": "YES",
+      "seller": "赵凯",
+      "buyer": "苏敏"
+    },
+    "other_event_reference": {
+      "occurred": "YES",
+      "seller": "苏敏",
+      "buyer": "赵凯"
+    },
+    "raw_output": "{\"occurred\":\"YES\",\"seller\":\"苏敏\",\"buyer\":\"赵凯\"}",
+    "labels": {
+      "role_a": "W",
+      "role_b": "W",
+      "occurrence": "C",
+      "participant": "W",
+      "record": "W"
+    },
+    "descriptive_class": "ENTIRE_RECORD_COMPATIBLE_WITH_OTHER_EVENT",
+    "identity": "POSTHOC_OUTPUT_COMPATIBILITY_NOT_INTERNAL_MECHANISM"
+  },
+  {
+    "call_id": "B10-A-N06-PARAPHRASE-OPPOSITE_TARGET_LAST",
+    "source_id": "N06-PARAPHRASE",
+    "family_id": "N06",
+    "variant": "PARAPHRASE",
+    "condition": "OPPOSITE_TARGET_LAST",
+    "source_text": "郑蕾把这本画册赠送给了吴桐。\n郑蕾收到了吴桐赠送的这条围巾。",
+    "target_reference": {
+      "occurred": "YES",
+      "giver": "吴桐",
+      "recipient": "郑蕾"
+    },
+    "other_event_reference": {
+      "occurred": "YES",
+      "giver": "郑蕾",
+      "recipient": "吴桐"
+    },
+    "raw_output": "{\"occurred\":\"NO\",\"giver\":\"郑蕾\",\"recipient\":\"吴桐\"}",
+    "labels": {
+      "role_a": "W",
+      "role_b": "W",
+      "occurrence": "W",
+      "participant": "W",
+      "record": "W"
+    },
+    "descriptive_class": "OTHER_ERROR",
+    "identity": "POSTHOC_OUTPUT_COMPATIBILITY_NOT_INTERNAL_MECHANISM"
+  },
+  {
+    "call_id": "B10-A-N06-NEGATED-OPPOSITE_TARGET_FIRST",
+    "source_id": "N06-NEGATED",
+    "family_id": "N06",
+    "variant": "NEGATED",
+    "condition": "OPPOSITE_TARGET_FIRST",
+    "source_text": "吴桐没有把这条围巾赠送给郑蕾。\n郑蕾把这本画册赠送给了吴桐。",
+    "target_reference": {
+      "occurred": "NO",
+      "giver": "吴桐",
+      "recipient": "郑蕾"
+    },
+    "other_event_reference": {
+      "occurred": "YES",
+      "giver": "郑蕾",
+      "recipient": "吴桐"
+    },
+    "raw_output": "{\"occurred\":\"NO\",\"giver\":\"郑蕾\",\"recipient\":\"吴桐\"}",
+    "labels": {
+      "role_a": "W",
+      "role_b": "W",
+      "occurrence": "C",
+      "participant": "W",
+      "record": "W"
+    },
+    "descriptive_class": "TARGET_FACTUALITY_WITH_OTHER_EVENT_ROLES",
+    "identity": "POSTHOC_OUTPUT_COMPATIBILITY_NOT_INTERNAL_MECHANISM"
+  },
+  {
+    "call_id": "B10-A-N07-ROLE_SWAP-OPPOSITE_TARGET_FIRST",
+    "source_id": "N07-ROLE_SWAP",
+    "family_id": "N07",
+    "variant": "ROLE_SWAP",
+    "condition": "OPPOSITE_TARGET_FIRST",
+    "source_text": "邓宇邀请了蒋欣参加读书会。\n蒋欣邀请了邓宇参加摄影展。",
+    "target_reference": {
+      "occurred": "YES",
+      "inviter": "邓宇",
+      "invitee": "蒋欣"
+    },
+    "other_event_reference": {
+      "occurred": "YES",
+      "inviter": "蒋欣",
+      "invitee": "邓宇"
+    },
+    "raw_output": "{\"occurred\":\"YES\",\"inviter\":\"蒋欣\",\"invitee\":\"邓宇\"}",
+    "labels": {
+      "role_a": "W",
+      "role_b": "W",
+      "occurrence": "C",
+      "participant": "W",
+      "record": "W"
+    },
+    "descriptive_class": "ENTIRE_RECORD_COMPATIBLE_WITH_OTHER_EVENT",
+    "identity": "POSTHOC_OUTPUT_COMPATIBILITY_NOT_INTERNAL_MECHANISM"
+  },
+  {
+    "call_id": "B10-A-N08-ROLE_SWAP-OPPOSITE_TARGET_FIRST",
+    "source_id": "N08-ROLE_SWAP",
+    "family_id": "N08",
+    "variant": "ROLE_SWAP",
+    "condition": "OPPOSITE_TARGET_FIRST",
+    "source_text": "罗晴邀请了潘越参加摄影展。\n潘越邀请了罗晴参加读书会。",
+    "target_reference": {
+      "occurred": "YES",
+      "inviter": "罗晴",
+      "invitee": "潘越"
+    },
+    "other_event_reference": {
+      "occurred": "YES",
+      "inviter": "潘越",
+      "invitee": "罗晴"
+    },
+    "raw_output": "{\"occurred\":\"YES\",\"inviter\":\"潘越\",\"invitee\":\"罗晴\"}",
+    "labels": {
+      "role_a": "W",
+      "role_b": "W",
+      "occurrence": "C",
+      "participant": "W",
+      "record": "W"
+    },
+    "descriptive_class": "ENTIRE_RECORD_COMPATIBLE_WITH_OTHER_EVENT",
+    "identity": "POSTHOC_OUTPUT_COMPATIBILITY_NOT_INTERNAL_MECHANISM"
+  }
+]

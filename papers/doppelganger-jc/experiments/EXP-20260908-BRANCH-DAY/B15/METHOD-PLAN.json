@@ -1,0 +1,2114 @@
+[
+  {
+    "position_id": "B15-QWEN-METHOD-SRC001",
+    "kind": "METHOD",
+    "baseline_position_id": "B15-QWEN-BASE-SRC001",
+    "mapping_position_ids": [
+      "B15-QWEN-FIRST_YAMADA-SRC001",
+      "B15-QWEN-FIRST_SUZUKI-SRC001"
+    ],
+    "rule": "both inversions determinate and equal else exact baseline",
+    "new_calls": 0
+  },
+  {
+    "position_id": "B15-QWEN-METHOD-SRC002",
+    "kind": "METHOD",
+    "baseline_position_id": "B15-QWEN-BASE-SRC002",
+    "mapping_position_ids": [
+      "B15-QWEN-FIRST_YAMADA-SRC002",
+      "B15-QWEN-FIRST_SUZUKI-SRC002"
+    ],
+    "rule": "both inversions determinate and equal else exact baseline",
+    "new_calls": 0
+  },
+  {
+    "position_id": "B15-QWEN-METHOD-SRC003",
+    "kind": "METHOD",
+    "baseline_position_id": "B15-QWEN-BASE-SRC003",
+    "mapping_position_ids": [
+      "B15-QWEN-FIRST_YAMADA-SRC003",
+      "B15-QWEN-FIRST_SUZUKI-SRC003"
+    ],
+    "rule": "both inversions determinate and equal else exact baseline",
+    "new_calls": 0
+  },
+  {
+    "position_id": "B15-QWEN-METHOD-SRC004",
+    "kind": "METHOD",
+    "baseline_position_id": "B15-QWEN-BASE-SRC004",
+    "mapping_position_ids": [
+      "B15-QWEN-FIRST_YAMADA-SRC004",
+      "B15-QWEN-FIRST_SUZUKI-SRC004"
+    ],
+    "rule": "both inversions determinate and equal else exact baseline",
+    "new_calls": 0
+  },
+  {
+    "position_id": "B15-QWEN-METHOD-SRC005",
+    "kind": "METHOD",
+    "baseline_position_id": "B15-QWEN-BASE-SRC005",
+    "mapping_position_ids": [
+      "B15-QWEN-FIRST_YAMADA-SRC005",
+      "B15-QWEN-FIRST_SUZUKI-SRC005"
+    ],
+    "rule": "both inversions determinate and equal else exact baseline",
+    "new_calls": 0
+  },
+  {
+    "position_id": "B15-QWEN-METHOD-SRC006",
+    "kind": "METHOD",
+    "baseline_position_id": "B15-QWEN-BASE-SRC006",
+    "mapping_position_ids": [
+      "B15-QWEN-FIRST_YAMADA-SRC006",
+      "B15-QWEN-FIRST_SUZUKI-SRC006"
+    ],
+    "rule": "both inversions determinate and equal else exact baseline",
+    "new_calls": 0
+  },
+  {
+    "position_id": "B15-QWEN-METHOD-SRC007",
+    "kind": "METHOD",
+    "baseline_position_id": "B15-QWEN-BASE-SRC007",
+    "mapping_position_ids": [
+      "B15-QWEN-FIRST_YAMADA-SRC007",
+      "B15-QWEN-FIRST_SUZUKI-SRC007"
+    ],
+    "rule": "both inversions determinate and equal else exact baseline",
+    "new_calls": 0
+  },
+  {
+    "position_id": "B15-QWEN-METHOD-SRC008",
+    "kind": "METHOD",
+    "baseline_position_id": "B15-QWEN-BASE-SRC008",
+    "mapping_position_ids": [
+      "B15-QWEN-FIRST_YAMADA-SRC008",
+      "B15-QWEN-FIRST_SUZUKI-SRC008"
+    ],
+    "rule": "both inversions determinate and equal else exact baseline",
+    "new_calls": 0
+  },
+  {
+    "position_id": "B15-QWEN-METHOD-SRC009",
+    "kind": "METHOD",
+    "baseline_position_id": "B15-QWEN-BASE-SRC009",
+    "mapping_position_ids": [
+      "B15-QWEN-FIRST_YAMADA-SRC009",
+      "B15-QWEN-FIRST_SUZUKI-SRC009"
+    ],
+    "rule": "both inversions determinate and equal else exact baseline",
+    "new_calls": 0
+  },
+  {
+    "position_id": "B15-QWEN-METHOD-SRC010",
+    "kind": "METHOD",
+    "baseline_position_id": "B15-QWEN-BASE-SRC010",
+    "mapping_position_ids": [
+      "B15-QWEN-FIRST_YAMADA-SRC010",
+      "B15-QWEN-FIRST_SUZUKI-SRC010"
+    ],
+    "rule": "both inversions determinate and equal else exact baseline",
+    "new_calls": 0
+  },
+  {
+    "position_id": "B15-QWEN-METHOD-SRC011",
+    "kind": "METHOD",
+    "baseline_position_id": "B15-QWEN-BASE-SRC011",
+    "mapping_position_ids": [
+      "B15-QWEN-FIRST_YAMADA-SRC011",
+      "B15-QWEN-FIRST_SUZUKI-SRC011"
+    ],
+    "rule": "both inversions determinate and equal else exact baseline",
+    "new_calls": 0
+  },
+  {
+    "position_id": "B15-QWEN-METHOD-SRC012",
+    "kind": "METHOD",
+    "baseline_position_id": "B15-QWEN-BASE-SRC012",
+    "mapping_position_ids": [
+      "B15-QWEN-FIRST_YAMADA-SRC012",
+      "B15-QWEN-FIRST_SUZUKI-SRC012"
+    ],
+    "rule": "both inversions determinate and equal else exact baseline",
+    "new_calls": 0
+  },
+  {
+    "position_id": "B15-QWEN-METHOD-SRC013",
+    "kind": "METHOD",
+    "baseline_position_id": "B15-QWEN-BASE-SRC013",
+    "mapping_position_ids": [
+      "B15-QWEN-FIRST_YAMADA-SRC013",
+      "B15-QWEN-FIRST_SUZUKI-SRC013"
+    ],
+    "rule": "both inversions determinate and equal else exact baseline",
+    "new_calls": 0
+  },
+  {
+    "position_id": "B15-QWEN-METHOD-SRC014",
+    "kind": "METHOD",
+    "baseline_position_id": "B15-QWEN-BASE-SRC014",
+    "mapping_position_ids": [
+      "B15-QWEN-FIRST_YAMADA-SRC014",
+      "B15-QWEN-FIRST_SUZUKI-SRC014"
+    ],
+    "rule": "both inversions determinate and equal else exact baseline",
+    "new_calls": 0
+  },
+  {
+    "position_id": "B15-QWEN-METHOD-SRC015",
+    "kind": "METHOD",
+    "baseline_position_id": "B15-QWEN-BASE-SRC015",
+    "mapping_position_ids": [
+      "B15-QWEN-FIRST_YAMADA-SRC015",
+      "B15-QWEN-FIRST_SUZUKI-SRC015"
+    ],
+    "rule": "both inversions determinate and equal else exact baseline",
+    "new_calls": 0
+  },
+  {
+    "position_id": "B15-QWEN-METHOD-SRC016",
+    "kind": "METHOD",
+    "baseline_position_id": "B15-QWEN-BASE-SRC016",
+    "mapping_position_ids": [
+      "B15-QWEN-FIRST_YAMADA-SRC016",
+      "B15-QWEN-FIRST_SUZUKI-SRC016"
+    ],
+    "rule": "both inversions determinate and equal else exact baseline",
+    "new_calls": 0
+  },
+  {
+    "position_id": "B15-QWEN-METHOD-SRC017",
+    "kind": "METHOD",
+    "baseline_position_id": "B15-QWEN-BASE-SRC017",
+    "mapping_position_ids": [
+      "B15-QWEN-FIRST_YAMADA-SRC017",
+      "B15-QWEN-FIRST_SUZUKI-SRC017"
+    ],
+    "rule": "both inversions determinate and equal else exact baseline",
+    "new_calls": 0
+  },
+  {
+    "position_id": "B15-QWEN-METHOD-SRC018",
+    "kind": "METHOD",
+    "baseline_position_id": "B15-QWEN-BASE-SRC018",
+    "mapping_position_ids": [
+      "B15-QWEN-FIRST_YAMADA-SRC018",
+      "B15-QWEN-FIRST_SUZUKI-SRC018"
+    ],
+    "rule": "both inversions determinate and equal else exact baseline",
+    "new_calls": 0
+  },
+  {
+    "position_id": "B15-QWEN-METHOD-SRC019",
+    "kind": "METHOD",
+    "baseline_position_id": "B15-QWEN-BASE-SRC019",
+    "mapping_position_ids": [
+      "B15-QWEN-FIRST_YAMADA-SRC019",
+      "B15-QWEN-FIRST_SUZUKI-SRC019"
+    ],
+    "rule": "both inversions determinate and equal else exact baseline",
+    "new_calls": 0
+  },
+  {
+    "position_id": "B15-QWEN-METHOD-SRC020",
+    "kind": "METHOD",
+    "baseline_position_id": "B15-QWEN-BASE-SRC020",
+    "mapping_position_ids": [
+      "B15-QWEN-FIRST_YAMADA-SRC020",
+      "B15-QWEN-FIRST_SUZUKI-SRC020"
+    ],
+    "rule": "both inversions determinate and equal else exact baseline",
+    "new_calls": 0
+  },
+  {
+    "position_id": "B15-QWEN-METHOD-SRC021",
+    "kind": "METHOD",
+    "baseline_position_id": "B15-QWEN-BASE-SRC021",
+    "mapping_position_ids": [
+      "B15-QWEN-FIRST_YAMADA-SRC021",
+      "B15-QWEN-FIRST_SUZUKI-SRC021"
+    ],
+    "rule": "both inversions determinate and equal else exact baseline",
+    "new_calls": 0
+  },
+  {
+    "position_id": "B15-QWEN-METHOD-SRC022",
+    "kind": "METHOD",
+    "baseline_position_id": "B15-QWEN-BASE-SRC022",
+    "mapping_position_ids": [
+      "B15-QWEN-FIRST_YAMADA-SRC022",
+      "B15-QWEN-FIRST_SUZUKI-SRC022"
+    ],
+    "rule": "both inversions determinate and equal else exact baseline",
+    "new_calls": 0
+  },
+  {
+    "position_id": "B15-QWEN-METHOD-SRC023",
+    "kind": "METHOD",
+    "baseline_position_id": "B15-QWEN-BASE-SRC023",
+    "mapping_position_ids": [
+      "B15-QWEN-FIRST_YAMADA-SRC023",
+      "B15-QWEN-FIRST_SUZUKI-SRC023"
+    ],
+    "rule": "both inversions determinate and equal else exact baseline",
+    "new_calls": 0
+  },
+  {
+    "position_id": "B15-QWEN-METHOD-SRC024",
+    "kind": "METHOD",
+    "baseline_position_id": "B15-QWEN-BASE-SRC024",
+    "mapping_position_ids": [
+      "B15-QWEN-FIRST_YAMADA-SRC024",
+      "B15-QWEN-FIRST_SUZUKI-SRC024"
+    ],
+    "rule": "both inversions determinate and equal else exact baseline",
+    "new_calls": 0
+  },
+  {
+    "position_id": "B15-QWEN-METHOD-SRC025",
+    "kind": "METHOD",
+    "baseline_position_id": "B15-QWEN-BASE-SRC025",
+    "mapping_position_ids": [
+      "B15-QWEN-FIRST_YAMADA-SRC025",
+      "B15-QWEN-FIRST_SUZUKI-SRC025"
+    ],
+    "rule": "both inversions determinate and equal else exact baseline",
+    "new_calls": 0
+  },
+  {
+    "position_id": "B15-QWEN-METHOD-SRC026",
+    "kind": "METHOD",
+    "baseline_position_id": "B15-QWEN-BASE-SRC026",
+    "mapping_position_ids": [
+      "B15-QWEN-FIRST_YAMADA-SRC026",
+      "B15-QWEN-FIRST_SUZUKI-SRC026"
+    ],
+    "rule": "both inversions determinate and equal else exact baseline",
+    "new_calls": 0
+  },
+  {
+    "position_id": "B15-QWEN-METHOD-SRC027",
+    "kind": "METHOD",
+    "baseline_position_id": "B15-QWEN-BASE-SRC027",
+    "mapping_position_ids": [
+      "B15-QWEN-FIRST_YAMADA-SRC027",
+      "B15-QWEN-FIRST_SUZUKI-SRC027"
+    ],
+    "rule": "both inversions determinate and equal else exact baseline",
+    "new_calls": 0
+  },
+  {
+    "position_id": "B15-QWEN-METHOD-SRC028",
+    "kind": "METHOD",
+    "baseline_position_id": "B15-QWEN-BASE-SRC028",
+    "mapping_position_ids": [
+      "B15-QWEN-FIRST_YAMADA-SRC028",
+      "B15-QWEN-FIRST_SUZUKI-SRC028"
+    ],
+    "rule": "both inversions determinate and equal else exact baseline",
+    "new_calls": 0
+  },
+  {
+    "position_id": "B15-QWEN-METHOD-SRC029",
+    "kind": "METHOD",
+    "baseline_position_id": "B15-QWEN-BASE-SRC029",
+    "mapping_position_ids": [
+      "B15-QWEN-FIRST_YAMADA-SRC029",
+      "B15-QWEN-FIRST_SUZUKI-SRC029"
+    ],
+    "rule": "both inversions determinate and equal else exact baseline",
+    "new_calls": 0
+  },
+  {
+    "position_id": "B15-QWEN-METHOD-SRC030",
+    "kind": "METHOD",
+    "baseline_position_id": "B15-QWEN-BASE-SRC030",
+    "mapping_position_ids": [
+      "B15-QWEN-FIRST_YAMADA-SRC030",
+      "B15-QWEN-FIRST_SUZUKI-SRC030"
+    ],
+    "rule": "both inversions determinate and equal else exact baseline",
+    "new_calls": 0
+  },
+  {
+    "position_id": "B15-QWEN-METHOD-SRC031",
+    "kind": "METHOD",
+    "baseline_position_id": "B15-QWEN-BASE-SRC031",
+    "mapping_position_ids": [
+      "B15-QWEN-FIRST_YAMADA-SRC031",
+      "B15-QWEN-FIRST_SUZUKI-SRC031"
+    ],
+    "rule": "both inversions determinate and equal else exact baseline",
+    "new_calls": 0
+  },
+  {
+    "position_id": "B15-QWEN-METHOD-SRC032",
+    "kind": "METHOD",
+    "baseline_position_id": "B15-QWEN-BASE-SRC032",
+    "mapping_position_ids": [
+      "B15-QWEN-FIRST_YAMADA-SRC032",
+      "B15-QWEN-FIRST_SUZUKI-SRC032"
+    ],
+    "rule": "both inversions determinate and equal else exact baseline",
+    "new_calls": 0
+  },
+  {
+    "position_id": "B15-QWEN-METHOD-SRC033",
+    "kind": "METHOD",
+    "baseline_position_id": "B15-QWEN-BASE-SRC033",
+    "mapping_position_ids": [
+      "B15-QWEN-FIRST_YAMADA-SRC033",
+      "B15-QWEN-FIRST_SUZUKI-SRC033"
+    ],
+    "rule": "both inversions determinate and equal else exact baseline",
+    "new_calls": 0
+  },
+  {
+    "position_id": "B15-QWEN-METHOD-SRC034",
+    "kind": "METHOD",
+    "baseline_position_id": "B15-QWEN-BASE-SRC034",
+    "mapping_position_ids": [
+      "B15-QWEN-FIRST_YAMADA-SRC034",
+      "B15-QWEN-FIRST_SUZUKI-SRC034"
+    ],
+    "rule": "both inversions determinate and equal else exact baseline",
+    "new_calls": 0
+  },
+  {
+    "position_id": "B15-QWEN-METHOD-SRC035",
+    "kind": "METHOD",
+    "baseline_position_id": "B15-QWEN-BASE-SRC035",
+    "mapping_position_ids": [
+      "B15-QWEN-FIRST_YAMADA-SRC035",
+      "B15-QWEN-FIRST_SUZUKI-SRC035"
+    ],
+    "rule": "both inversions determinate and equal else exact baseline",
+    "new_calls": 0
+  },
+  {
+    "position_id": "B15-QWEN-METHOD-SRC036",
+    "kind": "METHOD",
+    "baseline_position_id": "B15-QWEN-BASE-SRC036",
+    "mapping_position_ids": [
+      "B15-QWEN-FIRST_YAMADA-SRC036",
+      "B15-QWEN-FIRST_SUZUKI-SRC036"
+    ],
+    "rule": "both inversions determinate and equal else exact baseline",
+    "new_calls": 0
+  },
+  {
+    "position_id": "B15-QWEN-METHOD-SRC037",
+    "kind": "METHOD",
+    "baseline_position_id": "B15-QWEN-BASE-SRC037",
+    "mapping_position_ids": [
+      "B15-QWEN-FIRST_YAMADA-SRC037",
+      "B15-QWEN-FIRST_SUZUKI-SRC037"
+    ],
+    "rule": "both inversions determinate and equal else exact baseline",
+    "new_calls": 0
+  },
+  {
+    "position_id": "B15-QWEN-METHOD-SRC038",
+    "kind": "METHOD",
+    "baseline_position_id": "B15-QWEN-BASE-SRC038",
+    "mapping_position_ids": [
+      "B15-QWEN-FIRST_YAMADA-SRC038",
+      "B15-QWEN-FIRST_SUZUKI-SRC038"
+    ],
+    "rule": "both inversions determinate and equal else exact baseline",
+    "new_calls": 0
+  },
+  {
+    "position_id": "B15-QWEN-METHOD-SRC039",
+    "kind": "METHOD",
+    "baseline_position_id": "B15-QWEN-BASE-SRC039",
+    "mapping_position_ids": [
+      "B15-QWEN-FIRST_YAMADA-SRC039",
+      "B15-QWEN-FIRST_SUZUKI-SRC039"
+    ],
+    "rule": "both inversions determinate and equal else exact baseline",
+    "new_calls": 0
+  },
+  {
+    "position_id": "B15-QWEN-METHOD-SRC040",
+    "kind": "METHOD",
+    "baseline_position_id": "B15-QWEN-BASE-SRC040",
+    "mapping_position_ids": [
+      "B15-QWEN-FIRST_YAMADA-SRC040",
+      "B15-QWEN-FIRST_SUZUKI-SRC040"
+    ],
+    "rule": "both inversions determinate and equal else exact baseline",
+    "new_calls": 0
+  },
+  {
+    "position_id": "B15-QWEN-METHOD-SRC041",
+    "kind": "METHOD",
+    "baseline_position_id": "B15-QWEN-BASE-SRC041",
+    "mapping_position_ids": [
+      "B15-QWEN-FIRST_YAMADA-SRC041",
+      "B15-QWEN-FIRST_SUZUKI-SRC041"
+    ],
+    "rule": "both inversions determinate and equal else exact baseline",
+    "new_calls": 0
+  },
+  {
+    "position_id": "B15-QWEN-METHOD-SRC042",
+    "kind": "METHOD",
+    "baseline_position_id": "B15-QWEN-BASE-SRC042",
+    "mapping_position_ids": [
+      "B15-QWEN-FIRST_YAMADA-SRC042",
+      "B15-QWEN-FIRST_SUZUKI-SRC042"
+    ],
+    "rule": "both inversions determinate and equal else exact baseline",
+    "new_calls": 0
+  },
+  {
+    "position_id": "B15-QWEN-METHOD-SRC043",
+    "kind": "METHOD",
+    "baseline_position_id": "B15-QWEN-BASE-SRC043",
+    "mapping_position_ids": [
+      "B15-QWEN-FIRST_YAMADA-SRC043",
+      "B15-QWEN-FIRST_SUZUKI-SRC043"
+    ],
+    "rule": "both inversions determinate and equal else exact baseline",
+    "new_calls": 0
+  },
+  {
+    "position_id": "B15-QWEN-METHOD-SRC044",
+    "kind": "METHOD",
+    "baseline_position_id": "B15-QWEN-BASE-SRC044",
+    "mapping_position_ids": [
+      "B15-QWEN-FIRST_YAMADA-SRC044",
+      "B15-QWEN-FIRST_SUZUKI-SRC044"
+    ],
+    "rule": "both inversions determinate and equal else exact baseline",
+    "new_calls": 0
+  },
+  {
+    "position_id": "B15-QWEN-METHOD-SRC045",
+    "kind": "METHOD",
+    "baseline_position_id": "B15-QWEN-BASE-SRC045",
+    "mapping_position_ids": [
+      "B15-QWEN-FIRST_YAMADA-SRC045",
+      "B15-QWEN-FIRST_SUZUKI-SRC045"
+    ],
+    "rule": "both inversions determinate and equal else exact baseline",
+    "new_calls": 0
+  },
+  {
+    "position_id": "B15-QWEN-METHOD-SRC046",
+    "kind": "METHOD",
+    "baseline_position_id": "B15-QWEN-BASE-SRC046",
+    "mapping_position_ids": [
+      "B15-QWEN-FIRST_YAMADA-SRC046",
+      "B15-QWEN-FIRST_SUZUKI-SRC046"
+    ],
+    "rule": "both inversions determinate and equal else exact baseline",
+    "new_calls": 0
+  },
+  {
+    "position_id": "B15-QWEN-METHOD-SRC047",
+    "kind": "METHOD",
+    "baseline_position_id": "B15-QWEN-BASE-SRC047",
+    "mapping_position_ids": [
+      "B15-QWEN-FIRST_YAMADA-SRC047",
+      "B15-QWEN-FIRST_SUZUKI-SRC047"
+    ],
+    "rule": "both inversions determinate and equal else exact baseline",
+    "new_calls": 0
+  },
+  {
+    "position_id": "B15-QWEN-METHOD-SRC048",
+    "kind": "METHOD",
+    "baseline_position_id": "B15-QWEN-BASE-SRC048",
+    "mapping_position_ids": [
+      "B15-QWEN-FIRST_YAMADA-SRC048",
+      "B15-QWEN-FIRST_SUZUKI-SRC048"
+    ],
+    "rule": "both inversions determinate and equal else exact baseline",
+    "new_calls": 0
+  },
+  {
+    "position_id": "B15-QWEN-METHOD-SRC049",
+    "kind": "METHOD",
+    "baseline_position_id": "B15-QWEN-BASE-SRC049",
+    "mapping_position_ids": [
+      "B15-QWEN-FIRST_YAMADA-SRC049",
+      "B15-QWEN-FIRST_SUZUKI-SRC049"
+    ],
+    "rule": "both inversions determinate and equal else exact baseline",
+    "new_calls": 0
+  },
+  {
+    "position_id": "B15-QWEN-METHOD-SRC050",
+    "kind": "METHOD",
+    "baseline_position_id": "B15-QWEN-BASE-SRC050",
+    "mapping_position_ids": [
+      "B15-QWEN-FIRST_YAMADA-SRC050",
+      "B15-QWEN-FIRST_SUZUKI-SRC050"
+    ],
+    "rule": "both inversions determinate and equal else exact baseline",
+    "new_calls": 0
+  },
+  {
+    "position_id": "B15-QWEN-METHOD-SRC051",
+    "kind": "METHOD",
+    "baseline_position_id": "B15-QWEN-BASE-SRC051",
+    "mapping_position_ids": [
+      "B15-QWEN-FIRST_YAMADA-SRC051",
+      "B15-QWEN-FIRST_SUZUKI-SRC051"
+    ],
+    "rule": "both inversions determinate and equal else exact baseline",
+    "new_calls": 0
+  },
+  {
+    "position_id": "B15-QWEN-METHOD-SRC052",
+    "kind": "METHOD",
+    "baseline_position_id": "B15-QWEN-BASE-SRC052",
+    "mapping_position_ids": [
+      "B15-QWEN-FIRST_YAMADA-SRC052",
+      "B15-QWEN-FIRST_SUZUKI-SRC052"
+    ],
+    "rule": "both inversions determinate and equal else exact baseline",
+    "new_calls": 0
+  },
+  {
+    "position_id": "B15-QWEN-METHOD-SRC053",
+    "kind": "METHOD",
+    "baseline_position_id": "B15-QWEN-BASE-SRC053",
+    "mapping_position_ids": [
+      "B15-QWEN-FIRST_YAMADA-SRC053",
+      "B15-QWEN-FIRST_SUZUKI-SRC053"
+    ],
+    "rule": "both inversions determinate and equal else exact baseline",
+    "new_calls": 0
+  },
+  {
+    "position_id": "B15-QWEN-METHOD-SRC054",
+    "kind": "METHOD",
+    "baseline_position_id": "B15-QWEN-BASE-SRC054",
+    "mapping_position_ids": [
+      "B15-QWEN-FIRST_YAMADA-SRC054",
+      "B15-QWEN-FIRST_SUZUKI-SRC054"
+    ],
+    "rule": "both inversions determinate and equal else exact baseline",
+    "new_calls": 0
+  },
+  {
+    "position_id": "B15-QWEN-METHOD-SRC055",
+    "kind": "METHOD",
+    "baseline_position_id": "B15-QWEN-BASE-SRC055",
+    "mapping_position_ids": [
+      "B15-QWEN-FIRST_YAMADA-SRC055",
+      "B15-QWEN-FIRST_SUZUKI-SRC055"
+    ],
+    "rule": "both inversions determinate and equal else exact baseline",
+    "new_calls": 0
+  },
+  {
+    "position_id": "B15-QWEN-METHOD-SRC056",
+    "kind": "METHOD",
+    "baseline_position_id": "B15-QWEN-BASE-SRC056",
+    "mapping_position_ids": [
+      "B15-QWEN-FIRST_YAMADA-SRC056",
+      "B15-QWEN-FIRST_SUZUKI-SRC056"
+    ],
+    "rule": "both inversions determinate and equal else exact baseline",
+    "new_calls": 0
+  },
+  {
+    "position_id": "B15-QWEN-METHOD-SRC057",
+    "kind": "METHOD",
+    "baseline_position_id": "B15-QWEN-BASE-SRC057",
+    "mapping_position_ids": [
+      "B15-QWEN-FIRST_YAMADA-SRC057",
+      "B15-QWEN-FIRST_SUZUKI-SRC057"
+    ],
+    "rule": "both inversions determinate and equal else exact baseline",
+    "new_calls": 0
+  },
+  {
+    "position_id": "B15-QWEN-METHOD-SRC058",
+    "kind": "METHOD",
+    "baseline_position_id": "B15-QWEN-BASE-SRC058",
+    "mapping_position_ids": [
+      "B15-QWEN-FIRST_YAMADA-SRC058",
+      "B15-QWEN-FIRST_SUZUKI-SRC058"
+    ],
+    "rule": "both inversions determinate and equal else exact baseline",
+    "new_calls": 0
+  },
+  {
+    "position_id": "B15-QWEN-METHOD-SRC059",
+    "kind": "METHOD",
+    "baseline_position_id": "B15-QWEN-BASE-SRC059",
+    "mapping_position_ids": [
+      "B15-QWEN-FIRST_YAMADA-SRC059",
+      "B15-QWEN-FIRST_SUZUKI-SRC059"
+    ],
+    "rule": "both inversions determinate and equal else exact baseline",
+    "new_calls": 0
+  },
+  {
+    "position_id": "B15-QWEN-METHOD-SRC060",
+    "kind": "METHOD",
+    "baseline_position_id": "B15-QWEN-BASE-SRC060",
+    "mapping_position_ids": [
+      "B15-QWEN-FIRST_YAMADA-SRC060",
+      "B15-QWEN-FIRST_SUZUKI-SRC060"
+    ],
+    "rule": "both inversions determinate and equal else exact baseline",
+    "new_calls": 0
+  },
+  {
+    "position_id": "B15-QWEN-METHOD-SRC061",
+    "kind": "METHOD",
+    "baseline_position_id": "B15-QWEN-BASE-SRC061",
+    "mapping_position_ids": [
+      "B15-QWEN-FIRST_YAMADA-SRC061",
+      "B15-QWEN-FIRST_SUZUKI-SRC061"
+    ],
+    "rule": "both inversions determinate and equal else exact baseline",
+    "new_calls": 0
+  },
+  {
+    "position_id": "B15-QWEN-METHOD-SRC062",
+    "kind": "METHOD",
+    "baseline_position_id": "B15-QWEN-BASE-SRC062",
+    "mapping_position_ids": [
+      "B15-QWEN-FIRST_YAMADA-SRC062",
+      "B15-QWEN-FIRST_SUZUKI-SRC062"
+    ],
+    "rule": "both inversions determinate and equal else exact baseline",
+    "new_calls": 0
+  },
+  {
+    "position_id": "B15-QWEN-METHOD-SRC063",
+    "kind": "METHOD",
+    "baseline_position_id": "B15-QWEN-BASE-SRC063",
+    "mapping_position_ids": [
+      "B15-QWEN-FIRST_YAMADA-SRC063",
+      "B15-QWEN-FIRST_SUZUKI-SRC063"
+    ],
+    "rule": "both inversions determinate and equal else exact baseline",
+    "new_calls": 0
+  },
+  {
+    "position_id": "B15-QWEN-METHOD-SRC064",
+    "kind": "METHOD",
+    "baseline_position_id": "B15-QWEN-BASE-SRC064",
+    "mapping_position_ids": [
+      "B15-QWEN-FIRST_YAMADA-SRC064",
+      "B15-QWEN-FIRST_SUZUKI-SRC064"
+    ],
+    "rule": "both inversions determinate and equal else exact baseline",
+    "new_calls": 0
+  },
+  {
+    "position_id": "B15-QWEN-METHOD-SRC065",
+    "kind": "METHOD",
+    "baseline_position_id": "B15-QWEN-BASE-SRC065",
+    "mapping_position_ids": [
+      "B15-QWEN-FIRST_YAMADA-SRC065",
+      "B15-QWEN-FIRST_SUZUKI-SRC065"
+    ],
+    "rule": "both inversions determinate and equal else exact baseline",
+    "new_calls": 0
+  },
+  {
+    "position_id": "B15-QWEN-METHOD-SRC066",
+    "kind": "METHOD",
+    "baseline_position_id": "B15-QWEN-BASE-SRC066",
+    "mapping_position_ids": [
+      "B15-QWEN-FIRST_YAMADA-SRC066",
+      "B15-QWEN-FIRST_SUZUKI-SRC066"
+    ],
+    "rule": "both inversions determinate and equal else exact baseline",
+    "new_calls": 0
+  },
+  {
+    "position_id": "B15-QWEN-METHOD-SRC067",
+    "kind": "METHOD",
+    "baseline_position_id": "B15-QWEN-BASE-SRC067",
+    "mapping_position_ids": [
+      "B15-QWEN-FIRST_YAMADA-SRC067",
+      "B15-QWEN-FIRST_SUZUKI-SRC067"
+    ],
+    "rule": "both inversions determinate and equal else exact baseline",
+    "new_calls": 0
+  },
+  {
+    "position_id": "B15-QWEN-METHOD-SRC068",
+    "kind": "METHOD",
+    "baseline_position_id": "B15-QWEN-BASE-SRC068",
+    "mapping_position_ids": [
+      "B15-QWEN-FIRST_YAMADA-SRC068",
+      "B15-QWEN-FIRST_SUZUKI-SRC068"
+    ],
+    "rule": "both inversions determinate and equal else exact baseline",
+    "new_calls": 0
+  },
+  {
+    "position_id": "B15-QWEN-METHOD-SRC069",
+    "kind": "METHOD",
+    "baseline_position_id": "B15-QWEN-BASE-SRC069",
+    "mapping_position_ids": [
+      "B15-QWEN-FIRST_YAMADA-SRC069",
+      "B15-QWEN-FIRST_SUZUKI-SRC069"
+    ],
+    "rule": "both inversions determinate and equal else exact baseline",
+    "new_calls": 0
+  },
+  {
+    "position_id": "B15-QWEN-METHOD-SRC070",
+    "kind": "METHOD",
+    "baseline_position_id": "B15-QWEN-BASE-SRC070",
+    "mapping_position_ids": [
+      "B15-QWEN-FIRST_YAMADA-SRC070",
+      "B15-QWEN-FIRST_SUZUKI-SRC070"
+    ],
+    "rule": "both inversions determinate and equal else exact baseline",
+    "new_calls": 0
+  },
+  {
+    "position_id": "B15-QWEN-METHOD-SRC071",
+    "kind": "METHOD",
+    "baseline_position_id": "B15-QWEN-BASE-SRC071",
+    "mapping_position_ids": [
+      "B15-QWEN-FIRST_YAMADA-SRC071",
+      "B15-QWEN-FIRST_SUZUKI-SRC071"
+    ],
+    "rule": "both inversions determinate and equal else exact baseline",
+    "new_calls": 0
+  },
+  {
+    "position_id": "B15-QWEN-METHOD-SRC072",
+    "kind": "METHOD",
+    "baseline_position_id": "B15-QWEN-BASE-SRC072",
+    "mapping_position_ids": [
+      "B15-QWEN-FIRST_YAMADA-SRC072",
+      "B15-QWEN-FIRST_SUZUKI-SRC072"
+    ],
+    "rule": "both inversions determinate and equal else exact baseline",
+    "new_calls": 0
+  },
+  {
+    "position_id": "B15-QWEN-METHOD-SRC073",
+    "kind": "METHOD",
+    "baseline_position_id": "B15-QWEN-BASE-SRC073",
+    "mapping_position_ids": [
+      "B15-QWEN-FIRST_YAMADA-SRC073",
+      "B15-QWEN-FIRST_SUZUKI-SRC073"
+    ],
+    "rule": "both inversions determinate and equal else exact baseline",
+    "new_calls": 0
+  },
+  {
+    "position_id": "B15-QWEN-METHOD-SRC074",
+    "kind": "METHOD",
+    "baseline_position_id": "B15-QWEN-BASE-SRC074",
+    "mapping_position_ids": [
+      "B15-QWEN-FIRST_YAMADA-SRC074",
+      "B15-QWEN-FIRST_SUZUKI-SRC074"
+    ],
+    "rule": "both inversions determinate and equal else exact baseline",
+    "new_calls": 0
+  },
+  {
+    "position_id": "B15-QWEN-METHOD-SRC075",
+    "kind": "METHOD",
+    "baseline_position_id": "B15-QWEN-BASE-SRC075",
+    "mapping_position_ids": [
+      "B15-QWEN-FIRST_YAMADA-SRC075",
+      "B15-QWEN-FIRST_SUZUKI-SRC075"
+    ],
+    "rule": "both inversions determinate and equal else exact baseline",
+    "new_calls": 0
+  },
+  {
+    "position_id": "B15-QWEN-METHOD-SRC076",
+    "kind": "METHOD",
+    "baseline_position_id": "B15-QWEN-BASE-SRC076",
+    "mapping_position_ids": [
+      "B15-QWEN-FIRST_YAMADA-SRC076",
+      "B15-QWEN-FIRST_SUZUKI-SRC076"
+    ],
+    "rule": "both inversions determinate and equal else exact baseline",
+    "new_calls": 0
+  },
+  {
+    "position_id": "B15-QWEN-METHOD-SRC077",
+    "kind": "METHOD",
+    "baseline_position_id": "B15-QWEN-BASE-SRC077",
+    "mapping_position_ids": [
+      "B15-QWEN-FIRST_YAMADA-SRC077",
+      "B15-QWEN-FIRST_SUZUKI-SRC077"
+    ],
+    "rule": "both inversions determinate and equal else exact baseline",
+    "new_calls": 0
+  },
+  {
+    "position_id": "B15-QWEN-METHOD-SRC078",
+    "kind": "METHOD",
+    "baseline_position_id": "B15-QWEN-BASE-SRC078",
+    "mapping_position_ids": [
+      "B15-QWEN-FIRST_YAMADA-SRC078",
+      "B15-QWEN-FIRST_SUZUKI-SRC078"
+    ],
+    "rule": "both inversions determinate and equal else exact baseline",
+    "new_calls": 0
+  },
+  {
+    "position_id": "B15-QWEN-METHOD-SRC079",
+    "kind": "METHOD",
+    "baseline_position_id": "B15-QWEN-BASE-SRC079",
+    "mapping_position_ids": [
+      "B15-QWEN-FIRST_YAMADA-SRC079",
+      "B15-QWEN-FIRST_SUZUKI-SRC079"
+    ],
+    "rule": "both inversions determinate and equal else exact baseline",
+    "new_calls": 0
+  },
+  {
+    "position_id": "B15-QWEN-METHOD-SRC080",
+    "kind": "METHOD",
+    "baseline_position_id": "B15-QWEN-BASE-SRC080",
+    "mapping_position_ids": [
+      "B15-QWEN-FIRST_YAMADA-SRC080",
+      "B15-QWEN-FIRST_SUZUKI-SRC080"
+    ],
+    "rule": "both inversions determinate and equal else exact baseline",
+    "new_calls": 0
+  },
+  {
+    "position_id": "B15-QWEN-METHOD-SRC081",
+    "kind": "METHOD",
+    "baseline_position_id": "B15-QWEN-BASE-SRC081",
+    "mapping_position_ids": [
+      "B15-QWEN-FIRST_YAMADA-SRC081",
+      "B15-QWEN-FIRST_SUZUKI-SRC081"
+    ],
+    "rule": "both inversions determinate and equal else exact baseline",
+    "new_calls": 0
+  },
+  {
+    "position_id": "B15-QWEN-METHOD-SRC082",
+    "kind": "METHOD",
+    "baseline_position_id": "B15-QWEN-BASE-SRC082",
+    "mapping_position_ids": [
+      "B15-QWEN-FIRST_YAMADA-SRC082",
+      "B15-QWEN-FIRST_SUZUKI-SRC082"
+    ],
+    "rule": "both inversions determinate and equal else exact baseline",
+    "new_calls": 0
+  },
+  {
+    "position_id": "B15-QWEN-METHOD-SRC083",
+    "kind": "METHOD",
+    "baseline_position_id": "B15-QWEN-BASE-SRC083",
+    "mapping_position_ids": [
+      "B15-QWEN-FIRST_YAMADA-SRC083",
+      "B15-QWEN-FIRST_SUZUKI-SRC083"
+    ],
+    "rule": "both inversions determinate and equal else exact baseline",
+    "new_calls": 0
+  },
+  {
+    "position_id": "B15-QWEN-METHOD-SRC084",
+    "kind": "METHOD",
+    "baseline_position_id": "B15-QWEN-BASE-SRC084",
+    "mapping_position_ids": [
+      "B15-QWEN-FIRST_YAMADA-SRC084",
+      "B15-QWEN-FIRST_SUZUKI-SRC084"
+    ],
+    "rule": "both inversions determinate and equal else exact baseline",
+    "new_calls": 0
+  },
+  {
+    "position_id": "B15-QWEN-METHOD-SRC085",
+    "kind": "METHOD",
+    "baseline_position_id": "B15-QWEN-BASE-SRC085",
+    "mapping_position_ids": [
+      "B15-QWEN-FIRST_YAMADA-SRC085",
+      "B15-QWEN-FIRST_SUZUKI-SRC085"
+    ],
+    "rule": "both inversions determinate and equal else exact baseline",
+    "new_calls": 0
+  },
+  {
+    "position_id": "B15-QWEN-METHOD-SRC086",
+    "kind": "METHOD",
+    "baseline_position_id": "B15-QWEN-BASE-SRC086",
+    "mapping_position_ids": [
+      "B15-QWEN-FIRST_YAMADA-SRC086",
+      "B15-QWEN-FIRST_SUZUKI-SRC086"
+    ],
+    "rule": "both inversions determinate and equal else exact baseline",
+    "new_calls": 0
+  },
+  {
+    "position_id": "B15-QWEN-METHOD-SRC087",
+    "kind": "METHOD",
+    "baseline_position_id": "B15-QWEN-BASE-SRC087",
+    "mapping_position_ids": [
+      "B15-QWEN-FIRST_YAMADA-SRC087",
+      "B15-QWEN-FIRST_SUZUKI-SRC087"
+    ],
+    "rule": "both inversions determinate and equal else exact baseline",
+    "new_calls": 0
+  },
+  {
+    "position_id": "B15-QWEN-METHOD-SRC088",
+    "kind": "METHOD",
+    "baseline_position_id": "B15-QWEN-BASE-SRC088",
+    "mapping_position_ids": [
+      "B15-QWEN-FIRST_YAMADA-SRC088",
+      "B15-QWEN-FIRST_SUZUKI-SRC088"
+    ],
+    "rule": "both inversions determinate and equal else exact baseline",
+    "new_calls": 0
+  },
+  {
+    "position_id": "B15-QWEN-METHOD-SRC089",
+    "kind": "METHOD",
+    "baseline_position_id": "B15-QWEN-BASE-SRC089",
+    "mapping_position_ids": [
+      "B15-QWEN-FIRST_YAMADA-SRC089",
+      "B15-QWEN-FIRST_SUZUKI-SRC089"
+    ],
+    "rule": "both inversions determinate and equal else exact baseline",
+    "new_calls": 0
+  },
+  {
+    "position_id": "B15-QWEN-METHOD-SRC090",
+    "kind": "METHOD",
+    "baseline_position_id": "B15-QWEN-BASE-SRC090",
+    "mapping_position_ids": [
+      "B15-QWEN-FIRST_YAMADA-SRC090",
+      "B15-QWEN-FIRST_SUZUKI-SRC090"
+    ],
+    "rule": "both inversions determinate and equal else exact baseline",
+    "new_calls": 0
+  },
+  {
+    "position_id": "B15-QWEN-METHOD-SRC091",
+    "kind": "METHOD",
+    "baseline_position_id": "B15-QWEN-BASE-SRC091",
+    "mapping_position_ids": [
+      "B15-QWEN-FIRST_YAMADA-SRC091",
+      "B15-QWEN-FIRST_SUZUKI-SRC091"
+    ],
+    "rule": "both inversions determinate and equal else exact baseline",
+    "new_calls": 0
+  },
+  {
+    "position_id": "B15-QWEN-METHOD-SRC092",
+    "kind": "METHOD",
+    "baseline_position_id": "B15-QWEN-BASE-SRC092",
+    "mapping_position_ids": [
+      "B15-QWEN-FIRST_YAMADA-SRC092",
+      "B15-QWEN-FIRST_SUZUKI-SRC092"
+    ],
+    "rule": "both inversions determinate and equal else exact baseline",
+    "new_calls": 0
+  },
+  {
+    "position_id": "B15-QWEN-METHOD-SRC093",
+    "kind": "METHOD",
+    "baseline_position_id": "B15-QWEN-BASE-SRC093",
+    "mapping_position_ids": [
+      "B15-QWEN-FIRST_YAMADA-SRC093",
+      "B15-QWEN-FIRST_SUZUKI-SRC093"
+    ],
+    "rule": "both inversions determinate and equal else exact baseline",
+    "new_calls": 0
+  },
+  {
+    "position_id": "B15-QWEN-METHOD-SRC094",
+    "kind": "METHOD",
+    "baseline_position_id": "B15-QWEN-BASE-SRC094",
+    "mapping_position_ids": [
+      "B15-QWEN-FIRST_YAMADA-SRC094",
+      "B15-QWEN-FIRST_SUZUKI-SRC094"
+    ],
+    "rule": "both inversions determinate and equal else exact baseline",
+    "new_calls": 0
+  },
+  {
+    "position_id": "B15-QWEN-METHOD-SRC095",
+    "kind": "METHOD",
+    "baseline_position_id": "B15-QWEN-BASE-SRC095",
+    "mapping_position_ids": [
+      "B15-QWEN-FIRST_YAMADA-SRC095",
+      "B15-QWEN-FIRST_SUZUKI-SRC095"
+    ],
+    "rule": "both inversions determinate and equal else exact baseline",
+    "new_calls": 0
+  },
+  {
+    "position_id": "B15-QWEN-METHOD-SRC096",
+    "kind": "METHOD",
+    "baseline_position_id": "B15-QWEN-BASE-SRC096",
+    "mapping_position_ids": [
+      "B15-QWEN-FIRST_YAMADA-SRC096",
+      "B15-QWEN-FIRST_SUZUKI-SRC096"
+    ],
+    "rule": "both inversions determinate and equal else exact baseline",
+    "new_calls": 0
+  },
+  {
+    "position_id": "B15-LLAMA-METHOD-SRC001",
+    "kind": "METHOD",
+    "baseline_position_id": "B15-LLAMA-BASE-SRC001",
+    "mapping_position_ids": [
+      "B15-LLAMA-FIRST_YAMADA-SRC001",
+      "B15-LLAMA-FIRST_SUZUKI-SRC001"
+    ],
+    "rule": "both inversions determinate and equal else exact baseline",
+    "new_calls": 0
+  },
+  {
+    "position_id": "B15-LLAMA-METHOD-SRC002",
+    "kind": "METHOD",
+    "baseline_position_id": "B15-LLAMA-BASE-SRC002",
+    "mapping_position_ids": [
+      "B15-LLAMA-FIRST_YAMADA-SRC002",
+      "B15-LLAMA-FIRST_SUZUKI-SRC002"
+    ],
+    "rule": "both inversions determinate and equal else exact baseline",
+    "new_calls": 0
+  },
+  {
+    "position_id": "B15-LLAMA-METHOD-SRC003",
+    "kind": "METHOD",
+    "baseline_position_id": "B15-LLAMA-BASE-SRC003",
+    "mapping_position_ids": [
+      "B15-LLAMA-FIRST_YAMADA-SRC003",
+      "B15-LLAMA-FIRST_SUZUKI-SRC003"
+    ],
+    "rule": "both inversions determinate and equal else exact baseline",
+    "new_calls": 0
+  },
+  {
+    "position_id": "B15-LLAMA-METHOD-SRC004",
+    "kind": "METHOD",
+    "baseline_position_id": "B15-LLAMA-BASE-SRC004",
+    "mapping_position_ids": [
+      "B15-LLAMA-FIRST_YAMADA-SRC004",
+      "B15-LLAMA-FIRST_SUZUKI-SRC004"
+    ],
+    "rule": "both inversions determinate and equal else exact baseline",
+    "new_calls": 0
+  },
+  {
+    "position_id": "B15-LLAMA-METHOD-SRC005",
+    "kind": "METHOD",
+    "baseline_position_id": "B15-LLAMA-BASE-SRC005",
+    "mapping_position_ids": [
+      "B15-LLAMA-FIRST_YAMADA-SRC005",
+      "B15-LLAMA-FIRST_SUZUKI-SRC005"
+    ],
+    "rule": "both inversions determinate and equal else exact baseline",
+    "new_calls": 0
+  },
+  {
+    "position_id": "B15-LLAMA-METHOD-SRC006",
+    "kind": "METHOD",
+    "baseline_position_id": "B15-LLAMA-BASE-SRC006",
+    "mapping_position_ids": [
+      "B15-LLAMA-FIRST_YAMADA-SRC006",
+      "B15-LLAMA-FIRST_SUZUKI-SRC006"
+    ],
+    "rule": "both inversions determinate and equal else exact baseline",
+    "new_calls": 0
+  },
+  {
+    "position_id": "B15-LLAMA-METHOD-SRC007",
+    "kind": "METHOD",
+    "baseline_position_id": "B15-LLAMA-BASE-SRC007",
+    "mapping_position_ids": [
+      "B15-LLAMA-FIRST_YAMADA-SRC007",
+      "B15-LLAMA-FIRST_SUZUKI-SRC007"
+    ],
+    "rule": "both inversions determinate and equal else exact baseline",
+    "new_calls": 0
+  },
+  {
+    "position_id": "B15-LLAMA-METHOD-SRC008",
+    "kind": "METHOD",
+    "baseline_position_id": "B15-LLAMA-BASE-SRC008",
+    "mapping_position_ids": [
+      "B15-LLAMA-FIRST_YAMADA-SRC008",
+      "B15-LLAMA-FIRST_SUZUKI-SRC008"
+    ],
+    "rule": "both inversions determinate and equal else exact baseline",
+    "new_calls": 0
+  },
+  {
+    "position_id": "B15-LLAMA-METHOD-SRC009",
+    "kind": "METHOD",
+    "baseline_position_id": "B15-LLAMA-BASE-SRC009",
+    "mapping_position_ids": [
+      "B15-LLAMA-FIRST_YAMADA-SRC009",
+      "B15-LLAMA-FIRST_SUZUKI-SRC009"
+    ],
+    "rule": "both inversions determinate and equal else exact baseline",
+    "new_calls": 0
+  },
+  {
+    "position_id": "B15-LLAMA-METHOD-SRC010",
+    "kind": "METHOD",
+    "baseline_position_id": "B15-LLAMA-BASE-SRC010",
+    "mapping_position_ids": [
+      "B15-LLAMA-FIRST_YAMADA-SRC010",
+      "B15-LLAMA-FIRST_SUZUKI-SRC010"
+    ],
+    "rule": "both inversions determinate and equal else exact baseline",
+    "new_calls": 0
+  },
+  {
+    "position_id": "B15-LLAMA-METHOD-SRC011",
+    "kind": "METHOD",
+    "baseline_position_id": "B15-LLAMA-BASE-SRC011",
+    "mapping_position_ids": [
+      "B15-LLAMA-FIRST_YAMADA-SRC011",
+      "B15-LLAMA-FIRST_SUZUKI-SRC011"
+    ],
+    "rule": "both inversions determinate and equal else exact baseline",
+    "new_calls": 0
+  },
+  {
+    "position_id": "B15-LLAMA-METHOD-SRC012",
+    "kind": "METHOD",
+    "baseline_position_id": "B15-LLAMA-BASE-SRC012",
+    "mapping_position_ids": [
+      "B15-LLAMA-FIRST_YAMADA-SRC012",
+      "B15-LLAMA-FIRST_SUZUKI-SRC012"
+    ],
+    "rule": "both inversions determinate and equal else exact baseline",
+    "new_calls": 0
+  },
+  {
+    "position_id": "B15-LLAMA-METHOD-SRC013",
+    "kind": "METHOD",
+    "baseline_position_id": "B15-LLAMA-BASE-SRC013",
+    "mapping_position_ids": [
+      "B15-LLAMA-FIRST_YAMADA-SRC013",
+      "B15-LLAMA-FIRST_SUZUKI-SRC013"
+    ],
+    "rule": "both inversions determinate and equal else exact baseline",
+    "new_calls": 0
+  },
+  {
+    "position_id": "B15-LLAMA-METHOD-SRC014",
+    "kind": "METHOD",
+    "baseline_position_id": "B15-LLAMA-BASE-SRC014",
+    "mapping_position_ids": [
+      "B15-LLAMA-FIRST_YAMADA-SRC014",
+      "B15-LLAMA-FIRST_SUZUKI-SRC014"
+    ],
+    "rule": "both inversions determinate and equal else exact baseline",
+    "new_calls": 0
+  },
+  {
+    "position_id": "B15-LLAMA-METHOD-SRC015",
+    "kind": "METHOD",
+    "baseline_position_id": "B15-LLAMA-BASE-SRC015",
+    "mapping_position_ids": [
+      "B15-LLAMA-FIRST_YAMADA-SRC015",
+      "B15-LLAMA-FIRST_SUZUKI-SRC015"
+    ],
+    "rule": "both inversions determinate and equal else exact baseline",
+    "new_calls": 0
+  },
+  {
+    "position_id": "B15-LLAMA-METHOD-SRC016",
+    "kind": "METHOD",
+    "baseline_position_id": "B15-LLAMA-BASE-SRC016",
+    "mapping_position_ids": [
+      "B15-LLAMA-FIRST_YAMADA-SRC016",
+      "B15-LLAMA-FIRST_SUZUKI-SRC016"
+    ],
+    "rule": "both inversions determinate and equal else exact baseline",
+    "new_calls": 0
+  },
+  {
+    "position_id": "B15-LLAMA-METHOD-SRC017",
+    "kind": "METHOD",
+    "baseline_position_id": "B15-LLAMA-BASE-SRC017",
+    "mapping_position_ids": [
+      "B15-LLAMA-FIRST_YAMADA-SRC017",
+      "B15-LLAMA-FIRST_SUZUKI-SRC017"
+    ],
+    "rule": "both inversions determinate and equal else exact baseline",
+    "new_calls": 0
+  },
+  {
+    "position_id": "B15-LLAMA-METHOD-SRC018",
+    "kind": "METHOD",
+    "baseline_position_id": "B15-LLAMA-BASE-SRC018",
+    "mapping_position_ids": [
+      "B15-LLAMA-FIRST_YAMADA-SRC018",
+      "B15-LLAMA-FIRST_SUZUKI-SRC018"
+    ],
+    "rule": "both inversions determinate and equal else exact baseline",
+    "new_calls": 0
+  },
+  {
+    "position_id": "B15-LLAMA-METHOD-SRC019",
+    "kind": "METHOD",
+    "baseline_position_id": "B15-LLAMA-BASE-SRC019",
+    "mapping_position_ids": [
+      "B15-LLAMA-FIRST_YAMADA-SRC019",
+      "B15-LLAMA-FIRST_SUZUKI-SRC019"
+    ],
+    "rule": "both inversions determinate and equal else exact baseline",
+    "new_calls": 0
+  },
+  {
+    "position_id": "B15-LLAMA-METHOD-SRC020",
+    "kind": "METHOD",
+    "baseline_position_id": "B15-LLAMA-BASE-SRC020",
+    "mapping_position_ids": [
+      "B15-LLAMA-FIRST_YAMADA-SRC020",
+      "B15-LLAMA-FIRST_SUZUKI-SRC020"
+    ],
+    "rule": "both inversions determinate and equal else exact baseline",
+    "new_calls": 0
+  },
+  {
+    "position_id": "B15-LLAMA-METHOD-SRC021",
+    "kind": "METHOD",
+    "baseline_position_id": "B15-LLAMA-BASE-SRC021",
+    "mapping_position_ids": [
+      "B15-LLAMA-FIRST_YAMADA-SRC021",
+      "B15-LLAMA-FIRST_SUZUKI-SRC021"
+    ],
+    "rule": "both inversions determinate and equal else exact baseline",
+    "new_calls": 0
+  },
+  {
+    "position_id": "B15-LLAMA-METHOD-SRC022",
+    "kind": "METHOD",
+    "baseline_position_id": "B15-LLAMA-BASE-SRC022",
+    "mapping_position_ids": [
+      "B15-LLAMA-FIRST_YAMADA-SRC022",
+      "B15-LLAMA-FIRST_SUZUKI-SRC022"
+    ],
+    "rule": "both inversions determinate and equal else exact baseline",
+    "new_calls": 0
+  },
+  {
+    "position_id": "B15-LLAMA-METHOD-SRC023",
+    "kind": "METHOD",
+    "baseline_position_id": "B15-LLAMA-BASE-SRC023",
+    "mapping_position_ids": [
+      "B15-LLAMA-FIRST_YAMADA-SRC023",
+      "B15-LLAMA-FIRST_SUZUKI-SRC023"
+    ],
+    "rule": "both inversions determinate and equal else exact baseline",
+    "new_calls": 0
+  },
+  {
+    "position_id": "B15-LLAMA-METHOD-SRC024",
+    "kind": "METHOD",
+    "baseline_position_id": "B15-LLAMA-BASE-SRC024",
+    "mapping_position_ids": [
+      "B15-LLAMA-FIRST_YAMADA-SRC024",
+      "B15-LLAMA-FIRST_SUZUKI-SRC024"
+    ],
+    "rule": "both inversions determinate and equal else exact baseline",
+    "new_calls": 0
+  },
+  {
+    "position_id": "B15-LLAMA-METHOD-SRC025",
+    "kind": "METHOD",
+    "baseline_position_id": "B15-LLAMA-BASE-SRC025",
+    "mapping_position_ids": [
+      "B15-LLAMA-FIRST_YAMADA-SRC025",
+      "B15-LLAMA-FIRST_SUZUKI-SRC025"
+    ],
+    "rule": "both inversions determinate and equal else exact baseline",
+    "new_calls": 0
+  },
+  {
+    "position_id": "B15-LLAMA-METHOD-SRC026",
+    "kind": "METHOD",
+    "baseline_position_id": "B15-LLAMA-BASE-SRC026",
+    "mapping_position_ids": [
+      "B15-LLAMA-FIRST_YAMADA-SRC026",
+      "B15-LLAMA-FIRST_SUZUKI-SRC026"
+    ],
+    "rule": "both inversions determinate and equal else exact baseline",
+    "new_calls": 0
+  },
+  {
+    "position_id": "B15-LLAMA-METHOD-SRC027",
+    "kind": "METHOD",
+    "baseline_position_id": "B15-LLAMA-BASE-SRC027",
+    "mapping_position_ids": [
+      "B15-LLAMA-FIRST_YAMADA-SRC027",
+      "B15-LLAMA-FIRST_SUZUKI-SRC027"
+    ],
+    "rule": "both inversions determinate and equal else exact baseline",
+    "new_calls": 0
+  },
+  {
+    "position_id": "B15-LLAMA-METHOD-SRC028",
+    "kind": "METHOD",
+    "baseline_position_id": "B15-LLAMA-BASE-SRC028",
+    "mapping_position_ids": [
+      "B15-LLAMA-FIRST_YAMADA-SRC028",
+      "B15-LLAMA-FIRST_SUZUKI-SRC028"
+    ],
+    "rule": "both inversions determinate and equal else exact baseline",
+    "new_calls": 0
+  },
+  {
+    "position_id": "B15-LLAMA-METHOD-SRC029",
+    "kind": "METHOD",
+    "baseline_position_id": "B15-LLAMA-BASE-SRC029",
+    "mapping_position_ids": [
+      "B15-LLAMA-FIRST_YAMADA-SRC029",
+      "B15-LLAMA-FIRST_SUZUKI-SRC029"
+    ],
+    "rule": "both inversions determinate and equal else exact baseline",
+    "new_calls": 0
+  },
+  {
+    "position_id": "B15-LLAMA-METHOD-SRC030",
+    "kind": "METHOD",
+    "baseline_position_id": "B15-LLAMA-BASE-SRC030",
+    "mapping_position_ids": [
+      "B15-LLAMA-FIRST_YAMADA-SRC030",
+      "B15-LLAMA-FIRST_SUZUKI-SRC030"
+    ],
+    "rule": "both inversions determinate and equal else exact baseline",
+    "new_calls": 0
+  },
+  {
+    "position_id": "B15-LLAMA-METHOD-SRC031",
+    "kind": "METHOD",
+    "baseline_position_id": "B15-LLAMA-BASE-SRC031",
+    "mapping_position_ids": [
+      "B15-LLAMA-FIRST_YAMADA-SRC031",
+      "B15-LLAMA-FIRST_SUZUKI-SRC031"
+    ],
+    "rule": "both inversions determinate and equal else exact baseline",
+    "new_calls": 0
+  },
+  {
+    "position_id": "B15-LLAMA-METHOD-SRC032",
+    "kind": "METHOD",
+    "baseline_position_id": "B15-LLAMA-BASE-SRC032",
+    "mapping_position_ids": [
+      "B15-LLAMA-FIRST_YAMADA-SRC032",
+      "B15-LLAMA-FIRST_SUZUKI-SRC032"
+    ],
+    "rule": "both inversions determinate and equal else exact baseline",
+    "new_calls": 0
+  },
+  {
+    "position_id": "B15-LLAMA-METHOD-SRC033",
+    "kind": "METHOD",
+    "baseline_position_id": "B15-LLAMA-BASE-SRC033",
+    "mapping_position_ids": [
+      "B15-LLAMA-FIRST_YAMADA-SRC033",
+      "B15-LLAMA-FIRST_SUZUKI-SRC033"
+    ],
+    "rule": "both inversions determinate and equal else exact baseline",
+    "new_calls": 0
+  },
+  {
+    "position_id": "B15-LLAMA-METHOD-SRC034",
+    "kind": "METHOD",
+    "baseline_position_id": "B15-LLAMA-BASE-SRC034",
+    "mapping_position_ids": [
+      "B15-LLAMA-FIRST_YAMADA-SRC034",
+      "B15-LLAMA-FIRST_SUZUKI-SRC034"
+    ],
+    "rule": "both inversions determinate and equal else exact baseline",
+    "new_calls": 0
+  },
+  {
+    "position_id": "B15-LLAMA-METHOD-SRC035",
+    "kind": "METHOD",
+    "baseline_position_id": "B15-LLAMA-BASE-SRC035",
+    "mapping_position_ids": [
+      "B15-LLAMA-FIRST_YAMADA-SRC035",
+      "B15-LLAMA-FIRST_SUZUKI-SRC035"
+    ],
+    "rule": "both inversions determinate and equal else exact baseline",
+    "new_calls": 0
+  },
+  {
+    "position_id": "B15-LLAMA-METHOD-SRC036",
+    "kind": "METHOD",
+    "baseline_position_id": "B15-LLAMA-BASE-SRC036",
+    "mapping_position_ids": [
+      "B15-LLAMA-FIRST_YAMADA-SRC036",
+      "B15-LLAMA-FIRST_SUZUKI-SRC036"
+    ],
+    "rule": "both inversions determinate and equal else exact baseline",
+    "new_calls": 0
+  },
+  {
+    "position_id": "B15-LLAMA-METHOD-SRC037",
+    "kind": "METHOD",
+    "baseline_position_id": "B15-LLAMA-BASE-SRC037",
+    "mapping_position_ids": [
+      "B15-LLAMA-FIRST_YAMADA-SRC037",
+      "B15-LLAMA-FIRST_SUZUKI-SRC037"
+    ],
+    "rule": "both inversions determinate and equal else exact baseline",
+    "new_calls": 0
+  },
+  {
+    "position_id": "B15-LLAMA-METHOD-SRC038",
+    "kind": "METHOD",
+    "baseline_position_id": "B15-LLAMA-BASE-SRC038",
+    "mapping_position_ids": [
+      "B15-LLAMA-FIRST_YAMADA-SRC038",
+      "B15-LLAMA-FIRST_SUZUKI-SRC038"
+    ],
+    "rule": "both inversions determinate and equal else exact baseline",
+    "new_calls": 0
+  },
+  {
+    "position_id": "B15-LLAMA-METHOD-SRC039",
+    "kind": "METHOD",
+    "baseline_position_id": "B15-LLAMA-BASE-SRC039",
+    "mapping_position_ids": [
+      "B15-LLAMA-FIRST_YAMADA-SRC039",
+      "B15-LLAMA-FIRST_SUZUKI-SRC039"
+    ],
+    "rule": "both inversions determinate and equal else exact baseline",
+    "new_calls": 0
+  },
+  {
+    "position_id": "B15-LLAMA-METHOD-SRC040",
+    "kind": "METHOD",
+    "baseline_position_id": "B15-LLAMA-BASE-SRC040",
+    "mapping_position_ids": [
+      "B15-LLAMA-FIRST_YAMADA-SRC040",
+      "B15-LLAMA-FIRST_SUZUKI-SRC040"
+    ],
+    "rule": "both inversions determinate and equal else exact baseline",
+    "new_calls": 0
+  },
+  {
+    "position_id": "B15-LLAMA-METHOD-SRC041",
+    "kind": "METHOD",
+    "baseline_position_id": "B15-LLAMA-BASE-SRC041",
+    "mapping_position_ids": [
+      "B15-LLAMA-FIRST_YAMADA-SRC041",
+      "B15-LLAMA-FIRST_SUZUKI-SRC041"
+    ],
+    "rule": "both inversions determinate and equal else exact baseline",
+    "new_calls": 0
+  },
+  {
+    "position_id": "B15-LLAMA-METHOD-SRC042",
+    "kind": "METHOD",
+    "baseline_position_id": "B15-LLAMA-BASE-SRC042",
+    "mapping_position_ids": [
+      "B15-LLAMA-FIRST_YAMADA-SRC042",
+      "B15-LLAMA-FIRST_SUZUKI-SRC042"
+    ],
+    "rule": "both inversions determinate and equal else exact baseline",
+    "new_calls": 0
+  },
+  {
+    "position_id": "B15-LLAMA-METHOD-SRC043",
+    "kind": "METHOD",
+    "baseline_position_id": "B15-LLAMA-BASE-SRC043",
+    "mapping_position_ids": [
+      "B15-LLAMA-FIRST_YAMADA-SRC043",
+      "B15-LLAMA-FIRST_SUZUKI-SRC043"
+    ],
+    "rule": "both inversions determinate and equal else exact baseline",
+    "new_calls": 0
+  },
+  {
+    "position_id": "B15-LLAMA-METHOD-SRC044",
+    "kind": "METHOD",
+    "baseline_position_id": "B15-LLAMA-BASE-SRC044",
+    "mapping_position_ids": [
+      "B15-LLAMA-FIRST_YAMADA-SRC044",
+      "B15-LLAMA-FIRST_SUZUKI-SRC044"
+    ],
+    "rule": "both inversions determinate and equal else exact baseline",
+    "new_calls": 0
+  },
+  {
+    "position_id": "B15-LLAMA-METHOD-SRC045",
+    "kind": "METHOD",
+    "baseline_position_id": "B15-LLAMA-BASE-SRC045",
+    "mapping_position_ids": [
+      "B15-LLAMA-FIRST_YAMADA-SRC045",
+      "B15-LLAMA-FIRST_SUZUKI-SRC045"
+    ],
+    "rule": "both inversions determinate and equal else exact baseline",
+    "new_calls": 0
+  },
+  {
+    "position_id": "B15-LLAMA-METHOD-SRC046",
+    "kind": "METHOD",
+    "baseline_position_id": "B15-LLAMA-BASE-SRC046",
+    "mapping_position_ids": [
+      "B15-LLAMA-FIRST_YAMADA-SRC046",
+      "B15-LLAMA-FIRST_SUZUKI-SRC046"
+    ],
+    "rule": "both inversions determinate and equal else exact baseline",
+    "new_calls": 0
+  },
+  {
+    "position_id": "B15-LLAMA-METHOD-SRC047",
+    "kind": "METHOD",
+    "baseline_position_id": "B15-LLAMA-BASE-SRC047",
+    "mapping_position_ids": [
+      "B15-LLAMA-FIRST_YAMADA-SRC047",
+      "B15-LLAMA-FIRST_SUZUKI-SRC047"
+    ],
+    "rule": "both inversions determinate and equal else exact baseline",
+    "new_calls": 0
+  },
+  {
+    "position_id": "B15-LLAMA-METHOD-SRC048",
+    "kind": "METHOD",
+    "baseline_position_id": "B15-LLAMA-BASE-SRC048",
+    "mapping_position_ids": [
+      "B15-LLAMA-FIRST_YAMADA-SRC048",
+      "B15-LLAMA-FIRST_SUZUKI-SRC048"
+    ],
+    "rule": "both inversions determinate and equal else exact baseline",
+    "new_calls": 0
+  },
+  {
+    "position_id": "B15-LLAMA-METHOD-SRC049",
+    "kind": "METHOD",
+    "baseline_position_id": "B15-LLAMA-BASE-SRC049",
+    "mapping_position_ids": [
+      "B15-LLAMA-FIRST_YAMADA-SRC049",
+      "B15-LLAMA-FIRST_SUZUKI-SRC049"
+    ],
+    "rule": "both inversions determinate and equal else exact baseline",
+    "new_calls": 0
+  },
+  {
+    "position_id": "B15-LLAMA-METHOD-SRC050",
+    "kind": "METHOD",
+    "baseline_position_id": "B15-LLAMA-BASE-SRC050",
+    "mapping_position_ids": [
+      "B15-LLAMA-FIRST_YAMADA-SRC050",
+      "B15-LLAMA-FIRST_SUZUKI-SRC050"
+    ],
+    "rule": "both inversions determinate and equal else exact baseline",
+    "new_calls": 0
+  },
+  {
+    "position_id": "B15-LLAMA-METHOD-SRC051",
+    "kind": "METHOD",
+    "baseline_position_id": "B15-LLAMA-BASE-SRC051",
+    "mapping_position_ids": [
+      "B15-LLAMA-FIRST_YAMADA-SRC051",
+      "B15-LLAMA-FIRST_SUZUKI-SRC051"
+    ],
+    "rule": "both inversions determinate and equal else exact baseline",
+    "new_calls": 0
+  },
+  {
+    "position_id": "B15-LLAMA-METHOD-SRC052",
+    "kind": "METHOD",
+    "baseline_position_id": "B15-LLAMA-BASE-SRC052",
+    "mapping_position_ids": [
+      "B15-LLAMA-FIRST_YAMADA-SRC052",
+      "B15-LLAMA-FIRST_SUZUKI-SRC052"
+    ],
+    "rule": "both inversions determinate and equal else exact baseline",
+    "new_calls": 0
+  },
+  {
+    "position_id": "B15-LLAMA-METHOD-SRC053",
+    "kind": "METHOD",
+    "baseline_position_id": "B15-LLAMA-BASE-SRC053",
+    "mapping_position_ids": [
+      "B15-LLAMA-FIRST_YAMADA-SRC053",
+      "B15-LLAMA-FIRST_SUZUKI-SRC053"
+    ],
+    "rule": "both inversions determinate and equal else exact baseline",
+    "new_calls": 0
+  },
+  {
+    "position_id": "B15-LLAMA-METHOD-SRC054",
+    "kind": "METHOD",
+    "baseline_position_id": "B15-LLAMA-BASE-SRC054",
+    "mapping_position_ids": [
+      "B15-LLAMA-FIRST_YAMADA-SRC054",
+      "B15-LLAMA-FIRST_SUZUKI-SRC054"
+    ],
+    "rule": "both inversions determinate and equal else exact baseline",
+    "new_calls": 0
+  },
+  {
+    "position_id": "B15-LLAMA-METHOD-SRC055",
+    "kind": "METHOD",
+    "baseline_position_id": "B15-LLAMA-BASE-SRC055",
+    "mapping_position_ids": [
+      "B15-LLAMA-FIRST_YAMADA-SRC055",
+      "B15-LLAMA-FIRST_SUZUKI-SRC055"
+    ],
+    "rule": "both inversions determinate and equal else exact baseline",
+    "new_calls": 0
+  },
+  {
+    "position_id": "B15-LLAMA-METHOD-SRC056",
+    "kind": "METHOD",
+    "baseline_position_id": "B15-LLAMA-BASE-SRC056",
+    "mapping_position_ids": [
+      "B15-LLAMA-FIRST_YAMADA-SRC056",
+      "B15-LLAMA-FIRST_SUZUKI-SRC056"
+    ],
+    "rule": "both inversions determinate and equal else exact baseline",
+    "new_calls": 0
+  },
+  {
+    "position_id": "B15-LLAMA-METHOD-SRC057",
+    "kind": "METHOD",
+    "baseline_position_id": "B15-LLAMA-BASE-SRC057",
+    "mapping_position_ids": [
+      "B15-LLAMA-FIRST_YAMADA-SRC057",
+      "B15-LLAMA-FIRST_SUZUKI-SRC057"
+    ],
+    "rule": "both inversions determinate and equal else exact baseline",
+    "new_calls": 0
+  },
+  {
+    "position_id": "B15-LLAMA-METHOD-SRC058",
+    "kind": "METHOD",
+    "baseline_position_id": "B15-LLAMA-BASE-SRC058",
+    "mapping_position_ids": [
+      "B15-LLAMA-FIRST_YAMADA-SRC058",
+      "B15-LLAMA-FIRST_SUZUKI-SRC058"
+    ],
+    "rule": "both inversions determinate and equal else exact baseline",
+    "new_calls": 0
+  },
+  {
+    "position_id": "B15-LLAMA-METHOD-SRC059",
+    "kind": "METHOD",
+    "baseline_position_id": "B15-LLAMA-BASE-SRC059",
+    "mapping_position_ids": [
+      "B15-LLAMA-FIRST_YAMADA-SRC059",
+      "B15-LLAMA-FIRST_SUZUKI-SRC059"
+    ],
+    "rule": "both inversions determinate and equal else exact baseline",
+    "new_calls": 0
+  },
+  {
+    "position_id": "B15-LLAMA-METHOD-SRC060",
+    "kind": "METHOD",
+    "baseline_position_id": "B15-LLAMA-BASE-SRC060",
+    "mapping_position_ids": [
+      "B15-LLAMA-FIRST_YAMADA-SRC060",
+      "B15-LLAMA-FIRST_SUZUKI-SRC060"
+    ],
+    "rule": "both inversions determinate and equal else exact baseline",
+    "new_calls": 0
+  },
+  {
+    "position_id": "B15-LLAMA-METHOD-SRC061",
+    "kind": "METHOD",
+    "baseline_position_id": "B15-LLAMA-BASE-SRC061",
+    "mapping_position_ids": [
+      "B15-LLAMA-FIRST_YAMADA-SRC061",
+      "B15-LLAMA-FIRST_SUZUKI-SRC061"
+    ],
+    "rule": "both inversions determinate and equal else exact baseline",
+    "new_calls": 0
+  },
+  {
+    "position_id": "B15-LLAMA-METHOD-SRC062",
+    "kind": "METHOD",
+    "baseline_position_id": "B15-LLAMA-BASE-SRC062",
+    "mapping_position_ids": [
+      "B15-LLAMA-FIRST_YAMADA-SRC062",
+      "B15-LLAMA-FIRST_SUZUKI-SRC062"
+    ],
+    "rule": "both inversions determinate and equal else exact baseline",
+    "new_calls": 0
+  },
+  {
+    "position_id": "B15-LLAMA-METHOD-SRC063",
+    "kind": "METHOD",
+    "baseline_position_id": "B15-LLAMA-BASE-SRC063",
+    "mapping_position_ids": [
+      "B15-LLAMA-FIRST_YAMADA-SRC063",
+      "B15-LLAMA-FIRST_SUZUKI-SRC063"
+    ],
+    "rule": "both inversions determinate and equal else exact baseline",
+    "new_calls": 0
+  },
+  {
+    "position_id": "B15-LLAMA-METHOD-SRC064",
+    "kind": "METHOD",
+    "baseline_position_id": "B15-LLAMA-BASE-SRC064",
+    "mapping_position_ids": [
+      "B15-LLAMA-FIRST_YAMADA-SRC064",
+      "B15-LLAMA-FIRST_SUZUKI-SRC064"
+    ],
+    "rule": "both inversions determinate and equal else exact baseline",
+    "new_calls": 0
+  },
+  {
+    "position_id": "B15-LLAMA-METHOD-SRC065",
+    "kind": "METHOD",
+    "baseline_position_id": "B15-LLAMA-BASE-SRC065",
+    "mapping_position_ids": [
+      "B15-LLAMA-FIRST_YAMADA-SRC065",
+      "B15-LLAMA-FIRST_SUZUKI-SRC065"
+    ],
+    "rule": "both inversions determinate and equal else exact baseline",
+    "new_calls": 0
+  },
+  {
+    "position_id": "B15-LLAMA-METHOD-SRC066",
+    "kind": "METHOD",
+    "baseline_position_id": "B15-LLAMA-BASE-SRC066",
+    "mapping_position_ids": [
+      "B15-LLAMA-FIRST_YAMADA-SRC066",
+      "B15-LLAMA-FIRST_SUZUKI-SRC066"
+    ],
+    "rule": "both inversions determinate and equal else exact baseline",
+    "new_calls": 0
+  },
+  {
+    "position_id": "B15-LLAMA-METHOD-SRC067",
+    "kind": "METHOD",
+    "baseline_position_id": "B15-LLAMA-BASE-SRC067",
+    "mapping_position_ids": [
+      "B15-LLAMA-FIRST_YAMADA-SRC067",
+      "B15-LLAMA-FIRST_SUZUKI-SRC067"
+    ],
+    "rule": "both inversions determinate and equal else exact baseline",
+    "new_calls": 0
+  },
+  {
+    "position_id": "B15-LLAMA-METHOD-SRC068",
+    "kind": "METHOD",
+    "baseline_position_id": "B15-LLAMA-BASE-SRC068",
+    "mapping_position_ids": [
+      "B15-LLAMA-FIRST_YAMADA-SRC068",
+      "B15-LLAMA-FIRST_SUZUKI-SRC068"
+    ],
+    "rule": "both inversions determinate and equal else exact baseline",
+    "new_calls": 0
+  },
+  {
+    "position_id": "B15-LLAMA-METHOD-SRC069",
+    "kind": "METHOD",
+    "baseline_position_id": "B15-LLAMA-BASE-SRC069",
+    "mapping_position_ids": [
+      "B15-LLAMA-FIRST_YAMADA-SRC069",
+      "B15-LLAMA-FIRST_SUZUKI-SRC069"
+    ],
+    "rule": "both inversions determinate and equal else exact baseline",
+    "new_calls": 0
+  },
+  {
+    "position_id": "B15-LLAMA-METHOD-SRC070",
+    "kind": "METHOD",
+    "baseline_position_id": "B15-LLAMA-BASE-SRC070",
+    "mapping_position_ids": [
+      "B15-LLAMA-FIRST_YAMADA-SRC070",
+      "B15-LLAMA-FIRST_SUZUKI-SRC070"
+    ],
+    "rule": "both inversions determinate and equal else exact baseline",
+    "new_calls": 0
+  },
+  {
+    "position_id": "B15-LLAMA-METHOD-SRC071",
+    "kind": "METHOD",
+    "baseline_position_id": "B15-LLAMA-BASE-SRC071",
+    "mapping_position_ids": [
+      "B15-LLAMA-FIRST_YAMADA-SRC071",
+      "B15-LLAMA-FIRST_SUZUKI-SRC071"
+    ],
+    "rule": "both inversions determinate and equal else exact baseline",
+    "new_calls": 0
+  },
+  {
+    "position_id": "B15-LLAMA-METHOD-SRC072",
+    "kind": "METHOD",
+    "baseline_position_id": "B15-LLAMA-BASE-SRC072",
+    "mapping_position_ids": [
+      "B15-LLAMA-FIRST_YAMADA-SRC072",
+      "B15-LLAMA-FIRST_SUZUKI-SRC072"
+    ],
+    "rule": "both inversions determinate and equal else exact baseline",
+    "new_calls": 0
+  },
+  {
+    "position_id": "B15-LLAMA-METHOD-SRC073",
+    "kind": "METHOD",
+    "baseline_position_id": "B15-LLAMA-BASE-SRC073",
+    "mapping_position_ids": [
+      "B15-LLAMA-FIRST_YAMADA-SRC073",
+      "B15-LLAMA-FIRST_SUZUKI-SRC073"
+    ],
+    "rule": "both inversions determinate and equal else exact baseline",
+    "new_calls": 0
+  },
+  {
+    "position_id": "B15-LLAMA-METHOD-SRC074",
+    "kind": "METHOD",
+    "baseline_position_id": "B15-LLAMA-BASE-SRC074",
+    "mapping_position_ids": [
+      "B15-LLAMA-FIRST_YAMADA-SRC074",
+      "B15-LLAMA-FIRST_SUZUKI-SRC074"
+    ],
+    "rule": "both inversions determinate and equal else exact baseline",
+    "new_calls": 0
+  },
+  {
+    "position_id": "B15-LLAMA-METHOD-SRC075",
+    "kind": "METHOD",
+    "baseline_position_id": "B15-LLAMA-BASE-SRC075",
+    "mapping_position_ids": [
+      "B15-LLAMA-FIRST_YAMADA-SRC075",
+      "B15-LLAMA-FIRST_SUZUKI-SRC075"
+    ],
+    "rule": "both inversions determinate and equal else exact baseline",
+    "new_calls": 0
+  },
+  {
+    "position_id": "B15-LLAMA-METHOD-SRC076",
+    "kind": "METHOD",
+    "baseline_position_id": "B15-LLAMA-BASE-SRC076",
+    "mapping_position_ids": [
+      "B15-LLAMA-FIRST_YAMADA-SRC076",
+      "B15-LLAMA-FIRST_SUZUKI-SRC076"
+    ],
+    "rule": "both inversions determinate and equal else exact baseline",
+    "new_calls": 0
+  },
+  {
+    "position_id": "B15-LLAMA-METHOD-SRC077",
+    "kind": "METHOD",
+    "baseline_position_id": "B15-LLAMA-BASE-SRC077",
+    "mapping_position_ids": [
+      "B15-LLAMA-FIRST_YAMADA-SRC077",
+      "B15-LLAMA-FIRST_SUZUKI-SRC077"
+    ],
+    "rule": "both inversions determinate and equal else exact baseline",
+    "new_calls": 0
+  },
+  {
+    "position_id": "B15-LLAMA-METHOD-SRC078",
+    "kind": "METHOD",
+    "baseline_position_id": "B15-LLAMA-BASE-SRC078",
+    "mapping_position_ids": [
+      "B15-LLAMA-FIRST_YAMADA-SRC078",
+      "B15-LLAMA-FIRST_SUZUKI-SRC078"
+    ],
+    "rule": "both inversions determinate and equal else exact baseline",
+    "new_calls": 0
+  },
+  {
+    "position_id": "B15-LLAMA-METHOD-SRC079",
+    "kind": "METHOD",
+    "baseline_position_id": "B15-LLAMA-BASE-SRC079",
+    "mapping_position_ids": [
+      "B15-LLAMA-FIRST_YAMADA-SRC079",
+      "B15-LLAMA-FIRST_SUZUKI-SRC079"
+    ],
+    "rule": "both inversions determinate and equal else exact baseline",
+    "new_calls": 0
+  },
+  {
+    "position_id": "B15-LLAMA-METHOD-SRC080",
+    "kind": "METHOD",
+    "baseline_position_id": "B15-LLAMA-BASE-SRC080",
+    "mapping_position_ids": [
+      "B15-LLAMA-FIRST_YAMADA-SRC080",
+      "B15-LLAMA-FIRST_SUZUKI-SRC080"
+    ],
+    "rule": "both inversions determinate and equal else exact baseline",
+    "new_calls": 0
+  },
+  {
+    "position_id": "B15-LLAMA-METHOD-SRC081",
+    "kind": "METHOD",
+    "baseline_position_id": "B15-LLAMA-BASE-SRC081",
+    "mapping_position_ids": [
+      "B15-LLAMA-FIRST_YAMADA-SRC081",
+      "B15-LLAMA-FIRST_SUZUKI-SRC081"
+    ],
+    "rule": "both inversions determinate and equal else exact baseline",
+    "new_calls": 0
+  },
+  {
+    "position_id": "B15-LLAMA-METHOD-SRC082",
+    "kind": "METHOD",
+    "baseline_position_id": "B15-LLAMA-BASE-SRC082",
+    "mapping_position_ids": [
+      "B15-LLAMA-FIRST_YAMADA-SRC082",
+      "B15-LLAMA-FIRST_SUZUKI-SRC082"
+    ],
+    "rule": "both inversions determinate and equal else exact baseline",
+    "new_calls": 0
+  },
+  {
+    "position_id": "B15-LLAMA-METHOD-SRC083",
+    "kind": "METHOD",
+    "baseline_position_id": "B15-LLAMA-BASE-SRC083",
+    "mapping_position_ids": [
+      "B15-LLAMA-FIRST_YAMADA-SRC083",
+      "B15-LLAMA-FIRST_SUZUKI-SRC083"
+    ],
+    "rule": "both inversions determinate and equal else exact baseline",
+    "new_calls": 0
+  },
+  {
+    "position_id": "B15-LLAMA-METHOD-SRC084",
+    "kind": "METHOD",
+    "baseline_position_id": "B15-LLAMA-BASE-SRC084",
+    "mapping_position_ids": [
+      "B15-LLAMA-FIRST_YAMADA-SRC084",
+      "B15-LLAMA-FIRST_SUZUKI-SRC084"
+    ],
+    "rule": "both inversions determinate and equal else exact baseline",
+    "new_calls": 0
+  },
+  {
+    "position_id": "B15-LLAMA-METHOD-SRC085",
+    "kind": "METHOD",
+    "baseline_position_id": "B15-LLAMA-BASE-SRC085",
+    "mapping_position_ids": [
+      "B15-LLAMA-FIRST_YAMADA-SRC085",
+      "B15-LLAMA-FIRST_SUZUKI-SRC085"
+    ],
+    "rule": "both inversions determinate and equal else exact baseline",
+    "new_calls": 0
+  },
+  {
+    "position_id": "B15-LLAMA-METHOD-SRC086",
+    "kind": "METHOD",
+    "baseline_position_id": "B15-LLAMA-BASE-SRC086",
+    "mapping_position_ids": [
+      "B15-LLAMA-FIRST_YAMADA-SRC086",
+      "B15-LLAMA-FIRST_SUZUKI-SRC086"
+    ],
+    "rule": "both inversions determinate and equal else exact baseline",
+    "new_calls": 0
+  },
+  {
+    "position_id": "B15-LLAMA-METHOD-SRC087",
+    "kind": "METHOD",
+    "baseline_position_id": "B15-LLAMA-BASE-SRC087",
+    "mapping_position_ids": [
+      "B15-LLAMA-FIRST_YAMADA-SRC087",
+      "B15-LLAMA-FIRST_SUZUKI-SRC087"
+    ],
+    "rule": "both inversions determinate and equal else exact baseline",
+    "new_calls": 0
+  },
+  {
+    "position_id": "B15-LLAMA-METHOD-SRC088",
+    "kind": "METHOD",
+    "baseline_position_id": "B15-LLAMA-BASE-SRC088",
+    "mapping_position_ids": [
+      "B15-LLAMA-FIRST_YAMADA-SRC088",
+      "B15-LLAMA-FIRST_SUZUKI-SRC088"
+    ],
+    "rule": "both inversions determinate and equal else exact baseline",
+    "new_calls": 0
+  },
+  {
+    "position_id": "B15-LLAMA-METHOD-SRC089",
+    "kind": "METHOD",
+    "baseline_position_id": "B15-LLAMA-BASE-SRC089",
+    "mapping_position_ids": [
+      "B15-LLAMA-FIRST_YAMADA-SRC089",
+      "B15-LLAMA-FIRST_SUZUKI-SRC089"
+    ],
+    "rule": "both inversions determinate and equal else exact baseline",
+    "new_calls": 0
+  },
+  {
+    "position_id": "B15-LLAMA-METHOD-SRC090",
+    "kind": "METHOD",
+    "baseline_position_id": "B15-LLAMA-BASE-SRC090",
+    "mapping_position_ids": [
+      "B15-LLAMA-FIRST_YAMADA-SRC090",
+      "B15-LLAMA-FIRST_SUZUKI-SRC090"
+    ],
+    "rule": "both inversions determinate and equal else exact baseline",
+    "new_calls": 0
+  },
+  {
+    "position_id": "B15-LLAMA-METHOD-SRC091",
+    "kind": "METHOD",
+    "baseline_position_id": "B15-LLAMA-BASE-SRC091",
+    "mapping_position_ids": [
+      "B15-LLAMA-FIRST_YAMADA-SRC091",
+      "B15-LLAMA-FIRST_SUZUKI-SRC091"
+    ],
+    "rule": "both inversions determinate and equal else exact baseline",
+    "new_calls": 0
+  },
+  {
+    "position_id": "B15-LLAMA-METHOD-SRC092",
+    "kind": "METHOD",
+    "baseline_position_id": "B15-LLAMA-BASE-SRC092",
+    "mapping_position_ids": [
+      "B15-LLAMA-FIRST_YAMADA-SRC092",
+      "B15-LLAMA-FIRST_SUZUKI-SRC092"
+    ],
+    "rule": "both inversions determinate and equal else exact baseline",
+    "new_calls": 0
+  },
+  {
+    "position_id": "B15-LLAMA-METHOD-SRC093",
+    "kind": "METHOD",
+    "baseline_position_id": "B15-LLAMA-BASE-SRC093",
+    "mapping_position_ids": [
+      "B15-LLAMA-FIRST_YAMADA-SRC093",
+      "B15-LLAMA-FIRST_SUZUKI-SRC093"
+    ],
+    "rule": "both inversions determinate and equal else exact baseline",
+    "new_calls": 0
+  },
+  {
+    "position_id": "B15-LLAMA-METHOD-SRC094",
+    "kind": "METHOD",
+    "baseline_position_id": "B15-LLAMA-BASE-SRC094",
+    "mapping_position_ids": [
+      "B15-LLAMA-FIRST_YAMADA-SRC094",
+      "B15-LLAMA-FIRST_SUZUKI-SRC094"
+    ],
+    "rule": "both inversions determinate and equal else exact baseline",
+    "new_calls": 0
+  },
+  {
+    "position_id": "B15-LLAMA-METHOD-SRC095",
+    "kind": "METHOD",
+    "baseline_position_id": "B15-LLAMA-BASE-SRC095",
+    "mapping_position_ids": [
+      "B15-LLAMA-FIRST_YAMADA-SRC095",
+      "B15-LLAMA-FIRST_SUZUKI-SRC095"
+    ],
+    "rule": "both inversions determinate and equal else exact baseline",
+    "new_calls": 0
+  },
+  {
+    "position_id": "B15-LLAMA-METHOD-SRC096",
+    "kind": "METHOD",
+    "baseline_position_id": "B15-LLAMA-BASE-SRC096",
+    "mapping_position_ids": [
+      "B15-LLAMA-FIRST_YAMADA-SRC096",
+      "B15-LLAMA-FIRST_SUZUKI-SRC096"
+    ],
+    "rule": "both inversions determinate and equal else exact baseline",
+    "new_calls": 0
+  }
+]

@@ -1,0 +1,1847 @@
+{
+  "experiment_id": "EXP-20260908-B09",
+  "at": "2026-09-08T04:11:09.365877+00:00",
+  "new_outputs": 160,
+  "new_forwards": 2920,
+  "paid_usd": 0,
+  "finishes": {
+    "EOS": 160
+  },
+  "scoring_identity": "COORDINATOR_AI_NOT_INDEPENDENT_HUMAN_GOLD",
+  "stats": [
+    {
+      "representation": "NAMES",
+      "mapping": "MAP12",
+      "n": 40,
+      "components": {
+        "occurrence": {
+          "C": 40,
+          "W": 0,
+          "U": 0
+        },
+        "role_a": {
+          "C": 40,
+          "W": 0,
+          "U": 0
+        },
+        "role_b": {
+          "C": 40,
+          "W": 0,
+          "U": 0
+        },
+        "participant": {
+          "C": 40,
+          "W": 0,
+          "U": 0
+        },
+        "record": {
+          "C": 40,
+          "W": 0,
+          "U": 0
+        }
+      },
+      "format": {
+        "PASS": 40
+      }
+    },
+    {
+      "representation": "NAMES",
+      "mapping": "MAP21",
+      "n": 40,
+      "components": {
+        "occurrence": {
+          "C": 40,
+          "W": 0,
+          "U": 0
+        },
+        "role_a": {
+          "C": 40,
+          "W": 0,
+          "U": 0
+        },
+        "role_b": {
+          "C": 40,
+          "W": 0,
+          "U": 0
+        },
+        "participant": {
+          "C": 40,
+          "W": 0,
+          "U": 0
+        },
+        "record": {
+          "C": 40,
+          "W": 0,
+          "U": 0
+        }
+      },
+      "format": {
+        "PASS": 40
+      }
+    },
+    {
+      "representation": "IDS",
+      "mapping": "MAP12",
+      "n": 40,
+      "components": {
+        "occurrence": {
+          "C": 40,
+          "W": 0,
+          "U": 0
+        },
+        "role_a": {
+          "C": 40,
+          "W": 0,
+          "U": 0
+        },
+        "role_b": {
+          "C": 40,
+          "W": 0,
+          "U": 0
+        },
+        "participant": {
+          "C": 40,
+          "W": 0,
+          "U": 0
+        },
+        "record": {
+          "C": 40,
+          "W": 0,
+          "U": 0
+        }
+      },
+      "format": {
+        "PASS": 40
+      }
+    },
+    {
+      "representation": "IDS",
+      "mapping": "MAP21",
+      "n": 40,
+      "components": {
+        "occurrence": {
+          "C": 40,
+          "W": 0,
+          "U": 0
+        },
+        "role_a": {
+          "C": 40,
+          "W": 0,
+          "U": 0
+        },
+        "role_b": {
+          "C": 40,
+          "W": 0,
+          "U": 0
+        },
+        "participant": {
+          "C": 40,
+          "W": 0,
+          "U": 0
+        },
+        "record": {
+          "C": 40,
+          "W": 0,
+          "U": 0
+        }
+      },
+      "format": {
+        "PASS": 40
+      }
+    }
+  ],
+  "stratified": [
+    {
+      "representation": "NAMES",
+      "mapping": "MAP12",
+      "dimension": "variant",
+      "value": "BASE",
+      "n": 8,
+      "components": {
+        "occurrence": {
+          "C": 8,
+          "W": 0,
+          "U": 0
+        },
+        "role_a": {
+          "C": 8,
+          "W": 0,
+          "U": 0
+        },
+        "role_b": {
+          "C": 8,
+          "W": 0,
+          "U": 0
+        },
+        "participant": {
+          "C": 8,
+          "W": 0,
+          "U": 0
+        },
+        "record": {
+          "C": 8,
+          "W": 0,
+          "U": 0
+        }
+      }
+    },
+    {
+      "representation": "NAMES",
+      "mapping": "MAP12",
+      "dimension": "variant",
+      "value": "NEGATED",
+      "n": 8,
+      "components": {
+        "occurrence": {
+          "C": 8,
+          "W": 0,
+          "U": 0
+        },
+        "role_a": {
+          "C": 8,
+          "W": 0,
+          "U": 0
+        },
+        "role_b": {
+          "C": 8,
+          "W": 0,
+          "U": 0
+        },
+        "participant": {
+          "C": 8,
+          "W": 0,
+          "U": 0
+        },
+        "record": {
+          "C": 8,
+          "W": 0,
+          "U": 0
+        }
+      }
+    },
+    {
+      "representation": "NAMES",
+      "mapping": "MAP12",
+      "dimension": "variant",
+      "value": "PARAPHRASE",
+      "n": 8,
+      "components": {
+        "occurrence": {
+          "C": 8,
+          "W": 0,
+          "U": 0
+        },
+        "role_a": {
+          "C": 8,
+          "W": 0,
+          "U": 0
+        },
+        "role_b": {
+          "C": 8,
+          "W": 0,
+          "U": 0
+        },
+        "participant": {
+          "C": 8,
+          "W": 0,
+          "U": 0
+        },
+        "record": {
+          "C": 8,
+          "W": 0,
+          "U": 0
+        }
+      }
+    },
+    {
+      "representation": "NAMES",
+      "mapping": "MAP12",
+      "dimension": "variant",
+      "value": "ROLE_SWAP",
+      "n": 8,
+      "components": {
+        "occurrence": {
+          "C": 8,
+          "W": 0,
+          "U": 0
+        },
+        "role_a": {
+          "C": 8,
+          "W": 0,
+          "U": 0
+        },
+        "role_b": {
+          "C": 8,
+          "W": 0,
+          "U": 0
+        },
+        "participant": {
+          "C": 8,
+          "W": 0,
+          "U": 0
+        },
+        "record": {
+          "C": 8,
+          "W": 0,
+          "U": 0
+        }
+      }
+    },
+    {
+      "representation": "NAMES",
+      "mapping": "MAP12",
+      "dimension": "variant",
+      "value": "UNRESOLVED",
+      "n": 8,
+      "components": {
+        "occurrence": {
+          "C": 8,
+          "W": 0,
+          "U": 0
+        },
+        "role_a": {
+          "C": 8,
+          "W": 0,
+          "U": 0
+        },
+        "role_b": {
+          "C": 8,
+          "W": 0,
+          "U": 0
+        },
+        "participant": {
+          "C": 8,
+          "W": 0,
+          "U": 0
+        },
+        "record": {
+          "C": 8,
+          "W": 0,
+          "U": 0
+        }
+      }
+    },
+    {
+      "representation": "NAMES",
+      "mapping": "MAP12",
+      "dimension": "domain",
+      "value": "give",
+      "n": 10,
+      "components": {
+        "occurrence": {
+          "C": 10,
+          "W": 0,
+          "U": 0
+        },
+        "role_a": {
+          "C": 10,
+          "W": 0,
+          "U": 0
+        },
+        "role_b": {
+          "C": 10,
+          "W": 0,
+          "U": 0
+        },
+        "participant": {
+          "C": 10,
+          "W": 0,
+          "U": 0
+        },
+        "record": {
+          "C": 10,
+          "W": 0,
+          "U": 0
+        }
+      }
+    },
+    {
+      "representation": "NAMES",
+      "mapping": "MAP12",
+      "dimension": "domain",
+      "value": "invite",
+      "n": 10,
+      "components": {
+        "occurrence": {
+          "C": 10,
+          "W": 0,
+          "U": 0
+        },
+        "role_a": {
+          "C": 10,
+          "W": 0,
+          "U": 0
+        },
+        "role_b": {
+          "C": 10,
+          "W": 0,
+          "U": 0
+        },
+        "participant": {
+          "C": 10,
+          "W": 0,
+          "U": 0
+        },
+        "record": {
+          "C": 10,
+          "W": 0,
+          "U": 0
+        }
+      }
+    },
+    {
+      "representation": "NAMES",
+      "mapping": "MAP12",
+      "dimension": "domain",
+      "value": "lend",
+      "n": 10,
+      "components": {
+        "occurrence": {
+          "C": 10,
+          "W": 0,
+          "U": 0
+        },
+        "role_a": {
+          "C": 10,
+          "W": 0,
+          "U": 0
+        },
+        "role_b": {
+          "C": 10,
+          "W": 0,
+          "U": 0
+        },
+        "participant": {
+          "C": 10,
+          "W": 0,
+          "U": 0
+        },
+        "record": {
+          "C": 10,
+          "W": 0,
+          "U": 0
+        }
+      }
+    },
+    {
+      "representation": "NAMES",
+      "mapping": "MAP12",
+      "dimension": "domain",
+      "value": "sell",
+      "n": 10,
+      "components": {
+        "occurrence": {
+          "C": 10,
+          "W": 0,
+          "U": 0
+        },
+        "role_a": {
+          "C": 10,
+          "W": 0,
+          "U": 0
+        },
+        "role_b": {
+          "C": 10,
+          "W": 0,
+          "U": 0
+        },
+        "participant": {
+          "C": 10,
+          "W": 0,
+          "U": 0
+        },
+        "record": {
+          "C": 10,
+          "W": 0,
+          "U": 0
+        }
+      }
+    },
+    {
+      "representation": "NAMES",
+      "mapping": "MAP21",
+      "dimension": "variant",
+      "value": "BASE",
+      "n": 8,
+      "components": {
+        "occurrence": {
+          "C": 8,
+          "W": 0,
+          "U": 0
+        },
+        "role_a": {
+          "C": 8,
+          "W": 0,
+          "U": 0
+        },
+        "role_b": {
+          "C": 8,
+          "W": 0,
+          "U": 0
+        },
+        "participant": {
+          "C": 8,
+          "W": 0,
+          "U": 0
+        },
+        "record": {
+          "C": 8,
+          "W": 0,
+          "U": 0
+        }
+      }
+    },
+    {
+      "representation": "NAMES",
+      "mapping": "MAP21",
+      "dimension": "variant",
+      "value": "NEGATED",
+      "n": 8,
+      "components": {
+        "occurrence": {
+          "C": 8,
+          "W": 0,
+          "U": 0
+        },
+        "role_a": {
+          "C": 8,
+          "W": 0,
+          "U": 0
+        },
+        "role_b": {
+          "C": 8,
+          "W": 0,
+          "U": 0
+        },
+        "participant": {
+          "C": 8,
+          "W": 0,
+          "U": 0
+        },
+        "record": {
+          "C": 8,
+          "W": 0,
+          "U": 0
+        }
+      }
+    },
+    {
+      "representation": "NAMES",
+      "mapping": "MAP21",
+      "dimension": "variant",
+      "value": "PARAPHRASE",
+      "n": 8,
+      "components": {
+        "occurrence": {
+          "C": 8,
+          "W": 0,
+          "U": 0
+        },
+        "role_a": {
+          "C": 8,
+          "W": 0,
+          "U": 0
+        },
+        "role_b": {
+          "C": 8,
+          "W": 0,
+          "U": 0
+        },
+        "participant": {
+          "C": 8,
+          "W": 0,
+          "U": 0
+        },
+        "record": {
+          "C": 8,
+          "W": 0,
+          "U": 0
+        }
+      }
+    },
+    {
+      "representation": "NAMES",
+      "mapping": "MAP21",
+      "dimension": "variant",
+      "value": "ROLE_SWAP",
+      "n": 8,
+      "components": {
+        "occurrence": {
+          "C": 8,
+          "W": 0,
+          "U": 0
+        },
+        "role_a": {
+          "C": 8,
+          "W": 0,
+          "U": 0
+        },
+        "role_b": {
+          "C": 8,
+          "W": 0,
+          "U": 0
+        },
+        "participant": {
+          "C": 8,
+          "W": 0,
+          "U": 0
+        },
+        "record": {
+          "C": 8,
+          "W": 0,
+          "U": 0
+        }
+      }
+    },
+    {
+      "representation": "NAMES",
+      "mapping": "MAP21",
+      "dimension": "variant",
+      "value": "UNRESOLVED",
+      "n": 8,
+      "components": {
+        "occurrence": {
+          "C": 8,
+          "W": 0,
+          "U": 0
+        },
+        "role_a": {
+          "C": 8,
+          "W": 0,
+          "U": 0
+        },
+        "role_b": {
+          "C": 8,
+          "W": 0,
+          "U": 0
+        },
+        "participant": {
+          "C": 8,
+          "W": 0,
+          "U": 0
+        },
+        "record": {
+          "C": 8,
+          "W": 0,
+          "U": 0
+        }
+      }
+    },
+    {
+      "representation": "NAMES",
+      "mapping": "MAP21",
+      "dimension": "domain",
+      "value": "give",
+      "n": 10,
+      "components": {
+        "occurrence": {
+          "C": 10,
+          "W": 0,
+          "U": 0
+        },
+        "role_a": {
+          "C": 10,
+          "W": 0,
+          "U": 0
+        },
+        "role_b": {
+          "C": 10,
+          "W": 0,
+          "U": 0
+        },
+        "participant": {
+          "C": 10,
+          "W": 0,
+          "U": 0
+        },
+        "record": {
+          "C": 10,
+          "W": 0,
+          "U": 0
+        }
+      }
+    },
+    {
+      "representation": "NAMES",
+      "mapping": "MAP21",
+      "dimension": "domain",
+      "value": "invite",
+      "n": 10,
+      "components": {
+        "occurrence": {
+          "C": 10,
+          "W": 0,
+          "U": 0
+        },
+        "role_a": {
+          "C": 10,
+          "W": 0,
+          "U": 0
+        },
+        "role_b": {
+          "C": 10,
+          "W": 0,
+          "U": 0
+        },
+        "participant": {
+          "C": 10,
+          "W": 0,
+          "U": 0
+        },
+        "record": {
+          "C": 10,
+          "W": 0,
+          "U": 0
+        }
+      }
+    },
+    {
+      "representation": "NAMES",
+      "mapping": "MAP21",
+      "dimension": "domain",
+      "value": "lend",
+      "n": 10,
+      "components": {
+        "occurrence": {
+          "C": 10,
+          "W": 0,
+          "U": 0
+        },
+        "role_a": {
+          "C": 10,
+          "W": 0,
+          "U": 0
+        },
+        "role_b": {
+          "C": 10,
+          "W": 0,
+          "U": 0
+        },
+        "participant": {
+          "C": 10,
+          "W": 0,
+          "U": 0
+        },
+        "record": {
+          "C": 10,
+          "W": 0,
+          "U": 0
+        }
+      }
+    },
+    {
+      "representation": "NAMES",
+      "mapping": "MAP21",
+      "dimension": "domain",
+      "value": "sell",
+      "n": 10,
+      "components": {
+        "occurrence": {
+          "C": 10,
+          "W": 0,
+          "U": 0
+        },
+        "role_a": {
+          "C": 10,
+          "W": 0,
+          "U": 0
+        },
+        "role_b": {
+          "C": 10,
+          "W": 0,
+          "U": 0
+        },
+        "participant": {
+          "C": 10,
+          "W": 0,
+          "U": 0
+        },
+        "record": {
+          "C": 10,
+          "W": 0,
+          "U": 0
+        }
+      }
+    },
+    {
+      "representation": "IDS",
+      "mapping": "MAP12",
+      "dimension": "variant",
+      "value": "BASE",
+      "n": 8,
+      "components": {
+        "occurrence": {
+          "C": 8,
+          "W": 0,
+          "U": 0
+        },
+        "role_a": {
+          "C": 8,
+          "W": 0,
+          "U": 0
+        },
+        "role_b": {
+          "C": 8,
+          "W": 0,
+          "U": 0
+        },
+        "participant": {
+          "C": 8,
+          "W": 0,
+          "U": 0
+        },
+        "record": {
+          "C": 8,
+          "W": 0,
+          "U": 0
+        }
+      }
+    },
+    {
+      "representation": "IDS",
+      "mapping": "MAP12",
+      "dimension": "variant",
+      "value": "NEGATED",
+      "n": 8,
+      "components": {
+        "occurrence": {
+          "C": 8,
+          "W": 0,
+          "U": 0
+        },
+        "role_a": {
+          "C": 8,
+          "W": 0,
+          "U": 0
+        },
+        "role_b": {
+          "C": 8,
+          "W": 0,
+          "U": 0
+        },
+        "participant": {
+          "C": 8,
+          "W": 0,
+          "U": 0
+        },
+        "record": {
+          "C": 8,
+          "W": 0,
+          "U": 0
+        }
+      }
+    },
+    {
+      "representation": "IDS",
+      "mapping": "MAP12",
+      "dimension": "variant",
+      "value": "PARAPHRASE",
+      "n": 8,
+      "components": {
+        "occurrence": {
+          "C": 8,
+          "W": 0,
+          "U": 0
+        },
+        "role_a": {
+          "C": 8,
+          "W": 0,
+          "U": 0
+        },
+        "role_b": {
+          "C": 8,
+          "W": 0,
+          "U": 0
+        },
+        "participant": {
+          "C": 8,
+          "W": 0,
+          "U": 0
+        },
+        "record": {
+          "C": 8,
+          "W": 0,
+          "U": 0
+        }
+      }
+    },
+    {
+      "representation": "IDS",
+      "mapping": "MAP12",
+      "dimension": "variant",
+      "value": "ROLE_SWAP",
+      "n": 8,
+      "components": {
+        "occurrence": {
+          "C": 8,
+          "W": 0,
+          "U": 0
+        },
+        "role_a": {
+          "C": 8,
+          "W": 0,
+          "U": 0
+        },
+        "role_b": {
+          "C": 8,
+          "W": 0,
+          "U": 0
+        },
+        "participant": {
+          "C": 8,
+          "W": 0,
+          "U": 0
+        },
+        "record": {
+          "C": 8,
+          "W": 0,
+          "U": 0
+        }
+      }
+    },
+    {
+      "representation": "IDS",
+      "mapping": "MAP12",
+      "dimension": "variant",
+      "value": "UNRESOLVED",
+      "n": 8,
+      "components": {
+        "occurrence": {
+          "C": 8,
+          "W": 0,
+          "U": 0
+        },
+        "role_a": {
+          "C": 8,
+          "W": 0,
+          "U": 0
+        },
+        "role_b": {
+          "C": 8,
+          "W": 0,
+          "U": 0
+        },
+        "participant": {
+          "C": 8,
+          "W": 0,
+          "U": 0
+        },
+        "record": {
+          "C": 8,
+          "W": 0,
+          "U": 0
+        }
+      }
+    },
+    {
+      "representation": "IDS",
+      "mapping": "MAP12",
+      "dimension": "domain",
+      "value": "give",
+      "n": 10,
+      "components": {
+        "occurrence": {
+          "C": 10,
+          "W": 0,
+          "U": 0
+        },
+        "role_a": {
+          "C": 10,
+          "W": 0,
+          "U": 0
+        },
+        "role_b": {
+          "C": 10,
+          "W": 0,
+          "U": 0
+        },
+        "participant": {
+          "C": 10,
+          "W": 0,
+          "U": 0
+        },
+        "record": {
+          "C": 10,
+          "W": 0,
+          "U": 0
+        }
+      }
+    },
+    {
+      "representation": "IDS",
+      "mapping": "MAP12",
+      "dimension": "domain",
+      "value": "invite",
+      "n": 10,
+      "components": {
+        "occurrence": {
+          "C": 10,
+          "W": 0,
+          "U": 0
+        },
+        "role_a": {
+          "C": 10,
+          "W": 0,
+          "U": 0
+        },
+        "role_b": {
+          "C": 10,
+          "W": 0,
+          "U": 0
+        },
+        "participant": {
+          "C": 10,
+          "W": 0,
+          "U": 0
+        },
+        "record": {
+          "C": 10,
+          "W": 0,
+          "U": 0
+        }
+      }
+    },
+    {
+      "representation": "IDS",
+      "mapping": "MAP12",
+      "dimension": "domain",
+      "value": "lend",
+      "n": 10,
+      "components": {
+        "occurrence": {
+          "C": 10,
+          "W": 0,
+          "U": 0
+        },
+        "role_a": {
+          "C": 10,
+          "W": 0,
+          "U": 0
+        },
+        "role_b": {
+          "C": 10,
+          "W": 0,
+          "U": 0
+        },
+        "participant": {
+          "C": 10,
+          "W": 0,
+          "U": 0
+        },
+        "record": {
+          "C": 10,
+          "W": 0,
+          "U": 0
+        }
+      }
+    },
+    {
+      "representation": "IDS",
+      "mapping": "MAP12",
+      "dimension": "domain",
+      "value": "sell",
+      "n": 10,
+      "components": {
+        "occurrence": {
+          "C": 10,
+          "W": 0,
+          "U": 0
+        },
+        "role_a": {
+          "C": 10,
+          "W": 0,
+          "U": 0
+        },
+        "role_b": {
+          "C": 10,
+          "W": 0,
+          "U": 0
+        },
+        "participant": {
+          "C": 10,
+          "W": 0,
+          "U": 0
+        },
+        "record": {
+          "C": 10,
+          "W": 0,
+          "U": 0
+        }
+      }
+    },
+    {
+      "representation": "IDS",
+      "mapping": "MAP21",
+      "dimension": "variant",
+      "value": "BASE",
+      "n": 8,
+      "components": {
+        "occurrence": {
+          "C": 8,
+          "W": 0,
+          "U": 0
+        },
+        "role_a": {
+          "C": 8,
+          "W": 0,
+          "U": 0
+        },
+        "role_b": {
+          "C": 8,
+          "W": 0,
+          "U": 0
+        },
+        "participant": {
+          "C": 8,
+          "W": 0,
+          "U": 0
+        },
+        "record": {
+          "C": 8,
+          "W": 0,
+          "U": 0
+        }
+      }
+    },
+    {
+      "representation": "IDS",
+      "mapping": "MAP21",
+      "dimension": "variant",
+      "value": "NEGATED",
+      "n": 8,
+      "components": {
+        "occurrence": {
+          "C": 8,
+          "W": 0,
+          "U": 0
+        },
+        "role_a": {
+          "C": 8,
+          "W": 0,
+          "U": 0
+        },
+        "role_b": {
+          "C": 8,
+          "W": 0,
+          "U": 0
+        },
+        "participant": {
+          "C": 8,
+          "W": 0,
+          "U": 0
+        },
+        "record": {
+          "C": 8,
+          "W": 0,
+          "U": 0
+        }
+      }
+    },
+    {
+      "representation": "IDS",
+      "mapping": "MAP21",
+      "dimension": "variant",
+      "value": "PARAPHRASE",
+      "n": 8,
+      "components": {
+        "occurrence": {
+          "C": 8,
+          "W": 0,
+          "U": 0
+        },
+        "role_a": {
+          "C": 8,
+          "W": 0,
+          "U": 0
+        },
+        "role_b": {
+          "C": 8,
+          "W": 0,
+          "U": 0
+        },
+        "participant": {
+          "C": 8,
+          "W": 0,
+          "U": 0
+        },
+        "record": {
+          "C": 8,
+          "W": 0,
+          "U": 0
+        }
+      }
+    },
+    {
+      "representation": "IDS",
+      "mapping": "MAP21",
+      "dimension": "variant",
+      "value": "ROLE_SWAP",
+      "n": 8,
+      "components": {
+        "occurrence": {
+          "C": 8,
+          "W": 0,
+          "U": 0
+        },
+        "role_a": {
+          "C": 8,
+          "W": 0,
+          "U": 0
+        },
+        "role_b": {
+          "C": 8,
+          "W": 0,
+          "U": 0
+        },
+        "participant": {
+          "C": 8,
+          "W": 0,
+          "U": 0
+        },
+        "record": {
+          "C": 8,
+          "W": 0,
+          "U": 0
+        }
+      }
+    },
+    {
+      "representation": "IDS",
+      "mapping": "MAP21",
+      "dimension": "variant",
+      "value": "UNRESOLVED",
+      "n": 8,
+      "components": {
+        "occurrence": {
+          "C": 8,
+          "W": 0,
+          "U": 0
+        },
+        "role_a": {
+          "C": 8,
+          "W": 0,
+          "U": 0
+        },
+        "role_b": {
+          "C": 8,
+          "W": 0,
+          "U": 0
+        },
+        "participant": {
+          "C": 8,
+          "W": 0,
+          "U": 0
+        },
+        "record": {
+          "C": 8,
+          "W": 0,
+          "U": 0
+        }
+      }
+    },
+    {
+      "representation": "IDS",
+      "mapping": "MAP21",
+      "dimension": "domain",
+      "value": "give",
+      "n": 10,
+      "components": {
+        "occurrence": {
+          "C": 10,
+          "W": 0,
+          "U": 0
+        },
+        "role_a": {
+          "C": 10,
+          "W": 0,
+          "U": 0
+        },
+        "role_b": {
+          "C": 10,
+          "W": 0,
+          "U": 0
+        },
+        "participant": {
+          "C": 10,
+          "W": 0,
+          "U": 0
+        },
+        "record": {
+          "C": 10,
+          "W": 0,
+          "U": 0
+        }
+      }
+    },
+    {
+      "representation": "IDS",
+      "mapping": "MAP21",
+      "dimension": "domain",
+      "value": "invite",
+      "n": 10,
+      "components": {
+        "occurrence": {
+          "C": 10,
+          "W": 0,
+          "U": 0
+        },
+        "role_a": {
+          "C": 10,
+          "W": 0,
+          "U": 0
+        },
+        "role_b": {
+          "C": 10,
+          "W": 0,
+          "U": 0
+        },
+        "participant": {
+          "C": 10,
+          "W": 0,
+          "U": 0
+        },
+        "record": {
+          "C": 10,
+          "W": 0,
+          "U": 0
+        }
+      }
+    },
+    {
+      "representation": "IDS",
+      "mapping": "MAP21",
+      "dimension": "domain",
+      "value": "lend",
+      "n": 10,
+      "components": {
+        "occurrence": {
+          "C": 10,
+          "W": 0,
+          "U": 0
+        },
+        "role_a": {
+          "C": 10,
+          "W": 0,
+          "U": 0
+        },
+        "role_b": {
+          "C": 10,
+          "W": 0,
+          "U": 0
+        },
+        "participant": {
+          "C": 10,
+          "W": 0,
+          "U": 0
+        },
+        "record": {
+          "C": 10,
+          "W": 0,
+          "U": 0
+        }
+      }
+    },
+    {
+      "representation": "IDS",
+      "mapping": "MAP21",
+      "dimension": "domain",
+      "value": "sell",
+      "n": 10,
+      "components": {
+        "occurrence": {
+          "C": 10,
+          "W": 0,
+          "U": 0
+        },
+        "role_a": {
+          "C": 10,
+          "W": 0,
+          "U": 0
+        },
+        "role_b": {
+          "C": 10,
+          "W": 0,
+          "U": 0
+        },
+        "participant": {
+          "C": 10,
+          "W": 0,
+          "U": 0
+        },
+        "record": {
+          "C": 10,
+          "W": 0,
+          "U": 0
+        }
+      }
+    }
+  ],
+  "groups": [
+    {
+      "family_id": "N01",
+      "representation": "NAMES",
+      "mapping": "MAP12",
+      "all_five_correct": true,
+      "semantic_tests": {
+        "PARAPHRASE": true,
+        "ROLE_SWAP": true,
+        "NEGATED": true,
+        "UNRESOLVED": true
+      }
+    },
+    {
+      "family_id": "N02",
+      "representation": "NAMES",
+      "mapping": "MAP12",
+      "all_five_correct": true,
+      "semantic_tests": {
+        "PARAPHRASE": true,
+        "ROLE_SWAP": true,
+        "NEGATED": true,
+        "UNRESOLVED": true
+      }
+    },
+    {
+      "family_id": "N03",
+      "representation": "NAMES",
+      "mapping": "MAP12",
+      "all_five_correct": true,
+      "semantic_tests": {
+        "PARAPHRASE": true,
+        "ROLE_SWAP": true,
+        "NEGATED": true,
+        "UNRESOLVED": true
+      }
+    },
+    {
+      "family_id": "N04",
+      "representation": "NAMES",
+      "mapping": "MAP12",
+      "all_five_correct": true,
+      "semantic_tests": {
+        "PARAPHRASE": true,
+        "ROLE_SWAP": true,
+        "NEGATED": true,
+        "UNRESOLVED": true
+      }
+    },
+    {
+      "family_id": "N05",
+      "representation": "NAMES",
+      "mapping": "MAP12",
+      "all_five_correct": true,
+      "semantic_tests": {
+        "PARAPHRASE": true,
+        "ROLE_SWAP": true,
+        "NEGATED": true,
+        "UNRESOLVED": true
+      }
+    },
+    {
+      "family_id": "N06",
+      "representation": "NAMES",
+      "mapping": "MAP12",
+      "all_five_correct": true,
+      "semantic_tests": {
+        "PARAPHRASE": true,
+        "ROLE_SWAP": true,
+        "NEGATED": true,
+        "UNRESOLVED": true
+      }
+    },
+    {
+      "family_id": "N07",
+      "representation": "NAMES",
+      "mapping": "MAP12",
+      "all_five_correct": true,
+      "semantic_tests": {
+        "PARAPHRASE": true,
+        "ROLE_SWAP": true,
+        "NEGATED": true,
+        "UNRESOLVED": true
+      }
+    },
+    {
+      "family_id": "N08",
+      "representation": "NAMES",
+      "mapping": "MAP12",
+      "all_five_correct": true,
+      "semantic_tests": {
+        "PARAPHRASE": true,
+        "ROLE_SWAP": true,
+        "NEGATED": true,
+        "UNRESOLVED": true
+      }
+    },
+    {
+      "family_id": "N01",
+      "representation": "NAMES",
+      "mapping": "MAP21",
+      "all_five_correct": true,
+      "semantic_tests": {
+        "PARAPHRASE": true,
+        "ROLE_SWAP": true,
+        "NEGATED": true,
+        "UNRESOLVED": true
+      }
+    },
+    {
+      "family_id": "N02",
+      "representation": "NAMES",
+      "mapping": "MAP21",
+      "all_five_correct": true,
+      "semantic_tests": {
+        "PARAPHRASE": true,
+        "ROLE_SWAP": true,
+        "NEGATED": true,
+        "UNRESOLVED": true
+      }
+    },
+    {
+      "family_id": "N03",
+      "representation": "NAMES",
+      "mapping": "MAP21",
+      "all_five_correct": true,
+      "semantic_tests": {
+        "PARAPHRASE": true,
+        "ROLE_SWAP": true,
+        "NEGATED": true,
+        "UNRESOLVED": true
+      }
+    },
+    {
+      "family_id": "N04",
+      "representation": "NAMES",
+      "mapping": "MAP21",
+      "all_five_correct": true,
+      "semantic_tests": {
+        "PARAPHRASE": true,
+        "ROLE_SWAP": true,
+        "NEGATED": true,
+        "UNRESOLVED": true
+      }
+    },
+    {
+      "family_id": "N05",
+      "representation": "NAMES",
+      "mapping": "MAP21",
+      "all_five_correct": true,
+      "semantic_tests": {
+        "PARAPHRASE": true,
+        "ROLE_SWAP": true,
+        "NEGATED": true,
+        "UNRESOLVED": true
+      }
+    },
+    {
+      "family_id": "N06",
+      "representation": "NAMES",
+      "mapping": "MAP21",
+      "all_five_correct": true,
+      "semantic_tests": {
+        "PARAPHRASE": true,
+        "ROLE_SWAP": true,
+        "NEGATED": true,
+        "UNRESOLVED": true
+      }
+    },
+    {
+      "family_id": "N07",
+      "representation": "NAMES",
+      "mapping": "MAP21",
+      "all_five_correct": true,
+      "semantic_tests": {
+        "PARAPHRASE": true,
+        "ROLE_SWAP": true,
+        "NEGATED": true,
+        "UNRESOLVED": true
+      }
+    },
+    {
+      "family_id": "N08",
+      "representation": "NAMES",
+      "mapping": "MAP21",
+      "all_five_correct": true,
+      "semantic_tests": {
+        "PARAPHRASE": true,
+        "ROLE_SWAP": true,
+        "NEGATED": true,
+        "UNRESOLVED": true
+      }
+    },
+    {
+      "family_id": "N01",
+      "representation": "IDS",
+      "mapping": "MAP12",
+      "all_five_correct": true,
+      "semantic_tests": {
+        "PARAPHRASE": true,
+        "ROLE_SWAP": true,
+        "NEGATED": true,
+        "UNRESOLVED": true
+      }
+    },
+    {
+      "family_id": "N02",
+      "representation": "IDS",
+      "mapping": "MAP12",
+      "all_five_correct": true,
+      "semantic_tests": {
+        "PARAPHRASE": true,
+        "ROLE_SWAP": true,
+        "NEGATED": true,
+        "UNRESOLVED": true
+      }
+    },
+    {
+      "family_id": "N03",
+      "representation": "IDS",
+      "mapping": "MAP12",
+      "all_five_correct": true,
+      "semantic_tests": {
+        "PARAPHRASE": true,
+        "ROLE_SWAP": true,
+        "NEGATED": true,
+        "UNRESOLVED": true
+      }
+    },
+    {
+      "family_id": "N04",
+      "representation": "IDS",
+      "mapping": "MAP12",
+      "all_five_correct": true,
+      "semantic_tests": {
+        "PARAPHRASE": true,
+        "ROLE_SWAP": true,
+        "NEGATED": true,
+        "UNRESOLVED": true
+      }
+    },
+    {
+      "family_id": "N05",
+      "representation": "IDS",
+      "mapping": "MAP12",
+      "all_five_correct": true,
+      "semantic_tests": {
+        "PARAPHRASE": true,
+        "ROLE_SWAP": true,
+        "NEGATED": true,
+        "UNRESOLVED": true
+      }
+    },
+    {
+      "family_id": "N06",
+      "representation": "IDS",
+      "mapping": "MAP12",
+      "all_five_correct": true,
+      "semantic_tests": {
+        "PARAPHRASE": true,
+        "ROLE_SWAP": true,
+        "NEGATED": true,
+        "UNRESOLVED": true
+      }
+    },
+    {
+      "family_id": "N07",
+      "representation": "IDS",
+      "mapping": "MAP12",
+      "all_five_correct": true,
+      "semantic_tests": {
+        "PARAPHRASE": true,
+        "ROLE_SWAP": true,
+        "NEGATED": true,
+        "UNRESOLVED": true
+      }
+    },
+    {
+      "family_id": "N08",
+      "representation": "IDS",
+      "mapping": "MAP12",
+      "all_five_correct": true,
+      "semantic_tests": {
+        "PARAPHRASE": true,
+        "ROLE_SWAP": true,
+        "NEGATED": true,
+        "UNRESOLVED": true
+      }
+    },
+    {
+      "family_id": "N01",
+      "representation": "IDS",
+      "mapping": "MAP21",
+      "all_five_correct": true,
+      "semantic_tests": {
+        "PARAPHRASE": true,
+        "ROLE_SWAP": true,
+        "NEGATED": true,
+        "UNRESOLVED": true
+      }
+    },
+    {
+      "family_id": "N02",
+      "representation": "IDS",
+      "mapping": "MAP21",
+      "all_five_correct": true,
+      "semantic_tests": {
+        "PARAPHRASE": true,
+        "ROLE_SWAP": true,
+        "NEGATED": true,
+        "UNRESOLVED": true
+      }
+    },
+    {
+      "family_id": "N03",
+      "representation": "IDS",
+      "mapping": "MAP21",
+      "all_five_correct": true,
+      "semantic_tests": {
+        "PARAPHRASE": true,
+        "ROLE_SWAP": true,
+        "NEGATED": true,
+        "UNRESOLVED": true
+      }
+    },
+    {
+      "family_id": "N04",
+      "representation": "IDS",
+      "mapping": "MAP21",
+      "all_five_correct": true,
+      "semantic_tests": {
+        "PARAPHRASE": true,
+        "ROLE_SWAP": true,
+        "NEGATED": true,
+        "UNRESOLVED": true
+      }
+    },
+    {
+      "family_id": "N05",
+      "representation": "IDS",
+      "mapping": "MAP21",
+      "all_five_correct": true,
+      "semantic_tests": {
+        "PARAPHRASE": true,
+        "ROLE_SWAP": true,
+        "NEGATED": true,
+        "UNRESOLVED": true
+      }
+    },
+    {
+      "family_id": "N06",
+      "representation": "IDS",
+      "mapping": "MAP21",
+      "all_five_correct": true,
+      "semantic_tests": {
+        "PARAPHRASE": true,
+        "ROLE_SWAP": true,
+        "NEGATED": true,
+        "UNRESOLVED": true
+      }
+    },
+    {
+      "family_id": "N07",
+      "representation": "IDS",
+      "mapping": "MAP21",
+      "all_five_correct": true,
+      "semantic_tests": {
+        "PARAPHRASE": true,
+        "ROLE_SWAP": true,
+        "NEGATED": true,
+        "UNRESOLVED": true
+      }
+    },
+    {
+      "family_id": "N08",
+      "representation": "IDS",
+      "mapping": "MAP21",
+      "all_five_correct": true,
+      "semantic_tests": {
+        "PARAPHRASE": true,
+        "ROLE_SWAP": true,
+        "NEGATED": true,
+        "UNRESOLVED": true
+      }
+    }
+  ],
+  "method_candidate": {
+    "pass": false,
+    "mapping_cells": [
+      {
+        "mapping": "MAP12",
+        "full_transitions": {
+          "C->C": 40
+        },
+        "net_full_rescue": 0,
+        "net_definite_rescue": 0,
+        "IDS_base_C": 8,
+        "NAMES_max_possible_full_gain": 0,
+        "benefit_ceiling_limited": true,
+        "component_harm_pairs": 0
+      },
+      {
+        "mapping": "MAP21",
+        "full_transitions": {
+          "C->C": 40
+        },
+        "net_full_rescue": 0,
+        "net_definite_rescue": 0,
+        "IDS_base_C": 8,
+        "NAMES_max_possible_full_gain": 0,
+        "benefit_ceiling_limited": true,
+        "component_harm_pairs": 0
+      }
+    ],
+    "rescue_domains": [],
+    "any_component_harm_pairs": 0,
+    "component_new_harms": {}
+  },
+  "stable_semantic_failure": {
+    "pass": false,
+    "sources": []
+  },
+  "mapping_sensitivity": [
+    {
+      "representation": "NAMES",
+      "direction": "MAP12->MAP21",
+      "harm_sources": [],
+      "n_sources": 0,
+      "definite_harm_sources": [],
+      "full_harm_sources": [],
+      "supported": false
+    },
+    {
+      "representation": "NAMES",
+      "direction": "MAP21->MAP12",
+      "harm_sources": [],
+      "n_sources": 0,
+      "definite_harm_sources": [],
+      "full_harm_sources": [],
+      "supported": false
+    },
+    {
+      "representation": "IDS",
+      "direction": "MAP12->MAP21",
+      "harm_sources": [],
+      "n_sources": 0,
+      "definite_harm_sources": [],
+      "full_harm_sources": [],
+      "supported": false
+    },
+    {
+      "representation": "IDS",
+      "direction": "MAP21->MAP12",
+      "harm_sources": [],
+      "n_sources": 0,
+      "definite_harm_sources": [],
+      "full_harm_sources": [],
+      "supported": false
+    }
+  ],
+  "noncanonical_entity_components": 0,
+  "all_raw_responses_read": true,
+  "input_manifest_sha256": "0223384365c82b5776d6d69982b681848eff15d8e7e34be1200c48699000bcbd",
+  "raw_sha256": "ba46596064f338be44c753fe1b56d05da1a3c071492061232b10e218f36a68a8",
+  "frozen_scorer_sha256": "369ef17a3e221ecebb4c9a196216c523def464b60e3deb7b5bba6ff18f1ae567",
+  "independent_human_review_completed": false,
+  "natural_random_sample": false,
+  "no_B10": true
+}

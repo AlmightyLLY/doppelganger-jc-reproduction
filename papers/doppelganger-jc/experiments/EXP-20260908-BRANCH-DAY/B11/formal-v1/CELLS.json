@@ -1,0 +1,4511 @@
+[
+  {
+    "dimensions": [
+      "condition"
+    ],
+    "values": [
+      "OPPOSITE_TARGET_FIRST"
+    ],
+    "n": 96,
+    "scores": {
+      "record": {
+        "C": 31,
+        "W": 59,
+        "U": 6
+      },
+      "occurrence": {
+        "C": 96,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 31,
+        "W": 59,
+        "U": 6
+      },
+      "role_b": {
+        "C": 31,
+        "W": 59,
+        "U": 6
+      },
+      "participant": {
+        "C": 31,
+        "W": 59,
+        "U": 6
+      }
+    },
+    "format": {
+      "PASS": 96
+    }
+  },
+  {
+    "dimensions": [
+      "condition"
+    ],
+    "values": [
+      "OPPOSITE_TARGET_LAST"
+    ],
+    "n": 96,
+    "scores": {
+      "record": {
+        "C": 51,
+        "W": 33,
+        "U": 12
+      },
+      "occurrence": {
+        "C": 95,
+        "W": 0,
+        "U": 1
+      },
+      "role_a": {
+        "C": 52,
+        "W": 33,
+        "U": 11
+      },
+      "role_b": {
+        "C": 52,
+        "W": 33,
+        "U": 11
+      },
+      "participant": {
+        "C": 52,
+        "W": 33,
+        "U": 11
+      }
+    },
+    "format": {
+      "PASS": 96
+    }
+  },
+  {
+    "dimensions": [
+      "condition"
+    ],
+    "values": [
+      "SINGLE"
+    ],
+    "n": 96,
+    "scores": {
+      "record": {
+        "C": 96,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 96,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 96,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 96,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 96,
+        "W": 0,
+        "U": 0
+      }
+    },
+    "format": {
+      "PASS": 96
+    }
+  },
+  {
+    "dimensions": [
+      "condition",
+      "list_order",
+      "voice"
+    ],
+    "values": [
+      "OPPOSITE_TARGET_FIRST",
+      "LIST12",
+      "ACTIVE"
+    ],
+    "n": 24,
+    "scores": {
+      "record": {
+        "C": 8,
+        "W": 12,
+        "U": 4
+      },
+      "occurrence": {
+        "C": 24,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 8,
+        "W": 12,
+        "U": 4
+      },
+      "role_b": {
+        "C": 8,
+        "W": 12,
+        "U": 4
+      },
+      "participant": {
+        "C": 8,
+        "W": 12,
+        "U": 4
+      }
+    },
+    "format": {
+      "PASS": 24
+    }
+  },
+  {
+    "dimensions": [
+      "condition",
+      "list_order",
+      "voice"
+    ],
+    "values": [
+      "OPPOSITE_TARGET_FIRST",
+      "LIST12",
+      "PASSIVE"
+    ],
+    "n": 24,
+    "scores": {
+      "record": {
+        "C": 6,
+        "W": 17,
+        "U": 1
+      },
+      "occurrence": {
+        "C": 24,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 6,
+        "W": 17,
+        "U": 1
+      },
+      "role_b": {
+        "C": 6,
+        "W": 17,
+        "U": 1
+      },
+      "participant": {
+        "C": 6,
+        "W": 17,
+        "U": 1
+      }
+    },
+    "format": {
+      "PASS": 24
+    }
+  },
+  {
+    "dimensions": [
+      "condition",
+      "list_order",
+      "voice"
+    ],
+    "values": [
+      "OPPOSITE_TARGET_FIRST",
+      "LIST21",
+      "ACTIVE"
+    ],
+    "n": 24,
+    "scores": {
+      "record": {
+        "C": 13,
+        "W": 10,
+        "U": 1
+      },
+      "occurrence": {
+        "C": 24,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 13,
+        "W": 10,
+        "U": 1
+      },
+      "role_b": {
+        "C": 13,
+        "W": 10,
+        "U": 1
+      },
+      "participant": {
+        "C": 13,
+        "W": 10,
+        "U": 1
+      }
+    },
+    "format": {
+      "PASS": 24
+    }
+  },
+  {
+    "dimensions": [
+      "condition",
+      "list_order",
+      "voice"
+    ],
+    "values": [
+      "OPPOSITE_TARGET_FIRST",
+      "LIST21",
+      "PASSIVE"
+    ],
+    "n": 24,
+    "scores": {
+      "record": {
+        "C": 4,
+        "W": 20,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 24,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 4,
+        "W": 20,
+        "U": 0
+      },
+      "role_b": {
+        "C": 4,
+        "W": 20,
+        "U": 0
+      },
+      "participant": {
+        "C": 4,
+        "W": 20,
+        "U": 0
+      }
+    },
+    "format": {
+      "PASS": 24
+    }
+  },
+  {
+    "dimensions": [
+      "condition",
+      "list_order",
+      "voice"
+    ],
+    "values": [
+      "OPPOSITE_TARGET_LAST",
+      "LIST12",
+      "ACTIVE"
+    ],
+    "n": 24,
+    "scores": {
+      "record": {
+        "C": 15,
+        "W": 3,
+        "U": 6
+      },
+      "occurrence": {
+        "C": 24,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 15,
+        "W": 3,
+        "U": 6
+      },
+      "role_b": {
+        "C": 15,
+        "W": 3,
+        "U": 6
+      },
+      "participant": {
+        "C": 15,
+        "W": 3,
+        "U": 6
+      }
+    },
+    "format": {
+      "PASS": 24
+    }
+  },
+  {
+    "dimensions": [
+      "condition",
+      "list_order",
+      "voice"
+    ],
+    "values": [
+      "OPPOSITE_TARGET_LAST",
+      "LIST12",
+      "PASSIVE"
+    ],
+    "n": 24,
+    "scores": {
+      "record": {
+        "C": 11,
+        "W": 12,
+        "U": 1
+      },
+      "occurrence": {
+        "C": 24,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 11,
+        "W": 12,
+        "U": 1
+      },
+      "role_b": {
+        "C": 11,
+        "W": 12,
+        "U": 1
+      },
+      "participant": {
+        "C": 11,
+        "W": 12,
+        "U": 1
+      }
+    },
+    "format": {
+      "PASS": 24
+    }
+  },
+  {
+    "dimensions": [
+      "condition",
+      "list_order",
+      "voice"
+    ],
+    "values": [
+      "OPPOSITE_TARGET_LAST",
+      "LIST21",
+      "ACTIVE"
+    ],
+    "n": 24,
+    "scores": {
+      "record": {
+        "C": 15,
+        "W": 5,
+        "U": 4
+      },
+      "occurrence": {
+        "C": 24,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 15,
+        "W": 5,
+        "U": 4
+      },
+      "role_b": {
+        "C": 15,
+        "W": 5,
+        "U": 4
+      },
+      "participant": {
+        "C": 15,
+        "W": 5,
+        "U": 4
+      }
+    },
+    "format": {
+      "PASS": 24
+    }
+  },
+  {
+    "dimensions": [
+      "condition",
+      "list_order",
+      "voice"
+    ],
+    "values": [
+      "OPPOSITE_TARGET_LAST",
+      "LIST21",
+      "PASSIVE"
+    ],
+    "n": 24,
+    "scores": {
+      "record": {
+        "C": 10,
+        "W": 13,
+        "U": 1
+      },
+      "occurrence": {
+        "C": 23,
+        "W": 0,
+        "U": 1
+      },
+      "role_a": {
+        "C": 11,
+        "W": 13,
+        "U": 0
+      },
+      "role_b": {
+        "C": 11,
+        "W": 13,
+        "U": 0
+      },
+      "participant": {
+        "C": 11,
+        "W": 13,
+        "U": 0
+      }
+    },
+    "format": {
+      "PASS": 24
+    }
+  },
+  {
+    "dimensions": [
+      "condition",
+      "list_order",
+      "voice"
+    ],
+    "values": [
+      "SINGLE",
+      "LIST12",
+      "ACTIVE"
+    ],
+    "n": 24,
+    "scores": {
+      "record": {
+        "C": 24,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 24,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 24,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 24,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 24,
+        "W": 0,
+        "U": 0
+      }
+    },
+    "format": {
+      "PASS": 24
+    }
+  },
+  {
+    "dimensions": [
+      "condition",
+      "list_order",
+      "voice"
+    ],
+    "values": [
+      "SINGLE",
+      "LIST12",
+      "PASSIVE"
+    ],
+    "n": 24,
+    "scores": {
+      "record": {
+        "C": 24,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 24,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 24,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 24,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 24,
+        "W": 0,
+        "U": 0
+      }
+    },
+    "format": {
+      "PASS": 24
+    }
+  },
+  {
+    "dimensions": [
+      "condition",
+      "list_order",
+      "voice"
+    ],
+    "values": [
+      "SINGLE",
+      "LIST21",
+      "ACTIVE"
+    ],
+    "n": 24,
+    "scores": {
+      "record": {
+        "C": 24,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 24,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 24,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 24,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 24,
+        "W": 0,
+        "U": 0
+      }
+    },
+    "format": {
+      "PASS": 24
+    }
+  },
+  {
+    "dimensions": [
+      "condition",
+      "list_order",
+      "voice"
+    ],
+    "values": [
+      "SINGLE",
+      "LIST21",
+      "PASSIVE"
+    ],
+    "n": 24,
+    "scores": {
+      "record": {
+        "C": 24,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 24,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 24,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 24,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 24,
+        "W": 0,
+        "U": 0
+      }
+    },
+    "format": {
+      "PASS": 24
+    }
+  },
+  {
+    "dimensions": [
+      "condition",
+      "list_order",
+      "voice",
+      "semantic_direction",
+      "fact"
+    ],
+    "values": [
+      "OPPOSITE_TARGET_FIRST",
+      "LIST12",
+      "ACTIVE",
+      "AB",
+      "NO"
+    ],
+    "n": 4,
+    "scores": {
+      "record": {
+        "C": 2,
+        "W": 1,
+        "U": 1
+      },
+      "occurrence": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 2,
+        "W": 1,
+        "U": 1
+      },
+      "role_b": {
+        "C": 2,
+        "W": 1,
+        "U": 1
+      },
+      "participant": {
+        "C": 2,
+        "W": 1,
+        "U": 1
+      }
+    },
+    "format": {
+      "PASS": 4
+    }
+  },
+  {
+    "dimensions": [
+      "condition",
+      "list_order",
+      "voice",
+      "semantic_direction",
+      "fact"
+    ],
+    "values": [
+      "OPPOSITE_TARGET_FIRST",
+      "LIST12",
+      "ACTIVE",
+      "AB",
+      "UNKNOWN"
+    ],
+    "n": 4,
+    "scores": {
+      "record": {
+        "C": 1,
+        "W": 2,
+        "U": 1
+      },
+      "occurrence": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 1,
+        "W": 2,
+        "U": 1
+      },
+      "role_b": {
+        "C": 1,
+        "W": 2,
+        "U": 1
+      },
+      "participant": {
+        "C": 1,
+        "W": 2,
+        "U": 1
+      }
+    },
+    "format": {
+      "PASS": 4
+    }
+  },
+  {
+    "dimensions": [
+      "condition",
+      "list_order",
+      "voice",
+      "semantic_direction",
+      "fact"
+    ],
+    "values": [
+      "OPPOSITE_TARGET_FIRST",
+      "LIST12",
+      "ACTIVE",
+      "AB",
+      "YES"
+    ],
+    "n": 4,
+    "scores": {
+      "record": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      }
+    },
+    "format": {
+      "PASS": 4
+    }
+  },
+  {
+    "dimensions": [
+      "condition",
+      "list_order",
+      "voice",
+      "semantic_direction",
+      "fact"
+    ],
+    "values": [
+      "OPPOSITE_TARGET_FIRST",
+      "LIST12",
+      "ACTIVE",
+      "BA",
+      "NO"
+    ],
+    "n": 4,
+    "scores": {
+      "record": {
+        "C": 0,
+        "W": 3,
+        "U": 1
+      },
+      "occurrence": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 0,
+        "W": 3,
+        "U": 1
+      },
+      "role_b": {
+        "C": 0,
+        "W": 3,
+        "U": 1
+      },
+      "participant": {
+        "C": 0,
+        "W": 3,
+        "U": 1
+      }
+    },
+    "format": {
+      "PASS": 4
+    }
+  },
+  {
+    "dimensions": [
+      "condition",
+      "list_order",
+      "voice",
+      "semantic_direction",
+      "fact"
+    ],
+    "values": [
+      "OPPOSITE_TARGET_FIRST",
+      "LIST12",
+      "ACTIVE",
+      "BA",
+      "UNKNOWN"
+    ],
+    "n": 4,
+    "scores": {
+      "record": {
+        "C": 0,
+        "W": 3,
+        "U": 1
+      },
+      "occurrence": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 0,
+        "W": 3,
+        "U": 1
+      },
+      "role_b": {
+        "C": 0,
+        "W": 3,
+        "U": 1
+      },
+      "participant": {
+        "C": 0,
+        "W": 3,
+        "U": 1
+      }
+    },
+    "format": {
+      "PASS": 4
+    }
+  },
+  {
+    "dimensions": [
+      "condition",
+      "list_order",
+      "voice",
+      "semantic_direction",
+      "fact"
+    ],
+    "values": [
+      "OPPOSITE_TARGET_FIRST",
+      "LIST12",
+      "ACTIVE",
+      "BA",
+      "YES"
+    ],
+    "n": 4,
+    "scores": {
+      "record": {
+        "C": 1,
+        "W": 3,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 1,
+        "W": 3,
+        "U": 0
+      },
+      "role_b": {
+        "C": 1,
+        "W": 3,
+        "U": 0
+      },
+      "participant": {
+        "C": 1,
+        "W": 3,
+        "U": 0
+      }
+    },
+    "format": {
+      "PASS": 4
+    }
+  },
+  {
+    "dimensions": [
+      "condition",
+      "list_order",
+      "voice",
+      "semantic_direction",
+      "fact"
+    ],
+    "values": [
+      "OPPOSITE_TARGET_FIRST",
+      "LIST12",
+      "PASSIVE",
+      "AB",
+      "NO"
+    ],
+    "n": 4,
+    "scores": {
+      "record": {
+        "C": 1,
+        "W": 3,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 1,
+        "W": 3,
+        "U": 0
+      },
+      "role_b": {
+        "C": 1,
+        "W": 3,
+        "U": 0
+      },
+      "participant": {
+        "C": 1,
+        "W": 3,
+        "U": 0
+      }
+    },
+    "format": {
+      "PASS": 4
+    }
+  },
+  {
+    "dimensions": [
+      "condition",
+      "list_order",
+      "voice",
+      "semantic_direction",
+      "fact"
+    ],
+    "values": [
+      "OPPOSITE_TARGET_FIRST",
+      "LIST12",
+      "PASSIVE",
+      "AB",
+      "UNKNOWN"
+    ],
+    "n": 4,
+    "scores": {
+      "record": {
+        "C": 2,
+        "W": 1,
+        "U": 1
+      },
+      "occurrence": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 2,
+        "W": 1,
+        "U": 1
+      },
+      "role_b": {
+        "C": 2,
+        "W": 1,
+        "U": 1
+      },
+      "participant": {
+        "C": 2,
+        "W": 1,
+        "U": 1
+      }
+    },
+    "format": {
+      "PASS": 4
+    }
+  },
+  {
+    "dimensions": [
+      "condition",
+      "list_order",
+      "voice",
+      "semantic_direction",
+      "fact"
+    ],
+    "values": [
+      "OPPOSITE_TARGET_FIRST",
+      "LIST12",
+      "PASSIVE",
+      "AB",
+      "YES"
+    ],
+    "n": 4,
+    "scores": {
+      "record": {
+        "C": 3,
+        "W": 1,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 3,
+        "W": 1,
+        "U": 0
+      },
+      "role_b": {
+        "C": 3,
+        "W": 1,
+        "U": 0
+      },
+      "participant": {
+        "C": 3,
+        "W": 1,
+        "U": 0
+      }
+    },
+    "format": {
+      "PASS": 4
+    }
+  },
+  {
+    "dimensions": [
+      "condition",
+      "list_order",
+      "voice",
+      "semantic_direction",
+      "fact"
+    ],
+    "values": [
+      "OPPOSITE_TARGET_FIRST",
+      "LIST12",
+      "PASSIVE",
+      "BA",
+      "NO"
+    ],
+    "n": 4,
+    "scores": {
+      "record": {
+        "C": 0,
+        "W": 4,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 0,
+        "W": 4,
+        "U": 0
+      },
+      "role_b": {
+        "C": 0,
+        "W": 4,
+        "U": 0
+      },
+      "participant": {
+        "C": 0,
+        "W": 4,
+        "U": 0
+      }
+    },
+    "format": {
+      "PASS": 4
+    }
+  },
+  {
+    "dimensions": [
+      "condition",
+      "list_order",
+      "voice",
+      "semantic_direction",
+      "fact"
+    ],
+    "values": [
+      "OPPOSITE_TARGET_FIRST",
+      "LIST12",
+      "PASSIVE",
+      "BA",
+      "UNKNOWN"
+    ],
+    "n": 4,
+    "scores": {
+      "record": {
+        "C": 0,
+        "W": 4,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 0,
+        "W": 4,
+        "U": 0
+      },
+      "role_b": {
+        "C": 0,
+        "W": 4,
+        "U": 0
+      },
+      "participant": {
+        "C": 0,
+        "W": 4,
+        "U": 0
+      }
+    },
+    "format": {
+      "PASS": 4
+    }
+  },
+  {
+    "dimensions": [
+      "condition",
+      "list_order",
+      "voice",
+      "semantic_direction",
+      "fact"
+    ],
+    "values": [
+      "OPPOSITE_TARGET_FIRST",
+      "LIST12",
+      "PASSIVE",
+      "BA",
+      "YES"
+    ],
+    "n": 4,
+    "scores": {
+      "record": {
+        "C": 0,
+        "W": 4,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 0,
+        "W": 4,
+        "U": 0
+      },
+      "role_b": {
+        "C": 0,
+        "W": 4,
+        "U": 0
+      },
+      "participant": {
+        "C": 0,
+        "W": 4,
+        "U": 0
+      }
+    },
+    "format": {
+      "PASS": 4
+    }
+  },
+  {
+    "dimensions": [
+      "condition",
+      "list_order",
+      "voice",
+      "semantic_direction",
+      "fact"
+    ],
+    "values": [
+      "OPPOSITE_TARGET_FIRST",
+      "LIST21",
+      "ACTIVE",
+      "AB",
+      "NO"
+    ],
+    "n": 4,
+    "scores": {
+      "record": {
+        "C": 2,
+        "W": 2,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 2,
+        "W": 2,
+        "U": 0
+      },
+      "role_b": {
+        "C": 2,
+        "W": 2,
+        "U": 0
+      },
+      "participant": {
+        "C": 2,
+        "W": 2,
+        "U": 0
+      }
+    },
+    "format": {
+      "PASS": 4
+    }
+  },
+  {
+    "dimensions": [
+      "condition",
+      "list_order",
+      "voice",
+      "semantic_direction",
+      "fact"
+    ],
+    "values": [
+      "OPPOSITE_TARGET_FIRST",
+      "LIST21",
+      "ACTIVE",
+      "AB",
+      "UNKNOWN"
+    ],
+    "n": 4,
+    "scores": {
+      "record": {
+        "C": 3,
+        "W": 1,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 3,
+        "W": 1,
+        "U": 0
+      },
+      "role_b": {
+        "C": 3,
+        "W": 1,
+        "U": 0
+      },
+      "participant": {
+        "C": 3,
+        "W": 1,
+        "U": 0
+      }
+    },
+    "format": {
+      "PASS": 4
+    }
+  },
+  {
+    "dimensions": [
+      "condition",
+      "list_order",
+      "voice",
+      "semantic_direction",
+      "fact"
+    ],
+    "values": [
+      "OPPOSITE_TARGET_FIRST",
+      "LIST21",
+      "ACTIVE",
+      "AB",
+      "YES"
+    ],
+    "n": 4,
+    "scores": {
+      "record": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      }
+    },
+    "format": {
+      "PASS": 4
+    }
+  },
+  {
+    "dimensions": [
+      "condition",
+      "list_order",
+      "voice",
+      "semantic_direction",
+      "fact"
+    ],
+    "values": [
+      "OPPOSITE_TARGET_FIRST",
+      "LIST21",
+      "ACTIVE",
+      "BA",
+      "NO"
+    ],
+    "n": 4,
+    "scores": {
+      "record": {
+        "C": 0,
+        "W": 4,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 0,
+        "W": 4,
+        "U": 0
+      },
+      "role_b": {
+        "C": 0,
+        "W": 4,
+        "U": 0
+      },
+      "participant": {
+        "C": 0,
+        "W": 4,
+        "U": 0
+      }
+    },
+    "format": {
+      "PASS": 4
+    }
+  },
+  {
+    "dimensions": [
+      "condition",
+      "list_order",
+      "voice",
+      "semantic_direction",
+      "fact"
+    ],
+    "values": [
+      "OPPOSITE_TARGET_FIRST",
+      "LIST21",
+      "ACTIVE",
+      "BA",
+      "UNKNOWN"
+    ],
+    "n": 4,
+    "scores": {
+      "record": {
+        "C": 0,
+        "W": 3,
+        "U": 1
+      },
+      "occurrence": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 0,
+        "W": 3,
+        "U": 1
+      },
+      "role_b": {
+        "C": 0,
+        "W": 3,
+        "U": 1
+      },
+      "participant": {
+        "C": 0,
+        "W": 3,
+        "U": 1
+      }
+    },
+    "format": {
+      "PASS": 4
+    }
+  },
+  {
+    "dimensions": [
+      "condition",
+      "list_order",
+      "voice",
+      "semantic_direction",
+      "fact"
+    ],
+    "values": [
+      "OPPOSITE_TARGET_FIRST",
+      "LIST21",
+      "ACTIVE",
+      "BA",
+      "YES"
+    ],
+    "n": 4,
+    "scores": {
+      "record": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      }
+    },
+    "format": {
+      "PASS": 4
+    }
+  },
+  {
+    "dimensions": [
+      "condition",
+      "list_order",
+      "voice",
+      "semantic_direction",
+      "fact"
+    ],
+    "values": [
+      "OPPOSITE_TARGET_FIRST",
+      "LIST21",
+      "PASSIVE",
+      "AB",
+      "NO"
+    ],
+    "n": 4,
+    "scores": {
+      "record": {
+        "C": 1,
+        "W": 3,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 1,
+        "W": 3,
+        "U": 0
+      },
+      "role_b": {
+        "C": 1,
+        "W": 3,
+        "U": 0
+      },
+      "participant": {
+        "C": 1,
+        "W": 3,
+        "U": 0
+      }
+    },
+    "format": {
+      "PASS": 4
+    }
+  },
+  {
+    "dimensions": [
+      "condition",
+      "list_order",
+      "voice",
+      "semantic_direction",
+      "fact"
+    ],
+    "values": [
+      "OPPOSITE_TARGET_FIRST",
+      "LIST21",
+      "PASSIVE",
+      "AB",
+      "UNKNOWN"
+    ],
+    "n": 4,
+    "scores": {
+      "record": {
+        "C": 1,
+        "W": 3,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 1,
+        "W": 3,
+        "U": 0
+      },
+      "role_b": {
+        "C": 1,
+        "W": 3,
+        "U": 0
+      },
+      "participant": {
+        "C": 1,
+        "W": 3,
+        "U": 0
+      }
+    },
+    "format": {
+      "PASS": 4
+    }
+  },
+  {
+    "dimensions": [
+      "condition",
+      "list_order",
+      "voice",
+      "semantic_direction",
+      "fact"
+    ],
+    "values": [
+      "OPPOSITE_TARGET_FIRST",
+      "LIST21",
+      "PASSIVE",
+      "AB",
+      "YES"
+    ],
+    "n": 4,
+    "scores": {
+      "record": {
+        "C": 2,
+        "W": 2,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 2,
+        "W": 2,
+        "U": 0
+      },
+      "role_b": {
+        "C": 2,
+        "W": 2,
+        "U": 0
+      },
+      "participant": {
+        "C": 2,
+        "W": 2,
+        "U": 0
+      }
+    },
+    "format": {
+      "PASS": 4
+    }
+  },
+  {
+    "dimensions": [
+      "condition",
+      "list_order",
+      "voice",
+      "semantic_direction",
+      "fact"
+    ],
+    "values": [
+      "OPPOSITE_TARGET_FIRST",
+      "LIST21",
+      "PASSIVE",
+      "BA",
+      "NO"
+    ],
+    "n": 4,
+    "scores": {
+      "record": {
+        "C": 0,
+        "W": 4,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 0,
+        "W": 4,
+        "U": 0
+      },
+      "role_b": {
+        "C": 0,
+        "W": 4,
+        "U": 0
+      },
+      "participant": {
+        "C": 0,
+        "W": 4,
+        "U": 0
+      }
+    },
+    "format": {
+      "PASS": 4
+    }
+  },
+  {
+    "dimensions": [
+      "condition",
+      "list_order",
+      "voice",
+      "semantic_direction",
+      "fact"
+    ],
+    "values": [
+      "OPPOSITE_TARGET_FIRST",
+      "LIST21",
+      "PASSIVE",
+      "BA",
+      "UNKNOWN"
+    ],
+    "n": 4,
+    "scores": {
+      "record": {
+        "C": 0,
+        "W": 4,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 0,
+        "W": 4,
+        "U": 0
+      },
+      "role_b": {
+        "C": 0,
+        "W": 4,
+        "U": 0
+      },
+      "participant": {
+        "C": 0,
+        "W": 4,
+        "U": 0
+      }
+    },
+    "format": {
+      "PASS": 4
+    }
+  },
+  {
+    "dimensions": [
+      "condition",
+      "list_order",
+      "voice",
+      "semantic_direction",
+      "fact"
+    ],
+    "values": [
+      "OPPOSITE_TARGET_FIRST",
+      "LIST21",
+      "PASSIVE",
+      "BA",
+      "YES"
+    ],
+    "n": 4,
+    "scores": {
+      "record": {
+        "C": 0,
+        "W": 4,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 0,
+        "W": 4,
+        "U": 0
+      },
+      "role_b": {
+        "C": 0,
+        "W": 4,
+        "U": 0
+      },
+      "participant": {
+        "C": 0,
+        "W": 4,
+        "U": 0
+      }
+    },
+    "format": {
+      "PASS": 4
+    }
+  },
+  {
+    "dimensions": [
+      "condition",
+      "list_order",
+      "voice",
+      "semantic_direction",
+      "fact"
+    ],
+    "values": [
+      "OPPOSITE_TARGET_LAST",
+      "LIST12",
+      "ACTIVE",
+      "AB",
+      "NO"
+    ],
+    "n": 4,
+    "scores": {
+      "record": {
+        "C": 3,
+        "W": 0,
+        "U": 1
+      },
+      "occurrence": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 3,
+        "W": 0,
+        "U": 1
+      },
+      "role_b": {
+        "C": 3,
+        "W": 0,
+        "U": 1
+      },
+      "participant": {
+        "C": 3,
+        "W": 0,
+        "U": 1
+      }
+    },
+    "format": {
+      "PASS": 4
+    }
+  },
+  {
+    "dimensions": [
+      "condition",
+      "list_order",
+      "voice",
+      "semantic_direction",
+      "fact"
+    ],
+    "values": [
+      "OPPOSITE_TARGET_LAST",
+      "LIST12",
+      "ACTIVE",
+      "AB",
+      "UNKNOWN"
+    ],
+    "n": 4,
+    "scores": {
+      "record": {
+        "C": 2,
+        "W": 0,
+        "U": 2
+      },
+      "occurrence": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 2,
+        "W": 0,
+        "U": 2
+      },
+      "role_b": {
+        "C": 2,
+        "W": 0,
+        "U": 2
+      },
+      "participant": {
+        "C": 2,
+        "W": 0,
+        "U": 2
+      }
+    },
+    "format": {
+      "PASS": 4
+    }
+  },
+  {
+    "dimensions": [
+      "condition",
+      "list_order",
+      "voice",
+      "semantic_direction",
+      "fact"
+    ],
+    "values": [
+      "OPPOSITE_TARGET_LAST",
+      "LIST12",
+      "ACTIVE",
+      "AB",
+      "YES"
+    ],
+    "n": 4,
+    "scores": {
+      "record": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      }
+    },
+    "format": {
+      "PASS": 4
+    }
+  },
+  {
+    "dimensions": [
+      "condition",
+      "list_order",
+      "voice",
+      "semantic_direction",
+      "fact"
+    ],
+    "values": [
+      "OPPOSITE_TARGET_LAST",
+      "LIST12",
+      "ACTIVE",
+      "BA",
+      "NO"
+    ],
+    "n": 4,
+    "scores": {
+      "record": {
+        "C": 1,
+        "W": 2,
+        "U": 1
+      },
+      "occurrence": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 1,
+        "W": 2,
+        "U": 1
+      },
+      "role_b": {
+        "C": 1,
+        "W": 2,
+        "U": 1
+      },
+      "participant": {
+        "C": 1,
+        "W": 2,
+        "U": 1
+      }
+    },
+    "format": {
+      "PASS": 4
+    }
+  },
+  {
+    "dimensions": [
+      "condition",
+      "list_order",
+      "voice",
+      "semantic_direction",
+      "fact"
+    ],
+    "values": [
+      "OPPOSITE_TARGET_LAST",
+      "LIST12",
+      "ACTIVE",
+      "BA",
+      "UNKNOWN"
+    ],
+    "n": 4,
+    "scores": {
+      "record": {
+        "C": 1,
+        "W": 1,
+        "U": 2
+      },
+      "occurrence": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 1,
+        "W": 1,
+        "U": 2
+      },
+      "role_b": {
+        "C": 1,
+        "W": 1,
+        "U": 2
+      },
+      "participant": {
+        "C": 1,
+        "W": 1,
+        "U": 2
+      }
+    },
+    "format": {
+      "PASS": 4
+    }
+  },
+  {
+    "dimensions": [
+      "condition",
+      "list_order",
+      "voice",
+      "semantic_direction",
+      "fact"
+    ],
+    "values": [
+      "OPPOSITE_TARGET_LAST",
+      "LIST12",
+      "ACTIVE",
+      "BA",
+      "YES"
+    ],
+    "n": 4,
+    "scores": {
+      "record": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      }
+    },
+    "format": {
+      "PASS": 4
+    }
+  },
+  {
+    "dimensions": [
+      "condition",
+      "list_order",
+      "voice",
+      "semantic_direction",
+      "fact"
+    ],
+    "values": [
+      "OPPOSITE_TARGET_LAST",
+      "LIST12",
+      "PASSIVE",
+      "AB",
+      "NO"
+    ],
+    "n": 4,
+    "scores": {
+      "record": {
+        "C": 2,
+        "W": 2,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 2,
+        "W": 2,
+        "U": 0
+      },
+      "role_b": {
+        "C": 2,
+        "W": 2,
+        "U": 0
+      },
+      "participant": {
+        "C": 2,
+        "W": 2,
+        "U": 0
+      }
+    },
+    "format": {
+      "PASS": 4
+    }
+  },
+  {
+    "dimensions": [
+      "condition",
+      "list_order",
+      "voice",
+      "semantic_direction",
+      "fact"
+    ],
+    "values": [
+      "OPPOSITE_TARGET_LAST",
+      "LIST12",
+      "PASSIVE",
+      "AB",
+      "UNKNOWN"
+    ],
+    "n": 4,
+    "scores": {
+      "record": {
+        "C": 1,
+        "W": 2,
+        "U": 1
+      },
+      "occurrence": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 1,
+        "W": 2,
+        "U": 1
+      },
+      "role_b": {
+        "C": 1,
+        "W": 2,
+        "U": 1
+      },
+      "participant": {
+        "C": 1,
+        "W": 2,
+        "U": 1
+      }
+    },
+    "format": {
+      "PASS": 4
+    }
+  },
+  {
+    "dimensions": [
+      "condition",
+      "list_order",
+      "voice",
+      "semantic_direction",
+      "fact"
+    ],
+    "values": [
+      "OPPOSITE_TARGET_LAST",
+      "LIST12",
+      "PASSIVE",
+      "AB",
+      "YES"
+    ],
+    "n": 4,
+    "scores": {
+      "record": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      }
+    },
+    "format": {
+      "PASS": 4
+    }
+  },
+  {
+    "dimensions": [
+      "condition",
+      "list_order",
+      "voice",
+      "semantic_direction",
+      "fact"
+    ],
+    "values": [
+      "OPPOSITE_TARGET_LAST",
+      "LIST12",
+      "PASSIVE",
+      "BA",
+      "NO"
+    ],
+    "n": 4,
+    "scores": {
+      "record": {
+        "C": 1,
+        "W": 3,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 1,
+        "W": 3,
+        "U": 0
+      },
+      "role_b": {
+        "C": 1,
+        "W": 3,
+        "U": 0
+      },
+      "participant": {
+        "C": 1,
+        "W": 3,
+        "U": 0
+      }
+    },
+    "format": {
+      "PASS": 4
+    }
+  },
+  {
+    "dimensions": [
+      "condition",
+      "list_order",
+      "voice",
+      "semantic_direction",
+      "fact"
+    ],
+    "values": [
+      "OPPOSITE_TARGET_LAST",
+      "LIST12",
+      "PASSIVE",
+      "BA",
+      "UNKNOWN"
+    ],
+    "n": 4,
+    "scores": {
+      "record": {
+        "C": 1,
+        "W": 3,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 1,
+        "W": 3,
+        "U": 0
+      },
+      "role_b": {
+        "C": 1,
+        "W": 3,
+        "U": 0
+      },
+      "participant": {
+        "C": 1,
+        "W": 3,
+        "U": 0
+      }
+    },
+    "format": {
+      "PASS": 4
+    }
+  },
+  {
+    "dimensions": [
+      "condition",
+      "list_order",
+      "voice",
+      "semantic_direction",
+      "fact"
+    ],
+    "values": [
+      "OPPOSITE_TARGET_LAST",
+      "LIST12",
+      "PASSIVE",
+      "BA",
+      "YES"
+    ],
+    "n": 4,
+    "scores": {
+      "record": {
+        "C": 2,
+        "W": 2,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 2,
+        "W": 2,
+        "U": 0
+      },
+      "role_b": {
+        "C": 2,
+        "W": 2,
+        "U": 0
+      },
+      "participant": {
+        "C": 2,
+        "W": 2,
+        "U": 0
+      }
+    },
+    "format": {
+      "PASS": 4
+    }
+  },
+  {
+    "dimensions": [
+      "condition",
+      "list_order",
+      "voice",
+      "semantic_direction",
+      "fact"
+    ],
+    "values": [
+      "OPPOSITE_TARGET_LAST",
+      "LIST21",
+      "ACTIVE",
+      "AB",
+      "NO"
+    ],
+    "n": 4,
+    "scores": {
+      "record": {
+        "C": 2,
+        "W": 1,
+        "U": 1
+      },
+      "occurrence": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 2,
+        "W": 1,
+        "U": 1
+      },
+      "role_b": {
+        "C": 2,
+        "W": 1,
+        "U": 1
+      },
+      "participant": {
+        "C": 2,
+        "W": 1,
+        "U": 1
+      }
+    },
+    "format": {
+      "PASS": 4
+    }
+  },
+  {
+    "dimensions": [
+      "condition",
+      "list_order",
+      "voice",
+      "semantic_direction",
+      "fact"
+    ],
+    "values": [
+      "OPPOSITE_TARGET_LAST",
+      "LIST21",
+      "ACTIVE",
+      "AB",
+      "UNKNOWN"
+    ],
+    "n": 4,
+    "scores": {
+      "record": {
+        "C": 3,
+        "W": 0,
+        "U": 1
+      },
+      "occurrence": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 3,
+        "W": 0,
+        "U": 1
+      },
+      "role_b": {
+        "C": 3,
+        "W": 0,
+        "U": 1
+      },
+      "participant": {
+        "C": 3,
+        "W": 0,
+        "U": 1
+      }
+    },
+    "format": {
+      "PASS": 4
+    }
+  },
+  {
+    "dimensions": [
+      "condition",
+      "list_order",
+      "voice",
+      "semantic_direction",
+      "fact"
+    ],
+    "values": [
+      "OPPOSITE_TARGET_LAST",
+      "LIST21",
+      "ACTIVE",
+      "AB",
+      "YES"
+    ],
+    "n": 4,
+    "scores": {
+      "record": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      }
+    },
+    "format": {
+      "PASS": 4
+    }
+  },
+  {
+    "dimensions": [
+      "condition",
+      "list_order",
+      "voice",
+      "semantic_direction",
+      "fact"
+    ],
+    "values": [
+      "OPPOSITE_TARGET_LAST",
+      "LIST21",
+      "ACTIVE",
+      "BA",
+      "NO"
+    ],
+    "n": 4,
+    "scores": {
+      "record": {
+        "C": 1,
+        "W": 3,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 1,
+        "W": 3,
+        "U": 0
+      },
+      "role_b": {
+        "C": 1,
+        "W": 3,
+        "U": 0
+      },
+      "participant": {
+        "C": 1,
+        "W": 3,
+        "U": 0
+      }
+    },
+    "format": {
+      "PASS": 4
+    }
+  },
+  {
+    "dimensions": [
+      "condition",
+      "list_order",
+      "voice",
+      "semantic_direction",
+      "fact"
+    ],
+    "values": [
+      "OPPOSITE_TARGET_LAST",
+      "LIST21",
+      "ACTIVE",
+      "BA",
+      "UNKNOWN"
+    ],
+    "n": 4,
+    "scores": {
+      "record": {
+        "C": 1,
+        "W": 1,
+        "U": 2
+      },
+      "occurrence": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 1,
+        "W": 1,
+        "U": 2
+      },
+      "role_b": {
+        "C": 1,
+        "W": 1,
+        "U": 2
+      },
+      "participant": {
+        "C": 1,
+        "W": 1,
+        "U": 2
+      }
+    },
+    "format": {
+      "PASS": 4
+    }
+  },
+  {
+    "dimensions": [
+      "condition",
+      "list_order",
+      "voice",
+      "semantic_direction",
+      "fact"
+    ],
+    "values": [
+      "OPPOSITE_TARGET_LAST",
+      "LIST21",
+      "ACTIVE",
+      "BA",
+      "YES"
+    ],
+    "n": 4,
+    "scores": {
+      "record": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      }
+    },
+    "format": {
+      "PASS": 4
+    }
+  },
+  {
+    "dimensions": [
+      "condition",
+      "list_order",
+      "voice",
+      "semantic_direction",
+      "fact"
+    ],
+    "values": [
+      "OPPOSITE_TARGET_LAST",
+      "LIST21",
+      "PASSIVE",
+      "AB",
+      "NO"
+    ],
+    "n": 4,
+    "scores": {
+      "record": {
+        "C": 1,
+        "W": 3,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 1,
+        "W": 3,
+        "U": 0
+      },
+      "role_b": {
+        "C": 1,
+        "W": 3,
+        "U": 0
+      },
+      "participant": {
+        "C": 1,
+        "W": 3,
+        "U": 0
+      }
+    },
+    "format": {
+      "PASS": 4
+    }
+  },
+  {
+    "dimensions": [
+      "condition",
+      "list_order",
+      "voice",
+      "semantic_direction",
+      "fact"
+    ],
+    "values": [
+      "OPPOSITE_TARGET_LAST",
+      "LIST21",
+      "PASSIVE",
+      "AB",
+      "UNKNOWN"
+    ],
+    "n": 4,
+    "scores": {
+      "record": {
+        "C": 2,
+        "W": 2,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 2,
+        "W": 2,
+        "U": 0
+      },
+      "role_b": {
+        "C": 2,
+        "W": 2,
+        "U": 0
+      },
+      "participant": {
+        "C": 2,
+        "W": 2,
+        "U": 0
+      }
+    },
+    "format": {
+      "PASS": 4
+    }
+  },
+  {
+    "dimensions": [
+      "condition",
+      "list_order",
+      "voice",
+      "semantic_direction",
+      "fact"
+    ],
+    "values": [
+      "OPPOSITE_TARGET_LAST",
+      "LIST21",
+      "PASSIVE",
+      "AB",
+      "YES"
+    ],
+    "n": 4,
+    "scores": {
+      "record": {
+        "C": 2,
+        "W": 1,
+        "U": 1
+      },
+      "occurrence": {
+        "C": 3,
+        "W": 0,
+        "U": 1
+      },
+      "role_a": {
+        "C": 3,
+        "W": 1,
+        "U": 0
+      },
+      "role_b": {
+        "C": 3,
+        "W": 1,
+        "U": 0
+      },
+      "participant": {
+        "C": 3,
+        "W": 1,
+        "U": 0
+      }
+    },
+    "format": {
+      "PASS": 4
+    }
+  },
+  {
+    "dimensions": [
+      "condition",
+      "list_order",
+      "voice",
+      "semantic_direction",
+      "fact"
+    ],
+    "values": [
+      "OPPOSITE_TARGET_LAST",
+      "LIST21",
+      "PASSIVE",
+      "BA",
+      "NO"
+    ],
+    "n": 4,
+    "scores": {
+      "record": {
+        "C": 1,
+        "W": 3,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 1,
+        "W": 3,
+        "U": 0
+      },
+      "role_b": {
+        "C": 1,
+        "W": 3,
+        "U": 0
+      },
+      "participant": {
+        "C": 1,
+        "W": 3,
+        "U": 0
+      }
+    },
+    "format": {
+      "PASS": 4
+    }
+  },
+  {
+    "dimensions": [
+      "condition",
+      "list_order",
+      "voice",
+      "semantic_direction",
+      "fact"
+    ],
+    "values": [
+      "OPPOSITE_TARGET_LAST",
+      "LIST21",
+      "PASSIVE",
+      "BA",
+      "UNKNOWN"
+    ],
+    "n": 4,
+    "scores": {
+      "record": {
+        "C": 2,
+        "W": 2,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 2,
+        "W": 2,
+        "U": 0
+      },
+      "role_b": {
+        "C": 2,
+        "W": 2,
+        "U": 0
+      },
+      "participant": {
+        "C": 2,
+        "W": 2,
+        "U": 0
+      }
+    },
+    "format": {
+      "PASS": 4
+    }
+  },
+  {
+    "dimensions": [
+      "condition",
+      "list_order",
+      "voice",
+      "semantic_direction",
+      "fact"
+    ],
+    "values": [
+      "OPPOSITE_TARGET_LAST",
+      "LIST21",
+      "PASSIVE",
+      "BA",
+      "YES"
+    ],
+    "n": 4,
+    "scores": {
+      "record": {
+        "C": 2,
+        "W": 2,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 2,
+        "W": 2,
+        "U": 0
+      },
+      "role_b": {
+        "C": 2,
+        "W": 2,
+        "U": 0
+      },
+      "participant": {
+        "C": 2,
+        "W": 2,
+        "U": 0
+      }
+    },
+    "format": {
+      "PASS": 4
+    }
+  },
+  {
+    "dimensions": [
+      "condition",
+      "list_order",
+      "voice",
+      "semantic_direction",
+      "fact"
+    ],
+    "values": [
+      "SINGLE",
+      "LIST12",
+      "ACTIVE",
+      "AB",
+      "NO"
+    ],
+    "n": 4,
+    "scores": {
+      "record": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      }
+    },
+    "format": {
+      "PASS": 4
+    }
+  },
+  {
+    "dimensions": [
+      "condition",
+      "list_order",
+      "voice",
+      "semantic_direction",
+      "fact"
+    ],
+    "values": [
+      "SINGLE",
+      "LIST12",
+      "ACTIVE",
+      "AB",
+      "UNKNOWN"
+    ],
+    "n": 4,
+    "scores": {
+      "record": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      }
+    },
+    "format": {
+      "PASS": 4
+    }
+  },
+  {
+    "dimensions": [
+      "condition",
+      "list_order",
+      "voice",
+      "semantic_direction",
+      "fact"
+    ],
+    "values": [
+      "SINGLE",
+      "LIST12",
+      "ACTIVE",
+      "AB",
+      "YES"
+    ],
+    "n": 4,
+    "scores": {
+      "record": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      }
+    },
+    "format": {
+      "PASS": 4
+    }
+  },
+  {
+    "dimensions": [
+      "condition",
+      "list_order",
+      "voice",
+      "semantic_direction",
+      "fact"
+    ],
+    "values": [
+      "SINGLE",
+      "LIST12",
+      "ACTIVE",
+      "BA",
+      "NO"
+    ],
+    "n": 4,
+    "scores": {
+      "record": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      }
+    },
+    "format": {
+      "PASS": 4
+    }
+  },
+  {
+    "dimensions": [
+      "condition",
+      "list_order",
+      "voice",
+      "semantic_direction",
+      "fact"
+    ],
+    "values": [
+      "SINGLE",
+      "LIST12",
+      "ACTIVE",
+      "BA",
+      "UNKNOWN"
+    ],
+    "n": 4,
+    "scores": {
+      "record": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      }
+    },
+    "format": {
+      "PASS": 4
+    }
+  },
+  {
+    "dimensions": [
+      "condition",
+      "list_order",
+      "voice",
+      "semantic_direction",
+      "fact"
+    ],
+    "values": [
+      "SINGLE",
+      "LIST12",
+      "ACTIVE",
+      "BA",
+      "YES"
+    ],
+    "n": 4,
+    "scores": {
+      "record": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      }
+    },
+    "format": {
+      "PASS": 4
+    }
+  },
+  {
+    "dimensions": [
+      "condition",
+      "list_order",
+      "voice",
+      "semantic_direction",
+      "fact"
+    ],
+    "values": [
+      "SINGLE",
+      "LIST12",
+      "PASSIVE",
+      "AB",
+      "NO"
+    ],
+    "n": 4,
+    "scores": {
+      "record": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      }
+    },
+    "format": {
+      "PASS": 4
+    }
+  },
+  {
+    "dimensions": [
+      "condition",
+      "list_order",
+      "voice",
+      "semantic_direction",
+      "fact"
+    ],
+    "values": [
+      "SINGLE",
+      "LIST12",
+      "PASSIVE",
+      "AB",
+      "UNKNOWN"
+    ],
+    "n": 4,
+    "scores": {
+      "record": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      }
+    },
+    "format": {
+      "PASS": 4
+    }
+  },
+  {
+    "dimensions": [
+      "condition",
+      "list_order",
+      "voice",
+      "semantic_direction",
+      "fact"
+    ],
+    "values": [
+      "SINGLE",
+      "LIST12",
+      "PASSIVE",
+      "AB",
+      "YES"
+    ],
+    "n": 4,
+    "scores": {
+      "record": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      }
+    },
+    "format": {
+      "PASS": 4
+    }
+  },
+  {
+    "dimensions": [
+      "condition",
+      "list_order",
+      "voice",
+      "semantic_direction",
+      "fact"
+    ],
+    "values": [
+      "SINGLE",
+      "LIST12",
+      "PASSIVE",
+      "BA",
+      "NO"
+    ],
+    "n": 4,
+    "scores": {
+      "record": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      }
+    },
+    "format": {
+      "PASS": 4
+    }
+  },
+  {
+    "dimensions": [
+      "condition",
+      "list_order",
+      "voice",
+      "semantic_direction",
+      "fact"
+    ],
+    "values": [
+      "SINGLE",
+      "LIST12",
+      "PASSIVE",
+      "BA",
+      "UNKNOWN"
+    ],
+    "n": 4,
+    "scores": {
+      "record": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      }
+    },
+    "format": {
+      "PASS": 4
+    }
+  },
+  {
+    "dimensions": [
+      "condition",
+      "list_order",
+      "voice",
+      "semantic_direction",
+      "fact"
+    ],
+    "values": [
+      "SINGLE",
+      "LIST12",
+      "PASSIVE",
+      "BA",
+      "YES"
+    ],
+    "n": 4,
+    "scores": {
+      "record": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      }
+    },
+    "format": {
+      "PASS": 4
+    }
+  },
+  {
+    "dimensions": [
+      "condition",
+      "list_order",
+      "voice",
+      "semantic_direction",
+      "fact"
+    ],
+    "values": [
+      "SINGLE",
+      "LIST21",
+      "ACTIVE",
+      "AB",
+      "NO"
+    ],
+    "n": 4,
+    "scores": {
+      "record": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      }
+    },
+    "format": {
+      "PASS": 4
+    }
+  },
+  {
+    "dimensions": [
+      "condition",
+      "list_order",
+      "voice",
+      "semantic_direction",
+      "fact"
+    ],
+    "values": [
+      "SINGLE",
+      "LIST21",
+      "ACTIVE",
+      "AB",
+      "UNKNOWN"
+    ],
+    "n": 4,
+    "scores": {
+      "record": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      }
+    },
+    "format": {
+      "PASS": 4
+    }
+  },
+  {
+    "dimensions": [
+      "condition",
+      "list_order",
+      "voice",
+      "semantic_direction",
+      "fact"
+    ],
+    "values": [
+      "SINGLE",
+      "LIST21",
+      "ACTIVE",
+      "AB",
+      "YES"
+    ],
+    "n": 4,
+    "scores": {
+      "record": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      }
+    },
+    "format": {
+      "PASS": 4
+    }
+  },
+  {
+    "dimensions": [
+      "condition",
+      "list_order",
+      "voice",
+      "semantic_direction",
+      "fact"
+    ],
+    "values": [
+      "SINGLE",
+      "LIST21",
+      "ACTIVE",
+      "BA",
+      "NO"
+    ],
+    "n": 4,
+    "scores": {
+      "record": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      }
+    },
+    "format": {
+      "PASS": 4
+    }
+  },
+  {
+    "dimensions": [
+      "condition",
+      "list_order",
+      "voice",
+      "semantic_direction",
+      "fact"
+    ],
+    "values": [
+      "SINGLE",
+      "LIST21",
+      "ACTIVE",
+      "BA",
+      "UNKNOWN"
+    ],
+    "n": 4,
+    "scores": {
+      "record": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      }
+    },
+    "format": {
+      "PASS": 4
+    }
+  },
+  {
+    "dimensions": [
+      "condition",
+      "list_order",
+      "voice",
+      "semantic_direction",
+      "fact"
+    ],
+    "values": [
+      "SINGLE",
+      "LIST21",
+      "ACTIVE",
+      "BA",
+      "YES"
+    ],
+    "n": 4,
+    "scores": {
+      "record": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      }
+    },
+    "format": {
+      "PASS": 4
+    }
+  },
+  {
+    "dimensions": [
+      "condition",
+      "list_order",
+      "voice",
+      "semantic_direction",
+      "fact"
+    ],
+    "values": [
+      "SINGLE",
+      "LIST21",
+      "PASSIVE",
+      "AB",
+      "NO"
+    ],
+    "n": 4,
+    "scores": {
+      "record": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      }
+    },
+    "format": {
+      "PASS": 4
+    }
+  },
+  {
+    "dimensions": [
+      "condition",
+      "list_order",
+      "voice",
+      "semantic_direction",
+      "fact"
+    ],
+    "values": [
+      "SINGLE",
+      "LIST21",
+      "PASSIVE",
+      "AB",
+      "UNKNOWN"
+    ],
+    "n": 4,
+    "scores": {
+      "record": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      }
+    },
+    "format": {
+      "PASS": 4
+    }
+  },
+  {
+    "dimensions": [
+      "condition",
+      "list_order",
+      "voice",
+      "semantic_direction",
+      "fact"
+    ],
+    "values": [
+      "SINGLE",
+      "LIST21",
+      "PASSIVE",
+      "AB",
+      "YES"
+    ],
+    "n": 4,
+    "scores": {
+      "record": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      }
+    },
+    "format": {
+      "PASS": 4
+    }
+  },
+  {
+    "dimensions": [
+      "condition",
+      "list_order",
+      "voice",
+      "semantic_direction",
+      "fact"
+    ],
+    "values": [
+      "SINGLE",
+      "LIST21",
+      "PASSIVE",
+      "BA",
+      "NO"
+    ],
+    "n": 4,
+    "scores": {
+      "record": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      }
+    },
+    "format": {
+      "PASS": 4
+    }
+  },
+  {
+    "dimensions": [
+      "condition",
+      "list_order",
+      "voice",
+      "semantic_direction",
+      "fact"
+    ],
+    "values": [
+      "SINGLE",
+      "LIST21",
+      "PASSIVE",
+      "BA",
+      "UNKNOWN"
+    ],
+    "n": 4,
+    "scores": {
+      "record": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      }
+    },
+    "format": {
+      "PASS": 4
+    }
+  },
+  {
+    "dimensions": [
+      "condition",
+      "list_order",
+      "voice",
+      "semantic_direction",
+      "fact"
+    ],
+    "values": [
+      "SINGLE",
+      "LIST21",
+      "PASSIVE",
+      "BA",
+      "YES"
+    ],
+    "n": 4,
+    "scores": {
+      "record": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 4,
+        "W": 0,
+        "U": 0
+      }
+    },
+    "format": {
+      "PASS": 4
+    }
+  },
+  {
+    "dimensions": [
+      "family_id",
+      "condition"
+    ],
+    "values": [
+      "F01",
+      "OPPOSITE_TARGET_FIRST"
+    ],
+    "n": 24,
+    "scores": {
+      "record": {
+        "C": 5,
+        "W": 13,
+        "U": 6
+      },
+      "occurrence": {
+        "C": 24,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 5,
+        "W": 13,
+        "U": 6
+      },
+      "role_b": {
+        "C": 5,
+        "W": 13,
+        "U": 6
+      },
+      "participant": {
+        "C": 5,
+        "W": 13,
+        "U": 6
+      }
+    },
+    "format": {
+      "PASS": 24
+    }
+  },
+  {
+    "dimensions": [
+      "family_id",
+      "condition"
+    ],
+    "values": [
+      "F01",
+      "OPPOSITE_TARGET_LAST"
+    ],
+    "n": 24,
+    "scores": {
+      "record": {
+        "C": 5,
+        "W": 12,
+        "U": 7
+      },
+      "occurrence": {
+        "C": 24,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 5,
+        "W": 12,
+        "U": 7
+      },
+      "role_b": {
+        "C": 5,
+        "W": 12,
+        "U": 7
+      },
+      "participant": {
+        "C": 5,
+        "W": 12,
+        "U": 7
+      }
+    },
+    "format": {
+      "PASS": 24
+    }
+  },
+  {
+    "dimensions": [
+      "family_id",
+      "condition"
+    ],
+    "values": [
+      "F01",
+      "SINGLE"
+    ],
+    "n": 24,
+    "scores": {
+      "record": {
+        "C": 24,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 24,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 24,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 24,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 24,
+        "W": 0,
+        "U": 0
+      }
+    },
+    "format": {
+      "PASS": 24
+    }
+  },
+  {
+    "dimensions": [
+      "family_id",
+      "condition"
+    ],
+    "values": [
+      "F02",
+      "OPPOSITE_TARGET_FIRST"
+    ],
+    "n": 24,
+    "scores": {
+      "record": {
+        "C": 3,
+        "W": 21,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 24,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 3,
+        "W": 21,
+        "U": 0
+      },
+      "role_b": {
+        "C": 3,
+        "W": 21,
+        "U": 0
+      },
+      "participant": {
+        "C": 3,
+        "W": 21,
+        "U": 0
+      }
+    },
+    "format": {
+      "PASS": 24
+    }
+  },
+  {
+    "dimensions": [
+      "family_id",
+      "condition"
+    ],
+    "values": [
+      "F02",
+      "OPPOSITE_TARGET_LAST"
+    ],
+    "n": 24,
+    "scores": {
+      "record": {
+        "C": 23,
+        "W": 1,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 24,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 23,
+        "W": 1,
+        "U": 0
+      },
+      "role_b": {
+        "C": 23,
+        "W": 1,
+        "U": 0
+      },
+      "participant": {
+        "C": 23,
+        "W": 1,
+        "U": 0
+      }
+    },
+    "format": {
+      "PASS": 24
+    }
+  },
+  {
+    "dimensions": [
+      "family_id",
+      "condition"
+    ],
+    "values": [
+      "F02",
+      "SINGLE"
+    ],
+    "n": 24,
+    "scores": {
+      "record": {
+        "C": 24,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 24,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 24,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 24,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 24,
+        "W": 0,
+        "U": 0
+      }
+    },
+    "format": {
+      "PASS": 24
+    }
+  },
+  {
+    "dimensions": [
+      "family_id",
+      "condition"
+    ],
+    "values": [
+      "F03",
+      "OPPOSITE_TARGET_FIRST"
+    ],
+    "n": 24,
+    "scores": {
+      "record": {
+        "C": 10,
+        "W": 14,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 24,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 10,
+        "W": 14,
+        "U": 0
+      },
+      "role_b": {
+        "C": 10,
+        "W": 14,
+        "U": 0
+      },
+      "participant": {
+        "C": 10,
+        "W": 14,
+        "U": 0
+      }
+    },
+    "format": {
+      "PASS": 24
+    }
+  },
+  {
+    "dimensions": [
+      "family_id",
+      "condition"
+    ],
+    "values": [
+      "F03",
+      "OPPOSITE_TARGET_LAST"
+    ],
+    "n": 24,
+    "scores": {
+      "record": {
+        "C": 15,
+        "W": 5,
+        "U": 4
+      },
+      "occurrence": {
+        "C": 24,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 15,
+        "W": 5,
+        "U": 4
+      },
+      "role_b": {
+        "C": 15,
+        "W": 5,
+        "U": 4
+      },
+      "participant": {
+        "C": 15,
+        "W": 5,
+        "U": 4
+      }
+    },
+    "format": {
+      "PASS": 24
+    }
+  },
+  {
+    "dimensions": [
+      "family_id",
+      "condition"
+    ],
+    "values": [
+      "F03",
+      "SINGLE"
+    ],
+    "n": 24,
+    "scores": {
+      "record": {
+        "C": 24,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 24,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 24,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 24,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 24,
+        "W": 0,
+        "U": 0
+      }
+    },
+    "format": {
+      "PASS": 24
+    }
+  },
+  {
+    "dimensions": [
+      "family_id",
+      "condition"
+    ],
+    "values": [
+      "F04",
+      "OPPOSITE_TARGET_FIRST"
+    ],
+    "n": 24,
+    "scores": {
+      "record": {
+        "C": 13,
+        "W": 11,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 24,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 13,
+        "W": 11,
+        "U": 0
+      },
+      "role_b": {
+        "C": 13,
+        "W": 11,
+        "U": 0
+      },
+      "participant": {
+        "C": 13,
+        "W": 11,
+        "U": 0
+      }
+    },
+    "format": {
+      "PASS": 24
+    }
+  },
+  {
+    "dimensions": [
+      "family_id",
+      "condition"
+    ],
+    "values": [
+      "F04",
+      "OPPOSITE_TARGET_LAST"
+    ],
+    "n": 24,
+    "scores": {
+      "record": {
+        "C": 8,
+        "W": 15,
+        "U": 1
+      },
+      "occurrence": {
+        "C": 23,
+        "W": 0,
+        "U": 1
+      },
+      "role_a": {
+        "C": 9,
+        "W": 15,
+        "U": 0
+      },
+      "role_b": {
+        "C": 9,
+        "W": 15,
+        "U": 0
+      },
+      "participant": {
+        "C": 9,
+        "W": 15,
+        "U": 0
+      }
+    },
+    "format": {
+      "PASS": 24
+    }
+  },
+  {
+    "dimensions": [
+      "family_id",
+      "condition"
+    ],
+    "values": [
+      "F04",
+      "SINGLE"
+    ],
+    "n": 24,
+    "scores": {
+      "record": {
+        "C": 24,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 24,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 24,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 24,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 24,
+        "W": 0,
+        "U": 0
+      }
+    },
+    "format": {
+      "PASS": 24
+    }
+  }
+]

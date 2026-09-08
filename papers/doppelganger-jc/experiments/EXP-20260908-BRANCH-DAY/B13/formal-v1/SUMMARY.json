@@ -1,0 +1,864 @@
+{
+  "experiment_id": "EXP-20260908-B13",
+  "positions": 384,
+  "new_starts": 360,
+  "old_cache": 24,
+  "grids": [
+    {
+      "model": "qwen",
+      "source_form": "JA_ACTIVE",
+      "inventory": "ID_TABLE",
+      "n": 32,
+      "strict": {
+        "record": {
+          "C": 31,
+          "U": 1
+        },
+        "occurrence": {
+          "C": 32
+        },
+        "role_a": {
+          "C": 31,
+          "U": 1
+        },
+        "role_b": {
+          "C": 31,
+          "U": 1
+        }
+      },
+      "content": {
+        "record": {
+          "C": 32
+        },
+        "occurrence": {
+          "C": 32
+        },
+        "role_a": {
+          "C": 32
+        },
+        "role_b": {
+          "C": 32
+        }
+      },
+      "floor": {
+        "C": 32,
+        "positive_C": 16,
+        "negative_C": 16,
+        "pass_floor": true
+      },
+      "name_representation_compliant": 31,
+      "format": {
+        "PASS": 32
+      }
+    },
+    {
+      "model": "qwen",
+      "source_form": "JA_ACTIVE",
+      "inventory": "NAME_ONLY",
+      "n": 32,
+      "strict": {
+        "record": {
+          "C": 32
+        },
+        "occurrence": {
+          "C": 32
+        },
+        "role_a": {
+          "C": 32
+        },
+        "role_b": {
+          "C": 32
+        }
+      },
+      "content": {
+        "record": {
+          "C": 32
+        },
+        "occurrence": {
+          "C": 32
+        },
+        "role_a": {
+          "C": 32
+        },
+        "role_b": {
+          "C": 32
+        }
+      },
+      "floor": {
+        "C": 32,
+        "positive_C": 16,
+        "negative_C": 16,
+        "pass_floor": true
+      },
+      "name_representation_compliant": 32,
+      "format": {
+        "PASS": 32
+      }
+    },
+    {
+      "model": "qwen",
+      "source_form": "JA_PASSIVE",
+      "inventory": "ID_TABLE",
+      "n": 32,
+      "strict": {
+        "record": {
+          "C": 31,
+          "U": 1
+        },
+        "occurrence": {
+          "C": 32
+        },
+        "role_a": {
+          "C": 31,
+          "U": 1
+        },
+        "role_b": {
+          "C": 31,
+          "U": 1
+        }
+      },
+      "content": {
+        "record": {
+          "C": 32
+        },
+        "occurrence": {
+          "C": 32
+        },
+        "role_a": {
+          "C": 32
+        },
+        "role_b": {
+          "C": 32
+        }
+      },
+      "floor": {
+        "C": 32,
+        "positive_C": 16,
+        "negative_C": 16,
+        "pass_floor": true
+      },
+      "name_representation_compliant": 31,
+      "format": {
+        "PASS": 32
+      }
+    },
+    {
+      "model": "qwen",
+      "source_form": "JA_PASSIVE",
+      "inventory": "NAME_ONLY",
+      "n": 32,
+      "strict": {
+        "record": {
+          "C": 32
+        },
+        "occurrence": {
+          "C": 32
+        },
+        "role_a": {
+          "C": 32
+        },
+        "role_b": {
+          "C": 32
+        }
+      },
+      "content": {
+        "record": {
+          "C": 32
+        },
+        "occurrence": {
+          "C": 32
+        },
+        "role_a": {
+          "C": 32
+        },
+        "role_b": {
+          "C": 32
+        }
+      },
+      "floor": {
+        "C": 32,
+        "positive_C": 16,
+        "negative_C": 16,
+        "pass_floor": true
+      },
+      "name_representation_compliant": 32,
+      "format": {
+        "PASS": 32
+      }
+    },
+    {
+      "model": "qwen",
+      "source_form": "ZH_ACTIVE",
+      "inventory": "ID_TABLE",
+      "n": 32,
+      "strict": {
+        "record": {
+          "C": 32
+        },
+        "occurrence": {
+          "C": 32
+        },
+        "role_a": {
+          "C": 32
+        },
+        "role_b": {
+          "C": 32
+        }
+      },
+      "content": {
+        "record": {
+          "C": 32
+        },
+        "occurrence": {
+          "C": 32
+        },
+        "role_a": {
+          "C": 32
+        },
+        "role_b": {
+          "C": 32
+        }
+      },
+      "floor": {
+        "C": 32,
+        "positive_C": 16,
+        "negative_C": 16,
+        "pass_floor": true
+      },
+      "name_representation_compliant": 32,
+      "format": {
+        "PASS": 32
+      }
+    },
+    {
+      "model": "qwen",
+      "source_form": "ZH_ACTIVE",
+      "inventory": "NAME_ONLY",
+      "n": 32,
+      "strict": {
+        "record": {
+          "C": 32
+        },
+        "occurrence": {
+          "C": 32
+        },
+        "role_a": {
+          "C": 32
+        },
+        "role_b": {
+          "C": 32
+        }
+      },
+      "content": {
+        "record": {
+          "C": 32
+        },
+        "occurrence": {
+          "C": 32
+        },
+        "role_a": {
+          "C": 32
+        },
+        "role_b": {
+          "C": 32
+        }
+      },
+      "floor": {
+        "C": 32,
+        "positive_C": 16,
+        "negative_C": 16,
+        "pass_floor": true
+      },
+      "name_representation_compliant": 32,
+      "format": {
+        "PASS": 32
+      }
+    },
+    {
+      "model": "llama",
+      "source_form": "JA_ACTIVE",
+      "inventory": "ID_TABLE",
+      "n": 32,
+      "strict": {
+        "record": {
+          "C": 31,
+          "W": 1
+        },
+        "occurrence": {
+          "C": 32
+        },
+        "role_a": {
+          "C": 31,
+          "W": 1
+        },
+        "role_b": {
+          "C": 31,
+          "W": 1
+        }
+      },
+      "content": {
+        "record": {
+          "C": 31,
+          "W": 1
+        },
+        "occurrence": {
+          "C": 32
+        },
+        "role_a": {
+          "C": 31,
+          "W": 1
+        },
+        "role_b": {
+          "C": 31,
+          "W": 1
+        }
+      },
+      "floor": {
+        "C": 31,
+        "positive_C": 16,
+        "negative_C": 15,
+        "pass_floor": true
+      },
+      "name_representation_compliant": 32,
+      "format": {
+        "PASS": 32
+      }
+    },
+    {
+      "model": "llama",
+      "source_form": "JA_ACTIVE",
+      "inventory": "NAME_ONLY",
+      "n": 32,
+      "strict": {
+        "record": {
+          "C": 32
+        },
+        "occurrence": {
+          "C": 32
+        },
+        "role_a": {
+          "C": 32
+        },
+        "role_b": {
+          "C": 32
+        }
+      },
+      "content": {
+        "record": {
+          "C": 32
+        },
+        "occurrence": {
+          "C": 32
+        },
+        "role_a": {
+          "C": 32
+        },
+        "role_b": {
+          "C": 32
+        }
+      },
+      "floor": {
+        "C": 32,
+        "positive_C": 16,
+        "negative_C": 16,
+        "pass_floor": true
+      },
+      "name_representation_compliant": 32,
+      "format": {
+        "PASS": 32
+      }
+    },
+    {
+      "model": "llama",
+      "source_form": "JA_PASSIVE",
+      "inventory": "ID_TABLE",
+      "n": 32,
+      "strict": {
+        "record": {
+          "C": 26,
+          "W": 6
+        },
+        "occurrence": {
+          "C": 32
+        },
+        "role_a": {
+          "C": 26,
+          "W": 6
+        },
+        "role_b": {
+          "C": 26,
+          "W": 6
+        }
+      },
+      "content": {
+        "record": {
+          "C": 26,
+          "W": 6
+        },
+        "occurrence": {
+          "C": 32
+        },
+        "role_a": {
+          "C": 26,
+          "W": 6
+        },
+        "role_b": {
+          "C": 26,
+          "W": 6
+        }
+      },
+      "floor": {
+        "C": 26,
+        "positive_C": 13,
+        "negative_C": 13,
+        "pass_floor": false
+      },
+      "name_representation_compliant": 32,
+      "format": {
+        "PASS": 32
+      }
+    },
+    {
+      "model": "llama",
+      "source_form": "JA_PASSIVE",
+      "inventory": "NAME_ONLY",
+      "n": 32,
+      "strict": {
+        "record": {
+          "C": 27,
+          "W": 5
+        },
+        "occurrence": {
+          "C": 32
+        },
+        "role_a": {
+          "C": 27,
+          "W": 5
+        },
+        "role_b": {
+          "C": 27,
+          "W": 5
+        }
+      },
+      "content": {
+        "record": {
+          "C": 27,
+          "W": 5
+        },
+        "occurrence": {
+          "C": 32
+        },
+        "role_a": {
+          "C": 27,
+          "W": 5
+        },
+        "role_b": {
+          "C": 27,
+          "W": 5
+        }
+      },
+      "floor": {
+        "C": 27,
+        "positive_C": 14,
+        "negative_C": 13,
+        "pass_floor": false
+      },
+      "name_representation_compliant": 32,
+      "format": {
+        "PASS": 32
+      }
+    },
+    {
+      "model": "llama",
+      "source_form": "ZH_ACTIVE",
+      "inventory": "ID_TABLE",
+      "n": 32,
+      "strict": {
+        "record": {
+          "C": 32
+        },
+        "occurrence": {
+          "C": 32
+        },
+        "role_a": {
+          "C": 32
+        },
+        "role_b": {
+          "C": 32
+        }
+      },
+      "content": {
+        "record": {
+          "C": 32
+        },
+        "occurrence": {
+          "C": 32
+        },
+        "role_a": {
+          "C": 32
+        },
+        "role_b": {
+          "C": 32
+        }
+      },
+      "floor": {
+        "C": 32,
+        "positive_C": 16,
+        "negative_C": 16,
+        "pass_floor": true
+      },
+      "name_representation_compliant": 32,
+      "format": {
+        "PASS": 32
+      }
+    },
+    {
+      "model": "llama",
+      "source_form": "ZH_ACTIVE",
+      "inventory": "NAME_ONLY",
+      "n": 32,
+      "strict": {
+        "record": {
+          "C": 32
+        },
+        "occurrence": {
+          "C": 32
+        },
+        "role_a": {
+          "C": 32
+        },
+        "role_b": {
+          "C": 32
+        }
+      },
+      "content": {
+        "record": {
+          "C": 32
+        },
+        "occurrence": {
+          "C": 32
+        },
+        "role_a": {
+          "C": 32
+        },
+        "role_b": {
+          "C": 32
+        }
+      },
+      "floor": {
+        "C": 32,
+        "positive_C": 16,
+        "negative_C": 16,
+        "pass_floor": true
+      },
+      "name_representation_compliant": 32,
+      "format": {
+        "PASS": 32
+      }
+    }
+  ],
+  "pair_summary": [
+    {
+      "pair_type": "INVENTORY",
+      "model": "qwen",
+      "n": 96,
+      "both_correct": 96,
+      "strict_transitions": {
+        "C->C": 94,
+        "U->C": 2
+      },
+      "content_transitions": {
+        "C->C": 96
+      },
+      "any_component_harm": 0,
+      "hidden_harm": []
+    },
+    {
+      "pair_type": "INVENTORY",
+      "model": "llama",
+      "n": 96,
+      "both_correct": 88,
+      "strict_transitions": {
+        "C->C": 88,
+        "C->W": 1,
+        "W->C": 3,
+        "W->W": 4
+      },
+      "content_transitions": {
+        "C->C": 88,
+        "C->W": 1,
+        "W->C": 3,
+        "W->W": 4
+      },
+      "any_component_harm": 1,
+      "hidden_harm": []
+    },
+    {
+      "pair_type": "JA_ACTIVE_TO_JA_PASSIVE",
+      "model": "qwen",
+      "n": 64,
+      "both_correct": 64,
+      "strict_transitions": {
+        "C->C": 62,
+        "U->C": 1,
+        "C->U": 1
+      },
+      "content_transitions": {
+        "C->C": 64
+      },
+      "any_component_harm": 0,
+      "hidden_harm": []
+    },
+    {
+      "pair_type": "JA_ACTIVE_TO_JA_PASSIVE",
+      "model": "llama",
+      "n": 64,
+      "both_correct": 53,
+      "strict_transitions": {
+        "C->C": 53,
+        "C->W": 10,
+        "W->W": 1
+      },
+      "content_transitions": {
+        "C->C": 53,
+        "C->W": 10,
+        "W->W": 1
+      },
+      "any_component_harm": 10,
+      "hidden_harm": []
+    },
+    {
+      "pair_type": "JA_ACTIVE_TO_ZH_ACTIVE",
+      "model": "qwen",
+      "n": 64,
+      "both_correct": 64,
+      "strict_transitions": {
+        "C->C": 63,
+        "U->C": 1
+      },
+      "content_transitions": {
+        "C->C": 64
+      },
+      "any_component_harm": 0,
+      "hidden_harm": []
+    },
+    {
+      "pair_type": "JA_ACTIVE_TO_ZH_ACTIVE",
+      "model": "llama",
+      "n": 64,
+      "both_correct": 63,
+      "strict_transitions": {
+        "C->C": 63,
+        "W->C": 1
+      },
+      "content_transitions": {
+        "C->C": 63,
+        "W->C": 1
+      },
+      "any_component_harm": 0,
+      "hidden_harm": []
+    },
+    {
+      "pair_type": "JA_PASSIVE_TO_ZH_ACTIVE",
+      "model": "qwen",
+      "n": 64,
+      "both_correct": 64,
+      "strict_transitions": {
+        "C->C": 63,
+        "U->C": 1
+      },
+      "content_transitions": {
+        "C->C": 64
+      },
+      "any_component_harm": 0,
+      "hidden_harm": []
+    },
+    {
+      "pair_type": "JA_PASSIVE_TO_ZH_ACTIVE",
+      "model": "llama",
+      "n": 64,
+      "both_correct": 53,
+      "strict_transitions": {
+        "C->C": 53,
+        "W->C": 11
+      },
+      "content_transitions": {
+        "C->C": 53,
+        "W->C": 11
+      },
+      "any_component_harm": 0,
+      "hidden_harm": []
+    },
+    {
+      "pair_type": "MODEL",
+      "model": "qwen",
+      "n": 192,
+      "both_correct": 180,
+      "strict_transitions": {
+        "C->C": 178,
+        "U->C": 2,
+        "C->W": 12
+      },
+      "content_transitions": {
+        "C->C": 180,
+        "C->W": 12
+      },
+      "any_component_harm": 12,
+      "hidden_harm": []
+    },
+    {
+      "pair_type": "NEGATED",
+      "model": "qwen",
+      "n": 96,
+      "both_correct": 96,
+      "strict_transitions": {
+        "C->C": 94,
+        "U->C": 2
+      },
+      "content_transitions": {
+        "C->C": 96
+      },
+      "any_component_harm": 0,
+      "hidden_harm": []
+    },
+    {
+      "pair_type": "NEGATED",
+      "model": "llama",
+      "n": 96,
+      "both_correct": 89,
+      "strict_transitions": {
+        "C->C": 89,
+        "W->W": 5,
+        "C->W": 2
+      },
+      "content_transitions": {
+        "C->C": 89,
+        "W->W": 5,
+        "C->W": 2
+      },
+      "any_component_harm": 2,
+      "hidden_harm": []
+    },
+    {
+      "pair_type": "ROLE_SWAP",
+      "model": "qwen",
+      "n": 96,
+      "both_correct": 96,
+      "strict_transitions": {
+        "C->C": 94,
+        "C->U": 1,
+        "U->C": 1
+      },
+      "content_transitions": {
+        "C->C": 96
+      },
+      "any_component_harm": 0,
+      "hidden_harm": []
+    },
+    {
+      "pair_type": "ROLE_SWAP",
+      "model": "llama",
+      "n": 96,
+      "both_correct": 84,
+      "strict_transitions": {
+        "C->C": 84,
+        "W->C": 7,
+        "C->W": 5
+      },
+      "content_transitions": {
+        "C->C": 84,
+        "W->C": 7,
+        "C->W": 5
+      },
+      "any_component_harm": 5,
+      "hidden_harm": []
+    }
+  ],
+  "signals": [
+    {
+      "model": "qwen",
+      "all_name_only_floors_pass": true,
+      "rescue_pairs": [],
+      "rescue_domains": [],
+      "rescue_directed_names": [],
+      "harm_pairs": [],
+      "pass_signal": false,
+      "independent_confirmation": false
+    },
+    {
+      "model": "llama",
+      "all_name_only_floors_pass": false,
+      "rescue_pairs": [
+        "INVENTORY:B13-LLAMA-ID_TABLE-SRC031--B13-LLAMA-NAME_ONLY-SRC031",
+        "INVENTORY:B13-LLAMA-ID_TABLE-SRC032--B13-LLAMA-NAME_ONLY-SRC032",
+        "INVENTORY:B13-LLAMA-ID_TABLE-SRC056--B13-LLAMA-NAME_ONLY-SRC056"
+      ],
+      "rescue_domains": [
+        "hire",
+        "loan"
+      ],
+      "rescue_directed_names": [
+        [
+          "小川",
+          "森田"
+        ],
+        [
+          "青木",
+          "上田"
+        ]
+      ],
+      "harm_pairs": [
+        "INVENTORY:B13-LLAMA-ID_TABLE-SRC026--B13-LLAMA-NAME_ONLY-SRC026"
+      ],
+      "pass_signal": false,
+      "independent_confirmation": false
+    }
+  ],
+  "shared_signal": false,
+  "all_content": {
+    "record": {
+      "C": 372,
+      "W": 12
+    },
+    "occurrence": {
+      "C": 384
+    },
+    "role_a": {
+      "C": 372,
+      "W": 12
+    },
+    "role_b": {
+      "C": 372,
+      "W": 12
+    }
+  },
+  "all_strict": {
+    "record": {
+      "C": 370,
+      "U": 2,
+      "W": 12
+    },
+    "occurrence": {
+      "C": 384
+    },
+    "role_a": {
+      "C": 370,
+      "U": 2,
+      "W": 12
+    },
+    "role_b": {
+      "C": 370,
+      "U": 2,
+      "W": 12
+    }
+  },
+  "nonC_or_noncompliant": 14,
+  "independent_human_gold": 0,
+  "independent_confirmation": false,
+  "automatic_B14": false,
+  "at": "2026-09-08T08:24:36.149704+00:00",
+  "new_forwards": 6480,
+  "all_raw_reviewed": true,
+  "new_raw_sha256": "89d7188a1c1e5001a6aadcbe789d145ed442efe619e04137f0caee4d436892ae",
+  "cache_sha256": "18144a89202993f85b24d3b4503914a2082fda159cfd9a084db8b8b6c7cebbef"
+}

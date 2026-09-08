@@ -1,0 +1,2002 @@
+[
+  {
+    "call_id": "B10-A-N01-BASE-SINGLE",
+    "score_id": "B10-A-N01-BASE-SINGLE:E",
+    "source_id": "N01-BASE",
+    "occurred": "YES",
+    "role_a": "陈悦",
+    "role_b": "周宁",
+    "target_sentence": "陈悦把这把雨伞借给了周宁。",
+    "identity": "B09_FROZEN_TARGET_REFERENCE"
+  },
+  {
+    "call_id": "B10-A-N01-BASE-SAME_TARGET_FIRST",
+    "score_id": "B10-A-N01-BASE-SAME_TARGET_FIRST:E",
+    "source_id": "N01-BASE",
+    "occurred": "YES",
+    "role_a": "陈悦",
+    "role_b": "周宁",
+    "target_sentence": "陈悦把这把雨伞借给了周宁。",
+    "identity": "B09_FROZEN_TARGET_REFERENCE"
+  },
+  {
+    "call_id": "B10-A-N01-BASE-SAME_TARGET_LAST",
+    "score_id": "B10-A-N01-BASE-SAME_TARGET_LAST:E",
+    "source_id": "N01-BASE",
+    "occurred": "YES",
+    "role_a": "陈悦",
+    "role_b": "周宁",
+    "target_sentence": "陈悦把这把雨伞借给了周宁。",
+    "identity": "B09_FROZEN_TARGET_REFERENCE"
+  },
+  {
+    "call_id": "B10-A-N01-BASE-OPPOSITE_TARGET_FIRST",
+    "score_id": "B10-A-N01-BASE-OPPOSITE_TARGET_FIRST:E",
+    "source_id": "N01-BASE",
+    "occurred": "YES",
+    "role_a": "陈悦",
+    "role_b": "周宁",
+    "target_sentence": "陈悦把这把雨伞借给了周宁。",
+    "identity": "B09_FROZEN_TARGET_REFERENCE"
+  },
+  {
+    "call_id": "B10-A-N01-BASE-OPPOSITE_TARGET_LAST",
+    "score_id": "B10-A-N01-BASE-OPPOSITE_TARGET_LAST:E",
+    "source_id": "N01-BASE",
+    "occurred": "YES",
+    "role_a": "陈悦",
+    "role_b": "周宁",
+    "target_sentence": "陈悦把这把雨伞借给了周宁。",
+    "identity": "B09_FROZEN_TARGET_REFERENCE"
+  },
+  {
+    "call_id": "B10-A-N01-PARAPHRASE-SAME_TARGET_FIRST",
+    "score_id": "B10-A-N01-PARAPHRASE-SAME_TARGET_FIRST:E",
+    "source_id": "N01-PARAPHRASE",
+    "occurred": "YES",
+    "role_a": "陈悦",
+    "role_b": "周宁",
+    "target_sentence": "周宁从陈悦那里借到了这把雨伞。",
+    "identity": "B09_FROZEN_TARGET_REFERENCE"
+  },
+  {
+    "call_id": "B10-A-N01-PARAPHRASE-SAME_TARGET_LAST",
+    "score_id": "B10-A-N01-PARAPHRASE-SAME_TARGET_LAST:E",
+    "source_id": "N01-PARAPHRASE",
+    "occurred": "YES",
+    "role_a": "陈悦",
+    "role_b": "周宁",
+    "target_sentence": "周宁从陈悦那里借到了这把雨伞。",
+    "identity": "B09_FROZEN_TARGET_REFERENCE"
+  },
+  {
+    "call_id": "B10-A-N01-PARAPHRASE-OPPOSITE_TARGET_FIRST",
+    "score_id": "B10-A-N01-PARAPHRASE-OPPOSITE_TARGET_FIRST:E",
+    "source_id": "N01-PARAPHRASE",
+    "occurred": "YES",
+    "role_a": "陈悦",
+    "role_b": "周宁",
+    "target_sentence": "周宁从陈悦那里借到了这把雨伞。",
+    "identity": "B09_FROZEN_TARGET_REFERENCE"
+  },
+  {
+    "call_id": "B10-A-N01-PARAPHRASE-OPPOSITE_TARGET_LAST",
+    "score_id": "B10-A-N01-PARAPHRASE-OPPOSITE_TARGET_LAST:E",
+    "source_id": "N01-PARAPHRASE",
+    "occurred": "YES",
+    "role_a": "陈悦",
+    "role_b": "周宁",
+    "target_sentence": "周宁从陈悦那里借到了这把雨伞。",
+    "identity": "B09_FROZEN_TARGET_REFERENCE"
+  },
+  {
+    "call_id": "B10-A-N01-PARAPHRASE-SINGLE",
+    "score_id": "B10-A-N01-PARAPHRASE-SINGLE:E",
+    "source_id": "N01-PARAPHRASE",
+    "occurred": "YES",
+    "role_a": "陈悦",
+    "role_b": "周宁",
+    "target_sentence": "周宁从陈悦那里借到了这把雨伞。",
+    "identity": "B09_FROZEN_TARGET_REFERENCE"
+  },
+  {
+    "call_id": "B10-A-N01-ROLE_SWAP-SAME_TARGET_LAST",
+    "score_id": "B10-A-N01-ROLE_SWAP-SAME_TARGET_LAST:E",
+    "source_id": "N01-ROLE_SWAP",
+    "occurred": "YES",
+    "role_a": "周宁",
+    "role_b": "陈悦",
+    "target_sentence": "周宁把这把雨伞借给了陈悦。",
+    "identity": "B09_FROZEN_TARGET_REFERENCE"
+  },
+  {
+    "call_id": "B10-A-N01-ROLE_SWAP-OPPOSITE_TARGET_FIRST",
+    "score_id": "B10-A-N01-ROLE_SWAP-OPPOSITE_TARGET_FIRST:E",
+    "source_id": "N01-ROLE_SWAP",
+    "occurred": "YES",
+    "role_a": "周宁",
+    "role_b": "陈悦",
+    "target_sentence": "周宁把这把雨伞借给了陈悦。",
+    "identity": "B09_FROZEN_TARGET_REFERENCE"
+  },
+  {
+    "call_id": "B10-A-N01-ROLE_SWAP-OPPOSITE_TARGET_LAST",
+    "score_id": "B10-A-N01-ROLE_SWAP-OPPOSITE_TARGET_LAST:E",
+    "source_id": "N01-ROLE_SWAP",
+    "occurred": "YES",
+    "role_a": "周宁",
+    "role_b": "陈悦",
+    "target_sentence": "周宁把这把雨伞借给了陈悦。",
+    "identity": "B09_FROZEN_TARGET_REFERENCE"
+  },
+  {
+    "call_id": "B10-A-N01-ROLE_SWAP-SINGLE",
+    "score_id": "B10-A-N01-ROLE_SWAP-SINGLE:E",
+    "source_id": "N01-ROLE_SWAP",
+    "occurred": "YES",
+    "role_a": "周宁",
+    "role_b": "陈悦",
+    "target_sentence": "周宁把这把雨伞借给了陈悦。",
+    "identity": "B09_FROZEN_TARGET_REFERENCE"
+  },
+  {
+    "call_id": "B10-A-N01-ROLE_SWAP-SAME_TARGET_FIRST",
+    "score_id": "B10-A-N01-ROLE_SWAP-SAME_TARGET_FIRST:E",
+    "source_id": "N01-ROLE_SWAP",
+    "occurred": "YES",
+    "role_a": "周宁",
+    "role_b": "陈悦",
+    "target_sentence": "周宁把这把雨伞借给了陈悦。",
+    "identity": "B09_FROZEN_TARGET_REFERENCE"
+  },
+  {
+    "call_id": "B10-A-N01-NEGATED-OPPOSITE_TARGET_FIRST",
+    "score_id": "B10-A-N01-NEGATED-OPPOSITE_TARGET_FIRST:E",
+    "source_id": "N01-NEGATED",
+    "occurred": "NO",
+    "role_a": "陈悦",
+    "role_b": "周宁",
+    "target_sentence": "陈悦没有把这把雨伞借给周宁。",
+    "identity": "B09_FROZEN_TARGET_REFERENCE"
+  },
+  {
+    "call_id": "B10-A-N01-NEGATED-OPPOSITE_TARGET_LAST",
+    "score_id": "B10-A-N01-NEGATED-OPPOSITE_TARGET_LAST:E",
+    "source_id": "N01-NEGATED",
+    "occurred": "NO",
+    "role_a": "陈悦",
+    "role_b": "周宁",
+    "target_sentence": "陈悦没有把这把雨伞借给周宁。",
+    "identity": "B09_FROZEN_TARGET_REFERENCE"
+  },
+  {
+    "call_id": "B10-A-N01-NEGATED-SINGLE",
+    "score_id": "B10-A-N01-NEGATED-SINGLE:E",
+    "source_id": "N01-NEGATED",
+    "occurred": "NO",
+    "role_a": "陈悦",
+    "role_b": "周宁",
+    "target_sentence": "陈悦没有把这把雨伞借给周宁。",
+    "identity": "B09_FROZEN_TARGET_REFERENCE"
+  },
+  {
+    "call_id": "B10-A-N01-NEGATED-SAME_TARGET_FIRST",
+    "score_id": "B10-A-N01-NEGATED-SAME_TARGET_FIRST:E",
+    "source_id": "N01-NEGATED",
+    "occurred": "NO",
+    "role_a": "陈悦",
+    "role_b": "周宁",
+    "target_sentence": "陈悦没有把这把雨伞借给周宁。",
+    "identity": "B09_FROZEN_TARGET_REFERENCE"
+  },
+  {
+    "call_id": "B10-A-N01-NEGATED-SAME_TARGET_LAST",
+    "score_id": "B10-A-N01-NEGATED-SAME_TARGET_LAST:E",
+    "source_id": "N01-NEGATED",
+    "occurred": "NO",
+    "role_a": "陈悦",
+    "role_b": "周宁",
+    "target_sentence": "陈悦没有把这把雨伞借给周宁。",
+    "identity": "B09_FROZEN_TARGET_REFERENCE"
+  },
+  {
+    "call_id": "B10-A-N01-UNRESOLVED-OPPOSITE_TARGET_LAST",
+    "score_id": "B10-A-N01-UNRESOLVED-OPPOSITE_TARGET_LAST:E",
+    "source_id": "N01-UNRESOLVED",
+    "occurred": "UNKNOWN",
+    "role_a": "陈悦",
+    "role_b": "周宁",
+    "target_sentence": "工作人员正在核实陈悦是否把这把雨伞借给了周宁，目前尚无结论。",
+    "identity": "B09_FROZEN_TARGET_REFERENCE"
+  },
+  {
+    "call_id": "B10-A-N01-UNRESOLVED-SINGLE",
+    "score_id": "B10-A-N01-UNRESOLVED-SINGLE:E",
+    "source_id": "N01-UNRESOLVED",
+    "occurred": "UNKNOWN",
+    "role_a": "陈悦",
+    "role_b": "周宁",
+    "target_sentence": "工作人员正在核实陈悦是否把这把雨伞借给了周宁，目前尚无结论。",
+    "identity": "B09_FROZEN_TARGET_REFERENCE"
+  },
+  {
+    "call_id": "B10-A-N01-UNRESOLVED-SAME_TARGET_FIRST",
+    "score_id": "B10-A-N01-UNRESOLVED-SAME_TARGET_FIRST:E",
+    "source_id": "N01-UNRESOLVED",
+    "occurred": "UNKNOWN",
+    "role_a": "陈悦",
+    "role_b": "周宁",
+    "target_sentence": "工作人员正在核实陈悦是否把这把雨伞借给了周宁，目前尚无结论。",
+    "identity": "B09_FROZEN_TARGET_REFERENCE"
+  },
+  {
+    "call_id": "B10-A-N01-UNRESOLVED-SAME_TARGET_LAST",
+    "score_id": "B10-A-N01-UNRESOLVED-SAME_TARGET_LAST:E",
+    "source_id": "N01-UNRESOLVED",
+    "occurred": "UNKNOWN",
+    "role_a": "陈悦",
+    "role_b": "周宁",
+    "target_sentence": "工作人员正在核实陈悦是否把这把雨伞借给了周宁，目前尚无结论。",
+    "identity": "B09_FROZEN_TARGET_REFERENCE"
+  },
+  {
+    "call_id": "B10-A-N01-UNRESOLVED-OPPOSITE_TARGET_FIRST",
+    "score_id": "B10-A-N01-UNRESOLVED-OPPOSITE_TARGET_FIRST:E",
+    "source_id": "N01-UNRESOLVED",
+    "occurred": "UNKNOWN",
+    "role_a": "陈悦",
+    "role_b": "周宁",
+    "target_sentence": "工作人员正在核实陈悦是否把这把雨伞借给了周宁，目前尚无结论。",
+    "identity": "B09_FROZEN_TARGET_REFERENCE"
+  },
+  {
+    "call_id": "B10-A-N02-PARAPHRASE-SAME_TARGET_FIRST",
+    "score_id": "B10-A-N02-PARAPHRASE-SAME_TARGET_FIRST:E",
+    "source_id": "N02-PARAPHRASE",
+    "occurred": "YES",
+    "role_a": "林涛",
+    "role_b": "许静",
+    "target_sentence": "许静从林涛那里借到了这个充电器。",
+    "identity": "B09_FROZEN_TARGET_REFERENCE"
+  },
+  {
+    "call_id": "B10-A-N02-PARAPHRASE-SAME_TARGET_LAST",
+    "score_id": "B10-A-N02-PARAPHRASE-SAME_TARGET_LAST:E",
+    "source_id": "N02-PARAPHRASE",
+    "occurred": "YES",
+    "role_a": "林涛",
+    "role_b": "许静",
+    "target_sentence": "许静从林涛那里借到了这个充电器。",
+    "identity": "B09_FROZEN_TARGET_REFERENCE"
+  },
+  {
+    "call_id": "B10-A-N02-PARAPHRASE-OPPOSITE_TARGET_FIRST",
+    "score_id": "B10-A-N02-PARAPHRASE-OPPOSITE_TARGET_FIRST:E",
+    "source_id": "N02-PARAPHRASE",
+    "occurred": "YES",
+    "role_a": "林涛",
+    "role_b": "许静",
+    "target_sentence": "许静从林涛那里借到了这个充电器。",
+    "identity": "B09_FROZEN_TARGET_REFERENCE"
+  },
+  {
+    "call_id": "B10-A-N02-PARAPHRASE-OPPOSITE_TARGET_LAST",
+    "score_id": "B10-A-N02-PARAPHRASE-OPPOSITE_TARGET_LAST:E",
+    "source_id": "N02-PARAPHRASE",
+    "occurred": "YES",
+    "role_a": "林涛",
+    "role_b": "许静",
+    "target_sentence": "许静从林涛那里借到了这个充电器。",
+    "identity": "B09_FROZEN_TARGET_REFERENCE"
+  },
+  {
+    "call_id": "B10-A-N02-PARAPHRASE-SINGLE",
+    "score_id": "B10-A-N02-PARAPHRASE-SINGLE:E",
+    "source_id": "N02-PARAPHRASE",
+    "occurred": "YES",
+    "role_a": "林涛",
+    "role_b": "许静",
+    "target_sentence": "许静从林涛那里借到了这个充电器。",
+    "identity": "B09_FROZEN_TARGET_REFERENCE"
+  },
+  {
+    "call_id": "B10-A-N02-ROLE_SWAP-SAME_TARGET_LAST",
+    "score_id": "B10-A-N02-ROLE_SWAP-SAME_TARGET_LAST:E",
+    "source_id": "N02-ROLE_SWAP",
+    "occurred": "YES",
+    "role_a": "许静",
+    "role_b": "林涛",
+    "target_sentence": "许静把这个充电器借给了林涛。",
+    "identity": "B09_FROZEN_TARGET_REFERENCE"
+  },
+  {
+    "call_id": "B10-A-N02-ROLE_SWAP-OPPOSITE_TARGET_FIRST",
+    "score_id": "B10-A-N02-ROLE_SWAP-OPPOSITE_TARGET_FIRST:E",
+    "source_id": "N02-ROLE_SWAP",
+    "occurred": "YES",
+    "role_a": "许静",
+    "role_b": "林涛",
+    "target_sentence": "许静把这个充电器借给了林涛。",
+    "identity": "B09_FROZEN_TARGET_REFERENCE"
+  },
+  {
+    "call_id": "B10-A-N02-ROLE_SWAP-OPPOSITE_TARGET_LAST",
+    "score_id": "B10-A-N02-ROLE_SWAP-OPPOSITE_TARGET_LAST:E",
+    "source_id": "N02-ROLE_SWAP",
+    "occurred": "YES",
+    "role_a": "许静",
+    "role_b": "林涛",
+    "target_sentence": "许静把这个充电器借给了林涛。",
+    "identity": "B09_FROZEN_TARGET_REFERENCE"
+  },
+  {
+    "call_id": "B10-A-N02-ROLE_SWAP-SINGLE",
+    "score_id": "B10-A-N02-ROLE_SWAP-SINGLE:E",
+    "source_id": "N02-ROLE_SWAP",
+    "occurred": "YES",
+    "role_a": "许静",
+    "role_b": "林涛",
+    "target_sentence": "许静把这个充电器借给了林涛。",
+    "identity": "B09_FROZEN_TARGET_REFERENCE"
+  },
+  {
+    "call_id": "B10-A-N02-ROLE_SWAP-SAME_TARGET_FIRST",
+    "score_id": "B10-A-N02-ROLE_SWAP-SAME_TARGET_FIRST:E",
+    "source_id": "N02-ROLE_SWAP",
+    "occurred": "YES",
+    "role_a": "许静",
+    "role_b": "林涛",
+    "target_sentence": "许静把这个充电器借给了林涛。",
+    "identity": "B09_FROZEN_TARGET_REFERENCE"
+  },
+  {
+    "call_id": "B10-A-N02-NEGATED-OPPOSITE_TARGET_FIRST",
+    "score_id": "B10-A-N02-NEGATED-OPPOSITE_TARGET_FIRST:E",
+    "source_id": "N02-NEGATED",
+    "occurred": "NO",
+    "role_a": "林涛",
+    "role_b": "许静",
+    "target_sentence": "林涛没有把这个充电器借给许静。",
+    "identity": "B09_FROZEN_TARGET_REFERENCE"
+  },
+  {
+    "call_id": "B10-A-N02-NEGATED-OPPOSITE_TARGET_LAST",
+    "score_id": "B10-A-N02-NEGATED-OPPOSITE_TARGET_LAST:E",
+    "source_id": "N02-NEGATED",
+    "occurred": "NO",
+    "role_a": "林涛",
+    "role_b": "许静",
+    "target_sentence": "林涛没有把这个充电器借给许静。",
+    "identity": "B09_FROZEN_TARGET_REFERENCE"
+  },
+  {
+    "call_id": "B10-A-N02-NEGATED-SINGLE",
+    "score_id": "B10-A-N02-NEGATED-SINGLE:E",
+    "source_id": "N02-NEGATED",
+    "occurred": "NO",
+    "role_a": "林涛",
+    "role_b": "许静",
+    "target_sentence": "林涛没有把这个充电器借给许静。",
+    "identity": "B09_FROZEN_TARGET_REFERENCE"
+  },
+  {
+    "call_id": "B10-A-N02-NEGATED-SAME_TARGET_FIRST",
+    "score_id": "B10-A-N02-NEGATED-SAME_TARGET_FIRST:E",
+    "source_id": "N02-NEGATED",
+    "occurred": "NO",
+    "role_a": "林涛",
+    "role_b": "许静",
+    "target_sentence": "林涛没有把这个充电器借给许静。",
+    "identity": "B09_FROZEN_TARGET_REFERENCE"
+  },
+  {
+    "call_id": "B10-A-N02-NEGATED-SAME_TARGET_LAST",
+    "score_id": "B10-A-N02-NEGATED-SAME_TARGET_LAST:E",
+    "source_id": "N02-NEGATED",
+    "occurred": "NO",
+    "role_a": "林涛",
+    "role_b": "许静",
+    "target_sentence": "林涛没有把这个充电器借给许静。",
+    "identity": "B09_FROZEN_TARGET_REFERENCE"
+  },
+  {
+    "call_id": "B10-A-N02-UNRESOLVED-OPPOSITE_TARGET_LAST",
+    "score_id": "B10-A-N02-UNRESOLVED-OPPOSITE_TARGET_LAST:E",
+    "source_id": "N02-UNRESOLVED",
+    "occurred": "UNKNOWN",
+    "role_a": "林涛",
+    "role_b": "许静",
+    "target_sentence": "工作人员正在核实林涛是否把这个充电器借给了许静，目前尚无结论。",
+    "identity": "B09_FROZEN_TARGET_REFERENCE"
+  },
+  {
+    "call_id": "B10-A-N02-UNRESOLVED-SINGLE",
+    "score_id": "B10-A-N02-UNRESOLVED-SINGLE:E",
+    "source_id": "N02-UNRESOLVED",
+    "occurred": "UNKNOWN",
+    "role_a": "林涛",
+    "role_b": "许静",
+    "target_sentence": "工作人员正在核实林涛是否把这个充电器借给了许静，目前尚无结论。",
+    "identity": "B09_FROZEN_TARGET_REFERENCE"
+  },
+  {
+    "call_id": "B10-A-N02-UNRESOLVED-SAME_TARGET_FIRST",
+    "score_id": "B10-A-N02-UNRESOLVED-SAME_TARGET_FIRST:E",
+    "source_id": "N02-UNRESOLVED",
+    "occurred": "UNKNOWN",
+    "role_a": "林涛",
+    "role_b": "许静",
+    "target_sentence": "工作人员正在核实林涛是否把这个充电器借给了许静，目前尚无结论。",
+    "identity": "B09_FROZEN_TARGET_REFERENCE"
+  },
+  {
+    "call_id": "B10-A-N02-UNRESOLVED-SAME_TARGET_LAST",
+    "score_id": "B10-A-N02-UNRESOLVED-SAME_TARGET_LAST:E",
+    "source_id": "N02-UNRESOLVED",
+    "occurred": "UNKNOWN",
+    "role_a": "林涛",
+    "role_b": "许静",
+    "target_sentence": "工作人员正在核实林涛是否把这个充电器借给了许静，目前尚无结论。",
+    "identity": "B09_FROZEN_TARGET_REFERENCE"
+  },
+  {
+    "call_id": "B10-A-N02-UNRESOLVED-OPPOSITE_TARGET_FIRST",
+    "score_id": "B10-A-N02-UNRESOLVED-OPPOSITE_TARGET_FIRST:E",
+    "source_id": "N02-UNRESOLVED",
+    "occurred": "UNKNOWN",
+    "role_a": "林涛",
+    "role_b": "许静",
+    "target_sentence": "工作人员正在核实林涛是否把这个充电器借给了许静，目前尚无结论。",
+    "identity": "B09_FROZEN_TARGET_REFERENCE"
+  },
+  {
+    "call_id": "B10-A-N02-BASE-SINGLE",
+    "score_id": "B10-A-N02-BASE-SINGLE:E",
+    "source_id": "N02-BASE",
+    "occurred": "YES",
+    "role_a": "林涛",
+    "role_b": "许静",
+    "target_sentence": "林涛把这个充电器借给了许静。",
+    "identity": "B09_FROZEN_TARGET_REFERENCE"
+  },
+  {
+    "call_id": "B10-A-N02-BASE-SAME_TARGET_FIRST",
+    "score_id": "B10-A-N02-BASE-SAME_TARGET_FIRST:E",
+    "source_id": "N02-BASE",
+    "occurred": "YES",
+    "role_a": "林涛",
+    "role_b": "许静",
+    "target_sentence": "林涛把这个充电器借给了许静。",
+    "identity": "B09_FROZEN_TARGET_REFERENCE"
+  },
+  {
+    "call_id": "B10-A-N02-BASE-SAME_TARGET_LAST",
+    "score_id": "B10-A-N02-BASE-SAME_TARGET_LAST:E",
+    "source_id": "N02-BASE",
+    "occurred": "YES",
+    "role_a": "林涛",
+    "role_b": "许静",
+    "target_sentence": "林涛把这个充电器借给了许静。",
+    "identity": "B09_FROZEN_TARGET_REFERENCE"
+  },
+  {
+    "call_id": "B10-A-N02-BASE-OPPOSITE_TARGET_FIRST",
+    "score_id": "B10-A-N02-BASE-OPPOSITE_TARGET_FIRST:E",
+    "source_id": "N02-BASE",
+    "occurred": "YES",
+    "role_a": "林涛",
+    "role_b": "许静",
+    "target_sentence": "林涛把这个充电器借给了许静。",
+    "identity": "B09_FROZEN_TARGET_REFERENCE"
+  },
+  {
+    "call_id": "B10-A-N02-BASE-OPPOSITE_TARGET_LAST",
+    "score_id": "B10-A-N02-BASE-OPPOSITE_TARGET_LAST:E",
+    "source_id": "N02-BASE",
+    "occurred": "YES",
+    "role_a": "林涛",
+    "role_b": "许静",
+    "target_sentence": "林涛把这个充电器借给了许静。",
+    "identity": "B09_FROZEN_TARGET_REFERENCE"
+  },
+  {
+    "call_id": "B10-A-N03-ROLE_SWAP-SAME_TARGET_LAST",
+    "score_id": "B10-A-N03-ROLE_SWAP-SAME_TARGET_LAST:E",
+    "source_id": "N03-ROLE_SWAP",
+    "occurred": "YES",
+    "role_a": "刘宁",
+    "role_b": "王晨",
+    "target_sentence": "刘宁把这辆自行车卖给了王晨。",
+    "identity": "B09_FROZEN_TARGET_REFERENCE"
+  },
+  {
+    "call_id": "B10-A-N03-ROLE_SWAP-OPPOSITE_TARGET_FIRST",
+    "score_id": "B10-A-N03-ROLE_SWAP-OPPOSITE_TARGET_FIRST:E",
+    "source_id": "N03-ROLE_SWAP",
+    "occurred": "YES",
+    "role_a": "刘宁",
+    "role_b": "王晨",
+    "target_sentence": "刘宁把这辆自行车卖给了王晨。",
+    "identity": "B09_FROZEN_TARGET_REFERENCE"
+  },
+  {
+    "call_id": "B10-A-N03-ROLE_SWAP-OPPOSITE_TARGET_LAST",
+    "score_id": "B10-A-N03-ROLE_SWAP-OPPOSITE_TARGET_LAST:E",
+    "source_id": "N03-ROLE_SWAP",
+    "occurred": "YES",
+    "role_a": "刘宁",
+    "role_b": "王晨",
+    "target_sentence": "刘宁把这辆自行车卖给了王晨。",
+    "identity": "B09_FROZEN_TARGET_REFERENCE"
+  },
+  {
+    "call_id": "B10-A-N03-ROLE_SWAP-SINGLE",
+    "score_id": "B10-A-N03-ROLE_SWAP-SINGLE:E",
+    "source_id": "N03-ROLE_SWAP",
+    "occurred": "YES",
+    "role_a": "刘宁",
+    "role_b": "王晨",
+    "target_sentence": "刘宁把这辆自行车卖给了王晨。",
+    "identity": "B09_FROZEN_TARGET_REFERENCE"
+  },
+  {
+    "call_id": "B10-A-N03-ROLE_SWAP-SAME_TARGET_FIRST",
+    "score_id": "B10-A-N03-ROLE_SWAP-SAME_TARGET_FIRST:E",
+    "source_id": "N03-ROLE_SWAP",
+    "occurred": "YES",
+    "role_a": "刘宁",
+    "role_b": "王晨",
+    "target_sentence": "刘宁把这辆自行车卖给了王晨。",
+    "identity": "B09_FROZEN_TARGET_REFERENCE"
+  },
+  {
+    "call_id": "B10-A-N03-NEGATED-OPPOSITE_TARGET_FIRST",
+    "score_id": "B10-A-N03-NEGATED-OPPOSITE_TARGET_FIRST:E",
+    "source_id": "N03-NEGATED",
+    "occurred": "NO",
+    "role_a": "王晨",
+    "role_b": "刘宁",
+    "target_sentence": "王晨没有把这辆自行车卖给刘宁。",
+    "identity": "B09_FROZEN_TARGET_REFERENCE"
+  },
+  {
+    "call_id": "B10-A-N03-NEGATED-OPPOSITE_TARGET_LAST",
+    "score_id": "B10-A-N03-NEGATED-OPPOSITE_TARGET_LAST:E",
+    "source_id": "N03-NEGATED",
+    "occurred": "NO",
+    "role_a": "王晨",
+    "role_b": "刘宁",
+    "target_sentence": "王晨没有把这辆自行车卖给刘宁。",
+    "identity": "B09_FROZEN_TARGET_REFERENCE"
+  },
+  {
+    "call_id": "B10-A-N03-NEGATED-SINGLE",
+    "score_id": "B10-A-N03-NEGATED-SINGLE:E",
+    "source_id": "N03-NEGATED",
+    "occurred": "NO",
+    "role_a": "王晨",
+    "role_b": "刘宁",
+    "target_sentence": "王晨没有把这辆自行车卖给刘宁。",
+    "identity": "B09_FROZEN_TARGET_REFERENCE"
+  },
+  {
+    "call_id": "B10-A-N03-NEGATED-SAME_TARGET_FIRST",
+    "score_id": "B10-A-N03-NEGATED-SAME_TARGET_FIRST:E",
+    "source_id": "N03-NEGATED",
+    "occurred": "NO",
+    "role_a": "王晨",
+    "role_b": "刘宁",
+    "target_sentence": "王晨没有把这辆自行车卖给刘宁。",
+    "identity": "B09_FROZEN_TARGET_REFERENCE"
+  },
+  {
+    "call_id": "B10-A-N03-NEGATED-SAME_TARGET_LAST",
+    "score_id": "B10-A-N03-NEGATED-SAME_TARGET_LAST:E",
+    "source_id": "N03-NEGATED",
+    "occurred": "NO",
+    "role_a": "王晨",
+    "role_b": "刘宁",
+    "target_sentence": "王晨没有把这辆自行车卖给刘宁。",
+    "identity": "B09_FROZEN_TARGET_REFERENCE"
+  },
+  {
+    "call_id": "B10-A-N03-UNRESOLVED-OPPOSITE_TARGET_LAST",
+    "score_id": "B10-A-N03-UNRESOLVED-OPPOSITE_TARGET_LAST:E",
+    "source_id": "N03-UNRESOLVED",
+    "occurred": "UNKNOWN",
+    "role_a": "王晨",
+    "role_b": "刘宁",
+    "target_sentence": "工作人员正在核实王晨是否把这辆自行车卖给了刘宁，目前尚无结论。",
+    "identity": "B09_FROZEN_TARGET_REFERENCE"
+  },
+  {
+    "call_id": "B10-A-N03-UNRESOLVED-SINGLE",
+    "score_id": "B10-A-N03-UNRESOLVED-SINGLE:E",
+    "source_id": "N03-UNRESOLVED",
+    "occurred": "UNKNOWN",
+    "role_a": "王晨",
+    "role_b": "刘宁",
+    "target_sentence": "工作人员正在核实王晨是否把这辆自行车卖给了刘宁，目前尚无结论。",
+    "identity": "B09_FROZEN_TARGET_REFERENCE"
+  },
+  {
+    "call_id": "B10-A-N03-UNRESOLVED-SAME_TARGET_FIRST",
+    "score_id": "B10-A-N03-UNRESOLVED-SAME_TARGET_FIRST:E",
+    "source_id": "N03-UNRESOLVED",
+    "occurred": "UNKNOWN",
+    "role_a": "王晨",
+    "role_b": "刘宁",
+    "target_sentence": "工作人员正在核实王晨是否把这辆自行车卖给了刘宁，目前尚无结论。",
+    "identity": "B09_FROZEN_TARGET_REFERENCE"
+  },
+  {
+    "call_id": "B10-A-N03-UNRESOLVED-SAME_TARGET_LAST",
+    "score_id": "B10-A-N03-UNRESOLVED-SAME_TARGET_LAST:E",
+    "source_id": "N03-UNRESOLVED",
+    "occurred": "UNKNOWN",
+    "role_a": "王晨",
+    "role_b": "刘宁",
+    "target_sentence": "工作人员正在核实王晨是否把这辆自行车卖给了刘宁，目前尚无结论。",
+    "identity": "B09_FROZEN_TARGET_REFERENCE"
+  },
+  {
+    "call_id": "B10-A-N03-UNRESOLVED-OPPOSITE_TARGET_FIRST",
+    "score_id": "B10-A-N03-UNRESOLVED-OPPOSITE_TARGET_FIRST:E",
+    "source_id": "N03-UNRESOLVED",
+    "occurred": "UNKNOWN",
+    "role_a": "王晨",
+    "role_b": "刘宁",
+    "target_sentence": "工作人员正在核实王晨是否把这辆自行车卖给了刘宁，目前尚无结论。",
+    "identity": "B09_FROZEN_TARGET_REFERENCE"
+  },
+  {
+    "call_id": "B10-A-N03-BASE-SINGLE",
+    "score_id": "B10-A-N03-BASE-SINGLE:E",
+    "source_id": "N03-BASE",
+    "occurred": "YES",
+    "role_a": "王晨",
+    "role_b": "刘宁",
+    "target_sentence": "王晨把这辆自行车卖给了刘宁。",
+    "identity": "B09_FROZEN_TARGET_REFERENCE"
+  },
+  {
+    "call_id": "B10-A-N03-BASE-SAME_TARGET_FIRST",
+    "score_id": "B10-A-N03-BASE-SAME_TARGET_FIRST:E",
+    "source_id": "N03-BASE",
+    "occurred": "YES",
+    "role_a": "王晨",
+    "role_b": "刘宁",
+    "target_sentence": "王晨把这辆自行车卖给了刘宁。",
+    "identity": "B09_FROZEN_TARGET_REFERENCE"
+  },
+  {
+    "call_id": "B10-A-N03-BASE-SAME_TARGET_LAST",
+    "score_id": "B10-A-N03-BASE-SAME_TARGET_LAST:E",
+    "source_id": "N03-BASE",
+    "occurred": "YES",
+    "role_a": "王晨",
+    "role_b": "刘宁",
+    "target_sentence": "王晨把这辆自行车卖给了刘宁。",
+    "identity": "B09_FROZEN_TARGET_REFERENCE"
+  },
+  {
+    "call_id": "B10-A-N03-BASE-OPPOSITE_TARGET_FIRST",
+    "score_id": "B10-A-N03-BASE-OPPOSITE_TARGET_FIRST:E",
+    "source_id": "N03-BASE",
+    "occurred": "YES",
+    "role_a": "王晨",
+    "role_b": "刘宁",
+    "target_sentence": "王晨把这辆自行车卖给了刘宁。",
+    "identity": "B09_FROZEN_TARGET_REFERENCE"
+  },
+  {
+    "call_id": "B10-A-N03-BASE-OPPOSITE_TARGET_LAST",
+    "score_id": "B10-A-N03-BASE-OPPOSITE_TARGET_LAST:E",
+    "source_id": "N03-BASE",
+    "occurred": "YES",
+    "role_a": "王晨",
+    "role_b": "刘宁",
+    "target_sentence": "王晨把这辆自行车卖给了刘宁。",
+    "identity": "B09_FROZEN_TARGET_REFERENCE"
+  },
+  {
+    "call_id": "B10-A-N03-PARAPHRASE-SAME_TARGET_FIRST",
+    "score_id": "B10-A-N03-PARAPHRASE-SAME_TARGET_FIRST:E",
+    "source_id": "N03-PARAPHRASE",
+    "occurred": "YES",
+    "role_a": "王晨",
+    "role_b": "刘宁",
+    "target_sentence": "刘宁从王晨那里买到了这辆自行车。",
+    "identity": "B09_FROZEN_TARGET_REFERENCE"
+  },
+  {
+    "call_id": "B10-A-N03-PARAPHRASE-SAME_TARGET_LAST",
+    "score_id": "B10-A-N03-PARAPHRASE-SAME_TARGET_LAST:E",
+    "source_id": "N03-PARAPHRASE",
+    "occurred": "YES",
+    "role_a": "王晨",
+    "role_b": "刘宁",
+    "target_sentence": "刘宁从王晨那里买到了这辆自行车。",
+    "identity": "B09_FROZEN_TARGET_REFERENCE"
+  },
+  {
+    "call_id": "B10-A-N03-PARAPHRASE-OPPOSITE_TARGET_FIRST",
+    "score_id": "B10-A-N03-PARAPHRASE-OPPOSITE_TARGET_FIRST:E",
+    "source_id": "N03-PARAPHRASE",
+    "occurred": "YES",
+    "role_a": "王晨",
+    "role_b": "刘宁",
+    "target_sentence": "刘宁从王晨那里买到了这辆自行车。",
+    "identity": "B09_FROZEN_TARGET_REFERENCE"
+  },
+  {
+    "call_id": "B10-A-N03-PARAPHRASE-OPPOSITE_TARGET_LAST",
+    "score_id": "B10-A-N03-PARAPHRASE-OPPOSITE_TARGET_LAST:E",
+    "source_id": "N03-PARAPHRASE",
+    "occurred": "YES",
+    "role_a": "王晨",
+    "role_b": "刘宁",
+    "target_sentence": "刘宁从王晨那里买到了这辆自行车。",
+    "identity": "B09_FROZEN_TARGET_REFERENCE"
+  },
+  {
+    "call_id": "B10-A-N03-PARAPHRASE-SINGLE",
+    "score_id": "B10-A-N03-PARAPHRASE-SINGLE:E",
+    "source_id": "N03-PARAPHRASE",
+    "occurred": "YES",
+    "role_a": "王晨",
+    "role_b": "刘宁",
+    "target_sentence": "刘宁从王晨那里买到了这辆自行车。",
+    "identity": "B09_FROZEN_TARGET_REFERENCE"
+  },
+  {
+    "call_id": "B10-A-N04-NEGATED-OPPOSITE_TARGET_FIRST",
+    "score_id": "B10-A-N04-NEGATED-OPPOSITE_TARGET_FIRST:E",
+    "source_id": "N04-NEGATED",
+    "occurred": "NO",
+    "role_a": "苏敏",
+    "role_b": "赵凯",
+    "target_sentence": "苏敏没有把这盏台灯卖给赵凯。",
+    "identity": "B09_FROZEN_TARGET_REFERENCE"
+  },
+  {
+    "call_id": "B10-A-N04-NEGATED-OPPOSITE_TARGET_LAST",
+    "score_id": "B10-A-N04-NEGATED-OPPOSITE_TARGET_LAST:E",
+    "source_id": "N04-NEGATED",
+    "occurred": "NO",
+    "role_a": "苏敏",
+    "role_b": "赵凯",
+    "target_sentence": "苏敏没有把这盏台灯卖给赵凯。",
+    "identity": "B09_FROZEN_TARGET_REFERENCE"
+  },
+  {
+    "call_id": "B10-A-N04-NEGATED-SINGLE",
+    "score_id": "B10-A-N04-NEGATED-SINGLE:E",
+    "source_id": "N04-NEGATED",
+    "occurred": "NO",
+    "role_a": "苏敏",
+    "role_b": "赵凯",
+    "target_sentence": "苏敏没有把这盏台灯卖给赵凯。",
+    "identity": "B09_FROZEN_TARGET_REFERENCE"
+  },
+  {
+    "call_id": "B10-A-N04-NEGATED-SAME_TARGET_FIRST",
+    "score_id": "B10-A-N04-NEGATED-SAME_TARGET_FIRST:E",
+    "source_id": "N04-NEGATED",
+    "occurred": "NO",
+    "role_a": "苏敏",
+    "role_b": "赵凯",
+    "target_sentence": "苏敏没有把这盏台灯卖给赵凯。",
+    "identity": "B09_FROZEN_TARGET_REFERENCE"
+  },
+  {
+    "call_id": "B10-A-N04-NEGATED-SAME_TARGET_LAST",
+    "score_id": "B10-A-N04-NEGATED-SAME_TARGET_LAST:E",
+    "source_id": "N04-NEGATED",
+    "occurred": "NO",
+    "role_a": "苏敏",
+    "role_b": "赵凯",
+    "target_sentence": "苏敏没有把这盏台灯卖给赵凯。",
+    "identity": "B09_FROZEN_TARGET_REFERENCE"
+  },
+  {
+    "call_id": "B10-A-N04-UNRESOLVED-OPPOSITE_TARGET_LAST",
+    "score_id": "B10-A-N04-UNRESOLVED-OPPOSITE_TARGET_LAST:E",
+    "source_id": "N04-UNRESOLVED",
+    "occurred": "UNKNOWN",
+    "role_a": "苏敏",
+    "role_b": "赵凯",
+    "target_sentence": "工作人员正在核实苏敏是否把这盏台灯卖给了赵凯，目前尚无结论。",
+    "identity": "B09_FROZEN_TARGET_REFERENCE"
+  },
+  {
+    "call_id": "B10-A-N04-UNRESOLVED-SINGLE",
+    "score_id": "B10-A-N04-UNRESOLVED-SINGLE:E",
+    "source_id": "N04-UNRESOLVED",
+    "occurred": "UNKNOWN",
+    "role_a": "苏敏",
+    "role_b": "赵凯",
+    "target_sentence": "工作人员正在核实苏敏是否把这盏台灯卖给了赵凯，目前尚无结论。",
+    "identity": "B09_FROZEN_TARGET_REFERENCE"
+  },
+  {
+    "call_id": "B10-A-N04-UNRESOLVED-SAME_TARGET_FIRST",
+    "score_id": "B10-A-N04-UNRESOLVED-SAME_TARGET_FIRST:E",
+    "source_id": "N04-UNRESOLVED",
+    "occurred": "UNKNOWN",
+    "role_a": "苏敏",
+    "role_b": "赵凯",
+    "target_sentence": "工作人员正在核实苏敏是否把这盏台灯卖给了赵凯，目前尚无结论。",
+    "identity": "B09_FROZEN_TARGET_REFERENCE"
+  },
+  {
+    "call_id": "B10-A-N04-UNRESOLVED-SAME_TARGET_LAST",
+    "score_id": "B10-A-N04-UNRESOLVED-SAME_TARGET_LAST:E",
+    "source_id": "N04-UNRESOLVED",
+    "occurred": "UNKNOWN",
+    "role_a": "苏敏",
+    "role_b": "赵凯",
+    "target_sentence": "工作人员正在核实苏敏是否把这盏台灯卖给了赵凯，目前尚无结论。",
+    "identity": "B09_FROZEN_TARGET_REFERENCE"
+  },
+  {
+    "call_id": "B10-A-N04-UNRESOLVED-OPPOSITE_TARGET_FIRST",
+    "score_id": "B10-A-N04-UNRESOLVED-OPPOSITE_TARGET_FIRST:E",
+    "source_id": "N04-UNRESOLVED",
+    "occurred": "UNKNOWN",
+    "role_a": "苏敏",
+    "role_b": "赵凯",
+    "target_sentence": "工作人员正在核实苏敏是否把这盏台灯卖给了赵凯，目前尚无结论。",
+    "identity": "B09_FROZEN_TARGET_REFERENCE"
+  },
+  {
+    "call_id": "B10-A-N04-BASE-SINGLE",
+    "score_id": "B10-A-N04-BASE-SINGLE:E",
+    "source_id": "N04-BASE",
+    "occurred": "YES",
+    "role_a": "苏敏",
+    "role_b": "赵凯",
+    "target_sentence": "苏敏把这盏台灯卖给了赵凯。",
+    "identity": "B09_FROZEN_TARGET_REFERENCE"
+  },
+  {
+    "call_id": "B10-A-N04-BASE-SAME_TARGET_FIRST",
+    "score_id": "B10-A-N04-BASE-SAME_TARGET_FIRST:E",
+    "source_id": "N04-BASE",
+    "occurred": "YES",
+    "role_a": "苏敏",
+    "role_b": "赵凯",
+    "target_sentence": "苏敏把这盏台灯卖给了赵凯。",
+    "identity": "B09_FROZEN_TARGET_REFERENCE"
+  },
+  {
+    "call_id": "B10-A-N04-BASE-SAME_TARGET_LAST",
+    "score_id": "B10-A-N04-BASE-SAME_TARGET_LAST:E",
+    "source_id": "N04-BASE",
+    "occurred": "YES",
+    "role_a": "苏敏",
+    "role_b": "赵凯",
+    "target_sentence": "苏敏把这盏台灯卖给了赵凯。",
+    "identity": "B09_FROZEN_TARGET_REFERENCE"
+  },
+  {
+    "call_id": "B10-A-N04-BASE-OPPOSITE_TARGET_FIRST",
+    "score_id": "B10-A-N04-BASE-OPPOSITE_TARGET_FIRST:E",
+    "source_id": "N04-BASE",
+    "occurred": "YES",
+    "role_a": "苏敏",
+    "role_b": "赵凯",
+    "target_sentence": "苏敏把这盏台灯卖给了赵凯。",
+    "identity": "B09_FROZEN_TARGET_REFERENCE"
+  },
+  {
+    "call_id": "B10-A-N04-BASE-OPPOSITE_TARGET_LAST",
+    "score_id": "B10-A-N04-BASE-OPPOSITE_TARGET_LAST:E",
+    "source_id": "N04-BASE",
+    "occurred": "YES",
+    "role_a": "苏敏",
+    "role_b": "赵凯",
+    "target_sentence": "苏敏把这盏台灯卖给了赵凯。",
+    "identity": "B09_FROZEN_TARGET_REFERENCE"
+  },
+  {
+    "call_id": "B10-A-N04-PARAPHRASE-SAME_TARGET_FIRST",
+    "score_id": "B10-A-N04-PARAPHRASE-SAME_TARGET_FIRST:E",
+    "source_id": "N04-PARAPHRASE",
+    "occurred": "YES",
+    "role_a": "苏敏",
+    "role_b": "赵凯",
+    "target_sentence": "赵凯从苏敏那里买到了这盏台灯。",
+    "identity": "B09_FROZEN_TARGET_REFERENCE"
+  },
+  {
+    "call_id": "B10-A-N04-PARAPHRASE-SAME_TARGET_LAST",
+    "score_id": "B10-A-N04-PARAPHRASE-SAME_TARGET_LAST:E",
+    "source_id": "N04-PARAPHRASE",
+    "occurred": "YES",
+    "role_a": "苏敏",
+    "role_b": "赵凯",
+    "target_sentence": "赵凯从苏敏那里买到了这盏台灯。",
+    "identity": "B09_FROZEN_TARGET_REFERENCE"
+  },
+  {
+    "call_id": "B10-A-N04-PARAPHRASE-OPPOSITE_TARGET_FIRST",
+    "score_id": "B10-A-N04-PARAPHRASE-OPPOSITE_TARGET_FIRST:E",
+    "source_id": "N04-PARAPHRASE",
+    "occurred": "YES",
+    "role_a": "苏敏",
+    "role_b": "赵凯",
+    "target_sentence": "赵凯从苏敏那里买到了这盏台灯。",
+    "identity": "B09_FROZEN_TARGET_REFERENCE"
+  },
+  {
+    "call_id": "B10-A-N04-PARAPHRASE-OPPOSITE_TARGET_LAST",
+    "score_id": "B10-A-N04-PARAPHRASE-OPPOSITE_TARGET_LAST:E",
+    "source_id": "N04-PARAPHRASE",
+    "occurred": "YES",
+    "role_a": "苏敏",
+    "role_b": "赵凯",
+    "target_sentence": "赵凯从苏敏那里买到了这盏台灯。",
+    "identity": "B09_FROZEN_TARGET_REFERENCE"
+  },
+  {
+    "call_id": "B10-A-N04-PARAPHRASE-SINGLE",
+    "score_id": "B10-A-N04-PARAPHRASE-SINGLE:E",
+    "source_id": "N04-PARAPHRASE",
+    "occurred": "YES",
+    "role_a": "苏敏",
+    "role_b": "赵凯",
+    "target_sentence": "赵凯从苏敏那里买到了这盏台灯。",
+    "identity": "B09_FROZEN_TARGET_REFERENCE"
+  },
+  {
+    "call_id": "B10-A-N04-ROLE_SWAP-SAME_TARGET_LAST",
+    "score_id": "B10-A-N04-ROLE_SWAP-SAME_TARGET_LAST:E",
+    "source_id": "N04-ROLE_SWAP",
+    "occurred": "YES",
+    "role_a": "赵凯",
+    "role_b": "苏敏",
+    "target_sentence": "赵凯把这盏台灯卖给了苏敏。",
+    "identity": "B09_FROZEN_TARGET_REFERENCE"
+  },
+  {
+    "call_id": "B10-A-N04-ROLE_SWAP-OPPOSITE_TARGET_FIRST",
+    "score_id": "B10-A-N04-ROLE_SWAP-OPPOSITE_TARGET_FIRST:E",
+    "source_id": "N04-ROLE_SWAP",
+    "occurred": "YES",
+    "role_a": "赵凯",
+    "role_b": "苏敏",
+    "target_sentence": "赵凯把这盏台灯卖给了苏敏。",
+    "identity": "B09_FROZEN_TARGET_REFERENCE"
+  },
+  {
+    "call_id": "B10-A-N04-ROLE_SWAP-OPPOSITE_TARGET_LAST",
+    "score_id": "B10-A-N04-ROLE_SWAP-OPPOSITE_TARGET_LAST:E",
+    "source_id": "N04-ROLE_SWAP",
+    "occurred": "YES",
+    "role_a": "赵凯",
+    "role_b": "苏敏",
+    "target_sentence": "赵凯把这盏台灯卖给了苏敏。",
+    "identity": "B09_FROZEN_TARGET_REFERENCE"
+  },
+  {
+    "call_id": "B10-A-N04-ROLE_SWAP-SINGLE",
+    "score_id": "B10-A-N04-ROLE_SWAP-SINGLE:E",
+    "source_id": "N04-ROLE_SWAP",
+    "occurred": "YES",
+    "role_a": "赵凯",
+    "role_b": "苏敏",
+    "target_sentence": "赵凯把这盏台灯卖给了苏敏。",
+    "identity": "B09_FROZEN_TARGET_REFERENCE"
+  },
+  {
+    "call_id": "B10-A-N04-ROLE_SWAP-SAME_TARGET_FIRST",
+    "score_id": "B10-A-N04-ROLE_SWAP-SAME_TARGET_FIRST:E",
+    "source_id": "N04-ROLE_SWAP",
+    "occurred": "YES",
+    "role_a": "赵凯",
+    "role_b": "苏敏",
+    "target_sentence": "赵凯把这盏台灯卖给了苏敏。",
+    "identity": "B09_FROZEN_TARGET_REFERENCE"
+  },
+  {
+    "call_id": "B10-A-N05-UNRESOLVED-OPPOSITE_TARGET_LAST",
+    "score_id": "B10-A-N05-UNRESOLVED-OPPOSITE_TARGET_LAST:E",
+    "source_id": "N05-UNRESOLVED",
+    "occurred": "UNKNOWN",
+    "role_a": "何杰",
+    "role_b": "杨帆",
+    "target_sentence": "工作人员正在核实何杰是否把这本画册赠送给了杨帆，目前尚无结论。",
+    "identity": "B09_FROZEN_TARGET_REFERENCE"
+  },
+  {
+    "call_id": "B10-A-N05-UNRESOLVED-SINGLE",
+    "score_id": "B10-A-N05-UNRESOLVED-SINGLE:E",
+    "source_id": "N05-UNRESOLVED",
+    "occurred": "UNKNOWN",
+    "role_a": "何杰",
+    "role_b": "杨帆",
+    "target_sentence": "工作人员正在核实何杰是否把这本画册赠送给了杨帆，目前尚无结论。",
+    "identity": "B09_FROZEN_TARGET_REFERENCE"
+  },
+  {
+    "call_id": "B10-A-N05-UNRESOLVED-SAME_TARGET_FIRST",
+    "score_id": "B10-A-N05-UNRESOLVED-SAME_TARGET_FIRST:E",
+    "source_id": "N05-UNRESOLVED",
+    "occurred": "UNKNOWN",
+    "role_a": "何杰",
+    "role_b": "杨帆",
+    "target_sentence": "工作人员正在核实何杰是否把这本画册赠送给了杨帆，目前尚无结论。",
+    "identity": "B09_FROZEN_TARGET_REFERENCE"
+  },
+  {
+    "call_id": "B10-A-N05-UNRESOLVED-SAME_TARGET_LAST",
+    "score_id": "B10-A-N05-UNRESOLVED-SAME_TARGET_LAST:E",
+    "source_id": "N05-UNRESOLVED",
+    "occurred": "UNKNOWN",
+    "role_a": "何杰",
+    "role_b": "杨帆",
+    "target_sentence": "工作人员正在核实何杰是否把这本画册赠送给了杨帆，目前尚无结论。",
+    "identity": "B09_FROZEN_TARGET_REFERENCE"
+  },
+  {
+    "call_id": "B10-A-N05-UNRESOLVED-OPPOSITE_TARGET_FIRST",
+    "score_id": "B10-A-N05-UNRESOLVED-OPPOSITE_TARGET_FIRST:E",
+    "source_id": "N05-UNRESOLVED",
+    "occurred": "UNKNOWN",
+    "role_a": "何杰",
+    "role_b": "杨帆",
+    "target_sentence": "工作人员正在核实何杰是否把这本画册赠送给了杨帆，目前尚无结论。",
+    "identity": "B09_FROZEN_TARGET_REFERENCE"
+  },
+  {
+    "call_id": "B10-A-N05-BASE-SINGLE",
+    "score_id": "B10-A-N05-BASE-SINGLE:E",
+    "source_id": "N05-BASE",
+    "occurred": "YES",
+    "role_a": "何杰",
+    "role_b": "杨帆",
+    "target_sentence": "何杰把这本画册赠送给了杨帆。",
+    "identity": "B09_FROZEN_TARGET_REFERENCE"
+  },
+  {
+    "call_id": "B10-A-N05-BASE-SAME_TARGET_FIRST",
+    "score_id": "B10-A-N05-BASE-SAME_TARGET_FIRST:E",
+    "source_id": "N05-BASE",
+    "occurred": "YES",
+    "role_a": "何杰",
+    "role_b": "杨帆",
+    "target_sentence": "何杰把这本画册赠送给了杨帆。",
+    "identity": "B09_FROZEN_TARGET_REFERENCE"
+  },
+  {
+    "call_id": "B10-A-N05-BASE-SAME_TARGET_LAST",
+    "score_id": "B10-A-N05-BASE-SAME_TARGET_LAST:E",
+    "source_id": "N05-BASE",
+    "occurred": "YES",
+    "role_a": "何杰",
+    "role_b": "杨帆",
+    "target_sentence": "何杰把这本画册赠送给了杨帆。",
+    "identity": "B09_FROZEN_TARGET_REFERENCE"
+  },
+  {
+    "call_id": "B10-A-N05-BASE-OPPOSITE_TARGET_FIRST",
+    "score_id": "B10-A-N05-BASE-OPPOSITE_TARGET_FIRST:E",
+    "source_id": "N05-BASE",
+    "occurred": "YES",
+    "role_a": "何杰",
+    "role_b": "杨帆",
+    "target_sentence": "何杰把这本画册赠送给了杨帆。",
+    "identity": "B09_FROZEN_TARGET_REFERENCE"
+  },
+  {
+    "call_id": "B10-A-N05-BASE-OPPOSITE_TARGET_LAST",
+    "score_id": "B10-A-N05-BASE-OPPOSITE_TARGET_LAST:E",
+    "source_id": "N05-BASE",
+    "occurred": "YES",
+    "role_a": "何杰",
+    "role_b": "杨帆",
+    "target_sentence": "何杰把这本画册赠送给了杨帆。",
+    "identity": "B09_FROZEN_TARGET_REFERENCE"
+  },
+  {
+    "call_id": "B10-A-N05-PARAPHRASE-SAME_TARGET_FIRST",
+    "score_id": "B10-A-N05-PARAPHRASE-SAME_TARGET_FIRST:E",
+    "source_id": "N05-PARAPHRASE",
+    "occurred": "YES",
+    "role_a": "何杰",
+    "role_b": "杨帆",
+    "target_sentence": "杨帆收到了何杰赠送的这本画册。",
+    "identity": "B09_FROZEN_TARGET_REFERENCE"
+  },
+  {
+    "call_id": "B10-A-N05-PARAPHRASE-SAME_TARGET_LAST",
+    "score_id": "B10-A-N05-PARAPHRASE-SAME_TARGET_LAST:E",
+    "source_id": "N05-PARAPHRASE",
+    "occurred": "YES",
+    "role_a": "何杰",
+    "role_b": "杨帆",
+    "target_sentence": "杨帆收到了何杰赠送的这本画册。",
+    "identity": "B09_FROZEN_TARGET_REFERENCE"
+  },
+  {
+    "call_id": "B10-A-N05-PARAPHRASE-OPPOSITE_TARGET_FIRST",
+    "score_id": "B10-A-N05-PARAPHRASE-OPPOSITE_TARGET_FIRST:E",
+    "source_id": "N05-PARAPHRASE",
+    "occurred": "YES",
+    "role_a": "何杰",
+    "role_b": "杨帆",
+    "target_sentence": "杨帆收到了何杰赠送的这本画册。",
+    "identity": "B09_FROZEN_TARGET_REFERENCE"
+  },
+  {
+    "call_id": "B10-A-N05-PARAPHRASE-OPPOSITE_TARGET_LAST",
+    "score_id": "B10-A-N05-PARAPHRASE-OPPOSITE_TARGET_LAST:E",
+    "source_id": "N05-PARAPHRASE",
+    "occurred": "YES",
+    "role_a": "何杰",
+    "role_b": "杨帆",
+    "target_sentence": "杨帆收到了何杰赠送的这本画册。",
+    "identity": "B09_FROZEN_TARGET_REFERENCE"
+  },
+  {
+    "call_id": "B10-A-N05-PARAPHRASE-SINGLE",
+    "score_id": "B10-A-N05-PARAPHRASE-SINGLE:E",
+    "source_id": "N05-PARAPHRASE",
+    "occurred": "YES",
+    "role_a": "何杰",
+    "role_b": "杨帆",
+    "target_sentence": "杨帆收到了何杰赠送的这本画册。",
+    "identity": "B09_FROZEN_TARGET_REFERENCE"
+  },
+  {
+    "call_id": "B10-A-N05-ROLE_SWAP-SAME_TARGET_LAST",
+    "score_id": "B10-A-N05-ROLE_SWAP-SAME_TARGET_LAST:E",
+    "source_id": "N05-ROLE_SWAP",
+    "occurred": "YES",
+    "role_a": "杨帆",
+    "role_b": "何杰",
+    "target_sentence": "杨帆把这本画册赠送给了何杰。",
+    "identity": "B09_FROZEN_TARGET_REFERENCE"
+  },
+  {
+    "call_id": "B10-A-N05-ROLE_SWAP-OPPOSITE_TARGET_FIRST",
+    "score_id": "B10-A-N05-ROLE_SWAP-OPPOSITE_TARGET_FIRST:E",
+    "source_id": "N05-ROLE_SWAP",
+    "occurred": "YES",
+    "role_a": "杨帆",
+    "role_b": "何杰",
+    "target_sentence": "杨帆把这本画册赠送给了何杰。",
+    "identity": "B09_FROZEN_TARGET_REFERENCE"
+  },
+  {
+    "call_id": "B10-A-N05-ROLE_SWAP-OPPOSITE_TARGET_LAST",
+    "score_id": "B10-A-N05-ROLE_SWAP-OPPOSITE_TARGET_LAST:E",
+    "source_id": "N05-ROLE_SWAP",
+    "occurred": "YES",
+    "role_a": "杨帆",
+    "role_b": "何杰",
+    "target_sentence": "杨帆把这本画册赠送给了何杰。",
+    "identity": "B09_FROZEN_TARGET_REFERENCE"
+  },
+  {
+    "call_id": "B10-A-N05-ROLE_SWAP-SINGLE",
+    "score_id": "B10-A-N05-ROLE_SWAP-SINGLE:E",
+    "source_id": "N05-ROLE_SWAP",
+    "occurred": "YES",
+    "role_a": "杨帆",
+    "role_b": "何杰",
+    "target_sentence": "杨帆把这本画册赠送给了何杰。",
+    "identity": "B09_FROZEN_TARGET_REFERENCE"
+  },
+  {
+    "call_id": "B10-A-N05-ROLE_SWAP-SAME_TARGET_FIRST",
+    "score_id": "B10-A-N05-ROLE_SWAP-SAME_TARGET_FIRST:E",
+    "source_id": "N05-ROLE_SWAP",
+    "occurred": "YES",
+    "role_a": "杨帆",
+    "role_b": "何杰",
+    "target_sentence": "杨帆把这本画册赠送给了何杰。",
+    "identity": "B09_FROZEN_TARGET_REFERENCE"
+  },
+  {
+    "call_id": "B10-A-N05-NEGATED-OPPOSITE_TARGET_FIRST",
+    "score_id": "B10-A-N05-NEGATED-OPPOSITE_TARGET_FIRST:E",
+    "source_id": "N05-NEGATED",
+    "occurred": "NO",
+    "role_a": "何杰",
+    "role_b": "杨帆",
+    "target_sentence": "何杰没有把这本画册赠送给杨帆。",
+    "identity": "B09_FROZEN_TARGET_REFERENCE"
+  },
+  {
+    "call_id": "B10-A-N05-NEGATED-OPPOSITE_TARGET_LAST",
+    "score_id": "B10-A-N05-NEGATED-OPPOSITE_TARGET_LAST:E",
+    "source_id": "N05-NEGATED",
+    "occurred": "NO",
+    "role_a": "何杰",
+    "role_b": "杨帆",
+    "target_sentence": "何杰没有把这本画册赠送给杨帆。",
+    "identity": "B09_FROZEN_TARGET_REFERENCE"
+  },
+  {
+    "call_id": "B10-A-N05-NEGATED-SINGLE",
+    "score_id": "B10-A-N05-NEGATED-SINGLE:E",
+    "source_id": "N05-NEGATED",
+    "occurred": "NO",
+    "role_a": "何杰",
+    "role_b": "杨帆",
+    "target_sentence": "何杰没有把这本画册赠送给杨帆。",
+    "identity": "B09_FROZEN_TARGET_REFERENCE"
+  },
+  {
+    "call_id": "B10-A-N05-NEGATED-SAME_TARGET_FIRST",
+    "score_id": "B10-A-N05-NEGATED-SAME_TARGET_FIRST:E",
+    "source_id": "N05-NEGATED",
+    "occurred": "NO",
+    "role_a": "何杰",
+    "role_b": "杨帆",
+    "target_sentence": "何杰没有把这本画册赠送给杨帆。",
+    "identity": "B09_FROZEN_TARGET_REFERENCE"
+  },
+  {
+    "call_id": "B10-A-N05-NEGATED-SAME_TARGET_LAST",
+    "score_id": "B10-A-N05-NEGATED-SAME_TARGET_LAST:E",
+    "source_id": "N05-NEGATED",
+    "occurred": "NO",
+    "role_a": "何杰",
+    "role_b": "杨帆",
+    "target_sentence": "何杰没有把这本画册赠送给杨帆。",
+    "identity": "B09_FROZEN_TARGET_REFERENCE"
+  },
+  {
+    "call_id": "B10-A-N06-BASE-SINGLE",
+    "score_id": "B10-A-N06-BASE-SINGLE:E",
+    "source_id": "N06-BASE",
+    "occurred": "YES",
+    "role_a": "吴桐",
+    "role_b": "郑蕾",
+    "target_sentence": "吴桐把这条围巾赠送给了郑蕾。",
+    "identity": "B09_FROZEN_TARGET_REFERENCE"
+  },
+  {
+    "call_id": "B10-A-N06-BASE-SAME_TARGET_FIRST",
+    "score_id": "B10-A-N06-BASE-SAME_TARGET_FIRST:E",
+    "source_id": "N06-BASE",
+    "occurred": "YES",
+    "role_a": "吴桐",
+    "role_b": "郑蕾",
+    "target_sentence": "吴桐把这条围巾赠送给了郑蕾。",
+    "identity": "B09_FROZEN_TARGET_REFERENCE"
+  },
+  {
+    "call_id": "B10-A-N06-BASE-SAME_TARGET_LAST",
+    "score_id": "B10-A-N06-BASE-SAME_TARGET_LAST:E",
+    "source_id": "N06-BASE",
+    "occurred": "YES",
+    "role_a": "吴桐",
+    "role_b": "郑蕾",
+    "target_sentence": "吴桐把这条围巾赠送给了郑蕾。",
+    "identity": "B09_FROZEN_TARGET_REFERENCE"
+  },
+  {
+    "call_id": "B10-A-N06-BASE-OPPOSITE_TARGET_FIRST",
+    "score_id": "B10-A-N06-BASE-OPPOSITE_TARGET_FIRST:E",
+    "source_id": "N06-BASE",
+    "occurred": "YES",
+    "role_a": "吴桐",
+    "role_b": "郑蕾",
+    "target_sentence": "吴桐把这条围巾赠送给了郑蕾。",
+    "identity": "B09_FROZEN_TARGET_REFERENCE"
+  },
+  {
+    "call_id": "B10-A-N06-BASE-OPPOSITE_TARGET_LAST",
+    "score_id": "B10-A-N06-BASE-OPPOSITE_TARGET_LAST:E",
+    "source_id": "N06-BASE",
+    "occurred": "YES",
+    "role_a": "吴桐",
+    "role_b": "郑蕾",
+    "target_sentence": "吴桐把这条围巾赠送给了郑蕾。",
+    "identity": "B09_FROZEN_TARGET_REFERENCE"
+  },
+  {
+    "call_id": "B10-A-N06-PARAPHRASE-SAME_TARGET_FIRST",
+    "score_id": "B10-A-N06-PARAPHRASE-SAME_TARGET_FIRST:E",
+    "source_id": "N06-PARAPHRASE",
+    "occurred": "YES",
+    "role_a": "吴桐",
+    "role_b": "郑蕾",
+    "target_sentence": "郑蕾收到了吴桐赠送的这条围巾。",
+    "identity": "B09_FROZEN_TARGET_REFERENCE"
+  },
+  {
+    "call_id": "B10-A-N06-PARAPHRASE-SAME_TARGET_LAST",
+    "score_id": "B10-A-N06-PARAPHRASE-SAME_TARGET_LAST:E",
+    "source_id": "N06-PARAPHRASE",
+    "occurred": "YES",
+    "role_a": "吴桐",
+    "role_b": "郑蕾",
+    "target_sentence": "郑蕾收到了吴桐赠送的这条围巾。",
+    "identity": "B09_FROZEN_TARGET_REFERENCE"
+  },
+  {
+    "call_id": "B10-A-N06-PARAPHRASE-OPPOSITE_TARGET_FIRST",
+    "score_id": "B10-A-N06-PARAPHRASE-OPPOSITE_TARGET_FIRST:E",
+    "source_id": "N06-PARAPHRASE",
+    "occurred": "YES",
+    "role_a": "吴桐",
+    "role_b": "郑蕾",
+    "target_sentence": "郑蕾收到了吴桐赠送的这条围巾。",
+    "identity": "B09_FROZEN_TARGET_REFERENCE"
+  },
+  {
+    "call_id": "B10-A-N06-PARAPHRASE-OPPOSITE_TARGET_LAST",
+    "score_id": "B10-A-N06-PARAPHRASE-OPPOSITE_TARGET_LAST:E",
+    "source_id": "N06-PARAPHRASE",
+    "occurred": "YES",
+    "role_a": "吴桐",
+    "role_b": "郑蕾",
+    "target_sentence": "郑蕾收到了吴桐赠送的这条围巾。",
+    "identity": "B09_FROZEN_TARGET_REFERENCE"
+  },
+  {
+    "call_id": "B10-A-N06-PARAPHRASE-SINGLE",
+    "score_id": "B10-A-N06-PARAPHRASE-SINGLE:E",
+    "source_id": "N06-PARAPHRASE",
+    "occurred": "YES",
+    "role_a": "吴桐",
+    "role_b": "郑蕾",
+    "target_sentence": "郑蕾收到了吴桐赠送的这条围巾。",
+    "identity": "B09_FROZEN_TARGET_REFERENCE"
+  },
+  {
+    "call_id": "B10-A-N06-ROLE_SWAP-SAME_TARGET_LAST",
+    "score_id": "B10-A-N06-ROLE_SWAP-SAME_TARGET_LAST:E",
+    "source_id": "N06-ROLE_SWAP",
+    "occurred": "YES",
+    "role_a": "郑蕾",
+    "role_b": "吴桐",
+    "target_sentence": "郑蕾把这条围巾赠送给了吴桐。",
+    "identity": "B09_FROZEN_TARGET_REFERENCE"
+  },
+  {
+    "call_id": "B10-A-N06-ROLE_SWAP-OPPOSITE_TARGET_FIRST",
+    "score_id": "B10-A-N06-ROLE_SWAP-OPPOSITE_TARGET_FIRST:E",
+    "source_id": "N06-ROLE_SWAP",
+    "occurred": "YES",
+    "role_a": "郑蕾",
+    "role_b": "吴桐",
+    "target_sentence": "郑蕾把这条围巾赠送给了吴桐。",
+    "identity": "B09_FROZEN_TARGET_REFERENCE"
+  },
+  {
+    "call_id": "B10-A-N06-ROLE_SWAP-OPPOSITE_TARGET_LAST",
+    "score_id": "B10-A-N06-ROLE_SWAP-OPPOSITE_TARGET_LAST:E",
+    "source_id": "N06-ROLE_SWAP",
+    "occurred": "YES",
+    "role_a": "郑蕾",
+    "role_b": "吴桐",
+    "target_sentence": "郑蕾把这条围巾赠送给了吴桐。",
+    "identity": "B09_FROZEN_TARGET_REFERENCE"
+  },
+  {
+    "call_id": "B10-A-N06-ROLE_SWAP-SINGLE",
+    "score_id": "B10-A-N06-ROLE_SWAP-SINGLE:E",
+    "source_id": "N06-ROLE_SWAP",
+    "occurred": "YES",
+    "role_a": "郑蕾",
+    "role_b": "吴桐",
+    "target_sentence": "郑蕾把这条围巾赠送给了吴桐。",
+    "identity": "B09_FROZEN_TARGET_REFERENCE"
+  },
+  {
+    "call_id": "B10-A-N06-ROLE_SWAP-SAME_TARGET_FIRST",
+    "score_id": "B10-A-N06-ROLE_SWAP-SAME_TARGET_FIRST:E",
+    "source_id": "N06-ROLE_SWAP",
+    "occurred": "YES",
+    "role_a": "郑蕾",
+    "role_b": "吴桐",
+    "target_sentence": "郑蕾把这条围巾赠送给了吴桐。",
+    "identity": "B09_FROZEN_TARGET_REFERENCE"
+  },
+  {
+    "call_id": "B10-A-N06-NEGATED-OPPOSITE_TARGET_FIRST",
+    "score_id": "B10-A-N06-NEGATED-OPPOSITE_TARGET_FIRST:E",
+    "source_id": "N06-NEGATED",
+    "occurred": "NO",
+    "role_a": "吴桐",
+    "role_b": "郑蕾",
+    "target_sentence": "吴桐没有把这条围巾赠送给郑蕾。",
+    "identity": "B09_FROZEN_TARGET_REFERENCE"
+  },
+  {
+    "call_id": "B10-A-N06-NEGATED-OPPOSITE_TARGET_LAST",
+    "score_id": "B10-A-N06-NEGATED-OPPOSITE_TARGET_LAST:E",
+    "source_id": "N06-NEGATED",
+    "occurred": "NO",
+    "role_a": "吴桐",
+    "role_b": "郑蕾",
+    "target_sentence": "吴桐没有把这条围巾赠送给郑蕾。",
+    "identity": "B09_FROZEN_TARGET_REFERENCE"
+  },
+  {
+    "call_id": "B10-A-N06-NEGATED-SINGLE",
+    "score_id": "B10-A-N06-NEGATED-SINGLE:E",
+    "source_id": "N06-NEGATED",
+    "occurred": "NO",
+    "role_a": "吴桐",
+    "role_b": "郑蕾",
+    "target_sentence": "吴桐没有把这条围巾赠送给郑蕾。",
+    "identity": "B09_FROZEN_TARGET_REFERENCE"
+  },
+  {
+    "call_id": "B10-A-N06-NEGATED-SAME_TARGET_FIRST",
+    "score_id": "B10-A-N06-NEGATED-SAME_TARGET_FIRST:E",
+    "source_id": "N06-NEGATED",
+    "occurred": "NO",
+    "role_a": "吴桐",
+    "role_b": "郑蕾",
+    "target_sentence": "吴桐没有把这条围巾赠送给郑蕾。",
+    "identity": "B09_FROZEN_TARGET_REFERENCE"
+  },
+  {
+    "call_id": "B10-A-N06-NEGATED-SAME_TARGET_LAST",
+    "score_id": "B10-A-N06-NEGATED-SAME_TARGET_LAST:E",
+    "source_id": "N06-NEGATED",
+    "occurred": "NO",
+    "role_a": "吴桐",
+    "role_b": "郑蕾",
+    "target_sentence": "吴桐没有把这条围巾赠送给郑蕾。",
+    "identity": "B09_FROZEN_TARGET_REFERENCE"
+  },
+  {
+    "call_id": "B10-A-N06-UNRESOLVED-OPPOSITE_TARGET_LAST",
+    "score_id": "B10-A-N06-UNRESOLVED-OPPOSITE_TARGET_LAST:E",
+    "source_id": "N06-UNRESOLVED",
+    "occurred": "UNKNOWN",
+    "role_a": "吴桐",
+    "role_b": "郑蕾",
+    "target_sentence": "工作人员正在核实吴桐是否把这条围巾赠送给了郑蕾，目前尚无结论。",
+    "identity": "B09_FROZEN_TARGET_REFERENCE"
+  },
+  {
+    "call_id": "B10-A-N06-UNRESOLVED-SINGLE",
+    "score_id": "B10-A-N06-UNRESOLVED-SINGLE:E",
+    "source_id": "N06-UNRESOLVED",
+    "occurred": "UNKNOWN",
+    "role_a": "吴桐",
+    "role_b": "郑蕾",
+    "target_sentence": "工作人员正在核实吴桐是否把这条围巾赠送给了郑蕾，目前尚无结论。",
+    "identity": "B09_FROZEN_TARGET_REFERENCE"
+  },
+  {
+    "call_id": "B10-A-N06-UNRESOLVED-SAME_TARGET_FIRST",
+    "score_id": "B10-A-N06-UNRESOLVED-SAME_TARGET_FIRST:E",
+    "source_id": "N06-UNRESOLVED",
+    "occurred": "UNKNOWN",
+    "role_a": "吴桐",
+    "role_b": "郑蕾",
+    "target_sentence": "工作人员正在核实吴桐是否把这条围巾赠送给了郑蕾，目前尚无结论。",
+    "identity": "B09_FROZEN_TARGET_REFERENCE"
+  },
+  {
+    "call_id": "B10-A-N06-UNRESOLVED-SAME_TARGET_LAST",
+    "score_id": "B10-A-N06-UNRESOLVED-SAME_TARGET_LAST:E",
+    "source_id": "N06-UNRESOLVED",
+    "occurred": "UNKNOWN",
+    "role_a": "吴桐",
+    "role_b": "郑蕾",
+    "target_sentence": "工作人员正在核实吴桐是否把这条围巾赠送给了郑蕾，目前尚无结论。",
+    "identity": "B09_FROZEN_TARGET_REFERENCE"
+  },
+  {
+    "call_id": "B10-A-N06-UNRESOLVED-OPPOSITE_TARGET_FIRST",
+    "score_id": "B10-A-N06-UNRESOLVED-OPPOSITE_TARGET_FIRST:E",
+    "source_id": "N06-UNRESOLVED",
+    "occurred": "UNKNOWN",
+    "role_a": "吴桐",
+    "role_b": "郑蕾",
+    "target_sentence": "工作人员正在核实吴桐是否把这条围巾赠送给了郑蕾，目前尚无结论。",
+    "identity": "B09_FROZEN_TARGET_REFERENCE"
+  },
+  {
+    "call_id": "B10-A-N07-PARAPHRASE-SAME_TARGET_FIRST",
+    "score_id": "B10-A-N07-PARAPHRASE-SAME_TARGET_FIRST:E",
+    "source_id": "N07-PARAPHRASE",
+    "occurred": "YES",
+    "role_a": "蒋欣",
+    "role_b": "邓宇",
+    "target_sentence": "邓宇被蒋欣邀请参加读书会。",
+    "identity": "B09_FROZEN_TARGET_REFERENCE"
+  },
+  {
+    "call_id": "B10-A-N07-PARAPHRASE-SAME_TARGET_LAST",
+    "score_id": "B10-A-N07-PARAPHRASE-SAME_TARGET_LAST:E",
+    "source_id": "N07-PARAPHRASE",
+    "occurred": "YES",
+    "role_a": "蒋欣",
+    "role_b": "邓宇",
+    "target_sentence": "邓宇被蒋欣邀请参加读书会。",
+    "identity": "B09_FROZEN_TARGET_REFERENCE"
+  },
+  {
+    "call_id": "B10-A-N07-PARAPHRASE-OPPOSITE_TARGET_FIRST",
+    "score_id": "B10-A-N07-PARAPHRASE-OPPOSITE_TARGET_FIRST:E",
+    "source_id": "N07-PARAPHRASE",
+    "occurred": "YES",
+    "role_a": "蒋欣",
+    "role_b": "邓宇",
+    "target_sentence": "邓宇被蒋欣邀请参加读书会。",
+    "identity": "B09_FROZEN_TARGET_REFERENCE"
+  },
+  {
+    "call_id": "B10-A-N07-PARAPHRASE-OPPOSITE_TARGET_LAST",
+    "score_id": "B10-A-N07-PARAPHRASE-OPPOSITE_TARGET_LAST:E",
+    "source_id": "N07-PARAPHRASE",
+    "occurred": "YES",
+    "role_a": "蒋欣",
+    "role_b": "邓宇",
+    "target_sentence": "邓宇被蒋欣邀请参加读书会。",
+    "identity": "B09_FROZEN_TARGET_REFERENCE"
+  },
+  {
+    "call_id": "B10-A-N07-PARAPHRASE-SINGLE",
+    "score_id": "B10-A-N07-PARAPHRASE-SINGLE:E",
+    "source_id": "N07-PARAPHRASE",
+    "occurred": "YES",
+    "role_a": "蒋欣",
+    "role_b": "邓宇",
+    "target_sentence": "邓宇被蒋欣邀请参加读书会。",
+    "identity": "B09_FROZEN_TARGET_REFERENCE"
+  },
+  {
+    "call_id": "B10-A-N07-ROLE_SWAP-SAME_TARGET_LAST",
+    "score_id": "B10-A-N07-ROLE_SWAP-SAME_TARGET_LAST:E",
+    "source_id": "N07-ROLE_SWAP",
+    "occurred": "YES",
+    "role_a": "邓宇",
+    "role_b": "蒋欣",
+    "target_sentence": "邓宇邀请了蒋欣参加读书会。",
+    "identity": "B09_FROZEN_TARGET_REFERENCE"
+  },
+  {
+    "call_id": "B10-A-N07-ROLE_SWAP-OPPOSITE_TARGET_FIRST",
+    "score_id": "B10-A-N07-ROLE_SWAP-OPPOSITE_TARGET_FIRST:E",
+    "source_id": "N07-ROLE_SWAP",
+    "occurred": "YES",
+    "role_a": "邓宇",
+    "role_b": "蒋欣",
+    "target_sentence": "邓宇邀请了蒋欣参加读书会。",
+    "identity": "B09_FROZEN_TARGET_REFERENCE"
+  },
+  {
+    "call_id": "B10-A-N07-ROLE_SWAP-OPPOSITE_TARGET_LAST",
+    "score_id": "B10-A-N07-ROLE_SWAP-OPPOSITE_TARGET_LAST:E",
+    "source_id": "N07-ROLE_SWAP",
+    "occurred": "YES",
+    "role_a": "邓宇",
+    "role_b": "蒋欣",
+    "target_sentence": "邓宇邀请了蒋欣参加读书会。",
+    "identity": "B09_FROZEN_TARGET_REFERENCE"
+  },
+  {
+    "call_id": "B10-A-N07-ROLE_SWAP-SINGLE",
+    "score_id": "B10-A-N07-ROLE_SWAP-SINGLE:E",
+    "source_id": "N07-ROLE_SWAP",
+    "occurred": "YES",
+    "role_a": "邓宇",
+    "role_b": "蒋欣",
+    "target_sentence": "邓宇邀请了蒋欣参加读书会。",
+    "identity": "B09_FROZEN_TARGET_REFERENCE"
+  },
+  {
+    "call_id": "B10-A-N07-ROLE_SWAP-SAME_TARGET_FIRST",
+    "score_id": "B10-A-N07-ROLE_SWAP-SAME_TARGET_FIRST:E",
+    "source_id": "N07-ROLE_SWAP",
+    "occurred": "YES",
+    "role_a": "邓宇",
+    "role_b": "蒋欣",
+    "target_sentence": "邓宇邀请了蒋欣参加读书会。",
+    "identity": "B09_FROZEN_TARGET_REFERENCE"
+  },
+  {
+    "call_id": "B10-A-N07-NEGATED-OPPOSITE_TARGET_FIRST",
+    "score_id": "B10-A-N07-NEGATED-OPPOSITE_TARGET_FIRST:E",
+    "source_id": "N07-NEGATED",
+    "occurred": "NO",
+    "role_a": "蒋欣",
+    "role_b": "邓宇",
+    "target_sentence": "蒋欣没有邀请邓宇参加读书会。",
+    "identity": "B09_FROZEN_TARGET_REFERENCE"
+  },
+  {
+    "call_id": "B10-A-N07-NEGATED-OPPOSITE_TARGET_LAST",
+    "score_id": "B10-A-N07-NEGATED-OPPOSITE_TARGET_LAST:E",
+    "source_id": "N07-NEGATED",
+    "occurred": "NO",
+    "role_a": "蒋欣",
+    "role_b": "邓宇",
+    "target_sentence": "蒋欣没有邀请邓宇参加读书会。",
+    "identity": "B09_FROZEN_TARGET_REFERENCE"
+  },
+  {
+    "call_id": "B10-A-N07-NEGATED-SINGLE",
+    "score_id": "B10-A-N07-NEGATED-SINGLE:E",
+    "source_id": "N07-NEGATED",
+    "occurred": "NO",
+    "role_a": "蒋欣",
+    "role_b": "邓宇",
+    "target_sentence": "蒋欣没有邀请邓宇参加读书会。",
+    "identity": "B09_FROZEN_TARGET_REFERENCE"
+  },
+  {
+    "call_id": "B10-A-N07-NEGATED-SAME_TARGET_FIRST",
+    "score_id": "B10-A-N07-NEGATED-SAME_TARGET_FIRST:E",
+    "source_id": "N07-NEGATED",
+    "occurred": "NO",
+    "role_a": "蒋欣",
+    "role_b": "邓宇",
+    "target_sentence": "蒋欣没有邀请邓宇参加读书会。",
+    "identity": "B09_FROZEN_TARGET_REFERENCE"
+  },
+  {
+    "call_id": "B10-A-N07-NEGATED-SAME_TARGET_LAST",
+    "score_id": "B10-A-N07-NEGATED-SAME_TARGET_LAST:E",
+    "source_id": "N07-NEGATED",
+    "occurred": "NO",
+    "role_a": "蒋欣",
+    "role_b": "邓宇",
+    "target_sentence": "蒋欣没有邀请邓宇参加读书会。",
+    "identity": "B09_FROZEN_TARGET_REFERENCE"
+  },
+  {
+    "call_id": "B10-A-N07-UNRESOLVED-OPPOSITE_TARGET_LAST",
+    "score_id": "B10-A-N07-UNRESOLVED-OPPOSITE_TARGET_LAST:E",
+    "source_id": "N07-UNRESOLVED",
+    "occurred": "UNKNOWN",
+    "role_a": "蒋欣",
+    "role_b": "邓宇",
+    "target_sentence": "工作人员正在核实蒋欣是否邀请了邓宇参加读书会，目前尚无结论。",
+    "identity": "B09_FROZEN_TARGET_REFERENCE"
+  },
+  {
+    "call_id": "B10-A-N07-UNRESOLVED-SINGLE",
+    "score_id": "B10-A-N07-UNRESOLVED-SINGLE:E",
+    "source_id": "N07-UNRESOLVED",
+    "occurred": "UNKNOWN",
+    "role_a": "蒋欣",
+    "role_b": "邓宇",
+    "target_sentence": "工作人员正在核实蒋欣是否邀请了邓宇参加读书会，目前尚无结论。",
+    "identity": "B09_FROZEN_TARGET_REFERENCE"
+  },
+  {
+    "call_id": "B10-A-N07-UNRESOLVED-SAME_TARGET_FIRST",
+    "score_id": "B10-A-N07-UNRESOLVED-SAME_TARGET_FIRST:E",
+    "source_id": "N07-UNRESOLVED",
+    "occurred": "UNKNOWN",
+    "role_a": "蒋欣",
+    "role_b": "邓宇",
+    "target_sentence": "工作人员正在核实蒋欣是否邀请了邓宇参加读书会，目前尚无结论。",
+    "identity": "B09_FROZEN_TARGET_REFERENCE"
+  },
+  {
+    "call_id": "B10-A-N07-UNRESOLVED-SAME_TARGET_LAST",
+    "score_id": "B10-A-N07-UNRESOLVED-SAME_TARGET_LAST:E",
+    "source_id": "N07-UNRESOLVED",
+    "occurred": "UNKNOWN",
+    "role_a": "蒋欣",
+    "role_b": "邓宇",
+    "target_sentence": "工作人员正在核实蒋欣是否邀请了邓宇参加读书会，目前尚无结论。",
+    "identity": "B09_FROZEN_TARGET_REFERENCE"
+  },
+  {
+    "call_id": "B10-A-N07-UNRESOLVED-OPPOSITE_TARGET_FIRST",
+    "score_id": "B10-A-N07-UNRESOLVED-OPPOSITE_TARGET_FIRST:E",
+    "source_id": "N07-UNRESOLVED",
+    "occurred": "UNKNOWN",
+    "role_a": "蒋欣",
+    "role_b": "邓宇",
+    "target_sentence": "工作人员正在核实蒋欣是否邀请了邓宇参加读书会，目前尚无结论。",
+    "identity": "B09_FROZEN_TARGET_REFERENCE"
+  },
+  {
+    "call_id": "B10-A-N07-BASE-SINGLE",
+    "score_id": "B10-A-N07-BASE-SINGLE:E",
+    "source_id": "N07-BASE",
+    "occurred": "YES",
+    "role_a": "蒋欣",
+    "role_b": "邓宇",
+    "target_sentence": "蒋欣邀请了邓宇参加读书会。",
+    "identity": "B09_FROZEN_TARGET_REFERENCE"
+  },
+  {
+    "call_id": "B10-A-N07-BASE-SAME_TARGET_FIRST",
+    "score_id": "B10-A-N07-BASE-SAME_TARGET_FIRST:E",
+    "source_id": "N07-BASE",
+    "occurred": "YES",
+    "role_a": "蒋欣",
+    "role_b": "邓宇",
+    "target_sentence": "蒋欣邀请了邓宇参加读书会。",
+    "identity": "B09_FROZEN_TARGET_REFERENCE"
+  },
+  {
+    "call_id": "B10-A-N07-BASE-SAME_TARGET_LAST",
+    "score_id": "B10-A-N07-BASE-SAME_TARGET_LAST:E",
+    "source_id": "N07-BASE",
+    "occurred": "YES",
+    "role_a": "蒋欣",
+    "role_b": "邓宇",
+    "target_sentence": "蒋欣邀请了邓宇参加读书会。",
+    "identity": "B09_FROZEN_TARGET_REFERENCE"
+  },
+  {
+    "call_id": "B10-A-N07-BASE-OPPOSITE_TARGET_FIRST",
+    "score_id": "B10-A-N07-BASE-OPPOSITE_TARGET_FIRST:E",
+    "source_id": "N07-BASE",
+    "occurred": "YES",
+    "role_a": "蒋欣",
+    "role_b": "邓宇",
+    "target_sentence": "蒋欣邀请了邓宇参加读书会。",
+    "identity": "B09_FROZEN_TARGET_REFERENCE"
+  },
+  {
+    "call_id": "B10-A-N07-BASE-OPPOSITE_TARGET_LAST",
+    "score_id": "B10-A-N07-BASE-OPPOSITE_TARGET_LAST:E",
+    "source_id": "N07-BASE",
+    "occurred": "YES",
+    "role_a": "蒋欣",
+    "role_b": "邓宇",
+    "target_sentence": "蒋欣邀请了邓宇参加读书会。",
+    "identity": "B09_FROZEN_TARGET_REFERENCE"
+  },
+  {
+    "call_id": "B10-A-N08-ROLE_SWAP-SAME_TARGET_LAST",
+    "score_id": "B10-A-N08-ROLE_SWAP-SAME_TARGET_LAST:E",
+    "source_id": "N08-ROLE_SWAP",
+    "occurred": "YES",
+    "role_a": "罗晴",
+    "role_b": "潘越",
+    "target_sentence": "罗晴邀请了潘越参加摄影展。",
+    "identity": "B09_FROZEN_TARGET_REFERENCE"
+  },
+  {
+    "call_id": "B10-A-N08-ROLE_SWAP-OPPOSITE_TARGET_FIRST",
+    "score_id": "B10-A-N08-ROLE_SWAP-OPPOSITE_TARGET_FIRST:E",
+    "source_id": "N08-ROLE_SWAP",
+    "occurred": "YES",
+    "role_a": "罗晴",
+    "role_b": "潘越",
+    "target_sentence": "罗晴邀请了潘越参加摄影展。",
+    "identity": "B09_FROZEN_TARGET_REFERENCE"
+  },
+  {
+    "call_id": "B10-A-N08-ROLE_SWAP-OPPOSITE_TARGET_LAST",
+    "score_id": "B10-A-N08-ROLE_SWAP-OPPOSITE_TARGET_LAST:E",
+    "source_id": "N08-ROLE_SWAP",
+    "occurred": "YES",
+    "role_a": "罗晴",
+    "role_b": "潘越",
+    "target_sentence": "罗晴邀请了潘越参加摄影展。",
+    "identity": "B09_FROZEN_TARGET_REFERENCE"
+  },
+  {
+    "call_id": "B10-A-N08-ROLE_SWAP-SINGLE",
+    "score_id": "B10-A-N08-ROLE_SWAP-SINGLE:E",
+    "source_id": "N08-ROLE_SWAP",
+    "occurred": "YES",
+    "role_a": "罗晴",
+    "role_b": "潘越",
+    "target_sentence": "罗晴邀请了潘越参加摄影展。",
+    "identity": "B09_FROZEN_TARGET_REFERENCE"
+  },
+  {
+    "call_id": "B10-A-N08-ROLE_SWAP-SAME_TARGET_FIRST",
+    "score_id": "B10-A-N08-ROLE_SWAP-SAME_TARGET_FIRST:E",
+    "source_id": "N08-ROLE_SWAP",
+    "occurred": "YES",
+    "role_a": "罗晴",
+    "role_b": "潘越",
+    "target_sentence": "罗晴邀请了潘越参加摄影展。",
+    "identity": "B09_FROZEN_TARGET_REFERENCE"
+  },
+  {
+    "call_id": "B10-A-N08-NEGATED-OPPOSITE_TARGET_FIRST",
+    "score_id": "B10-A-N08-NEGATED-OPPOSITE_TARGET_FIRST:E",
+    "source_id": "N08-NEGATED",
+    "occurred": "NO",
+    "role_a": "潘越",
+    "role_b": "罗晴",
+    "target_sentence": "潘越没有邀请罗晴参加摄影展。",
+    "identity": "B09_FROZEN_TARGET_REFERENCE"
+  },
+  {
+    "call_id": "B10-A-N08-NEGATED-OPPOSITE_TARGET_LAST",
+    "score_id": "B10-A-N08-NEGATED-OPPOSITE_TARGET_LAST:E",
+    "source_id": "N08-NEGATED",
+    "occurred": "NO",
+    "role_a": "潘越",
+    "role_b": "罗晴",
+    "target_sentence": "潘越没有邀请罗晴参加摄影展。",
+    "identity": "B09_FROZEN_TARGET_REFERENCE"
+  },
+  {
+    "call_id": "B10-A-N08-NEGATED-SINGLE",
+    "score_id": "B10-A-N08-NEGATED-SINGLE:E",
+    "source_id": "N08-NEGATED",
+    "occurred": "NO",
+    "role_a": "潘越",
+    "role_b": "罗晴",
+    "target_sentence": "潘越没有邀请罗晴参加摄影展。",
+    "identity": "B09_FROZEN_TARGET_REFERENCE"
+  },
+  {
+    "call_id": "B10-A-N08-NEGATED-SAME_TARGET_FIRST",
+    "score_id": "B10-A-N08-NEGATED-SAME_TARGET_FIRST:E",
+    "source_id": "N08-NEGATED",
+    "occurred": "NO",
+    "role_a": "潘越",
+    "role_b": "罗晴",
+    "target_sentence": "潘越没有邀请罗晴参加摄影展。",
+    "identity": "B09_FROZEN_TARGET_REFERENCE"
+  },
+  {
+    "call_id": "B10-A-N08-NEGATED-SAME_TARGET_LAST",
+    "score_id": "B10-A-N08-NEGATED-SAME_TARGET_LAST:E",
+    "source_id": "N08-NEGATED",
+    "occurred": "NO",
+    "role_a": "潘越",
+    "role_b": "罗晴",
+    "target_sentence": "潘越没有邀请罗晴参加摄影展。",
+    "identity": "B09_FROZEN_TARGET_REFERENCE"
+  },
+  {
+    "call_id": "B10-A-N08-UNRESOLVED-OPPOSITE_TARGET_LAST",
+    "score_id": "B10-A-N08-UNRESOLVED-OPPOSITE_TARGET_LAST:E",
+    "source_id": "N08-UNRESOLVED",
+    "occurred": "UNKNOWN",
+    "role_a": "潘越",
+    "role_b": "罗晴",
+    "target_sentence": "工作人员正在核实潘越是否邀请了罗晴参加摄影展，目前尚无结论。",
+    "identity": "B09_FROZEN_TARGET_REFERENCE"
+  },
+  {
+    "call_id": "B10-A-N08-UNRESOLVED-SINGLE",
+    "score_id": "B10-A-N08-UNRESOLVED-SINGLE:E",
+    "source_id": "N08-UNRESOLVED",
+    "occurred": "UNKNOWN",
+    "role_a": "潘越",
+    "role_b": "罗晴",
+    "target_sentence": "工作人员正在核实潘越是否邀请了罗晴参加摄影展，目前尚无结论。",
+    "identity": "B09_FROZEN_TARGET_REFERENCE"
+  },
+  {
+    "call_id": "B10-A-N08-UNRESOLVED-SAME_TARGET_FIRST",
+    "score_id": "B10-A-N08-UNRESOLVED-SAME_TARGET_FIRST:E",
+    "source_id": "N08-UNRESOLVED",
+    "occurred": "UNKNOWN",
+    "role_a": "潘越",
+    "role_b": "罗晴",
+    "target_sentence": "工作人员正在核实潘越是否邀请了罗晴参加摄影展，目前尚无结论。",
+    "identity": "B09_FROZEN_TARGET_REFERENCE"
+  },
+  {
+    "call_id": "B10-A-N08-UNRESOLVED-SAME_TARGET_LAST",
+    "score_id": "B10-A-N08-UNRESOLVED-SAME_TARGET_LAST:E",
+    "source_id": "N08-UNRESOLVED",
+    "occurred": "UNKNOWN",
+    "role_a": "潘越",
+    "role_b": "罗晴",
+    "target_sentence": "工作人员正在核实潘越是否邀请了罗晴参加摄影展，目前尚无结论。",
+    "identity": "B09_FROZEN_TARGET_REFERENCE"
+  },
+  {
+    "call_id": "B10-A-N08-UNRESOLVED-OPPOSITE_TARGET_FIRST",
+    "score_id": "B10-A-N08-UNRESOLVED-OPPOSITE_TARGET_FIRST:E",
+    "source_id": "N08-UNRESOLVED",
+    "occurred": "UNKNOWN",
+    "role_a": "潘越",
+    "role_b": "罗晴",
+    "target_sentence": "工作人员正在核实潘越是否邀请了罗晴参加摄影展，目前尚无结论。",
+    "identity": "B09_FROZEN_TARGET_REFERENCE"
+  },
+  {
+    "call_id": "B10-A-N08-BASE-SINGLE",
+    "score_id": "B10-A-N08-BASE-SINGLE:E",
+    "source_id": "N08-BASE",
+    "occurred": "YES",
+    "role_a": "潘越",
+    "role_b": "罗晴",
+    "target_sentence": "潘越邀请了罗晴参加摄影展。",
+    "identity": "B09_FROZEN_TARGET_REFERENCE"
+  },
+  {
+    "call_id": "B10-A-N08-BASE-SAME_TARGET_FIRST",
+    "score_id": "B10-A-N08-BASE-SAME_TARGET_FIRST:E",
+    "source_id": "N08-BASE",
+    "occurred": "YES",
+    "role_a": "潘越",
+    "role_b": "罗晴",
+    "target_sentence": "潘越邀请了罗晴参加摄影展。",
+    "identity": "B09_FROZEN_TARGET_REFERENCE"
+  },
+  {
+    "call_id": "B10-A-N08-BASE-SAME_TARGET_LAST",
+    "score_id": "B10-A-N08-BASE-SAME_TARGET_LAST:E",
+    "source_id": "N08-BASE",
+    "occurred": "YES",
+    "role_a": "潘越",
+    "role_b": "罗晴",
+    "target_sentence": "潘越邀请了罗晴参加摄影展。",
+    "identity": "B09_FROZEN_TARGET_REFERENCE"
+  },
+  {
+    "call_id": "B10-A-N08-BASE-OPPOSITE_TARGET_FIRST",
+    "score_id": "B10-A-N08-BASE-OPPOSITE_TARGET_FIRST:E",
+    "source_id": "N08-BASE",
+    "occurred": "YES",
+    "role_a": "潘越",
+    "role_b": "罗晴",
+    "target_sentence": "潘越邀请了罗晴参加摄影展。",
+    "identity": "B09_FROZEN_TARGET_REFERENCE"
+  },
+  {
+    "call_id": "B10-A-N08-BASE-OPPOSITE_TARGET_LAST",
+    "score_id": "B10-A-N08-BASE-OPPOSITE_TARGET_LAST:E",
+    "source_id": "N08-BASE",
+    "occurred": "YES",
+    "role_a": "潘越",
+    "role_b": "罗晴",
+    "target_sentence": "潘越邀请了罗晴参加摄影展。",
+    "identity": "B09_FROZEN_TARGET_REFERENCE"
+  },
+  {
+    "call_id": "B10-A-N08-PARAPHRASE-SAME_TARGET_FIRST",
+    "score_id": "B10-A-N08-PARAPHRASE-SAME_TARGET_FIRST:E",
+    "source_id": "N08-PARAPHRASE",
+    "occurred": "YES",
+    "role_a": "潘越",
+    "role_b": "罗晴",
+    "target_sentence": "罗晴被潘越邀请参加摄影展。",
+    "identity": "B09_FROZEN_TARGET_REFERENCE"
+  },
+  {
+    "call_id": "B10-A-N08-PARAPHRASE-SAME_TARGET_LAST",
+    "score_id": "B10-A-N08-PARAPHRASE-SAME_TARGET_LAST:E",
+    "source_id": "N08-PARAPHRASE",
+    "occurred": "YES",
+    "role_a": "潘越",
+    "role_b": "罗晴",
+    "target_sentence": "罗晴被潘越邀请参加摄影展。",
+    "identity": "B09_FROZEN_TARGET_REFERENCE"
+  },
+  {
+    "call_id": "B10-A-N08-PARAPHRASE-OPPOSITE_TARGET_FIRST",
+    "score_id": "B10-A-N08-PARAPHRASE-OPPOSITE_TARGET_FIRST:E",
+    "source_id": "N08-PARAPHRASE",
+    "occurred": "YES",
+    "role_a": "潘越",
+    "role_b": "罗晴",
+    "target_sentence": "罗晴被潘越邀请参加摄影展。",
+    "identity": "B09_FROZEN_TARGET_REFERENCE"
+  },
+  {
+    "call_id": "B10-A-N08-PARAPHRASE-OPPOSITE_TARGET_LAST",
+    "score_id": "B10-A-N08-PARAPHRASE-OPPOSITE_TARGET_LAST:E",
+    "source_id": "N08-PARAPHRASE",
+    "occurred": "YES",
+    "role_a": "潘越",
+    "role_b": "罗晴",
+    "target_sentence": "罗晴被潘越邀请参加摄影展。",
+    "identity": "B09_FROZEN_TARGET_REFERENCE"
+  },
+  {
+    "call_id": "B10-A-N08-PARAPHRASE-SINGLE",
+    "score_id": "B10-A-N08-PARAPHRASE-SINGLE:E",
+    "source_id": "N08-PARAPHRASE",
+    "occurred": "YES",
+    "role_a": "潘越",
+    "role_b": "罗晴",
+    "target_sentence": "罗晴被潘越邀请参加摄影展。",
+    "identity": "B09_FROZEN_TARGET_REFERENCE"
+  }
+]

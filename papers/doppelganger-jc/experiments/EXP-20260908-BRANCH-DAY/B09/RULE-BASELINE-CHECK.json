@@ -1,0 +1,2209 @@
+{
+  "at": "2026-09-08T04:06:09.736086+00:00",
+  "identity": "AUTHOR_MATERIAL_SUPPLEMENTARY_RULE_BASELINE_NOT_LM_OUTPUT",
+  "LM_outputs_read_for_this_check": false,
+  "LM_calls": 0,
+  "forwards": 0,
+  "primary_B09_gates_unchanged": true,
+  "scope": "Rules written with knowledge of these authored constructions; not a held-out parser or general natural-language method.",
+  "stats": [
+    {
+      "baseline": "authored_construction_rule",
+      "mapping": "MAP12",
+      "correct": 40,
+      "n": 40
+    },
+    {
+      "baseline": "authored_construction_rule",
+      "mapping": "MAP21",
+      "correct": 40,
+      "n": 40
+    },
+    {
+      "baseline": "first_entity_table_name",
+      "mapping": "MAP12",
+      "correct": 32,
+      "n": 40
+    },
+    {
+      "baseline": "first_entity_table_name",
+      "mapping": "MAP21",
+      "correct": 8,
+      "n": 40
+    },
+    {
+      "baseline": "first_source_name",
+      "mapping": "MAP12",
+      "correct": 32,
+      "n": 40
+    },
+    {
+      "baseline": "first_source_name",
+      "mapping": "MAP21",
+      "correct": 32,
+      "n": 40
+    }
+  ],
+  "rows": [
+    {
+      "baseline": "first_source_name",
+      "source_id": "N01-BASE",
+      "mapping": "MAP12",
+      "predicted_occurred": "YES",
+      "predicted_role_a": "陈悦",
+      "predicted_role_b": "周宁",
+      "complete_correct": true
+    },
+    {
+      "baseline": "first_entity_table_name",
+      "source_id": "N01-BASE",
+      "mapping": "MAP12",
+      "predicted_occurred": "YES",
+      "predicted_role_a": "陈悦",
+      "predicted_role_b": "周宁",
+      "complete_correct": true
+    },
+    {
+      "baseline": "authored_construction_rule",
+      "source_id": "N01-BASE",
+      "mapping": "MAP12",
+      "predicted_occurred": "YES",
+      "predicted_role_a": "陈悦",
+      "predicted_role_b": "周宁",
+      "complete_correct": true
+    },
+    {
+      "baseline": "first_source_name",
+      "source_id": "N01-BASE",
+      "mapping": "MAP21",
+      "predicted_occurred": "YES",
+      "predicted_role_a": "陈悦",
+      "predicted_role_b": "周宁",
+      "complete_correct": true
+    },
+    {
+      "baseline": "first_entity_table_name",
+      "source_id": "N01-BASE",
+      "mapping": "MAP21",
+      "predicted_occurred": "YES",
+      "predicted_role_a": "周宁",
+      "predicted_role_b": "陈悦",
+      "complete_correct": false
+    },
+    {
+      "baseline": "authored_construction_rule",
+      "source_id": "N01-BASE",
+      "mapping": "MAP21",
+      "predicted_occurred": "YES",
+      "predicted_role_a": "陈悦",
+      "predicted_role_b": "周宁",
+      "complete_correct": true
+    },
+    {
+      "baseline": "first_source_name",
+      "source_id": "N01-PARAPHRASE",
+      "mapping": "MAP21",
+      "predicted_occurred": "YES",
+      "predicted_role_a": "周宁",
+      "predicted_role_b": "陈悦",
+      "complete_correct": false
+    },
+    {
+      "baseline": "first_entity_table_name",
+      "source_id": "N01-PARAPHRASE",
+      "mapping": "MAP21",
+      "predicted_occurred": "YES",
+      "predicted_role_a": "周宁",
+      "predicted_role_b": "陈悦",
+      "complete_correct": false
+    },
+    {
+      "baseline": "authored_construction_rule",
+      "source_id": "N01-PARAPHRASE",
+      "mapping": "MAP21",
+      "predicted_occurred": "YES",
+      "predicted_role_a": "陈悦",
+      "predicted_role_b": "周宁",
+      "complete_correct": true
+    },
+    {
+      "baseline": "first_source_name",
+      "source_id": "N01-PARAPHRASE",
+      "mapping": "MAP12",
+      "predicted_occurred": "YES",
+      "predicted_role_a": "周宁",
+      "predicted_role_b": "陈悦",
+      "complete_correct": false
+    },
+    {
+      "baseline": "first_entity_table_name",
+      "source_id": "N01-PARAPHRASE",
+      "mapping": "MAP12",
+      "predicted_occurred": "YES",
+      "predicted_role_a": "陈悦",
+      "predicted_role_b": "周宁",
+      "complete_correct": true
+    },
+    {
+      "baseline": "authored_construction_rule",
+      "source_id": "N01-PARAPHRASE",
+      "mapping": "MAP12",
+      "predicted_occurred": "YES",
+      "predicted_role_a": "陈悦",
+      "predicted_role_b": "周宁",
+      "complete_correct": true
+    },
+    {
+      "baseline": "first_source_name",
+      "source_id": "N01-ROLE_SWAP",
+      "mapping": "MAP21",
+      "predicted_occurred": "YES",
+      "predicted_role_a": "周宁",
+      "predicted_role_b": "陈悦",
+      "complete_correct": true
+    },
+    {
+      "baseline": "first_entity_table_name",
+      "source_id": "N01-ROLE_SWAP",
+      "mapping": "MAP21",
+      "predicted_occurred": "YES",
+      "predicted_role_a": "周宁",
+      "predicted_role_b": "陈悦",
+      "complete_correct": true
+    },
+    {
+      "baseline": "authored_construction_rule",
+      "source_id": "N01-ROLE_SWAP",
+      "mapping": "MAP21",
+      "predicted_occurred": "YES",
+      "predicted_role_a": "周宁",
+      "predicted_role_b": "陈悦",
+      "complete_correct": true
+    },
+    {
+      "baseline": "first_source_name",
+      "source_id": "N01-ROLE_SWAP",
+      "mapping": "MAP12",
+      "predicted_occurred": "YES",
+      "predicted_role_a": "周宁",
+      "predicted_role_b": "陈悦",
+      "complete_correct": true
+    },
+    {
+      "baseline": "first_entity_table_name",
+      "source_id": "N01-ROLE_SWAP",
+      "mapping": "MAP12",
+      "predicted_occurred": "YES",
+      "predicted_role_a": "陈悦",
+      "predicted_role_b": "周宁",
+      "complete_correct": false
+    },
+    {
+      "baseline": "authored_construction_rule",
+      "source_id": "N01-ROLE_SWAP",
+      "mapping": "MAP12",
+      "predicted_occurred": "YES",
+      "predicted_role_a": "周宁",
+      "predicted_role_b": "陈悦",
+      "complete_correct": true
+    },
+    {
+      "baseline": "first_source_name",
+      "source_id": "N01-NEGATED",
+      "mapping": "MAP12",
+      "predicted_occurred": "NO",
+      "predicted_role_a": "陈悦",
+      "predicted_role_b": "周宁",
+      "complete_correct": true
+    },
+    {
+      "baseline": "first_entity_table_name",
+      "source_id": "N01-NEGATED",
+      "mapping": "MAP12",
+      "predicted_occurred": "NO",
+      "predicted_role_a": "陈悦",
+      "predicted_role_b": "周宁",
+      "complete_correct": true
+    },
+    {
+      "baseline": "authored_construction_rule",
+      "source_id": "N01-NEGATED",
+      "mapping": "MAP12",
+      "predicted_occurred": "NO",
+      "predicted_role_a": "陈悦",
+      "predicted_role_b": "周宁",
+      "complete_correct": true
+    },
+    {
+      "baseline": "first_source_name",
+      "source_id": "N01-NEGATED",
+      "mapping": "MAP21",
+      "predicted_occurred": "NO",
+      "predicted_role_a": "陈悦",
+      "predicted_role_b": "周宁",
+      "complete_correct": true
+    },
+    {
+      "baseline": "first_entity_table_name",
+      "source_id": "N01-NEGATED",
+      "mapping": "MAP21",
+      "predicted_occurred": "NO",
+      "predicted_role_a": "周宁",
+      "predicted_role_b": "陈悦",
+      "complete_correct": false
+    },
+    {
+      "baseline": "authored_construction_rule",
+      "source_id": "N01-NEGATED",
+      "mapping": "MAP21",
+      "predicted_occurred": "NO",
+      "predicted_role_a": "陈悦",
+      "predicted_role_b": "周宁",
+      "complete_correct": true
+    },
+    {
+      "baseline": "first_source_name",
+      "source_id": "N01-UNRESOLVED",
+      "mapping": "MAP12",
+      "predicted_occurred": "UNKNOWN",
+      "predicted_role_a": "陈悦",
+      "predicted_role_b": "周宁",
+      "complete_correct": true
+    },
+    {
+      "baseline": "first_entity_table_name",
+      "source_id": "N01-UNRESOLVED",
+      "mapping": "MAP12",
+      "predicted_occurred": "UNKNOWN",
+      "predicted_role_a": "陈悦",
+      "predicted_role_b": "周宁",
+      "complete_correct": true
+    },
+    {
+      "baseline": "authored_construction_rule",
+      "source_id": "N01-UNRESOLVED",
+      "mapping": "MAP12",
+      "predicted_occurred": "UNKNOWN",
+      "predicted_role_a": "陈悦",
+      "predicted_role_b": "周宁",
+      "complete_correct": true
+    },
+    {
+      "baseline": "first_source_name",
+      "source_id": "N01-UNRESOLVED",
+      "mapping": "MAP21",
+      "predicted_occurred": "UNKNOWN",
+      "predicted_role_a": "陈悦",
+      "predicted_role_b": "周宁",
+      "complete_correct": true
+    },
+    {
+      "baseline": "first_entity_table_name",
+      "source_id": "N01-UNRESOLVED",
+      "mapping": "MAP21",
+      "predicted_occurred": "UNKNOWN",
+      "predicted_role_a": "周宁",
+      "predicted_role_b": "陈悦",
+      "complete_correct": false
+    },
+    {
+      "baseline": "authored_construction_rule",
+      "source_id": "N01-UNRESOLVED",
+      "mapping": "MAP21",
+      "predicted_occurred": "UNKNOWN",
+      "predicted_role_a": "陈悦",
+      "predicted_role_b": "周宁",
+      "complete_correct": true
+    },
+    {
+      "baseline": "first_source_name",
+      "source_id": "N02-PARAPHRASE",
+      "mapping": "MAP21",
+      "predicted_occurred": "YES",
+      "predicted_role_a": "许静",
+      "predicted_role_b": "林涛",
+      "complete_correct": false
+    },
+    {
+      "baseline": "first_entity_table_name",
+      "source_id": "N02-PARAPHRASE",
+      "mapping": "MAP21",
+      "predicted_occurred": "YES",
+      "predicted_role_a": "许静",
+      "predicted_role_b": "林涛",
+      "complete_correct": false
+    },
+    {
+      "baseline": "authored_construction_rule",
+      "source_id": "N02-PARAPHRASE",
+      "mapping": "MAP21",
+      "predicted_occurred": "YES",
+      "predicted_role_a": "林涛",
+      "predicted_role_b": "许静",
+      "complete_correct": true
+    },
+    {
+      "baseline": "first_source_name",
+      "source_id": "N02-PARAPHRASE",
+      "mapping": "MAP12",
+      "predicted_occurred": "YES",
+      "predicted_role_a": "许静",
+      "predicted_role_b": "林涛",
+      "complete_correct": false
+    },
+    {
+      "baseline": "first_entity_table_name",
+      "source_id": "N02-PARAPHRASE",
+      "mapping": "MAP12",
+      "predicted_occurred": "YES",
+      "predicted_role_a": "林涛",
+      "predicted_role_b": "许静",
+      "complete_correct": true
+    },
+    {
+      "baseline": "authored_construction_rule",
+      "source_id": "N02-PARAPHRASE",
+      "mapping": "MAP12",
+      "predicted_occurred": "YES",
+      "predicted_role_a": "林涛",
+      "predicted_role_b": "许静",
+      "complete_correct": true
+    },
+    {
+      "baseline": "first_source_name",
+      "source_id": "N02-ROLE_SWAP",
+      "mapping": "MAP21",
+      "predicted_occurred": "YES",
+      "predicted_role_a": "许静",
+      "predicted_role_b": "林涛",
+      "complete_correct": true
+    },
+    {
+      "baseline": "first_entity_table_name",
+      "source_id": "N02-ROLE_SWAP",
+      "mapping": "MAP21",
+      "predicted_occurred": "YES",
+      "predicted_role_a": "许静",
+      "predicted_role_b": "林涛",
+      "complete_correct": true
+    },
+    {
+      "baseline": "authored_construction_rule",
+      "source_id": "N02-ROLE_SWAP",
+      "mapping": "MAP21",
+      "predicted_occurred": "YES",
+      "predicted_role_a": "许静",
+      "predicted_role_b": "林涛",
+      "complete_correct": true
+    },
+    {
+      "baseline": "first_source_name",
+      "source_id": "N02-ROLE_SWAP",
+      "mapping": "MAP12",
+      "predicted_occurred": "YES",
+      "predicted_role_a": "许静",
+      "predicted_role_b": "林涛",
+      "complete_correct": true
+    },
+    {
+      "baseline": "first_entity_table_name",
+      "source_id": "N02-ROLE_SWAP",
+      "mapping": "MAP12",
+      "predicted_occurred": "YES",
+      "predicted_role_a": "林涛",
+      "predicted_role_b": "许静",
+      "complete_correct": false
+    },
+    {
+      "baseline": "authored_construction_rule",
+      "source_id": "N02-ROLE_SWAP",
+      "mapping": "MAP12",
+      "predicted_occurred": "YES",
+      "predicted_role_a": "许静",
+      "predicted_role_b": "林涛",
+      "complete_correct": true
+    },
+    {
+      "baseline": "first_source_name",
+      "source_id": "N02-NEGATED",
+      "mapping": "MAP12",
+      "predicted_occurred": "NO",
+      "predicted_role_a": "林涛",
+      "predicted_role_b": "许静",
+      "complete_correct": true
+    },
+    {
+      "baseline": "first_entity_table_name",
+      "source_id": "N02-NEGATED",
+      "mapping": "MAP12",
+      "predicted_occurred": "NO",
+      "predicted_role_a": "林涛",
+      "predicted_role_b": "许静",
+      "complete_correct": true
+    },
+    {
+      "baseline": "authored_construction_rule",
+      "source_id": "N02-NEGATED",
+      "mapping": "MAP12",
+      "predicted_occurred": "NO",
+      "predicted_role_a": "林涛",
+      "predicted_role_b": "许静",
+      "complete_correct": true
+    },
+    {
+      "baseline": "first_source_name",
+      "source_id": "N02-NEGATED",
+      "mapping": "MAP21",
+      "predicted_occurred": "NO",
+      "predicted_role_a": "林涛",
+      "predicted_role_b": "许静",
+      "complete_correct": true
+    },
+    {
+      "baseline": "first_entity_table_name",
+      "source_id": "N02-NEGATED",
+      "mapping": "MAP21",
+      "predicted_occurred": "NO",
+      "predicted_role_a": "许静",
+      "predicted_role_b": "林涛",
+      "complete_correct": false
+    },
+    {
+      "baseline": "authored_construction_rule",
+      "source_id": "N02-NEGATED",
+      "mapping": "MAP21",
+      "predicted_occurred": "NO",
+      "predicted_role_a": "林涛",
+      "predicted_role_b": "许静",
+      "complete_correct": true
+    },
+    {
+      "baseline": "first_source_name",
+      "source_id": "N02-UNRESOLVED",
+      "mapping": "MAP12",
+      "predicted_occurred": "UNKNOWN",
+      "predicted_role_a": "林涛",
+      "predicted_role_b": "许静",
+      "complete_correct": true
+    },
+    {
+      "baseline": "first_entity_table_name",
+      "source_id": "N02-UNRESOLVED",
+      "mapping": "MAP12",
+      "predicted_occurred": "UNKNOWN",
+      "predicted_role_a": "林涛",
+      "predicted_role_b": "许静",
+      "complete_correct": true
+    },
+    {
+      "baseline": "authored_construction_rule",
+      "source_id": "N02-UNRESOLVED",
+      "mapping": "MAP12",
+      "predicted_occurred": "UNKNOWN",
+      "predicted_role_a": "林涛",
+      "predicted_role_b": "许静",
+      "complete_correct": true
+    },
+    {
+      "baseline": "first_source_name",
+      "source_id": "N02-UNRESOLVED",
+      "mapping": "MAP21",
+      "predicted_occurred": "UNKNOWN",
+      "predicted_role_a": "林涛",
+      "predicted_role_b": "许静",
+      "complete_correct": true
+    },
+    {
+      "baseline": "first_entity_table_name",
+      "source_id": "N02-UNRESOLVED",
+      "mapping": "MAP21",
+      "predicted_occurred": "UNKNOWN",
+      "predicted_role_a": "许静",
+      "predicted_role_b": "林涛",
+      "complete_correct": false
+    },
+    {
+      "baseline": "authored_construction_rule",
+      "source_id": "N02-UNRESOLVED",
+      "mapping": "MAP21",
+      "predicted_occurred": "UNKNOWN",
+      "predicted_role_a": "林涛",
+      "predicted_role_b": "许静",
+      "complete_correct": true
+    },
+    {
+      "baseline": "first_source_name",
+      "source_id": "N02-BASE",
+      "mapping": "MAP21",
+      "predicted_occurred": "YES",
+      "predicted_role_a": "林涛",
+      "predicted_role_b": "许静",
+      "complete_correct": true
+    },
+    {
+      "baseline": "first_entity_table_name",
+      "source_id": "N02-BASE",
+      "mapping": "MAP21",
+      "predicted_occurred": "YES",
+      "predicted_role_a": "许静",
+      "predicted_role_b": "林涛",
+      "complete_correct": false
+    },
+    {
+      "baseline": "authored_construction_rule",
+      "source_id": "N02-BASE",
+      "mapping": "MAP21",
+      "predicted_occurred": "YES",
+      "predicted_role_a": "林涛",
+      "predicted_role_b": "许静",
+      "complete_correct": true
+    },
+    {
+      "baseline": "first_source_name",
+      "source_id": "N02-BASE",
+      "mapping": "MAP12",
+      "predicted_occurred": "YES",
+      "predicted_role_a": "林涛",
+      "predicted_role_b": "许静",
+      "complete_correct": true
+    },
+    {
+      "baseline": "first_entity_table_name",
+      "source_id": "N02-BASE",
+      "mapping": "MAP12",
+      "predicted_occurred": "YES",
+      "predicted_role_a": "林涛",
+      "predicted_role_b": "许静",
+      "complete_correct": true
+    },
+    {
+      "baseline": "authored_construction_rule",
+      "source_id": "N02-BASE",
+      "mapping": "MAP12",
+      "predicted_occurred": "YES",
+      "predicted_role_a": "林涛",
+      "predicted_role_b": "许静",
+      "complete_correct": true
+    },
+    {
+      "baseline": "first_source_name",
+      "source_id": "N03-ROLE_SWAP",
+      "mapping": "MAP21",
+      "predicted_occurred": "YES",
+      "predicted_role_a": "刘宁",
+      "predicted_role_b": "王晨",
+      "complete_correct": true
+    },
+    {
+      "baseline": "first_entity_table_name",
+      "source_id": "N03-ROLE_SWAP",
+      "mapping": "MAP21",
+      "predicted_occurred": "YES",
+      "predicted_role_a": "刘宁",
+      "predicted_role_b": "王晨",
+      "complete_correct": true
+    },
+    {
+      "baseline": "authored_construction_rule",
+      "source_id": "N03-ROLE_SWAP",
+      "mapping": "MAP21",
+      "predicted_occurred": "YES",
+      "predicted_role_a": "刘宁",
+      "predicted_role_b": "王晨",
+      "complete_correct": true
+    },
+    {
+      "baseline": "first_source_name",
+      "source_id": "N03-ROLE_SWAP",
+      "mapping": "MAP12",
+      "predicted_occurred": "YES",
+      "predicted_role_a": "刘宁",
+      "predicted_role_b": "王晨",
+      "complete_correct": true
+    },
+    {
+      "baseline": "first_entity_table_name",
+      "source_id": "N03-ROLE_SWAP",
+      "mapping": "MAP12",
+      "predicted_occurred": "YES",
+      "predicted_role_a": "王晨",
+      "predicted_role_b": "刘宁",
+      "complete_correct": false
+    },
+    {
+      "baseline": "authored_construction_rule",
+      "source_id": "N03-ROLE_SWAP",
+      "mapping": "MAP12",
+      "predicted_occurred": "YES",
+      "predicted_role_a": "刘宁",
+      "predicted_role_b": "王晨",
+      "complete_correct": true
+    },
+    {
+      "baseline": "first_source_name",
+      "source_id": "N03-NEGATED",
+      "mapping": "MAP12",
+      "predicted_occurred": "NO",
+      "predicted_role_a": "王晨",
+      "predicted_role_b": "刘宁",
+      "complete_correct": true
+    },
+    {
+      "baseline": "first_entity_table_name",
+      "source_id": "N03-NEGATED",
+      "mapping": "MAP12",
+      "predicted_occurred": "NO",
+      "predicted_role_a": "王晨",
+      "predicted_role_b": "刘宁",
+      "complete_correct": true
+    },
+    {
+      "baseline": "authored_construction_rule",
+      "source_id": "N03-NEGATED",
+      "mapping": "MAP12",
+      "predicted_occurred": "NO",
+      "predicted_role_a": "王晨",
+      "predicted_role_b": "刘宁",
+      "complete_correct": true
+    },
+    {
+      "baseline": "first_source_name",
+      "source_id": "N03-NEGATED",
+      "mapping": "MAP21",
+      "predicted_occurred": "NO",
+      "predicted_role_a": "王晨",
+      "predicted_role_b": "刘宁",
+      "complete_correct": true
+    },
+    {
+      "baseline": "first_entity_table_name",
+      "source_id": "N03-NEGATED",
+      "mapping": "MAP21",
+      "predicted_occurred": "NO",
+      "predicted_role_a": "刘宁",
+      "predicted_role_b": "王晨",
+      "complete_correct": false
+    },
+    {
+      "baseline": "authored_construction_rule",
+      "source_id": "N03-NEGATED",
+      "mapping": "MAP21",
+      "predicted_occurred": "NO",
+      "predicted_role_a": "王晨",
+      "predicted_role_b": "刘宁",
+      "complete_correct": true
+    },
+    {
+      "baseline": "first_source_name",
+      "source_id": "N03-UNRESOLVED",
+      "mapping": "MAP12",
+      "predicted_occurred": "UNKNOWN",
+      "predicted_role_a": "王晨",
+      "predicted_role_b": "刘宁",
+      "complete_correct": true
+    },
+    {
+      "baseline": "first_entity_table_name",
+      "source_id": "N03-UNRESOLVED",
+      "mapping": "MAP12",
+      "predicted_occurred": "UNKNOWN",
+      "predicted_role_a": "王晨",
+      "predicted_role_b": "刘宁",
+      "complete_correct": true
+    },
+    {
+      "baseline": "authored_construction_rule",
+      "source_id": "N03-UNRESOLVED",
+      "mapping": "MAP12",
+      "predicted_occurred": "UNKNOWN",
+      "predicted_role_a": "王晨",
+      "predicted_role_b": "刘宁",
+      "complete_correct": true
+    },
+    {
+      "baseline": "first_source_name",
+      "source_id": "N03-UNRESOLVED",
+      "mapping": "MAP21",
+      "predicted_occurred": "UNKNOWN",
+      "predicted_role_a": "王晨",
+      "predicted_role_b": "刘宁",
+      "complete_correct": true
+    },
+    {
+      "baseline": "first_entity_table_name",
+      "source_id": "N03-UNRESOLVED",
+      "mapping": "MAP21",
+      "predicted_occurred": "UNKNOWN",
+      "predicted_role_a": "刘宁",
+      "predicted_role_b": "王晨",
+      "complete_correct": false
+    },
+    {
+      "baseline": "authored_construction_rule",
+      "source_id": "N03-UNRESOLVED",
+      "mapping": "MAP21",
+      "predicted_occurred": "UNKNOWN",
+      "predicted_role_a": "王晨",
+      "predicted_role_b": "刘宁",
+      "complete_correct": true
+    },
+    {
+      "baseline": "first_source_name",
+      "source_id": "N03-BASE",
+      "mapping": "MAP21",
+      "predicted_occurred": "YES",
+      "predicted_role_a": "王晨",
+      "predicted_role_b": "刘宁",
+      "complete_correct": true
+    },
+    {
+      "baseline": "first_entity_table_name",
+      "source_id": "N03-BASE",
+      "mapping": "MAP21",
+      "predicted_occurred": "YES",
+      "predicted_role_a": "刘宁",
+      "predicted_role_b": "王晨",
+      "complete_correct": false
+    },
+    {
+      "baseline": "authored_construction_rule",
+      "source_id": "N03-BASE",
+      "mapping": "MAP21",
+      "predicted_occurred": "YES",
+      "predicted_role_a": "王晨",
+      "predicted_role_b": "刘宁",
+      "complete_correct": true
+    },
+    {
+      "baseline": "first_source_name",
+      "source_id": "N03-BASE",
+      "mapping": "MAP12",
+      "predicted_occurred": "YES",
+      "predicted_role_a": "王晨",
+      "predicted_role_b": "刘宁",
+      "complete_correct": true
+    },
+    {
+      "baseline": "first_entity_table_name",
+      "source_id": "N03-BASE",
+      "mapping": "MAP12",
+      "predicted_occurred": "YES",
+      "predicted_role_a": "王晨",
+      "predicted_role_b": "刘宁",
+      "complete_correct": true
+    },
+    {
+      "baseline": "authored_construction_rule",
+      "source_id": "N03-BASE",
+      "mapping": "MAP12",
+      "predicted_occurred": "YES",
+      "predicted_role_a": "王晨",
+      "predicted_role_b": "刘宁",
+      "complete_correct": true
+    },
+    {
+      "baseline": "first_source_name",
+      "source_id": "N03-PARAPHRASE",
+      "mapping": "MAP21",
+      "predicted_occurred": "YES",
+      "predicted_role_a": "刘宁",
+      "predicted_role_b": "王晨",
+      "complete_correct": false
+    },
+    {
+      "baseline": "first_entity_table_name",
+      "source_id": "N03-PARAPHRASE",
+      "mapping": "MAP21",
+      "predicted_occurred": "YES",
+      "predicted_role_a": "刘宁",
+      "predicted_role_b": "王晨",
+      "complete_correct": false
+    },
+    {
+      "baseline": "authored_construction_rule",
+      "source_id": "N03-PARAPHRASE",
+      "mapping": "MAP21",
+      "predicted_occurred": "YES",
+      "predicted_role_a": "王晨",
+      "predicted_role_b": "刘宁",
+      "complete_correct": true
+    },
+    {
+      "baseline": "first_source_name",
+      "source_id": "N03-PARAPHRASE",
+      "mapping": "MAP12",
+      "predicted_occurred": "YES",
+      "predicted_role_a": "刘宁",
+      "predicted_role_b": "王晨",
+      "complete_correct": false
+    },
+    {
+      "baseline": "first_entity_table_name",
+      "source_id": "N03-PARAPHRASE",
+      "mapping": "MAP12",
+      "predicted_occurred": "YES",
+      "predicted_role_a": "王晨",
+      "predicted_role_b": "刘宁",
+      "complete_correct": true
+    },
+    {
+      "baseline": "authored_construction_rule",
+      "source_id": "N03-PARAPHRASE",
+      "mapping": "MAP12",
+      "predicted_occurred": "YES",
+      "predicted_role_a": "王晨",
+      "predicted_role_b": "刘宁",
+      "complete_correct": true
+    },
+    {
+      "baseline": "first_source_name",
+      "source_id": "N04-NEGATED",
+      "mapping": "MAP12",
+      "predicted_occurred": "NO",
+      "predicted_role_a": "苏敏",
+      "predicted_role_b": "赵凯",
+      "complete_correct": true
+    },
+    {
+      "baseline": "first_entity_table_name",
+      "source_id": "N04-NEGATED",
+      "mapping": "MAP12",
+      "predicted_occurred": "NO",
+      "predicted_role_a": "苏敏",
+      "predicted_role_b": "赵凯",
+      "complete_correct": true
+    },
+    {
+      "baseline": "authored_construction_rule",
+      "source_id": "N04-NEGATED",
+      "mapping": "MAP12",
+      "predicted_occurred": "NO",
+      "predicted_role_a": "苏敏",
+      "predicted_role_b": "赵凯",
+      "complete_correct": true
+    },
+    {
+      "baseline": "first_source_name",
+      "source_id": "N04-NEGATED",
+      "mapping": "MAP21",
+      "predicted_occurred": "NO",
+      "predicted_role_a": "苏敏",
+      "predicted_role_b": "赵凯",
+      "complete_correct": true
+    },
+    {
+      "baseline": "first_entity_table_name",
+      "source_id": "N04-NEGATED",
+      "mapping": "MAP21",
+      "predicted_occurred": "NO",
+      "predicted_role_a": "赵凯",
+      "predicted_role_b": "苏敏",
+      "complete_correct": false
+    },
+    {
+      "baseline": "authored_construction_rule",
+      "source_id": "N04-NEGATED",
+      "mapping": "MAP21",
+      "predicted_occurred": "NO",
+      "predicted_role_a": "苏敏",
+      "predicted_role_b": "赵凯",
+      "complete_correct": true
+    },
+    {
+      "baseline": "first_source_name",
+      "source_id": "N04-UNRESOLVED",
+      "mapping": "MAP12",
+      "predicted_occurred": "UNKNOWN",
+      "predicted_role_a": "苏敏",
+      "predicted_role_b": "赵凯",
+      "complete_correct": true
+    },
+    {
+      "baseline": "first_entity_table_name",
+      "source_id": "N04-UNRESOLVED",
+      "mapping": "MAP12",
+      "predicted_occurred": "UNKNOWN",
+      "predicted_role_a": "苏敏",
+      "predicted_role_b": "赵凯",
+      "complete_correct": true
+    },
+    {
+      "baseline": "authored_construction_rule",
+      "source_id": "N04-UNRESOLVED",
+      "mapping": "MAP12",
+      "predicted_occurred": "UNKNOWN",
+      "predicted_role_a": "苏敏",
+      "predicted_role_b": "赵凯",
+      "complete_correct": true
+    },
+    {
+      "baseline": "first_source_name",
+      "source_id": "N04-UNRESOLVED",
+      "mapping": "MAP21",
+      "predicted_occurred": "UNKNOWN",
+      "predicted_role_a": "苏敏",
+      "predicted_role_b": "赵凯",
+      "complete_correct": true
+    },
+    {
+      "baseline": "first_entity_table_name",
+      "source_id": "N04-UNRESOLVED",
+      "mapping": "MAP21",
+      "predicted_occurred": "UNKNOWN",
+      "predicted_role_a": "赵凯",
+      "predicted_role_b": "苏敏",
+      "complete_correct": false
+    },
+    {
+      "baseline": "authored_construction_rule",
+      "source_id": "N04-UNRESOLVED",
+      "mapping": "MAP21",
+      "predicted_occurred": "UNKNOWN",
+      "predicted_role_a": "苏敏",
+      "predicted_role_b": "赵凯",
+      "complete_correct": true
+    },
+    {
+      "baseline": "first_source_name",
+      "source_id": "N04-BASE",
+      "mapping": "MAP21",
+      "predicted_occurred": "YES",
+      "predicted_role_a": "苏敏",
+      "predicted_role_b": "赵凯",
+      "complete_correct": true
+    },
+    {
+      "baseline": "first_entity_table_name",
+      "source_id": "N04-BASE",
+      "mapping": "MAP21",
+      "predicted_occurred": "YES",
+      "predicted_role_a": "赵凯",
+      "predicted_role_b": "苏敏",
+      "complete_correct": false
+    },
+    {
+      "baseline": "authored_construction_rule",
+      "source_id": "N04-BASE",
+      "mapping": "MAP21",
+      "predicted_occurred": "YES",
+      "predicted_role_a": "苏敏",
+      "predicted_role_b": "赵凯",
+      "complete_correct": true
+    },
+    {
+      "baseline": "first_source_name",
+      "source_id": "N04-BASE",
+      "mapping": "MAP12",
+      "predicted_occurred": "YES",
+      "predicted_role_a": "苏敏",
+      "predicted_role_b": "赵凯",
+      "complete_correct": true
+    },
+    {
+      "baseline": "first_entity_table_name",
+      "source_id": "N04-BASE",
+      "mapping": "MAP12",
+      "predicted_occurred": "YES",
+      "predicted_role_a": "苏敏",
+      "predicted_role_b": "赵凯",
+      "complete_correct": true
+    },
+    {
+      "baseline": "authored_construction_rule",
+      "source_id": "N04-BASE",
+      "mapping": "MAP12",
+      "predicted_occurred": "YES",
+      "predicted_role_a": "苏敏",
+      "predicted_role_b": "赵凯",
+      "complete_correct": true
+    },
+    {
+      "baseline": "first_source_name",
+      "source_id": "N04-PARAPHRASE",
+      "mapping": "MAP21",
+      "predicted_occurred": "YES",
+      "predicted_role_a": "赵凯",
+      "predicted_role_b": "苏敏",
+      "complete_correct": false
+    },
+    {
+      "baseline": "first_entity_table_name",
+      "source_id": "N04-PARAPHRASE",
+      "mapping": "MAP21",
+      "predicted_occurred": "YES",
+      "predicted_role_a": "赵凯",
+      "predicted_role_b": "苏敏",
+      "complete_correct": false
+    },
+    {
+      "baseline": "authored_construction_rule",
+      "source_id": "N04-PARAPHRASE",
+      "mapping": "MAP21",
+      "predicted_occurred": "YES",
+      "predicted_role_a": "苏敏",
+      "predicted_role_b": "赵凯",
+      "complete_correct": true
+    },
+    {
+      "baseline": "first_source_name",
+      "source_id": "N04-PARAPHRASE",
+      "mapping": "MAP12",
+      "predicted_occurred": "YES",
+      "predicted_role_a": "赵凯",
+      "predicted_role_b": "苏敏",
+      "complete_correct": false
+    },
+    {
+      "baseline": "first_entity_table_name",
+      "source_id": "N04-PARAPHRASE",
+      "mapping": "MAP12",
+      "predicted_occurred": "YES",
+      "predicted_role_a": "苏敏",
+      "predicted_role_b": "赵凯",
+      "complete_correct": true
+    },
+    {
+      "baseline": "authored_construction_rule",
+      "source_id": "N04-PARAPHRASE",
+      "mapping": "MAP12",
+      "predicted_occurred": "YES",
+      "predicted_role_a": "苏敏",
+      "predicted_role_b": "赵凯",
+      "complete_correct": true
+    },
+    {
+      "baseline": "first_source_name",
+      "source_id": "N04-ROLE_SWAP",
+      "mapping": "MAP12",
+      "predicted_occurred": "YES",
+      "predicted_role_a": "赵凯",
+      "predicted_role_b": "苏敏",
+      "complete_correct": true
+    },
+    {
+      "baseline": "first_entity_table_name",
+      "source_id": "N04-ROLE_SWAP",
+      "mapping": "MAP12",
+      "predicted_occurred": "YES",
+      "predicted_role_a": "苏敏",
+      "predicted_role_b": "赵凯",
+      "complete_correct": false
+    },
+    {
+      "baseline": "authored_construction_rule",
+      "source_id": "N04-ROLE_SWAP",
+      "mapping": "MAP12",
+      "predicted_occurred": "YES",
+      "predicted_role_a": "赵凯",
+      "predicted_role_b": "苏敏",
+      "complete_correct": true
+    },
+    {
+      "baseline": "first_source_name",
+      "source_id": "N04-ROLE_SWAP",
+      "mapping": "MAP21",
+      "predicted_occurred": "YES",
+      "predicted_role_a": "赵凯",
+      "predicted_role_b": "苏敏",
+      "complete_correct": true
+    },
+    {
+      "baseline": "first_entity_table_name",
+      "source_id": "N04-ROLE_SWAP",
+      "mapping": "MAP21",
+      "predicted_occurred": "YES",
+      "predicted_role_a": "赵凯",
+      "predicted_role_b": "苏敏",
+      "complete_correct": true
+    },
+    {
+      "baseline": "authored_construction_rule",
+      "source_id": "N04-ROLE_SWAP",
+      "mapping": "MAP21",
+      "predicted_occurred": "YES",
+      "predicted_role_a": "赵凯",
+      "predicted_role_b": "苏敏",
+      "complete_correct": true
+    },
+    {
+      "baseline": "first_source_name",
+      "source_id": "N05-UNRESOLVED",
+      "mapping": "MAP12",
+      "predicted_occurred": "UNKNOWN",
+      "predicted_role_a": "何杰",
+      "predicted_role_b": "杨帆",
+      "complete_correct": true
+    },
+    {
+      "baseline": "first_entity_table_name",
+      "source_id": "N05-UNRESOLVED",
+      "mapping": "MAP12",
+      "predicted_occurred": "UNKNOWN",
+      "predicted_role_a": "何杰",
+      "predicted_role_b": "杨帆",
+      "complete_correct": true
+    },
+    {
+      "baseline": "authored_construction_rule",
+      "source_id": "N05-UNRESOLVED",
+      "mapping": "MAP12",
+      "predicted_occurred": "UNKNOWN",
+      "predicted_role_a": "何杰",
+      "predicted_role_b": "杨帆",
+      "complete_correct": true
+    },
+    {
+      "baseline": "first_source_name",
+      "source_id": "N05-UNRESOLVED",
+      "mapping": "MAP21",
+      "predicted_occurred": "UNKNOWN",
+      "predicted_role_a": "何杰",
+      "predicted_role_b": "杨帆",
+      "complete_correct": true
+    },
+    {
+      "baseline": "first_entity_table_name",
+      "source_id": "N05-UNRESOLVED",
+      "mapping": "MAP21",
+      "predicted_occurred": "UNKNOWN",
+      "predicted_role_a": "杨帆",
+      "predicted_role_b": "何杰",
+      "complete_correct": false
+    },
+    {
+      "baseline": "authored_construction_rule",
+      "source_id": "N05-UNRESOLVED",
+      "mapping": "MAP21",
+      "predicted_occurred": "UNKNOWN",
+      "predicted_role_a": "何杰",
+      "predicted_role_b": "杨帆",
+      "complete_correct": true
+    },
+    {
+      "baseline": "first_source_name",
+      "source_id": "N05-BASE",
+      "mapping": "MAP21",
+      "predicted_occurred": "YES",
+      "predicted_role_a": "何杰",
+      "predicted_role_b": "杨帆",
+      "complete_correct": true
+    },
+    {
+      "baseline": "first_entity_table_name",
+      "source_id": "N05-BASE",
+      "mapping": "MAP21",
+      "predicted_occurred": "YES",
+      "predicted_role_a": "杨帆",
+      "predicted_role_b": "何杰",
+      "complete_correct": false
+    },
+    {
+      "baseline": "authored_construction_rule",
+      "source_id": "N05-BASE",
+      "mapping": "MAP21",
+      "predicted_occurred": "YES",
+      "predicted_role_a": "何杰",
+      "predicted_role_b": "杨帆",
+      "complete_correct": true
+    },
+    {
+      "baseline": "first_source_name",
+      "source_id": "N05-BASE",
+      "mapping": "MAP12",
+      "predicted_occurred": "YES",
+      "predicted_role_a": "何杰",
+      "predicted_role_b": "杨帆",
+      "complete_correct": true
+    },
+    {
+      "baseline": "first_entity_table_name",
+      "source_id": "N05-BASE",
+      "mapping": "MAP12",
+      "predicted_occurred": "YES",
+      "predicted_role_a": "何杰",
+      "predicted_role_b": "杨帆",
+      "complete_correct": true
+    },
+    {
+      "baseline": "authored_construction_rule",
+      "source_id": "N05-BASE",
+      "mapping": "MAP12",
+      "predicted_occurred": "YES",
+      "predicted_role_a": "何杰",
+      "predicted_role_b": "杨帆",
+      "complete_correct": true
+    },
+    {
+      "baseline": "first_source_name",
+      "source_id": "N05-PARAPHRASE",
+      "mapping": "MAP21",
+      "predicted_occurred": "YES",
+      "predicted_role_a": "杨帆",
+      "predicted_role_b": "何杰",
+      "complete_correct": false
+    },
+    {
+      "baseline": "first_entity_table_name",
+      "source_id": "N05-PARAPHRASE",
+      "mapping": "MAP21",
+      "predicted_occurred": "YES",
+      "predicted_role_a": "杨帆",
+      "predicted_role_b": "何杰",
+      "complete_correct": false
+    },
+    {
+      "baseline": "authored_construction_rule",
+      "source_id": "N05-PARAPHRASE",
+      "mapping": "MAP21",
+      "predicted_occurred": "YES",
+      "predicted_role_a": "何杰",
+      "predicted_role_b": "杨帆",
+      "complete_correct": true
+    },
+    {
+      "baseline": "first_source_name",
+      "source_id": "N05-PARAPHRASE",
+      "mapping": "MAP12",
+      "predicted_occurred": "YES",
+      "predicted_role_a": "杨帆",
+      "predicted_role_b": "何杰",
+      "complete_correct": false
+    },
+    {
+      "baseline": "first_entity_table_name",
+      "source_id": "N05-PARAPHRASE",
+      "mapping": "MAP12",
+      "predicted_occurred": "YES",
+      "predicted_role_a": "何杰",
+      "predicted_role_b": "杨帆",
+      "complete_correct": true
+    },
+    {
+      "baseline": "authored_construction_rule",
+      "source_id": "N05-PARAPHRASE",
+      "mapping": "MAP12",
+      "predicted_occurred": "YES",
+      "predicted_role_a": "何杰",
+      "predicted_role_b": "杨帆",
+      "complete_correct": true
+    },
+    {
+      "baseline": "first_source_name",
+      "source_id": "N05-ROLE_SWAP",
+      "mapping": "MAP12",
+      "predicted_occurred": "YES",
+      "predicted_role_a": "杨帆",
+      "predicted_role_b": "何杰",
+      "complete_correct": true
+    },
+    {
+      "baseline": "first_entity_table_name",
+      "source_id": "N05-ROLE_SWAP",
+      "mapping": "MAP12",
+      "predicted_occurred": "YES",
+      "predicted_role_a": "何杰",
+      "predicted_role_b": "杨帆",
+      "complete_correct": false
+    },
+    {
+      "baseline": "authored_construction_rule",
+      "source_id": "N05-ROLE_SWAP",
+      "mapping": "MAP12",
+      "predicted_occurred": "YES",
+      "predicted_role_a": "杨帆",
+      "predicted_role_b": "何杰",
+      "complete_correct": true
+    },
+    {
+      "baseline": "first_source_name",
+      "source_id": "N05-ROLE_SWAP",
+      "mapping": "MAP21",
+      "predicted_occurred": "YES",
+      "predicted_role_a": "杨帆",
+      "predicted_role_b": "何杰",
+      "complete_correct": true
+    },
+    {
+      "baseline": "first_entity_table_name",
+      "source_id": "N05-ROLE_SWAP",
+      "mapping": "MAP21",
+      "predicted_occurred": "YES",
+      "predicted_role_a": "杨帆",
+      "predicted_role_b": "何杰",
+      "complete_correct": true
+    },
+    {
+      "baseline": "authored_construction_rule",
+      "source_id": "N05-ROLE_SWAP",
+      "mapping": "MAP21",
+      "predicted_occurred": "YES",
+      "predicted_role_a": "杨帆",
+      "predicted_role_b": "何杰",
+      "complete_correct": true
+    },
+    {
+      "baseline": "first_source_name",
+      "source_id": "N05-NEGATED",
+      "mapping": "MAP12",
+      "predicted_occurred": "NO",
+      "predicted_role_a": "何杰",
+      "predicted_role_b": "杨帆",
+      "complete_correct": true
+    },
+    {
+      "baseline": "first_entity_table_name",
+      "source_id": "N05-NEGATED",
+      "mapping": "MAP12",
+      "predicted_occurred": "NO",
+      "predicted_role_a": "何杰",
+      "predicted_role_b": "杨帆",
+      "complete_correct": true
+    },
+    {
+      "baseline": "authored_construction_rule",
+      "source_id": "N05-NEGATED",
+      "mapping": "MAP12",
+      "predicted_occurred": "NO",
+      "predicted_role_a": "何杰",
+      "predicted_role_b": "杨帆",
+      "complete_correct": true
+    },
+    {
+      "baseline": "first_source_name",
+      "source_id": "N05-NEGATED",
+      "mapping": "MAP21",
+      "predicted_occurred": "NO",
+      "predicted_role_a": "何杰",
+      "predicted_role_b": "杨帆",
+      "complete_correct": true
+    },
+    {
+      "baseline": "first_entity_table_name",
+      "source_id": "N05-NEGATED",
+      "mapping": "MAP21",
+      "predicted_occurred": "NO",
+      "predicted_role_a": "杨帆",
+      "predicted_role_b": "何杰",
+      "complete_correct": false
+    },
+    {
+      "baseline": "authored_construction_rule",
+      "source_id": "N05-NEGATED",
+      "mapping": "MAP21",
+      "predicted_occurred": "NO",
+      "predicted_role_a": "何杰",
+      "predicted_role_b": "杨帆",
+      "complete_correct": true
+    },
+    {
+      "baseline": "first_source_name",
+      "source_id": "N06-BASE",
+      "mapping": "MAP21",
+      "predicted_occurred": "YES",
+      "predicted_role_a": "吴桐",
+      "predicted_role_b": "郑蕾",
+      "complete_correct": true
+    },
+    {
+      "baseline": "first_entity_table_name",
+      "source_id": "N06-BASE",
+      "mapping": "MAP21",
+      "predicted_occurred": "YES",
+      "predicted_role_a": "郑蕾",
+      "predicted_role_b": "吴桐",
+      "complete_correct": false
+    },
+    {
+      "baseline": "authored_construction_rule",
+      "source_id": "N06-BASE",
+      "mapping": "MAP21",
+      "predicted_occurred": "YES",
+      "predicted_role_a": "吴桐",
+      "predicted_role_b": "郑蕾",
+      "complete_correct": true
+    },
+    {
+      "baseline": "first_source_name",
+      "source_id": "N06-BASE",
+      "mapping": "MAP12",
+      "predicted_occurred": "YES",
+      "predicted_role_a": "吴桐",
+      "predicted_role_b": "郑蕾",
+      "complete_correct": true
+    },
+    {
+      "baseline": "first_entity_table_name",
+      "source_id": "N06-BASE",
+      "mapping": "MAP12",
+      "predicted_occurred": "YES",
+      "predicted_role_a": "吴桐",
+      "predicted_role_b": "郑蕾",
+      "complete_correct": true
+    },
+    {
+      "baseline": "authored_construction_rule",
+      "source_id": "N06-BASE",
+      "mapping": "MAP12",
+      "predicted_occurred": "YES",
+      "predicted_role_a": "吴桐",
+      "predicted_role_b": "郑蕾",
+      "complete_correct": true
+    },
+    {
+      "baseline": "first_source_name",
+      "source_id": "N06-PARAPHRASE",
+      "mapping": "MAP21",
+      "predicted_occurred": "YES",
+      "predicted_role_a": "郑蕾",
+      "predicted_role_b": "吴桐",
+      "complete_correct": false
+    },
+    {
+      "baseline": "first_entity_table_name",
+      "source_id": "N06-PARAPHRASE",
+      "mapping": "MAP21",
+      "predicted_occurred": "YES",
+      "predicted_role_a": "郑蕾",
+      "predicted_role_b": "吴桐",
+      "complete_correct": false
+    },
+    {
+      "baseline": "authored_construction_rule",
+      "source_id": "N06-PARAPHRASE",
+      "mapping": "MAP21",
+      "predicted_occurred": "YES",
+      "predicted_role_a": "吴桐",
+      "predicted_role_b": "郑蕾",
+      "complete_correct": true
+    },
+    {
+      "baseline": "first_source_name",
+      "source_id": "N06-PARAPHRASE",
+      "mapping": "MAP12",
+      "predicted_occurred": "YES",
+      "predicted_role_a": "郑蕾",
+      "predicted_role_b": "吴桐",
+      "complete_correct": false
+    },
+    {
+      "baseline": "first_entity_table_name",
+      "source_id": "N06-PARAPHRASE",
+      "mapping": "MAP12",
+      "predicted_occurred": "YES",
+      "predicted_role_a": "吴桐",
+      "predicted_role_b": "郑蕾",
+      "complete_correct": true
+    },
+    {
+      "baseline": "authored_construction_rule",
+      "source_id": "N06-PARAPHRASE",
+      "mapping": "MAP12",
+      "predicted_occurred": "YES",
+      "predicted_role_a": "吴桐",
+      "predicted_role_b": "郑蕾",
+      "complete_correct": true
+    },
+    {
+      "baseline": "first_source_name",
+      "source_id": "N06-ROLE_SWAP",
+      "mapping": "MAP12",
+      "predicted_occurred": "YES",
+      "predicted_role_a": "郑蕾",
+      "predicted_role_b": "吴桐",
+      "complete_correct": true
+    },
+    {
+      "baseline": "first_entity_table_name",
+      "source_id": "N06-ROLE_SWAP",
+      "mapping": "MAP12",
+      "predicted_occurred": "YES",
+      "predicted_role_a": "吴桐",
+      "predicted_role_b": "郑蕾",
+      "complete_correct": false
+    },
+    {
+      "baseline": "authored_construction_rule",
+      "source_id": "N06-ROLE_SWAP",
+      "mapping": "MAP12",
+      "predicted_occurred": "YES",
+      "predicted_role_a": "郑蕾",
+      "predicted_role_b": "吴桐",
+      "complete_correct": true
+    },
+    {
+      "baseline": "first_source_name",
+      "source_id": "N06-ROLE_SWAP",
+      "mapping": "MAP21",
+      "predicted_occurred": "YES",
+      "predicted_role_a": "郑蕾",
+      "predicted_role_b": "吴桐",
+      "complete_correct": true
+    },
+    {
+      "baseline": "first_entity_table_name",
+      "source_id": "N06-ROLE_SWAP",
+      "mapping": "MAP21",
+      "predicted_occurred": "YES",
+      "predicted_role_a": "郑蕾",
+      "predicted_role_b": "吴桐",
+      "complete_correct": true
+    },
+    {
+      "baseline": "authored_construction_rule",
+      "source_id": "N06-ROLE_SWAP",
+      "mapping": "MAP21",
+      "predicted_occurred": "YES",
+      "predicted_role_a": "郑蕾",
+      "predicted_role_b": "吴桐",
+      "complete_correct": true
+    },
+    {
+      "baseline": "first_source_name",
+      "source_id": "N06-NEGATED",
+      "mapping": "MAP12",
+      "predicted_occurred": "NO",
+      "predicted_role_a": "吴桐",
+      "predicted_role_b": "郑蕾",
+      "complete_correct": true
+    },
+    {
+      "baseline": "first_entity_table_name",
+      "source_id": "N06-NEGATED",
+      "mapping": "MAP12",
+      "predicted_occurred": "NO",
+      "predicted_role_a": "吴桐",
+      "predicted_role_b": "郑蕾",
+      "complete_correct": true
+    },
+    {
+      "baseline": "authored_construction_rule",
+      "source_id": "N06-NEGATED",
+      "mapping": "MAP12",
+      "predicted_occurred": "NO",
+      "predicted_role_a": "吴桐",
+      "predicted_role_b": "郑蕾",
+      "complete_correct": true
+    },
+    {
+      "baseline": "first_source_name",
+      "source_id": "N06-NEGATED",
+      "mapping": "MAP21",
+      "predicted_occurred": "NO",
+      "predicted_role_a": "吴桐",
+      "predicted_role_b": "郑蕾",
+      "complete_correct": true
+    },
+    {
+      "baseline": "first_entity_table_name",
+      "source_id": "N06-NEGATED",
+      "mapping": "MAP21",
+      "predicted_occurred": "NO",
+      "predicted_role_a": "郑蕾",
+      "predicted_role_b": "吴桐",
+      "complete_correct": false
+    },
+    {
+      "baseline": "authored_construction_rule",
+      "source_id": "N06-NEGATED",
+      "mapping": "MAP21",
+      "predicted_occurred": "NO",
+      "predicted_role_a": "吴桐",
+      "predicted_role_b": "郑蕾",
+      "complete_correct": true
+    },
+    {
+      "baseline": "first_source_name",
+      "source_id": "N06-UNRESOLVED",
+      "mapping": "MAP21",
+      "predicted_occurred": "UNKNOWN",
+      "predicted_role_a": "吴桐",
+      "predicted_role_b": "郑蕾",
+      "complete_correct": true
+    },
+    {
+      "baseline": "first_entity_table_name",
+      "source_id": "N06-UNRESOLVED",
+      "mapping": "MAP21",
+      "predicted_occurred": "UNKNOWN",
+      "predicted_role_a": "郑蕾",
+      "predicted_role_b": "吴桐",
+      "complete_correct": false
+    },
+    {
+      "baseline": "authored_construction_rule",
+      "source_id": "N06-UNRESOLVED",
+      "mapping": "MAP21",
+      "predicted_occurred": "UNKNOWN",
+      "predicted_role_a": "吴桐",
+      "predicted_role_b": "郑蕾",
+      "complete_correct": true
+    },
+    {
+      "baseline": "first_source_name",
+      "source_id": "N06-UNRESOLVED",
+      "mapping": "MAP12",
+      "predicted_occurred": "UNKNOWN",
+      "predicted_role_a": "吴桐",
+      "predicted_role_b": "郑蕾",
+      "complete_correct": true
+    },
+    {
+      "baseline": "first_entity_table_name",
+      "source_id": "N06-UNRESOLVED",
+      "mapping": "MAP12",
+      "predicted_occurred": "UNKNOWN",
+      "predicted_role_a": "吴桐",
+      "predicted_role_b": "郑蕾",
+      "complete_correct": true
+    },
+    {
+      "baseline": "authored_construction_rule",
+      "source_id": "N06-UNRESOLVED",
+      "mapping": "MAP12",
+      "predicted_occurred": "UNKNOWN",
+      "predicted_role_a": "吴桐",
+      "predicted_role_b": "郑蕾",
+      "complete_correct": true
+    },
+    {
+      "baseline": "first_source_name",
+      "source_id": "N07-PARAPHRASE",
+      "mapping": "MAP21",
+      "predicted_occurred": "YES",
+      "predicted_role_a": "邓宇",
+      "predicted_role_b": "蒋欣",
+      "complete_correct": false
+    },
+    {
+      "baseline": "first_entity_table_name",
+      "source_id": "N07-PARAPHRASE",
+      "mapping": "MAP21",
+      "predicted_occurred": "YES",
+      "predicted_role_a": "邓宇",
+      "predicted_role_b": "蒋欣",
+      "complete_correct": false
+    },
+    {
+      "baseline": "authored_construction_rule",
+      "source_id": "N07-PARAPHRASE",
+      "mapping": "MAP21",
+      "predicted_occurred": "YES",
+      "predicted_role_a": "蒋欣",
+      "predicted_role_b": "邓宇",
+      "complete_correct": true
+    },
+    {
+      "baseline": "first_source_name",
+      "source_id": "N07-PARAPHRASE",
+      "mapping": "MAP12",
+      "predicted_occurred": "YES",
+      "predicted_role_a": "邓宇",
+      "predicted_role_b": "蒋欣",
+      "complete_correct": false
+    },
+    {
+      "baseline": "first_entity_table_name",
+      "source_id": "N07-PARAPHRASE",
+      "mapping": "MAP12",
+      "predicted_occurred": "YES",
+      "predicted_role_a": "蒋欣",
+      "predicted_role_b": "邓宇",
+      "complete_correct": true
+    },
+    {
+      "baseline": "authored_construction_rule",
+      "source_id": "N07-PARAPHRASE",
+      "mapping": "MAP12",
+      "predicted_occurred": "YES",
+      "predicted_role_a": "蒋欣",
+      "predicted_role_b": "邓宇",
+      "complete_correct": true
+    },
+    {
+      "baseline": "first_source_name",
+      "source_id": "N07-ROLE_SWAP",
+      "mapping": "MAP12",
+      "predicted_occurred": "YES",
+      "predicted_role_a": "邓宇",
+      "predicted_role_b": "蒋欣",
+      "complete_correct": true
+    },
+    {
+      "baseline": "first_entity_table_name",
+      "source_id": "N07-ROLE_SWAP",
+      "mapping": "MAP12",
+      "predicted_occurred": "YES",
+      "predicted_role_a": "蒋欣",
+      "predicted_role_b": "邓宇",
+      "complete_correct": false
+    },
+    {
+      "baseline": "authored_construction_rule",
+      "source_id": "N07-ROLE_SWAP",
+      "mapping": "MAP12",
+      "predicted_occurred": "YES",
+      "predicted_role_a": "邓宇",
+      "predicted_role_b": "蒋欣",
+      "complete_correct": true
+    },
+    {
+      "baseline": "first_source_name",
+      "source_id": "N07-ROLE_SWAP",
+      "mapping": "MAP21",
+      "predicted_occurred": "YES",
+      "predicted_role_a": "邓宇",
+      "predicted_role_b": "蒋欣",
+      "complete_correct": true
+    },
+    {
+      "baseline": "first_entity_table_name",
+      "source_id": "N07-ROLE_SWAP",
+      "mapping": "MAP21",
+      "predicted_occurred": "YES",
+      "predicted_role_a": "邓宇",
+      "predicted_role_b": "蒋欣",
+      "complete_correct": true
+    },
+    {
+      "baseline": "authored_construction_rule",
+      "source_id": "N07-ROLE_SWAP",
+      "mapping": "MAP21",
+      "predicted_occurred": "YES",
+      "predicted_role_a": "邓宇",
+      "predicted_role_b": "蒋欣",
+      "complete_correct": true
+    },
+    {
+      "baseline": "first_source_name",
+      "source_id": "N07-NEGATED",
+      "mapping": "MAP12",
+      "predicted_occurred": "NO",
+      "predicted_role_a": "蒋欣",
+      "predicted_role_b": "邓宇",
+      "complete_correct": true
+    },
+    {
+      "baseline": "first_entity_table_name",
+      "source_id": "N07-NEGATED",
+      "mapping": "MAP12",
+      "predicted_occurred": "NO",
+      "predicted_role_a": "蒋欣",
+      "predicted_role_b": "邓宇",
+      "complete_correct": true
+    },
+    {
+      "baseline": "authored_construction_rule",
+      "source_id": "N07-NEGATED",
+      "mapping": "MAP12",
+      "predicted_occurred": "NO",
+      "predicted_role_a": "蒋欣",
+      "predicted_role_b": "邓宇",
+      "complete_correct": true
+    },
+    {
+      "baseline": "first_source_name",
+      "source_id": "N07-NEGATED",
+      "mapping": "MAP21",
+      "predicted_occurred": "NO",
+      "predicted_role_a": "蒋欣",
+      "predicted_role_b": "邓宇",
+      "complete_correct": true
+    },
+    {
+      "baseline": "first_entity_table_name",
+      "source_id": "N07-NEGATED",
+      "mapping": "MAP21",
+      "predicted_occurred": "NO",
+      "predicted_role_a": "邓宇",
+      "predicted_role_b": "蒋欣",
+      "complete_correct": false
+    },
+    {
+      "baseline": "authored_construction_rule",
+      "source_id": "N07-NEGATED",
+      "mapping": "MAP21",
+      "predicted_occurred": "NO",
+      "predicted_role_a": "蒋欣",
+      "predicted_role_b": "邓宇",
+      "complete_correct": true
+    },
+    {
+      "baseline": "first_source_name",
+      "source_id": "N07-UNRESOLVED",
+      "mapping": "MAP21",
+      "predicted_occurred": "UNKNOWN",
+      "predicted_role_a": "蒋欣",
+      "predicted_role_b": "邓宇",
+      "complete_correct": true
+    },
+    {
+      "baseline": "first_entity_table_name",
+      "source_id": "N07-UNRESOLVED",
+      "mapping": "MAP21",
+      "predicted_occurred": "UNKNOWN",
+      "predicted_role_a": "邓宇",
+      "predicted_role_b": "蒋欣",
+      "complete_correct": false
+    },
+    {
+      "baseline": "authored_construction_rule",
+      "source_id": "N07-UNRESOLVED",
+      "mapping": "MAP21",
+      "predicted_occurred": "UNKNOWN",
+      "predicted_role_a": "蒋欣",
+      "predicted_role_b": "邓宇",
+      "complete_correct": true
+    },
+    {
+      "baseline": "first_source_name",
+      "source_id": "N07-UNRESOLVED",
+      "mapping": "MAP12",
+      "predicted_occurred": "UNKNOWN",
+      "predicted_role_a": "蒋欣",
+      "predicted_role_b": "邓宇",
+      "complete_correct": true
+    },
+    {
+      "baseline": "first_entity_table_name",
+      "source_id": "N07-UNRESOLVED",
+      "mapping": "MAP12",
+      "predicted_occurred": "UNKNOWN",
+      "predicted_role_a": "蒋欣",
+      "predicted_role_b": "邓宇",
+      "complete_correct": true
+    },
+    {
+      "baseline": "authored_construction_rule",
+      "source_id": "N07-UNRESOLVED",
+      "mapping": "MAP12",
+      "predicted_occurred": "UNKNOWN",
+      "predicted_role_a": "蒋欣",
+      "predicted_role_b": "邓宇",
+      "complete_correct": true
+    },
+    {
+      "baseline": "first_source_name",
+      "source_id": "N07-BASE",
+      "mapping": "MAP21",
+      "predicted_occurred": "YES",
+      "predicted_role_a": "蒋欣",
+      "predicted_role_b": "邓宇",
+      "complete_correct": true
+    },
+    {
+      "baseline": "first_entity_table_name",
+      "source_id": "N07-BASE",
+      "mapping": "MAP21",
+      "predicted_occurred": "YES",
+      "predicted_role_a": "邓宇",
+      "predicted_role_b": "蒋欣",
+      "complete_correct": false
+    },
+    {
+      "baseline": "authored_construction_rule",
+      "source_id": "N07-BASE",
+      "mapping": "MAP21",
+      "predicted_occurred": "YES",
+      "predicted_role_a": "蒋欣",
+      "predicted_role_b": "邓宇",
+      "complete_correct": true
+    },
+    {
+      "baseline": "first_source_name",
+      "source_id": "N07-BASE",
+      "mapping": "MAP12",
+      "predicted_occurred": "YES",
+      "predicted_role_a": "蒋欣",
+      "predicted_role_b": "邓宇",
+      "complete_correct": true
+    },
+    {
+      "baseline": "first_entity_table_name",
+      "source_id": "N07-BASE",
+      "mapping": "MAP12",
+      "predicted_occurred": "YES",
+      "predicted_role_a": "蒋欣",
+      "predicted_role_b": "邓宇",
+      "complete_correct": true
+    },
+    {
+      "baseline": "authored_construction_rule",
+      "source_id": "N07-BASE",
+      "mapping": "MAP12",
+      "predicted_occurred": "YES",
+      "predicted_role_a": "蒋欣",
+      "predicted_role_b": "邓宇",
+      "complete_correct": true
+    },
+    {
+      "baseline": "first_source_name",
+      "source_id": "N08-ROLE_SWAP",
+      "mapping": "MAP12",
+      "predicted_occurred": "YES",
+      "predicted_role_a": "罗晴",
+      "predicted_role_b": "潘越",
+      "complete_correct": true
+    },
+    {
+      "baseline": "first_entity_table_name",
+      "source_id": "N08-ROLE_SWAP",
+      "mapping": "MAP12",
+      "predicted_occurred": "YES",
+      "predicted_role_a": "潘越",
+      "predicted_role_b": "罗晴",
+      "complete_correct": false
+    },
+    {
+      "baseline": "authored_construction_rule",
+      "source_id": "N08-ROLE_SWAP",
+      "mapping": "MAP12",
+      "predicted_occurred": "YES",
+      "predicted_role_a": "罗晴",
+      "predicted_role_b": "潘越",
+      "complete_correct": true
+    },
+    {
+      "baseline": "first_source_name",
+      "source_id": "N08-ROLE_SWAP",
+      "mapping": "MAP21",
+      "predicted_occurred": "YES",
+      "predicted_role_a": "罗晴",
+      "predicted_role_b": "潘越",
+      "complete_correct": true
+    },
+    {
+      "baseline": "first_entity_table_name",
+      "source_id": "N08-ROLE_SWAP",
+      "mapping": "MAP21",
+      "predicted_occurred": "YES",
+      "predicted_role_a": "罗晴",
+      "predicted_role_b": "潘越",
+      "complete_correct": true
+    },
+    {
+      "baseline": "authored_construction_rule",
+      "source_id": "N08-ROLE_SWAP",
+      "mapping": "MAP21",
+      "predicted_occurred": "YES",
+      "predicted_role_a": "罗晴",
+      "predicted_role_b": "潘越",
+      "complete_correct": true
+    },
+    {
+      "baseline": "first_source_name",
+      "source_id": "N08-NEGATED",
+      "mapping": "MAP12",
+      "predicted_occurred": "NO",
+      "predicted_role_a": "潘越",
+      "predicted_role_b": "罗晴",
+      "complete_correct": true
+    },
+    {
+      "baseline": "first_entity_table_name",
+      "source_id": "N08-NEGATED",
+      "mapping": "MAP12",
+      "predicted_occurred": "NO",
+      "predicted_role_a": "潘越",
+      "predicted_role_b": "罗晴",
+      "complete_correct": true
+    },
+    {
+      "baseline": "authored_construction_rule",
+      "source_id": "N08-NEGATED",
+      "mapping": "MAP12",
+      "predicted_occurred": "NO",
+      "predicted_role_a": "潘越",
+      "predicted_role_b": "罗晴",
+      "complete_correct": true
+    },
+    {
+      "baseline": "first_source_name",
+      "source_id": "N08-NEGATED",
+      "mapping": "MAP21",
+      "predicted_occurred": "NO",
+      "predicted_role_a": "潘越",
+      "predicted_role_b": "罗晴",
+      "complete_correct": true
+    },
+    {
+      "baseline": "first_entity_table_name",
+      "source_id": "N08-NEGATED",
+      "mapping": "MAP21",
+      "predicted_occurred": "NO",
+      "predicted_role_a": "罗晴",
+      "predicted_role_b": "潘越",
+      "complete_correct": false
+    },
+    {
+      "baseline": "authored_construction_rule",
+      "source_id": "N08-NEGATED",
+      "mapping": "MAP21",
+      "predicted_occurred": "NO",
+      "predicted_role_a": "潘越",
+      "predicted_role_b": "罗晴",
+      "complete_correct": true
+    },
+    {
+      "baseline": "first_source_name",
+      "source_id": "N08-UNRESOLVED",
+      "mapping": "MAP21",
+      "predicted_occurred": "UNKNOWN",
+      "predicted_role_a": "潘越",
+      "predicted_role_b": "罗晴",
+      "complete_correct": true
+    },
+    {
+      "baseline": "first_entity_table_name",
+      "source_id": "N08-UNRESOLVED",
+      "mapping": "MAP21",
+      "predicted_occurred": "UNKNOWN",
+      "predicted_role_a": "罗晴",
+      "predicted_role_b": "潘越",
+      "complete_correct": false
+    },
+    {
+      "baseline": "authored_construction_rule",
+      "source_id": "N08-UNRESOLVED",
+      "mapping": "MAP21",
+      "predicted_occurred": "UNKNOWN",
+      "predicted_role_a": "潘越",
+      "predicted_role_b": "罗晴",
+      "complete_correct": true
+    },
+    {
+      "baseline": "first_source_name",
+      "source_id": "N08-UNRESOLVED",
+      "mapping": "MAP12",
+      "predicted_occurred": "UNKNOWN",
+      "predicted_role_a": "潘越",
+      "predicted_role_b": "罗晴",
+      "complete_correct": true
+    },
+    {
+      "baseline": "first_entity_table_name",
+      "source_id": "N08-UNRESOLVED",
+      "mapping": "MAP12",
+      "predicted_occurred": "UNKNOWN",
+      "predicted_role_a": "潘越",
+      "predicted_role_b": "罗晴",
+      "complete_correct": true
+    },
+    {
+      "baseline": "authored_construction_rule",
+      "source_id": "N08-UNRESOLVED",
+      "mapping": "MAP12",
+      "predicted_occurred": "UNKNOWN",
+      "predicted_role_a": "潘越",
+      "predicted_role_b": "罗晴",
+      "complete_correct": true
+    },
+    {
+      "baseline": "first_source_name",
+      "source_id": "N08-BASE",
+      "mapping": "MAP21",
+      "predicted_occurred": "YES",
+      "predicted_role_a": "潘越",
+      "predicted_role_b": "罗晴",
+      "complete_correct": true
+    },
+    {
+      "baseline": "first_entity_table_name",
+      "source_id": "N08-BASE",
+      "mapping": "MAP21",
+      "predicted_occurred": "YES",
+      "predicted_role_a": "罗晴",
+      "predicted_role_b": "潘越",
+      "complete_correct": false
+    },
+    {
+      "baseline": "authored_construction_rule",
+      "source_id": "N08-BASE",
+      "mapping": "MAP21",
+      "predicted_occurred": "YES",
+      "predicted_role_a": "潘越",
+      "predicted_role_b": "罗晴",
+      "complete_correct": true
+    },
+    {
+      "baseline": "first_source_name",
+      "source_id": "N08-BASE",
+      "mapping": "MAP12",
+      "predicted_occurred": "YES",
+      "predicted_role_a": "潘越",
+      "predicted_role_b": "罗晴",
+      "complete_correct": true
+    },
+    {
+      "baseline": "first_entity_table_name",
+      "source_id": "N08-BASE",
+      "mapping": "MAP12",
+      "predicted_occurred": "YES",
+      "predicted_role_a": "潘越",
+      "predicted_role_b": "罗晴",
+      "complete_correct": true
+    },
+    {
+      "baseline": "authored_construction_rule",
+      "source_id": "N08-BASE",
+      "mapping": "MAP12",
+      "predicted_occurred": "YES",
+      "predicted_role_a": "潘越",
+      "predicted_role_b": "罗晴",
+      "complete_correct": true
+    },
+    {
+      "baseline": "first_source_name",
+      "source_id": "N08-PARAPHRASE",
+      "mapping": "MAP12",
+      "predicted_occurred": "YES",
+      "predicted_role_a": "罗晴",
+      "predicted_role_b": "潘越",
+      "complete_correct": false
+    },
+    {
+      "baseline": "first_entity_table_name",
+      "source_id": "N08-PARAPHRASE",
+      "mapping": "MAP12",
+      "predicted_occurred": "YES",
+      "predicted_role_a": "潘越",
+      "predicted_role_b": "罗晴",
+      "complete_correct": true
+    },
+    {
+      "baseline": "authored_construction_rule",
+      "source_id": "N08-PARAPHRASE",
+      "mapping": "MAP12",
+      "predicted_occurred": "YES",
+      "predicted_role_a": "潘越",
+      "predicted_role_b": "罗晴",
+      "complete_correct": true
+    },
+    {
+      "baseline": "first_source_name",
+      "source_id": "N08-PARAPHRASE",
+      "mapping": "MAP21",
+      "predicted_occurred": "YES",
+      "predicted_role_a": "罗晴",
+      "predicted_role_b": "潘越",
+      "complete_correct": false
+    },
+    {
+      "baseline": "first_entity_table_name",
+      "source_id": "N08-PARAPHRASE",
+      "mapping": "MAP21",
+      "predicted_occurred": "YES",
+      "predicted_role_a": "罗晴",
+      "predicted_role_b": "潘越",
+      "complete_correct": false
+    },
+    {
+      "baseline": "authored_construction_rule",
+      "source_id": "N08-PARAPHRASE",
+      "mapping": "MAP21",
+      "predicted_occurred": "YES",
+      "predicted_role_a": "潘越",
+      "predicted_role_b": "罗晴",
+      "complete_correct": true
+    }
+  ]
+}

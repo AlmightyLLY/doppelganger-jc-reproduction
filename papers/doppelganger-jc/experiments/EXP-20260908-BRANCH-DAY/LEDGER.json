@@ -1,0 +1,92 @@
+{
+  "scope": "Branch B09-B15; exact reused outputs and rule-derived positions excluded from generation counts",
+  "batches": [
+    {
+      "batch": "B09",
+      "new_outputs": 160,
+      "new_forwards": 2920,
+      "paid_usd": 0,
+      "all_eos": true,
+      "independent_human_gold": 0,
+      "source_package": "entity_binding_contrast_pilot_v1",
+      "source_raw_sha256": "ba46596064f338be44c753fe1b56d05da1a3c071492061232b10e218f36a68a8",
+      "scientific_status": "EXPLORATORY_NOT_INDEPENDENT_CONFIRMATION"
+    },
+    {
+      "batch": "B10",
+      "new_outputs": 200,
+      "new_forwards": 3648,
+      "paid_usd": 0,
+      "all_eos": true,
+      "independent_human_gold": 0,
+      "source_package": "context_isolation_bridge_v1",
+      "source_raw_sha256": "1092f99b2b68945309dfe0b50aa04eb24810304a74d5eec78e1b2a3125e91b38",
+      "scientific_status": "EXPLORATORY_NOT_INDEPENDENT_CONFIRMATION"
+    },
+    {
+      "batch": "B11",
+      "new_outputs": 288,
+      "new_forwards": 5654,
+      "paid_usd": 0,
+      "all_eos": true,
+      "independent_human_gold": 0,
+      "source_package": "order_inventory_voice_factorial_v1",
+      "source_raw_sha256": "377e38b53a4cffdd83bd4a22e95e19e66da1e5294b9b097282cd40a5e662919c",
+      "scientific_status": "EXPLORATORY_NOT_INDEPENDENT_CONFIRMATION"
+    },
+    {
+      "batch": "B12",
+      "new_outputs": 480,
+      "new_forwards": 9170,
+      "paid_usd": 0,
+      "all_eos": true,
+      "independent_human_gold": 0,
+      "source_package": "japanese_original_bridge_v2",
+      "source_raw_sha256": "d6b607b00bcd9bdc186cccaf56354a32f5efd314160510f51b255fc277be223c",
+      "scientific_status": "EXPLORATORY_NOT_INDEPENDENT_CONFIRMATION"
+    },
+    {
+      "batch": "B13",
+      "new_outputs": 360,
+      "new_forwards": 6480,
+      "paid_usd": 0,
+      "all_eos": true,
+      "independent_human_gold": 0,
+      "source_package": "single_identity_inventory_v1",
+      "source_raw_sha256": "89d7188a1c1e5001a6aadcbe789d145ed442efe619e04137f0caee4d436892ae",
+      "scientific_status": "EXPLORATORY_NOT_INDEPENDENT_CONFIRMATION"
+    },
+    {
+      "batch": "B14",
+      "new_outputs": 48,
+      "new_forwards": 936,
+      "paid_usd": 0,
+      "all_eos": true,
+      "independent_human_gold": 0,
+      "source_package": "reversible_name_normalization_v1",
+      "source_raw_sha256": "0c52512a4c9da71f35a9a69d52a3c8ed9e46c1294b6d2924a1e81b5bacf7e1c2",
+      "scientific_status": "EXPLORATORY_NOT_INDEPENDENT_CONFIRMATION"
+    },
+    {
+      "batch": "B15",
+      "new_outputs": 288,
+      "new_forwards": 5832,
+      "paid_usd": 0,
+      "all_eos": true,
+      "independent_human_gold": 0,
+      "source_package": "new_event_normalization_transfer_v1",
+      "source_raw_sha256": "a58a01e105c579b94c42f448e09ebc42091c16aacd5c9f827afe8a0d00f53331",
+      "scientific_status": "EXPLORATORY_NOT_INDEPENDENT_CONFIRMATION"
+    }
+  ],
+  "pending_batches": [],
+  "new_outputs": 1824,
+  "new_forwards": 34640,
+  "paid_usd": 0,
+  "technical_deployment_smoke_excluded": {
+    "new_outputs": 1,
+    "new_forwards": 2
+  },
+  "calls_are_not_independent_sample_size": true,
+  "publication_ready": true
+}

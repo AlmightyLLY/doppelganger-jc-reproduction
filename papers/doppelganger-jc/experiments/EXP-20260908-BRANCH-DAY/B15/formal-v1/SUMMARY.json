@@ -1,0 +1,872 @@
+{
+  "experiment_id": "EXP-20260908-B15",
+  "new_calls": 288,
+  "new_forwards": 5832,
+  "old_cache": 0,
+  "baseline_positions": 192,
+  "mapped_positions": 384,
+  "method_positions": 192,
+  "unique_normalized_calls": 96,
+  "related_positions_not_independent_n": 768,
+  "grids": [
+    {
+      "model": "qwen",
+      "kind": "BASELINE",
+      "source_form": "JA_ACTIVE",
+      "n": 32,
+      "content": {
+        "record": {
+          "C": 32
+        },
+        "occurrence": {
+          "C": 32
+        },
+        "role_a": {
+          "C": 32
+        },
+        "role_b": {
+          "C": 32
+        }
+      },
+      "strict_record": {
+        "C": 32
+      },
+      "floor": {
+        "C": 32,
+        "positive_C": 16,
+        "negative_C": 16,
+        "pass_floor": true
+      },
+      "format": {
+        "PASS": 32
+      },
+      "format_identity": "ACTUAL_BASELINE_OUTPUT"
+    },
+    {
+      "model": "qwen",
+      "kind": "BASELINE",
+      "source_form": "JA_PASSIVE",
+      "n": 32,
+      "content": {
+        "record": {
+          "C": 32
+        },
+        "occurrence": {
+          "C": 32
+        },
+        "role_a": {
+          "C": 32
+        },
+        "role_b": {
+          "C": 32
+        }
+      },
+      "strict_record": {
+        "C": 32
+      },
+      "floor": {
+        "C": 32,
+        "positive_C": 16,
+        "negative_C": 16,
+        "pass_floor": true
+      },
+      "format": {
+        "PASS": 32
+      },
+      "format_identity": "ACTUAL_BASELINE_OUTPUT"
+    },
+    {
+      "model": "qwen",
+      "kind": "BASELINE",
+      "source_form": "ZH_ACTIVE",
+      "n": 32,
+      "content": {
+        "record": {
+          "C": 32
+        },
+        "occurrence": {
+          "C": 32
+        },
+        "role_a": {
+          "C": 32
+        },
+        "role_b": {
+          "C": 32
+        }
+      },
+      "strict_record": {
+        "C": 32
+      },
+      "floor": {
+        "C": 32,
+        "positive_C": 16,
+        "negative_C": 16,
+        "pass_floor": true
+      },
+      "format": {
+        "PASS": 32
+      },
+      "format_identity": "ACTUAL_BASELINE_OUTPUT"
+    },
+    {
+      "model": "qwen",
+      "kind": "FIRST_YAMADA",
+      "source_form": "JA_ACTIVE",
+      "n": 32,
+      "content": {
+        "record": {
+          "C": 32
+        },
+        "occurrence": {
+          "C": 32
+        },
+        "role_a": {
+          "C": 32
+        },
+        "role_b": {
+          "C": 32
+        }
+      },
+      "strict_record": {
+        "C": 32
+      },
+      "floor": {
+        "C": 32,
+        "positive_C": 16,
+        "negative_C": 16,
+        "pass_floor": true
+      },
+      "format": {
+        "PASS": 32
+      },
+      "format_identity": "DERIVED_OUTPUT_NOT_RAW_MODEL_FORMAT"
+    },
+    {
+      "model": "qwen",
+      "kind": "FIRST_YAMADA",
+      "source_form": "JA_PASSIVE",
+      "n": 32,
+      "content": {
+        "record": {
+          "C": 32
+        },
+        "occurrence": {
+          "C": 32
+        },
+        "role_a": {
+          "C": 32
+        },
+        "role_b": {
+          "C": 32
+        }
+      },
+      "strict_record": {
+        "C": 32
+      },
+      "floor": {
+        "C": 32,
+        "positive_C": 16,
+        "negative_C": 16,
+        "pass_floor": true
+      },
+      "format": {
+        "PASS": 32
+      },
+      "format_identity": "DERIVED_OUTPUT_NOT_RAW_MODEL_FORMAT"
+    },
+    {
+      "model": "qwen",
+      "kind": "FIRST_YAMADA",
+      "source_form": "ZH_ACTIVE",
+      "n": 32,
+      "content": {
+        "record": {
+          "C": 32
+        },
+        "occurrence": {
+          "C": 32
+        },
+        "role_a": {
+          "C": 32
+        },
+        "role_b": {
+          "C": 32
+        }
+      },
+      "strict_record": {
+        "C": 32
+      },
+      "floor": {
+        "C": 32,
+        "positive_C": 16,
+        "negative_C": 16,
+        "pass_floor": true
+      },
+      "format": {
+        "PASS": 32
+      },
+      "format_identity": "DERIVED_OUTPUT_NOT_RAW_MODEL_FORMAT"
+    },
+    {
+      "model": "qwen",
+      "kind": "FIRST_SUZUKI",
+      "source_form": "JA_ACTIVE",
+      "n": 32,
+      "content": {
+        "record": {
+          "C": 32
+        },
+        "occurrence": {
+          "C": 32
+        },
+        "role_a": {
+          "C": 32
+        },
+        "role_b": {
+          "C": 32
+        }
+      },
+      "strict_record": {
+        "C": 32
+      },
+      "floor": {
+        "C": 32,
+        "positive_C": 16,
+        "negative_C": 16,
+        "pass_floor": true
+      },
+      "format": {
+        "PASS": 32
+      },
+      "format_identity": "DERIVED_OUTPUT_NOT_RAW_MODEL_FORMAT"
+    },
+    {
+      "model": "qwen",
+      "kind": "FIRST_SUZUKI",
+      "source_form": "JA_PASSIVE",
+      "n": 32,
+      "content": {
+        "record": {
+          "C": 32
+        },
+        "occurrence": {
+          "C": 32
+        },
+        "role_a": {
+          "C": 32
+        },
+        "role_b": {
+          "C": 32
+        }
+      },
+      "strict_record": {
+        "C": 32
+      },
+      "floor": {
+        "C": 32,
+        "positive_C": 16,
+        "negative_C": 16,
+        "pass_floor": true
+      },
+      "format": {
+        "PASS": 32
+      },
+      "format_identity": "DERIVED_OUTPUT_NOT_RAW_MODEL_FORMAT"
+    },
+    {
+      "model": "qwen",
+      "kind": "FIRST_SUZUKI",
+      "source_form": "ZH_ACTIVE",
+      "n": 32,
+      "content": {
+        "record": {
+          "C": 32
+        },
+        "occurrence": {
+          "C": 32
+        },
+        "role_a": {
+          "C": 32
+        },
+        "role_b": {
+          "C": 32
+        }
+      },
+      "strict_record": {
+        "C": 32
+      },
+      "floor": {
+        "C": 32,
+        "positive_C": 16,
+        "negative_C": 16,
+        "pass_floor": true
+      },
+      "format": {
+        "PASS": 32
+      },
+      "format_identity": "DERIVED_OUTPUT_NOT_RAW_MODEL_FORMAT"
+    },
+    {
+      "model": "qwen",
+      "kind": "METHOD",
+      "source_form": "JA_ACTIVE",
+      "n": 32,
+      "content": {
+        "record": {
+          "C": 32
+        },
+        "occurrence": {
+          "C": 32
+        },
+        "role_a": {
+          "C": 32
+        },
+        "role_b": {
+          "C": 32
+        }
+      },
+      "strict_record": {
+        "C": 32
+      },
+      "floor": {
+        "C": 32,
+        "positive_C": 16,
+        "negative_C": 16,
+        "pass_floor": true
+      },
+      "format": {
+        "PASS": 32
+      },
+      "format_identity": "DERIVED_OUTPUT_NOT_RAW_MODEL_FORMAT"
+    },
+    {
+      "model": "qwen",
+      "kind": "METHOD",
+      "source_form": "JA_PASSIVE",
+      "n": 32,
+      "content": {
+        "record": {
+          "C": 32
+        },
+        "occurrence": {
+          "C": 32
+        },
+        "role_a": {
+          "C": 32
+        },
+        "role_b": {
+          "C": 32
+        }
+      },
+      "strict_record": {
+        "C": 32
+      },
+      "floor": {
+        "C": 32,
+        "positive_C": 16,
+        "negative_C": 16,
+        "pass_floor": true
+      },
+      "format": {
+        "PASS": 32
+      },
+      "format_identity": "DERIVED_OUTPUT_NOT_RAW_MODEL_FORMAT"
+    },
+    {
+      "model": "qwen",
+      "kind": "METHOD",
+      "source_form": "ZH_ACTIVE",
+      "n": 32,
+      "content": {
+        "record": {
+          "C": 32
+        },
+        "occurrence": {
+          "C": 32
+        },
+        "role_a": {
+          "C": 32
+        },
+        "role_b": {
+          "C": 32
+        }
+      },
+      "strict_record": {
+        "C": 32
+      },
+      "floor": {
+        "C": 32,
+        "positive_C": 16,
+        "negative_C": 16,
+        "pass_floor": true
+      },
+      "format": {
+        "PASS": 32
+      },
+      "format_identity": "DERIVED_OUTPUT_NOT_RAW_MODEL_FORMAT"
+    },
+    {
+      "model": "llama",
+      "kind": "BASELINE",
+      "source_form": "JA_ACTIVE",
+      "n": 32,
+      "content": {
+        "record": {
+          "C": 32
+        },
+        "occurrence": {
+          "C": 32
+        },
+        "role_a": {
+          "C": 32
+        },
+        "role_b": {
+          "C": 32
+        }
+      },
+      "strict_record": {
+        "C": 32
+      },
+      "floor": {
+        "C": 32,
+        "positive_C": 16,
+        "negative_C": 16,
+        "pass_floor": true
+      },
+      "format": {
+        "PASS": 32
+      },
+      "format_identity": "ACTUAL_BASELINE_OUTPUT"
+    },
+    {
+      "model": "llama",
+      "kind": "BASELINE",
+      "source_form": "JA_PASSIVE",
+      "n": 32,
+      "content": {
+        "record": {
+          "C": 32
+        },
+        "occurrence": {
+          "C": 32
+        },
+        "role_a": {
+          "C": 32
+        },
+        "role_b": {
+          "C": 32
+        }
+      },
+      "strict_record": {
+        "C": 32
+      },
+      "floor": {
+        "C": 32,
+        "positive_C": 16,
+        "negative_C": 16,
+        "pass_floor": true
+      },
+      "format": {
+        "PASS": 32
+      },
+      "format_identity": "ACTUAL_BASELINE_OUTPUT"
+    },
+    {
+      "model": "llama",
+      "kind": "BASELINE",
+      "source_form": "ZH_ACTIVE",
+      "n": 32,
+      "content": {
+        "record": {
+          "C": 32
+        },
+        "occurrence": {
+          "C": 32
+        },
+        "role_a": {
+          "C": 32
+        },
+        "role_b": {
+          "C": 32
+        }
+      },
+      "strict_record": {
+        "C": 32
+      },
+      "floor": {
+        "C": 32,
+        "positive_C": 16,
+        "negative_C": 16,
+        "pass_floor": true
+      },
+      "format": {
+        "PASS": 32
+      },
+      "format_identity": "ACTUAL_BASELINE_OUTPUT"
+    },
+    {
+      "model": "llama",
+      "kind": "FIRST_YAMADA",
+      "source_form": "JA_ACTIVE",
+      "n": 32,
+      "content": {
+        "record": {
+          "C": 32
+        },
+        "occurrence": {
+          "C": 32
+        },
+        "role_a": {
+          "C": 32
+        },
+        "role_b": {
+          "C": 32
+        }
+      },
+      "strict_record": {
+        "C": 32
+      },
+      "floor": {
+        "C": 32,
+        "positive_C": 16,
+        "negative_C": 16,
+        "pass_floor": true
+      },
+      "format": {
+        "PASS": 32
+      },
+      "format_identity": "DERIVED_OUTPUT_NOT_RAW_MODEL_FORMAT"
+    },
+    {
+      "model": "llama",
+      "kind": "FIRST_YAMADA",
+      "source_form": "JA_PASSIVE",
+      "n": 32,
+      "content": {
+        "record": {
+          "C": 32
+        },
+        "occurrence": {
+          "C": 32
+        },
+        "role_a": {
+          "C": 32
+        },
+        "role_b": {
+          "C": 32
+        }
+      },
+      "strict_record": {
+        "C": 32
+      },
+      "floor": {
+        "C": 32,
+        "positive_C": 16,
+        "negative_C": 16,
+        "pass_floor": true
+      },
+      "format": {
+        "PASS": 32
+      },
+      "format_identity": "DERIVED_OUTPUT_NOT_RAW_MODEL_FORMAT"
+    },
+    {
+      "model": "llama",
+      "kind": "FIRST_YAMADA",
+      "source_form": "ZH_ACTIVE",
+      "n": 32,
+      "content": {
+        "record": {
+          "C": 32
+        },
+        "occurrence": {
+          "C": 32
+        },
+        "role_a": {
+          "C": 32
+        },
+        "role_b": {
+          "C": 32
+        }
+      },
+      "strict_record": {
+        "C": 32
+      },
+      "floor": {
+        "C": 32,
+        "positive_C": 16,
+        "negative_C": 16,
+        "pass_floor": true
+      },
+      "format": {
+        "PASS": 32
+      },
+      "format_identity": "DERIVED_OUTPUT_NOT_RAW_MODEL_FORMAT"
+    },
+    {
+      "model": "llama",
+      "kind": "FIRST_SUZUKI",
+      "source_form": "JA_ACTIVE",
+      "n": 32,
+      "content": {
+        "record": {
+          "C": 32
+        },
+        "occurrence": {
+          "C": 32
+        },
+        "role_a": {
+          "C": 32
+        },
+        "role_b": {
+          "C": 32
+        }
+      },
+      "strict_record": {
+        "C": 32
+      },
+      "floor": {
+        "C": 32,
+        "positive_C": 16,
+        "negative_C": 16,
+        "pass_floor": true
+      },
+      "format": {
+        "PASS": 32
+      },
+      "format_identity": "DERIVED_OUTPUT_NOT_RAW_MODEL_FORMAT"
+    },
+    {
+      "model": "llama",
+      "kind": "FIRST_SUZUKI",
+      "source_form": "JA_PASSIVE",
+      "n": 32,
+      "content": {
+        "record": {
+          "C": 28,
+          "W": 4
+        },
+        "occurrence": {
+          "C": 32
+        },
+        "role_a": {
+          "C": 28,
+          "W": 4
+        },
+        "role_b": {
+          "C": 28,
+          "W": 4
+        }
+      },
+      "strict_record": {
+        "C": 28,
+        "W": 4
+      },
+      "floor": {
+        "C": 28,
+        "positive_C": 12,
+        "negative_C": 16,
+        "pass_floor": false
+      },
+      "format": {
+        "PASS": 32
+      },
+      "format_identity": "DERIVED_OUTPUT_NOT_RAW_MODEL_FORMAT"
+    },
+    {
+      "model": "llama",
+      "kind": "FIRST_SUZUKI",
+      "source_form": "ZH_ACTIVE",
+      "n": 32,
+      "content": {
+        "record": {
+          "C": 32
+        },
+        "occurrence": {
+          "C": 32
+        },
+        "role_a": {
+          "C": 32
+        },
+        "role_b": {
+          "C": 32
+        }
+      },
+      "strict_record": {
+        "C": 32
+      },
+      "floor": {
+        "C": 32,
+        "positive_C": 16,
+        "negative_C": 16,
+        "pass_floor": true
+      },
+      "format": {
+        "PASS": 32
+      },
+      "format_identity": "DERIVED_OUTPUT_NOT_RAW_MODEL_FORMAT"
+    },
+    {
+      "model": "llama",
+      "kind": "METHOD",
+      "source_form": "JA_ACTIVE",
+      "n": 32,
+      "content": {
+        "record": {
+          "C": 32
+        },
+        "occurrence": {
+          "C": 32
+        },
+        "role_a": {
+          "C": 32
+        },
+        "role_b": {
+          "C": 32
+        }
+      },
+      "strict_record": {
+        "C": 32
+      },
+      "floor": {
+        "C": 32,
+        "positive_C": 16,
+        "negative_C": 16,
+        "pass_floor": true
+      },
+      "format": {
+        "PASS": 32
+      },
+      "format_identity": "DERIVED_OUTPUT_NOT_RAW_MODEL_FORMAT"
+    },
+    {
+      "model": "llama",
+      "kind": "METHOD",
+      "source_form": "JA_PASSIVE",
+      "n": 32,
+      "content": {
+        "record": {
+          "C": 32
+        },
+        "occurrence": {
+          "C": 32
+        },
+        "role_a": {
+          "C": 32
+        },
+        "role_b": {
+          "C": 32
+        }
+      },
+      "strict_record": {
+        "C": 32
+      },
+      "floor": {
+        "C": 32,
+        "positive_C": 16,
+        "negative_C": 16,
+        "pass_floor": true
+      },
+      "format": {
+        "PASS": 32
+      },
+      "format_identity": "DERIVED_OUTPUT_NOT_RAW_MODEL_FORMAT"
+    },
+    {
+      "model": "llama",
+      "kind": "METHOD",
+      "source_form": "ZH_ACTIVE",
+      "n": 32,
+      "content": {
+        "record": {
+          "C": 32
+        },
+        "occurrence": {
+          "C": 32
+        },
+        "role_a": {
+          "C": 32
+        },
+        "role_b": {
+          "C": 32
+        }
+      },
+      "strict_record": {
+        "C": 32
+      },
+      "floor": {
+        "C": 32,
+        "positive_C": 16,
+        "negative_C": 16,
+        "pass_floor": true
+      },
+      "format": {
+        "PASS": 32
+      },
+      "format_identity": "DERIVED_OUTPUT_NOT_RAW_MODEL_FORMAT"
+    }
+  ],
+  "signals": [
+    {
+      "model": "qwen",
+      "rescues": 0,
+      "rescue_domains": [],
+      "rescue_pair_ids": [],
+      "new_component_harm_pair_ids": [],
+      "consensus_n": 96,
+      "consensus_denominator": 96,
+      "consensus_coverage": 1.0,
+      "fallback_n": 0,
+      "all_method_floors_pass": true,
+      "pass_signal": false,
+      "independent_confirmation": false
+    },
+    {
+      "model": "llama",
+      "rescues": 0,
+      "rescue_domains": [],
+      "rescue_pair_ids": [],
+      "new_component_harm_pair_ids": [],
+      "consensus_n": 92,
+      "consensus_denominator": 96,
+      "consensus_coverage": 0.9583333333333334,
+      "fallback_n": 4,
+      "all_method_floors_pass": true,
+      "pass_signal": false,
+      "independent_confirmation": false
+    }
+  ],
+  "shared_signal": false,
+  "fixed_mapping_average_and_worst": [
+    {
+      "model": "qwen",
+      "first_yamada_C": 96,
+      "first_suzuki_C": 96,
+      "each_n": 96,
+      "mean_C_across_fixed_maps": 96.0,
+      "worst_fixed_map_C": 96,
+      "method_worst_source_form_C": 32,
+      "source_form_denominator": 32
+    },
+    {
+      "model": "llama",
+      "first_yamada_C": 96,
+      "first_suzuki_C": 92,
+      "each_n": 96,
+      "mean_C_across_fixed_maps": 94.0,
+      "worst_fixed_map_C": 92,
+      "method_worst_source_form_C": 32,
+      "source_form_denominator": 32
+    }
+  ],
+  "all_raw_reviewed": true,
+  "automatic_B16": false,
+  "paid_usd": 0,
+  "independent_human_gold": 0,
+  "actual_normalized_raw_format": {
+    "PASS": 96
+  },
+  "actual_normalized_raw_name_compliant": 96,
+  "at": "2026-09-08T09:44:31.784387+00:00",
+  "raw_sha256": "a58a01e105c579b94c42f448e09ebc42091c16aacd5c9f827afe8a0d00f53331"
+}

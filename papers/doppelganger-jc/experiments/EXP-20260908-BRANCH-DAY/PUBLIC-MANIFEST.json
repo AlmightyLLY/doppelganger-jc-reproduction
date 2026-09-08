@@ -1,0 +1,2889 @@
+{
+  "scope": "Scientific evidence export only; all 7 batches complete; private native review and execution archives stay local",
+  "new_scientific_outputs": 1824,
+  "new_forwards": 34640,
+  "paid_usd": 0,
+  "independent_human_gold": 0,
+  "human_review_complete": false,
+  "all_28_native_artifacts_locally_archived": true,
+  "all_post_artifacts_presented_in_coordinator_chat": true,
+  "raw_byte_identity": "All seven NEW-RAW-RESPONSES.json files preserve source bytes",
+  "omissions": "Every filtered source field is listed per file; original raw strings, prompts, token records and frozen scores are preserved",
+  "cpu_normalization_reproduction": [
+    {
+      "batch": "B14",
+      "public_export_cpu_reproduction": true,
+      "formal_files_exact": 9,
+      "comparison": "JSON serialized objects; SUMMARY run timestamp/raw hash metadata checked separately",
+      "new_forwards": 0
+    },
+    {
+      "batch": "B15",
+      "public_export_cpu_reproduction": true,
+      "formal_files_exact": 9,
+      "comparison": "JSON serialized objects; SUMMARY timestamp/raw hash metadata checked separately",
+      "new_forwards": 0
+    }
+  ],
+  "files_excluding_this_manifest": [
+    {
+      "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B09/CALL-PLAN.json",
+      "sha256": "6bebb42b9a043a3db44cf2975382fa41bb32f92f4a0d46c173327310baf0b052",
+      "bytes": 279292,
+      "source_provenance": {
+        "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B09/CALL-PLAN.json",
+        "sha256": "6bebb42b9a043a3db44cf2975382fa41bb32f92f4a0d46c173327310baf0b052",
+        "bytes": 279292,
+        "source": "research_notes/2026-09-08/entity_binding_contrast_pilot_v1/CALL-PLAN.json",
+        "source_sha256": "6bebb42b9a043a3db44cf2975382fa41bb32f92f4a0d46c173327310baf0b052",
+        "byte_identical": false,
+        "omissions": []
+      }
+    },
+    {
+      "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B09/COORDINATOR-ANALYSIS.json",
+      "sha256": "9abfff13150ad8d2de3306fc94a19ccdaa02d9b75abbe634a9738be5985a04fd",
+      "bytes": 35174,
+      "source_provenance": {
+        "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B09/COORDINATOR-ANALYSIS.json",
+        "sha256": "9abfff13150ad8d2de3306fc94a19ccdaa02d9b75abbe634a9738be5985a04fd",
+        "bytes": 35174,
+        "source": "research_notes/2026-09-08/entity_binding_contrast_pilot_v1/analysis-v1/COORDINATOR-ANALYSIS.json",
+        "source_sha256": "9abfff13150ad8d2de3306fc94a19ccdaa02d9b75abbe634a9738be5985a04fd",
+        "byte_identical": false,
+        "omissions": []
+      }
+    },
+    {
+      "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B09/COORDINATOR-EVENT-SCORES.AI.json",
+      "sha256": "be1d980db1c8ef3cf93ef7b3f1ffc222e7c3caaa3db4883f18ca36f635851f6f",
+      "bytes": 304891,
+      "source_provenance": {
+        "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B09/COORDINATOR-EVENT-SCORES.AI.json",
+        "sha256": "be1d980db1c8ef3cf93ef7b3f1ffc222e7c3caaa3db4883f18ca36f635851f6f",
+        "bytes": 304891,
+        "source": "research_notes/2026-09-08/entity_binding_contrast_pilot_v1/analysis-v1/COORDINATOR-EVENT-SCORES.AI.json",
+        "source_sha256": "be1d980db1c8ef3cf93ef7b3f1ffc222e7c3caaa3db4883f18ca36f635851f6f",
+        "byte_identical": false,
+        "omissions": []
+      }
+    },
+    {
+      "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B09/COORDINATOR-NONCANONICAL-ENTITIES.json",
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "bytes": 3,
+      "source_provenance": {
+        "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B09/COORDINATOR-NONCANONICAL-ENTITIES.json",
+        "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+        "bytes": 3,
+        "source": "research_notes/2026-09-08/entity_binding_contrast_pilot_v1/analysis-v1/COORDINATOR-NONCANONICAL-ENTITIES.json",
+        "source_sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+        "byte_identical": false,
+        "omissions": []
+      }
+    },
+    {
+      "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B09/COORDINATOR-PAIRED-TRANSITIONS.json",
+      "sha256": "d35d1b015c42f92026f2a81a91fef8e411da61d0f893cb36bb434c623bca3813",
+      "bytes": 316467,
+      "source_provenance": {
+        "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B09/COORDINATOR-PAIRED-TRANSITIONS.json",
+        "sha256": "d35d1b015c42f92026f2a81a91fef8e411da61d0f893cb36bb434c623bca3813",
+        "bytes": 316467,
+        "source": "research_notes/2026-09-08/entity_binding_contrast_pilot_v1/analysis-v1/COORDINATOR-PAIRED-TRANSITIONS.json",
+        "source_sha256": "d35d1b015c42f92026f2a81a91fef8e411da61d0f893cb36bb434c623bca3813",
+        "byte_identical": false,
+        "omissions": []
+      }
+    },
+    {
+      "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B09/INFERENCE-SPEC.PUBLIC.json",
+      "sha256": "e82c35f3a15d719e7cf053add8d9277786f2605491c131b87dc1173137440b44",
+      "bytes": 3031,
+      "source_provenance": {
+        "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B09/INFERENCE-SPEC.PUBLIC.json",
+        "sha256": "e82c35f3a15d719e7cf053add8d9277786f2605491c131b87dc1173137440b44",
+        "bytes": 3031,
+        "source": "research_notes/2026-09-08/entity_binding_contrast_pilot_v1/execution-v1/TECHNICAL-SPEC.json",
+        "source_sha256": "e29a2f6763f80b32de7e5d7b74dd7dd84550f02cba5740cc2fa909adc8b3202b",
+        "byte_identical": false,
+        "omissions": [
+          {
+            "field": "/models/0/snapshot",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/runtime_python",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/weight_reuse_anchor",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          }
+        ]
+      }
+    },
+    {
+      "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B09/NEW-RAW-RESPONSES.json",
+      "sha256": "ba46596064f338be44c753fe1b56d05da1a3c071492061232b10e218f36a68a8",
+      "bytes": 1160001,
+      "source_provenance": {
+        "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B09/NEW-RAW-RESPONSES.json",
+        "sha256": "ba46596064f338be44c753fe1b56d05da1a3c071492061232b10e218f36a68a8",
+        "bytes": 1160001,
+        "source": "research_notes/2026-09-08/entity_binding_contrast_pilot_v1/analysis-v1/RAW-RESPONSES.json",
+        "source_sha256": "ba46596064f338be44c753fe1b56d05da1a3c071492061232b10e218f36a68a8",
+        "byte_identical": true,
+        "omissions": []
+      }
+    },
+    {
+      "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B09/PREDECLARED-SCIENTIFIC-METHODS.zh-CN.md",
+      "sha256": "7f31181a0fc31f053b2ad012a4fe3437315c5d9ad93b53fe7638a097048511e5",
+      "bytes": 7293,
+      "source_provenance": {
+        "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B09/PREDECLARED-SCIENTIFIC-METHODS.zh-CN.md",
+        "source": "research_notes/2026-09-08/entity_binding_contrast_pilot_v1/COORDINATOR-SPEC.zh-CN.md",
+        "source_sha256": "50ce4b0772962cc79b33e5b816f9e769c95455f5ed8ecd4849e21ee0628cc5cd",
+        "sha256": "7f31181a0fc31f053b2ad012a4fe3437315c5d9ad93b53fe7638a097048511e5",
+        "transformation": "Verbatim scientific section range plus disclosure header",
+        "start_heading": "## 材料身份",
+        "stop_heading": "## 运行、资源"
+      }
+    },
+    {
+      "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B09/RULE-BASELINE-CHECK.json",
+      "sha256": "fe1808c7da006f6110a5c716f87648ea325d79a77df04993ba7bf0c4a727af0b",
+      "bytes": 62752,
+      "source_provenance": {
+        "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B09/RULE-BASELINE-CHECK.json",
+        "sha256": "fe1808c7da006f6110a5c716f87648ea325d79a77df04993ba7bf0c4a727af0b",
+        "bytes": 62752,
+        "source": "research_notes/2026-09-08/entity_binding_contrast_pilot_v1/RULE-BASELINE-CHECK.json",
+        "source_sha256": "fe1808c7da006f6110a5c716f87648ea325d79a77df04993ba7bf0c4a727af0b",
+        "byte_identical": false,
+        "omissions": []
+      }
+    },
+    {
+      "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B09/RUN-SPEC.json",
+      "sha256": "0637082c4ea105f771c1de22ed7f87278aa574cf7e198775bddbba3f3839b04d",
+      "bytes": 2042,
+      "source_provenance": {
+        "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B09/RUN-SPEC.json",
+        "sha256": "0637082c4ea105f771c1de22ed7f87278aa574cf7e198775bddbba3f3839b04d",
+        "bytes": 2042,
+        "source": "research_notes/2026-09-08/entity_binding_contrast_pilot_v1/RUN-SPEC.json",
+        "source_sha256": "4cfc85ca1a2f45eee11f2903e394430ff248414a5fe267e471fc5e1a48fe6fc3",
+        "byte_identical": false,
+        "omissions": [
+          {
+            "field": "/coordinator_spec_verbatim",
+            "reason": "private collaboration or execution metadata omitted"
+          },
+          {
+            "field": "/user_prediction",
+            "reason": "private collaboration or execution metadata omitted"
+          },
+          {
+            "field": "/user_review_attested",
+            "reason": "private collaboration or execution metadata omitted"
+          },
+          {
+            "field": "/policy",
+            "reason": "private collaboration or execution metadata omitted"
+          },
+          {
+            "field": "/schedule",
+            "reason": "private collaboration or execution metadata omitted"
+          },
+          {
+            "field": "/gpu",
+            "reason": "private collaboration or execution metadata omitted"
+          },
+          {
+            "field": "/stop",
+            "reason": "private collaboration or execution metadata omitted"
+          }
+        ]
+      }
+    },
+    {
+      "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B09/SCIENTIFIC-RESULT-EXTRACT.zh-CN.md",
+      "sha256": "69f6abcf62441b5eaaf3b40598438a28e0b36168c091db5774a816235587db5d",
+      "bytes": 6962,
+      "source_provenance": {
+        "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B09/SCIENTIFIC-RESULT-EXTRACT.zh-CN.md",
+        "source": "research_notes/2026-09-08/entity_binding_contrast_pilot_v1/analysis-v1/COORDINATOR-RESULT.zh-CN.md",
+        "source_sha256": "60b2a90a9224cf9454a5fc78793ca9e991d5b903a7c8a276bf14d01336df0308",
+        "sha256": "69f6abcf62441b5eaaf3b40598438a28e0b36168c091db5774a816235587db5d",
+        "transformation": "Verbatim science report prefix plus disclosure header; final collaboration section omitted where specified",
+        "stop_heading": "## 交付与证据身份"
+      }
+    },
+    {
+      "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B09/SCORING-REFERENCE.json",
+      "sha256": "e9efd4cbe467b269579fc7e55df371878fad195759dc1bcc8d520b00b58d3284",
+      "bytes": 67227,
+      "source_provenance": {
+        "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B09/SCORING-REFERENCE.json",
+        "sha256": "e9efd4cbe467b269579fc7e55df371878fad195759dc1bcc8d520b00b58d3284",
+        "bytes": 67227,
+        "source": "research_notes/2026-09-08/entity_binding_contrast_pilot_v1/SCORING-REFERENCE.json",
+        "source_sha256": "e9efd4cbe467b269579fc7e55df371878fad195759dc1bcc8d520b00b58d3284",
+        "byte_identical": false,
+        "omissions": []
+      }
+    },
+    {
+      "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B09/SOURCE-REFERENCE.json",
+      "sha256": "1d683ff5e28bc842014ae909d158a7a6de8996488c73e45e1773e99e33554977",
+      "bytes": 24409,
+      "source_provenance": {
+        "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B09/SOURCE-REFERENCE.json",
+        "sha256": "1d683ff5e28bc842014ae909d158a7a6de8996488c73e45e1773e99e33554977",
+        "bytes": 24409,
+        "source": "research_notes/2026-09-08/entity_binding_contrast_pilot_v1/SOURCE-REFERENCE.json",
+        "source_sha256": "1d683ff5e28bc842014ae909d158a7a6de8996488c73e45e1773e99e33554977",
+        "byte_identical": false,
+        "omissions": []
+      }
+    },
+    {
+      "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B10/CALL-PLAN.json",
+      "sha256": "208d58d14069a98b9a8464ae43e87ab8fd3dba2fc060f115b7aa38d77c68b406",
+      "bytes": 959841,
+      "source_provenance": {
+        "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B10/CALL-PLAN.json",
+        "sha256": "208d58d14069a98b9a8464ae43e87ab8fd3dba2fc060f115b7aa38d77c68b406",
+        "bytes": 959841,
+        "source": "research_notes/2026-09-08/context_isolation_bridge_v1/CALL-PLAN.json",
+        "source_sha256": "208d58d14069a98b9a8464ae43e87ab8fd3dba2fc060f115b7aa38d77c68b406",
+        "byte_identical": false,
+        "omissions": []
+      }
+    },
+    {
+      "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B10/COORDINATOR-A-ALL-15-NONC.json",
+      "sha256": "8f228cf8750996ba074bab150a9246c06f522e6d88952c5da709129ba7e87d5a",
+      "bytes": 13421,
+      "source_provenance": {
+        "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B10/COORDINATOR-A-ALL-15-NONC.json",
+        "sha256": "8f228cf8750996ba074bab150a9246c06f522e6d88952c5da709129ba7e87d5a",
+        "bytes": 13421,
+        "source": "research_notes/2026-09-08/context_isolation_bridge_v1/analysis-v1/COORDINATOR-A-ALL-15-NONC.json",
+        "source_sha256": "8f228cf8750996ba074bab150a9246c06f522e6d88952c5da709129ba7e87d5a",
+        "byte_identical": false,
+        "omissions": []
+      }
+    },
+    {
+      "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B10/COORDINATOR-A-ANALYSIS.json",
+      "sha256": "b6fad3756e8b693f5e55496270bd2fe117b080a0d9c580dedbf91f70c598ba71",
+      "bytes": 5322,
+      "source_provenance": {
+        "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B10/COORDINATOR-A-ANALYSIS.json",
+        "sha256": "b6fad3756e8b693f5e55496270bd2fe117b080a0d9c580dedbf91f70c598ba71",
+        "bytes": 5322,
+        "source": "research_notes/2026-09-08/context_isolation_bridge_v1/analysis-v1/COORDINATOR-A-ANALYSIS.json",
+        "source_sha256": "b6fad3756e8b693f5e55496270bd2fe117b080a0d9c580dedbf91f70c598ba71",
+        "byte_identical": false,
+        "omissions": []
+      }
+    },
+    {
+      "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B10/COORDINATOR-A-DESCRIPTIVE.json",
+      "sha256": "c425a2da743dd17e2a522809eb8c2bca5ccad4fdf93b6c4c37f35b7504ed1734",
+      "bytes": 6372,
+      "source_provenance": {
+        "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B10/COORDINATOR-A-DESCRIPTIVE.json",
+        "sha256": "c425a2da743dd17e2a522809eb8c2bca5ccad4fdf93b6c4c37f35b7504ed1734",
+        "bytes": 6372,
+        "source": "research_notes/2026-09-08/context_isolation_bridge_v1/analysis-v1/COORDINATOR-A-DESCRIPTIVE.json",
+        "source_sha256": "c425a2da743dd17e2a522809eb8c2bca5ccad4fdf93b6c4c37f35b7504ed1734",
+        "byte_identical": false,
+        "omissions": []
+      }
+    },
+    {
+      "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B10/COORDINATOR-A-EVENT-SCORES.AI.json",
+      "sha256": "b6338e2b123316d3d70c2a3f474308f2da3b22fb92102f31bb08c1790a6fdbca",
+      "bytes": 758324,
+      "source_provenance": {
+        "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B10/COORDINATOR-A-EVENT-SCORES.AI.json",
+        "sha256": "b6338e2b123316d3d70c2a3f474308f2da3b22fb92102f31bb08c1790a6fdbca",
+        "bytes": 758324,
+        "source": "research_notes/2026-09-08/context_isolation_bridge_v1/analysis-v1/COORDINATOR-A-EVENT-SCORES.AI.json",
+        "source_sha256": "b6338e2b123316d3d70c2a3f474308f2da3b22fb92102f31bb08c1790a6fdbca",
+        "byte_identical": false,
+        "omissions": []
+      }
+    },
+    {
+      "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B10/COORDINATOR-A-PAIRED-TRANSITIONS.json",
+      "sha256": "33395a6d9f3266d3b018843492421da5ac56f4df0cc13ddf0df585d240e3d723",
+      "bytes": 251272,
+      "source_provenance": {
+        "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B10/COORDINATOR-A-PAIRED-TRANSITIONS.json",
+        "sha256": "33395a6d9f3266d3b018843492421da5ac56f4df0cc13ddf0df585d240e3d723",
+        "bytes": 251272,
+        "source": "research_notes/2026-09-08/context_isolation_bridge_v1/analysis-v1/COORDINATOR-A-PAIRED-TRANSITIONS.json",
+        "source_sha256": "33395a6d9f3266d3b018843492421da5ac56f4df0cc13ddf0df585d240e3d723",
+        "byte_identical": false,
+        "omissions": []
+      }
+    },
+    {
+      "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B10/COORDINATOR-SIMPLE-BASELINE-160-CACHED.json",
+      "sha256": "bed6d3733e65bbbb2eb02014a3d725db2645b0c27ce62acef88f6e17d598ae92",
+      "bytes": 131427,
+      "source_provenance": {
+        "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B10/COORDINATOR-SIMPLE-BASELINE-160-CACHED.json",
+        "sha256": "bed6d3733e65bbbb2eb02014a3d725db2645b0c27ce62acef88f6e17d598ae92",
+        "bytes": 131427,
+        "source": "research_notes/2026-09-08/context_isolation_bridge_v1/analysis-v1/COORDINATOR-SIMPLE-BASELINE-160-CACHED.json",
+        "source_sha256": "bed6d3733e65bbbb2eb02014a3d725db2645b0c27ce62acef88f6e17d598ae92",
+        "byte_identical": false,
+        "omissions": []
+      }
+    },
+    {
+      "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B10/NEW-RAW-RESPONSES.json",
+      "sha256": "1092f99b2b68945309dfe0b50aa04eb24810304a74d5eec78e1b2a3125e91b38",
+      "bytes": 1639536,
+      "source_provenance": {
+        "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B10/NEW-RAW-RESPONSES.json",
+        "sha256": "1092f99b2b68945309dfe0b50aa04eb24810304a74d5eec78e1b2a3125e91b38",
+        "bytes": 1639536,
+        "source": "research_notes/2026-09-08/context_isolation_bridge_v1/analysis-v1/RAW-A-RESPONSES.json",
+        "source_sha256": "1092f99b2b68945309dfe0b50aa04eb24810304a74d5eec78e1b2a3125e91b38",
+        "byte_identical": true,
+        "omissions": []
+      }
+    },
+    {
+      "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B10/PREDECLARED-SCIENTIFIC-METHODS.zh-CN.md",
+      "sha256": "524d66eea083662b70545a62c3845c813575793473dbadd0a3d37eadd3806daf",
+      "bytes": 7199,
+      "source_provenance": {
+        "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B10/PREDECLARED-SCIENTIFIC-METHODS.zh-CN.md",
+        "source": "research_notes/2026-09-08/context_isolation_bridge_v1/COORDINATOR-SPEC.zh-CN.md",
+        "source_sha256": "566bf859b09e81dc33435e1871781802292161741dab98b9843ab207ca7e575b",
+        "sha256": "524d66eea083662b70545a62c3845c813575793473dbadd0a3d37eadd3806daf",
+        "transformation": "Verbatim scientific section range plus disclosure header",
+        "start_heading": "## 材料与调用",
+        "stop_heading": "## 交付、核验"
+      }
+    },
+    {
+      "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B10/RUN-SPEC.json",
+      "sha256": "273d59cc6e4205354b9b9b4425f00f3ce07013a29c36efe7696428e412ee6f4b",
+      "bytes": 2584,
+      "source_provenance": {
+        "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B10/RUN-SPEC.json",
+        "sha256": "273d59cc6e4205354b9b9b4425f00f3ce07013a29c36efe7696428e412ee6f4b",
+        "bytes": 2584,
+        "source": "research_notes/2026-09-08/context_isolation_bridge_v1/RUN-SPEC.json",
+        "source_sha256": "5a069c19c953b2e90f654ed0bf13ac064bd2016496640b40bb069de0add4e429",
+        "byte_identical": false,
+        "omissions": [
+          {
+            "field": "/user_prediction",
+            "reason": "private collaboration or execution metadata omitted"
+          },
+          {
+            "field": "/policy",
+            "reason": "private collaboration or execution metadata omitted"
+          },
+          {
+            "field": "/schedule",
+            "reason": "private collaboration or execution metadata omitted"
+          },
+          {
+            "field": "/stop",
+            "reason": "private collaboration or execution metadata omitted"
+          },
+          {
+            "field": "/coordinator_spec_verbatim",
+            "reason": "private collaboration or execution metadata omitted"
+          }
+        ]
+      }
+    },
+    {
+      "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B10/SCIENTIFIC-RESULT-EXTRACT.zh-CN.md",
+      "sha256": "53112fa84be1ef2e61f80aa5d1e4cbc788cb5a39affc29d31db65a7be0bee8e3",
+      "bytes": 8099,
+      "source_provenance": {
+        "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B10/SCIENTIFIC-RESULT-EXTRACT.zh-CN.md",
+        "source": "research_notes/2026-09-08/context_isolation_bridge_v1/COORDINATOR-RESULT.zh-CN.md",
+        "source_sha256": "51f389dc328be49f8f4a2b170dcc93a52ab61bcb5851fd985a53ef7d15c05335",
+        "sha256": "53112fa84be1ef2e61f80aa5d1e4cbc788cb5a39affc29d31db65a7be0bee8e3",
+        "transformation": "Verbatim science report prefix plus disclosure header; final collaboration section omitted where specified",
+        "stop_heading": "## 6. 追溯与审核边界"
+      }
+    },
+    {
+      "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B10/SCORING-REFERENCE.json",
+      "sha256": "6ebba1694769e8ecfb7809340b5859b1332986ef5ceb841a90d8a7937a1f0e76",
+      "bytes": 69933,
+      "source_provenance": {
+        "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B10/SCORING-REFERENCE.json",
+        "sha256": "6ebba1694769e8ecfb7809340b5859b1332986ef5ceb841a90d8a7937a1f0e76",
+        "bytes": 69933,
+        "source": "research_notes/2026-09-08/context_isolation_bridge_v1/SCORING-REFERENCE.json",
+        "source_sha256": "6ebba1694769e8ecfb7809340b5859b1332986ef5ceb841a90d8a7937a1f0e76",
+        "byte_identical": false,
+        "omissions": []
+      }
+    },
+    {
+      "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B10/SOURCE-REFERENCE.json",
+      "sha256": "1d683ff5e28bc842014ae909d158a7a6de8996488c73e45e1773e99e33554977",
+      "bytes": 24409,
+      "source_provenance": {
+        "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B10/SOURCE-REFERENCE.json",
+        "sha256": "1d683ff5e28bc842014ae909d158a7a6de8996488c73e45e1773e99e33554977",
+        "bytes": 24409,
+        "source": "research_notes/2026-09-08/context_isolation_bridge_v1/SOURCE-REFERENCE.json",
+        "source_sha256": "1d683ff5e28bc842014ae909d158a7a6de8996488c73e45e1773e99e33554977",
+        "byte_identical": false,
+        "omissions": []
+      }
+    },
+    {
+      "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B11/CALL-PLAN.json",
+      "sha256": "76dc07447d3cd7188ffd0b0f0059123205c3570a001ec784db3fbe7d09f5e2d6",
+      "bytes": 613612,
+      "source_provenance": {
+        "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B11/CALL-PLAN.json",
+        "sha256": "76dc07447d3cd7188ffd0b0f0059123205c3570a001ec784db3fbe7d09f5e2d6",
+        "bytes": 613612,
+        "source": "research_notes/2026-09-08/order_inventory_voice_factorial_v1/CALL-PLAN.json",
+        "source_sha256": "76dc07447d3cd7188ffd0b0f0059123205c3570a001ec784db3fbe7d09f5e2d6",
+        "byte_identical": false,
+        "omissions": []
+      }
+    },
+    {
+      "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B11/INFERENCE-SPEC.PUBLIC.json",
+      "sha256": "867d687871e893ee668673391db5d37cb1c375ebfa96c7872675083655c4ddc7",
+      "bytes": 3170,
+      "source_provenance": {
+        "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B11/INFERENCE-SPEC.PUBLIC.json",
+        "sha256": "867d687871e893ee668673391db5d37cb1c375ebfa96c7872675083655c4ddc7",
+        "bytes": 3170,
+        "source": "research_notes/2026-09-08/order_inventory_voice_factorial_v1/execution-v1/TECHNICAL-SPEC.json",
+        "source_sha256": "cb2c0d8e47ceebb290e6f24d6c7d56b0a5162fb4929d30afbc0e0154d38b7d1e",
+        "byte_identical": false,
+        "omissions": [
+          {
+            "field": "/models/0/snapshot",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/runtime_python",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/weight_reuse_anchor",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          }
+        ]
+      }
+    },
+    {
+      "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B11/NEW-RAW-RESPONSES.json",
+      "sha256": "377e38b53a4cffdd83bd4a22e95e19e66da1e5294b9b097282cd40a5e662919c",
+      "bytes": 2243418,
+      "source_provenance": {
+        "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B11/NEW-RAW-RESPONSES.json",
+        "sha256": "377e38b53a4cffdd83bd4a22e95e19e66da1e5294b9b097282cd40a5e662919c",
+        "bytes": 2243418,
+        "source": "research_notes/2026-09-08/order_inventory_voice_factorial_v1/analysis-v1/RAW-RESPONSES.json",
+        "source_sha256": "377e38b53a4cffdd83bd4a22e95e19e66da1e5294b9b097282cd40a5e662919c",
+        "byte_identical": true,
+        "omissions": []
+      }
+    },
+    {
+      "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B11/PAIRED-PLAN.json",
+      "sha256": "9616a6f4349cd83620efa6a890f280b257f9218e11c9851e7b950e73498fac76",
+      "bytes": 380135,
+      "source_provenance": {
+        "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B11/PAIRED-PLAN.json",
+        "sha256": "9616a6f4349cd83620efa6a890f280b257f9218e11c9851e7b950e73498fac76",
+        "bytes": 380135,
+        "source": "research_notes/2026-09-08/order_inventory_voice_factorial_v1/PAIRED-PLAN.json",
+        "source_sha256": "9616a6f4349cd83620efa6a890f280b257f9218e11c9851e7b950e73498fac76",
+        "byte_identical": false,
+        "omissions": []
+      }
+    },
+    {
+      "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B11/PREDECLARED-SCIENTIFIC-METHODS.zh-CN.md",
+      "sha256": "1f411beb471dcf40a23714fc64c74f7f9d7044a8afdf59bb4ae8c39cc9458971",
+      "bytes": 6591,
+      "source_provenance": {
+        "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B11/PREDECLARED-SCIENTIFIC-METHODS.zh-CN.md",
+        "source": "research_notes/2026-09-08/order_inventory_voice_factorial_v1/COORDINATOR-SPEC.zh-CN.md",
+        "source_sha256": "7134c5a558ee3426289c0e9312fa5e7b11658fd0f2bb9accfe0ebdf239e353b3",
+        "sha256": "1f411beb471dcf40a23714fc64c74f7f9d7044a8afdf59bb4ae8c39cc9458971",
+        "transformation": "Verbatim scientific section range plus disclosure header",
+        "start_heading": "## 固定材料",
+        "stop_heading": "## 工程 交付"
+      }
+    },
+    {
+      "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B11/RUN-SPEC.json",
+      "sha256": "f5b6fd3a9b2a953105b018d647989c1665fbf946ddbb83c6480be3f8776c4939",
+      "bytes": 756,
+      "source_provenance": {
+        "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B11/RUN-SPEC.json",
+        "sha256": "f5b6fd3a9b2a953105b018d647989c1665fbf946ddbb83c6480be3f8776c4939",
+        "bytes": 756,
+        "source": "research_notes/2026-09-08/order_inventory_voice_factorial_v1/RUN-SPEC.json",
+        "source_sha256": "0571778fee9f87b9cceec5dedbd2b34e141fd09141269dde64ddc3cfca4bced3",
+        "byte_identical": false,
+        "omissions": [
+          {
+            "field": "/protocol_verbatim",
+            "reason": "private collaboration or execution metadata omitted"
+          },
+          {
+            "field": "/files",
+            "reason": "private collaboration or execution metadata omitted"
+          },
+          {
+            "field": "/release",
+            "reason": "private collaboration or execution metadata omitted"
+          },
+          {
+            "field": "/outputs",
+            "reason": "private collaboration or execution metadata omitted"
+          },
+          {
+            "field": "/human_prediction",
+            "reason": "private collaboration or execution metadata omitted"
+          },
+          {
+            "field": "/branch_policy",
+            "reason": "private collaboration or execution metadata omitted"
+          },
+          {
+            "field": "/coordinator_rules_and_synthetic_checks",
+            "reason": "private collaboration or execution metadata omitted"
+          },
+          {
+            "field": "/executor_scoring_reuse",
+            "reason": "private collaboration or execution metadata omitted"
+          },
+          {
+            "field": "/coordinator_scientific_files",
+            "reason": "private collaboration or execution metadata omitted"
+          }
+        ]
+      }
+    },
+    {
+      "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B11/SCIENTIFIC-RESULT-EXTRACT.zh-CN.md",
+      "sha256": "07737762f205ef2a82e088a05d6d5486b44b7ad89f5be3dce05594d2d19f4dbf",
+      "bytes": 8377,
+      "source_provenance": {
+        "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B11/SCIENTIFIC-RESULT-EXTRACT.zh-CN.md",
+        "source": "research_notes/2026-09-08/order_inventory_voice_factorial_v1/COORDINATOR-RESULT.zh-CN.md",
+        "source_sha256": "64b8f43d0ed6c5ae589f6984da41d05b7d3fe61f1de5710221e554033325e435",
+        "sha256": "07737762f205ef2a82e088a05d6d5486b44b7ad89f5be3dce05594d2d19f4dbf",
+        "transformation": "Verbatim science report prefix plus disclosure header; final collaboration section omitted where specified",
+        "stop_heading": "## 资源、交付与追溯"
+      }
+    },
+    {
+      "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B11/SCORING-REFERENCE.json",
+      "sha256": "5819ef3b0e9da5115a78e6bb720a3e77ec69e3da0e157e91b475a85111823508",
+      "bytes": 137091,
+      "source_provenance": {
+        "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B11/SCORING-REFERENCE.json",
+        "sha256": "5819ef3b0e9da5115a78e6bb720a3e77ec69e3da0e157e91b475a85111823508",
+        "bytes": 137091,
+        "source": "research_notes/2026-09-08/order_inventory_voice_factorial_v1/SCORING-REFERENCE.json",
+        "source_sha256": "5819ef3b0e9da5115a78e6bb720a3e77ec69e3da0e157e91b475a85111823508",
+        "byte_identical": false,
+        "omissions": []
+      }
+    },
+    {
+      "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B11/SOURCE-REFERENCE.json",
+      "sha256": "5ffb6124437ffd2404cccba7676898674f36dfd688bb09795cbf8f89abf61c1f",
+      "bytes": 35427,
+      "source_provenance": {
+        "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B11/SOURCE-REFERENCE.json",
+        "sha256": "5ffb6124437ffd2404cccba7676898674f36dfd688bb09795cbf8f89abf61c1f",
+        "bytes": 35427,
+        "source": "research_notes/2026-09-08/order_inventory_voice_factorial_v1/SOURCE-REFERENCE.json",
+        "source_sha256": "5ffb6124437ffd2404cccba7676898674f36dfd688bb09795cbf8f89abf61c1f",
+        "byte_identical": false,
+        "omissions": []
+      }
+    },
+    {
+      "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B11/formal-v1/ALL-NONC.json",
+      "sha256": "da08e795c28f9da0e0b198e3473a6515aae1b2cc1edc9c4ce4c5aee47c430097",
+      "bytes": 458183,
+      "source_provenance": {
+        "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B11/formal-v1/ALL-NONC.json",
+        "sha256": "da08e795c28f9da0e0b198e3473a6515aae1b2cc1edc9c4ce4c5aee47c430097",
+        "bytes": 458183,
+        "source": "research_notes/2026-09-08/order_inventory_voice_factorial_v1/analysis-v1/formal-v1/ALL-NONC.json",
+        "source_sha256": "da08e795c28f9da0e0b198e3473a6515aae1b2cc1edc9c4ce4c5aee47c430097",
+        "byte_identical": false,
+        "omissions": []
+      }
+    },
+    {
+      "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B11/formal-v1/CACHE192.json",
+      "sha256": "1f5760e43a505adf447cd3c1bcfe0908c2009262bd896298b91ea0ae9128b56b",
+      "bytes": 196027,
+      "source_provenance": {
+        "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B11/formal-v1/CACHE192.json",
+        "sha256": "1f5760e43a505adf447cd3c1bcfe0908c2009262bd896298b91ea0ae9128b56b",
+        "bytes": 196027,
+        "source": "research_notes/2026-09-08/order_inventory_voice_factorial_v1/analysis-v1/formal-v1/CACHE192.json",
+        "source_sha256": "1f5760e43a505adf447cd3c1bcfe0908c2009262bd896298b91ea0ae9128b56b",
+        "byte_identical": false,
+        "omissions": []
+      }
+    },
+    {
+      "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B11/formal-v1/CELLS.json",
+      "sha256": "a9fd495c3e2000ce73e0e73d2cc73936b60265483cb46869c0fb97785b73f53e",
+      "bytes": 65888,
+      "source_provenance": {
+        "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B11/formal-v1/CELLS.json",
+        "sha256": "a9fd495c3e2000ce73e0e73d2cc73936b60265483cb46869c0fb97785b73f53e",
+        "bytes": 65888,
+        "source": "research_notes/2026-09-08/order_inventory_voice_factorial_v1/analysis-v1/formal-v1/CELLS.json",
+        "source_sha256": "a9fd495c3e2000ce73e0e73d2cc73936b60265483cb46869c0fb97785b73f53e",
+        "byte_identical": false,
+        "omissions": []
+      }
+    },
+    {
+      "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B11/formal-v1/LIST-PATTERNS.json",
+      "sha256": "5b541e751b011e42bae878c3663e25b9a0c31237e6ce8b5fb0892613319b172e",
+      "bytes": 27018,
+      "source_provenance": {
+        "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B11/formal-v1/LIST-PATTERNS.json",
+        "sha256": "5b541e751b011e42bae878c3663e25b9a0c31237e6ce8b5fb0892613319b172e",
+        "bytes": 27018,
+        "source": "research_notes/2026-09-08/order_inventory_voice_factorial_v1/analysis-v1/formal-v1/LIST-PATTERNS.json",
+        "source_sha256": "5b541e751b011e42bae878c3663e25b9a0c31237e6ce8b5fb0892613319b172e",
+        "byte_identical": false,
+        "omissions": []
+      }
+    },
+    {
+      "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B11/formal-v1/ORDER-PATTERNS.json",
+      "sha256": "d305be0d28e66026e676b412da42f53e0a4506a5de05fddafbb09611196fe0a1",
+      "bytes": 24164,
+      "source_provenance": {
+        "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B11/formal-v1/ORDER-PATTERNS.json",
+        "sha256": "d305be0d28e66026e676b412da42f53e0a4506a5de05fddafbb09611196fe0a1",
+        "bytes": 24164,
+        "source": "research_notes/2026-09-08/order_inventory_voice_factorial_v1/analysis-v1/formal-v1/ORDER-PATTERNS.json",
+        "source_sha256": "d305be0d28e66026e676b412da42f53e0a4506a5de05fddafbb09611196fe0a1",
+        "byte_identical": false,
+        "omissions": []
+      }
+    },
+    {
+      "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B11/formal-v1/PAIRS.json",
+      "sha256": "81c7e0fb87ff172b291135b9be91a86e9bfc10b5736c560425900aacf4d703ad",
+      "bytes": 981967,
+      "source_provenance": {
+        "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B11/formal-v1/PAIRS.json",
+        "sha256": "81c7e0fb87ff172b291135b9be91a86e9bfc10b5736c560425900aacf4d703ad",
+        "bytes": 981967,
+        "source": "research_notes/2026-09-08/order_inventory_voice_factorial_v1/analysis-v1/formal-v1/PAIRS.json",
+        "source_sha256": "81c7e0fb87ff172b291135b9be91a86e9bfc10b5736c560425900aacf4d703ad",
+        "byte_identical": false,
+        "omissions": []
+      }
+    },
+    {
+      "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B11/formal-v1/RULE-COMPATIBILITY.json",
+      "sha256": "27a00935d0d065635535f5217aba7cf9b295b43a9b382f63f04db4596c997032",
+      "bytes": 51553,
+      "source_provenance": {
+        "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B11/formal-v1/RULE-COMPATIBILITY.json",
+        "sha256": "27a00935d0d065635535f5217aba7cf9b295b43a9b382f63f04db4596c997032",
+        "bytes": 51553,
+        "source": "research_notes/2026-09-08/order_inventory_voice_factorial_v1/analysis-v1/formal-v1/RULE-COMPATIBILITY.json",
+        "source_sha256": "27a00935d0d065635535f5217aba7cf9b295b43a9b382f63f04db4596c997032",
+        "byte_identical": false,
+        "omissions": []
+      }
+    },
+    {
+      "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B11/formal-v1/SCORES.AI.json",
+      "sha256": "c8d55585b0814030b6525206914942ff53bc60a7841816336aa22a62abfac40d",
+      "bytes": 1173570,
+      "source_provenance": {
+        "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B11/formal-v1/SCORES.AI.json",
+        "sha256": "c8d55585b0814030b6525206914942ff53bc60a7841816336aa22a62abfac40d",
+        "bytes": 1173570,
+        "source": "research_notes/2026-09-08/order_inventory_voice_factorial_v1/analysis-v1/formal-v1/SCORES.AI.json",
+        "source_sha256": "c8d55585b0814030b6525206914942ff53bc60a7841816336aa22a62abfac40d",
+        "byte_identical": false,
+        "omissions": []
+      }
+    },
+    {
+      "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B11/formal-v1/SUMMARY.json",
+      "sha256": "d9843a6be6ea51ae9499e3385e436c9007dcfc42184212799dc9945455d9069b",
+      "bytes": 13113,
+      "source_provenance": {
+        "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B11/formal-v1/SUMMARY.json",
+        "sha256": "d9843a6be6ea51ae9499e3385e436c9007dcfc42184212799dc9945455d9069b",
+        "bytes": 13113,
+        "source": "research_notes/2026-09-08/order_inventory_voice_factorial_v1/analysis-v1/formal-v1/SUMMARY.json",
+        "source_sha256": "d9843a6be6ea51ae9499e3385e436c9007dcfc42184212799dc9945455d9069b",
+        "byte_identical": false,
+        "omissions": []
+      }
+    },
+    {
+      "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B12/CALL-PLAN.json",
+      "sha256": "fa12a28a3acf369cdb8e97db92b6f67b2f08c1e09cc591fffaa349022dc3b998",
+      "bytes": 1282724,
+      "source_provenance": {
+        "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B12/CALL-PLAN.json",
+        "sha256": "fa12a28a3acf369cdb8e97db92b6f67b2f08c1e09cc591fffaa349022dc3b998",
+        "bytes": 1282724,
+        "source": "research_notes/2026-09-08/japanese_original_bridge_v2/CALL-PLAN.json",
+        "source_sha256": "fa12a28a3acf369cdb8e97db92b6f67b2f08c1e09cc591fffaa349022dc3b998",
+        "byte_identical": false,
+        "omissions": []
+      }
+    },
+    {
+      "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B12/HISTORICAL-SOURCE-CROSSWALK.json",
+      "sha256": "a888ed67e4d37c54c70dc7b71c97605d8d1a835ab9229df10f5d47c3ebed1e9d",
+      "bytes": 248571,
+      "source_provenance": {
+        "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B12/HISTORICAL-SOURCE-CROSSWALK.json",
+        "sha256": "a888ed67e4d37c54c70dc7b71c97605d8d1a835ab9229df10f5d47c3ebed1e9d",
+        "bytes": 248571,
+        "source": "research_notes/2026-09-08/japanese_original_bridge_v2/HISTORICAL-SOURCE-CROSSWALK.json",
+        "source_sha256": "a888ed67e4d37c54c70dc7b71c97605d8d1a835ab9229df10f5d47c3ebed1e9d",
+        "byte_identical": false,
+        "omissions": []
+      }
+    },
+    {
+      "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B12/INFERENCE-SPEC.PUBLIC.json",
+      "sha256": "a4beb860474479f1669363dd1d063fee735ef85a0b819fbd23c7131d2b7ba958",
+      "bytes": 4338,
+      "source_provenance": {
+        "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B12/INFERENCE-SPEC.PUBLIC.json",
+        "sha256": "a4beb860474479f1669363dd1d063fee735ef85a0b819fbd23c7131d2b7ba958",
+        "bytes": 4338,
+        "source": "research_notes/2026-09-08/japanese_original_bridge_v2/execution-v1/TECHNICAL-SPEC.json",
+        "source_sha256": "7825a0ec340e73b2a795f5aab7f409eb8f62ecf74d64127c595ab3b43bf7f3c4",
+        "byte_identical": false,
+        "omissions": [
+          {
+            "field": "/runtime_python",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/models/0/snapshot",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/models/1/snapshot",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          }
+        ]
+      }
+    },
+    {
+      "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B12/NEW-RAW-RESPONSES.json",
+      "sha256": "d6b607b00bcd9bdc186cccaf56354a32f5efd314160510f51b255fc277be223c",
+      "bytes": 4762861,
+      "source_provenance": {
+        "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B12/NEW-RAW-RESPONSES.json",
+        "sha256": "d6b607b00bcd9bdc186cccaf56354a32f5efd314160510f51b255fc277be223c",
+        "bytes": 4762861,
+        "source": "research_notes/2026-09-08/japanese_original_bridge_v2/analysis-v1/RAW-RESPONSES.json",
+        "source_sha256": "d6b607b00bcd9bdc186cccaf56354a32f5efd314160510f51b255fc277be223c",
+        "byte_identical": true,
+        "omissions": []
+      }
+    },
+    {
+      "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B12/PAIRED-PLAN.json",
+      "sha256": "4774c7e6415c6699d437135afc5476d135196713af1fc557c7efe23670699947",
+      "bytes": 177795,
+      "source_provenance": {
+        "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B12/PAIRED-PLAN.json",
+        "sha256": "4774c7e6415c6699d437135afc5476d135196713af1fc557c7efe23670699947",
+        "bytes": 177795,
+        "source": "research_notes/2026-09-08/japanese_original_bridge_v2/PAIRED-PLAN.json",
+        "source_sha256": "4774c7e6415c6699d437135afc5476d135196713af1fc557c7efe23670699947",
+        "byte_identical": false,
+        "omissions": []
+      }
+    },
+    {
+      "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B12/POSTHOC-ID-CONTENT-AUDIT.json",
+      "sha256": "c60064fafc3f81dc4d0fa9ea332ce9c694f3fb7c5fea6db553366f4bd2b98500",
+      "bytes": 17330,
+      "source_provenance": {
+        "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B12/POSTHOC-ID-CONTENT-AUDIT.json",
+        "sha256": "c60064fafc3f81dc4d0fa9ea332ce9c694f3fb7c5fea6db553366f4bd2b98500",
+        "bytes": 17330,
+        "source": "research_notes/2026-09-08/japanese_original_bridge_v2/analysis-v1/POSTHOC-ID-CONTENT-AUDIT.json",
+        "source_sha256": "c60064fafc3f81dc4d0fa9ea332ce9c694f3fb7c5fea6db553366f4bd2b98500",
+        "byte_identical": false,
+        "omissions": []
+      }
+    },
+    {
+      "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B12/PREDECLARED-SCIENTIFIC-METHODS.zh-CN.md",
+      "sha256": "2d9056c12de7ebbf924b85b9f18537d5b765e7fbffa41f8d685c27da59241b01",
+      "bytes": 7493,
+      "source_provenance": {
+        "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B12/PREDECLARED-SCIENTIFIC-METHODS.zh-CN.md",
+        "source": "research_notes/2026-09-08/japanese_original_bridge_v2/COORDINATOR-SPEC.zh-CN.md",
+        "source_sha256": "f6d565f02efabe7440a31072b9de707ac8ee27bcae28fa29f26d65683be865c6",
+        "sha256": "2d9056c12de7ebbf924b85b9f18537d5b765e7fbffa41f8d685c27da59241b01",
+        "transformation": "Verbatim scientific section range plus disclosure header",
+        "start_heading": "## 原始来源",
+        "stop_heading": "## 工程与交付"
+      }
+    },
+    {
+      "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B12/RUN-SPEC.json",
+      "sha256": "6357ca810ee4753cdad1c87a1a21b5155ec592a58e339d7784cb0d14abd9dbe9",
+      "bytes": 472,
+      "source_provenance": {
+        "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B12/RUN-SPEC.json",
+        "sha256": "6357ca810ee4753cdad1c87a1a21b5155ec592a58e339d7784cb0d14abd9dbe9",
+        "bytes": 472,
+        "source": "research_notes/2026-09-08/japanese_original_bridge_v2/RUN-SPEC.json",
+        "source_sha256": "b59ff63a5823ecaf6b6b97f17263505992f07dc15e1490b9f98440e9cfcca59e",
+        "byte_identical": false,
+        "omissions": [
+          {
+            "field": "/human_prediction",
+            "reason": "private collaboration or execution metadata omitted"
+          },
+          {
+            "field": "/native_artifacts",
+            "reason": "private collaboration or execution metadata omitted"
+          },
+          {
+            "field": "/technical_spec",
+            "reason": "private collaboration or execution metadata omitted"
+          },
+          {
+            "field": "/release",
+            "reason": "private collaboration or execution metadata omitted"
+          },
+          {
+            "field": "/old_bilingual_v1",
+            "reason": "private collaboration or execution metadata omitted"
+          }
+        ]
+      }
+    },
+    {
+      "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B12/SCIENTIFIC-RESULT-EXTRACT.zh-CN.md",
+      "sha256": "14c5d7042b3ab4dc659e12e0fdf4fb04c74ee3fadd0b6657dcdd5d7ebfc81041",
+      "bytes": 7330,
+      "source_provenance": {
+        "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B12/SCIENTIFIC-RESULT-EXTRACT.zh-CN.md",
+        "source": "research_notes/2026-09-08/japanese_original_bridge_v2/analysis-v1/COORDINATOR-RESULT.zh-CN.md",
+        "source_sha256": "9d70c8566fe65495f93d19aeddff57e35203db7f73361ff8c59743c8df3ee96b",
+        "sha256": "14c5d7042b3ab4dc659e12e0fdf4fb04c74ee3fadd0b6657dcdd5d7ebfc81041",
+        "transformation": "Verbatim science report prefix plus disclosure header; final collaboration section omitted where specified",
+        "stop_heading": null
+      }
+    },
+    {
+      "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B12/SCORING-REFERENCE.json",
+      "sha256": "7bb0511de5bb6ffb0213338f74e3ab19e5e3dca7870d4a30fa6534428368ff2f",
+      "bytes": 134307,
+      "source_provenance": {
+        "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B12/SCORING-REFERENCE.json",
+        "sha256": "7bb0511de5bb6ffb0213338f74e3ab19e5e3dca7870d4a30fa6534428368ff2f",
+        "bytes": 134307,
+        "source": "research_notes/2026-09-08/japanese_original_bridge_v2/SCORING-REFERENCE.json",
+        "source_sha256": "7bb0511de5bb6ffb0213338f74e3ab19e5e3dca7870d4a30fa6534428368ff2f",
+        "byte_identical": false,
+        "omissions": []
+      }
+    },
+    {
+      "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B12/SOURCE-REFERENCE.json",
+      "sha256": "3c1c43b0eac47f0f57a30f6156bfbd959176c62c02a3bb0a6fe21dd76c99db04",
+      "bytes": 387843,
+      "source_provenance": {
+        "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B12/SOURCE-REFERENCE.json",
+        "sha256": "3c1c43b0eac47f0f57a30f6156bfbd959176c62c02a3bb0a6fe21dd76c99db04",
+        "bytes": 387843,
+        "source": "research_notes/2026-09-08/japanese_original_bridge_v2/SOURCE-REFERENCE.json",
+        "source_sha256": "3c1c43b0eac47f0f57a30f6156bfbd959176c62c02a3bb0a6fe21dd76c99db04",
+        "byte_identical": false,
+        "omissions": []
+      }
+    },
+    {
+      "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B12/formal-v1/ALL-NONC.json",
+      "sha256": "431aac8a6a67a9a7ebf4289cd28f2cb6e15f2799f05460b2df46e95b44d00378",
+      "bytes": 154715,
+      "source_provenance": {
+        "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B12/formal-v1/ALL-NONC.json",
+        "sha256": "431aac8a6a67a9a7ebf4289cd28f2cb6e15f2799f05460b2df46e95b44d00378",
+        "bytes": 154715,
+        "source": "research_notes/2026-09-08/japanese_original_bridge_v2/analysis-v1/formal-v1/ALL-NONC.json",
+        "source_sha256": "431aac8a6a67a9a7ebf4289cd28f2cb6e15f2799f05460b2df46e95b44d00378",
+        "byte_identical": false,
+        "omissions": []
+      }
+    },
+    {
+      "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B12/formal-v1/CACHE288.json",
+      "sha256": "a7527d40b84cf72fbeaf20d94de170189b012d8e6a053dff643880bce764f496",
+      "bytes": 346991,
+      "source_provenance": {
+        "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B12/formal-v1/CACHE288.json",
+        "sha256": "a7527d40b84cf72fbeaf20d94de170189b012d8e6a053dff643880bce764f496",
+        "bytes": 346991,
+        "source": "research_notes/2026-09-08/japanese_original_bridge_v2/analysis-v1/formal-v1/CACHE288.json",
+        "source_sha256": "a7527d40b84cf72fbeaf20d94de170189b012d8e6a053dff643880bce764f496",
+        "byte_identical": false,
+        "omissions": []
+      }
+    },
+    {
+      "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B12/formal-v1/CELLS.json",
+      "sha256": "eb2ce0b2ba34a9e83559b187c9ada67bea4991398044efa6268b8bf39edb5b33",
+      "bytes": 120835,
+      "source_provenance": {
+        "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B12/formal-v1/CELLS.json",
+        "sha256": "eb2ce0b2ba34a9e83559b187c9ada67bea4991398044efa6268b8bf39edb5b33",
+        "bytes": 120835,
+        "source": "research_notes/2026-09-08/japanese_original_bridge_v2/analysis-v1/formal-v1/CELLS.json",
+        "source_sha256": "eb2ce0b2ba34a9e83559b187c9ada67bea4991398044efa6268b8bf39edb5b33",
+        "byte_identical": false,
+        "omissions": []
+      }
+    },
+    {
+      "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B12/formal-v1/PAIRS.json",
+      "sha256": "64660213dee37549994c86759e454ee8584fe3d1bf1ef076fb8e66e289bd4466",
+      "bytes": 1052469,
+      "source_provenance": {
+        "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B12/formal-v1/PAIRS.json",
+        "sha256": "64660213dee37549994c86759e454ee8584fe3d1bf1ef076fb8e66e289bd4466",
+        "bytes": 1052469,
+        "source": "research_notes/2026-09-08/japanese_original_bridge_v2/analysis-v1/formal-v1/PAIRS.json",
+        "source_sha256": "64660213dee37549994c86759e454ee8584fe3d1bf1ef076fb8e66e289bd4466",
+        "byte_identical": false,
+        "omissions": []
+      }
+    },
+    {
+      "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B12/formal-v1/SCORES.AI.json",
+      "sha256": "784f1484c410252f32f5ff1bda164bc28925cd7ab6d2550426a0b7ca105a4ba4",
+      "bytes": 2107837,
+      "source_provenance": {
+        "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B12/formal-v1/SCORES.AI.json",
+        "sha256": "784f1484c410252f32f5ff1bda164bc28925cd7ab6d2550426a0b7ca105a4ba4",
+        "bytes": 2107837,
+        "source": "research_notes/2026-09-08/japanese_original_bridge_v2/analysis-v1/formal-v1/SCORES.AI.json",
+        "source_sha256": "784f1484c410252f32f5ff1bda164bc28925cd7ab6d2550426a0b7ca105a4ba4",
+        "byte_identical": false,
+        "omissions": []
+      }
+    },
+    {
+      "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B12/formal-v1/SUMMARY.json",
+      "sha256": "ea668ce5995c5527d40ac71c32bd46cf3ea4f0e1c2279488dbd0b2bf4b87357f",
+      "bytes": 32725,
+      "source_provenance": {
+        "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B12/formal-v1/SUMMARY.json",
+        "sha256": "ea668ce5995c5527d40ac71c32bd46cf3ea4f0e1c2279488dbd0b2bf4b87357f",
+        "bytes": 32725,
+        "source": "research_notes/2026-09-08/japanese_original_bridge_v2/analysis-v1/formal-v1/SUMMARY.json",
+        "source_sha256": "ea668ce5995c5527d40ac71c32bd46cf3ea4f0e1c2279488dbd0b2bf4b87357f",
+        "byte_identical": false,
+        "omissions": []
+      }
+    },
+    {
+      "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B13/ALL-POSITIONS.json",
+      "sha256": "a6abcce3a16d265802b2081409f3c31ebd339dfca627a745ef298aa21a8d096d",
+      "bytes": 904800,
+      "source_provenance": {
+        "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B13/ALL-POSITIONS.json",
+        "sha256": "a6abcce3a16d265802b2081409f3c31ebd339dfca627a745ef298aa21a8d096d",
+        "bytes": 904800,
+        "source": "research_notes/2026-09-08/single_identity_inventory_v1/ALL-POSITIONS.json",
+        "source_sha256": "a6abcce3a16d265802b2081409f3c31ebd339dfca627a745ef298aa21a8d096d",
+        "byte_identical": false,
+        "omissions": []
+      }
+    },
+    {
+      "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B13/CACHE24.json",
+      "sha256": "404ab3ab9b3cc9fb4529acfc861d6249289130804acf07297161b79a4352c5c9",
+      "bytes": 254540,
+      "source_provenance": {
+        "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B13/CACHE24.json",
+        "sha256": "404ab3ab9b3cc9fb4529acfc861d6249289130804acf07297161b79a4352c5c9",
+        "bytes": 254540,
+        "source": "research_notes/2026-09-08/single_identity_inventory_v1/CACHE24.json",
+        "source_sha256": "18144a89202993f85b24d3b4503914a2082fda159cfd9a084db8b8b6c7cebbef",
+        "byte_identical": false,
+        "omissions": [
+          {
+            "field": "/0/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/1/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/2/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/3/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/4/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/5/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/6/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/7/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/8/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/9/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/10/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/11/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/12/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/13/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/14/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/15/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/16/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/17/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/18/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/19/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/20/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/21/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/22/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/23/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          }
+        ]
+      }
+    },
+    {
+      "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B13/CALL-PLAN.json",
+      "sha256": "2b1ff216be9ceabafdf4c1c6fadca58cb99607d6451c11adf89dcd418ac164cd",
+      "bytes": 846078,
+      "source_provenance": {
+        "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B13/CALL-PLAN.json",
+        "sha256": "2b1ff216be9ceabafdf4c1c6fadca58cb99607d6451c11adf89dcd418ac164cd",
+        "bytes": 846078,
+        "source": "research_notes/2026-09-08/single_identity_inventory_v1/CALL-PLAN.json",
+        "source_sha256": "2b1ff216be9ceabafdf4c1c6fadca58cb99607d6451c11adf89dcd418ac164cd",
+        "byte_identical": false,
+        "omissions": []
+      }
+    },
+    {
+      "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B13/INFERENCE-SPEC.PUBLIC.json",
+      "sha256": "ba2ca93ab060ba3d993d2ce967e113f1a8eacd947880007197f1b839cca84117",
+      "bytes": 7720,
+      "source_provenance": {
+        "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B13/INFERENCE-SPEC.PUBLIC.json",
+        "sha256": "ba2ca93ab060ba3d993d2ce967e113f1a8eacd947880007197f1b839cca84117",
+        "bytes": 7720,
+        "source": "research_notes/2026-09-08/single_identity_inventory_v1/execution-v1/TECHNICAL-SPEC.json",
+        "source_sha256": "846f0262f921293c13d7f38c4f06d7d3815de1da0d430318ea8b2dc411c7b4a4",
+        "byte_identical": false,
+        "omissions": [
+          {
+            "field": "/runtime_python",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/models/0/snapshot",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/models/1/snapshot",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          }
+        ]
+      }
+    },
+    {
+      "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B13/NEW-RAW-RESPONSES.json",
+      "sha256": "89d7188a1c1e5001a6aadcbe789d145ed442efe619e04137f0caee4d436892ae",
+      "bytes": 3195507,
+      "source_provenance": {
+        "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B13/NEW-RAW-RESPONSES.json",
+        "sha256": "89d7188a1c1e5001a6aadcbe789d145ed442efe619e04137f0caee4d436892ae",
+        "bytes": 3195507,
+        "source": "research_notes/2026-09-08/single_identity_inventory_v1/analysis-v1/RAW-RESPONSES.json",
+        "source_sha256": "89d7188a1c1e5001a6aadcbe789d145ed442efe619e04137f0caee4d436892ae",
+        "byte_identical": true,
+        "omissions": []
+      }
+    },
+    {
+      "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B13/PAIRED-PLAN.json",
+      "sha256": "fd4a591f2cd4f82ea028f7c92aac3eb7d8229af6b22c33c3dc2a917ceef4f6cc",
+      "bytes": 291587,
+      "source_provenance": {
+        "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B13/PAIRED-PLAN.json",
+        "sha256": "fd4a591f2cd4f82ea028f7c92aac3eb7d8229af6b22c33c3dc2a917ceef4f6cc",
+        "bytes": 291587,
+        "source": "research_notes/2026-09-08/single_identity_inventory_v1/PAIRED-PLAN.json",
+        "source_sha256": "fd4a591f2cd4f82ea028f7c92aac3eb7d8229af6b22c33c3dc2a917ceef4f6cc",
+        "byte_identical": false,
+        "omissions": []
+      }
+    },
+    {
+      "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B13/PREDECLARED-SCIENTIFIC-METHODS.zh-CN.md",
+      "sha256": "4f6fdd999866cb774a248bd7e72764fd2ef5d85cde155fb30c3312c4ec063028",
+      "bytes": 6307,
+      "source_provenance": {
+        "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B13/PREDECLARED-SCIENTIFIC-METHODS.zh-CN.md",
+        "source": "research_notes/2026-09-08/single_identity_inventory_v1/COORDINATOR-SPEC.zh-CN.md",
+        "source_sha256": "02a08f51109d7d059079da99158b057f7bf3cbb6990c6973f8ce216bedef452a",
+        "sha256": "4f6fdd999866cb774a248bd7e72764fd2ef5d85cde155fb30c3312c4ec063028",
+        "transformation": "Verbatim scientific section range plus disclosure header",
+        "start_heading": "## 输入、控制",
+        "stop_heading": "## 运行、预算"
+      }
+    },
+    {
+      "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B13/SCIENTIFIC-RESULT-EXTRACT.zh-CN.md",
+      "sha256": "a8204dcf7688b084f14910bdf8397569c36be81c0a53378d9f16e8d74a047c51",
+      "bytes": 7993,
+      "source_provenance": {
+        "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B13/SCIENTIFIC-RESULT-EXTRACT.zh-CN.md",
+        "source": "research_notes/2026-09-08/single_identity_inventory_v1/analysis-v1/COORDINATOR-RESULT.zh-CN.md",
+        "source_sha256": "f2da861ad21470075b1621d98f93036ef3d75436c60c33a27081dc5b29086845",
+        "sha256": "a8204dcf7688b084f14910bdf8397569c36be81c0a53378d9f16e8d74a047c51",
+        "transformation": "Verbatim science report prefix plus disclosure header; final collaboration section omitted where specified",
+        "stop_heading": null
+      }
+    },
+    {
+      "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B13/SCORING-REFERENCE.json",
+      "sha256": "c419d06140eb57bfaf08ecaef404c85118c341318045ed66d5ca5408d4e96890",
+      "bytes": 78147,
+      "source_provenance": {
+        "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B13/SCORING-REFERENCE.json",
+        "sha256": "c419d06140eb57bfaf08ecaef404c85118c341318045ed66d5ca5408d4e96890",
+        "bytes": 78147,
+        "source": "research_notes/2026-09-08/single_identity_inventory_v1/SCORING-REFERENCE.json",
+        "source_sha256": "c419d06140eb57bfaf08ecaef404c85118c341318045ed66d5ca5408d4e96890",
+        "byte_identical": false,
+        "omissions": []
+      }
+    },
+    {
+      "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B13/SOURCE-REFERENCE.json",
+      "sha256": "b107583199d78a55f4dc556dfd0b1ca955db4c7d156ab1740c50312602071afd",
+      "bytes": 188567,
+      "source_provenance": {
+        "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B13/SOURCE-REFERENCE.json",
+        "sha256": "b107583199d78a55f4dc556dfd0b1ca955db4c7d156ab1740c50312602071afd",
+        "bytes": 188567,
+        "source": "research_notes/2026-09-08/single_identity_inventory_v1/SOURCE-REFERENCE.json",
+        "source_sha256": "b107583199d78a55f4dc556dfd0b1ca955db4c7d156ab1740c50312602071afd",
+        "byte_identical": false,
+        "omissions": []
+      }
+    },
+    {
+      "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B13/formal-v1/ALL-NONC-OR-NONCOMPLIANT.json",
+      "sha256": "8f4b1742b037c70a9af6b528d1da62d21095b53e720b8c69f20adff9b5db48e6",
+      "bytes": 83961,
+      "source_provenance": {
+        "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B13/formal-v1/ALL-NONC-OR-NONCOMPLIANT.json",
+        "sha256": "8f4b1742b037c70a9af6b528d1da62d21095b53e720b8c69f20adff9b5db48e6",
+        "bytes": 83961,
+        "source": "research_notes/2026-09-08/single_identity_inventory_v1/analysis-v1/formal-v1/ALL-NONC-OR-NONCOMPLIANT.json",
+        "source_sha256": "8f4b1742b037c70a9af6b528d1da62d21095b53e720b8c69f20adff9b5db48e6",
+        "byte_identical": false,
+        "omissions": []
+      }
+    },
+    {
+      "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B13/formal-v1/PAIRS.json",
+      "sha256": "3f4fc21e9a83c9365264dabf5c9a76875f9c15bc74d30826ad1623cf7f8209fd",
+      "bytes": 1369945,
+      "source_provenance": {
+        "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B13/formal-v1/PAIRS.json",
+        "sha256": "3f4fc21e9a83c9365264dabf5c9a76875f9c15bc74d30826ad1623cf7f8209fd",
+        "bytes": 1369945,
+        "source": "research_notes/2026-09-08/single_identity_inventory_v1/analysis-v1/formal-v1/PAIRS.json",
+        "source_sha256": "3f4fc21e9a83c9365264dabf5c9a76875f9c15bc74d30826ad1623cf7f8209fd",
+        "byte_identical": false,
+        "omissions": []
+      }
+    },
+    {
+      "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B13/formal-v1/SCORES.AI.json",
+      "sha256": "ac89f0a7bf83e7d5286e75aa9fd9fd3249546100b5b00158430121a7a8a3acbb",
+      "bytes": 2223209,
+      "source_provenance": {
+        "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B13/formal-v1/SCORES.AI.json",
+        "sha256": "ac89f0a7bf83e7d5286e75aa9fd9fd3249546100b5b00158430121a7a8a3acbb",
+        "bytes": 2223209,
+        "source": "research_notes/2026-09-08/single_identity_inventory_v1/analysis-v1/formal-v1/SCORES.AI.json",
+        "source_sha256": "ac89f0a7bf83e7d5286e75aa9fd9fd3249546100b5b00158430121a7a8a3acbb",
+        "byte_identical": false,
+        "omissions": []
+      }
+    },
+    {
+      "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B13/formal-v1/SUMMARY.json",
+      "sha256": "1d479e1bd472aee87ed9f8a8eb2c3df2246cc1558d2e06b14e80b3b02bcc6197",
+      "bytes": 16235,
+      "source_provenance": {
+        "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B13/formal-v1/SUMMARY.json",
+        "sha256": "1d479e1bd472aee87ed9f8a8eb2c3df2246cc1558d2e06b14e80b3b02bcc6197",
+        "bytes": 16235,
+        "source": "research_notes/2026-09-08/single_identity_inventory_v1/analysis-v1/formal-v1/SUMMARY.json",
+        "source_sha256": "1d479e1bd472aee87ed9f8a8eb2c3df2246cc1558d2e06b14e80b3b02bcc6197",
+        "byte_identical": false,
+        "omissions": []
+      }
+    },
+    {
+      "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B14/BASELINE-CACHE.json",
+      "sha256": "c6dd2066a35956b56e9623d76fcee8fbd906fae86e38eb69f09b0ae314875a29",
+      "bytes": 3134933,
+      "source_provenance": {
+        "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B14/BASELINE-CACHE.json",
+        "sha256": "c6dd2066a35956b56e9623d76fcee8fbd906fae86e38eb69f09b0ae314875a29",
+        "bytes": 3134933,
+        "source": "research_notes/2026-09-08/reversible_name_normalization_v1/BASELINE-CACHE.json",
+        "source_sha256": "b49352e1bd5c468d59cf6479f15816de6a9cbdd300135732e7ec8dc2d2f42c97",
+        "byte_identical": false,
+        "omissions": [
+          {
+            "field": "/0/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/1/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/2/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/3/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/4/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/5/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/6/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/7/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/8/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/9/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/10/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/11/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/12/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/13/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/14/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/15/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/16/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/17/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/18/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/19/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/20/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/21/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/22/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/23/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/24/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/25/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/26/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/27/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/28/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/29/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/30/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/31/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/32/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/33/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/34/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/35/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/36/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/37/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/38/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/39/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/40/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/41/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/42/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/43/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/44/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/45/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/46/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/47/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/48/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/49/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/50/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/51/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/52/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/53/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/54/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/55/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/56/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/57/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/58/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/59/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/60/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/61/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/62/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/63/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/64/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/65/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/66/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/67/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/68/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/69/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/70/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/71/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/72/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/73/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/74/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/75/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/76/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/77/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/78/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/79/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/80/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/81/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/82/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/83/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/84/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/85/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/86/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/87/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/88/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/89/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/90/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/91/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/92/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/93/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/94/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/95/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/96/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/97/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/98/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/99/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/100/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/101/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/102/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/103/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/104/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/105/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/106/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/107/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/108/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/109/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/110/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/111/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/112/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/113/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/114/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/115/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/116/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/117/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/118/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/119/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/120/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/121/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/122/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/123/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/124/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/125/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/126/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/127/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/128/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/129/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/130/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/131/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/132/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/133/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/134/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/135/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/136/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/137/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/138/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/139/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/140/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/141/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/142/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/143/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/144/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/145/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/146/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/147/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/148/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/149/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/150/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/151/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/152/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/153/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/154/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/155/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/156/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/157/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/158/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/159/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/160/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/161/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/162/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/163/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/164/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/165/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/166/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/167/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/168/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/169/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/170/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/171/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/172/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/173/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/174/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/175/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/176/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/177/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/178/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/179/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/180/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/181/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/182/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/183/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/184/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/185/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/186/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/187/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/188/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/189/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/190/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/191/prior_raw_file",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          }
+        ]
+      }
+    },
+    {
+      "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B14/BASELINE-CALLS.json",
+      "sha256": "0bee45006176d6a29dce66ac129b84f714cebb68143d3285ade103ba68ab18bc",
+      "bytes": 436195,
+      "source_provenance": {
+        "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B14/BASELINE-CALLS.json",
+        "sha256": "0bee45006176d6a29dce66ac129b84f714cebb68143d3285ade103ba68ab18bc",
+        "bytes": 436195,
+        "source": "research_notes/2026-09-08/reversible_name_normalization_v1/BASELINE-CALLS.json",
+        "source_sha256": "0bee45006176d6a29dce66ac129b84f714cebb68143d3285ade103ba68ab18bc",
+        "byte_identical": false,
+        "omissions": []
+      }
+    },
+    {
+      "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B14/CALL-PLAN.json",
+      "sha256": "60b9efa329c03889a7155e4a0034729b203097a675fbd5648f8ec881116a9e47",
+      "bytes": 100847,
+      "source_provenance": {
+        "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B14/CALL-PLAN.json",
+        "sha256": "60b9efa329c03889a7155e4a0034729b203097a675fbd5648f8ec881116a9e47",
+        "bytes": 100847,
+        "source": "research_notes/2026-09-08/reversible_name_normalization_v1/CALL-PLAN.json",
+        "source_sha256": "60b9efa329c03889a7155e4a0034729b203097a675fbd5648f8ec881116a9e47",
+        "byte_identical": false,
+        "omissions": []
+      }
+    },
+    {
+      "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B14/INFERENCE-SPEC.PUBLIC.json",
+      "sha256": "e754f0bfa904bec0a41385848f2c54e7baad2ebd1dfa55033cc01d2ff4b60686",
+      "bytes": 4951,
+      "source_provenance": {
+        "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B14/INFERENCE-SPEC.PUBLIC.json",
+        "sha256": "e754f0bfa904bec0a41385848f2c54e7baad2ebd1dfa55033cc01d2ff4b60686",
+        "bytes": 4951,
+        "source": "research_notes/2026-09-08/reversible_name_normalization_v1/execution-v1/TECHNICAL-SPEC.json",
+        "source_sha256": "cc1e1cb995c83ba3cd7e8510b8771580961634c7da2c5f4db90782651632af97",
+        "byte_identical": false,
+        "omissions": [
+          {
+            "field": "/runtime_python",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/models/0/snapshot",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/models/1/snapshot",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          }
+        ]
+      }
+    },
+    {
+      "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B14/METHOD-PLAN.json",
+      "sha256": "3422960b44596757c8897e6d7f0dd9d170b7bd0a589f8947ba69969ff85aaeb1",
+      "bytes": 64131,
+      "source_provenance": {
+        "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B14/METHOD-PLAN.json",
+        "sha256": "3422960b44596757c8897e6d7f0dd9d170b7bd0a589f8947ba69969ff85aaeb1",
+        "bytes": 64131,
+        "source": "research_notes/2026-09-08/reversible_name_normalization_v1/METHOD-PLAN.json",
+        "source_sha256": "3422960b44596757c8897e6d7f0dd9d170b7bd0a589f8947ba69969ff85aaeb1",
+        "byte_identical": false,
+        "omissions": []
+      }
+    },
+    {
+      "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B14/NEW-RAW-RESPONSES.json",
+      "sha256": "0c52512a4c9da71f35a9a69d52a3c8ed9e46c1294b6d2924a1e81b5bacf7e1c2",
+      "bytes": 415047,
+      "source_provenance": {
+        "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B14/NEW-RAW-RESPONSES.json",
+        "sha256": "0c52512a4c9da71f35a9a69d52a3c8ed9e46c1294b6d2924a1e81b5bacf7e1c2",
+        "bytes": 415047,
+        "source": "research_notes/2026-09-08/reversible_name_normalization_v1/analysis-v1/RAW-RESPONSES.json",
+        "source_sha256": "0c52512a4c9da71f35a9a69d52a3c8ed9e46c1294b6d2924a1e81b5bacf7e1c2",
+        "byte_identical": true,
+        "omissions": []
+      }
+    },
+    {
+      "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B14/NORMALIZED-CALLS.json",
+      "sha256": "2677643503b2c4c34d175497069308d5e4879ac3909ac91b2d778fd68b233284",
+      "bytes": 97378,
+      "source_provenance": {
+        "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B14/NORMALIZED-CALLS.json",
+        "sha256": "2677643503b2c4c34d175497069308d5e4879ac3909ac91b2d778fd68b233284",
+        "bytes": 97378,
+        "source": "research_notes/2026-09-08/reversible_name_normalization_v1/NORMALIZED-CALLS.json",
+        "source_sha256": "2677643503b2c4c34d175497069308d5e4879ac3909ac91b2d778fd68b233284",
+        "byte_identical": false,
+        "omissions": []
+      }
+    },
+    {
+      "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B14/PAIRED-PLAN.json",
+      "sha256": "391936f7a8e7acbd02a5f5ea254b573a6d580e50a2e57e6cdab25785d28714ce",
+      "bytes": 216579,
+      "source_provenance": {
+        "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B14/PAIRED-PLAN.json",
+        "sha256": "391936f7a8e7acbd02a5f5ea254b573a6d580e50a2e57e6cdab25785d28714ce",
+        "bytes": 216579,
+        "source": "research_notes/2026-09-08/reversible_name_normalization_v1/PAIRED-PLAN.json",
+        "source_sha256": "391936f7a8e7acbd02a5f5ea254b573a6d580e50a2e57e6cdab25785d28714ce",
+        "byte_identical": false,
+        "omissions": []
+      }
+    },
+    {
+      "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B14/PREDECLARED-SCIENTIFIC-METHODS.zh-CN.md",
+      "sha256": "32aeab3566eb7d9276cead473c72ef0c8a65ea33b8a3b704b4df310715596813",
+      "bytes": 6306,
+      "source_provenance": {
+        "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B14/PREDECLARED-SCIENTIFIC-METHODS.zh-CN.md",
+        "source": "research_notes/2026-09-08/reversible_name_normalization_v1/EXPERIMENT-SPEC.zh-CN.md",
+        "source_sha256": "c05fe824efd515fffbd3abc17ca2ba66485cfbb741c289bdecd4cc3d12d4d4a5",
+        "sha256": "32aeab3566eb7d9276cead473c72ef0c8a65ea33b8a3b704b4df310715596813",
+        "transformation": "Verbatim scientific headings between research question and execution section"
+      }
+    },
+    {
+      "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B14/RUN-SPEC.json",
+      "sha256": "d9dc83ffeebd37af7a7f2635403d92827bf27fb50604221933f3ba722e3db91e",
+      "bytes": 1512,
+      "source_provenance": {
+        "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B14/RUN-SPEC.json",
+        "sha256": "d9dc83ffeebd37af7a7f2635403d92827bf27fb50604221933f3ba722e3db91e",
+        "bytes": 1512,
+        "source": "research_notes/2026-09-08/reversible_name_normalization_v1/RUN-SPEC.json",
+        "source_sha256": "1eec8d32fbc5e75e2052474ae50147b6554a2114ce16dec7afc6d74af5e4bb0a",
+        "byte_identical": false,
+        "omissions": [
+          {
+            "field": "/human_prediction",
+            "reason": "private collaboration or execution metadata omitted"
+          }
+        ]
+      }
+    },
+    {
+      "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B14/SCIENTIFIC-RESULT-EXTRACT.zh-CN.md",
+      "sha256": "cdab96c8dd991a4e9285e23183e4099804efadc06b562ad885707fcf9eb417a1",
+      "bytes": 5951,
+      "source_provenance": {
+        "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B14/SCIENTIFIC-RESULT-EXTRACT.zh-CN.md",
+        "source": "research_notes/2026-09-08/reversible_name_normalization_v1/analysis-v1/COORDINATOR-RESULT.zh-CN.md",
+        "source_sha256": "b3cc3cecfea292eda1a23de39d0f59b76141b12881e6ca25833828a9ee481e31",
+        "sha256": "cdab96c8dd991a4e9285e23183e4099804efadc06b562ad885707fcf9eb417a1",
+        "transformation": "Verbatim science report prefix plus disclosure header; final collaboration section omitted",
+        "stop_heading": "## 后续和交付"
+      }
+    },
+    {
+      "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B14/SCORING-REFERENCE.json",
+      "sha256": "5faef2b268b4d496d32c35be769e5c844262ee60fa93f0dff1f1525d392a2e34",
+      "bytes": 181060,
+      "source_provenance": {
+        "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B14/SCORING-REFERENCE.json",
+        "sha256": "5faef2b268b4d496d32c35be769e5c844262ee60fa93f0dff1f1525d392a2e34",
+        "bytes": 181060,
+        "source": "research_notes/2026-09-08/reversible_name_normalization_v1/SCORING-REFERENCE.json",
+        "source_sha256": "5faef2b268b4d496d32c35be769e5c844262ee60fa93f0dff1f1525d392a2e34",
+        "byte_identical": false,
+        "omissions": []
+      }
+    },
+    {
+      "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B14/SOURCE-REFERENCE.json",
+      "sha256": "b107583199d78a55f4dc556dfd0b1ca955db4c7d156ab1740c50312602071afd",
+      "bytes": 188567,
+      "source_provenance": {
+        "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B14/SOURCE-REFERENCE.json",
+        "sha256": "b107583199d78a55f4dc556dfd0b1ca955db4c7d156ab1740c50312602071afd",
+        "bytes": 188567,
+        "source": "research_notes/2026-09-08/reversible_name_normalization_v1/SOURCE-REFERENCE.json",
+        "source_sha256": "b107583199d78a55f4dc556dfd0b1ca955db4c7d156ab1740c50312602071afd",
+        "byte_identical": false,
+        "omissions": []
+      }
+    },
+    {
+      "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B14/TRANSFORM-PLAN.json",
+      "sha256": "670eceb9dc5a27e939e7afa302788c74bf1558a53f761221266b6b6ee001838f",
+      "bytes": 667011,
+      "source_provenance": {
+        "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B14/TRANSFORM-PLAN.json",
+        "sha256": "670eceb9dc5a27e939e7afa302788c74bf1558a53f761221266b6b6ee001838f",
+        "bytes": 667011,
+        "source": "research_notes/2026-09-08/reversible_name_normalization_v1/TRANSFORM-PLAN.json",
+        "source_sha256": "670eceb9dc5a27e939e7afa302788c74bf1558a53f761221266b6b6ee001838f",
+        "byte_identical": false,
+        "omissions": []
+      }
+    },
+    {
+      "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B14/analyze_normalization.py",
+      "sha256": "34db090c40dd1eae90c3d81cf798e670a88146a90af88ee6cdf864086d576c8a",
+      "bytes": 8908,
+      "source_provenance": {
+        "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B14/analyze_normalization.py",
+        "source": "research_notes/2026-09-08/reversible_name_normalization_v1/analyze_normalization.py",
+        "source_sha256": "34db090c40dd1eae90c3d81cf798e670a88146a90af88ee6cdf864086d576c8a",
+        "sha256": "34db090c40dd1eae90c3d81cf798e670a88146a90af88ee6cdf864086d576c8a",
+        "byte_identical": true
+      }
+    },
+    {
+      "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B14/formal-v1/ALL-NONC-OR-NONCOMPLIANT.json",
+      "sha256": "76e3c6d51e238fd080daf64a5dd88ae61df3f7d2114111a3cb03e6b622b17250",
+      "bytes": 29051,
+      "source_provenance": {
+        "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B14/formal-v1/ALL-NONC-OR-NONCOMPLIANT.json",
+        "sha256": "76e3c6d51e238fd080daf64a5dd88ae61df3f7d2114111a3cb03e6b622b17250",
+        "bytes": 29051,
+        "source": "research_notes/2026-09-08/reversible_name_normalization_v1/analysis-v1/formal-v1/ALL-NONC-OR-NONCOMPLIANT.json",
+        "source_sha256": "76e3c6d51e238fd080daf64a5dd88ae61df3f7d2114111a3cb03e6b622b17250",
+        "byte_identical": false,
+        "omissions": []
+      }
+    },
+    {
+      "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B14/formal-v1/ALL-POSITIONS.AI.json",
+      "sha256": "3194bdf52400cd2da88bb6310f5c7dba18825d00c636f64ef0f7c7a78cb8f3f6",
+      "bytes": 4311571,
+      "source_provenance": {
+        "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B14/formal-v1/ALL-POSITIONS.AI.json",
+        "sha256": "3194bdf52400cd2da88bb6310f5c7dba18825d00c636f64ef0f7c7a78cb8f3f6",
+        "bytes": 4311571,
+        "source": "research_notes/2026-09-08/reversible_name_normalization_v1/analysis-v1/formal-v1/ALL-POSITIONS.AI.json",
+        "source_sha256": "3194bdf52400cd2da88bb6310f5c7dba18825d00c636f64ef0f7c7a78cb8f3f6",
+        "byte_identical": false,
+        "omissions": []
+      }
+    },
+    {
+      "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B14/formal-v1/BASELINES.AI.json",
+      "sha256": "01ae686e351de04363101250f8aed6b8aeb7b71375088555414b3cd5bc193825",
+      "bytes": 1103635,
+      "source_provenance": {
+        "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B14/formal-v1/BASELINES.AI.json",
+        "sha256": "01ae686e351de04363101250f8aed6b8aeb7b71375088555414b3cd5bc193825",
+        "bytes": 1103635,
+        "source": "research_notes/2026-09-08/reversible_name_normalization_v1/analysis-v1/formal-v1/BASELINES.AI.json",
+        "source_sha256": "01ae686e351de04363101250f8aed6b8aeb7b71375088555414b3cd5bc193825",
+        "byte_identical": false,
+        "omissions": []
+      }
+    },
+    {
+      "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B14/formal-v1/MAPPED.AI.json",
+      "sha256": "4e2a90c77076ab681135dff0cc0d4c745c16397b251e0cc7f1520a1c78736ee8",
+      "bytes": 2370755,
+      "source_provenance": {
+        "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B14/formal-v1/MAPPED.AI.json",
+        "sha256": "4e2a90c77076ab681135dff0cc0d4c745c16397b251e0cc7f1520a1c78736ee8",
+        "bytes": 2370755,
+        "source": "research_notes/2026-09-08/reversible_name_normalization_v1/analysis-v1/formal-v1/MAPPED.AI.json",
+        "source_sha256": "4e2a90c77076ab681135dff0cc0d4c745c16397b251e0cc7f1520a1c78736ee8",
+        "byte_identical": false,
+        "omissions": []
+      }
+    },
+    {
+      "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B14/formal-v1/METHOD.AI.json",
+      "sha256": "44e86e8d2df7bb593aaf6a3bdcdbed3adf23365b9458cd126788fe05df8e5557",
+      "bytes": 837187,
+      "source_provenance": {
+        "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B14/formal-v1/METHOD.AI.json",
+        "sha256": "44e86e8d2df7bb593aaf6a3bdcdbed3adf23365b9458cd126788fe05df8e5557",
+        "bytes": 837187,
+        "source": "research_notes/2026-09-08/reversible_name_normalization_v1/analysis-v1/formal-v1/METHOD.AI.json",
+        "source_sha256": "44e86e8d2df7bb593aaf6a3bdcdbed3adf23365b9458cd126788fe05df8e5557",
+        "byte_identical": false,
+        "omissions": []
+      }
+    },
+    {
+      "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B14/formal-v1/NORMALIZED-NONC-OR-NONCOMPLIANT.json",
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "bytes": 3,
+      "source_provenance": {
+        "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B14/formal-v1/NORMALIZED-NONC-OR-NONCOMPLIANT.json",
+        "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+        "bytes": 3,
+        "source": "research_notes/2026-09-08/reversible_name_normalization_v1/analysis-v1/formal-v1/NORMALIZED-NONC-OR-NONCOMPLIANT.json",
+        "source_sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+        "byte_identical": false,
+        "omissions": []
+      }
+    },
+    {
+      "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B14/formal-v1/NORMALIZED-UNIQUE.AI.json",
+      "sha256": "2a6d34cfb59411ee218741c7cbae9f96c0f2b59760d37a1ce58d980689988463",
+      "bytes": 264298,
+      "source_provenance": {
+        "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B14/formal-v1/NORMALIZED-UNIQUE.AI.json",
+        "sha256": "2a6d34cfb59411ee218741c7cbae9f96c0f2b59760d37a1ce58d980689988463",
+        "bytes": 264298,
+        "source": "research_notes/2026-09-08/reversible_name_normalization_v1/analysis-v1/formal-v1/NORMALIZED-UNIQUE.AI.json",
+        "source_sha256": "2a6d34cfb59411ee218741c7cbae9f96c0f2b59760d37a1ce58d980689988463",
+        "byte_identical": false,
+        "omissions": []
+      }
+    },
+    {
+      "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B14/formal-v1/PAIRS.json",
+      "sha256": "be76888d9f07b9c0ab0c24b5fb4d9ff08314559ab304de63bb365ad98c983fe2",
+      "bytes": 849283,
+      "source_provenance": {
+        "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B14/formal-v1/PAIRS.json",
+        "sha256": "be76888d9f07b9c0ab0c24b5fb4d9ff08314559ab304de63bb365ad98c983fe2",
+        "bytes": 849283,
+        "source": "research_notes/2026-09-08/reversible_name_normalization_v1/analysis-v1/formal-v1/PAIRS.json",
+        "source_sha256": "be76888d9f07b9c0ab0c24b5fb4d9ff08314559ab304de63bb365ad98c983fe2",
+        "byte_identical": false,
+        "omissions": []
+      }
+    },
+    {
+      "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B14/formal-v1/SUMMARY.json",
+      "sha256": "8233b2dee3d37cc811ba8004cc2b65718a1f776409820a67224923354c5f10b6",
+      "bytes": 17308,
+      "source_provenance": {
+        "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B14/formal-v1/SUMMARY.json",
+        "sha256": "8233b2dee3d37cc811ba8004cc2b65718a1f776409820a67224923354c5f10b6",
+        "bytes": 17308,
+        "source": "research_notes/2026-09-08/reversible_name_normalization_v1/analysis-v1/formal-v1/SUMMARY.json",
+        "source_sha256": "8233b2dee3d37cc811ba8004cc2b65718a1f776409820a67224923354c5f10b6",
+        "byte_identical": false,
+        "omissions": []
+      }
+    },
+    {
+      "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B14/pure_method.py",
+      "sha256": "ef39a66e368c5b8545e71e4c2eb91c75e30f162d1867a99ef93a6c44ab853000",
+      "bytes": 3593,
+      "source_provenance": {
+        "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B14/pure_method.py",
+        "source": "research_notes/2026-09-08/reversible_name_normalization_v1/pure_method.py",
+        "source_sha256": "ef39a66e368c5b8545e71e4c2eb91c75e30f162d1867a99ef93a6c44ab853000",
+        "sha256": "ef39a66e368c5b8545e71e4c2eb91c75e30f162d1867a99ef93a6c44ab853000",
+        "byte_identical": true
+      }
+    },
+    {
+      "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B14/score_b09.py",
+      "sha256": "369ef17a3e221ecebb4c9a196216c523def464b60e3deb7b5bba6ff18f1ae567",
+      "bytes": 5849,
+      "source_provenance": {
+        "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B14/score_b09.py",
+        "source": "research_notes/2026-09-08/reversible_name_normalization_v1/score_b09.py",
+        "source_sha256": "369ef17a3e221ecebb4c9a196216c523def464b60e3deb7b5bba6ff18f1ae567",
+        "sha256": "369ef17a3e221ecebb4c9a196216c523def464b60e3deb7b5bba6ff18f1ae567",
+        "byte_identical": true
+      }
+    },
+    {
+      "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B14/score_b13_v2.py",
+      "sha256": "98ee86eac05f023af6c7f2022f9127234115f75871e7a0e038d33ad79ef9dd3b",
+      "bytes": 7366,
+      "source_provenance": {
+        "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B14/score_b13_v2.py",
+        "source": "research_notes/2026-09-08/reversible_name_normalization_v1/score_b13_v2.py",
+        "source_sha256": "98ee86eac05f023af6c7f2022f9127234115f75871e7a0e038d33ad79ef9dd3b",
+        "sha256": "98ee86eac05f023af6c7f2022f9127234115f75871e7a0e038d33ad79ef9dd3b",
+        "byte_identical": true
+      }
+    },
+    {
+      "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B15/BASELINE-CACHE.json",
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "bytes": 3,
+      "source_provenance": {
+        "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B15/BASELINE-CACHE.json",
+        "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+        "bytes": 3,
+        "source": "research_notes/2026-09-08/new_event_normalization_transfer_v1/BASELINE-CACHE.json",
+        "source_sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+        "byte_identical": false,
+        "omissions": []
+      }
+    },
+    {
+      "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B15/BASELINE-CALLS.json",
+      "sha256": "68114eebdb50ec9b13620355adec4c89be0d1e4f3887fc8f61fb1cc9dfdca86e",
+      "bytes": 429274,
+      "source_provenance": {
+        "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B15/BASELINE-CALLS.json",
+        "sha256": "68114eebdb50ec9b13620355adec4c89be0d1e4f3887fc8f61fb1cc9dfdca86e",
+        "bytes": 429274,
+        "source": "research_notes/2026-09-08/new_event_normalization_transfer_v1/BASELINE-CALLS.json",
+        "source_sha256": "68114eebdb50ec9b13620355adec4c89be0d1e4f3887fc8f61fb1cc9dfdca86e",
+        "byte_identical": false,
+        "omissions": []
+      }
+    },
+    {
+      "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B15/CALL-PLAN.json",
+      "sha256": "fd95cc1f4467aae33b5db2751bec565325505d754edf0040283dbb1fb54fff77",
+      "bytes": 647860,
+      "source_provenance": {
+        "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B15/CALL-PLAN.json",
+        "sha256": "fd95cc1f4467aae33b5db2751bec565325505d754edf0040283dbb1fb54fff77",
+        "bytes": 647860,
+        "source": "research_notes/2026-09-08/new_event_normalization_transfer_v1/CALL-PLAN.json",
+        "source_sha256": "fd95cc1f4467aae33b5db2751bec565325505d754edf0040283dbb1fb54fff77",
+        "byte_identical": false,
+        "omissions": []
+      }
+    },
+    {
+      "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B15/INFERENCE-SPEC.PUBLIC.json",
+      "sha256": "b5338eb6956b7e32b7b64c7bae698de1339ca07f2e43b27de9266f748ab8bc58",
+      "bytes": 7064,
+      "source_provenance": {
+        "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B15/INFERENCE-SPEC.PUBLIC.json",
+        "sha256": "b5338eb6956b7e32b7b64c7bae698de1339ca07f2e43b27de9266f748ab8bc58",
+        "bytes": 7064,
+        "source": "research_notes/2026-09-08/new_event_normalization_transfer_v1/execution-v1/TECHNICAL-SPEC.json",
+        "source_sha256": "f27b72066d52b722c09be18bcfc967bf542c401420872e6942f80e36aade88fc",
+        "byte_identical": false,
+        "omissions": [
+          {
+            "field": "/runtime_python",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/models/0/snapshot",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          },
+          {
+            "field": "/models/1/snapshot",
+            "reason": "local source location or execution detail omitted; source hash retained where available"
+          }
+        ]
+      }
+    },
+    {
+      "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B15/METHOD-PLAN.json",
+      "sha256": "59209394c6dc02f75c9243028f02c46a45664b38be5838dafe01eaab96ecc6f7",
+      "bytes": 64131,
+      "source_provenance": {
+        "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B15/METHOD-PLAN.json",
+        "sha256": "59209394c6dc02f75c9243028f02c46a45664b38be5838dafe01eaab96ecc6f7",
+        "bytes": 64131,
+        "source": "research_notes/2026-09-08/new_event_normalization_transfer_v1/METHOD-PLAN.json",
+        "source_sha256": "59209394c6dc02f75c9243028f02c46a45664b38be5838dafe01eaab96ecc6f7",
+        "byte_identical": false,
+        "omissions": []
+      }
+    },
+    {
+      "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B15/NEW-RAW-RESPONSES.json",
+      "sha256": "a58a01e105c579b94c42f448e09ebc42091c16aacd5c9f827afe8a0d00f53331",
+      "bytes": 2504028,
+      "source_provenance": {
+        "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B15/NEW-RAW-RESPONSES.json",
+        "sha256": "a58a01e105c579b94c42f448e09ebc42091c16aacd5c9f827afe8a0d00f53331",
+        "bytes": 2504028,
+        "source": "research_notes/2026-09-08/new_event_normalization_transfer_v1/analysis-v1/RAW-RESPONSES.json",
+        "source_sha256": "a58a01e105c579b94c42f448e09ebc42091c16aacd5c9f827afe8a0d00f53331",
+        "byte_identical": true,
+        "omissions": []
+      }
+    },
+    {
+      "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B15/NORMALIZED-CALLS.json",
+      "sha256": "6aa6523752e1c6f6a5abe4505c5bb4d164921d317a1f5f2d74af30633e4a642f",
+      "bytes": 192848,
+      "source_provenance": {
+        "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B15/NORMALIZED-CALLS.json",
+        "sha256": "6aa6523752e1c6f6a5abe4505c5bb4d164921d317a1f5f2d74af30633e4a642f",
+        "bytes": 192848,
+        "source": "research_notes/2026-09-08/new_event_normalization_transfer_v1/NORMALIZED-CALLS.json",
+        "source_sha256": "6aa6523752e1c6f6a5abe4505c5bb4d164921d317a1f5f2d74af30633e4a642f",
+        "byte_identical": false,
+        "omissions": []
+      }
+    },
+    {
+      "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B15/PAIRED-PLAN.json",
+      "sha256": "ac29ef7ed040b5e05a3e61cdd754af94c3b9349402ad2723792e84b6ff2e5251",
+      "bytes": 216579,
+      "source_provenance": {
+        "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B15/PAIRED-PLAN.json",
+        "sha256": "ac29ef7ed040b5e05a3e61cdd754af94c3b9349402ad2723792e84b6ff2e5251",
+        "bytes": 216579,
+        "source": "research_notes/2026-09-08/new_event_normalization_transfer_v1/PAIRED-PLAN.json",
+        "source_sha256": "ac29ef7ed040b5e05a3e61cdd754af94c3b9349402ad2723792e84b6ff2e5251",
+        "byte_identical": false,
+        "omissions": []
+      }
+    },
+    {
+      "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B15/PREDECLARED-SCIENTIFIC-METHODS.zh-CN.md",
+      "sha256": "588bcfcf9f79df2b3e0d33be34bf028f6bf9e1c2e02f02981328ae0da0d800a7",
+      "bytes": 6644,
+      "source_provenance": {
+        "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B15/PREDECLARED-SCIENTIFIC-METHODS.zh-CN.md",
+        "source": "research_notes/2026-09-08/new_event_normalization_transfer_v1/EXPERIMENT-SPEC.zh-CN.md",
+        "source_sha256": "c8f8195c75f7ab5b0965980243ba599bb6c41824115c897cfc73233414d584fb",
+        "sha256": "588bcfcf9f79df2b3e0d33be34bf028f6bf9e1c2e02f02981328ae0da0d800a7",
+        "transformation": "Verbatim scientific headings between research question and execution section"
+      }
+    },
+    {
+      "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B15/RUN-SPEC.json",
+      "sha256": "8b54b9272e82b1c61a5ed59569cb58c1f99f1756f6add6608ec20131ca7f22e4",
+      "bytes": 1551,
+      "source_provenance": {
+        "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B15/RUN-SPEC.json",
+        "sha256": "8b54b9272e82b1c61a5ed59569cb58c1f99f1756f6add6608ec20131ca7f22e4",
+        "bytes": 1551,
+        "source": "research_notes/2026-09-08/new_event_normalization_transfer_v1/RUN-SPEC.json",
+        "source_sha256": "190e87ec6ae3ad22519e781744bb106b171f0dcd33f8689746a80d6aa7c213a1",
+        "byte_identical": false,
+        "omissions": [
+          {
+            "field": "/human_prediction",
+            "reason": "private collaboration or execution metadata omitted"
+          }
+        ]
+      }
+    },
+    {
+      "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B15/SCIENTIFIC-RESULT-EXTRACT.zh-CN.md",
+      "sha256": "c8b58ef5a156d4f2871e612ca413c7270caae0a0768cf2cce717cf7fdfa36b2e",
+      "bytes": 6365,
+      "source_provenance": {
+        "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B15/SCIENTIFIC-RESULT-EXTRACT.zh-CN.md",
+        "source": "research_notes/2026-09-08/new_event_normalization_transfer_v1/analysis-v1/COORDINATOR-RESULT.zh-CN.md",
+        "source_sha256": "76c9c79d8adf8f8a2503862ec4c073000b1d396c63b428d60a2965b9e1355070",
+        "sha256": "c8b58ef5a156d4f2871e612ca413c7270caae0a0768cf2cce717cf7fdfa36b2e",
+        "transformation": "Verbatim science report prefix plus disclosure header; final collaboration section omitted",
+        "stop_heading": "## 后续和交付"
+      }
+    },
+    {
+      "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B15/SCORING-REFERENCE.json",
+      "sha256": "61bf9d2c1909baa7a7a41fb120beab05f20f1dd2ba47f48891dc1c285d9bd27c",
+      "bytes": 190420,
+      "source_provenance": {
+        "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B15/SCORING-REFERENCE.json",
+        "sha256": "61bf9d2c1909baa7a7a41fb120beab05f20f1dd2ba47f48891dc1c285d9bd27c",
+        "bytes": 190420,
+        "source": "research_notes/2026-09-08/new_event_normalization_transfer_v1/SCORING-REFERENCE.json",
+        "source_sha256": "61bf9d2c1909baa7a7a41fb120beab05f20f1dd2ba47f48891dc1c285d9bd27c",
+        "byte_identical": false,
+        "omissions": []
+      }
+    },
+    {
+      "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B15/SOURCE-REFERENCE.json",
+      "sha256": "b4670059df53ba760d4de26c512cdb25b5f7156b335a08493aad07cc96456a31",
+      "bytes": 70763,
+      "source_provenance": {
+        "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B15/SOURCE-REFERENCE.json",
+        "sha256": "b4670059df53ba760d4de26c512cdb25b5f7156b335a08493aad07cc96456a31",
+        "bytes": 70763,
+        "source": "research_notes/2026-09-08/new_event_normalization_transfer_v1/SOURCE-REFERENCE.json",
+        "source_sha256": "b4670059df53ba760d4de26c512cdb25b5f7156b335a08493aad07cc96456a31",
+        "byte_identical": false,
+        "omissions": []
+      }
+    },
+    {
+      "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B15/TRANSFORM-PLAN.json",
+      "sha256": "e33b94471994d24ef56707fa43edc59309f52187bdc58c0bb145ea3bc0dda3b4",
+      "bytes": 659235,
+      "source_provenance": {
+        "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B15/TRANSFORM-PLAN.json",
+        "sha256": "e33b94471994d24ef56707fa43edc59309f52187bdc58c0bb145ea3bc0dda3b4",
+        "bytes": 659235,
+        "source": "research_notes/2026-09-08/new_event_normalization_transfer_v1/TRANSFORM-PLAN.json",
+        "source_sha256": "e33b94471994d24ef56707fa43edc59309f52187bdc58c0bb145ea3bc0dda3b4",
+        "byte_identical": false,
+        "omissions": []
+      }
+    },
+    {
+      "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B15/analyze_normalization.py",
+      "sha256": "34db090c40dd1eae90c3d81cf798e670a88146a90af88ee6cdf864086d576c8a",
+      "bytes": 8908,
+      "source_provenance": {
+        "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B15/analyze_normalization.py",
+        "source": "research_notes/2026-09-08/new_event_normalization_transfer_v1/analyze_normalization.py",
+        "source_sha256": "34db090c40dd1eae90c3d81cf798e670a88146a90af88ee6cdf864086d576c8a",
+        "sha256": "34db090c40dd1eae90c3d81cf798e670a88146a90af88ee6cdf864086d576c8a",
+        "byte_identical": true
+      }
+    },
+    {
+      "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B15/formal-v1/ALL-NONC-OR-NONCOMPLIANT.json",
+      "sha256": "9a3d419fa1b34b46e70aac23b654f92a4e0792b4e97e9af80ff5c6e90a8e5e7f",
+      "bytes": 24943,
+      "source_provenance": {
+        "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B15/formal-v1/ALL-NONC-OR-NONCOMPLIANT.json",
+        "sha256": "9a3d419fa1b34b46e70aac23b654f92a4e0792b4e97e9af80ff5c6e90a8e5e7f",
+        "bytes": 24943,
+        "source": "research_notes/2026-09-08/new_event_normalization_transfer_v1/analysis-v1/formal-v1/ALL-NONC-OR-NONCOMPLIANT.json",
+        "source_sha256": "9a3d419fa1b34b46e70aac23b654f92a4e0792b4e97e9af80ff5c6e90a8e5e7f",
+        "byte_identical": false,
+        "omissions": []
+      }
+    },
+    {
+      "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B15/formal-v1/ALL-POSITIONS.AI.json",
+      "sha256": "566d654dbc0a0331039b9d035ef6b3a44ac3c2983b4020a3bb2df8a68ce01619",
+      "bytes": 4299946,
+      "source_provenance": {
+        "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B15/formal-v1/ALL-POSITIONS.AI.json",
+        "sha256": "566d654dbc0a0331039b9d035ef6b3a44ac3c2983b4020a3bb2df8a68ce01619",
+        "bytes": 4299946,
+        "source": "research_notes/2026-09-08/new_event_normalization_transfer_v1/analysis-v1/formal-v1/ALL-POSITIONS.AI.json",
+        "source_sha256": "566d654dbc0a0331039b9d035ef6b3a44ac3c2983b4020a3bb2df8a68ce01619",
+        "byte_identical": false,
+        "omissions": []
+      }
+    },
+    {
+      "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B15/formal-v1/BASELINES.AI.json",
+      "sha256": "1467f968c69ee0450629d0c97da1ec13dabde8912ab4cb6d456fad034cdbe8c7",
+      "bytes": 1096714,
+      "source_provenance": {
+        "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B15/formal-v1/BASELINES.AI.json",
+        "sha256": "1467f968c69ee0450629d0c97da1ec13dabde8912ab4cb6d456fad034cdbe8c7",
+        "bytes": 1096714,
+        "source": "research_notes/2026-09-08/new_event_normalization_transfer_v1/analysis-v1/formal-v1/BASELINES.AI.json",
+        "source_sha256": "1467f968c69ee0450629d0c97da1ec13dabde8912ab4cb6d456fad034cdbe8c7",
+        "byte_identical": false,
+        "omissions": []
+      }
+    },
+    {
+      "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B15/formal-v1/MAPPED.AI.json",
+      "sha256": "ddd9f06d248f7980e0057d2a51c8d1d6a1cb1dd8bde230984df0a5b982816f3f",
+      "bytes": 2367491,
+      "source_provenance": {
+        "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B15/formal-v1/MAPPED.AI.json",
+        "sha256": "ddd9f06d248f7980e0057d2a51c8d1d6a1cb1dd8bde230984df0a5b982816f3f",
+        "bytes": 2367491,
+        "source": "research_notes/2026-09-08/new_event_normalization_transfer_v1/analysis-v1/formal-v1/MAPPED.AI.json",
+        "source_sha256": "ddd9f06d248f7980e0057d2a51c8d1d6a1cb1dd8bde230984df0a5b982816f3f",
+        "byte_identical": false,
+        "omissions": []
+      }
+    },
+    {
+      "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B15/formal-v1/METHOD.AI.json",
+      "sha256": "eb2d3a1ed2d11be35ab8807bec2583fb98d6204f6cb03c9a91b7ee7e236edfbf",
+      "bytes": 835747,
+      "source_provenance": {
+        "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B15/formal-v1/METHOD.AI.json",
+        "sha256": "eb2d3a1ed2d11be35ab8807bec2583fb98d6204f6cb03c9a91b7ee7e236edfbf",
+        "bytes": 835747,
+        "source": "research_notes/2026-09-08/new_event_normalization_transfer_v1/analysis-v1/formal-v1/METHOD.AI.json",
+        "source_sha256": "eb2d3a1ed2d11be35ab8807bec2583fb98d6204f6cb03c9a91b7ee7e236edfbf",
+        "byte_identical": false,
+        "omissions": []
+      }
+    },
+    {
+      "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B15/formal-v1/NORMALIZED-NONC-OR-NONCOMPLIANT.json",
+      "sha256": "2e3650d9f203adcd2436ab2958e7d8ff63d98ee02d5d4a5a80b3e20043514249",
+      "bytes": 5566,
+      "source_provenance": {
+        "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B15/formal-v1/NORMALIZED-NONC-OR-NONCOMPLIANT.json",
+        "sha256": "2e3650d9f203adcd2436ab2958e7d8ff63d98ee02d5d4a5a80b3e20043514249",
+        "bytes": 5566,
+        "source": "research_notes/2026-09-08/new_event_normalization_transfer_v1/analysis-v1/formal-v1/NORMALIZED-NONC-OR-NONCOMPLIANT.json",
+        "source_sha256": "2e3650d9f203adcd2436ab2958e7d8ff63d98ee02d5d4a5a80b3e20043514249",
+        "byte_identical": false,
+        "omissions": []
+      }
+    },
+    {
+      "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B15/formal-v1/NORMALIZED-UNIQUE.AI.json",
+      "sha256": "2860f90f63183a76087973b13a8b141d55917a22a11a137ef7bb4a394754ce7a",
+      "bytes": 527240,
+      "source_provenance": {
+        "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B15/formal-v1/NORMALIZED-UNIQUE.AI.json",
+        "sha256": "2860f90f63183a76087973b13a8b141d55917a22a11a137ef7bb4a394754ce7a",
+        "bytes": 527240,
+        "source": "research_notes/2026-09-08/new_event_normalization_transfer_v1/analysis-v1/formal-v1/NORMALIZED-UNIQUE.AI.json",
+        "source_sha256": "2860f90f63183a76087973b13a8b141d55917a22a11a137ef7bb4a394754ce7a",
+        "byte_identical": false,
+        "omissions": []
+      }
+    },
+    {
+      "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B15/formal-v1/PAIRS.json",
+      "sha256": "f710ae4909f53129d6810fd3242455c9067745808abb530d77906ef6387c8259",
+      "bytes": 827683,
+      "source_provenance": {
+        "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B15/formal-v1/PAIRS.json",
+        "sha256": "f710ae4909f53129d6810fd3242455c9067745808abb530d77906ef6387c8259",
+        "bytes": 827683,
+        "source": "research_notes/2026-09-08/new_event_normalization_transfer_v1/analysis-v1/formal-v1/PAIRS.json",
+        "source_sha256": "f710ae4909f53129d6810fd3242455c9067745808abb530d77906ef6387c8259",
+        "byte_identical": false,
+        "omissions": []
+      }
+    },
+    {
+      "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B15/formal-v1/SUMMARY.json",
+      "sha256": "5e4fd8ee8b985d631efd53deb35633856acaf60c4a75ebf6c353b83aa42eb585",
+      "bytes": 16895,
+      "source_provenance": {
+        "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B15/formal-v1/SUMMARY.json",
+        "sha256": "5e4fd8ee8b985d631efd53deb35633856acaf60c4a75ebf6c353b83aa42eb585",
+        "bytes": 16895,
+        "source": "research_notes/2026-09-08/new_event_normalization_transfer_v1/analysis-v1/formal-v1/SUMMARY.json",
+        "source_sha256": "5e4fd8ee8b985d631efd53deb35633856acaf60c4a75ebf6c353b83aa42eb585",
+        "byte_identical": false,
+        "omissions": []
+      }
+    },
+    {
+      "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B15/pure_method.py",
+      "sha256": "ef39a66e368c5b8545e71e4c2eb91c75e30f162d1867a99ef93a6c44ab853000",
+      "bytes": 3593,
+      "source_provenance": {
+        "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B15/pure_method.py",
+        "source": "research_notes/2026-09-08/new_event_normalization_transfer_v1/pure_method.py",
+        "source_sha256": "ef39a66e368c5b8545e71e4c2eb91c75e30f162d1867a99ef93a6c44ab853000",
+        "sha256": "ef39a66e368c5b8545e71e4c2eb91c75e30f162d1867a99ef93a6c44ab853000",
+        "byte_identical": true
+      }
+    },
+    {
+      "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B15/score_b09.py",
+      "sha256": "369ef17a3e221ecebb4c9a196216c523def464b60e3deb7b5bba6ff18f1ae567",
+      "bytes": 5849,
+      "source_provenance": {
+        "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B15/score_b09.py",
+        "source": "research_notes/2026-09-08/new_event_normalization_transfer_v1/score_b09.py",
+        "source_sha256": "369ef17a3e221ecebb4c9a196216c523def464b60e3deb7b5bba6ff18f1ae567",
+        "sha256": "369ef17a3e221ecebb4c9a196216c523def464b60e3deb7b5bba6ff18f1ae567",
+        "byte_identical": true
+      }
+    },
+    {
+      "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B15/score_b13_v2.py",
+      "sha256": "98ee86eac05f023af6c7f2022f9127234115f75871e7a0e038d33ad79ef9dd3b",
+      "bytes": 7366,
+      "source_provenance": {
+        "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/B15/score_b13_v2.py",
+        "source": "research_notes/2026-09-08/new_event_normalization_transfer_v1/score_b13_v2.py",
+        "source_sha256": "98ee86eac05f023af6c7f2022f9127234115f75871e7a0e038d33ad79ef9dd3b",
+        "sha256": "98ee86eac05f023af6c7f2022f9127234115f75871e7a0e038d33ad79ef9dd3b",
+        "byte_identical": true
+      }
+    },
+    {
+      "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/LEDGER.json",
+      "sha256": "1da4c591914a323e6e8600d4c87a5b5c21d7fef36297d17ef28243e9eb6fbb9d",
+      "bytes": 3132,
+      "identity": "DAY_END_AUTHORED_SUMMARY_OR_INDEX_NOT_PREREGISTRATION"
+    },
+    {
+      "path": "papers/doppelganger-jc/experiments/EXP-20260908-BRANCH-DAY/README.md",
+      "sha256": "f977269f28ca75e22ca9636b3ebaa9efedf0dbc6dd8efbeea76222e8b84fa206",
+      "bytes": 4633,
+      "identity": "DAY_END_AUTHORED_SUMMARY_OR_INDEX_NOT_PREREGISTRATION"
+    },
+    {
+      "path": "papers/doppelganger-jc/notes/2026-09-08-branch-research-day-closeout.zh-CN.md",
+      "sha256": "63217aba98e4a5f3aba9d5588cd92e8279b1c93830374432008487494231e16a",
+      "bytes": 8031,
+      "identity": "DAY_END_AUTHORED_SUMMARY_OR_INDEX_NOT_PREREGISTRATION"
+    }
+  ]
+}

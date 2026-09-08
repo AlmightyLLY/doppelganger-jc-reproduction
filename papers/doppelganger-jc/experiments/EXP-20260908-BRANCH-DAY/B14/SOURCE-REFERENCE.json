@@ -1,0 +1,3458 @@
+[
+  {
+    "source_id": "SRC001",
+    "domain": "hire",
+    "source_form": "JA_ACTIVE",
+    "language": "JA",
+    "pair_indices": [
+      0,
+      1
+    ],
+    "pair_names": [
+      "青木",
+      "森田"
+    ],
+    "fact": "YES",
+    "source_text": "R1：青木は森田を臨時の助手として雇用しました。",
+    "seed_source_text": "R1：青木は森田を臨時の助手として雇用しました。",
+    "seed_call_id": "B12V2-QWEN-S0001",
+    "role_keys": [
+      "employer",
+      "employee"
+    ],
+    "role_definitions": "employer是雇用方，employee是被雇用方。",
+    "seed_messages": [
+      {
+        "role": "user",
+        "content": "下面每条记录各自描述不同场合的一次具体事件；不要把不同记录合并成同一次事件。只依据文字，不补充常识或背景。\n记录：\"R1：青木は森田を臨時の助手として雇用しました。\"\n目标记录：R1\n只记录目标记录中讨论的关系命题，不要记录其他记录中的事件。\n实体表：E1对应青木；E2对应森田；E3对应小川；E4对应上田\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"employer\":\"姓名\",\"employee\":\"姓名\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\nemployer是雇用方，employee是被雇用方。这两个角色字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中的完整姓名。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+      }
+    ],
+    "reference_values": {
+      "occurred": "YES",
+      "role_a": "青木",
+      "role_b": "森田"
+    },
+    "derivation": "original clause with simultaneous two-name substitution only",
+    "same_as_seed": true
+  },
+  {
+    "source_id": "SRC002",
+    "domain": "hire",
+    "source_form": "JA_ACTIVE",
+    "language": "JA",
+    "pair_indices": [
+      0,
+      1
+    ],
+    "pair_names": [
+      "青木",
+      "森田"
+    ],
+    "fact": "NO",
+    "source_text": "R1：青木は森田を臨時の助手として雇用しませんでした。",
+    "seed_source_text": "R1：青木は森田を臨時の助手として雇用しませんでした。",
+    "seed_call_id": "B12V2-QWEN-S0013",
+    "role_keys": [
+      "employer",
+      "employee"
+    ],
+    "role_definitions": "employer是雇用方，employee是被雇用方。",
+    "seed_messages": [
+      {
+        "role": "user",
+        "content": "下面每条记录各自描述不同场合的一次具体事件；不要把不同记录合并成同一次事件。只依据文字，不补充常识或背景。\n记录：\"R1：青木は森田を臨時の助手として雇用しませんでした。\"\n目标记录：R1\n只记录目标记录中讨论的关系命题，不要记录其他记录中的事件。\n实体表：E1对应青木；E2对应森田；E3对应小川；E4对应上田\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"employer\":\"姓名\",\"employee\":\"姓名\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\nemployer是雇用方，employee是被雇用方。这两个角色字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中的完整姓名。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+      }
+    ],
+    "reference_values": {
+      "occurred": "NO",
+      "role_a": "青木",
+      "role_b": "森田"
+    },
+    "derivation": "original clause with simultaneous two-name substitution only",
+    "same_as_seed": true
+  },
+  {
+    "source_id": "SRC003",
+    "domain": "hire",
+    "source_form": "JA_ACTIVE",
+    "language": "JA",
+    "pair_indices": [
+      1,
+      0
+    ],
+    "pair_names": [
+      "森田",
+      "青木"
+    ],
+    "fact": "YES",
+    "source_text": "R1：森田は青木を臨時の助手として雇用しました。",
+    "seed_source_text": "R1：青木は森田を臨時の助手として雇用しました。",
+    "seed_call_id": "B12V2-QWEN-S0001",
+    "role_keys": [
+      "employer",
+      "employee"
+    ],
+    "role_definitions": "employer是雇用方，employee是被雇用方。",
+    "seed_messages": [
+      {
+        "role": "user",
+        "content": "下面每条记录各自描述不同场合的一次具体事件；不要把不同记录合并成同一次事件。只依据文字，不补充常识或背景。\n记录：\"R1：青木は森田を臨時の助手として雇用しました。\"\n目标记录：R1\n只记录目标记录中讨论的关系命题，不要记录其他记录中的事件。\n实体表：E1对应青木；E2对应森田；E3对应小川；E4对应上田\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"employer\":\"姓名\",\"employee\":\"姓名\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\nemployer是雇用方，employee是被雇用方。这两个角色字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中的完整姓名。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+      }
+    ],
+    "reference_values": {
+      "occurred": "YES",
+      "role_a": "森田",
+      "role_b": "青木"
+    },
+    "derivation": "original clause with simultaneous two-name substitution only",
+    "same_as_seed": false
+  },
+  {
+    "source_id": "SRC004",
+    "domain": "hire",
+    "source_form": "JA_ACTIVE",
+    "language": "JA",
+    "pair_indices": [
+      1,
+      0
+    ],
+    "pair_names": [
+      "森田",
+      "青木"
+    ],
+    "fact": "NO",
+    "source_text": "R1：森田は青木を臨時の助手として雇用しませんでした。",
+    "seed_source_text": "R1：青木は森田を臨時の助手として雇用しませんでした。",
+    "seed_call_id": "B12V2-QWEN-S0013",
+    "role_keys": [
+      "employer",
+      "employee"
+    ],
+    "role_definitions": "employer是雇用方，employee是被雇用方。",
+    "seed_messages": [
+      {
+        "role": "user",
+        "content": "下面每条记录各自描述不同场合的一次具体事件；不要把不同记录合并成同一次事件。只依据文字，不补充常识或背景。\n记录：\"R1：青木は森田を臨時の助手として雇用しませんでした。\"\n目标记录：R1\n只记录目标记录中讨论的关系命题，不要记录其他记录中的事件。\n实体表：E1对应青木；E2对应森田；E3对应小川；E4对应上田\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"employer\":\"姓名\",\"employee\":\"姓名\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\nemployer是雇用方，employee是被雇用方。这两个角色字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中的完整姓名。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+      }
+    ],
+    "reference_values": {
+      "occurred": "NO",
+      "role_a": "森田",
+      "role_b": "青木"
+    },
+    "derivation": "original clause with simultaneous two-name substitution only",
+    "same_as_seed": false
+  },
+  {
+    "source_id": "SRC005",
+    "domain": "hire",
+    "source_form": "JA_ACTIVE",
+    "language": "JA",
+    "pair_indices": [
+      1,
+      2
+    ],
+    "pair_names": [
+      "森田",
+      "小川"
+    ],
+    "fact": "YES",
+    "source_text": "R1：森田は小川を臨時の助手として雇用しました。",
+    "seed_source_text": "R1：青木は森田を臨時の助手として雇用しました。",
+    "seed_call_id": "B12V2-QWEN-S0001",
+    "role_keys": [
+      "employer",
+      "employee"
+    ],
+    "role_definitions": "employer是雇用方，employee是被雇用方。",
+    "seed_messages": [
+      {
+        "role": "user",
+        "content": "下面每条记录各自描述不同场合的一次具体事件；不要把不同记录合并成同一次事件。只依据文字，不补充常识或背景。\n记录：\"R1：青木は森田を臨時の助手として雇用しました。\"\n目标记录：R1\n只记录目标记录中讨论的关系命题，不要记录其他记录中的事件。\n实体表：E1对应青木；E2对应森田；E3对应小川；E4对应上田\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"employer\":\"姓名\",\"employee\":\"姓名\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\nemployer是雇用方，employee是被雇用方。这两个角色字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中的完整姓名。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+      }
+    ],
+    "reference_values": {
+      "occurred": "YES",
+      "role_a": "森田",
+      "role_b": "小川"
+    },
+    "derivation": "original clause with simultaneous two-name substitution only",
+    "same_as_seed": false
+  },
+  {
+    "source_id": "SRC006",
+    "domain": "hire",
+    "source_form": "JA_ACTIVE",
+    "language": "JA",
+    "pair_indices": [
+      1,
+      2
+    ],
+    "pair_names": [
+      "森田",
+      "小川"
+    ],
+    "fact": "NO",
+    "source_text": "R1：森田は小川を臨時の助手として雇用しませんでした。",
+    "seed_source_text": "R1：青木は森田を臨時の助手として雇用しませんでした。",
+    "seed_call_id": "B12V2-QWEN-S0013",
+    "role_keys": [
+      "employer",
+      "employee"
+    ],
+    "role_definitions": "employer是雇用方，employee是被雇用方。",
+    "seed_messages": [
+      {
+        "role": "user",
+        "content": "下面每条记录各自描述不同场合的一次具体事件；不要把不同记录合并成同一次事件。只依据文字，不补充常识或背景。\n记录：\"R1：青木は森田を臨時の助手として雇用しませんでした。\"\n目标记录：R1\n只记录目标记录中讨论的关系命题，不要记录其他记录中的事件。\n实体表：E1对应青木；E2对应森田；E3对应小川；E4对应上田\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"employer\":\"姓名\",\"employee\":\"姓名\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\nemployer是雇用方，employee是被雇用方。这两个角色字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中的完整姓名。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+      }
+    ],
+    "reference_values": {
+      "occurred": "NO",
+      "role_a": "森田",
+      "role_b": "小川"
+    },
+    "derivation": "original clause with simultaneous two-name substitution only",
+    "same_as_seed": false
+  },
+  {
+    "source_id": "SRC007",
+    "domain": "hire",
+    "source_form": "JA_ACTIVE",
+    "language": "JA",
+    "pair_indices": [
+      2,
+      1
+    ],
+    "pair_names": [
+      "小川",
+      "森田"
+    ],
+    "fact": "YES",
+    "source_text": "R1：小川は森田を臨時の助手として雇用しました。",
+    "seed_source_text": "R1：青木は森田を臨時の助手として雇用しました。",
+    "seed_call_id": "B12V2-QWEN-S0001",
+    "role_keys": [
+      "employer",
+      "employee"
+    ],
+    "role_definitions": "employer是雇用方，employee是被雇用方。",
+    "seed_messages": [
+      {
+        "role": "user",
+        "content": "下面每条记录各自描述不同场合的一次具体事件；不要把不同记录合并成同一次事件。只依据文字，不补充常识或背景。\n记录：\"R1：青木は森田を臨時の助手として雇用しました。\"\n目标记录：R1\n只记录目标记录中讨论的关系命题，不要记录其他记录中的事件。\n实体表：E1对应青木；E2对应森田；E3对应小川；E4对应上田\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"employer\":\"姓名\",\"employee\":\"姓名\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\nemployer是雇用方，employee是被雇用方。这两个角色字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中的完整姓名。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+      }
+    ],
+    "reference_values": {
+      "occurred": "YES",
+      "role_a": "小川",
+      "role_b": "森田"
+    },
+    "derivation": "original clause with simultaneous two-name substitution only",
+    "same_as_seed": false
+  },
+  {
+    "source_id": "SRC008",
+    "domain": "hire",
+    "source_form": "JA_ACTIVE",
+    "language": "JA",
+    "pair_indices": [
+      2,
+      1
+    ],
+    "pair_names": [
+      "小川",
+      "森田"
+    ],
+    "fact": "NO",
+    "source_text": "R1：小川は森田を臨時の助手として雇用しませんでした。",
+    "seed_source_text": "R1：青木は森田を臨時の助手として雇用しませんでした。",
+    "seed_call_id": "B12V2-QWEN-S0013",
+    "role_keys": [
+      "employer",
+      "employee"
+    ],
+    "role_definitions": "employer是雇用方，employee是被雇用方。",
+    "seed_messages": [
+      {
+        "role": "user",
+        "content": "下面每条记录各自描述不同场合的一次具体事件；不要把不同记录合并成同一次事件。只依据文字，不补充常识或背景。\n记录：\"R1：青木は森田を臨時の助手として雇用しませんでした。\"\n目标记录：R1\n只记录目标记录中讨论的关系命题，不要记录其他记录中的事件。\n实体表：E1对应青木；E2对应森田；E3对应小川；E4对应上田\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"employer\":\"姓名\",\"employee\":\"姓名\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\nemployer是雇用方，employee是被雇用方。这两个角色字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中的完整姓名。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+      }
+    ],
+    "reference_values": {
+      "occurred": "NO",
+      "role_a": "小川",
+      "role_b": "森田"
+    },
+    "derivation": "original clause with simultaneous two-name substitution only",
+    "same_as_seed": false
+  },
+  {
+    "source_id": "SRC009",
+    "domain": "hire",
+    "source_form": "JA_ACTIVE",
+    "language": "JA",
+    "pair_indices": [
+      2,
+      3
+    ],
+    "pair_names": [
+      "小川",
+      "上田"
+    ],
+    "fact": "YES",
+    "source_text": "R1：小川は上田を臨時の助手として雇用しました。",
+    "seed_source_text": "R1：青木は森田を臨時の助手として雇用しました。",
+    "seed_call_id": "B12V2-QWEN-S0001",
+    "role_keys": [
+      "employer",
+      "employee"
+    ],
+    "role_definitions": "employer是雇用方，employee是被雇用方。",
+    "seed_messages": [
+      {
+        "role": "user",
+        "content": "下面每条记录各自描述不同场合的一次具体事件；不要把不同记录合并成同一次事件。只依据文字，不补充常识或背景。\n记录：\"R1：青木は森田を臨時の助手として雇用しました。\"\n目标记录：R1\n只记录目标记录中讨论的关系命题，不要记录其他记录中的事件。\n实体表：E1对应青木；E2对应森田；E3对应小川；E4对应上田\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"employer\":\"姓名\",\"employee\":\"姓名\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\nemployer是雇用方，employee是被雇用方。这两个角色字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中的完整姓名。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+      }
+    ],
+    "reference_values": {
+      "occurred": "YES",
+      "role_a": "小川",
+      "role_b": "上田"
+    },
+    "derivation": "original clause with simultaneous two-name substitution only",
+    "same_as_seed": false
+  },
+  {
+    "source_id": "SRC010",
+    "domain": "hire",
+    "source_form": "JA_ACTIVE",
+    "language": "JA",
+    "pair_indices": [
+      2,
+      3
+    ],
+    "pair_names": [
+      "小川",
+      "上田"
+    ],
+    "fact": "NO",
+    "source_text": "R1：小川は上田を臨時の助手として雇用しませんでした。",
+    "seed_source_text": "R1：青木は森田を臨時の助手として雇用しませんでした。",
+    "seed_call_id": "B12V2-QWEN-S0013",
+    "role_keys": [
+      "employer",
+      "employee"
+    ],
+    "role_definitions": "employer是雇用方，employee是被雇用方。",
+    "seed_messages": [
+      {
+        "role": "user",
+        "content": "下面每条记录各自描述不同场合的一次具体事件；不要把不同记录合并成同一次事件。只依据文字，不补充常识或背景。\n记录：\"R1：青木は森田を臨時の助手として雇用しませんでした。\"\n目标记录：R1\n只记录目标记录中讨论的关系命题，不要记录其他记录中的事件。\n实体表：E1对应青木；E2对应森田；E3对应小川；E4对应上田\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"employer\":\"姓名\",\"employee\":\"姓名\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\nemployer是雇用方，employee是被雇用方。这两个角色字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中的完整姓名。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+      }
+    ],
+    "reference_values": {
+      "occurred": "NO",
+      "role_a": "小川",
+      "role_b": "上田"
+    },
+    "derivation": "original clause with simultaneous two-name substitution only",
+    "same_as_seed": false
+  },
+  {
+    "source_id": "SRC011",
+    "domain": "hire",
+    "source_form": "JA_ACTIVE",
+    "language": "JA",
+    "pair_indices": [
+      3,
+      2
+    ],
+    "pair_names": [
+      "上田",
+      "小川"
+    ],
+    "fact": "YES",
+    "source_text": "R1：上田は小川を臨時の助手として雇用しました。",
+    "seed_source_text": "R1：青木は森田を臨時の助手として雇用しました。",
+    "seed_call_id": "B12V2-QWEN-S0001",
+    "role_keys": [
+      "employer",
+      "employee"
+    ],
+    "role_definitions": "employer是雇用方，employee是被雇用方。",
+    "seed_messages": [
+      {
+        "role": "user",
+        "content": "下面每条记录各自描述不同场合的一次具体事件；不要把不同记录合并成同一次事件。只依据文字，不补充常识或背景。\n记录：\"R1：青木は森田を臨時の助手として雇用しました。\"\n目标记录：R1\n只记录目标记录中讨论的关系命题，不要记录其他记录中的事件。\n实体表：E1对应青木；E2对应森田；E3对应小川；E4对应上田\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"employer\":\"姓名\",\"employee\":\"姓名\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\nemployer是雇用方，employee是被雇用方。这两个角色字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中的完整姓名。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+      }
+    ],
+    "reference_values": {
+      "occurred": "YES",
+      "role_a": "上田",
+      "role_b": "小川"
+    },
+    "derivation": "original clause with simultaneous two-name substitution only",
+    "same_as_seed": false
+  },
+  {
+    "source_id": "SRC012",
+    "domain": "hire",
+    "source_form": "JA_ACTIVE",
+    "language": "JA",
+    "pair_indices": [
+      3,
+      2
+    ],
+    "pair_names": [
+      "上田",
+      "小川"
+    ],
+    "fact": "NO",
+    "source_text": "R1：上田は小川を臨時の助手として雇用しませんでした。",
+    "seed_source_text": "R1：青木は森田を臨時の助手として雇用しませんでした。",
+    "seed_call_id": "B12V2-QWEN-S0013",
+    "role_keys": [
+      "employer",
+      "employee"
+    ],
+    "role_definitions": "employer是雇用方，employee是被雇用方。",
+    "seed_messages": [
+      {
+        "role": "user",
+        "content": "下面每条记录各自描述不同场合的一次具体事件；不要把不同记录合并成同一次事件。只依据文字，不补充常识或背景。\n记录：\"R1：青木は森田を臨時の助手として雇用しませんでした。\"\n目标记录：R1\n只记录目标记录中讨论的关系命题，不要记录其他记录中的事件。\n实体表：E1对应青木；E2对应森田；E3对应小川；E4对应上田\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"employer\":\"姓名\",\"employee\":\"姓名\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\nemployer是雇用方，employee是被雇用方。这两个角色字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中的完整姓名。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+      }
+    ],
+    "reference_values": {
+      "occurred": "NO",
+      "role_a": "上田",
+      "role_b": "小川"
+    },
+    "derivation": "original clause with simultaneous two-name substitution only",
+    "same_as_seed": false
+  },
+  {
+    "source_id": "SRC013",
+    "domain": "hire",
+    "source_form": "JA_ACTIVE",
+    "language": "JA",
+    "pair_indices": [
+      3,
+      0
+    ],
+    "pair_names": [
+      "上田",
+      "青木"
+    ],
+    "fact": "YES",
+    "source_text": "R1：上田は青木を臨時の助手として雇用しました。",
+    "seed_source_text": "R1：青木は森田を臨時の助手として雇用しました。",
+    "seed_call_id": "B12V2-QWEN-S0001",
+    "role_keys": [
+      "employer",
+      "employee"
+    ],
+    "role_definitions": "employer是雇用方，employee是被雇用方。",
+    "seed_messages": [
+      {
+        "role": "user",
+        "content": "下面每条记录各自描述不同场合的一次具体事件；不要把不同记录合并成同一次事件。只依据文字，不补充常识或背景。\n记录：\"R1：青木は森田を臨時の助手として雇用しました。\"\n目标记录：R1\n只记录目标记录中讨论的关系命题，不要记录其他记录中的事件。\n实体表：E1对应青木；E2对应森田；E3对应小川；E4对应上田\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"employer\":\"姓名\",\"employee\":\"姓名\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\nemployer是雇用方，employee是被雇用方。这两个角色字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中的完整姓名。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+      }
+    ],
+    "reference_values": {
+      "occurred": "YES",
+      "role_a": "上田",
+      "role_b": "青木"
+    },
+    "derivation": "original clause with simultaneous two-name substitution only",
+    "same_as_seed": false
+  },
+  {
+    "source_id": "SRC014",
+    "domain": "hire",
+    "source_form": "JA_ACTIVE",
+    "language": "JA",
+    "pair_indices": [
+      3,
+      0
+    ],
+    "pair_names": [
+      "上田",
+      "青木"
+    ],
+    "fact": "NO",
+    "source_text": "R1：上田は青木を臨時の助手として雇用しませんでした。",
+    "seed_source_text": "R1：青木は森田を臨時の助手として雇用しませんでした。",
+    "seed_call_id": "B12V2-QWEN-S0013",
+    "role_keys": [
+      "employer",
+      "employee"
+    ],
+    "role_definitions": "employer是雇用方，employee是被雇用方。",
+    "seed_messages": [
+      {
+        "role": "user",
+        "content": "下面每条记录各自描述不同场合的一次具体事件；不要把不同记录合并成同一次事件。只依据文字，不补充常识或背景。\n记录：\"R1：青木は森田を臨時の助手として雇用しませんでした。\"\n目标记录：R1\n只记录目标记录中讨论的关系命题，不要记录其他记录中的事件。\n实体表：E1对应青木；E2对应森田；E3对应小川；E4对应上田\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"employer\":\"姓名\",\"employee\":\"姓名\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\nemployer是雇用方，employee是被雇用方。这两个角色字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中的完整姓名。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+      }
+    ],
+    "reference_values": {
+      "occurred": "NO",
+      "role_a": "上田",
+      "role_b": "青木"
+    },
+    "derivation": "original clause with simultaneous two-name substitution only",
+    "same_as_seed": false
+  },
+  {
+    "source_id": "SRC015",
+    "domain": "hire",
+    "source_form": "JA_ACTIVE",
+    "language": "JA",
+    "pair_indices": [
+      0,
+      3
+    ],
+    "pair_names": [
+      "青木",
+      "上田"
+    ],
+    "fact": "YES",
+    "source_text": "R1：青木は上田を臨時の助手として雇用しました。",
+    "seed_source_text": "R1：青木は森田を臨時の助手として雇用しました。",
+    "seed_call_id": "B12V2-QWEN-S0001",
+    "role_keys": [
+      "employer",
+      "employee"
+    ],
+    "role_definitions": "employer是雇用方，employee是被雇用方。",
+    "seed_messages": [
+      {
+        "role": "user",
+        "content": "下面每条记录各自描述不同场合的一次具体事件；不要把不同记录合并成同一次事件。只依据文字，不补充常识或背景。\n记录：\"R1：青木は森田を臨時の助手として雇用しました。\"\n目标记录：R1\n只记录目标记录中讨论的关系命题，不要记录其他记录中的事件。\n实体表：E1对应青木；E2对应森田；E3对应小川；E4对应上田\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"employer\":\"姓名\",\"employee\":\"姓名\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\nemployer是雇用方，employee是被雇用方。这两个角色字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中的完整姓名。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+      }
+    ],
+    "reference_values": {
+      "occurred": "YES",
+      "role_a": "青木",
+      "role_b": "上田"
+    },
+    "derivation": "original clause with simultaneous two-name substitution only",
+    "same_as_seed": false
+  },
+  {
+    "source_id": "SRC016",
+    "domain": "hire",
+    "source_form": "JA_ACTIVE",
+    "language": "JA",
+    "pair_indices": [
+      0,
+      3
+    ],
+    "pair_names": [
+      "青木",
+      "上田"
+    ],
+    "fact": "NO",
+    "source_text": "R1：青木は上田を臨時の助手として雇用しませんでした。",
+    "seed_source_text": "R1：青木は森田を臨時の助手として雇用しませんでした。",
+    "seed_call_id": "B12V2-QWEN-S0013",
+    "role_keys": [
+      "employer",
+      "employee"
+    ],
+    "role_definitions": "employer是雇用方，employee是被雇用方。",
+    "seed_messages": [
+      {
+        "role": "user",
+        "content": "下面每条记录各自描述不同场合的一次具体事件；不要把不同记录合并成同一次事件。只依据文字，不补充常识或背景。\n记录：\"R1：青木は森田を臨時の助手として雇用しませんでした。\"\n目标记录：R1\n只记录目标记录中讨论的关系命题，不要记录其他记录中的事件。\n实体表：E1对应青木；E2对应森田；E3对应小川；E4对应上田\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"employer\":\"姓名\",\"employee\":\"姓名\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\nemployer是雇用方，employee是被雇用方。这两个角色字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中的完整姓名。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+      }
+    ],
+    "reference_values": {
+      "occurred": "NO",
+      "role_a": "青木",
+      "role_b": "上田"
+    },
+    "derivation": "original clause with simultaneous two-name substitution only",
+    "same_as_seed": false
+  },
+  {
+    "source_id": "SRC017",
+    "domain": "hire",
+    "source_form": "JA_PASSIVE",
+    "language": "JA",
+    "pair_indices": [
+      0,
+      1
+    ],
+    "pair_names": [
+      "青木",
+      "森田"
+    ],
+    "fact": "YES",
+    "source_text": "R1：森田は青木に臨時の助手として雇用されました。",
+    "seed_source_text": "R1：森田は青木に臨時の助手として雇用されました。",
+    "seed_call_id": "B12V2-QWEN-S0017",
+    "role_keys": [
+      "employer",
+      "employee"
+    ],
+    "role_definitions": "employer是雇用方，employee是被雇用方。",
+    "seed_messages": [
+      {
+        "role": "user",
+        "content": "下面每条记录各自描述不同场合的一次具体事件；不要把不同记录合并成同一次事件。只依据文字，不补充常识或背景。\n记录：\"R1：森田は青木に臨時の助手として雇用されました。\"\n目标记录：R1\n只记录目标记录中讨论的关系命题，不要记录其他记录中的事件。\n实体表：E1对应青木；E2对应森田；E3对应小川；E4对应上田\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"employer\":\"姓名\",\"employee\":\"姓名\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\nemployer是雇用方，employee是被雇用方。这两个角色字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中的完整姓名。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+      }
+    ],
+    "reference_values": {
+      "occurred": "YES",
+      "role_a": "青木",
+      "role_b": "森田"
+    },
+    "derivation": "original clause with simultaneous two-name substitution only",
+    "same_as_seed": true
+  },
+  {
+    "source_id": "SRC018",
+    "domain": "hire",
+    "source_form": "JA_PASSIVE",
+    "language": "JA",
+    "pair_indices": [
+      0,
+      1
+    ],
+    "pair_names": [
+      "青木",
+      "森田"
+    ],
+    "fact": "NO",
+    "source_text": "R1：森田は青木に臨時の助手として雇用されませんでした。",
+    "seed_source_text": "R1：森田は青木に臨時の助手として雇用されませんでした。",
+    "seed_call_id": "B12V2-QWEN-S0029",
+    "role_keys": [
+      "employer",
+      "employee"
+    ],
+    "role_definitions": "employer是雇用方，employee是被雇用方。",
+    "seed_messages": [
+      {
+        "role": "user",
+        "content": "下面每条记录各自描述不同场合的一次具体事件；不要把不同记录合并成同一次事件。只依据文字，不补充常识或背景。\n记录：\"R1：森田は青木に臨時の助手として雇用されませんでした。\"\n目标记录：R1\n只记录目标记录中讨论的关系命题，不要记录其他记录中的事件。\n实体表：E1对应青木；E2对应森田；E3对应小川；E4对应上田\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"employer\":\"姓名\",\"employee\":\"姓名\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\nemployer是雇用方，employee是被雇用方。这两个角色字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中的完整姓名。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+      }
+    ],
+    "reference_values": {
+      "occurred": "NO",
+      "role_a": "青木",
+      "role_b": "森田"
+    },
+    "derivation": "original clause with simultaneous two-name substitution only",
+    "same_as_seed": true
+  },
+  {
+    "source_id": "SRC019",
+    "domain": "hire",
+    "source_form": "JA_PASSIVE",
+    "language": "JA",
+    "pair_indices": [
+      1,
+      0
+    ],
+    "pair_names": [
+      "森田",
+      "青木"
+    ],
+    "fact": "YES",
+    "source_text": "R1：青木は森田に臨時の助手として雇用されました。",
+    "seed_source_text": "R1：森田は青木に臨時の助手として雇用されました。",
+    "seed_call_id": "B12V2-QWEN-S0017",
+    "role_keys": [
+      "employer",
+      "employee"
+    ],
+    "role_definitions": "employer是雇用方，employee是被雇用方。",
+    "seed_messages": [
+      {
+        "role": "user",
+        "content": "下面每条记录各自描述不同场合的一次具体事件；不要把不同记录合并成同一次事件。只依据文字，不补充常识或背景。\n记录：\"R1：森田は青木に臨時の助手として雇用されました。\"\n目标记录：R1\n只记录目标记录中讨论的关系命题，不要记录其他记录中的事件。\n实体表：E1对应青木；E2对应森田；E3对应小川；E4对应上田\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"employer\":\"姓名\",\"employee\":\"姓名\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\nemployer是雇用方，employee是被雇用方。这两个角色字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中的完整姓名。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+      }
+    ],
+    "reference_values": {
+      "occurred": "YES",
+      "role_a": "森田",
+      "role_b": "青木"
+    },
+    "derivation": "original clause with simultaneous two-name substitution only",
+    "same_as_seed": false
+  },
+  {
+    "source_id": "SRC020",
+    "domain": "hire",
+    "source_form": "JA_PASSIVE",
+    "language": "JA",
+    "pair_indices": [
+      1,
+      0
+    ],
+    "pair_names": [
+      "森田",
+      "青木"
+    ],
+    "fact": "NO",
+    "source_text": "R1：青木は森田に臨時の助手として雇用されませんでした。",
+    "seed_source_text": "R1：森田は青木に臨時の助手として雇用されませんでした。",
+    "seed_call_id": "B12V2-QWEN-S0029",
+    "role_keys": [
+      "employer",
+      "employee"
+    ],
+    "role_definitions": "employer是雇用方，employee是被雇用方。",
+    "seed_messages": [
+      {
+        "role": "user",
+        "content": "下面每条记录各自描述不同场合的一次具体事件；不要把不同记录合并成同一次事件。只依据文字，不补充常识或背景。\n记录：\"R1：森田は青木に臨時の助手として雇用されませんでした。\"\n目标记录：R1\n只记录目标记录中讨论的关系命题，不要记录其他记录中的事件。\n实体表：E1对应青木；E2对应森田；E3对应小川；E4对应上田\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"employer\":\"姓名\",\"employee\":\"姓名\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\nemployer是雇用方，employee是被雇用方。这两个角色字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中的完整姓名。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+      }
+    ],
+    "reference_values": {
+      "occurred": "NO",
+      "role_a": "森田",
+      "role_b": "青木"
+    },
+    "derivation": "original clause with simultaneous two-name substitution only",
+    "same_as_seed": false
+  },
+  {
+    "source_id": "SRC021",
+    "domain": "hire",
+    "source_form": "JA_PASSIVE",
+    "language": "JA",
+    "pair_indices": [
+      1,
+      2
+    ],
+    "pair_names": [
+      "森田",
+      "小川"
+    ],
+    "fact": "YES",
+    "source_text": "R1：小川は森田に臨時の助手として雇用されました。",
+    "seed_source_text": "R1：森田は青木に臨時の助手として雇用されました。",
+    "seed_call_id": "B12V2-QWEN-S0017",
+    "role_keys": [
+      "employer",
+      "employee"
+    ],
+    "role_definitions": "employer是雇用方，employee是被雇用方。",
+    "seed_messages": [
+      {
+        "role": "user",
+        "content": "下面每条记录各自描述不同场合的一次具体事件；不要把不同记录合并成同一次事件。只依据文字，不补充常识或背景。\n记录：\"R1：森田は青木に臨時の助手として雇用されました。\"\n目标记录：R1\n只记录目标记录中讨论的关系命题，不要记录其他记录中的事件。\n实体表：E1对应青木；E2对应森田；E3对应小川；E4对应上田\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"employer\":\"姓名\",\"employee\":\"姓名\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\nemployer是雇用方，employee是被雇用方。这两个角色字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中的完整姓名。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+      }
+    ],
+    "reference_values": {
+      "occurred": "YES",
+      "role_a": "森田",
+      "role_b": "小川"
+    },
+    "derivation": "original clause with simultaneous two-name substitution only",
+    "same_as_seed": false
+  },
+  {
+    "source_id": "SRC022",
+    "domain": "hire",
+    "source_form": "JA_PASSIVE",
+    "language": "JA",
+    "pair_indices": [
+      1,
+      2
+    ],
+    "pair_names": [
+      "森田",
+      "小川"
+    ],
+    "fact": "NO",
+    "source_text": "R1：小川は森田に臨時の助手として雇用されませんでした。",
+    "seed_source_text": "R1：森田は青木に臨時の助手として雇用されませんでした。",
+    "seed_call_id": "B12V2-QWEN-S0029",
+    "role_keys": [
+      "employer",
+      "employee"
+    ],
+    "role_definitions": "employer是雇用方，employee是被雇用方。",
+    "seed_messages": [
+      {
+        "role": "user",
+        "content": "下面每条记录各自描述不同场合的一次具体事件；不要把不同记录合并成同一次事件。只依据文字，不补充常识或背景。\n记录：\"R1：森田は青木に臨時の助手として雇用されませんでした。\"\n目标记录：R1\n只记录目标记录中讨论的关系命题，不要记录其他记录中的事件。\n实体表：E1对应青木；E2对应森田；E3对应小川；E4对应上田\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"employer\":\"姓名\",\"employee\":\"姓名\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\nemployer是雇用方，employee是被雇用方。这两个角色字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中的完整姓名。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+      }
+    ],
+    "reference_values": {
+      "occurred": "NO",
+      "role_a": "森田",
+      "role_b": "小川"
+    },
+    "derivation": "original clause with simultaneous two-name substitution only",
+    "same_as_seed": false
+  },
+  {
+    "source_id": "SRC023",
+    "domain": "hire",
+    "source_form": "JA_PASSIVE",
+    "language": "JA",
+    "pair_indices": [
+      2,
+      1
+    ],
+    "pair_names": [
+      "小川",
+      "森田"
+    ],
+    "fact": "YES",
+    "source_text": "R1：森田は小川に臨時の助手として雇用されました。",
+    "seed_source_text": "R1：森田は青木に臨時の助手として雇用されました。",
+    "seed_call_id": "B12V2-QWEN-S0017",
+    "role_keys": [
+      "employer",
+      "employee"
+    ],
+    "role_definitions": "employer是雇用方，employee是被雇用方。",
+    "seed_messages": [
+      {
+        "role": "user",
+        "content": "下面每条记录各自描述不同场合的一次具体事件；不要把不同记录合并成同一次事件。只依据文字，不补充常识或背景。\n记录：\"R1：森田は青木に臨時の助手として雇用されました。\"\n目标记录：R1\n只记录目标记录中讨论的关系命题，不要记录其他记录中的事件。\n实体表：E1对应青木；E2对应森田；E3对应小川；E4对应上田\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"employer\":\"姓名\",\"employee\":\"姓名\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\nemployer是雇用方，employee是被雇用方。这两个角色字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中的完整姓名。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+      }
+    ],
+    "reference_values": {
+      "occurred": "YES",
+      "role_a": "小川",
+      "role_b": "森田"
+    },
+    "derivation": "original clause with simultaneous two-name substitution only",
+    "same_as_seed": false
+  },
+  {
+    "source_id": "SRC024",
+    "domain": "hire",
+    "source_form": "JA_PASSIVE",
+    "language": "JA",
+    "pair_indices": [
+      2,
+      1
+    ],
+    "pair_names": [
+      "小川",
+      "森田"
+    ],
+    "fact": "NO",
+    "source_text": "R1：森田は小川に臨時の助手として雇用されませんでした。",
+    "seed_source_text": "R1：森田は青木に臨時の助手として雇用されませんでした。",
+    "seed_call_id": "B12V2-QWEN-S0029",
+    "role_keys": [
+      "employer",
+      "employee"
+    ],
+    "role_definitions": "employer是雇用方，employee是被雇用方。",
+    "seed_messages": [
+      {
+        "role": "user",
+        "content": "下面每条记录各自描述不同场合的一次具体事件；不要把不同记录合并成同一次事件。只依据文字，不补充常识或背景。\n记录：\"R1：森田は青木に臨時の助手として雇用されませんでした。\"\n目标记录：R1\n只记录目标记录中讨论的关系命题，不要记录其他记录中的事件。\n实体表：E1对应青木；E2对应森田；E3对应小川；E4对应上田\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"employer\":\"姓名\",\"employee\":\"姓名\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\nemployer是雇用方，employee是被雇用方。这两个角色字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中的完整姓名。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+      }
+    ],
+    "reference_values": {
+      "occurred": "NO",
+      "role_a": "小川",
+      "role_b": "森田"
+    },
+    "derivation": "original clause with simultaneous two-name substitution only",
+    "same_as_seed": false
+  },
+  {
+    "source_id": "SRC025",
+    "domain": "hire",
+    "source_form": "JA_PASSIVE",
+    "language": "JA",
+    "pair_indices": [
+      2,
+      3
+    ],
+    "pair_names": [
+      "小川",
+      "上田"
+    ],
+    "fact": "YES",
+    "source_text": "R1：上田は小川に臨時の助手として雇用されました。",
+    "seed_source_text": "R1：森田は青木に臨時の助手として雇用されました。",
+    "seed_call_id": "B12V2-QWEN-S0017",
+    "role_keys": [
+      "employer",
+      "employee"
+    ],
+    "role_definitions": "employer是雇用方，employee是被雇用方。",
+    "seed_messages": [
+      {
+        "role": "user",
+        "content": "下面每条记录各自描述不同场合的一次具体事件；不要把不同记录合并成同一次事件。只依据文字，不补充常识或背景。\n记录：\"R1：森田は青木に臨時の助手として雇用されました。\"\n目标记录：R1\n只记录目标记录中讨论的关系命题，不要记录其他记录中的事件。\n实体表：E1对应青木；E2对应森田；E3对应小川；E4对应上田\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"employer\":\"姓名\",\"employee\":\"姓名\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\nemployer是雇用方，employee是被雇用方。这两个角色字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中的完整姓名。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+      }
+    ],
+    "reference_values": {
+      "occurred": "YES",
+      "role_a": "小川",
+      "role_b": "上田"
+    },
+    "derivation": "original clause with simultaneous two-name substitution only",
+    "same_as_seed": false
+  },
+  {
+    "source_id": "SRC026",
+    "domain": "hire",
+    "source_form": "JA_PASSIVE",
+    "language": "JA",
+    "pair_indices": [
+      2,
+      3
+    ],
+    "pair_names": [
+      "小川",
+      "上田"
+    ],
+    "fact": "NO",
+    "source_text": "R1：上田は小川に臨時の助手として雇用されませんでした。",
+    "seed_source_text": "R1：森田は青木に臨時の助手として雇用されませんでした。",
+    "seed_call_id": "B12V2-QWEN-S0029",
+    "role_keys": [
+      "employer",
+      "employee"
+    ],
+    "role_definitions": "employer是雇用方，employee是被雇用方。",
+    "seed_messages": [
+      {
+        "role": "user",
+        "content": "下面每条记录各自描述不同场合的一次具体事件；不要把不同记录合并成同一次事件。只依据文字，不补充常识或背景。\n记录：\"R1：森田は青木に臨時の助手として雇用されませんでした。\"\n目标记录：R1\n只记录目标记录中讨论的关系命题，不要记录其他记录中的事件。\n实体表：E1对应青木；E2对应森田；E3对应小川；E4对应上田\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"employer\":\"姓名\",\"employee\":\"姓名\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\nemployer是雇用方，employee是被雇用方。这两个角色字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中的完整姓名。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+      }
+    ],
+    "reference_values": {
+      "occurred": "NO",
+      "role_a": "小川",
+      "role_b": "上田"
+    },
+    "derivation": "original clause with simultaneous two-name substitution only",
+    "same_as_seed": false
+  },
+  {
+    "source_id": "SRC027",
+    "domain": "hire",
+    "source_form": "JA_PASSIVE",
+    "language": "JA",
+    "pair_indices": [
+      3,
+      2
+    ],
+    "pair_names": [
+      "上田",
+      "小川"
+    ],
+    "fact": "YES",
+    "source_text": "R1：小川は上田に臨時の助手として雇用されました。",
+    "seed_source_text": "R1：森田は青木に臨時の助手として雇用されました。",
+    "seed_call_id": "B12V2-QWEN-S0017",
+    "role_keys": [
+      "employer",
+      "employee"
+    ],
+    "role_definitions": "employer是雇用方，employee是被雇用方。",
+    "seed_messages": [
+      {
+        "role": "user",
+        "content": "下面每条记录各自描述不同场合的一次具体事件；不要把不同记录合并成同一次事件。只依据文字，不补充常识或背景。\n记录：\"R1：森田は青木に臨時の助手として雇用されました。\"\n目标记录：R1\n只记录目标记录中讨论的关系命题，不要记录其他记录中的事件。\n实体表：E1对应青木；E2对应森田；E3对应小川；E4对应上田\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"employer\":\"姓名\",\"employee\":\"姓名\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\nemployer是雇用方，employee是被雇用方。这两个角色字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中的完整姓名。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+      }
+    ],
+    "reference_values": {
+      "occurred": "YES",
+      "role_a": "上田",
+      "role_b": "小川"
+    },
+    "derivation": "original clause with simultaneous two-name substitution only",
+    "same_as_seed": false
+  },
+  {
+    "source_id": "SRC028",
+    "domain": "hire",
+    "source_form": "JA_PASSIVE",
+    "language": "JA",
+    "pair_indices": [
+      3,
+      2
+    ],
+    "pair_names": [
+      "上田",
+      "小川"
+    ],
+    "fact": "NO",
+    "source_text": "R1：小川は上田に臨時の助手として雇用されませんでした。",
+    "seed_source_text": "R1：森田は青木に臨時の助手として雇用されませんでした。",
+    "seed_call_id": "B12V2-QWEN-S0029",
+    "role_keys": [
+      "employer",
+      "employee"
+    ],
+    "role_definitions": "employer是雇用方，employee是被雇用方。",
+    "seed_messages": [
+      {
+        "role": "user",
+        "content": "下面每条记录各自描述不同场合的一次具体事件；不要把不同记录合并成同一次事件。只依据文字，不补充常识或背景。\n记录：\"R1：森田は青木に臨時の助手として雇用されませんでした。\"\n目标记录：R1\n只记录目标记录中讨论的关系命题，不要记录其他记录中的事件。\n实体表：E1对应青木；E2对应森田；E3对应小川；E4对应上田\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"employer\":\"姓名\",\"employee\":\"姓名\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\nemployer是雇用方，employee是被雇用方。这两个角色字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中的完整姓名。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+      }
+    ],
+    "reference_values": {
+      "occurred": "NO",
+      "role_a": "上田",
+      "role_b": "小川"
+    },
+    "derivation": "original clause with simultaneous two-name substitution only",
+    "same_as_seed": false
+  },
+  {
+    "source_id": "SRC029",
+    "domain": "hire",
+    "source_form": "JA_PASSIVE",
+    "language": "JA",
+    "pair_indices": [
+      3,
+      0
+    ],
+    "pair_names": [
+      "上田",
+      "青木"
+    ],
+    "fact": "YES",
+    "source_text": "R1：青木は上田に臨時の助手として雇用されました。",
+    "seed_source_text": "R1：森田は青木に臨時の助手として雇用されました。",
+    "seed_call_id": "B12V2-QWEN-S0017",
+    "role_keys": [
+      "employer",
+      "employee"
+    ],
+    "role_definitions": "employer是雇用方，employee是被雇用方。",
+    "seed_messages": [
+      {
+        "role": "user",
+        "content": "下面每条记录各自描述不同场合的一次具体事件；不要把不同记录合并成同一次事件。只依据文字，不补充常识或背景。\n记录：\"R1：森田は青木に臨時の助手として雇用されました。\"\n目标记录：R1\n只记录目标记录中讨论的关系命题，不要记录其他记录中的事件。\n实体表：E1对应青木；E2对应森田；E3对应小川；E4对应上田\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"employer\":\"姓名\",\"employee\":\"姓名\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\nemployer是雇用方，employee是被雇用方。这两个角色字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中的完整姓名。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+      }
+    ],
+    "reference_values": {
+      "occurred": "YES",
+      "role_a": "上田",
+      "role_b": "青木"
+    },
+    "derivation": "original clause with simultaneous two-name substitution only",
+    "same_as_seed": false
+  },
+  {
+    "source_id": "SRC030",
+    "domain": "hire",
+    "source_form": "JA_PASSIVE",
+    "language": "JA",
+    "pair_indices": [
+      3,
+      0
+    ],
+    "pair_names": [
+      "上田",
+      "青木"
+    ],
+    "fact": "NO",
+    "source_text": "R1：青木は上田に臨時の助手として雇用されませんでした。",
+    "seed_source_text": "R1：森田は青木に臨時の助手として雇用されませんでした。",
+    "seed_call_id": "B12V2-QWEN-S0029",
+    "role_keys": [
+      "employer",
+      "employee"
+    ],
+    "role_definitions": "employer是雇用方，employee是被雇用方。",
+    "seed_messages": [
+      {
+        "role": "user",
+        "content": "下面每条记录各自描述不同场合的一次具体事件；不要把不同记录合并成同一次事件。只依据文字，不补充常识或背景。\n记录：\"R1：森田は青木に臨時の助手として雇用されませんでした。\"\n目标记录：R1\n只记录目标记录中讨论的关系命题，不要记录其他记录中的事件。\n实体表：E1对应青木；E2对应森田；E3对应小川；E4对应上田\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"employer\":\"姓名\",\"employee\":\"姓名\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\nemployer是雇用方，employee是被雇用方。这两个角色字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中的完整姓名。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+      }
+    ],
+    "reference_values": {
+      "occurred": "NO",
+      "role_a": "上田",
+      "role_b": "青木"
+    },
+    "derivation": "original clause with simultaneous two-name substitution only",
+    "same_as_seed": false
+  },
+  {
+    "source_id": "SRC031",
+    "domain": "hire",
+    "source_form": "JA_PASSIVE",
+    "language": "JA",
+    "pair_indices": [
+      0,
+      3
+    ],
+    "pair_names": [
+      "青木",
+      "上田"
+    ],
+    "fact": "YES",
+    "source_text": "R1：上田は青木に臨時の助手として雇用されました。",
+    "seed_source_text": "R1：森田は青木に臨時の助手として雇用されました。",
+    "seed_call_id": "B12V2-QWEN-S0017",
+    "role_keys": [
+      "employer",
+      "employee"
+    ],
+    "role_definitions": "employer是雇用方，employee是被雇用方。",
+    "seed_messages": [
+      {
+        "role": "user",
+        "content": "下面每条记录各自描述不同场合的一次具体事件；不要把不同记录合并成同一次事件。只依据文字，不补充常识或背景。\n记录：\"R1：森田は青木に臨時の助手として雇用されました。\"\n目标记录：R1\n只记录目标记录中讨论的关系命题，不要记录其他记录中的事件。\n实体表：E1对应青木；E2对应森田；E3对应小川；E4对应上田\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"employer\":\"姓名\",\"employee\":\"姓名\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\nemployer是雇用方，employee是被雇用方。这两个角色字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中的完整姓名。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+      }
+    ],
+    "reference_values": {
+      "occurred": "YES",
+      "role_a": "青木",
+      "role_b": "上田"
+    },
+    "derivation": "original clause with simultaneous two-name substitution only",
+    "same_as_seed": false
+  },
+  {
+    "source_id": "SRC032",
+    "domain": "hire",
+    "source_form": "JA_PASSIVE",
+    "language": "JA",
+    "pair_indices": [
+      0,
+      3
+    ],
+    "pair_names": [
+      "青木",
+      "上田"
+    ],
+    "fact": "NO",
+    "source_text": "R1：上田は青木に臨時の助手として雇用されませんでした。",
+    "seed_source_text": "R1：森田は青木に臨時の助手として雇用されませんでした。",
+    "seed_call_id": "B12V2-QWEN-S0029",
+    "role_keys": [
+      "employer",
+      "employee"
+    ],
+    "role_definitions": "employer是雇用方，employee是被雇用方。",
+    "seed_messages": [
+      {
+        "role": "user",
+        "content": "下面每条记录各自描述不同场合的一次具体事件；不要把不同记录合并成同一次事件。只依据文字，不补充常识或背景。\n记录：\"R1：森田は青木に臨時の助手として雇用されませんでした。\"\n目标记录：R1\n只记录目标记录中讨论的关系命题，不要记录其他记录中的事件。\n实体表：E1对应青木；E2对应森田；E3对应小川；E4对应上田\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"employer\":\"姓名\",\"employee\":\"姓名\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\nemployer是雇用方，employee是被雇用方。这两个角色字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中的完整姓名。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+      }
+    ],
+    "reference_values": {
+      "occurred": "NO",
+      "role_a": "青木",
+      "role_b": "上田"
+    },
+    "derivation": "original clause with simultaneous two-name substitution only",
+    "same_as_seed": false
+  },
+  {
+    "source_id": "SRC033",
+    "domain": "hire",
+    "source_form": "ZH_ACTIVE",
+    "language": "ZH",
+    "pair_indices": [
+      0,
+      1
+    ],
+    "pair_names": [
+      "青木",
+      "森田"
+    ],
+    "fact": "YES",
+    "source_text": "R1：青木雇用了森田担任临时助手。",
+    "seed_source_text": "R1：青木雇用了森田担任临时助手。",
+    "seed_call_id": "B12V2-QWEN-S0033",
+    "role_keys": [
+      "employer",
+      "employee"
+    ],
+    "role_definitions": "employer是雇用方，employee是被雇用方。",
+    "seed_messages": [
+      {
+        "role": "user",
+        "content": "下面每条记录各自描述不同场合的一次具体事件；不要把不同记录合并成同一次事件。只依据文字，不补充常识或背景。\n记录：\"R1：青木雇用了森田担任临时助手。\"\n目标记录：R1\n只记录目标记录中讨论的关系命题，不要记录其他记录中的事件。\n实体表：E1对应青木；E2对应森田；E3对应小川；E4对应上田\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"employer\":\"姓名\",\"employee\":\"姓名\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\nemployer是雇用方，employee是被雇用方。这两个角色字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中的完整姓名。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+      }
+    ],
+    "reference_values": {
+      "occurred": "YES",
+      "role_a": "青木",
+      "role_b": "森田"
+    },
+    "derivation": "original clause with simultaneous two-name substitution only",
+    "same_as_seed": true
+  },
+  {
+    "source_id": "SRC034",
+    "domain": "hire",
+    "source_form": "ZH_ACTIVE",
+    "language": "ZH",
+    "pair_indices": [
+      0,
+      1
+    ],
+    "pair_names": [
+      "青木",
+      "森田"
+    ],
+    "fact": "NO",
+    "source_text": "R1：青木没有雇用森田担任临时助手。",
+    "seed_source_text": "R1：青木没有雇用森田担任临时助手。",
+    "seed_call_id": "B12V2-QWEN-S0045",
+    "role_keys": [
+      "employer",
+      "employee"
+    ],
+    "role_definitions": "employer是雇用方，employee是被雇用方。",
+    "seed_messages": [
+      {
+        "role": "user",
+        "content": "下面每条记录各自描述不同场合的一次具体事件；不要把不同记录合并成同一次事件。只依据文字，不补充常识或背景。\n记录：\"R1：青木没有雇用森田担任临时助手。\"\n目标记录：R1\n只记录目标记录中讨论的关系命题，不要记录其他记录中的事件。\n实体表：E1对应青木；E2对应森田；E3对应小川；E4对应上田\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"employer\":\"姓名\",\"employee\":\"姓名\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\nemployer是雇用方，employee是被雇用方。这两个角色字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中的完整姓名。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+      }
+    ],
+    "reference_values": {
+      "occurred": "NO",
+      "role_a": "青木",
+      "role_b": "森田"
+    },
+    "derivation": "original clause with simultaneous two-name substitution only",
+    "same_as_seed": true
+  },
+  {
+    "source_id": "SRC035",
+    "domain": "hire",
+    "source_form": "ZH_ACTIVE",
+    "language": "ZH",
+    "pair_indices": [
+      1,
+      0
+    ],
+    "pair_names": [
+      "森田",
+      "青木"
+    ],
+    "fact": "YES",
+    "source_text": "R1：森田雇用了青木担任临时助手。",
+    "seed_source_text": "R1：青木雇用了森田担任临时助手。",
+    "seed_call_id": "B12V2-QWEN-S0033",
+    "role_keys": [
+      "employer",
+      "employee"
+    ],
+    "role_definitions": "employer是雇用方，employee是被雇用方。",
+    "seed_messages": [
+      {
+        "role": "user",
+        "content": "下面每条记录各自描述不同场合的一次具体事件；不要把不同记录合并成同一次事件。只依据文字，不补充常识或背景。\n记录：\"R1：青木雇用了森田担任临时助手。\"\n目标记录：R1\n只记录目标记录中讨论的关系命题，不要记录其他记录中的事件。\n实体表：E1对应青木；E2对应森田；E3对应小川；E4对应上田\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"employer\":\"姓名\",\"employee\":\"姓名\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\nemployer是雇用方，employee是被雇用方。这两个角色字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中的完整姓名。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+      }
+    ],
+    "reference_values": {
+      "occurred": "YES",
+      "role_a": "森田",
+      "role_b": "青木"
+    },
+    "derivation": "original clause with simultaneous two-name substitution only",
+    "same_as_seed": false
+  },
+  {
+    "source_id": "SRC036",
+    "domain": "hire",
+    "source_form": "ZH_ACTIVE",
+    "language": "ZH",
+    "pair_indices": [
+      1,
+      0
+    ],
+    "pair_names": [
+      "森田",
+      "青木"
+    ],
+    "fact": "NO",
+    "source_text": "R1：森田没有雇用青木担任临时助手。",
+    "seed_source_text": "R1：青木没有雇用森田担任临时助手。",
+    "seed_call_id": "B12V2-QWEN-S0045",
+    "role_keys": [
+      "employer",
+      "employee"
+    ],
+    "role_definitions": "employer是雇用方，employee是被雇用方。",
+    "seed_messages": [
+      {
+        "role": "user",
+        "content": "下面每条记录各自描述不同场合的一次具体事件；不要把不同记录合并成同一次事件。只依据文字，不补充常识或背景。\n记录：\"R1：青木没有雇用森田担任临时助手。\"\n目标记录：R1\n只记录目标记录中讨论的关系命题，不要记录其他记录中的事件。\n实体表：E1对应青木；E2对应森田；E3对应小川；E4对应上田\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"employer\":\"姓名\",\"employee\":\"姓名\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\nemployer是雇用方，employee是被雇用方。这两个角色字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中的完整姓名。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+      }
+    ],
+    "reference_values": {
+      "occurred": "NO",
+      "role_a": "森田",
+      "role_b": "青木"
+    },
+    "derivation": "original clause with simultaneous two-name substitution only",
+    "same_as_seed": false
+  },
+  {
+    "source_id": "SRC037",
+    "domain": "hire",
+    "source_form": "ZH_ACTIVE",
+    "language": "ZH",
+    "pair_indices": [
+      1,
+      2
+    ],
+    "pair_names": [
+      "森田",
+      "小川"
+    ],
+    "fact": "YES",
+    "source_text": "R1：森田雇用了小川担任临时助手。",
+    "seed_source_text": "R1：青木雇用了森田担任临时助手。",
+    "seed_call_id": "B12V2-QWEN-S0033",
+    "role_keys": [
+      "employer",
+      "employee"
+    ],
+    "role_definitions": "employer是雇用方，employee是被雇用方。",
+    "seed_messages": [
+      {
+        "role": "user",
+        "content": "下面每条记录各自描述不同场合的一次具体事件；不要把不同记录合并成同一次事件。只依据文字，不补充常识或背景。\n记录：\"R1：青木雇用了森田担任临时助手。\"\n目标记录：R1\n只记录目标记录中讨论的关系命题，不要记录其他记录中的事件。\n实体表：E1对应青木；E2对应森田；E3对应小川；E4对应上田\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"employer\":\"姓名\",\"employee\":\"姓名\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\nemployer是雇用方，employee是被雇用方。这两个角色字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中的完整姓名。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+      }
+    ],
+    "reference_values": {
+      "occurred": "YES",
+      "role_a": "森田",
+      "role_b": "小川"
+    },
+    "derivation": "original clause with simultaneous two-name substitution only",
+    "same_as_seed": false
+  },
+  {
+    "source_id": "SRC038",
+    "domain": "hire",
+    "source_form": "ZH_ACTIVE",
+    "language": "ZH",
+    "pair_indices": [
+      1,
+      2
+    ],
+    "pair_names": [
+      "森田",
+      "小川"
+    ],
+    "fact": "NO",
+    "source_text": "R1：森田没有雇用小川担任临时助手。",
+    "seed_source_text": "R1：青木没有雇用森田担任临时助手。",
+    "seed_call_id": "B12V2-QWEN-S0045",
+    "role_keys": [
+      "employer",
+      "employee"
+    ],
+    "role_definitions": "employer是雇用方，employee是被雇用方。",
+    "seed_messages": [
+      {
+        "role": "user",
+        "content": "下面每条记录各自描述不同场合的一次具体事件；不要把不同记录合并成同一次事件。只依据文字，不补充常识或背景。\n记录：\"R1：青木没有雇用森田担任临时助手。\"\n目标记录：R1\n只记录目标记录中讨论的关系命题，不要记录其他记录中的事件。\n实体表：E1对应青木；E2对应森田；E3对应小川；E4对应上田\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"employer\":\"姓名\",\"employee\":\"姓名\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\nemployer是雇用方，employee是被雇用方。这两个角色字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中的完整姓名。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+      }
+    ],
+    "reference_values": {
+      "occurred": "NO",
+      "role_a": "森田",
+      "role_b": "小川"
+    },
+    "derivation": "original clause with simultaneous two-name substitution only",
+    "same_as_seed": false
+  },
+  {
+    "source_id": "SRC039",
+    "domain": "hire",
+    "source_form": "ZH_ACTIVE",
+    "language": "ZH",
+    "pair_indices": [
+      2,
+      1
+    ],
+    "pair_names": [
+      "小川",
+      "森田"
+    ],
+    "fact": "YES",
+    "source_text": "R1：小川雇用了森田担任临时助手。",
+    "seed_source_text": "R1：青木雇用了森田担任临时助手。",
+    "seed_call_id": "B12V2-QWEN-S0033",
+    "role_keys": [
+      "employer",
+      "employee"
+    ],
+    "role_definitions": "employer是雇用方，employee是被雇用方。",
+    "seed_messages": [
+      {
+        "role": "user",
+        "content": "下面每条记录各自描述不同场合的一次具体事件；不要把不同记录合并成同一次事件。只依据文字，不补充常识或背景。\n记录：\"R1：青木雇用了森田担任临时助手。\"\n目标记录：R1\n只记录目标记录中讨论的关系命题，不要记录其他记录中的事件。\n实体表：E1对应青木；E2对应森田；E3对应小川；E4对应上田\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"employer\":\"姓名\",\"employee\":\"姓名\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\nemployer是雇用方，employee是被雇用方。这两个角色字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中的完整姓名。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+      }
+    ],
+    "reference_values": {
+      "occurred": "YES",
+      "role_a": "小川",
+      "role_b": "森田"
+    },
+    "derivation": "original clause with simultaneous two-name substitution only",
+    "same_as_seed": false
+  },
+  {
+    "source_id": "SRC040",
+    "domain": "hire",
+    "source_form": "ZH_ACTIVE",
+    "language": "ZH",
+    "pair_indices": [
+      2,
+      1
+    ],
+    "pair_names": [
+      "小川",
+      "森田"
+    ],
+    "fact": "NO",
+    "source_text": "R1：小川没有雇用森田担任临时助手。",
+    "seed_source_text": "R1：青木没有雇用森田担任临时助手。",
+    "seed_call_id": "B12V2-QWEN-S0045",
+    "role_keys": [
+      "employer",
+      "employee"
+    ],
+    "role_definitions": "employer是雇用方，employee是被雇用方。",
+    "seed_messages": [
+      {
+        "role": "user",
+        "content": "下面每条记录各自描述不同场合的一次具体事件；不要把不同记录合并成同一次事件。只依据文字，不补充常识或背景。\n记录：\"R1：青木没有雇用森田担任临时助手。\"\n目标记录：R1\n只记录目标记录中讨论的关系命题，不要记录其他记录中的事件。\n实体表：E1对应青木；E2对应森田；E3对应小川；E4对应上田\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"employer\":\"姓名\",\"employee\":\"姓名\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\nemployer是雇用方，employee是被雇用方。这两个角色字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中的完整姓名。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+      }
+    ],
+    "reference_values": {
+      "occurred": "NO",
+      "role_a": "小川",
+      "role_b": "森田"
+    },
+    "derivation": "original clause with simultaneous two-name substitution only",
+    "same_as_seed": false
+  },
+  {
+    "source_id": "SRC041",
+    "domain": "hire",
+    "source_form": "ZH_ACTIVE",
+    "language": "ZH",
+    "pair_indices": [
+      2,
+      3
+    ],
+    "pair_names": [
+      "小川",
+      "上田"
+    ],
+    "fact": "YES",
+    "source_text": "R1：小川雇用了上田担任临时助手。",
+    "seed_source_text": "R1：青木雇用了森田担任临时助手。",
+    "seed_call_id": "B12V2-QWEN-S0033",
+    "role_keys": [
+      "employer",
+      "employee"
+    ],
+    "role_definitions": "employer是雇用方，employee是被雇用方。",
+    "seed_messages": [
+      {
+        "role": "user",
+        "content": "下面每条记录各自描述不同场合的一次具体事件；不要把不同记录合并成同一次事件。只依据文字，不补充常识或背景。\n记录：\"R1：青木雇用了森田担任临时助手。\"\n目标记录：R1\n只记录目标记录中讨论的关系命题，不要记录其他记录中的事件。\n实体表：E1对应青木；E2对应森田；E3对应小川；E4对应上田\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"employer\":\"姓名\",\"employee\":\"姓名\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\nemployer是雇用方，employee是被雇用方。这两个角色字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中的完整姓名。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+      }
+    ],
+    "reference_values": {
+      "occurred": "YES",
+      "role_a": "小川",
+      "role_b": "上田"
+    },
+    "derivation": "original clause with simultaneous two-name substitution only",
+    "same_as_seed": false
+  },
+  {
+    "source_id": "SRC042",
+    "domain": "hire",
+    "source_form": "ZH_ACTIVE",
+    "language": "ZH",
+    "pair_indices": [
+      2,
+      3
+    ],
+    "pair_names": [
+      "小川",
+      "上田"
+    ],
+    "fact": "NO",
+    "source_text": "R1：小川没有雇用上田担任临时助手。",
+    "seed_source_text": "R1：青木没有雇用森田担任临时助手。",
+    "seed_call_id": "B12V2-QWEN-S0045",
+    "role_keys": [
+      "employer",
+      "employee"
+    ],
+    "role_definitions": "employer是雇用方，employee是被雇用方。",
+    "seed_messages": [
+      {
+        "role": "user",
+        "content": "下面每条记录各自描述不同场合的一次具体事件；不要把不同记录合并成同一次事件。只依据文字，不补充常识或背景。\n记录：\"R1：青木没有雇用森田担任临时助手。\"\n目标记录：R1\n只记录目标记录中讨论的关系命题，不要记录其他记录中的事件。\n实体表：E1对应青木；E2对应森田；E3对应小川；E4对应上田\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"employer\":\"姓名\",\"employee\":\"姓名\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\nemployer是雇用方，employee是被雇用方。这两个角色字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中的完整姓名。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+      }
+    ],
+    "reference_values": {
+      "occurred": "NO",
+      "role_a": "小川",
+      "role_b": "上田"
+    },
+    "derivation": "original clause with simultaneous two-name substitution only",
+    "same_as_seed": false
+  },
+  {
+    "source_id": "SRC043",
+    "domain": "hire",
+    "source_form": "ZH_ACTIVE",
+    "language": "ZH",
+    "pair_indices": [
+      3,
+      2
+    ],
+    "pair_names": [
+      "上田",
+      "小川"
+    ],
+    "fact": "YES",
+    "source_text": "R1：上田雇用了小川担任临时助手。",
+    "seed_source_text": "R1：青木雇用了森田担任临时助手。",
+    "seed_call_id": "B12V2-QWEN-S0033",
+    "role_keys": [
+      "employer",
+      "employee"
+    ],
+    "role_definitions": "employer是雇用方，employee是被雇用方。",
+    "seed_messages": [
+      {
+        "role": "user",
+        "content": "下面每条记录各自描述不同场合的一次具体事件；不要把不同记录合并成同一次事件。只依据文字，不补充常识或背景。\n记录：\"R1：青木雇用了森田担任临时助手。\"\n目标记录：R1\n只记录目标记录中讨论的关系命题，不要记录其他记录中的事件。\n实体表：E1对应青木；E2对应森田；E3对应小川；E4对应上田\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"employer\":\"姓名\",\"employee\":\"姓名\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\nemployer是雇用方，employee是被雇用方。这两个角色字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中的完整姓名。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+      }
+    ],
+    "reference_values": {
+      "occurred": "YES",
+      "role_a": "上田",
+      "role_b": "小川"
+    },
+    "derivation": "original clause with simultaneous two-name substitution only",
+    "same_as_seed": false
+  },
+  {
+    "source_id": "SRC044",
+    "domain": "hire",
+    "source_form": "ZH_ACTIVE",
+    "language": "ZH",
+    "pair_indices": [
+      3,
+      2
+    ],
+    "pair_names": [
+      "上田",
+      "小川"
+    ],
+    "fact": "NO",
+    "source_text": "R1：上田没有雇用小川担任临时助手。",
+    "seed_source_text": "R1：青木没有雇用森田担任临时助手。",
+    "seed_call_id": "B12V2-QWEN-S0045",
+    "role_keys": [
+      "employer",
+      "employee"
+    ],
+    "role_definitions": "employer是雇用方，employee是被雇用方。",
+    "seed_messages": [
+      {
+        "role": "user",
+        "content": "下面每条记录各自描述不同场合的一次具体事件；不要把不同记录合并成同一次事件。只依据文字，不补充常识或背景。\n记录：\"R1：青木没有雇用森田担任临时助手。\"\n目标记录：R1\n只记录目标记录中讨论的关系命题，不要记录其他记录中的事件。\n实体表：E1对应青木；E2对应森田；E3对应小川；E4对应上田\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"employer\":\"姓名\",\"employee\":\"姓名\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\nemployer是雇用方，employee是被雇用方。这两个角色字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中的完整姓名。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+      }
+    ],
+    "reference_values": {
+      "occurred": "NO",
+      "role_a": "上田",
+      "role_b": "小川"
+    },
+    "derivation": "original clause with simultaneous two-name substitution only",
+    "same_as_seed": false
+  },
+  {
+    "source_id": "SRC045",
+    "domain": "hire",
+    "source_form": "ZH_ACTIVE",
+    "language": "ZH",
+    "pair_indices": [
+      3,
+      0
+    ],
+    "pair_names": [
+      "上田",
+      "青木"
+    ],
+    "fact": "YES",
+    "source_text": "R1：上田雇用了青木担任临时助手。",
+    "seed_source_text": "R1：青木雇用了森田担任临时助手。",
+    "seed_call_id": "B12V2-QWEN-S0033",
+    "role_keys": [
+      "employer",
+      "employee"
+    ],
+    "role_definitions": "employer是雇用方，employee是被雇用方。",
+    "seed_messages": [
+      {
+        "role": "user",
+        "content": "下面每条记录各自描述不同场合的一次具体事件；不要把不同记录合并成同一次事件。只依据文字，不补充常识或背景。\n记录：\"R1：青木雇用了森田担任临时助手。\"\n目标记录：R1\n只记录目标记录中讨论的关系命题，不要记录其他记录中的事件。\n实体表：E1对应青木；E2对应森田；E3对应小川；E4对应上田\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"employer\":\"姓名\",\"employee\":\"姓名\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\nemployer是雇用方，employee是被雇用方。这两个角色字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中的完整姓名。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+      }
+    ],
+    "reference_values": {
+      "occurred": "YES",
+      "role_a": "上田",
+      "role_b": "青木"
+    },
+    "derivation": "original clause with simultaneous two-name substitution only",
+    "same_as_seed": false
+  },
+  {
+    "source_id": "SRC046",
+    "domain": "hire",
+    "source_form": "ZH_ACTIVE",
+    "language": "ZH",
+    "pair_indices": [
+      3,
+      0
+    ],
+    "pair_names": [
+      "上田",
+      "青木"
+    ],
+    "fact": "NO",
+    "source_text": "R1：上田没有雇用青木担任临时助手。",
+    "seed_source_text": "R1：青木没有雇用森田担任临时助手。",
+    "seed_call_id": "B12V2-QWEN-S0045",
+    "role_keys": [
+      "employer",
+      "employee"
+    ],
+    "role_definitions": "employer是雇用方，employee是被雇用方。",
+    "seed_messages": [
+      {
+        "role": "user",
+        "content": "下面每条记录各自描述不同场合的一次具体事件；不要把不同记录合并成同一次事件。只依据文字，不补充常识或背景。\n记录：\"R1：青木没有雇用森田担任临时助手。\"\n目标记录：R1\n只记录目标记录中讨论的关系命题，不要记录其他记录中的事件。\n实体表：E1对应青木；E2对应森田；E3对应小川；E4对应上田\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"employer\":\"姓名\",\"employee\":\"姓名\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\nemployer是雇用方，employee是被雇用方。这两个角色字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中的完整姓名。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+      }
+    ],
+    "reference_values": {
+      "occurred": "NO",
+      "role_a": "上田",
+      "role_b": "青木"
+    },
+    "derivation": "original clause with simultaneous two-name substitution only",
+    "same_as_seed": false
+  },
+  {
+    "source_id": "SRC047",
+    "domain": "hire",
+    "source_form": "ZH_ACTIVE",
+    "language": "ZH",
+    "pair_indices": [
+      0,
+      3
+    ],
+    "pair_names": [
+      "青木",
+      "上田"
+    ],
+    "fact": "YES",
+    "source_text": "R1：青木雇用了上田担任临时助手。",
+    "seed_source_text": "R1：青木雇用了森田担任临时助手。",
+    "seed_call_id": "B12V2-QWEN-S0033",
+    "role_keys": [
+      "employer",
+      "employee"
+    ],
+    "role_definitions": "employer是雇用方，employee是被雇用方。",
+    "seed_messages": [
+      {
+        "role": "user",
+        "content": "下面每条记录各自描述不同场合的一次具体事件；不要把不同记录合并成同一次事件。只依据文字，不补充常识或背景。\n记录：\"R1：青木雇用了森田担任临时助手。\"\n目标记录：R1\n只记录目标记录中讨论的关系命题，不要记录其他记录中的事件。\n实体表：E1对应青木；E2对应森田；E3对应小川；E4对应上田\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"employer\":\"姓名\",\"employee\":\"姓名\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\nemployer是雇用方，employee是被雇用方。这两个角色字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中的完整姓名。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+      }
+    ],
+    "reference_values": {
+      "occurred": "YES",
+      "role_a": "青木",
+      "role_b": "上田"
+    },
+    "derivation": "original clause with simultaneous two-name substitution only",
+    "same_as_seed": false
+  },
+  {
+    "source_id": "SRC048",
+    "domain": "hire",
+    "source_form": "ZH_ACTIVE",
+    "language": "ZH",
+    "pair_indices": [
+      0,
+      3
+    ],
+    "pair_names": [
+      "青木",
+      "上田"
+    ],
+    "fact": "NO",
+    "source_text": "R1：青木没有雇用上田担任临时助手。",
+    "seed_source_text": "R1：青木没有雇用森田担任临时助手。",
+    "seed_call_id": "B12V2-QWEN-S0045",
+    "role_keys": [
+      "employer",
+      "employee"
+    ],
+    "role_definitions": "employer是雇用方，employee是被雇用方。",
+    "seed_messages": [
+      {
+        "role": "user",
+        "content": "下面每条记录各自描述不同场合的一次具体事件；不要把不同记录合并成同一次事件。只依据文字，不补充常识或背景。\n记录：\"R1：青木没有雇用森田担任临时助手。\"\n目标记录：R1\n只记录目标记录中讨论的关系命题，不要记录其他记录中的事件。\n实体表：E1对应青木；E2对应森田；E3对应小川；E4对应上田\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"employer\":\"姓名\",\"employee\":\"姓名\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\nemployer是雇用方，employee是被雇用方。这两个角色字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中的完整姓名。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+      }
+    ],
+    "reference_values": {
+      "occurred": "NO",
+      "role_a": "青木",
+      "role_b": "上田"
+    },
+    "derivation": "original clause with simultaneous two-name substitution only",
+    "same_as_seed": false
+  },
+  {
+    "source_id": "SRC049",
+    "domain": "loan",
+    "source_form": "JA_ACTIVE",
+    "language": "JA",
+    "pair_indices": [
+      0,
+      1
+    ],
+    "pair_names": [
+      "青木",
+      "森田"
+    ],
+    "fact": "YES",
+    "source_text": "R1：青木は森田に本を貸し出しました。",
+    "seed_source_text": "R1：青木は森田に本を貸し出しました。",
+    "seed_call_id": "B12V2-QWEN-S0049",
+    "role_keys": [
+      "lender",
+      "borrower"
+    ],
+    "role_definitions": "lender是出借方，borrower是借入方。",
+    "seed_messages": [
+      {
+        "role": "user",
+        "content": "下面每条记录各自描述不同场合的一次具体事件；不要把不同记录合并成同一次事件。只依据文字，不补充常识或背景。\n记录：\"R1：青木は森田に本を貸し出しました。\"\n目标记录：R1\n只记录目标记录中讨论的关系命题，不要记录其他记录中的事件。\n实体表：E1对应青木；E2对应森田；E3对应小川；E4对应上田\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"lender\":\"姓名\",\"borrower\":\"姓名\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\nlender是出借方，borrower是借入方。这两个角色字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中的完整姓名。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+      }
+    ],
+    "reference_values": {
+      "occurred": "YES",
+      "role_a": "青木",
+      "role_b": "森田"
+    },
+    "derivation": "original clause with simultaneous two-name substitution only",
+    "same_as_seed": true
+  },
+  {
+    "source_id": "SRC050",
+    "domain": "loan",
+    "source_form": "JA_ACTIVE",
+    "language": "JA",
+    "pair_indices": [
+      0,
+      1
+    ],
+    "pair_names": [
+      "青木",
+      "森田"
+    ],
+    "fact": "NO",
+    "source_text": "R1：青木は森田に本を貸し出しませんでした。",
+    "seed_source_text": "R1：青木は森田に本を貸し出しませんでした。",
+    "seed_call_id": "B12V2-QWEN-S0061",
+    "role_keys": [
+      "lender",
+      "borrower"
+    ],
+    "role_definitions": "lender是出借方，borrower是借入方。",
+    "seed_messages": [
+      {
+        "role": "user",
+        "content": "下面每条记录各自描述不同场合的一次具体事件；不要把不同记录合并成同一次事件。只依据文字，不补充常识或背景。\n记录：\"R1：青木は森田に本を貸し出しませんでした。\"\n目标记录：R1\n只记录目标记录中讨论的关系命题，不要记录其他记录中的事件。\n实体表：E1对应青木；E2对应森田；E3对应小川；E4对应上田\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"lender\":\"姓名\",\"borrower\":\"姓名\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\nlender是出借方，borrower是借入方。这两个角色字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中的完整姓名。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+      }
+    ],
+    "reference_values": {
+      "occurred": "NO",
+      "role_a": "青木",
+      "role_b": "森田"
+    },
+    "derivation": "original clause with simultaneous two-name substitution only",
+    "same_as_seed": true
+  },
+  {
+    "source_id": "SRC051",
+    "domain": "loan",
+    "source_form": "JA_ACTIVE",
+    "language": "JA",
+    "pair_indices": [
+      1,
+      0
+    ],
+    "pair_names": [
+      "森田",
+      "青木"
+    ],
+    "fact": "YES",
+    "source_text": "R1：森田は青木に本を貸し出しました。",
+    "seed_source_text": "R1：青木は森田に本を貸し出しました。",
+    "seed_call_id": "B12V2-QWEN-S0049",
+    "role_keys": [
+      "lender",
+      "borrower"
+    ],
+    "role_definitions": "lender是出借方，borrower是借入方。",
+    "seed_messages": [
+      {
+        "role": "user",
+        "content": "下面每条记录各自描述不同场合的一次具体事件；不要把不同记录合并成同一次事件。只依据文字，不补充常识或背景。\n记录：\"R1：青木は森田に本を貸し出しました。\"\n目标记录：R1\n只记录目标记录中讨论的关系命题，不要记录其他记录中的事件。\n实体表：E1对应青木；E2对应森田；E3对应小川；E4对应上田\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"lender\":\"姓名\",\"borrower\":\"姓名\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\nlender是出借方，borrower是借入方。这两个角色字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中的完整姓名。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+      }
+    ],
+    "reference_values": {
+      "occurred": "YES",
+      "role_a": "森田",
+      "role_b": "青木"
+    },
+    "derivation": "original clause with simultaneous two-name substitution only",
+    "same_as_seed": false
+  },
+  {
+    "source_id": "SRC052",
+    "domain": "loan",
+    "source_form": "JA_ACTIVE",
+    "language": "JA",
+    "pair_indices": [
+      1,
+      0
+    ],
+    "pair_names": [
+      "森田",
+      "青木"
+    ],
+    "fact": "NO",
+    "source_text": "R1：森田は青木に本を貸し出しませんでした。",
+    "seed_source_text": "R1：青木は森田に本を貸し出しませんでした。",
+    "seed_call_id": "B12V2-QWEN-S0061",
+    "role_keys": [
+      "lender",
+      "borrower"
+    ],
+    "role_definitions": "lender是出借方，borrower是借入方。",
+    "seed_messages": [
+      {
+        "role": "user",
+        "content": "下面每条记录各自描述不同场合的一次具体事件；不要把不同记录合并成同一次事件。只依据文字，不补充常识或背景。\n记录：\"R1：青木は森田に本を貸し出しませんでした。\"\n目标记录：R1\n只记录目标记录中讨论的关系命题，不要记录其他记录中的事件。\n实体表：E1对应青木；E2对应森田；E3对应小川；E4对应上田\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"lender\":\"姓名\",\"borrower\":\"姓名\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\nlender是出借方，borrower是借入方。这两个角色字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中的完整姓名。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+      }
+    ],
+    "reference_values": {
+      "occurred": "NO",
+      "role_a": "森田",
+      "role_b": "青木"
+    },
+    "derivation": "original clause with simultaneous two-name substitution only",
+    "same_as_seed": false
+  },
+  {
+    "source_id": "SRC053",
+    "domain": "loan",
+    "source_form": "JA_ACTIVE",
+    "language": "JA",
+    "pair_indices": [
+      1,
+      2
+    ],
+    "pair_names": [
+      "森田",
+      "小川"
+    ],
+    "fact": "YES",
+    "source_text": "R1：森田は小川に本を貸し出しました。",
+    "seed_source_text": "R1：青木は森田に本を貸し出しました。",
+    "seed_call_id": "B12V2-QWEN-S0049",
+    "role_keys": [
+      "lender",
+      "borrower"
+    ],
+    "role_definitions": "lender是出借方，borrower是借入方。",
+    "seed_messages": [
+      {
+        "role": "user",
+        "content": "下面每条记录各自描述不同场合的一次具体事件；不要把不同记录合并成同一次事件。只依据文字，不补充常识或背景。\n记录：\"R1：青木は森田に本を貸し出しました。\"\n目标记录：R1\n只记录目标记录中讨论的关系命题，不要记录其他记录中的事件。\n实体表：E1对应青木；E2对应森田；E3对应小川；E4对应上田\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"lender\":\"姓名\",\"borrower\":\"姓名\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\nlender是出借方，borrower是借入方。这两个角色字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中的完整姓名。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+      }
+    ],
+    "reference_values": {
+      "occurred": "YES",
+      "role_a": "森田",
+      "role_b": "小川"
+    },
+    "derivation": "original clause with simultaneous two-name substitution only",
+    "same_as_seed": false
+  },
+  {
+    "source_id": "SRC054",
+    "domain": "loan",
+    "source_form": "JA_ACTIVE",
+    "language": "JA",
+    "pair_indices": [
+      1,
+      2
+    ],
+    "pair_names": [
+      "森田",
+      "小川"
+    ],
+    "fact": "NO",
+    "source_text": "R1：森田は小川に本を貸し出しませんでした。",
+    "seed_source_text": "R1：青木は森田に本を貸し出しませんでした。",
+    "seed_call_id": "B12V2-QWEN-S0061",
+    "role_keys": [
+      "lender",
+      "borrower"
+    ],
+    "role_definitions": "lender是出借方，borrower是借入方。",
+    "seed_messages": [
+      {
+        "role": "user",
+        "content": "下面每条记录各自描述不同场合的一次具体事件；不要把不同记录合并成同一次事件。只依据文字，不补充常识或背景。\n记录：\"R1：青木は森田に本を貸し出しませんでした。\"\n目标记录：R1\n只记录目标记录中讨论的关系命题，不要记录其他记录中的事件。\n实体表：E1对应青木；E2对应森田；E3对应小川；E4对应上田\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"lender\":\"姓名\",\"borrower\":\"姓名\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\nlender是出借方，borrower是借入方。这两个角色字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中的完整姓名。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+      }
+    ],
+    "reference_values": {
+      "occurred": "NO",
+      "role_a": "森田",
+      "role_b": "小川"
+    },
+    "derivation": "original clause with simultaneous two-name substitution only",
+    "same_as_seed": false
+  },
+  {
+    "source_id": "SRC055",
+    "domain": "loan",
+    "source_form": "JA_ACTIVE",
+    "language": "JA",
+    "pair_indices": [
+      2,
+      1
+    ],
+    "pair_names": [
+      "小川",
+      "森田"
+    ],
+    "fact": "YES",
+    "source_text": "R1：小川は森田に本を貸し出しました。",
+    "seed_source_text": "R1：青木は森田に本を貸し出しました。",
+    "seed_call_id": "B12V2-QWEN-S0049",
+    "role_keys": [
+      "lender",
+      "borrower"
+    ],
+    "role_definitions": "lender是出借方，borrower是借入方。",
+    "seed_messages": [
+      {
+        "role": "user",
+        "content": "下面每条记录各自描述不同场合的一次具体事件；不要把不同记录合并成同一次事件。只依据文字，不补充常识或背景。\n记录：\"R1：青木は森田に本を貸し出しました。\"\n目标记录：R1\n只记录目标记录中讨论的关系命题，不要记录其他记录中的事件。\n实体表：E1对应青木；E2对应森田；E3对应小川；E4对应上田\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"lender\":\"姓名\",\"borrower\":\"姓名\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\nlender是出借方，borrower是借入方。这两个角色字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中的完整姓名。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+      }
+    ],
+    "reference_values": {
+      "occurred": "YES",
+      "role_a": "小川",
+      "role_b": "森田"
+    },
+    "derivation": "original clause with simultaneous two-name substitution only",
+    "same_as_seed": false
+  },
+  {
+    "source_id": "SRC056",
+    "domain": "loan",
+    "source_form": "JA_ACTIVE",
+    "language": "JA",
+    "pair_indices": [
+      2,
+      1
+    ],
+    "pair_names": [
+      "小川",
+      "森田"
+    ],
+    "fact": "NO",
+    "source_text": "R1：小川は森田に本を貸し出しませんでした。",
+    "seed_source_text": "R1：青木は森田に本を貸し出しませんでした。",
+    "seed_call_id": "B12V2-QWEN-S0061",
+    "role_keys": [
+      "lender",
+      "borrower"
+    ],
+    "role_definitions": "lender是出借方，borrower是借入方。",
+    "seed_messages": [
+      {
+        "role": "user",
+        "content": "下面每条记录各自描述不同场合的一次具体事件；不要把不同记录合并成同一次事件。只依据文字，不补充常识或背景。\n记录：\"R1：青木は森田に本を貸し出しませんでした。\"\n目标记录：R1\n只记录目标记录中讨论的关系命题，不要记录其他记录中的事件。\n实体表：E1对应青木；E2对应森田；E3对应小川；E4对应上田\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"lender\":\"姓名\",\"borrower\":\"姓名\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\nlender是出借方，borrower是借入方。这两个角色字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中的完整姓名。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+      }
+    ],
+    "reference_values": {
+      "occurred": "NO",
+      "role_a": "小川",
+      "role_b": "森田"
+    },
+    "derivation": "original clause with simultaneous two-name substitution only",
+    "same_as_seed": false
+  },
+  {
+    "source_id": "SRC057",
+    "domain": "loan",
+    "source_form": "JA_ACTIVE",
+    "language": "JA",
+    "pair_indices": [
+      2,
+      3
+    ],
+    "pair_names": [
+      "小川",
+      "上田"
+    ],
+    "fact": "YES",
+    "source_text": "R1：小川は上田に本を貸し出しました。",
+    "seed_source_text": "R1：青木は森田に本を貸し出しました。",
+    "seed_call_id": "B12V2-QWEN-S0049",
+    "role_keys": [
+      "lender",
+      "borrower"
+    ],
+    "role_definitions": "lender是出借方，borrower是借入方。",
+    "seed_messages": [
+      {
+        "role": "user",
+        "content": "下面每条记录各自描述不同场合的一次具体事件；不要把不同记录合并成同一次事件。只依据文字，不补充常识或背景。\n记录：\"R1：青木は森田に本を貸し出しました。\"\n目标记录：R1\n只记录目标记录中讨论的关系命题，不要记录其他记录中的事件。\n实体表：E1对应青木；E2对应森田；E3对应小川；E4对应上田\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"lender\":\"姓名\",\"borrower\":\"姓名\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\nlender是出借方，borrower是借入方。这两个角色字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中的完整姓名。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+      }
+    ],
+    "reference_values": {
+      "occurred": "YES",
+      "role_a": "小川",
+      "role_b": "上田"
+    },
+    "derivation": "original clause with simultaneous two-name substitution only",
+    "same_as_seed": false
+  },
+  {
+    "source_id": "SRC058",
+    "domain": "loan",
+    "source_form": "JA_ACTIVE",
+    "language": "JA",
+    "pair_indices": [
+      2,
+      3
+    ],
+    "pair_names": [
+      "小川",
+      "上田"
+    ],
+    "fact": "NO",
+    "source_text": "R1：小川は上田に本を貸し出しませんでした。",
+    "seed_source_text": "R1：青木は森田に本を貸し出しませんでした。",
+    "seed_call_id": "B12V2-QWEN-S0061",
+    "role_keys": [
+      "lender",
+      "borrower"
+    ],
+    "role_definitions": "lender是出借方，borrower是借入方。",
+    "seed_messages": [
+      {
+        "role": "user",
+        "content": "下面每条记录各自描述不同场合的一次具体事件；不要把不同记录合并成同一次事件。只依据文字，不补充常识或背景。\n记录：\"R1：青木は森田に本を貸し出しませんでした。\"\n目标记录：R1\n只记录目标记录中讨论的关系命题，不要记录其他记录中的事件。\n实体表：E1对应青木；E2对应森田；E3对应小川；E4对应上田\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"lender\":\"姓名\",\"borrower\":\"姓名\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\nlender是出借方，borrower是借入方。这两个角色字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中的完整姓名。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+      }
+    ],
+    "reference_values": {
+      "occurred": "NO",
+      "role_a": "小川",
+      "role_b": "上田"
+    },
+    "derivation": "original clause with simultaneous two-name substitution only",
+    "same_as_seed": false
+  },
+  {
+    "source_id": "SRC059",
+    "domain": "loan",
+    "source_form": "JA_ACTIVE",
+    "language": "JA",
+    "pair_indices": [
+      3,
+      2
+    ],
+    "pair_names": [
+      "上田",
+      "小川"
+    ],
+    "fact": "YES",
+    "source_text": "R1：上田は小川に本を貸し出しました。",
+    "seed_source_text": "R1：青木は森田に本を貸し出しました。",
+    "seed_call_id": "B12V2-QWEN-S0049",
+    "role_keys": [
+      "lender",
+      "borrower"
+    ],
+    "role_definitions": "lender是出借方，borrower是借入方。",
+    "seed_messages": [
+      {
+        "role": "user",
+        "content": "下面每条记录各自描述不同场合的一次具体事件；不要把不同记录合并成同一次事件。只依据文字，不补充常识或背景。\n记录：\"R1：青木は森田に本を貸し出しました。\"\n目标记录：R1\n只记录目标记录中讨论的关系命题，不要记录其他记录中的事件。\n实体表：E1对应青木；E2对应森田；E3对应小川；E4对应上田\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"lender\":\"姓名\",\"borrower\":\"姓名\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\nlender是出借方，borrower是借入方。这两个角色字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中的完整姓名。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+      }
+    ],
+    "reference_values": {
+      "occurred": "YES",
+      "role_a": "上田",
+      "role_b": "小川"
+    },
+    "derivation": "original clause with simultaneous two-name substitution only",
+    "same_as_seed": false
+  },
+  {
+    "source_id": "SRC060",
+    "domain": "loan",
+    "source_form": "JA_ACTIVE",
+    "language": "JA",
+    "pair_indices": [
+      3,
+      2
+    ],
+    "pair_names": [
+      "上田",
+      "小川"
+    ],
+    "fact": "NO",
+    "source_text": "R1：上田は小川に本を貸し出しませんでした。",
+    "seed_source_text": "R1：青木は森田に本を貸し出しませんでした。",
+    "seed_call_id": "B12V2-QWEN-S0061",
+    "role_keys": [
+      "lender",
+      "borrower"
+    ],
+    "role_definitions": "lender是出借方，borrower是借入方。",
+    "seed_messages": [
+      {
+        "role": "user",
+        "content": "下面每条记录各自描述不同场合的一次具体事件；不要把不同记录合并成同一次事件。只依据文字，不补充常识或背景。\n记录：\"R1：青木は森田に本を貸し出しませんでした。\"\n目标记录：R1\n只记录目标记录中讨论的关系命题，不要记录其他记录中的事件。\n实体表：E1对应青木；E2对应森田；E3对应小川；E4对应上田\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"lender\":\"姓名\",\"borrower\":\"姓名\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\nlender是出借方，borrower是借入方。这两个角色字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中的完整姓名。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+      }
+    ],
+    "reference_values": {
+      "occurred": "NO",
+      "role_a": "上田",
+      "role_b": "小川"
+    },
+    "derivation": "original clause with simultaneous two-name substitution only",
+    "same_as_seed": false
+  },
+  {
+    "source_id": "SRC061",
+    "domain": "loan",
+    "source_form": "JA_ACTIVE",
+    "language": "JA",
+    "pair_indices": [
+      3,
+      0
+    ],
+    "pair_names": [
+      "上田",
+      "青木"
+    ],
+    "fact": "YES",
+    "source_text": "R1：上田は青木に本を貸し出しました。",
+    "seed_source_text": "R1：青木は森田に本を貸し出しました。",
+    "seed_call_id": "B12V2-QWEN-S0049",
+    "role_keys": [
+      "lender",
+      "borrower"
+    ],
+    "role_definitions": "lender是出借方，borrower是借入方。",
+    "seed_messages": [
+      {
+        "role": "user",
+        "content": "下面每条记录各自描述不同场合的一次具体事件；不要把不同记录合并成同一次事件。只依据文字，不补充常识或背景。\n记录：\"R1：青木は森田に本を貸し出しました。\"\n目标记录：R1\n只记录目标记录中讨论的关系命题，不要记录其他记录中的事件。\n实体表：E1对应青木；E2对应森田；E3对应小川；E4对应上田\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"lender\":\"姓名\",\"borrower\":\"姓名\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\nlender是出借方，borrower是借入方。这两个角色字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中的完整姓名。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+      }
+    ],
+    "reference_values": {
+      "occurred": "YES",
+      "role_a": "上田",
+      "role_b": "青木"
+    },
+    "derivation": "original clause with simultaneous two-name substitution only",
+    "same_as_seed": false
+  },
+  {
+    "source_id": "SRC062",
+    "domain": "loan",
+    "source_form": "JA_ACTIVE",
+    "language": "JA",
+    "pair_indices": [
+      3,
+      0
+    ],
+    "pair_names": [
+      "上田",
+      "青木"
+    ],
+    "fact": "NO",
+    "source_text": "R1：上田は青木に本を貸し出しませんでした。",
+    "seed_source_text": "R1：青木は森田に本を貸し出しませんでした。",
+    "seed_call_id": "B12V2-QWEN-S0061",
+    "role_keys": [
+      "lender",
+      "borrower"
+    ],
+    "role_definitions": "lender是出借方，borrower是借入方。",
+    "seed_messages": [
+      {
+        "role": "user",
+        "content": "下面每条记录各自描述不同场合的一次具体事件；不要把不同记录合并成同一次事件。只依据文字，不补充常识或背景。\n记录：\"R1：青木は森田に本を貸し出しませんでした。\"\n目标记录：R1\n只记录目标记录中讨论的关系命题，不要记录其他记录中的事件。\n实体表：E1对应青木；E2对应森田；E3对应小川；E4对应上田\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"lender\":\"姓名\",\"borrower\":\"姓名\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\nlender是出借方，borrower是借入方。这两个角色字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中的完整姓名。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+      }
+    ],
+    "reference_values": {
+      "occurred": "NO",
+      "role_a": "上田",
+      "role_b": "青木"
+    },
+    "derivation": "original clause with simultaneous two-name substitution only",
+    "same_as_seed": false
+  },
+  {
+    "source_id": "SRC063",
+    "domain": "loan",
+    "source_form": "JA_ACTIVE",
+    "language": "JA",
+    "pair_indices": [
+      0,
+      3
+    ],
+    "pair_names": [
+      "青木",
+      "上田"
+    ],
+    "fact": "YES",
+    "source_text": "R1：青木は上田に本を貸し出しました。",
+    "seed_source_text": "R1：青木は森田に本を貸し出しました。",
+    "seed_call_id": "B12V2-QWEN-S0049",
+    "role_keys": [
+      "lender",
+      "borrower"
+    ],
+    "role_definitions": "lender是出借方，borrower是借入方。",
+    "seed_messages": [
+      {
+        "role": "user",
+        "content": "下面每条记录各自描述不同场合的一次具体事件；不要把不同记录合并成同一次事件。只依据文字，不补充常识或背景。\n记录：\"R1：青木は森田に本を貸し出しました。\"\n目标记录：R1\n只记录目标记录中讨论的关系命题，不要记录其他记录中的事件。\n实体表：E1对应青木；E2对应森田；E3对应小川；E4对应上田\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"lender\":\"姓名\",\"borrower\":\"姓名\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\nlender是出借方，borrower是借入方。这两个角色字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中的完整姓名。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+      }
+    ],
+    "reference_values": {
+      "occurred": "YES",
+      "role_a": "青木",
+      "role_b": "上田"
+    },
+    "derivation": "original clause with simultaneous two-name substitution only",
+    "same_as_seed": false
+  },
+  {
+    "source_id": "SRC064",
+    "domain": "loan",
+    "source_form": "JA_ACTIVE",
+    "language": "JA",
+    "pair_indices": [
+      0,
+      3
+    ],
+    "pair_names": [
+      "青木",
+      "上田"
+    ],
+    "fact": "NO",
+    "source_text": "R1：青木は上田に本を貸し出しませんでした。",
+    "seed_source_text": "R1：青木は森田に本を貸し出しませんでした。",
+    "seed_call_id": "B12V2-QWEN-S0061",
+    "role_keys": [
+      "lender",
+      "borrower"
+    ],
+    "role_definitions": "lender是出借方，borrower是借入方。",
+    "seed_messages": [
+      {
+        "role": "user",
+        "content": "下面每条记录各自描述不同场合的一次具体事件；不要把不同记录合并成同一次事件。只依据文字，不补充常识或背景。\n记录：\"R1：青木は森田に本を貸し出しませんでした。\"\n目标记录：R1\n只记录目标记录中讨论的关系命题，不要记录其他记录中的事件。\n实体表：E1对应青木；E2对应森田；E3对应小川；E4对应上田\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"lender\":\"姓名\",\"borrower\":\"姓名\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\nlender是出借方，borrower是借入方。这两个角色字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中的完整姓名。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+      }
+    ],
+    "reference_values": {
+      "occurred": "NO",
+      "role_a": "青木",
+      "role_b": "上田"
+    },
+    "derivation": "original clause with simultaneous two-name substitution only",
+    "same_as_seed": false
+  },
+  {
+    "source_id": "SRC065",
+    "domain": "loan",
+    "source_form": "JA_PASSIVE",
+    "language": "JA",
+    "pair_indices": [
+      0,
+      1
+    ],
+    "pair_names": [
+      "青木",
+      "森田"
+    ],
+    "fact": "YES",
+    "source_text": "R1：本は青木から森田に貸し出されました。",
+    "seed_source_text": "R1：本は青木から森田に貸し出されました。",
+    "seed_call_id": "B12V2-QWEN-S0065",
+    "role_keys": [
+      "lender",
+      "borrower"
+    ],
+    "role_definitions": "lender是出借方，borrower是借入方。",
+    "seed_messages": [
+      {
+        "role": "user",
+        "content": "下面每条记录各自描述不同场合的一次具体事件；不要把不同记录合并成同一次事件。只依据文字，不补充常识或背景。\n记录：\"R1：本は青木から森田に貸し出されました。\"\n目标记录：R1\n只记录目标记录中讨论的关系命题，不要记录其他记录中的事件。\n实体表：E1对应青木；E2对应森田；E3对应小川；E4对应上田\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"lender\":\"姓名\",\"borrower\":\"姓名\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\nlender是出借方，borrower是借入方。这两个角色字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中的完整姓名。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+      }
+    ],
+    "reference_values": {
+      "occurred": "YES",
+      "role_a": "青木",
+      "role_b": "森田"
+    },
+    "derivation": "original clause with simultaneous two-name substitution only",
+    "same_as_seed": true
+  },
+  {
+    "source_id": "SRC066",
+    "domain": "loan",
+    "source_form": "JA_PASSIVE",
+    "language": "JA",
+    "pair_indices": [
+      0,
+      1
+    ],
+    "pair_names": [
+      "青木",
+      "森田"
+    ],
+    "fact": "NO",
+    "source_text": "R1：本は青木から森田に貸し出されませんでした。",
+    "seed_source_text": "R1：本は青木から森田に貸し出されませんでした。",
+    "seed_call_id": "B12V2-QWEN-S0077",
+    "role_keys": [
+      "lender",
+      "borrower"
+    ],
+    "role_definitions": "lender是出借方，borrower是借入方。",
+    "seed_messages": [
+      {
+        "role": "user",
+        "content": "下面每条记录各自描述不同场合的一次具体事件；不要把不同记录合并成同一次事件。只依据文字，不补充常识或背景。\n记录：\"R1：本は青木から森田に貸し出されませんでした。\"\n目标记录：R1\n只记录目标记录中讨论的关系命题，不要记录其他记录中的事件。\n实体表：E1对应青木；E2对应森田；E3对应小川；E4对应上田\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"lender\":\"姓名\",\"borrower\":\"姓名\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\nlender是出借方，borrower是借入方。这两个角色字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中的完整姓名。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+      }
+    ],
+    "reference_values": {
+      "occurred": "NO",
+      "role_a": "青木",
+      "role_b": "森田"
+    },
+    "derivation": "original clause with simultaneous two-name substitution only",
+    "same_as_seed": true
+  },
+  {
+    "source_id": "SRC067",
+    "domain": "loan",
+    "source_form": "JA_PASSIVE",
+    "language": "JA",
+    "pair_indices": [
+      1,
+      0
+    ],
+    "pair_names": [
+      "森田",
+      "青木"
+    ],
+    "fact": "YES",
+    "source_text": "R1：本は森田から青木に貸し出されました。",
+    "seed_source_text": "R1：本は青木から森田に貸し出されました。",
+    "seed_call_id": "B12V2-QWEN-S0065",
+    "role_keys": [
+      "lender",
+      "borrower"
+    ],
+    "role_definitions": "lender是出借方，borrower是借入方。",
+    "seed_messages": [
+      {
+        "role": "user",
+        "content": "下面每条记录各自描述不同场合的一次具体事件；不要把不同记录合并成同一次事件。只依据文字，不补充常识或背景。\n记录：\"R1：本は青木から森田に貸し出されました。\"\n目标记录：R1\n只记录目标记录中讨论的关系命题，不要记录其他记录中的事件。\n实体表：E1对应青木；E2对应森田；E3对应小川；E4对应上田\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"lender\":\"姓名\",\"borrower\":\"姓名\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\nlender是出借方，borrower是借入方。这两个角色字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中的完整姓名。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+      }
+    ],
+    "reference_values": {
+      "occurred": "YES",
+      "role_a": "森田",
+      "role_b": "青木"
+    },
+    "derivation": "original clause with simultaneous two-name substitution only",
+    "same_as_seed": false
+  },
+  {
+    "source_id": "SRC068",
+    "domain": "loan",
+    "source_form": "JA_PASSIVE",
+    "language": "JA",
+    "pair_indices": [
+      1,
+      0
+    ],
+    "pair_names": [
+      "森田",
+      "青木"
+    ],
+    "fact": "NO",
+    "source_text": "R1：本は森田から青木に貸し出されませんでした。",
+    "seed_source_text": "R1：本は青木から森田に貸し出されませんでした。",
+    "seed_call_id": "B12V2-QWEN-S0077",
+    "role_keys": [
+      "lender",
+      "borrower"
+    ],
+    "role_definitions": "lender是出借方，borrower是借入方。",
+    "seed_messages": [
+      {
+        "role": "user",
+        "content": "下面每条记录各自描述不同场合的一次具体事件；不要把不同记录合并成同一次事件。只依据文字，不补充常识或背景。\n记录：\"R1：本は青木から森田に貸し出されませんでした。\"\n目标记录：R1\n只记录目标记录中讨论的关系命题，不要记录其他记录中的事件。\n实体表：E1对应青木；E2对应森田；E3对应小川；E4对应上田\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"lender\":\"姓名\",\"borrower\":\"姓名\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\nlender是出借方，borrower是借入方。这两个角色字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中的完整姓名。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+      }
+    ],
+    "reference_values": {
+      "occurred": "NO",
+      "role_a": "森田",
+      "role_b": "青木"
+    },
+    "derivation": "original clause with simultaneous two-name substitution only",
+    "same_as_seed": false
+  },
+  {
+    "source_id": "SRC069",
+    "domain": "loan",
+    "source_form": "JA_PASSIVE",
+    "language": "JA",
+    "pair_indices": [
+      1,
+      2
+    ],
+    "pair_names": [
+      "森田",
+      "小川"
+    ],
+    "fact": "YES",
+    "source_text": "R1：本は森田から小川に貸し出されました。",
+    "seed_source_text": "R1：本は青木から森田に貸し出されました。",
+    "seed_call_id": "B12V2-QWEN-S0065",
+    "role_keys": [
+      "lender",
+      "borrower"
+    ],
+    "role_definitions": "lender是出借方，borrower是借入方。",
+    "seed_messages": [
+      {
+        "role": "user",
+        "content": "下面每条记录各自描述不同场合的一次具体事件；不要把不同记录合并成同一次事件。只依据文字，不补充常识或背景。\n记录：\"R1：本は青木から森田に貸し出されました。\"\n目标记录：R1\n只记录目标记录中讨论的关系命题，不要记录其他记录中的事件。\n实体表：E1对应青木；E2对应森田；E3对应小川；E4对应上田\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"lender\":\"姓名\",\"borrower\":\"姓名\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\nlender是出借方，borrower是借入方。这两个角色字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中的完整姓名。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+      }
+    ],
+    "reference_values": {
+      "occurred": "YES",
+      "role_a": "森田",
+      "role_b": "小川"
+    },
+    "derivation": "original clause with simultaneous two-name substitution only",
+    "same_as_seed": false
+  },
+  {
+    "source_id": "SRC070",
+    "domain": "loan",
+    "source_form": "JA_PASSIVE",
+    "language": "JA",
+    "pair_indices": [
+      1,
+      2
+    ],
+    "pair_names": [
+      "森田",
+      "小川"
+    ],
+    "fact": "NO",
+    "source_text": "R1：本は森田から小川に貸し出されませんでした。",
+    "seed_source_text": "R1：本は青木から森田に貸し出されませんでした。",
+    "seed_call_id": "B12V2-QWEN-S0077",
+    "role_keys": [
+      "lender",
+      "borrower"
+    ],
+    "role_definitions": "lender是出借方，borrower是借入方。",
+    "seed_messages": [
+      {
+        "role": "user",
+        "content": "下面每条记录各自描述不同场合的一次具体事件；不要把不同记录合并成同一次事件。只依据文字，不补充常识或背景。\n记录：\"R1：本は青木から森田に貸し出されませんでした。\"\n目标记录：R1\n只记录目标记录中讨论的关系命题，不要记录其他记录中的事件。\n实体表：E1对应青木；E2对应森田；E3对应小川；E4对应上田\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"lender\":\"姓名\",\"borrower\":\"姓名\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\nlender是出借方，borrower是借入方。这两个角色字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中的完整姓名。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+      }
+    ],
+    "reference_values": {
+      "occurred": "NO",
+      "role_a": "森田",
+      "role_b": "小川"
+    },
+    "derivation": "original clause with simultaneous two-name substitution only",
+    "same_as_seed": false
+  },
+  {
+    "source_id": "SRC071",
+    "domain": "loan",
+    "source_form": "JA_PASSIVE",
+    "language": "JA",
+    "pair_indices": [
+      2,
+      1
+    ],
+    "pair_names": [
+      "小川",
+      "森田"
+    ],
+    "fact": "YES",
+    "source_text": "R1：本は小川から森田に貸し出されました。",
+    "seed_source_text": "R1：本は青木から森田に貸し出されました。",
+    "seed_call_id": "B12V2-QWEN-S0065",
+    "role_keys": [
+      "lender",
+      "borrower"
+    ],
+    "role_definitions": "lender是出借方，borrower是借入方。",
+    "seed_messages": [
+      {
+        "role": "user",
+        "content": "下面每条记录各自描述不同场合的一次具体事件；不要把不同记录合并成同一次事件。只依据文字，不补充常识或背景。\n记录：\"R1：本は青木から森田に貸し出されました。\"\n目标记录：R1\n只记录目标记录中讨论的关系命题，不要记录其他记录中的事件。\n实体表：E1对应青木；E2对应森田；E3对应小川；E4对应上田\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"lender\":\"姓名\",\"borrower\":\"姓名\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\nlender是出借方，borrower是借入方。这两个角色字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中的完整姓名。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+      }
+    ],
+    "reference_values": {
+      "occurred": "YES",
+      "role_a": "小川",
+      "role_b": "森田"
+    },
+    "derivation": "original clause with simultaneous two-name substitution only",
+    "same_as_seed": false
+  },
+  {
+    "source_id": "SRC072",
+    "domain": "loan",
+    "source_form": "JA_PASSIVE",
+    "language": "JA",
+    "pair_indices": [
+      2,
+      1
+    ],
+    "pair_names": [
+      "小川",
+      "森田"
+    ],
+    "fact": "NO",
+    "source_text": "R1：本は小川から森田に貸し出されませんでした。",
+    "seed_source_text": "R1：本は青木から森田に貸し出されませんでした。",
+    "seed_call_id": "B12V2-QWEN-S0077",
+    "role_keys": [
+      "lender",
+      "borrower"
+    ],
+    "role_definitions": "lender是出借方，borrower是借入方。",
+    "seed_messages": [
+      {
+        "role": "user",
+        "content": "下面每条记录各自描述不同场合的一次具体事件；不要把不同记录合并成同一次事件。只依据文字，不补充常识或背景。\n记录：\"R1：本は青木から森田に貸し出されませんでした。\"\n目标记录：R1\n只记录目标记录中讨论的关系命题，不要记录其他记录中的事件。\n实体表：E1对应青木；E2对应森田；E3对应小川；E4对应上田\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"lender\":\"姓名\",\"borrower\":\"姓名\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\nlender是出借方，borrower是借入方。这两个角色字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中的完整姓名。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+      }
+    ],
+    "reference_values": {
+      "occurred": "NO",
+      "role_a": "小川",
+      "role_b": "森田"
+    },
+    "derivation": "original clause with simultaneous two-name substitution only",
+    "same_as_seed": false
+  },
+  {
+    "source_id": "SRC073",
+    "domain": "loan",
+    "source_form": "JA_PASSIVE",
+    "language": "JA",
+    "pair_indices": [
+      2,
+      3
+    ],
+    "pair_names": [
+      "小川",
+      "上田"
+    ],
+    "fact": "YES",
+    "source_text": "R1：本は小川から上田に貸し出されました。",
+    "seed_source_text": "R1：本は青木から森田に貸し出されました。",
+    "seed_call_id": "B12V2-QWEN-S0065",
+    "role_keys": [
+      "lender",
+      "borrower"
+    ],
+    "role_definitions": "lender是出借方，borrower是借入方。",
+    "seed_messages": [
+      {
+        "role": "user",
+        "content": "下面每条记录各自描述不同场合的一次具体事件；不要把不同记录合并成同一次事件。只依据文字，不补充常识或背景。\n记录：\"R1：本は青木から森田に貸し出されました。\"\n目标记录：R1\n只记录目标记录中讨论的关系命题，不要记录其他记录中的事件。\n实体表：E1对应青木；E2对应森田；E3对应小川；E4对应上田\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"lender\":\"姓名\",\"borrower\":\"姓名\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\nlender是出借方，borrower是借入方。这两个角色字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中的完整姓名。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+      }
+    ],
+    "reference_values": {
+      "occurred": "YES",
+      "role_a": "小川",
+      "role_b": "上田"
+    },
+    "derivation": "original clause with simultaneous two-name substitution only",
+    "same_as_seed": false
+  },
+  {
+    "source_id": "SRC074",
+    "domain": "loan",
+    "source_form": "JA_PASSIVE",
+    "language": "JA",
+    "pair_indices": [
+      2,
+      3
+    ],
+    "pair_names": [
+      "小川",
+      "上田"
+    ],
+    "fact": "NO",
+    "source_text": "R1：本は小川から上田に貸し出されませんでした。",
+    "seed_source_text": "R1：本は青木から森田に貸し出されませんでした。",
+    "seed_call_id": "B12V2-QWEN-S0077",
+    "role_keys": [
+      "lender",
+      "borrower"
+    ],
+    "role_definitions": "lender是出借方，borrower是借入方。",
+    "seed_messages": [
+      {
+        "role": "user",
+        "content": "下面每条记录各自描述不同场合的一次具体事件；不要把不同记录合并成同一次事件。只依据文字，不补充常识或背景。\n记录：\"R1：本は青木から森田に貸し出されませんでした。\"\n目标记录：R1\n只记录目标记录中讨论的关系命题，不要记录其他记录中的事件。\n实体表：E1对应青木；E2对应森田；E3对应小川；E4对应上田\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"lender\":\"姓名\",\"borrower\":\"姓名\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\nlender是出借方，borrower是借入方。这两个角色字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中的完整姓名。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+      }
+    ],
+    "reference_values": {
+      "occurred": "NO",
+      "role_a": "小川",
+      "role_b": "上田"
+    },
+    "derivation": "original clause with simultaneous two-name substitution only",
+    "same_as_seed": false
+  },
+  {
+    "source_id": "SRC075",
+    "domain": "loan",
+    "source_form": "JA_PASSIVE",
+    "language": "JA",
+    "pair_indices": [
+      3,
+      2
+    ],
+    "pair_names": [
+      "上田",
+      "小川"
+    ],
+    "fact": "YES",
+    "source_text": "R1：本は上田から小川に貸し出されました。",
+    "seed_source_text": "R1：本は青木から森田に貸し出されました。",
+    "seed_call_id": "B12V2-QWEN-S0065",
+    "role_keys": [
+      "lender",
+      "borrower"
+    ],
+    "role_definitions": "lender是出借方，borrower是借入方。",
+    "seed_messages": [
+      {
+        "role": "user",
+        "content": "下面每条记录各自描述不同场合的一次具体事件；不要把不同记录合并成同一次事件。只依据文字，不补充常识或背景。\n记录：\"R1：本は青木から森田に貸し出されました。\"\n目标记录：R1\n只记录目标记录中讨论的关系命题，不要记录其他记录中的事件。\n实体表：E1对应青木；E2对应森田；E3对应小川；E4对应上田\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"lender\":\"姓名\",\"borrower\":\"姓名\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\nlender是出借方，borrower是借入方。这两个角色字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中的完整姓名。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+      }
+    ],
+    "reference_values": {
+      "occurred": "YES",
+      "role_a": "上田",
+      "role_b": "小川"
+    },
+    "derivation": "original clause with simultaneous two-name substitution only",
+    "same_as_seed": false
+  },
+  {
+    "source_id": "SRC076",
+    "domain": "loan",
+    "source_form": "JA_PASSIVE",
+    "language": "JA",
+    "pair_indices": [
+      3,
+      2
+    ],
+    "pair_names": [
+      "上田",
+      "小川"
+    ],
+    "fact": "NO",
+    "source_text": "R1：本は上田から小川に貸し出されませんでした。",
+    "seed_source_text": "R1：本は青木から森田に貸し出されませんでした。",
+    "seed_call_id": "B12V2-QWEN-S0077",
+    "role_keys": [
+      "lender",
+      "borrower"
+    ],
+    "role_definitions": "lender是出借方，borrower是借入方。",
+    "seed_messages": [
+      {
+        "role": "user",
+        "content": "下面每条记录各自描述不同场合的一次具体事件；不要把不同记录合并成同一次事件。只依据文字，不补充常识或背景。\n记录：\"R1：本は青木から森田に貸し出されませんでした。\"\n目标记录：R1\n只记录目标记录中讨论的关系命题，不要记录其他记录中的事件。\n实体表：E1对应青木；E2对应森田；E3对应小川；E4对应上田\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"lender\":\"姓名\",\"borrower\":\"姓名\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\nlender是出借方，borrower是借入方。这两个角色字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中的完整姓名。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+      }
+    ],
+    "reference_values": {
+      "occurred": "NO",
+      "role_a": "上田",
+      "role_b": "小川"
+    },
+    "derivation": "original clause with simultaneous two-name substitution only",
+    "same_as_seed": false
+  },
+  {
+    "source_id": "SRC077",
+    "domain": "loan",
+    "source_form": "JA_PASSIVE",
+    "language": "JA",
+    "pair_indices": [
+      3,
+      0
+    ],
+    "pair_names": [
+      "上田",
+      "青木"
+    ],
+    "fact": "YES",
+    "source_text": "R1：本は上田から青木に貸し出されました。",
+    "seed_source_text": "R1：本は青木から森田に貸し出されました。",
+    "seed_call_id": "B12V2-QWEN-S0065",
+    "role_keys": [
+      "lender",
+      "borrower"
+    ],
+    "role_definitions": "lender是出借方，borrower是借入方。",
+    "seed_messages": [
+      {
+        "role": "user",
+        "content": "下面每条记录各自描述不同场合的一次具体事件；不要把不同记录合并成同一次事件。只依据文字，不补充常识或背景。\n记录：\"R1：本は青木から森田に貸し出されました。\"\n目标记录：R1\n只记录目标记录中讨论的关系命题，不要记录其他记录中的事件。\n实体表：E1对应青木；E2对应森田；E3对应小川；E4对应上田\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"lender\":\"姓名\",\"borrower\":\"姓名\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\nlender是出借方，borrower是借入方。这两个角色字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中的完整姓名。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+      }
+    ],
+    "reference_values": {
+      "occurred": "YES",
+      "role_a": "上田",
+      "role_b": "青木"
+    },
+    "derivation": "original clause with simultaneous two-name substitution only",
+    "same_as_seed": false
+  },
+  {
+    "source_id": "SRC078",
+    "domain": "loan",
+    "source_form": "JA_PASSIVE",
+    "language": "JA",
+    "pair_indices": [
+      3,
+      0
+    ],
+    "pair_names": [
+      "上田",
+      "青木"
+    ],
+    "fact": "NO",
+    "source_text": "R1：本は上田から青木に貸し出されませんでした。",
+    "seed_source_text": "R1：本は青木から森田に貸し出されませんでした。",
+    "seed_call_id": "B12V2-QWEN-S0077",
+    "role_keys": [
+      "lender",
+      "borrower"
+    ],
+    "role_definitions": "lender是出借方，borrower是借入方。",
+    "seed_messages": [
+      {
+        "role": "user",
+        "content": "下面每条记录各自描述不同场合的一次具体事件；不要把不同记录合并成同一次事件。只依据文字，不补充常识或背景。\n记录：\"R1：本は青木から森田に貸し出されませんでした。\"\n目标记录：R1\n只记录目标记录中讨论的关系命题，不要记录其他记录中的事件。\n实体表：E1对应青木；E2对应森田；E3对应小川；E4对应上田\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"lender\":\"姓名\",\"borrower\":\"姓名\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\nlender是出借方，borrower是借入方。这两个角色字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中的完整姓名。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+      }
+    ],
+    "reference_values": {
+      "occurred": "NO",
+      "role_a": "上田",
+      "role_b": "青木"
+    },
+    "derivation": "original clause with simultaneous two-name substitution only",
+    "same_as_seed": false
+  },
+  {
+    "source_id": "SRC079",
+    "domain": "loan",
+    "source_form": "JA_PASSIVE",
+    "language": "JA",
+    "pair_indices": [
+      0,
+      3
+    ],
+    "pair_names": [
+      "青木",
+      "上田"
+    ],
+    "fact": "YES",
+    "source_text": "R1：本は青木から上田に貸し出されました。",
+    "seed_source_text": "R1：本は青木から森田に貸し出されました。",
+    "seed_call_id": "B12V2-QWEN-S0065",
+    "role_keys": [
+      "lender",
+      "borrower"
+    ],
+    "role_definitions": "lender是出借方，borrower是借入方。",
+    "seed_messages": [
+      {
+        "role": "user",
+        "content": "下面每条记录各自描述不同场合的一次具体事件；不要把不同记录合并成同一次事件。只依据文字，不补充常识或背景。\n记录：\"R1：本は青木から森田に貸し出されました。\"\n目标记录：R1\n只记录目标记录中讨论的关系命题，不要记录其他记录中的事件。\n实体表：E1对应青木；E2对应森田；E3对应小川；E4对应上田\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"lender\":\"姓名\",\"borrower\":\"姓名\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\nlender是出借方，borrower是借入方。这两个角色字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中的完整姓名。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+      }
+    ],
+    "reference_values": {
+      "occurred": "YES",
+      "role_a": "青木",
+      "role_b": "上田"
+    },
+    "derivation": "original clause with simultaneous two-name substitution only",
+    "same_as_seed": false
+  },
+  {
+    "source_id": "SRC080",
+    "domain": "loan",
+    "source_form": "JA_PASSIVE",
+    "language": "JA",
+    "pair_indices": [
+      0,
+      3
+    ],
+    "pair_names": [
+      "青木",
+      "上田"
+    ],
+    "fact": "NO",
+    "source_text": "R1：本は青木から上田に貸し出されませんでした。",
+    "seed_source_text": "R1：本は青木から森田に貸し出されませんでした。",
+    "seed_call_id": "B12V2-QWEN-S0077",
+    "role_keys": [
+      "lender",
+      "borrower"
+    ],
+    "role_definitions": "lender是出借方，borrower是借入方。",
+    "seed_messages": [
+      {
+        "role": "user",
+        "content": "下面每条记录各自描述不同场合的一次具体事件；不要把不同记录合并成同一次事件。只依据文字，不补充常识或背景。\n记录：\"R1：本は青木から森田に貸し出されませんでした。\"\n目标记录：R1\n只记录目标记录中讨论的关系命题，不要记录其他记录中的事件。\n实体表：E1对应青木；E2对应森田；E3对应小川；E4对应上田\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"lender\":\"姓名\",\"borrower\":\"姓名\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\nlender是出借方，borrower是借入方。这两个角色字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中的完整姓名。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+      }
+    ],
+    "reference_values": {
+      "occurred": "NO",
+      "role_a": "青木",
+      "role_b": "上田"
+    },
+    "derivation": "original clause with simultaneous two-name substitution only",
+    "same_as_seed": false
+  },
+  {
+    "source_id": "SRC081",
+    "domain": "loan",
+    "source_form": "ZH_ACTIVE",
+    "language": "ZH",
+    "pair_indices": [
+      0,
+      1
+    ],
+    "pair_names": [
+      "青木",
+      "森田"
+    ],
+    "fact": "YES",
+    "source_text": "R1：青木把一本书借给了森田。",
+    "seed_source_text": "R1：青木把一本书借给了森田。",
+    "seed_call_id": "B12V2-QWEN-S0081",
+    "role_keys": [
+      "lender",
+      "borrower"
+    ],
+    "role_definitions": "lender是出借方，borrower是借入方。",
+    "seed_messages": [
+      {
+        "role": "user",
+        "content": "下面每条记录各自描述不同场合的一次具体事件；不要把不同记录合并成同一次事件。只依据文字，不补充常识或背景。\n记录：\"R1：青木把一本书借给了森田。\"\n目标记录：R1\n只记录目标记录中讨论的关系命题，不要记录其他记录中的事件。\n实体表：E1对应青木；E2对应森田；E3对应小川；E4对应上田\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"lender\":\"姓名\",\"borrower\":\"姓名\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\nlender是出借方，borrower是借入方。这两个角色字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中的完整姓名。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+      }
+    ],
+    "reference_values": {
+      "occurred": "YES",
+      "role_a": "青木",
+      "role_b": "森田"
+    },
+    "derivation": "original clause with simultaneous two-name substitution only",
+    "same_as_seed": true
+  },
+  {
+    "source_id": "SRC082",
+    "domain": "loan",
+    "source_form": "ZH_ACTIVE",
+    "language": "ZH",
+    "pair_indices": [
+      0,
+      1
+    ],
+    "pair_names": [
+      "青木",
+      "森田"
+    ],
+    "fact": "NO",
+    "source_text": "R1：青木没有把一本书借给森田。",
+    "seed_source_text": "R1：青木没有把一本书借给森田。",
+    "seed_call_id": "B12V2-QWEN-S0093",
+    "role_keys": [
+      "lender",
+      "borrower"
+    ],
+    "role_definitions": "lender是出借方，borrower是借入方。",
+    "seed_messages": [
+      {
+        "role": "user",
+        "content": "下面每条记录各自描述不同场合的一次具体事件；不要把不同记录合并成同一次事件。只依据文字，不补充常识或背景。\n记录：\"R1：青木没有把一本书借给森田。\"\n目标记录：R1\n只记录目标记录中讨论的关系命题，不要记录其他记录中的事件。\n实体表：E1对应青木；E2对应森田；E3对应小川；E4对应上田\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"lender\":\"姓名\",\"borrower\":\"姓名\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\nlender是出借方，borrower是借入方。这两个角色字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中的完整姓名。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+      }
+    ],
+    "reference_values": {
+      "occurred": "NO",
+      "role_a": "青木",
+      "role_b": "森田"
+    },
+    "derivation": "original clause with simultaneous two-name substitution only",
+    "same_as_seed": true
+  },
+  {
+    "source_id": "SRC083",
+    "domain": "loan",
+    "source_form": "ZH_ACTIVE",
+    "language": "ZH",
+    "pair_indices": [
+      1,
+      0
+    ],
+    "pair_names": [
+      "森田",
+      "青木"
+    ],
+    "fact": "YES",
+    "source_text": "R1：森田把一本书借给了青木。",
+    "seed_source_text": "R1：青木把一本书借给了森田。",
+    "seed_call_id": "B12V2-QWEN-S0081",
+    "role_keys": [
+      "lender",
+      "borrower"
+    ],
+    "role_definitions": "lender是出借方，borrower是借入方。",
+    "seed_messages": [
+      {
+        "role": "user",
+        "content": "下面每条记录各自描述不同场合的一次具体事件；不要把不同记录合并成同一次事件。只依据文字，不补充常识或背景。\n记录：\"R1：青木把一本书借给了森田。\"\n目标记录：R1\n只记录目标记录中讨论的关系命题，不要记录其他记录中的事件。\n实体表：E1对应青木；E2对应森田；E3对应小川；E4对应上田\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"lender\":\"姓名\",\"borrower\":\"姓名\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\nlender是出借方，borrower是借入方。这两个角色字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中的完整姓名。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+      }
+    ],
+    "reference_values": {
+      "occurred": "YES",
+      "role_a": "森田",
+      "role_b": "青木"
+    },
+    "derivation": "original clause with simultaneous two-name substitution only",
+    "same_as_seed": false
+  },
+  {
+    "source_id": "SRC084",
+    "domain": "loan",
+    "source_form": "ZH_ACTIVE",
+    "language": "ZH",
+    "pair_indices": [
+      1,
+      0
+    ],
+    "pair_names": [
+      "森田",
+      "青木"
+    ],
+    "fact": "NO",
+    "source_text": "R1：森田没有把一本书借给青木。",
+    "seed_source_text": "R1：青木没有把一本书借给森田。",
+    "seed_call_id": "B12V2-QWEN-S0093",
+    "role_keys": [
+      "lender",
+      "borrower"
+    ],
+    "role_definitions": "lender是出借方，borrower是借入方。",
+    "seed_messages": [
+      {
+        "role": "user",
+        "content": "下面每条记录各自描述不同场合的一次具体事件；不要把不同记录合并成同一次事件。只依据文字，不补充常识或背景。\n记录：\"R1：青木没有把一本书借给森田。\"\n目标记录：R1\n只记录目标记录中讨论的关系命题，不要记录其他记录中的事件。\n实体表：E1对应青木；E2对应森田；E3对应小川；E4对应上田\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"lender\":\"姓名\",\"borrower\":\"姓名\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\nlender是出借方，borrower是借入方。这两个角色字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中的完整姓名。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+      }
+    ],
+    "reference_values": {
+      "occurred": "NO",
+      "role_a": "森田",
+      "role_b": "青木"
+    },
+    "derivation": "original clause with simultaneous two-name substitution only",
+    "same_as_seed": false
+  },
+  {
+    "source_id": "SRC085",
+    "domain": "loan",
+    "source_form": "ZH_ACTIVE",
+    "language": "ZH",
+    "pair_indices": [
+      1,
+      2
+    ],
+    "pair_names": [
+      "森田",
+      "小川"
+    ],
+    "fact": "YES",
+    "source_text": "R1：森田把一本书借给了小川。",
+    "seed_source_text": "R1：青木把一本书借给了森田。",
+    "seed_call_id": "B12V2-QWEN-S0081",
+    "role_keys": [
+      "lender",
+      "borrower"
+    ],
+    "role_definitions": "lender是出借方，borrower是借入方。",
+    "seed_messages": [
+      {
+        "role": "user",
+        "content": "下面每条记录各自描述不同场合的一次具体事件；不要把不同记录合并成同一次事件。只依据文字，不补充常识或背景。\n记录：\"R1：青木把一本书借给了森田。\"\n目标记录：R1\n只记录目标记录中讨论的关系命题，不要记录其他记录中的事件。\n实体表：E1对应青木；E2对应森田；E3对应小川；E4对应上田\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"lender\":\"姓名\",\"borrower\":\"姓名\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\nlender是出借方，borrower是借入方。这两个角色字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中的完整姓名。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+      }
+    ],
+    "reference_values": {
+      "occurred": "YES",
+      "role_a": "森田",
+      "role_b": "小川"
+    },
+    "derivation": "original clause with simultaneous two-name substitution only",
+    "same_as_seed": false
+  },
+  {
+    "source_id": "SRC086",
+    "domain": "loan",
+    "source_form": "ZH_ACTIVE",
+    "language": "ZH",
+    "pair_indices": [
+      1,
+      2
+    ],
+    "pair_names": [
+      "森田",
+      "小川"
+    ],
+    "fact": "NO",
+    "source_text": "R1：森田没有把一本书借给小川。",
+    "seed_source_text": "R1：青木没有把一本书借给森田。",
+    "seed_call_id": "B12V2-QWEN-S0093",
+    "role_keys": [
+      "lender",
+      "borrower"
+    ],
+    "role_definitions": "lender是出借方，borrower是借入方。",
+    "seed_messages": [
+      {
+        "role": "user",
+        "content": "下面每条记录各自描述不同场合的一次具体事件；不要把不同记录合并成同一次事件。只依据文字，不补充常识或背景。\n记录：\"R1：青木没有把一本书借给森田。\"\n目标记录：R1\n只记录目标记录中讨论的关系命题，不要记录其他记录中的事件。\n实体表：E1对应青木；E2对应森田；E3对应小川；E4对应上田\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"lender\":\"姓名\",\"borrower\":\"姓名\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\nlender是出借方，borrower是借入方。这两个角色字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中的完整姓名。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+      }
+    ],
+    "reference_values": {
+      "occurred": "NO",
+      "role_a": "森田",
+      "role_b": "小川"
+    },
+    "derivation": "original clause with simultaneous two-name substitution only",
+    "same_as_seed": false
+  },
+  {
+    "source_id": "SRC087",
+    "domain": "loan",
+    "source_form": "ZH_ACTIVE",
+    "language": "ZH",
+    "pair_indices": [
+      2,
+      1
+    ],
+    "pair_names": [
+      "小川",
+      "森田"
+    ],
+    "fact": "YES",
+    "source_text": "R1：小川把一本书借给了森田。",
+    "seed_source_text": "R1：青木把一本书借给了森田。",
+    "seed_call_id": "B12V2-QWEN-S0081",
+    "role_keys": [
+      "lender",
+      "borrower"
+    ],
+    "role_definitions": "lender是出借方，borrower是借入方。",
+    "seed_messages": [
+      {
+        "role": "user",
+        "content": "下面每条记录各自描述不同场合的一次具体事件；不要把不同记录合并成同一次事件。只依据文字，不补充常识或背景。\n记录：\"R1：青木把一本书借给了森田。\"\n目标记录：R1\n只记录目标记录中讨论的关系命题，不要记录其他记录中的事件。\n实体表：E1对应青木；E2对应森田；E3对应小川；E4对应上田\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"lender\":\"姓名\",\"borrower\":\"姓名\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\nlender是出借方，borrower是借入方。这两个角色字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中的完整姓名。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+      }
+    ],
+    "reference_values": {
+      "occurred": "YES",
+      "role_a": "小川",
+      "role_b": "森田"
+    },
+    "derivation": "original clause with simultaneous two-name substitution only",
+    "same_as_seed": false
+  },
+  {
+    "source_id": "SRC088",
+    "domain": "loan",
+    "source_form": "ZH_ACTIVE",
+    "language": "ZH",
+    "pair_indices": [
+      2,
+      1
+    ],
+    "pair_names": [
+      "小川",
+      "森田"
+    ],
+    "fact": "NO",
+    "source_text": "R1：小川没有把一本书借给森田。",
+    "seed_source_text": "R1：青木没有把一本书借给森田。",
+    "seed_call_id": "B12V2-QWEN-S0093",
+    "role_keys": [
+      "lender",
+      "borrower"
+    ],
+    "role_definitions": "lender是出借方，borrower是借入方。",
+    "seed_messages": [
+      {
+        "role": "user",
+        "content": "下面每条记录各自描述不同场合的一次具体事件；不要把不同记录合并成同一次事件。只依据文字，不补充常识或背景。\n记录：\"R1：青木没有把一本书借给森田。\"\n目标记录：R1\n只记录目标记录中讨论的关系命题，不要记录其他记录中的事件。\n实体表：E1对应青木；E2对应森田；E3对应小川；E4对应上田\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"lender\":\"姓名\",\"borrower\":\"姓名\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\nlender是出借方，borrower是借入方。这两个角色字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中的完整姓名。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+      }
+    ],
+    "reference_values": {
+      "occurred": "NO",
+      "role_a": "小川",
+      "role_b": "森田"
+    },
+    "derivation": "original clause with simultaneous two-name substitution only",
+    "same_as_seed": false
+  },
+  {
+    "source_id": "SRC089",
+    "domain": "loan",
+    "source_form": "ZH_ACTIVE",
+    "language": "ZH",
+    "pair_indices": [
+      2,
+      3
+    ],
+    "pair_names": [
+      "小川",
+      "上田"
+    ],
+    "fact": "YES",
+    "source_text": "R1：小川把一本书借给了上田。",
+    "seed_source_text": "R1：青木把一本书借给了森田。",
+    "seed_call_id": "B12V2-QWEN-S0081",
+    "role_keys": [
+      "lender",
+      "borrower"
+    ],
+    "role_definitions": "lender是出借方，borrower是借入方。",
+    "seed_messages": [
+      {
+        "role": "user",
+        "content": "下面每条记录各自描述不同场合的一次具体事件；不要把不同记录合并成同一次事件。只依据文字，不补充常识或背景。\n记录：\"R1：青木把一本书借给了森田。\"\n目标记录：R1\n只记录目标记录中讨论的关系命题，不要记录其他记录中的事件。\n实体表：E1对应青木；E2对应森田；E3对应小川；E4对应上田\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"lender\":\"姓名\",\"borrower\":\"姓名\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\nlender是出借方，borrower是借入方。这两个角色字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中的完整姓名。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+      }
+    ],
+    "reference_values": {
+      "occurred": "YES",
+      "role_a": "小川",
+      "role_b": "上田"
+    },
+    "derivation": "original clause with simultaneous two-name substitution only",
+    "same_as_seed": false
+  },
+  {
+    "source_id": "SRC090",
+    "domain": "loan",
+    "source_form": "ZH_ACTIVE",
+    "language": "ZH",
+    "pair_indices": [
+      2,
+      3
+    ],
+    "pair_names": [
+      "小川",
+      "上田"
+    ],
+    "fact": "NO",
+    "source_text": "R1：小川没有把一本书借给上田。",
+    "seed_source_text": "R1：青木没有把一本书借给森田。",
+    "seed_call_id": "B12V2-QWEN-S0093",
+    "role_keys": [
+      "lender",
+      "borrower"
+    ],
+    "role_definitions": "lender是出借方，borrower是借入方。",
+    "seed_messages": [
+      {
+        "role": "user",
+        "content": "下面每条记录各自描述不同场合的一次具体事件；不要把不同记录合并成同一次事件。只依据文字，不补充常识或背景。\n记录：\"R1：青木没有把一本书借给森田。\"\n目标记录：R1\n只记录目标记录中讨论的关系命题，不要记录其他记录中的事件。\n实体表：E1对应青木；E2对应森田；E3对应小川；E4对应上田\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"lender\":\"姓名\",\"borrower\":\"姓名\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\nlender是出借方，borrower是借入方。这两个角色字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中的完整姓名。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+      }
+    ],
+    "reference_values": {
+      "occurred": "NO",
+      "role_a": "小川",
+      "role_b": "上田"
+    },
+    "derivation": "original clause with simultaneous two-name substitution only",
+    "same_as_seed": false
+  },
+  {
+    "source_id": "SRC091",
+    "domain": "loan",
+    "source_form": "ZH_ACTIVE",
+    "language": "ZH",
+    "pair_indices": [
+      3,
+      2
+    ],
+    "pair_names": [
+      "上田",
+      "小川"
+    ],
+    "fact": "YES",
+    "source_text": "R1：上田把一本书借给了小川。",
+    "seed_source_text": "R1：青木把一本书借给了森田。",
+    "seed_call_id": "B12V2-QWEN-S0081",
+    "role_keys": [
+      "lender",
+      "borrower"
+    ],
+    "role_definitions": "lender是出借方，borrower是借入方。",
+    "seed_messages": [
+      {
+        "role": "user",
+        "content": "下面每条记录各自描述不同场合的一次具体事件；不要把不同记录合并成同一次事件。只依据文字，不补充常识或背景。\n记录：\"R1：青木把一本书借给了森田。\"\n目标记录：R1\n只记录目标记录中讨论的关系命题，不要记录其他记录中的事件。\n实体表：E1对应青木；E2对应森田；E3对应小川；E4对应上田\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"lender\":\"姓名\",\"borrower\":\"姓名\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\nlender是出借方，borrower是借入方。这两个角色字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中的完整姓名。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+      }
+    ],
+    "reference_values": {
+      "occurred": "YES",
+      "role_a": "上田",
+      "role_b": "小川"
+    },
+    "derivation": "original clause with simultaneous two-name substitution only",
+    "same_as_seed": false
+  },
+  {
+    "source_id": "SRC092",
+    "domain": "loan",
+    "source_form": "ZH_ACTIVE",
+    "language": "ZH",
+    "pair_indices": [
+      3,
+      2
+    ],
+    "pair_names": [
+      "上田",
+      "小川"
+    ],
+    "fact": "NO",
+    "source_text": "R1：上田没有把一本书借给小川。",
+    "seed_source_text": "R1：青木没有把一本书借给森田。",
+    "seed_call_id": "B12V2-QWEN-S0093",
+    "role_keys": [
+      "lender",
+      "borrower"
+    ],
+    "role_definitions": "lender是出借方，borrower是借入方。",
+    "seed_messages": [
+      {
+        "role": "user",
+        "content": "下面每条记录各自描述不同场合的一次具体事件；不要把不同记录合并成同一次事件。只依据文字，不补充常识或背景。\n记录：\"R1：青木没有把一本书借给森田。\"\n目标记录：R1\n只记录目标记录中讨论的关系命题，不要记录其他记录中的事件。\n实体表：E1对应青木；E2对应森田；E3对应小川；E4对应上田\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"lender\":\"姓名\",\"borrower\":\"姓名\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\nlender是出借方，borrower是借入方。这两个角色字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中的完整姓名。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+      }
+    ],
+    "reference_values": {
+      "occurred": "NO",
+      "role_a": "上田",
+      "role_b": "小川"
+    },
+    "derivation": "original clause with simultaneous two-name substitution only",
+    "same_as_seed": false
+  },
+  {
+    "source_id": "SRC093",
+    "domain": "loan",
+    "source_form": "ZH_ACTIVE",
+    "language": "ZH",
+    "pair_indices": [
+      3,
+      0
+    ],
+    "pair_names": [
+      "上田",
+      "青木"
+    ],
+    "fact": "YES",
+    "source_text": "R1：上田把一本书借给了青木。",
+    "seed_source_text": "R1：青木把一本书借给了森田。",
+    "seed_call_id": "B12V2-QWEN-S0081",
+    "role_keys": [
+      "lender",
+      "borrower"
+    ],
+    "role_definitions": "lender是出借方，borrower是借入方。",
+    "seed_messages": [
+      {
+        "role": "user",
+        "content": "下面每条记录各自描述不同场合的一次具体事件；不要把不同记录合并成同一次事件。只依据文字，不补充常识或背景。\n记录：\"R1：青木把一本书借给了森田。\"\n目标记录：R1\n只记录目标记录中讨论的关系命题，不要记录其他记录中的事件。\n实体表：E1对应青木；E2对应森田；E3对应小川；E4对应上田\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"lender\":\"姓名\",\"borrower\":\"姓名\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\nlender是出借方，borrower是借入方。这两个角色字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中的完整姓名。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+      }
+    ],
+    "reference_values": {
+      "occurred": "YES",
+      "role_a": "上田",
+      "role_b": "青木"
+    },
+    "derivation": "original clause with simultaneous two-name substitution only",
+    "same_as_seed": false
+  },
+  {
+    "source_id": "SRC094",
+    "domain": "loan",
+    "source_form": "ZH_ACTIVE",
+    "language": "ZH",
+    "pair_indices": [
+      3,
+      0
+    ],
+    "pair_names": [
+      "上田",
+      "青木"
+    ],
+    "fact": "NO",
+    "source_text": "R1：上田没有把一本书借给青木。",
+    "seed_source_text": "R1：青木没有把一本书借给森田。",
+    "seed_call_id": "B12V2-QWEN-S0093",
+    "role_keys": [
+      "lender",
+      "borrower"
+    ],
+    "role_definitions": "lender是出借方，borrower是借入方。",
+    "seed_messages": [
+      {
+        "role": "user",
+        "content": "下面每条记录各自描述不同场合的一次具体事件；不要把不同记录合并成同一次事件。只依据文字，不补充常识或背景。\n记录：\"R1：青木没有把一本书借给森田。\"\n目标记录：R1\n只记录目标记录中讨论的关系命题，不要记录其他记录中的事件。\n实体表：E1对应青木；E2对应森田；E3对应小川；E4对应上田\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"lender\":\"姓名\",\"borrower\":\"姓名\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\nlender是出借方，borrower是借入方。这两个角色字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中的完整姓名。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+      }
+    ],
+    "reference_values": {
+      "occurred": "NO",
+      "role_a": "上田",
+      "role_b": "青木"
+    },
+    "derivation": "original clause with simultaneous two-name substitution only",
+    "same_as_seed": false
+  },
+  {
+    "source_id": "SRC095",
+    "domain": "loan",
+    "source_form": "ZH_ACTIVE",
+    "language": "ZH",
+    "pair_indices": [
+      0,
+      3
+    ],
+    "pair_names": [
+      "青木",
+      "上田"
+    ],
+    "fact": "YES",
+    "source_text": "R1：青木把一本书借给了上田。",
+    "seed_source_text": "R1：青木把一本书借给了森田。",
+    "seed_call_id": "B12V2-QWEN-S0081",
+    "role_keys": [
+      "lender",
+      "borrower"
+    ],
+    "role_definitions": "lender是出借方，borrower是借入方。",
+    "seed_messages": [
+      {
+        "role": "user",
+        "content": "下面每条记录各自描述不同场合的一次具体事件；不要把不同记录合并成同一次事件。只依据文字，不补充常识或背景。\n记录：\"R1：青木把一本书借给了森田。\"\n目标记录：R1\n只记录目标记录中讨论的关系命题，不要记录其他记录中的事件。\n实体表：E1对应青木；E2对应森田；E3对应小川；E4对应上田\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"lender\":\"姓名\",\"borrower\":\"姓名\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\nlender是出借方，borrower是借入方。这两个角色字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中的完整姓名。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+      }
+    ],
+    "reference_values": {
+      "occurred": "YES",
+      "role_a": "青木",
+      "role_b": "上田"
+    },
+    "derivation": "original clause with simultaneous two-name substitution only",
+    "same_as_seed": false
+  },
+  {
+    "source_id": "SRC096",
+    "domain": "loan",
+    "source_form": "ZH_ACTIVE",
+    "language": "ZH",
+    "pair_indices": [
+      0,
+      3
+    ],
+    "pair_names": [
+      "青木",
+      "上田"
+    ],
+    "fact": "NO",
+    "source_text": "R1：青木没有把一本书借给上田。",
+    "seed_source_text": "R1：青木没有把一本书借给森田。",
+    "seed_call_id": "B12V2-QWEN-S0093",
+    "role_keys": [
+      "lender",
+      "borrower"
+    ],
+    "role_definitions": "lender是出借方，borrower是借入方。",
+    "seed_messages": [
+      {
+        "role": "user",
+        "content": "下面每条记录各自描述不同场合的一次具体事件；不要把不同记录合并成同一次事件。只依据文字，不补充常识或背景。\n记录：\"R1：青木没有把一本书借给森田。\"\n目标记录：R1\n只记录目标记录中讨论的关系命题，不要记录其他记录中的事件。\n实体表：E1对应青木；E2对应森田；E3对应小川；E4对应上田\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"lender\":\"姓名\",\"borrower\":\"姓名\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\nlender是出借方，borrower是借入方。这两个角色字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中的完整姓名。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+      }
+    ],
+    "reference_values": {
+      "occurred": "NO",
+      "role_a": "青木",
+      "role_b": "上田"
+    },
+    "derivation": "original clause with simultaneous two-name substitution only",
+    "same_as_seed": false
+  }
+]

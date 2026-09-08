@@ -1,0 +1,165 @@
+[
+  {
+    "call": {
+      "model": "llama",
+      "domain": "arrest",
+      "source_form": "JA_PASSIVE",
+      "language": "JA",
+      "role_keys": [
+        "arrester",
+        "arrestee"
+      ],
+      "role_definitions": "arrester是实施逮捕的人，arrestee是被逮捕的人。",
+      "representation": "NAMES",
+      "target": "R1",
+      "target_id": "R1",
+      "stage": "A",
+      "condition": "SINGLE",
+      "call_id": "B15-LLAMA-N042",
+      "source_id": "B15-LLAMA-N042",
+      "kind": "UNIQUE_NORMALIZED_GENERATION",
+      "inventory": "TWO_NORMAL_NAMES",
+      "entity_map": {
+        "N1": "山田",
+        "N2": "鈴木"
+      },
+      "visible_id_map": {},
+      "source_text": "R1：鈴木は山田に逮捕されました。",
+      "target_record_text": "R1：鈴木は山田に逮捕されました。",
+      "messages": [
+        {
+          "role": "user",
+          "content": "下面每条记录各自描述不同场合的一次具体事件；不要把不同记录合并成同一次事件。只依据文字，不补充常识或背景。\n记录：\"R1：鈴木は山田に逮捕されました。\"\n目标记录：R1\n只记录目标记录中讨论的关系命题，不要记录其他记录中的事件。\n实体表：山田；鈴木\n只输出一个JSON对象，形式为{\"occurred\":\"YES/NO/UNKNOWN\",\"arrester\":\"姓名\",\"arrestee\":\"姓名\"}。\noccurred只能填YES、NO或UNKNOWN：文字明确说这个关系事件已经成立填YES，明确否定填NO，没有给出成立与否结论填UNKNOWN。\narrester是实施逮捕的人，arrestee是被逮捕的人。这两个角色字段记录文中讨论的关系双方；即使关系被否定或尚未确定，也记录该命题指定的两个人，不因此声称事件发生。\n两个角色字段只填写实体表中的完整姓名。如果文字无法确定角色身份，该字段填null。不要添加其他事件、解释或字段。"
+        }
+      ],
+      "prompt_sha256": "8c8a85b21fd8e103ea43d69e7d73dc95476d88fd16003befd68f543d80108eb7",
+      "execution_origin": "NEW",
+      "sequence": 282
+    },
+    "reference": {
+      "call_id": "B15-LLAMA-N042",
+      "occurred": "YES",
+      "role_a": "山田",
+      "role_b": "鈴木",
+      "identity": "AUTHOR_AI_TRANSFORMED_REFERENCE_NOT_READ_BY_METHOD"
+    },
+    "raw_output": "{\"occurred\":\"YES\",\"arrester\":\"鈴木\",\"arrestee\":\"山田\"}",
+    "observation": {
+      "strict": {
+        "labels": {
+          "role_a": "W",
+          "role_b": "W",
+          "occurrence": "C",
+          "participant": "W",
+          "record": "W"
+        },
+        "occurred_asserted": "YES",
+        "decoded_names": {
+          "role_a": "鈴木",
+          "role_b": "山田"
+        },
+        "raw_fields": {
+          "occurred": "YES",
+          "arrester": "鈴木",
+          "arrestee": "山田"
+        },
+        "field_identity_reasons": {
+          "occurred": "UNIQUE",
+          "arrester": "UNIQUE",
+          "arrestee": "UNIQUE"
+        },
+        "occurrence_reason": "CORRECT",
+        "entity_reasons": {
+          "role_a": "OTHER_LISTED_PERSON",
+          "role_b": "OTHER_LISTED_PERSON"
+        },
+        "unsupported_assertion": false,
+        "explicit_occurrence_contradiction": false,
+        "format_compliance": "PASS",
+        "unique_readable_object": true,
+        "object_or_array_count": 1,
+        "raw_object_pairs": [
+          [
+            "occurred",
+            "YES"
+          ],
+          [
+            "arrester",
+            "鈴木"
+          ],
+          [
+            "arrestee",
+            "山田"
+          ]
+        ],
+        "duplicate_keys": [],
+        "extra_keys": [],
+        "noncanonical_entities": [],
+        "outside_json_text": "",
+        "language_status": "CANONICAL_SCHEMA_VALUES",
+        "identity": "AI_SCORING_NOT_HUMAN_GOLD",
+        "full_response_read": false
+      },
+      "content": {
+        "labels": {
+          "role_a": "W",
+          "role_b": "W",
+          "occurrence": "C",
+          "participant": "W",
+          "record": "W"
+        },
+        "occurred_asserted": "YES",
+        "decoded_names": {
+          "role_a": "鈴木",
+          "role_b": "山田"
+        },
+        "raw_fields": {
+          "occurred": "YES",
+          "arrester": "鈴木",
+          "arrestee": "山田"
+        },
+        "field_identity_reasons": {
+          "occurred": "UNIQUE",
+          "arrester": "UNIQUE",
+          "arrestee": "UNIQUE"
+        },
+        "occurrence_reason": "CORRECT",
+        "entity_reasons": {
+          "role_a": "OTHER_LISTED_PERSON",
+          "role_b": "OTHER_LISTED_PERSON"
+        },
+        "unsupported_assertion": false,
+        "explicit_occurrence_contradiction": false,
+        "format_compliance": "PASS",
+        "unique_readable_object": true,
+        "object_or_array_count": 1,
+        "raw_object_pairs": [
+          [
+            "occurred",
+            "YES"
+          ],
+          [
+            "arrester",
+            "鈴木"
+          ],
+          [
+            "arrestee",
+            "山田"
+          ]
+        ],
+        "duplicate_keys": [],
+        "extra_keys": [],
+        "noncanonical_entities": [],
+        "outside_json_text": "",
+        "language_status": "CANONICAL_SCHEMA_VALUES",
+        "identity": "AI_SCORING_NOT_HUMAN_GOLD",
+        "full_response_read": false
+      },
+      "visible_map_used": {},
+      "outside_wrapper_allowed": true,
+      "name_representation_compliant": true,
+      "full_response_read": true
+    },
+    "new_forwards": 22
+  }
+]

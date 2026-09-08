@@ -1,0 +1,538 @@
+{
+  "at": "2026-09-08T07:45:40.351386+00:00",
+  "identity": "POSTHOC_AUTHOR_AI_ID_DECODING_NOT_FROZEN_SCORE",
+  "reason": "Actual raw review found E1-E4 answers despite full-name instructions. Decode only the already visible per-input table; never use gold to decode.",
+  "raw_sha256": "d6b607b00bcd9bdc186cccaf56354a32f5efd314160510f51b255fc277be223c",
+  "new_model_calls": 0,
+  "frozen_scores_modified": false,
+  "independent_confirmation": false,
+  "reviewed_all_480_complete_outputs": true,
+  "changed_rows": [
+    {
+      "call_id": "B12V2-LLAMA-F0057",
+      "source_text": "R1：青木雇用了森田担任临时助手。\nR2：小川雇用了森田担任临时助手。\nR3：青木雇用了上田担任临时助手。\nR4：小川雇用了上田担任临时助手。",
+      "target_id": "R1",
+      "raw_output": "```json\n{\n  \"occurred\": \"YES\",\n  \"employer\": \"E1\",\n  \"employee\": \"E2\"\n}\n```",
+      "visible_entity_map": {
+        "E1": "青木",
+        "E2": "森田",
+        "E3": "小川",
+        "E4": "上田"
+      },
+      "reference": {
+        "call_id": "B12V2-LLAMA-F0057",
+        "source_id": "F0057",
+        "occurred": "YES",
+        "role_a": "青木",
+        "role_b": "森田",
+        "target_sentence": "R1：青木雇用了森田担任临时助手。",
+        "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+      },
+      "decoded_names": {
+        "role_a": "青木",
+        "role_b": "森田"
+      },
+      "frozen_labels": {
+        "role_a": "U",
+        "role_b": "U",
+        "occurrence": "C",
+        "participant": "U",
+        "record": "U"
+      },
+      "posthoc_labels": {
+        "role_a": "C",
+        "role_b": "C",
+        "occurrence": "C",
+        "record": "C"
+      },
+      "representation_compliant": false
+    },
+    {
+      "call_id": "B12V2-LLAMA-F0060",
+      "source_text": "R4：小川雇用了森田担任临时助手。\nR3：青木雇用了森田担任临时助手。\nR2：小川雇用了上田担任临时助手。\nR1：青木雇用了上田担任临时助手。",
+      "target_id": "R4",
+      "raw_output": "{\"occurred\":\"YES\",\"employer\":\"E3\",\"employee\":\"E2\"}",
+      "visible_entity_map": {
+        "E1": "青木",
+        "E2": "森田",
+        "E3": "小川",
+        "E4": "上田"
+      },
+      "reference": {
+        "call_id": "B12V2-LLAMA-F0060",
+        "source_id": "F0060",
+        "occurred": "YES",
+        "role_a": "小川",
+        "role_b": "森田",
+        "target_sentence": "R4：小川雇用了森田担任临时助手。",
+        "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+      },
+      "decoded_names": {
+        "role_a": "小川",
+        "role_b": "森田"
+      },
+      "frozen_labels": {
+        "role_a": "U",
+        "role_b": "U",
+        "occurrence": "C",
+        "participant": "U",
+        "record": "U"
+      },
+      "posthoc_labels": {
+        "role_a": "C",
+        "role_b": "C",
+        "occurrence": "C",
+        "record": "C"
+      },
+      "representation_compliant": false
+    },
+    {
+      "call_id": "B12V2-LLAMA-F0061",
+      "source_text": "R1：青木雇用了森田担任临时助手。\nR2：森田雇用了青木担任临时助手。\nR3：小川雇用了上田担任临时助手。\nR4：上田雇用了小川担任临时助手。",
+      "target_id": "R1",
+      "raw_output": "```json\n{\n  \"occurred\": \"YES\",\n  \"employer\": \"E1\",\n  \"employee\": \"E2\"\n}\n```",
+      "visible_entity_map": {
+        "E1": "青木",
+        "E2": "森田",
+        "E3": "小川",
+        "E4": "上田"
+      },
+      "reference": {
+        "call_id": "B12V2-LLAMA-F0061",
+        "source_id": "F0061",
+        "occurred": "YES",
+        "role_a": "青木",
+        "role_b": "森田",
+        "target_sentence": "R1：青木雇用了森田担任临时助手。",
+        "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+      },
+      "decoded_names": {
+        "role_a": "青木",
+        "role_b": "森田"
+      },
+      "frozen_labels": {
+        "role_a": "U",
+        "role_b": "U",
+        "occurrence": "C",
+        "participant": "U",
+        "record": "U"
+      },
+      "posthoc_labels": {
+        "role_a": "C",
+        "role_b": "C",
+        "occurrence": "C",
+        "record": "C"
+      },
+      "representation_compliant": false
+    },
+    {
+      "call_id": "B12V2-LLAMA-F0065",
+      "source_text": "R1：青木雇用了森田担任临时助手。\nR2：青木没有雇用森田担任临时助手。\nR3：小川雇用了上田担任临时助手。\nR4：小川没有雇用上田担任临时助手。",
+      "target_id": "R1",
+      "raw_output": "```json\n{\n  \"occurred\": \"YES\",\n  \"employer\": \"E1\",\n  \"employee\": \"E2\"\n}\n```",
+      "visible_entity_map": {
+        "E1": "青木",
+        "E2": "森田",
+        "E3": "小川",
+        "E4": "上田"
+      },
+      "reference": {
+        "call_id": "B12V2-LLAMA-F0065",
+        "source_id": "F0065",
+        "occurred": "YES",
+        "role_a": "青木",
+        "role_b": "森田",
+        "target_sentence": "R1：青木雇用了森田担任临时助手。",
+        "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+      },
+      "decoded_names": {
+        "role_a": "青木",
+        "role_b": "森田"
+      },
+      "frozen_labels": {
+        "role_a": "U",
+        "role_b": "U",
+        "occurrence": "C",
+        "participant": "U",
+        "record": "U"
+      },
+      "posthoc_labels": {
+        "role_a": "C",
+        "role_b": "C",
+        "occurrence": "C",
+        "record": "C"
+      },
+      "representation_compliant": false
+    },
+    {
+      "call_id": "B12V2-LLAMA-F0121",
+      "source_text": "R1：青木把一本书借给了森田。\nR2：青木把一本书借给了森田。\nR3：小川把一本书借给了上田。\nR4：小川把一本书借给了上田。",
+      "target_id": "R1",
+      "raw_output": "```json\n{\n  \"occurred\": \"YES\",\n  \"lender\": \"E1\",\n  \"borrower\": \"E2\"\n}\n```",
+      "visible_entity_map": {
+        "E1": "青木",
+        "E2": "森田",
+        "E3": "小川",
+        "E4": "上田"
+      },
+      "reference": {
+        "call_id": "B12V2-LLAMA-F0121",
+        "source_id": "F0121",
+        "occurred": "YES",
+        "role_a": "青木",
+        "role_b": "森田",
+        "target_sentence": "R1：青木把一本书借给了森田。",
+        "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+      },
+      "decoded_names": {
+        "role_a": "青木",
+        "role_b": "森田"
+      },
+      "frozen_labels": {
+        "role_a": "U",
+        "role_b": "U",
+        "occurrence": "C",
+        "participant": "U",
+        "record": "U"
+      },
+      "posthoc_labels": {
+        "role_a": "C",
+        "role_b": "C",
+        "occurrence": "C",
+        "record": "C"
+      },
+      "representation_compliant": false
+    },
+    {
+      "call_id": "B12V2-LLAMA-F0124",
+      "source_text": "R4：青木把一本书借给了森田。\nR3：青木把一本书借给了森田。\nR2：小川把一本书借给了上田。\nR1：小川把一本书借给了上田。",
+      "target_id": "R4",
+      "raw_output": "```json\n{\n  \"occurred\": \"YES\",\n  \"lender\": \"E1\",\n  \"borrower\": \"E2\"\n}\n```",
+      "visible_entity_map": {
+        "E1": "青木",
+        "E2": "森田",
+        "E3": "小川",
+        "E4": "上田"
+      },
+      "reference": {
+        "call_id": "B12V2-LLAMA-F0124",
+        "source_id": "F0124",
+        "occurred": "YES",
+        "role_a": "青木",
+        "role_b": "森田",
+        "target_sentence": "R4：青木把一本书借给了森田。",
+        "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+      },
+      "decoded_names": {
+        "role_a": "青木",
+        "role_b": "森田"
+      },
+      "frozen_labels": {
+        "role_a": "U",
+        "role_b": "U",
+        "occurrence": "C",
+        "participant": "U",
+        "record": "U"
+      },
+      "posthoc_labels": {
+        "role_a": "C",
+        "role_b": "C",
+        "occurrence": "C",
+        "record": "C"
+      },
+      "representation_compliant": false
+    },
+    {
+      "call_id": "B12V2-LLAMA-F0128",
+      "source_text": "R4：青木把一本书借给了上田。\nR3：青木把一本书借给了森田。\nR2：小川把一本书借给了上田。\nR1：小川把一本书借给了森田。",
+      "target_id": "R4",
+      "raw_output": "```json\n{\n  \"occurred\": \"YES\",\n  \"lender\": \"E1\",\n  \"borrower\": \"E2\"\n}\n```",
+      "visible_entity_map": {
+        "E1": "青木",
+        "E2": "森田",
+        "E3": "小川",
+        "E4": "上田"
+      },
+      "reference": {
+        "call_id": "B12V2-LLAMA-F0128",
+        "source_id": "F0128",
+        "occurred": "YES",
+        "role_a": "青木",
+        "role_b": "上田",
+        "target_sentence": "R4：青木把一本书借给了上田。",
+        "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+      },
+      "decoded_names": {
+        "role_a": "青木",
+        "role_b": "森田"
+      },
+      "frozen_labels": {
+        "role_a": "U",
+        "role_b": "U",
+        "occurrence": "C",
+        "participant": "U",
+        "record": "U"
+      },
+      "posthoc_labels": {
+        "role_a": "C",
+        "role_b": "W",
+        "occurrence": "C",
+        "record": "W"
+      },
+      "representation_compliant": false
+    },
+    {
+      "call_id": "B12V2-LLAMA-F0129",
+      "source_text": "R1：青木把一本书借给了森田。\nR2：小川把一本书借给了森田。\nR3：青木把一本书借给了上田。\nR4：小川把一本书借给了上田。",
+      "target_id": "R1",
+      "raw_output": "```json\n{\n  \"occurred\": \"YES\",\n  \"lender\": \"E1\",\n  \"borrower\": \"E2\"\n}\n```",
+      "visible_entity_map": {
+        "E1": "青木",
+        "E2": "森田",
+        "E3": "小川",
+        "E4": "上田"
+      },
+      "reference": {
+        "call_id": "B12V2-LLAMA-F0129",
+        "source_id": "F0129",
+        "occurred": "YES",
+        "role_a": "青木",
+        "role_b": "森田",
+        "target_sentence": "R1：青木把一本书借给了森田。",
+        "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+      },
+      "decoded_names": {
+        "role_a": "青木",
+        "role_b": "森田"
+      },
+      "frozen_labels": {
+        "role_a": "U",
+        "role_b": "U",
+        "occurrence": "C",
+        "participant": "U",
+        "record": "U"
+      },
+      "posthoc_labels": {
+        "role_a": "C",
+        "role_b": "C",
+        "occurrence": "C",
+        "record": "C"
+      },
+      "representation_compliant": false
+    },
+    {
+      "call_id": "B12V2-LLAMA-F0132",
+      "source_text": "R4：小川把一本书借给了森田。\nR3：青木把一本书借给了森田。\nR2：小川把一本书借给了上田。\nR1：青木把一本书借给了上田。",
+      "target_id": "R4",
+      "raw_output": "```json\n{\n  \"occurred\": \"YES\",\n  \"lender\": \"E3\",\n  \"borrower\": \"E2\"\n}\n```",
+      "visible_entity_map": {
+        "E1": "青木",
+        "E2": "森田",
+        "E3": "小川",
+        "E4": "上田"
+      },
+      "reference": {
+        "call_id": "B12V2-LLAMA-F0132",
+        "source_id": "F0132",
+        "occurred": "YES",
+        "role_a": "小川",
+        "role_b": "森田",
+        "target_sentence": "R4：小川把一本书借给了森田。",
+        "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+      },
+      "decoded_names": {
+        "role_a": "小川",
+        "role_b": "森田"
+      },
+      "frozen_labels": {
+        "role_a": "U",
+        "role_b": "U",
+        "occurrence": "C",
+        "participant": "U",
+        "record": "U"
+      },
+      "posthoc_labels": {
+        "role_a": "C",
+        "role_b": "C",
+        "occurrence": "C",
+        "record": "C"
+      },
+      "representation_compliant": false
+    },
+    {
+      "call_id": "B12V2-LLAMA-F0133",
+      "source_text": "R1：青木把一本书借给了森田。\nR2：森田把一本书借给了青木。\nR3：小川把一本书借给了上田。\nR4：上田把一本书借给了小川。",
+      "target_id": "R1",
+      "raw_output": "```json\n{\n  \"occurred\": \"YES\",\n  \"lender\": \"E1\",\n  \"borrower\": \"E2\"\n}\n```",
+      "visible_entity_map": {
+        "E1": "青木",
+        "E2": "森田",
+        "E3": "小川",
+        "E4": "上田"
+      },
+      "reference": {
+        "call_id": "B12V2-LLAMA-F0133",
+        "source_id": "F0133",
+        "occurred": "YES",
+        "role_a": "青木",
+        "role_b": "森田",
+        "target_sentence": "R1：青木把一本书借给了森田。",
+        "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+      },
+      "decoded_names": {
+        "role_a": "青木",
+        "role_b": "森田"
+      },
+      "frozen_labels": {
+        "role_a": "U",
+        "role_b": "U",
+        "occurrence": "C",
+        "participant": "U",
+        "record": "U"
+      },
+      "posthoc_labels": {
+        "role_a": "C",
+        "role_b": "C",
+        "occurrence": "C",
+        "record": "C"
+      },
+      "representation_compliant": false
+    },
+    {
+      "call_id": "B12V2-LLAMA-F0137",
+      "source_text": "R1：青木把一本书借给了森田。\nR2：青木没有把一本书借给森田。\nR3：小川把一本书借给了上田。\nR4：小川没有把一本书借给上田。",
+      "target_id": "R1",
+      "raw_output": "```json\n{\n  \"occurred\": \"YES\",\n  \"lender\": \"E1\",\n  \"borrower\": \"E2\"\n}\n```",
+      "visible_entity_map": {
+        "E1": "青木",
+        "E2": "森田",
+        "E3": "小川",
+        "E4": "上田"
+      },
+      "reference": {
+        "call_id": "B12V2-LLAMA-F0137",
+        "source_id": "F0137",
+        "occurred": "YES",
+        "role_a": "青木",
+        "role_b": "森田",
+        "target_sentence": "R1：青木把一本书借给了森田。",
+        "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+      },
+      "decoded_names": {
+        "role_a": "青木",
+        "role_b": "森田"
+      },
+      "frozen_labels": {
+        "role_a": "U",
+        "role_b": "U",
+        "occurrence": "C",
+        "participant": "U",
+        "record": "U"
+      },
+      "posthoc_labels": {
+        "role_a": "C",
+        "role_b": "C",
+        "occurrence": "C",
+        "record": "C"
+      },
+      "representation_compliant": false
+    },
+    {
+      "call_id": "B12V2-LLAMA-F0141",
+      "source_text": "R1：青木没有把一本书借给森田。\nR2：小川没有把一本书借给上田。\nR3：青木把一本书借给了森田。\nR4：小川把一本书借给了上田。",
+      "target_id": "R1",
+      "raw_output": "```json\n{\n  \"occurred\": \"NO\",\n  \"lender\": \"E1\",\n  \"borrower\": \"E2\"\n}\n```",
+      "visible_entity_map": {
+        "E1": "青木",
+        "E2": "森田",
+        "E3": "小川",
+        "E4": "上田"
+      },
+      "reference": {
+        "call_id": "B12V2-LLAMA-F0141",
+        "source_id": "F0141",
+        "occurred": "NO",
+        "role_a": "青木",
+        "role_b": "森田",
+        "target_sentence": "R1：青木没有把一本书借给森田。",
+        "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+      },
+      "decoded_names": {
+        "role_a": "青木",
+        "role_b": "森田"
+      },
+      "frozen_labels": {
+        "role_a": "U",
+        "role_b": "U",
+        "occurrence": "C",
+        "participant": "U",
+        "record": "U"
+      },
+      "posthoc_labels": {
+        "role_a": "C",
+        "role_b": "C",
+        "occurrence": "C",
+        "record": "C"
+      },
+      "representation_compliant": false
+    },
+    {
+      "call_id": "B12V2-LLAMA-F0144",
+      "source_text": "R4：小川没有把一本书借给上田。\nR3：青木没有把一本书借给森田。\nR2：小川把一本书借给了上田。\nR1：青木把一本书借给了森田。",
+      "target_id": "R4",
+      "raw_output": "{\"occurred\":\"NO\",\"lender\":\"E3\",\"borrower\":\"E4\"}",
+      "visible_entity_map": {
+        "E1": "青木",
+        "E2": "森田",
+        "E3": "小川",
+        "E4": "上田"
+      },
+      "reference": {
+        "call_id": "B12V2-LLAMA-F0144",
+        "source_id": "F0144",
+        "occurred": "NO",
+        "role_a": "小川",
+        "role_b": "上田",
+        "target_sentence": "R4：小川没有把一本书借给上田。",
+        "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+      },
+      "decoded_names": {
+        "role_a": "小川",
+        "role_b": "上田"
+      },
+      "frozen_labels": {
+        "role_a": "U",
+        "role_b": "U",
+        "occurrence": "C",
+        "participant": "U",
+        "record": "U"
+      },
+      "posthoc_labels": {
+        "role_a": "C",
+        "role_b": "C",
+        "occurrence": "C",
+        "record": "C"
+      },
+      "representation_compliant": false
+    }
+  ],
+  "changed_n": 13,
+  "changed_row_content_counts": {
+    "C": 12,
+    "W": 1
+  },
+  "all_content_counts": {
+    "C": 455,
+    "W": 25
+  },
+  "isolation288_content_transitions": {
+    "C->C": 265,
+    "W->C": 17,
+    "C->W": 4,
+    "W->W": 2
+  },
+  "grammar_format_fail_n": 38,
+  "fenced_raw_n": 38,
+  "nonC_or_grammar_fail_n": 64,
+  "warning": "Posthoc diagnostic does not replace frozen score or upgrade method evidence; correct ID meaning can still violate requested output representation."
+}

@@ -1,0 +1,27 @@
+{
+  "experiment_id": "EXP-20260908-B11",
+  "version": "v1",
+  "prepared_at": "2026-09-08T05:33:17.038175+00:00",
+  "protocol_sha256": "7134c5a558ee3426289c0e9312fa5e7b11658fd0f2bb9accfe0ebdf239e353b3",
+  "model": "Qwen/Qwen3-8B",
+  "revision": "b968826d9c46dd6066d109eabc6255188de91218",
+  "inference": {
+    "dtype": "bfloat16",
+    "attention": "eager",
+    "use_cache": false,
+    "tf32": false,
+    "seed": 0,
+    "decoding": "full-vocabulary raw-logit argmax",
+    "max_new_tokens": 256,
+    "max_input_tokens": 4096,
+    "truncate": false
+  },
+  "planned_starts": 288,
+  "calls_single": 96,
+  "calls_double": 192,
+  "paid_usd": 0,
+  "restart_started_calls": false,
+  "has_B_phase": false,
+  "automatic_B12": false,
+  "human_review_attested": false
+}

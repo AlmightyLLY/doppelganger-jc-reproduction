@@ -1,0 +1,8258 @@
+[
+  {
+    "model": "qwen",
+    "source_form": "JA_ACTIVE",
+    "dimensions": [
+      "condition",
+      "fact"
+    ],
+    "values": [
+      "FULL",
+      "NO"
+    ],
+    "n": 12,
+    "scores": {
+      "record": {
+        "C": 12,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 12,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 12,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 12,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 12,
+        "W": 0,
+        "U": 0
+      }
+    }
+  },
+  {
+    "model": "qwen",
+    "source_form": "JA_ACTIVE",
+    "dimensions": [
+      "condition",
+      "fact"
+    ],
+    "values": [
+      "FULL",
+      "YES"
+    ],
+    "n": 36,
+    "scores": {
+      "record": {
+        "C": 36,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 36,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 36,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 36,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 36,
+        "W": 0,
+        "U": 0
+      }
+    }
+  },
+  {
+    "model": "qwen",
+    "source_form": "JA_ACTIVE",
+    "dimensions": [
+      "condition",
+      "fact"
+    ],
+    "values": [
+      "SINGLE",
+      "NO"
+    ],
+    "n": 12,
+    "scores": {
+      "record": {
+        "C": 12,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 12,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 12,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 12,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 12,
+        "W": 0,
+        "U": 0
+      }
+    }
+  },
+  {
+    "model": "qwen",
+    "source_form": "JA_ACTIVE",
+    "dimensions": [
+      "condition",
+      "fact"
+    ],
+    "values": [
+      "SINGLE",
+      "YES"
+    ],
+    "n": 20,
+    "scores": {
+      "record": {
+        "C": 20,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 20,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 20,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 20,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 20,
+        "W": 0,
+        "U": 0
+      }
+    }
+  },
+  {
+    "model": "qwen",
+    "source_form": "JA_ACTIVE",
+    "dimensions": [
+      "condition",
+      "domain"
+    ],
+    "values": [
+      "FULL",
+      "hire"
+    ],
+    "n": 24,
+    "scores": {
+      "record": {
+        "C": 24,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 24,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 24,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 24,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 24,
+        "W": 0,
+        "U": 0
+      }
+    }
+  },
+  {
+    "model": "qwen",
+    "source_form": "JA_ACTIVE",
+    "dimensions": [
+      "condition",
+      "domain"
+    ],
+    "values": [
+      "FULL",
+      "loan"
+    ],
+    "n": 24,
+    "scores": {
+      "record": {
+        "C": 24,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 24,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 24,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 24,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 24,
+        "W": 0,
+        "U": 0
+      }
+    }
+  },
+  {
+    "model": "qwen",
+    "source_form": "JA_ACTIVE",
+    "dimensions": [
+      "condition",
+      "domain"
+    ],
+    "values": [
+      "SINGLE",
+      "hire"
+    ],
+    "n": 16,
+    "scores": {
+      "record": {
+        "C": 16,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 16,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 16,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 16,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 16,
+        "W": 0,
+        "U": 0
+      }
+    }
+  },
+  {
+    "model": "qwen",
+    "source_form": "JA_ACTIVE",
+    "dimensions": [
+      "condition",
+      "domain"
+    ],
+    "values": [
+      "SINGLE",
+      "loan"
+    ],
+    "n": 16,
+    "scores": {
+      "record": {
+        "C": 16,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 16,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 16,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 16,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 16,
+        "W": 0,
+        "U": 0
+      }
+    }
+  },
+  {
+    "model": "qwen",
+    "source_form": "JA_ACTIVE",
+    "dimensions": [
+      "profile",
+      "layout",
+      "target_slot",
+      "fact"
+    ],
+    "values": [
+      "BOTH_NEGATIVE",
+      0,
+      0,
+      "NO"
+    ],
+    "n": 2,
+    "scores": {
+      "record": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      }
+    }
+  },
+  {
+    "model": "qwen",
+    "source_form": "JA_ACTIVE",
+    "dimensions": [
+      "profile",
+      "layout",
+      "target_slot",
+      "fact"
+    ],
+    "values": [
+      "BOTH_NEGATIVE",
+      0,
+      1,
+      "NO"
+    ],
+    "n": 2,
+    "scores": {
+      "record": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      }
+    }
+  },
+  {
+    "model": "qwen",
+    "source_form": "JA_ACTIVE",
+    "dimensions": [
+      "profile",
+      "layout",
+      "target_slot",
+      "fact"
+    ],
+    "values": [
+      "BOTH_NEGATIVE",
+      1,
+      0,
+      "NO"
+    ],
+    "n": 2,
+    "scores": {
+      "record": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      }
+    }
+  },
+  {
+    "model": "qwen",
+    "source_form": "JA_ACTIVE",
+    "dimensions": [
+      "profile",
+      "layout",
+      "target_slot",
+      "fact"
+    ],
+    "values": [
+      "BOTH_NEGATIVE",
+      1,
+      1,
+      "NO"
+    ],
+    "n": 2,
+    "scores": {
+      "record": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      }
+    }
+  },
+  {
+    "model": "qwen",
+    "source_form": "JA_ACTIVE",
+    "dimensions": [
+      "profile",
+      "layout",
+      "target_slot",
+      "fact"
+    ],
+    "values": [
+      "COMMON_AGENT",
+      0,
+      0,
+      "YES"
+    ],
+    "n": 2,
+    "scores": {
+      "record": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      }
+    }
+  },
+  {
+    "model": "qwen",
+    "source_form": "JA_ACTIVE",
+    "dimensions": [
+      "profile",
+      "layout",
+      "target_slot",
+      "fact"
+    ],
+    "values": [
+      "COMMON_AGENT",
+      0,
+      1,
+      "YES"
+    ],
+    "n": 2,
+    "scores": {
+      "record": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      }
+    }
+  },
+  {
+    "model": "qwen",
+    "source_form": "JA_ACTIVE",
+    "dimensions": [
+      "profile",
+      "layout",
+      "target_slot",
+      "fact"
+    ],
+    "values": [
+      "COMMON_AGENT",
+      1,
+      0,
+      "YES"
+    ],
+    "n": 2,
+    "scores": {
+      "record": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      }
+    }
+  },
+  {
+    "model": "qwen",
+    "source_form": "JA_ACTIVE",
+    "dimensions": [
+      "profile",
+      "layout",
+      "target_slot",
+      "fact"
+    ],
+    "values": [
+      "COMMON_AGENT",
+      1,
+      1,
+      "YES"
+    ],
+    "n": 2,
+    "scores": {
+      "record": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      }
+    }
+  },
+  {
+    "model": "qwen",
+    "source_form": "JA_ACTIVE",
+    "dimensions": [
+      "profile",
+      "layout",
+      "target_slot",
+      "fact"
+    ],
+    "values": [
+      "COMMON_PATIENT",
+      0,
+      0,
+      "YES"
+    ],
+    "n": 2,
+    "scores": {
+      "record": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      }
+    }
+  },
+  {
+    "model": "qwen",
+    "source_form": "JA_ACTIVE",
+    "dimensions": [
+      "profile",
+      "layout",
+      "target_slot",
+      "fact"
+    ],
+    "values": [
+      "COMMON_PATIENT",
+      0,
+      1,
+      "YES"
+    ],
+    "n": 2,
+    "scores": {
+      "record": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      }
+    }
+  },
+  {
+    "model": "qwen",
+    "source_form": "JA_ACTIVE",
+    "dimensions": [
+      "profile",
+      "layout",
+      "target_slot",
+      "fact"
+    ],
+    "values": [
+      "COMMON_PATIENT",
+      1,
+      0,
+      "YES"
+    ],
+    "n": 2,
+    "scores": {
+      "record": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      }
+    }
+  },
+  {
+    "model": "qwen",
+    "source_form": "JA_ACTIVE",
+    "dimensions": [
+      "profile",
+      "layout",
+      "target_slot",
+      "fact"
+    ],
+    "values": [
+      "COMMON_PATIENT",
+      1,
+      1,
+      "YES"
+    ],
+    "n": 2,
+    "scores": {
+      "record": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      }
+    }
+  },
+  {
+    "model": "qwen",
+    "source_form": "JA_ACTIVE",
+    "dimensions": [
+      "profile",
+      "layout",
+      "target_slot",
+      "fact"
+    ],
+    "values": [
+      "MIX_POLARITY",
+      0,
+      0,
+      "YES"
+    ],
+    "n": 2,
+    "scores": {
+      "record": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      }
+    }
+  },
+  {
+    "model": "qwen",
+    "source_form": "JA_ACTIVE",
+    "dimensions": [
+      "profile",
+      "layout",
+      "target_slot",
+      "fact"
+    ],
+    "values": [
+      "MIX_POLARITY",
+      0,
+      1,
+      "NO"
+    ],
+    "n": 2,
+    "scores": {
+      "record": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      }
+    }
+  },
+  {
+    "model": "qwen",
+    "source_form": "JA_ACTIVE",
+    "dimensions": [
+      "profile",
+      "layout",
+      "target_slot",
+      "fact"
+    ],
+    "values": [
+      "MIX_POLARITY",
+      1,
+      0,
+      "YES"
+    ],
+    "n": 2,
+    "scores": {
+      "record": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      }
+    }
+  },
+  {
+    "model": "qwen",
+    "source_form": "JA_ACTIVE",
+    "dimensions": [
+      "profile",
+      "layout",
+      "target_slot",
+      "fact"
+    ],
+    "values": [
+      "MIX_POLARITY",
+      1,
+      1,
+      "NO"
+    ],
+    "n": 2,
+    "scores": {
+      "record": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      }
+    }
+  },
+  {
+    "model": "qwen",
+    "source_form": "JA_ACTIVE",
+    "dimensions": [
+      "profile",
+      "layout",
+      "target_slot",
+      "fact"
+    ],
+    "values": [
+      "REVERSED",
+      0,
+      0,
+      "YES"
+    ],
+    "n": 2,
+    "scores": {
+      "record": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      }
+    }
+  },
+  {
+    "model": "qwen",
+    "source_form": "JA_ACTIVE",
+    "dimensions": [
+      "profile",
+      "layout",
+      "target_slot",
+      "fact"
+    ],
+    "values": [
+      "REVERSED",
+      0,
+      1,
+      "YES"
+    ],
+    "n": 2,
+    "scores": {
+      "record": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      }
+    }
+  },
+  {
+    "model": "qwen",
+    "source_form": "JA_ACTIVE",
+    "dimensions": [
+      "profile",
+      "layout",
+      "target_slot",
+      "fact"
+    ],
+    "values": [
+      "REVERSED",
+      1,
+      0,
+      "YES"
+    ],
+    "n": 2,
+    "scores": {
+      "record": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      }
+    }
+  },
+  {
+    "model": "qwen",
+    "source_form": "JA_ACTIVE",
+    "dimensions": [
+      "profile",
+      "layout",
+      "target_slot",
+      "fact"
+    ],
+    "values": [
+      "REVERSED",
+      1,
+      1,
+      "YES"
+    ],
+    "n": 2,
+    "scores": {
+      "record": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      }
+    }
+  },
+  {
+    "model": "qwen",
+    "source_form": "JA_ACTIVE",
+    "dimensions": [
+      "profile",
+      "layout",
+      "target_slot",
+      "fact"
+    ],
+    "values": [
+      "SAME",
+      0,
+      0,
+      "YES"
+    ],
+    "n": 2,
+    "scores": {
+      "record": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      }
+    }
+  },
+  {
+    "model": "qwen",
+    "source_form": "JA_ACTIVE",
+    "dimensions": [
+      "profile",
+      "layout",
+      "target_slot",
+      "fact"
+    ],
+    "values": [
+      "SAME",
+      0,
+      1,
+      "YES"
+    ],
+    "n": 2,
+    "scores": {
+      "record": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      }
+    }
+  },
+  {
+    "model": "qwen",
+    "source_form": "JA_ACTIVE",
+    "dimensions": [
+      "profile",
+      "layout",
+      "target_slot",
+      "fact"
+    ],
+    "values": [
+      "SAME",
+      1,
+      0,
+      "YES"
+    ],
+    "n": 2,
+    "scores": {
+      "record": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      }
+    }
+  },
+  {
+    "model": "qwen",
+    "source_form": "JA_ACTIVE",
+    "dimensions": [
+      "profile",
+      "layout",
+      "target_slot",
+      "fact"
+    ],
+    "values": [
+      "SAME",
+      1,
+      1,
+      "YES"
+    ],
+    "n": 2,
+    "scores": {
+      "record": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      }
+    }
+  },
+  {
+    "model": "qwen",
+    "source_form": "JA_PASSIVE",
+    "dimensions": [
+      "condition",
+      "fact"
+    ],
+    "values": [
+      "FULL",
+      "NO"
+    ],
+    "n": 12,
+    "scores": {
+      "record": {
+        "C": 12,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 12,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 12,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 12,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 12,
+        "W": 0,
+        "U": 0
+      }
+    }
+  },
+  {
+    "model": "qwen",
+    "source_form": "JA_PASSIVE",
+    "dimensions": [
+      "condition",
+      "fact"
+    ],
+    "values": [
+      "FULL",
+      "YES"
+    ],
+    "n": 36,
+    "scores": {
+      "record": {
+        "C": 32,
+        "W": 4,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 36,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 32,
+        "W": 4,
+        "U": 0
+      },
+      "role_b": {
+        "C": 33,
+        "W": 3,
+        "U": 0
+      },
+      "participant": {
+        "C": 32,
+        "W": 4,
+        "U": 0
+      }
+    }
+  },
+  {
+    "model": "qwen",
+    "source_form": "JA_PASSIVE",
+    "dimensions": [
+      "condition",
+      "fact"
+    ],
+    "values": [
+      "SINGLE",
+      "NO"
+    ],
+    "n": 12,
+    "scores": {
+      "record": {
+        "C": 12,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 12,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 12,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 12,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 12,
+        "W": 0,
+        "U": 0
+      }
+    }
+  },
+  {
+    "model": "qwen",
+    "source_form": "JA_PASSIVE",
+    "dimensions": [
+      "condition",
+      "fact"
+    ],
+    "values": [
+      "SINGLE",
+      "YES"
+    ],
+    "n": 20,
+    "scores": {
+      "record": {
+        "C": 20,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 20,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 20,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 20,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 20,
+        "W": 0,
+        "U": 0
+      }
+    }
+  },
+  {
+    "model": "qwen",
+    "source_form": "JA_PASSIVE",
+    "dimensions": [
+      "condition",
+      "domain"
+    ],
+    "values": [
+      "FULL",
+      "hire"
+    ],
+    "n": 24,
+    "scores": {
+      "record": {
+        "C": 22,
+        "W": 2,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 24,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 22,
+        "W": 2,
+        "U": 0
+      },
+      "role_b": {
+        "C": 22,
+        "W": 2,
+        "U": 0
+      },
+      "participant": {
+        "C": 22,
+        "W": 2,
+        "U": 0
+      }
+    }
+  },
+  {
+    "model": "qwen",
+    "source_form": "JA_PASSIVE",
+    "dimensions": [
+      "condition",
+      "domain"
+    ],
+    "values": [
+      "FULL",
+      "loan"
+    ],
+    "n": 24,
+    "scores": {
+      "record": {
+        "C": 22,
+        "W": 2,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 24,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 22,
+        "W": 2,
+        "U": 0
+      },
+      "role_b": {
+        "C": 23,
+        "W": 1,
+        "U": 0
+      },
+      "participant": {
+        "C": 22,
+        "W": 2,
+        "U": 0
+      }
+    }
+  },
+  {
+    "model": "qwen",
+    "source_form": "JA_PASSIVE",
+    "dimensions": [
+      "condition",
+      "domain"
+    ],
+    "values": [
+      "SINGLE",
+      "hire"
+    ],
+    "n": 16,
+    "scores": {
+      "record": {
+        "C": 16,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 16,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 16,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 16,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 16,
+        "W": 0,
+        "U": 0
+      }
+    }
+  },
+  {
+    "model": "qwen",
+    "source_form": "JA_PASSIVE",
+    "dimensions": [
+      "condition",
+      "domain"
+    ],
+    "values": [
+      "SINGLE",
+      "loan"
+    ],
+    "n": 16,
+    "scores": {
+      "record": {
+        "C": 16,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 16,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 16,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 16,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 16,
+        "W": 0,
+        "U": 0
+      }
+    }
+  },
+  {
+    "model": "qwen",
+    "source_form": "JA_PASSIVE",
+    "dimensions": [
+      "profile",
+      "layout",
+      "target_slot",
+      "fact"
+    ],
+    "values": [
+      "BOTH_NEGATIVE",
+      0,
+      0,
+      "NO"
+    ],
+    "n": 2,
+    "scores": {
+      "record": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      }
+    }
+  },
+  {
+    "model": "qwen",
+    "source_form": "JA_PASSIVE",
+    "dimensions": [
+      "profile",
+      "layout",
+      "target_slot",
+      "fact"
+    ],
+    "values": [
+      "BOTH_NEGATIVE",
+      0,
+      1,
+      "NO"
+    ],
+    "n": 2,
+    "scores": {
+      "record": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      }
+    }
+  },
+  {
+    "model": "qwen",
+    "source_form": "JA_PASSIVE",
+    "dimensions": [
+      "profile",
+      "layout",
+      "target_slot",
+      "fact"
+    ],
+    "values": [
+      "BOTH_NEGATIVE",
+      1,
+      0,
+      "NO"
+    ],
+    "n": 2,
+    "scores": {
+      "record": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      }
+    }
+  },
+  {
+    "model": "qwen",
+    "source_form": "JA_PASSIVE",
+    "dimensions": [
+      "profile",
+      "layout",
+      "target_slot",
+      "fact"
+    ],
+    "values": [
+      "BOTH_NEGATIVE",
+      1,
+      1,
+      "NO"
+    ],
+    "n": 2,
+    "scores": {
+      "record": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      }
+    }
+  },
+  {
+    "model": "qwen",
+    "source_form": "JA_PASSIVE",
+    "dimensions": [
+      "profile",
+      "layout",
+      "target_slot",
+      "fact"
+    ],
+    "values": [
+      "COMMON_AGENT",
+      0,
+      0,
+      "YES"
+    ],
+    "n": 2,
+    "scores": {
+      "record": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      }
+    }
+  },
+  {
+    "model": "qwen",
+    "source_form": "JA_PASSIVE",
+    "dimensions": [
+      "profile",
+      "layout",
+      "target_slot",
+      "fact"
+    ],
+    "values": [
+      "COMMON_AGENT",
+      0,
+      1,
+      "YES"
+    ],
+    "n": 2,
+    "scores": {
+      "record": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      }
+    }
+  },
+  {
+    "model": "qwen",
+    "source_form": "JA_PASSIVE",
+    "dimensions": [
+      "profile",
+      "layout",
+      "target_slot",
+      "fact"
+    ],
+    "values": [
+      "COMMON_AGENT",
+      1,
+      0,
+      "YES"
+    ],
+    "n": 2,
+    "scores": {
+      "record": {
+        "C": 1,
+        "W": 1,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 1,
+        "W": 1,
+        "U": 0
+      },
+      "role_b": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 1,
+        "W": 1,
+        "U": 0
+      }
+    }
+  },
+  {
+    "model": "qwen",
+    "source_form": "JA_PASSIVE",
+    "dimensions": [
+      "profile",
+      "layout",
+      "target_slot",
+      "fact"
+    ],
+    "values": [
+      "COMMON_AGENT",
+      1,
+      1,
+      "YES"
+    ],
+    "n": 2,
+    "scores": {
+      "record": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      }
+    }
+  },
+  {
+    "model": "qwen",
+    "source_form": "JA_PASSIVE",
+    "dimensions": [
+      "profile",
+      "layout",
+      "target_slot",
+      "fact"
+    ],
+    "values": [
+      "COMMON_PATIENT",
+      0,
+      0,
+      "YES"
+    ],
+    "n": 2,
+    "scores": {
+      "record": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      }
+    }
+  },
+  {
+    "model": "qwen",
+    "source_form": "JA_PASSIVE",
+    "dimensions": [
+      "profile",
+      "layout",
+      "target_slot",
+      "fact"
+    ],
+    "values": [
+      "COMMON_PATIENT",
+      0,
+      1,
+      "YES"
+    ],
+    "n": 2,
+    "scores": {
+      "record": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      }
+    }
+  },
+  {
+    "model": "qwen",
+    "source_form": "JA_PASSIVE",
+    "dimensions": [
+      "profile",
+      "layout",
+      "target_slot",
+      "fact"
+    ],
+    "values": [
+      "COMMON_PATIENT",
+      1,
+      0,
+      "YES"
+    ],
+    "n": 2,
+    "scores": {
+      "record": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      }
+    }
+  },
+  {
+    "model": "qwen",
+    "source_form": "JA_PASSIVE",
+    "dimensions": [
+      "profile",
+      "layout",
+      "target_slot",
+      "fact"
+    ],
+    "values": [
+      "COMMON_PATIENT",
+      1,
+      1,
+      "YES"
+    ],
+    "n": 2,
+    "scores": {
+      "record": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      }
+    }
+  },
+  {
+    "model": "qwen",
+    "source_form": "JA_PASSIVE",
+    "dimensions": [
+      "profile",
+      "layout",
+      "target_slot",
+      "fact"
+    ],
+    "values": [
+      "MIX_POLARITY",
+      0,
+      0,
+      "YES"
+    ],
+    "n": 2,
+    "scores": {
+      "record": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      }
+    }
+  },
+  {
+    "model": "qwen",
+    "source_form": "JA_PASSIVE",
+    "dimensions": [
+      "profile",
+      "layout",
+      "target_slot",
+      "fact"
+    ],
+    "values": [
+      "MIX_POLARITY",
+      0,
+      1,
+      "NO"
+    ],
+    "n": 2,
+    "scores": {
+      "record": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      }
+    }
+  },
+  {
+    "model": "qwen",
+    "source_form": "JA_PASSIVE",
+    "dimensions": [
+      "profile",
+      "layout",
+      "target_slot",
+      "fact"
+    ],
+    "values": [
+      "MIX_POLARITY",
+      1,
+      0,
+      "YES"
+    ],
+    "n": 2,
+    "scores": {
+      "record": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      }
+    }
+  },
+  {
+    "model": "qwen",
+    "source_form": "JA_PASSIVE",
+    "dimensions": [
+      "profile",
+      "layout",
+      "target_slot",
+      "fact"
+    ],
+    "values": [
+      "MIX_POLARITY",
+      1,
+      1,
+      "NO"
+    ],
+    "n": 2,
+    "scores": {
+      "record": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      }
+    }
+  },
+  {
+    "model": "qwen",
+    "source_form": "JA_PASSIVE",
+    "dimensions": [
+      "profile",
+      "layout",
+      "target_slot",
+      "fact"
+    ],
+    "values": [
+      "REVERSED",
+      0,
+      0,
+      "YES"
+    ],
+    "n": 2,
+    "scores": {
+      "record": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      }
+    }
+  },
+  {
+    "model": "qwen",
+    "source_form": "JA_PASSIVE",
+    "dimensions": [
+      "profile",
+      "layout",
+      "target_slot",
+      "fact"
+    ],
+    "values": [
+      "REVERSED",
+      0,
+      1,
+      "YES"
+    ],
+    "n": 2,
+    "scores": {
+      "record": {
+        "C": 1,
+        "W": 1,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 1,
+        "W": 1,
+        "U": 0
+      },
+      "role_b": {
+        "C": 1,
+        "W": 1,
+        "U": 0
+      },
+      "participant": {
+        "C": 1,
+        "W": 1,
+        "U": 0
+      }
+    }
+  },
+  {
+    "model": "qwen",
+    "source_form": "JA_PASSIVE",
+    "dimensions": [
+      "profile",
+      "layout",
+      "target_slot",
+      "fact"
+    ],
+    "values": [
+      "REVERSED",
+      1,
+      0,
+      "YES"
+    ],
+    "n": 2,
+    "scores": {
+      "record": {
+        "C": 1,
+        "W": 1,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 1,
+        "W": 1,
+        "U": 0
+      },
+      "role_b": {
+        "C": 1,
+        "W": 1,
+        "U": 0
+      },
+      "participant": {
+        "C": 1,
+        "W": 1,
+        "U": 0
+      }
+    }
+  },
+  {
+    "model": "qwen",
+    "source_form": "JA_PASSIVE",
+    "dimensions": [
+      "profile",
+      "layout",
+      "target_slot",
+      "fact"
+    ],
+    "values": [
+      "REVERSED",
+      1,
+      1,
+      "YES"
+    ],
+    "n": 2,
+    "scores": {
+      "record": {
+        "C": 1,
+        "W": 1,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 1,
+        "W": 1,
+        "U": 0
+      },
+      "role_b": {
+        "C": 1,
+        "W": 1,
+        "U": 0
+      },
+      "participant": {
+        "C": 1,
+        "W": 1,
+        "U": 0
+      }
+    }
+  },
+  {
+    "model": "qwen",
+    "source_form": "JA_PASSIVE",
+    "dimensions": [
+      "profile",
+      "layout",
+      "target_slot",
+      "fact"
+    ],
+    "values": [
+      "SAME",
+      0,
+      0,
+      "YES"
+    ],
+    "n": 2,
+    "scores": {
+      "record": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      }
+    }
+  },
+  {
+    "model": "qwen",
+    "source_form": "JA_PASSIVE",
+    "dimensions": [
+      "profile",
+      "layout",
+      "target_slot",
+      "fact"
+    ],
+    "values": [
+      "SAME",
+      0,
+      1,
+      "YES"
+    ],
+    "n": 2,
+    "scores": {
+      "record": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      }
+    }
+  },
+  {
+    "model": "qwen",
+    "source_form": "JA_PASSIVE",
+    "dimensions": [
+      "profile",
+      "layout",
+      "target_slot",
+      "fact"
+    ],
+    "values": [
+      "SAME",
+      1,
+      0,
+      "YES"
+    ],
+    "n": 2,
+    "scores": {
+      "record": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      }
+    }
+  },
+  {
+    "model": "qwen",
+    "source_form": "JA_PASSIVE",
+    "dimensions": [
+      "profile",
+      "layout",
+      "target_slot",
+      "fact"
+    ],
+    "values": [
+      "SAME",
+      1,
+      1,
+      "YES"
+    ],
+    "n": 2,
+    "scores": {
+      "record": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      }
+    }
+  },
+  {
+    "model": "qwen",
+    "source_form": "ZH_ACTIVE",
+    "dimensions": [
+      "condition",
+      "fact"
+    ],
+    "values": [
+      "FULL",
+      "NO"
+    ],
+    "n": 12,
+    "scores": {
+      "record": {
+        "C": 12,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 12,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 12,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 12,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 12,
+        "W": 0,
+        "U": 0
+      }
+    }
+  },
+  {
+    "model": "qwen",
+    "source_form": "ZH_ACTIVE",
+    "dimensions": [
+      "condition",
+      "fact"
+    ],
+    "values": [
+      "FULL",
+      "YES"
+    ],
+    "n": 36,
+    "scores": {
+      "record": {
+        "C": 36,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 36,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 36,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 36,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 36,
+        "W": 0,
+        "U": 0
+      }
+    }
+  },
+  {
+    "model": "qwen",
+    "source_form": "ZH_ACTIVE",
+    "dimensions": [
+      "condition",
+      "fact"
+    ],
+    "values": [
+      "SINGLE",
+      "NO"
+    ],
+    "n": 12,
+    "scores": {
+      "record": {
+        "C": 12,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 12,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 12,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 12,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 12,
+        "W": 0,
+        "U": 0
+      }
+    }
+  },
+  {
+    "model": "qwen",
+    "source_form": "ZH_ACTIVE",
+    "dimensions": [
+      "condition",
+      "fact"
+    ],
+    "values": [
+      "SINGLE",
+      "YES"
+    ],
+    "n": 20,
+    "scores": {
+      "record": {
+        "C": 20,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 20,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 20,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 20,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 20,
+        "W": 0,
+        "U": 0
+      }
+    }
+  },
+  {
+    "model": "qwen",
+    "source_form": "ZH_ACTIVE",
+    "dimensions": [
+      "condition",
+      "domain"
+    ],
+    "values": [
+      "FULL",
+      "hire"
+    ],
+    "n": 24,
+    "scores": {
+      "record": {
+        "C": 24,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 24,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 24,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 24,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 24,
+        "W": 0,
+        "U": 0
+      }
+    }
+  },
+  {
+    "model": "qwen",
+    "source_form": "ZH_ACTIVE",
+    "dimensions": [
+      "condition",
+      "domain"
+    ],
+    "values": [
+      "FULL",
+      "loan"
+    ],
+    "n": 24,
+    "scores": {
+      "record": {
+        "C": 24,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 24,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 24,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 24,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 24,
+        "W": 0,
+        "U": 0
+      }
+    }
+  },
+  {
+    "model": "qwen",
+    "source_form": "ZH_ACTIVE",
+    "dimensions": [
+      "condition",
+      "domain"
+    ],
+    "values": [
+      "SINGLE",
+      "hire"
+    ],
+    "n": 16,
+    "scores": {
+      "record": {
+        "C": 16,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 16,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 16,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 16,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 16,
+        "W": 0,
+        "U": 0
+      }
+    }
+  },
+  {
+    "model": "qwen",
+    "source_form": "ZH_ACTIVE",
+    "dimensions": [
+      "condition",
+      "domain"
+    ],
+    "values": [
+      "SINGLE",
+      "loan"
+    ],
+    "n": 16,
+    "scores": {
+      "record": {
+        "C": 16,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 16,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 16,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 16,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 16,
+        "W": 0,
+        "U": 0
+      }
+    }
+  },
+  {
+    "model": "qwen",
+    "source_form": "ZH_ACTIVE",
+    "dimensions": [
+      "profile",
+      "layout",
+      "target_slot",
+      "fact"
+    ],
+    "values": [
+      "BOTH_NEGATIVE",
+      0,
+      0,
+      "NO"
+    ],
+    "n": 2,
+    "scores": {
+      "record": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      }
+    }
+  },
+  {
+    "model": "qwen",
+    "source_form": "ZH_ACTIVE",
+    "dimensions": [
+      "profile",
+      "layout",
+      "target_slot",
+      "fact"
+    ],
+    "values": [
+      "BOTH_NEGATIVE",
+      0,
+      1,
+      "NO"
+    ],
+    "n": 2,
+    "scores": {
+      "record": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      }
+    }
+  },
+  {
+    "model": "qwen",
+    "source_form": "ZH_ACTIVE",
+    "dimensions": [
+      "profile",
+      "layout",
+      "target_slot",
+      "fact"
+    ],
+    "values": [
+      "BOTH_NEGATIVE",
+      1,
+      0,
+      "NO"
+    ],
+    "n": 2,
+    "scores": {
+      "record": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      }
+    }
+  },
+  {
+    "model": "qwen",
+    "source_form": "ZH_ACTIVE",
+    "dimensions": [
+      "profile",
+      "layout",
+      "target_slot",
+      "fact"
+    ],
+    "values": [
+      "BOTH_NEGATIVE",
+      1,
+      1,
+      "NO"
+    ],
+    "n": 2,
+    "scores": {
+      "record": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      }
+    }
+  },
+  {
+    "model": "qwen",
+    "source_form": "ZH_ACTIVE",
+    "dimensions": [
+      "profile",
+      "layout",
+      "target_slot",
+      "fact"
+    ],
+    "values": [
+      "COMMON_AGENT",
+      0,
+      0,
+      "YES"
+    ],
+    "n": 2,
+    "scores": {
+      "record": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      }
+    }
+  },
+  {
+    "model": "qwen",
+    "source_form": "ZH_ACTIVE",
+    "dimensions": [
+      "profile",
+      "layout",
+      "target_slot",
+      "fact"
+    ],
+    "values": [
+      "COMMON_AGENT",
+      0,
+      1,
+      "YES"
+    ],
+    "n": 2,
+    "scores": {
+      "record": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      }
+    }
+  },
+  {
+    "model": "qwen",
+    "source_form": "ZH_ACTIVE",
+    "dimensions": [
+      "profile",
+      "layout",
+      "target_slot",
+      "fact"
+    ],
+    "values": [
+      "COMMON_AGENT",
+      1,
+      0,
+      "YES"
+    ],
+    "n": 2,
+    "scores": {
+      "record": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      }
+    }
+  },
+  {
+    "model": "qwen",
+    "source_form": "ZH_ACTIVE",
+    "dimensions": [
+      "profile",
+      "layout",
+      "target_slot",
+      "fact"
+    ],
+    "values": [
+      "COMMON_AGENT",
+      1,
+      1,
+      "YES"
+    ],
+    "n": 2,
+    "scores": {
+      "record": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      }
+    }
+  },
+  {
+    "model": "qwen",
+    "source_form": "ZH_ACTIVE",
+    "dimensions": [
+      "profile",
+      "layout",
+      "target_slot",
+      "fact"
+    ],
+    "values": [
+      "COMMON_PATIENT",
+      0,
+      0,
+      "YES"
+    ],
+    "n": 2,
+    "scores": {
+      "record": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      }
+    }
+  },
+  {
+    "model": "qwen",
+    "source_form": "ZH_ACTIVE",
+    "dimensions": [
+      "profile",
+      "layout",
+      "target_slot",
+      "fact"
+    ],
+    "values": [
+      "COMMON_PATIENT",
+      0,
+      1,
+      "YES"
+    ],
+    "n": 2,
+    "scores": {
+      "record": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      }
+    }
+  },
+  {
+    "model": "qwen",
+    "source_form": "ZH_ACTIVE",
+    "dimensions": [
+      "profile",
+      "layout",
+      "target_slot",
+      "fact"
+    ],
+    "values": [
+      "COMMON_PATIENT",
+      1,
+      0,
+      "YES"
+    ],
+    "n": 2,
+    "scores": {
+      "record": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      }
+    }
+  },
+  {
+    "model": "qwen",
+    "source_form": "ZH_ACTIVE",
+    "dimensions": [
+      "profile",
+      "layout",
+      "target_slot",
+      "fact"
+    ],
+    "values": [
+      "COMMON_PATIENT",
+      1,
+      1,
+      "YES"
+    ],
+    "n": 2,
+    "scores": {
+      "record": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      }
+    }
+  },
+  {
+    "model": "qwen",
+    "source_form": "ZH_ACTIVE",
+    "dimensions": [
+      "profile",
+      "layout",
+      "target_slot",
+      "fact"
+    ],
+    "values": [
+      "MIX_POLARITY",
+      0,
+      0,
+      "YES"
+    ],
+    "n": 2,
+    "scores": {
+      "record": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      }
+    }
+  },
+  {
+    "model": "qwen",
+    "source_form": "ZH_ACTIVE",
+    "dimensions": [
+      "profile",
+      "layout",
+      "target_slot",
+      "fact"
+    ],
+    "values": [
+      "MIX_POLARITY",
+      0,
+      1,
+      "NO"
+    ],
+    "n": 2,
+    "scores": {
+      "record": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      }
+    }
+  },
+  {
+    "model": "qwen",
+    "source_form": "ZH_ACTIVE",
+    "dimensions": [
+      "profile",
+      "layout",
+      "target_slot",
+      "fact"
+    ],
+    "values": [
+      "MIX_POLARITY",
+      1,
+      0,
+      "YES"
+    ],
+    "n": 2,
+    "scores": {
+      "record": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      }
+    }
+  },
+  {
+    "model": "qwen",
+    "source_form": "ZH_ACTIVE",
+    "dimensions": [
+      "profile",
+      "layout",
+      "target_slot",
+      "fact"
+    ],
+    "values": [
+      "MIX_POLARITY",
+      1,
+      1,
+      "NO"
+    ],
+    "n": 2,
+    "scores": {
+      "record": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      }
+    }
+  },
+  {
+    "model": "qwen",
+    "source_form": "ZH_ACTIVE",
+    "dimensions": [
+      "profile",
+      "layout",
+      "target_slot",
+      "fact"
+    ],
+    "values": [
+      "REVERSED",
+      0,
+      0,
+      "YES"
+    ],
+    "n": 2,
+    "scores": {
+      "record": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      }
+    }
+  },
+  {
+    "model": "qwen",
+    "source_form": "ZH_ACTIVE",
+    "dimensions": [
+      "profile",
+      "layout",
+      "target_slot",
+      "fact"
+    ],
+    "values": [
+      "REVERSED",
+      0,
+      1,
+      "YES"
+    ],
+    "n": 2,
+    "scores": {
+      "record": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      }
+    }
+  },
+  {
+    "model": "qwen",
+    "source_form": "ZH_ACTIVE",
+    "dimensions": [
+      "profile",
+      "layout",
+      "target_slot",
+      "fact"
+    ],
+    "values": [
+      "REVERSED",
+      1,
+      0,
+      "YES"
+    ],
+    "n": 2,
+    "scores": {
+      "record": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      }
+    }
+  },
+  {
+    "model": "qwen",
+    "source_form": "ZH_ACTIVE",
+    "dimensions": [
+      "profile",
+      "layout",
+      "target_slot",
+      "fact"
+    ],
+    "values": [
+      "REVERSED",
+      1,
+      1,
+      "YES"
+    ],
+    "n": 2,
+    "scores": {
+      "record": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      }
+    }
+  },
+  {
+    "model": "qwen",
+    "source_form": "ZH_ACTIVE",
+    "dimensions": [
+      "profile",
+      "layout",
+      "target_slot",
+      "fact"
+    ],
+    "values": [
+      "SAME",
+      0,
+      0,
+      "YES"
+    ],
+    "n": 2,
+    "scores": {
+      "record": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      }
+    }
+  },
+  {
+    "model": "qwen",
+    "source_form": "ZH_ACTIVE",
+    "dimensions": [
+      "profile",
+      "layout",
+      "target_slot",
+      "fact"
+    ],
+    "values": [
+      "SAME",
+      0,
+      1,
+      "YES"
+    ],
+    "n": 2,
+    "scores": {
+      "record": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      }
+    }
+  },
+  {
+    "model": "qwen",
+    "source_form": "ZH_ACTIVE",
+    "dimensions": [
+      "profile",
+      "layout",
+      "target_slot",
+      "fact"
+    ],
+    "values": [
+      "SAME",
+      1,
+      0,
+      "YES"
+    ],
+    "n": 2,
+    "scores": {
+      "record": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      }
+    }
+  },
+  {
+    "model": "qwen",
+    "source_form": "ZH_ACTIVE",
+    "dimensions": [
+      "profile",
+      "layout",
+      "target_slot",
+      "fact"
+    ],
+    "values": [
+      "SAME",
+      1,
+      1,
+      "YES"
+    ],
+    "n": 2,
+    "scores": {
+      "record": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      }
+    }
+  },
+  {
+    "model": "llama",
+    "source_form": "JA_ACTIVE",
+    "dimensions": [
+      "condition",
+      "fact"
+    ],
+    "values": [
+      "FULL",
+      "NO"
+    ],
+    "n": 12,
+    "scores": {
+      "record": {
+        "C": 12,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 12,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 12,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 12,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 12,
+        "W": 0,
+        "U": 0
+      }
+    }
+  },
+  {
+    "model": "llama",
+    "source_form": "JA_ACTIVE",
+    "dimensions": [
+      "condition",
+      "fact"
+    ],
+    "values": [
+      "FULL",
+      "YES"
+    ],
+    "n": 36,
+    "scores": {
+      "record": {
+        "C": 33,
+        "W": 3,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 36,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 33,
+        "W": 3,
+        "U": 0
+      },
+      "role_b": {
+        "C": 34,
+        "W": 2,
+        "U": 0
+      },
+      "participant": {
+        "C": 33,
+        "W": 3,
+        "U": 0
+      }
+    }
+  },
+  {
+    "model": "llama",
+    "source_form": "JA_ACTIVE",
+    "dimensions": [
+      "condition",
+      "fact"
+    ],
+    "values": [
+      "SINGLE",
+      "NO"
+    ],
+    "n": 12,
+    "scores": {
+      "record": {
+        "C": 12,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 12,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 12,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 12,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 12,
+        "W": 0,
+        "U": 0
+      }
+    }
+  },
+  {
+    "model": "llama",
+    "source_form": "JA_ACTIVE",
+    "dimensions": [
+      "condition",
+      "fact"
+    ],
+    "values": [
+      "SINGLE",
+      "YES"
+    ],
+    "n": 20,
+    "scores": {
+      "record": {
+        "C": 20,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 20,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 20,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 20,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 20,
+        "W": 0,
+        "U": 0
+      }
+    }
+  },
+  {
+    "model": "llama",
+    "source_form": "JA_ACTIVE",
+    "dimensions": [
+      "condition",
+      "domain"
+    ],
+    "values": [
+      "FULL",
+      "hire"
+    ],
+    "n": 24,
+    "scores": {
+      "record": {
+        "C": 23,
+        "W": 1,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 24,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 23,
+        "W": 1,
+        "U": 0
+      },
+      "role_b": {
+        "C": 24,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 23,
+        "W": 1,
+        "U": 0
+      }
+    }
+  },
+  {
+    "model": "llama",
+    "source_form": "JA_ACTIVE",
+    "dimensions": [
+      "condition",
+      "domain"
+    ],
+    "values": [
+      "FULL",
+      "loan"
+    ],
+    "n": 24,
+    "scores": {
+      "record": {
+        "C": 22,
+        "W": 2,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 24,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 22,
+        "W": 2,
+        "U": 0
+      },
+      "role_b": {
+        "C": 22,
+        "W": 2,
+        "U": 0
+      },
+      "participant": {
+        "C": 22,
+        "W": 2,
+        "U": 0
+      }
+    }
+  },
+  {
+    "model": "llama",
+    "source_form": "JA_ACTIVE",
+    "dimensions": [
+      "condition",
+      "domain"
+    ],
+    "values": [
+      "SINGLE",
+      "hire"
+    ],
+    "n": 16,
+    "scores": {
+      "record": {
+        "C": 16,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 16,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 16,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 16,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 16,
+        "W": 0,
+        "U": 0
+      }
+    }
+  },
+  {
+    "model": "llama",
+    "source_form": "JA_ACTIVE",
+    "dimensions": [
+      "condition",
+      "domain"
+    ],
+    "values": [
+      "SINGLE",
+      "loan"
+    ],
+    "n": 16,
+    "scores": {
+      "record": {
+        "C": 16,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 16,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 16,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 16,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 16,
+        "W": 0,
+        "U": 0
+      }
+    }
+  },
+  {
+    "model": "llama",
+    "source_form": "JA_ACTIVE",
+    "dimensions": [
+      "profile",
+      "layout",
+      "target_slot",
+      "fact"
+    ],
+    "values": [
+      "BOTH_NEGATIVE",
+      0,
+      0,
+      "NO"
+    ],
+    "n": 2,
+    "scores": {
+      "record": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      }
+    }
+  },
+  {
+    "model": "llama",
+    "source_form": "JA_ACTIVE",
+    "dimensions": [
+      "profile",
+      "layout",
+      "target_slot",
+      "fact"
+    ],
+    "values": [
+      "BOTH_NEGATIVE",
+      0,
+      1,
+      "NO"
+    ],
+    "n": 2,
+    "scores": {
+      "record": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      }
+    }
+  },
+  {
+    "model": "llama",
+    "source_form": "JA_ACTIVE",
+    "dimensions": [
+      "profile",
+      "layout",
+      "target_slot",
+      "fact"
+    ],
+    "values": [
+      "BOTH_NEGATIVE",
+      1,
+      0,
+      "NO"
+    ],
+    "n": 2,
+    "scores": {
+      "record": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      }
+    }
+  },
+  {
+    "model": "llama",
+    "source_form": "JA_ACTIVE",
+    "dimensions": [
+      "profile",
+      "layout",
+      "target_slot",
+      "fact"
+    ],
+    "values": [
+      "BOTH_NEGATIVE",
+      1,
+      1,
+      "NO"
+    ],
+    "n": 2,
+    "scores": {
+      "record": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      }
+    }
+  },
+  {
+    "model": "llama",
+    "source_form": "JA_ACTIVE",
+    "dimensions": [
+      "profile",
+      "layout",
+      "target_slot",
+      "fact"
+    ],
+    "values": [
+      "COMMON_AGENT",
+      0,
+      0,
+      "YES"
+    ],
+    "n": 2,
+    "scores": {
+      "record": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      }
+    }
+  },
+  {
+    "model": "llama",
+    "source_form": "JA_ACTIVE",
+    "dimensions": [
+      "profile",
+      "layout",
+      "target_slot",
+      "fact"
+    ],
+    "values": [
+      "COMMON_AGENT",
+      0,
+      1,
+      "YES"
+    ],
+    "n": 2,
+    "scores": {
+      "record": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      }
+    }
+  },
+  {
+    "model": "llama",
+    "source_form": "JA_ACTIVE",
+    "dimensions": [
+      "profile",
+      "layout",
+      "target_slot",
+      "fact"
+    ],
+    "values": [
+      "COMMON_AGENT",
+      1,
+      0,
+      "YES"
+    ],
+    "n": 2,
+    "scores": {
+      "record": {
+        "C": 1,
+        "W": 1,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 1,
+        "W": 1,
+        "U": 0
+      },
+      "role_b": {
+        "C": 1,
+        "W": 1,
+        "U": 0
+      },
+      "participant": {
+        "C": 1,
+        "W": 1,
+        "U": 0
+      }
+    }
+  },
+  {
+    "model": "llama",
+    "source_form": "JA_ACTIVE",
+    "dimensions": [
+      "profile",
+      "layout",
+      "target_slot",
+      "fact"
+    ],
+    "values": [
+      "COMMON_AGENT",
+      1,
+      1,
+      "YES"
+    ],
+    "n": 2,
+    "scores": {
+      "record": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      }
+    }
+  },
+  {
+    "model": "llama",
+    "source_form": "JA_ACTIVE",
+    "dimensions": [
+      "profile",
+      "layout",
+      "target_slot",
+      "fact"
+    ],
+    "values": [
+      "COMMON_PATIENT",
+      0,
+      0,
+      "YES"
+    ],
+    "n": 2,
+    "scores": {
+      "record": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      }
+    }
+  },
+  {
+    "model": "llama",
+    "source_form": "JA_ACTIVE",
+    "dimensions": [
+      "profile",
+      "layout",
+      "target_slot",
+      "fact"
+    ],
+    "values": [
+      "COMMON_PATIENT",
+      0,
+      1,
+      "YES"
+    ],
+    "n": 2,
+    "scores": {
+      "record": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      }
+    }
+  },
+  {
+    "model": "llama",
+    "source_form": "JA_ACTIVE",
+    "dimensions": [
+      "profile",
+      "layout",
+      "target_slot",
+      "fact"
+    ],
+    "values": [
+      "COMMON_PATIENT",
+      1,
+      0,
+      "YES"
+    ],
+    "n": 2,
+    "scores": {
+      "record": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      }
+    }
+  },
+  {
+    "model": "llama",
+    "source_form": "JA_ACTIVE",
+    "dimensions": [
+      "profile",
+      "layout",
+      "target_slot",
+      "fact"
+    ],
+    "values": [
+      "COMMON_PATIENT",
+      1,
+      1,
+      "YES"
+    ],
+    "n": 2,
+    "scores": {
+      "record": {
+        "C": 0,
+        "W": 2,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 0,
+        "W": 2,
+        "U": 0
+      },
+      "role_b": {
+        "C": 1,
+        "W": 1,
+        "U": 0
+      },
+      "participant": {
+        "C": 0,
+        "W": 2,
+        "U": 0
+      }
+    }
+  },
+  {
+    "model": "llama",
+    "source_form": "JA_ACTIVE",
+    "dimensions": [
+      "profile",
+      "layout",
+      "target_slot",
+      "fact"
+    ],
+    "values": [
+      "MIX_POLARITY",
+      0,
+      0,
+      "YES"
+    ],
+    "n": 2,
+    "scores": {
+      "record": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      }
+    }
+  },
+  {
+    "model": "llama",
+    "source_form": "JA_ACTIVE",
+    "dimensions": [
+      "profile",
+      "layout",
+      "target_slot",
+      "fact"
+    ],
+    "values": [
+      "MIX_POLARITY",
+      0,
+      1,
+      "NO"
+    ],
+    "n": 2,
+    "scores": {
+      "record": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      }
+    }
+  },
+  {
+    "model": "llama",
+    "source_form": "JA_ACTIVE",
+    "dimensions": [
+      "profile",
+      "layout",
+      "target_slot",
+      "fact"
+    ],
+    "values": [
+      "MIX_POLARITY",
+      1,
+      0,
+      "YES"
+    ],
+    "n": 2,
+    "scores": {
+      "record": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      }
+    }
+  },
+  {
+    "model": "llama",
+    "source_form": "JA_ACTIVE",
+    "dimensions": [
+      "profile",
+      "layout",
+      "target_slot",
+      "fact"
+    ],
+    "values": [
+      "MIX_POLARITY",
+      1,
+      1,
+      "NO"
+    ],
+    "n": 2,
+    "scores": {
+      "record": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      }
+    }
+  },
+  {
+    "model": "llama",
+    "source_form": "JA_ACTIVE",
+    "dimensions": [
+      "profile",
+      "layout",
+      "target_slot",
+      "fact"
+    ],
+    "values": [
+      "REVERSED",
+      0,
+      0,
+      "YES"
+    ],
+    "n": 2,
+    "scores": {
+      "record": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      }
+    }
+  },
+  {
+    "model": "llama",
+    "source_form": "JA_ACTIVE",
+    "dimensions": [
+      "profile",
+      "layout",
+      "target_slot",
+      "fact"
+    ],
+    "values": [
+      "REVERSED",
+      0,
+      1,
+      "YES"
+    ],
+    "n": 2,
+    "scores": {
+      "record": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      }
+    }
+  },
+  {
+    "model": "llama",
+    "source_form": "JA_ACTIVE",
+    "dimensions": [
+      "profile",
+      "layout",
+      "target_slot",
+      "fact"
+    ],
+    "values": [
+      "REVERSED",
+      1,
+      0,
+      "YES"
+    ],
+    "n": 2,
+    "scores": {
+      "record": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      }
+    }
+  },
+  {
+    "model": "llama",
+    "source_form": "JA_ACTIVE",
+    "dimensions": [
+      "profile",
+      "layout",
+      "target_slot",
+      "fact"
+    ],
+    "values": [
+      "REVERSED",
+      1,
+      1,
+      "YES"
+    ],
+    "n": 2,
+    "scores": {
+      "record": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      }
+    }
+  },
+  {
+    "model": "llama",
+    "source_form": "JA_ACTIVE",
+    "dimensions": [
+      "profile",
+      "layout",
+      "target_slot",
+      "fact"
+    ],
+    "values": [
+      "SAME",
+      0,
+      0,
+      "YES"
+    ],
+    "n": 2,
+    "scores": {
+      "record": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      }
+    }
+  },
+  {
+    "model": "llama",
+    "source_form": "JA_ACTIVE",
+    "dimensions": [
+      "profile",
+      "layout",
+      "target_slot",
+      "fact"
+    ],
+    "values": [
+      "SAME",
+      0,
+      1,
+      "YES"
+    ],
+    "n": 2,
+    "scores": {
+      "record": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      }
+    }
+  },
+  {
+    "model": "llama",
+    "source_form": "JA_ACTIVE",
+    "dimensions": [
+      "profile",
+      "layout",
+      "target_slot",
+      "fact"
+    ],
+    "values": [
+      "SAME",
+      1,
+      0,
+      "YES"
+    ],
+    "n": 2,
+    "scores": {
+      "record": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      }
+    }
+  },
+  {
+    "model": "llama",
+    "source_form": "JA_ACTIVE",
+    "dimensions": [
+      "profile",
+      "layout",
+      "target_slot",
+      "fact"
+    ],
+    "values": [
+      "SAME",
+      1,
+      1,
+      "YES"
+    ],
+    "n": 2,
+    "scores": {
+      "record": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      }
+    }
+  },
+  {
+    "model": "llama",
+    "source_form": "JA_PASSIVE",
+    "dimensions": [
+      "condition",
+      "fact"
+    ],
+    "values": [
+      "FULL",
+      "NO"
+    ],
+    "n": 12,
+    "scores": {
+      "record": {
+        "C": 10,
+        "W": 2,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 12,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 10,
+        "W": 2,
+        "U": 0
+      },
+      "role_b": {
+        "C": 12,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 10,
+        "W": 2,
+        "U": 0
+      }
+    }
+  },
+  {
+    "model": "llama",
+    "source_form": "JA_PASSIVE",
+    "dimensions": [
+      "condition",
+      "fact"
+    ],
+    "values": [
+      "FULL",
+      "YES"
+    ],
+    "n": 36,
+    "scores": {
+      "record": {
+        "C": 30,
+        "W": 6,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 36,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 30,
+        "W": 6,
+        "U": 0
+      },
+      "role_b": {
+        "C": 30,
+        "W": 4,
+        "U": 2
+      },
+      "participant": {
+        "C": 30,
+        "W": 6,
+        "U": 0
+      }
+    }
+  },
+  {
+    "model": "llama",
+    "source_form": "JA_PASSIVE",
+    "dimensions": [
+      "condition",
+      "fact"
+    ],
+    "values": [
+      "SINGLE",
+      "NO"
+    ],
+    "n": 12,
+    "scores": {
+      "record": {
+        "C": 10,
+        "W": 2,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 12,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 10,
+        "W": 2,
+        "U": 0
+      },
+      "role_b": {
+        "C": 10,
+        "W": 2,
+        "U": 0
+      },
+      "participant": {
+        "C": 10,
+        "W": 2,
+        "U": 0
+      }
+    }
+  },
+  {
+    "model": "llama",
+    "source_form": "JA_PASSIVE",
+    "dimensions": [
+      "condition",
+      "fact"
+    ],
+    "values": [
+      "SINGLE",
+      "YES"
+    ],
+    "n": 20,
+    "scores": {
+      "record": {
+        "C": 16,
+        "W": 4,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 20,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 16,
+        "W": 4,
+        "U": 0
+      },
+      "role_b": {
+        "C": 16,
+        "W": 4,
+        "U": 0
+      },
+      "participant": {
+        "C": 16,
+        "W": 4,
+        "U": 0
+      }
+    }
+  },
+  {
+    "model": "llama",
+    "source_form": "JA_PASSIVE",
+    "dimensions": [
+      "condition",
+      "domain"
+    ],
+    "values": [
+      "FULL",
+      "hire"
+    ],
+    "n": 24,
+    "scores": {
+      "record": {
+        "C": 21,
+        "W": 3,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 24,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 21,
+        "W": 3,
+        "U": 0
+      },
+      "role_b": {
+        "C": 22,
+        "W": 2,
+        "U": 0
+      },
+      "participant": {
+        "C": 21,
+        "W": 3,
+        "U": 0
+      }
+    }
+  },
+  {
+    "model": "llama",
+    "source_form": "JA_PASSIVE",
+    "dimensions": [
+      "condition",
+      "domain"
+    ],
+    "values": [
+      "FULL",
+      "loan"
+    ],
+    "n": 24,
+    "scores": {
+      "record": {
+        "C": 19,
+        "W": 5,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 24,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 19,
+        "W": 5,
+        "U": 0
+      },
+      "role_b": {
+        "C": 20,
+        "W": 2,
+        "U": 2
+      },
+      "participant": {
+        "C": 19,
+        "W": 5,
+        "U": 0
+      }
+    }
+  },
+  {
+    "model": "llama",
+    "source_form": "JA_PASSIVE",
+    "dimensions": [
+      "condition",
+      "domain"
+    ],
+    "values": [
+      "SINGLE",
+      "hire"
+    ],
+    "n": 16,
+    "scores": {
+      "record": {
+        "C": 14,
+        "W": 2,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 16,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 14,
+        "W": 2,
+        "U": 0
+      },
+      "role_b": {
+        "C": 14,
+        "W": 2,
+        "U": 0
+      },
+      "participant": {
+        "C": 14,
+        "W": 2,
+        "U": 0
+      }
+    }
+  },
+  {
+    "model": "llama",
+    "source_form": "JA_PASSIVE",
+    "dimensions": [
+      "condition",
+      "domain"
+    ],
+    "values": [
+      "SINGLE",
+      "loan"
+    ],
+    "n": 16,
+    "scores": {
+      "record": {
+        "C": 12,
+        "W": 4,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 16,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 12,
+        "W": 4,
+        "U": 0
+      },
+      "role_b": {
+        "C": 12,
+        "W": 4,
+        "U": 0
+      },
+      "participant": {
+        "C": 12,
+        "W": 4,
+        "U": 0
+      }
+    }
+  },
+  {
+    "model": "llama",
+    "source_form": "JA_PASSIVE",
+    "dimensions": [
+      "profile",
+      "layout",
+      "target_slot",
+      "fact"
+    ],
+    "values": [
+      "BOTH_NEGATIVE",
+      0,
+      0,
+      "NO"
+    ],
+    "n": 2,
+    "scores": {
+      "record": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      }
+    }
+  },
+  {
+    "model": "llama",
+    "source_form": "JA_PASSIVE",
+    "dimensions": [
+      "profile",
+      "layout",
+      "target_slot",
+      "fact"
+    ],
+    "values": [
+      "BOTH_NEGATIVE",
+      0,
+      1,
+      "NO"
+    ],
+    "n": 2,
+    "scores": {
+      "record": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      }
+    }
+  },
+  {
+    "model": "llama",
+    "source_form": "JA_PASSIVE",
+    "dimensions": [
+      "profile",
+      "layout",
+      "target_slot",
+      "fact"
+    ],
+    "values": [
+      "BOTH_NEGATIVE",
+      1,
+      0,
+      "NO"
+    ],
+    "n": 2,
+    "scores": {
+      "record": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      }
+    }
+  },
+  {
+    "model": "llama",
+    "source_form": "JA_PASSIVE",
+    "dimensions": [
+      "profile",
+      "layout",
+      "target_slot",
+      "fact"
+    ],
+    "values": [
+      "BOTH_NEGATIVE",
+      1,
+      1,
+      "NO"
+    ],
+    "n": 2,
+    "scores": {
+      "record": {
+        "C": 0,
+        "W": 2,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 0,
+        "W": 2,
+        "U": 0
+      },
+      "role_b": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 0,
+        "W": 2,
+        "U": 0
+      }
+    }
+  },
+  {
+    "model": "llama",
+    "source_form": "JA_PASSIVE",
+    "dimensions": [
+      "profile",
+      "layout",
+      "target_slot",
+      "fact"
+    ],
+    "values": [
+      "COMMON_AGENT",
+      0,
+      0,
+      "YES"
+    ],
+    "n": 2,
+    "scores": {
+      "record": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      }
+    }
+  },
+  {
+    "model": "llama",
+    "source_form": "JA_PASSIVE",
+    "dimensions": [
+      "profile",
+      "layout",
+      "target_slot",
+      "fact"
+    ],
+    "values": [
+      "COMMON_AGENT",
+      0,
+      1,
+      "YES"
+    ],
+    "n": 2,
+    "scores": {
+      "record": {
+        "C": 1,
+        "W": 1,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 1,
+        "W": 1,
+        "U": 0
+      },
+      "role_b": {
+        "C": 1,
+        "W": 0,
+        "U": 1
+      },
+      "participant": {
+        "C": 1,
+        "W": 1,
+        "U": 0
+      }
+    }
+  },
+  {
+    "model": "llama",
+    "source_form": "JA_PASSIVE",
+    "dimensions": [
+      "profile",
+      "layout",
+      "target_slot",
+      "fact"
+    ],
+    "values": [
+      "COMMON_AGENT",
+      1,
+      0,
+      "YES"
+    ],
+    "n": 2,
+    "scores": {
+      "record": {
+        "C": 1,
+        "W": 1,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 1,
+        "W": 1,
+        "U": 0
+      },
+      "role_b": {
+        "C": 1,
+        "W": 1,
+        "U": 0
+      },
+      "participant": {
+        "C": 1,
+        "W": 1,
+        "U": 0
+      }
+    }
+  },
+  {
+    "model": "llama",
+    "source_form": "JA_PASSIVE",
+    "dimensions": [
+      "profile",
+      "layout",
+      "target_slot",
+      "fact"
+    ],
+    "values": [
+      "COMMON_AGENT",
+      1,
+      1,
+      "YES"
+    ],
+    "n": 2,
+    "scores": {
+      "record": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      }
+    }
+  },
+  {
+    "model": "llama",
+    "source_form": "JA_PASSIVE",
+    "dimensions": [
+      "profile",
+      "layout",
+      "target_slot",
+      "fact"
+    ],
+    "values": [
+      "COMMON_PATIENT",
+      0,
+      0,
+      "YES"
+    ],
+    "n": 2,
+    "scores": {
+      "record": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      }
+    }
+  },
+  {
+    "model": "llama",
+    "source_form": "JA_PASSIVE",
+    "dimensions": [
+      "profile",
+      "layout",
+      "target_slot",
+      "fact"
+    ],
+    "values": [
+      "COMMON_PATIENT",
+      0,
+      1,
+      "YES"
+    ],
+    "n": 2,
+    "scores": {
+      "record": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      }
+    }
+  },
+  {
+    "model": "llama",
+    "source_form": "JA_PASSIVE",
+    "dimensions": [
+      "profile",
+      "layout",
+      "target_slot",
+      "fact"
+    ],
+    "values": [
+      "COMMON_PATIENT",
+      1,
+      0,
+      "YES"
+    ],
+    "n": 2,
+    "scores": {
+      "record": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      }
+    }
+  },
+  {
+    "model": "llama",
+    "source_form": "JA_PASSIVE",
+    "dimensions": [
+      "profile",
+      "layout",
+      "target_slot",
+      "fact"
+    ],
+    "values": [
+      "COMMON_PATIENT",
+      1,
+      1,
+      "YES"
+    ],
+    "n": 2,
+    "scores": {
+      "record": {
+        "C": 1,
+        "W": 1,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 1,
+        "W": 1,
+        "U": 0
+      },
+      "role_b": {
+        "C": 1,
+        "W": 0,
+        "U": 1
+      },
+      "participant": {
+        "C": 1,
+        "W": 1,
+        "U": 0
+      }
+    }
+  },
+  {
+    "model": "llama",
+    "source_form": "JA_PASSIVE",
+    "dimensions": [
+      "profile",
+      "layout",
+      "target_slot",
+      "fact"
+    ],
+    "values": [
+      "MIX_POLARITY",
+      0,
+      0,
+      "YES"
+    ],
+    "n": 2,
+    "scores": {
+      "record": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      }
+    }
+  },
+  {
+    "model": "llama",
+    "source_form": "JA_PASSIVE",
+    "dimensions": [
+      "profile",
+      "layout",
+      "target_slot",
+      "fact"
+    ],
+    "values": [
+      "MIX_POLARITY",
+      0,
+      1,
+      "NO"
+    ],
+    "n": 2,
+    "scores": {
+      "record": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      }
+    }
+  },
+  {
+    "model": "llama",
+    "source_form": "JA_PASSIVE",
+    "dimensions": [
+      "profile",
+      "layout",
+      "target_slot",
+      "fact"
+    ],
+    "values": [
+      "MIX_POLARITY",
+      1,
+      0,
+      "YES"
+    ],
+    "n": 2,
+    "scores": {
+      "record": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      }
+    }
+  },
+  {
+    "model": "llama",
+    "source_form": "JA_PASSIVE",
+    "dimensions": [
+      "profile",
+      "layout",
+      "target_slot",
+      "fact"
+    ],
+    "values": [
+      "MIX_POLARITY",
+      1,
+      1,
+      "NO"
+    ],
+    "n": 2,
+    "scores": {
+      "record": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      }
+    }
+  },
+  {
+    "model": "llama",
+    "source_form": "JA_PASSIVE",
+    "dimensions": [
+      "profile",
+      "layout",
+      "target_slot",
+      "fact"
+    ],
+    "values": [
+      "REVERSED",
+      0,
+      0,
+      "YES"
+    ],
+    "n": 2,
+    "scores": {
+      "record": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      }
+    }
+  },
+  {
+    "model": "llama",
+    "source_form": "JA_PASSIVE",
+    "dimensions": [
+      "profile",
+      "layout",
+      "target_slot",
+      "fact"
+    ],
+    "values": [
+      "REVERSED",
+      0,
+      1,
+      "YES"
+    ],
+    "n": 2,
+    "scores": {
+      "record": {
+        "C": 1,
+        "W": 1,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 1,
+        "W": 1,
+        "U": 0
+      },
+      "role_b": {
+        "C": 1,
+        "W": 1,
+        "U": 0
+      },
+      "participant": {
+        "C": 1,
+        "W": 1,
+        "U": 0
+      }
+    }
+  },
+  {
+    "model": "llama",
+    "source_form": "JA_PASSIVE",
+    "dimensions": [
+      "profile",
+      "layout",
+      "target_slot",
+      "fact"
+    ],
+    "values": [
+      "REVERSED",
+      1,
+      0,
+      "YES"
+    ],
+    "n": 2,
+    "scores": {
+      "record": {
+        "C": 0,
+        "W": 2,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 0,
+        "W": 2,
+        "U": 0
+      },
+      "role_b": {
+        "C": 0,
+        "W": 2,
+        "U": 0
+      },
+      "participant": {
+        "C": 0,
+        "W": 2,
+        "U": 0
+      }
+    }
+  },
+  {
+    "model": "llama",
+    "source_form": "JA_PASSIVE",
+    "dimensions": [
+      "profile",
+      "layout",
+      "target_slot",
+      "fact"
+    ],
+    "values": [
+      "REVERSED",
+      1,
+      1,
+      "YES"
+    ],
+    "n": 2,
+    "scores": {
+      "record": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      }
+    }
+  },
+  {
+    "model": "llama",
+    "source_form": "JA_PASSIVE",
+    "dimensions": [
+      "profile",
+      "layout",
+      "target_slot",
+      "fact"
+    ],
+    "values": [
+      "SAME",
+      0,
+      0,
+      "YES"
+    ],
+    "n": 2,
+    "scores": {
+      "record": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      }
+    }
+  },
+  {
+    "model": "llama",
+    "source_form": "JA_PASSIVE",
+    "dimensions": [
+      "profile",
+      "layout",
+      "target_slot",
+      "fact"
+    ],
+    "values": [
+      "SAME",
+      0,
+      1,
+      "YES"
+    ],
+    "n": 2,
+    "scores": {
+      "record": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      }
+    }
+  },
+  {
+    "model": "llama",
+    "source_form": "JA_PASSIVE",
+    "dimensions": [
+      "profile",
+      "layout",
+      "target_slot",
+      "fact"
+    ],
+    "values": [
+      "SAME",
+      1,
+      0,
+      "YES"
+    ],
+    "n": 2,
+    "scores": {
+      "record": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      }
+    }
+  },
+  {
+    "model": "llama",
+    "source_form": "JA_PASSIVE",
+    "dimensions": [
+      "profile",
+      "layout",
+      "target_slot",
+      "fact"
+    ],
+    "values": [
+      "SAME",
+      1,
+      1,
+      "YES"
+    ],
+    "n": 2,
+    "scores": {
+      "record": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      }
+    }
+  },
+  {
+    "model": "llama",
+    "source_form": "ZH_ACTIVE",
+    "dimensions": [
+      "condition",
+      "fact"
+    ],
+    "values": [
+      "FULL",
+      "NO"
+    ],
+    "n": 12,
+    "scores": {
+      "record": {
+        "C": 9,
+        "W": 1,
+        "U": 2
+      },
+      "occurrence": {
+        "C": 12,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 9,
+        "W": 1,
+        "U": 2
+      },
+      "role_b": {
+        "C": 9,
+        "W": 1,
+        "U": 2
+      },
+      "participant": {
+        "C": 9,
+        "W": 1,
+        "U": 2
+      }
+    }
+  },
+  {
+    "model": "llama",
+    "source_form": "ZH_ACTIVE",
+    "dimensions": [
+      "condition",
+      "fact"
+    ],
+    "values": [
+      "FULL",
+      "YES"
+    ],
+    "n": 36,
+    "scores": {
+      "record": {
+        "C": 23,
+        "W": 2,
+        "U": 11
+      },
+      "occurrence": {
+        "C": 36,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 23,
+        "W": 2,
+        "U": 11
+      },
+      "role_b": {
+        "C": 23,
+        "W": 2,
+        "U": 11
+      },
+      "participant": {
+        "C": 23,
+        "W": 2,
+        "U": 11
+      }
+    }
+  },
+  {
+    "model": "llama",
+    "source_form": "ZH_ACTIVE",
+    "dimensions": [
+      "condition",
+      "fact"
+    ],
+    "values": [
+      "SINGLE",
+      "NO"
+    ],
+    "n": 12,
+    "scores": {
+      "record": {
+        "C": 12,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 12,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 12,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 12,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 12,
+        "W": 0,
+        "U": 0
+      }
+    }
+  },
+  {
+    "model": "llama",
+    "source_form": "ZH_ACTIVE",
+    "dimensions": [
+      "condition",
+      "fact"
+    ],
+    "values": [
+      "SINGLE",
+      "YES"
+    ],
+    "n": 20,
+    "scores": {
+      "record": {
+        "C": 20,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 20,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 20,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 20,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 20,
+        "W": 0,
+        "U": 0
+      }
+    }
+  },
+  {
+    "model": "llama",
+    "source_form": "ZH_ACTIVE",
+    "dimensions": [
+      "condition",
+      "domain"
+    ],
+    "values": [
+      "FULL",
+      "hire"
+    ],
+    "n": 24,
+    "scores": {
+      "record": {
+        "C": 18,
+        "W": 2,
+        "U": 4
+      },
+      "occurrence": {
+        "C": 24,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 18,
+        "W": 2,
+        "U": 4
+      },
+      "role_b": {
+        "C": 18,
+        "W": 2,
+        "U": 4
+      },
+      "participant": {
+        "C": 18,
+        "W": 2,
+        "U": 4
+      }
+    }
+  },
+  {
+    "model": "llama",
+    "source_form": "ZH_ACTIVE",
+    "dimensions": [
+      "condition",
+      "domain"
+    ],
+    "values": [
+      "FULL",
+      "loan"
+    ],
+    "n": 24,
+    "scores": {
+      "record": {
+        "C": 14,
+        "W": 1,
+        "U": 9
+      },
+      "occurrence": {
+        "C": 24,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 14,
+        "W": 1,
+        "U": 9
+      },
+      "role_b": {
+        "C": 14,
+        "W": 1,
+        "U": 9
+      },
+      "participant": {
+        "C": 14,
+        "W": 1,
+        "U": 9
+      }
+    }
+  },
+  {
+    "model": "llama",
+    "source_form": "ZH_ACTIVE",
+    "dimensions": [
+      "condition",
+      "domain"
+    ],
+    "values": [
+      "SINGLE",
+      "hire"
+    ],
+    "n": 16,
+    "scores": {
+      "record": {
+        "C": 16,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 16,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 16,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 16,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 16,
+        "W": 0,
+        "U": 0
+      }
+    }
+  },
+  {
+    "model": "llama",
+    "source_form": "ZH_ACTIVE",
+    "dimensions": [
+      "condition",
+      "domain"
+    ],
+    "values": [
+      "SINGLE",
+      "loan"
+    ],
+    "n": 16,
+    "scores": {
+      "record": {
+        "C": 16,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 16,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 16,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 16,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 16,
+        "W": 0,
+        "U": 0
+      }
+    }
+  },
+  {
+    "model": "llama",
+    "source_form": "ZH_ACTIVE",
+    "dimensions": [
+      "profile",
+      "layout",
+      "target_slot",
+      "fact"
+    ],
+    "values": [
+      "BOTH_NEGATIVE",
+      0,
+      0,
+      "NO"
+    ],
+    "n": 2,
+    "scores": {
+      "record": {
+        "C": 1,
+        "W": 0,
+        "U": 1
+      },
+      "occurrence": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 1,
+        "W": 0,
+        "U": 1
+      },
+      "role_b": {
+        "C": 1,
+        "W": 0,
+        "U": 1
+      },
+      "participant": {
+        "C": 1,
+        "W": 0,
+        "U": 1
+      }
+    }
+  },
+  {
+    "model": "llama",
+    "source_form": "ZH_ACTIVE",
+    "dimensions": [
+      "profile",
+      "layout",
+      "target_slot",
+      "fact"
+    ],
+    "values": [
+      "BOTH_NEGATIVE",
+      0,
+      1,
+      "NO"
+    ],
+    "n": 2,
+    "scores": {
+      "record": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      }
+    }
+  },
+  {
+    "model": "llama",
+    "source_form": "ZH_ACTIVE",
+    "dimensions": [
+      "profile",
+      "layout",
+      "target_slot",
+      "fact"
+    ],
+    "values": [
+      "BOTH_NEGATIVE",
+      1,
+      0,
+      "NO"
+    ],
+    "n": 2,
+    "scores": {
+      "record": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      }
+    }
+  },
+  {
+    "model": "llama",
+    "source_form": "ZH_ACTIVE",
+    "dimensions": [
+      "profile",
+      "layout",
+      "target_slot",
+      "fact"
+    ],
+    "values": [
+      "BOTH_NEGATIVE",
+      1,
+      1,
+      "NO"
+    ],
+    "n": 2,
+    "scores": {
+      "record": {
+        "C": 0,
+        "W": 1,
+        "U": 1
+      },
+      "occurrence": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 0,
+        "W": 1,
+        "U": 1
+      },
+      "role_b": {
+        "C": 0,
+        "W": 1,
+        "U": 1
+      },
+      "participant": {
+        "C": 0,
+        "W": 1,
+        "U": 1
+      }
+    }
+  },
+  {
+    "model": "llama",
+    "source_form": "ZH_ACTIVE",
+    "dimensions": [
+      "profile",
+      "layout",
+      "target_slot",
+      "fact"
+    ],
+    "values": [
+      "COMMON_AGENT",
+      0,
+      0,
+      "YES"
+    ],
+    "n": 2,
+    "scores": {
+      "record": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      }
+    }
+  },
+  {
+    "model": "llama",
+    "source_form": "ZH_ACTIVE",
+    "dimensions": [
+      "profile",
+      "layout",
+      "target_slot",
+      "fact"
+    ],
+    "values": [
+      "COMMON_AGENT",
+      0,
+      1,
+      "YES"
+    ],
+    "n": 2,
+    "scores": {
+      "record": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      }
+    }
+  },
+  {
+    "model": "llama",
+    "source_form": "ZH_ACTIVE",
+    "dimensions": [
+      "profile",
+      "layout",
+      "target_slot",
+      "fact"
+    ],
+    "values": [
+      "COMMON_AGENT",
+      1,
+      0,
+      "YES"
+    ],
+    "n": 2,
+    "scores": {
+      "record": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      }
+    }
+  },
+  {
+    "model": "llama",
+    "source_form": "ZH_ACTIVE",
+    "dimensions": [
+      "profile",
+      "layout",
+      "target_slot",
+      "fact"
+    ],
+    "values": [
+      "COMMON_AGENT",
+      1,
+      1,
+      "YES"
+    ],
+    "n": 2,
+    "scores": {
+      "record": {
+        "C": 1,
+        "W": 0,
+        "U": 1
+      },
+      "occurrence": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 1,
+        "W": 0,
+        "U": 1
+      },
+      "role_b": {
+        "C": 1,
+        "W": 0,
+        "U": 1
+      },
+      "participant": {
+        "C": 1,
+        "W": 0,
+        "U": 1
+      }
+    }
+  },
+  {
+    "model": "llama",
+    "source_form": "ZH_ACTIVE",
+    "dimensions": [
+      "profile",
+      "layout",
+      "target_slot",
+      "fact"
+    ],
+    "values": [
+      "COMMON_PATIENT",
+      0,
+      0,
+      "YES"
+    ],
+    "n": 2,
+    "scores": {
+      "record": {
+        "C": 0,
+        "W": 0,
+        "U": 2
+      },
+      "occurrence": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 0,
+        "W": 0,
+        "U": 2
+      },
+      "role_b": {
+        "C": 0,
+        "W": 0,
+        "U": 2
+      },
+      "participant": {
+        "C": 0,
+        "W": 0,
+        "U": 2
+      }
+    }
+  },
+  {
+    "model": "llama",
+    "source_form": "ZH_ACTIVE",
+    "dimensions": [
+      "profile",
+      "layout",
+      "target_slot",
+      "fact"
+    ],
+    "values": [
+      "COMMON_PATIENT",
+      0,
+      1,
+      "YES"
+    ],
+    "n": 2,
+    "scores": {
+      "record": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      }
+    }
+  },
+  {
+    "model": "llama",
+    "source_form": "ZH_ACTIVE",
+    "dimensions": [
+      "profile",
+      "layout",
+      "target_slot",
+      "fact"
+    ],
+    "values": [
+      "COMMON_PATIENT",
+      1,
+      0,
+      "YES"
+    ],
+    "n": 2,
+    "scores": {
+      "record": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      }
+    }
+  },
+  {
+    "model": "llama",
+    "source_form": "ZH_ACTIVE",
+    "dimensions": [
+      "profile",
+      "layout",
+      "target_slot",
+      "fact"
+    ],
+    "values": [
+      "COMMON_PATIENT",
+      1,
+      1,
+      "YES"
+    ],
+    "n": 2,
+    "scores": {
+      "record": {
+        "C": 0,
+        "W": 0,
+        "U": 2
+      },
+      "occurrence": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 0,
+        "W": 0,
+        "U": 2
+      },
+      "role_b": {
+        "C": 0,
+        "W": 0,
+        "U": 2
+      },
+      "participant": {
+        "C": 0,
+        "W": 0,
+        "U": 2
+      }
+    }
+  },
+  {
+    "model": "llama",
+    "source_form": "ZH_ACTIVE",
+    "dimensions": [
+      "profile",
+      "layout",
+      "target_slot",
+      "fact"
+    ],
+    "values": [
+      "MIX_POLARITY",
+      0,
+      0,
+      "YES"
+    ],
+    "n": 2,
+    "scores": {
+      "record": {
+        "C": 0,
+        "W": 0,
+        "U": 2
+      },
+      "occurrence": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 0,
+        "W": 0,
+        "U": 2
+      },
+      "role_b": {
+        "C": 0,
+        "W": 0,
+        "U": 2
+      },
+      "participant": {
+        "C": 0,
+        "W": 0,
+        "U": 2
+      }
+    }
+  },
+  {
+    "model": "llama",
+    "source_form": "ZH_ACTIVE",
+    "dimensions": [
+      "profile",
+      "layout",
+      "target_slot",
+      "fact"
+    ],
+    "values": [
+      "MIX_POLARITY",
+      0,
+      1,
+      "NO"
+    ],
+    "n": 2,
+    "scores": {
+      "record": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      }
+    }
+  },
+  {
+    "model": "llama",
+    "source_form": "ZH_ACTIVE",
+    "dimensions": [
+      "profile",
+      "layout",
+      "target_slot",
+      "fact"
+    ],
+    "values": [
+      "MIX_POLARITY",
+      1,
+      0,
+      "YES"
+    ],
+    "n": 2,
+    "scores": {
+      "record": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      }
+    }
+  },
+  {
+    "model": "llama",
+    "source_form": "ZH_ACTIVE",
+    "dimensions": [
+      "profile",
+      "layout",
+      "target_slot",
+      "fact"
+    ],
+    "values": [
+      "MIX_POLARITY",
+      1,
+      1,
+      "NO"
+    ],
+    "n": 2,
+    "scores": {
+      "record": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      }
+    }
+  },
+  {
+    "model": "llama",
+    "source_form": "ZH_ACTIVE",
+    "dimensions": [
+      "profile",
+      "layout",
+      "target_slot",
+      "fact"
+    ],
+    "values": [
+      "REVERSED",
+      0,
+      0,
+      "YES"
+    ],
+    "n": 2,
+    "scores": {
+      "record": {
+        "C": 0,
+        "W": 0,
+        "U": 2
+      },
+      "occurrence": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 0,
+        "W": 0,
+        "U": 2
+      },
+      "role_b": {
+        "C": 0,
+        "W": 0,
+        "U": 2
+      },
+      "participant": {
+        "C": 0,
+        "W": 0,
+        "U": 2
+      }
+    }
+  },
+  {
+    "model": "llama",
+    "source_form": "ZH_ACTIVE",
+    "dimensions": [
+      "profile",
+      "layout",
+      "target_slot",
+      "fact"
+    ],
+    "values": [
+      "REVERSED",
+      0,
+      1,
+      "YES"
+    ],
+    "n": 2,
+    "scores": {
+      "record": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      }
+    }
+  },
+  {
+    "model": "llama",
+    "source_form": "ZH_ACTIVE",
+    "dimensions": [
+      "profile",
+      "layout",
+      "target_slot",
+      "fact"
+    ],
+    "values": [
+      "REVERSED",
+      1,
+      0,
+      "YES"
+    ],
+    "n": 2,
+    "scores": {
+      "record": {
+        "C": 1,
+        "W": 1,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 1,
+        "W": 1,
+        "U": 0
+      },
+      "role_b": {
+        "C": 1,
+        "W": 1,
+        "U": 0
+      },
+      "participant": {
+        "C": 1,
+        "W": 1,
+        "U": 0
+      }
+    }
+  },
+  {
+    "model": "llama",
+    "source_form": "ZH_ACTIVE",
+    "dimensions": [
+      "profile",
+      "layout",
+      "target_slot",
+      "fact"
+    ],
+    "values": [
+      "REVERSED",
+      1,
+      1,
+      "YES"
+    ],
+    "n": 2,
+    "scores": {
+      "record": {
+        "C": 1,
+        "W": 1,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 1,
+        "W": 1,
+        "U": 0
+      },
+      "role_b": {
+        "C": 1,
+        "W": 1,
+        "U": 0
+      },
+      "participant": {
+        "C": 1,
+        "W": 1,
+        "U": 0
+      }
+    }
+  },
+  {
+    "model": "llama",
+    "source_form": "ZH_ACTIVE",
+    "dimensions": [
+      "profile",
+      "layout",
+      "target_slot",
+      "fact"
+    ],
+    "values": [
+      "SAME",
+      0,
+      0,
+      "YES"
+    ],
+    "n": 2,
+    "scores": {
+      "record": {
+        "C": 1,
+        "W": 0,
+        "U": 1
+      },
+      "occurrence": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 1,
+        "W": 0,
+        "U": 1
+      },
+      "role_b": {
+        "C": 1,
+        "W": 0,
+        "U": 1
+      },
+      "participant": {
+        "C": 1,
+        "W": 0,
+        "U": 1
+      }
+    }
+  },
+  {
+    "model": "llama",
+    "source_form": "ZH_ACTIVE",
+    "dimensions": [
+      "profile",
+      "layout",
+      "target_slot",
+      "fact"
+    ],
+    "values": [
+      "SAME",
+      0,
+      1,
+      "YES"
+    ],
+    "n": 2,
+    "scores": {
+      "record": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      }
+    }
+  },
+  {
+    "model": "llama",
+    "source_form": "ZH_ACTIVE",
+    "dimensions": [
+      "profile",
+      "layout",
+      "target_slot",
+      "fact"
+    ],
+    "values": [
+      "SAME",
+      1,
+      0,
+      "YES"
+    ],
+    "n": 2,
+    "scores": {
+      "record": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "occurrence": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_b": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "participant": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      }
+    }
+  },
+  {
+    "model": "llama",
+    "source_form": "ZH_ACTIVE",
+    "dimensions": [
+      "profile",
+      "layout",
+      "target_slot",
+      "fact"
+    ],
+    "values": [
+      "SAME",
+      1,
+      1,
+      "YES"
+    ],
+    "n": 2,
+    "scores": {
+      "record": {
+        "C": 1,
+        "W": 0,
+        "U": 1
+      },
+      "occurrence": {
+        "C": 2,
+        "W": 0,
+        "U": 0
+      },
+      "role_a": {
+        "C": 1,
+        "W": 0,
+        "U": 1
+      },
+      "role_b": {
+        "C": 1,
+        "W": 0,
+        "U": 1
+      },
+      "participant": {
+        "C": 1,
+        "W": 0,
+        "U": 1
+      }
+    }
+  }
+]

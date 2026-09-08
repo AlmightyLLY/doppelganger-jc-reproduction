@@ -1,0 +1,2690 @@
+[
+  {
+    "source_id": "SRC001",
+    "domain": "photograph",
+    "source_form": "JA_ACTIVE",
+    "language": "JA",
+    "pair_indices": [
+      0,
+      1
+    ],
+    "pair_names": [
+      "青木",
+      "森田"
+    ],
+    "fact": "YES",
+    "source_text": "R1：青木は森田を撮影しました。",
+    "role_keys": [
+      "photographer",
+      "subject"
+    ],
+    "role_definitions": "photographer是拍摄者，subject是被拍摄的人。",
+    "reference_values": {
+      "occurred": "YES",
+      "role_a": "青木",
+      "role_b": "森田"
+    },
+    "identity": "AUTHOR_AI_NEW_TEMPLATE_NOT_INDEPENDENT_HUMAN_GOLD",
+    "derivation": "New event template with balanced directed name substitutions, frozen before B14 outputs"
+  },
+  {
+    "source_id": "SRC002",
+    "domain": "photograph",
+    "source_form": "JA_ACTIVE",
+    "language": "JA",
+    "pair_indices": [
+      0,
+      1
+    ],
+    "pair_names": [
+      "青木",
+      "森田"
+    ],
+    "fact": "NO",
+    "source_text": "R1：青木は森田を撮影しませんでした。",
+    "role_keys": [
+      "photographer",
+      "subject"
+    ],
+    "role_definitions": "photographer是拍摄者，subject是被拍摄的人。",
+    "reference_values": {
+      "occurred": "NO",
+      "role_a": "青木",
+      "role_b": "森田"
+    },
+    "identity": "AUTHOR_AI_NEW_TEMPLATE_NOT_INDEPENDENT_HUMAN_GOLD",
+    "derivation": "New event template with balanced directed name substitutions, frozen before B14 outputs"
+  },
+  {
+    "source_id": "SRC003",
+    "domain": "photograph",
+    "source_form": "JA_ACTIVE",
+    "language": "JA",
+    "pair_indices": [
+      1,
+      0
+    ],
+    "pair_names": [
+      "森田",
+      "青木"
+    ],
+    "fact": "YES",
+    "source_text": "R1：森田は青木を撮影しました。",
+    "role_keys": [
+      "photographer",
+      "subject"
+    ],
+    "role_definitions": "photographer是拍摄者，subject是被拍摄的人。",
+    "reference_values": {
+      "occurred": "YES",
+      "role_a": "森田",
+      "role_b": "青木"
+    },
+    "identity": "AUTHOR_AI_NEW_TEMPLATE_NOT_INDEPENDENT_HUMAN_GOLD",
+    "derivation": "New event template with balanced directed name substitutions, frozen before B14 outputs"
+  },
+  {
+    "source_id": "SRC004",
+    "domain": "photograph",
+    "source_form": "JA_ACTIVE",
+    "language": "JA",
+    "pair_indices": [
+      1,
+      0
+    ],
+    "pair_names": [
+      "森田",
+      "青木"
+    ],
+    "fact": "NO",
+    "source_text": "R1：森田は青木を撮影しませんでした。",
+    "role_keys": [
+      "photographer",
+      "subject"
+    ],
+    "role_definitions": "photographer是拍摄者，subject是被拍摄的人。",
+    "reference_values": {
+      "occurred": "NO",
+      "role_a": "森田",
+      "role_b": "青木"
+    },
+    "identity": "AUTHOR_AI_NEW_TEMPLATE_NOT_INDEPENDENT_HUMAN_GOLD",
+    "derivation": "New event template with balanced directed name substitutions, frozen before B14 outputs"
+  },
+  {
+    "source_id": "SRC005",
+    "domain": "photograph",
+    "source_form": "JA_ACTIVE",
+    "language": "JA",
+    "pair_indices": [
+      2,
+      3
+    ],
+    "pair_names": [
+      "小川",
+      "上田"
+    ],
+    "fact": "YES",
+    "source_text": "R1：小川は上田を撮影しました。",
+    "role_keys": [
+      "photographer",
+      "subject"
+    ],
+    "role_definitions": "photographer是拍摄者，subject是被拍摄的人。",
+    "reference_values": {
+      "occurred": "YES",
+      "role_a": "小川",
+      "role_b": "上田"
+    },
+    "identity": "AUTHOR_AI_NEW_TEMPLATE_NOT_INDEPENDENT_HUMAN_GOLD",
+    "derivation": "New event template with balanced directed name substitutions, frozen before B14 outputs"
+  },
+  {
+    "source_id": "SRC006",
+    "domain": "photograph",
+    "source_form": "JA_ACTIVE",
+    "language": "JA",
+    "pair_indices": [
+      2,
+      3
+    ],
+    "pair_names": [
+      "小川",
+      "上田"
+    ],
+    "fact": "NO",
+    "source_text": "R1：小川は上田を撮影しませんでした。",
+    "role_keys": [
+      "photographer",
+      "subject"
+    ],
+    "role_definitions": "photographer是拍摄者，subject是被拍摄的人。",
+    "reference_values": {
+      "occurred": "NO",
+      "role_a": "小川",
+      "role_b": "上田"
+    },
+    "identity": "AUTHOR_AI_NEW_TEMPLATE_NOT_INDEPENDENT_HUMAN_GOLD",
+    "derivation": "New event template with balanced directed name substitutions, frozen before B14 outputs"
+  },
+  {
+    "source_id": "SRC007",
+    "domain": "photograph",
+    "source_form": "JA_ACTIVE",
+    "language": "JA",
+    "pair_indices": [
+      3,
+      2
+    ],
+    "pair_names": [
+      "上田",
+      "小川"
+    ],
+    "fact": "YES",
+    "source_text": "R1：上田は小川を撮影しました。",
+    "role_keys": [
+      "photographer",
+      "subject"
+    ],
+    "role_definitions": "photographer是拍摄者，subject是被拍摄的人。",
+    "reference_values": {
+      "occurred": "YES",
+      "role_a": "上田",
+      "role_b": "小川"
+    },
+    "identity": "AUTHOR_AI_NEW_TEMPLATE_NOT_INDEPENDENT_HUMAN_GOLD",
+    "derivation": "New event template with balanced directed name substitutions, frozen before B14 outputs"
+  },
+  {
+    "source_id": "SRC008",
+    "domain": "photograph",
+    "source_form": "JA_ACTIVE",
+    "language": "JA",
+    "pair_indices": [
+      3,
+      2
+    ],
+    "pair_names": [
+      "上田",
+      "小川"
+    ],
+    "fact": "NO",
+    "source_text": "R1：上田は小川を撮影しませんでした。",
+    "role_keys": [
+      "photographer",
+      "subject"
+    ],
+    "role_definitions": "photographer是拍摄者，subject是被拍摄的人。",
+    "reference_values": {
+      "occurred": "NO",
+      "role_a": "上田",
+      "role_b": "小川"
+    },
+    "identity": "AUTHOR_AI_NEW_TEMPLATE_NOT_INDEPENDENT_HUMAN_GOLD",
+    "derivation": "New event template with balanced directed name substitutions, frozen before B14 outputs"
+  },
+  {
+    "source_id": "SRC009",
+    "domain": "photograph",
+    "source_form": "JA_PASSIVE",
+    "language": "JA",
+    "pair_indices": [
+      0,
+      1
+    ],
+    "pair_names": [
+      "青木",
+      "森田"
+    ],
+    "fact": "YES",
+    "source_text": "R1：森田は青木に撮影されました。",
+    "role_keys": [
+      "photographer",
+      "subject"
+    ],
+    "role_definitions": "photographer是拍摄者，subject是被拍摄的人。",
+    "reference_values": {
+      "occurred": "YES",
+      "role_a": "青木",
+      "role_b": "森田"
+    },
+    "identity": "AUTHOR_AI_NEW_TEMPLATE_NOT_INDEPENDENT_HUMAN_GOLD",
+    "derivation": "New event template with balanced directed name substitutions, frozen before B14 outputs"
+  },
+  {
+    "source_id": "SRC010",
+    "domain": "photograph",
+    "source_form": "JA_PASSIVE",
+    "language": "JA",
+    "pair_indices": [
+      0,
+      1
+    ],
+    "pair_names": [
+      "青木",
+      "森田"
+    ],
+    "fact": "NO",
+    "source_text": "R1：森田は青木に撮影されませんでした。",
+    "role_keys": [
+      "photographer",
+      "subject"
+    ],
+    "role_definitions": "photographer是拍摄者，subject是被拍摄的人。",
+    "reference_values": {
+      "occurred": "NO",
+      "role_a": "青木",
+      "role_b": "森田"
+    },
+    "identity": "AUTHOR_AI_NEW_TEMPLATE_NOT_INDEPENDENT_HUMAN_GOLD",
+    "derivation": "New event template with balanced directed name substitutions, frozen before B14 outputs"
+  },
+  {
+    "source_id": "SRC011",
+    "domain": "photograph",
+    "source_form": "JA_PASSIVE",
+    "language": "JA",
+    "pair_indices": [
+      1,
+      0
+    ],
+    "pair_names": [
+      "森田",
+      "青木"
+    ],
+    "fact": "YES",
+    "source_text": "R1：青木は森田に撮影されました。",
+    "role_keys": [
+      "photographer",
+      "subject"
+    ],
+    "role_definitions": "photographer是拍摄者，subject是被拍摄的人。",
+    "reference_values": {
+      "occurred": "YES",
+      "role_a": "森田",
+      "role_b": "青木"
+    },
+    "identity": "AUTHOR_AI_NEW_TEMPLATE_NOT_INDEPENDENT_HUMAN_GOLD",
+    "derivation": "New event template with balanced directed name substitutions, frozen before B14 outputs"
+  },
+  {
+    "source_id": "SRC012",
+    "domain": "photograph",
+    "source_form": "JA_PASSIVE",
+    "language": "JA",
+    "pair_indices": [
+      1,
+      0
+    ],
+    "pair_names": [
+      "森田",
+      "青木"
+    ],
+    "fact": "NO",
+    "source_text": "R1：青木は森田に撮影されませんでした。",
+    "role_keys": [
+      "photographer",
+      "subject"
+    ],
+    "role_definitions": "photographer是拍摄者，subject是被拍摄的人。",
+    "reference_values": {
+      "occurred": "NO",
+      "role_a": "森田",
+      "role_b": "青木"
+    },
+    "identity": "AUTHOR_AI_NEW_TEMPLATE_NOT_INDEPENDENT_HUMAN_GOLD",
+    "derivation": "New event template with balanced directed name substitutions, frozen before B14 outputs"
+  },
+  {
+    "source_id": "SRC013",
+    "domain": "photograph",
+    "source_form": "JA_PASSIVE",
+    "language": "JA",
+    "pair_indices": [
+      2,
+      3
+    ],
+    "pair_names": [
+      "小川",
+      "上田"
+    ],
+    "fact": "YES",
+    "source_text": "R1：上田は小川に撮影されました。",
+    "role_keys": [
+      "photographer",
+      "subject"
+    ],
+    "role_definitions": "photographer是拍摄者，subject是被拍摄的人。",
+    "reference_values": {
+      "occurred": "YES",
+      "role_a": "小川",
+      "role_b": "上田"
+    },
+    "identity": "AUTHOR_AI_NEW_TEMPLATE_NOT_INDEPENDENT_HUMAN_GOLD",
+    "derivation": "New event template with balanced directed name substitutions, frozen before B14 outputs"
+  },
+  {
+    "source_id": "SRC014",
+    "domain": "photograph",
+    "source_form": "JA_PASSIVE",
+    "language": "JA",
+    "pair_indices": [
+      2,
+      3
+    ],
+    "pair_names": [
+      "小川",
+      "上田"
+    ],
+    "fact": "NO",
+    "source_text": "R1：上田は小川に撮影されませんでした。",
+    "role_keys": [
+      "photographer",
+      "subject"
+    ],
+    "role_definitions": "photographer是拍摄者，subject是被拍摄的人。",
+    "reference_values": {
+      "occurred": "NO",
+      "role_a": "小川",
+      "role_b": "上田"
+    },
+    "identity": "AUTHOR_AI_NEW_TEMPLATE_NOT_INDEPENDENT_HUMAN_GOLD",
+    "derivation": "New event template with balanced directed name substitutions, frozen before B14 outputs"
+  },
+  {
+    "source_id": "SRC015",
+    "domain": "photograph",
+    "source_form": "JA_PASSIVE",
+    "language": "JA",
+    "pair_indices": [
+      3,
+      2
+    ],
+    "pair_names": [
+      "上田",
+      "小川"
+    ],
+    "fact": "YES",
+    "source_text": "R1：小川は上田に撮影されました。",
+    "role_keys": [
+      "photographer",
+      "subject"
+    ],
+    "role_definitions": "photographer是拍摄者，subject是被拍摄的人。",
+    "reference_values": {
+      "occurred": "YES",
+      "role_a": "上田",
+      "role_b": "小川"
+    },
+    "identity": "AUTHOR_AI_NEW_TEMPLATE_NOT_INDEPENDENT_HUMAN_GOLD",
+    "derivation": "New event template with balanced directed name substitutions, frozen before B14 outputs"
+  },
+  {
+    "source_id": "SRC016",
+    "domain": "photograph",
+    "source_form": "JA_PASSIVE",
+    "language": "JA",
+    "pair_indices": [
+      3,
+      2
+    ],
+    "pair_names": [
+      "上田",
+      "小川"
+    ],
+    "fact": "NO",
+    "source_text": "R1：小川は上田に撮影されませんでした。",
+    "role_keys": [
+      "photographer",
+      "subject"
+    ],
+    "role_definitions": "photographer是拍摄者，subject是被拍摄的人。",
+    "reference_values": {
+      "occurred": "NO",
+      "role_a": "上田",
+      "role_b": "小川"
+    },
+    "identity": "AUTHOR_AI_NEW_TEMPLATE_NOT_INDEPENDENT_HUMAN_GOLD",
+    "derivation": "New event template with balanced directed name substitutions, frozen before B14 outputs"
+  },
+  {
+    "source_id": "SRC017",
+    "domain": "photograph",
+    "source_form": "ZH_ACTIVE",
+    "language": "ZH",
+    "pair_indices": [
+      0,
+      1
+    ],
+    "pair_names": [
+      "青木",
+      "森田"
+    ],
+    "fact": "YES",
+    "source_text": "R1：青木拍摄了森田。",
+    "role_keys": [
+      "photographer",
+      "subject"
+    ],
+    "role_definitions": "photographer是拍摄者，subject是被拍摄的人。",
+    "reference_values": {
+      "occurred": "YES",
+      "role_a": "青木",
+      "role_b": "森田"
+    },
+    "identity": "AUTHOR_AI_NEW_TEMPLATE_NOT_INDEPENDENT_HUMAN_GOLD",
+    "derivation": "New event template with balanced directed name substitutions, frozen before B14 outputs"
+  },
+  {
+    "source_id": "SRC018",
+    "domain": "photograph",
+    "source_form": "ZH_ACTIVE",
+    "language": "ZH",
+    "pair_indices": [
+      0,
+      1
+    ],
+    "pair_names": [
+      "青木",
+      "森田"
+    ],
+    "fact": "NO",
+    "source_text": "R1：青木没有拍摄森田。",
+    "role_keys": [
+      "photographer",
+      "subject"
+    ],
+    "role_definitions": "photographer是拍摄者，subject是被拍摄的人。",
+    "reference_values": {
+      "occurred": "NO",
+      "role_a": "青木",
+      "role_b": "森田"
+    },
+    "identity": "AUTHOR_AI_NEW_TEMPLATE_NOT_INDEPENDENT_HUMAN_GOLD",
+    "derivation": "New event template with balanced directed name substitutions, frozen before B14 outputs"
+  },
+  {
+    "source_id": "SRC019",
+    "domain": "photograph",
+    "source_form": "ZH_ACTIVE",
+    "language": "ZH",
+    "pair_indices": [
+      1,
+      0
+    ],
+    "pair_names": [
+      "森田",
+      "青木"
+    ],
+    "fact": "YES",
+    "source_text": "R1：森田拍摄了青木。",
+    "role_keys": [
+      "photographer",
+      "subject"
+    ],
+    "role_definitions": "photographer是拍摄者，subject是被拍摄的人。",
+    "reference_values": {
+      "occurred": "YES",
+      "role_a": "森田",
+      "role_b": "青木"
+    },
+    "identity": "AUTHOR_AI_NEW_TEMPLATE_NOT_INDEPENDENT_HUMAN_GOLD",
+    "derivation": "New event template with balanced directed name substitutions, frozen before B14 outputs"
+  },
+  {
+    "source_id": "SRC020",
+    "domain": "photograph",
+    "source_form": "ZH_ACTIVE",
+    "language": "ZH",
+    "pair_indices": [
+      1,
+      0
+    ],
+    "pair_names": [
+      "森田",
+      "青木"
+    ],
+    "fact": "NO",
+    "source_text": "R1：森田没有拍摄青木。",
+    "role_keys": [
+      "photographer",
+      "subject"
+    ],
+    "role_definitions": "photographer是拍摄者，subject是被拍摄的人。",
+    "reference_values": {
+      "occurred": "NO",
+      "role_a": "森田",
+      "role_b": "青木"
+    },
+    "identity": "AUTHOR_AI_NEW_TEMPLATE_NOT_INDEPENDENT_HUMAN_GOLD",
+    "derivation": "New event template with balanced directed name substitutions, frozen before B14 outputs"
+  },
+  {
+    "source_id": "SRC021",
+    "domain": "photograph",
+    "source_form": "ZH_ACTIVE",
+    "language": "ZH",
+    "pair_indices": [
+      2,
+      3
+    ],
+    "pair_names": [
+      "小川",
+      "上田"
+    ],
+    "fact": "YES",
+    "source_text": "R1：小川拍摄了上田。",
+    "role_keys": [
+      "photographer",
+      "subject"
+    ],
+    "role_definitions": "photographer是拍摄者，subject是被拍摄的人。",
+    "reference_values": {
+      "occurred": "YES",
+      "role_a": "小川",
+      "role_b": "上田"
+    },
+    "identity": "AUTHOR_AI_NEW_TEMPLATE_NOT_INDEPENDENT_HUMAN_GOLD",
+    "derivation": "New event template with balanced directed name substitutions, frozen before B14 outputs"
+  },
+  {
+    "source_id": "SRC022",
+    "domain": "photograph",
+    "source_form": "ZH_ACTIVE",
+    "language": "ZH",
+    "pair_indices": [
+      2,
+      3
+    ],
+    "pair_names": [
+      "小川",
+      "上田"
+    ],
+    "fact": "NO",
+    "source_text": "R1：小川没有拍摄上田。",
+    "role_keys": [
+      "photographer",
+      "subject"
+    ],
+    "role_definitions": "photographer是拍摄者，subject是被拍摄的人。",
+    "reference_values": {
+      "occurred": "NO",
+      "role_a": "小川",
+      "role_b": "上田"
+    },
+    "identity": "AUTHOR_AI_NEW_TEMPLATE_NOT_INDEPENDENT_HUMAN_GOLD",
+    "derivation": "New event template with balanced directed name substitutions, frozen before B14 outputs"
+  },
+  {
+    "source_id": "SRC023",
+    "domain": "photograph",
+    "source_form": "ZH_ACTIVE",
+    "language": "ZH",
+    "pair_indices": [
+      3,
+      2
+    ],
+    "pair_names": [
+      "上田",
+      "小川"
+    ],
+    "fact": "YES",
+    "source_text": "R1：上田拍摄了小川。",
+    "role_keys": [
+      "photographer",
+      "subject"
+    ],
+    "role_definitions": "photographer是拍摄者，subject是被拍摄的人。",
+    "reference_values": {
+      "occurred": "YES",
+      "role_a": "上田",
+      "role_b": "小川"
+    },
+    "identity": "AUTHOR_AI_NEW_TEMPLATE_NOT_INDEPENDENT_HUMAN_GOLD",
+    "derivation": "New event template with balanced directed name substitutions, frozen before B14 outputs"
+  },
+  {
+    "source_id": "SRC024",
+    "domain": "photograph",
+    "source_form": "ZH_ACTIVE",
+    "language": "ZH",
+    "pair_indices": [
+      3,
+      2
+    ],
+    "pair_names": [
+      "上田",
+      "小川"
+    ],
+    "fact": "NO",
+    "source_text": "R1：上田没有拍摄小川。",
+    "role_keys": [
+      "photographer",
+      "subject"
+    ],
+    "role_definitions": "photographer是拍摄者，subject是被拍摄的人。",
+    "reference_values": {
+      "occurred": "NO",
+      "role_a": "上田",
+      "role_b": "小川"
+    },
+    "identity": "AUTHOR_AI_NEW_TEMPLATE_NOT_INDEPENDENT_HUMAN_GOLD",
+    "derivation": "New event template with balanced directed name substitutions, frozen before B14 outputs"
+  },
+  {
+    "source_id": "SRC025",
+    "domain": "rescue",
+    "source_form": "JA_ACTIVE",
+    "language": "JA",
+    "pair_indices": [
+      0,
+      1
+    ],
+    "pair_names": [
+      "青木",
+      "森田"
+    ],
+    "fact": "YES",
+    "source_text": "R1：青木は森田を救助しました。",
+    "role_keys": [
+      "rescuer",
+      "rescued"
+    ],
+    "role_definitions": "rescuer是实施救助的人，rescued是被救助的人。",
+    "reference_values": {
+      "occurred": "YES",
+      "role_a": "青木",
+      "role_b": "森田"
+    },
+    "identity": "AUTHOR_AI_NEW_TEMPLATE_NOT_INDEPENDENT_HUMAN_GOLD",
+    "derivation": "New event template with balanced directed name substitutions, frozen before B14 outputs"
+  },
+  {
+    "source_id": "SRC026",
+    "domain": "rescue",
+    "source_form": "JA_ACTIVE",
+    "language": "JA",
+    "pair_indices": [
+      0,
+      1
+    ],
+    "pair_names": [
+      "青木",
+      "森田"
+    ],
+    "fact": "NO",
+    "source_text": "R1：青木は森田を救助しませんでした。",
+    "role_keys": [
+      "rescuer",
+      "rescued"
+    ],
+    "role_definitions": "rescuer是实施救助的人，rescued是被救助的人。",
+    "reference_values": {
+      "occurred": "NO",
+      "role_a": "青木",
+      "role_b": "森田"
+    },
+    "identity": "AUTHOR_AI_NEW_TEMPLATE_NOT_INDEPENDENT_HUMAN_GOLD",
+    "derivation": "New event template with balanced directed name substitutions, frozen before B14 outputs"
+  },
+  {
+    "source_id": "SRC027",
+    "domain": "rescue",
+    "source_form": "JA_ACTIVE",
+    "language": "JA",
+    "pair_indices": [
+      1,
+      0
+    ],
+    "pair_names": [
+      "森田",
+      "青木"
+    ],
+    "fact": "YES",
+    "source_text": "R1：森田は青木を救助しました。",
+    "role_keys": [
+      "rescuer",
+      "rescued"
+    ],
+    "role_definitions": "rescuer是实施救助的人，rescued是被救助的人。",
+    "reference_values": {
+      "occurred": "YES",
+      "role_a": "森田",
+      "role_b": "青木"
+    },
+    "identity": "AUTHOR_AI_NEW_TEMPLATE_NOT_INDEPENDENT_HUMAN_GOLD",
+    "derivation": "New event template with balanced directed name substitutions, frozen before B14 outputs"
+  },
+  {
+    "source_id": "SRC028",
+    "domain": "rescue",
+    "source_form": "JA_ACTIVE",
+    "language": "JA",
+    "pair_indices": [
+      1,
+      0
+    ],
+    "pair_names": [
+      "森田",
+      "青木"
+    ],
+    "fact": "NO",
+    "source_text": "R1：森田は青木を救助しませんでした。",
+    "role_keys": [
+      "rescuer",
+      "rescued"
+    ],
+    "role_definitions": "rescuer是实施救助的人，rescued是被救助的人。",
+    "reference_values": {
+      "occurred": "NO",
+      "role_a": "森田",
+      "role_b": "青木"
+    },
+    "identity": "AUTHOR_AI_NEW_TEMPLATE_NOT_INDEPENDENT_HUMAN_GOLD",
+    "derivation": "New event template with balanced directed name substitutions, frozen before B14 outputs"
+  },
+  {
+    "source_id": "SRC029",
+    "domain": "rescue",
+    "source_form": "JA_ACTIVE",
+    "language": "JA",
+    "pair_indices": [
+      2,
+      3
+    ],
+    "pair_names": [
+      "小川",
+      "上田"
+    ],
+    "fact": "YES",
+    "source_text": "R1：小川は上田を救助しました。",
+    "role_keys": [
+      "rescuer",
+      "rescued"
+    ],
+    "role_definitions": "rescuer是实施救助的人，rescued是被救助的人。",
+    "reference_values": {
+      "occurred": "YES",
+      "role_a": "小川",
+      "role_b": "上田"
+    },
+    "identity": "AUTHOR_AI_NEW_TEMPLATE_NOT_INDEPENDENT_HUMAN_GOLD",
+    "derivation": "New event template with balanced directed name substitutions, frozen before B14 outputs"
+  },
+  {
+    "source_id": "SRC030",
+    "domain": "rescue",
+    "source_form": "JA_ACTIVE",
+    "language": "JA",
+    "pair_indices": [
+      2,
+      3
+    ],
+    "pair_names": [
+      "小川",
+      "上田"
+    ],
+    "fact": "NO",
+    "source_text": "R1：小川は上田を救助しませんでした。",
+    "role_keys": [
+      "rescuer",
+      "rescued"
+    ],
+    "role_definitions": "rescuer是实施救助的人，rescued是被救助的人。",
+    "reference_values": {
+      "occurred": "NO",
+      "role_a": "小川",
+      "role_b": "上田"
+    },
+    "identity": "AUTHOR_AI_NEW_TEMPLATE_NOT_INDEPENDENT_HUMAN_GOLD",
+    "derivation": "New event template with balanced directed name substitutions, frozen before B14 outputs"
+  },
+  {
+    "source_id": "SRC031",
+    "domain": "rescue",
+    "source_form": "JA_ACTIVE",
+    "language": "JA",
+    "pair_indices": [
+      3,
+      2
+    ],
+    "pair_names": [
+      "上田",
+      "小川"
+    ],
+    "fact": "YES",
+    "source_text": "R1：上田は小川を救助しました。",
+    "role_keys": [
+      "rescuer",
+      "rescued"
+    ],
+    "role_definitions": "rescuer是实施救助的人，rescued是被救助的人。",
+    "reference_values": {
+      "occurred": "YES",
+      "role_a": "上田",
+      "role_b": "小川"
+    },
+    "identity": "AUTHOR_AI_NEW_TEMPLATE_NOT_INDEPENDENT_HUMAN_GOLD",
+    "derivation": "New event template with balanced directed name substitutions, frozen before B14 outputs"
+  },
+  {
+    "source_id": "SRC032",
+    "domain": "rescue",
+    "source_form": "JA_ACTIVE",
+    "language": "JA",
+    "pair_indices": [
+      3,
+      2
+    ],
+    "pair_names": [
+      "上田",
+      "小川"
+    ],
+    "fact": "NO",
+    "source_text": "R1：上田は小川を救助しませんでした。",
+    "role_keys": [
+      "rescuer",
+      "rescued"
+    ],
+    "role_definitions": "rescuer是实施救助的人，rescued是被救助的人。",
+    "reference_values": {
+      "occurred": "NO",
+      "role_a": "上田",
+      "role_b": "小川"
+    },
+    "identity": "AUTHOR_AI_NEW_TEMPLATE_NOT_INDEPENDENT_HUMAN_GOLD",
+    "derivation": "New event template with balanced directed name substitutions, frozen before B14 outputs"
+  },
+  {
+    "source_id": "SRC033",
+    "domain": "rescue",
+    "source_form": "JA_PASSIVE",
+    "language": "JA",
+    "pair_indices": [
+      0,
+      1
+    ],
+    "pair_names": [
+      "青木",
+      "森田"
+    ],
+    "fact": "YES",
+    "source_text": "R1：森田は青木に救助されました。",
+    "role_keys": [
+      "rescuer",
+      "rescued"
+    ],
+    "role_definitions": "rescuer是实施救助的人，rescued是被救助的人。",
+    "reference_values": {
+      "occurred": "YES",
+      "role_a": "青木",
+      "role_b": "森田"
+    },
+    "identity": "AUTHOR_AI_NEW_TEMPLATE_NOT_INDEPENDENT_HUMAN_GOLD",
+    "derivation": "New event template with balanced directed name substitutions, frozen before B14 outputs"
+  },
+  {
+    "source_id": "SRC034",
+    "domain": "rescue",
+    "source_form": "JA_PASSIVE",
+    "language": "JA",
+    "pair_indices": [
+      0,
+      1
+    ],
+    "pair_names": [
+      "青木",
+      "森田"
+    ],
+    "fact": "NO",
+    "source_text": "R1：森田は青木に救助されませんでした。",
+    "role_keys": [
+      "rescuer",
+      "rescued"
+    ],
+    "role_definitions": "rescuer是实施救助的人，rescued是被救助的人。",
+    "reference_values": {
+      "occurred": "NO",
+      "role_a": "青木",
+      "role_b": "森田"
+    },
+    "identity": "AUTHOR_AI_NEW_TEMPLATE_NOT_INDEPENDENT_HUMAN_GOLD",
+    "derivation": "New event template with balanced directed name substitutions, frozen before B14 outputs"
+  },
+  {
+    "source_id": "SRC035",
+    "domain": "rescue",
+    "source_form": "JA_PASSIVE",
+    "language": "JA",
+    "pair_indices": [
+      1,
+      0
+    ],
+    "pair_names": [
+      "森田",
+      "青木"
+    ],
+    "fact": "YES",
+    "source_text": "R1：青木は森田に救助されました。",
+    "role_keys": [
+      "rescuer",
+      "rescued"
+    ],
+    "role_definitions": "rescuer是实施救助的人，rescued是被救助的人。",
+    "reference_values": {
+      "occurred": "YES",
+      "role_a": "森田",
+      "role_b": "青木"
+    },
+    "identity": "AUTHOR_AI_NEW_TEMPLATE_NOT_INDEPENDENT_HUMAN_GOLD",
+    "derivation": "New event template with balanced directed name substitutions, frozen before B14 outputs"
+  },
+  {
+    "source_id": "SRC036",
+    "domain": "rescue",
+    "source_form": "JA_PASSIVE",
+    "language": "JA",
+    "pair_indices": [
+      1,
+      0
+    ],
+    "pair_names": [
+      "森田",
+      "青木"
+    ],
+    "fact": "NO",
+    "source_text": "R1：青木は森田に救助されませんでした。",
+    "role_keys": [
+      "rescuer",
+      "rescued"
+    ],
+    "role_definitions": "rescuer是实施救助的人，rescued是被救助的人。",
+    "reference_values": {
+      "occurred": "NO",
+      "role_a": "森田",
+      "role_b": "青木"
+    },
+    "identity": "AUTHOR_AI_NEW_TEMPLATE_NOT_INDEPENDENT_HUMAN_GOLD",
+    "derivation": "New event template with balanced directed name substitutions, frozen before B14 outputs"
+  },
+  {
+    "source_id": "SRC037",
+    "domain": "rescue",
+    "source_form": "JA_PASSIVE",
+    "language": "JA",
+    "pair_indices": [
+      2,
+      3
+    ],
+    "pair_names": [
+      "小川",
+      "上田"
+    ],
+    "fact": "YES",
+    "source_text": "R1：上田は小川に救助されました。",
+    "role_keys": [
+      "rescuer",
+      "rescued"
+    ],
+    "role_definitions": "rescuer是实施救助的人，rescued是被救助的人。",
+    "reference_values": {
+      "occurred": "YES",
+      "role_a": "小川",
+      "role_b": "上田"
+    },
+    "identity": "AUTHOR_AI_NEW_TEMPLATE_NOT_INDEPENDENT_HUMAN_GOLD",
+    "derivation": "New event template with balanced directed name substitutions, frozen before B14 outputs"
+  },
+  {
+    "source_id": "SRC038",
+    "domain": "rescue",
+    "source_form": "JA_PASSIVE",
+    "language": "JA",
+    "pair_indices": [
+      2,
+      3
+    ],
+    "pair_names": [
+      "小川",
+      "上田"
+    ],
+    "fact": "NO",
+    "source_text": "R1：上田は小川に救助されませんでした。",
+    "role_keys": [
+      "rescuer",
+      "rescued"
+    ],
+    "role_definitions": "rescuer是实施救助的人，rescued是被救助的人。",
+    "reference_values": {
+      "occurred": "NO",
+      "role_a": "小川",
+      "role_b": "上田"
+    },
+    "identity": "AUTHOR_AI_NEW_TEMPLATE_NOT_INDEPENDENT_HUMAN_GOLD",
+    "derivation": "New event template with balanced directed name substitutions, frozen before B14 outputs"
+  },
+  {
+    "source_id": "SRC039",
+    "domain": "rescue",
+    "source_form": "JA_PASSIVE",
+    "language": "JA",
+    "pair_indices": [
+      3,
+      2
+    ],
+    "pair_names": [
+      "上田",
+      "小川"
+    ],
+    "fact": "YES",
+    "source_text": "R1：小川は上田に救助されました。",
+    "role_keys": [
+      "rescuer",
+      "rescued"
+    ],
+    "role_definitions": "rescuer是实施救助的人，rescued是被救助的人。",
+    "reference_values": {
+      "occurred": "YES",
+      "role_a": "上田",
+      "role_b": "小川"
+    },
+    "identity": "AUTHOR_AI_NEW_TEMPLATE_NOT_INDEPENDENT_HUMAN_GOLD",
+    "derivation": "New event template with balanced directed name substitutions, frozen before B14 outputs"
+  },
+  {
+    "source_id": "SRC040",
+    "domain": "rescue",
+    "source_form": "JA_PASSIVE",
+    "language": "JA",
+    "pair_indices": [
+      3,
+      2
+    ],
+    "pair_names": [
+      "上田",
+      "小川"
+    ],
+    "fact": "NO",
+    "source_text": "R1：小川は上田に救助されませんでした。",
+    "role_keys": [
+      "rescuer",
+      "rescued"
+    ],
+    "role_definitions": "rescuer是实施救助的人，rescued是被救助的人。",
+    "reference_values": {
+      "occurred": "NO",
+      "role_a": "上田",
+      "role_b": "小川"
+    },
+    "identity": "AUTHOR_AI_NEW_TEMPLATE_NOT_INDEPENDENT_HUMAN_GOLD",
+    "derivation": "New event template with balanced directed name substitutions, frozen before B14 outputs"
+  },
+  {
+    "source_id": "SRC041",
+    "domain": "rescue",
+    "source_form": "ZH_ACTIVE",
+    "language": "ZH",
+    "pair_indices": [
+      0,
+      1
+    ],
+    "pair_names": [
+      "青木",
+      "森田"
+    ],
+    "fact": "YES",
+    "source_text": "R1：青木救助了森田。",
+    "role_keys": [
+      "rescuer",
+      "rescued"
+    ],
+    "role_definitions": "rescuer是实施救助的人，rescued是被救助的人。",
+    "reference_values": {
+      "occurred": "YES",
+      "role_a": "青木",
+      "role_b": "森田"
+    },
+    "identity": "AUTHOR_AI_NEW_TEMPLATE_NOT_INDEPENDENT_HUMAN_GOLD",
+    "derivation": "New event template with balanced directed name substitutions, frozen before B14 outputs"
+  },
+  {
+    "source_id": "SRC042",
+    "domain": "rescue",
+    "source_form": "ZH_ACTIVE",
+    "language": "ZH",
+    "pair_indices": [
+      0,
+      1
+    ],
+    "pair_names": [
+      "青木",
+      "森田"
+    ],
+    "fact": "NO",
+    "source_text": "R1：青木没有救助森田。",
+    "role_keys": [
+      "rescuer",
+      "rescued"
+    ],
+    "role_definitions": "rescuer是实施救助的人，rescued是被救助的人。",
+    "reference_values": {
+      "occurred": "NO",
+      "role_a": "青木",
+      "role_b": "森田"
+    },
+    "identity": "AUTHOR_AI_NEW_TEMPLATE_NOT_INDEPENDENT_HUMAN_GOLD",
+    "derivation": "New event template with balanced directed name substitutions, frozen before B14 outputs"
+  },
+  {
+    "source_id": "SRC043",
+    "domain": "rescue",
+    "source_form": "ZH_ACTIVE",
+    "language": "ZH",
+    "pair_indices": [
+      1,
+      0
+    ],
+    "pair_names": [
+      "森田",
+      "青木"
+    ],
+    "fact": "YES",
+    "source_text": "R1：森田救助了青木。",
+    "role_keys": [
+      "rescuer",
+      "rescued"
+    ],
+    "role_definitions": "rescuer是实施救助的人，rescued是被救助的人。",
+    "reference_values": {
+      "occurred": "YES",
+      "role_a": "森田",
+      "role_b": "青木"
+    },
+    "identity": "AUTHOR_AI_NEW_TEMPLATE_NOT_INDEPENDENT_HUMAN_GOLD",
+    "derivation": "New event template with balanced directed name substitutions, frozen before B14 outputs"
+  },
+  {
+    "source_id": "SRC044",
+    "domain": "rescue",
+    "source_form": "ZH_ACTIVE",
+    "language": "ZH",
+    "pair_indices": [
+      1,
+      0
+    ],
+    "pair_names": [
+      "森田",
+      "青木"
+    ],
+    "fact": "NO",
+    "source_text": "R1：森田没有救助青木。",
+    "role_keys": [
+      "rescuer",
+      "rescued"
+    ],
+    "role_definitions": "rescuer是实施救助的人，rescued是被救助的人。",
+    "reference_values": {
+      "occurred": "NO",
+      "role_a": "森田",
+      "role_b": "青木"
+    },
+    "identity": "AUTHOR_AI_NEW_TEMPLATE_NOT_INDEPENDENT_HUMAN_GOLD",
+    "derivation": "New event template with balanced directed name substitutions, frozen before B14 outputs"
+  },
+  {
+    "source_id": "SRC045",
+    "domain": "rescue",
+    "source_form": "ZH_ACTIVE",
+    "language": "ZH",
+    "pair_indices": [
+      2,
+      3
+    ],
+    "pair_names": [
+      "小川",
+      "上田"
+    ],
+    "fact": "YES",
+    "source_text": "R1：小川救助了上田。",
+    "role_keys": [
+      "rescuer",
+      "rescued"
+    ],
+    "role_definitions": "rescuer是实施救助的人，rescued是被救助的人。",
+    "reference_values": {
+      "occurred": "YES",
+      "role_a": "小川",
+      "role_b": "上田"
+    },
+    "identity": "AUTHOR_AI_NEW_TEMPLATE_NOT_INDEPENDENT_HUMAN_GOLD",
+    "derivation": "New event template with balanced directed name substitutions, frozen before B14 outputs"
+  },
+  {
+    "source_id": "SRC046",
+    "domain": "rescue",
+    "source_form": "ZH_ACTIVE",
+    "language": "ZH",
+    "pair_indices": [
+      2,
+      3
+    ],
+    "pair_names": [
+      "小川",
+      "上田"
+    ],
+    "fact": "NO",
+    "source_text": "R1：小川没有救助上田。",
+    "role_keys": [
+      "rescuer",
+      "rescued"
+    ],
+    "role_definitions": "rescuer是实施救助的人，rescued是被救助的人。",
+    "reference_values": {
+      "occurred": "NO",
+      "role_a": "小川",
+      "role_b": "上田"
+    },
+    "identity": "AUTHOR_AI_NEW_TEMPLATE_NOT_INDEPENDENT_HUMAN_GOLD",
+    "derivation": "New event template with balanced directed name substitutions, frozen before B14 outputs"
+  },
+  {
+    "source_id": "SRC047",
+    "domain": "rescue",
+    "source_form": "ZH_ACTIVE",
+    "language": "ZH",
+    "pair_indices": [
+      3,
+      2
+    ],
+    "pair_names": [
+      "上田",
+      "小川"
+    ],
+    "fact": "YES",
+    "source_text": "R1：上田救助了小川。",
+    "role_keys": [
+      "rescuer",
+      "rescued"
+    ],
+    "role_definitions": "rescuer是实施救助的人，rescued是被救助的人。",
+    "reference_values": {
+      "occurred": "YES",
+      "role_a": "上田",
+      "role_b": "小川"
+    },
+    "identity": "AUTHOR_AI_NEW_TEMPLATE_NOT_INDEPENDENT_HUMAN_GOLD",
+    "derivation": "New event template with balanced directed name substitutions, frozen before B14 outputs"
+  },
+  {
+    "source_id": "SRC048",
+    "domain": "rescue",
+    "source_form": "ZH_ACTIVE",
+    "language": "ZH",
+    "pair_indices": [
+      3,
+      2
+    ],
+    "pair_names": [
+      "上田",
+      "小川"
+    ],
+    "fact": "NO",
+    "source_text": "R1：上田没有救助小川。",
+    "role_keys": [
+      "rescuer",
+      "rescued"
+    ],
+    "role_definitions": "rescuer是实施救助的人，rescued是被救助的人。",
+    "reference_values": {
+      "occurred": "NO",
+      "role_a": "上田",
+      "role_b": "小川"
+    },
+    "identity": "AUTHOR_AI_NEW_TEMPLATE_NOT_INDEPENDENT_HUMAN_GOLD",
+    "derivation": "New event template with balanced directed name substitutions, frozen before B14 outputs"
+  },
+  {
+    "source_id": "SRC049",
+    "domain": "invite",
+    "source_form": "JA_ACTIVE",
+    "language": "JA",
+    "pair_indices": [
+      0,
+      1
+    ],
+    "pair_names": [
+      "青木",
+      "森田"
+    ],
+    "fact": "YES",
+    "source_text": "R1：青木は森田を招待しました。",
+    "role_keys": [
+      "inviter",
+      "invitee"
+    ],
+    "role_definitions": "inviter是发出邀请的人，invitee是被邀请的人。",
+    "reference_values": {
+      "occurred": "YES",
+      "role_a": "青木",
+      "role_b": "森田"
+    },
+    "identity": "AUTHOR_AI_NEW_TEMPLATE_NOT_INDEPENDENT_HUMAN_GOLD",
+    "derivation": "New event template with balanced directed name substitutions, frozen before B14 outputs"
+  },
+  {
+    "source_id": "SRC050",
+    "domain": "invite",
+    "source_form": "JA_ACTIVE",
+    "language": "JA",
+    "pair_indices": [
+      0,
+      1
+    ],
+    "pair_names": [
+      "青木",
+      "森田"
+    ],
+    "fact": "NO",
+    "source_text": "R1：青木は森田を招待しませんでした。",
+    "role_keys": [
+      "inviter",
+      "invitee"
+    ],
+    "role_definitions": "inviter是发出邀请的人，invitee是被邀请的人。",
+    "reference_values": {
+      "occurred": "NO",
+      "role_a": "青木",
+      "role_b": "森田"
+    },
+    "identity": "AUTHOR_AI_NEW_TEMPLATE_NOT_INDEPENDENT_HUMAN_GOLD",
+    "derivation": "New event template with balanced directed name substitutions, frozen before B14 outputs"
+  },
+  {
+    "source_id": "SRC051",
+    "domain": "invite",
+    "source_form": "JA_ACTIVE",
+    "language": "JA",
+    "pair_indices": [
+      1,
+      0
+    ],
+    "pair_names": [
+      "森田",
+      "青木"
+    ],
+    "fact": "YES",
+    "source_text": "R1：森田は青木を招待しました。",
+    "role_keys": [
+      "inviter",
+      "invitee"
+    ],
+    "role_definitions": "inviter是发出邀请的人，invitee是被邀请的人。",
+    "reference_values": {
+      "occurred": "YES",
+      "role_a": "森田",
+      "role_b": "青木"
+    },
+    "identity": "AUTHOR_AI_NEW_TEMPLATE_NOT_INDEPENDENT_HUMAN_GOLD",
+    "derivation": "New event template with balanced directed name substitutions, frozen before B14 outputs"
+  },
+  {
+    "source_id": "SRC052",
+    "domain": "invite",
+    "source_form": "JA_ACTIVE",
+    "language": "JA",
+    "pair_indices": [
+      1,
+      0
+    ],
+    "pair_names": [
+      "森田",
+      "青木"
+    ],
+    "fact": "NO",
+    "source_text": "R1：森田は青木を招待しませんでした。",
+    "role_keys": [
+      "inviter",
+      "invitee"
+    ],
+    "role_definitions": "inviter是发出邀请的人，invitee是被邀请的人。",
+    "reference_values": {
+      "occurred": "NO",
+      "role_a": "森田",
+      "role_b": "青木"
+    },
+    "identity": "AUTHOR_AI_NEW_TEMPLATE_NOT_INDEPENDENT_HUMAN_GOLD",
+    "derivation": "New event template with balanced directed name substitutions, frozen before B14 outputs"
+  },
+  {
+    "source_id": "SRC053",
+    "domain": "invite",
+    "source_form": "JA_ACTIVE",
+    "language": "JA",
+    "pair_indices": [
+      2,
+      3
+    ],
+    "pair_names": [
+      "小川",
+      "上田"
+    ],
+    "fact": "YES",
+    "source_text": "R1：小川は上田を招待しました。",
+    "role_keys": [
+      "inviter",
+      "invitee"
+    ],
+    "role_definitions": "inviter是发出邀请的人，invitee是被邀请的人。",
+    "reference_values": {
+      "occurred": "YES",
+      "role_a": "小川",
+      "role_b": "上田"
+    },
+    "identity": "AUTHOR_AI_NEW_TEMPLATE_NOT_INDEPENDENT_HUMAN_GOLD",
+    "derivation": "New event template with balanced directed name substitutions, frozen before B14 outputs"
+  },
+  {
+    "source_id": "SRC054",
+    "domain": "invite",
+    "source_form": "JA_ACTIVE",
+    "language": "JA",
+    "pair_indices": [
+      2,
+      3
+    ],
+    "pair_names": [
+      "小川",
+      "上田"
+    ],
+    "fact": "NO",
+    "source_text": "R1：小川は上田を招待しませんでした。",
+    "role_keys": [
+      "inviter",
+      "invitee"
+    ],
+    "role_definitions": "inviter是发出邀请的人，invitee是被邀请的人。",
+    "reference_values": {
+      "occurred": "NO",
+      "role_a": "小川",
+      "role_b": "上田"
+    },
+    "identity": "AUTHOR_AI_NEW_TEMPLATE_NOT_INDEPENDENT_HUMAN_GOLD",
+    "derivation": "New event template with balanced directed name substitutions, frozen before B14 outputs"
+  },
+  {
+    "source_id": "SRC055",
+    "domain": "invite",
+    "source_form": "JA_ACTIVE",
+    "language": "JA",
+    "pair_indices": [
+      3,
+      2
+    ],
+    "pair_names": [
+      "上田",
+      "小川"
+    ],
+    "fact": "YES",
+    "source_text": "R1：上田は小川を招待しました。",
+    "role_keys": [
+      "inviter",
+      "invitee"
+    ],
+    "role_definitions": "inviter是发出邀请的人，invitee是被邀请的人。",
+    "reference_values": {
+      "occurred": "YES",
+      "role_a": "上田",
+      "role_b": "小川"
+    },
+    "identity": "AUTHOR_AI_NEW_TEMPLATE_NOT_INDEPENDENT_HUMAN_GOLD",
+    "derivation": "New event template with balanced directed name substitutions, frozen before B14 outputs"
+  },
+  {
+    "source_id": "SRC056",
+    "domain": "invite",
+    "source_form": "JA_ACTIVE",
+    "language": "JA",
+    "pair_indices": [
+      3,
+      2
+    ],
+    "pair_names": [
+      "上田",
+      "小川"
+    ],
+    "fact": "NO",
+    "source_text": "R1：上田は小川を招待しませんでした。",
+    "role_keys": [
+      "inviter",
+      "invitee"
+    ],
+    "role_definitions": "inviter是发出邀请的人，invitee是被邀请的人。",
+    "reference_values": {
+      "occurred": "NO",
+      "role_a": "上田",
+      "role_b": "小川"
+    },
+    "identity": "AUTHOR_AI_NEW_TEMPLATE_NOT_INDEPENDENT_HUMAN_GOLD",
+    "derivation": "New event template with balanced directed name substitutions, frozen before B14 outputs"
+  },
+  {
+    "source_id": "SRC057",
+    "domain": "invite",
+    "source_form": "JA_PASSIVE",
+    "language": "JA",
+    "pair_indices": [
+      0,
+      1
+    ],
+    "pair_names": [
+      "青木",
+      "森田"
+    ],
+    "fact": "YES",
+    "source_text": "R1：森田は青木に招待されました。",
+    "role_keys": [
+      "inviter",
+      "invitee"
+    ],
+    "role_definitions": "inviter是发出邀请的人，invitee是被邀请的人。",
+    "reference_values": {
+      "occurred": "YES",
+      "role_a": "青木",
+      "role_b": "森田"
+    },
+    "identity": "AUTHOR_AI_NEW_TEMPLATE_NOT_INDEPENDENT_HUMAN_GOLD",
+    "derivation": "New event template with balanced directed name substitutions, frozen before B14 outputs"
+  },
+  {
+    "source_id": "SRC058",
+    "domain": "invite",
+    "source_form": "JA_PASSIVE",
+    "language": "JA",
+    "pair_indices": [
+      0,
+      1
+    ],
+    "pair_names": [
+      "青木",
+      "森田"
+    ],
+    "fact": "NO",
+    "source_text": "R1：森田は青木に招待されませんでした。",
+    "role_keys": [
+      "inviter",
+      "invitee"
+    ],
+    "role_definitions": "inviter是发出邀请的人，invitee是被邀请的人。",
+    "reference_values": {
+      "occurred": "NO",
+      "role_a": "青木",
+      "role_b": "森田"
+    },
+    "identity": "AUTHOR_AI_NEW_TEMPLATE_NOT_INDEPENDENT_HUMAN_GOLD",
+    "derivation": "New event template with balanced directed name substitutions, frozen before B14 outputs"
+  },
+  {
+    "source_id": "SRC059",
+    "domain": "invite",
+    "source_form": "JA_PASSIVE",
+    "language": "JA",
+    "pair_indices": [
+      1,
+      0
+    ],
+    "pair_names": [
+      "森田",
+      "青木"
+    ],
+    "fact": "YES",
+    "source_text": "R1：青木は森田に招待されました。",
+    "role_keys": [
+      "inviter",
+      "invitee"
+    ],
+    "role_definitions": "inviter是发出邀请的人，invitee是被邀请的人。",
+    "reference_values": {
+      "occurred": "YES",
+      "role_a": "森田",
+      "role_b": "青木"
+    },
+    "identity": "AUTHOR_AI_NEW_TEMPLATE_NOT_INDEPENDENT_HUMAN_GOLD",
+    "derivation": "New event template with balanced directed name substitutions, frozen before B14 outputs"
+  },
+  {
+    "source_id": "SRC060",
+    "domain": "invite",
+    "source_form": "JA_PASSIVE",
+    "language": "JA",
+    "pair_indices": [
+      1,
+      0
+    ],
+    "pair_names": [
+      "森田",
+      "青木"
+    ],
+    "fact": "NO",
+    "source_text": "R1：青木は森田に招待されませんでした。",
+    "role_keys": [
+      "inviter",
+      "invitee"
+    ],
+    "role_definitions": "inviter是发出邀请的人，invitee是被邀请的人。",
+    "reference_values": {
+      "occurred": "NO",
+      "role_a": "森田",
+      "role_b": "青木"
+    },
+    "identity": "AUTHOR_AI_NEW_TEMPLATE_NOT_INDEPENDENT_HUMAN_GOLD",
+    "derivation": "New event template with balanced directed name substitutions, frozen before B14 outputs"
+  },
+  {
+    "source_id": "SRC061",
+    "domain": "invite",
+    "source_form": "JA_PASSIVE",
+    "language": "JA",
+    "pair_indices": [
+      2,
+      3
+    ],
+    "pair_names": [
+      "小川",
+      "上田"
+    ],
+    "fact": "YES",
+    "source_text": "R1：上田は小川に招待されました。",
+    "role_keys": [
+      "inviter",
+      "invitee"
+    ],
+    "role_definitions": "inviter是发出邀请的人，invitee是被邀请的人。",
+    "reference_values": {
+      "occurred": "YES",
+      "role_a": "小川",
+      "role_b": "上田"
+    },
+    "identity": "AUTHOR_AI_NEW_TEMPLATE_NOT_INDEPENDENT_HUMAN_GOLD",
+    "derivation": "New event template with balanced directed name substitutions, frozen before B14 outputs"
+  },
+  {
+    "source_id": "SRC062",
+    "domain": "invite",
+    "source_form": "JA_PASSIVE",
+    "language": "JA",
+    "pair_indices": [
+      2,
+      3
+    ],
+    "pair_names": [
+      "小川",
+      "上田"
+    ],
+    "fact": "NO",
+    "source_text": "R1：上田は小川に招待されませんでした。",
+    "role_keys": [
+      "inviter",
+      "invitee"
+    ],
+    "role_definitions": "inviter是发出邀请的人，invitee是被邀请的人。",
+    "reference_values": {
+      "occurred": "NO",
+      "role_a": "小川",
+      "role_b": "上田"
+    },
+    "identity": "AUTHOR_AI_NEW_TEMPLATE_NOT_INDEPENDENT_HUMAN_GOLD",
+    "derivation": "New event template with balanced directed name substitutions, frozen before B14 outputs"
+  },
+  {
+    "source_id": "SRC063",
+    "domain": "invite",
+    "source_form": "JA_PASSIVE",
+    "language": "JA",
+    "pair_indices": [
+      3,
+      2
+    ],
+    "pair_names": [
+      "上田",
+      "小川"
+    ],
+    "fact": "YES",
+    "source_text": "R1：小川は上田に招待されました。",
+    "role_keys": [
+      "inviter",
+      "invitee"
+    ],
+    "role_definitions": "inviter是发出邀请的人，invitee是被邀请的人。",
+    "reference_values": {
+      "occurred": "YES",
+      "role_a": "上田",
+      "role_b": "小川"
+    },
+    "identity": "AUTHOR_AI_NEW_TEMPLATE_NOT_INDEPENDENT_HUMAN_GOLD",
+    "derivation": "New event template with balanced directed name substitutions, frozen before B14 outputs"
+  },
+  {
+    "source_id": "SRC064",
+    "domain": "invite",
+    "source_form": "JA_PASSIVE",
+    "language": "JA",
+    "pair_indices": [
+      3,
+      2
+    ],
+    "pair_names": [
+      "上田",
+      "小川"
+    ],
+    "fact": "NO",
+    "source_text": "R1：小川は上田に招待されませんでした。",
+    "role_keys": [
+      "inviter",
+      "invitee"
+    ],
+    "role_definitions": "inviter是发出邀请的人，invitee是被邀请的人。",
+    "reference_values": {
+      "occurred": "NO",
+      "role_a": "上田",
+      "role_b": "小川"
+    },
+    "identity": "AUTHOR_AI_NEW_TEMPLATE_NOT_INDEPENDENT_HUMAN_GOLD",
+    "derivation": "New event template with balanced directed name substitutions, frozen before B14 outputs"
+  },
+  {
+    "source_id": "SRC065",
+    "domain": "invite",
+    "source_form": "ZH_ACTIVE",
+    "language": "ZH",
+    "pair_indices": [
+      0,
+      1
+    ],
+    "pair_names": [
+      "青木",
+      "森田"
+    ],
+    "fact": "YES",
+    "source_text": "R1：青木邀请了森田。",
+    "role_keys": [
+      "inviter",
+      "invitee"
+    ],
+    "role_definitions": "inviter是发出邀请的人，invitee是被邀请的人。",
+    "reference_values": {
+      "occurred": "YES",
+      "role_a": "青木",
+      "role_b": "森田"
+    },
+    "identity": "AUTHOR_AI_NEW_TEMPLATE_NOT_INDEPENDENT_HUMAN_GOLD",
+    "derivation": "New event template with balanced directed name substitutions, frozen before B14 outputs"
+  },
+  {
+    "source_id": "SRC066",
+    "domain": "invite",
+    "source_form": "ZH_ACTIVE",
+    "language": "ZH",
+    "pair_indices": [
+      0,
+      1
+    ],
+    "pair_names": [
+      "青木",
+      "森田"
+    ],
+    "fact": "NO",
+    "source_text": "R1：青木没有邀请森田。",
+    "role_keys": [
+      "inviter",
+      "invitee"
+    ],
+    "role_definitions": "inviter是发出邀请的人，invitee是被邀请的人。",
+    "reference_values": {
+      "occurred": "NO",
+      "role_a": "青木",
+      "role_b": "森田"
+    },
+    "identity": "AUTHOR_AI_NEW_TEMPLATE_NOT_INDEPENDENT_HUMAN_GOLD",
+    "derivation": "New event template with balanced directed name substitutions, frozen before B14 outputs"
+  },
+  {
+    "source_id": "SRC067",
+    "domain": "invite",
+    "source_form": "ZH_ACTIVE",
+    "language": "ZH",
+    "pair_indices": [
+      1,
+      0
+    ],
+    "pair_names": [
+      "森田",
+      "青木"
+    ],
+    "fact": "YES",
+    "source_text": "R1：森田邀请了青木。",
+    "role_keys": [
+      "inviter",
+      "invitee"
+    ],
+    "role_definitions": "inviter是发出邀请的人，invitee是被邀请的人。",
+    "reference_values": {
+      "occurred": "YES",
+      "role_a": "森田",
+      "role_b": "青木"
+    },
+    "identity": "AUTHOR_AI_NEW_TEMPLATE_NOT_INDEPENDENT_HUMAN_GOLD",
+    "derivation": "New event template with balanced directed name substitutions, frozen before B14 outputs"
+  },
+  {
+    "source_id": "SRC068",
+    "domain": "invite",
+    "source_form": "ZH_ACTIVE",
+    "language": "ZH",
+    "pair_indices": [
+      1,
+      0
+    ],
+    "pair_names": [
+      "森田",
+      "青木"
+    ],
+    "fact": "NO",
+    "source_text": "R1：森田没有邀请青木。",
+    "role_keys": [
+      "inviter",
+      "invitee"
+    ],
+    "role_definitions": "inviter是发出邀请的人，invitee是被邀请的人。",
+    "reference_values": {
+      "occurred": "NO",
+      "role_a": "森田",
+      "role_b": "青木"
+    },
+    "identity": "AUTHOR_AI_NEW_TEMPLATE_NOT_INDEPENDENT_HUMAN_GOLD",
+    "derivation": "New event template with balanced directed name substitutions, frozen before B14 outputs"
+  },
+  {
+    "source_id": "SRC069",
+    "domain": "invite",
+    "source_form": "ZH_ACTIVE",
+    "language": "ZH",
+    "pair_indices": [
+      2,
+      3
+    ],
+    "pair_names": [
+      "小川",
+      "上田"
+    ],
+    "fact": "YES",
+    "source_text": "R1：小川邀请了上田。",
+    "role_keys": [
+      "inviter",
+      "invitee"
+    ],
+    "role_definitions": "inviter是发出邀请的人，invitee是被邀请的人。",
+    "reference_values": {
+      "occurred": "YES",
+      "role_a": "小川",
+      "role_b": "上田"
+    },
+    "identity": "AUTHOR_AI_NEW_TEMPLATE_NOT_INDEPENDENT_HUMAN_GOLD",
+    "derivation": "New event template with balanced directed name substitutions, frozen before B14 outputs"
+  },
+  {
+    "source_id": "SRC070",
+    "domain": "invite",
+    "source_form": "ZH_ACTIVE",
+    "language": "ZH",
+    "pair_indices": [
+      2,
+      3
+    ],
+    "pair_names": [
+      "小川",
+      "上田"
+    ],
+    "fact": "NO",
+    "source_text": "R1：小川没有邀请上田。",
+    "role_keys": [
+      "inviter",
+      "invitee"
+    ],
+    "role_definitions": "inviter是发出邀请的人，invitee是被邀请的人。",
+    "reference_values": {
+      "occurred": "NO",
+      "role_a": "小川",
+      "role_b": "上田"
+    },
+    "identity": "AUTHOR_AI_NEW_TEMPLATE_NOT_INDEPENDENT_HUMAN_GOLD",
+    "derivation": "New event template with balanced directed name substitutions, frozen before B14 outputs"
+  },
+  {
+    "source_id": "SRC071",
+    "domain": "invite",
+    "source_form": "ZH_ACTIVE",
+    "language": "ZH",
+    "pair_indices": [
+      3,
+      2
+    ],
+    "pair_names": [
+      "上田",
+      "小川"
+    ],
+    "fact": "YES",
+    "source_text": "R1：上田邀请了小川。",
+    "role_keys": [
+      "inviter",
+      "invitee"
+    ],
+    "role_definitions": "inviter是发出邀请的人，invitee是被邀请的人。",
+    "reference_values": {
+      "occurred": "YES",
+      "role_a": "上田",
+      "role_b": "小川"
+    },
+    "identity": "AUTHOR_AI_NEW_TEMPLATE_NOT_INDEPENDENT_HUMAN_GOLD",
+    "derivation": "New event template with balanced directed name substitutions, frozen before B14 outputs"
+  },
+  {
+    "source_id": "SRC072",
+    "domain": "invite",
+    "source_form": "ZH_ACTIVE",
+    "language": "ZH",
+    "pair_indices": [
+      3,
+      2
+    ],
+    "pair_names": [
+      "上田",
+      "小川"
+    ],
+    "fact": "NO",
+    "source_text": "R1：上田没有邀请小川。",
+    "role_keys": [
+      "inviter",
+      "invitee"
+    ],
+    "role_definitions": "inviter是发出邀请的人，invitee是被邀请的人。",
+    "reference_values": {
+      "occurred": "NO",
+      "role_a": "上田",
+      "role_b": "小川"
+    },
+    "identity": "AUTHOR_AI_NEW_TEMPLATE_NOT_INDEPENDENT_HUMAN_GOLD",
+    "derivation": "New event template with balanced directed name substitutions, frozen before B14 outputs"
+  },
+  {
+    "source_id": "SRC073",
+    "domain": "arrest",
+    "source_form": "JA_ACTIVE",
+    "language": "JA",
+    "pair_indices": [
+      0,
+      1
+    ],
+    "pair_names": [
+      "青木",
+      "森田"
+    ],
+    "fact": "YES",
+    "source_text": "R1：青木は森田を逮捕しました。",
+    "role_keys": [
+      "arrester",
+      "arrestee"
+    ],
+    "role_definitions": "arrester是实施逮捕的人，arrestee是被逮捕的人。",
+    "reference_values": {
+      "occurred": "YES",
+      "role_a": "青木",
+      "role_b": "森田"
+    },
+    "identity": "AUTHOR_AI_NEW_TEMPLATE_NOT_INDEPENDENT_HUMAN_GOLD",
+    "derivation": "New event template with balanced directed name substitutions, frozen before B14 outputs"
+  },
+  {
+    "source_id": "SRC074",
+    "domain": "arrest",
+    "source_form": "JA_ACTIVE",
+    "language": "JA",
+    "pair_indices": [
+      0,
+      1
+    ],
+    "pair_names": [
+      "青木",
+      "森田"
+    ],
+    "fact": "NO",
+    "source_text": "R1：青木は森田を逮捕しませんでした。",
+    "role_keys": [
+      "arrester",
+      "arrestee"
+    ],
+    "role_definitions": "arrester是实施逮捕的人，arrestee是被逮捕的人。",
+    "reference_values": {
+      "occurred": "NO",
+      "role_a": "青木",
+      "role_b": "森田"
+    },
+    "identity": "AUTHOR_AI_NEW_TEMPLATE_NOT_INDEPENDENT_HUMAN_GOLD",
+    "derivation": "New event template with balanced directed name substitutions, frozen before B14 outputs"
+  },
+  {
+    "source_id": "SRC075",
+    "domain": "arrest",
+    "source_form": "JA_ACTIVE",
+    "language": "JA",
+    "pair_indices": [
+      1,
+      0
+    ],
+    "pair_names": [
+      "森田",
+      "青木"
+    ],
+    "fact": "YES",
+    "source_text": "R1：森田は青木を逮捕しました。",
+    "role_keys": [
+      "arrester",
+      "arrestee"
+    ],
+    "role_definitions": "arrester是实施逮捕的人，arrestee是被逮捕的人。",
+    "reference_values": {
+      "occurred": "YES",
+      "role_a": "森田",
+      "role_b": "青木"
+    },
+    "identity": "AUTHOR_AI_NEW_TEMPLATE_NOT_INDEPENDENT_HUMAN_GOLD",
+    "derivation": "New event template with balanced directed name substitutions, frozen before B14 outputs"
+  },
+  {
+    "source_id": "SRC076",
+    "domain": "arrest",
+    "source_form": "JA_ACTIVE",
+    "language": "JA",
+    "pair_indices": [
+      1,
+      0
+    ],
+    "pair_names": [
+      "森田",
+      "青木"
+    ],
+    "fact": "NO",
+    "source_text": "R1：森田は青木を逮捕しませんでした。",
+    "role_keys": [
+      "arrester",
+      "arrestee"
+    ],
+    "role_definitions": "arrester是实施逮捕的人，arrestee是被逮捕的人。",
+    "reference_values": {
+      "occurred": "NO",
+      "role_a": "森田",
+      "role_b": "青木"
+    },
+    "identity": "AUTHOR_AI_NEW_TEMPLATE_NOT_INDEPENDENT_HUMAN_GOLD",
+    "derivation": "New event template with balanced directed name substitutions, frozen before B14 outputs"
+  },
+  {
+    "source_id": "SRC077",
+    "domain": "arrest",
+    "source_form": "JA_ACTIVE",
+    "language": "JA",
+    "pair_indices": [
+      2,
+      3
+    ],
+    "pair_names": [
+      "小川",
+      "上田"
+    ],
+    "fact": "YES",
+    "source_text": "R1：小川は上田を逮捕しました。",
+    "role_keys": [
+      "arrester",
+      "arrestee"
+    ],
+    "role_definitions": "arrester是实施逮捕的人，arrestee是被逮捕的人。",
+    "reference_values": {
+      "occurred": "YES",
+      "role_a": "小川",
+      "role_b": "上田"
+    },
+    "identity": "AUTHOR_AI_NEW_TEMPLATE_NOT_INDEPENDENT_HUMAN_GOLD",
+    "derivation": "New event template with balanced directed name substitutions, frozen before B14 outputs"
+  },
+  {
+    "source_id": "SRC078",
+    "domain": "arrest",
+    "source_form": "JA_ACTIVE",
+    "language": "JA",
+    "pair_indices": [
+      2,
+      3
+    ],
+    "pair_names": [
+      "小川",
+      "上田"
+    ],
+    "fact": "NO",
+    "source_text": "R1：小川は上田を逮捕しませんでした。",
+    "role_keys": [
+      "arrester",
+      "arrestee"
+    ],
+    "role_definitions": "arrester是实施逮捕的人，arrestee是被逮捕的人。",
+    "reference_values": {
+      "occurred": "NO",
+      "role_a": "小川",
+      "role_b": "上田"
+    },
+    "identity": "AUTHOR_AI_NEW_TEMPLATE_NOT_INDEPENDENT_HUMAN_GOLD",
+    "derivation": "New event template with balanced directed name substitutions, frozen before B14 outputs"
+  },
+  {
+    "source_id": "SRC079",
+    "domain": "arrest",
+    "source_form": "JA_ACTIVE",
+    "language": "JA",
+    "pair_indices": [
+      3,
+      2
+    ],
+    "pair_names": [
+      "上田",
+      "小川"
+    ],
+    "fact": "YES",
+    "source_text": "R1：上田は小川を逮捕しました。",
+    "role_keys": [
+      "arrester",
+      "arrestee"
+    ],
+    "role_definitions": "arrester是实施逮捕的人，arrestee是被逮捕的人。",
+    "reference_values": {
+      "occurred": "YES",
+      "role_a": "上田",
+      "role_b": "小川"
+    },
+    "identity": "AUTHOR_AI_NEW_TEMPLATE_NOT_INDEPENDENT_HUMAN_GOLD",
+    "derivation": "New event template with balanced directed name substitutions, frozen before B14 outputs"
+  },
+  {
+    "source_id": "SRC080",
+    "domain": "arrest",
+    "source_form": "JA_ACTIVE",
+    "language": "JA",
+    "pair_indices": [
+      3,
+      2
+    ],
+    "pair_names": [
+      "上田",
+      "小川"
+    ],
+    "fact": "NO",
+    "source_text": "R1：上田は小川を逮捕しませんでした。",
+    "role_keys": [
+      "arrester",
+      "arrestee"
+    ],
+    "role_definitions": "arrester是实施逮捕的人，arrestee是被逮捕的人。",
+    "reference_values": {
+      "occurred": "NO",
+      "role_a": "上田",
+      "role_b": "小川"
+    },
+    "identity": "AUTHOR_AI_NEW_TEMPLATE_NOT_INDEPENDENT_HUMAN_GOLD",
+    "derivation": "New event template with balanced directed name substitutions, frozen before B14 outputs"
+  },
+  {
+    "source_id": "SRC081",
+    "domain": "arrest",
+    "source_form": "JA_PASSIVE",
+    "language": "JA",
+    "pair_indices": [
+      0,
+      1
+    ],
+    "pair_names": [
+      "青木",
+      "森田"
+    ],
+    "fact": "YES",
+    "source_text": "R1：森田は青木に逮捕されました。",
+    "role_keys": [
+      "arrester",
+      "arrestee"
+    ],
+    "role_definitions": "arrester是实施逮捕的人，arrestee是被逮捕的人。",
+    "reference_values": {
+      "occurred": "YES",
+      "role_a": "青木",
+      "role_b": "森田"
+    },
+    "identity": "AUTHOR_AI_NEW_TEMPLATE_NOT_INDEPENDENT_HUMAN_GOLD",
+    "derivation": "New event template with balanced directed name substitutions, frozen before B14 outputs"
+  },
+  {
+    "source_id": "SRC082",
+    "domain": "arrest",
+    "source_form": "JA_PASSIVE",
+    "language": "JA",
+    "pair_indices": [
+      0,
+      1
+    ],
+    "pair_names": [
+      "青木",
+      "森田"
+    ],
+    "fact": "NO",
+    "source_text": "R1：森田は青木に逮捕されませんでした。",
+    "role_keys": [
+      "arrester",
+      "arrestee"
+    ],
+    "role_definitions": "arrester是实施逮捕的人，arrestee是被逮捕的人。",
+    "reference_values": {
+      "occurred": "NO",
+      "role_a": "青木",
+      "role_b": "森田"
+    },
+    "identity": "AUTHOR_AI_NEW_TEMPLATE_NOT_INDEPENDENT_HUMAN_GOLD",
+    "derivation": "New event template with balanced directed name substitutions, frozen before B14 outputs"
+  },
+  {
+    "source_id": "SRC083",
+    "domain": "arrest",
+    "source_form": "JA_PASSIVE",
+    "language": "JA",
+    "pair_indices": [
+      1,
+      0
+    ],
+    "pair_names": [
+      "森田",
+      "青木"
+    ],
+    "fact": "YES",
+    "source_text": "R1：青木は森田に逮捕されました。",
+    "role_keys": [
+      "arrester",
+      "arrestee"
+    ],
+    "role_definitions": "arrester是实施逮捕的人，arrestee是被逮捕的人。",
+    "reference_values": {
+      "occurred": "YES",
+      "role_a": "森田",
+      "role_b": "青木"
+    },
+    "identity": "AUTHOR_AI_NEW_TEMPLATE_NOT_INDEPENDENT_HUMAN_GOLD",
+    "derivation": "New event template with balanced directed name substitutions, frozen before B14 outputs"
+  },
+  {
+    "source_id": "SRC084",
+    "domain": "arrest",
+    "source_form": "JA_PASSIVE",
+    "language": "JA",
+    "pair_indices": [
+      1,
+      0
+    ],
+    "pair_names": [
+      "森田",
+      "青木"
+    ],
+    "fact": "NO",
+    "source_text": "R1：青木は森田に逮捕されませんでした。",
+    "role_keys": [
+      "arrester",
+      "arrestee"
+    ],
+    "role_definitions": "arrester是实施逮捕的人，arrestee是被逮捕的人。",
+    "reference_values": {
+      "occurred": "NO",
+      "role_a": "森田",
+      "role_b": "青木"
+    },
+    "identity": "AUTHOR_AI_NEW_TEMPLATE_NOT_INDEPENDENT_HUMAN_GOLD",
+    "derivation": "New event template with balanced directed name substitutions, frozen before B14 outputs"
+  },
+  {
+    "source_id": "SRC085",
+    "domain": "arrest",
+    "source_form": "JA_PASSIVE",
+    "language": "JA",
+    "pair_indices": [
+      2,
+      3
+    ],
+    "pair_names": [
+      "小川",
+      "上田"
+    ],
+    "fact": "YES",
+    "source_text": "R1：上田は小川に逮捕されました。",
+    "role_keys": [
+      "arrester",
+      "arrestee"
+    ],
+    "role_definitions": "arrester是实施逮捕的人，arrestee是被逮捕的人。",
+    "reference_values": {
+      "occurred": "YES",
+      "role_a": "小川",
+      "role_b": "上田"
+    },
+    "identity": "AUTHOR_AI_NEW_TEMPLATE_NOT_INDEPENDENT_HUMAN_GOLD",
+    "derivation": "New event template with balanced directed name substitutions, frozen before B14 outputs"
+  },
+  {
+    "source_id": "SRC086",
+    "domain": "arrest",
+    "source_form": "JA_PASSIVE",
+    "language": "JA",
+    "pair_indices": [
+      2,
+      3
+    ],
+    "pair_names": [
+      "小川",
+      "上田"
+    ],
+    "fact": "NO",
+    "source_text": "R1：上田は小川に逮捕されませんでした。",
+    "role_keys": [
+      "arrester",
+      "arrestee"
+    ],
+    "role_definitions": "arrester是实施逮捕的人，arrestee是被逮捕的人。",
+    "reference_values": {
+      "occurred": "NO",
+      "role_a": "小川",
+      "role_b": "上田"
+    },
+    "identity": "AUTHOR_AI_NEW_TEMPLATE_NOT_INDEPENDENT_HUMAN_GOLD",
+    "derivation": "New event template with balanced directed name substitutions, frozen before B14 outputs"
+  },
+  {
+    "source_id": "SRC087",
+    "domain": "arrest",
+    "source_form": "JA_PASSIVE",
+    "language": "JA",
+    "pair_indices": [
+      3,
+      2
+    ],
+    "pair_names": [
+      "上田",
+      "小川"
+    ],
+    "fact": "YES",
+    "source_text": "R1：小川は上田に逮捕されました。",
+    "role_keys": [
+      "arrester",
+      "arrestee"
+    ],
+    "role_definitions": "arrester是实施逮捕的人，arrestee是被逮捕的人。",
+    "reference_values": {
+      "occurred": "YES",
+      "role_a": "上田",
+      "role_b": "小川"
+    },
+    "identity": "AUTHOR_AI_NEW_TEMPLATE_NOT_INDEPENDENT_HUMAN_GOLD",
+    "derivation": "New event template with balanced directed name substitutions, frozen before B14 outputs"
+  },
+  {
+    "source_id": "SRC088",
+    "domain": "arrest",
+    "source_form": "JA_PASSIVE",
+    "language": "JA",
+    "pair_indices": [
+      3,
+      2
+    ],
+    "pair_names": [
+      "上田",
+      "小川"
+    ],
+    "fact": "NO",
+    "source_text": "R1：小川は上田に逮捕されませんでした。",
+    "role_keys": [
+      "arrester",
+      "arrestee"
+    ],
+    "role_definitions": "arrester是实施逮捕的人，arrestee是被逮捕的人。",
+    "reference_values": {
+      "occurred": "NO",
+      "role_a": "上田",
+      "role_b": "小川"
+    },
+    "identity": "AUTHOR_AI_NEW_TEMPLATE_NOT_INDEPENDENT_HUMAN_GOLD",
+    "derivation": "New event template with balanced directed name substitutions, frozen before B14 outputs"
+  },
+  {
+    "source_id": "SRC089",
+    "domain": "arrest",
+    "source_form": "ZH_ACTIVE",
+    "language": "ZH",
+    "pair_indices": [
+      0,
+      1
+    ],
+    "pair_names": [
+      "青木",
+      "森田"
+    ],
+    "fact": "YES",
+    "source_text": "R1：青木逮捕了森田。",
+    "role_keys": [
+      "arrester",
+      "arrestee"
+    ],
+    "role_definitions": "arrester是实施逮捕的人，arrestee是被逮捕的人。",
+    "reference_values": {
+      "occurred": "YES",
+      "role_a": "青木",
+      "role_b": "森田"
+    },
+    "identity": "AUTHOR_AI_NEW_TEMPLATE_NOT_INDEPENDENT_HUMAN_GOLD",
+    "derivation": "New event template with balanced directed name substitutions, frozen before B14 outputs"
+  },
+  {
+    "source_id": "SRC090",
+    "domain": "arrest",
+    "source_form": "ZH_ACTIVE",
+    "language": "ZH",
+    "pair_indices": [
+      0,
+      1
+    ],
+    "pair_names": [
+      "青木",
+      "森田"
+    ],
+    "fact": "NO",
+    "source_text": "R1：青木没有逮捕森田。",
+    "role_keys": [
+      "arrester",
+      "arrestee"
+    ],
+    "role_definitions": "arrester是实施逮捕的人，arrestee是被逮捕的人。",
+    "reference_values": {
+      "occurred": "NO",
+      "role_a": "青木",
+      "role_b": "森田"
+    },
+    "identity": "AUTHOR_AI_NEW_TEMPLATE_NOT_INDEPENDENT_HUMAN_GOLD",
+    "derivation": "New event template with balanced directed name substitutions, frozen before B14 outputs"
+  },
+  {
+    "source_id": "SRC091",
+    "domain": "arrest",
+    "source_form": "ZH_ACTIVE",
+    "language": "ZH",
+    "pair_indices": [
+      1,
+      0
+    ],
+    "pair_names": [
+      "森田",
+      "青木"
+    ],
+    "fact": "YES",
+    "source_text": "R1：森田逮捕了青木。",
+    "role_keys": [
+      "arrester",
+      "arrestee"
+    ],
+    "role_definitions": "arrester是实施逮捕的人，arrestee是被逮捕的人。",
+    "reference_values": {
+      "occurred": "YES",
+      "role_a": "森田",
+      "role_b": "青木"
+    },
+    "identity": "AUTHOR_AI_NEW_TEMPLATE_NOT_INDEPENDENT_HUMAN_GOLD",
+    "derivation": "New event template with balanced directed name substitutions, frozen before B14 outputs"
+  },
+  {
+    "source_id": "SRC092",
+    "domain": "arrest",
+    "source_form": "ZH_ACTIVE",
+    "language": "ZH",
+    "pair_indices": [
+      1,
+      0
+    ],
+    "pair_names": [
+      "森田",
+      "青木"
+    ],
+    "fact": "NO",
+    "source_text": "R1：森田没有逮捕青木。",
+    "role_keys": [
+      "arrester",
+      "arrestee"
+    ],
+    "role_definitions": "arrester是实施逮捕的人，arrestee是被逮捕的人。",
+    "reference_values": {
+      "occurred": "NO",
+      "role_a": "森田",
+      "role_b": "青木"
+    },
+    "identity": "AUTHOR_AI_NEW_TEMPLATE_NOT_INDEPENDENT_HUMAN_GOLD",
+    "derivation": "New event template with balanced directed name substitutions, frozen before B14 outputs"
+  },
+  {
+    "source_id": "SRC093",
+    "domain": "arrest",
+    "source_form": "ZH_ACTIVE",
+    "language": "ZH",
+    "pair_indices": [
+      2,
+      3
+    ],
+    "pair_names": [
+      "小川",
+      "上田"
+    ],
+    "fact": "YES",
+    "source_text": "R1：小川逮捕了上田。",
+    "role_keys": [
+      "arrester",
+      "arrestee"
+    ],
+    "role_definitions": "arrester是实施逮捕的人，arrestee是被逮捕的人。",
+    "reference_values": {
+      "occurred": "YES",
+      "role_a": "小川",
+      "role_b": "上田"
+    },
+    "identity": "AUTHOR_AI_NEW_TEMPLATE_NOT_INDEPENDENT_HUMAN_GOLD",
+    "derivation": "New event template with balanced directed name substitutions, frozen before B14 outputs"
+  },
+  {
+    "source_id": "SRC094",
+    "domain": "arrest",
+    "source_form": "ZH_ACTIVE",
+    "language": "ZH",
+    "pair_indices": [
+      2,
+      3
+    ],
+    "pair_names": [
+      "小川",
+      "上田"
+    ],
+    "fact": "NO",
+    "source_text": "R1：小川没有逮捕上田。",
+    "role_keys": [
+      "arrester",
+      "arrestee"
+    ],
+    "role_definitions": "arrester是实施逮捕的人，arrestee是被逮捕的人。",
+    "reference_values": {
+      "occurred": "NO",
+      "role_a": "小川",
+      "role_b": "上田"
+    },
+    "identity": "AUTHOR_AI_NEW_TEMPLATE_NOT_INDEPENDENT_HUMAN_GOLD",
+    "derivation": "New event template with balanced directed name substitutions, frozen before B14 outputs"
+  },
+  {
+    "source_id": "SRC095",
+    "domain": "arrest",
+    "source_form": "ZH_ACTIVE",
+    "language": "ZH",
+    "pair_indices": [
+      3,
+      2
+    ],
+    "pair_names": [
+      "上田",
+      "小川"
+    ],
+    "fact": "YES",
+    "source_text": "R1：上田逮捕了小川。",
+    "role_keys": [
+      "arrester",
+      "arrestee"
+    ],
+    "role_definitions": "arrester是实施逮捕的人，arrestee是被逮捕的人。",
+    "reference_values": {
+      "occurred": "YES",
+      "role_a": "上田",
+      "role_b": "小川"
+    },
+    "identity": "AUTHOR_AI_NEW_TEMPLATE_NOT_INDEPENDENT_HUMAN_GOLD",
+    "derivation": "New event template with balanced directed name substitutions, frozen before B14 outputs"
+  },
+  {
+    "source_id": "SRC096",
+    "domain": "arrest",
+    "source_form": "ZH_ACTIVE",
+    "language": "ZH",
+    "pair_indices": [
+      3,
+      2
+    ],
+    "pair_names": [
+      "上田",
+      "小川"
+    ],
+    "fact": "NO",
+    "source_text": "R1：上田没有逮捕小川。",
+    "role_keys": [
+      "arrester",
+      "arrestee"
+    ],
+    "role_definitions": "arrester是实施逮捕的人，arrestee是被逮捕的人。",
+    "reference_values": {
+      "occurred": "NO",
+      "role_a": "上田",
+      "role_b": "小川"
+    },
+    "identity": "AUTHOR_AI_NEW_TEMPLATE_NOT_INDEPENDENT_HUMAN_GOLD",
+    "derivation": "New event template with balanced directed name substitutions, frozen before B14 outputs"
+  }
+]

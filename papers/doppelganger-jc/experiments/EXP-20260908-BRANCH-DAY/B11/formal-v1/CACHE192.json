@@ -1,0 +1,6146 @@
+[
+  {
+    "context_call_id": "B11-F01-YES-AB-ACTIVE-LIST12-OPPOSITE_TARGET_FIRST",
+    "single_call_id": "B11-F01-YES-AB-ACTIVE-LIST12-SINGLE",
+    "selected_line": "在这次直播中，贺晨采访了陶然。",
+    "complete_message_identity": true,
+    "new_calls": 0,
+    "independent_output": false,
+    "actual_single_raw_output_reused": "{\"occurred\":\"YES\",\"interviewer\":\"贺晨\",\"interviewee\":\"陶然\"}",
+    "direct_context_raw_output": "{\"occurred\":\"YES\",\"interviewer\":\"贺晨\",\"interviewee\":\"陶然\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_harm_components": []
+  },
+  {
+    "context_call_id": "B11-F01-YES-AB-ACTIVE-LIST12-OPPOSITE_TARGET_LAST",
+    "single_call_id": "B11-F01-YES-AB-ACTIVE-LIST12-SINGLE",
+    "selected_line": "在这次直播中，贺晨采访了陶然。",
+    "complete_message_identity": true,
+    "new_calls": 0,
+    "independent_output": false,
+    "actual_single_raw_output_reused": "{\"occurred\":\"YES\",\"interviewer\":\"贺晨\",\"interviewee\":\"陶然\"}",
+    "direct_context_raw_output": "{\"occurred\":\"YES\",\"interviewer\":\"贺晨\",\"interviewee\":\"陶然\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_harm_components": []
+  },
+  {
+    "context_call_id": "B11-F01-YES-AB-ACTIVE-LIST21-OPPOSITE_TARGET_FIRST",
+    "single_call_id": "B11-F01-YES-AB-ACTIVE-LIST21-SINGLE",
+    "selected_line": "在这次直播中，贺晨采访了陶然。",
+    "complete_message_identity": true,
+    "new_calls": 0,
+    "independent_output": false,
+    "actual_single_raw_output_reused": "{\"occurred\":\"YES\",\"interviewer\":\"贺晨\",\"interviewee\":\"陶然\"}",
+    "direct_context_raw_output": "{\"occurred\":\"YES\",\"interviewer\":\"贺晨\",\"interviewee\":\"陶然\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_harm_components": []
+  },
+  {
+    "context_call_id": "B11-F01-YES-AB-ACTIVE-LIST21-OPPOSITE_TARGET_LAST",
+    "single_call_id": "B11-F01-YES-AB-ACTIVE-LIST21-SINGLE",
+    "selected_line": "在这次直播中，贺晨采访了陶然。",
+    "complete_message_identity": true,
+    "new_calls": 0,
+    "independent_output": false,
+    "actual_single_raw_output_reused": "{\"occurred\":\"YES\",\"interviewer\":\"贺晨\",\"interviewee\":\"陶然\"}",
+    "direct_context_raw_output": "{\"occurred\":\"YES\",\"interviewer\":\"贺晨\",\"interviewee\":\"陶然\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_harm_components": []
+  },
+  {
+    "context_call_id": "B11-F01-YES-AB-PASSIVE-LIST12-OPPOSITE_TARGET_FIRST",
+    "single_call_id": "B11-F01-YES-AB-PASSIVE-LIST12-SINGLE",
+    "selected_line": "在这次直播中，陶然被贺晨采访了。",
+    "complete_message_identity": true,
+    "new_calls": 0,
+    "independent_output": false,
+    "actual_single_raw_output_reused": "{\"occurred\":\"YES\",\"interviewer\":\"贺晨\",\"interviewee\":\"陶然\"}",
+    "direct_context_raw_output": "{\"occurred\":\"YES\",\"interviewer\":\"贺晨\",\"interviewee\":\"陶然\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_harm_components": []
+  },
+  {
+    "context_call_id": "B11-F01-YES-AB-PASSIVE-LIST12-OPPOSITE_TARGET_LAST",
+    "single_call_id": "B11-F01-YES-AB-PASSIVE-LIST12-SINGLE",
+    "selected_line": "在这次直播中，陶然被贺晨采访了。",
+    "complete_message_identity": true,
+    "new_calls": 0,
+    "independent_output": false,
+    "actual_single_raw_output_reused": "{\"occurred\":\"YES\",\"interviewer\":\"贺晨\",\"interviewee\":\"陶然\"}",
+    "direct_context_raw_output": "{\"occurred\":\"YES\",\"interviewer\":\"贺晨\",\"interviewee\":\"陶然\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_harm_components": []
+  },
+  {
+    "context_call_id": "B11-F01-YES-AB-PASSIVE-LIST21-OPPOSITE_TARGET_FIRST",
+    "single_call_id": "B11-F01-YES-AB-PASSIVE-LIST21-SINGLE",
+    "selected_line": "在这次直播中，陶然被贺晨采访了。",
+    "complete_message_identity": true,
+    "new_calls": 0,
+    "independent_output": false,
+    "actual_single_raw_output_reused": "{\"occurred\":\"YES\",\"interviewer\":\"贺晨\",\"interviewee\":\"陶然\"}",
+    "direct_context_raw_output": "{\"occurred\":\"YES\",\"interviewer\":\"陶然\",\"interviewee\":\"贺晨\"}",
+    "direct_labels": {
+      "role_a": "W",
+      "role_b": "W",
+      "occurrence": "C",
+      "participant": "W",
+      "record": "W"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "W->C",
+      "role_b": "W->C",
+      "occurrence": "C->C",
+      "participant": "W->C",
+      "record": "W->C"
+    },
+    "new_harm_components": []
+  },
+  {
+    "context_call_id": "B11-F01-YES-AB-PASSIVE-LIST21-OPPOSITE_TARGET_LAST",
+    "single_call_id": "B11-F01-YES-AB-PASSIVE-LIST21-SINGLE",
+    "selected_line": "在这次直播中，陶然被贺晨采访了。",
+    "complete_message_identity": true,
+    "new_calls": 0,
+    "independent_output": false,
+    "actual_single_raw_output_reused": "{\"occurred\":\"YES\",\"interviewer\":\"贺晨\",\"interviewee\":\"陶然\"}",
+    "direct_context_raw_output": "{\"occurred\":\"YES\",\"interviewer\":\"陶然\",\"interviewee\":\"贺晨\"}",
+    "direct_labels": {
+      "role_a": "W",
+      "role_b": "W",
+      "occurrence": "C",
+      "participant": "W",
+      "record": "W"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "W->C",
+      "role_b": "W->C",
+      "occurrence": "C->C",
+      "participant": "W->C",
+      "record": "W->C"
+    },
+    "new_harm_components": []
+  },
+  {
+    "context_call_id": "B11-F01-YES-BA-ACTIVE-LIST12-OPPOSITE_TARGET_LAST",
+    "single_call_id": "B11-F01-YES-BA-ACTIVE-LIST12-SINGLE",
+    "selected_line": "在这次直播中，陶然采访了贺晨。",
+    "complete_message_identity": true,
+    "new_calls": 0,
+    "independent_output": false,
+    "actual_single_raw_output_reused": "{\"occurred\":\"YES\",\"interviewer\":\"陶然\",\"interviewee\":\"贺晨\"}",
+    "direct_context_raw_output": "{\"occurred\":\"YES\",\"interviewer\":\"陶然\",\"interviewee\":\"贺晨\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_harm_components": []
+  },
+  {
+    "context_call_id": "B11-F01-YES-BA-ACTIVE-LIST21-OPPOSITE_TARGET_FIRST",
+    "single_call_id": "B11-F01-YES-BA-ACTIVE-LIST21-SINGLE",
+    "selected_line": "在这次直播中，陶然采访了贺晨。",
+    "complete_message_identity": true,
+    "new_calls": 0,
+    "independent_output": false,
+    "actual_single_raw_output_reused": "{\"occurred\":\"YES\",\"interviewer\":\"陶然\",\"interviewee\":\"贺晨\"}",
+    "direct_context_raw_output": "{\"occurred\":\"YES\",\"interviewer\":\"陶然\",\"interviewee\":\"贺晨\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_harm_components": []
+  },
+  {
+    "context_call_id": "B11-F01-YES-BA-ACTIVE-LIST21-OPPOSITE_TARGET_LAST",
+    "single_call_id": "B11-F01-YES-BA-ACTIVE-LIST21-SINGLE",
+    "selected_line": "在这次直播中，陶然采访了贺晨。",
+    "complete_message_identity": true,
+    "new_calls": 0,
+    "independent_output": false,
+    "actual_single_raw_output_reused": "{\"occurred\":\"YES\",\"interviewer\":\"陶然\",\"interviewee\":\"贺晨\"}",
+    "direct_context_raw_output": "{\"occurred\":\"YES\",\"interviewer\":\"陶然\",\"interviewee\":\"贺晨\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_harm_components": []
+  },
+  {
+    "context_call_id": "B11-F01-YES-BA-ACTIVE-LIST12-OPPOSITE_TARGET_FIRST",
+    "single_call_id": "B11-F01-YES-BA-ACTIVE-LIST12-SINGLE",
+    "selected_line": "在这次直播中，陶然采访了贺晨。",
+    "complete_message_identity": true,
+    "new_calls": 0,
+    "independent_output": false,
+    "actual_single_raw_output_reused": "{\"occurred\":\"YES\",\"interviewer\":\"陶然\",\"interviewee\":\"贺晨\"}",
+    "direct_context_raw_output": "{\"occurred\":\"YES\",\"interviewer\":\"贺晨\",\"interviewee\":\"陶然\"}",
+    "direct_labels": {
+      "role_a": "W",
+      "role_b": "W",
+      "occurrence": "C",
+      "participant": "W",
+      "record": "W"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "W->C",
+      "role_b": "W->C",
+      "occurrence": "C->C",
+      "participant": "W->C",
+      "record": "W->C"
+    },
+    "new_harm_components": []
+  },
+  {
+    "context_call_id": "B11-F01-YES-BA-PASSIVE-LIST21-OPPOSITE_TARGET_FIRST",
+    "single_call_id": "B11-F01-YES-BA-PASSIVE-LIST21-SINGLE",
+    "selected_line": "在这次直播中，贺晨被陶然采访了。",
+    "complete_message_identity": true,
+    "new_calls": 0,
+    "independent_output": false,
+    "actual_single_raw_output_reused": "{\"occurred\":\"YES\",\"interviewer\":\"陶然\",\"interviewee\":\"贺晨\"}",
+    "direct_context_raw_output": "{\"occurred\":\"YES\",\"interviewer\":\"贺晨\",\"interviewee\":\"陶然\"}",
+    "direct_labels": {
+      "role_a": "W",
+      "role_b": "W",
+      "occurrence": "C",
+      "participant": "W",
+      "record": "W"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "W->C",
+      "role_b": "W->C",
+      "occurrence": "C->C",
+      "participant": "W->C",
+      "record": "W->C"
+    },
+    "new_harm_components": []
+  },
+  {
+    "context_call_id": "B11-F01-YES-BA-PASSIVE-LIST21-OPPOSITE_TARGET_LAST",
+    "single_call_id": "B11-F01-YES-BA-PASSIVE-LIST21-SINGLE",
+    "selected_line": "在这次直播中，贺晨被陶然采访了。",
+    "complete_message_identity": true,
+    "new_calls": 0,
+    "independent_output": false,
+    "actual_single_raw_output_reused": "{\"occurred\":\"YES\",\"interviewer\":\"陶然\",\"interviewee\":\"贺晨\"}",
+    "direct_context_raw_output": "{\"occurred\":\"YES\",\"interviewer\":\"贺晨\",\"interviewee\":\"陶然\"}",
+    "direct_labels": {
+      "role_a": "W",
+      "role_b": "W",
+      "occurrence": "C",
+      "participant": "W",
+      "record": "W"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "W->C",
+      "role_b": "W->C",
+      "occurrence": "C->C",
+      "participant": "W->C",
+      "record": "W->C"
+    },
+    "new_harm_components": []
+  },
+  {
+    "context_call_id": "B11-F01-YES-BA-PASSIVE-LIST12-OPPOSITE_TARGET_FIRST",
+    "single_call_id": "B11-F01-YES-BA-PASSIVE-LIST12-SINGLE",
+    "selected_line": "在这次直播中，贺晨被陶然采访了。",
+    "complete_message_identity": true,
+    "new_calls": 0,
+    "independent_output": false,
+    "actual_single_raw_output_reused": "{\"occurred\":\"YES\",\"interviewer\":\"陶然\",\"interviewee\":\"贺晨\"}",
+    "direct_context_raw_output": "{\"occurred\":\"YES\",\"interviewer\":\"贺晨\",\"interviewee\":\"陶然\"}",
+    "direct_labels": {
+      "role_a": "W",
+      "role_b": "W",
+      "occurrence": "C",
+      "participant": "W",
+      "record": "W"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "W->C",
+      "role_b": "W->C",
+      "occurrence": "C->C",
+      "participant": "W->C",
+      "record": "W->C"
+    },
+    "new_harm_components": []
+  },
+  {
+    "context_call_id": "B11-F01-YES-BA-PASSIVE-LIST12-OPPOSITE_TARGET_LAST",
+    "single_call_id": "B11-F01-YES-BA-PASSIVE-LIST12-SINGLE",
+    "selected_line": "在这次直播中，贺晨被陶然采访了。",
+    "complete_message_identity": true,
+    "new_calls": 0,
+    "independent_output": false,
+    "actual_single_raw_output_reused": "{\"occurred\":\"YES\",\"interviewer\":\"陶然\",\"interviewee\":\"贺晨\"}",
+    "direct_context_raw_output": "{\"occurred\":\"YES\",\"interviewer\":\"贺晨\",\"interviewee\":\"陶然\"}",
+    "direct_labels": {
+      "role_a": "W",
+      "role_b": "W",
+      "occurrence": "C",
+      "participant": "W",
+      "record": "W"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "W->C",
+      "role_b": "W->C",
+      "occurrence": "C->C",
+      "participant": "W->C",
+      "record": "W->C"
+    },
+    "new_harm_components": []
+  },
+  {
+    "context_call_id": "B11-F01-NO-AB-ACTIVE-LIST21-OPPOSITE_TARGET_FIRST",
+    "single_call_id": "B11-F01-NO-AB-ACTIVE-LIST21-SINGLE",
+    "selected_line": "在这次直播中，贺晨没有采访陶然。",
+    "complete_message_identity": true,
+    "new_calls": 0,
+    "independent_output": false,
+    "actual_single_raw_output_reused": "{\"occurred\":\"NO\",\"interviewer\":\"贺晨\",\"interviewee\":\"陶然\"}",
+    "direct_context_raw_output": "{\"occurred\":\"NO\",\"interviewer\":\"陶然\",\"interviewee\":\"贺晨\"}",
+    "direct_labels": {
+      "role_a": "W",
+      "role_b": "W",
+      "occurrence": "C",
+      "participant": "W",
+      "record": "W"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "W->C",
+      "role_b": "W->C",
+      "occurrence": "C->C",
+      "participant": "W->C",
+      "record": "W->C"
+    },
+    "new_harm_components": []
+  },
+  {
+    "context_call_id": "B11-F01-NO-AB-ACTIVE-LIST21-OPPOSITE_TARGET_LAST",
+    "single_call_id": "B11-F01-NO-AB-ACTIVE-LIST21-SINGLE",
+    "selected_line": "在这次直播中，贺晨没有采访陶然。",
+    "complete_message_identity": true,
+    "new_calls": 0,
+    "independent_output": false,
+    "actual_single_raw_output_reused": "{\"occurred\":\"NO\",\"interviewer\":\"贺晨\",\"interviewee\":\"陶然\"}",
+    "direct_context_raw_output": "{\"occurred\":\"NO\",\"interviewer\":null,\"interviewee\":null}",
+    "direct_labels": {
+      "role_a": "U",
+      "role_b": "U",
+      "occurrence": "C",
+      "participant": "U",
+      "record": "U"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "U->C",
+      "role_b": "U->C",
+      "occurrence": "C->C",
+      "participant": "U->C",
+      "record": "U->C"
+    },
+    "new_harm_components": []
+  },
+  {
+    "context_call_id": "B11-F01-NO-AB-ACTIVE-LIST12-OPPOSITE_TARGET_FIRST",
+    "single_call_id": "B11-F01-NO-AB-ACTIVE-LIST12-SINGLE",
+    "selected_line": "在这次直播中，贺晨没有采访陶然。",
+    "complete_message_identity": true,
+    "new_calls": 0,
+    "independent_output": false,
+    "actual_single_raw_output_reused": "{\"occurred\":\"NO\",\"interviewer\":\"贺晨\",\"interviewee\":\"陶然\"}",
+    "direct_context_raw_output": "{\"occurred\":\"NO\",\"interviewer\":null,\"interviewee\":null}",
+    "direct_labels": {
+      "role_a": "U",
+      "role_b": "U",
+      "occurrence": "C",
+      "participant": "U",
+      "record": "U"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "U->C",
+      "role_b": "U->C",
+      "occurrence": "C->C",
+      "participant": "U->C",
+      "record": "U->C"
+    },
+    "new_harm_components": []
+  },
+  {
+    "context_call_id": "B11-F01-NO-AB-ACTIVE-LIST12-OPPOSITE_TARGET_LAST",
+    "single_call_id": "B11-F01-NO-AB-ACTIVE-LIST12-SINGLE",
+    "selected_line": "在这次直播中，贺晨没有采访陶然。",
+    "complete_message_identity": true,
+    "new_calls": 0,
+    "independent_output": false,
+    "actual_single_raw_output_reused": "{\"occurred\":\"NO\",\"interviewer\":\"贺晨\",\"interviewee\":\"陶然\"}",
+    "direct_context_raw_output": "{\"occurred\":\"NO\",\"interviewer\":null,\"interviewee\":null}",
+    "direct_labels": {
+      "role_a": "U",
+      "role_b": "U",
+      "occurrence": "C",
+      "participant": "U",
+      "record": "U"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "U->C",
+      "role_b": "U->C",
+      "occurrence": "C->C",
+      "participant": "U->C",
+      "record": "U->C"
+    },
+    "new_harm_components": []
+  },
+  {
+    "context_call_id": "B11-F01-NO-AB-PASSIVE-LIST21-OPPOSITE_TARGET_LAST",
+    "single_call_id": "B11-F01-NO-AB-PASSIVE-LIST21-SINGLE",
+    "selected_line": "在这次直播中，陶然没有被贺晨采访。",
+    "complete_message_identity": true,
+    "new_calls": 0,
+    "independent_output": false,
+    "actual_single_raw_output_reused": "{\"occurred\":\"NO\",\"interviewer\":\"贺晨\",\"interviewee\":\"陶然\"}",
+    "direct_context_raw_output": "{\"occurred\":\"NO\",\"interviewer\":\"陶然\",\"interviewee\":\"贺晨\"}",
+    "direct_labels": {
+      "role_a": "W",
+      "role_b": "W",
+      "occurrence": "C",
+      "participant": "W",
+      "record": "W"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "W->C",
+      "role_b": "W->C",
+      "occurrence": "C->C",
+      "participant": "W->C",
+      "record": "W->C"
+    },
+    "new_harm_components": []
+  },
+  {
+    "context_call_id": "B11-F01-NO-AB-PASSIVE-LIST12-OPPOSITE_TARGET_FIRST",
+    "single_call_id": "B11-F01-NO-AB-PASSIVE-LIST12-SINGLE",
+    "selected_line": "在这次直播中，陶然没有被贺晨采访。",
+    "complete_message_identity": true,
+    "new_calls": 0,
+    "independent_output": false,
+    "actual_single_raw_output_reused": "{\"occurred\":\"NO\",\"interviewer\":\"贺晨\",\"interviewee\":\"陶然\"}",
+    "direct_context_raw_output": "{\"occurred\":\"NO\",\"interviewer\":\"陶然\",\"interviewee\":\"贺晨\"}",
+    "direct_labels": {
+      "role_a": "W",
+      "role_b": "W",
+      "occurrence": "C",
+      "participant": "W",
+      "record": "W"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "W->C",
+      "role_b": "W->C",
+      "occurrence": "C->C",
+      "participant": "W->C",
+      "record": "W->C"
+    },
+    "new_harm_components": []
+  },
+  {
+    "context_call_id": "B11-F01-NO-AB-PASSIVE-LIST12-OPPOSITE_TARGET_LAST",
+    "single_call_id": "B11-F01-NO-AB-PASSIVE-LIST12-SINGLE",
+    "selected_line": "在这次直播中，陶然没有被贺晨采访。",
+    "complete_message_identity": true,
+    "new_calls": 0,
+    "independent_output": false,
+    "actual_single_raw_output_reused": "{\"occurred\":\"NO\",\"interviewer\":\"贺晨\",\"interviewee\":\"陶然\"}",
+    "direct_context_raw_output": "{\"occurred\":\"NO\",\"interviewer\":\"陶然\",\"interviewee\":\"贺晨\"}",
+    "direct_labels": {
+      "role_a": "W",
+      "role_b": "W",
+      "occurrence": "C",
+      "participant": "W",
+      "record": "W"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "W->C",
+      "role_b": "W->C",
+      "occurrence": "C->C",
+      "participant": "W->C",
+      "record": "W->C"
+    },
+    "new_harm_components": []
+  },
+  {
+    "context_call_id": "B11-F01-NO-AB-PASSIVE-LIST21-OPPOSITE_TARGET_FIRST",
+    "single_call_id": "B11-F01-NO-AB-PASSIVE-LIST21-SINGLE",
+    "selected_line": "在这次直播中，陶然没有被贺晨采访。",
+    "complete_message_identity": true,
+    "new_calls": 0,
+    "independent_output": false,
+    "actual_single_raw_output_reused": "{\"occurred\":\"NO\",\"interviewer\":\"贺晨\",\"interviewee\":\"陶然\"}",
+    "direct_context_raw_output": "{\"occurred\":\"NO\",\"interviewer\":\"陶然\",\"interviewee\":\"贺晨\"}",
+    "direct_labels": {
+      "role_a": "W",
+      "role_b": "W",
+      "occurrence": "C",
+      "participant": "W",
+      "record": "W"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "W->C",
+      "role_b": "W->C",
+      "occurrence": "C->C",
+      "participant": "W->C",
+      "record": "W->C"
+    },
+    "new_harm_components": []
+  },
+  {
+    "context_call_id": "B11-F01-NO-BA-ACTIVE-LIST12-OPPOSITE_TARGET_FIRST",
+    "single_call_id": "B11-F01-NO-BA-ACTIVE-LIST12-SINGLE",
+    "selected_line": "在这次直播中，陶然没有采访贺晨。",
+    "complete_message_identity": true,
+    "new_calls": 0,
+    "independent_output": false,
+    "actual_single_raw_output_reused": "{\"occurred\":\"NO\",\"interviewer\":\"陶然\",\"interviewee\":\"贺晨\"}",
+    "direct_context_raw_output": "{\"occurred\":\"NO\",\"interviewer\":null,\"interviewee\":null}",
+    "direct_labels": {
+      "role_a": "U",
+      "role_b": "U",
+      "occurrence": "C",
+      "participant": "U",
+      "record": "U"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "U->C",
+      "role_b": "U->C",
+      "occurrence": "C->C",
+      "participant": "U->C",
+      "record": "U->C"
+    },
+    "new_harm_components": []
+  },
+  {
+    "context_call_id": "B11-F01-NO-BA-ACTIVE-LIST12-OPPOSITE_TARGET_LAST",
+    "single_call_id": "B11-F01-NO-BA-ACTIVE-LIST12-SINGLE",
+    "selected_line": "在这次直播中，陶然没有采访贺晨。",
+    "complete_message_identity": true,
+    "new_calls": 0,
+    "independent_output": false,
+    "actual_single_raw_output_reused": "{\"occurred\":\"NO\",\"interviewer\":\"陶然\",\"interviewee\":\"贺晨\"}",
+    "direct_context_raw_output": "{\"occurred\":\"NO\",\"interviewer\":null,\"interviewee\":null}",
+    "direct_labels": {
+      "role_a": "U",
+      "role_b": "U",
+      "occurrence": "C",
+      "participant": "U",
+      "record": "U"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "U->C",
+      "role_b": "U->C",
+      "occurrence": "C->C",
+      "participant": "U->C",
+      "record": "U->C"
+    },
+    "new_harm_components": []
+  },
+  {
+    "context_call_id": "B11-F01-NO-BA-ACTIVE-LIST21-OPPOSITE_TARGET_FIRST",
+    "single_call_id": "B11-F01-NO-BA-ACTIVE-LIST21-SINGLE",
+    "selected_line": "在这次直播中，陶然没有采访贺晨。",
+    "complete_message_identity": true,
+    "new_calls": 0,
+    "independent_output": false,
+    "actual_single_raw_output_reused": "{\"occurred\":\"NO\",\"interviewer\":\"陶然\",\"interviewee\":\"贺晨\"}",
+    "direct_context_raw_output": "{\"occurred\":\"NO\",\"interviewer\":\"贺晨\",\"interviewee\":\"陶然\"}",
+    "direct_labels": {
+      "role_a": "W",
+      "role_b": "W",
+      "occurrence": "C",
+      "participant": "W",
+      "record": "W"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "W->C",
+      "role_b": "W->C",
+      "occurrence": "C->C",
+      "participant": "W->C",
+      "record": "W->C"
+    },
+    "new_harm_components": []
+  },
+  {
+    "context_call_id": "B11-F01-NO-BA-ACTIVE-LIST21-OPPOSITE_TARGET_LAST",
+    "single_call_id": "B11-F01-NO-BA-ACTIVE-LIST21-SINGLE",
+    "selected_line": "在这次直播中，陶然没有采访贺晨。",
+    "complete_message_identity": true,
+    "new_calls": 0,
+    "independent_output": false,
+    "actual_single_raw_output_reused": "{\"occurred\":\"NO\",\"interviewer\":\"陶然\",\"interviewee\":\"贺晨\"}",
+    "direct_context_raw_output": "{\"occurred\":\"NO\",\"interviewer\":\"贺晨\",\"interviewee\":\"陶然\"}",
+    "direct_labels": {
+      "role_a": "W",
+      "role_b": "W",
+      "occurrence": "C",
+      "participant": "W",
+      "record": "W"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "W->C",
+      "role_b": "W->C",
+      "occurrence": "C->C",
+      "participant": "W->C",
+      "record": "W->C"
+    },
+    "new_harm_components": []
+  },
+  {
+    "context_call_id": "B11-F01-NO-BA-PASSIVE-LIST12-OPPOSITE_TARGET_FIRST",
+    "single_call_id": "B11-F01-NO-BA-PASSIVE-LIST12-SINGLE",
+    "selected_line": "在这次直播中，贺晨没有被陶然采访。",
+    "complete_message_identity": true,
+    "new_calls": 0,
+    "independent_output": false,
+    "actual_single_raw_output_reused": "{\"occurred\":\"NO\",\"interviewer\":\"陶然\",\"interviewee\":\"贺晨\"}",
+    "direct_context_raw_output": "{\"occurred\":\"NO\",\"interviewer\":\"贺晨\",\"interviewee\":\"陶然\"}",
+    "direct_labels": {
+      "role_a": "W",
+      "role_b": "W",
+      "occurrence": "C",
+      "participant": "W",
+      "record": "W"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "W->C",
+      "role_b": "W->C",
+      "occurrence": "C->C",
+      "participant": "W->C",
+      "record": "W->C"
+    },
+    "new_harm_components": []
+  },
+  {
+    "context_call_id": "B11-F01-NO-BA-PASSIVE-LIST12-OPPOSITE_TARGET_LAST",
+    "single_call_id": "B11-F01-NO-BA-PASSIVE-LIST12-SINGLE",
+    "selected_line": "在这次直播中，贺晨没有被陶然采访。",
+    "complete_message_identity": true,
+    "new_calls": 0,
+    "independent_output": false,
+    "actual_single_raw_output_reused": "{\"occurred\":\"NO\",\"interviewer\":\"陶然\",\"interviewee\":\"贺晨\"}",
+    "direct_context_raw_output": "{\"occurred\":\"NO\",\"interviewer\":\"贺晨\",\"interviewee\":\"陶然\"}",
+    "direct_labels": {
+      "role_a": "W",
+      "role_b": "W",
+      "occurrence": "C",
+      "participant": "W",
+      "record": "W"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "W->C",
+      "role_b": "W->C",
+      "occurrence": "C->C",
+      "participant": "W->C",
+      "record": "W->C"
+    },
+    "new_harm_components": []
+  },
+  {
+    "context_call_id": "B11-F01-NO-BA-PASSIVE-LIST21-OPPOSITE_TARGET_FIRST",
+    "single_call_id": "B11-F01-NO-BA-PASSIVE-LIST21-SINGLE",
+    "selected_line": "在这次直播中，贺晨没有被陶然采访。",
+    "complete_message_identity": true,
+    "new_calls": 0,
+    "independent_output": false,
+    "actual_single_raw_output_reused": "{\"occurred\":\"NO\",\"interviewer\":\"陶然\",\"interviewee\":\"贺晨\"}",
+    "direct_context_raw_output": "{\"occurred\":\"NO\",\"interviewer\":\"贺晨\",\"interviewee\":\"陶然\"}",
+    "direct_labels": {
+      "role_a": "W",
+      "role_b": "W",
+      "occurrence": "C",
+      "participant": "W",
+      "record": "W"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "W->C",
+      "role_b": "W->C",
+      "occurrence": "C->C",
+      "participant": "W->C",
+      "record": "W->C"
+    },
+    "new_harm_components": []
+  },
+  {
+    "context_call_id": "B11-F01-NO-BA-PASSIVE-LIST21-OPPOSITE_TARGET_LAST",
+    "single_call_id": "B11-F01-NO-BA-PASSIVE-LIST21-SINGLE",
+    "selected_line": "在这次直播中，贺晨没有被陶然采访。",
+    "complete_message_identity": true,
+    "new_calls": 0,
+    "independent_output": false,
+    "actual_single_raw_output_reused": "{\"occurred\":\"NO\",\"interviewer\":\"陶然\",\"interviewee\":\"贺晨\"}",
+    "direct_context_raw_output": "{\"occurred\":\"NO\",\"interviewer\":\"贺晨\",\"interviewee\":\"陶然\"}",
+    "direct_labels": {
+      "role_a": "W",
+      "role_b": "W",
+      "occurrence": "C",
+      "participant": "W",
+      "record": "W"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "W->C",
+      "role_b": "W->C",
+      "occurrence": "C->C",
+      "participant": "W->C",
+      "record": "W->C"
+    },
+    "new_harm_components": []
+  },
+  {
+    "context_call_id": "B11-F01-UNKNOWN-AB-ACTIVE-LIST12-OPPOSITE_TARGET_LAST",
+    "single_call_id": "B11-F01-UNKNOWN-AB-ACTIVE-LIST12-SINGLE",
+    "selected_line": "在这次直播中，贺晨是否采访了陶然，目前尚无结论。",
+    "complete_message_identity": true,
+    "new_calls": 0,
+    "independent_output": false,
+    "actual_single_raw_output_reused": "{\"occurred\":\"UNKNOWN\",\"interviewer\":\"贺晨\",\"interviewee\":\"陶然\"}",
+    "direct_context_raw_output": "{\"occurred\":\"UNKNOWN\",\"interviewer\":null,\"interviewee\":null}",
+    "direct_labels": {
+      "role_a": "U",
+      "role_b": "U",
+      "occurrence": "C",
+      "participant": "U",
+      "record": "U"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "U->C",
+      "role_b": "U->C",
+      "occurrence": "C->C",
+      "participant": "U->C",
+      "record": "U->C"
+    },
+    "new_harm_components": []
+  },
+  {
+    "context_call_id": "B11-F01-UNKNOWN-AB-ACTIVE-LIST21-OPPOSITE_TARGET_FIRST",
+    "single_call_id": "B11-F01-UNKNOWN-AB-ACTIVE-LIST21-SINGLE",
+    "selected_line": "在这次直播中，贺晨是否采访了陶然，目前尚无结论。",
+    "complete_message_identity": true,
+    "new_calls": 0,
+    "independent_output": false,
+    "actual_single_raw_output_reused": "{\"occurred\":\"UNKNOWN\",\"interviewer\":\"贺晨\",\"interviewee\":\"陶然\"}",
+    "direct_context_raw_output": "{\"occurred\":\"UNKNOWN\",\"interviewer\":\"贺晨\",\"interviewee\":\"陶然\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_harm_components": []
+  },
+  {
+    "context_call_id": "B11-F01-UNKNOWN-AB-ACTIVE-LIST21-OPPOSITE_TARGET_LAST",
+    "single_call_id": "B11-F01-UNKNOWN-AB-ACTIVE-LIST21-SINGLE",
+    "selected_line": "在这次直播中，贺晨是否采访了陶然，目前尚无结论。",
+    "complete_message_identity": true,
+    "new_calls": 0,
+    "independent_output": false,
+    "actual_single_raw_output_reused": "{\"occurred\":\"UNKNOWN\",\"interviewer\":\"贺晨\",\"interviewee\":\"陶然\"}",
+    "direct_context_raw_output": "{\"occurred\":\"UNKNOWN\",\"interviewer\":null,\"interviewee\":null}",
+    "direct_labels": {
+      "role_a": "U",
+      "role_b": "U",
+      "occurrence": "C",
+      "participant": "U",
+      "record": "U"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "U->C",
+      "role_b": "U->C",
+      "occurrence": "C->C",
+      "participant": "U->C",
+      "record": "U->C"
+    },
+    "new_harm_components": []
+  },
+  {
+    "context_call_id": "B11-F01-UNKNOWN-AB-ACTIVE-LIST12-OPPOSITE_TARGET_FIRST",
+    "single_call_id": "B11-F01-UNKNOWN-AB-ACTIVE-LIST12-SINGLE",
+    "selected_line": "在这次直播中，贺晨是否采访了陶然，目前尚无结论。",
+    "complete_message_identity": true,
+    "new_calls": 0,
+    "independent_output": false,
+    "actual_single_raw_output_reused": "{\"occurred\":\"UNKNOWN\",\"interviewer\":\"贺晨\",\"interviewee\":\"陶然\"}",
+    "direct_context_raw_output": "{\"occurred\":\"UNKNOWN\",\"interviewer\":null,\"interviewee\":null}",
+    "direct_labels": {
+      "role_a": "U",
+      "role_b": "U",
+      "occurrence": "C",
+      "participant": "U",
+      "record": "U"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "U->C",
+      "role_b": "U->C",
+      "occurrence": "C->C",
+      "participant": "U->C",
+      "record": "U->C"
+    },
+    "new_harm_components": []
+  },
+  {
+    "context_call_id": "B11-F01-UNKNOWN-AB-PASSIVE-LIST21-OPPOSITE_TARGET_FIRST",
+    "single_call_id": "B11-F01-UNKNOWN-AB-PASSIVE-LIST21-SINGLE",
+    "selected_line": "在这次直播中，陶然是否被贺晨采访了，目前尚无结论。",
+    "complete_message_identity": true,
+    "new_calls": 0,
+    "independent_output": false,
+    "actual_single_raw_output_reused": "{\"occurred\":\"UNKNOWN\",\"interviewer\":\"贺晨\",\"interviewee\":\"陶然\"}",
+    "direct_context_raw_output": "{\"occurred\":\"UNKNOWN\",\"interviewer\":\"陶然\",\"interviewee\":\"贺晨\"}",
+    "direct_labels": {
+      "role_a": "W",
+      "role_b": "W",
+      "occurrence": "C",
+      "participant": "W",
+      "record": "W"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "W->C",
+      "role_b": "W->C",
+      "occurrence": "C->C",
+      "participant": "W->C",
+      "record": "W->C"
+    },
+    "new_harm_components": []
+  },
+  {
+    "context_call_id": "B11-F01-UNKNOWN-AB-PASSIVE-LIST21-OPPOSITE_TARGET_LAST",
+    "single_call_id": "B11-F01-UNKNOWN-AB-PASSIVE-LIST21-SINGLE",
+    "selected_line": "在这次直播中，陶然是否被贺晨采访了，目前尚无结论。",
+    "complete_message_identity": true,
+    "new_calls": 0,
+    "independent_output": false,
+    "actual_single_raw_output_reused": "{\"occurred\":\"UNKNOWN\",\"interviewer\":\"贺晨\",\"interviewee\":\"陶然\"}",
+    "direct_context_raw_output": "{\"occurred\":\"UNKNOWN\",\"interviewer\":\"陶然\",\"interviewee\":\"贺晨\"}",
+    "direct_labels": {
+      "role_a": "W",
+      "role_b": "W",
+      "occurrence": "C",
+      "participant": "W",
+      "record": "W"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "W->C",
+      "role_b": "W->C",
+      "occurrence": "C->C",
+      "participant": "W->C",
+      "record": "W->C"
+    },
+    "new_harm_components": []
+  },
+  {
+    "context_call_id": "B11-F01-UNKNOWN-AB-PASSIVE-LIST12-OPPOSITE_TARGET_FIRST",
+    "single_call_id": "B11-F01-UNKNOWN-AB-PASSIVE-LIST12-SINGLE",
+    "selected_line": "在这次直播中，陶然是否被贺晨采访了，目前尚无结论。",
+    "complete_message_identity": true,
+    "new_calls": 0,
+    "independent_output": false,
+    "actual_single_raw_output_reused": "{\"occurred\":\"UNKNOWN\",\"interviewer\":\"贺晨\",\"interviewee\":\"陶然\"}",
+    "direct_context_raw_output": "{\"occurred\":\"UNKNOWN\",\"interviewer\":null,\"interviewee\":null}",
+    "direct_labels": {
+      "role_a": "U",
+      "role_b": "U",
+      "occurrence": "C",
+      "participant": "U",
+      "record": "U"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "U->C",
+      "role_b": "U->C",
+      "occurrence": "C->C",
+      "participant": "U->C",
+      "record": "U->C"
+    },
+    "new_harm_components": []
+  },
+  {
+    "context_call_id": "B11-F01-UNKNOWN-AB-PASSIVE-LIST12-OPPOSITE_TARGET_LAST",
+    "single_call_id": "B11-F01-UNKNOWN-AB-PASSIVE-LIST12-SINGLE",
+    "selected_line": "在这次直播中，陶然是否被贺晨采访了，目前尚无结论。",
+    "complete_message_identity": true,
+    "new_calls": 0,
+    "independent_output": false,
+    "actual_single_raw_output_reused": "{\"occurred\":\"UNKNOWN\",\"interviewer\":\"贺晨\",\"interviewee\":\"陶然\"}",
+    "direct_context_raw_output": "{\"occurred\":\"UNKNOWN\",\"interviewer\":\"陶然\",\"interviewee\":\"贺晨\"}",
+    "direct_labels": {
+      "role_a": "W",
+      "role_b": "W",
+      "occurrence": "C",
+      "participant": "W",
+      "record": "W"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "W->C",
+      "role_b": "W->C",
+      "occurrence": "C->C",
+      "participant": "W->C",
+      "record": "W->C"
+    },
+    "new_harm_components": []
+  },
+  {
+    "context_call_id": "B11-F01-UNKNOWN-BA-ACTIVE-LIST21-OPPOSITE_TARGET_FIRST",
+    "single_call_id": "B11-F01-UNKNOWN-BA-ACTIVE-LIST21-SINGLE",
+    "selected_line": "在这次直播中，陶然是否采访了贺晨，目前尚无结论。",
+    "complete_message_identity": true,
+    "new_calls": 0,
+    "independent_output": false,
+    "actual_single_raw_output_reused": "{\"occurred\":\"UNKNOWN\",\"interviewer\":\"陶然\",\"interviewee\":\"贺晨\"}",
+    "direct_context_raw_output": "{\"occurred\":\"UNKNOWN\",\"interviewer\":null,\"interviewee\":null}",
+    "direct_labels": {
+      "role_a": "U",
+      "role_b": "U",
+      "occurrence": "C",
+      "participant": "U",
+      "record": "U"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "U->C",
+      "role_b": "U->C",
+      "occurrence": "C->C",
+      "participant": "U->C",
+      "record": "U->C"
+    },
+    "new_harm_components": []
+  },
+  {
+    "context_call_id": "B11-F01-UNKNOWN-BA-ACTIVE-LIST21-OPPOSITE_TARGET_LAST",
+    "single_call_id": "B11-F01-UNKNOWN-BA-ACTIVE-LIST21-SINGLE",
+    "selected_line": "在这次直播中，陶然是否采访了贺晨，目前尚无结论。",
+    "complete_message_identity": true,
+    "new_calls": 0,
+    "independent_output": false,
+    "actual_single_raw_output_reused": "{\"occurred\":\"UNKNOWN\",\"interviewer\":\"陶然\",\"interviewee\":\"贺晨\"}",
+    "direct_context_raw_output": "{\"occurred\":\"UNKNOWN\",\"interviewer\":null,\"interviewee\":null}",
+    "direct_labels": {
+      "role_a": "U",
+      "role_b": "U",
+      "occurrence": "C",
+      "participant": "U",
+      "record": "U"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "U->C",
+      "role_b": "U->C",
+      "occurrence": "C->C",
+      "participant": "U->C",
+      "record": "U->C"
+    },
+    "new_harm_components": []
+  },
+  {
+    "context_call_id": "B11-F01-UNKNOWN-BA-ACTIVE-LIST12-OPPOSITE_TARGET_FIRST",
+    "single_call_id": "B11-F01-UNKNOWN-BA-ACTIVE-LIST12-SINGLE",
+    "selected_line": "在这次直播中，陶然是否采访了贺晨，目前尚无结论。",
+    "complete_message_identity": true,
+    "new_calls": 0,
+    "independent_output": false,
+    "actual_single_raw_output_reused": "{\"occurred\":\"UNKNOWN\",\"interviewer\":\"陶然\",\"interviewee\":\"贺晨\"}",
+    "direct_context_raw_output": "{\"occurred\":\"UNKNOWN\",\"interviewer\":null,\"interviewee\":null}",
+    "direct_labels": {
+      "role_a": "U",
+      "role_b": "U",
+      "occurrence": "C",
+      "participant": "U",
+      "record": "U"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "U->C",
+      "role_b": "U->C",
+      "occurrence": "C->C",
+      "participant": "U->C",
+      "record": "U->C"
+    },
+    "new_harm_components": []
+  },
+  {
+    "context_call_id": "B11-F01-UNKNOWN-BA-ACTIVE-LIST12-OPPOSITE_TARGET_LAST",
+    "single_call_id": "B11-F01-UNKNOWN-BA-ACTIVE-LIST12-SINGLE",
+    "selected_line": "在这次直播中，陶然是否采访了贺晨，目前尚无结论。",
+    "complete_message_identity": true,
+    "new_calls": 0,
+    "independent_output": false,
+    "actual_single_raw_output_reused": "{\"occurred\":\"UNKNOWN\",\"interviewer\":\"陶然\",\"interviewee\":\"贺晨\"}",
+    "direct_context_raw_output": "{\"occurred\":\"UNKNOWN\",\"interviewer\":null,\"interviewee\":null}",
+    "direct_labels": {
+      "role_a": "U",
+      "role_b": "U",
+      "occurrence": "C",
+      "participant": "U",
+      "record": "U"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "U->C",
+      "role_b": "U->C",
+      "occurrence": "C->C",
+      "participant": "U->C",
+      "record": "U->C"
+    },
+    "new_harm_components": []
+  },
+  {
+    "context_call_id": "B11-F01-UNKNOWN-BA-PASSIVE-LIST21-OPPOSITE_TARGET_LAST",
+    "single_call_id": "B11-F01-UNKNOWN-BA-PASSIVE-LIST21-SINGLE",
+    "selected_line": "在这次直播中，贺晨是否被陶然采访了，目前尚无结论。",
+    "complete_message_identity": true,
+    "new_calls": 0,
+    "independent_output": false,
+    "actual_single_raw_output_reused": "{\"occurred\":\"UNKNOWN\",\"interviewer\":\"陶然\",\"interviewee\":\"贺晨\"}",
+    "direct_context_raw_output": "{\"occurred\":\"UNKNOWN\",\"interviewer\":\"贺晨\",\"interviewee\":\"陶然\"}",
+    "direct_labels": {
+      "role_a": "W",
+      "role_b": "W",
+      "occurrence": "C",
+      "participant": "W",
+      "record": "W"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "W->C",
+      "role_b": "W->C",
+      "occurrence": "C->C",
+      "participant": "W->C",
+      "record": "W->C"
+    },
+    "new_harm_components": []
+  },
+  {
+    "context_call_id": "B11-F01-UNKNOWN-BA-PASSIVE-LIST12-OPPOSITE_TARGET_FIRST",
+    "single_call_id": "B11-F01-UNKNOWN-BA-PASSIVE-LIST12-SINGLE",
+    "selected_line": "在这次直播中，贺晨是否被陶然采访了，目前尚无结论。",
+    "complete_message_identity": true,
+    "new_calls": 0,
+    "independent_output": false,
+    "actual_single_raw_output_reused": "{\"occurred\":\"UNKNOWN\",\"interviewer\":\"陶然\",\"interviewee\":\"贺晨\"}",
+    "direct_context_raw_output": "{\"occurred\":\"UNKNOWN\",\"interviewer\":\"贺晨\",\"interviewee\":\"陶然\"}",
+    "direct_labels": {
+      "role_a": "W",
+      "role_b": "W",
+      "occurrence": "C",
+      "participant": "W",
+      "record": "W"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "W->C",
+      "role_b": "W->C",
+      "occurrence": "C->C",
+      "participant": "W->C",
+      "record": "W->C"
+    },
+    "new_harm_components": []
+  },
+  {
+    "context_call_id": "B11-F01-UNKNOWN-BA-PASSIVE-LIST12-OPPOSITE_TARGET_LAST",
+    "single_call_id": "B11-F01-UNKNOWN-BA-PASSIVE-LIST12-SINGLE",
+    "selected_line": "在这次直播中，贺晨是否被陶然采访了，目前尚无结论。",
+    "complete_message_identity": true,
+    "new_calls": 0,
+    "independent_output": false,
+    "actual_single_raw_output_reused": "{\"occurred\":\"UNKNOWN\",\"interviewer\":\"陶然\",\"interviewee\":\"贺晨\"}",
+    "direct_context_raw_output": "{\"occurred\":\"UNKNOWN\",\"interviewer\":\"贺晨\",\"interviewee\":\"陶然\"}",
+    "direct_labels": {
+      "role_a": "W",
+      "role_b": "W",
+      "occurrence": "C",
+      "participant": "W",
+      "record": "W"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "W->C",
+      "role_b": "W->C",
+      "occurrence": "C->C",
+      "participant": "W->C",
+      "record": "W->C"
+    },
+    "new_harm_components": []
+  },
+  {
+    "context_call_id": "B11-F01-UNKNOWN-BA-PASSIVE-LIST21-OPPOSITE_TARGET_FIRST",
+    "single_call_id": "B11-F01-UNKNOWN-BA-PASSIVE-LIST21-SINGLE",
+    "selected_line": "在这次直播中，贺晨是否被陶然采访了，目前尚无结论。",
+    "complete_message_identity": true,
+    "new_calls": 0,
+    "independent_output": false,
+    "actual_single_raw_output_reused": "{\"occurred\":\"UNKNOWN\",\"interviewer\":\"陶然\",\"interviewee\":\"贺晨\"}",
+    "direct_context_raw_output": "{\"occurred\":\"UNKNOWN\",\"interviewer\":\"贺晨\",\"interviewee\":\"陶然\"}",
+    "direct_labels": {
+      "role_a": "W",
+      "role_b": "W",
+      "occurrence": "C",
+      "participant": "W",
+      "record": "W"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "W->C",
+      "role_b": "W->C",
+      "occurrence": "C->C",
+      "participant": "W->C",
+      "record": "W->C"
+    },
+    "new_harm_components": []
+  },
+  {
+    "context_call_id": "B11-F02-YES-AB-ACTIVE-LIST12-OPPOSITE_TARGET_FIRST",
+    "single_call_id": "B11-F02-YES-AB-ACTIVE-LIST12-SINGLE",
+    "selected_line": "在这次排练中，汪宁表扬了宋悦。",
+    "complete_message_identity": true,
+    "new_calls": 0,
+    "independent_output": false,
+    "actual_single_raw_output_reused": "{\"occurred\":\"YES\",\"praiser\":\"汪宁\",\"praised\":\"宋悦\"}",
+    "direct_context_raw_output": "{\"occurred\":\"YES\",\"praiser\":\"汪宁\",\"praised\":\"宋悦\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_harm_components": []
+  },
+  {
+    "context_call_id": "B11-F02-YES-AB-ACTIVE-LIST12-OPPOSITE_TARGET_LAST",
+    "single_call_id": "B11-F02-YES-AB-ACTIVE-LIST12-SINGLE",
+    "selected_line": "在这次排练中，汪宁表扬了宋悦。",
+    "complete_message_identity": true,
+    "new_calls": 0,
+    "independent_output": false,
+    "actual_single_raw_output_reused": "{\"occurred\":\"YES\",\"praiser\":\"汪宁\",\"praised\":\"宋悦\"}",
+    "direct_context_raw_output": "{\"occurred\":\"YES\",\"praiser\":\"汪宁\",\"praised\":\"宋悦\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_harm_components": []
+  },
+  {
+    "context_call_id": "B11-F02-YES-AB-ACTIVE-LIST21-OPPOSITE_TARGET_FIRST",
+    "single_call_id": "B11-F02-YES-AB-ACTIVE-LIST21-SINGLE",
+    "selected_line": "在这次排练中，汪宁表扬了宋悦。",
+    "complete_message_identity": true,
+    "new_calls": 0,
+    "independent_output": false,
+    "actual_single_raw_output_reused": "{\"occurred\":\"YES\",\"praiser\":\"汪宁\",\"praised\":\"宋悦\"}",
+    "direct_context_raw_output": "{\"occurred\":\"YES\",\"praiser\":\"汪宁\",\"praised\":\"宋悦\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_harm_components": []
+  },
+  {
+    "context_call_id": "B11-F02-YES-AB-ACTIVE-LIST21-OPPOSITE_TARGET_LAST",
+    "single_call_id": "B11-F02-YES-AB-ACTIVE-LIST21-SINGLE",
+    "selected_line": "在这次排练中，汪宁表扬了宋悦。",
+    "complete_message_identity": true,
+    "new_calls": 0,
+    "independent_output": false,
+    "actual_single_raw_output_reused": "{\"occurred\":\"YES\",\"praiser\":\"汪宁\",\"praised\":\"宋悦\"}",
+    "direct_context_raw_output": "{\"occurred\":\"YES\",\"praiser\":\"汪宁\",\"praised\":\"宋悦\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_harm_components": []
+  },
+  {
+    "context_call_id": "B11-F02-YES-AB-PASSIVE-LIST12-OPPOSITE_TARGET_LAST",
+    "single_call_id": "B11-F02-YES-AB-PASSIVE-LIST12-SINGLE",
+    "selected_line": "在这次排练中，宋悦被汪宁表扬了。",
+    "complete_message_identity": true,
+    "new_calls": 0,
+    "independent_output": false,
+    "actual_single_raw_output_reused": "{\"occurred\":\"YES\",\"praiser\":\"汪宁\",\"praised\":\"宋悦\"}",
+    "direct_context_raw_output": "{\"occurred\":\"YES\",\"praiser\":\"汪宁\",\"praised\":\"宋悦\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_harm_components": []
+  },
+  {
+    "context_call_id": "B11-F02-YES-AB-PASSIVE-LIST21-OPPOSITE_TARGET_FIRST",
+    "single_call_id": "B11-F02-YES-AB-PASSIVE-LIST21-SINGLE",
+    "selected_line": "在这次排练中，宋悦被汪宁表扬了。",
+    "complete_message_identity": true,
+    "new_calls": 0,
+    "independent_output": false,
+    "actual_single_raw_output_reused": "{\"occurred\":\"YES\",\"praiser\":\"汪宁\",\"praised\":\"宋悦\"}",
+    "direct_context_raw_output": "{\"occurred\":\"YES\",\"praiser\":\"宋悦\",\"praised\":\"汪宁\"}",
+    "direct_labels": {
+      "role_a": "W",
+      "role_b": "W",
+      "occurrence": "C",
+      "participant": "W",
+      "record": "W"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "W->C",
+      "role_b": "W->C",
+      "occurrence": "C->C",
+      "participant": "W->C",
+      "record": "W->C"
+    },
+    "new_harm_components": []
+  },
+  {
+    "context_call_id": "B11-F02-YES-AB-PASSIVE-LIST21-OPPOSITE_TARGET_LAST",
+    "single_call_id": "B11-F02-YES-AB-PASSIVE-LIST21-SINGLE",
+    "selected_line": "在这次排练中，宋悦被汪宁表扬了。",
+    "complete_message_identity": true,
+    "new_calls": 0,
+    "independent_output": false,
+    "actual_single_raw_output_reused": "{\"occurred\":\"YES\",\"praiser\":\"汪宁\",\"praised\":\"宋悦\"}",
+    "direct_context_raw_output": "{\"occurred\":\"YES\",\"praiser\":\"汪宁\",\"praised\":\"宋悦\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_harm_components": []
+  },
+  {
+    "context_call_id": "B11-F02-YES-AB-PASSIVE-LIST12-OPPOSITE_TARGET_FIRST",
+    "single_call_id": "B11-F02-YES-AB-PASSIVE-LIST12-SINGLE",
+    "selected_line": "在这次排练中，宋悦被汪宁表扬了。",
+    "complete_message_identity": true,
+    "new_calls": 0,
+    "independent_output": false,
+    "actual_single_raw_output_reused": "{\"occurred\":\"YES\",\"praiser\":\"汪宁\",\"praised\":\"宋悦\"}",
+    "direct_context_raw_output": "{\"occurred\":\"YES\",\"praiser\":\"宋悦\",\"praised\":\"汪宁\"}",
+    "direct_labels": {
+      "role_a": "W",
+      "role_b": "W",
+      "occurrence": "C",
+      "participant": "W",
+      "record": "W"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "W->C",
+      "role_b": "W->C",
+      "occurrence": "C->C",
+      "participant": "W->C",
+      "record": "W->C"
+    },
+    "new_harm_components": []
+  },
+  {
+    "context_call_id": "B11-F02-YES-BA-ACTIVE-LIST21-OPPOSITE_TARGET_FIRST",
+    "single_call_id": "B11-F02-YES-BA-ACTIVE-LIST21-SINGLE",
+    "selected_line": "在这次排练中，宋悦表扬了汪宁。",
+    "complete_message_identity": true,
+    "new_calls": 0,
+    "independent_output": false,
+    "actual_single_raw_output_reused": "{\"occurred\":\"YES\",\"praiser\":\"宋悦\",\"praised\":\"汪宁\"}",
+    "direct_context_raw_output": "{\"occurred\":\"YES\",\"praiser\":\"宋悦\",\"praised\":\"汪宁\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_harm_components": []
+  },
+  {
+    "context_call_id": "B11-F02-YES-BA-ACTIVE-LIST21-OPPOSITE_TARGET_LAST",
+    "single_call_id": "B11-F02-YES-BA-ACTIVE-LIST21-SINGLE",
+    "selected_line": "在这次排练中，宋悦表扬了汪宁。",
+    "complete_message_identity": true,
+    "new_calls": 0,
+    "independent_output": false,
+    "actual_single_raw_output_reused": "{\"occurred\":\"YES\",\"praiser\":\"宋悦\",\"praised\":\"汪宁\"}",
+    "direct_context_raw_output": "{\"occurred\":\"YES\",\"praiser\":\"宋悦\",\"praised\":\"汪宁\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_harm_components": []
+  },
+  {
+    "context_call_id": "B11-F02-YES-BA-ACTIVE-LIST12-OPPOSITE_TARGET_FIRST",
+    "single_call_id": "B11-F02-YES-BA-ACTIVE-LIST12-SINGLE",
+    "selected_line": "在这次排练中，宋悦表扬了汪宁。",
+    "complete_message_identity": true,
+    "new_calls": 0,
+    "independent_output": false,
+    "actual_single_raw_output_reused": "{\"occurred\":\"YES\",\"praiser\":\"宋悦\",\"praised\":\"汪宁\"}",
+    "direct_context_raw_output": "{\"occurred\":\"YES\",\"praiser\":\"汪宁\",\"praised\":\"宋悦\"}",
+    "direct_labels": {
+      "role_a": "W",
+      "role_b": "W",
+      "occurrence": "C",
+      "participant": "W",
+      "record": "W"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "W->C",
+      "role_b": "W->C",
+      "occurrence": "C->C",
+      "participant": "W->C",
+      "record": "W->C"
+    },
+    "new_harm_components": []
+  },
+  {
+    "context_call_id": "B11-F02-YES-BA-ACTIVE-LIST12-OPPOSITE_TARGET_LAST",
+    "single_call_id": "B11-F02-YES-BA-ACTIVE-LIST12-SINGLE",
+    "selected_line": "在这次排练中，宋悦表扬了汪宁。",
+    "complete_message_identity": true,
+    "new_calls": 0,
+    "independent_output": false,
+    "actual_single_raw_output_reused": "{\"occurred\":\"YES\",\"praiser\":\"宋悦\",\"praised\":\"汪宁\"}",
+    "direct_context_raw_output": "{\"occurred\":\"YES\",\"praiser\":\"宋悦\",\"praised\":\"汪宁\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_harm_components": []
+  },
+  {
+    "context_call_id": "B11-F02-YES-BA-PASSIVE-LIST21-OPPOSITE_TARGET_FIRST",
+    "single_call_id": "B11-F02-YES-BA-PASSIVE-LIST21-SINGLE",
+    "selected_line": "在这次排练中，汪宁被宋悦表扬了。",
+    "complete_message_identity": true,
+    "new_calls": 0,
+    "independent_output": false,
+    "actual_single_raw_output_reused": "{\"occurred\":\"YES\",\"praiser\":\"宋悦\",\"praised\":\"汪宁\"}",
+    "direct_context_raw_output": "{\"occurred\":\"YES\",\"praiser\":\"汪宁\",\"praised\":\"宋悦\"}",
+    "direct_labels": {
+      "role_a": "W",
+      "role_b": "W",
+      "occurrence": "C",
+      "participant": "W",
+      "record": "W"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "W->C",
+      "role_b": "W->C",
+      "occurrence": "C->C",
+      "participant": "W->C",
+      "record": "W->C"
+    },
+    "new_harm_components": []
+  },
+  {
+    "context_call_id": "B11-F02-YES-BA-PASSIVE-LIST21-OPPOSITE_TARGET_LAST",
+    "single_call_id": "B11-F02-YES-BA-PASSIVE-LIST21-SINGLE",
+    "selected_line": "在这次排练中，汪宁被宋悦表扬了。",
+    "complete_message_identity": true,
+    "new_calls": 0,
+    "independent_output": false,
+    "actual_single_raw_output_reused": "{\"occurred\":\"YES\",\"praiser\":\"宋悦\",\"praised\":\"汪宁\"}",
+    "direct_context_raw_output": "{\"occurred\":\"YES\",\"praiser\":\"宋悦\",\"praised\":\"汪宁\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_harm_components": []
+  },
+  {
+    "context_call_id": "B11-F02-YES-BA-PASSIVE-LIST12-OPPOSITE_TARGET_FIRST",
+    "single_call_id": "B11-F02-YES-BA-PASSIVE-LIST12-SINGLE",
+    "selected_line": "在这次排练中，汪宁被宋悦表扬了。",
+    "complete_message_identity": true,
+    "new_calls": 0,
+    "independent_output": false,
+    "actual_single_raw_output_reused": "{\"occurred\":\"YES\",\"praiser\":\"宋悦\",\"praised\":\"汪宁\"}",
+    "direct_context_raw_output": "{\"occurred\":\"YES\",\"praiser\":\"汪宁\",\"praised\":\"宋悦\"}",
+    "direct_labels": {
+      "role_a": "W",
+      "role_b": "W",
+      "occurrence": "C",
+      "participant": "W",
+      "record": "W"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "W->C",
+      "role_b": "W->C",
+      "occurrence": "C->C",
+      "participant": "W->C",
+      "record": "W->C"
+    },
+    "new_harm_components": []
+  },
+  {
+    "context_call_id": "B11-F02-YES-BA-PASSIVE-LIST12-OPPOSITE_TARGET_LAST",
+    "single_call_id": "B11-F02-YES-BA-PASSIVE-LIST12-SINGLE",
+    "selected_line": "在这次排练中，汪宁被宋悦表扬了。",
+    "complete_message_identity": true,
+    "new_calls": 0,
+    "independent_output": false,
+    "actual_single_raw_output_reused": "{\"occurred\":\"YES\",\"praiser\":\"宋悦\",\"praised\":\"汪宁\"}",
+    "direct_context_raw_output": "{\"occurred\":\"YES\",\"praiser\":\"宋悦\",\"praised\":\"汪宁\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_harm_components": []
+  },
+  {
+    "context_call_id": "B11-F02-NO-AB-ACTIVE-LIST21-OPPOSITE_TARGET_LAST",
+    "single_call_id": "B11-F02-NO-AB-ACTIVE-LIST21-SINGLE",
+    "selected_line": "在这次排练中，汪宁没有表扬宋悦。",
+    "complete_message_identity": true,
+    "new_calls": 0,
+    "independent_output": false,
+    "actual_single_raw_output_reused": "{\"occurred\":\"NO\",\"praiser\":\"汪宁\",\"praised\":\"宋悦\"}",
+    "direct_context_raw_output": "{\"occurred\":\"NO\",\"praiser\":\"汪宁\",\"praised\":\"宋悦\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_harm_components": []
+  },
+  {
+    "context_call_id": "B11-F02-NO-AB-ACTIVE-LIST12-OPPOSITE_TARGET_FIRST",
+    "single_call_id": "B11-F02-NO-AB-ACTIVE-LIST12-SINGLE",
+    "selected_line": "在这次排练中，汪宁没有表扬宋悦。",
+    "complete_message_identity": true,
+    "new_calls": 0,
+    "independent_output": false,
+    "actual_single_raw_output_reused": "{\"occurred\":\"NO\",\"praiser\":\"汪宁\",\"praised\":\"宋悦\"}",
+    "direct_context_raw_output": "{\"occurred\":\"NO\",\"praiser\":\"宋悦\",\"praised\":\"汪宁\"}",
+    "direct_labels": {
+      "role_a": "W",
+      "role_b": "W",
+      "occurrence": "C",
+      "participant": "W",
+      "record": "W"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "W->C",
+      "role_b": "W->C",
+      "occurrence": "C->C",
+      "participant": "W->C",
+      "record": "W->C"
+    },
+    "new_harm_components": []
+  },
+  {
+    "context_call_id": "B11-F02-NO-AB-ACTIVE-LIST12-OPPOSITE_TARGET_LAST",
+    "single_call_id": "B11-F02-NO-AB-ACTIVE-LIST12-SINGLE",
+    "selected_line": "在这次排练中，汪宁没有表扬宋悦。",
+    "complete_message_identity": true,
+    "new_calls": 0,
+    "independent_output": false,
+    "actual_single_raw_output_reused": "{\"occurred\":\"NO\",\"praiser\":\"汪宁\",\"praised\":\"宋悦\"}",
+    "direct_context_raw_output": "{\"occurred\":\"NO\",\"praiser\":\"汪宁\",\"praised\":\"宋悦\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_harm_components": []
+  },
+  {
+    "context_call_id": "B11-F02-NO-AB-ACTIVE-LIST21-OPPOSITE_TARGET_FIRST",
+    "single_call_id": "B11-F02-NO-AB-ACTIVE-LIST21-SINGLE",
+    "selected_line": "在这次排练中，汪宁没有表扬宋悦。",
+    "complete_message_identity": true,
+    "new_calls": 0,
+    "independent_output": false,
+    "actual_single_raw_output_reused": "{\"occurred\":\"NO\",\"praiser\":\"汪宁\",\"praised\":\"宋悦\"}",
+    "direct_context_raw_output": "{\"occurred\":\"NO\",\"praiser\":\"宋悦\",\"praised\":\"汪宁\"}",
+    "direct_labels": {
+      "role_a": "W",
+      "role_b": "W",
+      "occurrence": "C",
+      "participant": "W",
+      "record": "W"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "W->C",
+      "role_b": "W->C",
+      "occurrence": "C->C",
+      "participant": "W->C",
+      "record": "W->C"
+    },
+    "new_harm_components": []
+  },
+  {
+    "context_call_id": "B11-F02-NO-AB-PASSIVE-LIST12-OPPOSITE_TARGET_FIRST",
+    "single_call_id": "B11-F02-NO-AB-PASSIVE-LIST12-SINGLE",
+    "selected_line": "在这次排练中，宋悦没有被汪宁表扬。",
+    "complete_message_identity": true,
+    "new_calls": 0,
+    "independent_output": false,
+    "actual_single_raw_output_reused": "{\"occurred\":\"NO\",\"praiser\":\"汪宁\",\"praised\":\"宋悦\"}",
+    "direct_context_raw_output": "{\"occurred\":\"NO\",\"praiser\":\"宋悦\",\"praised\":\"汪宁\"}",
+    "direct_labels": {
+      "role_a": "W",
+      "role_b": "W",
+      "occurrence": "C",
+      "participant": "W",
+      "record": "W"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "W->C",
+      "role_b": "W->C",
+      "occurrence": "C->C",
+      "participant": "W->C",
+      "record": "W->C"
+    },
+    "new_harm_components": []
+  },
+  {
+    "context_call_id": "B11-F02-NO-AB-PASSIVE-LIST12-OPPOSITE_TARGET_LAST",
+    "single_call_id": "B11-F02-NO-AB-PASSIVE-LIST12-SINGLE",
+    "selected_line": "在这次排练中，宋悦没有被汪宁表扬。",
+    "complete_message_identity": true,
+    "new_calls": 0,
+    "independent_output": false,
+    "actual_single_raw_output_reused": "{\"occurred\":\"NO\",\"praiser\":\"汪宁\",\"praised\":\"宋悦\"}",
+    "direct_context_raw_output": "{\"occurred\":\"NO\",\"praiser\":\"汪宁\",\"praised\":\"宋悦\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_harm_components": []
+  },
+  {
+    "context_call_id": "B11-F02-NO-AB-PASSIVE-LIST21-OPPOSITE_TARGET_FIRST",
+    "single_call_id": "B11-F02-NO-AB-PASSIVE-LIST21-SINGLE",
+    "selected_line": "在这次排练中，宋悦没有被汪宁表扬。",
+    "complete_message_identity": true,
+    "new_calls": 0,
+    "independent_output": false,
+    "actual_single_raw_output_reused": "{\"occurred\":\"NO\",\"praiser\":\"汪宁\",\"praised\":\"宋悦\"}",
+    "direct_context_raw_output": "{\"occurred\":\"NO\",\"praiser\":\"宋悦\",\"praised\":\"汪宁\"}",
+    "direct_labels": {
+      "role_a": "W",
+      "role_b": "W",
+      "occurrence": "C",
+      "participant": "W",
+      "record": "W"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "W->C",
+      "role_b": "W->C",
+      "occurrence": "C->C",
+      "participant": "W->C",
+      "record": "W->C"
+    },
+    "new_harm_components": []
+  },
+  {
+    "context_call_id": "B11-F02-NO-AB-PASSIVE-LIST21-OPPOSITE_TARGET_LAST",
+    "single_call_id": "B11-F02-NO-AB-PASSIVE-LIST21-SINGLE",
+    "selected_line": "在这次排练中，宋悦没有被汪宁表扬。",
+    "complete_message_identity": true,
+    "new_calls": 0,
+    "independent_output": false,
+    "actual_single_raw_output_reused": "{\"occurred\":\"NO\",\"praiser\":\"汪宁\",\"praised\":\"宋悦\"}",
+    "direct_context_raw_output": "{\"occurred\":\"NO\",\"praiser\":\"宋悦\",\"praised\":\"汪宁\"}",
+    "direct_labels": {
+      "role_a": "W",
+      "role_b": "W",
+      "occurrence": "C",
+      "participant": "W",
+      "record": "W"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "W->C",
+      "role_b": "W->C",
+      "occurrence": "C->C",
+      "participant": "W->C",
+      "record": "W->C"
+    },
+    "new_harm_components": []
+  },
+  {
+    "context_call_id": "B11-F02-NO-BA-ACTIVE-LIST12-OPPOSITE_TARGET_FIRST",
+    "single_call_id": "B11-F02-NO-BA-ACTIVE-LIST12-SINGLE",
+    "selected_line": "在这次排练中，宋悦没有表扬汪宁。",
+    "complete_message_identity": true,
+    "new_calls": 0,
+    "independent_output": false,
+    "actual_single_raw_output_reused": "{\"occurred\":\"NO\",\"praiser\":\"宋悦\",\"praised\":\"汪宁\"}",
+    "direct_context_raw_output": "{\"occurred\":\"NO\",\"praiser\":\"汪宁\",\"praised\":\"宋悦\"}",
+    "direct_labels": {
+      "role_a": "W",
+      "role_b": "W",
+      "occurrence": "C",
+      "participant": "W",
+      "record": "W"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "W->C",
+      "role_b": "W->C",
+      "occurrence": "C->C",
+      "participant": "W->C",
+      "record": "W->C"
+    },
+    "new_harm_components": []
+  },
+  {
+    "context_call_id": "B11-F02-NO-BA-ACTIVE-LIST12-OPPOSITE_TARGET_LAST",
+    "single_call_id": "B11-F02-NO-BA-ACTIVE-LIST12-SINGLE",
+    "selected_line": "在这次排练中，宋悦没有表扬汪宁。",
+    "complete_message_identity": true,
+    "new_calls": 0,
+    "independent_output": false,
+    "actual_single_raw_output_reused": "{\"occurred\":\"NO\",\"praiser\":\"宋悦\",\"praised\":\"汪宁\"}",
+    "direct_context_raw_output": "{\"occurred\":\"NO\",\"praiser\":\"宋悦\",\"praised\":\"汪宁\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_harm_components": []
+  },
+  {
+    "context_call_id": "B11-F02-NO-BA-ACTIVE-LIST21-OPPOSITE_TARGET_FIRST",
+    "single_call_id": "B11-F02-NO-BA-ACTIVE-LIST21-SINGLE",
+    "selected_line": "在这次排练中，宋悦没有表扬汪宁。",
+    "complete_message_identity": true,
+    "new_calls": 0,
+    "independent_output": false,
+    "actual_single_raw_output_reused": "{\"occurred\":\"NO\",\"praiser\":\"宋悦\",\"praised\":\"汪宁\"}",
+    "direct_context_raw_output": "{\"occurred\":\"NO\",\"praiser\":\"汪宁\",\"praised\":\"宋悦\"}",
+    "direct_labels": {
+      "role_a": "W",
+      "role_b": "W",
+      "occurrence": "C",
+      "participant": "W",
+      "record": "W"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "W->C",
+      "role_b": "W->C",
+      "occurrence": "C->C",
+      "participant": "W->C",
+      "record": "W->C"
+    },
+    "new_harm_components": []
+  },
+  {
+    "context_call_id": "B11-F02-NO-BA-ACTIVE-LIST21-OPPOSITE_TARGET_LAST",
+    "single_call_id": "B11-F02-NO-BA-ACTIVE-LIST21-SINGLE",
+    "selected_line": "在这次排练中，宋悦没有表扬汪宁。",
+    "complete_message_identity": true,
+    "new_calls": 0,
+    "independent_output": false,
+    "actual_single_raw_output_reused": "{\"occurred\":\"NO\",\"praiser\":\"宋悦\",\"praised\":\"汪宁\"}",
+    "direct_context_raw_output": "{\"occurred\":\"NO\",\"praiser\":\"宋悦\",\"praised\":\"汪宁\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_harm_components": []
+  },
+  {
+    "context_call_id": "B11-F02-NO-BA-PASSIVE-LIST12-OPPOSITE_TARGET_LAST",
+    "single_call_id": "B11-F02-NO-BA-PASSIVE-LIST12-SINGLE",
+    "selected_line": "在这次排练中，汪宁没有被宋悦表扬。",
+    "complete_message_identity": true,
+    "new_calls": 0,
+    "independent_output": false,
+    "actual_single_raw_output_reused": "{\"occurred\":\"NO\",\"praiser\":\"宋悦\",\"praised\":\"汪宁\"}",
+    "direct_context_raw_output": "{\"occurred\":\"NO\",\"praiser\":\"宋悦\",\"praised\":\"汪宁\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_harm_components": []
+  },
+  {
+    "context_call_id": "B11-F02-NO-BA-PASSIVE-LIST21-OPPOSITE_TARGET_FIRST",
+    "single_call_id": "B11-F02-NO-BA-PASSIVE-LIST21-SINGLE",
+    "selected_line": "在这次排练中，汪宁没有被宋悦表扬。",
+    "complete_message_identity": true,
+    "new_calls": 0,
+    "independent_output": false,
+    "actual_single_raw_output_reused": "{\"occurred\":\"NO\",\"praiser\":\"宋悦\",\"praised\":\"汪宁\"}",
+    "direct_context_raw_output": "{\"occurred\":\"NO\",\"praiser\":\"汪宁\",\"praised\":\"宋悦\"}",
+    "direct_labels": {
+      "role_a": "W",
+      "role_b": "W",
+      "occurrence": "C",
+      "participant": "W",
+      "record": "W"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "W->C",
+      "role_b": "W->C",
+      "occurrence": "C->C",
+      "participant": "W->C",
+      "record": "W->C"
+    },
+    "new_harm_components": []
+  },
+  {
+    "context_call_id": "B11-F02-NO-BA-PASSIVE-LIST21-OPPOSITE_TARGET_LAST",
+    "single_call_id": "B11-F02-NO-BA-PASSIVE-LIST21-SINGLE",
+    "selected_line": "在这次排练中，汪宁没有被宋悦表扬。",
+    "complete_message_identity": true,
+    "new_calls": 0,
+    "independent_output": false,
+    "actual_single_raw_output_reused": "{\"occurred\":\"NO\",\"praiser\":\"宋悦\",\"praised\":\"汪宁\"}",
+    "direct_context_raw_output": "{\"occurred\":\"NO\",\"praiser\":\"宋悦\",\"praised\":\"汪宁\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_harm_components": []
+  },
+  {
+    "context_call_id": "B11-F02-NO-BA-PASSIVE-LIST12-OPPOSITE_TARGET_FIRST",
+    "single_call_id": "B11-F02-NO-BA-PASSIVE-LIST12-SINGLE",
+    "selected_line": "在这次排练中，汪宁没有被宋悦表扬。",
+    "complete_message_identity": true,
+    "new_calls": 0,
+    "independent_output": false,
+    "actual_single_raw_output_reused": "{\"occurred\":\"NO\",\"praiser\":\"宋悦\",\"praised\":\"汪宁\"}",
+    "direct_context_raw_output": "{\"occurred\":\"NO\",\"praiser\":\"汪宁\",\"praised\":\"宋悦\"}",
+    "direct_labels": {
+      "role_a": "W",
+      "role_b": "W",
+      "occurrence": "C",
+      "participant": "W",
+      "record": "W"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "W->C",
+      "role_b": "W->C",
+      "occurrence": "C->C",
+      "participant": "W->C",
+      "record": "W->C"
+    },
+    "new_harm_components": []
+  },
+  {
+    "context_call_id": "B11-F02-UNKNOWN-AB-ACTIVE-LIST21-OPPOSITE_TARGET_FIRST",
+    "single_call_id": "B11-F02-UNKNOWN-AB-ACTIVE-LIST21-SINGLE",
+    "selected_line": "在这次排练中，汪宁是否表扬了宋悦，目前尚无结论。",
+    "complete_message_identity": true,
+    "new_calls": 0,
+    "independent_output": false,
+    "actual_single_raw_output_reused": "{\"occurred\":\"UNKNOWN\",\"praiser\":\"汪宁\",\"praised\":\"宋悦\"}",
+    "direct_context_raw_output": "{\"occurred\":\"UNKNOWN\",\"praiser\":\"宋悦\",\"praised\":\"汪宁\"}",
+    "direct_labels": {
+      "role_a": "W",
+      "role_b": "W",
+      "occurrence": "C",
+      "participant": "W",
+      "record": "W"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "W->C",
+      "role_b": "W->C",
+      "occurrence": "C->C",
+      "participant": "W->C",
+      "record": "W->C"
+    },
+    "new_harm_components": []
+  },
+  {
+    "context_call_id": "B11-F02-UNKNOWN-AB-ACTIVE-LIST21-OPPOSITE_TARGET_LAST",
+    "single_call_id": "B11-F02-UNKNOWN-AB-ACTIVE-LIST21-SINGLE",
+    "selected_line": "在这次排练中，汪宁是否表扬了宋悦，目前尚无结论。",
+    "complete_message_identity": true,
+    "new_calls": 0,
+    "independent_output": false,
+    "actual_single_raw_output_reused": "{\"occurred\":\"UNKNOWN\",\"praiser\":\"汪宁\",\"praised\":\"宋悦\"}",
+    "direct_context_raw_output": "{\"occurred\":\"UNKNOWN\",\"praiser\":\"汪宁\",\"praised\":\"宋悦\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_harm_components": []
+  },
+  {
+    "context_call_id": "B11-F02-UNKNOWN-AB-ACTIVE-LIST12-OPPOSITE_TARGET_FIRST",
+    "single_call_id": "B11-F02-UNKNOWN-AB-ACTIVE-LIST12-SINGLE",
+    "selected_line": "在这次排练中，汪宁是否表扬了宋悦，目前尚无结论。",
+    "complete_message_identity": true,
+    "new_calls": 0,
+    "independent_output": false,
+    "actual_single_raw_output_reused": "{\"occurred\":\"UNKNOWN\",\"praiser\":\"汪宁\",\"praised\":\"宋悦\"}",
+    "direct_context_raw_output": "{\"occurred\":\"UNKNOWN\",\"praiser\":\"宋悦\",\"praised\":\"汪宁\"}",
+    "direct_labels": {
+      "role_a": "W",
+      "role_b": "W",
+      "occurrence": "C",
+      "participant": "W",
+      "record": "W"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "W->C",
+      "role_b": "W->C",
+      "occurrence": "C->C",
+      "participant": "W->C",
+      "record": "W->C"
+    },
+    "new_harm_components": []
+  },
+  {
+    "context_call_id": "B11-F02-UNKNOWN-AB-ACTIVE-LIST12-OPPOSITE_TARGET_LAST",
+    "single_call_id": "B11-F02-UNKNOWN-AB-ACTIVE-LIST12-SINGLE",
+    "selected_line": "在这次排练中，汪宁是否表扬了宋悦，目前尚无结论。",
+    "complete_message_identity": true,
+    "new_calls": 0,
+    "independent_output": false,
+    "actual_single_raw_output_reused": "{\"occurred\":\"UNKNOWN\",\"praiser\":\"汪宁\",\"praised\":\"宋悦\"}",
+    "direct_context_raw_output": "{\"occurred\":\"UNKNOWN\",\"praiser\":\"汪宁\",\"praised\":\"宋悦\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_harm_components": []
+  },
+  {
+    "context_call_id": "B11-F02-UNKNOWN-AB-PASSIVE-LIST21-OPPOSITE_TARGET_FIRST",
+    "single_call_id": "B11-F02-UNKNOWN-AB-PASSIVE-LIST21-SINGLE",
+    "selected_line": "在这次排练中，宋悦是否被汪宁表扬了，目前尚无结论。",
+    "complete_message_identity": true,
+    "new_calls": 0,
+    "independent_output": false,
+    "actual_single_raw_output_reused": "{\"occurred\":\"UNKNOWN\",\"praiser\":\"汪宁\",\"praised\":\"宋悦\"}",
+    "direct_context_raw_output": "{\"occurred\":\"UNKNOWN\",\"praiser\":\"宋悦\",\"praised\":\"汪宁\"}",
+    "direct_labels": {
+      "role_a": "W",
+      "role_b": "W",
+      "occurrence": "C",
+      "participant": "W",
+      "record": "W"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "W->C",
+      "role_b": "W->C",
+      "occurrence": "C->C",
+      "participant": "W->C",
+      "record": "W->C"
+    },
+    "new_harm_components": []
+  },
+  {
+    "context_call_id": "B11-F02-UNKNOWN-AB-PASSIVE-LIST21-OPPOSITE_TARGET_LAST",
+    "single_call_id": "B11-F02-UNKNOWN-AB-PASSIVE-LIST21-SINGLE",
+    "selected_line": "在这次排练中，宋悦是否被汪宁表扬了，目前尚无结论。",
+    "complete_message_identity": true,
+    "new_calls": 0,
+    "independent_output": false,
+    "actual_single_raw_output_reused": "{\"occurred\":\"UNKNOWN\",\"praiser\":\"汪宁\",\"praised\":\"宋悦\"}",
+    "direct_context_raw_output": "{\"occurred\":\"UNKNOWN\",\"praiser\":\"汪宁\",\"praised\":\"宋悦\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_harm_components": []
+  },
+  {
+    "context_call_id": "B11-F02-UNKNOWN-AB-PASSIVE-LIST12-OPPOSITE_TARGET_FIRST",
+    "single_call_id": "B11-F02-UNKNOWN-AB-PASSIVE-LIST12-SINGLE",
+    "selected_line": "在这次排练中，宋悦是否被汪宁表扬了，目前尚无结论。",
+    "complete_message_identity": true,
+    "new_calls": 0,
+    "independent_output": false,
+    "actual_single_raw_output_reused": "{\"occurred\":\"UNKNOWN\",\"praiser\":\"汪宁\",\"praised\":\"宋悦\"}",
+    "direct_context_raw_output": "{\"occurred\":\"UNKNOWN\",\"praiser\":\"宋悦\",\"praised\":\"汪宁\"}",
+    "direct_labels": {
+      "role_a": "W",
+      "role_b": "W",
+      "occurrence": "C",
+      "participant": "W",
+      "record": "W"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "W->C",
+      "role_b": "W->C",
+      "occurrence": "C->C",
+      "participant": "W->C",
+      "record": "W->C"
+    },
+    "new_harm_components": []
+  },
+  {
+    "context_call_id": "B11-F02-UNKNOWN-AB-PASSIVE-LIST12-OPPOSITE_TARGET_LAST",
+    "single_call_id": "B11-F02-UNKNOWN-AB-PASSIVE-LIST12-SINGLE",
+    "selected_line": "在这次排练中，宋悦是否被汪宁表扬了，目前尚无结论。",
+    "complete_message_identity": true,
+    "new_calls": 0,
+    "independent_output": false,
+    "actual_single_raw_output_reused": "{\"occurred\":\"UNKNOWN\",\"praiser\":\"汪宁\",\"praised\":\"宋悦\"}",
+    "direct_context_raw_output": "{\"occurred\":\"UNKNOWN\",\"praiser\":\"汪宁\",\"praised\":\"宋悦\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_harm_components": []
+  },
+  {
+    "context_call_id": "B11-F02-UNKNOWN-BA-ACTIVE-LIST21-OPPOSITE_TARGET_LAST",
+    "single_call_id": "B11-F02-UNKNOWN-BA-ACTIVE-LIST21-SINGLE",
+    "selected_line": "在这次排练中，宋悦是否表扬了汪宁，目前尚无结论。",
+    "complete_message_identity": true,
+    "new_calls": 0,
+    "independent_output": false,
+    "actual_single_raw_output_reused": "{\"occurred\":\"UNKNOWN\",\"praiser\":\"宋悦\",\"praised\":\"汪宁\"}",
+    "direct_context_raw_output": "{\"occurred\":\"UNKNOWN\",\"praiser\":\"宋悦\",\"praised\":\"汪宁\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_harm_components": []
+  },
+  {
+    "context_call_id": "B11-F02-UNKNOWN-BA-ACTIVE-LIST12-OPPOSITE_TARGET_FIRST",
+    "single_call_id": "B11-F02-UNKNOWN-BA-ACTIVE-LIST12-SINGLE",
+    "selected_line": "在这次排练中，宋悦是否表扬了汪宁，目前尚无结论。",
+    "complete_message_identity": true,
+    "new_calls": 0,
+    "independent_output": false,
+    "actual_single_raw_output_reused": "{\"occurred\":\"UNKNOWN\",\"praiser\":\"宋悦\",\"praised\":\"汪宁\"}",
+    "direct_context_raw_output": "{\"occurred\":\"UNKNOWN\",\"praiser\":\"汪宁\",\"praised\":\"宋悦\"}",
+    "direct_labels": {
+      "role_a": "W",
+      "role_b": "W",
+      "occurrence": "C",
+      "participant": "W",
+      "record": "W"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "W->C",
+      "role_b": "W->C",
+      "occurrence": "C->C",
+      "participant": "W->C",
+      "record": "W->C"
+    },
+    "new_harm_components": []
+  },
+  {
+    "context_call_id": "B11-F02-UNKNOWN-BA-ACTIVE-LIST12-OPPOSITE_TARGET_LAST",
+    "single_call_id": "B11-F02-UNKNOWN-BA-ACTIVE-LIST12-SINGLE",
+    "selected_line": "在这次排练中，宋悦是否表扬了汪宁，目前尚无结论。",
+    "complete_message_identity": true,
+    "new_calls": 0,
+    "independent_output": false,
+    "actual_single_raw_output_reused": "{\"occurred\":\"UNKNOWN\",\"praiser\":\"宋悦\",\"praised\":\"汪宁\"}",
+    "direct_context_raw_output": "{\"occurred\":\"UNKNOWN\",\"praiser\":\"宋悦\",\"praised\":\"汪宁\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_harm_components": []
+  },
+  {
+    "context_call_id": "B11-F02-UNKNOWN-BA-ACTIVE-LIST21-OPPOSITE_TARGET_FIRST",
+    "single_call_id": "B11-F02-UNKNOWN-BA-ACTIVE-LIST21-SINGLE",
+    "selected_line": "在这次排练中，宋悦是否表扬了汪宁，目前尚无结论。",
+    "complete_message_identity": true,
+    "new_calls": 0,
+    "independent_output": false,
+    "actual_single_raw_output_reused": "{\"occurred\":\"UNKNOWN\",\"praiser\":\"宋悦\",\"praised\":\"汪宁\"}",
+    "direct_context_raw_output": "{\"occurred\":\"UNKNOWN\",\"praiser\":\"汪宁\",\"praised\":\"宋悦\"}",
+    "direct_labels": {
+      "role_a": "W",
+      "role_b": "W",
+      "occurrence": "C",
+      "participant": "W",
+      "record": "W"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "W->C",
+      "role_b": "W->C",
+      "occurrence": "C->C",
+      "participant": "W->C",
+      "record": "W->C"
+    },
+    "new_harm_components": []
+  },
+  {
+    "context_call_id": "B11-F02-UNKNOWN-BA-PASSIVE-LIST12-OPPOSITE_TARGET_FIRST",
+    "single_call_id": "B11-F02-UNKNOWN-BA-PASSIVE-LIST12-SINGLE",
+    "selected_line": "在这次排练中，汪宁是否被宋悦表扬了，目前尚无结论。",
+    "complete_message_identity": true,
+    "new_calls": 0,
+    "independent_output": false,
+    "actual_single_raw_output_reused": "{\"occurred\":\"UNKNOWN\",\"praiser\":\"宋悦\",\"praised\":\"汪宁\"}",
+    "direct_context_raw_output": "{\"occurred\":\"UNKNOWN\",\"praiser\":\"汪宁\",\"praised\":\"宋悦\"}",
+    "direct_labels": {
+      "role_a": "W",
+      "role_b": "W",
+      "occurrence": "C",
+      "participant": "W",
+      "record": "W"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "W->C",
+      "role_b": "W->C",
+      "occurrence": "C->C",
+      "participant": "W->C",
+      "record": "W->C"
+    },
+    "new_harm_components": []
+  },
+  {
+    "context_call_id": "B11-F02-UNKNOWN-BA-PASSIVE-LIST12-OPPOSITE_TARGET_LAST",
+    "single_call_id": "B11-F02-UNKNOWN-BA-PASSIVE-LIST12-SINGLE",
+    "selected_line": "在这次排练中，汪宁是否被宋悦表扬了，目前尚无结论。",
+    "complete_message_identity": true,
+    "new_calls": 0,
+    "independent_output": false,
+    "actual_single_raw_output_reused": "{\"occurred\":\"UNKNOWN\",\"praiser\":\"宋悦\",\"praised\":\"汪宁\"}",
+    "direct_context_raw_output": "{\"occurred\":\"UNKNOWN\",\"praiser\":\"宋悦\",\"praised\":\"汪宁\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_harm_components": []
+  },
+  {
+    "context_call_id": "B11-F02-UNKNOWN-BA-PASSIVE-LIST21-OPPOSITE_TARGET_FIRST",
+    "single_call_id": "B11-F02-UNKNOWN-BA-PASSIVE-LIST21-SINGLE",
+    "selected_line": "在这次排练中，汪宁是否被宋悦表扬了，目前尚无结论。",
+    "complete_message_identity": true,
+    "new_calls": 0,
+    "independent_output": false,
+    "actual_single_raw_output_reused": "{\"occurred\":\"UNKNOWN\",\"praiser\":\"宋悦\",\"praised\":\"汪宁\"}",
+    "direct_context_raw_output": "{\"occurred\":\"UNKNOWN\",\"praiser\":\"汪宁\",\"praised\":\"宋悦\"}",
+    "direct_labels": {
+      "role_a": "W",
+      "role_b": "W",
+      "occurrence": "C",
+      "participant": "W",
+      "record": "W"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "W->C",
+      "role_b": "W->C",
+      "occurrence": "C->C",
+      "participant": "W->C",
+      "record": "W->C"
+    },
+    "new_harm_components": []
+  },
+  {
+    "context_call_id": "B11-F02-UNKNOWN-BA-PASSIVE-LIST21-OPPOSITE_TARGET_LAST",
+    "single_call_id": "B11-F02-UNKNOWN-BA-PASSIVE-LIST21-SINGLE",
+    "selected_line": "在这次排练中，汪宁是否被宋悦表扬了，目前尚无结论。",
+    "complete_message_identity": true,
+    "new_calls": 0,
+    "independent_output": false,
+    "actual_single_raw_output_reused": "{\"occurred\":\"UNKNOWN\",\"praiser\":\"宋悦\",\"praised\":\"汪宁\"}",
+    "direct_context_raw_output": "{\"occurred\":\"UNKNOWN\",\"praiser\":\"宋悦\",\"praised\":\"汪宁\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_harm_components": []
+  },
+  {
+    "context_call_id": "B11-F03-YES-AB-ACTIVE-LIST12-OPPOSITE_TARGET_LAST",
+    "single_call_id": "B11-F03-YES-AB-ACTIVE-LIST12-SINGLE",
+    "selected_line": "在这次复盘中，顾航批评了孟欣。",
+    "complete_message_identity": true,
+    "new_calls": 0,
+    "independent_output": false,
+    "actual_single_raw_output_reused": "{\"occurred\":\"YES\",\"critic\":\"顾航\",\"criticized\":\"孟欣\"}",
+    "direct_context_raw_output": "{\"occurred\":\"YES\",\"critic\":\"顾航\",\"criticized\":\"孟欣\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_harm_components": []
+  },
+  {
+    "context_call_id": "B11-F03-YES-AB-ACTIVE-LIST21-OPPOSITE_TARGET_FIRST",
+    "single_call_id": "B11-F03-YES-AB-ACTIVE-LIST21-SINGLE",
+    "selected_line": "在这次复盘中，顾航批评了孟欣。",
+    "complete_message_identity": true,
+    "new_calls": 0,
+    "independent_output": false,
+    "actual_single_raw_output_reused": "{\"occurred\":\"YES\",\"critic\":\"顾航\",\"criticized\":\"孟欣\"}",
+    "direct_context_raw_output": "{\"occurred\":\"YES\",\"critic\":\"顾航\",\"criticized\":\"孟欣\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_harm_components": []
+  },
+  {
+    "context_call_id": "B11-F03-YES-AB-ACTIVE-LIST21-OPPOSITE_TARGET_LAST",
+    "single_call_id": "B11-F03-YES-AB-ACTIVE-LIST21-SINGLE",
+    "selected_line": "在这次复盘中，顾航批评了孟欣。",
+    "complete_message_identity": true,
+    "new_calls": 0,
+    "independent_output": false,
+    "actual_single_raw_output_reused": "{\"occurred\":\"YES\",\"critic\":\"顾航\",\"criticized\":\"孟欣\"}",
+    "direct_context_raw_output": "{\"occurred\":\"YES\",\"critic\":\"顾航\",\"criticized\":\"孟欣\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_harm_components": []
+  },
+  {
+    "context_call_id": "B11-F03-YES-AB-ACTIVE-LIST12-OPPOSITE_TARGET_FIRST",
+    "single_call_id": "B11-F03-YES-AB-ACTIVE-LIST12-SINGLE",
+    "selected_line": "在这次复盘中，顾航批评了孟欣。",
+    "complete_message_identity": true,
+    "new_calls": 0,
+    "independent_output": false,
+    "actual_single_raw_output_reused": "{\"occurred\":\"YES\",\"critic\":\"顾航\",\"criticized\":\"孟欣\"}",
+    "direct_context_raw_output": "{\"occurred\":\"YES\",\"critic\":\"顾航\",\"criticized\":\"孟欣\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_harm_components": []
+  },
+  {
+    "context_call_id": "B11-F03-YES-AB-PASSIVE-LIST21-OPPOSITE_TARGET_FIRST",
+    "single_call_id": "B11-F03-YES-AB-PASSIVE-LIST21-SINGLE",
+    "selected_line": "在这次复盘中，孟欣被顾航批评了。",
+    "complete_message_identity": true,
+    "new_calls": 0,
+    "independent_output": false,
+    "actual_single_raw_output_reused": "{\"occurred\":\"YES\",\"critic\":\"顾航\",\"criticized\":\"孟欣\"}",
+    "direct_context_raw_output": "{\"occurred\":\"YES\",\"critic\":\"顾航\",\"criticized\":\"孟欣\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_harm_components": []
+  },
+  {
+    "context_call_id": "B11-F03-YES-AB-PASSIVE-LIST21-OPPOSITE_TARGET_LAST",
+    "single_call_id": "B11-F03-YES-AB-PASSIVE-LIST21-SINGLE",
+    "selected_line": "在这次复盘中，孟欣被顾航批评了。",
+    "complete_message_identity": true,
+    "new_calls": 0,
+    "independent_output": false,
+    "actual_single_raw_output_reused": "{\"occurred\":\"YES\",\"critic\":\"顾航\",\"criticized\":\"孟欣\"}",
+    "direct_context_raw_output": "{\"occurred\":\"YES\",\"critic\":\"顾航\",\"criticized\":\"孟欣\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_harm_components": []
+  },
+  {
+    "context_call_id": "B11-F03-YES-AB-PASSIVE-LIST12-OPPOSITE_TARGET_FIRST",
+    "single_call_id": "B11-F03-YES-AB-PASSIVE-LIST12-SINGLE",
+    "selected_line": "在这次复盘中，孟欣被顾航批评了。",
+    "complete_message_identity": true,
+    "new_calls": 0,
+    "independent_output": false,
+    "actual_single_raw_output_reused": "{\"occurred\":\"YES\",\"critic\":\"顾航\",\"criticized\":\"孟欣\"}",
+    "direct_context_raw_output": "{\"occurred\":\"YES\",\"critic\":\"顾航\",\"criticized\":\"孟欣\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_harm_components": []
+  },
+  {
+    "context_call_id": "B11-F03-YES-AB-PASSIVE-LIST12-OPPOSITE_TARGET_LAST",
+    "single_call_id": "B11-F03-YES-AB-PASSIVE-LIST12-SINGLE",
+    "selected_line": "在这次复盘中，孟欣被顾航批评了。",
+    "complete_message_identity": true,
+    "new_calls": 0,
+    "independent_output": false,
+    "actual_single_raw_output_reused": "{\"occurred\":\"YES\",\"critic\":\"顾航\",\"criticized\":\"孟欣\"}",
+    "direct_context_raw_output": "{\"occurred\":\"YES\",\"critic\":\"顾航\",\"criticized\":\"孟欣\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_harm_components": []
+  },
+  {
+    "context_call_id": "B11-F03-YES-BA-ACTIVE-LIST21-OPPOSITE_TARGET_FIRST",
+    "single_call_id": "B11-F03-YES-BA-ACTIVE-LIST21-SINGLE",
+    "selected_line": "在这次复盘中，孟欣批评了顾航。",
+    "complete_message_identity": true,
+    "new_calls": 0,
+    "independent_output": false,
+    "actual_single_raw_output_reused": "{\"occurred\":\"YES\",\"critic\":\"孟欣\",\"criticized\":\"顾航\"}",
+    "direct_context_raw_output": "{\"occurred\":\"YES\",\"critic\":\"孟欣\",\"criticized\":\"顾航\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_harm_components": []
+  },
+  {
+    "context_call_id": "B11-F03-YES-BA-ACTIVE-LIST21-OPPOSITE_TARGET_LAST",
+    "single_call_id": "B11-F03-YES-BA-ACTIVE-LIST21-SINGLE",
+    "selected_line": "在这次复盘中，孟欣批评了顾航。",
+    "complete_message_identity": true,
+    "new_calls": 0,
+    "independent_output": false,
+    "actual_single_raw_output_reused": "{\"occurred\":\"YES\",\"critic\":\"孟欣\",\"criticized\":\"顾航\"}",
+    "direct_context_raw_output": "{\"occurred\":\"YES\",\"critic\":\"孟欣\",\"criticized\":\"顾航\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_harm_components": []
+  },
+  {
+    "context_call_id": "B11-F03-YES-BA-ACTIVE-LIST12-OPPOSITE_TARGET_FIRST",
+    "single_call_id": "B11-F03-YES-BA-ACTIVE-LIST12-SINGLE",
+    "selected_line": "在这次复盘中，孟欣批评了顾航。",
+    "complete_message_identity": true,
+    "new_calls": 0,
+    "independent_output": false,
+    "actual_single_raw_output_reused": "{\"occurred\":\"YES\",\"critic\":\"孟欣\",\"criticized\":\"顾航\"}",
+    "direct_context_raw_output": "{\"occurred\":\"YES\",\"critic\":\"顾航\",\"criticized\":\"孟欣\"}",
+    "direct_labels": {
+      "role_a": "W",
+      "role_b": "W",
+      "occurrence": "C",
+      "participant": "W",
+      "record": "W"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "W->C",
+      "role_b": "W->C",
+      "occurrence": "C->C",
+      "participant": "W->C",
+      "record": "W->C"
+    },
+    "new_harm_components": []
+  },
+  {
+    "context_call_id": "B11-F03-YES-BA-ACTIVE-LIST12-OPPOSITE_TARGET_LAST",
+    "single_call_id": "B11-F03-YES-BA-ACTIVE-LIST12-SINGLE",
+    "selected_line": "在这次复盘中，孟欣批评了顾航。",
+    "complete_message_identity": true,
+    "new_calls": 0,
+    "independent_output": false,
+    "actual_single_raw_output_reused": "{\"occurred\":\"YES\",\"critic\":\"孟欣\",\"criticized\":\"顾航\"}",
+    "direct_context_raw_output": "{\"occurred\":\"YES\",\"critic\":\"孟欣\",\"criticized\":\"顾航\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_harm_components": []
+  },
+  {
+    "context_call_id": "B11-F03-YES-BA-PASSIVE-LIST21-OPPOSITE_TARGET_LAST",
+    "single_call_id": "B11-F03-YES-BA-PASSIVE-LIST21-SINGLE",
+    "selected_line": "在这次复盘中，顾航被孟欣批评了。",
+    "complete_message_identity": true,
+    "new_calls": 0,
+    "independent_output": false,
+    "actual_single_raw_output_reused": "{\"occurred\":\"YES\",\"critic\":\"孟欣\",\"criticized\":\"顾航\"}",
+    "direct_context_raw_output": "{\"occurred\":\"YES\",\"critic\":\"孟欣\",\"criticized\":\"顾航\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_harm_components": []
+  },
+  {
+    "context_call_id": "B11-F03-YES-BA-PASSIVE-LIST12-OPPOSITE_TARGET_FIRST",
+    "single_call_id": "B11-F03-YES-BA-PASSIVE-LIST12-SINGLE",
+    "selected_line": "在这次复盘中，顾航被孟欣批评了。",
+    "complete_message_identity": true,
+    "new_calls": 0,
+    "independent_output": false,
+    "actual_single_raw_output_reused": "{\"occurred\":\"YES\",\"critic\":\"孟欣\",\"criticized\":\"顾航\"}",
+    "direct_context_raw_output": "{\"occurred\":\"YES\",\"critic\":\"顾航\",\"criticized\":\"孟欣\"}",
+    "direct_labels": {
+      "role_a": "W",
+      "role_b": "W",
+      "occurrence": "C",
+      "participant": "W",
+      "record": "W"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "W->C",
+      "role_b": "W->C",
+      "occurrence": "C->C",
+      "participant": "W->C",
+      "record": "W->C"
+    },
+    "new_harm_components": []
+  },
+  {
+    "context_call_id": "B11-F03-YES-BA-PASSIVE-LIST12-OPPOSITE_TARGET_LAST",
+    "single_call_id": "B11-F03-YES-BA-PASSIVE-LIST12-SINGLE",
+    "selected_line": "在这次复盘中，顾航被孟欣批评了。",
+    "complete_message_identity": true,
+    "new_calls": 0,
+    "independent_output": false,
+    "actual_single_raw_output_reused": "{\"occurred\":\"YES\",\"critic\":\"孟欣\",\"criticized\":\"顾航\"}",
+    "direct_context_raw_output": "{\"occurred\":\"YES\",\"critic\":\"孟欣\",\"criticized\":\"顾航\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_harm_components": []
+  },
+  {
+    "context_call_id": "B11-F03-YES-BA-PASSIVE-LIST21-OPPOSITE_TARGET_FIRST",
+    "single_call_id": "B11-F03-YES-BA-PASSIVE-LIST21-SINGLE",
+    "selected_line": "在这次复盘中，顾航被孟欣批评了。",
+    "complete_message_identity": true,
+    "new_calls": 0,
+    "independent_output": false,
+    "actual_single_raw_output_reused": "{\"occurred\":\"YES\",\"critic\":\"孟欣\",\"criticized\":\"顾航\"}",
+    "direct_context_raw_output": "{\"occurred\":\"YES\",\"critic\":\"顾航\",\"criticized\":\"孟欣\"}",
+    "direct_labels": {
+      "role_a": "W",
+      "role_b": "W",
+      "occurrence": "C",
+      "participant": "W",
+      "record": "W"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "W->C",
+      "role_b": "W->C",
+      "occurrence": "C->C",
+      "participant": "W->C",
+      "record": "W->C"
+    },
+    "new_harm_components": []
+  },
+  {
+    "context_call_id": "B11-F03-NO-AB-ACTIVE-LIST12-OPPOSITE_TARGET_FIRST",
+    "single_call_id": "B11-F03-NO-AB-ACTIVE-LIST12-SINGLE",
+    "selected_line": "在这次复盘中，顾航没有批评孟欣。",
+    "complete_message_identity": true,
+    "new_calls": 0,
+    "independent_output": false,
+    "actual_single_raw_output_reused": "{\"occurred\":\"NO\",\"critic\":\"顾航\",\"criticized\":\"孟欣\"}",
+    "direct_context_raw_output": "{\"occurred\":\"NO\",\"critic\":\"顾航\",\"criticized\":\"孟欣\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_harm_components": []
+  },
+  {
+    "context_call_id": "B11-F03-NO-AB-ACTIVE-LIST12-OPPOSITE_TARGET_LAST",
+    "single_call_id": "B11-F03-NO-AB-ACTIVE-LIST12-SINGLE",
+    "selected_line": "在这次复盘中，顾航没有批评孟欣。",
+    "complete_message_identity": true,
+    "new_calls": 0,
+    "independent_output": false,
+    "actual_single_raw_output_reused": "{\"occurred\":\"NO\",\"critic\":\"顾航\",\"criticized\":\"孟欣\"}",
+    "direct_context_raw_output": "{\"occurred\":\"NO\",\"critic\":\"顾航\",\"criticized\":\"孟欣\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_harm_components": []
+  },
+  {
+    "context_call_id": "B11-F03-NO-AB-ACTIVE-LIST21-OPPOSITE_TARGET_FIRST",
+    "single_call_id": "B11-F03-NO-AB-ACTIVE-LIST21-SINGLE",
+    "selected_line": "在这次复盘中，顾航没有批评孟欣。",
+    "complete_message_identity": true,
+    "new_calls": 0,
+    "independent_output": false,
+    "actual_single_raw_output_reused": "{\"occurred\":\"NO\",\"critic\":\"顾航\",\"criticized\":\"孟欣\"}",
+    "direct_context_raw_output": "{\"occurred\":\"NO\",\"critic\":\"顾航\",\"criticized\":\"孟欣\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_harm_components": []
+  },
+  {
+    "context_call_id": "B11-F03-NO-AB-ACTIVE-LIST21-OPPOSITE_TARGET_LAST",
+    "single_call_id": "B11-F03-NO-AB-ACTIVE-LIST21-SINGLE",
+    "selected_line": "在这次复盘中，顾航没有批评孟欣。",
+    "complete_message_identity": true,
+    "new_calls": 0,
+    "independent_output": false,
+    "actual_single_raw_output_reused": "{\"occurred\":\"NO\",\"critic\":\"顾航\",\"criticized\":\"孟欣\"}",
+    "direct_context_raw_output": "{\"occurred\":\"NO\",\"critic\":\"顾航\",\"criticized\":\"孟欣\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_harm_components": []
+  },
+  {
+    "context_call_id": "B11-F03-NO-AB-PASSIVE-LIST12-OPPOSITE_TARGET_FIRST",
+    "single_call_id": "B11-F03-NO-AB-PASSIVE-LIST12-SINGLE",
+    "selected_line": "在这次复盘中，孟欣没有被顾航批评。",
+    "complete_message_identity": true,
+    "new_calls": 0,
+    "independent_output": false,
+    "actual_single_raw_output_reused": "{\"occurred\":\"NO\",\"critic\":\"顾航\",\"criticized\":\"孟欣\"}",
+    "direct_context_raw_output": "{\"occurred\":\"NO\",\"critic\":\"孟欣\",\"criticized\":\"顾航\"}",
+    "direct_labels": {
+      "role_a": "W",
+      "role_b": "W",
+      "occurrence": "C",
+      "participant": "W",
+      "record": "W"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "W->C",
+      "role_b": "W->C",
+      "occurrence": "C->C",
+      "participant": "W->C",
+      "record": "W->C"
+    },
+    "new_harm_components": []
+  },
+  {
+    "context_call_id": "B11-F03-NO-AB-PASSIVE-LIST12-OPPOSITE_TARGET_LAST",
+    "single_call_id": "B11-F03-NO-AB-PASSIVE-LIST12-SINGLE",
+    "selected_line": "在这次复盘中，孟欣没有被顾航批评。",
+    "complete_message_identity": true,
+    "new_calls": 0,
+    "independent_output": false,
+    "actual_single_raw_output_reused": "{\"occurred\":\"NO\",\"critic\":\"顾航\",\"criticized\":\"孟欣\"}",
+    "direct_context_raw_output": "{\"occurred\":\"NO\",\"critic\":\"顾航\",\"criticized\":\"孟欣\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_harm_components": []
+  },
+  {
+    "context_call_id": "B11-F03-NO-AB-PASSIVE-LIST21-OPPOSITE_TARGET_FIRST",
+    "single_call_id": "B11-F03-NO-AB-PASSIVE-LIST21-SINGLE",
+    "selected_line": "在这次复盘中，孟欣没有被顾航批评。",
+    "complete_message_identity": true,
+    "new_calls": 0,
+    "independent_output": false,
+    "actual_single_raw_output_reused": "{\"occurred\":\"NO\",\"critic\":\"顾航\",\"criticized\":\"孟欣\"}",
+    "direct_context_raw_output": "{\"occurred\":\"NO\",\"critic\":\"孟欣\",\"criticized\":\"顾航\"}",
+    "direct_labels": {
+      "role_a": "W",
+      "role_b": "W",
+      "occurrence": "C",
+      "participant": "W",
+      "record": "W"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "W->C",
+      "role_b": "W->C",
+      "occurrence": "C->C",
+      "participant": "W->C",
+      "record": "W->C"
+    },
+    "new_harm_components": []
+  },
+  {
+    "context_call_id": "B11-F03-NO-AB-PASSIVE-LIST21-OPPOSITE_TARGET_LAST",
+    "single_call_id": "B11-F03-NO-AB-PASSIVE-LIST21-SINGLE",
+    "selected_line": "在这次复盘中，孟欣没有被顾航批评。",
+    "complete_message_identity": true,
+    "new_calls": 0,
+    "independent_output": false,
+    "actual_single_raw_output_reused": "{\"occurred\":\"NO\",\"critic\":\"顾航\",\"criticized\":\"孟欣\"}",
+    "direct_context_raw_output": "{\"occurred\":\"NO\",\"critic\":\"顾航\",\"criticized\":\"孟欣\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_harm_components": []
+  },
+  {
+    "context_call_id": "B11-F03-NO-BA-ACTIVE-LIST12-OPPOSITE_TARGET_LAST",
+    "single_call_id": "B11-F03-NO-BA-ACTIVE-LIST12-SINGLE",
+    "selected_line": "在这次复盘中，孟欣没有批评顾航。",
+    "complete_message_identity": true,
+    "new_calls": 0,
+    "independent_output": false,
+    "actual_single_raw_output_reused": "{\"occurred\":\"NO\",\"critic\":\"孟欣\",\"criticized\":\"顾航\"}",
+    "direct_context_raw_output": "{\"occurred\":\"NO\",\"critic\":\"顾航\",\"criticized\":\"孟欣\"}",
+    "direct_labels": {
+      "role_a": "W",
+      "role_b": "W",
+      "occurrence": "C",
+      "participant": "W",
+      "record": "W"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "W->C",
+      "role_b": "W->C",
+      "occurrence": "C->C",
+      "participant": "W->C",
+      "record": "W->C"
+    },
+    "new_harm_components": []
+  },
+  {
+    "context_call_id": "B11-F03-NO-BA-ACTIVE-LIST21-OPPOSITE_TARGET_FIRST",
+    "single_call_id": "B11-F03-NO-BA-ACTIVE-LIST21-SINGLE",
+    "selected_line": "在这次复盘中，孟欣没有批评顾航。",
+    "complete_message_identity": true,
+    "new_calls": 0,
+    "independent_output": false,
+    "actual_single_raw_output_reused": "{\"occurred\":\"NO\",\"critic\":\"孟欣\",\"criticized\":\"顾航\"}",
+    "direct_context_raw_output": "{\"occurred\":\"NO\",\"critic\":\"顾航\",\"criticized\":\"孟欣\"}",
+    "direct_labels": {
+      "role_a": "W",
+      "role_b": "W",
+      "occurrence": "C",
+      "participant": "W",
+      "record": "W"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "W->C",
+      "role_b": "W->C",
+      "occurrence": "C->C",
+      "participant": "W->C",
+      "record": "W->C"
+    },
+    "new_harm_components": []
+  },
+  {
+    "context_call_id": "B11-F03-NO-BA-ACTIVE-LIST21-OPPOSITE_TARGET_LAST",
+    "single_call_id": "B11-F03-NO-BA-ACTIVE-LIST21-SINGLE",
+    "selected_line": "在这次复盘中，孟欣没有批评顾航。",
+    "complete_message_identity": true,
+    "new_calls": 0,
+    "independent_output": false,
+    "actual_single_raw_output_reused": "{\"occurred\":\"NO\",\"critic\":\"孟欣\",\"criticized\":\"顾航\"}",
+    "direct_context_raw_output": "{\"occurred\":\"NO\",\"critic\":\"顾航\",\"criticized\":\"孟欣\"}",
+    "direct_labels": {
+      "role_a": "W",
+      "role_b": "W",
+      "occurrence": "C",
+      "participant": "W",
+      "record": "W"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "W->C",
+      "role_b": "W->C",
+      "occurrence": "C->C",
+      "participant": "W->C",
+      "record": "W->C"
+    },
+    "new_harm_components": []
+  },
+  {
+    "context_call_id": "B11-F03-NO-BA-ACTIVE-LIST12-OPPOSITE_TARGET_FIRST",
+    "single_call_id": "B11-F03-NO-BA-ACTIVE-LIST12-SINGLE",
+    "selected_line": "在这次复盘中，孟欣没有批评顾航。",
+    "complete_message_identity": true,
+    "new_calls": 0,
+    "independent_output": false,
+    "actual_single_raw_output_reused": "{\"occurred\":\"NO\",\"critic\":\"孟欣\",\"criticized\":\"顾航\"}",
+    "direct_context_raw_output": "{\"occurred\":\"NO\",\"critic\":\"顾航\",\"criticized\":\"孟欣\"}",
+    "direct_labels": {
+      "role_a": "W",
+      "role_b": "W",
+      "occurrence": "C",
+      "participant": "W",
+      "record": "W"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "W->C",
+      "role_b": "W->C",
+      "occurrence": "C->C",
+      "participant": "W->C",
+      "record": "W->C"
+    },
+    "new_harm_components": []
+  },
+  {
+    "context_call_id": "B11-F03-NO-BA-PASSIVE-LIST21-OPPOSITE_TARGET_FIRST",
+    "single_call_id": "B11-F03-NO-BA-PASSIVE-LIST21-SINGLE",
+    "selected_line": "在这次复盘中，顾航没有被孟欣批评。",
+    "complete_message_identity": true,
+    "new_calls": 0,
+    "independent_output": false,
+    "actual_single_raw_output_reused": "{\"occurred\":\"NO\",\"critic\":\"孟欣\",\"criticized\":\"顾航\"}",
+    "direct_context_raw_output": "{\"occurred\":\"NO\",\"critic\":\"顾航\",\"criticized\":\"孟欣\"}",
+    "direct_labels": {
+      "role_a": "W",
+      "role_b": "W",
+      "occurrence": "C",
+      "participant": "W",
+      "record": "W"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "W->C",
+      "role_b": "W->C",
+      "occurrence": "C->C",
+      "participant": "W->C",
+      "record": "W->C"
+    },
+    "new_harm_components": []
+  },
+  {
+    "context_call_id": "B11-F03-NO-BA-PASSIVE-LIST21-OPPOSITE_TARGET_LAST",
+    "single_call_id": "B11-F03-NO-BA-PASSIVE-LIST21-SINGLE",
+    "selected_line": "在这次复盘中，顾航没有被孟欣批评。",
+    "complete_message_identity": true,
+    "new_calls": 0,
+    "independent_output": false,
+    "actual_single_raw_output_reused": "{\"occurred\":\"NO\",\"critic\":\"孟欣\",\"criticized\":\"顾航\"}",
+    "direct_context_raw_output": "{\"occurred\":\"NO\",\"critic\":\"顾航\",\"criticized\":\"孟欣\"}",
+    "direct_labels": {
+      "role_a": "W",
+      "role_b": "W",
+      "occurrence": "C",
+      "participant": "W",
+      "record": "W"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "W->C",
+      "role_b": "W->C",
+      "occurrence": "C->C",
+      "participant": "W->C",
+      "record": "W->C"
+    },
+    "new_harm_components": []
+  },
+  {
+    "context_call_id": "B11-F03-NO-BA-PASSIVE-LIST12-OPPOSITE_TARGET_FIRST",
+    "single_call_id": "B11-F03-NO-BA-PASSIVE-LIST12-SINGLE",
+    "selected_line": "在这次复盘中，顾航没有被孟欣批评。",
+    "complete_message_identity": true,
+    "new_calls": 0,
+    "independent_output": false,
+    "actual_single_raw_output_reused": "{\"occurred\":\"NO\",\"critic\":\"孟欣\",\"criticized\":\"顾航\"}",
+    "direct_context_raw_output": "{\"occurred\":\"NO\",\"critic\":\"顾航\",\"criticized\":\"孟欣\"}",
+    "direct_labels": {
+      "role_a": "W",
+      "role_b": "W",
+      "occurrence": "C",
+      "participant": "W",
+      "record": "W"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "W->C",
+      "role_b": "W->C",
+      "occurrence": "C->C",
+      "participant": "W->C",
+      "record": "W->C"
+    },
+    "new_harm_components": []
+  },
+  {
+    "context_call_id": "B11-F03-NO-BA-PASSIVE-LIST12-OPPOSITE_TARGET_LAST",
+    "single_call_id": "B11-F03-NO-BA-PASSIVE-LIST12-SINGLE",
+    "selected_line": "在这次复盘中，顾航没有被孟欣批评。",
+    "complete_message_identity": true,
+    "new_calls": 0,
+    "independent_output": false,
+    "actual_single_raw_output_reused": "{\"occurred\":\"NO\",\"critic\":\"孟欣\",\"criticized\":\"顾航\"}",
+    "direct_context_raw_output": "{\"occurred\":\"NO\",\"critic\":\"顾航\",\"criticized\":\"孟欣\"}",
+    "direct_labels": {
+      "role_a": "W",
+      "role_b": "W",
+      "occurrence": "C",
+      "participant": "W",
+      "record": "W"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "W->C",
+      "role_b": "W->C",
+      "occurrence": "C->C",
+      "participant": "W->C",
+      "record": "W->C"
+    },
+    "new_harm_components": []
+  },
+  {
+    "context_call_id": "B11-F03-UNKNOWN-AB-ACTIVE-LIST21-OPPOSITE_TARGET_FIRST",
+    "single_call_id": "B11-F03-UNKNOWN-AB-ACTIVE-LIST21-SINGLE",
+    "selected_line": "在这次复盘中，顾航是否批评了孟欣，目前尚无结论。",
+    "complete_message_identity": true,
+    "new_calls": 0,
+    "independent_output": false,
+    "actual_single_raw_output_reused": "{\"occurred\":\"UNKNOWN\",\"critic\":\"顾航\",\"criticized\":\"孟欣\"}",
+    "direct_context_raw_output": "{\"occurred\":\"UNKNOWN\",\"critic\":\"顾航\",\"criticized\":\"孟欣\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_harm_components": []
+  },
+  {
+    "context_call_id": "B11-F03-UNKNOWN-AB-ACTIVE-LIST21-OPPOSITE_TARGET_LAST",
+    "single_call_id": "B11-F03-UNKNOWN-AB-ACTIVE-LIST21-SINGLE",
+    "selected_line": "在这次复盘中，顾航是否批评了孟欣，目前尚无结论。",
+    "complete_message_identity": true,
+    "new_calls": 0,
+    "independent_output": false,
+    "actual_single_raw_output_reused": "{\"occurred\":\"UNKNOWN\",\"critic\":\"顾航\",\"criticized\":\"孟欣\"}",
+    "direct_context_raw_output": "{\"occurred\":\"UNKNOWN\",\"critic\":\"顾航\",\"criticized\":\"孟欣\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_harm_components": []
+  },
+  {
+    "context_call_id": "B11-F03-UNKNOWN-AB-ACTIVE-LIST12-OPPOSITE_TARGET_FIRST",
+    "single_call_id": "B11-F03-UNKNOWN-AB-ACTIVE-LIST12-SINGLE",
+    "selected_line": "在这次复盘中，顾航是否批评了孟欣，目前尚无结论。",
+    "complete_message_identity": true,
+    "new_calls": 0,
+    "independent_output": false,
+    "actual_single_raw_output_reused": "{\"occurred\":\"UNKNOWN\",\"critic\":\"顾航\",\"criticized\":\"孟欣\"}",
+    "direct_context_raw_output": "{\"occurred\":\"UNKNOWN\",\"critic\":\"顾航\",\"criticized\":\"孟欣\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_harm_components": []
+  },
+  {
+    "context_call_id": "B11-F03-UNKNOWN-AB-ACTIVE-LIST12-OPPOSITE_TARGET_LAST",
+    "single_call_id": "B11-F03-UNKNOWN-AB-ACTIVE-LIST12-SINGLE",
+    "selected_line": "在这次复盘中，顾航是否批评了孟欣，目前尚无结论。",
+    "complete_message_identity": true,
+    "new_calls": 0,
+    "independent_output": false,
+    "actual_single_raw_output_reused": "{\"occurred\":\"UNKNOWN\",\"critic\":\"顾航\",\"criticized\":\"孟欣\"}",
+    "direct_context_raw_output": "{\"occurred\":\"UNKNOWN\",\"critic\":null,\"criticized\":null}",
+    "direct_labels": {
+      "role_a": "U",
+      "role_b": "U",
+      "occurrence": "C",
+      "participant": "U",
+      "record": "U"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "U->C",
+      "role_b": "U->C",
+      "occurrence": "C->C",
+      "participant": "U->C",
+      "record": "U->C"
+    },
+    "new_harm_components": []
+  },
+  {
+    "context_call_id": "B11-F03-UNKNOWN-AB-PASSIVE-LIST21-OPPOSITE_TARGET_LAST",
+    "single_call_id": "B11-F03-UNKNOWN-AB-PASSIVE-LIST21-SINGLE",
+    "selected_line": "在这次复盘中，孟欣是否被顾航批评了，目前尚无结论。",
+    "complete_message_identity": true,
+    "new_calls": 0,
+    "independent_output": false,
+    "actual_single_raw_output_reused": "{\"occurred\":\"UNKNOWN\",\"critic\":\"顾航\",\"criticized\":\"孟欣\"}",
+    "direct_context_raw_output": "{\"occurred\":\"UNKNOWN\",\"critic\":\"顾航\",\"criticized\":\"孟欣\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_harm_components": []
+  },
+  {
+    "context_call_id": "B11-F03-UNKNOWN-AB-PASSIVE-LIST12-OPPOSITE_TARGET_FIRST",
+    "single_call_id": "B11-F03-UNKNOWN-AB-PASSIVE-LIST12-SINGLE",
+    "selected_line": "在这次复盘中，孟欣是否被顾航批评了，目前尚无结论。",
+    "complete_message_identity": true,
+    "new_calls": 0,
+    "independent_output": false,
+    "actual_single_raw_output_reused": "{\"occurred\":\"UNKNOWN\",\"critic\":\"顾航\",\"criticized\":\"孟欣\"}",
+    "direct_context_raw_output": "{\"occurred\":\"UNKNOWN\",\"critic\":\"顾航\",\"criticized\":\"孟欣\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_harm_components": []
+  },
+  {
+    "context_call_id": "B11-F03-UNKNOWN-AB-PASSIVE-LIST12-OPPOSITE_TARGET_LAST",
+    "single_call_id": "B11-F03-UNKNOWN-AB-PASSIVE-LIST12-SINGLE",
+    "selected_line": "在这次复盘中，孟欣是否被顾航批评了，目前尚无结论。",
+    "complete_message_identity": true,
+    "new_calls": 0,
+    "independent_output": false,
+    "actual_single_raw_output_reused": "{\"occurred\":\"UNKNOWN\",\"critic\":\"顾航\",\"criticized\":\"孟欣\"}",
+    "direct_context_raw_output": "{\"occurred\":\"UNKNOWN\",\"critic\":null,\"criticized\":null}",
+    "direct_labels": {
+      "role_a": "U",
+      "role_b": "U",
+      "occurrence": "C",
+      "participant": "U",
+      "record": "U"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "U->C",
+      "role_b": "U->C",
+      "occurrence": "C->C",
+      "participant": "U->C",
+      "record": "U->C"
+    },
+    "new_harm_components": []
+  },
+  {
+    "context_call_id": "B11-F03-UNKNOWN-AB-PASSIVE-LIST21-OPPOSITE_TARGET_FIRST",
+    "single_call_id": "B11-F03-UNKNOWN-AB-PASSIVE-LIST21-SINGLE",
+    "selected_line": "在这次复盘中，孟欣是否被顾航批评了，目前尚无结论。",
+    "complete_message_identity": true,
+    "new_calls": 0,
+    "independent_output": false,
+    "actual_single_raw_output_reused": "{\"occurred\":\"UNKNOWN\",\"critic\":\"顾航\",\"criticized\":\"孟欣\"}",
+    "direct_context_raw_output": "{\"occurred\":\"UNKNOWN\",\"critic\":\"孟欣\",\"criticized\":\"顾航\"}",
+    "direct_labels": {
+      "role_a": "W",
+      "role_b": "W",
+      "occurrence": "C",
+      "participant": "W",
+      "record": "W"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "W->C",
+      "role_b": "W->C",
+      "occurrence": "C->C",
+      "participant": "W->C",
+      "record": "W->C"
+    },
+    "new_harm_components": []
+  },
+  {
+    "context_call_id": "B11-F03-UNKNOWN-BA-ACTIVE-LIST12-OPPOSITE_TARGET_FIRST",
+    "single_call_id": "B11-F03-UNKNOWN-BA-ACTIVE-LIST12-SINGLE",
+    "selected_line": "在这次复盘中，孟欣是否批评了顾航，目前尚无结论。",
+    "complete_message_identity": true,
+    "new_calls": 0,
+    "independent_output": false,
+    "actual_single_raw_output_reused": "{\"occurred\":\"UNKNOWN\",\"critic\":\"孟欣\",\"criticized\":\"顾航\"}",
+    "direct_context_raw_output": "{\"occurred\":\"UNKNOWN\",\"critic\":\"顾航\",\"criticized\":\"孟欣\"}",
+    "direct_labels": {
+      "role_a": "W",
+      "role_b": "W",
+      "occurrence": "C",
+      "participant": "W",
+      "record": "W"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "W->C",
+      "role_b": "W->C",
+      "occurrence": "C->C",
+      "participant": "W->C",
+      "record": "W->C"
+    },
+    "new_harm_components": []
+  },
+  {
+    "context_call_id": "B11-F03-UNKNOWN-BA-ACTIVE-LIST12-OPPOSITE_TARGET_LAST",
+    "single_call_id": "B11-F03-UNKNOWN-BA-ACTIVE-LIST12-SINGLE",
+    "selected_line": "在这次复盘中，孟欣是否批评了顾航，目前尚无结论。",
+    "complete_message_identity": true,
+    "new_calls": 0,
+    "independent_output": false,
+    "actual_single_raw_output_reused": "{\"occurred\":\"UNKNOWN\",\"critic\":\"孟欣\",\"criticized\":\"顾航\"}",
+    "direct_context_raw_output": "{\"occurred\":\"UNKNOWN\",\"critic\":null,\"criticized\":null}",
+    "direct_labels": {
+      "role_a": "U",
+      "role_b": "U",
+      "occurrence": "C",
+      "participant": "U",
+      "record": "U"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "U->C",
+      "role_b": "U->C",
+      "occurrence": "C->C",
+      "participant": "U->C",
+      "record": "U->C"
+    },
+    "new_harm_components": []
+  },
+  {
+    "context_call_id": "B11-F03-UNKNOWN-BA-ACTIVE-LIST21-OPPOSITE_TARGET_FIRST",
+    "single_call_id": "B11-F03-UNKNOWN-BA-ACTIVE-LIST21-SINGLE",
+    "selected_line": "在这次复盘中，孟欣是否批评了顾航，目前尚无结论。",
+    "complete_message_identity": true,
+    "new_calls": 0,
+    "independent_output": false,
+    "actual_single_raw_output_reused": "{\"occurred\":\"UNKNOWN\",\"critic\":\"孟欣\",\"criticized\":\"顾航\"}",
+    "direct_context_raw_output": "{\"occurred\":\"UNKNOWN\",\"critic\":\"顾航\",\"criticized\":\"孟欣\"}",
+    "direct_labels": {
+      "role_a": "W",
+      "role_b": "W",
+      "occurrence": "C",
+      "participant": "W",
+      "record": "W"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "W->C",
+      "role_b": "W->C",
+      "occurrence": "C->C",
+      "participant": "W->C",
+      "record": "W->C"
+    },
+    "new_harm_components": []
+  },
+  {
+    "context_call_id": "B11-F03-UNKNOWN-BA-ACTIVE-LIST21-OPPOSITE_TARGET_LAST",
+    "single_call_id": "B11-F03-UNKNOWN-BA-ACTIVE-LIST21-SINGLE",
+    "selected_line": "在这次复盘中，孟欣是否批评了顾航，目前尚无结论。",
+    "complete_message_identity": true,
+    "new_calls": 0,
+    "independent_output": false,
+    "actual_single_raw_output_reused": "{\"occurred\":\"UNKNOWN\",\"critic\":\"孟欣\",\"criticized\":\"顾航\"}",
+    "direct_context_raw_output": "{\"occurred\":\"UNKNOWN\",\"critic\":null,\"criticized\":null}",
+    "direct_labels": {
+      "role_a": "U",
+      "role_b": "U",
+      "occurrence": "C",
+      "participant": "U",
+      "record": "U"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "U->C",
+      "role_b": "U->C",
+      "occurrence": "C->C",
+      "participant": "U->C",
+      "record": "U->C"
+    },
+    "new_harm_components": []
+  },
+  {
+    "context_call_id": "B11-F03-UNKNOWN-BA-PASSIVE-LIST12-OPPOSITE_TARGET_FIRST",
+    "single_call_id": "B11-F03-UNKNOWN-BA-PASSIVE-LIST12-SINGLE",
+    "selected_line": "在这次复盘中，顾航是否被孟欣批评了，目前尚无结论。",
+    "complete_message_identity": true,
+    "new_calls": 0,
+    "independent_output": false,
+    "actual_single_raw_output_reused": "{\"occurred\":\"UNKNOWN\",\"critic\":\"孟欣\",\"criticized\":\"顾航\"}",
+    "direct_context_raw_output": "{\"occurred\":\"UNKNOWN\",\"critic\":\"顾航\",\"criticized\":\"孟欣\"}",
+    "direct_labels": {
+      "role_a": "W",
+      "role_b": "W",
+      "occurrence": "C",
+      "participant": "W",
+      "record": "W"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "W->C",
+      "role_b": "W->C",
+      "occurrence": "C->C",
+      "participant": "W->C",
+      "record": "W->C"
+    },
+    "new_harm_components": []
+  },
+  {
+    "context_call_id": "B11-F03-UNKNOWN-BA-PASSIVE-LIST12-OPPOSITE_TARGET_LAST",
+    "single_call_id": "B11-F03-UNKNOWN-BA-PASSIVE-LIST12-SINGLE",
+    "selected_line": "在这次复盘中，顾航是否被孟欣批评了，目前尚无结论。",
+    "complete_message_identity": true,
+    "new_calls": 0,
+    "independent_output": false,
+    "actual_single_raw_output_reused": "{\"occurred\":\"UNKNOWN\",\"critic\":\"孟欣\",\"criticized\":\"顾航\"}",
+    "direct_context_raw_output": "{\"occurred\":\"UNKNOWN\",\"critic\":\"顾航\",\"criticized\":\"孟欣\"}",
+    "direct_labels": {
+      "role_a": "W",
+      "role_b": "W",
+      "occurrence": "C",
+      "participant": "W",
+      "record": "W"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "W->C",
+      "role_b": "W->C",
+      "occurrence": "C->C",
+      "participant": "W->C",
+      "record": "W->C"
+    },
+    "new_harm_components": []
+  },
+  {
+    "context_call_id": "B11-F03-UNKNOWN-BA-PASSIVE-LIST21-OPPOSITE_TARGET_FIRST",
+    "single_call_id": "B11-F03-UNKNOWN-BA-PASSIVE-LIST21-SINGLE",
+    "selected_line": "在这次复盘中，顾航是否被孟欣批评了，目前尚无结论。",
+    "complete_message_identity": true,
+    "new_calls": 0,
+    "independent_output": false,
+    "actual_single_raw_output_reused": "{\"occurred\":\"UNKNOWN\",\"critic\":\"孟欣\",\"criticized\":\"顾航\"}",
+    "direct_context_raw_output": "{\"occurred\":\"UNKNOWN\",\"critic\":\"顾航\",\"criticized\":\"孟欣\"}",
+    "direct_labels": {
+      "role_a": "W",
+      "role_b": "W",
+      "occurrence": "C",
+      "participant": "W",
+      "record": "W"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "W->C",
+      "role_b": "W->C",
+      "occurrence": "C->C",
+      "participant": "W->C",
+      "record": "W->C"
+    },
+    "new_harm_components": []
+  },
+  {
+    "context_call_id": "B11-F03-UNKNOWN-BA-PASSIVE-LIST21-OPPOSITE_TARGET_LAST",
+    "single_call_id": "B11-F03-UNKNOWN-BA-PASSIVE-LIST21-SINGLE",
+    "selected_line": "在这次复盘中，顾航是否被孟欣批评了，目前尚无结论。",
+    "complete_message_identity": true,
+    "new_calls": 0,
+    "independent_output": false,
+    "actual_single_raw_output_reused": "{\"occurred\":\"UNKNOWN\",\"critic\":\"孟欣\",\"criticized\":\"顾航\"}",
+    "direct_context_raw_output": "{\"occurred\":\"UNKNOWN\",\"critic\":\"孟欣\",\"criticized\":\"顾航\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_harm_components": []
+  },
+  {
+    "context_call_id": "B11-F04-YES-AB-ACTIVE-LIST21-OPPOSITE_TARGET_FIRST",
+    "single_call_id": "B11-F04-YES-AB-ACTIVE-LIST21-SINGLE",
+    "selected_line": "在这次评选中，程昊推荐了杜晴。",
+    "complete_message_identity": true,
+    "new_calls": 0,
+    "independent_output": false,
+    "actual_single_raw_output_reused": "{\"occurred\":\"YES\",\"recommender\":\"程昊\",\"recommended\":\"杜晴\"}",
+    "direct_context_raw_output": "{\"occurred\":\"YES\",\"recommender\":\"程昊\",\"recommended\":\"杜晴\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_harm_components": []
+  },
+  {
+    "context_call_id": "B11-F04-YES-AB-ACTIVE-LIST21-OPPOSITE_TARGET_LAST",
+    "single_call_id": "B11-F04-YES-AB-ACTIVE-LIST21-SINGLE",
+    "selected_line": "在这次评选中，程昊推荐了杜晴。",
+    "complete_message_identity": true,
+    "new_calls": 0,
+    "independent_output": false,
+    "actual_single_raw_output_reused": "{\"occurred\":\"YES\",\"recommender\":\"程昊\",\"recommended\":\"杜晴\"}",
+    "direct_context_raw_output": "{\"occurred\":\"YES\",\"recommender\":\"程昊\",\"recommended\":\"杜晴\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_harm_components": []
+  },
+  {
+    "context_call_id": "B11-F04-YES-AB-ACTIVE-LIST12-OPPOSITE_TARGET_FIRST",
+    "single_call_id": "B11-F04-YES-AB-ACTIVE-LIST12-SINGLE",
+    "selected_line": "在这次评选中，程昊推荐了杜晴。",
+    "complete_message_identity": true,
+    "new_calls": 0,
+    "independent_output": false,
+    "actual_single_raw_output_reused": "{\"occurred\":\"YES\",\"recommender\":\"程昊\",\"recommended\":\"杜晴\"}",
+    "direct_context_raw_output": "{\"occurred\":\"YES\",\"recommender\":\"程昊\",\"recommended\":\"杜晴\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_harm_components": []
+  },
+  {
+    "context_call_id": "B11-F04-YES-AB-ACTIVE-LIST12-OPPOSITE_TARGET_LAST",
+    "single_call_id": "B11-F04-YES-AB-ACTIVE-LIST12-SINGLE",
+    "selected_line": "在这次评选中，程昊推荐了杜晴。",
+    "complete_message_identity": true,
+    "new_calls": 0,
+    "independent_output": false,
+    "actual_single_raw_output_reused": "{\"occurred\":\"YES\",\"recommender\":\"程昊\",\"recommended\":\"杜晴\"}",
+    "direct_context_raw_output": "{\"occurred\":\"YES\",\"recommender\":\"程昊\",\"recommended\":\"杜晴\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_harm_components": []
+  },
+  {
+    "context_call_id": "B11-F04-YES-AB-PASSIVE-LIST21-OPPOSITE_TARGET_FIRST",
+    "single_call_id": "B11-F04-YES-AB-PASSIVE-LIST21-SINGLE",
+    "selected_line": "在这次评选中，杜晴被程昊推荐了。",
+    "complete_message_identity": true,
+    "new_calls": 0,
+    "independent_output": false,
+    "actual_single_raw_output_reused": "{\"occurred\":\"YES\",\"recommender\":\"程昊\",\"recommended\":\"杜晴\"}",
+    "direct_context_raw_output": "{\"occurred\":\"YES\",\"recommender\":\"程昊\",\"recommended\":\"杜晴\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_harm_components": []
+  },
+  {
+    "context_call_id": "B11-F04-YES-AB-PASSIVE-LIST21-OPPOSITE_TARGET_LAST",
+    "single_call_id": "B11-F04-YES-AB-PASSIVE-LIST21-SINGLE",
+    "selected_line": "在这次评选中，杜晴被程昊推荐了。",
+    "complete_message_identity": true,
+    "new_calls": 0,
+    "independent_output": false,
+    "actual_single_raw_output_reused": "{\"occurred\":\"YES\",\"recommender\":\"程昊\",\"recommended\":\"杜晴\"}",
+    "direct_context_raw_output": "{\"occurred\":\"UNKNOWN\",\"recommender\":\"程昊\",\"recommended\":\"杜晴\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "U",
+      "participant": "C",
+      "record": "U"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "U->C",
+      "participant": "C->C",
+      "record": "U->C"
+    },
+    "new_harm_components": []
+  },
+  {
+    "context_call_id": "B11-F04-YES-AB-PASSIVE-LIST12-OPPOSITE_TARGET_FIRST",
+    "single_call_id": "B11-F04-YES-AB-PASSIVE-LIST12-SINGLE",
+    "selected_line": "在这次评选中，杜晴被程昊推荐了。",
+    "complete_message_identity": true,
+    "new_calls": 0,
+    "independent_output": false,
+    "actual_single_raw_output_reused": "{\"occurred\":\"YES\",\"recommender\":\"程昊\",\"recommended\":\"杜晴\"}",
+    "direct_context_raw_output": "{\"occurred\":\"YES\",\"recommender\":\"程昊\",\"recommended\":\"杜晴\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_harm_components": []
+  },
+  {
+    "context_call_id": "B11-F04-YES-AB-PASSIVE-LIST12-OPPOSITE_TARGET_LAST",
+    "single_call_id": "B11-F04-YES-AB-PASSIVE-LIST12-SINGLE",
+    "selected_line": "在这次评选中，杜晴被程昊推荐了。",
+    "complete_message_identity": true,
+    "new_calls": 0,
+    "independent_output": false,
+    "actual_single_raw_output_reused": "{\"occurred\":\"YES\",\"recommender\":\"程昊\",\"recommended\":\"杜晴\"}",
+    "direct_context_raw_output": "{\"occurred\":\"YES\",\"recommender\":\"程昊\",\"recommended\":\"杜晴\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_harm_components": []
+  },
+  {
+    "context_call_id": "B11-F04-YES-BA-ACTIVE-LIST21-OPPOSITE_TARGET_LAST",
+    "single_call_id": "B11-F04-YES-BA-ACTIVE-LIST21-SINGLE",
+    "selected_line": "在这次评选中，杜晴推荐了程昊。",
+    "complete_message_identity": true,
+    "new_calls": 0,
+    "independent_output": false,
+    "actual_single_raw_output_reused": "{\"occurred\":\"YES\",\"recommender\":\"杜晴\",\"recommended\":\"程昊\"}",
+    "direct_context_raw_output": "{\"occurred\":\"YES\",\"recommender\":\"杜晴\",\"recommended\":\"程昊\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_harm_components": []
+  },
+  {
+    "context_call_id": "B11-F04-YES-BA-ACTIVE-LIST12-OPPOSITE_TARGET_FIRST",
+    "single_call_id": "B11-F04-YES-BA-ACTIVE-LIST12-SINGLE",
+    "selected_line": "在这次评选中，杜晴推荐了程昊。",
+    "complete_message_identity": true,
+    "new_calls": 0,
+    "independent_output": false,
+    "actual_single_raw_output_reused": "{\"occurred\":\"YES\",\"recommender\":\"杜晴\",\"recommended\":\"程昊\"}",
+    "direct_context_raw_output": "{\"occurred\":\"YES\",\"recommender\":\"杜晴\",\"recommended\":\"程昊\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_harm_components": []
+  },
+  {
+    "context_call_id": "B11-F04-YES-BA-ACTIVE-LIST12-OPPOSITE_TARGET_LAST",
+    "single_call_id": "B11-F04-YES-BA-ACTIVE-LIST12-SINGLE",
+    "selected_line": "在这次评选中，杜晴推荐了程昊。",
+    "complete_message_identity": true,
+    "new_calls": 0,
+    "independent_output": false,
+    "actual_single_raw_output_reused": "{\"occurred\":\"YES\",\"recommender\":\"杜晴\",\"recommended\":\"程昊\"}",
+    "direct_context_raw_output": "{\"occurred\":\"YES\",\"recommender\":\"杜晴\",\"recommended\":\"程昊\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_harm_components": []
+  },
+  {
+    "context_call_id": "B11-F04-YES-BA-ACTIVE-LIST21-OPPOSITE_TARGET_FIRST",
+    "single_call_id": "B11-F04-YES-BA-ACTIVE-LIST21-SINGLE",
+    "selected_line": "在这次评选中，杜晴推荐了程昊。",
+    "complete_message_identity": true,
+    "new_calls": 0,
+    "independent_output": false,
+    "actual_single_raw_output_reused": "{\"occurred\":\"YES\",\"recommender\":\"杜晴\",\"recommended\":\"程昊\"}",
+    "direct_context_raw_output": "{\"occurred\":\"YES\",\"recommender\":\"杜晴\",\"recommended\":\"程昊\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_harm_components": []
+  },
+  {
+    "context_call_id": "B11-F04-YES-BA-PASSIVE-LIST12-OPPOSITE_TARGET_FIRST",
+    "single_call_id": "B11-F04-YES-BA-PASSIVE-LIST12-SINGLE",
+    "selected_line": "在这次评选中，程昊被杜晴推荐了。",
+    "complete_message_identity": true,
+    "new_calls": 0,
+    "independent_output": false,
+    "actual_single_raw_output_reused": "{\"occurred\":\"YES\",\"recommender\":\"杜晴\",\"recommended\":\"程昊\"}",
+    "direct_context_raw_output": "{\"occurred\":\"YES\",\"recommender\":\"程昊\",\"recommended\":\"杜晴\"}",
+    "direct_labels": {
+      "role_a": "W",
+      "role_b": "W",
+      "occurrence": "C",
+      "participant": "W",
+      "record": "W"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "W->C",
+      "role_b": "W->C",
+      "occurrence": "C->C",
+      "participant": "W->C",
+      "record": "W->C"
+    },
+    "new_harm_components": []
+  },
+  {
+    "context_call_id": "B11-F04-YES-BA-PASSIVE-LIST12-OPPOSITE_TARGET_LAST",
+    "single_call_id": "B11-F04-YES-BA-PASSIVE-LIST12-SINGLE",
+    "selected_line": "在这次评选中，程昊被杜晴推荐了。",
+    "complete_message_identity": true,
+    "new_calls": 0,
+    "independent_output": false,
+    "actual_single_raw_output_reused": "{\"occurred\":\"YES\",\"recommender\":\"杜晴\",\"recommended\":\"程昊\"}",
+    "direct_context_raw_output": "{\"occurred\":\"YES\",\"recommender\":\"程昊\",\"recommended\":\"杜晴\"}",
+    "direct_labels": {
+      "role_a": "W",
+      "role_b": "W",
+      "occurrence": "C",
+      "participant": "W",
+      "record": "W"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "W->C",
+      "role_b": "W->C",
+      "occurrence": "C->C",
+      "participant": "W->C",
+      "record": "W->C"
+    },
+    "new_harm_components": []
+  },
+  {
+    "context_call_id": "B11-F04-YES-BA-PASSIVE-LIST21-OPPOSITE_TARGET_FIRST",
+    "single_call_id": "B11-F04-YES-BA-PASSIVE-LIST21-SINGLE",
+    "selected_line": "在这次评选中，程昊被杜晴推荐了。",
+    "complete_message_identity": true,
+    "new_calls": 0,
+    "independent_output": false,
+    "actual_single_raw_output_reused": "{\"occurred\":\"YES\",\"recommender\":\"杜晴\",\"recommended\":\"程昊\"}",
+    "direct_context_raw_output": "{\"occurred\":\"YES\",\"recommender\":\"程昊\",\"recommended\":\"杜晴\"}",
+    "direct_labels": {
+      "role_a": "W",
+      "role_b": "W",
+      "occurrence": "C",
+      "participant": "W",
+      "record": "W"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "W->C",
+      "role_b": "W->C",
+      "occurrence": "C->C",
+      "participant": "W->C",
+      "record": "W->C"
+    },
+    "new_harm_components": []
+  },
+  {
+    "context_call_id": "B11-F04-YES-BA-PASSIVE-LIST21-OPPOSITE_TARGET_LAST",
+    "single_call_id": "B11-F04-YES-BA-PASSIVE-LIST21-SINGLE",
+    "selected_line": "在这次评选中，程昊被杜晴推荐了。",
+    "complete_message_identity": true,
+    "new_calls": 0,
+    "independent_output": false,
+    "actual_single_raw_output_reused": "{\"occurred\":\"YES\",\"recommender\":\"杜晴\",\"recommended\":\"程昊\"}",
+    "direct_context_raw_output": "{\"occurred\":\"YES\",\"recommender\":\"程昊\",\"recommended\":\"杜晴\"}",
+    "direct_labels": {
+      "role_a": "W",
+      "role_b": "W",
+      "occurrence": "C",
+      "participant": "W",
+      "record": "W"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "W->C",
+      "role_b": "W->C",
+      "occurrence": "C->C",
+      "participant": "W->C",
+      "record": "W->C"
+    },
+    "new_harm_components": []
+  },
+  {
+    "context_call_id": "B11-F04-NO-AB-ACTIVE-LIST12-OPPOSITE_TARGET_FIRST",
+    "single_call_id": "B11-F04-NO-AB-ACTIVE-LIST12-SINGLE",
+    "selected_line": "在这次评选中，程昊没有推荐杜晴。",
+    "complete_message_identity": true,
+    "new_calls": 0,
+    "independent_output": false,
+    "actual_single_raw_output_reused": "{\"occurred\":\"NO\",\"recommender\":\"程昊\",\"recommended\":\"杜晴\"}",
+    "direct_context_raw_output": "{\"occurred\":\"NO\",\"recommender\":\"程昊\",\"recommended\":\"杜晴\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_harm_components": []
+  },
+  {
+    "context_call_id": "B11-F04-NO-AB-ACTIVE-LIST12-OPPOSITE_TARGET_LAST",
+    "single_call_id": "B11-F04-NO-AB-ACTIVE-LIST12-SINGLE",
+    "selected_line": "在这次评选中，程昊没有推荐杜晴。",
+    "complete_message_identity": true,
+    "new_calls": 0,
+    "independent_output": false,
+    "actual_single_raw_output_reused": "{\"occurred\":\"NO\",\"recommender\":\"程昊\",\"recommended\":\"杜晴\"}",
+    "direct_context_raw_output": "{\"occurred\":\"NO\",\"recommender\":\"程昊\",\"recommended\":\"杜晴\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_harm_components": []
+  },
+  {
+    "context_call_id": "B11-F04-NO-AB-ACTIVE-LIST21-OPPOSITE_TARGET_FIRST",
+    "single_call_id": "B11-F04-NO-AB-ACTIVE-LIST21-SINGLE",
+    "selected_line": "在这次评选中，程昊没有推荐杜晴。",
+    "complete_message_identity": true,
+    "new_calls": 0,
+    "independent_output": false,
+    "actual_single_raw_output_reused": "{\"occurred\":\"NO\",\"recommender\":\"程昊\",\"recommended\":\"杜晴\"}",
+    "direct_context_raw_output": "{\"occurred\":\"NO\",\"recommender\":\"程昊\",\"recommended\":\"杜晴\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_harm_components": []
+  },
+  {
+    "context_call_id": "B11-F04-NO-AB-ACTIVE-LIST21-OPPOSITE_TARGET_LAST",
+    "single_call_id": "B11-F04-NO-AB-ACTIVE-LIST21-SINGLE",
+    "selected_line": "在这次评选中，程昊没有推荐杜晴。",
+    "complete_message_identity": true,
+    "new_calls": 0,
+    "independent_output": false,
+    "actual_single_raw_output_reused": "{\"occurred\":\"NO\",\"recommender\":\"程昊\",\"recommended\":\"杜晴\"}",
+    "direct_context_raw_output": "{\"occurred\":\"NO\",\"recommender\":\"杜晴\",\"recommended\":\"程昊\"}",
+    "direct_labels": {
+      "role_a": "W",
+      "role_b": "W",
+      "occurrence": "C",
+      "participant": "W",
+      "record": "W"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "W->C",
+      "role_b": "W->C",
+      "occurrence": "C->C",
+      "participant": "W->C",
+      "record": "W->C"
+    },
+    "new_harm_components": []
+  },
+  {
+    "context_call_id": "B11-F04-NO-AB-PASSIVE-LIST12-OPPOSITE_TARGET_LAST",
+    "single_call_id": "B11-F04-NO-AB-PASSIVE-LIST12-SINGLE",
+    "selected_line": "在这次评选中，杜晴没有被程昊推荐。",
+    "complete_message_identity": true,
+    "new_calls": 0,
+    "independent_output": false,
+    "actual_single_raw_output_reused": "{\"occurred\":\"NO\",\"recommender\":\"程昊\",\"recommended\":\"杜晴\"}",
+    "direct_context_raw_output": "{\"occurred\":\"NO\",\"recommender\":\"杜晴\",\"recommended\":\"程昊\"}",
+    "direct_labels": {
+      "role_a": "W",
+      "role_b": "W",
+      "occurrence": "C",
+      "participant": "W",
+      "record": "W"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "W->C",
+      "role_b": "W->C",
+      "occurrence": "C->C",
+      "participant": "W->C",
+      "record": "W->C"
+    },
+    "new_harm_components": []
+  },
+  {
+    "context_call_id": "B11-F04-NO-AB-PASSIVE-LIST21-OPPOSITE_TARGET_FIRST",
+    "single_call_id": "B11-F04-NO-AB-PASSIVE-LIST21-SINGLE",
+    "selected_line": "在这次评选中，杜晴没有被程昊推荐。",
+    "complete_message_identity": true,
+    "new_calls": 0,
+    "independent_output": false,
+    "actual_single_raw_output_reused": "{\"occurred\":\"NO\",\"recommender\":\"程昊\",\"recommended\":\"杜晴\"}",
+    "direct_context_raw_output": "{\"occurred\":\"NO\",\"recommender\":\"程昊\",\"recommended\":\"杜晴\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_harm_components": []
+  },
+  {
+    "context_call_id": "B11-F04-NO-AB-PASSIVE-LIST21-OPPOSITE_TARGET_LAST",
+    "single_call_id": "B11-F04-NO-AB-PASSIVE-LIST21-SINGLE",
+    "selected_line": "在这次评选中，杜晴没有被程昊推荐。",
+    "complete_message_identity": true,
+    "new_calls": 0,
+    "independent_output": false,
+    "actual_single_raw_output_reused": "{\"occurred\":\"NO\",\"recommender\":\"程昊\",\"recommended\":\"杜晴\"}",
+    "direct_context_raw_output": "{\"occurred\":\"NO\",\"recommender\":\"杜晴\",\"recommended\":\"程昊\"}",
+    "direct_labels": {
+      "role_a": "W",
+      "role_b": "W",
+      "occurrence": "C",
+      "participant": "W",
+      "record": "W"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "W->C",
+      "role_b": "W->C",
+      "occurrence": "C->C",
+      "participant": "W->C",
+      "record": "W->C"
+    },
+    "new_harm_components": []
+  },
+  {
+    "context_call_id": "B11-F04-NO-AB-PASSIVE-LIST12-OPPOSITE_TARGET_FIRST",
+    "single_call_id": "B11-F04-NO-AB-PASSIVE-LIST12-SINGLE",
+    "selected_line": "在这次评选中，杜晴没有被程昊推荐。",
+    "complete_message_identity": true,
+    "new_calls": 0,
+    "independent_output": false,
+    "actual_single_raw_output_reused": "{\"occurred\":\"NO\",\"recommender\":\"程昊\",\"recommended\":\"杜晴\"}",
+    "direct_context_raw_output": "{\"occurred\":\"NO\",\"recommender\":\"程昊\",\"recommended\":\"杜晴\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_harm_components": []
+  },
+  {
+    "context_call_id": "B11-F04-NO-BA-ACTIVE-LIST21-OPPOSITE_TARGET_FIRST",
+    "single_call_id": "B11-F04-NO-BA-ACTIVE-LIST21-SINGLE",
+    "selected_line": "在这次评选中，杜晴没有推荐程昊。",
+    "complete_message_identity": true,
+    "new_calls": 0,
+    "independent_output": false,
+    "actual_single_raw_output_reused": "{\"occurred\":\"NO\",\"recommender\":\"杜晴\",\"recommended\":\"程昊\"}",
+    "direct_context_raw_output": "{\"occurred\":\"NO\",\"recommender\":\"程昊\",\"recommended\":\"杜晴\"}",
+    "direct_labels": {
+      "role_a": "W",
+      "role_b": "W",
+      "occurrence": "C",
+      "participant": "W",
+      "record": "W"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "W->C",
+      "role_b": "W->C",
+      "occurrence": "C->C",
+      "participant": "W->C",
+      "record": "W->C"
+    },
+    "new_harm_components": []
+  },
+  {
+    "context_call_id": "B11-F04-NO-BA-ACTIVE-LIST21-OPPOSITE_TARGET_LAST",
+    "single_call_id": "B11-F04-NO-BA-ACTIVE-LIST21-SINGLE",
+    "selected_line": "在这次评选中，杜晴没有推荐程昊。",
+    "complete_message_identity": true,
+    "new_calls": 0,
+    "independent_output": false,
+    "actual_single_raw_output_reused": "{\"occurred\":\"NO\",\"recommender\":\"杜晴\",\"recommended\":\"程昊\"}",
+    "direct_context_raw_output": "{\"occurred\":\"NO\",\"recommender\":\"程昊\",\"recommended\":\"杜晴\"}",
+    "direct_labels": {
+      "role_a": "W",
+      "role_b": "W",
+      "occurrence": "C",
+      "participant": "W",
+      "record": "W"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "W->C",
+      "role_b": "W->C",
+      "occurrence": "C->C",
+      "participant": "W->C",
+      "record": "W->C"
+    },
+    "new_harm_components": []
+  },
+  {
+    "context_call_id": "B11-F04-NO-BA-ACTIVE-LIST12-OPPOSITE_TARGET_FIRST",
+    "single_call_id": "B11-F04-NO-BA-ACTIVE-LIST12-SINGLE",
+    "selected_line": "在这次评选中，杜晴没有推荐程昊。",
+    "complete_message_identity": true,
+    "new_calls": 0,
+    "independent_output": false,
+    "actual_single_raw_output_reused": "{\"occurred\":\"NO\",\"recommender\":\"杜晴\",\"recommended\":\"程昊\"}",
+    "direct_context_raw_output": "{\"occurred\":\"NO\",\"recommender\":\"程昊\",\"recommended\":\"杜晴\"}",
+    "direct_labels": {
+      "role_a": "W",
+      "role_b": "W",
+      "occurrence": "C",
+      "participant": "W",
+      "record": "W"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "W->C",
+      "role_b": "W->C",
+      "occurrence": "C->C",
+      "participant": "W->C",
+      "record": "W->C"
+    },
+    "new_harm_components": []
+  },
+  {
+    "context_call_id": "B11-F04-NO-BA-ACTIVE-LIST12-OPPOSITE_TARGET_LAST",
+    "single_call_id": "B11-F04-NO-BA-ACTIVE-LIST12-SINGLE",
+    "selected_line": "在这次评选中，杜晴没有推荐程昊。",
+    "complete_message_identity": true,
+    "new_calls": 0,
+    "independent_output": false,
+    "actual_single_raw_output_reused": "{\"occurred\":\"NO\",\"recommender\":\"杜晴\",\"recommended\":\"程昊\"}",
+    "direct_context_raw_output": "{\"occurred\":\"NO\",\"recommender\":\"程昊\",\"recommended\":\"杜晴\"}",
+    "direct_labels": {
+      "role_a": "W",
+      "role_b": "W",
+      "occurrence": "C",
+      "participant": "W",
+      "record": "W"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "W->C",
+      "role_b": "W->C",
+      "occurrence": "C->C",
+      "participant": "W->C",
+      "record": "W->C"
+    },
+    "new_harm_components": []
+  },
+  {
+    "context_call_id": "B11-F04-NO-BA-PASSIVE-LIST21-OPPOSITE_TARGET_FIRST",
+    "single_call_id": "B11-F04-NO-BA-PASSIVE-LIST21-SINGLE",
+    "selected_line": "在这次评选中，程昊没有被杜晴推荐。",
+    "complete_message_identity": true,
+    "new_calls": 0,
+    "independent_output": false,
+    "actual_single_raw_output_reused": "{\"occurred\":\"NO\",\"recommender\":\"杜晴\",\"recommended\":\"程昊\"}",
+    "direct_context_raw_output": "{\"occurred\":\"NO\",\"recommender\":\"程昊\",\"recommended\":\"杜晴\"}",
+    "direct_labels": {
+      "role_a": "W",
+      "role_b": "W",
+      "occurrence": "C",
+      "participant": "W",
+      "record": "W"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "W->C",
+      "role_b": "W->C",
+      "occurrence": "C->C",
+      "participant": "W->C",
+      "record": "W->C"
+    },
+    "new_harm_components": []
+  },
+  {
+    "context_call_id": "B11-F04-NO-BA-PASSIVE-LIST21-OPPOSITE_TARGET_LAST",
+    "single_call_id": "B11-F04-NO-BA-PASSIVE-LIST21-SINGLE",
+    "selected_line": "在这次评选中，程昊没有被杜晴推荐。",
+    "complete_message_identity": true,
+    "new_calls": 0,
+    "independent_output": false,
+    "actual_single_raw_output_reused": "{\"occurred\":\"NO\",\"recommender\":\"杜晴\",\"recommended\":\"程昊\"}",
+    "direct_context_raw_output": "{\"occurred\":\"NO\",\"recommender\":\"程昊\",\"recommended\":\"杜晴\"}",
+    "direct_labels": {
+      "role_a": "W",
+      "role_b": "W",
+      "occurrence": "C",
+      "participant": "W",
+      "record": "W"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "W->C",
+      "role_b": "W->C",
+      "occurrence": "C->C",
+      "participant": "W->C",
+      "record": "W->C"
+    },
+    "new_harm_components": []
+  },
+  {
+    "context_call_id": "B11-F04-NO-BA-PASSIVE-LIST12-OPPOSITE_TARGET_FIRST",
+    "single_call_id": "B11-F04-NO-BA-PASSIVE-LIST12-SINGLE",
+    "selected_line": "在这次评选中，程昊没有被杜晴推荐。",
+    "complete_message_identity": true,
+    "new_calls": 0,
+    "independent_output": false,
+    "actual_single_raw_output_reused": "{\"occurred\":\"NO\",\"recommender\":\"杜晴\",\"recommended\":\"程昊\"}",
+    "direct_context_raw_output": "{\"occurred\":\"NO\",\"recommender\":\"程昊\",\"recommended\":\"杜晴\"}",
+    "direct_labels": {
+      "role_a": "W",
+      "role_b": "W",
+      "occurrence": "C",
+      "participant": "W",
+      "record": "W"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "W->C",
+      "role_b": "W->C",
+      "occurrence": "C->C",
+      "participant": "W->C",
+      "record": "W->C"
+    },
+    "new_harm_components": []
+  },
+  {
+    "context_call_id": "B11-F04-NO-BA-PASSIVE-LIST12-OPPOSITE_TARGET_LAST",
+    "single_call_id": "B11-F04-NO-BA-PASSIVE-LIST12-SINGLE",
+    "selected_line": "在这次评选中，程昊没有被杜晴推荐。",
+    "complete_message_identity": true,
+    "new_calls": 0,
+    "independent_output": false,
+    "actual_single_raw_output_reused": "{\"occurred\":\"NO\",\"recommender\":\"杜晴\",\"recommended\":\"程昊\"}",
+    "direct_context_raw_output": "{\"occurred\":\"NO\",\"recommender\":\"程昊\",\"recommended\":\"杜晴\"}",
+    "direct_labels": {
+      "role_a": "W",
+      "role_b": "W",
+      "occurrence": "C",
+      "participant": "W",
+      "record": "W"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "W->C",
+      "role_b": "W->C",
+      "occurrence": "C->C",
+      "participant": "W->C",
+      "record": "W->C"
+    },
+    "new_harm_components": []
+  },
+  {
+    "context_call_id": "B11-F04-UNKNOWN-AB-ACTIVE-LIST21-OPPOSITE_TARGET_LAST",
+    "single_call_id": "B11-F04-UNKNOWN-AB-ACTIVE-LIST21-SINGLE",
+    "selected_line": "在这次评选中，程昊是否推荐了杜晴，目前尚无结论。",
+    "complete_message_identity": true,
+    "new_calls": 0,
+    "independent_output": false,
+    "actual_single_raw_output_reused": "{\"occurred\":\"UNKNOWN\",\"recommender\":\"程昊\",\"recommended\":\"杜晴\"}",
+    "direct_context_raw_output": "{\"occurred\":\"UNKNOWN\",\"recommender\":\"程昊\",\"recommended\":\"杜晴\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_harm_components": []
+  },
+  {
+    "context_call_id": "B11-F04-UNKNOWN-AB-ACTIVE-LIST12-OPPOSITE_TARGET_FIRST",
+    "single_call_id": "B11-F04-UNKNOWN-AB-ACTIVE-LIST12-SINGLE",
+    "selected_line": "在这次评选中，程昊是否推荐了杜晴，目前尚无结论。",
+    "complete_message_identity": true,
+    "new_calls": 0,
+    "independent_output": false,
+    "actual_single_raw_output_reused": "{\"occurred\":\"UNKNOWN\",\"recommender\":\"程昊\",\"recommended\":\"杜晴\"}",
+    "direct_context_raw_output": "{\"occurred\":\"UNKNOWN\",\"recommender\":\"杜晴\",\"recommended\":\"程昊\"}",
+    "direct_labels": {
+      "role_a": "W",
+      "role_b": "W",
+      "occurrence": "C",
+      "participant": "W",
+      "record": "W"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "W->C",
+      "role_b": "W->C",
+      "occurrence": "C->C",
+      "participant": "W->C",
+      "record": "W->C"
+    },
+    "new_harm_components": []
+  },
+  {
+    "context_call_id": "B11-F04-UNKNOWN-AB-ACTIVE-LIST12-OPPOSITE_TARGET_LAST",
+    "single_call_id": "B11-F04-UNKNOWN-AB-ACTIVE-LIST12-SINGLE",
+    "selected_line": "在这次评选中，程昊是否推荐了杜晴，目前尚无结论。",
+    "complete_message_identity": true,
+    "new_calls": 0,
+    "independent_output": false,
+    "actual_single_raw_output_reused": "{\"occurred\":\"UNKNOWN\",\"recommender\":\"程昊\",\"recommended\":\"杜晴\"}",
+    "direct_context_raw_output": "{\"occurred\":\"UNKNOWN\",\"recommender\":\"程昊\",\"recommended\":\"杜晴\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_harm_components": []
+  },
+  {
+    "context_call_id": "B11-F04-UNKNOWN-AB-ACTIVE-LIST21-OPPOSITE_TARGET_FIRST",
+    "single_call_id": "B11-F04-UNKNOWN-AB-ACTIVE-LIST21-SINGLE",
+    "selected_line": "在这次评选中，程昊是否推荐了杜晴，目前尚无结论。",
+    "complete_message_identity": true,
+    "new_calls": 0,
+    "independent_output": false,
+    "actual_single_raw_output_reused": "{\"occurred\":\"UNKNOWN\",\"recommender\":\"程昊\",\"recommended\":\"杜晴\"}",
+    "direct_context_raw_output": "{\"occurred\":\"UNKNOWN\",\"recommender\":\"程昊\",\"recommended\":\"杜晴\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_harm_components": []
+  },
+  {
+    "context_call_id": "B11-F04-UNKNOWN-AB-PASSIVE-LIST12-OPPOSITE_TARGET_FIRST",
+    "single_call_id": "B11-F04-UNKNOWN-AB-PASSIVE-LIST12-SINGLE",
+    "selected_line": "在这次评选中，杜晴是否被程昊推荐了，目前尚无结论。",
+    "complete_message_identity": true,
+    "new_calls": 0,
+    "independent_output": false,
+    "actual_single_raw_output_reused": "{\"occurred\":\"UNKNOWN\",\"recommender\":\"程昊\",\"recommended\":\"杜晴\"}",
+    "direct_context_raw_output": "{\"occurred\":\"UNKNOWN\",\"recommender\":\"程昊\",\"recommended\":\"杜晴\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_harm_components": []
+  },
+  {
+    "context_call_id": "B11-F04-UNKNOWN-AB-PASSIVE-LIST12-OPPOSITE_TARGET_LAST",
+    "single_call_id": "B11-F04-UNKNOWN-AB-PASSIVE-LIST12-SINGLE",
+    "selected_line": "在这次评选中，杜晴是否被程昊推荐了，目前尚无结论。",
+    "complete_message_identity": true,
+    "new_calls": 0,
+    "independent_output": false,
+    "actual_single_raw_output_reused": "{\"occurred\":\"UNKNOWN\",\"recommender\":\"程昊\",\"recommended\":\"杜晴\"}",
+    "direct_context_raw_output": "{\"occurred\":\"UNKNOWN\",\"recommender\":\"杜晴\",\"recommended\":\"程昊\"}",
+    "direct_labels": {
+      "role_a": "W",
+      "role_b": "W",
+      "occurrence": "C",
+      "participant": "W",
+      "record": "W"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "W->C",
+      "role_b": "W->C",
+      "occurrence": "C->C",
+      "participant": "W->C",
+      "record": "W->C"
+    },
+    "new_harm_components": []
+  },
+  {
+    "context_call_id": "B11-F04-UNKNOWN-AB-PASSIVE-LIST21-OPPOSITE_TARGET_FIRST",
+    "single_call_id": "B11-F04-UNKNOWN-AB-PASSIVE-LIST21-SINGLE",
+    "selected_line": "在这次评选中，杜晴是否被程昊推荐了，目前尚无结论。",
+    "complete_message_identity": true,
+    "new_calls": 0,
+    "independent_output": false,
+    "actual_single_raw_output_reused": "{\"occurred\":\"UNKNOWN\",\"recommender\":\"程昊\",\"recommended\":\"杜晴\"}",
+    "direct_context_raw_output": "{\"occurred\":\"UNKNOWN\",\"recommender\":\"程昊\",\"recommended\":\"杜晴\"}",
+    "direct_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "C->C",
+      "role_b": "C->C",
+      "occurrence": "C->C",
+      "participant": "C->C",
+      "record": "C->C"
+    },
+    "new_harm_components": []
+  },
+  {
+    "context_call_id": "B11-F04-UNKNOWN-AB-PASSIVE-LIST21-OPPOSITE_TARGET_LAST",
+    "single_call_id": "B11-F04-UNKNOWN-AB-PASSIVE-LIST21-SINGLE",
+    "selected_line": "在这次评选中，杜晴是否被程昊推荐了，目前尚无结论。",
+    "complete_message_identity": true,
+    "new_calls": 0,
+    "independent_output": false,
+    "actual_single_raw_output_reused": "{\"occurred\":\"UNKNOWN\",\"recommender\":\"程昊\",\"recommended\":\"杜晴\"}",
+    "direct_context_raw_output": "{\"occurred\":\"UNKNOWN\",\"recommender\":\"杜晴\",\"recommended\":\"程昊\"}",
+    "direct_labels": {
+      "role_a": "W",
+      "role_b": "W",
+      "occurrence": "C",
+      "participant": "W",
+      "record": "W"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "W->C",
+      "role_b": "W->C",
+      "occurrence": "C->C",
+      "participant": "W->C",
+      "record": "W->C"
+    },
+    "new_harm_components": []
+  },
+  {
+    "context_call_id": "B11-F04-UNKNOWN-BA-ACTIVE-LIST12-OPPOSITE_TARGET_FIRST",
+    "single_call_id": "B11-F04-UNKNOWN-BA-ACTIVE-LIST12-SINGLE",
+    "selected_line": "在这次评选中，杜晴是否推荐了程昊，目前尚无结论。",
+    "complete_message_identity": true,
+    "new_calls": 0,
+    "independent_output": false,
+    "actual_single_raw_output_reused": "{\"occurred\":\"UNKNOWN\",\"recommender\":\"杜晴\",\"recommended\":\"程昊\"}",
+    "direct_context_raw_output": "{\"occurred\":\"UNKNOWN\",\"recommender\":\"程昊\",\"recommended\":\"杜晴\"}",
+    "direct_labels": {
+      "role_a": "W",
+      "role_b": "W",
+      "occurrence": "C",
+      "participant": "W",
+      "record": "W"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "W->C",
+      "role_b": "W->C",
+      "occurrence": "C->C",
+      "participant": "W->C",
+      "record": "W->C"
+    },
+    "new_harm_components": []
+  },
+  {
+    "context_call_id": "B11-F04-UNKNOWN-BA-ACTIVE-LIST12-OPPOSITE_TARGET_LAST",
+    "single_call_id": "B11-F04-UNKNOWN-BA-ACTIVE-LIST12-SINGLE",
+    "selected_line": "在这次评选中，杜晴是否推荐了程昊，目前尚无结论。",
+    "complete_message_identity": true,
+    "new_calls": 0,
+    "independent_output": false,
+    "actual_single_raw_output_reused": "{\"occurred\":\"UNKNOWN\",\"recommender\":\"杜晴\",\"recommended\":\"程昊\"}",
+    "direct_context_raw_output": "{\"occurred\":\"UNKNOWN\",\"recommender\":\"程昊\",\"recommended\":\"杜晴\"}",
+    "direct_labels": {
+      "role_a": "W",
+      "role_b": "W",
+      "occurrence": "C",
+      "participant": "W",
+      "record": "W"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "W->C",
+      "role_b": "W->C",
+      "occurrence": "C->C",
+      "participant": "W->C",
+      "record": "W->C"
+    },
+    "new_harm_components": []
+  },
+  {
+    "context_call_id": "B11-F04-UNKNOWN-BA-ACTIVE-LIST21-OPPOSITE_TARGET_FIRST",
+    "single_call_id": "B11-F04-UNKNOWN-BA-ACTIVE-LIST21-SINGLE",
+    "selected_line": "在这次评选中，杜晴是否推荐了程昊，目前尚无结论。",
+    "complete_message_identity": true,
+    "new_calls": 0,
+    "independent_output": false,
+    "actual_single_raw_output_reused": "{\"occurred\":\"UNKNOWN\",\"recommender\":\"杜晴\",\"recommended\":\"程昊\"}",
+    "direct_context_raw_output": "{\"occurred\":\"UNKNOWN\",\"recommender\":\"程昊\",\"recommended\":\"杜晴\"}",
+    "direct_labels": {
+      "role_a": "W",
+      "role_b": "W",
+      "occurrence": "C",
+      "participant": "W",
+      "record": "W"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "W->C",
+      "role_b": "W->C",
+      "occurrence": "C->C",
+      "participant": "W->C",
+      "record": "W->C"
+    },
+    "new_harm_components": []
+  },
+  {
+    "context_call_id": "B11-F04-UNKNOWN-BA-ACTIVE-LIST21-OPPOSITE_TARGET_LAST",
+    "single_call_id": "B11-F04-UNKNOWN-BA-ACTIVE-LIST21-SINGLE",
+    "selected_line": "在这次评选中，杜晴是否推荐了程昊，目前尚无结论。",
+    "complete_message_identity": true,
+    "new_calls": 0,
+    "independent_output": false,
+    "actual_single_raw_output_reused": "{\"occurred\":\"UNKNOWN\",\"recommender\":\"杜晴\",\"recommended\":\"程昊\"}",
+    "direct_context_raw_output": "{\"occurred\":\"UNKNOWN\",\"recommender\":\"程昊\",\"recommended\":\"杜晴\"}",
+    "direct_labels": {
+      "role_a": "W",
+      "role_b": "W",
+      "occurrence": "C",
+      "participant": "W",
+      "record": "W"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "W->C",
+      "role_b": "W->C",
+      "occurrence": "C->C",
+      "participant": "W->C",
+      "record": "W->C"
+    },
+    "new_harm_components": []
+  },
+  {
+    "context_call_id": "B11-F04-UNKNOWN-BA-PASSIVE-LIST12-OPPOSITE_TARGET_LAST",
+    "single_call_id": "B11-F04-UNKNOWN-BA-PASSIVE-LIST12-SINGLE",
+    "selected_line": "在这次评选中，程昊是否被杜晴推荐了，目前尚无结论。",
+    "complete_message_identity": true,
+    "new_calls": 0,
+    "independent_output": false,
+    "actual_single_raw_output_reused": "{\"occurred\":\"UNKNOWN\",\"recommender\":\"杜晴\",\"recommended\":\"程昊\"}",
+    "direct_context_raw_output": "{\"occurred\":\"UNKNOWN\",\"recommender\":\"程昊\",\"recommended\":\"杜晴\"}",
+    "direct_labels": {
+      "role_a": "W",
+      "role_b": "W",
+      "occurrence": "C",
+      "participant": "W",
+      "record": "W"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "W->C",
+      "role_b": "W->C",
+      "occurrence": "C->C",
+      "participant": "W->C",
+      "record": "W->C"
+    },
+    "new_harm_components": []
+  },
+  {
+    "context_call_id": "B11-F04-UNKNOWN-BA-PASSIVE-LIST21-OPPOSITE_TARGET_FIRST",
+    "single_call_id": "B11-F04-UNKNOWN-BA-PASSIVE-LIST21-SINGLE",
+    "selected_line": "在这次评选中，程昊是否被杜晴推荐了，目前尚无结论。",
+    "complete_message_identity": true,
+    "new_calls": 0,
+    "independent_output": false,
+    "actual_single_raw_output_reused": "{\"occurred\":\"UNKNOWN\",\"recommender\":\"杜晴\",\"recommended\":\"程昊\"}",
+    "direct_context_raw_output": "{\"occurred\":\"UNKNOWN\",\"recommender\":\"程昊\",\"recommended\":\"杜晴\"}",
+    "direct_labels": {
+      "role_a": "W",
+      "role_b": "W",
+      "occurrence": "C",
+      "participant": "W",
+      "record": "W"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "W->C",
+      "role_b": "W->C",
+      "occurrence": "C->C",
+      "participant": "W->C",
+      "record": "W->C"
+    },
+    "new_harm_components": []
+  },
+  {
+    "context_call_id": "B11-F04-UNKNOWN-BA-PASSIVE-LIST21-OPPOSITE_TARGET_LAST",
+    "single_call_id": "B11-F04-UNKNOWN-BA-PASSIVE-LIST21-SINGLE",
+    "selected_line": "在这次评选中，程昊是否被杜晴推荐了，目前尚无结论。",
+    "complete_message_identity": true,
+    "new_calls": 0,
+    "independent_output": false,
+    "actual_single_raw_output_reused": "{\"occurred\":\"UNKNOWN\",\"recommender\":\"杜晴\",\"recommended\":\"程昊\"}",
+    "direct_context_raw_output": "{\"occurred\":\"UNKNOWN\",\"recommender\":\"程昊\",\"recommended\":\"杜晴\"}",
+    "direct_labels": {
+      "role_a": "W",
+      "role_b": "W",
+      "occurrence": "C",
+      "participant": "W",
+      "record": "W"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "W->C",
+      "role_b": "W->C",
+      "occurrence": "C->C",
+      "participant": "W->C",
+      "record": "W->C"
+    },
+    "new_harm_components": []
+  },
+  {
+    "context_call_id": "B11-F04-UNKNOWN-BA-PASSIVE-LIST12-OPPOSITE_TARGET_FIRST",
+    "single_call_id": "B11-F04-UNKNOWN-BA-PASSIVE-LIST12-SINGLE",
+    "selected_line": "在这次评选中，程昊是否被杜晴推荐了，目前尚无结论。",
+    "complete_message_identity": true,
+    "new_calls": 0,
+    "independent_output": false,
+    "actual_single_raw_output_reused": "{\"occurred\":\"UNKNOWN\",\"recommender\":\"杜晴\",\"recommended\":\"程昊\"}",
+    "direct_context_raw_output": "{\"occurred\":\"UNKNOWN\",\"recommender\":\"程昊\",\"recommended\":\"杜晴\"}",
+    "direct_labels": {
+      "role_a": "W",
+      "role_b": "W",
+      "occurrence": "C",
+      "participant": "W",
+      "record": "W"
+    },
+    "cached_labels": {
+      "role_a": "C",
+      "role_b": "C",
+      "occurrence": "C",
+      "participant": "C",
+      "record": "C"
+    },
+    "transitions": {
+      "role_a": "W->C",
+      "role_b": "W->C",
+      "occurrence": "C->C",
+      "participant": "W->C",
+      "record": "W->C"
+    },
+    "new_harm_components": []
+  }
+]

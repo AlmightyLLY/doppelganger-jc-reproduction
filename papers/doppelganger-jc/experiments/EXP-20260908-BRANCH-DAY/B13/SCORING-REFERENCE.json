@@ -1,0 +1,3074 @@
+[
+  {
+    "call_id": "B13-QWEN-ID_TABLE-SRC001",
+    "source_id": "SRC001",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-QWEN-ID_TABLE-SRC002",
+    "source_id": "SRC002",
+    "occurred": "NO",
+    "role_a": "青木",
+    "role_b": "森田",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-QWEN-ID_TABLE-SRC003",
+    "source_id": "SRC003",
+    "occurred": "YES",
+    "role_a": "森田",
+    "role_b": "青木",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-QWEN-ID_TABLE-SRC004",
+    "source_id": "SRC004",
+    "occurred": "NO",
+    "role_a": "森田",
+    "role_b": "青木",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-QWEN-ID_TABLE-SRC005",
+    "source_id": "SRC005",
+    "occurred": "YES",
+    "role_a": "森田",
+    "role_b": "小川",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-QWEN-ID_TABLE-SRC006",
+    "source_id": "SRC006",
+    "occurred": "NO",
+    "role_a": "森田",
+    "role_b": "小川",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-QWEN-ID_TABLE-SRC007",
+    "source_id": "SRC007",
+    "occurred": "YES",
+    "role_a": "小川",
+    "role_b": "森田",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-QWEN-ID_TABLE-SRC008",
+    "source_id": "SRC008",
+    "occurred": "NO",
+    "role_a": "小川",
+    "role_b": "森田",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-QWEN-ID_TABLE-SRC009",
+    "source_id": "SRC009",
+    "occurred": "YES",
+    "role_a": "小川",
+    "role_b": "上田",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-QWEN-ID_TABLE-SRC010",
+    "source_id": "SRC010",
+    "occurred": "NO",
+    "role_a": "小川",
+    "role_b": "上田",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-QWEN-ID_TABLE-SRC011",
+    "source_id": "SRC011",
+    "occurred": "YES",
+    "role_a": "上田",
+    "role_b": "小川",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-QWEN-ID_TABLE-SRC012",
+    "source_id": "SRC012",
+    "occurred": "NO",
+    "role_a": "上田",
+    "role_b": "小川",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-QWEN-ID_TABLE-SRC013",
+    "source_id": "SRC013",
+    "occurred": "YES",
+    "role_a": "上田",
+    "role_b": "青木",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-QWEN-ID_TABLE-SRC014",
+    "source_id": "SRC014",
+    "occurred": "NO",
+    "role_a": "上田",
+    "role_b": "青木",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-QWEN-ID_TABLE-SRC015",
+    "source_id": "SRC015",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "上田",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-QWEN-ID_TABLE-SRC016",
+    "source_id": "SRC016",
+    "occurred": "NO",
+    "role_a": "青木",
+    "role_b": "上田",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-QWEN-ID_TABLE-SRC017",
+    "source_id": "SRC017",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-QWEN-ID_TABLE-SRC018",
+    "source_id": "SRC018",
+    "occurred": "NO",
+    "role_a": "青木",
+    "role_b": "森田",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-QWEN-ID_TABLE-SRC019",
+    "source_id": "SRC019",
+    "occurred": "YES",
+    "role_a": "森田",
+    "role_b": "青木",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-QWEN-ID_TABLE-SRC020",
+    "source_id": "SRC020",
+    "occurred": "NO",
+    "role_a": "森田",
+    "role_b": "青木",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-QWEN-ID_TABLE-SRC021",
+    "source_id": "SRC021",
+    "occurred": "YES",
+    "role_a": "森田",
+    "role_b": "小川",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-QWEN-ID_TABLE-SRC022",
+    "source_id": "SRC022",
+    "occurred": "NO",
+    "role_a": "森田",
+    "role_b": "小川",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-QWEN-ID_TABLE-SRC023",
+    "source_id": "SRC023",
+    "occurred": "YES",
+    "role_a": "小川",
+    "role_b": "森田",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-QWEN-ID_TABLE-SRC024",
+    "source_id": "SRC024",
+    "occurred": "NO",
+    "role_a": "小川",
+    "role_b": "森田",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-QWEN-ID_TABLE-SRC025",
+    "source_id": "SRC025",
+    "occurred": "YES",
+    "role_a": "小川",
+    "role_b": "上田",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-QWEN-ID_TABLE-SRC026",
+    "source_id": "SRC026",
+    "occurred": "NO",
+    "role_a": "小川",
+    "role_b": "上田",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-QWEN-ID_TABLE-SRC027",
+    "source_id": "SRC027",
+    "occurred": "YES",
+    "role_a": "上田",
+    "role_b": "小川",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-QWEN-ID_TABLE-SRC028",
+    "source_id": "SRC028",
+    "occurred": "NO",
+    "role_a": "上田",
+    "role_b": "小川",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-QWEN-ID_TABLE-SRC029",
+    "source_id": "SRC029",
+    "occurred": "YES",
+    "role_a": "上田",
+    "role_b": "青木",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-QWEN-ID_TABLE-SRC030",
+    "source_id": "SRC030",
+    "occurred": "NO",
+    "role_a": "上田",
+    "role_b": "青木",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-QWEN-ID_TABLE-SRC031",
+    "source_id": "SRC031",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "上田",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-QWEN-ID_TABLE-SRC032",
+    "source_id": "SRC032",
+    "occurred": "NO",
+    "role_a": "青木",
+    "role_b": "上田",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-QWEN-ID_TABLE-SRC033",
+    "source_id": "SRC033",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-QWEN-ID_TABLE-SRC034",
+    "source_id": "SRC034",
+    "occurred": "NO",
+    "role_a": "青木",
+    "role_b": "森田",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-QWEN-ID_TABLE-SRC035",
+    "source_id": "SRC035",
+    "occurred": "YES",
+    "role_a": "森田",
+    "role_b": "青木",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-QWEN-ID_TABLE-SRC036",
+    "source_id": "SRC036",
+    "occurred": "NO",
+    "role_a": "森田",
+    "role_b": "青木",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-QWEN-ID_TABLE-SRC037",
+    "source_id": "SRC037",
+    "occurred": "YES",
+    "role_a": "森田",
+    "role_b": "小川",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-QWEN-ID_TABLE-SRC038",
+    "source_id": "SRC038",
+    "occurred": "NO",
+    "role_a": "森田",
+    "role_b": "小川",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-QWEN-ID_TABLE-SRC039",
+    "source_id": "SRC039",
+    "occurred": "YES",
+    "role_a": "小川",
+    "role_b": "森田",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-QWEN-ID_TABLE-SRC040",
+    "source_id": "SRC040",
+    "occurred": "NO",
+    "role_a": "小川",
+    "role_b": "森田",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-QWEN-ID_TABLE-SRC041",
+    "source_id": "SRC041",
+    "occurred": "YES",
+    "role_a": "小川",
+    "role_b": "上田",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-QWEN-ID_TABLE-SRC042",
+    "source_id": "SRC042",
+    "occurred": "NO",
+    "role_a": "小川",
+    "role_b": "上田",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-QWEN-ID_TABLE-SRC043",
+    "source_id": "SRC043",
+    "occurred": "YES",
+    "role_a": "上田",
+    "role_b": "小川",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-QWEN-ID_TABLE-SRC044",
+    "source_id": "SRC044",
+    "occurred": "NO",
+    "role_a": "上田",
+    "role_b": "小川",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-QWEN-ID_TABLE-SRC045",
+    "source_id": "SRC045",
+    "occurred": "YES",
+    "role_a": "上田",
+    "role_b": "青木",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-QWEN-ID_TABLE-SRC046",
+    "source_id": "SRC046",
+    "occurred": "NO",
+    "role_a": "上田",
+    "role_b": "青木",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-QWEN-ID_TABLE-SRC047",
+    "source_id": "SRC047",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "上田",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-QWEN-ID_TABLE-SRC048",
+    "source_id": "SRC048",
+    "occurred": "NO",
+    "role_a": "青木",
+    "role_b": "上田",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-QWEN-ID_TABLE-SRC049",
+    "source_id": "SRC049",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-QWEN-ID_TABLE-SRC050",
+    "source_id": "SRC050",
+    "occurred": "NO",
+    "role_a": "青木",
+    "role_b": "森田",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-QWEN-ID_TABLE-SRC051",
+    "source_id": "SRC051",
+    "occurred": "YES",
+    "role_a": "森田",
+    "role_b": "青木",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-QWEN-ID_TABLE-SRC052",
+    "source_id": "SRC052",
+    "occurred": "NO",
+    "role_a": "森田",
+    "role_b": "青木",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-QWEN-ID_TABLE-SRC053",
+    "source_id": "SRC053",
+    "occurred": "YES",
+    "role_a": "森田",
+    "role_b": "小川",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-QWEN-ID_TABLE-SRC054",
+    "source_id": "SRC054",
+    "occurred": "NO",
+    "role_a": "森田",
+    "role_b": "小川",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-QWEN-ID_TABLE-SRC055",
+    "source_id": "SRC055",
+    "occurred": "YES",
+    "role_a": "小川",
+    "role_b": "森田",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-QWEN-ID_TABLE-SRC056",
+    "source_id": "SRC056",
+    "occurred": "NO",
+    "role_a": "小川",
+    "role_b": "森田",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-QWEN-ID_TABLE-SRC057",
+    "source_id": "SRC057",
+    "occurred": "YES",
+    "role_a": "小川",
+    "role_b": "上田",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-QWEN-ID_TABLE-SRC058",
+    "source_id": "SRC058",
+    "occurred": "NO",
+    "role_a": "小川",
+    "role_b": "上田",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-QWEN-ID_TABLE-SRC059",
+    "source_id": "SRC059",
+    "occurred": "YES",
+    "role_a": "上田",
+    "role_b": "小川",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-QWEN-ID_TABLE-SRC060",
+    "source_id": "SRC060",
+    "occurred": "NO",
+    "role_a": "上田",
+    "role_b": "小川",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-QWEN-ID_TABLE-SRC061",
+    "source_id": "SRC061",
+    "occurred": "YES",
+    "role_a": "上田",
+    "role_b": "青木",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-QWEN-ID_TABLE-SRC062",
+    "source_id": "SRC062",
+    "occurred": "NO",
+    "role_a": "上田",
+    "role_b": "青木",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-QWEN-ID_TABLE-SRC063",
+    "source_id": "SRC063",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "上田",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-QWEN-ID_TABLE-SRC064",
+    "source_id": "SRC064",
+    "occurred": "NO",
+    "role_a": "青木",
+    "role_b": "上田",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-QWEN-ID_TABLE-SRC065",
+    "source_id": "SRC065",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-QWEN-ID_TABLE-SRC066",
+    "source_id": "SRC066",
+    "occurred": "NO",
+    "role_a": "青木",
+    "role_b": "森田",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-QWEN-ID_TABLE-SRC067",
+    "source_id": "SRC067",
+    "occurred": "YES",
+    "role_a": "森田",
+    "role_b": "青木",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-QWEN-ID_TABLE-SRC068",
+    "source_id": "SRC068",
+    "occurred": "NO",
+    "role_a": "森田",
+    "role_b": "青木",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-QWEN-ID_TABLE-SRC069",
+    "source_id": "SRC069",
+    "occurred": "YES",
+    "role_a": "森田",
+    "role_b": "小川",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-QWEN-ID_TABLE-SRC070",
+    "source_id": "SRC070",
+    "occurred": "NO",
+    "role_a": "森田",
+    "role_b": "小川",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-QWEN-ID_TABLE-SRC071",
+    "source_id": "SRC071",
+    "occurred": "YES",
+    "role_a": "小川",
+    "role_b": "森田",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-QWEN-ID_TABLE-SRC072",
+    "source_id": "SRC072",
+    "occurred": "NO",
+    "role_a": "小川",
+    "role_b": "森田",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-QWEN-ID_TABLE-SRC073",
+    "source_id": "SRC073",
+    "occurred": "YES",
+    "role_a": "小川",
+    "role_b": "上田",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-QWEN-ID_TABLE-SRC074",
+    "source_id": "SRC074",
+    "occurred": "NO",
+    "role_a": "小川",
+    "role_b": "上田",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-QWEN-ID_TABLE-SRC075",
+    "source_id": "SRC075",
+    "occurred": "YES",
+    "role_a": "上田",
+    "role_b": "小川",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-QWEN-ID_TABLE-SRC076",
+    "source_id": "SRC076",
+    "occurred": "NO",
+    "role_a": "上田",
+    "role_b": "小川",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-QWEN-ID_TABLE-SRC077",
+    "source_id": "SRC077",
+    "occurred": "YES",
+    "role_a": "上田",
+    "role_b": "青木",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-QWEN-ID_TABLE-SRC078",
+    "source_id": "SRC078",
+    "occurred": "NO",
+    "role_a": "上田",
+    "role_b": "青木",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-QWEN-ID_TABLE-SRC079",
+    "source_id": "SRC079",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "上田",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-QWEN-ID_TABLE-SRC080",
+    "source_id": "SRC080",
+    "occurred": "NO",
+    "role_a": "青木",
+    "role_b": "上田",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-QWEN-ID_TABLE-SRC081",
+    "source_id": "SRC081",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-QWEN-ID_TABLE-SRC082",
+    "source_id": "SRC082",
+    "occurred": "NO",
+    "role_a": "青木",
+    "role_b": "森田",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-QWEN-ID_TABLE-SRC083",
+    "source_id": "SRC083",
+    "occurred": "YES",
+    "role_a": "森田",
+    "role_b": "青木",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-QWEN-ID_TABLE-SRC084",
+    "source_id": "SRC084",
+    "occurred": "NO",
+    "role_a": "森田",
+    "role_b": "青木",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-QWEN-ID_TABLE-SRC085",
+    "source_id": "SRC085",
+    "occurred": "YES",
+    "role_a": "森田",
+    "role_b": "小川",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-QWEN-ID_TABLE-SRC086",
+    "source_id": "SRC086",
+    "occurred": "NO",
+    "role_a": "森田",
+    "role_b": "小川",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-QWEN-ID_TABLE-SRC087",
+    "source_id": "SRC087",
+    "occurred": "YES",
+    "role_a": "小川",
+    "role_b": "森田",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-QWEN-ID_TABLE-SRC088",
+    "source_id": "SRC088",
+    "occurred": "NO",
+    "role_a": "小川",
+    "role_b": "森田",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-QWEN-ID_TABLE-SRC089",
+    "source_id": "SRC089",
+    "occurred": "YES",
+    "role_a": "小川",
+    "role_b": "上田",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-QWEN-ID_TABLE-SRC090",
+    "source_id": "SRC090",
+    "occurred": "NO",
+    "role_a": "小川",
+    "role_b": "上田",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-QWEN-ID_TABLE-SRC091",
+    "source_id": "SRC091",
+    "occurred": "YES",
+    "role_a": "上田",
+    "role_b": "小川",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-QWEN-ID_TABLE-SRC092",
+    "source_id": "SRC092",
+    "occurred": "NO",
+    "role_a": "上田",
+    "role_b": "小川",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-QWEN-ID_TABLE-SRC093",
+    "source_id": "SRC093",
+    "occurred": "YES",
+    "role_a": "上田",
+    "role_b": "青木",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-QWEN-ID_TABLE-SRC094",
+    "source_id": "SRC094",
+    "occurred": "NO",
+    "role_a": "上田",
+    "role_b": "青木",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-QWEN-ID_TABLE-SRC095",
+    "source_id": "SRC095",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "上田",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-QWEN-ID_TABLE-SRC096",
+    "source_id": "SRC096",
+    "occurred": "NO",
+    "role_a": "青木",
+    "role_b": "上田",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-QWEN-NAME_ONLY-SRC001",
+    "source_id": "SRC001",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-QWEN-NAME_ONLY-SRC002",
+    "source_id": "SRC002",
+    "occurred": "NO",
+    "role_a": "青木",
+    "role_b": "森田",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-QWEN-NAME_ONLY-SRC003",
+    "source_id": "SRC003",
+    "occurred": "YES",
+    "role_a": "森田",
+    "role_b": "青木",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-QWEN-NAME_ONLY-SRC004",
+    "source_id": "SRC004",
+    "occurred": "NO",
+    "role_a": "森田",
+    "role_b": "青木",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-QWEN-NAME_ONLY-SRC005",
+    "source_id": "SRC005",
+    "occurred": "YES",
+    "role_a": "森田",
+    "role_b": "小川",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-QWEN-NAME_ONLY-SRC006",
+    "source_id": "SRC006",
+    "occurred": "NO",
+    "role_a": "森田",
+    "role_b": "小川",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-QWEN-NAME_ONLY-SRC007",
+    "source_id": "SRC007",
+    "occurred": "YES",
+    "role_a": "小川",
+    "role_b": "森田",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-QWEN-NAME_ONLY-SRC008",
+    "source_id": "SRC008",
+    "occurred": "NO",
+    "role_a": "小川",
+    "role_b": "森田",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-QWEN-NAME_ONLY-SRC009",
+    "source_id": "SRC009",
+    "occurred": "YES",
+    "role_a": "小川",
+    "role_b": "上田",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-QWEN-NAME_ONLY-SRC010",
+    "source_id": "SRC010",
+    "occurred": "NO",
+    "role_a": "小川",
+    "role_b": "上田",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-QWEN-NAME_ONLY-SRC011",
+    "source_id": "SRC011",
+    "occurred": "YES",
+    "role_a": "上田",
+    "role_b": "小川",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-QWEN-NAME_ONLY-SRC012",
+    "source_id": "SRC012",
+    "occurred": "NO",
+    "role_a": "上田",
+    "role_b": "小川",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-QWEN-NAME_ONLY-SRC013",
+    "source_id": "SRC013",
+    "occurred": "YES",
+    "role_a": "上田",
+    "role_b": "青木",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-QWEN-NAME_ONLY-SRC014",
+    "source_id": "SRC014",
+    "occurred": "NO",
+    "role_a": "上田",
+    "role_b": "青木",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-QWEN-NAME_ONLY-SRC015",
+    "source_id": "SRC015",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "上田",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-QWEN-NAME_ONLY-SRC016",
+    "source_id": "SRC016",
+    "occurred": "NO",
+    "role_a": "青木",
+    "role_b": "上田",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-QWEN-NAME_ONLY-SRC017",
+    "source_id": "SRC017",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-QWEN-NAME_ONLY-SRC018",
+    "source_id": "SRC018",
+    "occurred": "NO",
+    "role_a": "青木",
+    "role_b": "森田",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-QWEN-NAME_ONLY-SRC019",
+    "source_id": "SRC019",
+    "occurred": "YES",
+    "role_a": "森田",
+    "role_b": "青木",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-QWEN-NAME_ONLY-SRC020",
+    "source_id": "SRC020",
+    "occurred": "NO",
+    "role_a": "森田",
+    "role_b": "青木",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-QWEN-NAME_ONLY-SRC021",
+    "source_id": "SRC021",
+    "occurred": "YES",
+    "role_a": "森田",
+    "role_b": "小川",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-QWEN-NAME_ONLY-SRC022",
+    "source_id": "SRC022",
+    "occurred": "NO",
+    "role_a": "森田",
+    "role_b": "小川",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-QWEN-NAME_ONLY-SRC023",
+    "source_id": "SRC023",
+    "occurred": "YES",
+    "role_a": "小川",
+    "role_b": "森田",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-QWEN-NAME_ONLY-SRC024",
+    "source_id": "SRC024",
+    "occurred": "NO",
+    "role_a": "小川",
+    "role_b": "森田",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-QWEN-NAME_ONLY-SRC025",
+    "source_id": "SRC025",
+    "occurred": "YES",
+    "role_a": "小川",
+    "role_b": "上田",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-QWEN-NAME_ONLY-SRC026",
+    "source_id": "SRC026",
+    "occurred": "NO",
+    "role_a": "小川",
+    "role_b": "上田",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-QWEN-NAME_ONLY-SRC027",
+    "source_id": "SRC027",
+    "occurred": "YES",
+    "role_a": "上田",
+    "role_b": "小川",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-QWEN-NAME_ONLY-SRC028",
+    "source_id": "SRC028",
+    "occurred": "NO",
+    "role_a": "上田",
+    "role_b": "小川",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-QWEN-NAME_ONLY-SRC029",
+    "source_id": "SRC029",
+    "occurred": "YES",
+    "role_a": "上田",
+    "role_b": "青木",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-QWEN-NAME_ONLY-SRC030",
+    "source_id": "SRC030",
+    "occurred": "NO",
+    "role_a": "上田",
+    "role_b": "青木",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-QWEN-NAME_ONLY-SRC031",
+    "source_id": "SRC031",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "上田",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-QWEN-NAME_ONLY-SRC032",
+    "source_id": "SRC032",
+    "occurred": "NO",
+    "role_a": "青木",
+    "role_b": "上田",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-QWEN-NAME_ONLY-SRC033",
+    "source_id": "SRC033",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-QWEN-NAME_ONLY-SRC034",
+    "source_id": "SRC034",
+    "occurred": "NO",
+    "role_a": "青木",
+    "role_b": "森田",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-QWEN-NAME_ONLY-SRC035",
+    "source_id": "SRC035",
+    "occurred": "YES",
+    "role_a": "森田",
+    "role_b": "青木",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-QWEN-NAME_ONLY-SRC036",
+    "source_id": "SRC036",
+    "occurred": "NO",
+    "role_a": "森田",
+    "role_b": "青木",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-QWEN-NAME_ONLY-SRC037",
+    "source_id": "SRC037",
+    "occurred": "YES",
+    "role_a": "森田",
+    "role_b": "小川",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-QWEN-NAME_ONLY-SRC038",
+    "source_id": "SRC038",
+    "occurred": "NO",
+    "role_a": "森田",
+    "role_b": "小川",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-QWEN-NAME_ONLY-SRC039",
+    "source_id": "SRC039",
+    "occurred": "YES",
+    "role_a": "小川",
+    "role_b": "森田",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-QWEN-NAME_ONLY-SRC040",
+    "source_id": "SRC040",
+    "occurred": "NO",
+    "role_a": "小川",
+    "role_b": "森田",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-QWEN-NAME_ONLY-SRC041",
+    "source_id": "SRC041",
+    "occurred": "YES",
+    "role_a": "小川",
+    "role_b": "上田",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-QWEN-NAME_ONLY-SRC042",
+    "source_id": "SRC042",
+    "occurred": "NO",
+    "role_a": "小川",
+    "role_b": "上田",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-QWEN-NAME_ONLY-SRC043",
+    "source_id": "SRC043",
+    "occurred": "YES",
+    "role_a": "上田",
+    "role_b": "小川",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-QWEN-NAME_ONLY-SRC044",
+    "source_id": "SRC044",
+    "occurred": "NO",
+    "role_a": "上田",
+    "role_b": "小川",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-QWEN-NAME_ONLY-SRC045",
+    "source_id": "SRC045",
+    "occurred": "YES",
+    "role_a": "上田",
+    "role_b": "青木",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-QWEN-NAME_ONLY-SRC046",
+    "source_id": "SRC046",
+    "occurred": "NO",
+    "role_a": "上田",
+    "role_b": "青木",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-QWEN-NAME_ONLY-SRC047",
+    "source_id": "SRC047",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "上田",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-QWEN-NAME_ONLY-SRC048",
+    "source_id": "SRC048",
+    "occurred": "NO",
+    "role_a": "青木",
+    "role_b": "上田",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-QWEN-NAME_ONLY-SRC049",
+    "source_id": "SRC049",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-QWEN-NAME_ONLY-SRC050",
+    "source_id": "SRC050",
+    "occurred": "NO",
+    "role_a": "青木",
+    "role_b": "森田",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-QWEN-NAME_ONLY-SRC051",
+    "source_id": "SRC051",
+    "occurred": "YES",
+    "role_a": "森田",
+    "role_b": "青木",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-QWEN-NAME_ONLY-SRC052",
+    "source_id": "SRC052",
+    "occurred": "NO",
+    "role_a": "森田",
+    "role_b": "青木",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-QWEN-NAME_ONLY-SRC053",
+    "source_id": "SRC053",
+    "occurred": "YES",
+    "role_a": "森田",
+    "role_b": "小川",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-QWEN-NAME_ONLY-SRC054",
+    "source_id": "SRC054",
+    "occurred": "NO",
+    "role_a": "森田",
+    "role_b": "小川",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-QWEN-NAME_ONLY-SRC055",
+    "source_id": "SRC055",
+    "occurred": "YES",
+    "role_a": "小川",
+    "role_b": "森田",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-QWEN-NAME_ONLY-SRC056",
+    "source_id": "SRC056",
+    "occurred": "NO",
+    "role_a": "小川",
+    "role_b": "森田",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-QWEN-NAME_ONLY-SRC057",
+    "source_id": "SRC057",
+    "occurred": "YES",
+    "role_a": "小川",
+    "role_b": "上田",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-QWEN-NAME_ONLY-SRC058",
+    "source_id": "SRC058",
+    "occurred": "NO",
+    "role_a": "小川",
+    "role_b": "上田",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-QWEN-NAME_ONLY-SRC059",
+    "source_id": "SRC059",
+    "occurred": "YES",
+    "role_a": "上田",
+    "role_b": "小川",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-QWEN-NAME_ONLY-SRC060",
+    "source_id": "SRC060",
+    "occurred": "NO",
+    "role_a": "上田",
+    "role_b": "小川",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-QWEN-NAME_ONLY-SRC061",
+    "source_id": "SRC061",
+    "occurred": "YES",
+    "role_a": "上田",
+    "role_b": "青木",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-QWEN-NAME_ONLY-SRC062",
+    "source_id": "SRC062",
+    "occurred": "NO",
+    "role_a": "上田",
+    "role_b": "青木",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-QWEN-NAME_ONLY-SRC063",
+    "source_id": "SRC063",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "上田",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-QWEN-NAME_ONLY-SRC064",
+    "source_id": "SRC064",
+    "occurred": "NO",
+    "role_a": "青木",
+    "role_b": "上田",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-QWEN-NAME_ONLY-SRC065",
+    "source_id": "SRC065",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-QWEN-NAME_ONLY-SRC066",
+    "source_id": "SRC066",
+    "occurred": "NO",
+    "role_a": "青木",
+    "role_b": "森田",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-QWEN-NAME_ONLY-SRC067",
+    "source_id": "SRC067",
+    "occurred": "YES",
+    "role_a": "森田",
+    "role_b": "青木",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-QWEN-NAME_ONLY-SRC068",
+    "source_id": "SRC068",
+    "occurred": "NO",
+    "role_a": "森田",
+    "role_b": "青木",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-QWEN-NAME_ONLY-SRC069",
+    "source_id": "SRC069",
+    "occurred": "YES",
+    "role_a": "森田",
+    "role_b": "小川",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-QWEN-NAME_ONLY-SRC070",
+    "source_id": "SRC070",
+    "occurred": "NO",
+    "role_a": "森田",
+    "role_b": "小川",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-QWEN-NAME_ONLY-SRC071",
+    "source_id": "SRC071",
+    "occurred": "YES",
+    "role_a": "小川",
+    "role_b": "森田",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-QWEN-NAME_ONLY-SRC072",
+    "source_id": "SRC072",
+    "occurred": "NO",
+    "role_a": "小川",
+    "role_b": "森田",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-QWEN-NAME_ONLY-SRC073",
+    "source_id": "SRC073",
+    "occurred": "YES",
+    "role_a": "小川",
+    "role_b": "上田",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-QWEN-NAME_ONLY-SRC074",
+    "source_id": "SRC074",
+    "occurred": "NO",
+    "role_a": "小川",
+    "role_b": "上田",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-QWEN-NAME_ONLY-SRC075",
+    "source_id": "SRC075",
+    "occurred": "YES",
+    "role_a": "上田",
+    "role_b": "小川",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-QWEN-NAME_ONLY-SRC076",
+    "source_id": "SRC076",
+    "occurred": "NO",
+    "role_a": "上田",
+    "role_b": "小川",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-QWEN-NAME_ONLY-SRC077",
+    "source_id": "SRC077",
+    "occurred": "YES",
+    "role_a": "上田",
+    "role_b": "青木",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-QWEN-NAME_ONLY-SRC078",
+    "source_id": "SRC078",
+    "occurred": "NO",
+    "role_a": "上田",
+    "role_b": "青木",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-QWEN-NAME_ONLY-SRC079",
+    "source_id": "SRC079",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "上田",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-QWEN-NAME_ONLY-SRC080",
+    "source_id": "SRC080",
+    "occurred": "NO",
+    "role_a": "青木",
+    "role_b": "上田",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-QWEN-NAME_ONLY-SRC081",
+    "source_id": "SRC081",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-QWEN-NAME_ONLY-SRC082",
+    "source_id": "SRC082",
+    "occurred": "NO",
+    "role_a": "青木",
+    "role_b": "森田",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-QWEN-NAME_ONLY-SRC083",
+    "source_id": "SRC083",
+    "occurred": "YES",
+    "role_a": "森田",
+    "role_b": "青木",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-QWEN-NAME_ONLY-SRC084",
+    "source_id": "SRC084",
+    "occurred": "NO",
+    "role_a": "森田",
+    "role_b": "青木",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-QWEN-NAME_ONLY-SRC085",
+    "source_id": "SRC085",
+    "occurred": "YES",
+    "role_a": "森田",
+    "role_b": "小川",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-QWEN-NAME_ONLY-SRC086",
+    "source_id": "SRC086",
+    "occurred": "NO",
+    "role_a": "森田",
+    "role_b": "小川",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-QWEN-NAME_ONLY-SRC087",
+    "source_id": "SRC087",
+    "occurred": "YES",
+    "role_a": "小川",
+    "role_b": "森田",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-QWEN-NAME_ONLY-SRC088",
+    "source_id": "SRC088",
+    "occurred": "NO",
+    "role_a": "小川",
+    "role_b": "森田",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-QWEN-NAME_ONLY-SRC089",
+    "source_id": "SRC089",
+    "occurred": "YES",
+    "role_a": "小川",
+    "role_b": "上田",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-QWEN-NAME_ONLY-SRC090",
+    "source_id": "SRC090",
+    "occurred": "NO",
+    "role_a": "小川",
+    "role_b": "上田",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-QWEN-NAME_ONLY-SRC091",
+    "source_id": "SRC091",
+    "occurred": "YES",
+    "role_a": "上田",
+    "role_b": "小川",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-QWEN-NAME_ONLY-SRC092",
+    "source_id": "SRC092",
+    "occurred": "NO",
+    "role_a": "上田",
+    "role_b": "小川",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-QWEN-NAME_ONLY-SRC093",
+    "source_id": "SRC093",
+    "occurred": "YES",
+    "role_a": "上田",
+    "role_b": "青木",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-QWEN-NAME_ONLY-SRC094",
+    "source_id": "SRC094",
+    "occurred": "NO",
+    "role_a": "上田",
+    "role_b": "青木",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-QWEN-NAME_ONLY-SRC095",
+    "source_id": "SRC095",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "上田",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-QWEN-NAME_ONLY-SRC096",
+    "source_id": "SRC096",
+    "occurred": "NO",
+    "role_a": "青木",
+    "role_b": "上田",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-LLAMA-ID_TABLE-SRC001",
+    "source_id": "SRC001",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-LLAMA-ID_TABLE-SRC002",
+    "source_id": "SRC002",
+    "occurred": "NO",
+    "role_a": "青木",
+    "role_b": "森田",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-LLAMA-ID_TABLE-SRC003",
+    "source_id": "SRC003",
+    "occurred": "YES",
+    "role_a": "森田",
+    "role_b": "青木",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-LLAMA-ID_TABLE-SRC004",
+    "source_id": "SRC004",
+    "occurred": "NO",
+    "role_a": "森田",
+    "role_b": "青木",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-LLAMA-ID_TABLE-SRC005",
+    "source_id": "SRC005",
+    "occurred": "YES",
+    "role_a": "森田",
+    "role_b": "小川",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-LLAMA-ID_TABLE-SRC006",
+    "source_id": "SRC006",
+    "occurred": "NO",
+    "role_a": "森田",
+    "role_b": "小川",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-LLAMA-ID_TABLE-SRC007",
+    "source_id": "SRC007",
+    "occurred": "YES",
+    "role_a": "小川",
+    "role_b": "森田",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-LLAMA-ID_TABLE-SRC008",
+    "source_id": "SRC008",
+    "occurred": "NO",
+    "role_a": "小川",
+    "role_b": "森田",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-LLAMA-ID_TABLE-SRC009",
+    "source_id": "SRC009",
+    "occurred": "YES",
+    "role_a": "小川",
+    "role_b": "上田",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-LLAMA-ID_TABLE-SRC010",
+    "source_id": "SRC010",
+    "occurred": "NO",
+    "role_a": "小川",
+    "role_b": "上田",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-LLAMA-ID_TABLE-SRC011",
+    "source_id": "SRC011",
+    "occurred": "YES",
+    "role_a": "上田",
+    "role_b": "小川",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-LLAMA-ID_TABLE-SRC012",
+    "source_id": "SRC012",
+    "occurred": "NO",
+    "role_a": "上田",
+    "role_b": "小川",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-LLAMA-ID_TABLE-SRC013",
+    "source_id": "SRC013",
+    "occurred": "YES",
+    "role_a": "上田",
+    "role_b": "青木",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-LLAMA-ID_TABLE-SRC014",
+    "source_id": "SRC014",
+    "occurred": "NO",
+    "role_a": "上田",
+    "role_b": "青木",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-LLAMA-ID_TABLE-SRC015",
+    "source_id": "SRC015",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "上田",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-LLAMA-ID_TABLE-SRC016",
+    "source_id": "SRC016",
+    "occurred": "NO",
+    "role_a": "青木",
+    "role_b": "上田",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-LLAMA-ID_TABLE-SRC017",
+    "source_id": "SRC017",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-LLAMA-ID_TABLE-SRC018",
+    "source_id": "SRC018",
+    "occurred": "NO",
+    "role_a": "青木",
+    "role_b": "森田",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-LLAMA-ID_TABLE-SRC019",
+    "source_id": "SRC019",
+    "occurred": "YES",
+    "role_a": "森田",
+    "role_b": "青木",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-LLAMA-ID_TABLE-SRC020",
+    "source_id": "SRC020",
+    "occurred": "NO",
+    "role_a": "森田",
+    "role_b": "青木",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-LLAMA-ID_TABLE-SRC021",
+    "source_id": "SRC021",
+    "occurred": "YES",
+    "role_a": "森田",
+    "role_b": "小川",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-LLAMA-ID_TABLE-SRC022",
+    "source_id": "SRC022",
+    "occurred": "NO",
+    "role_a": "森田",
+    "role_b": "小川",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-LLAMA-ID_TABLE-SRC023",
+    "source_id": "SRC023",
+    "occurred": "YES",
+    "role_a": "小川",
+    "role_b": "森田",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-LLAMA-ID_TABLE-SRC024",
+    "source_id": "SRC024",
+    "occurred": "NO",
+    "role_a": "小川",
+    "role_b": "森田",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-LLAMA-ID_TABLE-SRC025",
+    "source_id": "SRC025",
+    "occurred": "YES",
+    "role_a": "小川",
+    "role_b": "上田",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-LLAMA-ID_TABLE-SRC026",
+    "source_id": "SRC026",
+    "occurred": "NO",
+    "role_a": "小川",
+    "role_b": "上田",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-LLAMA-ID_TABLE-SRC027",
+    "source_id": "SRC027",
+    "occurred": "YES",
+    "role_a": "上田",
+    "role_b": "小川",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-LLAMA-ID_TABLE-SRC028",
+    "source_id": "SRC028",
+    "occurred": "NO",
+    "role_a": "上田",
+    "role_b": "小川",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-LLAMA-ID_TABLE-SRC029",
+    "source_id": "SRC029",
+    "occurred": "YES",
+    "role_a": "上田",
+    "role_b": "青木",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-LLAMA-ID_TABLE-SRC030",
+    "source_id": "SRC030",
+    "occurred": "NO",
+    "role_a": "上田",
+    "role_b": "青木",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-LLAMA-ID_TABLE-SRC031",
+    "source_id": "SRC031",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "上田",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-LLAMA-ID_TABLE-SRC032",
+    "source_id": "SRC032",
+    "occurred": "NO",
+    "role_a": "青木",
+    "role_b": "上田",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-LLAMA-ID_TABLE-SRC033",
+    "source_id": "SRC033",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-LLAMA-ID_TABLE-SRC034",
+    "source_id": "SRC034",
+    "occurred": "NO",
+    "role_a": "青木",
+    "role_b": "森田",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-LLAMA-ID_TABLE-SRC035",
+    "source_id": "SRC035",
+    "occurred": "YES",
+    "role_a": "森田",
+    "role_b": "青木",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-LLAMA-ID_TABLE-SRC036",
+    "source_id": "SRC036",
+    "occurred": "NO",
+    "role_a": "森田",
+    "role_b": "青木",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-LLAMA-ID_TABLE-SRC037",
+    "source_id": "SRC037",
+    "occurred": "YES",
+    "role_a": "森田",
+    "role_b": "小川",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-LLAMA-ID_TABLE-SRC038",
+    "source_id": "SRC038",
+    "occurred": "NO",
+    "role_a": "森田",
+    "role_b": "小川",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-LLAMA-ID_TABLE-SRC039",
+    "source_id": "SRC039",
+    "occurred": "YES",
+    "role_a": "小川",
+    "role_b": "森田",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-LLAMA-ID_TABLE-SRC040",
+    "source_id": "SRC040",
+    "occurred": "NO",
+    "role_a": "小川",
+    "role_b": "森田",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-LLAMA-ID_TABLE-SRC041",
+    "source_id": "SRC041",
+    "occurred": "YES",
+    "role_a": "小川",
+    "role_b": "上田",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-LLAMA-ID_TABLE-SRC042",
+    "source_id": "SRC042",
+    "occurred": "NO",
+    "role_a": "小川",
+    "role_b": "上田",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-LLAMA-ID_TABLE-SRC043",
+    "source_id": "SRC043",
+    "occurred": "YES",
+    "role_a": "上田",
+    "role_b": "小川",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-LLAMA-ID_TABLE-SRC044",
+    "source_id": "SRC044",
+    "occurred": "NO",
+    "role_a": "上田",
+    "role_b": "小川",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-LLAMA-ID_TABLE-SRC045",
+    "source_id": "SRC045",
+    "occurred": "YES",
+    "role_a": "上田",
+    "role_b": "青木",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-LLAMA-ID_TABLE-SRC046",
+    "source_id": "SRC046",
+    "occurred": "NO",
+    "role_a": "上田",
+    "role_b": "青木",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-LLAMA-ID_TABLE-SRC047",
+    "source_id": "SRC047",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "上田",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-LLAMA-ID_TABLE-SRC048",
+    "source_id": "SRC048",
+    "occurred": "NO",
+    "role_a": "青木",
+    "role_b": "上田",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-LLAMA-ID_TABLE-SRC049",
+    "source_id": "SRC049",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-LLAMA-ID_TABLE-SRC050",
+    "source_id": "SRC050",
+    "occurred": "NO",
+    "role_a": "青木",
+    "role_b": "森田",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-LLAMA-ID_TABLE-SRC051",
+    "source_id": "SRC051",
+    "occurred": "YES",
+    "role_a": "森田",
+    "role_b": "青木",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-LLAMA-ID_TABLE-SRC052",
+    "source_id": "SRC052",
+    "occurred": "NO",
+    "role_a": "森田",
+    "role_b": "青木",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-LLAMA-ID_TABLE-SRC053",
+    "source_id": "SRC053",
+    "occurred": "YES",
+    "role_a": "森田",
+    "role_b": "小川",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-LLAMA-ID_TABLE-SRC054",
+    "source_id": "SRC054",
+    "occurred": "NO",
+    "role_a": "森田",
+    "role_b": "小川",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-LLAMA-ID_TABLE-SRC055",
+    "source_id": "SRC055",
+    "occurred": "YES",
+    "role_a": "小川",
+    "role_b": "森田",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-LLAMA-ID_TABLE-SRC056",
+    "source_id": "SRC056",
+    "occurred": "NO",
+    "role_a": "小川",
+    "role_b": "森田",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-LLAMA-ID_TABLE-SRC057",
+    "source_id": "SRC057",
+    "occurred": "YES",
+    "role_a": "小川",
+    "role_b": "上田",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-LLAMA-ID_TABLE-SRC058",
+    "source_id": "SRC058",
+    "occurred": "NO",
+    "role_a": "小川",
+    "role_b": "上田",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-LLAMA-ID_TABLE-SRC059",
+    "source_id": "SRC059",
+    "occurred": "YES",
+    "role_a": "上田",
+    "role_b": "小川",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-LLAMA-ID_TABLE-SRC060",
+    "source_id": "SRC060",
+    "occurred": "NO",
+    "role_a": "上田",
+    "role_b": "小川",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-LLAMA-ID_TABLE-SRC061",
+    "source_id": "SRC061",
+    "occurred": "YES",
+    "role_a": "上田",
+    "role_b": "青木",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-LLAMA-ID_TABLE-SRC062",
+    "source_id": "SRC062",
+    "occurred": "NO",
+    "role_a": "上田",
+    "role_b": "青木",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-LLAMA-ID_TABLE-SRC063",
+    "source_id": "SRC063",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "上田",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-LLAMA-ID_TABLE-SRC064",
+    "source_id": "SRC064",
+    "occurred": "NO",
+    "role_a": "青木",
+    "role_b": "上田",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-LLAMA-ID_TABLE-SRC065",
+    "source_id": "SRC065",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-LLAMA-ID_TABLE-SRC066",
+    "source_id": "SRC066",
+    "occurred": "NO",
+    "role_a": "青木",
+    "role_b": "森田",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-LLAMA-ID_TABLE-SRC067",
+    "source_id": "SRC067",
+    "occurred": "YES",
+    "role_a": "森田",
+    "role_b": "青木",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-LLAMA-ID_TABLE-SRC068",
+    "source_id": "SRC068",
+    "occurred": "NO",
+    "role_a": "森田",
+    "role_b": "青木",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-LLAMA-ID_TABLE-SRC069",
+    "source_id": "SRC069",
+    "occurred": "YES",
+    "role_a": "森田",
+    "role_b": "小川",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-LLAMA-ID_TABLE-SRC070",
+    "source_id": "SRC070",
+    "occurred": "NO",
+    "role_a": "森田",
+    "role_b": "小川",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-LLAMA-ID_TABLE-SRC071",
+    "source_id": "SRC071",
+    "occurred": "YES",
+    "role_a": "小川",
+    "role_b": "森田",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-LLAMA-ID_TABLE-SRC072",
+    "source_id": "SRC072",
+    "occurred": "NO",
+    "role_a": "小川",
+    "role_b": "森田",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-LLAMA-ID_TABLE-SRC073",
+    "source_id": "SRC073",
+    "occurred": "YES",
+    "role_a": "小川",
+    "role_b": "上田",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-LLAMA-ID_TABLE-SRC074",
+    "source_id": "SRC074",
+    "occurred": "NO",
+    "role_a": "小川",
+    "role_b": "上田",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-LLAMA-ID_TABLE-SRC075",
+    "source_id": "SRC075",
+    "occurred": "YES",
+    "role_a": "上田",
+    "role_b": "小川",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-LLAMA-ID_TABLE-SRC076",
+    "source_id": "SRC076",
+    "occurred": "NO",
+    "role_a": "上田",
+    "role_b": "小川",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-LLAMA-ID_TABLE-SRC077",
+    "source_id": "SRC077",
+    "occurred": "YES",
+    "role_a": "上田",
+    "role_b": "青木",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-LLAMA-ID_TABLE-SRC078",
+    "source_id": "SRC078",
+    "occurred": "NO",
+    "role_a": "上田",
+    "role_b": "青木",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-LLAMA-ID_TABLE-SRC079",
+    "source_id": "SRC079",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "上田",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-LLAMA-ID_TABLE-SRC080",
+    "source_id": "SRC080",
+    "occurred": "NO",
+    "role_a": "青木",
+    "role_b": "上田",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-LLAMA-ID_TABLE-SRC081",
+    "source_id": "SRC081",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-LLAMA-ID_TABLE-SRC082",
+    "source_id": "SRC082",
+    "occurred": "NO",
+    "role_a": "青木",
+    "role_b": "森田",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-LLAMA-ID_TABLE-SRC083",
+    "source_id": "SRC083",
+    "occurred": "YES",
+    "role_a": "森田",
+    "role_b": "青木",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-LLAMA-ID_TABLE-SRC084",
+    "source_id": "SRC084",
+    "occurred": "NO",
+    "role_a": "森田",
+    "role_b": "青木",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-LLAMA-ID_TABLE-SRC085",
+    "source_id": "SRC085",
+    "occurred": "YES",
+    "role_a": "森田",
+    "role_b": "小川",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-LLAMA-ID_TABLE-SRC086",
+    "source_id": "SRC086",
+    "occurred": "NO",
+    "role_a": "森田",
+    "role_b": "小川",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-LLAMA-ID_TABLE-SRC087",
+    "source_id": "SRC087",
+    "occurred": "YES",
+    "role_a": "小川",
+    "role_b": "森田",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-LLAMA-ID_TABLE-SRC088",
+    "source_id": "SRC088",
+    "occurred": "NO",
+    "role_a": "小川",
+    "role_b": "森田",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-LLAMA-ID_TABLE-SRC089",
+    "source_id": "SRC089",
+    "occurred": "YES",
+    "role_a": "小川",
+    "role_b": "上田",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-LLAMA-ID_TABLE-SRC090",
+    "source_id": "SRC090",
+    "occurred": "NO",
+    "role_a": "小川",
+    "role_b": "上田",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-LLAMA-ID_TABLE-SRC091",
+    "source_id": "SRC091",
+    "occurred": "YES",
+    "role_a": "上田",
+    "role_b": "小川",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-LLAMA-ID_TABLE-SRC092",
+    "source_id": "SRC092",
+    "occurred": "NO",
+    "role_a": "上田",
+    "role_b": "小川",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-LLAMA-ID_TABLE-SRC093",
+    "source_id": "SRC093",
+    "occurred": "YES",
+    "role_a": "上田",
+    "role_b": "青木",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-LLAMA-ID_TABLE-SRC094",
+    "source_id": "SRC094",
+    "occurred": "NO",
+    "role_a": "上田",
+    "role_b": "青木",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-LLAMA-ID_TABLE-SRC095",
+    "source_id": "SRC095",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "上田",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-LLAMA-ID_TABLE-SRC096",
+    "source_id": "SRC096",
+    "occurred": "NO",
+    "role_a": "青木",
+    "role_b": "上田",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-LLAMA-NAME_ONLY-SRC001",
+    "source_id": "SRC001",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-LLAMA-NAME_ONLY-SRC002",
+    "source_id": "SRC002",
+    "occurred": "NO",
+    "role_a": "青木",
+    "role_b": "森田",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-LLAMA-NAME_ONLY-SRC003",
+    "source_id": "SRC003",
+    "occurred": "YES",
+    "role_a": "森田",
+    "role_b": "青木",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-LLAMA-NAME_ONLY-SRC004",
+    "source_id": "SRC004",
+    "occurred": "NO",
+    "role_a": "森田",
+    "role_b": "青木",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-LLAMA-NAME_ONLY-SRC005",
+    "source_id": "SRC005",
+    "occurred": "YES",
+    "role_a": "森田",
+    "role_b": "小川",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-LLAMA-NAME_ONLY-SRC006",
+    "source_id": "SRC006",
+    "occurred": "NO",
+    "role_a": "森田",
+    "role_b": "小川",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-LLAMA-NAME_ONLY-SRC007",
+    "source_id": "SRC007",
+    "occurred": "YES",
+    "role_a": "小川",
+    "role_b": "森田",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-LLAMA-NAME_ONLY-SRC008",
+    "source_id": "SRC008",
+    "occurred": "NO",
+    "role_a": "小川",
+    "role_b": "森田",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-LLAMA-NAME_ONLY-SRC009",
+    "source_id": "SRC009",
+    "occurred": "YES",
+    "role_a": "小川",
+    "role_b": "上田",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-LLAMA-NAME_ONLY-SRC010",
+    "source_id": "SRC010",
+    "occurred": "NO",
+    "role_a": "小川",
+    "role_b": "上田",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-LLAMA-NAME_ONLY-SRC011",
+    "source_id": "SRC011",
+    "occurred": "YES",
+    "role_a": "上田",
+    "role_b": "小川",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-LLAMA-NAME_ONLY-SRC012",
+    "source_id": "SRC012",
+    "occurred": "NO",
+    "role_a": "上田",
+    "role_b": "小川",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-LLAMA-NAME_ONLY-SRC013",
+    "source_id": "SRC013",
+    "occurred": "YES",
+    "role_a": "上田",
+    "role_b": "青木",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-LLAMA-NAME_ONLY-SRC014",
+    "source_id": "SRC014",
+    "occurred": "NO",
+    "role_a": "上田",
+    "role_b": "青木",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-LLAMA-NAME_ONLY-SRC015",
+    "source_id": "SRC015",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "上田",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-LLAMA-NAME_ONLY-SRC016",
+    "source_id": "SRC016",
+    "occurred": "NO",
+    "role_a": "青木",
+    "role_b": "上田",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-LLAMA-NAME_ONLY-SRC017",
+    "source_id": "SRC017",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-LLAMA-NAME_ONLY-SRC018",
+    "source_id": "SRC018",
+    "occurred": "NO",
+    "role_a": "青木",
+    "role_b": "森田",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-LLAMA-NAME_ONLY-SRC019",
+    "source_id": "SRC019",
+    "occurred": "YES",
+    "role_a": "森田",
+    "role_b": "青木",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-LLAMA-NAME_ONLY-SRC020",
+    "source_id": "SRC020",
+    "occurred": "NO",
+    "role_a": "森田",
+    "role_b": "青木",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-LLAMA-NAME_ONLY-SRC021",
+    "source_id": "SRC021",
+    "occurred": "YES",
+    "role_a": "森田",
+    "role_b": "小川",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-LLAMA-NAME_ONLY-SRC022",
+    "source_id": "SRC022",
+    "occurred": "NO",
+    "role_a": "森田",
+    "role_b": "小川",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-LLAMA-NAME_ONLY-SRC023",
+    "source_id": "SRC023",
+    "occurred": "YES",
+    "role_a": "小川",
+    "role_b": "森田",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-LLAMA-NAME_ONLY-SRC024",
+    "source_id": "SRC024",
+    "occurred": "NO",
+    "role_a": "小川",
+    "role_b": "森田",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-LLAMA-NAME_ONLY-SRC025",
+    "source_id": "SRC025",
+    "occurred": "YES",
+    "role_a": "小川",
+    "role_b": "上田",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-LLAMA-NAME_ONLY-SRC026",
+    "source_id": "SRC026",
+    "occurred": "NO",
+    "role_a": "小川",
+    "role_b": "上田",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-LLAMA-NAME_ONLY-SRC027",
+    "source_id": "SRC027",
+    "occurred": "YES",
+    "role_a": "上田",
+    "role_b": "小川",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-LLAMA-NAME_ONLY-SRC028",
+    "source_id": "SRC028",
+    "occurred": "NO",
+    "role_a": "上田",
+    "role_b": "小川",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-LLAMA-NAME_ONLY-SRC029",
+    "source_id": "SRC029",
+    "occurred": "YES",
+    "role_a": "上田",
+    "role_b": "青木",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-LLAMA-NAME_ONLY-SRC030",
+    "source_id": "SRC030",
+    "occurred": "NO",
+    "role_a": "上田",
+    "role_b": "青木",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-LLAMA-NAME_ONLY-SRC031",
+    "source_id": "SRC031",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "上田",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-LLAMA-NAME_ONLY-SRC032",
+    "source_id": "SRC032",
+    "occurred": "NO",
+    "role_a": "青木",
+    "role_b": "上田",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-LLAMA-NAME_ONLY-SRC033",
+    "source_id": "SRC033",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-LLAMA-NAME_ONLY-SRC034",
+    "source_id": "SRC034",
+    "occurred": "NO",
+    "role_a": "青木",
+    "role_b": "森田",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-LLAMA-NAME_ONLY-SRC035",
+    "source_id": "SRC035",
+    "occurred": "YES",
+    "role_a": "森田",
+    "role_b": "青木",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-LLAMA-NAME_ONLY-SRC036",
+    "source_id": "SRC036",
+    "occurred": "NO",
+    "role_a": "森田",
+    "role_b": "青木",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-LLAMA-NAME_ONLY-SRC037",
+    "source_id": "SRC037",
+    "occurred": "YES",
+    "role_a": "森田",
+    "role_b": "小川",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-LLAMA-NAME_ONLY-SRC038",
+    "source_id": "SRC038",
+    "occurred": "NO",
+    "role_a": "森田",
+    "role_b": "小川",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-LLAMA-NAME_ONLY-SRC039",
+    "source_id": "SRC039",
+    "occurred": "YES",
+    "role_a": "小川",
+    "role_b": "森田",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-LLAMA-NAME_ONLY-SRC040",
+    "source_id": "SRC040",
+    "occurred": "NO",
+    "role_a": "小川",
+    "role_b": "森田",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-LLAMA-NAME_ONLY-SRC041",
+    "source_id": "SRC041",
+    "occurred": "YES",
+    "role_a": "小川",
+    "role_b": "上田",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-LLAMA-NAME_ONLY-SRC042",
+    "source_id": "SRC042",
+    "occurred": "NO",
+    "role_a": "小川",
+    "role_b": "上田",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-LLAMA-NAME_ONLY-SRC043",
+    "source_id": "SRC043",
+    "occurred": "YES",
+    "role_a": "上田",
+    "role_b": "小川",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-LLAMA-NAME_ONLY-SRC044",
+    "source_id": "SRC044",
+    "occurred": "NO",
+    "role_a": "上田",
+    "role_b": "小川",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-LLAMA-NAME_ONLY-SRC045",
+    "source_id": "SRC045",
+    "occurred": "YES",
+    "role_a": "上田",
+    "role_b": "青木",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-LLAMA-NAME_ONLY-SRC046",
+    "source_id": "SRC046",
+    "occurred": "NO",
+    "role_a": "上田",
+    "role_b": "青木",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-LLAMA-NAME_ONLY-SRC047",
+    "source_id": "SRC047",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "上田",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-LLAMA-NAME_ONLY-SRC048",
+    "source_id": "SRC048",
+    "occurred": "NO",
+    "role_a": "青木",
+    "role_b": "上田",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-LLAMA-NAME_ONLY-SRC049",
+    "source_id": "SRC049",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-LLAMA-NAME_ONLY-SRC050",
+    "source_id": "SRC050",
+    "occurred": "NO",
+    "role_a": "青木",
+    "role_b": "森田",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-LLAMA-NAME_ONLY-SRC051",
+    "source_id": "SRC051",
+    "occurred": "YES",
+    "role_a": "森田",
+    "role_b": "青木",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-LLAMA-NAME_ONLY-SRC052",
+    "source_id": "SRC052",
+    "occurred": "NO",
+    "role_a": "森田",
+    "role_b": "青木",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-LLAMA-NAME_ONLY-SRC053",
+    "source_id": "SRC053",
+    "occurred": "YES",
+    "role_a": "森田",
+    "role_b": "小川",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-LLAMA-NAME_ONLY-SRC054",
+    "source_id": "SRC054",
+    "occurred": "NO",
+    "role_a": "森田",
+    "role_b": "小川",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-LLAMA-NAME_ONLY-SRC055",
+    "source_id": "SRC055",
+    "occurred": "YES",
+    "role_a": "小川",
+    "role_b": "森田",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-LLAMA-NAME_ONLY-SRC056",
+    "source_id": "SRC056",
+    "occurred": "NO",
+    "role_a": "小川",
+    "role_b": "森田",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-LLAMA-NAME_ONLY-SRC057",
+    "source_id": "SRC057",
+    "occurred": "YES",
+    "role_a": "小川",
+    "role_b": "上田",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-LLAMA-NAME_ONLY-SRC058",
+    "source_id": "SRC058",
+    "occurred": "NO",
+    "role_a": "小川",
+    "role_b": "上田",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-LLAMA-NAME_ONLY-SRC059",
+    "source_id": "SRC059",
+    "occurred": "YES",
+    "role_a": "上田",
+    "role_b": "小川",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-LLAMA-NAME_ONLY-SRC060",
+    "source_id": "SRC060",
+    "occurred": "NO",
+    "role_a": "上田",
+    "role_b": "小川",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-LLAMA-NAME_ONLY-SRC061",
+    "source_id": "SRC061",
+    "occurred": "YES",
+    "role_a": "上田",
+    "role_b": "青木",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-LLAMA-NAME_ONLY-SRC062",
+    "source_id": "SRC062",
+    "occurred": "NO",
+    "role_a": "上田",
+    "role_b": "青木",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-LLAMA-NAME_ONLY-SRC063",
+    "source_id": "SRC063",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "上田",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-LLAMA-NAME_ONLY-SRC064",
+    "source_id": "SRC064",
+    "occurred": "NO",
+    "role_a": "青木",
+    "role_b": "上田",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-LLAMA-NAME_ONLY-SRC065",
+    "source_id": "SRC065",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-LLAMA-NAME_ONLY-SRC066",
+    "source_id": "SRC066",
+    "occurred": "NO",
+    "role_a": "青木",
+    "role_b": "森田",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-LLAMA-NAME_ONLY-SRC067",
+    "source_id": "SRC067",
+    "occurred": "YES",
+    "role_a": "森田",
+    "role_b": "青木",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-LLAMA-NAME_ONLY-SRC068",
+    "source_id": "SRC068",
+    "occurred": "NO",
+    "role_a": "森田",
+    "role_b": "青木",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-LLAMA-NAME_ONLY-SRC069",
+    "source_id": "SRC069",
+    "occurred": "YES",
+    "role_a": "森田",
+    "role_b": "小川",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-LLAMA-NAME_ONLY-SRC070",
+    "source_id": "SRC070",
+    "occurred": "NO",
+    "role_a": "森田",
+    "role_b": "小川",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-LLAMA-NAME_ONLY-SRC071",
+    "source_id": "SRC071",
+    "occurred": "YES",
+    "role_a": "小川",
+    "role_b": "森田",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-LLAMA-NAME_ONLY-SRC072",
+    "source_id": "SRC072",
+    "occurred": "NO",
+    "role_a": "小川",
+    "role_b": "森田",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-LLAMA-NAME_ONLY-SRC073",
+    "source_id": "SRC073",
+    "occurred": "YES",
+    "role_a": "小川",
+    "role_b": "上田",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-LLAMA-NAME_ONLY-SRC074",
+    "source_id": "SRC074",
+    "occurred": "NO",
+    "role_a": "小川",
+    "role_b": "上田",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-LLAMA-NAME_ONLY-SRC075",
+    "source_id": "SRC075",
+    "occurred": "YES",
+    "role_a": "上田",
+    "role_b": "小川",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-LLAMA-NAME_ONLY-SRC076",
+    "source_id": "SRC076",
+    "occurred": "NO",
+    "role_a": "上田",
+    "role_b": "小川",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-LLAMA-NAME_ONLY-SRC077",
+    "source_id": "SRC077",
+    "occurred": "YES",
+    "role_a": "上田",
+    "role_b": "青木",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-LLAMA-NAME_ONLY-SRC078",
+    "source_id": "SRC078",
+    "occurred": "NO",
+    "role_a": "上田",
+    "role_b": "青木",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-LLAMA-NAME_ONLY-SRC079",
+    "source_id": "SRC079",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "上田",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-LLAMA-NAME_ONLY-SRC080",
+    "source_id": "SRC080",
+    "occurred": "NO",
+    "role_a": "青木",
+    "role_b": "上田",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-LLAMA-NAME_ONLY-SRC081",
+    "source_id": "SRC081",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "森田",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-LLAMA-NAME_ONLY-SRC082",
+    "source_id": "SRC082",
+    "occurred": "NO",
+    "role_a": "青木",
+    "role_b": "森田",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-LLAMA-NAME_ONLY-SRC083",
+    "source_id": "SRC083",
+    "occurred": "YES",
+    "role_a": "森田",
+    "role_b": "青木",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-LLAMA-NAME_ONLY-SRC084",
+    "source_id": "SRC084",
+    "occurred": "NO",
+    "role_a": "森田",
+    "role_b": "青木",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-LLAMA-NAME_ONLY-SRC085",
+    "source_id": "SRC085",
+    "occurred": "YES",
+    "role_a": "森田",
+    "role_b": "小川",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-LLAMA-NAME_ONLY-SRC086",
+    "source_id": "SRC086",
+    "occurred": "NO",
+    "role_a": "森田",
+    "role_b": "小川",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-LLAMA-NAME_ONLY-SRC087",
+    "source_id": "SRC087",
+    "occurred": "YES",
+    "role_a": "小川",
+    "role_b": "森田",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-LLAMA-NAME_ONLY-SRC088",
+    "source_id": "SRC088",
+    "occurred": "NO",
+    "role_a": "小川",
+    "role_b": "森田",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-LLAMA-NAME_ONLY-SRC089",
+    "source_id": "SRC089",
+    "occurred": "YES",
+    "role_a": "小川",
+    "role_b": "上田",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-LLAMA-NAME_ONLY-SRC090",
+    "source_id": "SRC090",
+    "occurred": "NO",
+    "role_a": "小川",
+    "role_b": "上田",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-LLAMA-NAME_ONLY-SRC091",
+    "source_id": "SRC091",
+    "occurred": "YES",
+    "role_a": "上田",
+    "role_b": "小川",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-LLAMA-NAME_ONLY-SRC092",
+    "source_id": "SRC092",
+    "occurred": "NO",
+    "role_a": "上田",
+    "role_b": "小川",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-LLAMA-NAME_ONLY-SRC093",
+    "source_id": "SRC093",
+    "occurred": "YES",
+    "role_a": "上田",
+    "role_b": "青木",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-LLAMA-NAME_ONLY-SRC094",
+    "source_id": "SRC094",
+    "occurred": "NO",
+    "role_a": "上田",
+    "role_b": "青木",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-LLAMA-NAME_ONLY-SRC095",
+    "source_id": "SRC095",
+    "occurred": "YES",
+    "role_a": "青木",
+    "role_b": "上田",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  },
+  {
+    "call_id": "B13-LLAMA-NAME_ONLY-SRC096",
+    "source_id": "SRC096",
+    "occurred": "NO",
+    "role_a": "青木",
+    "role_b": "上田",
+    "identity": "AUTHOR_AI_REFERENCE_NOT_HUMAN_GOLD"
+  }
+]

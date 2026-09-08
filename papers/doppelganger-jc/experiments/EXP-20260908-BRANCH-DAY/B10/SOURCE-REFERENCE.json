@@ -1,0 +1,1122 @@
+[
+  {
+    "source_id": "N01-BASE",
+    "family_id": "N01",
+    "domain": "lend",
+    "variant": "BASE",
+    "source_text": "陈悦把这把雨伞借给了周宁。",
+    "occurred": "YES",
+    "role_a": "陈悦",
+    "role_b": "周宁",
+    "people": [
+      "陈悦",
+      "周宁"
+    ],
+    "name_aliases": [
+      [
+        "陈悦"
+      ],
+      [
+        "周宁"
+      ]
+    ],
+    "role_keys": [
+      "lender",
+      "borrower"
+    ],
+    "role_definitions": "lender是借出方，borrower是借入方。",
+    "identity": "AUTHOR_CONSTRUCTED_NOT_HUMAN_GOLD"
+  },
+  {
+    "source_id": "N01-PARAPHRASE",
+    "family_id": "N01",
+    "domain": "lend",
+    "variant": "PARAPHRASE",
+    "source_text": "周宁从陈悦那里借到了这把雨伞。",
+    "occurred": "YES",
+    "role_a": "陈悦",
+    "role_b": "周宁",
+    "people": [
+      "陈悦",
+      "周宁"
+    ],
+    "name_aliases": [
+      [
+        "陈悦"
+      ],
+      [
+        "周宁"
+      ]
+    ],
+    "role_keys": [
+      "lender",
+      "borrower"
+    ],
+    "role_definitions": "lender是借出方，borrower是借入方。",
+    "identity": "AUTHOR_CONSTRUCTED_NOT_HUMAN_GOLD"
+  },
+  {
+    "source_id": "N01-ROLE_SWAP",
+    "family_id": "N01",
+    "domain": "lend",
+    "variant": "ROLE_SWAP",
+    "source_text": "周宁把这把雨伞借给了陈悦。",
+    "occurred": "YES",
+    "role_a": "周宁",
+    "role_b": "陈悦",
+    "people": [
+      "陈悦",
+      "周宁"
+    ],
+    "name_aliases": [
+      [
+        "陈悦"
+      ],
+      [
+        "周宁"
+      ]
+    ],
+    "role_keys": [
+      "lender",
+      "borrower"
+    ],
+    "role_definitions": "lender是借出方，borrower是借入方。",
+    "identity": "AUTHOR_CONSTRUCTED_NOT_HUMAN_GOLD"
+  },
+  {
+    "source_id": "N01-NEGATED",
+    "family_id": "N01",
+    "domain": "lend",
+    "variant": "NEGATED",
+    "source_text": "陈悦没有把这把雨伞借给周宁。",
+    "occurred": "NO",
+    "role_a": "陈悦",
+    "role_b": "周宁",
+    "people": [
+      "陈悦",
+      "周宁"
+    ],
+    "name_aliases": [
+      [
+        "陈悦"
+      ],
+      [
+        "周宁"
+      ]
+    ],
+    "role_keys": [
+      "lender",
+      "borrower"
+    ],
+    "role_definitions": "lender是借出方，borrower是借入方。",
+    "identity": "AUTHOR_CONSTRUCTED_NOT_HUMAN_GOLD"
+  },
+  {
+    "source_id": "N01-UNRESOLVED",
+    "family_id": "N01",
+    "domain": "lend",
+    "variant": "UNRESOLVED",
+    "source_text": "工作人员正在核实陈悦是否把这把雨伞借给了周宁，目前尚无结论。",
+    "occurred": "UNKNOWN",
+    "role_a": "陈悦",
+    "role_b": "周宁",
+    "people": [
+      "陈悦",
+      "周宁"
+    ],
+    "name_aliases": [
+      [
+        "陈悦"
+      ],
+      [
+        "周宁"
+      ]
+    ],
+    "role_keys": [
+      "lender",
+      "borrower"
+    ],
+    "role_definitions": "lender是借出方，borrower是借入方。",
+    "identity": "AUTHOR_CONSTRUCTED_NOT_HUMAN_GOLD"
+  },
+  {
+    "source_id": "N02-BASE",
+    "family_id": "N02",
+    "domain": "lend",
+    "variant": "BASE",
+    "source_text": "林涛把这个充电器借给了许静。",
+    "occurred": "YES",
+    "role_a": "林涛",
+    "role_b": "许静",
+    "people": [
+      "林涛",
+      "许静"
+    ],
+    "name_aliases": [
+      [
+        "林涛"
+      ],
+      [
+        "许静"
+      ]
+    ],
+    "role_keys": [
+      "lender",
+      "borrower"
+    ],
+    "role_definitions": "lender是借出方，borrower是借入方。",
+    "identity": "AUTHOR_CONSTRUCTED_NOT_HUMAN_GOLD"
+  },
+  {
+    "source_id": "N02-PARAPHRASE",
+    "family_id": "N02",
+    "domain": "lend",
+    "variant": "PARAPHRASE",
+    "source_text": "许静从林涛那里借到了这个充电器。",
+    "occurred": "YES",
+    "role_a": "林涛",
+    "role_b": "许静",
+    "people": [
+      "林涛",
+      "许静"
+    ],
+    "name_aliases": [
+      [
+        "林涛"
+      ],
+      [
+        "许静"
+      ]
+    ],
+    "role_keys": [
+      "lender",
+      "borrower"
+    ],
+    "role_definitions": "lender是借出方，borrower是借入方。",
+    "identity": "AUTHOR_CONSTRUCTED_NOT_HUMAN_GOLD"
+  },
+  {
+    "source_id": "N02-ROLE_SWAP",
+    "family_id": "N02",
+    "domain": "lend",
+    "variant": "ROLE_SWAP",
+    "source_text": "许静把这个充电器借给了林涛。",
+    "occurred": "YES",
+    "role_a": "许静",
+    "role_b": "林涛",
+    "people": [
+      "林涛",
+      "许静"
+    ],
+    "name_aliases": [
+      [
+        "林涛"
+      ],
+      [
+        "许静"
+      ]
+    ],
+    "role_keys": [
+      "lender",
+      "borrower"
+    ],
+    "role_definitions": "lender是借出方，borrower是借入方。",
+    "identity": "AUTHOR_CONSTRUCTED_NOT_HUMAN_GOLD"
+  },
+  {
+    "source_id": "N02-NEGATED",
+    "family_id": "N02",
+    "domain": "lend",
+    "variant": "NEGATED",
+    "source_text": "林涛没有把这个充电器借给许静。",
+    "occurred": "NO",
+    "role_a": "林涛",
+    "role_b": "许静",
+    "people": [
+      "林涛",
+      "许静"
+    ],
+    "name_aliases": [
+      [
+        "林涛"
+      ],
+      [
+        "许静"
+      ]
+    ],
+    "role_keys": [
+      "lender",
+      "borrower"
+    ],
+    "role_definitions": "lender是借出方，borrower是借入方。",
+    "identity": "AUTHOR_CONSTRUCTED_NOT_HUMAN_GOLD"
+  },
+  {
+    "source_id": "N02-UNRESOLVED",
+    "family_id": "N02",
+    "domain": "lend",
+    "variant": "UNRESOLVED",
+    "source_text": "工作人员正在核实林涛是否把这个充电器借给了许静，目前尚无结论。",
+    "occurred": "UNKNOWN",
+    "role_a": "林涛",
+    "role_b": "许静",
+    "people": [
+      "林涛",
+      "许静"
+    ],
+    "name_aliases": [
+      [
+        "林涛"
+      ],
+      [
+        "许静"
+      ]
+    ],
+    "role_keys": [
+      "lender",
+      "borrower"
+    ],
+    "role_definitions": "lender是借出方，borrower是借入方。",
+    "identity": "AUTHOR_CONSTRUCTED_NOT_HUMAN_GOLD"
+  },
+  {
+    "source_id": "N03-BASE",
+    "family_id": "N03",
+    "domain": "sell",
+    "variant": "BASE",
+    "source_text": "王晨把这辆自行车卖给了刘宁。",
+    "occurred": "YES",
+    "role_a": "王晨",
+    "role_b": "刘宁",
+    "people": [
+      "王晨",
+      "刘宁"
+    ],
+    "name_aliases": [
+      [
+        "王晨"
+      ],
+      [
+        "刘宁"
+      ]
+    ],
+    "role_keys": [
+      "seller",
+      "buyer"
+    ],
+    "role_definitions": "seller是卖出方，buyer是买入方。",
+    "identity": "AUTHOR_CONSTRUCTED_NOT_HUMAN_GOLD"
+  },
+  {
+    "source_id": "N03-PARAPHRASE",
+    "family_id": "N03",
+    "domain": "sell",
+    "variant": "PARAPHRASE",
+    "source_text": "刘宁从王晨那里买到了这辆自行车。",
+    "occurred": "YES",
+    "role_a": "王晨",
+    "role_b": "刘宁",
+    "people": [
+      "王晨",
+      "刘宁"
+    ],
+    "name_aliases": [
+      [
+        "王晨"
+      ],
+      [
+        "刘宁"
+      ]
+    ],
+    "role_keys": [
+      "seller",
+      "buyer"
+    ],
+    "role_definitions": "seller是卖出方，buyer是买入方。",
+    "identity": "AUTHOR_CONSTRUCTED_NOT_HUMAN_GOLD"
+  },
+  {
+    "source_id": "N03-ROLE_SWAP",
+    "family_id": "N03",
+    "domain": "sell",
+    "variant": "ROLE_SWAP",
+    "source_text": "刘宁把这辆自行车卖给了王晨。",
+    "occurred": "YES",
+    "role_a": "刘宁",
+    "role_b": "王晨",
+    "people": [
+      "王晨",
+      "刘宁"
+    ],
+    "name_aliases": [
+      [
+        "王晨"
+      ],
+      [
+        "刘宁"
+      ]
+    ],
+    "role_keys": [
+      "seller",
+      "buyer"
+    ],
+    "role_definitions": "seller是卖出方，buyer是买入方。",
+    "identity": "AUTHOR_CONSTRUCTED_NOT_HUMAN_GOLD"
+  },
+  {
+    "source_id": "N03-NEGATED",
+    "family_id": "N03",
+    "domain": "sell",
+    "variant": "NEGATED",
+    "source_text": "王晨没有把这辆自行车卖给刘宁。",
+    "occurred": "NO",
+    "role_a": "王晨",
+    "role_b": "刘宁",
+    "people": [
+      "王晨",
+      "刘宁"
+    ],
+    "name_aliases": [
+      [
+        "王晨"
+      ],
+      [
+        "刘宁"
+      ]
+    ],
+    "role_keys": [
+      "seller",
+      "buyer"
+    ],
+    "role_definitions": "seller是卖出方，buyer是买入方。",
+    "identity": "AUTHOR_CONSTRUCTED_NOT_HUMAN_GOLD"
+  },
+  {
+    "source_id": "N03-UNRESOLVED",
+    "family_id": "N03",
+    "domain": "sell",
+    "variant": "UNRESOLVED",
+    "source_text": "工作人员正在核实王晨是否把这辆自行车卖给了刘宁，目前尚无结论。",
+    "occurred": "UNKNOWN",
+    "role_a": "王晨",
+    "role_b": "刘宁",
+    "people": [
+      "王晨",
+      "刘宁"
+    ],
+    "name_aliases": [
+      [
+        "王晨"
+      ],
+      [
+        "刘宁"
+      ]
+    ],
+    "role_keys": [
+      "seller",
+      "buyer"
+    ],
+    "role_definitions": "seller是卖出方，buyer是买入方。",
+    "identity": "AUTHOR_CONSTRUCTED_NOT_HUMAN_GOLD"
+  },
+  {
+    "source_id": "N04-BASE",
+    "family_id": "N04",
+    "domain": "sell",
+    "variant": "BASE",
+    "source_text": "苏敏把这盏台灯卖给了赵凯。",
+    "occurred": "YES",
+    "role_a": "苏敏",
+    "role_b": "赵凯",
+    "people": [
+      "苏敏",
+      "赵凯"
+    ],
+    "name_aliases": [
+      [
+        "苏敏"
+      ],
+      [
+        "赵凯"
+      ]
+    ],
+    "role_keys": [
+      "seller",
+      "buyer"
+    ],
+    "role_definitions": "seller是卖出方，buyer是买入方。",
+    "identity": "AUTHOR_CONSTRUCTED_NOT_HUMAN_GOLD"
+  },
+  {
+    "source_id": "N04-PARAPHRASE",
+    "family_id": "N04",
+    "domain": "sell",
+    "variant": "PARAPHRASE",
+    "source_text": "赵凯从苏敏那里买到了这盏台灯。",
+    "occurred": "YES",
+    "role_a": "苏敏",
+    "role_b": "赵凯",
+    "people": [
+      "苏敏",
+      "赵凯"
+    ],
+    "name_aliases": [
+      [
+        "苏敏"
+      ],
+      [
+        "赵凯"
+      ]
+    ],
+    "role_keys": [
+      "seller",
+      "buyer"
+    ],
+    "role_definitions": "seller是卖出方，buyer是买入方。",
+    "identity": "AUTHOR_CONSTRUCTED_NOT_HUMAN_GOLD"
+  },
+  {
+    "source_id": "N04-ROLE_SWAP",
+    "family_id": "N04",
+    "domain": "sell",
+    "variant": "ROLE_SWAP",
+    "source_text": "赵凯把这盏台灯卖给了苏敏。",
+    "occurred": "YES",
+    "role_a": "赵凯",
+    "role_b": "苏敏",
+    "people": [
+      "苏敏",
+      "赵凯"
+    ],
+    "name_aliases": [
+      [
+        "苏敏"
+      ],
+      [
+        "赵凯"
+      ]
+    ],
+    "role_keys": [
+      "seller",
+      "buyer"
+    ],
+    "role_definitions": "seller是卖出方，buyer是买入方。",
+    "identity": "AUTHOR_CONSTRUCTED_NOT_HUMAN_GOLD"
+  },
+  {
+    "source_id": "N04-NEGATED",
+    "family_id": "N04",
+    "domain": "sell",
+    "variant": "NEGATED",
+    "source_text": "苏敏没有把这盏台灯卖给赵凯。",
+    "occurred": "NO",
+    "role_a": "苏敏",
+    "role_b": "赵凯",
+    "people": [
+      "苏敏",
+      "赵凯"
+    ],
+    "name_aliases": [
+      [
+        "苏敏"
+      ],
+      [
+        "赵凯"
+      ]
+    ],
+    "role_keys": [
+      "seller",
+      "buyer"
+    ],
+    "role_definitions": "seller是卖出方，buyer是买入方。",
+    "identity": "AUTHOR_CONSTRUCTED_NOT_HUMAN_GOLD"
+  },
+  {
+    "source_id": "N04-UNRESOLVED",
+    "family_id": "N04",
+    "domain": "sell",
+    "variant": "UNRESOLVED",
+    "source_text": "工作人员正在核实苏敏是否把这盏台灯卖给了赵凯，目前尚无结论。",
+    "occurred": "UNKNOWN",
+    "role_a": "苏敏",
+    "role_b": "赵凯",
+    "people": [
+      "苏敏",
+      "赵凯"
+    ],
+    "name_aliases": [
+      [
+        "苏敏"
+      ],
+      [
+        "赵凯"
+      ]
+    ],
+    "role_keys": [
+      "seller",
+      "buyer"
+    ],
+    "role_definitions": "seller是卖出方，buyer是买入方。",
+    "identity": "AUTHOR_CONSTRUCTED_NOT_HUMAN_GOLD"
+  },
+  {
+    "source_id": "N05-BASE",
+    "family_id": "N05",
+    "domain": "give",
+    "variant": "BASE",
+    "source_text": "何杰把这本画册赠送给了杨帆。",
+    "occurred": "YES",
+    "role_a": "何杰",
+    "role_b": "杨帆",
+    "people": [
+      "何杰",
+      "杨帆"
+    ],
+    "name_aliases": [
+      [
+        "何杰"
+      ],
+      [
+        "杨帆"
+      ]
+    ],
+    "role_keys": [
+      "giver",
+      "recipient"
+    ],
+    "role_definitions": "giver是赠送方，recipient是受赠方。",
+    "identity": "AUTHOR_CONSTRUCTED_NOT_HUMAN_GOLD"
+  },
+  {
+    "source_id": "N05-PARAPHRASE",
+    "family_id": "N05",
+    "domain": "give",
+    "variant": "PARAPHRASE",
+    "source_text": "杨帆收到了何杰赠送的这本画册。",
+    "occurred": "YES",
+    "role_a": "何杰",
+    "role_b": "杨帆",
+    "people": [
+      "何杰",
+      "杨帆"
+    ],
+    "name_aliases": [
+      [
+        "何杰"
+      ],
+      [
+        "杨帆"
+      ]
+    ],
+    "role_keys": [
+      "giver",
+      "recipient"
+    ],
+    "role_definitions": "giver是赠送方，recipient是受赠方。",
+    "identity": "AUTHOR_CONSTRUCTED_NOT_HUMAN_GOLD"
+  },
+  {
+    "source_id": "N05-ROLE_SWAP",
+    "family_id": "N05",
+    "domain": "give",
+    "variant": "ROLE_SWAP",
+    "source_text": "杨帆把这本画册赠送给了何杰。",
+    "occurred": "YES",
+    "role_a": "杨帆",
+    "role_b": "何杰",
+    "people": [
+      "何杰",
+      "杨帆"
+    ],
+    "name_aliases": [
+      [
+        "何杰"
+      ],
+      [
+        "杨帆"
+      ]
+    ],
+    "role_keys": [
+      "giver",
+      "recipient"
+    ],
+    "role_definitions": "giver是赠送方，recipient是受赠方。",
+    "identity": "AUTHOR_CONSTRUCTED_NOT_HUMAN_GOLD"
+  },
+  {
+    "source_id": "N05-NEGATED",
+    "family_id": "N05",
+    "domain": "give",
+    "variant": "NEGATED",
+    "source_text": "何杰没有把这本画册赠送给杨帆。",
+    "occurred": "NO",
+    "role_a": "何杰",
+    "role_b": "杨帆",
+    "people": [
+      "何杰",
+      "杨帆"
+    ],
+    "name_aliases": [
+      [
+        "何杰"
+      ],
+      [
+        "杨帆"
+      ]
+    ],
+    "role_keys": [
+      "giver",
+      "recipient"
+    ],
+    "role_definitions": "giver是赠送方，recipient是受赠方。",
+    "identity": "AUTHOR_CONSTRUCTED_NOT_HUMAN_GOLD"
+  },
+  {
+    "source_id": "N05-UNRESOLVED",
+    "family_id": "N05",
+    "domain": "give",
+    "variant": "UNRESOLVED",
+    "source_text": "工作人员正在核实何杰是否把这本画册赠送给了杨帆，目前尚无结论。",
+    "occurred": "UNKNOWN",
+    "role_a": "何杰",
+    "role_b": "杨帆",
+    "people": [
+      "何杰",
+      "杨帆"
+    ],
+    "name_aliases": [
+      [
+        "何杰"
+      ],
+      [
+        "杨帆"
+      ]
+    ],
+    "role_keys": [
+      "giver",
+      "recipient"
+    ],
+    "role_definitions": "giver是赠送方，recipient是受赠方。",
+    "identity": "AUTHOR_CONSTRUCTED_NOT_HUMAN_GOLD"
+  },
+  {
+    "source_id": "N06-BASE",
+    "family_id": "N06",
+    "domain": "give",
+    "variant": "BASE",
+    "source_text": "吴桐把这条围巾赠送给了郑蕾。",
+    "occurred": "YES",
+    "role_a": "吴桐",
+    "role_b": "郑蕾",
+    "people": [
+      "吴桐",
+      "郑蕾"
+    ],
+    "name_aliases": [
+      [
+        "吴桐"
+      ],
+      [
+        "郑蕾"
+      ]
+    ],
+    "role_keys": [
+      "giver",
+      "recipient"
+    ],
+    "role_definitions": "giver是赠送方，recipient是受赠方。",
+    "identity": "AUTHOR_CONSTRUCTED_NOT_HUMAN_GOLD"
+  },
+  {
+    "source_id": "N06-PARAPHRASE",
+    "family_id": "N06",
+    "domain": "give",
+    "variant": "PARAPHRASE",
+    "source_text": "郑蕾收到了吴桐赠送的这条围巾。",
+    "occurred": "YES",
+    "role_a": "吴桐",
+    "role_b": "郑蕾",
+    "people": [
+      "吴桐",
+      "郑蕾"
+    ],
+    "name_aliases": [
+      [
+        "吴桐"
+      ],
+      [
+        "郑蕾"
+      ]
+    ],
+    "role_keys": [
+      "giver",
+      "recipient"
+    ],
+    "role_definitions": "giver是赠送方，recipient是受赠方。",
+    "identity": "AUTHOR_CONSTRUCTED_NOT_HUMAN_GOLD"
+  },
+  {
+    "source_id": "N06-ROLE_SWAP",
+    "family_id": "N06",
+    "domain": "give",
+    "variant": "ROLE_SWAP",
+    "source_text": "郑蕾把这条围巾赠送给了吴桐。",
+    "occurred": "YES",
+    "role_a": "郑蕾",
+    "role_b": "吴桐",
+    "people": [
+      "吴桐",
+      "郑蕾"
+    ],
+    "name_aliases": [
+      [
+        "吴桐"
+      ],
+      [
+        "郑蕾"
+      ]
+    ],
+    "role_keys": [
+      "giver",
+      "recipient"
+    ],
+    "role_definitions": "giver是赠送方，recipient是受赠方。",
+    "identity": "AUTHOR_CONSTRUCTED_NOT_HUMAN_GOLD"
+  },
+  {
+    "source_id": "N06-NEGATED",
+    "family_id": "N06",
+    "domain": "give",
+    "variant": "NEGATED",
+    "source_text": "吴桐没有把这条围巾赠送给郑蕾。",
+    "occurred": "NO",
+    "role_a": "吴桐",
+    "role_b": "郑蕾",
+    "people": [
+      "吴桐",
+      "郑蕾"
+    ],
+    "name_aliases": [
+      [
+        "吴桐"
+      ],
+      [
+        "郑蕾"
+      ]
+    ],
+    "role_keys": [
+      "giver",
+      "recipient"
+    ],
+    "role_definitions": "giver是赠送方，recipient是受赠方。",
+    "identity": "AUTHOR_CONSTRUCTED_NOT_HUMAN_GOLD"
+  },
+  {
+    "source_id": "N06-UNRESOLVED",
+    "family_id": "N06",
+    "domain": "give",
+    "variant": "UNRESOLVED",
+    "source_text": "工作人员正在核实吴桐是否把这条围巾赠送给了郑蕾，目前尚无结论。",
+    "occurred": "UNKNOWN",
+    "role_a": "吴桐",
+    "role_b": "郑蕾",
+    "people": [
+      "吴桐",
+      "郑蕾"
+    ],
+    "name_aliases": [
+      [
+        "吴桐"
+      ],
+      [
+        "郑蕾"
+      ]
+    ],
+    "role_keys": [
+      "giver",
+      "recipient"
+    ],
+    "role_definitions": "giver是赠送方，recipient是受赠方。",
+    "identity": "AUTHOR_CONSTRUCTED_NOT_HUMAN_GOLD"
+  },
+  {
+    "source_id": "N07-BASE",
+    "family_id": "N07",
+    "domain": "invite",
+    "variant": "BASE",
+    "source_text": "蒋欣邀请了邓宇参加读书会。",
+    "occurred": "YES",
+    "role_a": "蒋欣",
+    "role_b": "邓宇",
+    "people": [
+      "蒋欣",
+      "邓宇"
+    ],
+    "name_aliases": [
+      [
+        "蒋欣"
+      ],
+      [
+        "邓宇"
+      ]
+    ],
+    "role_keys": [
+      "inviter",
+      "invitee"
+    ],
+    "role_definitions": "inviter是发出邀请的人，invitee是被邀请的人；邀请成立不等于接受邀请或实际参加。",
+    "identity": "AUTHOR_CONSTRUCTED_NOT_HUMAN_GOLD"
+  },
+  {
+    "source_id": "N07-PARAPHRASE",
+    "family_id": "N07",
+    "domain": "invite",
+    "variant": "PARAPHRASE",
+    "source_text": "邓宇被蒋欣邀请参加读书会。",
+    "occurred": "YES",
+    "role_a": "蒋欣",
+    "role_b": "邓宇",
+    "people": [
+      "蒋欣",
+      "邓宇"
+    ],
+    "name_aliases": [
+      [
+        "蒋欣"
+      ],
+      [
+        "邓宇"
+      ]
+    ],
+    "role_keys": [
+      "inviter",
+      "invitee"
+    ],
+    "role_definitions": "inviter是发出邀请的人，invitee是被邀请的人；邀请成立不等于接受邀请或实际参加。",
+    "identity": "AUTHOR_CONSTRUCTED_NOT_HUMAN_GOLD"
+  },
+  {
+    "source_id": "N07-ROLE_SWAP",
+    "family_id": "N07",
+    "domain": "invite",
+    "variant": "ROLE_SWAP",
+    "source_text": "邓宇邀请了蒋欣参加读书会。",
+    "occurred": "YES",
+    "role_a": "邓宇",
+    "role_b": "蒋欣",
+    "people": [
+      "蒋欣",
+      "邓宇"
+    ],
+    "name_aliases": [
+      [
+        "蒋欣"
+      ],
+      [
+        "邓宇"
+      ]
+    ],
+    "role_keys": [
+      "inviter",
+      "invitee"
+    ],
+    "role_definitions": "inviter是发出邀请的人，invitee是被邀请的人；邀请成立不等于接受邀请或实际参加。",
+    "identity": "AUTHOR_CONSTRUCTED_NOT_HUMAN_GOLD"
+  },
+  {
+    "source_id": "N07-NEGATED",
+    "family_id": "N07",
+    "domain": "invite",
+    "variant": "NEGATED",
+    "source_text": "蒋欣没有邀请邓宇参加读书会。",
+    "occurred": "NO",
+    "role_a": "蒋欣",
+    "role_b": "邓宇",
+    "people": [
+      "蒋欣",
+      "邓宇"
+    ],
+    "name_aliases": [
+      [
+        "蒋欣"
+      ],
+      [
+        "邓宇"
+      ]
+    ],
+    "role_keys": [
+      "inviter",
+      "invitee"
+    ],
+    "role_definitions": "inviter是发出邀请的人，invitee是被邀请的人；邀请成立不等于接受邀请或实际参加。",
+    "identity": "AUTHOR_CONSTRUCTED_NOT_HUMAN_GOLD"
+  },
+  {
+    "source_id": "N07-UNRESOLVED",
+    "family_id": "N07",
+    "domain": "invite",
+    "variant": "UNRESOLVED",
+    "source_text": "工作人员正在核实蒋欣是否邀请了邓宇参加读书会，目前尚无结论。",
+    "occurred": "UNKNOWN",
+    "role_a": "蒋欣",
+    "role_b": "邓宇",
+    "people": [
+      "蒋欣",
+      "邓宇"
+    ],
+    "name_aliases": [
+      [
+        "蒋欣"
+      ],
+      [
+        "邓宇"
+      ]
+    ],
+    "role_keys": [
+      "inviter",
+      "invitee"
+    ],
+    "role_definitions": "inviter是发出邀请的人，invitee是被邀请的人；邀请成立不等于接受邀请或实际参加。",
+    "identity": "AUTHOR_CONSTRUCTED_NOT_HUMAN_GOLD"
+  },
+  {
+    "source_id": "N08-BASE",
+    "family_id": "N08",
+    "domain": "invite",
+    "variant": "BASE",
+    "source_text": "潘越邀请了罗晴参加摄影展。",
+    "occurred": "YES",
+    "role_a": "潘越",
+    "role_b": "罗晴",
+    "people": [
+      "潘越",
+      "罗晴"
+    ],
+    "name_aliases": [
+      [
+        "潘越"
+      ],
+      [
+        "罗晴"
+      ]
+    ],
+    "role_keys": [
+      "inviter",
+      "invitee"
+    ],
+    "role_definitions": "inviter是发出邀请的人，invitee是被邀请的人；邀请成立不等于接受邀请或实际参加。",
+    "identity": "AUTHOR_CONSTRUCTED_NOT_HUMAN_GOLD"
+  },
+  {
+    "source_id": "N08-PARAPHRASE",
+    "family_id": "N08",
+    "domain": "invite",
+    "variant": "PARAPHRASE",
+    "source_text": "罗晴被潘越邀请参加摄影展。",
+    "occurred": "YES",
+    "role_a": "潘越",
+    "role_b": "罗晴",
+    "people": [
+      "潘越",
+      "罗晴"
+    ],
+    "name_aliases": [
+      [
+        "潘越"
+      ],
+      [
+        "罗晴"
+      ]
+    ],
+    "role_keys": [
+      "inviter",
+      "invitee"
+    ],
+    "role_definitions": "inviter是发出邀请的人，invitee是被邀请的人；邀请成立不等于接受邀请或实际参加。",
+    "identity": "AUTHOR_CONSTRUCTED_NOT_HUMAN_GOLD"
+  },
+  {
+    "source_id": "N08-ROLE_SWAP",
+    "family_id": "N08",
+    "domain": "invite",
+    "variant": "ROLE_SWAP",
+    "source_text": "罗晴邀请了潘越参加摄影展。",
+    "occurred": "YES",
+    "role_a": "罗晴",
+    "role_b": "潘越",
+    "people": [
+      "潘越",
+      "罗晴"
+    ],
+    "name_aliases": [
+      [
+        "潘越"
+      ],
+      [
+        "罗晴"
+      ]
+    ],
+    "role_keys": [
+      "inviter",
+      "invitee"
+    ],
+    "role_definitions": "inviter是发出邀请的人，invitee是被邀请的人；邀请成立不等于接受邀请或实际参加。",
+    "identity": "AUTHOR_CONSTRUCTED_NOT_HUMAN_GOLD"
+  },
+  {
+    "source_id": "N08-NEGATED",
+    "family_id": "N08",
+    "domain": "invite",
+    "variant": "NEGATED",
+    "source_text": "潘越没有邀请罗晴参加摄影展。",
+    "occurred": "NO",
+    "role_a": "潘越",
+    "role_b": "罗晴",
+    "people": [
+      "潘越",
+      "罗晴"
+    ],
+    "name_aliases": [
+      [
+        "潘越"
+      ],
+      [
+        "罗晴"
+      ]
+    ],
+    "role_keys": [
+      "inviter",
+      "invitee"
+    ],
+    "role_definitions": "inviter是发出邀请的人，invitee是被邀请的人；邀请成立不等于接受邀请或实际参加。",
+    "identity": "AUTHOR_CONSTRUCTED_NOT_HUMAN_GOLD"
+  },
+  {
+    "source_id": "N08-UNRESOLVED",
+    "family_id": "N08",
+    "domain": "invite",
+    "variant": "UNRESOLVED",
+    "source_text": "工作人员正在核实潘越是否邀请了罗晴参加摄影展，目前尚无结论。",
+    "occurred": "UNKNOWN",
+    "role_a": "潘越",
+    "role_b": "罗晴",
+    "people": [
+      "潘越",
+      "罗晴"
+    ],
+    "name_aliases": [
+      [
+        "潘越"
+      ],
+      [
+        "罗晴"
+      ]
+    ],
+    "role_keys": [
+      "inviter",
+      "invitee"
+    ],
+    "role_definitions": "inviter是发出邀请的人，invitee是被邀请的人；邀请成立不等于接受邀请或实际参加。",
+    "identity": "AUTHOR_CONSTRUCTED_NOT_HUMAN_GOLD"
+  }
+]
