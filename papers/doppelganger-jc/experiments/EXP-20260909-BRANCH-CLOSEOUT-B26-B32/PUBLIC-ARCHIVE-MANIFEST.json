@@ -1,0 +1,303 @@
+{
+  "identity": "PUBLIC_SCIENTIFIC_SUBSET_NOT_PRIVATE_CLOUD_BACKUP",
+  "date": "2026-09-09",
+  "batches": [
+    "B26",
+    "B27",
+    "B28",
+    "B29",
+    "B30",
+    "B31",
+    "B32"
+  ],
+  "new_answers": 5440,
+  "human_review": false,
+  "independent_human_gold": 0,
+  "no_B33": true,
+  "native_documents_and_workbooks": "LOCAL_ONLY_WITH_HASH_COMMITMENTS",
+  "excluded": [
+    "personal research judgments and original review containers",
+    "credentials and account/environment logs",
+    "private or rejected Git history",
+    "held-out private materials",
+    "unrelated A-line and presentation artifacts"
+  ],
+  "archives": [
+    {
+      "batch": "B26",
+      "file": "B26-scientific-records.zip",
+      "bytes": 100569,
+      "sha256": "9de96bd5e88e9e1c9b3d35ea40821bec6d6d62eecd1b043ee85ace8e9ce12b92",
+      "new_answers": 480,
+      "members": [
+        {
+          "path": "B26/PUBLIC-SCIENTIFIC-SUMMARY.json",
+          "bytes": 117867,
+          "sha256": "32b5ef62cb8465588a052887bb698d1913cd912498304fc79b8751f365caf126"
+        },
+        {
+          "path": "B26/PUBLIC-SCORE-LABELS.json",
+          "bytes": 664068,
+          "sha256": "3d3fb6ca2997bced167cc9355a070b352213201dc19a2b0dee4d595c073b285f"
+        },
+        {
+          "path": "B26/PUBLIC-PAIRED-LABELS.json",
+          "bytes": 123060,
+          "sha256": "9c8f36d62ce012ebd957d9d2d3c73ac8be2be74cb329bdf3a0327e79912a5d60"
+        },
+        {
+          "path": "B26/PUBLIC-RAW-RESPONSES.jsonl",
+          "bytes": 1752596,
+          "sha256": "afc91a476ba3c5f2f004b9178459fdd3c48aabe76a0813b730de8475c82b780c"
+        },
+        {
+          "path": "B26/PUBLIC-RUN-PROTOCOL.json",
+          "bytes": 1233,
+          "sha256": "ce704c0ce9d4ba53105b4b411cb9328c2e6505e57b315e208b5c294e53416d39"
+        },
+        {
+          "path": "B26/PRIVATE-ARTIFACT-HASHES.PUBLIC.json",
+          "bytes": 1912,
+          "sha256": "dc5d0a585571f292b3e2e2b1707874556b3e73a6350715fb201059ead3ae0bf0"
+        }
+      ],
+      "omitted_pair_export": false
+    },
+    {
+      "batch": "B27",
+      "file": "B27-scientific-records.zip",
+      "bytes": 143905,
+      "sha256": "378c205cc96e2ad5c35b43ee8b1510b45239bd5b8af9853007b70bc2195e454e",
+      "new_answers": 672,
+      "members": [
+        {
+          "path": "B27/PUBLIC-SCIENTIFIC-SUMMARY.json",
+          "bytes": 285870,
+          "sha256": "7923cfa051d1e51b6c9cce0a1e5b5dc04220cc0ad4a5c3f763b62573bd6fffdc"
+        },
+        {
+          "path": "B27/PUBLIC-SCORE-LABELS.json",
+          "bytes": 586511,
+          "sha256": "586c77e89c4afe0ddb4d05c80dd34333e52af39a8fbc22270298912ca10113c6"
+        },
+        {
+          "path": "B27/PUBLIC-RAW-RESPONSES.jsonl",
+          "bytes": 2462388,
+          "sha256": "d11afd0f2b65bfea87584d403ac10311541dd111d8a0a2e07b3863311c57460c"
+        },
+        {
+          "path": "B27/PUBLIC-RUN-PROTOCOL.json",
+          "bytes": 2260,
+          "sha256": "f3cd4a758d870af51281d5bcbc05936485c48be869397f1df7a98f9100a6a4b2"
+        },
+        {
+          "path": "B27/PRIVATE-ARTIFACT-HASHES.PUBLIC.json",
+          "bytes": 1912,
+          "sha256": "51f66c66d7d24dd97542faf4a806bde539893fc5ebf7bf8e154b9b6660629759"
+        }
+      ],
+      "omitted_pair_export": true
+    },
+    {
+      "batch": "B28",
+      "file": "B28-scientific-records.zip",
+      "bytes": 314750,
+      "sha256": "4364e75163147b5f65045af4456f742d2dd4f00222f9eac4049d261c58fbc135",
+      "new_answers": 1344,
+      "members": [
+        {
+          "path": "B28/PUBLIC-SCIENTIFIC-SUMMARY.json",
+          "bytes": 691509,
+          "sha256": "40b7cfb8e33fc371b0da00ce66ffc84e22ed121ed4755ac079eb560506fcef0f"
+        },
+        {
+          "path": "B28/PUBLIC-SCORE-LABELS.json",
+          "bytes": 1767298,
+          "sha256": "dd5613d75397b2b7a904322c5c0c21932309bd0b8f94b74d77355df64da751fb"
+        },
+        {
+          "path": "B28/PUBLIC-PAIRED-LABELS.json",
+          "bytes": 568702,
+          "sha256": "663bfca38849af004f0f1da7f5d6c683e9615efc032842a9cb7008de3aa1d7c8"
+        },
+        {
+          "path": "B28/PUBLIC-RAW-RESPONSES.jsonl",
+          "bytes": 4929261,
+          "sha256": "6708fca0a2d685d4bfdb918082b018c26f15d0760e69b07501b1a34bce93300b"
+        },
+        {
+          "path": "B28/PUBLIC-RUN-PROTOCOL.json",
+          "bytes": 3169,
+          "sha256": "e5fbee5445397a261e7b1969691e9823ad293dec248dc957780963ddf338e807"
+        },
+        {
+          "path": "B28/PRIVATE-ARTIFACT-HASHES.PUBLIC.json",
+          "bytes": 1912,
+          "sha256": "ca09cbb662856af995180c46ba6dce59f3dd32efffb0b0c175589e59296da0d0"
+        }
+      ],
+      "omitted_pair_export": false
+    },
+    {
+      "batch": "B29",
+      "file": "B29-scientific-records.zip",
+      "bytes": 175493,
+      "sha256": "0e2298608c1a3ffb9fb018d1342fbf5911c6aaf9443355523ce7f2906a21c275",
+      "new_answers": 640,
+      "members": [
+        {
+          "path": "B29/PUBLIC-SCIENTIFIC-SUMMARY.json",
+          "bytes": 654667,
+          "sha256": "30bea3ced4ce39d5a0b69e754ef5d1ccccf22574f743a22e85e4534eeecd5367"
+        },
+        {
+          "path": "B29/PUBLIC-SCORE-LABELS.json",
+          "bytes": 1027970,
+          "sha256": "9d6c3b00c4008db016a5cb34cea6a0114382723a88199ad3c386a08f21494163"
+        },
+        {
+          "path": "B29/PUBLIC-PAIRED-LABELS.json",
+          "bytes": 211480,
+          "sha256": "d7b8128977b6e2cde19b0982d67e946348006ad7ec86f9eb46739446f34e7bfc"
+        },
+        {
+          "path": "B29/PUBLIC-RAW-RESPONSES.jsonl",
+          "bytes": 2491477,
+          "sha256": "409c80c0aa06d5bc129cffc7128b14a9382c0d1e9592e0beb94eba83a8037796"
+        },
+        {
+          "path": "B29/PUBLIC-RUN-PROTOCOL.json",
+          "bytes": 3069,
+          "sha256": "755dfe587f64c0c8a5371cc1a8a3a20473d904cd6b2510b769c558b3e2f32084"
+        },
+        {
+          "path": "B29/PRIVATE-ARTIFACT-HASHES.PUBLIC.json",
+          "bytes": 1912,
+          "sha256": "3984dfb1d3300f04580d90864d88045a6b4d0c0fbbaef195624ce89b4e229c5f"
+        }
+      ],
+      "omitted_pair_export": false
+    },
+    {
+      "batch": "B30",
+      "file": "B30-scientific-records.zip",
+      "bytes": 171010,
+      "sha256": "f21aaf95e66121750b61bd63c1d210269db92e71c8837f4e5e2cbe6d7bef4f5e",
+      "new_answers": 640,
+      "members": [
+        {
+          "path": "B30/PUBLIC-SCIENTIFIC-SUMMARY.json",
+          "bytes": 142514,
+          "sha256": "1499ad5d5df1b6daad3a483131efdfe278179da96eb2e4b358f305eecef029bc"
+        },
+        {
+          "path": "B30/PUBLIC-SCORE-LABELS.json",
+          "bytes": 1073602,
+          "sha256": "7d971ffaf9e3fe465b05bfc426c15bfdf4ac4a5d32fbc5b73559392e1af24b53"
+        },
+        {
+          "path": "B30/PUBLIC-PAIRED-LABELS.json",
+          "bytes": 275192,
+          "sha256": "fca01b92adcc0f04d9b55b1899a0b5c6e5a0d06a673c4abb5db5c9a6c108aeff"
+        },
+        {
+          "path": "B30/PUBLIC-RAW-RESPONSES.jsonl",
+          "bytes": 2423278,
+          "sha256": "3a73630f5c2b0c3d36705ff4ef56c3e7b004f0478f053d5d4aa308bdb898fd55"
+        },
+        {
+          "path": "B30/PUBLIC-RUN-PROTOCOL.json",
+          "bytes": 4873,
+          "sha256": "fa02ad78d4a77e5b301902d7c28b61d7ca3f0fe5460500481f7b77967479e2df"
+        },
+        {
+          "path": "B30/PRIVATE-ARTIFACT-HASHES.PUBLIC.json",
+          "bytes": 1912,
+          "sha256": "ef710b514d991ff785236c180f64449633c668477e8f6d916c16aa094797352c"
+        }
+      ],
+      "omitted_pair_export": false
+    },
+    {
+      "batch": "B31",
+      "file": "B31-scientific-records.zip",
+      "bytes": 158246,
+      "sha256": "654648366715f35a5f11bc94c26470e42776ac16548d05dc13e05047002edc09",
+      "new_answers": 576,
+      "members": [
+        {
+          "path": "B31/PUBLIC-SCIENTIFIC-SUMMARY.json",
+          "bytes": 161292,
+          "sha256": "92eb58d378071e130bedcf34a37ea17743679bba370b4785b03c322465e01e3c"
+        },
+        {
+          "path": "B31/PUBLIC-SCORE-LABELS.json",
+          "bytes": 1009057,
+          "sha256": "c981bba36b29765a0454da2426b0cd2860513cffaaadb1dd375135e27dee42d8"
+        },
+        {
+          "path": "B31/PUBLIC-PAIRED-LABELS.json",
+          "bytes": 260910,
+          "sha256": "7e7dc1d33a8427224d7fff3462837c89a40ee38da5cc9a9c9012f5a6a78d5688"
+        },
+        {
+          "path": "B31/PUBLIC-RAW-RESPONSES.jsonl",
+          "bytes": 2211342,
+          "sha256": "762bb343bee27bafdb806c7febbc146e3bcbb8f88f76a97886957fdfb8622d44"
+        },
+        {
+          "path": "B31/PUBLIC-RUN-PROTOCOL.json",
+          "bytes": 5458,
+          "sha256": "5db16f7db08f82ece82954a46424d5740a3d5a1fc197aaa3f8b55f9a03ea6972"
+        },
+        {
+          "path": "B31/PRIVATE-ARTIFACT-HASHES.PUBLIC.json",
+          "bytes": 1912,
+          "sha256": "6411c519b68c42cf2124eaf9692e6b8b4c8b417f094982bd1820e8fc628f685c"
+        }
+      ],
+      "omitted_pair_export": false
+    },
+    {
+      "batch": "B32",
+      "file": "B32-scientific-records.zip",
+      "bytes": 305808,
+      "sha256": "facde99e4d22e77c2a80c94e303ec9cf76eef3a6e32d11a92c2b7912c610e9fa",
+      "new_answers": 1088,
+      "members": [
+        {
+          "path": "B32/PUBLIC-SCIENTIFIC-SUMMARY.json",
+          "bytes": 292763,
+          "sha256": "1629e8a3dfcb9345f6d6df27cde8afbd8258b1f5e4a2c4ef21ea653ca472635a"
+        },
+        {
+          "path": "B32/PUBLIC-SCORE-LABELS.json",
+          "bytes": 2082399,
+          "sha256": "de117924846eb8298f29b1cbf7c6e1150e8fad8ed16beec8232ee2fb423b6dc5"
+        },
+        {
+          "path": "B32/PUBLIC-PAIRED-LABELS.json",
+          "bytes": 1105216,
+          "sha256": "c7b5c2e0b3fec0a461416b7e48a80785eae725330f016b6fa8fe91dd021d6f33"
+        },
+        {
+          "path": "B32/PUBLIC-RAW-RESPONSES.jsonl",
+          "bytes": 4211241,
+          "sha256": "063f2369b16dffb15fb1b1ccc2e88b3a39eaec7050df02b6356a693fc9e6ffbf"
+        },
+        {
+          "path": "B32/PUBLIC-RUN-PROTOCOL.json",
+          "bytes": 7208,
+          "sha256": "09435478256a0bd769266cdef3742309158ff6cf6073cff7bfd5b80dfaebc219"
+        },
+        {
+          "path": "B32/PRIVATE-ARTIFACT-HASHES.PUBLIC.json",
+          "bytes": 1912,
+          "sha256": "253d3939f776d6afec4c01775461a98236114508f9a2e3db3f91dca32a61798f"
+        }
+      ],
+      "omitted_pair_export": false
+    }
+  ],
+  "readme_sha256": "c1bcd26fc41be3f546f8fbecbc1aa922514557b30ec59588ca390f652b466dd4"
+}
