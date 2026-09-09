@@ -1,0 +1,161 @@
+{
+  "package": "A05-public-science-v1",
+  "status": "ROUTE_REVIEWED_SCIENCE_SUBSET_PUBLICATION_VERIFIED_SEPARATELY",
+  "created_at_utc": "2026-09-09T07:05:12.487693+00:00",
+  "source_root_relative_to_repository": "papers/doppelganger-jc/experiments/EXP-20260909-A05-expression-output-calibration",
+  "source_file_hashes": {
+    "RUN-RELEASE.json": "460e846ae5e5bf37a8f0f9891c6a3ee0c350838b02c552a39acd4a31cc35c1d8",
+    "frozen-v2/MAIN-DESIGN.zh-CN.md": "6a419d5c0e5fc524fb9f054a236c9b4f3e552419dfaedaf676e8aa426bbad8bd",
+    "frozen-v2/CASES.json": "35f55c1e14b25dfa01c8dabca60fc08f1ed119b92075712fe3b28496308645e7",
+    "frozen-v2/CANDIDATE-LEDGER.json": "2714f964437b383a8d76cc92c673bc4dad631574d22fc80e5da7f898c754cc4d",
+    "frozen-v2/SEARCH-LEDGER.json": "2bda9d876abe80255bc7152f56e55104f8cbb8b998c893487850652de581fbc8",
+    "frozen-v2/SOURCE-PAGE-LEDGER.json": "122d8f094e48167d5a299a67723dceab7009a9e045ecd71cac9c83c293fbcf46",
+    "frozen-v2/SCORING.json": "c55b67a3642a6613df93a004c07d4439a1ae0e0b465ccbe101095bfc0c521d2a",
+    "frozen-v2/SCORING-WALKTHROUGH.json": "6b8aadb20a4531ac5bbba7ad0c220c0f44604211d78451f27face2ea65cf3eab",
+    "frozen-v2/TECHNICAL-SPEC.json": "1a0b556cbd4e4705b3da1886551b8b1bb7812d137ca5f1a07c35eac97b476e76",
+    "frozen-v2/AMENDMENT-v1.1.zh-CN.md": "b745cee756bdb8d5a67e972b64fb6f72e122a37f962f093d2c50a40e82218afe",
+    "frozen-v2/AMENDMENT-v1.2.zh-CN.md": "e048193e936982dae1581788a939a03fdb8e3fef8fb2f30e84976d16db8dc8d0",
+    "frozen-v2/MANIFEST.json": "7d0c62591fee1e7b38b67b4ecc3be41479e0eaa6987dc345e647fb747d6477e2",
+    "results-v1/RAW-RESPONSES.json": "4b2dbb285be9dc2f88f3150a1108d2841ac6ed8b2a83e8149e679603b0024d36",
+    "results-v1/ARCHIVE-MANIFEST.json": "2dff9e46a2e9f75edd97dbc6c143703e283649958b1b2e598b8745a81b50616d",
+    "coordination/SEMANTIC-REVIEW-v1.json": "1dc7f368f0c43fcf68e792f9c762f746525243720cb96fbad9363946dfca6586",
+    "coordination/SEMANTIC-REVIEW-RECEIPT-v1.json": "9b76d1c61867888157a6f7343573326748f2f82987dc990c42b24e8569a40509",
+    "coordination/AGGREGATE-v1.json": "1b3d9b2be39a5e961160150ce6d32762fbcf3b30d21026969a07e573dab54760"
+  },
+  "payload_files": {
+    "DESIGN-SUMMARY.json": {
+      "sha256": "97f7e922afb28916291cda502b6fe7fc7be220cd3f934d939406c5e8b156f9b1",
+      "bytes": 2542,
+      "source_files": [
+        "frozen-v2/MAIN-DESIGN.zh-CN.md"
+      ],
+      "transformation": "SANITIZED_PROVENANCE_OR_STRUCTURED_SUMMARY"
+    },
+    "MATERIALS.json": {
+      "sha256": "e5beb0eb7cbc8e307baa5ec8cd528b672a5cf3d3341163873ec0835b1f2c74fc",
+      "bytes": 27994,
+      "source_files": [
+        "frozen-v2/CASES.json"
+      ],
+      "transformation": "EXPLICIT_FIELD_ALLOWLIST"
+    },
+    "CANDIDATES-AND-EXPOSURE.json": {
+      "sha256": "762585de5d561757c2b6ab75796238e9c9e6f05e009556930c8fda8bdf1c2679",
+      "bytes": 9305,
+      "source_files": [
+        "frozen-v2/CANDIDATE-LEDGER.json"
+      ],
+      "transformation": "SANITIZED_PROVENANCE_OR_STRUCTURED_SUMMARY"
+    },
+    "SOURCE-PROVENANCE.json": {
+      "sha256": "c80e602988e20cb1b766f5523e94f53326e7eaa7e68cf34c8c9a77636b298b85",
+      "bytes": 5607,
+      "source_files": [
+        "frozen-v2/SEARCH-LEDGER.json",
+        "frozen-v2/SOURCE-PAGE-LEDGER.json"
+      ],
+      "transformation": "SANITIZED_PROVENANCE_OR_STRUCTURED_SUMMARY"
+    },
+    "RAW-RESPONSES.json": {
+      "sha256": "4b2dbb285be9dc2f88f3150a1108d2841ac6ed8b2a83e8149e679603b0024d36",
+      "bytes": 283324,
+      "source_files": [
+        "results-v1/RAW-RESPONSES.json"
+      ],
+      "transformation": "EXACT_ORIGINAL_BYTES"
+    },
+    "SCORING.json": {
+      "sha256": "c55b67a3642a6613df93a004c07d4439a1ae0e0b465ccbe101095bfc0c521d2a",
+      "bytes": 4407,
+      "source_files": [
+        "frozen-v2/SCORING.json"
+      ],
+      "transformation": "EXACT_ORIGINAL_BYTES"
+    },
+    "SCORING-WALKTHROUGH.json": {
+      "sha256": "6b8aadb20a4531ac5bbba7ad0c220c0f44604211d78451f27face2ea65cf3eab",
+      "bytes": 28938,
+      "source_files": [
+        "frozen-v2/SCORING-WALKTHROUGH.json"
+      ],
+      "transformation": "EXACT_ORIGINAL_BYTES"
+    },
+    "SEMANTIC-REVIEW-v1.json": {
+      "sha256": "e625c31c708027d5698ba20e7b7cb9a0b981bb236483864aa7afea5ecb3cedaa",
+      "bytes": 66479,
+      "source_files": [
+        "coordination/SEMANTIC-REVIEW-v1.json"
+      ],
+      "transformation": "EXPLICIT_FIELD_ALLOWLIST"
+    },
+    "AGGREGATE-v1.json": {
+      "sha256": "1b3d9b2be39a5e961160150ce6d32762fbcf3b30d21026969a07e573dab54760",
+      "bytes": 26919,
+      "source_files": [
+        "coordination/AGGREGATE-v1.json"
+      ],
+      "transformation": "EXACT_ORIGINAL_BYTES"
+    },
+    "TECHNICAL-CONFIG.json": {
+      "sha256": "9be3925860ccb7a3009f155e832d2083355c1b1894918d5773db177b0545c98b",
+      "bytes": 2786,
+      "source_files": [
+        "frozen-v2/TECHNICAL-SPEC.json"
+      ],
+      "transformation": "EXPLICIT_FIELD_ALLOWLIST"
+    },
+    "AMENDMENTS-AND-RESULT-LIMITS.json": {
+      "sha256": "f5b34900da154e301c2020b3f9cbf99e771b7f00dafeb5fff9ca71c09d29e2d9",
+      "bytes": 1888,
+      "source_files": [
+        "frozen-v2/AMENDMENT-v1.1.zh-CN.md",
+        "frozen-v2/AMENDMENT-v1.2.zh-CN.md",
+        "coordination/SEMANTIC-REVIEW-RECEIPT-v1.json",
+        "coordination/AGGREGATE-v1.json"
+      ],
+      "transformation": "SANITIZED_PROVENANCE_OR_STRUCTURED_SUMMARY"
+    },
+    "README.zh-CN.md": {
+      "sha256": "b1c3714b882dde4850677d5d3748374da819b0e7ce9c38c3e7b28f4d88b27bb5",
+      "bytes": 3701,
+      "source_files": [],
+      "transformation": "SANITIZED_PROVENANCE_OR_STRUCTURED_SUMMARY"
+    }
+  },
+  "local_archive_fingerprints": {
+    "pregeneration_freeze_manifest": {
+      "source": "frozen-v2/MANIFEST.json",
+      "sha256": "7d0c62591fee1e7b38b67b4ecc3be41479e0eaa6987dc345e647fb747d6477e2",
+      "scope": "Runtime pre-generation frozen package only; content omitted"
+    },
+    "operation_archive_manifest": {
+      "source": "results-v1/ARCHIVE-MANIFEST.json",
+      "sha256": "2dff9e46a2e9f75edd97dbc6c143703e283649958b1b2e598b8745a81b50616d",
+      "scope": "Existing local Operation archive manifest only; content omitted; not asserted to cover later Office delivery"
+    },
+    "coordinator_acceptance": {
+      "source": "coordination/COORDINATOR-CLOSEOUT-RECEIPT.json",
+      "sha256": "e36103466a7a3acaa596d5437da2b9e8e46a83c9666642c9a9800be60096e0e1",
+      "scope": "Final local completion with pre/post Office, all64 review and local archive; contents remain local"
+    },
+    "office_files_local_only": {
+      "A05运行前预注册v2.docx": "133e37b66591747fec3613b033716f5c8573f26877fe9f6f1117f084483b837e",
+      "A05完整输入与审核v2.xlsx": "4b3f1162acce32b709c60a1269e8214d488a0975d020a2b4e56a4c070d4e23e7",
+      "A05运行后总结v1.docx": "b5837f11c976f85f087d1e8bf49ad6c3897f84576805840473bc3e2ee680528d",
+      "A05完整结果与本人意见v1.xlsx": "76994c7e051681de6bbe917814ff0f15ac10a323c56ba0bd75ad603cc2cfe2ce"
+    }
+  },
+  "complete_local_directory_rehashed_or_packaged": false,
+  "excluded": [
+    "all Word and Excel documents",
+    "user quotations, thoughts and personal fields",
+    "task or chat history and tool-session identifiers",
+    "SSH/account/host details and absolute filesystem paths",
+    "environment logs and machine-specific runtime locations",
+    "credentials",
+    "third-party source-page content",
+    "execution programs and unrelated project files"
+  ],
+  "manifest_self_hash": "Excluded to avoid self-reference; zip fingerprint is recorded in the separate local preparation receipt.",
+  "route_reviewed_at_utc": "2026-09-09T07:07:43.319072+00:00"
+}
