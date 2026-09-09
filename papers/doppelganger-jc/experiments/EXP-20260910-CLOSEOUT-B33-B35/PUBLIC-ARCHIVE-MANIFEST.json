@@ -1,0 +1,201 @@
+{
+  "date": "2026-09-10",
+  "scope": "B35 closeout and previously pending B33-B34 scientific records",
+  "experiment_ids_retain_original_date": "2026-09-09",
+  "total_generated_answers": 9984,
+  "independent_contexts_not_calls": true,
+  "human_review": false,
+  "independent_human_gold": 0,
+  "native_artifacts": "LOCAL_ONLY_HASH_COMMITMENTS",
+  "archives": [
+    {
+      "batch": "B33",
+      "file": "B33-scientific-records.zip",
+      "new_generated_answers": 3264,
+      "sha256": "58c115abf22b888a35206df2e8c14e9399b983284ad39f1d69791185581e459f",
+      "members": [
+        {
+          "path": "B33/PUBLIC-RAW-RESPONSES.jsonl",
+          "bytes": 13186783,
+          "sha256": "577d920909b6b3304231ccf3ec754aac27c0a27691e231e665fd94b2e6b884a1"
+        },
+        {
+          "path": "B33/PUBLIC-SCORES.json",
+          "bytes": 6902195,
+          "sha256": "1bae9c361d1d81134eb295d3422f00cd89f41b70db7e5989d1c22f35913dbde2"
+        },
+        {
+          "path": "B33/PUBLIC-PROTOCOL.json",
+          "bytes": 4110,
+          "sha256": "e74dae04152f95c9855ed50c2fc89dc9ced3cd5a93430589c99a879a167751f0"
+        },
+        {
+          "path": "B33/LOCAL-ARCHIVE-COMMITMENTS.json",
+          "bytes": 1061,
+          "sha256": "6ae128b42ce7314834a3f8b636c50de65061a994f303e0672a2ceb5264ac344c"
+        },
+        {
+          "path": "B33/statistics/PRIMARY.AI.json",
+          "bytes": 70535,
+          "sha256": "9bf165cd97899860e12c23450c3818d72793d12cfc6f9509ac7e172384601afa"
+        },
+        {
+          "path": "B33/statistics/CONTROLS.AI.json",
+          "bytes": 20711,
+          "sha256": "b6817a81710eecbf6ef474a9f7c4fd5c27e6ae10646819b2b63fbd9a5cfd81e1"
+        },
+        {
+          "path": "B33/statistics/COMPLIANCE.AI.json",
+          "bytes": 14397,
+          "sha256": "d462ed01a455be11c9fd3d2e0517acb3b8b559f4e383916c737a4b62e5c01d7e"
+        },
+        {
+          "path": "B33/statistics/SCOPE_EFFECTS.AI.json",
+          "bytes": 655094,
+          "sha256": "07287442d6e1c1f06d5ea50595b2e120e8e239ab059eac8020fad7a9b1121a3c"
+        },
+        {
+          "path": "B33/statistics/LEAVE_ONE_VERB_OUT.AI.json",
+          "bytes": 379076,
+          "sha256": "1782c63f973f10b86bf4e6bc365d6d423f6913a935740efd598ab375f33dd408"
+        }
+      ]
+    },
+    {
+      "batch": "B34",
+      "file": "B34-scientific-records.zip",
+      "new_generated_answers": 3264,
+      "sha256": "577352582f156e0b302b1f55ca9f43e938decf6d4c0aa47b7b26f56365dabba8",
+      "members": [
+        {
+          "path": "B34/PUBLIC-RAW-RESPONSES.jsonl",
+          "bytes": 13127752,
+          "sha256": "2d1cad948ec9d83dd2e71f642449760cb60449c6f098ef14b7f5fbe0b700bf0e"
+        },
+        {
+          "path": "B34/PUBLIC-SCORES.json",
+          "bytes": 7382896,
+          "sha256": "8a22f833f8da49a4826d241c73882ac0ae082b057edb49a46a44129488ffc94b"
+        },
+        {
+          "path": "B34/PUBLIC-PROTOCOL.json",
+          "bytes": 3546,
+          "sha256": "e186738570826fb2a9feef54946908b5ea8c86b828874c3fb1c3c3559ab7c28e"
+        },
+        {
+          "path": "B34/LOCAL-ARCHIVE-COMMITMENTS.json",
+          "bytes": 1061,
+          "sha256": "3b9d3732c3b77a6e7b2f6b878b6ccdbcfafc13c582fe973e981f1e1dcb3f4b66"
+        },
+        {
+          "path": "B34/statistics/PRIMARY.AI.json",
+          "bytes": 163543,
+          "sha256": "f555e2185b08d108d9656e14bc07c5fdc5d6c1ece62fcf3a694984c5e7f0eaac"
+        },
+        {
+          "path": "B34/statistics/PAIR_SUMMARIES.AI.json",
+          "bytes": 3465,
+          "sha256": "3f358a0caa5a91974ced2403299b80a3dfd40cc2613af98e97c44478aea76b2f"
+        },
+        {
+          "path": "B34/statistics/SINGLE_COUNTS.AI.json",
+          "bytes": 160,
+          "sha256": "aaacc6a75f0ceb53b70dc0201a5d7b62eedf456819d771f6790554311122ea40"
+        },
+        {
+          "path": "B34/statistics/CONTROLS.AI.json",
+          "bytes": 19188,
+          "sha256": "94a6b85826c838f13d71af5b7593f4831d4ae842c9e0dd1954a3d3580bf3604b"
+        },
+        {
+          "path": "B34/statistics/COMPLIANCE.AI.json",
+          "bytes": 11829,
+          "sha256": "9308c8a17f83f647afc34fe9f33bf064afcb533b7c4e7d3f6382f552fad7c49a"
+        },
+        {
+          "path": "B34/statistics/SCOPE_EFFECTS.AI.json",
+          "bytes": 1498747,
+          "sha256": "c394c6327244fce5b9a7069361ede715364021f277c7f88f241cd6aafd48716b"
+        },
+        {
+          "path": "B34/statistics/LEAVE_ONE_VERB_OUT.AI.json",
+          "bytes": 877506,
+          "sha256": "f6c71e6eb52e9bb50d3fee7cecdf6ec1ef32352494a482fd5496ccaa9e7b4494"
+        },
+        {
+          "path": "B34/statistics/DH_DIAGNOSTICS.AI.json",
+          "bytes": 739879,
+          "sha256": "e1bd5084ce08b05f712bc5073b1a27945acf2b9fcb6afe8a01bf20b54edbb157"
+        }
+      ]
+    },
+    {
+      "batch": "B35",
+      "file": "B35-scientific-records.zip",
+      "new_generated_answers": 3456,
+      "sha256": "03cdb46b80189fbce95d6dd0442a10ee86a059a239c418b0e3e452f2a29c63c6",
+      "members": [
+        {
+          "path": "B35/PUBLIC-RAW-RESPONSES.jsonl",
+          "bytes": 13975256,
+          "sha256": "48ce2194f0c665fb96a0b139ff661044a8e9a057562ad434e50f32bc03f824b4"
+        },
+        {
+          "path": "B35/PUBLIC-SCORES.json",
+          "bytes": 8144385,
+          "sha256": "11267564b5401ef559df7cad7bd1d62f5a7f6c44bc7c48cf8e5dc0195805305c"
+        },
+        {
+          "path": "B35/PUBLIC-PROTOCOL.json",
+          "bytes": 3577,
+          "sha256": "4071641df7ddfbf7b181c381b9b0ba0636ed8f54e066aa2446ee855c21cf9460"
+        },
+        {
+          "path": "B35/LOCAL-ARCHIVE-COMMITMENTS.json",
+          "bytes": 1061,
+          "sha256": "809dc1241a2c53f216db1d4039bc931e98e54e533ce2abdc36df9322609095b8"
+        },
+        {
+          "path": "B35/statistics/PRIMARY.AI.json",
+          "bytes": 372644,
+          "sha256": "2f15b6d9fe68953d52825240fed0c22c38418b2d08172de01f20033498294eab"
+        },
+        {
+          "path": "B35/statistics/PAIR_SUMMARIES.AI.json",
+          "bytes": 4678,
+          "sha256": "dee3561385eee10776b202ac15712d67442f32f6c83882abfcc806f1349051e3"
+        },
+        {
+          "path": "B35/statistics/SINGLE_COUNTS.AI.json",
+          "bytes": 160,
+          "sha256": "49a3807c9cdb5fd5ff1e41af8437a2a90018aac9e3d823362da5a0de52a4d471"
+        },
+        {
+          "path": "B35/statistics/CONTROLS.AI.json",
+          "bytes": 22773,
+          "sha256": "2dd757109a9809759c772822dc8cfec5e545b0c04344b50a1ff52ba11c043e5f"
+        },
+        {
+          "path": "B35/statistics/COMPLIANCE.AI.json",
+          "bytes": 14519,
+          "sha256": "4e832a398f78987f7dccaa85ed05bf1dd3b3459b075eb0b8243e79e9bc48768d"
+        },
+        {
+          "path": "B35/statistics/SCOPE_EFFECTS.AI.json",
+          "bytes": 3400520,
+          "sha256": "0b87a3f9b08c9a02396238adfb7712fe060153c969d79332935a7d8f5b1db26c"
+        },
+        {
+          "path": "B35/statistics/LEAVE_ONE_VERB_OUT.AI.json",
+          "bytes": 1986413,
+          "sha256": "1b546702693a645d76beb98e9eb4c4b3fb43a1cd8b2f5d0750235bf5d9a9a930"
+        },
+        {
+          "path": "B35/statistics/DH_DIAGNOSTICS.AI.json",
+          "bytes": 788397,
+          "sha256": "9be87c829eeb42bbebf116bd91ec58914b4d2738c60056dcecedbef99171fd34"
+        }
+      ]
+    }
+  ]
+}
