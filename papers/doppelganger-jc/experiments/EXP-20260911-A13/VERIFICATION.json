@@ -1,0 +1,1182 @@
+{
+  "CPU-REPLAY-VERIFICATION.json": {
+    "status": "PASS",
+    "input_template_encode_and_output_decode": 144,
+    "new_model_calls": 0
+  },
+  "NUMERIC-VERIFICATION.json": {
+    "frozen_unchanged": true,
+    "exact_input_records": 144,
+    "replicated_legacy": 24,
+    "J_exact_fraction": {
+      "lower": "-1/24",
+      "upper": "1/8"
+    },
+    "no_exclusions": true
+  },
+  "LEGACY-REPLICATION.json": [
+    {
+      "id": "A13-D1-1-OLD-O-N",
+      "source_id": "A11-D1-1-O",
+      "exact_tokens": true
+    },
+    {
+      "id": "A13-D1-1-OLD-K-N",
+      "source_id": "A11-D1-1-K",
+      "exact_tokens": true
+    },
+    {
+      "id": "A13-D1-2-OLD-O-N",
+      "source_id": "A11-D1-2-O",
+      "exact_tokens": true
+    },
+    {
+      "id": "A13-D1-2-OLD-K-N",
+      "source_id": "A11-D1-2-K",
+      "exact_tokens": true
+    },
+    {
+      "id": "A13-D2-1-OLD-O-N",
+      "source_id": "A11-D2-1-O",
+      "exact_tokens": true
+    },
+    {
+      "id": "A13-D2-1-OLD-K-N",
+      "source_id": "A11-D2-1-K",
+      "exact_tokens": true
+    },
+    {
+      "id": "A13-D2-2-OLD-O-N",
+      "source_id": "A11-D2-2-O",
+      "exact_tokens": true
+    },
+    {
+      "id": "A13-D2-2-OLD-K-N",
+      "source_id": "A11-D2-2-K",
+      "exact_tokens": true
+    },
+    {
+      "id": "A13-D3-1-OLD-O-N",
+      "source_id": "A11-D3-1-O",
+      "exact_tokens": true
+    },
+    {
+      "id": "A13-D3-1-OLD-K-N",
+      "source_id": "A11-D3-1-K",
+      "exact_tokens": true
+    },
+    {
+      "id": "A13-D3-2-OLD-O-N",
+      "source_id": "A11-D3-2-O",
+      "exact_tokens": true
+    },
+    {
+      "id": "A13-D3-2-OLD-K-N",
+      "source_id": "A11-D3-2-K",
+      "exact_tokens": true
+    },
+    {
+      "id": "A13-S1-1-OLD-O-N",
+      "source_id": "A11-S1-1-O",
+      "exact_tokens": true
+    },
+    {
+      "id": "A13-S1-1-OLD-K-N",
+      "source_id": "A11-S1-1-K",
+      "exact_tokens": true
+    },
+    {
+      "id": "A13-S1-2-OLD-O-N",
+      "source_id": "A11-S1-2-O",
+      "exact_tokens": true
+    },
+    {
+      "id": "A13-S1-2-OLD-K-N",
+      "source_id": "A11-S1-2-K",
+      "exact_tokens": true
+    },
+    {
+      "id": "A13-S2-1-OLD-O-N",
+      "source_id": "A11-S2-1-O",
+      "exact_tokens": true
+    },
+    {
+      "id": "A13-S2-1-OLD-K-N",
+      "source_id": "A11-S2-1-K",
+      "exact_tokens": true
+    },
+    {
+      "id": "A13-S2-2-OLD-O-N",
+      "source_id": "A11-S2-2-O",
+      "exact_tokens": true
+    },
+    {
+      "id": "A13-S2-2-OLD-K-N",
+      "source_id": "A11-S2-2-K",
+      "exact_tokens": true
+    },
+    {
+      "id": "A13-S3-1-OLD-O-N",
+      "source_id": "A11-S3-1-O",
+      "exact_tokens": true
+    },
+    {
+      "id": "A13-S3-1-OLD-K-N",
+      "source_id": "A11-S3-1-K",
+      "exact_tokens": true
+    },
+    {
+      "id": "A13-S3-2-OLD-O-N",
+      "source_id": "A11-S3-2-O",
+      "exact_tokens": true
+    },
+    {
+      "id": "A13-S3-2-OLD-K-N",
+      "source_id": "A11-S3-2-K",
+      "exact_tokens": true
+    }
+  ],
+  "MATERIAL-CAVEATS.json": {
+    "discovered_after_run": true,
+    "material_id": "S3-2-NEW",
+    "issue": "十分 has duration and sufficiently readings; initial AI review did not eliminate ambiguity",
+    "frozen_intended_reading": "ten minutes",
+    "strict_original_full_score": "W for all six outputs",
+    "sensitivity": "U for all six; target 時間 score remains C",
+    "no_inputs_or_old_scores_changed": true
+  },
+  "PER-LEXEME.json": [
+    {
+      "block": "OLD",
+      "family_id": "D1",
+      "form": "O",
+      "by_arm": {
+        "N": {
+          "target": {
+            "C": 2,
+            "W": 0,
+            "U": 0
+          },
+          "full": {
+            "C": 2,
+            "W": 0,
+            "U": 0
+          }
+        },
+        "F": {
+          "target": {
+            "C": 2,
+            "W": 0,
+            "U": 0
+          },
+          "full": {
+            "C": 2,
+            "W": 0,
+            "U": 0
+          }
+        },
+        "U": {
+          "target": {
+            "C": 2,
+            "W": 0,
+            "U": 0
+          },
+          "full": {
+            "C": 2,
+            "W": 0,
+            "U": 0
+          }
+        }
+      }
+    },
+    {
+      "block": "OLD",
+      "family_id": "D1",
+      "form": "K",
+      "by_arm": {
+        "N": {
+          "target": {
+            "C": 1,
+            "W": 0,
+            "U": 1
+          },
+          "full": {
+            "C": 1,
+            "W": 0,
+            "U": 1
+          }
+        },
+        "F": {
+          "target": {
+            "C": 0,
+            "W": 1,
+            "U": 1
+          },
+          "full": {
+            "C": 0,
+            "W": 1,
+            "U": 1
+          }
+        },
+        "U": {
+          "target": {
+            "C": 1,
+            "W": 0,
+            "U": 1
+          },
+          "full": {
+            "C": 1,
+            "W": 0,
+            "U": 1
+          }
+        }
+      }
+    },
+    {
+      "block": "OLD",
+      "family_id": "D2",
+      "form": "O",
+      "by_arm": {
+        "N": {
+          "target": {
+            "C": 2,
+            "W": 0,
+            "U": 0
+          },
+          "full": {
+            "C": 2,
+            "W": 0,
+            "U": 0
+          }
+        },
+        "F": {
+          "target": {
+            "C": 2,
+            "W": 0,
+            "U": 0
+          },
+          "full": {
+            "C": 2,
+            "W": 0,
+            "U": 0
+          }
+        },
+        "U": {
+          "target": {
+            "C": 2,
+            "W": 0,
+            "U": 0
+          },
+          "full": {
+            "C": 2,
+            "W": 0,
+            "U": 0
+          }
+        }
+      }
+    },
+    {
+      "block": "OLD",
+      "family_id": "D2",
+      "form": "K",
+      "by_arm": {
+        "N": {
+          "target": {
+            "C": 1,
+            "W": 1,
+            "U": 0
+          },
+          "full": {
+            "C": 1,
+            "W": 1,
+            "U": 0
+          }
+        },
+        "F": {
+          "target": {
+            "C": 2,
+            "W": 0,
+            "U": 0
+          },
+          "full": {
+            "C": 2,
+            "W": 0,
+            "U": 0
+          }
+        },
+        "U": {
+          "target": {
+            "C": 1,
+            "W": 1,
+            "U": 0
+          },
+          "full": {
+            "C": 1,
+            "W": 1,
+            "U": 0
+          }
+        }
+      }
+    },
+    {
+      "block": "OLD",
+      "family_id": "D3",
+      "form": "O",
+      "by_arm": {
+        "N": {
+          "target": {
+            "C": 0,
+            "W": 1,
+            "U": 1
+          },
+          "full": {
+            "C": 0,
+            "W": 1,
+            "U": 1
+          }
+        },
+        "F": {
+          "target": {
+            "C": 0,
+            "W": 0,
+            "U": 2
+          },
+          "full": {
+            "C": 0,
+            "W": 0,
+            "U": 2
+          }
+        },
+        "U": {
+          "target": {
+            "C": 0,
+            "W": 1,
+            "U": 1
+          },
+          "full": {
+            "C": 0,
+            "W": 1,
+            "U": 1
+          }
+        }
+      }
+    },
+    {
+      "block": "OLD",
+      "family_id": "D3",
+      "form": "K",
+      "by_arm": {
+        "N": {
+          "target": {
+            "C": 0,
+            "W": 2,
+            "U": 0
+          },
+          "full": {
+            "C": 0,
+            "W": 2,
+            "U": 0
+          }
+        },
+        "F": {
+          "target": {
+            "C": 0,
+            "W": 2,
+            "U": 0
+          },
+          "full": {
+            "C": 0,
+            "W": 2,
+            "U": 0
+          }
+        },
+        "U": {
+          "target": {
+            "C": 0,
+            "W": 2,
+            "U": 0
+          },
+          "full": {
+            "C": 0,
+            "W": 2,
+            "U": 0
+          }
+        }
+      }
+    },
+    {
+      "block": "OLD",
+      "family_id": "S1",
+      "form": "O",
+      "by_arm": {
+        "N": {
+          "target": {
+            "C": 2,
+            "W": 0,
+            "U": 0
+          },
+          "full": {
+            "C": 2,
+            "W": 0,
+            "U": 0
+          }
+        },
+        "F": {
+          "target": {
+            "C": 2,
+            "W": 0,
+            "U": 0
+          },
+          "full": {
+            "C": 2,
+            "W": 0,
+            "U": 0
+          }
+        },
+        "U": {
+          "target": {
+            "C": 2,
+            "W": 0,
+            "U": 0
+          },
+          "full": {
+            "C": 2,
+            "W": 0,
+            "U": 0
+          }
+        }
+      }
+    },
+    {
+      "block": "OLD",
+      "family_id": "S1",
+      "form": "K",
+      "by_arm": {
+        "N": {
+          "target": {
+            "C": 1,
+            "W": 1,
+            "U": 0
+          },
+          "full": {
+            "C": 1,
+            "W": 1,
+            "U": 0
+          }
+        },
+        "F": {
+          "target": {
+            "C": 2,
+            "W": 0,
+            "U": 0
+          },
+          "full": {
+            "C": 2,
+            "W": 0,
+            "U": 0
+          }
+        },
+        "U": {
+          "target": {
+            "C": 1,
+            "W": 1,
+            "U": 0
+          },
+          "full": {
+            "C": 1,
+            "W": 1,
+            "U": 0
+          }
+        }
+      }
+    },
+    {
+      "block": "OLD",
+      "family_id": "S2",
+      "form": "O",
+      "by_arm": {
+        "N": {
+          "target": {
+            "C": 2,
+            "W": 0,
+            "U": 0
+          },
+          "full": {
+            "C": 2,
+            "W": 0,
+            "U": 0
+          }
+        },
+        "F": {
+          "target": {
+            "C": 2,
+            "W": 0,
+            "U": 0
+          },
+          "full": {
+            "C": 2,
+            "W": 0,
+            "U": 0
+          }
+        },
+        "U": {
+          "target": {
+            "C": 2,
+            "W": 0,
+            "U": 0
+          },
+          "full": {
+            "C": 2,
+            "W": 0,
+            "U": 0
+          }
+        }
+      }
+    },
+    {
+      "block": "OLD",
+      "family_id": "S2",
+      "form": "K",
+      "by_arm": {
+        "N": {
+          "target": {
+            "C": 2,
+            "W": 0,
+            "U": 0
+          },
+          "full": {
+            "C": 2,
+            "W": 0,
+            "U": 0
+          }
+        },
+        "F": {
+          "target": {
+            "C": 2,
+            "W": 0,
+            "U": 0
+          },
+          "full": {
+            "C": 2,
+            "W": 0,
+            "U": 0
+          }
+        },
+        "U": {
+          "target": {
+            "C": 2,
+            "W": 0,
+            "U": 0
+          },
+          "full": {
+            "C": 2,
+            "W": 0,
+            "U": 0
+          }
+        }
+      }
+    },
+    {
+      "block": "OLD",
+      "family_id": "S3",
+      "form": "O",
+      "by_arm": {
+        "N": {
+          "target": {
+            "C": 2,
+            "W": 0,
+            "U": 0
+          },
+          "full": {
+            "C": 2,
+            "W": 0,
+            "U": 0
+          }
+        },
+        "F": {
+          "target": {
+            "C": 2,
+            "W": 0,
+            "U": 0
+          },
+          "full": {
+            "C": 2,
+            "W": 0,
+            "U": 0
+          }
+        },
+        "U": {
+          "target": {
+            "C": 2,
+            "W": 0,
+            "U": 0
+          },
+          "full": {
+            "C": 2,
+            "W": 0,
+            "U": 0
+          }
+        }
+      }
+    },
+    {
+      "block": "OLD",
+      "family_id": "S3",
+      "form": "K",
+      "by_arm": {
+        "N": {
+          "target": {
+            "C": 2,
+            "W": 0,
+            "U": 0
+          },
+          "full": {
+            "C": 2,
+            "W": 0,
+            "U": 0
+          }
+        },
+        "F": {
+          "target": {
+            "C": 2,
+            "W": 0,
+            "U": 0
+          },
+          "full": {
+            "C": 2,
+            "W": 0,
+            "U": 0
+          }
+        },
+        "U": {
+          "target": {
+            "C": 2,
+            "W": 0,
+            "U": 0
+          },
+          "full": {
+            "C": 2,
+            "W": 0,
+            "U": 0
+          }
+        }
+      }
+    },
+    {
+      "block": "NEW",
+      "family_id": "D1",
+      "form": "O",
+      "by_arm": {
+        "N": {
+          "target": {
+            "C": 2,
+            "W": 0,
+            "U": 0
+          },
+          "full": {
+            "C": 2,
+            "W": 0,
+            "U": 0
+          }
+        },
+        "F": {
+          "target": {
+            "C": 2,
+            "W": 0,
+            "U": 0
+          },
+          "full": {
+            "C": 2,
+            "W": 0,
+            "U": 0
+          }
+        },
+        "U": {
+          "target": {
+            "C": 2,
+            "W": 0,
+            "U": 0
+          },
+          "full": {
+            "C": 2,
+            "W": 0,
+            "U": 0
+          }
+        }
+      }
+    },
+    {
+      "block": "NEW",
+      "family_id": "D1",
+      "form": "K",
+      "by_arm": {
+        "N": {
+          "target": {
+            "C": 1,
+            "W": 1,
+            "U": 0
+          },
+          "full": {
+            "C": 1,
+            "W": 1,
+            "U": 0
+          }
+        },
+        "F": {
+          "target": {
+            "C": 1,
+            "W": 1,
+            "U": 0
+          },
+          "full": {
+            "C": 1,
+            "W": 1,
+            "U": 0
+          }
+        },
+        "U": {
+          "target": {
+            "C": 2,
+            "W": 0,
+            "U": 0
+          },
+          "full": {
+            "C": 2,
+            "W": 0,
+            "U": 0
+          }
+        }
+      }
+    },
+    {
+      "block": "NEW",
+      "family_id": "D2",
+      "form": "O",
+      "by_arm": {
+        "N": {
+          "target": {
+            "C": 2,
+            "W": 0,
+            "U": 0
+          },
+          "full": {
+            "C": 2,
+            "W": 0,
+            "U": 0
+          }
+        },
+        "F": {
+          "target": {
+            "C": 2,
+            "W": 0,
+            "U": 0
+          },
+          "full": {
+            "C": 2,
+            "W": 0,
+            "U": 0
+          }
+        },
+        "U": {
+          "target": {
+            "C": 2,
+            "W": 0,
+            "U": 0
+          },
+          "full": {
+            "C": 2,
+            "W": 0,
+            "U": 0
+          }
+        }
+      }
+    },
+    {
+      "block": "NEW",
+      "family_id": "D2",
+      "form": "K",
+      "by_arm": {
+        "N": {
+          "target": {
+            "C": 2,
+            "W": 0,
+            "U": 0
+          },
+          "full": {
+            "C": 2,
+            "W": 0,
+            "U": 0
+          }
+        },
+        "F": {
+          "target": {
+            "C": 2,
+            "W": 0,
+            "U": 0
+          },
+          "full": {
+            "C": 2,
+            "W": 0,
+            "U": 0
+          }
+        },
+        "U": {
+          "target": {
+            "C": 2,
+            "W": 0,
+            "U": 0
+          },
+          "full": {
+            "C": 2,
+            "W": 0,
+            "U": 0
+          }
+        }
+      }
+    },
+    {
+      "block": "NEW",
+      "family_id": "D3",
+      "form": "O",
+      "by_arm": {
+        "N": {
+          "target": {
+            "C": 0,
+            "W": 2,
+            "U": 0
+          },
+          "full": {
+            "C": 0,
+            "W": 2,
+            "U": 0
+          }
+        },
+        "F": {
+          "target": {
+            "C": 0,
+            "W": 0,
+            "U": 2
+          },
+          "full": {
+            "C": 0,
+            "W": 0,
+            "U": 2
+          }
+        },
+        "U": {
+          "target": {
+            "C": 0,
+            "W": 2,
+            "U": 0
+          },
+          "full": {
+            "C": 0,
+            "W": 2,
+            "U": 0
+          }
+        }
+      }
+    },
+    {
+      "block": "NEW",
+      "family_id": "D3",
+      "form": "K",
+      "by_arm": {
+        "N": {
+          "target": {
+            "C": 0,
+            "W": 1,
+            "U": 1
+          },
+          "full": {
+            "C": 0,
+            "W": 1,
+            "U": 1
+          }
+        },
+        "F": {
+          "target": {
+            "C": 0,
+            "W": 1,
+            "U": 1
+          },
+          "full": {
+            "C": 0,
+            "W": 1,
+            "U": 1
+          }
+        },
+        "U": {
+          "target": {
+            "C": 0,
+            "W": 1,
+            "U": 1
+          },
+          "full": {
+            "C": 0,
+            "W": 1,
+            "U": 1
+          }
+        }
+      }
+    },
+    {
+      "block": "NEW",
+      "family_id": "S1",
+      "form": "O",
+      "by_arm": {
+        "N": {
+          "target": {
+            "C": 2,
+            "W": 0,
+            "U": 0
+          },
+          "full": {
+            "C": 2,
+            "W": 0,
+            "U": 0
+          }
+        },
+        "F": {
+          "target": {
+            "C": 2,
+            "W": 0,
+            "U": 0
+          },
+          "full": {
+            "C": 2,
+            "W": 0,
+            "U": 0
+          }
+        },
+        "U": {
+          "target": {
+            "C": 2,
+            "W": 0,
+            "U": 0
+          },
+          "full": {
+            "C": 1,
+            "W": 0,
+            "U": 1
+          }
+        }
+      }
+    },
+    {
+      "block": "NEW",
+      "family_id": "S1",
+      "form": "K",
+      "by_arm": {
+        "N": {
+          "target": {
+            "C": 1,
+            "W": 1,
+            "U": 0
+          },
+          "full": {
+            "C": 1,
+            "W": 1,
+            "U": 0
+          }
+        },
+        "F": {
+          "target": {
+            "C": 2,
+            "W": 0,
+            "U": 0
+          },
+          "full": {
+            "C": 2,
+            "W": 0,
+            "U": 0
+          }
+        },
+        "U": {
+          "target": {
+            "C": 1,
+            "W": 1,
+            "U": 0
+          },
+          "full": {
+            "C": 0,
+            "W": 1,
+            "U": 1
+          }
+        }
+      }
+    },
+    {
+      "block": "NEW",
+      "family_id": "S2",
+      "form": "O",
+      "by_arm": {
+        "N": {
+          "target": {
+            "C": 2,
+            "W": 0,
+            "U": 0
+          },
+          "full": {
+            "C": 2,
+            "W": 0,
+            "U": 0
+          }
+        },
+        "F": {
+          "target": {
+            "C": 2,
+            "W": 0,
+            "U": 0
+          },
+          "full": {
+            "C": 2,
+            "W": 0,
+            "U": 0
+          }
+        },
+        "U": {
+          "target": {
+            "C": 2,
+            "W": 0,
+            "U": 0
+          },
+          "full": {
+            "C": 2,
+            "W": 0,
+            "U": 0
+          }
+        }
+      }
+    },
+    {
+      "block": "NEW",
+      "family_id": "S2",
+      "form": "K",
+      "by_arm": {
+        "N": {
+          "target": {
+            "C": 2,
+            "W": 0,
+            "U": 0
+          },
+          "full": {
+            "C": 2,
+            "W": 0,
+            "U": 0
+          }
+        },
+        "F": {
+          "target": {
+            "C": 2,
+            "W": 0,
+            "U": 0
+          },
+          "full": {
+            "C": 2,
+            "W": 0,
+            "U": 0
+          }
+        },
+        "U": {
+          "target": {
+            "C": 2,
+            "W": 0,
+            "U": 0
+          },
+          "full": {
+            "C": 2,
+            "W": 0,
+            "U": 0
+          }
+        }
+      }
+    },
+    {
+      "block": "NEW",
+      "family_id": "S3",
+      "form": "O",
+      "by_arm": {
+        "N": {
+          "target": {
+            "C": 2,
+            "W": 0,
+            "U": 0
+          },
+          "full": {
+            "C": 1,
+            "W": 1,
+            "U": 0
+          }
+        },
+        "F": {
+          "target": {
+            "C": 2,
+            "W": 0,
+            "U": 0
+          },
+          "full": {
+            "C": 1,
+            "W": 1,
+            "U": 0
+          }
+        },
+        "U": {
+          "target": {
+            "C": 2,
+            "W": 0,
+            "U": 0
+          },
+          "full": {
+            "C": 1,
+            "W": 1,
+            "U": 0
+          }
+        }
+      }
+    },
+    {
+      "block": "NEW",
+      "family_id": "S3",
+      "form": "K",
+      "by_arm": {
+        "N": {
+          "target": {
+            "C": 2,
+            "W": 0,
+            "U": 0
+          },
+          "full": {
+            "C": 1,
+            "W": 1,
+            "U": 0
+          }
+        },
+        "F": {
+          "target": {
+            "C": 2,
+            "W": 0,
+            "U": 0
+          },
+          "full": {
+            "C": 1,
+            "W": 1,
+            "U": 0
+          }
+        },
+        "U": {
+          "target": {
+            "C": 2,
+            "W": 0,
+            "U": 0
+          },
+          "full": {
+            "C": 1,
+            "W": 1,
+            "U": 0
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,270 @@
+{
+  "by_block": {
+    "OLD": {
+      "by_arm": {
+        "N": {
+          "target": {
+            "C": 17,
+            "W": 5,
+            "U": 2
+          },
+          "full": {
+            "C": 17,
+            "W": 5,
+            "U": 2
+          }
+        },
+        "F": {
+          "target": {
+            "C": 18,
+            "W": 3,
+            "U": 3
+          },
+          "full": {
+            "C": 18,
+            "W": 3,
+            "U": 3
+          }
+        },
+        "U": {
+          "target": {
+            "C": 17,
+            "W": 5,
+            "U": 2
+          },
+          "full": {
+            "C": 17,
+            "W": 5,
+            "U": 2
+          }
+        }
+      },
+      "F_minus_U": {
+        "lower": "-1/24",
+        "upper": "1/6"
+      },
+      "F_minus_N": {
+        "lower": "-1/24",
+        "upper": "1/6"
+      },
+      "full_F_minus_N": {
+        "lower": "-1/24",
+        "upper": "1/6"
+      },
+      "transitions": {
+        "FvsN": {
+          "target": {
+            "rescues": [
+              "D2-2-OLD-K",
+              "S1-1-OLD-K"
+            ],
+            "harms": [
+              "D1-1-OLD-K"
+            ],
+            "uncertain_changes": [
+              "D3-2-OLD-O"
+            ]
+          },
+          "full": {
+            "rescues": [
+              "D2-2-OLD-K",
+              "S1-1-OLD-K"
+            ],
+            "harms": [
+              "D1-1-OLD-K"
+            ],
+            "uncertain_changes": [
+              "D3-2-OLD-O"
+            ]
+          }
+        },
+        "UvsN": {
+          "target": {
+            "rescues": [],
+            "harms": [],
+            "uncertain_changes": []
+          },
+          "full": {
+            "rescues": [],
+            "harms": [],
+            "uncertain_changes": []
+          }
+        },
+        "FvsU": {
+          "target": {
+            "rescues": [
+              "D2-2-OLD-K",
+              "S1-1-OLD-K"
+            ],
+            "harms": [
+              "D1-1-OLD-K"
+            ],
+            "uncertain_changes": [
+              "D3-2-OLD-O"
+            ]
+          },
+          "full": {
+            "rescues": [
+              "D2-2-OLD-K",
+              "S1-1-OLD-K"
+            ],
+            "harms": [
+              "D1-1-OLD-K"
+            ],
+            "uncertain_changes": [
+              "D3-2-OLD-O"
+            ]
+          }
+        }
+      }
+    },
+    "NEW": {
+      "by_arm": {
+        "N": {
+          "target": {
+            "C": 18,
+            "W": 5,
+            "U": 1
+          },
+          "full": {
+            "C": 16,
+            "W": 7,
+            "U": 1
+          }
+        },
+        "F": {
+          "target": {
+            "C": 19,
+            "W": 2,
+            "U": 3
+          },
+          "full": {
+            "C": 17,
+            "W": 4,
+            "U": 3
+          }
+        },
+        "U": {
+          "target": {
+            "C": 19,
+            "W": 4,
+            "U": 1
+          },
+          "full": {
+            "C": 15,
+            "W": 6,
+            "U": 3
+          }
+        }
+      },
+      "F_minus_U": {
+        "lower": "-1/24",
+        "upper": "1/8"
+      },
+      "F_minus_N": {
+        "lower": "0",
+        "upper": "1/6"
+      },
+      "full_F_minus_N": {
+        "lower": "0",
+        "upper": "1/6"
+      },
+      "transitions": {
+        "FvsN": {
+          "target": {
+            "rescues": [
+              "S1-1-NEW-K"
+            ],
+            "harms": [],
+            "uncertain_changes": [
+              "D3-1-NEW-O",
+              "D3-2-NEW-O"
+            ]
+          },
+          "full": {
+            "rescues": [
+              "S1-1-NEW-K"
+            ],
+            "harms": [],
+            "uncertain_changes": [
+              "D3-1-NEW-O",
+              "D3-2-NEW-O"
+            ]
+          }
+        },
+        "UvsN": {
+          "target": {
+            "rescues": [
+              "D1-1-NEW-K"
+            ],
+            "harms": [],
+            "uncertain_changes": []
+          },
+          "full": {
+            "rescues": [
+              "D1-1-NEW-K"
+            ],
+            "harms": [],
+            "uncertain_changes": [
+              "S1-2-NEW-O",
+              "S1-2-NEW-K"
+            ]
+          }
+        },
+        "FvsU": {
+          "target": {
+            "rescues": [
+              "S1-1-NEW-K"
+            ],
+            "harms": [
+              "D1-1-NEW-K"
+            ],
+            "uncertain_changes": [
+              "D3-1-NEW-O",
+              "D3-2-NEW-O"
+            ]
+          },
+          "full": {
+            "rescues": [
+              "S1-1-NEW-K"
+            ],
+            "harms": [
+              "D1-1-NEW-K"
+            ],
+            "uncertain_changes": [
+              "D3-1-NEW-O",
+              "D3-2-NEW-O",
+              "S1-2-NEW-O",
+              "S1-2-NEW-K"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "primary_J": {
+    "lower": "-1/24",
+    "upper": "1/8"
+  },
+  "NEW_rescue_families": [
+    "S1"
+  ],
+  "primary_pass": false,
+  "all_target": {
+    "C": 108,
+    "W": 24,
+    "U": 12
+  },
+  "all_full": {
+    "C": 100,
+    "W": 30,
+    "U": 14
+  },
+  "truncated": 0,
+  "human_gold": 0,
+  "full_material_ambiguity_sensitivity": {
+    "C": 100,
+    "W": 24,
+    "U": 20
+  }
+}
