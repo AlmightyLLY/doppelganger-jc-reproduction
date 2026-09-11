@@ -1,0 +1,97 @@
+{
+  "records": 96,
+  "blocks": {
+    "OLD": {
+      "J_lower": 0.16666666666666666,
+      "J_upper": 0.16666666666666666,
+      "distinct_UB_rescues": 2,
+      "O_minus_U_lower": 0.25,
+      "O_minus_U_upper": 0.25,
+      "by_form": {
+        "O": {
+          "C": 12
+        },
+        "U": {
+          "W": 3,
+          "C": 9
+        },
+        "OB": {
+          "C": 12
+        },
+        "UB": {
+          "C": 11,
+          "W": 1
+        }
+      },
+      "pairs": {
+        "O→U": {
+          "HARM": 3,
+          "CC": 9
+        },
+        "U→UB": {
+          "RESCUE": 2,
+          "CC": 9,
+          "WW": 1
+        },
+        "O→OB": {
+          "CC": 12
+        }
+      }
+    },
+    "NEW": {
+      "J_lower": 0.16666666666666666,
+      "J_upper": 0.16666666666666666,
+      "distinct_UB_rescues": 2,
+      "O_minus_U_lower": 0.3333333333333333,
+      "O_minus_U_upper": 0.3333333333333333,
+      "by_form": {
+        "O": {
+          "C": 12
+        },
+        "U": {
+          "C": 8,
+          "W": 4
+        },
+        "OB": {
+          "C": 12
+        },
+        "UB": {
+          "C": 10,
+          "W": 2
+        }
+      },
+      "pairs": {
+        "O→U": {
+          "CC": 8,
+          "HARM": 4
+        },
+        "U→UB": {
+          "CC": 8,
+          "WW": 2,
+          "RESCUE": 2
+        },
+        "O→OB": {
+          "CC": 12
+        }
+      }
+    }
+  },
+  "primary_pass": true,
+  "control_scores": {
+    "C": 86,
+    "W": 10
+  },
+  "full_scores": {
+    "C": 74,
+    "W": 14,
+    "U": 8
+  },
+  "homograph_scores": {
+    "C": 96
+  },
+  "legacy_exact_output_ids": 24,
+  "legacy_total": 24,
+  "truncated": 0,
+  "human_review": "PENDING",
+  "independent_human_gold": 0
+}

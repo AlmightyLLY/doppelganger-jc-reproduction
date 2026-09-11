@@ -1,0 +1,242 @@
+[
+  {
+    "id": "A10-D1-1-OLD-O",
+    "legacy_id": "A09-D1-1-O-N",
+    "prompt_equal": true,
+    "template_equal": true,
+    "input_ids_equal": true,
+    "output_ids_equal": true,
+    "old_output": "母亲把近况的信放进信封里了。",
+    "new_output": "母亲把近况的信放进信封里了。"
+  },
+  {
+    "id": "A10-D1-1-OLD-U",
+    "legacy_id": "A09-D1-1-U-N",
+    "prompt_equal": true,
+    "template_equal": true,
+    "input_ids_equal": true,
+    "output_ids_equal": true,
+    "old_output": "母亲把一封信放在了风铃里。",
+    "new_output": "母亲把一封信放在了风铃里。"
+  },
+  {
+    "id": "A10-D1-2-OLD-O",
+    "legacy_id": "A09-D1-2-O-N",
+    "prompt_equal": true,
+    "template_equal": true,
+    "input_ids_equal": true,
+    "output_ids_equal": true,
+    "old_output": "哥哥大声地读了朋友寄来的信。",
+    "new_output": "哥哥大声地读了朋友寄来的信。"
+  },
+  {
+    "id": "A10-D1-2-OLD-U",
+    "legacy_id": "A09-D1-2-U-N",
+    "prompt_equal": true,
+    "template_equal": true,
+    "input_ids_equal": true,
+    "output_ids_equal": true,
+    "old_output": "哥哥大声地读了从远方寄来的信。",
+    "new_output": "哥哥大声地读了从远方寄来的信。"
+  },
+  {
+    "id": "A10-D2-1-OLD-O",
+    "legacy_id": "A09-D2-1-O-N",
+    "prompt_equal": true,
+    "template_equal": true,
+    "input_ids_equal": true,
+    "output_ids_equal": true,
+    "old_output": "妹妹每晚都在为数学考试而学习。",
+    "new_output": "妹妹每晚都在为数学考试而学习。"
+  },
+  {
+    "id": "A10-D2-1-OLD-U",
+    "legacy_id": "A09-D2-1-U-N",
+    "prompt_equal": true,
+    "template_equal": true,
+    "input_ids_equal": true,
+    "output_ids_equal": true,
+    "old_output": "妹妹为了准备数学考试，每晚都在学习。",
+    "new_output": "妹妹为了准备数学考试，每晚都在学习。"
+  },
+  {
+    "id": "A10-D2-2-OLD-O",
+    "legacy_id": "A09-D2-2-O-N",
+    "prompt_equal": true,
+    "template_equal": true,
+    "input_ids_equal": true,
+    "output_ids_equal": true,
+    "old_output": "弟弟开始在图书馆学习历史。",
+    "new_output": "弟弟开始在图书馆学习历史。"
+  },
+  {
+    "id": "A10-D2-2-OLD-U",
+    "legacy_id": "A09-D2-2-U-N",
+    "prompt_equal": true,
+    "template_equal": true,
+    "input_ids_equal": true,
+    "output_ids_equal": true,
+    "old_output": "弟弟开始在图书馆学习历史。",
+    "new_output": "弟弟开始在图书馆学习历史。"
+  },
+  {
+    "id": "A10-D3-1-OLD-O",
+    "legacy_id": "A09-D3-1-O-N",
+    "prompt_equal": true,
+    "template_equal": true,
+    "input_ids_equal": true,
+    "output_ids_equal": true,
+    "old_output": "这把结实的椅子即使装重物也不会坏。",
+    "new_output": "这把结实的椅子即使装重物也不会坏。"
+  },
+  {
+    "id": "A10-D3-1-OLD-U",
+    "legacy_id": "A09-D3-1-U-N",
+    "prompt_equal": true,
+    "template_equal": true,
+    "input_ids_equal": true,
+    "output_ids_equal": true,
+    "old_output": "这把结实的椅子即使放重物也不会坏。",
+    "new_output": "这把结实的椅子即使放重物也不会坏。"
+  },
+  {
+    "id": "A10-D3-2-OLD-O",
+    "legacy_id": "A09-D3-2-O-N",
+    "prompt_equal": true,
+    "template_equal": true,
+    "input_ids_equal": true,
+    "output_ids_equal": true,
+    "old_output": "父亲挑选了一个结实的旅行背包。",
+    "new_output": "父亲挑选了一个结实的旅行背包。"
+  },
+  {
+    "id": "A10-D3-2-OLD-U",
+    "legacy_id": "A09-D3-2-U-N",
+    "prompt_equal": true,
+    "template_equal": true,
+    "input_ids_equal": true,
+    "output_ids_equal": true,
+    "old_output": "父亲挑选了一个结实的旅行背包。",
+    "new_output": "父亲挑选了一个结实的旅行背包。"
+  },
+  {
+    "id": "A10-S1-1-OLD-O",
+    "legacy_id": "A09-S1-1-O-N",
+    "prompt_equal": true,
+    "template_equal": true,
+    "input_ids_equal": true,
+    "output_ids_equal": true,
+    "old_output": "女儿每天早上乘公交车去上学。",
+    "new_output": "女儿每天早上乘公交车去上学。"
+  },
+  {
+    "id": "A10-S1-1-OLD-U",
+    "legacy_id": "A09-S1-1-U-N",
+    "prompt_equal": true,
+    "template_equal": true,
+    "input_ids_equal": true,
+    "output_ids_equal": true,
+    "old_output": "女儿每天早上乘公交车去上学。",
+    "new_output": "女儿每天早上乘公交车去上学。"
+  },
+  {
+    "id": "A10-S1-2-OLD-O",
+    "legacy_id": "A09-S1-2-O-N",
+    "prompt_equal": true,
+    "template_equal": true,
+    "input_ids_equal": true,
+    "output_ids_equal": true,
+    "old_output": "镇上为孩子们建了一所新学校。",
+    "new_output": "镇上为孩子们建了一所新学校。"
+  },
+  {
+    "id": "A10-S1-2-OLD-U",
+    "legacy_id": "A09-S1-2-U-N",
+    "prompt_equal": true,
+    "template_equal": true,
+    "input_ids_equal": true,
+    "output_ids_equal": true,
+    "old_output": "镇上为孩子们建了一所新学校。",
+    "new_output": "镇上为孩子们建了一所新学校。"
+  },
+  {
+    "id": "A10-S2-1-OLD-O",
+    "legacy_id": "A09-S2-1-O-N",
+    "prompt_equal": true,
+    "template_equal": true,
+    "input_ids_equal": true,
+    "output_ids_equal": true,
+    "old_output": "大学生正在教室里听课。",
+    "new_output": "大学生正在教室里听课。"
+  },
+  {
+    "id": "A10-S2-1-OLD-U",
+    "legacy_id": "A09-S2-1-U-N",
+    "prompt_equal": true,
+    "template_equal": true,
+    "input_ids_equal": true,
+    "output_ids_equal": true,
+    "old_output": "大学生正在教室里听课。",
+    "new_output": "大学生正在教室里听课。"
+  },
+  {
+    "id": "A10-S2-2-OLD-O",
+    "legacy_id": "A09-S2-2-O-N",
+    "prompt_equal": true,
+    "template_equal": true,
+    "input_ids_equal": true,
+    "output_ids_equal": true,
+    "old_output": "老师向参加考试的学生分发了纸张。",
+    "new_output": "老师向参加考试的学生分发了纸张。"
+  },
+  {
+    "id": "A10-S2-2-OLD-U",
+    "legacy_id": "A09-S2-2-U-N",
+    "prompt_equal": true,
+    "template_equal": true,
+    "input_ids_equal": true,
+    "output_ids_equal": true,
+    "old_output": "老师向参加考试的学生分发了糖果。",
+    "new_output": "老师向参加考试的学生分发了糖果。"
+  },
+  {
+    "id": "A10-S3-1-OLD-O",
+    "legacy_id": "A09-S3-1-O-N",
+    "prompt_equal": true,
+    "template_equal": true,
+    "input_ids_equal": true,
+    "output_ids_equal": true,
+    "old_output": "祖母在海边的小镇过着宁静的生活。",
+    "new_output": "祖母在海边的小镇过着宁静的生活。"
+  },
+  {
+    "id": "A10-S3-1-OLD-U",
+    "legacy_id": "A09-S3-1-U-N",
+    "prompt_equal": true,
+    "template_equal": true,
+    "input_ids_equal": true,
+    "output_ids_equal": true,
+    "old_output": "祖母在海边的小镇过着宁静的生活。",
+    "new_output": "祖母在海边的小镇过着宁静的生活。"
+  },
+  {
+    "id": "A10-S3-2-OLD-O",
+    "legacy_id": "A09-S3-2-O-N",
+    "prompt_equal": true,
+    "template_equal": true,
+    "input_ids_equal": true,
+    "output_ids_equal": true,
+    "old_output": "他和家人谈论了退休后的生活。",
+    "new_output": "他和家人谈论了退休后的生活。"
+  },
+  {
+    "id": "A10-S3-2-OLD-U",
+    "legacy_id": "A09-S3-2-U-N",
+    "prompt_equal": true,
+    "template_equal": true,
+    "input_ids_equal": true,
+    "output_ids_equal": true,
+    "old_output": "他和家人谈论了退休后的生活。",
+    "new_output": "他和家人谈论了退休后的生活。"
+  }
+]

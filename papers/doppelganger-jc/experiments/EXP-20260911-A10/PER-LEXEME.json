@@ -1,0 +1,410 @@
+[
+  {
+    "material_id": "D1-1-OLD",
+    "block": "OLD",
+    "word": "封筒",
+    "scores": {
+      "O": "C",
+      "U": "W",
+      "OB": "C",
+      "UB": "C"
+    },
+    "J_lower": 1,
+    "J_upper": 1,
+    "O_minus_U": [
+      1,
+      1
+    ]
+  },
+  {
+    "material_id": "D1-1-NEW",
+    "block": "NEW",
+    "word": "封筒",
+    "scores": {
+      "O": "C",
+      "U": "C",
+      "OB": "C",
+      "UB": "C"
+    },
+    "J_lower": 0,
+    "J_upper": 0,
+    "O_minus_U": [
+      0,
+      0
+    ]
+  },
+  {
+    "material_id": "D1-2-OLD",
+    "block": "OLD",
+    "word": "友人",
+    "scores": {
+      "O": "C",
+      "U": "W",
+      "OB": "C",
+      "UB": "C"
+    },
+    "J_lower": 1,
+    "J_upper": 1,
+    "O_minus_U": [
+      1,
+      1
+    ]
+  },
+  {
+    "material_id": "D1-2-NEW",
+    "block": "NEW",
+    "word": "友人",
+    "scores": {
+      "O": "C",
+      "U": "W",
+      "OB": "C",
+      "UB": "W"
+    },
+    "J_lower": 0,
+    "J_upper": 0,
+    "O_minus_U": [
+      1,
+      1
+    ]
+  },
+  {
+    "material_id": "D2-1-OLD",
+    "block": "OLD",
+    "word": "数学",
+    "scores": {
+      "O": "C",
+      "U": "C",
+      "OB": "C",
+      "UB": "C"
+    },
+    "J_lower": 0,
+    "J_upper": 0,
+    "O_minus_U": [
+      0,
+      0
+    ]
+  },
+  {
+    "material_id": "D2-1-NEW",
+    "block": "NEW",
+    "word": "数学",
+    "scores": {
+      "O": "C",
+      "U": "C",
+      "OB": "C",
+      "UB": "C"
+    },
+    "J_lower": 0,
+    "J_upper": 0,
+    "O_minus_U": [
+      0,
+      0
+    ]
+  },
+  {
+    "material_id": "D2-2-OLD",
+    "block": "OLD",
+    "word": "歴史",
+    "scores": {
+      "O": "C",
+      "U": "C",
+      "OB": "C",
+      "UB": "C"
+    },
+    "J_lower": 0,
+    "J_upper": 0,
+    "O_minus_U": [
+      0,
+      0
+    ]
+  },
+  {
+    "material_id": "D2-2-NEW",
+    "block": "NEW",
+    "word": "歴史",
+    "scores": {
+      "O": "C",
+      "U": "W",
+      "OB": "C",
+      "UB": "C"
+    },
+    "J_lower": 1,
+    "J_upper": 1,
+    "O_minus_U": [
+      1,
+      1
+    ]
+  },
+  {
+    "material_id": "D3-1-OLD",
+    "block": "OLD",
+    "word": "荷物",
+    "scores": {
+      "O": "C",
+      "U": "C",
+      "OB": "C",
+      "UB": "C"
+    },
+    "J_lower": 0,
+    "J_upper": 0,
+    "O_minus_U": [
+      0,
+      0
+    ]
+  },
+  {
+    "material_id": "D3-1-NEW",
+    "block": "NEW",
+    "word": "荷物",
+    "scores": {
+      "O": "C",
+      "U": "C",
+      "OB": "C",
+      "UB": "C"
+    },
+    "J_lower": 0,
+    "J_upper": 0,
+    "O_minus_U": [
+      0,
+      0
+    ]
+  },
+  {
+    "material_id": "D3-2-OLD",
+    "block": "OLD",
+    "word": "旅行",
+    "scores": {
+      "O": "C",
+      "U": "C",
+      "OB": "C",
+      "UB": "C"
+    },
+    "J_lower": 0,
+    "J_upper": 0,
+    "O_minus_U": [
+      0,
+      0
+    ]
+  },
+  {
+    "material_id": "D3-2-NEW",
+    "block": "NEW",
+    "word": "旅行",
+    "scores": {
+      "O": "C",
+      "U": "W",
+      "OB": "C",
+      "UB": "C"
+    },
+    "J_lower": 1,
+    "J_upper": 1,
+    "O_minus_U": [
+      1,
+      1
+    ]
+  },
+  {
+    "material_id": "S1-1-OLD",
+    "block": "OLD",
+    "word": "毎朝",
+    "scores": {
+      "O": "C",
+      "U": "C",
+      "OB": "C",
+      "UB": "C"
+    },
+    "J_lower": 0,
+    "J_upper": 0,
+    "O_minus_U": [
+      0,
+      0
+    ]
+  },
+  {
+    "material_id": "S1-1-NEW",
+    "block": "NEW",
+    "word": "毎朝",
+    "scores": {
+      "O": "C",
+      "U": "C",
+      "OB": "C",
+      "UB": "C"
+    },
+    "J_lower": 0,
+    "J_upper": 0,
+    "O_minus_U": [
+      0,
+      0
+    ]
+  },
+  {
+    "material_id": "S1-2-OLD",
+    "block": "OLD",
+    "word": "子ども",
+    "scores": {
+      "O": "C",
+      "U": "C",
+      "OB": "C",
+      "UB": "C"
+    },
+    "J_lower": 0,
+    "J_upper": 0,
+    "O_minus_U": [
+      0,
+      0
+    ]
+  },
+  {
+    "material_id": "S1-2-NEW",
+    "block": "NEW",
+    "word": "子ども",
+    "scores": {
+      "O": "C",
+      "U": "C",
+      "OB": "C",
+      "UB": "C"
+    },
+    "J_lower": 0,
+    "J_upper": 0,
+    "O_minus_U": [
+      0,
+      0
+    ]
+  },
+  {
+    "material_id": "S2-1-OLD",
+    "block": "OLD",
+    "word": "教室",
+    "scores": {
+      "O": "C",
+      "U": "C",
+      "OB": "C",
+      "UB": "C"
+    },
+    "J_lower": 0,
+    "J_upper": 0,
+    "O_minus_U": [
+      0,
+      0
+    ]
+  },
+  {
+    "material_id": "S2-1-NEW",
+    "block": "NEW",
+    "word": "教室",
+    "scores": {
+      "O": "C",
+      "U": "C",
+      "OB": "C",
+      "UB": "C"
+    },
+    "J_lower": 0,
+    "J_upper": 0,
+    "O_minus_U": [
+      0,
+      0
+    ]
+  },
+  {
+    "material_id": "S2-2-OLD",
+    "block": "OLD",
+    "word": "用紙",
+    "scores": {
+      "O": "C",
+      "U": "W",
+      "OB": "C",
+      "UB": "W"
+    },
+    "J_lower": 0,
+    "J_upper": 0,
+    "O_minus_U": [
+      1,
+      1
+    ]
+  },
+  {
+    "material_id": "S2-2-NEW",
+    "block": "NEW",
+    "word": "用紙",
+    "scores": {
+      "O": "C",
+      "U": "W",
+      "OB": "C",
+      "UB": "W"
+    },
+    "J_lower": 0,
+    "J_upper": 0,
+    "O_minus_U": [
+      1,
+      1
+    ]
+  },
+  {
+    "material_id": "S3-1-OLD",
+    "block": "OLD",
+    "word": "海辺",
+    "scores": {
+      "O": "C",
+      "U": "C",
+      "OB": "C",
+      "UB": "C"
+    },
+    "J_lower": 0,
+    "J_upper": 0,
+    "O_minus_U": [
+      0,
+      0
+    ]
+  },
+  {
+    "material_id": "S3-1-NEW",
+    "block": "NEW",
+    "word": "海辺",
+    "scores": {
+      "O": "C",
+      "U": "C",
+      "OB": "C",
+      "UB": "C"
+    },
+    "J_lower": 0,
+    "J_upper": 0,
+    "O_minus_U": [
+      0,
+      0
+    ]
+  },
+  {
+    "material_id": "S3-2-OLD",
+    "block": "OLD",
+    "word": "家族",
+    "scores": {
+      "O": "C",
+      "U": "C",
+      "OB": "C",
+      "UB": "C"
+    },
+    "J_lower": 0,
+    "J_upper": 0,
+    "O_minus_U": [
+      0,
+      0
+    ]
+  },
+  {
+    "material_id": "S3-2-NEW",
+    "block": "NEW",
+    "word": "家族",
+    "scores": {
+      "O": "C",
+      "U": "C",
+      "OB": "C",
+      "UB": "C"
+    },
+    "J_lower": 0,
+    "J_upper": 0,
+    "O_minus_U": [
+      0,
+      0
+    ]
+  }
+]
