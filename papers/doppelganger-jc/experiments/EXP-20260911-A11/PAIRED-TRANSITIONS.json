@@ -1,0 +1,134 @@
+[
+  {
+    "material_id": "D1-1",
+    "family_id": "D1",
+    "group": "DIFF",
+    "O": "C",
+    "K": "C",
+    "O_output": "祖父坐火车去了邻镇。",
+    "K_output": "祖父坐火车去了邻镇。",
+    "rescue": false,
+    "harm": false
+  },
+  {
+    "material_id": "D1-2",
+    "family_id": "D1",
+    "group": "DIFF",
+    "O": "C",
+    "K": "U",
+    "O_output": "站务员正在站台上等待火车到达。",
+    "K_output": "站务员在站台上等待电车的到来。",
+    "rescue": false,
+    "harm": false
+  },
+  {
+    "material_id": "D2-1",
+    "family_id": "D2",
+    "group": "DIFF",
+    "O": "C",
+    "K": "C",
+    "O_output": "父亲把旧报纸装进了袋子里。",
+    "K_output": "父亲把旧报纸装进了袋子里。",
+    "rescue": false,
+    "harm": false
+  },
+  {
+    "material_id": "D2-2",
+    "family_id": "D2",
+    "group": "DIFF",
+    "O": "C",
+    "K": "W",
+    "O_output": "母亲用报纸包住了易碎的盘子。",
+    "K_output": "母亲把容易碎的盘子包起来了。",
+    "rescue": false,
+    "harm": true
+  },
+  {
+    "material_id": "D3-1",
+    "family_id": "D3",
+    "group": "DIFF",
+    "O": "U",
+    "K": "W",
+    "O_output": "研究员将汽水倒入容器中。",
+    "K_output": "研究员把昆虫放进容器里。",
+    "rescue": false,
+    "harm": false
+  },
+  {
+    "material_id": "D3-2",
+    "family_id": "D3",
+    "group": "DIFF",
+    "O": "W",
+    "K": "W",
+    "O_output": "研究员在河口测量了海水的盐分。",
+    "K_output": "研究员在河口测量了盐度。",
+    "rescue": false,
+    "harm": false
+  },
+  {
+    "material_id": "S1-1",
+    "family_id": "S1",
+    "group": "SAME",
+    "O": "C",
+    "K": "W",
+    "O_output": "姐姐在公园里等朋友。",
+    "K_output": "姐姐在屋檐下等待着朋友。",
+    "rescue": false,
+    "harm": true
+  },
+  {
+    "material_id": "S1-2",
+    "family_id": "S1",
+    "group": "SAME",
+    "O": "C",
+    "K": "C",
+    "O_output": "孩子们正在公园的滑梯上玩耍。",
+    "K_output": "孩子们正在公园的滑梯上玩耍。",
+    "rescue": false,
+    "harm": false
+  },
+  {
+    "material_id": "S2-1",
+    "family_id": "S2",
+    "group": "SAME",
+    "O": "C",
+    "K": "C",
+    "O_output": "父亲通过电话传达了计划。",
+    "K_output": "父亲通过电话传达了计划。",
+    "rescue": false,
+    "harm": false
+  },
+  {
+    "material_id": "S2-2",
+    "family_id": "S2",
+    "group": "SAME",
+    "O": "C",
+    "K": "C",
+    "O_output": "姐姐通过电话和远方的朋友交谈了。",
+    "K_output": "姐姐通过电话和远方的朋友交谈了。",
+    "rescue": false,
+    "harm": false
+  },
+  {
+    "material_id": "S3-1",
+    "family_id": "S3",
+    "group": "SAME",
+    "O": "C",
+    "K": "C",
+    "O_output": "他调查了准备所需的时间。",
+    "K_output": "他调查了准备所需的时间。",
+    "rescue": false,
+    "harm": false
+  },
+  {
+    "material_id": "S3-2",
+    "family_id": "S3",
+    "group": "SAME",
+    "O": "C",
+    "K": "C",
+    "O_output": "老师将考试时间延长了三十分。",
+    "K_output": "老师将考试时间延长了三十分。",
+    "rescue": false,
+    "harm": false
+  }
+]

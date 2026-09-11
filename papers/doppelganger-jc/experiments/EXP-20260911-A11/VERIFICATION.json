@@ -1,0 +1,52 @@
+{
+  "runtime": {
+    "batch": "EXP-20260911-A11",
+    "status": "COMPLETE",
+    "calls": 24,
+    "forwards": 231,
+    "completed": [
+      "A11-D1-1-O",
+      "A11-D1-1-K",
+      "A11-D1-2-O",
+      "A11-D1-2-K",
+      "A11-D2-1-O",
+      "A11-D2-1-K",
+      "A11-D2-2-O",
+      "A11-D2-2-K",
+      "A11-D3-1-O",
+      "A11-D3-1-K",
+      "A11-D3-2-O",
+      "A11-D3-2-K",
+      "A11-S1-1-O",
+      "A11-S1-1-K",
+      "A11-S1-2-O",
+      "A11-S1-2-K",
+      "A11-S2-1-O",
+      "A11-S2-1-K",
+      "A11-S2-2-O",
+      "A11-S2-2-K",
+      "A11-S3-1-O",
+      "A11-S3-1-K",
+      "A11-S3-2-O",
+      "A11-S3-2-K"
+    ],
+    "pid": 983096,
+    "cost_usd": 0,
+    "elapsed_seconds": 19.240737980231643,
+    "gpu": "0",
+    "active": "A11-S3-2-K",
+    "peak_allocator_mib": 15647.5390625
+  },
+  "CPU": {
+    "status": "PASS",
+    "input_template_encode_and_output_decode": 24,
+    "new_model_calls": 0
+  },
+  "numeric": {
+    "frozen_files_unchanged": true,
+    "exact_input_output_record_matching": true,
+    "rows": 24,
+    "D_bounds_verified": true,
+    "counts_verified": true
+  }
+}
