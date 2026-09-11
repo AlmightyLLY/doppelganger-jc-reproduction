@@ -1,0 +1,88 @@
+{
+  "records": 144,
+  "target": {
+    "C": 143,
+    "U": 1
+  },
+  "full": {
+    "C": 118,
+    "W": 25,
+    "U": 1
+  },
+  "intrusions": 0,
+  "intrusion_unresolved": 0,
+  "truncated": 0,
+  "effects": [
+    {
+      "word": "D1",
+      "primary": {
+        "value": 0.0,
+        "lower": 0.0,
+        "upper": 0.0
+      },
+      "O_minus_U": {
+        "value": 0.0,
+        "lower": 0.0,
+        "upper": 0.0
+      },
+      "relevance": {
+        "value": 0.0,
+        "lower": 0.0,
+        "upper": 0.0
+      }
+    },
+    {
+      "word": "D2",
+      "primary": {
+        "value": 0.0,
+        "lower": 0.0,
+        "upper": 0.0
+      },
+      "O_minus_U": {
+        "value": 0.0,
+        "lower": 0.0,
+        "upper": 0.0
+      },
+      "relevance": {
+        "value": 0.0,
+        "lower": 0.0,
+        "upper": 0.0
+      }
+    },
+    {
+      "word": "D3",
+      "primary": {
+        "value": 0.0,
+        "lower": 0.0,
+        "upper": 0.0
+      },
+      "O_minus_U": {
+        "value": 0.0,
+        "lower": 0.0,
+        "upper": 0.0
+      },
+      "relevance": {
+        "value": 0.0,
+        "lower": 0.0,
+        "upper": 0.0
+      }
+    }
+  ],
+  "primary_lower": 0.0,
+  "primary_upper": 0.0,
+  "pairs": {
+    "target_score": {
+      "CC": 107,
+      "UNCERTAIN": 1
+    },
+    "full_score": {
+      "HARM": 5,
+      "CC": 84,
+      "WW": 14,
+      "RESCUE": 4,
+      "UNCERTAIN": 1
+    }
+  },
+  "human_review": "PENDING",
+  "independent_human_gold": 0
+}
