@@ -1,0 +1,385 @@
+{
+  "summary": [
+    {
+      "batch": 48,
+      "model": "qwen",
+      "n": 128,
+      "content": {
+        "C": 128
+      },
+      "diagnostic_multilabel": {}
+    },
+    {
+      "batch": 48,
+      "model": "apertus",
+      "n": 128,
+      "content": {
+        "C": 127,
+        "R": 1
+      },
+      "diagnostic_multilabel": {
+        "exact_role_reversal": 1
+      }
+    },
+    {
+      "batch": 49,
+      "model": "qwen",
+      "n": 128,
+      "content": {
+        "U": 3,
+        "C": 101,
+        "W": 9,
+        "R": 15
+      },
+      "diagnostic_multilabel": {
+        "other_nonreference_value": 2,
+        "frozen_format_failure": 3,
+        "background_exclusive_person": 7,
+        "exact_role_reversal": 15,
+        "same_value_both_fields": 2,
+        "null_or_missing": 1
+      }
+    },
+    {
+      "batch": 49,
+      "model": "apertus",
+      "n": 128,
+      "content": {
+        "C": 50,
+        "W": 68,
+        "R": 7,
+        "U": 3
+      },
+      "diagnostic_multilabel": {
+        "background_exclusive_person": 39,
+        "null_or_missing": 25,
+        "frozen_format_failure": 28,
+        "same_value_both_fields": 5,
+        "other_nonreference_value": 3,
+        "exact_role_reversal": 7
+      }
+    },
+    {
+      "batch": 50,
+      "model": "qwen",
+      "n": 256,
+      "content": {
+        "C": 219,
+        "R": 17,
+        "U": 7,
+        "W": 13
+      },
+      "diagnostic_multilabel": {
+        "exact_role_reversal": 17,
+        "other_nonreference_value": 2,
+        "frozen_format_failure": 9,
+        "background_exclusive_person": 8,
+        "target_name_fragment": 6,
+        "same_value_both_fields": 3,
+        "null_or_missing": 1
+      }
+    },
+    {
+      "batch": 50,
+      "model": "apertus",
+      "n": 256,
+      "content": {
+        "W": 80,
+        "C": 146,
+        "R": 27,
+        "U": 3
+      },
+      "diagnostic_multilabel": {
+        "same_value_both_fields": 12,
+        "background_exclusive_person": 43,
+        "null_or_missing": 26,
+        "frozen_format_failure": 29,
+        "exact_role_reversal": 27,
+        "other_nonreference_value": 3
+      }
+    },
+    {
+      "batch": 51,
+      "model": "qwen",
+      "n": 256,
+      "content": {
+        "R": 9,
+        "C": 231,
+        "W": 9,
+        "U": 7
+      },
+      "diagnostic_multilabel": {
+        "exact_role_reversal": 9,
+        "background_exclusive_person": 4,
+        "target_name_fragment": 11,
+        "frozen_format_failure": 11,
+        "same_value_both_fields": 1
+      }
+    },
+    {
+      "batch": 51,
+      "model": "apertus",
+      "n": 256,
+      "content": {
+        "R": 48,
+        "C": 181,
+        "W": 24,
+        "U": 3
+      },
+      "diagnostic_multilabel": {
+        "exact_role_reversal": 48,
+        "same_value_both_fields": 17,
+        "null_or_missing": 5,
+        "frozen_format_failure": 6,
+        "background_exclusive_person": 5,
+        "other_nonreference_value": 1
+      }
+    }
+  ],
+  "effects": [
+    {
+      "batch": 49,
+      "model": "qwen",
+      "n_pairs": 64,
+      "rescues": 8,
+      "harms": 3,
+      "tag_changes": {
+        "exact_role_reversal": {
+          "before": 10,
+          "after": 5
+        },
+        "background_exclusive_person": {
+          "before": 3,
+          "after": 4
+        },
+        "null_or_missing": {
+          "before": 1,
+          "after": 0
+        },
+        "target_name_fragment": {
+          "before": 0,
+          "after": 0
+        },
+        "other_nonreference_value": {
+          "before": 0,
+          "after": 2
+        }
+      },
+      "harm_groups": {
+        "V03-C01": 2,
+        "V01-C01": 1
+      },
+      "rescue_groups": {
+        "V07-C01": 1,
+        "V04-C01": 2,
+        "V05-C01": 3,
+        "V03-C01": 2
+      }
+    },
+    {
+      "batch": 49,
+      "model": "apertus",
+      "n_pairs": 64,
+      "rescues": 14,
+      "harms": 2,
+      "tag_changes": {
+        "exact_role_reversal": {
+          "before": 5,
+          "after": 2
+        },
+        "background_exclusive_person": {
+          "before": 17,
+          "after": 22
+        },
+        "null_or_missing": {
+          "before": 16,
+          "after": 9
+        },
+        "target_name_fragment": {
+          "before": 0,
+          "after": 0
+        },
+        "other_nonreference_value": {
+          "before": 2,
+          "after": 1
+        }
+      },
+      "harm_groups": {
+        "V02-C01": 1,
+        "V04-C01": 1
+      },
+      "rescue_groups": {
+        "V02-C01": 1,
+        "V05-C01": 4,
+        "V03-C01": 3,
+        "V04-C01": 2,
+        "V08-C01": 3,
+        "V07-C01": 1
+      }
+    },
+    {
+      "batch": 50,
+      "model": "qwen",
+      "n_pairs": 128,
+      "rescues": 18,
+      "harms": 1,
+      "tag_changes": {
+        "exact_role_reversal": {
+          "before": 15,
+          "after": 2
+        },
+        "background_exclusive_person": {
+          "before": 7,
+          "after": 1
+        },
+        "null_or_missing": {
+          "before": 1,
+          "after": 0
+        },
+        "target_name_fragment": {
+          "before": 0,
+          "after": 6
+        },
+        "other_nonreference_value": {
+          "before": 2,
+          "after": 0
+        }
+      },
+      "harm_groups": {
+        "V05-C01": 1
+      },
+      "rescue_groups": {
+        "V05-C01": 4,
+        "V01-C01": 3,
+        "V03-C01": 6,
+        "V04-C01": 2,
+        "V08-C01": 2,
+        "V07-C01": 1
+      }
+    },
+    {
+      "batch": 50,
+      "model": "apertus",
+      "n_pairs": 128,
+      "rescues": 47,
+      "harms": 1,
+      "tag_changes": {
+        "exact_role_reversal": {
+          "before": 7,
+          "after": 20
+        },
+        "background_exclusive_person": {
+          "before": 39,
+          "after": 4
+        },
+        "null_or_missing": {
+          "before": 25,
+          "after": 1
+        },
+        "target_name_fragment": {
+          "before": 0,
+          "after": 0
+        },
+        "other_nonreference_value": {
+          "before": 3,
+          "after": 0
+        }
+      },
+      "harm_groups": {
+        "V05-C01": 1
+      },
+      "rescue_groups": {
+        "V08-C01": 5,
+        "V05-C01": 4,
+        "V07-C01": 9,
+        "V02-C01": 9,
+        "V03-C01": 7,
+        "V01-C01": 5,
+        "V06-C01": 3,
+        "V04-C01": 5
+      }
+    },
+    {
+      "batch": 51,
+      "model": "qwen",
+      "n_pairs": 128,
+      "rescues": 0,
+      "harms": 5,
+      "tag_changes": {
+        "exact_role_reversal": {
+          "before": 2,
+          "after": 7
+        },
+        "background_exclusive_person": {
+          "before": 1,
+          "after": 3
+        },
+        "null_or_missing": {
+          "before": 0,
+          "after": 0
+        },
+        "target_name_fragment": {
+          "before": 6,
+          "after": 5
+        },
+        "other_nonreference_value": {
+          "before": 0,
+          "after": 0
+        }
+      },
+      "harm_groups": {
+        "V08-C01": 2,
+        "V05-C01": 2,
+        "V02-C01": 1
+      },
+      "rescue_groups": {}
+    },
+    {
+      "batch": 51,
+      "model": "apertus",
+      "n_pairs": 128,
+      "rescues": 3,
+      "harms": 14,
+      "tag_changes": {
+        "exact_role_reversal": {
+          "before": 20,
+          "after": 28
+        },
+        "background_exclusive_person": {
+          "before": 4,
+          "after": 1
+        },
+        "null_or_missing": {
+          "before": 1,
+          "after": 4
+        },
+        "target_name_fragment": {
+          "before": 0,
+          "after": 0
+        },
+        "other_nonreference_value": {
+          "before": 0,
+          "after": 1
+        }
+      },
+      "harm_groups": {
+        "V02-C01": 5,
+        "V07-C01": 1,
+        "V01-C01": 4,
+        "V04-C01": 2,
+        "V03-C01": 2
+      },
+      "rescue_groups": {
+        "V05-C01": 3
+      }
+    }
+  ],
+  "dedup": {
+    "total_calls": 1536,
+    "unique_model_token_inputs": 1024,
+    "repeated_input_groups": 512,
+    "repeated_input_output_disagreements": 0,
+    "warning": "Unique input count is not independent semantic sample size. AP date differences retain distinct inputs; no pooled cross-batch accuracy claim."
+  },
+  "method": "Post hoc Main AI diagnostic labels; frozen scores unchanged; multilabel overlaps; background-exclusive exact identity only, not all source misbinding. Human review pending. Unrecognized other values not classified as institutions automatically."
+}

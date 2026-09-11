@@ -1,0 +1,247 @@
+[
+  {
+    "batch": 48,
+    "name": "B48-完整结果与本人意见.xlsx",
+    "sha256": "6b212d78d35871d06733bc0be66a568bb9d3a49eacdbc1e6fe221b995c66231d",
+    "bytes": 64393,
+    "disclosure": "original retained locally; no personal annotations published"
+  },
+  {
+    "batch": 48,
+    "name": "B48-实际输入.xlsx",
+    "sha256": "61c14d7e53bca10303fea2bc67450a599fec4efdb0cb8b513cb8c334cc00b60b",
+    "bytes": 24399,
+    "disclosure": "original retained locally; no personal annotations published"
+  },
+  {
+    "batch": 48,
+    "name": "B48-结果总结.docx",
+    "sha256": "74af65b61b9ff48a673fc342be2d86cc862c99acccc89566d02e9cc46261d604",
+    "bytes": 39039,
+    "disclosure": "original retained locally; no personal annotations published"
+  },
+  {
+    "batch": 48,
+    "name": "B48-运行前预注册.docx",
+    "sha256": "2c3ccd7ae45b737ec519c006e0920f80dbd9d714e7173752c9fdf5367cc82cff",
+    "bytes": 40628,
+    "disclosure": "original retained locally; no personal annotations published"
+  },
+  {
+    "batch": 48,
+    "name": "RESULT-INTEGRITY.json",
+    "sha256": "ccc2362f70991d04bdd9da99b68026a789d9678599a97bdefba6f8e8a723b90b",
+    "bytes": 529,
+    "disclosure": "original retained locally; no personal annotations published"
+  },
+  {
+    "batch": 48,
+    "name": "SCIENCE-MANIFEST.json",
+    "sha256": "711ce762c5f0f48ec32690a0a3ea359134783372f3ad7b4cf648b14fe06142ac",
+    "bytes": 2245,
+    "disclosure": "original retained locally; no personal annotations published"
+  },
+  {
+    "batch": 48,
+    "name": "SCORED-RESULTS.json",
+    "sha256": "c6e98429ad5a2f92989e14738f9722aed19d099cb283e6f6d33cefef2ba50281",
+    "bytes": 1676678,
+    "disclosure": "original retained locally; no personal annotations published"
+  },
+  {
+    "batch": 49,
+    "name": "B49-完整结果与本人意见.xlsx",
+    "sha256": "ce373ecf102ef6c97498064eafea5fcb5de7ceaa059342823cd242993a8bbf74",
+    "bytes": 124629,
+    "disclosure": "original retained locally; no personal annotations published"
+  },
+  {
+    "batch": 49,
+    "name": "B49-实际输入.xlsx",
+    "sha256": "c96f136252b188bc9683ab538657e256367059c26156662350cbfe933181ae53",
+    "bytes": 64507,
+    "disclosure": "original retained locally; no personal annotations published"
+  },
+  {
+    "batch": 49,
+    "name": "B49-结果总结.docx",
+    "sha256": "6b82ba617b1d1e87ef88c29a19fea26ed460bd28a432237970200bde99efd394",
+    "bytes": 39602,
+    "disclosure": "original retained locally; no personal annotations published"
+  },
+  {
+    "batch": 49,
+    "name": "B49-运行前预注册.docx",
+    "sha256": "9ff5ab7e58fbacf399bb5cef1485498bb9de57a025c9e7f72998ac31f7f47517",
+    "bytes": 39302,
+    "disclosure": "original retained locally; no personal annotations published"
+  },
+  {
+    "batch": 49,
+    "name": "RESULT-INTEGRITY.json",
+    "sha256": "6e7302e7c53266d5c55ff7ff3822fec82491137dc8ea6b513fd7c882b395ee99",
+    "bytes": 529,
+    "disclosure": "original retained locally; no personal annotations published"
+  },
+  {
+    "batch": 49,
+    "name": "SCIENCE-MANIFEST.json",
+    "sha256": "529d2a6d2a8f4791444b27798d58b6e9a4dd2ed4240de100b6a65de560c2523e",
+    "bytes": 2767,
+    "disclosure": "original retained locally; no personal annotations published"
+  },
+  {
+    "batch": 49,
+    "name": "SCORED-RESULTS.json",
+    "sha256": "1c0e354214eea81d06a0bb90bef0ba10aebec7fc9fe63aa67403d86f0eee4eff",
+    "bytes": 1889208,
+    "disclosure": "original retained locally; no personal annotations published"
+  },
+  {
+    "batch": 50,
+    "name": "B50-完整结果与本人意见.xlsx",
+    "sha256": "493d06848e078b3f58bf9d4def985c409956bfedbd239dbac212206c7ce43513",
+    "bytes": 255087,
+    "disclosure": "original retained locally; no personal annotations published"
+  },
+  {
+    "batch": 50,
+    "name": "B50-实际输入.xlsx",
+    "sha256": "966634054c92dfc969c85976fcdc864471c053aae0f1d12a0013c14d3cf40faa",
+    "bytes": 126556,
+    "disclosure": "original retained locally; no personal annotations published"
+  },
+  {
+    "batch": 50,
+    "name": "B50-结果总结.docx",
+    "sha256": "aa28de8d898fa199a224a8a9023150238f959ddfac39d24878a9d0cc776e4462",
+    "bytes": 39341,
+    "disclosure": "original retained locally; no personal annotations published"
+  },
+  {
+    "batch": 50,
+    "name": "B50-运行前预注册.docx",
+    "sha256": "49890021dbf9320413807c579532b498be294d8fb7be47113064418a4eefeee4",
+    "bytes": 39562,
+    "disclosure": "original retained locally; no personal annotations published"
+  },
+  {
+    "batch": 50,
+    "name": "RESULT-INTEGRITY.json",
+    "sha256": "764fde3e88df39cab73addb9e0d4aca0ba4d9a36f1496d7d5727cf860050b520",
+    "bytes": 529,
+    "disclosure": "original retained locally; no personal annotations published"
+  },
+  {
+    "batch": 50,
+    "name": "SCIENCE-MANIFEST.json",
+    "sha256": "d087c3f429fb00bd090bcda31bc41940956a86669b81e03e4eac8fda363fcc01",
+    "bytes": 2740,
+    "disclosure": "original retained locally; no personal annotations published"
+  },
+  {
+    "batch": 50,
+    "name": "SCORED-RESULTS.json",
+    "sha256": "84bf64229aa21e5f4ebdb01ef01f447a505d598e1d738dab327c9da4f9aa4c69",
+    "bytes": 3783480,
+    "disclosure": "original retained locally; no personal annotations published"
+  },
+  {
+    "batch": 51,
+    "name": "B51-完整结果与本人意见.xlsx",
+    "sha256": "068da2a536f6f6ca3c289c67dd22ad886a77a4581fcd57018fa569b201a52c08",
+    "bytes": 218324,
+    "disclosure": "original retained locally; no personal annotations published"
+  },
+  {
+    "batch": 51,
+    "name": "B51-实际输入.xlsx",
+    "sha256": "712bf84cbf34ce0f750fb2809f4dd7e1c415c46855648641e6ce22b749bbfe9b",
+    "bytes": 110925,
+    "disclosure": "original retained locally; no personal annotations published"
+  },
+  {
+    "batch": 51,
+    "name": "B51-结果总结.docx",
+    "sha256": "defe6b12a02d2c2fc647c2c2247d611da9d36e12c59f9564046e159f72801d99",
+    "bytes": 38095,
+    "disclosure": "original retained locally; no personal annotations published"
+  },
+  {
+    "batch": 51,
+    "name": "B51-运行前预注册.docx",
+    "sha256": "a3307366d80d8a5f1182f729e07540523ed999211b9913bccf555f255abae9ff",
+    "bytes": 37739,
+    "disclosure": "original retained locally; no personal annotations published"
+  },
+  {
+    "batch": 51,
+    "name": "RESULT-INTEGRITY.json",
+    "sha256": "31701fcaf5b6220c07302f712bd3c1256080c6d376177a827c80d14867beaf03",
+    "bytes": 529,
+    "disclosure": "original retained locally; no personal annotations published"
+  },
+  {
+    "batch": 51,
+    "name": "SCIENCE-MANIFEST.json",
+    "sha256": "6e13305cb54cc05ea0e82f2382b7d0bff2f0d5cd0f72bb42baa17dc13c28d1ec",
+    "bytes": 3091,
+    "disclosure": "original retained locally; no personal annotations published"
+  },
+  {
+    "batch": 51,
+    "name": "SCORED-RESULTS.json",
+    "sha256": "d8b5aea0371bfbb73df084207fe99f5f1b21da32b115b876643164128520589e",
+    "bytes": 3898594,
+    "disclosure": "original retained locally; no personal annotations published"
+  },
+  {
+    "batch": 52,
+    "name": "B52-完整结果与本人意见.xlsx",
+    "sha256": "8267cb4a9f4e95002fc09931cf4d2e891c0836f7789a0feaa90f51fda401998f",
+    "bytes": 154231,
+    "disclosure": "original retained locally; no personal annotations published"
+  },
+  {
+    "batch": 52,
+    "name": "B52-实际输入.xlsx",
+    "sha256": "f20743bcc67a60debbe5924a0bf00b376fd025009b96a63390943a39c1fbdba5",
+    "bytes": 101503,
+    "disclosure": "original retained locally; no personal annotations published"
+  },
+  {
+    "batch": 52,
+    "name": "B52-结果总结.docx",
+    "sha256": "28909c1f69423d63126a1b557bed3e7f2083112f86a7be46bdda1a4f40c485c2",
+    "bytes": 38107,
+    "disclosure": "original retained locally; no personal annotations published"
+  },
+  {
+    "batch": 52,
+    "name": "B52-运行前预注册.docx",
+    "sha256": "8e85073e0258c75790f42b31ac5499fb8aa2aaaae74706372088b5b5364f918e",
+    "bytes": 37887,
+    "disclosure": "original retained locally; no personal annotations published"
+  },
+  {
+    "batch": 52,
+    "name": "RESULT-INTEGRITY.json",
+    "sha256": "68b4194892181024cd95ac80d908358950f302858fd0ea5b612d820558b96108",
+    "bytes": 529,
+    "disclosure": "original retained locally; no personal annotations published"
+  },
+  {
+    "batch": 52,
+    "name": "SCIENCE-MANIFEST.json",
+    "sha256": "ec5924600018ab719e1c4b9f314a674fc750586e99b7ab36d66aa5b4011900aa",
+    "bytes": 3193,
+    "disclosure": "original retained locally; no personal annotations published"
+  },
+  {
+    "batch": 52,
+    "name": "SCORED-RESULTS.json",
+    "sha256": "7b22ff7efc98e015df0182c51abbdfebfb168f739dd0eeec92e4a4a382b59f7a",
+    "bytes": 3345862,
+    "disclosure": "original retained locally; no personal annotations published"
+  }
+]
