@@ -1,0 +1,378 @@
+{
+  "public_scope": "Synthetic input/output field extracts, aggregate and paired statistics, scientific interpretation, archive commitments. Human opinions, private originals, credentials and infrastructure logs excluded.",
+  "batches": [
+    {
+      "batch": "B53",
+      "archive_sha256": "96983987a662c4933ea835e07a4f2b61e934dcbf0a23b73a5886e70359942217",
+      "archive_bytes": 16175162,
+      "files": 125,
+      "archive_public": false,
+      "human_review": "PENDING",
+      "independent_human_gold": 0
+    },
+    {
+      "batch": "B54",
+      "files": [
+        {
+          "file_name": "AUTHOR-REFERENCES.json",
+          "sha256": "d35869316300b855eebb9586e80ee85bee63e598ac9a048c1895714d9c30a38c",
+          "bytes": 431754,
+          "public_content": false
+        },
+        {
+          "file_name": "B54-local-evidence.zip",
+          "sha256": "f897f8fe56320ac16e218f7ec7cf5a5908aa407cb22da5ade8ccb12b100562b7",
+          "bytes": 1161043,
+          "public_content": false
+        },
+        {
+          "file_name": "B54-全部400输入与本人意见.xlsx",
+          "sha256": "68f65aa652d95042c5761d6bc829a8ed22db5a879153e9889da2c215316b27fd",
+          "bytes": 49770,
+          "public_content": false
+        },
+        {
+          "file_name": "B54-完整结果与审核.xlsx",
+          "sha256": "dd5af0968bd8c5b632ed490ec88203560fbdb9c81d52caeb2be5b3a673cbc28e",
+          "bytes": 151422,
+          "public_content": false
+        },
+        {
+          "file_name": "B54-结果总结.docx",
+          "sha256": "3c57bd4a1d4ec09ba1bfb15563c0e99f3175ceac294dd1080b6589dc056e0106",
+          "bytes": 38679,
+          "public_content": false
+        },
+        {
+          "file_name": "B54-运行前方案.docx",
+          "sha256": "9d4a63e860fe89528e79dcc9e6d3c308c9a58c47d991cc31a6d33f21c235b264",
+          "bytes": 38717,
+          "public_content": false
+        },
+        {
+          "file_name": "EXECUTION-INPUTS.json",
+          "sha256": "1a99a1a3633ae814aa523c2c9090bb2304f78e8dfcd4e3700df337f835c5d66a",
+          "bytes": 513887,
+          "public_content": false
+        },
+        {
+          "file_name": "NATIVE-INPUT-CHECK.json",
+          "sha256": "b5236a655a05b6cbe693013415470402e3887a6f77a0dcb51256f43d08c80eca",
+          "bytes": 1809065,
+          "public_content": false
+        },
+        {
+          "file_name": "SCIENCE-FREEZE.json",
+          "sha256": "3c56de6e406b5fcf9f166c585bc78b1c89e4d1baecf5dc41f02898e5c56bfa38",
+          "bytes": 3771,
+          "public_content": false
+        },
+        {
+          "file_name": "run_batch.py",
+          "sha256": "c4b2f593c1d4295a772852c14c7cd21b0203585b2cb754694be85203e05e5bb3",
+          "bytes": 10635,
+          "public_content": false
+        },
+        {
+          "file_name": "scoring_b39_frozen.py",
+          "sha256": "d9769b8453f1aee1ff5f85fbde3c8b60800e10ca728358df7ca55a64e6e66b24",
+          "bytes": 2676,
+          "public_content": false
+        },
+        {
+          "file_name": "scoring_candidate.py",
+          "sha256": "9bbaeda7c8d8ce10f37c2bc781fde620b201b870cc5875d3e807cf72a4dde81d",
+          "bytes": 368,
+          "public_content": false
+        },
+        {
+          "file_name": "retrieved/run_apertus/RESULTS.json",
+          "sha256": "082f28d64f09d18fd396fb737e957d9bfe44df495827eab660419c29fe7b2191",
+          "bytes": 1607550,
+          "public_content": false
+        },
+        {
+          "file_name": "retrieved/run_qwen/RESULTS.json",
+          "sha256": "e0c2226faa5f7e448a7d5f779563c575fe56348e5a20ff7460327f1e4887d177",
+          "bytes": 1308723,
+          "public_content": false
+        }
+      ],
+      "human_review": "PENDING",
+      "independent_human_gold": 0
+    },
+    {
+      "batch": "B55",
+      "files": [
+        {
+          "file_name": "AUTHOR-REFERENCES.json",
+          "sha256": "6ed0fdb92daea9542c80885680a47cc050869d420bfe9312647930a36fe61526",
+          "bytes": 1784227,
+          "public_content": false
+        },
+        {
+          "file_name": "B55-local-evidence.zip",
+          "sha256": "b33fd040619077174ea40b0f43f551718a2ff1bd25ceeb11068a67da17bc261c",
+          "bytes": 1315156,
+          "public_content": false
+        },
+        {
+          "file_name": "B55-完整784输入与本人意见.xlsx",
+          "sha256": "e11f8e1abdb67aaebcb2ebe76ecac1d8abe4e4c4eae6b98541625cc18ac8e28f",
+          "bytes": 62355,
+          "public_content": false
+        },
+        {
+          "file_name": "B55-完整结果与审核.xlsx",
+          "sha256": "1dcae348d2dbde909b5a346ad477843172ea19c078fe32bc6702a097c5a337b6",
+          "bytes": 267744,
+          "public_content": false
+        },
+        {
+          "file_name": "B55-结果总结.docx",
+          "sha256": "8645b0de9763582f2087958efc12e62d9a08383b8ea20678dc03c3dc31c9672c",
+          "bytes": 38836,
+          "public_content": false
+        },
+        {
+          "file_name": "B55-运行前方案.docx",
+          "sha256": "7344e431ca5cd7d247b4ecf388ea377c23b81b677737783f02efe4c29ce0e0f1",
+          "bytes": 38555,
+          "public_content": false
+        },
+        {
+          "file_name": "EXECUTION-INPUTS.json",
+          "sha256": "d7a80961c7eaf9a66e9c038b4fe62b1ad1dc2794760c2d3749f0e7ab7c2f60c7",
+          "bytes": 929340,
+          "public_content": false
+        },
+        {
+          "file_name": "NATIVE-INPUT-CHECK.json",
+          "sha256": "575c398249c737add63d7ca7ed69c3f1fef446bd68b370edfcd9e18e9da99b68",
+          "bytes": 3322753,
+          "public_content": false
+        },
+        {
+          "file_name": "SCIENCE-FREEZE.json",
+          "sha256": "fbee6ddc45b482a0c94659eaec61335c91bc73f522240bdde1beb0ee0c37b676",
+          "bytes": 3458,
+          "public_content": false
+        },
+        {
+          "file_name": "run_batch.py",
+          "sha256": "21048f74260e8eb7e90bd9c151252005674b09f3990e9f8bbc53b8429cc8cbfd",
+          "bytes": 10673,
+          "public_content": false
+        },
+        {
+          "file_name": "scoring_b39_frozen.py",
+          "sha256": "d9769b8453f1aee1ff5f85fbde3c8b60800e10ca728358df7ca55a64e6e66b24",
+          "bytes": 2676,
+          "public_content": false
+        },
+        {
+          "file_name": "scoring_candidate.py",
+          "sha256": "9bbaeda7c8d8ce10f37c2bc781fde620b201b870cc5875d3e807cf72a4dde81d",
+          "bytes": 368,
+          "public_content": false
+        },
+        {
+          "file_name": "retrieved/run_apertus/RESULTS.json",
+          "sha256": "d1d254f7ed6d92e7661b14b3b434332ec90f6b3acd0736fdb4cd6a3a23cb4f6f",
+          "bytes": 2967071,
+          "public_content": false
+        },
+        {
+          "file_name": "retrieved/run_qwen/RESULTS.json",
+          "sha256": "eb8f6f7da2ef13df52a3360bd069e922ee95f16bded0901ddc84459e2b999579",
+          "bytes": 2412792,
+          "public_content": false
+        }
+      ],
+      "human_review": "PENDING",
+      "independent_human_gold": 0
+    },
+    {
+      "batch": "B56",
+      "files": [
+        {
+          "file_name": "AUTHOR-REFERENCES.json",
+          "sha256": "b89f47fa83a9e9bb56a911939fca4071e2cc7ee80f147c5d88255b95639a2d97",
+          "bytes": 2107507,
+          "public_content": false
+        },
+        {
+          "file_name": "B56-local-evidence.zip",
+          "sha256": "169ded44109e863f43f64400822e38fb5221df4e5053c8ae55b5a38c66cbabfe",
+          "bytes": 1399220,
+          "public_content": false
+        },
+        {
+          "file_name": "B56-完整768输入与本人意见.xlsx",
+          "sha256": "de54b79ac1dfc179de4408110c8a6f3396ad1bd09b53b5199b3a3fe1a1a78d57",
+          "bytes": 57678,
+          "public_content": false
+        },
+        {
+          "file_name": "B56-完整结果与审核.xlsx",
+          "sha256": "5cf61de0e5d0bc0a987dcfc04f7e236888498ec7a24dea48a5232173751e18cb",
+          "bytes": 335451,
+          "public_content": false
+        },
+        {
+          "file_name": "B56-结果总结.docx",
+          "sha256": "ad0e3a4b7a678cd48791724ed3f2155c5c79ef5dbf994a0eb32f86bc8dfba912",
+          "bytes": 38605,
+          "public_content": false
+        },
+        {
+          "file_name": "B56-运行前方案.docx",
+          "sha256": "745fab92283814721fdd30325a18af09492edbde427fa68e9440db102c180d5c",
+          "bytes": 38589,
+          "public_content": false
+        },
+        {
+          "file_name": "EXECUTION-INPUTS.json",
+          "sha256": "ebfff15fedfc3d15a001be35b65f3e018b35eae1fc781902def56b6dfc25a0c7",
+          "bytes": 956332,
+          "public_content": false
+        },
+        {
+          "file_name": "NATIVE-INPUT-CHECK.json",
+          "sha256": "11d1ffc593c5281d6613a5e2de1dab3116af943ac66847033188af009bbc7731",
+          "bytes": 3387304,
+          "public_content": false
+        },
+        {
+          "file_name": "SCIENCE-FREEZE.json",
+          "sha256": "7337e4a8964b05b8084a1ff3e437c0e50856df2e5efe8d0ac75c8f9eb81f85c2",
+          "bytes": 4154,
+          "public_content": false
+        },
+        {
+          "file_name": "run_batch.py",
+          "sha256": "f36f9d77b6e68a83e291afb88cbb22fe46c11bd71715b4cddc295d952eecfaf7",
+          "bytes": 10673,
+          "public_content": false
+        },
+        {
+          "file_name": "scoring_b39_frozen.py",
+          "sha256": "d9769b8453f1aee1ff5f85fbde3c8b60800e10ca728358df7ca55a64e6e66b24",
+          "bytes": 2676,
+          "public_content": false
+        },
+        {
+          "file_name": "scoring_candidate.py",
+          "sha256": "9bbaeda7c8d8ce10f37c2bc781fde620b201b870cc5875d3e807cf72a4dde81d",
+          "bytes": 368,
+          "public_content": false
+        },
+        {
+          "file_name": "retrieved/run_apertus/RESULTS.json",
+          "sha256": "eaf8dea66021b680b0cb00616476dfa7ad00eef03b9f4673f9d6d84b24939e30",
+          "bytes": 3015469,
+          "public_content": false
+        },
+        {
+          "file_name": "retrieved/run_qwen/RESULTS.json",
+          "sha256": "542e23eb60792c68fe81b498757bfc5f5a399d204f001b1e21fe5d0521ff9b8d",
+          "bytes": 2457440,
+          "public_content": false
+        }
+      ],
+      "human_review": "PENDING",
+      "independent_human_gold": 0
+    },
+    {
+      "batch": "B57",
+      "files": [
+        {
+          "file_name": "AUTHOR-REFERENCES.json",
+          "sha256": "1ce6516e9fa4741ed1dc1b0b73ef3c7844540127de25079302226d88533105ef",
+          "bytes": 1687443,
+          "public_content": false
+        },
+        {
+          "file_name": "B57-local-evidence.zip",
+          "sha256": "fa0c2ce5a2d0fbca5f7313580275d44b19e97f6e0dd056aaf886597507c1279f",
+          "bytes": 1209566,
+          "public_content": false
+        },
+        {
+          "file_name": "B57-完整608输入与本人意见.xlsx",
+          "sha256": "fd92a9b5f4d438164bcd3ba308f9c929f7bf24747042b16a3a5b6e5db5b63215",
+          "bytes": 57725,
+          "public_content": false
+        },
+        {
+          "file_name": "B57-完整结果与审核.xlsx",
+          "sha256": "382273000fd13639e5a5b7fd2ff49c5ab51cd72f87ffc49c5d373a36a46e2ab0",
+          "bytes": 299138,
+          "public_content": false
+        },
+        {
+          "file_name": "B57-结果总结.docx",
+          "sha256": "92533538826859569110662e80b50404e15cec36328dac1ee898b07c92523d7d",
+          "bytes": 38505,
+          "public_content": false
+        },
+        {
+          "file_name": "B57-运行前方案.docx",
+          "sha256": "193add4c34251e288ddad1b575df2bb6a149d0d6884082e10540ef9e26da9a26",
+          "bytes": 38815,
+          "public_content": false
+        },
+        {
+          "file_name": "EXECUTION-INPUTS.json",
+          "sha256": "6f6676a13ab53c194a43905812c6da80b0bd8203c07be0ffd3be5a9ea395d4d9",
+          "bytes": 763996,
+          "public_content": false
+        },
+        {
+          "file_name": "NATIVE-INPUT-CHECK.json",
+          "sha256": "489fa260cbea55550cb10c8ed7dfc1e9176ef6287f11c55a86f65f19fbfba1fe",
+          "bytes": 2689817,
+          "public_content": false
+        },
+        {
+          "file_name": "SCIENCE-FREEZE.json",
+          "sha256": "e914d1b3f3f5415320176f28a45f67325dde19bde03d4207c8164043f606e37c",
+          "bytes": 4529,
+          "public_content": false
+        },
+        {
+          "file_name": "run_batch.py",
+          "sha256": "f7ba5c1502eda8974100fb106c0465ddf1708d5b5fecdb7c2e11528c8c2ce71e",
+          "bytes": 10673,
+          "public_content": false
+        },
+        {
+          "file_name": "scoring_b39_frozen.py",
+          "sha256": "d9769b8453f1aee1ff5f85fbde3c8b60800e10ca728358df7ca55a64e6e66b24",
+          "bytes": 2676,
+          "public_content": false
+        },
+        {
+          "file_name": "scoring_candidate.py",
+          "sha256": "9bbaeda7c8d8ce10f37c2bc781fde620b201b870cc5875d3e807cf72a4dde81d",
+          "bytes": 368,
+          "public_content": false
+        },
+        {
+          "file_name": "retrieved/run_apertus/RESULTS.json",
+          "sha256": "925fb2abcb23adced191729824c1209312ccb02310b4b33d575207bce3d0c47d",
+          "bytes": 2391723,
+          "public_content": false
+        },
+        {
+          "file_name": "retrieved/run_qwen/RESULTS.json",
+          "sha256": "cbce595b6f25e17a1ce11c3ffc43afc554b9d154c94c5275dfe84f0dc3575cdc",
+          "bytes": 1951327,
+          "public_content": false
+        }
+      ],
+      "human_review": "PENDING",
+      "independent_human_gold": 0
+    }
+  ]
+}

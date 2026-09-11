@@ -1,0 +1,3304 @@
+{
+  "technical": {
+    "core_versions": {
+      "torch": "2.5.1+cu121",
+      "transformers": "4.57.6"
+    },
+    "generation_policy": "bf16 eager no-KV TF32-off full-vocab raw-logit argmax; no processors; no retry of any started call",
+    "seed": 0,
+    "max_new_tokens": 128,
+    "max_input_tokens": 4096,
+    "template_policy": {
+      "qwen": {
+        "enable_thinking": false
+      },
+      "apertus": {}
+    },
+    "retries": 0,
+    "native_date": "2026-09-11",
+    "models": [
+      {
+        "key": "qwen",
+        "model_id": "Qwen/Qwen3-8B",
+        "revision": "b968826d9c46dd6066d109eabc6255188de91218"
+      },
+      {
+        "key": "apertus",
+        "model_id": "swiss-ai/Apertus-8B-Instruct-2509",
+        "revision": "b946d40447b2b597999b9c86d44bee0b452c919f"
+      }
+    ]
+  },
+  "statistics": {
+    "SUMMARY.json": {
+      "status": "COMPLETE",
+      "started_calls": 400,
+      "raw_outputs": 400,
+      "primary_label": "P1_RETAINED_DEVELOPMENT_ONLY",
+      "primary": [
+        {
+          "model": "apertus",
+          "material_set": "NEW",
+          "background": "SHARED",
+          "voice": "ACTIVE",
+          "pairs": 24,
+          "clusters": 12,
+          "delta": 0.375,
+          "lower": 0.375,
+          "upper": 0.375,
+          "loo_min": 0.3181818181818182,
+          "loo_lower_min": 0.3181818181818182,
+          "loo_upper_min": 0.3181818181818182,
+          "bootstrap_low": 0.20833333333333334,
+          "bootstrap_high": 0.5416666666666666,
+          "rescue": 9,
+          "harm": 0
+        },
+        {
+          "model": "apertus",
+          "material_set": "NEW",
+          "background": "SHARED",
+          "voice": "PASSIVE",
+          "pairs": 24,
+          "clusters": 12,
+          "delta": 0.9166666666666666,
+          "lower": 0.9166666666666666,
+          "upper": 0.9583333333333334,
+          "loo_min": 0.9090909090909091,
+          "loo_lower_min": 0.9090909090909091,
+          "loo_upper_min": 0.9545454545454546,
+          "bootstrap_low": 0.7916666666666666,
+          "bootstrap_high": 1.0,
+          "rescue": 22,
+          "harm": 0
+        }
+      ],
+      "new_inputs_per_model": 192,
+      "new_semantic_groups": 24,
+      "new_predicate_clusters": 12,
+      "bridge_calls": 16,
+      "bootstrap_seed": 540911,
+      "bootstrap_replicates": 10000,
+      "independent_human_gold": 0,
+      "human_review": "PENDING",
+      "bridge_output_exact": 16,
+      "known_forwards": 6870
+    },
+    "CELL-COUNTS.json": [
+      {
+        "model": "apertus",
+        "material_set": "BRIDGE",
+        "voice": "ACTIVE",
+        "background": "SHARED",
+        "schema": "AU",
+        "n": 2,
+        "scores": {
+          "C": 2
+        },
+        "R": 0,
+        "person_set_correct": 2,
+        "json_invalid": 0,
+        "key_order_noncompliant": 0
+      },
+      {
+        "model": "apertus",
+        "material_set": "BRIDGE",
+        "voice": "ACTIVE",
+        "background": "SHARED",
+        "schema": "UA",
+        "n": 2,
+        "scores": {
+          "W": 1,
+          "C": 1
+        },
+        "R": 1,
+        "person_set_correct": 2,
+        "json_invalid": 0,
+        "key_order_noncompliant": 0
+      },
+      {
+        "model": "apertus",
+        "material_set": "BRIDGE",
+        "voice": "PASSIVE",
+        "background": "SHARED",
+        "schema": "AU",
+        "n": 2,
+        "scores": {
+          "W": 2
+        },
+        "R": 2,
+        "person_set_correct": 2,
+        "json_invalid": 0,
+        "key_order_noncompliant": 0
+      },
+      {
+        "model": "apertus",
+        "material_set": "BRIDGE",
+        "voice": "PASSIVE",
+        "background": "SHARED",
+        "schema": "UA",
+        "n": 2,
+        "scores": {
+          "C": 2
+        },
+        "R": 0,
+        "person_set_correct": 2,
+        "json_invalid": 0,
+        "key_order_noncompliant": 0
+      },
+      {
+        "model": "apertus",
+        "material_set": "NEW",
+        "voice": "ACTIVE",
+        "background": "DISJOINT",
+        "schema": "AU",
+        "n": 24,
+        "scores": {
+          "C": 24
+        },
+        "R": 0,
+        "person_set_correct": 24,
+        "json_invalid": 0,
+        "key_order_noncompliant": 0
+      },
+      {
+        "model": "apertus",
+        "material_set": "NEW",
+        "voice": "ACTIVE",
+        "background": "DISJOINT",
+        "schema": "UA",
+        "n": 24,
+        "scores": {
+          "C": 19,
+          "W": 5
+        },
+        "R": 3,
+        "person_set_correct": 22,
+        "json_invalid": 0,
+        "key_order_noncompliant": 0
+      },
+      {
+        "model": "apertus",
+        "material_set": "NEW",
+        "voice": "ACTIVE",
+        "background": "SHARED",
+        "schema": "AU",
+        "n": 24,
+        "scores": {
+          "C": 24
+        },
+        "R": 0,
+        "person_set_correct": 24,
+        "json_invalid": 0,
+        "key_order_noncompliant": 0
+      },
+      {
+        "model": "apertus",
+        "material_set": "NEW",
+        "voice": "ACTIVE",
+        "background": "SHARED",
+        "schema": "UA",
+        "n": 24,
+        "scores": {
+          "C": 15,
+          "W": 9
+        },
+        "R": 9,
+        "person_set_correct": 24,
+        "json_invalid": 0,
+        "key_order_noncompliant": 0
+      },
+      {
+        "model": "apertus",
+        "material_set": "NEW",
+        "voice": "PASSIVE",
+        "background": "DISJOINT",
+        "schema": "AU",
+        "n": 24,
+        "scores": {
+          "W": 20,
+          "C": 4
+        },
+        "R": 20,
+        "person_set_correct": 24,
+        "json_invalid": 0,
+        "key_order_noncompliant": 0
+      },
+      {
+        "model": "apertus",
+        "material_set": "NEW",
+        "voice": "PASSIVE",
+        "background": "DISJOINT",
+        "schema": "UA",
+        "n": 24,
+        "scores": {
+          "C": 23,
+          "W": 1
+        },
+        "R": 0,
+        "person_set_correct": 23,
+        "json_invalid": 0,
+        "key_order_noncompliant": 0
+      },
+      {
+        "model": "apertus",
+        "material_set": "NEW",
+        "voice": "PASSIVE",
+        "background": "SHARED",
+        "schema": "AU",
+        "n": 24,
+        "scores": {
+          "W": 24
+        },
+        "R": 17,
+        "person_set_correct": 17,
+        "json_invalid": 0,
+        "key_order_noncompliant": 0
+      },
+      {
+        "model": "apertus",
+        "material_set": "NEW",
+        "voice": "PASSIVE",
+        "background": "SHARED",
+        "schema": "UA",
+        "n": 24,
+        "scores": {
+          "C": 22,
+          "U": 1,
+          "W": 1
+        },
+        "R": 1,
+        "person_set_correct": 23,
+        "json_invalid": 0,
+        "key_order_noncompliant": 0
+      },
+      {
+        "model": "qwen",
+        "material_set": "BRIDGE",
+        "voice": "ACTIVE",
+        "background": "SHARED",
+        "schema": "AU",
+        "n": 2,
+        "scores": {
+          "C": 2
+        },
+        "R": 0,
+        "person_set_correct": 2,
+        "json_invalid": 0,
+        "key_order_noncompliant": 0
+      },
+      {
+        "model": "qwen",
+        "material_set": "BRIDGE",
+        "voice": "ACTIVE",
+        "background": "SHARED",
+        "schema": "UA",
+        "n": 2,
+        "scores": {
+          "C": 2
+        },
+        "R": 0,
+        "person_set_correct": 2,
+        "json_invalid": 0,
+        "key_order_noncompliant": 0
+      },
+      {
+        "model": "qwen",
+        "material_set": "BRIDGE",
+        "voice": "PASSIVE",
+        "background": "SHARED",
+        "schema": "AU",
+        "n": 2,
+        "scores": {
+          "C": 2
+        },
+        "R": 0,
+        "person_set_correct": 2,
+        "json_invalid": 0,
+        "key_order_noncompliant": 0
+      },
+      {
+        "model": "qwen",
+        "material_set": "BRIDGE",
+        "voice": "PASSIVE",
+        "background": "SHARED",
+        "schema": "UA",
+        "n": 2,
+        "scores": {
+          "C": 2
+        },
+        "R": 0,
+        "person_set_correct": 2,
+        "json_invalid": 0,
+        "key_order_noncompliant": 0
+      },
+      {
+        "model": "qwen",
+        "material_set": "NEW",
+        "voice": "ACTIVE",
+        "background": "DISJOINT",
+        "schema": "AU",
+        "n": 24,
+        "scores": {
+          "C": 24
+        },
+        "R": 0,
+        "person_set_correct": 24,
+        "json_invalid": 0,
+        "key_order_noncompliant": 0
+      },
+      {
+        "model": "qwen",
+        "material_set": "NEW",
+        "voice": "ACTIVE",
+        "background": "DISJOINT",
+        "schema": "UA",
+        "n": 24,
+        "scores": {
+          "C": 24
+        },
+        "R": 0,
+        "person_set_correct": 24,
+        "json_invalid": 0,
+        "key_order_noncompliant": 0
+      },
+      {
+        "model": "qwen",
+        "material_set": "NEW",
+        "voice": "ACTIVE",
+        "background": "SHARED",
+        "schema": "AU",
+        "n": 24,
+        "scores": {
+          "C": 24
+        },
+        "R": 0,
+        "person_set_correct": 24,
+        "json_invalid": 0,
+        "key_order_noncompliant": 0
+      },
+      {
+        "model": "qwen",
+        "material_set": "NEW",
+        "voice": "ACTIVE",
+        "background": "SHARED",
+        "schema": "UA",
+        "n": 24,
+        "scores": {
+          "C": 24
+        },
+        "R": 0,
+        "person_set_correct": 24,
+        "json_invalid": 0,
+        "key_order_noncompliant": 0
+      },
+      {
+        "model": "qwen",
+        "material_set": "NEW",
+        "voice": "PASSIVE",
+        "background": "DISJOINT",
+        "schema": "AU",
+        "n": 24,
+        "scores": {
+          "W": 14,
+          "C": 10
+        },
+        "R": 14,
+        "person_set_correct": 24,
+        "json_invalid": 0,
+        "key_order_noncompliant": 0
+      },
+      {
+        "model": "qwen",
+        "material_set": "NEW",
+        "voice": "PASSIVE",
+        "background": "DISJOINT",
+        "schema": "UA",
+        "n": 24,
+        "scores": {
+          "C": 18,
+          "W": 6
+        },
+        "R": 6,
+        "person_set_correct": 24,
+        "json_invalid": 0,
+        "key_order_noncompliant": 0
+      },
+      {
+        "model": "qwen",
+        "material_set": "NEW",
+        "voice": "PASSIVE",
+        "background": "SHARED",
+        "schema": "AU",
+        "n": 24,
+        "scores": {
+          "C": 12,
+          "W": 12
+        },
+        "R": 12,
+        "person_set_correct": 24,
+        "json_invalid": 0,
+        "key_order_noncompliant": 0
+      },
+      {
+        "model": "qwen",
+        "material_set": "NEW",
+        "voice": "PASSIVE",
+        "background": "SHARED",
+        "schema": "UA",
+        "n": 24,
+        "scores": {
+          "C": 15,
+          "W": 9
+        },
+        "R": 9,
+        "person_set_correct": 24,
+        "json_invalid": 0,
+        "key_order_noncompliant": 0
+      }
+    ],
+    "CLUSTER-STATISTICS.json": [
+      {
+        "model": "apertus",
+        "material_set": "BRIDGE",
+        "background": "SHARED",
+        "voice": "ACTIVE",
+        "pairs": 2,
+        "clusters": 2,
+        "delta": 0.5,
+        "lower": 0.5,
+        "upper": 0.5,
+        "loo_min": 0.0,
+        "loo_lower_min": 0.0,
+        "loo_upper_min": 0.0,
+        "bootstrap_low": 0.0,
+        "bootstrap_high": 1.0,
+        "rescue": 1,
+        "harm": 0
+      },
+      {
+        "model": "apertus",
+        "material_set": "BRIDGE",
+        "background": "SHARED",
+        "voice": "PASSIVE",
+        "pairs": 2,
+        "clusters": 2,
+        "delta": 1.0,
+        "lower": 1.0,
+        "upper": 1.0,
+        "loo_min": 1.0,
+        "loo_lower_min": 1.0,
+        "loo_upper_min": 1.0,
+        "bootstrap_low": 1.0,
+        "bootstrap_high": 1.0,
+        "rescue": 2,
+        "harm": 0
+      },
+      {
+        "model": "apertus",
+        "material_set": "NEW",
+        "background": "DISJOINT",
+        "voice": "ACTIVE",
+        "pairs": 24,
+        "clusters": 12,
+        "delta": 0.20833333333333334,
+        "lower": 0.20833333333333334,
+        "upper": 0.20833333333333334,
+        "loo_min": 0.13636363636363635,
+        "loo_lower_min": 0.13636363636363635,
+        "loo_upper_min": 0.13636363636363635,
+        "bootstrap_low": 0.041666666666666664,
+        "bootstrap_high": 0.4166666666666667,
+        "rescue": 5,
+        "harm": 0
+      },
+      {
+        "model": "apertus",
+        "material_set": "NEW",
+        "background": "DISJOINT",
+        "voice": "PASSIVE",
+        "pairs": 24,
+        "clusters": 12,
+        "delta": 0.7916666666666666,
+        "lower": 0.7916666666666666,
+        "upper": 0.7916666666666666,
+        "loo_min": 0.7727272727272727,
+        "loo_lower_min": 0.7727272727272727,
+        "loo_upper_min": 0.7727272727272727,
+        "bootstrap_low": 0.5833333333333334,
+        "bootstrap_high": 0.9583333333333334,
+        "rescue": 19,
+        "harm": 0
+      },
+      {
+        "model": "apertus",
+        "material_set": "NEW",
+        "background": "SHARED",
+        "voice": "ACTIVE",
+        "pairs": 24,
+        "clusters": 12,
+        "delta": 0.375,
+        "lower": 0.375,
+        "upper": 0.375,
+        "loo_min": 0.3181818181818182,
+        "loo_lower_min": 0.3181818181818182,
+        "loo_upper_min": 0.3181818181818182,
+        "bootstrap_low": 0.20833333333333334,
+        "bootstrap_high": 0.5416666666666666,
+        "rescue": 9,
+        "harm": 0
+      },
+      {
+        "model": "apertus",
+        "material_set": "NEW",
+        "background": "SHARED",
+        "voice": "PASSIVE",
+        "pairs": 24,
+        "clusters": 12,
+        "delta": 0.9166666666666666,
+        "lower": 0.9166666666666666,
+        "upper": 0.9583333333333334,
+        "loo_min": 0.9090909090909091,
+        "loo_lower_min": 0.9090909090909091,
+        "loo_upper_min": 0.9545454545454546,
+        "bootstrap_low": 0.7916666666666666,
+        "bootstrap_high": 1.0,
+        "rescue": 22,
+        "harm": 0
+      },
+      {
+        "model": "qwen",
+        "material_set": "BRIDGE",
+        "background": "SHARED",
+        "voice": "ACTIVE",
+        "pairs": 2,
+        "clusters": 2,
+        "delta": 0.0,
+        "lower": 0.0,
+        "upper": 0.0,
+        "loo_min": 0.0,
+        "loo_lower_min": 0.0,
+        "loo_upper_min": 0.0,
+        "bootstrap_low": 0.0,
+        "bootstrap_high": 0.0,
+        "rescue": 0,
+        "harm": 0
+      },
+      {
+        "model": "qwen",
+        "material_set": "BRIDGE",
+        "background": "SHARED",
+        "voice": "PASSIVE",
+        "pairs": 2,
+        "clusters": 2,
+        "delta": 0.0,
+        "lower": 0.0,
+        "upper": 0.0,
+        "loo_min": 0.0,
+        "loo_lower_min": 0.0,
+        "loo_upper_min": 0.0,
+        "bootstrap_low": 0.0,
+        "bootstrap_high": 0.0,
+        "rescue": 0,
+        "harm": 0
+      },
+      {
+        "model": "qwen",
+        "material_set": "NEW",
+        "background": "DISJOINT",
+        "voice": "ACTIVE",
+        "pairs": 24,
+        "clusters": 12,
+        "delta": 0.0,
+        "lower": 0.0,
+        "upper": 0.0,
+        "loo_min": 0.0,
+        "loo_lower_min": 0.0,
+        "loo_upper_min": 0.0,
+        "bootstrap_low": 0.0,
+        "bootstrap_high": 0.0,
+        "rescue": 0,
+        "harm": 0
+      },
+      {
+        "model": "qwen",
+        "material_set": "NEW",
+        "background": "DISJOINT",
+        "voice": "PASSIVE",
+        "pairs": 24,
+        "clusters": 12,
+        "delta": 0.3333333333333333,
+        "lower": 0.3333333333333333,
+        "upper": 0.3333333333333333,
+        "loo_min": 0.2727272727272727,
+        "loo_lower_min": 0.2727272727272727,
+        "loo_upper_min": 0.2727272727272727,
+        "bootstrap_low": 0.041666666666666664,
+        "bootstrap_high": 0.625,
+        "rescue": 12,
+        "harm": 4
+      },
+      {
+        "model": "qwen",
+        "material_set": "NEW",
+        "background": "SHARED",
+        "voice": "ACTIVE",
+        "pairs": 24,
+        "clusters": 12,
+        "delta": 0.0,
+        "lower": 0.0,
+        "upper": 0.0,
+        "loo_min": 0.0,
+        "loo_lower_min": 0.0,
+        "loo_upper_min": 0.0,
+        "bootstrap_low": 0.0,
+        "bootstrap_high": 0.0,
+        "rescue": 0,
+        "harm": 0
+      },
+      {
+        "model": "qwen",
+        "material_set": "NEW",
+        "background": "SHARED",
+        "voice": "PASSIVE",
+        "pairs": 24,
+        "clusters": 12,
+        "delta": 0.125,
+        "lower": 0.125,
+        "upper": 0.125,
+        "loo_min": 0.045454545454545456,
+        "loo_lower_min": 0.045454545454545456,
+        "loo_upper_min": 0.045454545454545456,
+        "bootstrap_low": -0.20833333333333334,
+        "bootstrap_high": 0.4583333333333333,
+        "rescue": 8,
+        "harm": 5
+      }
+    ],
+    "CLUSTER-CONTRIBUTIONS.json": [
+      {
+        "model": "apertus",
+        "material_set": "BRIDGE",
+        "background": "SHARED",
+        "voice": "ACTIVE",
+        "cluster": "BRIDGE_N02",
+        "delta": 1.0,
+        "lower": 1.0,
+        "upper": 1.0,
+        "group_ids": [
+          "N02"
+        ]
+      },
+      {
+        "model": "apertus",
+        "material_set": "BRIDGE",
+        "background": "SHARED",
+        "voice": "ACTIVE",
+        "cluster": "BRIDGE_N05",
+        "delta": 0.0,
+        "lower": 0.0,
+        "upper": 0.0,
+        "group_ids": [
+          "N05"
+        ]
+      },
+      {
+        "model": "apertus",
+        "material_set": "BRIDGE",
+        "background": "SHARED",
+        "voice": "PASSIVE",
+        "cluster": "BRIDGE_N02",
+        "delta": 1.0,
+        "lower": 1.0,
+        "upper": 1.0,
+        "group_ids": [
+          "N02"
+        ]
+      },
+      {
+        "model": "apertus",
+        "material_set": "BRIDGE",
+        "background": "SHARED",
+        "voice": "PASSIVE",
+        "cluster": "BRIDGE_N05",
+        "delta": 1.0,
+        "lower": 1.0,
+        "upper": 1.0,
+        "group_ids": [
+          "N05"
+        ]
+      },
+      {
+        "model": "apertus",
+        "material_set": "NEW",
+        "background": "DISJOINT",
+        "voice": "ACTIVE",
+        "cluster": "V01",
+        "delta": 0.0,
+        "lower": 0.0,
+        "upper": 0.0,
+        "group_ids": [
+          "V01-C01",
+          "V01-C02"
+        ]
+      },
+      {
+        "model": "apertus",
+        "material_set": "NEW",
+        "background": "DISJOINT",
+        "voice": "ACTIVE",
+        "cluster": "V02",
+        "delta": 0.0,
+        "lower": 0.0,
+        "upper": 0.0,
+        "group_ids": [
+          "V02-C01",
+          "V02-C02"
+        ]
+      },
+      {
+        "model": "apertus",
+        "material_set": "NEW",
+        "background": "DISJOINT",
+        "voice": "ACTIVE",
+        "cluster": "V03",
+        "delta": 0.0,
+        "lower": 0.0,
+        "upper": 0.0,
+        "group_ids": [
+          "V03-C01",
+          "V03-C02"
+        ]
+      },
+      {
+        "model": "apertus",
+        "material_set": "NEW",
+        "background": "DISJOINT",
+        "voice": "ACTIVE",
+        "cluster": "V04",
+        "delta": 1.0,
+        "lower": 1.0,
+        "upper": 1.0,
+        "group_ids": [
+          "V04-C01",
+          "V04-C02"
+        ]
+      },
+      {
+        "model": "apertus",
+        "material_set": "NEW",
+        "background": "DISJOINT",
+        "voice": "ACTIVE",
+        "cluster": "V05",
+        "delta": 0.0,
+        "lower": 0.0,
+        "upper": 0.0,
+        "group_ids": [
+          "V05-C01",
+          "V05-C02"
+        ]
+      },
+      {
+        "model": "apertus",
+        "material_set": "NEW",
+        "background": "DISJOINT",
+        "voice": "ACTIVE",
+        "cluster": "V06",
+        "delta": 0.0,
+        "lower": 0.0,
+        "upper": 0.0,
+        "group_ids": [
+          "V06-C01",
+          "V06-C02"
+        ]
+      },
+      {
+        "model": "apertus",
+        "material_set": "NEW",
+        "background": "DISJOINT",
+        "voice": "ACTIVE",
+        "cluster": "V07",
+        "delta": 0.0,
+        "lower": 0.0,
+        "upper": 0.0,
+        "group_ids": [
+          "V07-C01",
+          "V07-C02"
+        ]
+      },
+      {
+        "model": "apertus",
+        "material_set": "NEW",
+        "background": "DISJOINT",
+        "voice": "ACTIVE",
+        "cluster": "V08",
+        "delta": 0.5,
+        "lower": 0.5,
+        "upper": 0.5,
+        "group_ids": [
+          "V08-C01",
+          "V08-C02"
+        ]
+      },
+      {
+        "model": "apertus",
+        "material_set": "NEW",
+        "background": "DISJOINT",
+        "voice": "ACTIVE",
+        "cluster": "V09",
+        "delta": 0.0,
+        "lower": 0.0,
+        "upper": 0.0,
+        "group_ids": [
+          "V09-C01",
+          "V09-C02"
+        ]
+      },
+      {
+        "model": "apertus",
+        "material_set": "NEW",
+        "background": "DISJOINT",
+        "voice": "ACTIVE",
+        "cluster": "V10",
+        "delta": 0.5,
+        "lower": 0.5,
+        "upper": 0.5,
+        "group_ids": [
+          "V10-C01",
+          "V10-C02"
+        ]
+      },
+      {
+        "model": "apertus",
+        "material_set": "NEW",
+        "background": "DISJOINT",
+        "voice": "ACTIVE",
+        "cluster": "V11",
+        "delta": 0.5,
+        "lower": 0.5,
+        "upper": 0.5,
+        "group_ids": [
+          "V11-C01",
+          "V11-C02"
+        ]
+      },
+      {
+        "model": "apertus",
+        "material_set": "NEW",
+        "background": "DISJOINT",
+        "voice": "ACTIVE",
+        "cluster": "V12",
+        "delta": 0.0,
+        "lower": 0.0,
+        "upper": 0.0,
+        "group_ids": [
+          "V12-C01",
+          "V12-C02"
+        ]
+      },
+      {
+        "model": "apertus",
+        "material_set": "NEW",
+        "background": "DISJOINT",
+        "voice": "PASSIVE",
+        "cluster": "V01",
+        "delta": 1.0,
+        "lower": 1.0,
+        "upper": 1.0,
+        "group_ids": [
+          "V01-C01",
+          "V01-C02"
+        ]
+      },
+      {
+        "model": "apertus",
+        "material_set": "NEW",
+        "background": "DISJOINT",
+        "voice": "PASSIVE",
+        "cluster": "V02",
+        "delta": 1.0,
+        "lower": 1.0,
+        "upper": 1.0,
+        "group_ids": [
+          "V02-C01",
+          "V02-C02"
+        ]
+      },
+      {
+        "model": "apertus",
+        "material_set": "NEW",
+        "background": "DISJOINT",
+        "voice": "PASSIVE",
+        "cluster": "V03",
+        "delta": 0.5,
+        "lower": 0.5,
+        "upper": 0.5,
+        "group_ids": [
+          "V03-C01",
+          "V03-C02"
+        ]
+      },
+      {
+        "model": "apertus",
+        "material_set": "NEW",
+        "background": "DISJOINT",
+        "voice": "PASSIVE",
+        "cluster": "V04",
+        "delta": 1.0,
+        "lower": 1.0,
+        "upper": 1.0,
+        "group_ids": [
+          "V04-C01",
+          "V04-C02"
+        ]
+      },
+      {
+        "model": "apertus",
+        "material_set": "NEW",
+        "background": "DISJOINT",
+        "voice": "PASSIVE",
+        "cluster": "V05",
+        "delta": 1.0,
+        "lower": 1.0,
+        "upper": 1.0,
+        "group_ids": [
+          "V05-C01",
+          "V05-C02"
+        ]
+      },
+      {
+        "model": "apertus",
+        "material_set": "NEW",
+        "background": "DISJOINT",
+        "voice": "PASSIVE",
+        "cluster": "V06",
+        "delta": 1.0,
+        "lower": 1.0,
+        "upper": 1.0,
+        "group_ids": [
+          "V06-C01",
+          "V06-C02"
+        ]
+      },
+      {
+        "model": "apertus",
+        "material_set": "NEW",
+        "background": "DISJOINT",
+        "voice": "PASSIVE",
+        "cluster": "V07",
+        "delta": 1.0,
+        "lower": 1.0,
+        "upper": 1.0,
+        "group_ids": [
+          "V07-C01",
+          "V07-C02"
+        ]
+      },
+      {
+        "model": "apertus",
+        "material_set": "NEW",
+        "background": "DISJOINT",
+        "voice": "PASSIVE",
+        "cluster": "V08",
+        "delta": 0.5,
+        "lower": 0.5,
+        "upper": 0.5,
+        "group_ids": [
+          "V08-C01",
+          "V08-C02"
+        ]
+      },
+      {
+        "model": "apertus",
+        "material_set": "NEW",
+        "background": "DISJOINT",
+        "voice": "PASSIVE",
+        "cluster": "V09",
+        "delta": 0.5,
+        "lower": 0.5,
+        "upper": 0.5,
+        "group_ids": [
+          "V09-C01",
+          "V09-C02"
+        ]
+      },
+      {
+        "model": "apertus",
+        "material_set": "NEW",
+        "background": "DISJOINT",
+        "voice": "PASSIVE",
+        "cluster": "V10",
+        "delta": 0.0,
+        "lower": 0.0,
+        "upper": 0.0,
+        "group_ids": [
+          "V10-C01",
+          "V10-C02"
+        ]
+      },
+      {
+        "model": "apertus",
+        "material_set": "NEW",
+        "background": "DISJOINT",
+        "voice": "PASSIVE",
+        "cluster": "V11",
+        "delta": 1.0,
+        "lower": 1.0,
+        "upper": 1.0,
+        "group_ids": [
+          "V11-C01",
+          "V11-C02"
+        ]
+      },
+      {
+        "model": "apertus",
+        "material_set": "NEW",
+        "background": "DISJOINT",
+        "voice": "PASSIVE",
+        "cluster": "V12",
+        "delta": 1.0,
+        "lower": 1.0,
+        "upper": 1.0,
+        "group_ids": [
+          "V12-C01",
+          "V12-C02"
+        ]
+      },
+      {
+        "model": "apertus",
+        "material_set": "NEW",
+        "background": "SHARED",
+        "voice": "ACTIVE",
+        "cluster": "V01",
+        "delta": 0.0,
+        "lower": 0.0,
+        "upper": 0.0,
+        "group_ids": [
+          "V01-C01",
+          "V01-C02"
+        ]
+      },
+      {
+        "model": "apertus",
+        "material_set": "NEW",
+        "background": "SHARED",
+        "voice": "ACTIVE",
+        "cluster": "V02",
+        "delta": 0.5,
+        "lower": 0.5,
+        "upper": 0.5,
+        "group_ids": [
+          "V02-C01",
+          "V02-C02"
+        ]
+      },
+      {
+        "model": "apertus",
+        "material_set": "NEW",
+        "background": "SHARED",
+        "voice": "ACTIVE",
+        "cluster": "V03",
+        "delta": 0.0,
+        "lower": 0.0,
+        "upper": 0.0,
+        "group_ids": [
+          "V03-C01",
+          "V03-C02"
+        ]
+      },
+      {
+        "model": "apertus",
+        "material_set": "NEW",
+        "background": "SHARED",
+        "voice": "ACTIVE",
+        "cluster": "V04",
+        "delta": 1.0,
+        "lower": 1.0,
+        "upper": 1.0,
+        "group_ids": [
+          "V04-C01",
+          "V04-C02"
+        ]
+      },
+      {
+        "model": "apertus",
+        "material_set": "NEW",
+        "background": "SHARED",
+        "voice": "ACTIVE",
+        "cluster": "V05",
+        "delta": 0.5,
+        "lower": 0.5,
+        "upper": 0.5,
+        "group_ids": [
+          "V05-C01",
+          "V05-C02"
+        ]
+      },
+      {
+        "model": "apertus",
+        "material_set": "NEW",
+        "background": "SHARED",
+        "voice": "ACTIVE",
+        "cluster": "V06",
+        "delta": 0.0,
+        "lower": 0.0,
+        "upper": 0.0,
+        "group_ids": [
+          "V06-C01",
+          "V06-C02"
+        ]
+      },
+      {
+        "model": "apertus",
+        "material_set": "NEW",
+        "background": "SHARED",
+        "voice": "ACTIVE",
+        "cluster": "V07",
+        "delta": 0.5,
+        "lower": 0.5,
+        "upper": 0.5,
+        "group_ids": [
+          "V07-C01",
+          "V07-C02"
+        ]
+      },
+      {
+        "model": "apertus",
+        "material_set": "NEW",
+        "background": "SHARED",
+        "voice": "ACTIVE",
+        "cluster": "V08",
+        "delta": 0.5,
+        "lower": 0.5,
+        "upper": 0.5,
+        "group_ids": [
+          "V08-C01",
+          "V08-C02"
+        ]
+      },
+      {
+        "model": "apertus",
+        "material_set": "NEW",
+        "background": "SHARED",
+        "voice": "ACTIVE",
+        "cluster": "V09",
+        "delta": 0.0,
+        "lower": 0.0,
+        "upper": 0.0,
+        "group_ids": [
+          "V09-C01",
+          "V09-C02"
+        ]
+      },
+      {
+        "model": "apertus",
+        "material_set": "NEW",
+        "background": "SHARED",
+        "voice": "ACTIVE",
+        "cluster": "V10",
+        "delta": 0.5,
+        "lower": 0.5,
+        "upper": 0.5,
+        "group_ids": [
+          "V10-C01",
+          "V10-C02"
+        ]
+      },
+      {
+        "model": "apertus",
+        "material_set": "NEW",
+        "background": "SHARED",
+        "voice": "ACTIVE",
+        "cluster": "V11",
+        "delta": 0.5,
+        "lower": 0.5,
+        "upper": 0.5,
+        "group_ids": [
+          "V11-C01",
+          "V11-C02"
+        ]
+      },
+      {
+        "model": "apertus",
+        "material_set": "NEW",
+        "background": "SHARED",
+        "voice": "ACTIVE",
+        "cluster": "V12",
+        "delta": 0.5,
+        "lower": 0.5,
+        "upper": 0.5,
+        "group_ids": [
+          "V12-C01",
+          "V12-C02"
+        ]
+      },
+      {
+        "model": "apertus",
+        "material_set": "NEW",
+        "background": "SHARED",
+        "voice": "PASSIVE",
+        "cluster": "V01",
+        "delta": 1.0,
+        "lower": 1.0,
+        "upper": 1.0,
+        "group_ids": [
+          "V01-C01",
+          "V01-C02"
+        ]
+      },
+      {
+        "model": "apertus",
+        "material_set": "NEW",
+        "background": "SHARED",
+        "voice": "PASSIVE",
+        "cluster": "V02",
+        "delta": 0.5,
+        "lower": 0.5,
+        "upper": 0.5,
+        "group_ids": [
+          "V02-C01",
+          "V02-C02"
+        ]
+      },
+      {
+        "model": "apertus",
+        "material_set": "NEW",
+        "background": "SHARED",
+        "voice": "PASSIVE",
+        "cluster": "V03",
+        "delta": 1.0,
+        "lower": 1.0,
+        "upper": 1.0,
+        "group_ids": [
+          "V03-C01",
+          "V03-C02"
+        ]
+      },
+      {
+        "model": "apertus",
+        "material_set": "NEW",
+        "background": "SHARED",
+        "voice": "PASSIVE",
+        "cluster": "V04",
+        "delta": 0.5,
+        "lower": 0.5,
+        "upper": 1.0,
+        "group_ids": [
+          "V04-C01",
+          "V04-C02"
+        ]
+      },
+      {
+        "model": "apertus",
+        "material_set": "NEW",
+        "background": "SHARED",
+        "voice": "PASSIVE",
+        "cluster": "V05",
+        "delta": 1.0,
+        "lower": 1.0,
+        "upper": 1.0,
+        "group_ids": [
+          "V05-C01",
+          "V05-C02"
+        ]
+      },
+      {
+        "model": "apertus",
+        "material_set": "NEW",
+        "background": "SHARED",
+        "voice": "PASSIVE",
+        "cluster": "V06",
+        "delta": 1.0,
+        "lower": 1.0,
+        "upper": 1.0,
+        "group_ids": [
+          "V06-C01",
+          "V06-C02"
+        ]
+      },
+      {
+        "model": "apertus",
+        "material_set": "NEW",
+        "background": "SHARED",
+        "voice": "PASSIVE",
+        "cluster": "V07",
+        "delta": 1.0,
+        "lower": 1.0,
+        "upper": 1.0,
+        "group_ids": [
+          "V07-C01",
+          "V07-C02"
+        ]
+      },
+      {
+        "model": "apertus",
+        "material_set": "NEW",
+        "background": "SHARED",
+        "voice": "PASSIVE",
+        "cluster": "V08",
+        "delta": 1.0,
+        "lower": 1.0,
+        "upper": 1.0,
+        "group_ids": [
+          "V08-C01",
+          "V08-C02"
+        ]
+      },
+      {
+        "model": "apertus",
+        "material_set": "NEW",
+        "background": "SHARED",
+        "voice": "PASSIVE",
+        "cluster": "V09",
+        "delta": 1.0,
+        "lower": 1.0,
+        "upper": 1.0,
+        "group_ids": [
+          "V09-C01",
+          "V09-C02"
+        ]
+      },
+      {
+        "model": "apertus",
+        "material_set": "NEW",
+        "background": "SHARED",
+        "voice": "PASSIVE",
+        "cluster": "V10",
+        "delta": 1.0,
+        "lower": 1.0,
+        "upper": 1.0,
+        "group_ids": [
+          "V10-C01",
+          "V10-C02"
+        ]
+      },
+      {
+        "model": "apertus",
+        "material_set": "NEW",
+        "background": "SHARED",
+        "voice": "PASSIVE",
+        "cluster": "V11",
+        "delta": 1.0,
+        "lower": 1.0,
+        "upper": 1.0,
+        "group_ids": [
+          "V11-C01",
+          "V11-C02"
+        ]
+      },
+      {
+        "model": "apertus",
+        "material_set": "NEW",
+        "background": "SHARED",
+        "voice": "PASSIVE",
+        "cluster": "V12",
+        "delta": 1.0,
+        "lower": 1.0,
+        "upper": 1.0,
+        "group_ids": [
+          "V12-C01",
+          "V12-C02"
+        ]
+      },
+      {
+        "model": "qwen",
+        "material_set": "BRIDGE",
+        "background": "SHARED",
+        "voice": "ACTIVE",
+        "cluster": "BRIDGE_N02",
+        "delta": 0.0,
+        "lower": 0.0,
+        "upper": 0.0,
+        "group_ids": [
+          "N02"
+        ]
+      },
+      {
+        "model": "qwen",
+        "material_set": "BRIDGE",
+        "background": "SHARED",
+        "voice": "ACTIVE",
+        "cluster": "BRIDGE_N05",
+        "delta": 0.0,
+        "lower": 0.0,
+        "upper": 0.0,
+        "group_ids": [
+          "N05"
+        ]
+      },
+      {
+        "model": "qwen",
+        "material_set": "BRIDGE",
+        "background": "SHARED",
+        "voice": "PASSIVE",
+        "cluster": "BRIDGE_N02",
+        "delta": 0.0,
+        "lower": 0.0,
+        "upper": 0.0,
+        "group_ids": [
+          "N02"
+        ]
+      },
+      {
+        "model": "qwen",
+        "material_set": "BRIDGE",
+        "background": "SHARED",
+        "voice": "PASSIVE",
+        "cluster": "BRIDGE_N05",
+        "delta": 0.0,
+        "lower": 0.0,
+        "upper": 0.0,
+        "group_ids": [
+          "N05"
+        ]
+      },
+      {
+        "model": "qwen",
+        "material_set": "NEW",
+        "background": "DISJOINT",
+        "voice": "ACTIVE",
+        "cluster": "V01",
+        "delta": 0.0,
+        "lower": 0.0,
+        "upper": 0.0,
+        "group_ids": [
+          "V01-C01",
+          "V01-C02"
+        ]
+      },
+      {
+        "model": "qwen",
+        "material_set": "NEW",
+        "background": "DISJOINT",
+        "voice": "ACTIVE",
+        "cluster": "V02",
+        "delta": 0.0,
+        "lower": 0.0,
+        "upper": 0.0,
+        "group_ids": [
+          "V02-C01",
+          "V02-C02"
+        ]
+      },
+      {
+        "model": "qwen",
+        "material_set": "NEW",
+        "background": "DISJOINT",
+        "voice": "ACTIVE",
+        "cluster": "V03",
+        "delta": 0.0,
+        "lower": 0.0,
+        "upper": 0.0,
+        "group_ids": [
+          "V03-C01",
+          "V03-C02"
+        ]
+      },
+      {
+        "model": "qwen",
+        "material_set": "NEW",
+        "background": "DISJOINT",
+        "voice": "ACTIVE",
+        "cluster": "V04",
+        "delta": 0.0,
+        "lower": 0.0,
+        "upper": 0.0,
+        "group_ids": [
+          "V04-C01",
+          "V04-C02"
+        ]
+      },
+      {
+        "model": "qwen",
+        "material_set": "NEW",
+        "background": "DISJOINT",
+        "voice": "ACTIVE",
+        "cluster": "V05",
+        "delta": 0.0,
+        "lower": 0.0,
+        "upper": 0.0,
+        "group_ids": [
+          "V05-C01",
+          "V05-C02"
+        ]
+      },
+      {
+        "model": "qwen",
+        "material_set": "NEW",
+        "background": "DISJOINT",
+        "voice": "ACTIVE",
+        "cluster": "V06",
+        "delta": 0.0,
+        "lower": 0.0,
+        "upper": 0.0,
+        "group_ids": [
+          "V06-C01",
+          "V06-C02"
+        ]
+      },
+      {
+        "model": "qwen",
+        "material_set": "NEW",
+        "background": "DISJOINT",
+        "voice": "ACTIVE",
+        "cluster": "V07",
+        "delta": 0.0,
+        "lower": 0.0,
+        "upper": 0.0,
+        "group_ids": [
+          "V07-C01",
+          "V07-C02"
+        ]
+      },
+      {
+        "model": "qwen",
+        "material_set": "NEW",
+        "background": "DISJOINT",
+        "voice": "ACTIVE",
+        "cluster": "V08",
+        "delta": 0.0,
+        "lower": 0.0,
+        "upper": 0.0,
+        "group_ids": [
+          "V08-C01",
+          "V08-C02"
+        ]
+      },
+      {
+        "model": "qwen",
+        "material_set": "NEW",
+        "background": "DISJOINT",
+        "voice": "ACTIVE",
+        "cluster": "V09",
+        "delta": 0.0,
+        "lower": 0.0,
+        "upper": 0.0,
+        "group_ids": [
+          "V09-C01",
+          "V09-C02"
+        ]
+      },
+      {
+        "model": "qwen",
+        "material_set": "NEW",
+        "background": "DISJOINT",
+        "voice": "ACTIVE",
+        "cluster": "V10",
+        "delta": 0.0,
+        "lower": 0.0,
+        "upper": 0.0,
+        "group_ids": [
+          "V10-C01",
+          "V10-C02"
+        ]
+      },
+      {
+        "model": "qwen",
+        "material_set": "NEW",
+        "background": "DISJOINT",
+        "voice": "ACTIVE",
+        "cluster": "V11",
+        "delta": 0.0,
+        "lower": 0.0,
+        "upper": 0.0,
+        "group_ids": [
+          "V11-C01",
+          "V11-C02"
+        ]
+      },
+      {
+        "model": "qwen",
+        "material_set": "NEW",
+        "background": "DISJOINT",
+        "voice": "ACTIVE",
+        "cluster": "V12",
+        "delta": 0.0,
+        "lower": 0.0,
+        "upper": 0.0,
+        "group_ids": [
+          "V12-C01",
+          "V12-C02"
+        ]
+      },
+      {
+        "model": "qwen",
+        "material_set": "NEW",
+        "background": "DISJOINT",
+        "voice": "PASSIVE",
+        "cluster": "V01",
+        "delta": 0.5,
+        "lower": 0.5,
+        "upper": 0.5,
+        "group_ids": [
+          "V01-C01",
+          "V01-C02"
+        ]
+      },
+      {
+        "model": "qwen",
+        "material_set": "NEW",
+        "background": "DISJOINT",
+        "voice": "PASSIVE",
+        "cluster": "V02",
+        "delta": 0.5,
+        "lower": 0.5,
+        "upper": 0.5,
+        "group_ids": [
+          "V02-C01",
+          "V02-C02"
+        ]
+      },
+      {
+        "model": "qwen",
+        "material_set": "NEW",
+        "background": "DISJOINT",
+        "voice": "PASSIVE",
+        "cluster": "V03",
+        "delta": 0.5,
+        "lower": 0.5,
+        "upper": 0.5,
+        "group_ids": [
+          "V03-C01",
+          "V03-C02"
+        ]
+      },
+      {
+        "model": "qwen",
+        "material_set": "NEW",
+        "background": "DISJOINT",
+        "voice": "PASSIVE",
+        "cluster": "V04",
+        "delta": -0.5,
+        "lower": -0.5,
+        "upper": -0.5,
+        "group_ids": [
+          "V04-C01",
+          "V04-C02"
+        ]
+      },
+      {
+        "model": "qwen",
+        "material_set": "NEW",
+        "background": "DISJOINT",
+        "voice": "PASSIVE",
+        "cluster": "V05",
+        "delta": 1.0,
+        "lower": 1.0,
+        "upper": 1.0,
+        "group_ids": [
+          "V05-C01",
+          "V05-C02"
+        ]
+      },
+      {
+        "model": "qwen",
+        "material_set": "NEW",
+        "background": "DISJOINT",
+        "voice": "PASSIVE",
+        "cluster": "V06",
+        "delta": 0.0,
+        "lower": 0.0,
+        "upper": 0.0,
+        "group_ids": [
+          "V06-C01",
+          "V06-C02"
+        ]
+      },
+      {
+        "model": "qwen",
+        "material_set": "NEW",
+        "background": "DISJOINT",
+        "voice": "PASSIVE",
+        "cluster": "V07",
+        "delta": 1.0,
+        "lower": 1.0,
+        "upper": 1.0,
+        "group_ids": [
+          "V07-C01",
+          "V07-C02"
+        ]
+      },
+      {
+        "model": "qwen",
+        "material_set": "NEW",
+        "background": "DISJOINT",
+        "voice": "PASSIVE",
+        "cluster": "V08",
+        "delta": 1.0,
+        "lower": 1.0,
+        "upper": 1.0,
+        "group_ids": [
+          "V08-C01",
+          "V08-C02"
+        ]
+      },
+      {
+        "model": "qwen",
+        "material_set": "NEW",
+        "background": "DISJOINT",
+        "voice": "PASSIVE",
+        "cluster": "V09",
+        "delta": 0.5,
+        "lower": 0.5,
+        "upper": 0.5,
+        "group_ids": [
+          "V09-C01",
+          "V09-C02"
+        ]
+      },
+      {
+        "model": "qwen",
+        "material_set": "NEW",
+        "background": "DISJOINT",
+        "voice": "PASSIVE",
+        "cluster": "V10",
+        "delta": 0.0,
+        "lower": 0.0,
+        "upper": 0.0,
+        "group_ids": [
+          "V10-C01",
+          "V10-C02"
+        ]
+      },
+      {
+        "model": "qwen",
+        "material_set": "NEW",
+        "background": "DISJOINT",
+        "voice": "PASSIVE",
+        "cluster": "V11",
+        "delta": -0.5,
+        "lower": -0.5,
+        "upper": -0.5,
+        "group_ids": [
+          "V11-C01",
+          "V11-C02"
+        ]
+      },
+      {
+        "model": "qwen",
+        "material_set": "NEW",
+        "background": "DISJOINT",
+        "voice": "PASSIVE",
+        "cluster": "V12",
+        "delta": 0.0,
+        "lower": 0.0,
+        "upper": 0.0,
+        "group_ids": [
+          "V12-C01",
+          "V12-C02"
+        ]
+      },
+      {
+        "model": "qwen",
+        "material_set": "NEW",
+        "background": "SHARED",
+        "voice": "ACTIVE",
+        "cluster": "V01",
+        "delta": 0.0,
+        "lower": 0.0,
+        "upper": 0.0,
+        "group_ids": [
+          "V01-C01",
+          "V01-C02"
+        ]
+      },
+      {
+        "model": "qwen",
+        "material_set": "NEW",
+        "background": "SHARED",
+        "voice": "ACTIVE",
+        "cluster": "V02",
+        "delta": 0.0,
+        "lower": 0.0,
+        "upper": 0.0,
+        "group_ids": [
+          "V02-C01",
+          "V02-C02"
+        ]
+      },
+      {
+        "model": "qwen",
+        "material_set": "NEW",
+        "background": "SHARED",
+        "voice": "ACTIVE",
+        "cluster": "V03",
+        "delta": 0.0,
+        "lower": 0.0,
+        "upper": 0.0,
+        "group_ids": [
+          "V03-C01",
+          "V03-C02"
+        ]
+      },
+      {
+        "model": "qwen",
+        "material_set": "NEW",
+        "background": "SHARED",
+        "voice": "ACTIVE",
+        "cluster": "V04",
+        "delta": 0.0,
+        "lower": 0.0,
+        "upper": 0.0,
+        "group_ids": [
+          "V04-C01",
+          "V04-C02"
+        ]
+      },
+      {
+        "model": "qwen",
+        "material_set": "NEW",
+        "background": "SHARED",
+        "voice": "ACTIVE",
+        "cluster": "V05",
+        "delta": 0.0,
+        "lower": 0.0,
+        "upper": 0.0,
+        "group_ids": [
+          "V05-C01",
+          "V05-C02"
+        ]
+      },
+      {
+        "model": "qwen",
+        "material_set": "NEW",
+        "background": "SHARED",
+        "voice": "ACTIVE",
+        "cluster": "V06",
+        "delta": 0.0,
+        "lower": 0.0,
+        "upper": 0.0,
+        "group_ids": [
+          "V06-C01",
+          "V06-C02"
+        ]
+      },
+      {
+        "model": "qwen",
+        "material_set": "NEW",
+        "background": "SHARED",
+        "voice": "ACTIVE",
+        "cluster": "V07",
+        "delta": 0.0,
+        "lower": 0.0,
+        "upper": 0.0,
+        "group_ids": [
+          "V07-C01",
+          "V07-C02"
+        ]
+      },
+      {
+        "model": "qwen",
+        "material_set": "NEW",
+        "background": "SHARED",
+        "voice": "ACTIVE",
+        "cluster": "V08",
+        "delta": 0.0,
+        "lower": 0.0,
+        "upper": 0.0,
+        "group_ids": [
+          "V08-C01",
+          "V08-C02"
+        ]
+      },
+      {
+        "model": "qwen",
+        "material_set": "NEW",
+        "background": "SHARED",
+        "voice": "ACTIVE",
+        "cluster": "V09",
+        "delta": 0.0,
+        "lower": 0.0,
+        "upper": 0.0,
+        "group_ids": [
+          "V09-C01",
+          "V09-C02"
+        ]
+      },
+      {
+        "model": "qwen",
+        "material_set": "NEW",
+        "background": "SHARED",
+        "voice": "ACTIVE",
+        "cluster": "V10",
+        "delta": 0.0,
+        "lower": 0.0,
+        "upper": 0.0,
+        "group_ids": [
+          "V10-C01",
+          "V10-C02"
+        ]
+      },
+      {
+        "model": "qwen",
+        "material_set": "NEW",
+        "background": "SHARED",
+        "voice": "ACTIVE",
+        "cluster": "V11",
+        "delta": 0.0,
+        "lower": 0.0,
+        "upper": 0.0,
+        "group_ids": [
+          "V11-C01",
+          "V11-C02"
+        ]
+      },
+      {
+        "model": "qwen",
+        "material_set": "NEW",
+        "background": "SHARED",
+        "voice": "ACTIVE",
+        "cluster": "V12",
+        "delta": 0.0,
+        "lower": 0.0,
+        "upper": 0.0,
+        "group_ids": [
+          "V12-C01",
+          "V12-C02"
+        ]
+      },
+      {
+        "model": "qwen",
+        "material_set": "NEW",
+        "background": "SHARED",
+        "voice": "PASSIVE",
+        "cluster": "V01",
+        "delta": 1.0,
+        "lower": 1.0,
+        "upper": 1.0,
+        "group_ids": [
+          "V01-C01",
+          "V01-C02"
+        ]
+      },
+      {
+        "model": "qwen",
+        "material_set": "NEW",
+        "background": "SHARED",
+        "voice": "PASSIVE",
+        "cluster": "V02",
+        "delta": 1.0,
+        "lower": 1.0,
+        "upper": 1.0,
+        "group_ids": [
+          "V02-C01",
+          "V02-C02"
+        ]
+      },
+      {
+        "model": "qwen",
+        "material_set": "NEW",
+        "background": "SHARED",
+        "voice": "PASSIVE",
+        "cluster": "V03",
+        "delta": 0.5,
+        "lower": 0.5,
+        "upper": 0.5,
+        "group_ids": [
+          "V03-C01",
+          "V03-C02"
+        ]
+      },
+      {
+        "model": "qwen",
+        "material_set": "NEW",
+        "background": "SHARED",
+        "voice": "PASSIVE",
+        "cluster": "V04",
+        "delta": -1.0,
+        "lower": -1.0,
+        "upper": -1.0,
+        "group_ids": [
+          "V04-C01",
+          "V04-C02"
+        ]
+      },
+      {
+        "model": "qwen",
+        "material_set": "NEW",
+        "background": "SHARED",
+        "voice": "PASSIVE",
+        "cluster": "V05",
+        "delta": 0.0,
+        "lower": 0.0,
+        "upper": 0.0,
+        "group_ids": [
+          "V05-C01",
+          "V05-C02"
+        ]
+      },
+      {
+        "model": "qwen",
+        "material_set": "NEW",
+        "background": "SHARED",
+        "voice": "PASSIVE",
+        "cluster": "V06",
+        "delta": 0.0,
+        "lower": 0.0,
+        "upper": 0.0,
+        "group_ids": [
+          "V06-C01",
+          "V06-C02"
+        ]
+      },
+      {
+        "model": "qwen",
+        "material_set": "NEW",
+        "background": "SHARED",
+        "voice": "PASSIVE",
+        "cluster": "V07",
+        "delta": 1.0,
+        "lower": 1.0,
+        "upper": 1.0,
+        "group_ids": [
+          "V07-C01",
+          "V07-C02"
+        ]
+      },
+      {
+        "model": "qwen",
+        "material_set": "NEW",
+        "background": "SHARED",
+        "voice": "PASSIVE",
+        "cluster": "V08",
+        "delta": 0.0,
+        "lower": 0.0,
+        "upper": 0.0,
+        "group_ids": [
+          "V08-C01",
+          "V08-C02"
+        ]
+      },
+      {
+        "model": "qwen",
+        "material_set": "NEW",
+        "background": "SHARED",
+        "voice": "PASSIVE",
+        "cluster": "V09",
+        "delta": 0.0,
+        "lower": 0.0,
+        "upper": 0.0,
+        "group_ids": [
+          "V09-C01",
+          "V09-C02"
+        ]
+      },
+      {
+        "model": "qwen",
+        "material_set": "NEW",
+        "background": "SHARED",
+        "voice": "PASSIVE",
+        "cluster": "V10",
+        "delta": 0.0,
+        "lower": 0.0,
+        "upper": 0.0,
+        "group_ids": [
+          "V10-C01",
+          "V10-C02"
+        ]
+      },
+      {
+        "model": "qwen",
+        "material_set": "NEW",
+        "background": "SHARED",
+        "voice": "PASSIVE",
+        "cluster": "V11",
+        "delta": -0.5,
+        "lower": -0.5,
+        "upper": -0.5,
+        "group_ids": [
+          "V11-C01",
+          "V11-C02"
+        ]
+      },
+      {
+        "model": "qwen",
+        "material_set": "NEW",
+        "background": "SHARED",
+        "voice": "PASSIVE",
+        "cluster": "V12",
+        "delta": -0.5,
+        "lower": -0.5,
+        "upper": -0.5,
+        "group_ids": [
+          "V12-C01",
+          "V12-C02"
+        ]
+      }
+    ],
+    "LEAVE-ONE-PREDICATE-OUT.json": [
+      {
+        "model": "apertus",
+        "material_set": "BRIDGE",
+        "background": "SHARED",
+        "voice": "ACTIVE",
+        "omitted_cluster": "BRIDGE_N02",
+        "delta": 0.0,
+        "lower": 0.0,
+        "upper": 0.0
+      },
+      {
+        "model": "apertus",
+        "material_set": "BRIDGE",
+        "background": "SHARED",
+        "voice": "ACTIVE",
+        "omitted_cluster": "BRIDGE_N05",
+        "delta": 1.0,
+        "lower": 1.0,
+        "upper": 1.0
+      },
+      {
+        "model": "apertus",
+        "material_set": "BRIDGE",
+        "background": "SHARED",
+        "voice": "PASSIVE",
+        "omitted_cluster": "BRIDGE_N02",
+        "delta": 1.0,
+        "lower": 1.0,
+        "upper": 1.0
+      },
+      {
+        "model": "apertus",
+        "material_set": "BRIDGE",
+        "background": "SHARED",
+        "voice": "PASSIVE",
+        "omitted_cluster": "BRIDGE_N05",
+        "delta": 1.0,
+        "lower": 1.0,
+        "upper": 1.0
+      },
+      {
+        "model": "apertus",
+        "material_set": "NEW",
+        "background": "DISJOINT",
+        "voice": "ACTIVE",
+        "omitted_cluster": "V01",
+        "delta": 0.22727272727272727,
+        "lower": 0.22727272727272727,
+        "upper": 0.22727272727272727
+      },
+      {
+        "model": "apertus",
+        "material_set": "NEW",
+        "background": "DISJOINT",
+        "voice": "ACTIVE",
+        "omitted_cluster": "V02",
+        "delta": 0.22727272727272727,
+        "lower": 0.22727272727272727,
+        "upper": 0.22727272727272727
+      },
+      {
+        "model": "apertus",
+        "material_set": "NEW",
+        "background": "DISJOINT",
+        "voice": "ACTIVE",
+        "omitted_cluster": "V03",
+        "delta": 0.22727272727272727,
+        "lower": 0.22727272727272727,
+        "upper": 0.22727272727272727
+      },
+      {
+        "model": "apertus",
+        "material_set": "NEW",
+        "background": "DISJOINT",
+        "voice": "ACTIVE",
+        "omitted_cluster": "V04",
+        "delta": 0.13636363636363635,
+        "lower": 0.13636363636363635,
+        "upper": 0.13636363636363635
+      },
+      {
+        "model": "apertus",
+        "material_set": "NEW",
+        "background": "DISJOINT",
+        "voice": "ACTIVE",
+        "omitted_cluster": "V05",
+        "delta": 0.22727272727272727,
+        "lower": 0.22727272727272727,
+        "upper": 0.22727272727272727
+      },
+      {
+        "model": "apertus",
+        "material_set": "NEW",
+        "background": "DISJOINT",
+        "voice": "ACTIVE",
+        "omitted_cluster": "V06",
+        "delta": 0.22727272727272727,
+        "lower": 0.22727272727272727,
+        "upper": 0.22727272727272727
+      },
+      {
+        "model": "apertus",
+        "material_set": "NEW",
+        "background": "DISJOINT",
+        "voice": "ACTIVE",
+        "omitted_cluster": "V07",
+        "delta": 0.22727272727272727,
+        "lower": 0.22727272727272727,
+        "upper": 0.22727272727272727
+      },
+      {
+        "model": "apertus",
+        "material_set": "NEW",
+        "background": "DISJOINT",
+        "voice": "ACTIVE",
+        "omitted_cluster": "V08",
+        "delta": 0.18181818181818182,
+        "lower": 0.18181818181818182,
+        "upper": 0.18181818181818182
+      },
+      {
+        "model": "apertus",
+        "material_set": "NEW",
+        "background": "DISJOINT",
+        "voice": "ACTIVE",
+        "omitted_cluster": "V09",
+        "delta": 0.22727272727272727,
+        "lower": 0.22727272727272727,
+        "upper": 0.22727272727272727
+      },
+      {
+        "model": "apertus",
+        "material_set": "NEW",
+        "background": "DISJOINT",
+        "voice": "ACTIVE",
+        "omitted_cluster": "V10",
+        "delta": 0.18181818181818182,
+        "lower": 0.18181818181818182,
+        "upper": 0.18181818181818182
+      },
+      {
+        "model": "apertus",
+        "material_set": "NEW",
+        "background": "DISJOINT",
+        "voice": "ACTIVE",
+        "omitted_cluster": "V11",
+        "delta": 0.18181818181818182,
+        "lower": 0.18181818181818182,
+        "upper": 0.18181818181818182
+      },
+      {
+        "model": "apertus",
+        "material_set": "NEW",
+        "background": "DISJOINT",
+        "voice": "ACTIVE",
+        "omitted_cluster": "V12",
+        "delta": 0.22727272727272727,
+        "lower": 0.22727272727272727,
+        "upper": 0.22727272727272727
+      },
+      {
+        "model": "apertus",
+        "material_set": "NEW",
+        "background": "DISJOINT",
+        "voice": "PASSIVE",
+        "omitted_cluster": "V01",
+        "delta": 0.7727272727272727,
+        "lower": 0.7727272727272727,
+        "upper": 0.7727272727272727
+      },
+      {
+        "model": "apertus",
+        "material_set": "NEW",
+        "background": "DISJOINT",
+        "voice": "PASSIVE",
+        "omitted_cluster": "V02",
+        "delta": 0.7727272727272727,
+        "lower": 0.7727272727272727,
+        "upper": 0.7727272727272727
+      },
+      {
+        "model": "apertus",
+        "material_set": "NEW",
+        "background": "DISJOINT",
+        "voice": "PASSIVE",
+        "omitted_cluster": "V03",
+        "delta": 0.8181818181818182,
+        "lower": 0.8181818181818182,
+        "upper": 0.8181818181818182
+      },
+      {
+        "model": "apertus",
+        "material_set": "NEW",
+        "background": "DISJOINT",
+        "voice": "PASSIVE",
+        "omitted_cluster": "V04",
+        "delta": 0.7727272727272727,
+        "lower": 0.7727272727272727,
+        "upper": 0.7727272727272727
+      },
+      {
+        "model": "apertus",
+        "material_set": "NEW",
+        "background": "DISJOINT",
+        "voice": "PASSIVE",
+        "omitted_cluster": "V05",
+        "delta": 0.7727272727272727,
+        "lower": 0.7727272727272727,
+        "upper": 0.7727272727272727
+      },
+      {
+        "model": "apertus",
+        "material_set": "NEW",
+        "background": "DISJOINT",
+        "voice": "PASSIVE",
+        "omitted_cluster": "V06",
+        "delta": 0.7727272727272727,
+        "lower": 0.7727272727272727,
+        "upper": 0.7727272727272727
+      },
+      {
+        "model": "apertus",
+        "material_set": "NEW",
+        "background": "DISJOINT",
+        "voice": "PASSIVE",
+        "omitted_cluster": "V07",
+        "delta": 0.7727272727272727,
+        "lower": 0.7727272727272727,
+        "upper": 0.7727272727272727
+      },
+      {
+        "model": "apertus",
+        "material_set": "NEW",
+        "background": "DISJOINT",
+        "voice": "PASSIVE",
+        "omitted_cluster": "V08",
+        "delta": 0.8181818181818182,
+        "lower": 0.8181818181818182,
+        "upper": 0.8181818181818182
+      },
+      {
+        "model": "apertus",
+        "material_set": "NEW",
+        "background": "DISJOINT",
+        "voice": "PASSIVE",
+        "omitted_cluster": "V09",
+        "delta": 0.8181818181818182,
+        "lower": 0.8181818181818182,
+        "upper": 0.8181818181818182
+      },
+      {
+        "model": "apertus",
+        "material_set": "NEW",
+        "background": "DISJOINT",
+        "voice": "PASSIVE",
+        "omitted_cluster": "V10",
+        "delta": 0.8636363636363636,
+        "lower": 0.8636363636363636,
+        "upper": 0.8636363636363636
+      },
+      {
+        "model": "apertus",
+        "material_set": "NEW",
+        "background": "DISJOINT",
+        "voice": "PASSIVE",
+        "omitted_cluster": "V11",
+        "delta": 0.7727272727272727,
+        "lower": 0.7727272727272727,
+        "upper": 0.7727272727272727
+      },
+      {
+        "model": "apertus",
+        "material_set": "NEW",
+        "background": "DISJOINT",
+        "voice": "PASSIVE",
+        "omitted_cluster": "V12",
+        "delta": 0.7727272727272727,
+        "lower": 0.7727272727272727,
+        "upper": 0.7727272727272727
+      },
+      {
+        "model": "apertus",
+        "material_set": "NEW",
+        "background": "SHARED",
+        "voice": "ACTIVE",
+        "omitted_cluster": "V01",
+        "delta": 0.4090909090909091,
+        "lower": 0.4090909090909091,
+        "upper": 0.4090909090909091
+      },
+      {
+        "model": "apertus",
+        "material_set": "NEW",
+        "background": "SHARED",
+        "voice": "ACTIVE",
+        "omitted_cluster": "V02",
+        "delta": 0.36363636363636365,
+        "lower": 0.36363636363636365,
+        "upper": 0.36363636363636365
+      },
+      {
+        "model": "apertus",
+        "material_set": "NEW",
+        "background": "SHARED",
+        "voice": "ACTIVE",
+        "omitted_cluster": "V03",
+        "delta": 0.4090909090909091,
+        "lower": 0.4090909090909091,
+        "upper": 0.4090909090909091
+      },
+      {
+        "model": "apertus",
+        "material_set": "NEW",
+        "background": "SHARED",
+        "voice": "ACTIVE",
+        "omitted_cluster": "V04",
+        "delta": 0.3181818181818182,
+        "lower": 0.3181818181818182,
+        "upper": 0.3181818181818182
+      },
+      {
+        "model": "apertus",
+        "material_set": "NEW",
+        "background": "SHARED",
+        "voice": "ACTIVE",
+        "omitted_cluster": "V05",
+        "delta": 0.36363636363636365,
+        "lower": 0.36363636363636365,
+        "upper": 0.36363636363636365
+      },
+      {
+        "model": "apertus",
+        "material_set": "NEW",
+        "background": "SHARED",
+        "voice": "ACTIVE",
+        "omitted_cluster": "V06",
+        "delta": 0.4090909090909091,
+        "lower": 0.4090909090909091,
+        "upper": 0.4090909090909091
+      },
+      {
+        "model": "apertus",
+        "material_set": "NEW",
+        "background": "SHARED",
+        "voice": "ACTIVE",
+        "omitted_cluster": "V07",
+        "delta": 0.36363636363636365,
+        "lower": 0.36363636363636365,
+        "upper": 0.36363636363636365
+      },
+      {
+        "model": "apertus",
+        "material_set": "NEW",
+        "background": "SHARED",
+        "voice": "ACTIVE",
+        "omitted_cluster": "V08",
+        "delta": 0.36363636363636365,
+        "lower": 0.36363636363636365,
+        "upper": 0.36363636363636365
+      },
+      {
+        "model": "apertus",
+        "material_set": "NEW",
+        "background": "SHARED",
+        "voice": "ACTIVE",
+        "omitted_cluster": "V09",
+        "delta": 0.4090909090909091,
+        "lower": 0.4090909090909091,
+        "upper": 0.4090909090909091
+      },
+      {
+        "model": "apertus",
+        "material_set": "NEW",
+        "background": "SHARED",
+        "voice": "ACTIVE",
+        "omitted_cluster": "V10",
+        "delta": 0.36363636363636365,
+        "lower": 0.36363636363636365,
+        "upper": 0.36363636363636365
+      },
+      {
+        "model": "apertus",
+        "material_set": "NEW",
+        "background": "SHARED",
+        "voice": "ACTIVE",
+        "omitted_cluster": "V11",
+        "delta": 0.36363636363636365,
+        "lower": 0.36363636363636365,
+        "upper": 0.36363636363636365
+      },
+      {
+        "model": "apertus",
+        "material_set": "NEW",
+        "background": "SHARED",
+        "voice": "ACTIVE",
+        "omitted_cluster": "V12",
+        "delta": 0.36363636363636365,
+        "lower": 0.36363636363636365,
+        "upper": 0.36363636363636365
+      },
+      {
+        "model": "apertus",
+        "material_set": "NEW",
+        "background": "SHARED",
+        "voice": "PASSIVE",
+        "omitted_cluster": "V01",
+        "delta": 0.9090909090909091,
+        "lower": 0.9090909090909091,
+        "upper": 0.9545454545454546
+      },
+      {
+        "model": "apertus",
+        "material_set": "NEW",
+        "background": "SHARED",
+        "voice": "PASSIVE",
+        "omitted_cluster": "V02",
+        "delta": 0.9545454545454546,
+        "lower": 0.9545454545454546,
+        "upper": 1.0
+      },
+      {
+        "model": "apertus",
+        "material_set": "NEW",
+        "background": "SHARED",
+        "voice": "PASSIVE",
+        "omitted_cluster": "V03",
+        "delta": 0.9090909090909091,
+        "lower": 0.9090909090909091,
+        "upper": 0.9545454545454546
+      },
+      {
+        "model": "apertus",
+        "material_set": "NEW",
+        "background": "SHARED",
+        "voice": "PASSIVE",
+        "omitted_cluster": "V04",
+        "delta": 0.9545454545454546,
+        "lower": 0.9545454545454546,
+        "upper": 0.9545454545454546
+      },
+      {
+        "model": "apertus",
+        "material_set": "NEW",
+        "background": "SHARED",
+        "voice": "PASSIVE",
+        "omitted_cluster": "V05",
+        "delta": 0.9090909090909091,
+        "lower": 0.9090909090909091,
+        "upper": 0.9545454545454546
+      },
+      {
+        "model": "apertus",
+        "material_set": "NEW",
+        "background": "SHARED",
+        "voice": "PASSIVE",
+        "omitted_cluster": "V06",
+        "delta": 0.9090909090909091,
+        "lower": 0.9090909090909091,
+        "upper": 0.9545454545454546
+      },
+      {
+        "model": "apertus",
+        "material_set": "NEW",
+        "background": "SHARED",
+        "voice": "PASSIVE",
+        "omitted_cluster": "V07",
+        "delta": 0.9090909090909091,
+        "lower": 0.9090909090909091,
+        "upper": 0.9545454545454546
+      },
+      {
+        "model": "apertus",
+        "material_set": "NEW",
+        "background": "SHARED",
+        "voice": "PASSIVE",
+        "omitted_cluster": "V08",
+        "delta": 0.9090909090909091,
+        "lower": 0.9090909090909091,
+        "upper": 0.9545454545454546
+      },
+      {
+        "model": "apertus",
+        "material_set": "NEW",
+        "background": "SHARED",
+        "voice": "PASSIVE",
+        "omitted_cluster": "V09",
+        "delta": 0.9090909090909091,
+        "lower": 0.9090909090909091,
+        "upper": 0.9545454545454546
+      },
+      {
+        "model": "apertus",
+        "material_set": "NEW",
+        "background": "SHARED",
+        "voice": "PASSIVE",
+        "omitted_cluster": "V10",
+        "delta": 0.9090909090909091,
+        "lower": 0.9090909090909091,
+        "upper": 0.9545454545454546
+      },
+      {
+        "model": "apertus",
+        "material_set": "NEW",
+        "background": "SHARED",
+        "voice": "PASSIVE",
+        "omitted_cluster": "V11",
+        "delta": 0.9090909090909091,
+        "lower": 0.9090909090909091,
+        "upper": 0.9545454545454546
+      },
+      {
+        "model": "apertus",
+        "material_set": "NEW",
+        "background": "SHARED",
+        "voice": "PASSIVE",
+        "omitted_cluster": "V12",
+        "delta": 0.9090909090909091,
+        "lower": 0.9090909090909091,
+        "upper": 0.9545454545454546
+      },
+      {
+        "model": "qwen",
+        "material_set": "BRIDGE",
+        "background": "SHARED",
+        "voice": "ACTIVE",
+        "omitted_cluster": "BRIDGE_N02",
+        "delta": 0.0,
+        "lower": 0.0,
+        "upper": 0.0
+      },
+      {
+        "model": "qwen",
+        "material_set": "BRIDGE",
+        "background": "SHARED",
+        "voice": "ACTIVE",
+        "omitted_cluster": "BRIDGE_N05",
+        "delta": 0.0,
+        "lower": 0.0,
+        "upper": 0.0
+      },
+      {
+        "model": "qwen",
+        "material_set": "BRIDGE",
+        "background": "SHARED",
+        "voice": "PASSIVE",
+        "omitted_cluster": "BRIDGE_N02",
+        "delta": 0.0,
+        "lower": 0.0,
+        "upper": 0.0
+      },
+      {
+        "model": "qwen",
+        "material_set": "BRIDGE",
+        "background": "SHARED",
+        "voice": "PASSIVE",
+        "omitted_cluster": "BRIDGE_N05",
+        "delta": 0.0,
+        "lower": 0.0,
+        "upper": 0.0
+      },
+      {
+        "model": "qwen",
+        "material_set": "NEW",
+        "background": "DISJOINT",
+        "voice": "ACTIVE",
+        "omitted_cluster": "V01",
+        "delta": 0.0,
+        "lower": 0.0,
+        "upper": 0.0
+      },
+      {
+        "model": "qwen",
+        "material_set": "NEW",
+        "background": "DISJOINT",
+        "voice": "ACTIVE",
+        "omitted_cluster": "V02",
+        "delta": 0.0,
+        "lower": 0.0,
+        "upper": 0.0
+      },
+      {
+        "model": "qwen",
+        "material_set": "NEW",
+        "background": "DISJOINT",
+        "voice": "ACTIVE",
+        "omitted_cluster": "V03",
+        "delta": 0.0,
+        "lower": 0.0,
+        "upper": 0.0
+      },
+      {
+        "model": "qwen",
+        "material_set": "NEW",
+        "background": "DISJOINT",
+        "voice": "ACTIVE",
+        "omitted_cluster": "V04",
+        "delta": 0.0,
+        "lower": 0.0,
+        "upper": 0.0
+      },
+      {
+        "model": "qwen",
+        "material_set": "NEW",
+        "background": "DISJOINT",
+        "voice": "ACTIVE",
+        "omitted_cluster": "V05",
+        "delta": 0.0,
+        "lower": 0.0,
+        "upper": 0.0
+      },
+      {
+        "model": "qwen",
+        "material_set": "NEW",
+        "background": "DISJOINT",
+        "voice": "ACTIVE",
+        "omitted_cluster": "V06",
+        "delta": 0.0,
+        "lower": 0.0,
+        "upper": 0.0
+      },
+      {
+        "model": "qwen",
+        "material_set": "NEW",
+        "background": "DISJOINT",
+        "voice": "ACTIVE",
+        "omitted_cluster": "V07",
+        "delta": 0.0,
+        "lower": 0.0,
+        "upper": 0.0
+      },
+      {
+        "model": "qwen",
+        "material_set": "NEW",
+        "background": "DISJOINT",
+        "voice": "ACTIVE",
+        "omitted_cluster": "V08",
+        "delta": 0.0,
+        "lower": 0.0,
+        "upper": 0.0
+      },
+      {
+        "model": "qwen",
+        "material_set": "NEW",
+        "background": "DISJOINT",
+        "voice": "ACTIVE",
+        "omitted_cluster": "V09",
+        "delta": 0.0,
+        "lower": 0.0,
+        "upper": 0.0
+      },
+      {
+        "model": "qwen",
+        "material_set": "NEW",
+        "background": "DISJOINT",
+        "voice": "ACTIVE",
+        "omitted_cluster": "V10",
+        "delta": 0.0,
+        "lower": 0.0,
+        "upper": 0.0
+      },
+      {
+        "model": "qwen",
+        "material_set": "NEW",
+        "background": "DISJOINT",
+        "voice": "ACTIVE",
+        "omitted_cluster": "V11",
+        "delta": 0.0,
+        "lower": 0.0,
+        "upper": 0.0
+      },
+      {
+        "model": "qwen",
+        "material_set": "NEW",
+        "background": "DISJOINT",
+        "voice": "ACTIVE",
+        "omitted_cluster": "V12",
+        "delta": 0.0,
+        "lower": 0.0,
+        "upper": 0.0
+      },
+      {
+        "model": "qwen",
+        "material_set": "NEW",
+        "background": "DISJOINT",
+        "voice": "PASSIVE",
+        "omitted_cluster": "V01",
+        "delta": 0.3181818181818182,
+        "lower": 0.3181818181818182,
+        "upper": 0.3181818181818182
+      },
+      {
+        "model": "qwen",
+        "material_set": "NEW",
+        "background": "DISJOINT",
+        "voice": "PASSIVE",
+        "omitted_cluster": "V02",
+        "delta": 0.3181818181818182,
+        "lower": 0.3181818181818182,
+        "upper": 0.3181818181818182
+      },
+      {
+        "model": "qwen",
+        "material_set": "NEW",
+        "background": "DISJOINT",
+        "voice": "PASSIVE",
+        "omitted_cluster": "V03",
+        "delta": 0.3181818181818182,
+        "lower": 0.3181818181818182,
+        "upper": 0.3181818181818182
+      },
+      {
+        "model": "qwen",
+        "material_set": "NEW",
+        "background": "DISJOINT",
+        "voice": "PASSIVE",
+        "omitted_cluster": "V04",
+        "delta": 0.4090909090909091,
+        "lower": 0.4090909090909091,
+        "upper": 0.4090909090909091
+      },
+      {
+        "model": "qwen",
+        "material_set": "NEW",
+        "background": "DISJOINT",
+        "voice": "PASSIVE",
+        "omitted_cluster": "V05",
+        "delta": 0.2727272727272727,
+        "lower": 0.2727272727272727,
+        "upper": 0.2727272727272727
+      },
+      {
+        "model": "qwen",
+        "material_set": "NEW",
+        "background": "DISJOINT",
+        "voice": "PASSIVE",
+        "omitted_cluster": "V06",
+        "delta": 0.36363636363636365,
+        "lower": 0.36363636363636365,
+        "upper": 0.36363636363636365
+      },
+      {
+        "model": "qwen",
+        "material_set": "NEW",
+        "background": "DISJOINT",
+        "voice": "PASSIVE",
+        "omitted_cluster": "V07",
+        "delta": 0.2727272727272727,
+        "lower": 0.2727272727272727,
+        "upper": 0.2727272727272727
+      },
+      {
+        "model": "qwen",
+        "material_set": "NEW",
+        "background": "DISJOINT",
+        "voice": "PASSIVE",
+        "omitted_cluster": "V08",
+        "delta": 0.2727272727272727,
+        "lower": 0.2727272727272727,
+        "upper": 0.2727272727272727
+      },
+      {
+        "model": "qwen",
+        "material_set": "NEW",
+        "background": "DISJOINT",
+        "voice": "PASSIVE",
+        "omitted_cluster": "V09",
+        "delta": 0.3181818181818182,
+        "lower": 0.3181818181818182,
+        "upper": 0.3181818181818182
+      },
+      {
+        "model": "qwen",
+        "material_set": "NEW",
+        "background": "DISJOINT",
+        "voice": "PASSIVE",
+        "omitted_cluster": "V10",
+        "delta": 0.36363636363636365,
+        "lower": 0.36363636363636365,
+        "upper": 0.36363636363636365
+      },
+      {
+        "model": "qwen",
+        "material_set": "NEW",
+        "background": "DISJOINT",
+        "voice": "PASSIVE",
+        "omitted_cluster": "V11",
+        "delta": 0.4090909090909091,
+        "lower": 0.4090909090909091,
+        "upper": 0.4090909090909091
+      },
+      {
+        "model": "qwen",
+        "material_set": "NEW",
+        "background": "DISJOINT",
+        "voice": "PASSIVE",
+        "omitted_cluster": "V12",
+        "delta": 0.36363636363636365,
+        "lower": 0.36363636363636365,
+        "upper": 0.36363636363636365
+      },
+      {
+        "model": "qwen",
+        "material_set": "NEW",
+        "background": "SHARED",
+        "voice": "ACTIVE",
+        "omitted_cluster": "V01",
+        "delta": 0.0,
+        "lower": 0.0,
+        "upper": 0.0
+      },
+      {
+        "model": "qwen",
+        "material_set": "NEW",
+        "background": "SHARED",
+        "voice": "ACTIVE",
+        "omitted_cluster": "V02",
+        "delta": 0.0,
+        "lower": 0.0,
+        "upper": 0.0
+      },
+      {
+        "model": "qwen",
+        "material_set": "NEW",
+        "background": "SHARED",
+        "voice": "ACTIVE",
+        "omitted_cluster": "V03",
+        "delta": 0.0,
+        "lower": 0.0,
+        "upper": 0.0
+      },
+      {
+        "model": "qwen",
+        "material_set": "NEW",
+        "background": "SHARED",
+        "voice": "ACTIVE",
+        "omitted_cluster": "V04",
+        "delta": 0.0,
+        "lower": 0.0,
+        "upper": 0.0
+      },
+      {
+        "model": "qwen",
+        "material_set": "NEW",
+        "background": "SHARED",
+        "voice": "ACTIVE",
+        "omitted_cluster": "V05",
+        "delta": 0.0,
+        "lower": 0.0,
+        "upper": 0.0
+      },
+      {
+        "model": "qwen",
+        "material_set": "NEW",
+        "background": "SHARED",
+        "voice": "ACTIVE",
+        "omitted_cluster": "V06",
+        "delta": 0.0,
+        "lower": 0.0,
+        "upper": 0.0
+      },
+      {
+        "model": "qwen",
+        "material_set": "NEW",
+        "background": "SHARED",
+        "voice": "ACTIVE",
+        "omitted_cluster": "V07",
+        "delta": 0.0,
+        "lower": 0.0,
+        "upper": 0.0
+      },
+      {
+        "model": "qwen",
+        "material_set": "NEW",
+        "background": "SHARED",
+        "voice": "ACTIVE",
+        "omitted_cluster": "V08",
+        "delta": 0.0,
+        "lower": 0.0,
+        "upper": 0.0
+      },
+      {
+        "model": "qwen",
+        "material_set": "NEW",
+        "background": "SHARED",
+        "voice": "ACTIVE",
+        "omitted_cluster": "V09",
+        "delta": 0.0,
+        "lower": 0.0,
+        "upper": 0.0
+      },
+      {
+        "model": "qwen",
+        "material_set": "NEW",
+        "background": "SHARED",
+        "voice": "ACTIVE",
+        "omitted_cluster": "V10",
+        "delta": 0.0,
+        "lower": 0.0,
+        "upper": 0.0
+      },
+      {
+        "model": "qwen",
+        "material_set": "NEW",
+        "background": "SHARED",
+        "voice": "ACTIVE",
+        "omitted_cluster": "V11",
+        "delta": 0.0,
+        "lower": 0.0,
+        "upper": 0.0
+      },
+      {
+        "model": "qwen",
+        "material_set": "NEW",
+        "background": "SHARED",
+        "voice": "ACTIVE",
+        "omitted_cluster": "V12",
+        "delta": 0.0,
+        "lower": 0.0,
+        "upper": 0.0
+      },
+      {
+        "model": "qwen",
+        "material_set": "NEW",
+        "background": "SHARED",
+        "voice": "PASSIVE",
+        "omitted_cluster": "V01",
+        "delta": 0.045454545454545456,
+        "lower": 0.045454545454545456,
+        "upper": 0.045454545454545456
+      },
+      {
+        "model": "qwen",
+        "material_set": "NEW",
+        "background": "SHARED",
+        "voice": "PASSIVE",
+        "omitted_cluster": "V02",
+        "delta": 0.045454545454545456,
+        "lower": 0.045454545454545456,
+        "upper": 0.045454545454545456
+      },
+      {
+        "model": "qwen",
+        "material_set": "NEW",
+        "background": "SHARED",
+        "voice": "PASSIVE",
+        "omitted_cluster": "V03",
+        "delta": 0.09090909090909091,
+        "lower": 0.09090909090909091,
+        "upper": 0.09090909090909091
+      },
+      {
+        "model": "qwen",
+        "material_set": "NEW",
+        "background": "SHARED",
+        "voice": "PASSIVE",
+        "omitted_cluster": "V04",
+        "delta": 0.22727272727272727,
+        "lower": 0.22727272727272727,
+        "upper": 0.22727272727272727
+      },
+      {
+        "model": "qwen",
+        "material_set": "NEW",
+        "background": "SHARED",
+        "voice": "PASSIVE",
+        "omitted_cluster": "V05",
+        "delta": 0.13636363636363635,
+        "lower": 0.13636363636363635,
+        "upper": 0.13636363636363635
+      },
+      {
+        "model": "qwen",
+        "material_set": "NEW",
+        "background": "SHARED",
+        "voice": "PASSIVE",
+        "omitted_cluster": "V06",
+        "delta": 0.13636363636363635,
+        "lower": 0.13636363636363635,
+        "upper": 0.13636363636363635
+      },
+      {
+        "model": "qwen",
+        "material_set": "NEW",
+        "background": "SHARED",
+        "voice": "PASSIVE",
+        "omitted_cluster": "V07",
+        "delta": 0.045454545454545456,
+        "lower": 0.045454545454545456,
+        "upper": 0.045454545454545456
+      },
+      {
+        "model": "qwen",
+        "material_set": "NEW",
+        "background": "SHARED",
+        "voice": "PASSIVE",
+        "omitted_cluster": "V08",
+        "delta": 0.13636363636363635,
+        "lower": 0.13636363636363635,
+        "upper": 0.13636363636363635
+      },
+      {
+        "model": "qwen",
+        "material_set": "NEW",
+        "background": "SHARED",
+        "voice": "PASSIVE",
+        "omitted_cluster": "V09",
+        "delta": 0.13636363636363635,
+        "lower": 0.13636363636363635,
+        "upper": 0.13636363636363635
+      },
+      {
+        "model": "qwen",
+        "material_set": "NEW",
+        "background": "SHARED",
+        "voice": "PASSIVE",
+        "omitted_cluster": "V10",
+        "delta": 0.13636363636363635,
+        "lower": 0.13636363636363635,
+        "upper": 0.13636363636363635
+      },
+      {
+        "model": "qwen",
+        "material_set": "NEW",
+        "background": "SHARED",
+        "voice": "PASSIVE",
+        "omitted_cluster": "V11",
+        "delta": 0.18181818181818182,
+        "lower": 0.18181818181818182,
+        "upper": 0.18181818181818182
+      },
+      {
+        "model": "qwen",
+        "material_set": "NEW",
+        "background": "SHARED",
+        "voice": "PASSIVE",
+        "omitted_cluster": "V12",
+        "delta": 0.18181818181818182,
+        "lower": 0.18181818181818182,
+        "upper": 0.18181818181818182
+      }
+    ],
+    "BRIDGE-COMPARISON.json": [
+      {
+        "call_id": "B54-BRIDGE-apertus-N02-ACTIVE-D_AU-AU-GEN",
+        "historical_call_id": "B52-apertus-N02-ACTIVE-D_AU-AU-GEN",
+        "input_exact": true,
+        "output_exact": true,
+        "historical_output": "{\"actor\":\"何子墨\",\"undergoer\":\"华映秋\"}",
+        "current_output": "{\"actor\":\"何子墨\",\"undergoer\":\"华映秋\"}"
+      },
+      {
+        "call_id": "B54-BRIDGE-apertus-N02-ACTIVE-D_AU-UA-GEN",
+        "historical_call_id": "B52-apertus-N02-ACTIVE-D_AU-UA-GEN",
+        "input_exact": true,
+        "output_exact": true,
+        "historical_output": "{\"undergoer\":\"何子墨\",\"actor\":\"华映秋\"}",
+        "current_output": "{\"undergoer\":\"何子墨\",\"actor\":\"华映秋\"}"
+      },
+      {
+        "call_id": "B54-BRIDGE-apertus-N02-PASSIVE-D_AU-AU-GEN",
+        "historical_call_id": "B52-apertus-N02-PASSIVE-D_AU-AU-GEN",
+        "input_exact": true,
+        "output_exact": true,
+        "historical_output": "{\"actor\":\"华映秋\",\"undergoer\":\"何子墨\"}",
+        "current_output": "{\"actor\":\"华映秋\",\"undergoer\":\"何子墨\"}"
+      },
+      {
+        "call_id": "B54-BRIDGE-apertus-N02-PASSIVE-D_AU-UA-GEN",
+        "historical_call_id": "B52-apertus-N02-PASSIVE-D_AU-UA-GEN",
+        "input_exact": true,
+        "output_exact": true,
+        "historical_output": "{\"undergoer\":\"华映秋\",\"actor\":\"何子墨\"}",
+        "current_output": "{\"undergoer\":\"华映秋\",\"actor\":\"何子墨\"}"
+      },
+      {
+        "call_id": "B54-BRIDGE-apertus-N05-ACTIVE-D_AU-AU-GEN",
+        "historical_call_id": "B52-apertus-N05-ACTIVE-D_AU-AU-GEN",
+        "input_exact": true,
+        "output_exact": true,
+        "historical_output": "{\"actor\":\"何子墨\",\"undergoer\":\"华映秋\"}",
+        "current_output": "{\"actor\":\"何子墨\",\"undergoer\":\"华映秋\"}"
+      },
+      {
+        "call_id": "B54-BRIDGE-apertus-N05-ACTIVE-D_AU-UA-GEN",
+        "historical_call_id": "B52-apertus-N05-ACTIVE-D_AU-UA-GEN",
+        "input_exact": true,
+        "output_exact": true,
+        "historical_output": "{\"undergoer\":\"华映秋\",\"actor\":\"何子墨\"}",
+        "current_output": "{\"undergoer\":\"华映秋\",\"actor\":\"何子墨\"}"
+      },
+      {
+        "call_id": "B54-BRIDGE-apertus-N05-PASSIVE-D_AU-AU-GEN",
+        "historical_call_id": "B52-apertus-N05-PASSIVE-D_AU-AU-GEN",
+        "input_exact": true,
+        "output_exact": true,
+        "historical_output": "{\"actor\":\"华映秋\",\"undergoer\":\"何子墨\"}",
+        "current_output": "{\"actor\":\"华映秋\",\"undergoer\":\"何子墨\"}"
+      },
+      {
+        "call_id": "B54-BRIDGE-apertus-N05-PASSIVE-D_AU-UA-GEN",
+        "historical_call_id": "B52-apertus-N05-PASSIVE-D_AU-UA-GEN",
+        "input_exact": true,
+        "output_exact": true,
+        "historical_output": "{\"undergoer\":\"华映秋\",\"actor\":\"何子墨\"}",
+        "current_output": "{\"undergoer\":\"华映秋\",\"actor\":\"何子墨\"}"
+      },
+      {
+        "call_id": "B54-BRIDGE-qwen-N02-ACTIVE-D_AU-AU-GEN",
+        "historical_call_id": "B52-qwen-N02-ACTIVE-D_AU-AU-GEN",
+        "input_exact": true,
+        "output_exact": true,
+        "historical_output": "{\"actor\":\"何子墨\",\"undergoer\":\"华映秋\"}",
+        "current_output": "{\"actor\":\"何子墨\",\"undergoer\":\"华映秋\"}"
+      },
+      {
+        "call_id": "B54-BRIDGE-qwen-N02-ACTIVE-D_AU-UA-GEN",
+        "historical_call_id": "B52-qwen-N02-ACTIVE-D_AU-UA-GEN",
+        "input_exact": true,
+        "output_exact": true,
+        "historical_output": "{\"undergoer\":\"华映秋\",\"actor\":\"何子墨\"}",
+        "current_output": "{\"undergoer\":\"华映秋\",\"actor\":\"何子墨\"}"
+      },
+      {
+        "call_id": "B54-BRIDGE-qwen-N02-PASSIVE-D_AU-AU-GEN",
+        "historical_call_id": "B52-qwen-N02-PASSIVE-D_AU-AU-GEN",
+        "input_exact": true,
+        "output_exact": true,
+        "historical_output": "{\"actor\":\"何子墨\",\"undergoer\":\"华映秋\"}",
+        "current_output": "{\"actor\":\"何子墨\",\"undergoer\":\"华映秋\"}"
+      },
+      {
+        "call_id": "B54-BRIDGE-qwen-N02-PASSIVE-D_AU-UA-GEN",
+        "historical_call_id": "B52-qwen-N02-PASSIVE-D_AU-UA-GEN",
+        "input_exact": true,
+        "output_exact": true,
+        "historical_output": "{\"undergoer\":\"华映秋\",\"actor\":\"何子墨\"}",
+        "current_output": "{\"undergoer\":\"华映秋\",\"actor\":\"何子墨\"}"
+      },
+      {
+        "call_id": "B54-BRIDGE-qwen-N05-ACTIVE-D_AU-AU-GEN",
+        "historical_call_id": "B52-qwen-N05-ACTIVE-D_AU-AU-GEN",
+        "input_exact": true,
+        "output_exact": true,
+        "historical_output": "{\"actor\":\"何子墨\",\"undergoer\":\"华映秋\"}",
+        "current_output": "{\"actor\":\"何子墨\",\"undergoer\":\"华映秋\"}"
+      },
+      {
+        "call_id": "B54-BRIDGE-qwen-N05-ACTIVE-D_AU-UA-GEN",
+        "historical_call_id": "B52-qwen-N05-ACTIVE-D_AU-UA-GEN",
+        "input_exact": true,
+        "output_exact": true,
+        "historical_output": "{\"undergoer\":\"华映秋\",\"actor\":\"何子墨\"}",
+        "current_output": "{\"undergoer\":\"华映秋\",\"actor\":\"何子墨\"}"
+      },
+      {
+        "call_id": "B54-BRIDGE-qwen-N05-PASSIVE-D_AU-AU-GEN",
+        "historical_call_id": "B52-qwen-N05-PASSIVE-D_AU-AU-GEN",
+        "input_exact": true,
+        "output_exact": true,
+        "historical_output": "{\"actor\":\"何子墨\",\"undergoer\":\"华映秋\"}",
+        "current_output": "{\"actor\":\"何子墨\",\"undergoer\":\"华映秋\"}"
+      },
+      {
+        "call_id": "B54-BRIDGE-qwen-N05-PASSIVE-D_AU-UA-GEN",
+        "historical_call_id": "B52-qwen-N05-PASSIVE-D_AU-UA-GEN",
+        "input_exact": true,
+        "output_exact": true,
+        "historical_output": "{\"undergoer\":\"华映秋\",\"actor\":\"何子墨\"}",
+        "current_output": "{\"undergoer\":\"华映秋\",\"actor\":\"何子墨\"}"
+      }
+    ]
+  },
+  "human_review": "PENDING",
+  "independent_human_gold": 0,
+  "main_numeric_verification_sha256": "3e1c99ef1abf19adff19053fce3d5169f13537f77408ada6563f2ce8464f9ca8"
+}
