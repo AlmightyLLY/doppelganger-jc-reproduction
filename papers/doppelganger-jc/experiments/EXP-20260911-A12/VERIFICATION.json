@@ -1,0 +1,227 @@
+{
+  "runtime": {
+    "batch": "EXP-20260911-A12",
+    "status": "COMPLETE",
+    "calls": 96,
+    "forwards": 845,
+    "completed": [
+      "A12-D1-1-O-T",
+      "A12-D1-1-O-G",
+      "A12-D1-1-O-M1",
+      "A12-D1-1-O-M2",
+      "A12-D1-1-K-T",
+      "A12-D1-1-K-G",
+      "A12-D1-1-K-M1",
+      "A12-D1-1-K-M2",
+      "A12-D1-2-O-T",
+      "A12-D1-2-O-G",
+      "A12-D1-2-O-M1",
+      "A12-D1-2-O-M2",
+      "A12-D1-2-K-T",
+      "A12-D1-2-K-G",
+      "A12-D1-2-K-M1",
+      "A12-D1-2-K-M2",
+      "A12-D2-1-O-T",
+      "A12-D2-1-O-G",
+      "A12-D2-1-O-M1",
+      "A12-D2-1-O-M2",
+      "A12-D2-1-K-T",
+      "A12-D2-1-K-G",
+      "A12-D2-1-K-M1",
+      "A12-D2-1-K-M2",
+      "A12-D2-2-O-T",
+      "A12-D2-2-O-G",
+      "A12-D2-2-O-M1",
+      "A12-D2-2-O-M2",
+      "A12-D2-2-K-T",
+      "A12-D2-2-K-G",
+      "A12-D2-2-K-M1",
+      "A12-D2-2-K-M2",
+      "A12-D3-1-O-T",
+      "A12-D3-1-O-G",
+      "A12-D3-1-O-M1",
+      "A12-D3-1-O-M2",
+      "A12-D3-1-K-T",
+      "A12-D3-1-K-G",
+      "A12-D3-1-K-M1",
+      "A12-D3-1-K-M2",
+      "A12-D3-2-O-T",
+      "A12-D3-2-O-G",
+      "A12-D3-2-O-M1",
+      "A12-D3-2-O-M2",
+      "A12-D3-2-K-T",
+      "A12-D3-2-K-G",
+      "A12-D3-2-K-M1",
+      "A12-D3-2-K-M2",
+      "A12-S1-1-O-T",
+      "A12-S1-1-O-G",
+      "A12-S1-1-O-M1",
+      "A12-S1-1-O-M2",
+      "A12-S1-1-K-T",
+      "A12-S1-1-K-G",
+      "A12-S1-1-K-M1",
+      "A12-S1-1-K-M2",
+      "A12-S1-2-O-T",
+      "A12-S1-2-O-G",
+      "A12-S1-2-O-M1",
+      "A12-S1-2-O-M2",
+      "A12-S1-2-K-T",
+      "A12-S1-2-K-G",
+      "A12-S1-2-K-M1",
+      "A12-S1-2-K-M2",
+      "A12-S2-1-O-T",
+      "A12-S2-1-O-G",
+      "A12-S2-1-O-M1",
+      "A12-S2-1-O-M2",
+      "A12-S2-1-K-T",
+      "A12-S2-1-K-G",
+      "A12-S2-1-K-M1",
+      "A12-S2-1-K-M2",
+      "A12-S2-2-O-T",
+      "A12-S2-2-O-G",
+      "A12-S2-2-O-M1",
+      "A12-S2-2-O-M2",
+      "A12-S2-2-K-T",
+      "A12-S2-2-K-G",
+      "A12-S2-2-K-M1",
+      "A12-S2-2-K-M2",
+      "A12-S3-1-O-T",
+      "A12-S3-1-O-G",
+      "A12-S3-1-O-M1",
+      "A12-S3-1-O-M2",
+      "A12-S3-1-K-T",
+      "A12-S3-1-K-G",
+      "A12-S3-1-K-M1",
+      "A12-S3-1-K-M2",
+      "A12-S3-2-O-T",
+      "A12-S3-2-O-G",
+      "A12-S3-2-O-M1",
+      "A12-S3-2-O-M2",
+      "A12-S3-2-K-T",
+      "A12-S3-2-K-G",
+      "A12-S3-2-K-M1",
+      "A12-S3-2-K-M2"
+    ],
+    "pid": 987073,
+    "cost_usd": 0,
+    "elapsed_seconds": 44.43976956885308,
+    "gpu": "1",
+    "active": "A12-S3-2-K-M2",
+    "peak_allocator_mib": 15658.21923828125
+  },
+  "CPU": {
+    "status": "PASS",
+    "input_template_encode_and_output_decode": 96,
+    "new_model_calls": 0
+  },
+  "numeric": {
+    "frozen_unchanged": true,
+    "exact_input_records": 96,
+    "primary_subset_unchanged": true,
+    "primary_B_recomputed": 3,
+    "primary_families": [
+      "D2",
+      "D3",
+      "S1"
+    ],
+    "no_hidden_exclusions": true
+  },
+  "legacy_replication": [
+    {
+      "source_id": "A11-D1-1-O",
+      "input_and_output_tokens_exact": true
+    },
+    {
+      "source_id": "A11-D1-1-K",
+      "input_and_output_tokens_exact": true
+    },
+    {
+      "source_id": "A11-D1-2-O",
+      "input_and_output_tokens_exact": true
+    },
+    {
+      "source_id": "A11-D1-2-K",
+      "input_and_output_tokens_exact": true
+    },
+    {
+      "source_id": "A11-D2-1-O",
+      "input_and_output_tokens_exact": true
+    },
+    {
+      "source_id": "A11-D2-1-K",
+      "input_and_output_tokens_exact": true
+    },
+    {
+      "source_id": "A11-D2-2-O",
+      "input_and_output_tokens_exact": true
+    },
+    {
+      "source_id": "A11-D2-2-K",
+      "input_and_output_tokens_exact": true
+    },
+    {
+      "source_id": "A11-D3-1-O",
+      "input_and_output_tokens_exact": true
+    },
+    {
+      "source_id": "A11-D3-1-K",
+      "input_and_output_tokens_exact": true
+    },
+    {
+      "source_id": "A11-D3-2-O",
+      "input_and_output_tokens_exact": true
+    },
+    {
+      "source_id": "A11-D3-2-K",
+      "input_and_output_tokens_exact": true
+    },
+    {
+      "source_id": "A11-S1-1-O",
+      "input_and_output_tokens_exact": true
+    },
+    {
+      "source_id": "A11-S1-1-K",
+      "input_and_output_tokens_exact": true
+    },
+    {
+      "source_id": "A11-S1-2-O",
+      "input_and_output_tokens_exact": true
+    },
+    {
+      "source_id": "A11-S1-2-K",
+      "input_and_output_tokens_exact": true
+    },
+    {
+      "source_id": "A11-S2-1-O",
+      "input_and_output_tokens_exact": true
+    },
+    {
+      "source_id": "A11-S2-1-K",
+      "input_and_output_tokens_exact": true
+    },
+    {
+      "source_id": "A11-S2-2-O",
+      "input_and_output_tokens_exact": true
+    },
+    {
+      "source_id": "A11-S2-2-K",
+      "input_and_output_tokens_exact": true
+    },
+    {
+      "source_id": "A11-S3-1-O",
+      "input_and_output_tokens_exact": true
+    },
+    {
+      "source_id": "A11-S3-1-K",
+      "input_and_output_tokens_exact": true
+    },
+    {
+      "source_id": "A11-S3-2-O",
+      "input_and_output_tokens_exact": true
+    },
+    {
+      "source_id": "A11-S3-2-K",
+      "input_and_output_tokens_exact": true
+    }
+  ]
+}
