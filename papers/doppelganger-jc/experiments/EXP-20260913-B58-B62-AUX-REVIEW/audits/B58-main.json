@@ -1,0 +1,527 @@
+{
+  "source_sha256": "a69325fe7c414e5cf381e3a7e51972670c099c171c2d9a9b352d257ad60e1d9b",
+  "audit": {
+    "at": "2026-09-11T14:58:42.874048+00:00",
+    "status": "PASS_MAIN_SCIENTIFIC_RECOMPUTATION",
+    "frozen_files": 39,
+    "retrieved_files": 35,
+    "archive_members": 124,
+    "raw_outputs_verified": 1152,
+    "content_counts": {
+      "C": 1006,
+      "R": 145,
+      "OTHER_W": 1
+    },
+    "same_fact_statistics": [
+      {
+        "model": "apertus",
+        "construction": "BA",
+        "schema": "AU",
+        "overlap": "SAME",
+        "n": 32,
+        "ba_correct": 32,
+        "bei_correct": 32,
+        "D": 0.0,
+        "rescues": 0,
+        "harms": 0,
+        "loo_min": 0.0,
+        "loo_max": 0.0,
+        "cluster_means": {
+          "N04": 0.0,
+          "N03": 0.0,
+          "N01": 0.0,
+          "N07": 0.0,
+          "N05": 0.0,
+          "N06": 0.0,
+          "N08": 0.0,
+          "N02": 0.0
+        }
+      },
+      {
+        "model": "apertus",
+        "construction": "BA",
+        "schema": "AU",
+        "overlap": "DIFFERENT",
+        "n": 32,
+        "ba_correct": 32,
+        "bei_correct": 32,
+        "D": 0.0,
+        "rescues": 0,
+        "harms": 0,
+        "loo_min": 0.0,
+        "loo_max": 0.0,
+        "cluster_means": {
+          "N01": 0.0,
+          "N08": 0.0,
+          "N07": 0.0,
+          "N05": 0.0,
+          "N02": 0.0,
+          "N03": 0.0,
+          "N06": 0.0,
+          "N04": 0.0
+        }
+      },
+      {
+        "model": "apertus",
+        "construction": "BA",
+        "schema": "UA",
+        "overlap": "SAME",
+        "n": 32,
+        "ba_correct": 29,
+        "bei_correct": 28,
+        "D": -0.03125,
+        "rescues": 0,
+        "harms": 1,
+        "loo_min": -0.03571428571428571,
+        "loo_max": 0.0,
+        "cluster_means": {
+          "N04": 0.0,
+          "N03": 0.0,
+          "N01": 0.0,
+          "N07": -0.25,
+          "N05": 0.0,
+          "N06": 0.0,
+          "N08": 0.0,
+          "N02": 0.0
+        }
+      },
+      {
+        "model": "apertus",
+        "construction": "BA",
+        "schema": "UA",
+        "overlap": "DIFFERENT",
+        "n": 32,
+        "ba_correct": 26,
+        "bei_correct": 19,
+        "D": -0.21875,
+        "rescues": 0,
+        "harms": 7,
+        "loo_min": -0.25,
+        "loo_max": -0.17857142857142858,
+        "cluster_means": {
+          "N01": -0.5,
+          "N08": 0.0,
+          "N07": -0.5,
+          "N05": -0.25,
+          "N02": 0.0,
+          "N03": -0.25,
+          "N06": -0.25,
+          "N04": 0.0
+        }
+      },
+      {
+        "model": "apertus",
+        "construction": "BEI",
+        "schema": "AU",
+        "overlap": "SAME",
+        "n": 32,
+        "ba_correct": 14,
+        "bei_correct": 18,
+        "D": 0.125,
+        "rescues": 4,
+        "harms": 0,
+        "loo_min": 0.10714285714285714,
+        "loo_max": 0.14285714285714285,
+        "cluster_means": {
+          "N03": 0.0,
+          "N06": 0.25,
+          "N04": 0.25,
+          "N08": 0.25,
+          "N01": 0.25,
+          "N05": 0.0,
+          "N02": 0.0,
+          "N07": 0.0
+        }
+      },
+      {
+        "model": "apertus",
+        "construction": "BEI",
+        "schema": "AU",
+        "overlap": "DIFFERENT",
+        "n": 32,
+        "ba_correct": 7,
+        "bei_correct": 12,
+        "D": 0.15625,
+        "rescues": 5,
+        "harms": 0,
+        "loo_min": 0.10714285714285714,
+        "loo_max": 0.17857142857142858,
+        "cluster_means": {
+          "N05": 0.25,
+          "N07": 0.25,
+          "N02": 0.0,
+          "N06": 0.0,
+          "N01": 0.0,
+          "N04": 0.5,
+          "N03": 0.0,
+          "N08": 0.25
+        }
+      },
+      {
+        "model": "apertus",
+        "construction": "BEI",
+        "schema": "UA",
+        "overlap": "SAME",
+        "n": 32,
+        "ba_correct": 30,
+        "bei_correct": 32,
+        "D": 0.0625,
+        "rescues": 2,
+        "harms": 0,
+        "loo_min": 0.0,
+        "loo_max": 0.07142857142857142,
+        "cluster_means": {
+          "N03": 0.0,
+          "N06": 0.0,
+          "N04": 0.0,
+          "N08": 0.5,
+          "N01": 0.0,
+          "N05": 0.0,
+          "N02": 0.0,
+          "N07": 0.0
+        }
+      },
+      {
+        "model": "apertus",
+        "construction": "BEI",
+        "schema": "UA",
+        "overlap": "DIFFERENT",
+        "n": 32,
+        "ba_correct": 31,
+        "bei_correct": 32,
+        "D": 0.03125,
+        "rescues": 1,
+        "harms": 0,
+        "loo_min": 0.0,
+        "loo_max": 0.03571428571428571,
+        "cluster_means": {
+          "N05": 0.0,
+          "N07": 0.0,
+          "N02": 0.0,
+          "N06": 0.0,
+          "N01": 0.0,
+          "N04": 0.0,
+          "N03": 0.0,
+          "N08": 0.25
+        }
+      },
+      {
+        "model": "qwen",
+        "construction": "BA",
+        "schema": "AU",
+        "overlap": "SAME",
+        "n": 32,
+        "ba_correct": 32,
+        "bei_correct": 32,
+        "D": 0.0,
+        "rescues": 0,
+        "harms": 0,
+        "loo_min": 0.0,
+        "loo_max": 0.0,
+        "cluster_means": {
+          "N04": 0.0,
+          "N03": 0.0,
+          "N01": 0.0,
+          "N07": 0.0,
+          "N05": 0.0,
+          "N06": 0.0,
+          "N08": 0.0,
+          "N02": 0.0
+        }
+      },
+      {
+        "model": "qwen",
+        "construction": "BA",
+        "schema": "AU",
+        "overlap": "DIFFERENT",
+        "n": 32,
+        "ba_correct": 32,
+        "bei_correct": 32,
+        "D": 0.0,
+        "rescues": 0,
+        "harms": 0,
+        "loo_min": 0.0,
+        "loo_max": 0.0,
+        "cluster_means": {
+          "N01": 0.0,
+          "N08": 0.0,
+          "N07": 0.0,
+          "N05": 0.0,
+          "N02": 0.0,
+          "N03": 0.0,
+          "N06": 0.0,
+          "N04": 0.0
+        }
+      },
+      {
+        "model": "qwen",
+        "construction": "BA",
+        "schema": "UA",
+        "overlap": "SAME",
+        "n": 32,
+        "ba_correct": 32,
+        "bei_correct": 32,
+        "D": 0.0,
+        "rescues": 0,
+        "harms": 0,
+        "loo_min": 0.0,
+        "loo_max": 0.0,
+        "cluster_means": {
+          "N04": 0.0,
+          "N03": 0.0,
+          "N01": 0.0,
+          "N07": 0.0,
+          "N05": 0.0,
+          "N06": 0.0,
+          "N08": 0.0,
+          "N02": 0.0
+        }
+      },
+      {
+        "model": "qwen",
+        "construction": "BA",
+        "schema": "UA",
+        "overlap": "DIFFERENT",
+        "n": 32,
+        "ba_correct": 32,
+        "bei_correct": 32,
+        "D": 0.0,
+        "rescues": 0,
+        "harms": 0,
+        "loo_min": 0.0,
+        "loo_max": 0.0,
+        "cluster_means": {
+          "N01": 0.0,
+          "N08": 0.0,
+          "N07": 0.0,
+          "N05": 0.0,
+          "N02": 0.0,
+          "N03": 0.0,
+          "N06": 0.0,
+          "N04": 0.0
+        }
+      },
+      {
+        "model": "qwen",
+        "construction": "BEI",
+        "schema": "AU",
+        "overlap": "SAME",
+        "n": 32,
+        "ba_correct": 23,
+        "bei_correct": 27,
+        "D": 0.125,
+        "rescues": 4,
+        "harms": 0,
+        "loo_min": 0.07142857142857142,
+        "loo_max": 0.14285714285714285,
+        "cluster_means": {
+          "N03": 0.0,
+          "N06": 0.0,
+          "N04": 0.0,
+          "N08": 0.0,
+          "N01": 0.5,
+          "N05": 0.0,
+          "N02": 0.5,
+          "N07": 0.0
+        }
+      },
+      {
+        "model": "qwen",
+        "construction": "BEI",
+        "schema": "AU",
+        "overlap": "DIFFERENT",
+        "n": 32,
+        "ba_correct": 24,
+        "bei_correct": 28,
+        "D": 0.125,
+        "rescues": 4,
+        "harms": 0,
+        "loo_min": 0.07142857142857142,
+        "loo_max": 0.14285714285714285,
+        "cluster_means": {
+          "N05": 0.0,
+          "N07": 0.0,
+          "N02": 0.0,
+          "N06": 0.0,
+          "N01": 0.5,
+          "N04": 0.5,
+          "N03": 0.0,
+          "N08": 0.0
+        }
+      },
+      {
+        "model": "qwen",
+        "construction": "BEI",
+        "schema": "UA",
+        "overlap": "SAME",
+        "n": 32,
+        "ba_correct": 28,
+        "bei_correct": 32,
+        "D": 0.125,
+        "rescues": 4,
+        "harms": 0,
+        "loo_min": 0.07142857142857142,
+        "loo_max": 0.14285714285714285,
+        "cluster_means": {
+          "N03": 0.0,
+          "N06": 0.0,
+          "N04": 0.5,
+          "N08": 0.5,
+          "N01": 0.0,
+          "N05": 0.0,
+          "N02": 0.0,
+          "N07": 0.0
+        }
+      },
+      {
+        "model": "qwen",
+        "construction": "BEI",
+        "schema": "UA",
+        "overlap": "DIFFERENT",
+        "n": 32,
+        "ba_correct": 27,
+        "bei_correct": 31,
+        "D": 0.125,
+        "rescues": 4,
+        "harms": 0,
+        "loo_min": 0.07142857142857142,
+        "loo_max": 0.14285714285714285,
+        "cluster_means": {
+          "N05": 0.0,
+          "N07": 0.5,
+          "N02": 0.0,
+          "N06": 0.0,
+          "N01": 0.5,
+          "N04": 0.0,
+          "N03": 0.0,
+          "N08": 0.0
+        }
+      }
+    ],
+    "schema_changes": [
+      {
+        "model": "apertus",
+        "construction": "ALL",
+        "n": 288,
+        "au_correct": 209,
+        "ua_correct": 257,
+        "rescues": 79,
+        "harms": 31
+      },
+      {
+        "model": "apertus",
+        "construction": "BA",
+        "n": 144,
+        "au_correct": 144,
+        "ua_correct": 117,
+        "rescues": 0,
+        "harms": 27
+      },
+      {
+        "model": "apertus",
+        "construction": "BEI",
+        "n": 144,
+        "au_correct": 65,
+        "ua_correct": 140,
+        "rescues": 79,
+        "harms": 4
+      },
+      {
+        "model": "qwen",
+        "construction": "ALL",
+        "n": 288,
+        "au_correct": 262,
+        "ua_correct": 278,
+        "rescues": 23,
+        "harms": 7
+      },
+      {
+        "model": "qwen",
+        "construction": "BA",
+        "n": 144,
+        "au_correct": 144,
+        "ua_correct": 144,
+        "rescues": 0,
+        "harms": 0
+      },
+      {
+        "model": "qwen",
+        "construction": "BEI",
+        "n": 144,
+        "au_correct": 118,
+        "ua_correct": 134,
+        "rescues": 23,
+        "harms": 7
+      }
+    ],
+    "historical_drift": [
+      {
+        "call_id": "B58-apertus-N07-C02-BEI-BA-SAME_BEI_CD-AU",
+        "model": "apertus",
+        "old_content": "C",
+        "new_content": "R"
+      },
+      {
+        "call_id": "B58-apertus-N06-C02-BEI-BA-SAME_BA_DC-AU",
+        "model": "apertus",
+        "old_content": "C",
+        "new_content": "R"
+      },
+      {
+        "call_id": "B58-apertus-N08-C02-BEI-BA-SAME_BA_DC-AU",
+        "model": "apertus",
+        "old_content": "R",
+        "new_content": "C"
+      },
+      {
+        "call_id": "B58-apertus-N04-C02-BEI-BA-SAME_BA_CD-AU",
+        "model": "apertus",
+        "old_content": "C",
+        "new_content": "R"
+      },
+      {
+        "call_id": "B58-apertus-N04-C01-BEI-AB-SAME_BA_DC-AU",
+        "model": "apertus",
+        "old_content": "R",
+        "new_content": "C"
+      },
+      {
+        "call_id": "B58-apertus-N01-C01-BEI-AB-NONE-AU",
+        "model": "apertus",
+        "old_content": "C",
+        "new_content": "R"
+      },
+      {
+        "call_id": "B58-apertus-N04-C01-BEI-AB-DIFFERENT_BA_CD-AU",
+        "model": "apertus",
+        "old_content": "R",
+        "new_content": "C"
+      },
+      {
+        "call_id": "B58-apertus-N07-C02-BEI-BA-SAME_BEI_DC-AU",
+        "model": "apertus",
+        "old_content": "C",
+        "new_content": "R"
+      },
+      {
+        "call_id": "B58-apertus-N04-C02-BEI-BA-DIFFERENT_BEI_CD-AU",
+        "model": "apertus",
+        "old_content": "C",
+        "new_content": "R"
+      },
+      {
+        "call_id": "B58-apertus-N07-C01-BEI-AB-DIFFERENT_BA_CD-AU",
+        "model": "apertus",
+        "old_content": "R",
+        "new_content": "C"
+      }
+    ],
+    "primary_label_verified": "UA_BEI_MIXED",
+    "statistical_scope": "D/J/K point estimates and leave-one recomputed independently; bootstrap intervals retained from frozen executor analysis, not independently regenerated here.",
+    "documentation": "Four Office archives present, source-hash checked and structurally readable; executor full-cell and visual QA retained separately.",
+    "human_review": "PENDING",
+    "independent_human_gold": 0,
+    "automatic_B59": false,
+    "github": "NOT_SYNCED_THIS_CLOSEOUT"
+  }
+}

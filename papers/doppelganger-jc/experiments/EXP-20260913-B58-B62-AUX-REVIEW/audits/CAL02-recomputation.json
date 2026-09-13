@@ -1,0 +1,25 @@
+{
+  "source_sha256": "98630aed89b17eda9544605888b25bd736eff08ddaf9fdfbe1ba72e792cd81cf",
+  "audit": {
+    "status": "PASS_INDEPENDENT_CAL02_RECORD_AND_ARCHIVE_AUDIT",
+    "tasks": 108,
+    "forwards": 446,
+    "positions": 228352,
+    "candidate_scored_tokens": 1360,
+    "prefix_comparisons": 2112,
+    "self_candidate_comparisons": 64,
+    "self_state_comparisons": 208,
+    "generation_count": 20,
+    "norm_head_checks": 4,
+    "old_new_baselines_token_identical": 8,
+    "baseline_content_counts": {
+      "C": 3,
+      "R": 5
+    },
+    "raw_tensor_files_sha_verified": 88,
+    "new_model_calls": 0,
+    "human_review": "PENDING",
+    "independent_human_gold": 0,
+    "interpretation": "Tool calibration passed on the frozen eight examples; five role reversals remain; no donor/sham intervention or causal-role claim."
+  }
+}

@@ -1,0 +1,731 @@
+{
+  "source_sha256": "a6724c09c86e09aef5a67496ea7020962458177d04c131cc2a99ac5840b1f160",
+  "audit": {
+    "status": "PASS_MAIN_INDEPENDENT_CPU_TENSOR_EQUALITY",
+    "candidate_files": 80,
+    "exact_self_pairs": 64,
+    "new_model_calls": 0,
+    "files": [
+      {
+        "file": "CAL02-BASE-AUX-RB-009-C0.pt",
+        "sha256": "3f2cb700545b510e654b5ab4098c119232c20a5d25a45dfd6482664ae13e7544",
+        "tensor_shape": [
+          15,
+          131072
+        ],
+        "task": "CANDIDATE_BASE"
+      },
+      {
+        "file": "CAL02-BASE-AUX-RB-009-C1.pt",
+        "sha256": "6d35a294409f5c3f09a0bb3159919a1de30b6299f0231942df0bdebabd5a2dd0",
+        "tensor_shape": [
+          15,
+          131072
+        ],
+        "task": "CANDIDATE_BASE"
+      },
+      {
+        "file": "CAL02-BASE-AUX-RB-010-C0.pt",
+        "sha256": "38873955d74d25827ca2947b49567aec5d8775c2ad0294d828bd1ce208622436",
+        "tensor_shape": [
+          15,
+          131072
+        ],
+        "task": "CANDIDATE_BASE"
+      },
+      {
+        "file": "CAL02-BASE-AUX-RB-010-C1.pt",
+        "sha256": "fa140a6a90721c4c82a9df654438fd594f07920de51ccb436a3691cbfb01b7e1",
+        "tensor_shape": [
+          15,
+          131072
+        ],
+        "task": "CANDIDATE_BASE"
+      },
+      {
+        "file": "CAL02-BASE-AUX-RB-053-C0.pt",
+        "sha256": "7c028d7be74d9ac61093eed0d4b8e76b6bb094752b3ec910c0c4a0da70459b94",
+        "tensor_shape": [
+          18,
+          131072
+        ],
+        "task": "CANDIDATE_BASE"
+      },
+      {
+        "file": "CAL02-BASE-AUX-RB-053-C1.pt",
+        "sha256": "fdfd435871fefa484cc507008fd60f4e2a0d5d7e04495a580455c5dc95fd7664",
+        "tensor_shape": [
+          18,
+          131072
+        ],
+        "task": "CANDIDATE_BASE"
+      },
+      {
+        "file": "CAL02-BASE-AUX-RB-054-C0.pt",
+        "sha256": "52bb9afec387d86e1331eba347801f8df56b8b7ee33d7f1986af30fd67adda45",
+        "tensor_shape": [
+          18,
+          131072
+        ],
+        "task": "CANDIDATE_BASE"
+      },
+      {
+        "file": "CAL02-BASE-AUX-RB-054-C1.pt",
+        "sha256": "e7d77b3bc4ed9340c18c01a527c7f2632ab213995707454ee9c1fc1c5d4871e3",
+        "tensor_shape": [
+          18,
+          131072
+        ],
+        "task": "CANDIDATE_BASE"
+      },
+      {
+        "file": "CAL02-BASE-AUX-RB-105-C0.pt",
+        "sha256": "23002a09f2cd859592b4bdc18dc52336929cacd0eb3dd39164e23c6e8f9d2919",
+        "tensor_shape": [
+          17,
+          131072
+        ],
+        "task": "CANDIDATE_BASE"
+      },
+      {
+        "file": "CAL02-BASE-AUX-RB-105-C1.pt",
+        "sha256": "3f3a122af84a52dbfa859129d54a7d2131d129c438a26a0534db7ff67c1aea02",
+        "tensor_shape": [
+          17,
+          131072
+        ],
+        "task": "CANDIDATE_BASE"
+      },
+      {
+        "file": "CAL02-BASE-AUX-RB-106-C0.pt",
+        "sha256": "44e79327435b9410693894ce0213f408bf7788df3b04221b2d057cb18ded44e4",
+        "tensor_shape": [
+          17,
+          131072
+        ],
+        "task": "CANDIDATE_BASE"
+      },
+      {
+        "file": "CAL02-BASE-AUX-RB-106-C1.pt",
+        "sha256": "04eec2d4af3380663cea81ad7843c6aff5a8c4a887339b3a4716f22fef9702d4",
+        "tensor_shape": [
+          17,
+          131072
+        ],
+        "task": "CANDIDATE_BASE"
+      },
+      {
+        "file": "CAL02-BASE-AUX-RB-149-C0.pt",
+        "sha256": "67af938f6d66a5ead5ced878643ccd2e6799cdffc59a29cadd9bd57e75e67ce4",
+        "tensor_shape": [
+          18,
+          131072
+        ],
+        "task": "CANDIDATE_BASE"
+      },
+      {
+        "file": "CAL02-BASE-AUX-RB-149-C1.pt",
+        "sha256": "968f4e5da96791963c351e09ef8415a67e9b96883887974447cc03d97bde7008",
+        "tensor_shape": [
+          18,
+          131072
+        ],
+        "task": "CANDIDATE_BASE"
+      },
+      {
+        "file": "CAL02-BASE-AUX-RB-150-C0.pt",
+        "sha256": "86fda576f921060fe794e708db2317bc3c2a00b2aa1064218902ce1340798aeb",
+        "tensor_shape": [
+          18,
+          131072
+        ],
+        "task": "CANDIDATE_BASE"
+      },
+      {
+        "file": "CAL02-BASE-AUX-RB-150-C1.pt",
+        "sha256": "169bc6f8b039d97757cd16b28f478a33c5cf0825df5c58a9f5f6eb75c7b46a13",
+        "tensor_shape": [
+          18,
+          131072
+        ],
+        "task": "CANDIDATE_BASE"
+      },
+      {
+        "file": "CAL02-SELF-AUX-RB-009-C0-L4-R2_END.pt",
+        "sha256": "47d480e91ee29e6212153ae264487d726b85d87abb39cba6917895c19c9bad58",
+        "tensor_shape": [
+          15,
+          131072
+        ],
+        "task": "SELF_CANDIDATE"
+      },
+      {
+        "file": "CAL02-SELF-AUX-RB-009-C0-L16-R1_END.pt",
+        "sha256": "0075d35a7def5bab447605b1e3e881a4912994a567dcca682e76019b2958a5ea",
+        "tensor_shape": [
+          15,
+          131072
+        ],
+        "task": "SELF_CANDIDATE"
+      },
+      {
+        "file": "CAL02-SELF-AUX-RB-009-C0-L24-NATIVE_PROMPT_END.pt",
+        "sha256": "b37e03de0ea32c3c4b8cae7c5e034599d71bd3ab60b19cd030a23ff280f59110",
+        "tensor_shape": [
+          15,
+          131072
+        ],
+        "task": "SELF_CANDIDATE"
+      },
+      {
+        "file": "CAL02-SELF-AUX-RB-009-C0-L32-NATIVE_PROMPT_END.pt",
+        "sha256": "03b34785a05172fbbee125d31ed0e6a8baf79071a1a4d4fe70dac2ad97f3597c",
+        "tensor_shape": [
+          15,
+          131072
+        ],
+        "task": "SELF_CANDIDATE"
+      },
+      {
+        "file": "CAL02-SELF-AUX-RB-009-C1-L4-R2_END.pt",
+        "sha256": "745734e173100a06dbed8dc07da7a09b38423fa728b2e43fc920f21bd0a940d2",
+        "tensor_shape": [
+          15,
+          131072
+        ],
+        "task": "SELF_CANDIDATE"
+      },
+      {
+        "file": "CAL02-SELF-AUX-RB-009-C1-L16-R1_END.pt",
+        "sha256": "6994ac5beacd248a6cba81b8c9aa6fd9ab65de0d127b48880e39d3f00d6a302b",
+        "tensor_shape": [
+          15,
+          131072
+        ],
+        "task": "SELF_CANDIDATE"
+      },
+      {
+        "file": "CAL02-SELF-AUX-RB-009-C1-L24-NATIVE_PROMPT_END.pt",
+        "sha256": "9c54b142ecb3245ed2767a278f19bde4119ed2ba12c63e106f32fa88d1cc0927",
+        "tensor_shape": [
+          15,
+          131072
+        ],
+        "task": "SELF_CANDIDATE"
+      },
+      {
+        "file": "CAL02-SELF-AUX-RB-009-C1-L32-NATIVE_PROMPT_END.pt",
+        "sha256": "ab589fa8a252563fd2a072372505d9883d7d209f8dd695d22905b73c2a9c4a9e",
+        "tensor_shape": [
+          15,
+          131072
+        ],
+        "task": "SELF_CANDIDATE"
+      },
+      {
+        "file": "CAL02-SELF-AUX-RB-010-C0-L4-R2_END.pt",
+        "sha256": "ab6a8e10f75f2e31d3e4e841b047a2ec2f144d90a5268d856d6fdc9a5b86029c",
+        "tensor_shape": [
+          15,
+          131072
+        ],
+        "task": "SELF_CANDIDATE"
+      },
+      {
+        "file": "CAL02-SELF-AUX-RB-010-C0-L16-R1_END.pt",
+        "sha256": "640e882d4da44d1de2404a75ccd5219dc321b77fae568294193af597472e17ec",
+        "tensor_shape": [
+          15,
+          131072
+        ],
+        "task": "SELF_CANDIDATE"
+      },
+      {
+        "file": "CAL02-SELF-AUX-RB-010-C0-L24-NATIVE_PROMPT_END.pt",
+        "sha256": "74359fb6b6c01f813b99aa2a125d25015b5c6d8ddcfa8e2002a0630d5d5fa48d",
+        "tensor_shape": [
+          15,
+          131072
+        ],
+        "task": "SELF_CANDIDATE"
+      },
+      {
+        "file": "CAL02-SELF-AUX-RB-010-C0-L32-NATIVE_PROMPT_END.pt",
+        "sha256": "78b35e8445cea6e2ec44e2b0b7d64b8815f7a612073e70e3f946ac0b01bead19",
+        "tensor_shape": [
+          15,
+          131072
+        ],
+        "task": "SELF_CANDIDATE"
+      },
+      {
+        "file": "CAL02-SELF-AUX-RB-010-C1-L4-R2_END.pt",
+        "sha256": "c08d21d34a8f8a2ec2e2d02d07e38c7f7b93dcb9f5ced28e1dce83527c472d77",
+        "tensor_shape": [
+          15,
+          131072
+        ],
+        "task": "SELF_CANDIDATE"
+      },
+      {
+        "file": "CAL02-SELF-AUX-RB-010-C1-L16-R1_END.pt",
+        "sha256": "b0dfe3ae3e2aae3fd36f391cc9115dd85f4f9791855d01706777bf1e2ae7a8cb",
+        "tensor_shape": [
+          15,
+          131072
+        ],
+        "task": "SELF_CANDIDATE"
+      },
+      {
+        "file": "CAL02-SELF-AUX-RB-010-C1-L24-NATIVE_PROMPT_END.pt",
+        "sha256": "7fc4d7da377f044d60084e18801486cd0d8dd8b79e31acfc6724e9cf702b14e5",
+        "tensor_shape": [
+          15,
+          131072
+        ],
+        "task": "SELF_CANDIDATE"
+      },
+      {
+        "file": "CAL02-SELF-AUX-RB-010-C1-L32-NATIVE_PROMPT_END.pt",
+        "sha256": "87eced3346e0ffdfbdfabcef289ae5fe956244048788a00d0641e1856ea2a76e",
+        "tensor_shape": [
+          15,
+          131072
+        ],
+        "task": "SELF_CANDIDATE"
+      },
+      {
+        "file": "CAL02-SELF-AUX-RB-053-C0-L4-R2_END.pt",
+        "sha256": "71e5742a90477100d720a2618ac0f11ae8610552616837e7442f56a301908bf4",
+        "tensor_shape": [
+          18,
+          131072
+        ],
+        "task": "SELF_CANDIDATE"
+      },
+      {
+        "file": "CAL02-SELF-AUX-RB-053-C0-L16-R1_END.pt",
+        "sha256": "a25168fc2dda2c58633db26611b63da8dbe2dabdc3acae0973320a76bafa20a0",
+        "tensor_shape": [
+          18,
+          131072
+        ],
+        "task": "SELF_CANDIDATE"
+      },
+      {
+        "file": "CAL02-SELF-AUX-RB-053-C0-L24-NATIVE_PROMPT_END.pt",
+        "sha256": "55350087d8f0736cfbf16f8e73875a22ab270a6a96af39e9c7f6b7ce2839dace",
+        "tensor_shape": [
+          18,
+          131072
+        ],
+        "task": "SELF_CANDIDATE"
+      },
+      {
+        "file": "CAL02-SELF-AUX-RB-053-C0-L32-NATIVE_PROMPT_END.pt",
+        "sha256": "31ebde213c2d01de042c6b2fd4b91113ba4cbc9dd0847ddb3b20a9788ee56f80",
+        "tensor_shape": [
+          18,
+          131072
+        ],
+        "task": "SELF_CANDIDATE"
+      },
+      {
+        "file": "CAL02-SELF-AUX-RB-053-C1-L4-R2_END.pt",
+        "sha256": "731262bd139144b3e7905fa9b361a0f9cb574731603f0563be84233b1dc07dfb",
+        "tensor_shape": [
+          18,
+          131072
+        ],
+        "task": "SELF_CANDIDATE"
+      },
+      {
+        "file": "CAL02-SELF-AUX-RB-053-C1-L16-R1_END.pt",
+        "sha256": "5300464b77b03e0de9d7e37be0313841447df9ddb300b76e409fd1e5554e4a54",
+        "tensor_shape": [
+          18,
+          131072
+        ],
+        "task": "SELF_CANDIDATE"
+      },
+      {
+        "file": "CAL02-SELF-AUX-RB-053-C1-L24-NATIVE_PROMPT_END.pt",
+        "sha256": "4cafce4dabb9a7bad44dbb1c69d9c858438a5c644ac9833d0cb2f52aa2261264",
+        "tensor_shape": [
+          18,
+          131072
+        ],
+        "task": "SELF_CANDIDATE"
+      },
+      {
+        "file": "CAL02-SELF-AUX-RB-053-C1-L32-NATIVE_PROMPT_END.pt",
+        "sha256": "ce6f25b8ec84cd0f2b8a1e1e1d03cea756922c6e140ceb0c081627d3a12311aa",
+        "tensor_shape": [
+          18,
+          131072
+        ],
+        "task": "SELF_CANDIDATE"
+      },
+      {
+        "file": "CAL02-SELF-AUX-RB-054-C0-L4-R2_END.pt",
+        "sha256": "80e9455745dbfb186a7e37f965b2b4c9c5cdc42e9f7f42bba15ca08638dcb987",
+        "tensor_shape": [
+          18,
+          131072
+        ],
+        "task": "SELF_CANDIDATE"
+      },
+      {
+        "file": "CAL02-SELF-AUX-RB-054-C0-L16-R1_END.pt",
+        "sha256": "45c7b87c0830e5c5e05b0219d96ac2676e25dfc6b4d22c6f2c7ec9da1ec38ded",
+        "tensor_shape": [
+          18,
+          131072
+        ],
+        "task": "SELF_CANDIDATE"
+      },
+      {
+        "file": "CAL02-SELF-AUX-RB-054-C0-L24-NATIVE_PROMPT_END.pt",
+        "sha256": "1baea8a695b7ec1a0effd125101c59c79334f79da22fd8e16925f3927cba00fe",
+        "tensor_shape": [
+          18,
+          131072
+        ],
+        "task": "SELF_CANDIDATE"
+      },
+      {
+        "file": "CAL02-SELF-AUX-RB-054-C0-L32-NATIVE_PROMPT_END.pt",
+        "sha256": "566f2a8dd8ca3ceb0ee93b52774639ca12472897097051781c1f8013fa1168dd",
+        "tensor_shape": [
+          18,
+          131072
+        ],
+        "task": "SELF_CANDIDATE"
+      },
+      {
+        "file": "CAL02-SELF-AUX-RB-054-C1-L4-R2_END.pt",
+        "sha256": "02faba92d32f3022196886e45670d539b03cb4f72c3f0087a31100e818e3883a",
+        "tensor_shape": [
+          18,
+          131072
+        ],
+        "task": "SELF_CANDIDATE"
+      },
+      {
+        "file": "CAL02-SELF-AUX-RB-054-C1-L16-R1_END.pt",
+        "sha256": "579c6f2d69295b75cdf40b2ebd4b9c3ce7b4ede973a6c326cafb4309c8d0eb6e",
+        "tensor_shape": [
+          18,
+          131072
+        ],
+        "task": "SELF_CANDIDATE"
+      },
+      {
+        "file": "CAL02-SELF-AUX-RB-054-C1-L24-NATIVE_PROMPT_END.pt",
+        "sha256": "0510c5eb4ad248168b3ec6e7599b3e5246804b8d528bed439f2d5eef8cf8d204",
+        "tensor_shape": [
+          18,
+          131072
+        ],
+        "task": "SELF_CANDIDATE"
+      },
+      {
+        "file": "CAL02-SELF-AUX-RB-054-C1-L32-NATIVE_PROMPT_END.pt",
+        "sha256": "e0e0fb09c32b2b5d960b31ae9d5e15f8d38c0381bca540cd39f4219c9e3529c7",
+        "tensor_shape": [
+          18,
+          131072
+        ],
+        "task": "SELF_CANDIDATE"
+      },
+      {
+        "file": "CAL02-SELF-AUX-RB-105-C0-L4-R2_END.pt",
+        "sha256": "3b60db69f8db55f6e13a52c02d519183e8da31325d4a09bf89af4846f24ccc34",
+        "tensor_shape": [
+          17,
+          131072
+        ],
+        "task": "SELF_CANDIDATE"
+      },
+      {
+        "file": "CAL02-SELF-AUX-RB-105-C0-L16-R1_END.pt",
+        "sha256": "dca0788099fbbf6b14b1b2258915531ceb8e4e448250e77a5ae8cb2d5fbde68f",
+        "tensor_shape": [
+          17,
+          131072
+        ],
+        "task": "SELF_CANDIDATE"
+      },
+      {
+        "file": "CAL02-SELF-AUX-RB-105-C0-L24-NATIVE_PROMPT_END.pt",
+        "sha256": "2bfe3172966f7a0f66d3402a9ef734e5ec24527ea5402f388bf3faf44090fb85",
+        "tensor_shape": [
+          17,
+          131072
+        ],
+        "task": "SELF_CANDIDATE"
+      },
+      {
+        "file": "CAL02-SELF-AUX-RB-105-C0-L32-NATIVE_PROMPT_END.pt",
+        "sha256": "25ffed0f8b1119a38ff522cdbc5cce7663dea7617dff9559297fe249e467b3e3",
+        "tensor_shape": [
+          17,
+          131072
+        ],
+        "task": "SELF_CANDIDATE"
+      },
+      {
+        "file": "CAL02-SELF-AUX-RB-105-C1-L4-R2_END.pt",
+        "sha256": "cbf615f791bea8f5495a382b9fdaded5e73b48251f727b59d00406ddd7798ff2",
+        "tensor_shape": [
+          17,
+          131072
+        ],
+        "task": "SELF_CANDIDATE"
+      },
+      {
+        "file": "CAL02-SELF-AUX-RB-105-C1-L16-R1_END.pt",
+        "sha256": "a83dd4c1661de9981969bbc1d17e8fb0bb339d7f4a2fe374b0f589444c7e9347",
+        "tensor_shape": [
+          17,
+          131072
+        ],
+        "task": "SELF_CANDIDATE"
+      },
+      {
+        "file": "CAL02-SELF-AUX-RB-105-C1-L24-NATIVE_PROMPT_END.pt",
+        "sha256": "c282ca74686405f3bcca0cd3cd7b01feba9b29360125ffc0ff9c417178548985",
+        "tensor_shape": [
+          17,
+          131072
+        ],
+        "task": "SELF_CANDIDATE"
+      },
+      {
+        "file": "CAL02-SELF-AUX-RB-105-C1-L32-NATIVE_PROMPT_END.pt",
+        "sha256": "69c58bf6840368a9e60ed2af4917ca2cd94ae2fdfb4f713a1dff8033eef49159",
+        "tensor_shape": [
+          17,
+          131072
+        ],
+        "task": "SELF_CANDIDATE"
+      },
+      {
+        "file": "CAL02-SELF-AUX-RB-106-C0-L4-R2_END.pt",
+        "sha256": "2863a3ad1528433f0a24bf3f864917a77620173d6b161beb8f6072e59baf462e",
+        "tensor_shape": [
+          17,
+          131072
+        ],
+        "task": "SELF_CANDIDATE"
+      },
+      {
+        "file": "CAL02-SELF-AUX-RB-106-C0-L16-R1_END.pt",
+        "sha256": "bb373c42de5b992c23e41d8ba68a69ad852ad3ee1feb756d081cd27ab0b22eeb",
+        "tensor_shape": [
+          17,
+          131072
+        ],
+        "task": "SELF_CANDIDATE"
+      },
+      {
+        "file": "CAL02-SELF-AUX-RB-106-C0-L24-NATIVE_PROMPT_END.pt",
+        "sha256": "e2fa25390afdc24ca1d3a3d75c56bcacffe684e1277c598271b3e8b6eaa5462b",
+        "tensor_shape": [
+          17,
+          131072
+        ],
+        "task": "SELF_CANDIDATE"
+      },
+      {
+        "file": "CAL02-SELF-AUX-RB-106-C0-L32-NATIVE_PROMPT_END.pt",
+        "sha256": "58f02bc18725cf1946853d3ffd30e99251225aa905dbee3dee648020081e9a38",
+        "tensor_shape": [
+          17,
+          131072
+        ],
+        "task": "SELF_CANDIDATE"
+      },
+      {
+        "file": "CAL02-SELF-AUX-RB-106-C1-L4-R2_END.pt",
+        "sha256": "8698bbcdea7268795654a220f97f071e94227ec80cfeefde3148c52a4c33c71c",
+        "tensor_shape": [
+          17,
+          131072
+        ],
+        "task": "SELF_CANDIDATE"
+      },
+      {
+        "file": "CAL02-SELF-AUX-RB-106-C1-L16-R1_END.pt",
+        "sha256": "6474b2c546f8f50a796b2a091dc5547108a9d54a15022e69d2e07458fa579289",
+        "tensor_shape": [
+          17,
+          131072
+        ],
+        "task": "SELF_CANDIDATE"
+      },
+      {
+        "file": "CAL02-SELF-AUX-RB-106-C1-L24-NATIVE_PROMPT_END.pt",
+        "sha256": "bc24054c7a36722fd6012bbc8e3bd76d897b3d192a519980573abd380f2597df",
+        "tensor_shape": [
+          17,
+          131072
+        ],
+        "task": "SELF_CANDIDATE"
+      },
+      {
+        "file": "CAL02-SELF-AUX-RB-106-C1-L32-NATIVE_PROMPT_END.pt",
+        "sha256": "f5c9f2f9b3215ce9b2096bbfd0c40e37dca94497729d1ecfb39f310c5a0faf5f",
+        "tensor_shape": [
+          17,
+          131072
+        ],
+        "task": "SELF_CANDIDATE"
+      },
+      {
+        "file": "CAL02-SELF-AUX-RB-149-C0-L4-R2_END.pt",
+        "sha256": "23767fa6464d8fcfe8f5a8032f752b5050cb1ef1ebe6714c9d057da8f112b8a1",
+        "tensor_shape": [
+          18,
+          131072
+        ],
+        "task": "SELF_CANDIDATE"
+      },
+      {
+        "file": "CAL02-SELF-AUX-RB-149-C0-L16-R1_END.pt",
+        "sha256": "ed2a2bb774c9a0e32febc891bbc7cd9539cb69784403b6c99e45ba0da0ef8b3b",
+        "tensor_shape": [
+          18,
+          131072
+        ],
+        "task": "SELF_CANDIDATE"
+      },
+      {
+        "file": "CAL02-SELF-AUX-RB-149-C0-L24-NATIVE_PROMPT_END.pt",
+        "sha256": "6b8e311f8dc12a2902b78031a64f32e76dc1341a5d22a0ec92b5238c791e4612",
+        "tensor_shape": [
+          18,
+          131072
+        ],
+        "task": "SELF_CANDIDATE"
+      },
+      {
+        "file": "CAL02-SELF-AUX-RB-149-C0-L32-NATIVE_PROMPT_END.pt",
+        "sha256": "955091dbac7a073d90e8a2ca853371da9cf0552f20a3daad3496da9a741f896d",
+        "tensor_shape": [
+          18,
+          131072
+        ],
+        "task": "SELF_CANDIDATE"
+      },
+      {
+        "file": "CAL02-SELF-AUX-RB-149-C1-L4-R2_END.pt",
+        "sha256": "75126c3b66e373f9dfd0705655abb0029ec262bcf3a223f513da7e36b38b6383",
+        "tensor_shape": [
+          18,
+          131072
+        ],
+        "task": "SELF_CANDIDATE"
+      },
+      {
+        "file": "CAL02-SELF-AUX-RB-149-C1-L16-R1_END.pt",
+        "sha256": "5fc050712eaca8c4ec249798d7717a9b48d123e7eda58c97ee4c81c2fa3a9be8",
+        "tensor_shape": [
+          18,
+          131072
+        ],
+        "task": "SELF_CANDIDATE"
+      },
+      {
+        "file": "CAL02-SELF-AUX-RB-149-C1-L24-NATIVE_PROMPT_END.pt",
+        "sha256": "b3057ac541e6db69e44d0ee4214324f7dd8766afa8a2e1a3acd0b532800e2de7",
+        "tensor_shape": [
+          18,
+          131072
+        ],
+        "task": "SELF_CANDIDATE"
+      },
+      {
+        "file": "CAL02-SELF-AUX-RB-149-C1-L32-NATIVE_PROMPT_END.pt",
+        "sha256": "403cab4b197ac95f148aab5298b8f66b5d9210e2ba38ad0e761b6c8be4edf92d",
+        "tensor_shape": [
+          18,
+          131072
+        ],
+        "task": "SELF_CANDIDATE"
+      },
+      {
+        "file": "CAL02-SELF-AUX-RB-150-C0-L4-R2_END.pt",
+        "sha256": "1739b24827991f529b402a43db25fd6a8c8db05e04216e2964460a0d8af3a27e",
+        "tensor_shape": [
+          18,
+          131072
+        ],
+        "task": "SELF_CANDIDATE"
+      },
+      {
+        "file": "CAL02-SELF-AUX-RB-150-C0-L16-R1_END.pt",
+        "sha256": "103b9f549839eda33f91a0e90bc888f0091bb76afc5b1dc61feda4d9eae06ebb",
+        "tensor_shape": [
+          18,
+          131072
+        ],
+        "task": "SELF_CANDIDATE"
+      },
+      {
+        "file": "CAL02-SELF-AUX-RB-150-C0-L24-NATIVE_PROMPT_END.pt",
+        "sha256": "35da5ebbcffbd599fc93ce49725f510a2f75ffaada609b566085f15b739db6cd",
+        "tensor_shape": [
+          18,
+          131072
+        ],
+        "task": "SELF_CANDIDATE"
+      },
+      {
+        "file": "CAL02-SELF-AUX-RB-150-C0-L32-NATIVE_PROMPT_END.pt",
+        "sha256": "c6d5e896e724bd040fe2c93080f6fdbcdf008a7cb3edcd82996a775ca1c6cee4",
+        "tensor_shape": [
+          18,
+          131072
+        ],
+        "task": "SELF_CANDIDATE"
+      },
+      {
+        "file": "CAL02-SELF-AUX-RB-150-C1-L4-R2_END.pt",
+        "sha256": "7fc667c1d17ff9f967dff51123f368f945c54d734754dc24dcddea3db9d51f06",
+        "tensor_shape": [
+          18,
+          131072
+        ],
+        "task": "SELF_CANDIDATE"
+      },
+      {
+        "file": "CAL02-SELF-AUX-RB-150-C1-L16-R1_END.pt",
+        "sha256": "1605b9b92e47225e92dada853fde512d542abe32ce0dd37abd683fda36eea0e6",
+        "tensor_shape": [
+          18,
+          131072
+        ],
+        "task": "SELF_CANDIDATE"
+      },
+      {
+        "file": "CAL02-SELF-AUX-RB-150-C1-L24-NATIVE_PROMPT_END.pt",
+        "sha256": "2dd3aca5ef5728854ca5a8a5386c06a34e2b6b5c2b378eb5693e207b060a97a3",
+        "tensor_shape": [
+          18,
+          131072
+        ],
+        "task": "SELF_CANDIDATE"
+      },
+      {
+        "file": "CAL02-SELF-AUX-RB-150-C1-L32-NATIVE_PROMPT_END.pt",
+        "sha256": "23f86c6cad3f52c3d68f1bd715f4d4dfac33c50000407f88de1054203a541e12",
+        "tensor_shape": [
+          18,
+          131072
+        ],
+        "task": "SELF_CANDIDATE"
+      }
+    ]
+  }
+}

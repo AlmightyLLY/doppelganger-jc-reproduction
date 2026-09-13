@@ -1,0 +1,12 @@
+{
+  "status": "PASS_SECOND_AI_NOT_HUMAN",
+  "at": "2026-09-13T12:51:14.501458+00:00",
+  "instruction_review": [
+    "AU requests actor then undergoer with same definitions and complete names; only output instruction changes",
+    "UA requests identical roles in reversed required order; no supplied candidate names or mapping",
+    "KV punctuation and wording change input as well as output expectation; not a pure output-stage manipulation"
+  ],
+  "structural_checks": "all384 sanitized; all192 exact JSON bridges; paired last-line-only KV change; all name swaps and same-fact background references",
+  "human_review": "PENDING",
+  "independent_human_gold": 0
+}

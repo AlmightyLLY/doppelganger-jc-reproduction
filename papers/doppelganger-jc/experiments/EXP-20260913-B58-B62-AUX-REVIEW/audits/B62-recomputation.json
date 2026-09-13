@@ -1,0 +1,173 @@
+{
+  "source_sha256": "67744c58a37c22425d1a24a5bb5623fd7f70b8849fdbd7e059dd4c479c5cc8f4",
+  "audit": {
+    "status": "PASS_INDEPENDENT_RAW_RECOMPUTATION",
+    "rows": 600,
+    "new_rows": 576,
+    "primary": {
+      "ZERO": {
+        "correct_pairs": 19,
+        "n": 24
+      },
+      "DEMO_F": {
+        "correct_pairs": 24,
+        "n": 24
+      },
+      "DEMO_R": {
+        "correct_pairs": 24,
+        "n": 24
+      }
+    },
+    "calibration": {
+      "ZERO": {
+        "correct_pairs": 47,
+        "n": 48,
+        "cells": {
+          "BA_AU": 12,
+          "BA_UA": 12,
+          "BEI_AU": 12,
+          "BEI_UA": 11
+        }
+      },
+      "DEMO_F": {
+        "correct_pairs": 48,
+        "n": 48,
+        "cells": {
+          "BA_AU": 12,
+          "BA_UA": 12,
+          "BEI_AU": 12,
+          "BEI_UA": 12
+        }
+      },
+      "DEMO_R": {
+        "correct_pairs": 48,
+        "n": 48,
+        "cells": {
+          "BA_AU": 12,
+          "BA_UA": 12,
+          "BEI_AU": 12,
+          "BEI_UA": 12
+        }
+      }
+    },
+    "counts": {
+      "ZERO": {
+        "n": 192,
+        "content": {
+          "C": 182,
+          "R": 8,
+          "OTHER_W": 2
+        },
+        "background_correct": 87,
+        "format_compliant": 192
+      },
+      "DEMO_F": {
+        "n": 192,
+        "content": {
+          "C": 192
+        },
+        "background_correct": 96,
+        "format_compliant": 192
+      },
+      "DEMO_R": {
+        "n": 192,
+        "content": {
+          "C": 192
+        },
+        "background_correct": 96,
+        "format_compliant": 192
+      }
+    },
+    "deltas": {
+      "DEMO_F": {
+        "value": 0.20833333333333334,
+        "leave_one_min": 0.18181818181818182,
+        "leave_one_max": 0.22727272727272727,
+        "bootstrap95": [
+          0.08333333333333333,
+          0.3333333333333333
+        ],
+        "group_means": {
+          "G01": 0.5,
+          "G02": 0.5,
+          "G03": 0.0,
+          "G04": 0.0,
+          "G05": 0.0,
+          "G06": 0.5,
+          "G07": 0.0,
+          "G08": 0.5,
+          "G09": 0.0,
+          "G10": 0.5,
+          "G11": 0.0,
+          "G12": 0.0
+        }
+      },
+      "DEMO_R": {
+        "value": 0.20833333333333334,
+        "leave_one_min": 0.18181818181818182,
+        "leave_one_max": 0.22727272727272727,
+        "bootstrap95": [
+          0.08333333333333333,
+          0.3333333333333333
+        ],
+        "group_means": {
+          "G01": 0.5,
+          "G02": 0.5,
+          "G03": 0.0,
+          "G04": 0.0,
+          "G05": 0.0,
+          "G06": 0.5,
+          "G07": 0.0,
+          "G08": 0.5,
+          "G09": 0.0,
+          "G10": 0.5,
+          "G11": 0.0,
+          "G12": 0.0
+        }
+      }
+    },
+    "transitions": {
+      "DEMO_F": {
+        "rescue": 10,
+        "new_harm": 0,
+        "unresolved": 0,
+        "rescue_ids": [
+          "B62-qwen-G02-BEI-AU-BEI_TOPIC-DEMO_F",
+          "B62-qwen-G08-BEI-AU-BA_TOPIC-DEMO_F",
+          "B62-qwen-G06-BEI-AU-BA_TOPIC-DEMO_F",
+          "B62-qwen-G02-BEI-AU-BA_TOPIC-DEMO_F",
+          "B62-qwen-G10-BEI-UA-BA_TOPIC-DEMO_F",
+          "B62-qwen-G01-BEI-AU-BA_TOPIC-DEMO_F",
+          "B62-qwen-G10-BEI-AU-BA_TOPIC-DEMO_F",
+          "B62-qwen-G02-BEI-UA-NONE_ORIGINAL-DEMO_F",
+          "B62-qwen-G01-BEI-AU-BEI_TOPIC-DEMO_F",
+          "B62-qwen-G10-BEI-AU-BEI_TOPIC-DEMO_F"
+        ],
+        "harm_ids": []
+      },
+      "DEMO_R": {
+        "rescue": 10,
+        "new_harm": 0,
+        "unresolved": 0,
+        "rescue_ids": [
+          "B62-qwen-G02-BEI-AU-BEI_TOPIC-DEMO_R",
+          "B62-qwen-G08-BEI-AU-BA_TOPIC-DEMO_R",
+          "B62-qwen-G06-BEI-AU-BA_TOPIC-DEMO_R",
+          "B62-qwen-G02-BEI-AU-BA_TOPIC-DEMO_R",
+          "B62-qwen-G10-BEI-UA-BA_TOPIC-DEMO_R",
+          "B62-qwen-G01-BEI-AU-BA_TOPIC-DEMO_R",
+          "B62-qwen-G10-BEI-AU-BA_TOPIC-DEMO_R",
+          "B62-qwen-G02-BEI-UA-NONE_ORIGINAL-DEMO_R",
+          "B62-qwen-G01-BEI-AU-BEI_TOPIC-DEMO_R",
+          "B62-qwen-G10-BEI-AU-BEI_TOPIC-DEMO_R"
+        ],
+        "harm_ids": []
+      }
+    },
+    "exact_bridges": 24,
+    "freeze_hash_checks": 26,
+    "primary_label": "REPLICATED_PACKAGE_GAIN",
+    "unresolved": 0,
+    "human_gold": 0
+  }
+}

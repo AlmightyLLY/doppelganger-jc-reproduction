@@ -1,0 +1,86 @@
+{
+  "source_sha256": "052b9568bd33deed64c11e3fb15845eb824f42ca238c2f18f8a053af70371033",
+  "audit": {
+    "status": "PASS_EXISTING_OBSERVATIONAL_RECORDS_RECOMPUTED",
+    "author_labels_checked": 192,
+    "held_out_group_folds_checked": 12,
+    "none_only_training": true,
+    "new_native_outputs_reparsed": 48,
+    "native_counts": {
+      "C": 30,
+      "R": 18
+    },
+    "probe_predictions_checked": 278976,
+    "prediction_kind_counts": {
+      "Q_ONLY": 192,
+      "PROBE": 12672,
+      "PERMUTATION": 253440,
+      "CROSS_BA_TO_BEI": 6336,
+      "CROSS_BEI_TO_BA": 6336
+    },
+    "fit_records": 18228,
+    "figure_group_means_recomputed": 792,
+    "labels_by_subset": {
+      "BACKGROUND": {
+        "1": 48,
+        "0": 48
+      },
+      "NONE": {
+        "1": 48,
+        "0": 48
+      }
+    },
+    "background_labels_by_group": {
+      "F01": {
+        "1": 8
+      },
+      "F02": {
+        "0": 8
+      },
+      "F03": {
+        "1": 8
+      },
+      "F04": {
+        "0": 8
+      },
+      "F05": {
+        "1": 8
+      },
+      "F06": {
+        "0": 8
+      },
+      "F07": {
+        "1": 8
+      },
+      "F08": {
+        "0": 8
+      },
+      "F09": {
+        "1": 8
+      },
+      "F10": {
+        "0": 8
+      },
+      "F11": {
+        "1": 8
+      },
+      "F12": {
+        "0": 8
+      }
+    },
+    "new_model_calls": 0,
+    "independent_human_gold": 0,
+    "limits": [
+      "Background labels balanced overall but constant within each group; NONE includes balanced original/role-swapped facts within groups.",
+      "Near-chance NONE held-out performance does not establish an internal role decoder.",
+      "The conditional lens is teacher-forced readout, not natural generation or causal evidence.",
+      "No donor/sham intervention was run after archived SELF failed."
+    ],
+    "source_sha256": {
+      "AUTHOR-REFERENCES.json": "1610539513ad14b4e6a2b22255e498be44efd145df2be1add3e4895bb6cdb1dd",
+      "PROBE-FOLDS.json": "50a522e386932a47bd72e3006d8da3d8c70bec06b6deafae5a3bd95469b4adb6",
+      "analysis/BASELINE-RESULTS.json": "c5c9cef9cab316b8de05e3f14f2df573620db080554579a01a8f8159961eb941",
+      "analysis/PROBE-PREDICTIONS.jsonl": "25c96aa868e26207b788079a9633088f16b4d0c627a700efdfad076317a97a6b"
+    }
+  }
+}

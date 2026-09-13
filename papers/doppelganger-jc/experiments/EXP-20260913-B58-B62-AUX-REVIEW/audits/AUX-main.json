@@ -1,0 +1,30 @@
+{
+  "source_sha256": "13220a3996158e0de2254ce3022e66abb25bb532bdefefdbc2ea056fa50c4946",
+  "audit": {
+    "status": "ACCEPTED_OBSERVATIONAL_OR_CALIBRATION_RESULT_NOT_HUMAN_VALIDATED",
+    "verified_at_utc": "2026-09-13T14:26:11.246059+00:00",
+    "archive_source_files_verified": 175,
+    "zip_members_including_manifest": 176,
+    "archive_sha256": "b6977b0d1125512c67b8c46e63e7e5c8b513ce08eab5a4eea08f7bf504dd79fe",
+    "archive_bytes": 429095682,
+    "all_zip_members_and_local_sources_sha_match": true,
+    "office_files": [
+      "final_office/角色内部分析校准续行说明.docx",
+      "final_office/角色内部分析校准完整结果.xlsx",
+      "final_office/探针完整结果R1结束.xlsx",
+      "final_office/角色内部分析完整输入.xlsx",
+      "final_office/角色内部分析预注册.docx",
+      "final_office/角色内部分析续行校准审核.xlsx",
+      "final_office/角色内部分析校准暂停总结.docx",
+      "final_office/角色内部分析完整结果.xlsx",
+      "final_office/探针完整结果提示结束.xlsx",
+      "final_office/角色内部分析结果总结.docx"
+    ],
+    "office_verification": "Actual files and archive bytes verified by Main; full cell and all-page/sheet visual QA cited from executor. Main directly inspected scientific figures.",
+    "raw_verification": "Main independently recomputed 11088 saved-representation distance rows,20592 lens records,1188 lens group means,278976 probe predictions,792 probe group means,48 natural outputs. Probe training fits not rerun.",
+    "independent_human_gold": 0,
+    "human_review": "PENDING",
+    "new_model_calls_in_main_review": 0,
+    "donor_sham_intervention_started": false
+  }
+}

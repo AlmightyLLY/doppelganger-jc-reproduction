@@ -1,0 +1,214 @@
+{
+  "batch": "B60",
+  "rows": 1296,
+  "files": [
+    {
+      "path": "evidence/apertus-F01.json",
+      "rows": 54,
+      "content_counts": {
+        "C": 47,
+        "R": 5,
+        "OTHER_W": 2
+      }
+    },
+    {
+      "path": "evidence/apertus-F02.json",
+      "rows": 54,
+      "content_counts": {
+        "C": 41,
+        "R": 8,
+        "U": 2,
+        "OTHER_W": 3
+      }
+    },
+    {
+      "path": "evidence/apertus-F03.json",
+      "rows": 54,
+      "content_counts": {
+        "R": 10,
+        "C": 40,
+        "OTHER_W": 4
+      }
+    },
+    {
+      "path": "evidence/apertus-F04.json",
+      "rows": 54,
+      "content_counts": {
+        "C": 37,
+        "OTHER_W": 9,
+        "R": 8
+      }
+    },
+    {
+      "path": "evidence/apertus-F05.json",
+      "rows": 54,
+      "content_counts": {
+        "C": 45,
+        "OTHER_W": 5,
+        "R": 4
+      }
+    },
+    {
+      "path": "evidence/apertus-F06.json",
+      "rows": 54,
+      "content_counts": {
+        "C": 41,
+        "R": 4,
+        "OTHER_W": 9
+      }
+    },
+    {
+      "path": "evidence/apertus-F07.json",
+      "rows": 54,
+      "content_counts": {
+        "C": 51,
+        "OTHER_W": 3
+      }
+    },
+    {
+      "path": "evidence/apertus-F08.json",
+      "rows": 54,
+      "content_counts": {
+        "C": 33,
+        "R": 8,
+        "OTHER_W": 13
+      }
+    },
+    {
+      "path": "evidence/apertus-F09.json",
+      "rows": 54,
+      "content_counts": {
+        "C": 36,
+        "R": 10,
+        "OTHER_W": 8
+      }
+    },
+    {
+      "path": "evidence/apertus-F10.json",
+      "rows": 54,
+      "content_counts": {
+        "C": 28,
+        "R": 13,
+        "OTHER_W": 13
+      }
+    },
+    {
+      "path": "evidence/apertus-F11.json",
+      "rows": 54,
+      "content_counts": {
+        "R": 8,
+        "C": 43,
+        "OTHER_W": 3
+      }
+    },
+    {
+      "path": "evidence/apertus-F12.json",
+      "rows": 54,
+      "content_counts": {
+        "OTHER_W": 7,
+        "C": 41,
+        "R": 6
+      }
+    },
+    {
+      "path": "evidence/qwen-F01.json",
+      "rows": 54,
+      "content_counts": {
+        "C": 53,
+        "OTHER_W": 1
+      }
+    },
+    {
+      "path": "evidence/qwen-F02.json",
+      "rows": 54,
+      "content_counts": {
+        "C": 52,
+        "R": 2
+      }
+    },
+    {
+      "path": "evidence/qwen-F03.json",
+      "rows": 54,
+      "content_counts": {
+        "C": 54
+      }
+    },
+    {
+      "path": "evidence/qwen-F04.json",
+      "rows": 54,
+      "content_counts": {
+        "C": 51,
+        "R": 3
+      }
+    },
+    {
+      "path": "evidence/qwen-F05.json",
+      "rows": 54,
+      "content_counts": {
+        "C": 54
+      }
+    },
+    {
+      "path": "evidence/qwen-F06.json",
+      "rows": 54,
+      "content_counts": {
+        "C": 54
+      }
+    },
+    {
+      "path": "evidence/qwen-F07.json",
+      "rows": 54,
+      "content_counts": {
+        "C": 53,
+        "R": 1
+      }
+    },
+    {
+      "path": "evidence/qwen-F08.json",
+      "rows": 54,
+      "content_counts": {
+        "C": 52,
+        "R": 2
+      }
+    },
+    {
+      "path": "evidence/qwen-F09.json",
+      "rows": 54,
+      "content_counts": {
+        "C": 54
+      }
+    },
+    {
+      "path": "evidence/qwen-F10.json",
+      "rows": 54,
+      "content_counts": {
+        "C": 54
+      }
+    },
+    {
+      "path": "evidence/qwen-F11.json",
+      "rows": 54,
+      "content_counts": {
+        "C": 54
+      }
+    },
+    {
+      "path": "evidence/qwen-F12.json",
+      "rows": 54,
+      "content_counts": {
+        "C": 52,
+        "R": 2
+      }
+    }
+  ],
+  "content_counts": {
+    "R": 94,
+    "C": 1120,
+    "OTHER_W": 80,
+    "U": 2
+  },
+  "source_scored_results_sha256": "eaf8ddcd683a36a1002d6af1966a2cb00b1cf1617495447459c53a133037ac36",
+  "unit_warning": "Repeated prompts, schemas, conditions and bridge rows are not independent semantic items.",
+  "human_review": "PENDING",
+  "independent_human_gold": 0
+}

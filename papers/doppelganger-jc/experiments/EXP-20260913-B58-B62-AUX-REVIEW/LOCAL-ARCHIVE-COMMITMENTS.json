@@ -1,0 +1,636 @@
+{
+  "public_scope": "Synthetic scientific field extracts, readouts, statistics, figures, analysis code, and native archive commitments. Private Office/human fields and infrastructure logs excluded.",
+  "batches": [
+    {
+      "batch": "B58",
+      "files": [
+        {
+          "file_name": "AUTHOR-REFERENCES.json",
+          "sha256": "16bf9dab679aee29ccf8c4fb612e1d0d72c1f4ae319eea6279825616e7464d66",
+          "bytes": 3563011,
+          "content_public": false
+        },
+        {
+          "file_name": "B58-resume-v2-local-evidence.zip",
+          "sha256": "056b3ffcb83530ec97f96a52680918f77462858fbe4fb9839d848586146115c7",
+          "bytes": 3778264,
+          "content_public": false
+        },
+        {
+          "file_name": "B58恢复版1152输入.xlsx",
+          "sha256": "b50480c2f94e6aec0f7faab8c5735667f2f4457f2e27bb2cd370a96dd15af0d2",
+          "bytes": 150621,
+          "content_public": false
+        },
+        {
+          "file_name": "B58恢复版完整结果.xlsx",
+          "sha256": "99f52a197770a436937c0d4f6ee8a21f8d6eb90f01bd770a24244ce7a44b7393",
+          "bytes": 818499,
+          "content_public": false
+        },
+        {
+          "file_name": "B58恢复版结果总结.docx",
+          "sha256": "846b5f6772f965068986b58550be8de64ed25e4cbf5043593c33e716b8fdfee0",
+          "bytes": 38686,
+          "content_public": false
+        },
+        {
+          "file_name": "B58恢复版运行前方案.docx",
+          "sha256": "32d6d4b7d6c59366e8df8ceee3aa98c4601313a7c6a92fc662116c43378dcfd9",
+          "bytes": 39360,
+          "content_public": false
+        },
+        {
+          "file_name": "EXECUTION-INPUTS.json",
+          "sha256": "3a40472b1442ef9dd8ddf45693d066d339d4ff8427176bcb52f1c8637beee7ba",
+          "bytes": 1445285,
+          "content_public": false
+        },
+        {
+          "file_name": "NATIVE-INPUT-CHECK.json",
+          "sha256": "d9a90dcedc0cbfe9252ef3d3b87e183237b5686f2e357dd67120deb504c4ab6d",
+          "bytes": 5089578,
+          "content_public": false
+        },
+        {
+          "file_name": "SCIENCE-FREEZE.json",
+          "sha256": "bc0d6b10edb3df690b0ac1f4c546b211b5d7db6a91f167f051a678b3a4c856b9",
+          "bytes": 3849,
+          "content_public": false
+        },
+        {
+          "file_name": "run_batch.py",
+          "sha256": "eb9181f74c80b5ecf48abe18ff577f306a42153a7898feb9fa83f20301a8a26f",
+          "bytes": 13339,
+          "content_public": false
+        },
+        {
+          "file_name": "retrieved/run_apertus/RESULTS.json",
+          "sha256": "701fa50b5b2c96df04da83cf4578948d498b4884c9c0948e0ecfc8d8c0f76310",
+          "bytes": 4553352,
+          "content_public": false
+        },
+        {
+          "file_name": "retrieved/run_qwen/RESULTS.json",
+          "sha256": "565d909b33d2bf429e8bb0a77e898ebdd1e17c9bd29324d7720deb61220d38a6",
+          "bytes": 3720691,
+          "content_public": false
+        }
+      ],
+      "human_review": "PENDING",
+      "independent_human_gold": 0
+    },
+    {
+      "batch": "B59",
+      "files": [
+        {
+          "file_name": "AUTHOR-REFERENCES.json",
+          "sha256": "864d452f8a588a1e4aea1d2f47a6c430afc8a0a15d9704125ac69fb14d143b0b",
+          "bytes": 3053961,
+          "content_public": false
+        },
+        {
+          "file_name": "B59-lab-local-evidence.zip",
+          "sha256": "c3ef7d5f8d94a415773b710e22fc16930d51f91d7c11a9cf95b22e16ddb0e94c",
+          "bytes": 3686692,
+          "content_public": false
+        },
+        {
+          "file_name": "B59完整1088输入.xlsx",
+          "sha256": "a29046b1b53f4e3124ecc7d5e1f3e3b8da8ce5c4a840ffab8bdd0b9707f6e736",
+          "bytes": 183253,
+          "content_public": false
+        },
+        {
+          "file_name": "B59完整结果.xlsx",
+          "sha256": "48bab54bd56fb1e4bfa97c09e27abea8ed7002780e1d7dc7235e5476bc9f5c1b",
+          "bytes": 950879,
+          "content_public": false
+        },
+        {
+          "file_name": "B59实验室恢复运行说明.docx",
+          "sha256": "9cc55f4501b31a6e9a668bd7fcab21d2201787f0cba5e68733ea6e9bd83b072a",
+          "bytes": 37953,
+          "content_public": false
+        },
+        {
+          "file_name": "B59结果总结.docx",
+          "sha256": "dad0116a1bcc3406b062843ccaa9182e5d325fef2cf5b97948e55849573a57a7",
+          "bytes": 38763,
+          "content_public": false
+        },
+        {
+          "file_name": "B59运行前方案.docx",
+          "sha256": "73ce608bbeb818ca819e7ec4d97f1ebfd6a3c4ef53fd9c967fa33d2af392fe5c",
+          "bytes": 39279,
+          "content_public": false
+        },
+        {
+          "file_name": "EXECUTION-INPUTS.json",
+          "sha256": "a874b7ad018470985d3d65c5f5f88d3e2e86be2bd8bafb5b7c10438a10569f57",
+          "bytes": 1412197,
+          "content_public": false
+        },
+        {
+          "file_name": "NATIVE-INPUT-CHECK.json",
+          "sha256": "09b0c4dd030adc8fc1e23a926fc98b3539f6ae003f0180b55b5f2102b16d241b",
+          "bytes": 4882481,
+          "content_public": false
+        },
+        {
+          "file_name": "run_batch.py",
+          "sha256": "69bb847e21916325c9cdc1d221ba84ea7be23f47325a09858be28bd356cb25d1",
+          "bytes": 13339,
+          "content_public": false
+        },
+        {
+          "file_name": "retrieved/run_apertus/RESULTS.json",
+          "sha256": "a5fcaba9f6983460ae1489fe2b018cb195ba51bdb41cf864ac2787fbdd089654",
+          "bytes": 4361302,
+          "content_public": false
+        },
+        {
+          "file_name": "retrieved/run_qwen/RESULTS.json",
+          "sha256": "0fa93e31d3a8f275e9f2996db294594535c5257c8d3769b689cff5919cf49150",
+          "bytes": 3594778,
+          "content_public": false
+        }
+      ],
+      "human_review": "PENDING",
+      "independent_human_gold": 0
+    },
+    {
+      "batch": "B60",
+      "files": [
+        {
+          "file_name": "AUTHOR-REFERENCES.json",
+          "sha256": "dc57609594c79287907aaf3f39433ed4339c1bfba2da1fdab2e55c50116358c5",
+          "bytes": 4755567,
+          "content_public": false
+        },
+        {
+          "file_name": "B60-local-evidence.zip",
+          "sha256": "6153ab293695f1292d505cf42a64134b0afcb0e5455407b2cb11cc63566d7774",
+          "bytes": 5102507,
+          "content_public": false
+        },
+        {
+          "file_name": "B60完整1296输入.xlsx",
+          "sha256": "2655935057cb17aee33a16b814c9c76f23901d05b1ed1de269686ba9c656a5de",
+          "bytes": 144794,
+          "content_public": false
+        },
+        {
+          "file_name": "B60完整结果.xlsx",
+          "sha256": "49a0bc8ead9c4465465832108d301af06fa62b74da3c057f0bf4b208c6a6c40a",
+          "bytes": 1059193,
+          "content_public": false
+        },
+        {
+          "file_name": "B60结果总结.docx",
+          "sha256": "ed2dc9a7410ad4b5cbe8b66ac97ca6a08554733442fb21dfe074448b395e6ebd",
+          "bytes": 38623,
+          "content_public": false
+        },
+        {
+          "file_name": "B60运行前方案.docx",
+          "sha256": "2f189323e50e81641981aeccad75bfccd0d9db4c9c74635ce9fd2c6ad9cd4cf0",
+          "bytes": 39160,
+          "content_public": false
+        },
+        {
+          "file_name": "EXECUTION-INPUTS.json",
+          "sha256": "008c4a9de42f75bed56121ea958419f0bf24a3feb30ebfc8faf855c75fbc8357",
+          "bytes": 2463504,
+          "content_public": false
+        },
+        {
+          "file_name": "NATIVE-INPUT-CHECK.json",
+          "sha256": "20925eb2fb41fedb6bb3d1f71275f7bd8fd5beba45b3f7a243335b37f3721435",
+          "bytes": 9939815,
+          "content_public": false
+        },
+        {
+          "file_name": "SCIENCE-FREEZE.json",
+          "sha256": "d2aae5b7f4377e18467b095fea7dc51e05373502c74a754330036bcf297cd27b",
+          "bytes": 2091,
+          "content_public": false
+        },
+        {
+          "file_name": "TECHNICAL-FREEZE.json",
+          "sha256": "12e2ab121582561443e516e18779339d595fafcf3efffd7e74c90444a23d6d8f",
+          "bytes": 456,
+          "content_public": false
+        },
+        {
+          "file_name": "run_batch.py",
+          "sha256": "3def2680d70ff358e5dea1c169f9653ca429c189c039a025a8a09ffc3a61aed4",
+          "bytes": 13339,
+          "content_public": false
+        },
+        {
+          "file_name": "retrieved/run_apertus/RESULTS.json",
+          "sha256": "29131af955b110f7012014cf7dd33c3d5aad1cb5919522dadb834a3ac04c1008",
+          "bytes": 8199701,
+          "content_public": false
+        },
+        {
+          "file_name": "retrieved/run_qwen/RESULTS.json",
+          "sha256": "92c5dc2c8466b58fbd93ff430eb99588a40a527fa31efe20ede5455d0a314089",
+          "bytes": 6992750,
+          "content_public": false
+        }
+      ],
+      "human_review": "PENDING",
+      "independent_human_gold": 0
+    },
+    {
+      "batch": "B61",
+      "files": [
+        {
+          "file_name": "AUTHOR-REFERENCES.json",
+          "sha256": "fd83563be216e79b1e8a91cbc847883a3d704f27f4375fc3b8415af31996d742",
+          "bytes": 1157127,
+          "content_public": false
+        },
+        {
+          "file_name": "B61-local-evidence.zip",
+          "sha256": "3027ae8606bc64dbb16e25e11841818ab2458a3fcfa5f18610aa0428cd4c632a",
+          "bytes": 1395220,
+          "content_public": false
+        },
+        {
+          "file_name": "B61完整384输入.xlsx",
+          "sha256": "9d1847873beddd78fcc8bfa75ce404290f575f197bea820f8b3efc7542fc2c3a",
+          "bytes": 39193,
+          "content_public": false
+        },
+        {
+          "file_name": "B61完整结果.xlsx",
+          "sha256": "528218b48689fffbfa316617c1043861647353f6a686c5db7d0ebfeb887f070a",
+          "bytes": 282510,
+          "content_public": false
+        },
+        {
+          "file_name": "B61结果总结.docx",
+          "sha256": "9fcbbca83a23145cdc7e63707eccd7c551e0d4267efa69a86bce662558809c11",
+          "bytes": 38532,
+          "content_public": false
+        },
+        {
+          "file_name": "B61运行前方案.docx",
+          "sha256": "43e034b74686aa1efcc535712770e126aca6fb2c2e853463af9cdc12e4fd79b5",
+          "bytes": 38900,
+          "content_public": false
+        },
+        {
+          "file_name": "EXECUTION-INPUTS.json",
+          "sha256": "c32f97480cbc7c405620d4a3d971deed8fdbf7bb0477f1d4a3449cdd7848aff7",
+          "bytes": 472620,
+          "content_public": false
+        },
+        {
+          "file_name": "NATIVE-INPUT-CHECK.json",
+          "sha256": "dc406b08d249dcd735cdb1a83a7e7d8601a17f7f6cef1a7ead7bb1348b5054d7",
+          "bytes": 1918941,
+          "content_public": false
+        },
+        {
+          "file_name": "SCIENCE-FREEZE.json",
+          "sha256": "9f5c24cc412eb44e750def50bd0c03b1b5daecd488e21f1d78cd0fef1e705fd0",
+          "bytes": 2050,
+          "content_public": false
+        },
+        {
+          "file_name": "TECHNICAL-FREEZE.json",
+          "sha256": "a7590f14105f2e053130af4f58d924ebf618df7cf6836f804f322418eb1dba60",
+          "bytes": 399,
+          "content_public": false
+        },
+        {
+          "file_name": "run_batch.py",
+          "sha256": "3d2de9c5ff02def751e9f37585c130058b3ae085b5b7c5e34cd8be9a227f1c9d",
+          "bytes": 13324,
+          "content_public": false
+        },
+        {
+          "file_name": "retrieved/run_apertus/RESULTS.json",
+          "sha256": "8e08119f8bf5e6c7e2398f4318a81a0ab59bcfd8c0c5fff37816a4765cad85b9",
+          "bytes": 2948088,
+          "content_public": false
+        }
+      ],
+      "human_review": "PENDING",
+      "independent_human_gold": 0
+    },
+    {
+      "batch": "B62",
+      "files": [
+        {
+          "file_name": "AUTHOR-REFERENCES.json",
+          "sha256": "6707b697eaa6ede901e2126618161ab9fe2c3fa916e4c76dbcb33e5415a150d8",
+          "bytes": 2039699,
+          "content_public": false
+        },
+        {
+          "file_name": "B62-local-evidence.zip",
+          "sha256": "1b1b0bca3b3de186a9b34f47f042931adc70fcc2a8a86849c98b3de247448aa9",
+          "bytes": 1993868,
+          "content_public": false
+        },
+        {
+          "file_name": "B62完整600输入.xlsx",
+          "sha256": "c7fa2ffe8fa84ed04e42058f0f0ea799e28339566f38f4b23c5d027ab536fcf5",
+          "bytes": 58992,
+          "content_public": false
+        },
+        {
+          "file_name": "B62完整结果.xlsx",
+          "sha256": "714da904537cd03f4ea83c908217e11916b771db9346be84562ac6d52553d0a2",
+          "bytes": 371112,
+          "content_public": false
+        },
+        {
+          "file_name": "B62结果总结.docx",
+          "sha256": "73ba8c74f1fce16c3e34b82a185733b62df46b044902650b02e2855a90f43d41",
+          "bytes": 38583,
+          "content_public": false
+        },
+        {
+          "file_name": "B62运行前方案.docx",
+          "sha256": "334e0fce00429da74cf4eb2dde0f18015846d29e4731a9fa71fabfb70232d814",
+          "bytes": 38790,
+          "content_public": false
+        },
+        {
+          "file_name": "EXECUTION-INPUTS.json",
+          "sha256": "decee6f7df548129497aad25abe8d3a12e99c6f0905c06b75f5154946a91a3bd",
+          "bytes": 1142836,
+          "content_public": false
+        },
+        {
+          "file_name": "NATIVE-INPUT-CHECK.json",
+          "sha256": "3f937686ecc10e0e8758779b67c1e37b22db81c1380234675b414e5f030b949f",
+          "bytes": 4049568,
+          "content_public": false
+        },
+        {
+          "file_name": "SCIENCE-FREEZE.json",
+          "sha256": "8c298afeb09f679c3391f9b66327fea2dea0cea61a28f964e8857e62cb6257a6",
+          "bytes": 2321,
+          "content_public": false
+        },
+        {
+          "file_name": "TECHNICAL-FREEZE.json",
+          "sha256": "457f5d7fb3429a92a8b8b7ffd1d30450d35330cd09b2dce19963fd7d9c0aa1f3",
+          "bytes": 399,
+          "content_public": false
+        },
+        {
+          "file_name": "run_batch.py",
+          "sha256": "432b52bb2c03b23f42e71b4e7b61cc004dc8b6a2a5fdc4374129d6d798ac9845",
+          "bytes": 13321,
+          "content_public": false
+        },
+        {
+          "file_name": "retrieved/run_qwen/RESULTS.json",
+          "sha256": "2d0f41d64e357ca4df987843d38f46e7fb542aafc3bce0f41933f1c8a4012537",
+          "bytes": 6495163,
+          "content_public": false
+        }
+      ],
+      "human_review": "PENDING",
+      "independent_human_gold": 0
+    },
+    {
+      "batch": "AUX",
+      "files": [
+        {
+          "file_name": "AUTHOR-REFERENCES.json",
+          "sha256": "1610539513ad14b4e6a2b22255e498be44efd145df2be1add3e4895bb6cdb1dd",
+          "bytes": 752895,
+          "content_public": false
+        },
+        {
+          "file_name": "EXECUTION-INPUTS.json",
+          "sha256": "03d9821a332f278ccf1c96247e18d483b1ad10d9700957d9b8533627a49908ec",
+          "bytes": 158035,
+          "content_public": false
+        },
+        {
+          "file_name": "TOKEN-MANIFEST.json",
+          "sha256": "be48319f4fc4450c192af48f06e36072d431aad029a75456d6e96a384d5e6337",
+          "bytes": 2060844,
+          "content_public": false
+        },
+        {
+          "file_name": "analyze_observations.py",
+          "sha256": "f2ca35dd32b991ef12ba222a6c217864e1b875ead3c101d41a7c56b33f3cb6e8",
+          "bytes": 5141,
+          "content_public": false
+        },
+        {
+          "file_name": "resume_runner.py",
+          "sha256": "7ae2513ad5228d3185e55f20ed58852b050540a8f12fbcf57474d2a53f325e92",
+          "bytes": 14169,
+          "content_public": false
+        },
+        {
+          "file_name": "runner.py",
+          "sha256": "b03b4680fbdcb365959d25198c181c1e0d31f7188360bcd3f69110a2d0f6c316",
+          "bytes": 14550,
+          "content_public": false
+        },
+        {
+          "file_name": "角色内部分析完整输入.xlsx",
+          "sha256": "839faf2a714c4dbe79ddf0a485ebf3741e2ed3baa91c901e1e75b35107656587",
+          "bytes": 68729,
+          "content_public": false
+        },
+        {
+          "file_name": "角色内部分析预注册.docx",
+          "sha256": "c2880c356b825106482cd42356f03f40aeb6ea77451e7c828200fa3f320ef96f",
+          "bytes": 38776,
+          "content_public": false
+        },
+        {
+          "file_name": "final_office/探针完整结果R1结束.xlsx",
+          "sha256": "bc3513d20db50423b871cc1223c2f2daf3d194b1d0668e7a9eb9e06a8350c85c",
+          "bytes": 2662683,
+          "content_public": false
+        },
+        {
+          "file_name": "final_office/探针完整结果提示结束.xlsx",
+          "sha256": "8b578e5f6ad5ceed98b73155b8a8dada9a87c199f96bf2a33f8f196d79b3937d",
+          "bytes": 2663996,
+          "content_public": false
+        },
+        {
+          "file_name": "final_office/角色内部分析完整结果.xlsx",
+          "sha256": "ddef38ee9d0caf04d22c5349855eab04b6d3bb65a81949e4dea4fc3e25db4b94",
+          "bytes": 4687170,
+          "content_public": false
+        },
+        {
+          "file_name": "final_office/角色内部分析完整输入.xlsx",
+          "sha256": "839faf2a714c4dbe79ddf0a485ebf3741e2ed3baa91c901e1e75b35107656587",
+          "bytes": 68729,
+          "content_public": false
+        },
+        {
+          "file_name": "final_office/角色内部分析校准完整结果.xlsx",
+          "sha256": "78916e06ed8af1b51e7991d42c846c7e5bb57802a79f28607d74630d77342cac",
+          "bytes": 326223,
+          "content_public": false
+        },
+        {
+          "file_name": "final_office/角色内部分析校准暂停总结.docx",
+          "sha256": "119c29338a5f7b4b27c21f589073740194ca76c4d3cac94bd25bbe74ba2e8f74",
+          "bytes": 126097,
+          "content_public": false
+        },
+        {
+          "file_name": "final_office/角色内部分析校准续行说明.docx",
+          "sha256": "b3d946818f97f0d948306e745d8a50e5b22e3710ff0b396f2188602a8e70c9cf",
+          "bytes": 126385,
+          "content_public": false
+        },
+        {
+          "file_name": "final_office/角色内部分析结果总结.docx",
+          "sha256": "02c004398435949132597d7092cb5c0807f8313102af6a562de9c76a3bb3cee0",
+          "bytes": 116038,
+          "content_public": false
+        },
+        {
+          "file_name": "final_office/角色内部分析续行校准审核.xlsx",
+          "sha256": "1075a6c98e0a040e77869f3e496f8c9b3c36597ab4f42263235066527e3a7801",
+          "bytes": 326470,
+          "content_public": false
+        },
+        {
+          "file_name": "final_office/角色内部分析预注册.docx",
+          "sha256": "c2880c356b825106482cd42356f03f40aeb6ea77451e7c828200fa3f320ef96f",
+          "bytes": 38776,
+          "content_public": false
+        },
+        {
+          "file_name": "AUX-ROLE-BINDING-01完整归档.zip",
+          "sha256": "b6977b0d1125512c67b8c46e63e7e5c8b513ce08eab5a4eea08f7bf504dd79fe",
+          "bytes": 429095682,
+          "content_public": false
+        },
+        {
+          "file_name": "results/REPRESENTATIONS-PORTABLE.npz",
+          "sha256": "add3d98b3b94180fa29817a510c7134d5bf78cd7cee7dbf039770d96fb73f67f",
+          "bytes": 169623226,
+          "content_public": false
+        },
+        {
+          "file_name": "results_continuation/QUERY-PORTABLE.npz",
+          "sha256": "53dd4abd26392291fa246d924a3bfbddbb156157f1e2408b9bfaa0efe749986e",
+          "bytes": 2953446,
+          "content_public": false
+        },
+        {
+          "file_name": "analysis/projection.npy",
+          "sha256": "291fd776b35747fa488d70d00cab6ad94dce123849742cb732fa3af77ff8540b",
+          "bytes": 2097280,
+          "content_public": false
+        },
+        {
+          "file_name": "analysis/PROBE-PREDICTIONS.jsonl",
+          "sha256": "25c96aa868e26207b788079a9633088f16b4d0c627a700efdfad076317a97a6b",
+          "bytes": 102176898,
+          "content_public": true
+        },
+        {
+          "file_name": "results_continuation/LENS.jsonl",
+          "sha256": "c46eab8cc7b90cf506f5aec138f1ae0eb14cf39b13e42ed0deded0335c27ecec",
+          "bytes": 19630118,
+          "content_public": true
+        }
+      ],
+      "human_review": "PENDING",
+      "independent_human_gold": 0
+    },
+    {
+      "batch": "AUX-CAL-02",
+      "files": [
+        {
+          "file_name": "AUTHOR-REFERENCES.json",
+          "sha256": "a6c4ec21790afe6784a661c8a4ddc60de57eefe42981697483d480ca26f312ea",
+          "bytes": 33908,
+          "content_public": false
+        },
+        {
+          "file_name": "EXECUTION-INPUTS.json",
+          "sha256": "4a71a9b71f7136afe9828b4d11181da2adc6dc07efc66c218b9f754e629ab710",
+          "bytes": 72798,
+          "content_public": false
+        },
+        {
+          "file_name": "runner.py",
+          "sha256": "73496877a01820dec1a4a146db6329a81f7fa7d0551a5bd95d97760332e3e463",
+          "bytes": 7903,
+          "content_public": false
+        },
+        {
+          "file_name": "固定计算形状校准输入.xlsx",
+          "sha256": "072c823435cd54cee58dd3ed8975e75813ac0aac7ec62c60f2e5ee6d531ce953",
+          "bytes": 11734,
+          "content_public": false
+        },
+        {
+          "file_name": "固定计算形状校准预注册.docx",
+          "sha256": "963b5df7aba8660b28033edc2e8cd20a4fc436387e060de5d159f97edb2ebd89",
+          "bytes": 38257,
+          "content_public": false
+        },
+        {
+          "file_name": "final_office/固定计算形状校准完整结果.xlsx",
+          "sha256": "b10d48919955bec5c789aac2ecb9099c1ffe9bec84d8e13aa5b9cc72b5b4ee53",
+          "bytes": 73663,
+          "content_public": false
+        },
+        {
+          "file_name": "final_office/固定计算形状校准结果.docx",
+          "sha256": "3763cccd71201c713ec36d90089f198924694d41ffab626f153b24897b6ac973",
+          "bytes": 79345,
+          "content_public": false
+        },
+        {
+          "file_name": "final_office/固定计算形状校准输入.xlsx",
+          "sha256": "072c823435cd54cee58dd3ed8975e75813ac0aac7ec62c60f2e5ee6d531ce953",
+          "bytes": 11734,
+          "content_public": false
+        },
+        {
+          "file_name": "final_office/固定计算形状校准预注册.docx",
+          "sha256": "963b5df7aba8660b28033edc2e8cd20a4fc436387e060de5d159f97edb2ebd89",
+          "bytes": 38257,
+          "content_public": false
+        },
+        {
+          "file_name": "AUX-CAL-02完整归档.zip",
+          "sha256": "1be2dfe8c05bdc75afa7f6c3140684e00641430f7fdc27bbef46d627035c2d0f",
+          "bytes": 287901763,
+          "content_public": false
+        },
+        {
+          "file_name": "RAW-TENSOR-SHA256.txt",
+          "sha256": "55b4f5111e53090086dec881dbd361e93cade4d3e89207d35c7a791ebefa2554",
+          "bytes": 9968,
+          "content_public": false
+        },
+        {
+          "file_name": "FREEZE.json",
+          "sha256": "d3be2474b5834440902898443f61af915a28293eb86f5b2c728a52fe80e80e8c",
+          "bytes": 997,
+          "content_public": false
+        }
+      ],
+      "human_review": "PENDING",
+      "independent_human_gold": 0
+    }
+  ]
+}

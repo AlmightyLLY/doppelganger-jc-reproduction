@@ -1,0 +1,142 @@
+{
+  "status": "PASS_SECOND_AI_NOT_HUMAN",
+  "at": "2026-09-13T13:40:28.264335+00:00",
+  "all12_target_pairs_read": [
+    {
+      "group_id": "G01",
+      "read_BA": "R1：站立训练已经结束。邵文卓确实把梁思涵扶稳了。",
+      "read_BEI": "R1：站立训练已经结束。梁思涵确实被邵文卓扶稳了。",
+      "role_reading": {
+        "actor": "邵文卓",
+        "undergoer": "梁思涵"
+      },
+      "judgment": "PASS_AI_DEVELOPMENT",
+      "reason": "肯定把句的把前人物与被句的被后人物均为动作或致使者；另一人物为受影响者"
+    },
+    {
+      "group_id": "G02",
+      "read_BA": "R1：拥抱练习已经结束。侯语桐确实把汪承远抱住了。",
+      "read_BEI": "R1：拥抱练习已经结束。汪承远确实被侯语桐抱住了。",
+      "role_reading": {
+        "actor": "侯语桐",
+        "undergoer": "汪承远"
+      },
+      "judgment": "PASS_AI_DEVELOPMENT",
+      "reason": "肯定把句的把前人物与被句的被后人物均为动作或致使者；另一人物为受影响者"
+    },
+    {
+      "group_id": "G03",
+      "read_BA": "R1：门口的对峙已经结束。鲍景辰确实把苗亦晴吓退了。",
+      "read_BEI": "R1：门口的对峙已经结束。苗亦晴确实被鲍景辰吓退了。",
+      "role_reading": {
+        "actor": "鲍景辰",
+        "undergoer": "苗亦晴"
+      },
+      "judgment": "PASS_AI_DEVELOPMENT",
+      "reason": "肯定把句的把前人物与被句的被后人物均为动作或致使者；另一人物为受影响者"
+    },
+    {
+      "group_id": "G04",
+      "read_BA": "R1：早晨的叫醒安排已经完成。费雨荷确实把葛明轩喊醒了。",
+      "read_BEI": "R1：早晨的叫醒安排已经完成。葛明轩确实被费雨荷喊醒了。",
+      "role_reading": {
+        "actor": "费雨荷",
+        "undergoer": "葛明轩"
+      },
+      "judgment": "PASS_AI_DEVELOPMENT",
+      "reason": "肯定把句的把前人物与被句的被后人物均为动作或致使者；另一人物为受影响者"
+    },
+    {
+      "group_id": "G05",
+      "read_BA": "R1：赛场上的碰撞已经结束。郝安澈确实把熊若珊撞翻了。",
+      "read_BEI": "R1：赛场上的碰撞已经结束。熊若珊确实被郝安澈撞翻了。",
+      "role_reading": {
+        "actor": "郝安澈",
+        "undergoer": "熊若珊"
+      },
+      "judgment": "PASS_AI_DEVELOPMENT",
+      "reason": "肯定把句的把前人物与被句的被后人物均为动作或致使者；另一人物为受影响者"
+    },
+    {
+      "group_id": "G06",
+      "read_BA": "R1：舞台上的拥抱动作已经完成。翟景然确实把秦知遥抱紧了。",
+      "read_BEI": "R1：舞台上的拥抱动作已经完成。秦知遥确实被翟景然抱紧了。",
+      "role_reading": {
+        "actor": "翟景然",
+        "undergoer": "秦知遥"
+      },
+      "judgment": "PASS_AI_DEVELOPMENT",
+      "reason": "肯定把句的把前人物与被句的被后人物均为动作或致使者；另一人物为受影响者"
+    },
+    {
+      "group_id": "G07",
+      "read_BA": "R1：跌倒后的救助已经结束。石言蹊确实把武若兰拉起了。",
+      "read_BEI": "R1：跌倒后的救助已经结束。武若兰确实被石言蹊拉起了。",
+      "role_reading": {
+        "actor": "石言蹊",
+        "undergoer": "武若兰"
+      },
+      "judgment": "PASS_AI_DEVELOPMENT",
+      "reason": "肯定把句的把前人物与被句的被后人物均为动作或致使者；另一人物为受影响者"
+    },
+    {
+      "group_id": "G08",
+      "read_BA": "R1：门口的争执已经平息。兰思齐确实把冯书然劝走了。",
+      "read_BEI": "R1：门口的争执已经平息。冯书然确实被兰思齐劝走了。",
+      "role_reading": {
+        "actor": "兰思齐",
+        "undergoer": "冯书然"
+      },
+      "judgment": "PASS_AI_DEVELOPMENT",
+      "reason": "肯定把句的把前人物与被句的被后人物均为动作或致使者；另一人物为受影响者"
+    },
+    {
+      "group_id": "G09",
+      "read_BA": "R1：场上的奔跑训练已经结束。陶亦航确实把乔清宁叫停了。",
+      "read_BEI": "R1：场上的奔跑训练已经结束。乔清宁确实被陶亦航叫停了。",
+      "role_reading": {
+        "actor": "陶亦航",
+        "undergoer": "乔清宁"
+      },
+      "judgment": "PASS_AI_DEVELOPMENT",
+      "reason": "给定奔跑训练，叫停作用于人并使其停止，actor为发出制止者"
+    },
+    {
+      "group_id": "G10",
+      "read_BA": "R1：队员外出的插曲已经结束。郑思妍确实把池沐川赶回来了。",
+      "read_BEI": "R1：队员外出的插曲已经结束。池沐川确实被郑思妍赶回来了。",
+      "role_reading": {
+        "actor": "郑思妍",
+        "undergoer": "池沐川"
+      },
+      "judgment": "PASS_AI_DEVELOPMENT",
+      "reason": "把被标记将赶回的使动者和被赶回者区分；回来方向参照未固定但不改变两人角色"
+    },
+    {
+      "group_id": "G11",
+      "read_BA": "R1：休息室里的玩笑已经结束。殷嘉树确实把任听澜逗哭了。",
+      "read_BEI": "R1：休息室里的玩笑已经结束。任听澜确实被殷嘉树逗哭了。",
+      "role_reading": {
+        "actor": "殷嘉树",
+        "undergoer": "任听澜"
+      },
+      "judgment": "PASS_AI_DEVELOPMENT",
+      "reason": "玩笑导致哭的结果性读法明确，不能把逗预设为愉悦"
+    },
+    {
+      "group_id": "G12",
+      "read_BA": "R1：走廊里的碰撞已经结束。周怀瑾确实把谭映舟绊倒了。",
+      "read_BEI": "R1：走廊里的碰撞已经结束。谭映舟确实被周怀瑾绊倒了。",
+      "role_reading": {
+        "actor": "周怀瑾",
+        "undergoer": "谭映舟"
+      },
+      "judgment": "PASS_AI_DEVELOPMENT",
+      "reason": "肯定把句的把前人物与被句的被后人物均为动作或致使者；另一人物为受影响者"
+    }
+  ],
+  "structural_checks": "600 isolated inputs,24 bridges,576 new role/name/samefact checks,fixed demo exact",
+  "limits": "Synthetic template and circular background verbs remain dependent; OSV demo still no independent human validation",
+  "human_review": "PENDING",
+  "independent_human_gold": 0
+}

@@ -1,0 +1,269 @@
+{
+  "batch": "B59",
+  "rows": 1088,
+  "files": [
+    {
+      "path": "evidence/apertus-F01.json",
+      "rows": 44,
+      "content_counts": {
+        "C": 37,
+        "R": 7
+      }
+    },
+    {
+      "path": "evidence/apertus-F02.json",
+      "rows": 44,
+      "content_counts": {
+        "C": 28,
+        "R": 8,
+        "U": 2,
+        "OTHER_W": 6
+      }
+    },
+    {
+      "path": "evidence/apertus-F03.json",
+      "rows": 44,
+      "content_counts": {
+        "C": 32,
+        "R": 12
+      }
+    },
+    {
+      "path": "evidence/apertus-F04.json",
+      "rows": 44,
+      "content_counts": {
+        "C": 25,
+        "R": 19
+      }
+    },
+    {
+      "path": "evidence/apertus-F05.json",
+      "rows": 44,
+      "content_counts": {
+        "C": 37,
+        "R": 5,
+        "OTHER_W": 2
+      }
+    },
+    {
+      "path": "evidence/apertus-F06.json",
+      "rows": 44,
+      "content_counts": {
+        "C": 34,
+        "R": 10
+      }
+    },
+    {
+      "path": "evidence/apertus-F07.json",
+      "rows": 44,
+      "content_counts": {
+        "C": 39,
+        "OTHER_W": 2,
+        "R": 3
+      }
+    },
+    {
+      "path": "evidence/apertus-F08.json",
+      "rows": 44,
+      "content_counts": {
+        "R": 19,
+        "C": 25
+      }
+    },
+    {
+      "path": "evidence/apertus-F09.json",
+      "rows": 44,
+      "content_counts": {
+        "C": 31,
+        "R": 13
+      }
+    },
+    {
+      "path": "evidence/apertus-F10.json",
+      "rows": 44,
+      "content_counts": {
+        "R": 20,
+        "C": 23,
+        "OTHER_W": 1
+      }
+    },
+    {
+      "path": "evidence/apertus-F11.json",
+      "rows": 44,
+      "content_counts": {
+        "C": 35,
+        "R": 9
+      }
+    },
+    {
+      "path": "evidence/apertus-F12.json",
+      "rows": 44,
+      "content_counts": {
+        "C": 33,
+        "R": 11
+      }
+    },
+    {
+      "path": "evidence/apertus-N01-C01.json",
+      "rows": 4,
+      "content_counts": {
+        "R": 1,
+        "C": 3
+      }
+    },
+    {
+      "path": "evidence/apertus-N03-C01.json",
+      "rows": 4,
+      "content_counts": {
+        "C": 3,
+        "R": 1
+      }
+    },
+    {
+      "path": "evidence/apertus-N05-C01.json",
+      "rows": 4,
+      "content_counts": {
+        "C": 3,
+        "R": 1
+      }
+    },
+    {
+      "path": "evidence/apertus-N07-C01.json",
+      "rows": 4,
+      "content_counts": {
+        "R": 1,
+        "C": 3
+      }
+    },
+    {
+      "path": "evidence/qwen-F01.json",
+      "rows": 44,
+      "content_counts": {
+        "C": 42,
+        "OTHER_W": 2
+      }
+    },
+    {
+      "path": "evidence/qwen-F02.json",
+      "rows": 44,
+      "content_counts": {
+        "C": 39,
+        "R": 5
+      }
+    },
+    {
+      "path": "evidence/qwen-F03.json",
+      "rows": 44,
+      "content_counts": {
+        "C": 44
+      }
+    },
+    {
+      "path": "evidence/qwen-F04.json",
+      "rows": 44,
+      "content_counts": {
+        "C": 34,
+        "R": 10
+      }
+    },
+    {
+      "path": "evidence/qwen-F05.json",
+      "rows": 44,
+      "content_counts": {
+        "C": 44
+      }
+    },
+    {
+      "path": "evidence/qwen-F06.json",
+      "rows": 44,
+      "content_counts": {
+        "C": 44
+      }
+    },
+    {
+      "path": "evidence/qwen-F07.json",
+      "rows": 44,
+      "content_counts": {
+        "C": 42,
+        "R": 2
+      }
+    },
+    {
+      "path": "evidence/qwen-F08.json",
+      "rows": 44,
+      "content_counts": {
+        "R": 6,
+        "OTHER_W": 1,
+        "C": 37
+      }
+    },
+    {
+      "path": "evidence/qwen-F09.json",
+      "rows": 44,
+      "content_counts": {
+        "C": 41,
+        "R": 3
+      }
+    },
+    {
+      "path": "evidence/qwen-F10.json",
+      "rows": 44,
+      "content_counts": {
+        "C": 44
+      }
+    },
+    {
+      "path": "evidence/qwen-F11.json",
+      "rows": 44,
+      "content_counts": {
+        "C": 44
+      }
+    },
+    {
+      "path": "evidence/qwen-F12.json",
+      "rows": 44,
+      "content_counts": {
+        "C": 38,
+        "R": 6
+      }
+    },
+    {
+      "path": "evidence/qwen-N01-C01.json",
+      "rows": 4,
+      "content_counts": {
+        "C": 4
+      }
+    },
+    {
+      "path": "evidence/qwen-N03-C01.json",
+      "rows": 4,
+      "content_counts": {
+        "C": 4
+      }
+    },
+    {
+      "path": "evidence/qwen-N05-C01.json",
+      "rows": 4,
+      "content_counts": {
+        "C": 4
+      }
+    },
+    {
+      "path": "evidence/qwen-N07-C01.json",
+      "rows": 4,
+      "content_counts": {
+        "C": 4
+      }
+    }
+  ],
+  "content_counts": {
+    "C": 900,
+    "R": 172,
+    "OTHER_W": 14,
+    "U": 2
+  },
+  "source_scored_results_sha256": "6be8a4a0e38fec6a3c3e48879365c328f6b0d6f639e3ef57993e0f97c39b89ae",
+  "unit_warning": "Repeated prompts, schemas, conditions and bridge rows are not independent semantic items.",
+  "human_review": "PENDING",
+  "independent_human_gold": 0
+}

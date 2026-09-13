@@ -1,0 +1,65 @@
+{
+  "source_sha256": "ab4dc89cb4f7887133e835c4132e37bda3878548750b40d136657ff18ac1ffe8",
+  "audit": {
+    "at_utc": "2026-09-13T11:32:26.197716+00:00",
+    "status": "COMPLETE_MAIN_VERIFIED_EXPLORATORY_NOT_HUMAN_REVIEWED",
+    "zip_members_verified": 129,
+    "remote_files_verified": 37,
+    "technical_freeze_files_verified": 11,
+    "archive_sha256": "c3ef7d5f8d94a415773b710e22fc16930d51f91d7c11a9cf95b22e16ddb0e94c",
+    "models": {
+      "apertus": {
+        "outputs": 544,
+        "started": 544,
+        "forwards": 9791
+      },
+      "qwen": {
+        "outputs": 544,
+        "started": 544,
+        "forwards": 8634
+      }
+    },
+    "independent_raw_content_counts": {
+      "C": 900,
+      "R": 172,
+      "NONEXACT": 16
+    },
+    "nonexact_outputs": 16,
+    "primary_label": "PARTIAL_OR_CONFLICTING_PATTERN",
+    "G1": -0.08333333333333333,
+    "G2": 0.16666666666666666,
+    "osv_capability": [
+      {
+        "model": "apertus",
+        "schema": "AU",
+        "n": 12,
+        "correct": 4
+      },
+      {
+        "model": "apertus",
+        "schema": "UA",
+        "n": 12,
+        "correct": 10
+      },
+      {
+        "model": "qwen",
+        "schema": "AU",
+        "n": 12,
+        "correct": 10
+      },
+      {
+        "model": "qwen",
+        "schema": "UA",
+        "n": 12,
+        "correct": 12
+      }
+    ],
+    "verified_contrasts": 16,
+    "step_trace_check": "Executor RESULT-VERIFICATION PASS preserved and hashes checked, not a second Main per-step verifier",
+    "bootstrap": "Frozen executor estimates; not independently resampled by Main",
+    "office_qa": "Artifact hashes and zip checked; render/cell QA references executor POST-VISUAL-QA and FINAL-INTEGRITY-QA",
+    "human_review": "PENDING",
+    "independent_human_gold": 0,
+    "paid_new_usd": 0
+  }
+}

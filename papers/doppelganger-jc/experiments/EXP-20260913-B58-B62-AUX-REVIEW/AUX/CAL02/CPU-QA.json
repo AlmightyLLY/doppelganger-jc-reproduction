@@ -1,0 +1,35 @@
+{
+  "status": "PASS",
+  "model_forwards": 0,
+  "pad_token_id": 3,
+  "eos_token_ids": [
+    2,
+    68,
+    72
+  ],
+  "shape": [
+    1,
+    512
+  ],
+  "input_ids": [
+    "AUX-RB-009",
+    "AUX-RB-010",
+    "AUX-RB-053",
+    "AUX-RB-054",
+    "AUX-RB-105",
+    "AUX-RB-106",
+    "AUX-RB-149",
+    "AUX-RB-150"
+  ],
+  "checks": [
+    "Main hashes",
+    "old token candidate anchor identity",
+    "native template identity",
+    "native eager causal plus padding mask",
+    "padding recovery",
+    "budget 2648 1355776",
+    "candidate <=64",
+    "prompt plus128 <512"
+  ],
+  "independent_human_gold": 0
+}

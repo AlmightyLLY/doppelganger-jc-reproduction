@@ -1,0 +1,19 @@
+{
+  "source_sha256": "2cca106f13375d13247cdbbf94c9e3c4b5964f86cb86f90f460e0844986cec2d",
+  "audit": {
+    "at_utc": "2026-09-13T12:33:16.336870+00:00",
+    "status": "ACCEPTED_DEVELOPMENT_RESULTS_NOT_HUMAN_VALIDATED",
+    "raw_rows_verified_against_retrieved_results": 1296,
+    "remote_sha_files_verified": 36,
+    "science_technical_freeze_checks": 23,
+    "archive_files_verified": 97,
+    "archive_sha256": "6153ab293695f1292d505cf42a64134b0afcb0e5455407b2cb11cc63566d7774",
+    "primary_calibration_transitions_and_bridge": "MAIN_RECOMPUTED",
+    "office_full_cell_and_visual": "EXECUTOR_QA_CITED_NOT_MAIN_RERENDER",
+    "finite_and_per_token_trace": "EXECUTOR_VERIFICATION_CITED",
+    "human_review": "PENDING",
+    "independent_human_gold": 0,
+    "new_paid_usd": 0,
+    "b61_b62": "NO_RELEASE_FROM_B60_ACCEPTANCE_ALONE"
+  }
+}

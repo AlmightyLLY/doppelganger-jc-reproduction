@@ -1,0 +1,37 @@
+{
+  "native_counts": {
+    "C": 30,
+    "R": 18
+  },
+  "native_n": 48,
+  "format_ok": 48,
+  "person_set_correct": 48,
+  "q_only_accuracy": 0.5,
+  "position_accuracy": 0.5,
+  "grammar_accuracy": 1,
+  "candidate_sequences": 769,
+  "self_completed_candidates": 1,
+  "self_state_differences": [
+    {
+      "key": "SAME-F01-D0-L04-R2_END-SELF:TARGET_ROLE",
+      "setting_id": "SAME-F01-D0-L04-R2_END-SELF",
+      "max_abs": 1.0,
+      "relative_l2": 0.022276826202869415,
+      "sequence_length": 289
+    }
+  ],
+  "self_max_token_logp_delta": 0.16109395027160645,
+  "self_sum_delta": -0.12781747879094496,
+  "native_lens_rows": 1584,
+  "tf_lens_rows": 19008,
+  "distance_pairs_background": 48,
+  "distance_pairs_factswap": 48,
+  "human_gold": 0,
+  "all_model_forwards": 2225,
+  "input_token_positions": 595785,
+  "background_label_A_actor_counts": {
+    "1": 48,
+    "0": 48
+  },
+  "probe_interpretation": "Background labels are balanced overall (48 positive, 48 negative), but fixed within each group: odd groups positive and even groups negative. No within-group background role-swap contrast. Balanced NONE original/swap tests remain the primary binding contrast."
+}

@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "completed_jobs": 108,
+  "prefix_equal": 2112,
+  "self_candidates_equal": 64,
+  "self_state_equal": 208,
+  "generations": 20,
+  "forwards": 446,
+  "positions": 228352,
+  "scored_tokens": 1360,
+  "old_new_tokens_equal": 8,
+  "old_and_new_correct": 3,
+  "old_and_new_reversed": 5,
+  "new_model_forwards_in_analysis": 0
+}

@@ -1,0 +1,16 @@
+{
+  "source_sha256": "47617cc7ea51884275e1998ad0171e6b75df255071c38ccf0bfc9e227b5b73cd",
+  "audit": {
+    "status": "PASS_SAVED_READOUT_AND_DISTANCE_RECOMPUTATION",
+    "candidate_baselines": 768,
+    "self_candidates": 1,
+    "lens_records": 20592,
+    "lens_group_means": 1188,
+    "distance_rows": 11088,
+    "self_sum_delta": -0.12781747879094496,
+    "self_max_token_delta": 0.16109395027160645,
+    "new_model_calls": 0,
+    "causal_interventions_performed": 0,
+    "human_gold": 0
+  }
+}

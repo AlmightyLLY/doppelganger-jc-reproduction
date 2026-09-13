@@ -1,0 +1,16 @@
+{
+  "source_sha256": "d7fa1c892fa044d6972706e89d62f464d89474197107baabda2bd193c99d235e",
+  "audit": {
+    "status": "ACCEPTED_DEVELOPMENT_RESULTS_NOT_HUMAN_VALIDATED",
+    "at_utc": "2026-09-13T14:11:42.294258+00:00",
+    "raw_rows_reparsed": 600,
+    "freeze_hash_checks": 26,
+    "archive_files_verified": 86,
+    "archive_sha256": "1b1b0bca3b3de186a9b34f47f042931adc70fcc2a8a86849c98b3de247448aa9",
+    "main_recomputed": "raw scores, paired P, NONE role exchange, all rescue/harm/U, exact24 bridge, LOO and bootstrap",
+    "executor_QA_cited": "per-token argmax and finite chain; full-cell and visual Office verification",
+    "human_review": "PENDING",
+    "independent_human_gold": 0,
+    "new_paid_usd": 0
+  }
+}

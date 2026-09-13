@@ -1,0 +1,890 @@
+[
+  {
+    "job_id": "CAL02-PREFILL-AUX-RB-009",
+    "task": "PREFILL",
+    "input_id": "AUX-RB-009",
+    "forwards_cap": 1
+  },
+  {
+    "job_id": "CAL02-PREFILL-AUX-RB-010",
+    "task": "PREFILL",
+    "input_id": "AUX-RB-010",
+    "forwards_cap": 1
+  },
+  {
+    "job_id": "CAL02-PREFILL-AUX-RB-053",
+    "task": "PREFILL",
+    "input_id": "AUX-RB-053",
+    "forwards_cap": 1
+  },
+  {
+    "job_id": "CAL02-PREFILL-AUX-RB-054",
+    "task": "PREFILL",
+    "input_id": "AUX-RB-054",
+    "forwards_cap": 1
+  },
+  {
+    "job_id": "CAL02-PREFILL-AUX-RB-105",
+    "task": "PREFILL",
+    "input_id": "AUX-RB-105",
+    "forwards_cap": 1
+  },
+  {
+    "job_id": "CAL02-PREFILL-AUX-RB-106",
+    "task": "PREFILL",
+    "input_id": "AUX-RB-106",
+    "forwards_cap": 1
+  },
+  {
+    "job_id": "CAL02-PREFILL-AUX-RB-149",
+    "task": "PREFILL",
+    "input_id": "AUX-RB-149",
+    "forwards_cap": 1
+  },
+  {
+    "job_id": "CAL02-PREFILL-AUX-RB-150",
+    "task": "PREFILL",
+    "input_id": "AUX-RB-150",
+    "forwards_cap": 1
+  },
+  {
+    "job_id": "CAL02-BASE-AUX-RB-009-C0",
+    "task": "CANDIDATE_BASE",
+    "input_id": "AUX-RB-009",
+    "candidate_id": "AUX-RB-009-C0",
+    "forwards_cap": 1
+  },
+  {
+    "job_id": "CAL02-BASE-AUX-RB-009-C1",
+    "task": "CANDIDATE_BASE",
+    "input_id": "AUX-RB-009",
+    "candidate_id": "AUX-RB-009-C1",
+    "forwards_cap": 1
+  },
+  {
+    "job_id": "CAL02-BASE-AUX-RB-010-C0",
+    "task": "CANDIDATE_BASE",
+    "input_id": "AUX-RB-010",
+    "candidate_id": "AUX-RB-010-C0",
+    "forwards_cap": 1
+  },
+  {
+    "job_id": "CAL02-BASE-AUX-RB-010-C1",
+    "task": "CANDIDATE_BASE",
+    "input_id": "AUX-RB-010",
+    "candidate_id": "AUX-RB-010-C1",
+    "forwards_cap": 1
+  },
+  {
+    "job_id": "CAL02-BASE-AUX-RB-053-C0",
+    "task": "CANDIDATE_BASE",
+    "input_id": "AUX-RB-053",
+    "candidate_id": "AUX-RB-053-C0",
+    "forwards_cap": 1
+  },
+  {
+    "job_id": "CAL02-BASE-AUX-RB-053-C1",
+    "task": "CANDIDATE_BASE",
+    "input_id": "AUX-RB-053",
+    "candidate_id": "AUX-RB-053-C1",
+    "forwards_cap": 1
+  },
+  {
+    "job_id": "CAL02-BASE-AUX-RB-054-C0",
+    "task": "CANDIDATE_BASE",
+    "input_id": "AUX-RB-054",
+    "candidate_id": "AUX-RB-054-C0",
+    "forwards_cap": 1
+  },
+  {
+    "job_id": "CAL02-BASE-AUX-RB-054-C1",
+    "task": "CANDIDATE_BASE",
+    "input_id": "AUX-RB-054",
+    "candidate_id": "AUX-RB-054-C1",
+    "forwards_cap": 1
+  },
+  {
+    "job_id": "CAL02-BASE-AUX-RB-105-C0",
+    "task": "CANDIDATE_BASE",
+    "input_id": "AUX-RB-105",
+    "candidate_id": "AUX-RB-105-C0",
+    "forwards_cap": 1
+  },
+  {
+    "job_id": "CAL02-BASE-AUX-RB-105-C1",
+    "task": "CANDIDATE_BASE",
+    "input_id": "AUX-RB-105",
+    "candidate_id": "AUX-RB-105-C1",
+    "forwards_cap": 1
+  },
+  {
+    "job_id": "CAL02-BASE-AUX-RB-106-C0",
+    "task": "CANDIDATE_BASE",
+    "input_id": "AUX-RB-106",
+    "candidate_id": "AUX-RB-106-C0",
+    "forwards_cap": 1
+  },
+  {
+    "job_id": "CAL02-BASE-AUX-RB-106-C1",
+    "task": "CANDIDATE_BASE",
+    "input_id": "AUX-RB-106",
+    "candidate_id": "AUX-RB-106-C1",
+    "forwards_cap": 1
+  },
+  {
+    "job_id": "CAL02-BASE-AUX-RB-149-C0",
+    "task": "CANDIDATE_BASE",
+    "input_id": "AUX-RB-149",
+    "candidate_id": "AUX-RB-149-C0",
+    "forwards_cap": 1
+  },
+  {
+    "job_id": "CAL02-BASE-AUX-RB-149-C1",
+    "task": "CANDIDATE_BASE",
+    "input_id": "AUX-RB-149",
+    "candidate_id": "AUX-RB-149-C1",
+    "forwards_cap": 1
+  },
+  {
+    "job_id": "CAL02-BASE-AUX-RB-150-C0",
+    "task": "CANDIDATE_BASE",
+    "input_id": "AUX-RB-150",
+    "candidate_id": "AUX-RB-150-C0",
+    "forwards_cap": 1
+  },
+  {
+    "job_id": "CAL02-BASE-AUX-RB-150-C1",
+    "task": "CANDIDATE_BASE",
+    "input_id": "AUX-RB-150",
+    "candidate_id": "AUX-RB-150-C1",
+    "forwards_cap": 1
+  },
+  {
+    "job_id": "CAL02-SELF-AUX-RB-009-C0-L4-R2_END",
+    "task": "SELF_CANDIDATE",
+    "input_id": "AUX-RB-009",
+    "candidate_id": "AUX-RB-009-C0",
+    "layer": 4,
+    "anchor": "R2_END",
+    "forwards_cap": 1
+  },
+  {
+    "job_id": "CAL02-SELF-AUX-RB-009-C0-L16-R1_END",
+    "task": "SELF_CANDIDATE",
+    "input_id": "AUX-RB-009",
+    "candidate_id": "AUX-RB-009-C0",
+    "layer": 16,
+    "anchor": "R1_END",
+    "forwards_cap": 1
+  },
+  {
+    "job_id": "CAL02-SELF-AUX-RB-009-C0-L24-NATIVE_PROMPT_END",
+    "task": "SELF_CANDIDATE",
+    "input_id": "AUX-RB-009",
+    "candidate_id": "AUX-RB-009-C0",
+    "layer": 24,
+    "anchor": "NATIVE_PROMPT_END",
+    "forwards_cap": 1
+  },
+  {
+    "job_id": "CAL02-SELF-AUX-RB-009-C0-L32-NATIVE_PROMPT_END",
+    "task": "SELF_CANDIDATE",
+    "input_id": "AUX-RB-009",
+    "candidate_id": "AUX-RB-009-C0",
+    "layer": 32,
+    "anchor": "NATIVE_PROMPT_END",
+    "forwards_cap": 1
+  },
+  {
+    "job_id": "CAL02-SELF-AUX-RB-009-C1-L4-R2_END",
+    "task": "SELF_CANDIDATE",
+    "input_id": "AUX-RB-009",
+    "candidate_id": "AUX-RB-009-C1",
+    "layer": 4,
+    "anchor": "R2_END",
+    "forwards_cap": 1
+  },
+  {
+    "job_id": "CAL02-SELF-AUX-RB-009-C1-L16-R1_END",
+    "task": "SELF_CANDIDATE",
+    "input_id": "AUX-RB-009",
+    "candidate_id": "AUX-RB-009-C1",
+    "layer": 16,
+    "anchor": "R1_END",
+    "forwards_cap": 1
+  },
+  {
+    "job_id": "CAL02-SELF-AUX-RB-009-C1-L24-NATIVE_PROMPT_END",
+    "task": "SELF_CANDIDATE",
+    "input_id": "AUX-RB-009",
+    "candidate_id": "AUX-RB-009-C1",
+    "layer": 24,
+    "anchor": "NATIVE_PROMPT_END",
+    "forwards_cap": 1
+  },
+  {
+    "job_id": "CAL02-SELF-AUX-RB-009-C1-L32-NATIVE_PROMPT_END",
+    "task": "SELF_CANDIDATE",
+    "input_id": "AUX-RB-009",
+    "candidate_id": "AUX-RB-009-C1",
+    "layer": 32,
+    "anchor": "NATIVE_PROMPT_END",
+    "forwards_cap": 1
+  },
+  {
+    "job_id": "CAL02-SELF-AUX-RB-010-C0-L4-R2_END",
+    "task": "SELF_CANDIDATE",
+    "input_id": "AUX-RB-010",
+    "candidate_id": "AUX-RB-010-C0",
+    "layer": 4,
+    "anchor": "R2_END",
+    "forwards_cap": 1
+  },
+  {
+    "job_id": "CAL02-SELF-AUX-RB-010-C0-L16-R1_END",
+    "task": "SELF_CANDIDATE",
+    "input_id": "AUX-RB-010",
+    "candidate_id": "AUX-RB-010-C0",
+    "layer": 16,
+    "anchor": "R1_END",
+    "forwards_cap": 1
+  },
+  {
+    "job_id": "CAL02-SELF-AUX-RB-010-C0-L24-NATIVE_PROMPT_END",
+    "task": "SELF_CANDIDATE",
+    "input_id": "AUX-RB-010",
+    "candidate_id": "AUX-RB-010-C0",
+    "layer": 24,
+    "anchor": "NATIVE_PROMPT_END",
+    "forwards_cap": 1
+  },
+  {
+    "job_id": "CAL02-SELF-AUX-RB-010-C0-L32-NATIVE_PROMPT_END",
+    "task": "SELF_CANDIDATE",
+    "input_id": "AUX-RB-010",
+    "candidate_id": "AUX-RB-010-C0",
+    "layer": 32,
+    "anchor": "NATIVE_PROMPT_END",
+    "forwards_cap": 1
+  },
+  {
+    "job_id": "CAL02-SELF-AUX-RB-010-C1-L4-R2_END",
+    "task": "SELF_CANDIDATE",
+    "input_id": "AUX-RB-010",
+    "candidate_id": "AUX-RB-010-C1",
+    "layer": 4,
+    "anchor": "R2_END",
+    "forwards_cap": 1
+  },
+  {
+    "job_id": "CAL02-SELF-AUX-RB-010-C1-L16-R1_END",
+    "task": "SELF_CANDIDATE",
+    "input_id": "AUX-RB-010",
+    "candidate_id": "AUX-RB-010-C1",
+    "layer": 16,
+    "anchor": "R1_END",
+    "forwards_cap": 1
+  },
+  {
+    "job_id": "CAL02-SELF-AUX-RB-010-C1-L24-NATIVE_PROMPT_END",
+    "task": "SELF_CANDIDATE",
+    "input_id": "AUX-RB-010",
+    "candidate_id": "AUX-RB-010-C1",
+    "layer": 24,
+    "anchor": "NATIVE_PROMPT_END",
+    "forwards_cap": 1
+  },
+  {
+    "job_id": "CAL02-SELF-AUX-RB-010-C1-L32-NATIVE_PROMPT_END",
+    "task": "SELF_CANDIDATE",
+    "input_id": "AUX-RB-010",
+    "candidate_id": "AUX-RB-010-C1",
+    "layer": 32,
+    "anchor": "NATIVE_PROMPT_END",
+    "forwards_cap": 1
+  },
+  {
+    "job_id": "CAL02-SELF-AUX-RB-053-C0-L4-R2_END",
+    "task": "SELF_CANDIDATE",
+    "input_id": "AUX-RB-053",
+    "candidate_id": "AUX-RB-053-C0",
+    "layer": 4,
+    "anchor": "R2_END",
+    "forwards_cap": 1
+  },
+  {
+    "job_id": "CAL02-SELF-AUX-RB-053-C0-L16-R1_END",
+    "task": "SELF_CANDIDATE",
+    "input_id": "AUX-RB-053",
+    "candidate_id": "AUX-RB-053-C0",
+    "layer": 16,
+    "anchor": "R1_END",
+    "forwards_cap": 1
+  },
+  {
+    "job_id": "CAL02-SELF-AUX-RB-053-C0-L24-NATIVE_PROMPT_END",
+    "task": "SELF_CANDIDATE",
+    "input_id": "AUX-RB-053",
+    "candidate_id": "AUX-RB-053-C0",
+    "layer": 24,
+    "anchor": "NATIVE_PROMPT_END",
+    "forwards_cap": 1
+  },
+  {
+    "job_id": "CAL02-SELF-AUX-RB-053-C0-L32-NATIVE_PROMPT_END",
+    "task": "SELF_CANDIDATE",
+    "input_id": "AUX-RB-053",
+    "candidate_id": "AUX-RB-053-C0",
+    "layer": 32,
+    "anchor": "NATIVE_PROMPT_END",
+    "forwards_cap": 1
+  },
+  {
+    "job_id": "CAL02-SELF-AUX-RB-053-C1-L4-R2_END",
+    "task": "SELF_CANDIDATE",
+    "input_id": "AUX-RB-053",
+    "candidate_id": "AUX-RB-053-C1",
+    "layer": 4,
+    "anchor": "R2_END",
+    "forwards_cap": 1
+  },
+  {
+    "job_id": "CAL02-SELF-AUX-RB-053-C1-L16-R1_END",
+    "task": "SELF_CANDIDATE",
+    "input_id": "AUX-RB-053",
+    "candidate_id": "AUX-RB-053-C1",
+    "layer": 16,
+    "anchor": "R1_END",
+    "forwards_cap": 1
+  },
+  {
+    "job_id": "CAL02-SELF-AUX-RB-053-C1-L24-NATIVE_PROMPT_END",
+    "task": "SELF_CANDIDATE",
+    "input_id": "AUX-RB-053",
+    "candidate_id": "AUX-RB-053-C1",
+    "layer": 24,
+    "anchor": "NATIVE_PROMPT_END",
+    "forwards_cap": 1
+  },
+  {
+    "job_id": "CAL02-SELF-AUX-RB-053-C1-L32-NATIVE_PROMPT_END",
+    "task": "SELF_CANDIDATE",
+    "input_id": "AUX-RB-053",
+    "candidate_id": "AUX-RB-053-C1",
+    "layer": 32,
+    "anchor": "NATIVE_PROMPT_END",
+    "forwards_cap": 1
+  },
+  {
+    "job_id": "CAL02-SELF-AUX-RB-054-C0-L4-R2_END",
+    "task": "SELF_CANDIDATE",
+    "input_id": "AUX-RB-054",
+    "candidate_id": "AUX-RB-054-C0",
+    "layer": 4,
+    "anchor": "R2_END",
+    "forwards_cap": 1
+  },
+  {
+    "job_id": "CAL02-SELF-AUX-RB-054-C0-L16-R1_END",
+    "task": "SELF_CANDIDATE",
+    "input_id": "AUX-RB-054",
+    "candidate_id": "AUX-RB-054-C0",
+    "layer": 16,
+    "anchor": "R1_END",
+    "forwards_cap": 1
+  },
+  {
+    "job_id": "CAL02-SELF-AUX-RB-054-C0-L24-NATIVE_PROMPT_END",
+    "task": "SELF_CANDIDATE",
+    "input_id": "AUX-RB-054",
+    "candidate_id": "AUX-RB-054-C0",
+    "layer": 24,
+    "anchor": "NATIVE_PROMPT_END",
+    "forwards_cap": 1
+  },
+  {
+    "job_id": "CAL02-SELF-AUX-RB-054-C0-L32-NATIVE_PROMPT_END",
+    "task": "SELF_CANDIDATE",
+    "input_id": "AUX-RB-054",
+    "candidate_id": "AUX-RB-054-C0",
+    "layer": 32,
+    "anchor": "NATIVE_PROMPT_END",
+    "forwards_cap": 1
+  },
+  {
+    "job_id": "CAL02-SELF-AUX-RB-054-C1-L4-R2_END",
+    "task": "SELF_CANDIDATE",
+    "input_id": "AUX-RB-054",
+    "candidate_id": "AUX-RB-054-C1",
+    "layer": 4,
+    "anchor": "R2_END",
+    "forwards_cap": 1
+  },
+  {
+    "job_id": "CAL02-SELF-AUX-RB-054-C1-L16-R1_END",
+    "task": "SELF_CANDIDATE",
+    "input_id": "AUX-RB-054",
+    "candidate_id": "AUX-RB-054-C1",
+    "layer": 16,
+    "anchor": "R1_END",
+    "forwards_cap": 1
+  },
+  {
+    "job_id": "CAL02-SELF-AUX-RB-054-C1-L24-NATIVE_PROMPT_END",
+    "task": "SELF_CANDIDATE",
+    "input_id": "AUX-RB-054",
+    "candidate_id": "AUX-RB-054-C1",
+    "layer": 24,
+    "anchor": "NATIVE_PROMPT_END",
+    "forwards_cap": 1
+  },
+  {
+    "job_id": "CAL02-SELF-AUX-RB-054-C1-L32-NATIVE_PROMPT_END",
+    "task": "SELF_CANDIDATE",
+    "input_id": "AUX-RB-054",
+    "candidate_id": "AUX-RB-054-C1",
+    "layer": 32,
+    "anchor": "NATIVE_PROMPT_END",
+    "forwards_cap": 1
+  },
+  {
+    "job_id": "CAL02-SELF-AUX-RB-105-C0-L4-R2_END",
+    "task": "SELF_CANDIDATE",
+    "input_id": "AUX-RB-105",
+    "candidate_id": "AUX-RB-105-C0",
+    "layer": 4,
+    "anchor": "R2_END",
+    "forwards_cap": 1
+  },
+  {
+    "job_id": "CAL02-SELF-AUX-RB-105-C0-L16-R1_END",
+    "task": "SELF_CANDIDATE",
+    "input_id": "AUX-RB-105",
+    "candidate_id": "AUX-RB-105-C0",
+    "layer": 16,
+    "anchor": "R1_END",
+    "forwards_cap": 1
+  },
+  {
+    "job_id": "CAL02-SELF-AUX-RB-105-C0-L24-NATIVE_PROMPT_END",
+    "task": "SELF_CANDIDATE",
+    "input_id": "AUX-RB-105",
+    "candidate_id": "AUX-RB-105-C0",
+    "layer": 24,
+    "anchor": "NATIVE_PROMPT_END",
+    "forwards_cap": 1
+  },
+  {
+    "job_id": "CAL02-SELF-AUX-RB-105-C0-L32-NATIVE_PROMPT_END",
+    "task": "SELF_CANDIDATE",
+    "input_id": "AUX-RB-105",
+    "candidate_id": "AUX-RB-105-C0",
+    "layer": 32,
+    "anchor": "NATIVE_PROMPT_END",
+    "forwards_cap": 1
+  },
+  {
+    "job_id": "CAL02-SELF-AUX-RB-105-C1-L4-R2_END",
+    "task": "SELF_CANDIDATE",
+    "input_id": "AUX-RB-105",
+    "candidate_id": "AUX-RB-105-C1",
+    "layer": 4,
+    "anchor": "R2_END",
+    "forwards_cap": 1
+  },
+  {
+    "job_id": "CAL02-SELF-AUX-RB-105-C1-L16-R1_END",
+    "task": "SELF_CANDIDATE",
+    "input_id": "AUX-RB-105",
+    "candidate_id": "AUX-RB-105-C1",
+    "layer": 16,
+    "anchor": "R1_END",
+    "forwards_cap": 1
+  },
+  {
+    "job_id": "CAL02-SELF-AUX-RB-105-C1-L24-NATIVE_PROMPT_END",
+    "task": "SELF_CANDIDATE",
+    "input_id": "AUX-RB-105",
+    "candidate_id": "AUX-RB-105-C1",
+    "layer": 24,
+    "anchor": "NATIVE_PROMPT_END",
+    "forwards_cap": 1
+  },
+  {
+    "job_id": "CAL02-SELF-AUX-RB-105-C1-L32-NATIVE_PROMPT_END",
+    "task": "SELF_CANDIDATE",
+    "input_id": "AUX-RB-105",
+    "candidate_id": "AUX-RB-105-C1",
+    "layer": 32,
+    "anchor": "NATIVE_PROMPT_END",
+    "forwards_cap": 1
+  },
+  {
+    "job_id": "CAL02-SELF-AUX-RB-106-C0-L4-R2_END",
+    "task": "SELF_CANDIDATE",
+    "input_id": "AUX-RB-106",
+    "candidate_id": "AUX-RB-106-C0",
+    "layer": 4,
+    "anchor": "R2_END",
+    "forwards_cap": 1
+  },
+  {
+    "job_id": "CAL02-SELF-AUX-RB-106-C0-L16-R1_END",
+    "task": "SELF_CANDIDATE",
+    "input_id": "AUX-RB-106",
+    "candidate_id": "AUX-RB-106-C0",
+    "layer": 16,
+    "anchor": "R1_END",
+    "forwards_cap": 1
+  },
+  {
+    "job_id": "CAL02-SELF-AUX-RB-106-C0-L24-NATIVE_PROMPT_END",
+    "task": "SELF_CANDIDATE",
+    "input_id": "AUX-RB-106",
+    "candidate_id": "AUX-RB-106-C0",
+    "layer": 24,
+    "anchor": "NATIVE_PROMPT_END",
+    "forwards_cap": 1
+  },
+  {
+    "job_id": "CAL02-SELF-AUX-RB-106-C0-L32-NATIVE_PROMPT_END",
+    "task": "SELF_CANDIDATE",
+    "input_id": "AUX-RB-106",
+    "candidate_id": "AUX-RB-106-C0",
+    "layer": 32,
+    "anchor": "NATIVE_PROMPT_END",
+    "forwards_cap": 1
+  },
+  {
+    "job_id": "CAL02-SELF-AUX-RB-106-C1-L4-R2_END",
+    "task": "SELF_CANDIDATE",
+    "input_id": "AUX-RB-106",
+    "candidate_id": "AUX-RB-106-C1",
+    "layer": 4,
+    "anchor": "R2_END",
+    "forwards_cap": 1
+  },
+  {
+    "job_id": "CAL02-SELF-AUX-RB-106-C1-L16-R1_END",
+    "task": "SELF_CANDIDATE",
+    "input_id": "AUX-RB-106",
+    "candidate_id": "AUX-RB-106-C1",
+    "layer": 16,
+    "anchor": "R1_END",
+    "forwards_cap": 1
+  },
+  {
+    "job_id": "CAL02-SELF-AUX-RB-106-C1-L24-NATIVE_PROMPT_END",
+    "task": "SELF_CANDIDATE",
+    "input_id": "AUX-RB-106",
+    "candidate_id": "AUX-RB-106-C1",
+    "layer": 24,
+    "anchor": "NATIVE_PROMPT_END",
+    "forwards_cap": 1
+  },
+  {
+    "job_id": "CAL02-SELF-AUX-RB-106-C1-L32-NATIVE_PROMPT_END",
+    "task": "SELF_CANDIDATE",
+    "input_id": "AUX-RB-106",
+    "candidate_id": "AUX-RB-106-C1",
+    "layer": 32,
+    "anchor": "NATIVE_PROMPT_END",
+    "forwards_cap": 1
+  },
+  {
+    "job_id": "CAL02-SELF-AUX-RB-149-C0-L4-R2_END",
+    "task": "SELF_CANDIDATE",
+    "input_id": "AUX-RB-149",
+    "candidate_id": "AUX-RB-149-C0",
+    "layer": 4,
+    "anchor": "R2_END",
+    "forwards_cap": 1
+  },
+  {
+    "job_id": "CAL02-SELF-AUX-RB-149-C0-L16-R1_END",
+    "task": "SELF_CANDIDATE",
+    "input_id": "AUX-RB-149",
+    "candidate_id": "AUX-RB-149-C0",
+    "layer": 16,
+    "anchor": "R1_END",
+    "forwards_cap": 1
+  },
+  {
+    "job_id": "CAL02-SELF-AUX-RB-149-C0-L24-NATIVE_PROMPT_END",
+    "task": "SELF_CANDIDATE",
+    "input_id": "AUX-RB-149",
+    "candidate_id": "AUX-RB-149-C0",
+    "layer": 24,
+    "anchor": "NATIVE_PROMPT_END",
+    "forwards_cap": 1
+  },
+  {
+    "job_id": "CAL02-SELF-AUX-RB-149-C0-L32-NATIVE_PROMPT_END",
+    "task": "SELF_CANDIDATE",
+    "input_id": "AUX-RB-149",
+    "candidate_id": "AUX-RB-149-C0",
+    "layer": 32,
+    "anchor": "NATIVE_PROMPT_END",
+    "forwards_cap": 1
+  },
+  {
+    "job_id": "CAL02-SELF-AUX-RB-149-C1-L4-R2_END",
+    "task": "SELF_CANDIDATE",
+    "input_id": "AUX-RB-149",
+    "candidate_id": "AUX-RB-149-C1",
+    "layer": 4,
+    "anchor": "R2_END",
+    "forwards_cap": 1
+  },
+  {
+    "job_id": "CAL02-SELF-AUX-RB-149-C1-L16-R1_END",
+    "task": "SELF_CANDIDATE",
+    "input_id": "AUX-RB-149",
+    "candidate_id": "AUX-RB-149-C1",
+    "layer": 16,
+    "anchor": "R1_END",
+    "forwards_cap": 1
+  },
+  {
+    "job_id": "CAL02-SELF-AUX-RB-149-C1-L24-NATIVE_PROMPT_END",
+    "task": "SELF_CANDIDATE",
+    "input_id": "AUX-RB-149",
+    "candidate_id": "AUX-RB-149-C1",
+    "layer": 24,
+    "anchor": "NATIVE_PROMPT_END",
+    "forwards_cap": 1
+  },
+  {
+    "job_id": "CAL02-SELF-AUX-RB-149-C1-L32-NATIVE_PROMPT_END",
+    "task": "SELF_CANDIDATE",
+    "input_id": "AUX-RB-149",
+    "candidate_id": "AUX-RB-149-C1",
+    "layer": 32,
+    "anchor": "NATIVE_PROMPT_END",
+    "forwards_cap": 1
+  },
+  {
+    "job_id": "CAL02-SELF-AUX-RB-150-C0-L4-R2_END",
+    "task": "SELF_CANDIDATE",
+    "input_id": "AUX-RB-150",
+    "candidate_id": "AUX-RB-150-C0",
+    "layer": 4,
+    "anchor": "R2_END",
+    "forwards_cap": 1
+  },
+  {
+    "job_id": "CAL02-SELF-AUX-RB-150-C0-L16-R1_END",
+    "task": "SELF_CANDIDATE",
+    "input_id": "AUX-RB-150",
+    "candidate_id": "AUX-RB-150-C0",
+    "layer": 16,
+    "anchor": "R1_END",
+    "forwards_cap": 1
+  },
+  {
+    "job_id": "CAL02-SELF-AUX-RB-150-C0-L24-NATIVE_PROMPT_END",
+    "task": "SELF_CANDIDATE",
+    "input_id": "AUX-RB-150",
+    "candidate_id": "AUX-RB-150-C0",
+    "layer": 24,
+    "anchor": "NATIVE_PROMPT_END",
+    "forwards_cap": 1
+  },
+  {
+    "job_id": "CAL02-SELF-AUX-RB-150-C0-L32-NATIVE_PROMPT_END",
+    "task": "SELF_CANDIDATE",
+    "input_id": "AUX-RB-150",
+    "candidate_id": "AUX-RB-150-C0",
+    "layer": 32,
+    "anchor": "NATIVE_PROMPT_END",
+    "forwards_cap": 1
+  },
+  {
+    "job_id": "CAL02-SELF-AUX-RB-150-C1-L4-R2_END",
+    "task": "SELF_CANDIDATE",
+    "input_id": "AUX-RB-150",
+    "candidate_id": "AUX-RB-150-C1",
+    "layer": 4,
+    "anchor": "R2_END",
+    "forwards_cap": 1
+  },
+  {
+    "job_id": "CAL02-SELF-AUX-RB-150-C1-L16-R1_END",
+    "task": "SELF_CANDIDATE",
+    "input_id": "AUX-RB-150",
+    "candidate_id": "AUX-RB-150-C1",
+    "layer": 16,
+    "anchor": "R1_END",
+    "forwards_cap": 1
+  },
+  {
+    "job_id": "CAL02-SELF-AUX-RB-150-C1-L24-NATIVE_PROMPT_END",
+    "task": "SELF_CANDIDATE",
+    "input_id": "AUX-RB-150",
+    "candidate_id": "AUX-RB-150-C1",
+    "layer": 24,
+    "anchor": "NATIVE_PROMPT_END",
+    "forwards_cap": 1
+  },
+  {
+    "job_id": "CAL02-SELF-AUX-RB-150-C1-L32-NATIVE_PROMPT_END",
+    "task": "SELF_CANDIDATE",
+    "input_id": "AUX-RB-150",
+    "candidate_id": "AUX-RB-150-C1",
+    "layer": 32,
+    "anchor": "NATIVE_PROMPT_END",
+    "forwards_cap": 1
+  },
+  {
+    "job_id": "CAL02-GEN_BASE-AUX-RB-009",
+    "task": "GEN_BASE",
+    "input_id": "AUX-RB-009",
+    "layer": null,
+    "anchor": null,
+    "forwards_cap": 128
+  },
+  {
+    "job_id": "CAL02-GEN_BASE-AUX-RB-010",
+    "task": "GEN_BASE",
+    "input_id": "AUX-RB-010",
+    "layer": null,
+    "anchor": null,
+    "forwards_cap": 128
+  },
+  {
+    "job_id": "CAL02-GEN_BASE-AUX-RB-053",
+    "task": "GEN_BASE",
+    "input_id": "AUX-RB-053",
+    "layer": null,
+    "anchor": null,
+    "forwards_cap": 128
+  },
+  {
+    "job_id": "CAL02-GEN_BASE-AUX-RB-054",
+    "task": "GEN_BASE",
+    "input_id": "AUX-RB-054",
+    "layer": null,
+    "anchor": null,
+    "forwards_cap": 128
+  },
+  {
+    "job_id": "CAL02-GEN_BASE-AUX-RB-105",
+    "task": "GEN_BASE",
+    "input_id": "AUX-RB-105",
+    "layer": null,
+    "anchor": null,
+    "forwards_cap": 128
+  },
+  {
+    "job_id": "CAL02-GEN_BASE-AUX-RB-106",
+    "task": "GEN_BASE",
+    "input_id": "AUX-RB-106",
+    "layer": null,
+    "anchor": null,
+    "forwards_cap": 128
+  },
+  {
+    "job_id": "CAL02-GEN_BASE-AUX-RB-149",
+    "task": "GEN_BASE",
+    "input_id": "AUX-RB-149",
+    "layer": null,
+    "anchor": null,
+    "forwards_cap": 128
+  },
+  {
+    "job_id": "CAL02-GEN_BASE-AUX-RB-150",
+    "task": "GEN_BASE",
+    "input_id": "AUX-RB-150",
+    "layer": null,
+    "anchor": null,
+    "forwards_cap": 128
+  },
+  {
+    "job_id": "CAL02-GEN_NOHOOK-AUX-RB-009",
+    "task": "GEN_NOHOOK",
+    "input_id": "AUX-RB-009",
+    "forwards_cap": 128
+  },
+  {
+    "job_id": "CAL02-GEN_NOHOOK-AUX-RB-010",
+    "task": "GEN_NOHOOK",
+    "input_id": "AUX-RB-010",
+    "forwards_cap": 128
+  },
+  {
+    "job_id": "CAL02-GEN_NOHOOK-AUX-RB-053",
+    "task": "GEN_NOHOOK",
+    "input_id": "AUX-RB-053",
+    "forwards_cap": 128
+  },
+  {
+    "job_id": "CAL02-GEN_NOHOOK-AUX-RB-054",
+    "task": "GEN_NOHOOK",
+    "input_id": "AUX-RB-054",
+    "forwards_cap": 128
+  },
+  {
+    "job_id": "CAL02-GEN_SELF-AUX-RB-009",
+    "task": "GEN_SELF",
+    "input_id": "AUX-RB-009",
+    "layer": 24,
+    "anchor": "NATIVE_PROMPT_END",
+    "forwards_cap": 128
+  },
+  {
+    "job_id": "CAL02-GEN_SELF-AUX-RB-010",
+    "task": "GEN_SELF",
+    "input_id": "AUX-RB-010",
+    "layer": 24,
+    "anchor": "NATIVE_PROMPT_END",
+    "forwards_cap": 128
+  },
+  {
+    "job_id": "CAL02-GEN_SELF-AUX-RB-053",
+    "task": "GEN_SELF",
+    "input_id": "AUX-RB-053",
+    "layer": 24,
+    "anchor": "NATIVE_PROMPT_END",
+    "forwards_cap": 128
+  },
+  {
+    "job_id": "CAL02-GEN_SELF-AUX-RB-054",
+    "task": "GEN_SELF",
+    "input_id": "AUX-RB-054",
+    "layer": 24,
+    "anchor": "NATIVE_PROMPT_END",
+    "forwards_cap": 128
+  },
+  {
+    "job_id": "CAL02-GEN_SELF-AUX-RB-105",
+    "task": "GEN_SELF",
+    "input_id": "AUX-RB-105",
+    "layer": 24,
+    "anchor": "NATIVE_PROMPT_END",
+    "forwards_cap": 128
+  },
+  {
+    "job_id": "CAL02-GEN_SELF-AUX-RB-106",
+    "task": "GEN_SELF",
+    "input_id": "AUX-RB-106",
+    "layer": 24,
+    "anchor": "NATIVE_PROMPT_END",
+    "forwards_cap": 128
+  },
+  {
+    "job_id": "CAL02-GEN_SELF-AUX-RB-149",
+    "task": "GEN_SELF",
+    "input_id": "AUX-RB-149",
+    "layer": 24,
+    "anchor": "NATIVE_PROMPT_END",
+    "forwards_cap": 128
+  },
+  {
+    "job_id": "CAL02-GEN_SELF-AUX-RB-150",
+    "task": "GEN_SELF",
+    "input_id": "AUX-RB-150",
+    "layer": 24,
+    "anchor": "NATIVE_PROMPT_END",
+    "forwards_cap": 128
+  }
+]

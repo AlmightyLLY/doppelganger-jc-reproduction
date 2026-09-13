@@ -1,0 +1,1154 @@
+[
+  {
+    "input_id": "AUX-RB-001",
+    "first_mentioned_prediction": 1,
+    "grammar_prediction": 1,
+    "label": 1
+  },
+  {
+    "input_id": "AUX-RB-002",
+    "first_mentioned_prediction": 1,
+    "grammar_prediction": 1,
+    "label": 1
+  },
+  {
+    "input_id": "AUX-RB-003",
+    "first_mentioned_prediction": 1,
+    "grammar_prediction": 1,
+    "label": 1
+  },
+  {
+    "input_id": "AUX-RB-004",
+    "first_mentioned_prediction": 0,
+    "grammar_prediction": 0,
+    "label": 0
+  },
+  {
+    "input_id": "AUX-RB-005",
+    "first_mentioned_prediction": 1,
+    "grammar_prediction": 1,
+    "label": 1
+  },
+  {
+    "input_id": "AUX-RB-006",
+    "first_mentioned_prediction": 1,
+    "grammar_prediction": 1,
+    "label": 1
+  },
+  {
+    "input_id": "AUX-RB-007",
+    "first_mentioned_prediction": 1,
+    "grammar_prediction": 1,
+    "label": 1
+  },
+  {
+    "input_id": "AUX-RB-008",
+    "first_mentioned_prediction": 0,
+    "grammar_prediction": 0,
+    "label": 0
+  },
+  {
+    "input_id": "AUX-RB-009",
+    "first_mentioned_prediction": 0,
+    "grammar_prediction": 1,
+    "label": 1
+  },
+  {
+    "input_id": "AUX-RB-010",
+    "first_mentioned_prediction": 0,
+    "grammar_prediction": 1,
+    "label": 1
+  },
+  {
+    "input_id": "AUX-RB-011",
+    "first_mentioned_prediction": 0,
+    "grammar_prediction": 1,
+    "label": 1
+  },
+  {
+    "input_id": "AUX-RB-012",
+    "first_mentioned_prediction": 1,
+    "grammar_prediction": 0,
+    "label": 0
+  },
+  {
+    "input_id": "AUX-RB-013",
+    "first_mentioned_prediction": 0,
+    "grammar_prediction": 1,
+    "label": 1
+  },
+  {
+    "input_id": "AUX-RB-014",
+    "first_mentioned_prediction": 0,
+    "grammar_prediction": 1,
+    "label": 1
+  },
+  {
+    "input_id": "AUX-RB-015",
+    "first_mentioned_prediction": 0,
+    "grammar_prediction": 1,
+    "label": 1
+  },
+  {
+    "input_id": "AUX-RB-016",
+    "first_mentioned_prediction": 1,
+    "grammar_prediction": 0,
+    "label": 0
+  },
+  {
+    "input_id": "AUX-RB-017",
+    "first_mentioned_prediction": 0,
+    "grammar_prediction": 0,
+    "label": 0
+  },
+  {
+    "input_id": "AUX-RB-018",
+    "first_mentioned_prediction": 0,
+    "grammar_prediction": 0,
+    "label": 0
+  },
+  {
+    "input_id": "AUX-RB-019",
+    "first_mentioned_prediction": 0,
+    "grammar_prediction": 0,
+    "label": 0
+  },
+  {
+    "input_id": "AUX-RB-020",
+    "first_mentioned_prediction": 1,
+    "grammar_prediction": 1,
+    "label": 1
+  },
+  {
+    "input_id": "AUX-RB-021",
+    "first_mentioned_prediction": 0,
+    "grammar_prediction": 0,
+    "label": 0
+  },
+  {
+    "input_id": "AUX-RB-022",
+    "first_mentioned_prediction": 0,
+    "grammar_prediction": 0,
+    "label": 0
+  },
+  {
+    "input_id": "AUX-RB-023",
+    "first_mentioned_prediction": 0,
+    "grammar_prediction": 0,
+    "label": 0
+  },
+  {
+    "input_id": "AUX-RB-024",
+    "first_mentioned_prediction": 1,
+    "grammar_prediction": 1,
+    "label": 1
+  },
+  {
+    "input_id": "AUX-RB-025",
+    "first_mentioned_prediction": 1,
+    "grammar_prediction": 0,
+    "label": 0
+  },
+  {
+    "input_id": "AUX-RB-026",
+    "first_mentioned_prediction": 1,
+    "grammar_prediction": 0,
+    "label": 0
+  },
+  {
+    "input_id": "AUX-RB-027",
+    "first_mentioned_prediction": 1,
+    "grammar_prediction": 0,
+    "label": 0
+  },
+  {
+    "input_id": "AUX-RB-028",
+    "first_mentioned_prediction": 0,
+    "grammar_prediction": 1,
+    "label": 1
+  },
+  {
+    "input_id": "AUX-RB-029",
+    "first_mentioned_prediction": 1,
+    "grammar_prediction": 0,
+    "label": 0
+  },
+  {
+    "input_id": "AUX-RB-030",
+    "first_mentioned_prediction": 1,
+    "grammar_prediction": 0,
+    "label": 0
+  },
+  {
+    "input_id": "AUX-RB-031",
+    "first_mentioned_prediction": 1,
+    "grammar_prediction": 0,
+    "label": 0
+  },
+  {
+    "input_id": "AUX-RB-032",
+    "first_mentioned_prediction": 0,
+    "grammar_prediction": 1,
+    "label": 1
+  },
+  {
+    "input_id": "AUX-RB-033",
+    "first_mentioned_prediction": 1,
+    "grammar_prediction": 1,
+    "label": 1
+  },
+  {
+    "input_id": "AUX-RB-034",
+    "first_mentioned_prediction": 1,
+    "grammar_prediction": 1,
+    "label": 1
+  },
+  {
+    "input_id": "AUX-RB-035",
+    "first_mentioned_prediction": 1,
+    "grammar_prediction": 1,
+    "label": 1
+  },
+  {
+    "input_id": "AUX-RB-036",
+    "first_mentioned_prediction": 0,
+    "grammar_prediction": 0,
+    "label": 0
+  },
+  {
+    "input_id": "AUX-RB-037",
+    "first_mentioned_prediction": 1,
+    "grammar_prediction": 1,
+    "label": 1
+  },
+  {
+    "input_id": "AUX-RB-038",
+    "first_mentioned_prediction": 1,
+    "grammar_prediction": 1,
+    "label": 1
+  },
+  {
+    "input_id": "AUX-RB-039",
+    "first_mentioned_prediction": 1,
+    "grammar_prediction": 1,
+    "label": 1
+  },
+  {
+    "input_id": "AUX-RB-040",
+    "first_mentioned_prediction": 0,
+    "grammar_prediction": 0,
+    "label": 0
+  },
+  {
+    "input_id": "AUX-RB-041",
+    "first_mentioned_prediction": 0,
+    "grammar_prediction": 1,
+    "label": 1
+  },
+  {
+    "input_id": "AUX-RB-042",
+    "first_mentioned_prediction": 0,
+    "grammar_prediction": 1,
+    "label": 1
+  },
+  {
+    "input_id": "AUX-RB-043",
+    "first_mentioned_prediction": 0,
+    "grammar_prediction": 1,
+    "label": 1
+  },
+  {
+    "input_id": "AUX-RB-044",
+    "first_mentioned_prediction": 1,
+    "grammar_prediction": 0,
+    "label": 0
+  },
+  {
+    "input_id": "AUX-RB-045",
+    "first_mentioned_prediction": 0,
+    "grammar_prediction": 1,
+    "label": 1
+  },
+  {
+    "input_id": "AUX-RB-046",
+    "first_mentioned_prediction": 0,
+    "grammar_prediction": 1,
+    "label": 1
+  },
+  {
+    "input_id": "AUX-RB-047",
+    "first_mentioned_prediction": 0,
+    "grammar_prediction": 1,
+    "label": 1
+  },
+  {
+    "input_id": "AUX-RB-048",
+    "first_mentioned_prediction": 1,
+    "grammar_prediction": 0,
+    "label": 0
+  },
+  {
+    "input_id": "AUX-RB-049",
+    "first_mentioned_prediction": 0,
+    "grammar_prediction": 0,
+    "label": 0
+  },
+  {
+    "input_id": "AUX-RB-050",
+    "first_mentioned_prediction": 0,
+    "grammar_prediction": 0,
+    "label": 0
+  },
+  {
+    "input_id": "AUX-RB-051",
+    "first_mentioned_prediction": 0,
+    "grammar_prediction": 0,
+    "label": 0
+  },
+  {
+    "input_id": "AUX-RB-052",
+    "first_mentioned_prediction": 1,
+    "grammar_prediction": 1,
+    "label": 1
+  },
+  {
+    "input_id": "AUX-RB-053",
+    "first_mentioned_prediction": 0,
+    "grammar_prediction": 0,
+    "label": 0
+  },
+  {
+    "input_id": "AUX-RB-054",
+    "first_mentioned_prediction": 0,
+    "grammar_prediction": 0,
+    "label": 0
+  },
+  {
+    "input_id": "AUX-RB-055",
+    "first_mentioned_prediction": 0,
+    "grammar_prediction": 0,
+    "label": 0
+  },
+  {
+    "input_id": "AUX-RB-056",
+    "first_mentioned_prediction": 1,
+    "grammar_prediction": 1,
+    "label": 1
+  },
+  {
+    "input_id": "AUX-RB-057",
+    "first_mentioned_prediction": 1,
+    "grammar_prediction": 0,
+    "label": 0
+  },
+  {
+    "input_id": "AUX-RB-058",
+    "first_mentioned_prediction": 1,
+    "grammar_prediction": 0,
+    "label": 0
+  },
+  {
+    "input_id": "AUX-RB-059",
+    "first_mentioned_prediction": 1,
+    "grammar_prediction": 0,
+    "label": 0
+  },
+  {
+    "input_id": "AUX-RB-060",
+    "first_mentioned_prediction": 0,
+    "grammar_prediction": 1,
+    "label": 1
+  },
+  {
+    "input_id": "AUX-RB-061",
+    "first_mentioned_prediction": 1,
+    "grammar_prediction": 0,
+    "label": 0
+  },
+  {
+    "input_id": "AUX-RB-062",
+    "first_mentioned_prediction": 1,
+    "grammar_prediction": 0,
+    "label": 0
+  },
+  {
+    "input_id": "AUX-RB-063",
+    "first_mentioned_prediction": 1,
+    "grammar_prediction": 0,
+    "label": 0
+  },
+  {
+    "input_id": "AUX-RB-064",
+    "first_mentioned_prediction": 0,
+    "grammar_prediction": 1,
+    "label": 1
+  },
+  {
+    "input_id": "AUX-RB-065",
+    "first_mentioned_prediction": 1,
+    "grammar_prediction": 1,
+    "label": 1
+  },
+  {
+    "input_id": "AUX-RB-066",
+    "first_mentioned_prediction": 1,
+    "grammar_prediction": 1,
+    "label": 1
+  },
+  {
+    "input_id": "AUX-RB-067",
+    "first_mentioned_prediction": 1,
+    "grammar_prediction": 1,
+    "label": 1
+  },
+  {
+    "input_id": "AUX-RB-068",
+    "first_mentioned_prediction": 0,
+    "grammar_prediction": 0,
+    "label": 0
+  },
+  {
+    "input_id": "AUX-RB-069",
+    "first_mentioned_prediction": 1,
+    "grammar_prediction": 1,
+    "label": 1
+  },
+  {
+    "input_id": "AUX-RB-070",
+    "first_mentioned_prediction": 1,
+    "grammar_prediction": 1,
+    "label": 1
+  },
+  {
+    "input_id": "AUX-RB-071",
+    "first_mentioned_prediction": 1,
+    "grammar_prediction": 1,
+    "label": 1
+  },
+  {
+    "input_id": "AUX-RB-072",
+    "first_mentioned_prediction": 0,
+    "grammar_prediction": 0,
+    "label": 0
+  },
+  {
+    "input_id": "AUX-RB-073",
+    "first_mentioned_prediction": 0,
+    "grammar_prediction": 1,
+    "label": 1
+  },
+  {
+    "input_id": "AUX-RB-074",
+    "first_mentioned_prediction": 0,
+    "grammar_prediction": 1,
+    "label": 1
+  },
+  {
+    "input_id": "AUX-RB-075",
+    "first_mentioned_prediction": 0,
+    "grammar_prediction": 1,
+    "label": 1
+  },
+  {
+    "input_id": "AUX-RB-076",
+    "first_mentioned_prediction": 1,
+    "grammar_prediction": 0,
+    "label": 0
+  },
+  {
+    "input_id": "AUX-RB-077",
+    "first_mentioned_prediction": 0,
+    "grammar_prediction": 1,
+    "label": 1
+  },
+  {
+    "input_id": "AUX-RB-078",
+    "first_mentioned_prediction": 0,
+    "grammar_prediction": 1,
+    "label": 1
+  },
+  {
+    "input_id": "AUX-RB-079",
+    "first_mentioned_prediction": 0,
+    "grammar_prediction": 1,
+    "label": 1
+  },
+  {
+    "input_id": "AUX-RB-080",
+    "first_mentioned_prediction": 1,
+    "grammar_prediction": 0,
+    "label": 0
+  },
+  {
+    "input_id": "AUX-RB-081",
+    "first_mentioned_prediction": 0,
+    "grammar_prediction": 0,
+    "label": 0
+  },
+  {
+    "input_id": "AUX-RB-082",
+    "first_mentioned_prediction": 0,
+    "grammar_prediction": 0,
+    "label": 0
+  },
+  {
+    "input_id": "AUX-RB-083",
+    "first_mentioned_prediction": 0,
+    "grammar_prediction": 0,
+    "label": 0
+  },
+  {
+    "input_id": "AUX-RB-084",
+    "first_mentioned_prediction": 1,
+    "grammar_prediction": 1,
+    "label": 1
+  },
+  {
+    "input_id": "AUX-RB-085",
+    "first_mentioned_prediction": 0,
+    "grammar_prediction": 0,
+    "label": 0
+  },
+  {
+    "input_id": "AUX-RB-086",
+    "first_mentioned_prediction": 0,
+    "grammar_prediction": 0,
+    "label": 0
+  },
+  {
+    "input_id": "AUX-RB-087",
+    "first_mentioned_prediction": 0,
+    "grammar_prediction": 0,
+    "label": 0
+  },
+  {
+    "input_id": "AUX-RB-088",
+    "first_mentioned_prediction": 1,
+    "grammar_prediction": 1,
+    "label": 1
+  },
+  {
+    "input_id": "AUX-RB-089",
+    "first_mentioned_prediction": 1,
+    "grammar_prediction": 0,
+    "label": 0
+  },
+  {
+    "input_id": "AUX-RB-090",
+    "first_mentioned_prediction": 1,
+    "grammar_prediction": 0,
+    "label": 0
+  },
+  {
+    "input_id": "AUX-RB-091",
+    "first_mentioned_prediction": 1,
+    "grammar_prediction": 0,
+    "label": 0
+  },
+  {
+    "input_id": "AUX-RB-092",
+    "first_mentioned_prediction": 0,
+    "grammar_prediction": 1,
+    "label": 1
+  },
+  {
+    "input_id": "AUX-RB-093",
+    "first_mentioned_prediction": 1,
+    "grammar_prediction": 0,
+    "label": 0
+  },
+  {
+    "input_id": "AUX-RB-094",
+    "first_mentioned_prediction": 1,
+    "grammar_prediction": 0,
+    "label": 0
+  },
+  {
+    "input_id": "AUX-RB-095",
+    "first_mentioned_prediction": 1,
+    "grammar_prediction": 0,
+    "label": 0
+  },
+  {
+    "input_id": "AUX-RB-096",
+    "first_mentioned_prediction": 0,
+    "grammar_prediction": 1,
+    "label": 1
+  },
+  {
+    "input_id": "AUX-RB-097",
+    "first_mentioned_prediction": 1,
+    "grammar_prediction": 1,
+    "label": 1
+  },
+  {
+    "input_id": "AUX-RB-098",
+    "first_mentioned_prediction": 1,
+    "grammar_prediction": 1,
+    "label": 1
+  },
+  {
+    "input_id": "AUX-RB-099",
+    "first_mentioned_prediction": 1,
+    "grammar_prediction": 1,
+    "label": 1
+  },
+  {
+    "input_id": "AUX-RB-100",
+    "first_mentioned_prediction": 0,
+    "grammar_prediction": 0,
+    "label": 0
+  },
+  {
+    "input_id": "AUX-RB-101",
+    "first_mentioned_prediction": 1,
+    "grammar_prediction": 1,
+    "label": 1
+  },
+  {
+    "input_id": "AUX-RB-102",
+    "first_mentioned_prediction": 1,
+    "grammar_prediction": 1,
+    "label": 1
+  },
+  {
+    "input_id": "AUX-RB-103",
+    "first_mentioned_prediction": 1,
+    "grammar_prediction": 1,
+    "label": 1
+  },
+  {
+    "input_id": "AUX-RB-104",
+    "first_mentioned_prediction": 0,
+    "grammar_prediction": 0,
+    "label": 0
+  },
+  {
+    "input_id": "AUX-RB-105",
+    "first_mentioned_prediction": 0,
+    "grammar_prediction": 1,
+    "label": 1
+  },
+  {
+    "input_id": "AUX-RB-106",
+    "first_mentioned_prediction": 0,
+    "grammar_prediction": 1,
+    "label": 1
+  },
+  {
+    "input_id": "AUX-RB-107",
+    "first_mentioned_prediction": 0,
+    "grammar_prediction": 1,
+    "label": 1
+  },
+  {
+    "input_id": "AUX-RB-108",
+    "first_mentioned_prediction": 1,
+    "grammar_prediction": 0,
+    "label": 0
+  },
+  {
+    "input_id": "AUX-RB-109",
+    "first_mentioned_prediction": 0,
+    "grammar_prediction": 1,
+    "label": 1
+  },
+  {
+    "input_id": "AUX-RB-110",
+    "first_mentioned_prediction": 0,
+    "grammar_prediction": 1,
+    "label": 1
+  },
+  {
+    "input_id": "AUX-RB-111",
+    "first_mentioned_prediction": 0,
+    "grammar_prediction": 1,
+    "label": 1
+  },
+  {
+    "input_id": "AUX-RB-112",
+    "first_mentioned_prediction": 1,
+    "grammar_prediction": 0,
+    "label": 0
+  },
+  {
+    "input_id": "AUX-RB-113",
+    "first_mentioned_prediction": 0,
+    "grammar_prediction": 0,
+    "label": 0
+  },
+  {
+    "input_id": "AUX-RB-114",
+    "first_mentioned_prediction": 0,
+    "grammar_prediction": 0,
+    "label": 0
+  },
+  {
+    "input_id": "AUX-RB-115",
+    "first_mentioned_prediction": 0,
+    "grammar_prediction": 0,
+    "label": 0
+  },
+  {
+    "input_id": "AUX-RB-116",
+    "first_mentioned_prediction": 1,
+    "grammar_prediction": 1,
+    "label": 1
+  },
+  {
+    "input_id": "AUX-RB-117",
+    "first_mentioned_prediction": 0,
+    "grammar_prediction": 0,
+    "label": 0
+  },
+  {
+    "input_id": "AUX-RB-118",
+    "first_mentioned_prediction": 0,
+    "grammar_prediction": 0,
+    "label": 0
+  },
+  {
+    "input_id": "AUX-RB-119",
+    "first_mentioned_prediction": 0,
+    "grammar_prediction": 0,
+    "label": 0
+  },
+  {
+    "input_id": "AUX-RB-120",
+    "first_mentioned_prediction": 1,
+    "grammar_prediction": 1,
+    "label": 1
+  },
+  {
+    "input_id": "AUX-RB-121",
+    "first_mentioned_prediction": 1,
+    "grammar_prediction": 0,
+    "label": 0
+  },
+  {
+    "input_id": "AUX-RB-122",
+    "first_mentioned_prediction": 1,
+    "grammar_prediction": 0,
+    "label": 0
+  },
+  {
+    "input_id": "AUX-RB-123",
+    "first_mentioned_prediction": 1,
+    "grammar_prediction": 0,
+    "label": 0
+  },
+  {
+    "input_id": "AUX-RB-124",
+    "first_mentioned_prediction": 0,
+    "grammar_prediction": 1,
+    "label": 1
+  },
+  {
+    "input_id": "AUX-RB-125",
+    "first_mentioned_prediction": 1,
+    "grammar_prediction": 0,
+    "label": 0
+  },
+  {
+    "input_id": "AUX-RB-126",
+    "first_mentioned_prediction": 1,
+    "grammar_prediction": 0,
+    "label": 0
+  },
+  {
+    "input_id": "AUX-RB-127",
+    "first_mentioned_prediction": 1,
+    "grammar_prediction": 0,
+    "label": 0
+  },
+  {
+    "input_id": "AUX-RB-128",
+    "first_mentioned_prediction": 0,
+    "grammar_prediction": 1,
+    "label": 1
+  },
+  {
+    "input_id": "AUX-RB-129",
+    "first_mentioned_prediction": 1,
+    "grammar_prediction": 1,
+    "label": 1
+  },
+  {
+    "input_id": "AUX-RB-130",
+    "first_mentioned_prediction": 1,
+    "grammar_prediction": 1,
+    "label": 1
+  },
+  {
+    "input_id": "AUX-RB-131",
+    "first_mentioned_prediction": 1,
+    "grammar_prediction": 1,
+    "label": 1
+  },
+  {
+    "input_id": "AUX-RB-132",
+    "first_mentioned_prediction": 0,
+    "grammar_prediction": 0,
+    "label": 0
+  },
+  {
+    "input_id": "AUX-RB-133",
+    "first_mentioned_prediction": 1,
+    "grammar_prediction": 1,
+    "label": 1
+  },
+  {
+    "input_id": "AUX-RB-134",
+    "first_mentioned_prediction": 1,
+    "grammar_prediction": 1,
+    "label": 1
+  },
+  {
+    "input_id": "AUX-RB-135",
+    "first_mentioned_prediction": 1,
+    "grammar_prediction": 1,
+    "label": 1
+  },
+  {
+    "input_id": "AUX-RB-136",
+    "first_mentioned_prediction": 0,
+    "grammar_prediction": 0,
+    "label": 0
+  },
+  {
+    "input_id": "AUX-RB-137",
+    "first_mentioned_prediction": 0,
+    "grammar_prediction": 1,
+    "label": 1
+  },
+  {
+    "input_id": "AUX-RB-138",
+    "first_mentioned_prediction": 0,
+    "grammar_prediction": 1,
+    "label": 1
+  },
+  {
+    "input_id": "AUX-RB-139",
+    "first_mentioned_prediction": 0,
+    "grammar_prediction": 1,
+    "label": 1
+  },
+  {
+    "input_id": "AUX-RB-140",
+    "first_mentioned_prediction": 1,
+    "grammar_prediction": 0,
+    "label": 0
+  },
+  {
+    "input_id": "AUX-RB-141",
+    "first_mentioned_prediction": 0,
+    "grammar_prediction": 1,
+    "label": 1
+  },
+  {
+    "input_id": "AUX-RB-142",
+    "first_mentioned_prediction": 0,
+    "grammar_prediction": 1,
+    "label": 1
+  },
+  {
+    "input_id": "AUX-RB-143",
+    "first_mentioned_prediction": 0,
+    "grammar_prediction": 1,
+    "label": 1
+  },
+  {
+    "input_id": "AUX-RB-144",
+    "first_mentioned_prediction": 1,
+    "grammar_prediction": 0,
+    "label": 0
+  },
+  {
+    "input_id": "AUX-RB-145",
+    "first_mentioned_prediction": 0,
+    "grammar_prediction": 0,
+    "label": 0
+  },
+  {
+    "input_id": "AUX-RB-146",
+    "first_mentioned_prediction": 0,
+    "grammar_prediction": 0,
+    "label": 0
+  },
+  {
+    "input_id": "AUX-RB-147",
+    "first_mentioned_prediction": 0,
+    "grammar_prediction": 0,
+    "label": 0
+  },
+  {
+    "input_id": "AUX-RB-148",
+    "first_mentioned_prediction": 1,
+    "grammar_prediction": 1,
+    "label": 1
+  },
+  {
+    "input_id": "AUX-RB-149",
+    "first_mentioned_prediction": 0,
+    "grammar_prediction": 0,
+    "label": 0
+  },
+  {
+    "input_id": "AUX-RB-150",
+    "first_mentioned_prediction": 0,
+    "grammar_prediction": 0,
+    "label": 0
+  },
+  {
+    "input_id": "AUX-RB-151",
+    "first_mentioned_prediction": 0,
+    "grammar_prediction": 0,
+    "label": 0
+  },
+  {
+    "input_id": "AUX-RB-152",
+    "first_mentioned_prediction": 1,
+    "grammar_prediction": 1,
+    "label": 1
+  },
+  {
+    "input_id": "AUX-RB-153",
+    "first_mentioned_prediction": 1,
+    "grammar_prediction": 0,
+    "label": 0
+  },
+  {
+    "input_id": "AUX-RB-154",
+    "first_mentioned_prediction": 1,
+    "grammar_prediction": 0,
+    "label": 0
+  },
+  {
+    "input_id": "AUX-RB-155",
+    "first_mentioned_prediction": 1,
+    "grammar_prediction": 0,
+    "label": 0
+  },
+  {
+    "input_id": "AUX-RB-156",
+    "first_mentioned_prediction": 0,
+    "grammar_prediction": 1,
+    "label": 1
+  },
+  {
+    "input_id": "AUX-RB-157",
+    "first_mentioned_prediction": 1,
+    "grammar_prediction": 0,
+    "label": 0
+  },
+  {
+    "input_id": "AUX-RB-158",
+    "first_mentioned_prediction": 1,
+    "grammar_prediction": 0,
+    "label": 0
+  },
+  {
+    "input_id": "AUX-RB-159",
+    "first_mentioned_prediction": 1,
+    "grammar_prediction": 0,
+    "label": 0
+  },
+  {
+    "input_id": "AUX-RB-160",
+    "first_mentioned_prediction": 0,
+    "grammar_prediction": 1,
+    "label": 1
+  },
+  {
+    "input_id": "AUX-RB-161",
+    "first_mentioned_prediction": 1,
+    "grammar_prediction": 1,
+    "label": 1
+  },
+  {
+    "input_id": "AUX-RB-162",
+    "first_mentioned_prediction": 1,
+    "grammar_prediction": 1,
+    "label": 1
+  },
+  {
+    "input_id": "AUX-RB-163",
+    "first_mentioned_prediction": 1,
+    "grammar_prediction": 1,
+    "label": 1
+  },
+  {
+    "input_id": "AUX-RB-164",
+    "first_mentioned_prediction": 0,
+    "grammar_prediction": 0,
+    "label": 0
+  },
+  {
+    "input_id": "AUX-RB-165",
+    "first_mentioned_prediction": 1,
+    "grammar_prediction": 1,
+    "label": 1
+  },
+  {
+    "input_id": "AUX-RB-166",
+    "first_mentioned_prediction": 1,
+    "grammar_prediction": 1,
+    "label": 1
+  },
+  {
+    "input_id": "AUX-RB-167",
+    "first_mentioned_prediction": 1,
+    "grammar_prediction": 1,
+    "label": 1
+  },
+  {
+    "input_id": "AUX-RB-168",
+    "first_mentioned_prediction": 0,
+    "grammar_prediction": 0,
+    "label": 0
+  },
+  {
+    "input_id": "AUX-RB-169",
+    "first_mentioned_prediction": 0,
+    "grammar_prediction": 1,
+    "label": 1
+  },
+  {
+    "input_id": "AUX-RB-170",
+    "first_mentioned_prediction": 0,
+    "grammar_prediction": 1,
+    "label": 1
+  },
+  {
+    "input_id": "AUX-RB-171",
+    "first_mentioned_prediction": 0,
+    "grammar_prediction": 1,
+    "label": 1
+  },
+  {
+    "input_id": "AUX-RB-172",
+    "first_mentioned_prediction": 1,
+    "grammar_prediction": 0,
+    "label": 0
+  },
+  {
+    "input_id": "AUX-RB-173",
+    "first_mentioned_prediction": 0,
+    "grammar_prediction": 1,
+    "label": 1
+  },
+  {
+    "input_id": "AUX-RB-174",
+    "first_mentioned_prediction": 0,
+    "grammar_prediction": 1,
+    "label": 1
+  },
+  {
+    "input_id": "AUX-RB-175",
+    "first_mentioned_prediction": 0,
+    "grammar_prediction": 1,
+    "label": 1
+  },
+  {
+    "input_id": "AUX-RB-176",
+    "first_mentioned_prediction": 1,
+    "grammar_prediction": 0,
+    "label": 0
+  },
+  {
+    "input_id": "AUX-RB-177",
+    "first_mentioned_prediction": 0,
+    "grammar_prediction": 0,
+    "label": 0
+  },
+  {
+    "input_id": "AUX-RB-178",
+    "first_mentioned_prediction": 0,
+    "grammar_prediction": 0,
+    "label": 0
+  },
+  {
+    "input_id": "AUX-RB-179",
+    "first_mentioned_prediction": 0,
+    "grammar_prediction": 0,
+    "label": 0
+  },
+  {
+    "input_id": "AUX-RB-180",
+    "first_mentioned_prediction": 1,
+    "grammar_prediction": 1,
+    "label": 1
+  },
+  {
+    "input_id": "AUX-RB-181",
+    "first_mentioned_prediction": 0,
+    "grammar_prediction": 0,
+    "label": 0
+  },
+  {
+    "input_id": "AUX-RB-182",
+    "first_mentioned_prediction": 0,
+    "grammar_prediction": 0,
+    "label": 0
+  },
+  {
+    "input_id": "AUX-RB-183",
+    "first_mentioned_prediction": 0,
+    "grammar_prediction": 0,
+    "label": 0
+  },
+  {
+    "input_id": "AUX-RB-184",
+    "first_mentioned_prediction": 1,
+    "grammar_prediction": 1,
+    "label": 1
+  },
+  {
+    "input_id": "AUX-RB-185",
+    "first_mentioned_prediction": 1,
+    "grammar_prediction": 0,
+    "label": 0
+  },
+  {
+    "input_id": "AUX-RB-186",
+    "first_mentioned_prediction": 1,
+    "grammar_prediction": 0,
+    "label": 0
+  },
+  {
+    "input_id": "AUX-RB-187",
+    "first_mentioned_prediction": 1,
+    "grammar_prediction": 0,
+    "label": 0
+  },
+  {
+    "input_id": "AUX-RB-188",
+    "first_mentioned_prediction": 0,
+    "grammar_prediction": 1,
+    "label": 1
+  },
+  {
+    "input_id": "AUX-RB-189",
+    "first_mentioned_prediction": 1,
+    "grammar_prediction": 0,
+    "label": 0
+  },
+  {
+    "input_id": "AUX-RB-190",
+    "first_mentioned_prediction": 1,
+    "grammar_prediction": 0,
+    "label": 0
+  },
+  {
+    "input_id": "AUX-RB-191",
+    "first_mentioned_prediction": 1,
+    "grammar_prediction": 0,
+    "label": 0
+  },
+  {
+    "input_id": "AUX-RB-192",
+    "first_mentioned_prediction": 0,
+    "grammar_prediction": 1,
+    "label": 1
+  }
+]

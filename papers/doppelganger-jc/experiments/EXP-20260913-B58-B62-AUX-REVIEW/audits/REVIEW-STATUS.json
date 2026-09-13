@@ -1,0 +1,9 @@
+{
+  "B58_B62_main_accepted": true,
+  "AUX_observation_main_accepted": true,
+  "CAL02_main_accepted": true,
+  "human_gold": 0,
+  "human_review": "PENDING",
+  "public_release_status": "CONTENT_READY_REMOTE_VERIFICATION_RECORDED_SEPARATELY",
+  "further_experiments": "STOPPED_PENDING_USER_FRAMEWORK_DECISION"
+}

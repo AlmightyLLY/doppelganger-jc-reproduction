@@ -1,0 +1,4802 @@
+[
+  {
+    "input_id": "AUX-RB-001",
+    "candidates": [
+      {
+        "candidate_id": "AUX-RB-001-C0",
+        "kind": "TARGET_ROLE",
+        "completion": "{\"actor\":\"陆安宁\",\"undergoer\":\"许文清\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-001-C1",
+        "kind": "TARGET_REVERSED",
+        "completion": "{\"actor\":\"许文清\",\"undergoer\":\"陆安宁\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-001-C2",
+        "kind": "BACKGROUND_ROLE",
+        "completion": "{\"actor\":\"顾明远\",\"undergoer\":\"沈知夏\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-001-C3",
+        "kind": "BACKGROUND_REVERSED",
+        "completion": "{\"actor\":\"沈知夏\",\"undergoer\":\"顾明远\"}"
+      }
+    ]
+  },
+  {
+    "input_id": "AUX-RB-002",
+    "candidates": [
+      {
+        "candidate_id": "AUX-RB-002-C0",
+        "kind": "TARGET_ROLE",
+        "completion": "{\"actor\":\"陆安宁\",\"undergoer\":\"许文清\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-002-C1",
+        "kind": "TARGET_REVERSED",
+        "completion": "{\"actor\":\"许文清\",\"undergoer\":\"陆安宁\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-002-C2",
+        "kind": "BACKGROUND_ROLE",
+        "completion": "{\"actor\":\"顾明远\",\"undergoer\":\"沈知夏\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-002-C3",
+        "kind": "BACKGROUND_REVERSED",
+        "completion": "{\"actor\":\"沈知夏\",\"undergoer\":\"顾明远\"}"
+      }
+    ]
+  },
+  {
+    "input_id": "AUX-RB-003",
+    "candidates": [
+      {
+        "candidate_id": "AUX-RB-003-C0",
+        "kind": "TARGET_ROLE",
+        "completion": "{\"actor\":\"陆安宁\",\"undergoer\":\"许文清\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-003-C1",
+        "kind": "TARGET_REVERSED",
+        "completion": "{\"actor\":\"许文清\",\"undergoer\":\"陆安宁\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-003-C2",
+        "kind": "BOTH_NULL",
+        "completion": "{\"actor\":null,\"undergoer\":null}"
+      },
+      {
+        "candidate_id": "AUX-RB-003-C3",
+        "kind": "BOTH_A",
+        "completion": "{\"actor\":\"陆安宁\",\"undergoer\":\"陆安宁\"}"
+      }
+    ]
+  },
+  {
+    "input_id": "AUX-RB-004",
+    "candidates": [
+      {
+        "candidate_id": "AUX-RB-004-C0",
+        "kind": "TARGET_ROLE",
+        "completion": "{\"actor\":\"许文清\",\"undergoer\":\"陆安宁\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-004-C1",
+        "kind": "TARGET_REVERSED",
+        "completion": "{\"actor\":\"陆安宁\",\"undergoer\":\"许文清\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-004-C2",
+        "kind": "BOTH_NULL",
+        "completion": "{\"actor\":null,\"undergoer\":null}"
+      },
+      {
+        "candidate_id": "AUX-RB-004-C3",
+        "kind": "BOTH_A",
+        "completion": "{\"actor\":\"陆安宁\",\"undergoer\":\"陆安宁\"}"
+      }
+    ]
+  },
+  {
+    "input_id": "AUX-RB-005",
+    "candidates": [
+      {
+        "candidate_id": "AUX-RB-005-C0",
+        "kind": "TARGET_ROLE",
+        "completion": "{\"undergoer\":\"许文清\",\"actor\":\"陆安宁\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-005-C1",
+        "kind": "TARGET_REVERSED",
+        "completion": "{\"undergoer\":\"陆安宁\",\"actor\":\"许文清\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-005-C2",
+        "kind": "BACKGROUND_ROLE",
+        "completion": "{\"undergoer\":\"沈知夏\",\"actor\":\"顾明远\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-005-C3",
+        "kind": "BACKGROUND_REVERSED",
+        "completion": "{\"undergoer\":\"顾明远\",\"actor\":\"沈知夏\"}"
+      }
+    ]
+  },
+  {
+    "input_id": "AUX-RB-006",
+    "candidates": [
+      {
+        "candidate_id": "AUX-RB-006-C0",
+        "kind": "TARGET_ROLE",
+        "completion": "{\"undergoer\":\"许文清\",\"actor\":\"陆安宁\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-006-C1",
+        "kind": "TARGET_REVERSED",
+        "completion": "{\"undergoer\":\"陆安宁\",\"actor\":\"许文清\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-006-C2",
+        "kind": "BACKGROUND_ROLE",
+        "completion": "{\"undergoer\":\"沈知夏\",\"actor\":\"顾明远\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-006-C3",
+        "kind": "BACKGROUND_REVERSED",
+        "completion": "{\"undergoer\":\"顾明远\",\"actor\":\"沈知夏\"}"
+      }
+    ]
+  },
+  {
+    "input_id": "AUX-RB-007",
+    "candidates": [
+      {
+        "candidate_id": "AUX-RB-007-C0",
+        "kind": "TARGET_ROLE",
+        "completion": "{\"undergoer\":\"许文清\",\"actor\":\"陆安宁\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-007-C1",
+        "kind": "TARGET_REVERSED",
+        "completion": "{\"undergoer\":\"陆安宁\",\"actor\":\"许文清\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-007-C2",
+        "kind": "BOTH_NULL",
+        "completion": "{\"undergoer\":null,\"actor\":null}"
+      },
+      {
+        "candidate_id": "AUX-RB-007-C3",
+        "kind": "BOTH_A",
+        "completion": "{\"undergoer\":\"陆安宁\",\"actor\":\"陆安宁\"}"
+      }
+    ]
+  },
+  {
+    "input_id": "AUX-RB-008",
+    "candidates": [
+      {
+        "candidate_id": "AUX-RB-008-C0",
+        "kind": "TARGET_ROLE",
+        "completion": "{\"undergoer\":\"陆安宁\",\"actor\":\"许文清\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-008-C1",
+        "kind": "TARGET_REVERSED",
+        "completion": "{\"undergoer\":\"许文清\",\"actor\":\"陆安宁\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-008-C2",
+        "kind": "BOTH_NULL",
+        "completion": "{\"undergoer\":null,\"actor\":null}"
+      },
+      {
+        "candidate_id": "AUX-RB-008-C3",
+        "kind": "BOTH_A",
+        "completion": "{\"undergoer\":\"陆安宁\",\"actor\":\"陆安宁\"}"
+      }
+    ]
+  },
+  {
+    "input_id": "AUX-RB-009",
+    "candidates": [
+      {
+        "candidate_id": "AUX-RB-009-C0",
+        "kind": "TARGET_ROLE",
+        "completion": "{\"actor\":\"陆安宁\",\"undergoer\":\"许文清\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-009-C1",
+        "kind": "TARGET_REVERSED",
+        "completion": "{\"actor\":\"许文清\",\"undergoer\":\"陆安宁\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-009-C2",
+        "kind": "BACKGROUND_ROLE",
+        "completion": "{\"actor\":\"顾明远\",\"undergoer\":\"沈知夏\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-009-C3",
+        "kind": "BACKGROUND_REVERSED",
+        "completion": "{\"actor\":\"沈知夏\",\"undergoer\":\"顾明远\"}"
+      }
+    ]
+  },
+  {
+    "input_id": "AUX-RB-010",
+    "candidates": [
+      {
+        "candidate_id": "AUX-RB-010-C0",
+        "kind": "TARGET_ROLE",
+        "completion": "{\"actor\":\"陆安宁\",\"undergoer\":\"许文清\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-010-C1",
+        "kind": "TARGET_REVERSED",
+        "completion": "{\"actor\":\"许文清\",\"undergoer\":\"陆安宁\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-010-C2",
+        "kind": "BACKGROUND_ROLE",
+        "completion": "{\"actor\":\"顾明远\",\"undergoer\":\"沈知夏\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-010-C3",
+        "kind": "BACKGROUND_REVERSED",
+        "completion": "{\"actor\":\"沈知夏\",\"undergoer\":\"顾明远\"}"
+      }
+    ]
+  },
+  {
+    "input_id": "AUX-RB-011",
+    "candidates": [
+      {
+        "candidate_id": "AUX-RB-011-C0",
+        "kind": "TARGET_ROLE",
+        "completion": "{\"actor\":\"陆安宁\",\"undergoer\":\"许文清\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-011-C1",
+        "kind": "TARGET_REVERSED",
+        "completion": "{\"actor\":\"许文清\",\"undergoer\":\"陆安宁\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-011-C2",
+        "kind": "BOTH_NULL",
+        "completion": "{\"actor\":null,\"undergoer\":null}"
+      },
+      {
+        "candidate_id": "AUX-RB-011-C3",
+        "kind": "BOTH_A",
+        "completion": "{\"actor\":\"陆安宁\",\"undergoer\":\"陆安宁\"}"
+      }
+    ]
+  },
+  {
+    "input_id": "AUX-RB-012",
+    "candidates": [
+      {
+        "candidate_id": "AUX-RB-012-C0",
+        "kind": "TARGET_ROLE",
+        "completion": "{\"actor\":\"许文清\",\"undergoer\":\"陆安宁\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-012-C1",
+        "kind": "TARGET_REVERSED",
+        "completion": "{\"actor\":\"陆安宁\",\"undergoer\":\"许文清\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-012-C2",
+        "kind": "BOTH_NULL",
+        "completion": "{\"actor\":null,\"undergoer\":null}"
+      },
+      {
+        "candidate_id": "AUX-RB-012-C3",
+        "kind": "BOTH_A",
+        "completion": "{\"actor\":\"陆安宁\",\"undergoer\":\"陆安宁\"}"
+      }
+    ]
+  },
+  {
+    "input_id": "AUX-RB-013",
+    "candidates": [
+      {
+        "candidate_id": "AUX-RB-013-C0",
+        "kind": "TARGET_ROLE",
+        "completion": "{\"undergoer\":\"许文清\",\"actor\":\"陆安宁\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-013-C1",
+        "kind": "TARGET_REVERSED",
+        "completion": "{\"undergoer\":\"陆安宁\",\"actor\":\"许文清\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-013-C2",
+        "kind": "BACKGROUND_ROLE",
+        "completion": "{\"undergoer\":\"沈知夏\",\"actor\":\"顾明远\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-013-C3",
+        "kind": "BACKGROUND_REVERSED",
+        "completion": "{\"undergoer\":\"顾明远\",\"actor\":\"沈知夏\"}"
+      }
+    ]
+  },
+  {
+    "input_id": "AUX-RB-014",
+    "candidates": [
+      {
+        "candidate_id": "AUX-RB-014-C0",
+        "kind": "TARGET_ROLE",
+        "completion": "{\"undergoer\":\"许文清\",\"actor\":\"陆安宁\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-014-C1",
+        "kind": "TARGET_REVERSED",
+        "completion": "{\"undergoer\":\"陆安宁\",\"actor\":\"许文清\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-014-C2",
+        "kind": "BACKGROUND_ROLE",
+        "completion": "{\"undergoer\":\"沈知夏\",\"actor\":\"顾明远\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-014-C3",
+        "kind": "BACKGROUND_REVERSED",
+        "completion": "{\"undergoer\":\"顾明远\",\"actor\":\"沈知夏\"}"
+      }
+    ]
+  },
+  {
+    "input_id": "AUX-RB-015",
+    "candidates": [
+      {
+        "candidate_id": "AUX-RB-015-C0",
+        "kind": "TARGET_ROLE",
+        "completion": "{\"undergoer\":\"许文清\",\"actor\":\"陆安宁\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-015-C1",
+        "kind": "TARGET_REVERSED",
+        "completion": "{\"undergoer\":\"陆安宁\",\"actor\":\"许文清\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-015-C2",
+        "kind": "BOTH_NULL",
+        "completion": "{\"undergoer\":null,\"actor\":null}"
+      },
+      {
+        "candidate_id": "AUX-RB-015-C3",
+        "kind": "BOTH_A",
+        "completion": "{\"undergoer\":\"陆安宁\",\"actor\":\"陆安宁\"}"
+      }
+    ]
+  },
+  {
+    "input_id": "AUX-RB-016",
+    "candidates": [
+      {
+        "candidate_id": "AUX-RB-016-C0",
+        "kind": "TARGET_ROLE",
+        "completion": "{\"undergoer\":\"陆安宁\",\"actor\":\"许文清\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-016-C1",
+        "kind": "TARGET_REVERSED",
+        "completion": "{\"undergoer\":\"许文清\",\"actor\":\"陆安宁\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-016-C2",
+        "kind": "BOTH_NULL",
+        "completion": "{\"undergoer\":null,\"actor\":null}"
+      },
+      {
+        "candidate_id": "AUX-RB-016-C3",
+        "kind": "BOTH_A",
+        "completion": "{\"undergoer\":\"陆安宁\",\"actor\":\"陆安宁\"}"
+      }
+    ]
+  },
+  {
+    "input_id": "AUX-RB-017",
+    "candidates": [
+      {
+        "candidate_id": "AUX-RB-017-C0",
+        "kind": "TARGET_ROLE",
+        "completion": "{\"actor\":\"钱望舒\",\"undergoer\":\"赵清和\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-017-C1",
+        "kind": "TARGET_REVERSED",
+        "completion": "{\"actor\":\"赵清和\",\"undergoer\":\"钱望舒\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-017-C2",
+        "kind": "BACKGROUND_ROLE",
+        "completion": "{\"actor\":\"宋雨晴\",\"undergoer\":\"唐景明\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-017-C3",
+        "kind": "BACKGROUND_REVERSED",
+        "completion": "{\"actor\":\"唐景明\",\"undergoer\":\"宋雨晴\"}"
+      }
+    ]
+  },
+  {
+    "input_id": "AUX-RB-018",
+    "candidates": [
+      {
+        "candidate_id": "AUX-RB-018-C0",
+        "kind": "TARGET_ROLE",
+        "completion": "{\"actor\":\"钱望舒\",\"undergoer\":\"赵清和\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-018-C1",
+        "kind": "TARGET_REVERSED",
+        "completion": "{\"actor\":\"赵清和\",\"undergoer\":\"钱望舒\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-018-C2",
+        "kind": "BACKGROUND_ROLE",
+        "completion": "{\"actor\":\"宋雨晴\",\"undergoer\":\"唐景明\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-018-C3",
+        "kind": "BACKGROUND_REVERSED",
+        "completion": "{\"actor\":\"唐景明\",\"undergoer\":\"宋雨晴\"}"
+      }
+    ]
+  },
+  {
+    "input_id": "AUX-RB-019",
+    "candidates": [
+      {
+        "candidate_id": "AUX-RB-019-C0",
+        "kind": "TARGET_ROLE",
+        "completion": "{\"actor\":\"钱望舒\",\"undergoer\":\"赵清和\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-019-C1",
+        "kind": "TARGET_REVERSED",
+        "completion": "{\"actor\":\"赵清和\",\"undergoer\":\"钱望舒\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-019-C2",
+        "kind": "BOTH_NULL",
+        "completion": "{\"actor\":null,\"undergoer\":null}"
+      },
+      {
+        "candidate_id": "AUX-RB-019-C3",
+        "kind": "BOTH_A",
+        "completion": "{\"actor\":\"赵清和\",\"undergoer\":\"赵清和\"}"
+      }
+    ]
+  },
+  {
+    "input_id": "AUX-RB-020",
+    "candidates": [
+      {
+        "candidate_id": "AUX-RB-020-C0",
+        "kind": "TARGET_ROLE",
+        "completion": "{\"actor\":\"赵清和\",\"undergoer\":\"钱望舒\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-020-C1",
+        "kind": "TARGET_REVERSED",
+        "completion": "{\"actor\":\"钱望舒\",\"undergoer\":\"赵清和\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-020-C2",
+        "kind": "BOTH_NULL",
+        "completion": "{\"actor\":null,\"undergoer\":null}"
+      },
+      {
+        "candidate_id": "AUX-RB-020-C3",
+        "kind": "BOTH_A",
+        "completion": "{\"actor\":\"赵清和\",\"undergoer\":\"赵清和\"}"
+      }
+    ]
+  },
+  {
+    "input_id": "AUX-RB-021",
+    "candidates": [
+      {
+        "candidate_id": "AUX-RB-021-C0",
+        "kind": "TARGET_ROLE",
+        "completion": "{\"undergoer\":\"赵清和\",\"actor\":\"钱望舒\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-021-C1",
+        "kind": "TARGET_REVERSED",
+        "completion": "{\"undergoer\":\"钱望舒\",\"actor\":\"赵清和\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-021-C2",
+        "kind": "BACKGROUND_ROLE",
+        "completion": "{\"undergoer\":\"唐景明\",\"actor\":\"宋雨晴\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-021-C3",
+        "kind": "BACKGROUND_REVERSED",
+        "completion": "{\"undergoer\":\"宋雨晴\",\"actor\":\"唐景明\"}"
+      }
+    ]
+  },
+  {
+    "input_id": "AUX-RB-022",
+    "candidates": [
+      {
+        "candidate_id": "AUX-RB-022-C0",
+        "kind": "TARGET_ROLE",
+        "completion": "{\"undergoer\":\"赵清和\",\"actor\":\"钱望舒\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-022-C1",
+        "kind": "TARGET_REVERSED",
+        "completion": "{\"undergoer\":\"钱望舒\",\"actor\":\"赵清和\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-022-C2",
+        "kind": "BACKGROUND_ROLE",
+        "completion": "{\"undergoer\":\"唐景明\",\"actor\":\"宋雨晴\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-022-C3",
+        "kind": "BACKGROUND_REVERSED",
+        "completion": "{\"undergoer\":\"宋雨晴\",\"actor\":\"唐景明\"}"
+      }
+    ]
+  },
+  {
+    "input_id": "AUX-RB-023",
+    "candidates": [
+      {
+        "candidate_id": "AUX-RB-023-C0",
+        "kind": "TARGET_ROLE",
+        "completion": "{\"undergoer\":\"赵清和\",\"actor\":\"钱望舒\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-023-C1",
+        "kind": "TARGET_REVERSED",
+        "completion": "{\"undergoer\":\"钱望舒\",\"actor\":\"赵清和\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-023-C2",
+        "kind": "BOTH_NULL",
+        "completion": "{\"undergoer\":null,\"actor\":null}"
+      },
+      {
+        "candidate_id": "AUX-RB-023-C3",
+        "kind": "BOTH_A",
+        "completion": "{\"undergoer\":\"赵清和\",\"actor\":\"赵清和\"}"
+      }
+    ]
+  },
+  {
+    "input_id": "AUX-RB-024",
+    "candidates": [
+      {
+        "candidate_id": "AUX-RB-024-C0",
+        "kind": "TARGET_ROLE",
+        "completion": "{\"undergoer\":\"钱望舒\",\"actor\":\"赵清和\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-024-C1",
+        "kind": "TARGET_REVERSED",
+        "completion": "{\"undergoer\":\"赵清和\",\"actor\":\"钱望舒\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-024-C2",
+        "kind": "BOTH_NULL",
+        "completion": "{\"undergoer\":null,\"actor\":null}"
+      },
+      {
+        "candidate_id": "AUX-RB-024-C3",
+        "kind": "BOTH_A",
+        "completion": "{\"undergoer\":\"赵清和\",\"actor\":\"赵清和\"}"
+      }
+    ]
+  },
+  {
+    "input_id": "AUX-RB-025",
+    "candidates": [
+      {
+        "candidate_id": "AUX-RB-025-C0",
+        "kind": "TARGET_ROLE",
+        "completion": "{\"actor\":\"钱望舒\",\"undergoer\":\"赵清和\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-025-C1",
+        "kind": "TARGET_REVERSED",
+        "completion": "{\"actor\":\"赵清和\",\"undergoer\":\"钱望舒\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-025-C2",
+        "kind": "BACKGROUND_ROLE",
+        "completion": "{\"actor\":\"宋雨晴\",\"undergoer\":\"唐景明\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-025-C3",
+        "kind": "BACKGROUND_REVERSED",
+        "completion": "{\"actor\":\"唐景明\",\"undergoer\":\"宋雨晴\"}"
+      }
+    ]
+  },
+  {
+    "input_id": "AUX-RB-026",
+    "candidates": [
+      {
+        "candidate_id": "AUX-RB-026-C0",
+        "kind": "TARGET_ROLE",
+        "completion": "{\"actor\":\"钱望舒\",\"undergoer\":\"赵清和\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-026-C1",
+        "kind": "TARGET_REVERSED",
+        "completion": "{\"actor\":\"赵清和\",\"undergoer\":\"钱望舒\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-026-C2",
+        "kind": "BACKGROUND_ROLE",
+        "completion": "{\"actor\":\"宋雨晴\",\"undergoer\":\"唐景明\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-026-C3",
+        "kind": "BACKGROUND_REVERSED",
+        "completion": "{\"actor\":\"唐景明\",\"undergoer\":\"宋雨晴\"}"
+      }
+    ]
+  },
+  {
+    "input_id": "AUX-RB-027",
+    "candidates": [
+      {
+        "candidate_id": "AUX-RB-027-C0",
+        "kind": "TARGET_ROLE",
+        "completion": "{\"actor\":\"钱望舒\",\"undergoer\":\"赵清和\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-027-C1",
+        "kind": "TARGET_REVERSED",
+        "completion": "{\"actor\":\"赵清和\",\"undergoer\":\"钱望舒\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-027-C2",
+        "kind": "BOTH_NULL",
+        "completion": "{\"actor\":null,\"undergoer\":null}"
+      },
+      {
+        "candidate_id": "AUX-RB-027-C3",
+        "kind": "BOTH_A",
+        "completion": "{\"actor\":\"赵清和\",\"undergoer\":\"赵清和\"}"
+      }
+    ]
+  },
+  {
+    "input_id": "AUX-RB-028",
+    "candidates": [
+      {
+        "candidate_id": "AUX-RB-028-C0",
+        "kind": "TARGET_ROLE",
+        "completion": "{\"actor\":\"赵清和\",\"undergoer\":\"钱望舒\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-028-C1",
+        "kind": "TARGET_REVERSED",
+        "completion": "{\"actor\":\"钱望舒\",\"undergoer\":\"赵清和\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-028-C2",
+        "kind": "BOTH_NULL",
+        "completion": "{\"actor\":null,\"undergoer\":null}"
+      },
+      {
+        "candidate_id": "AUX-RB-028-C3",
+        "kind": "BOTH_A",
+        "completion": "{\"actor\":\"赵清和\",\"undergoer\":\"赵清和\"}"
+      }
+    ]
+  },
+  {
+    "input_id": "AUX-RB-029",
+    "candidates": [
+      {
+        "candidate_id": "AUX-RB-029-C0",
+        "kind": "TARGET_ROLE",
+        "completion": "{\"undergoer\":\"赵清和\",\"actor\":\"钱望舒\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-029-C1",
+        "kind": "TARGET_REVERSED",
+        "completion": "{\"undergoer\":\"钱望舒\",\"actor\":\"赵清和\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-029-C2",
+        "kind": "BACKGROUND_ROLE",
+        "completion": "{\"undergoer\":\"唐景明\",\"actor\":\"宋雨晴\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-029-C3",
+        "kind": "BACKGROUND_REVERSED",
+        "completion": "{\"undergoer\":\"宋雨晴\",\"actor\":\"唐景明\"}"
+      }
+    ]
+  },
+  {
+    "input_id": "AUX-RB-030",
+    "candidates": [
+      {
+        "candidate_id": "AUX-RB-030-C0",
+        "kind": "TARGET_ROLE",
+        "completion": "{\"undergoer\":\"赵清和\",\"actor\":\"钱望舒\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-030-C1",
+        "kind": "TARGET_REVERSED",
+        "completion": "{\"undergoer\":\"钱望舒\",\"actor\":\"赵清和\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-030-C2",
+        "kind": "BACKGROUND_ROLE",
+        "completion": "{\"undergoer\":\"唐景明\",\"actor\":\"宋雨晴\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-030-C3",
+        "kind": "BACKGROUND_REVERSED",
+        "completion": "{\"undergoer\":\"宋雨晴\",\"actor\":\"唐景明\"}"
+      }
+    ]
+  },
+  {
+    "input_id": "AUX-RB-031",
+    "candidates": [
+      {
+        "candidate_id": "AUX-RB-031-C0",
+        "kind": "TARGET_ROLE",
+        "completion": "{\"undergoer\":\"赵清和\",\"actor\":\"钱望舒\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-031-C1",
+        "kind": "TARGET_REVERSED",
+        "completion": "{\"undergoer\":\"钱望舒\",\"actor\":\"赵清和\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-031-C2",
+        "kind": "BOTH_NULL",
+        "completion": "{\"undergoer\":null,\"actor\":null}"
+      },
+      {
+        "candidate_id": "AUX-RB-031-C3",
+        "kind": "BOTH_A",
+        "completion": "{\"undergoer\":\"赵清和\",\"actor\":\"赵清和\"}"
+      }
+    ]
+  },
+  {
+    "input_id": "AUX-RB-032",
+    "candidates": [
+      {
+        "candidate_id": "AUX-RB-032-C0",
+        "kind": "TARGET_ROLE",
+        "completion": "{\"undergoer\":\"钱望舒\",\"actor\":\"赵清和\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-032-C1",
+        "kind": "TARGET_REVERSED",
+        "completion": "{\"undergoer\":\"赵清和\",\"actor\":\"钱望舒\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-032-C2",
+        "kind": "BOTH_NULL",
+        "completion": "{\"undergoer\":null,\"actor\":null}"
+      },
+      {
+        "candidate_id": "AUX-RB-032-C3",
+        "kind": "BOTH_A",
+        "completion": "{\"undergoer\":\"赵清和\",\"actor\":\"赵清和\"}"
+      }
+    ]
+  },
+  {
+    "input_id": "AUX-RB-033",
+    "candidates": [
+      {
+        "candidate_id": "AUX-RB-033-C0",
+        "kind": "TARGET_ROLE",
+        "completion": "{\"actor\":\"周书宁\",\"undergoer\":\"吴嘉树\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-033-C1",
+        "kind": "TARGET_REVERSED",
+        "completion": "{\"actor\":\"吴嘉树\",\"undergoer\":\"周书宁\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-033-C2",
+        "kind": "BACKGROUND_ROLE",
+        "completion": "{\"actor\":\"郑思远\",\"undergoer\":\"冯语桐\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-033-C3",
+        "kind": "BACKGROUND_REVERSED",
+        "completion": "{\"actor\":\"冯语桐\",\"undergoer\":\"郑思远\"}"
+      }
+    ]
+  },
+  {
+    "input_id": "AUX-RB-034",
+    "candidates": [
+      {
+        "candidate_id": "AUX-RB-034-C0",
+        "kind": "TARGET_ROLE",
+        "completion": "{\"actor\":\"周书宁\",\"undergoer\":\"吴嘉树\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-034-C1",
+        "kind": "TARGET_REVERSED",
+        "completion": "{\"actor\":\"吴嘉树\",\"undergoer\":\"周书宁\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-034-C2",
+        "kind": "BACKGROUND_ROLE",
+        "completion": "{\"actor\":\"郑思远\",\"undergoer\":\"冯语桐\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-034-C3",
+        "kind": "BACKGROUND_REVERSED",
+        "completion": "{\"actor\":\"冯语桐\",\"undergoer\":\"郑思远\"}"
+      }
+    ]
+  },
+  {
+    "input_id": "AUX-RB-035",
+    "candidates": [
+      {
+        "candidate_id": "AUX-RB-035-C0",
+        "kind": "TARGET_ROLE",
+        "completion": "{\"actor\":\"周书宁\",\"undergoer\":\"吴嘉树\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-035-C1",
+        "kind": "TARGET_REVERSED",
+        "completion": "{\"actor\":\"吴嘉树\",\"undergoer\":\"周书宁\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-035-C2",
+        "kind": "BOTH_NULL",
+        "completion": "{\"actor\":null,\"undergoer\":null}"
+      },
+      {
+        "candidate_id": "AUX-RB-035-C3",
+        "kind": "BOTH_A",
+        "completion": "{\"actor\":\"周书宁\",\"undergoer\":\"周书宁\"}"
+      }
+    ]
+  },
+  {
+    "input_id": "AUX-RB-036",
+    "candidates": [
+      {
+        "candidate_id": "AUX-RB-036-C0",
+        "kind": "TARGET_ROLE",
+        "completion": "{\"actor\":\"吴嘉树\",\"undergoer\":\"周书宁\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-036-C1",
+        "kind": "TARGET_REVERSED",
+        "completion": "{\"actor\":\"周书宁\",\"undergoer\":\"吴嘉树\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-036-C2",
+        "kind": "BOTH_NULL",
+        "completion": "{\"actor\":null,\"undergoer\":null}"
+      },
+      {
+        "candidate_id": "AUX-RB-036-C3",
+        "kind": "BOTH_A",
+        "completion": "{\"actor\":\"周书宁\",\"undergoer\":\"周书宁\"}"
+      }
+    ]
+  },
+  {
+    "input_id": "AUX-RB-037",
+    "candidates": [
+      {
+        "candidate_id": "AUX-RB-037-C0",
+        "kind": "TARGET_ROLE",
+        "completion": "{\"undergoer\":\"吴嘉树\",\"actor\":\"周书宁\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-037-C1",
+        "kind": "TARGET_REVERSED",
+        "completion": "{\"undergoer\":\"周书宁\",\"actor\":\"吴嘉树\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-037-C2",
+        "kind": "BACKGROUND_ROLE",
+        "completion": "{\"undergoer\":\"冯语桐\",\"actor\":\"郑思远\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-037-C3",
+        "kind": "BACKGROUND_REVERSED",
+        "completion": "{\"undergoer\":\"郑思远\",\"actor\":\"冯语桐\"}"
+      }
+    ]
+  },
+  {
+    "input_id": "AUX-RB-038",
+    "candidates": [
+      {
+        "candidate_id": "AUX-RB-038-C0",
+        "kind": "TARGET_ROLE",
+        "completion": "{\"undergoer\":\"吴嘉树\",\"actor\":\"周书宁\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-038-C1",
+        "kind": "TARGET_REVERSED",
+        "completion": "{\"undergoer\":\"周书宁\",\"actor\":\"吴嘉树\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-038-C2",
+        "kind": "BACKGROUND_ROLE",
+        "completion": "{\"undergoer\":\"冯语桐\",\"actor\":\"郑思远\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-038-C3",
+        "kind": "BACKGROUND_REVERSED",
+        "completion": "{\"undergoer\":\"郑思远\",\"actor\":\"冯语桐\"}"
+      }
+    ]
+  },
+  {
+    "input_id": "AUX-RB-039",
+    "candidates": [
+      {
+        "candidate_id": "AUX-RB-039-C0",
+        "kind": "TARGET_ROLE",
+        "completion": "{\"undergoer\":\"吴嘉树\",\"actor\":\"周书宁\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-039-C1",
+        "kind": "TARGET_REVERSED",
+        "completion": "{\"undergoer\":\"周书宁\",\"actor\":\"吴嘉树\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-039-C2",
+        "kind": "BOTH_NULL",
+        "completion": "{\"undergoer\":null,\"actor\":null}"
+      },
+      {
+        "candidate_id": "AUX-RB-039-C3",
+        "kind": "BOTH_A",
+        "completion": "{\"undergoer\":\"周书宁\",\"actor\":\"周书宁\"}"
+      }
+    ]
+  },
+  {
+    "input_id": "AUX-RB-040",
+    "candidates": [
+      {
+        "candidate_id": "AUX-RB-040-C0",
+        "kind": "TARGET_ROLE",
+        "completion": "{\"undergoer\":\"周书宁\",\"actor\":\"吴嘉树\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-040-C1",
+        "kind": "TARGET_REVERSED",
+        "completion": "{\"undergoer\":\"吴嘉树\",\"actor\":\"周书宁\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-040-C2",
+        "kind": "BOTH_NULL",
+        "completion": "{\"undergoer\":null,\"actor\":null}"
+      },
+      {
+        "candidate_id": "AUX-RB-040-C3",
+        "kind": "BOTH_A",
+        "completion": "{\"undergoer\":\"周书宁\",\"actor\":\"周书宁\"}"
+      }
+    ]
+  },
+  {
+    "input_id": "AUX-RB-041",
+    "candidates": [
+      {
+        "candidate_id": "AUX-RB-041-C0",
+        "kind": "TARGET_ROLE",
+        "completion": "{\"actor\":\"周书宁\",\"undergoer\":\"吴嘉树\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-041-C1",
+        "kind": "TARGET_REVERSED",
+        "completion": "{\"actor\":\"吴嘉树\",\"undergoer\":\"周书宁\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-041-C2",
+        "kind": "BACKGROUND_ROLE",
+        "completion": "{\"actor\":\"郑思远\",\"undergoer\":\"冯语桐\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-041-C3",
+        "kind": "BACKGROUND_REVERSED",
+        "completion": "{\"actor\":\"冯语桐\",\"undergoer\":\"郑思远\"}"
+      }
+    ]
+  },
+  {
+    "input_id": "AUX-RB-042",
+    "candidates": [
+      {
+        "candidate_id": "AUX-RB-042-C0",
+        "kind": "TARGET_ROLE",
+        "completion": "{\"actor\":\"周书宁\",\"undergoer\":\"吴嘉树\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-042-C1",
+        "kind": "TARGET_REVERSED",
+        "completion": "{\"actor\":\"吴嘉树\",\"undergoer\":\"周书宁\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-042-C2",
+        "kind": "BACKGROUND_ROLE",
+        "completion": "{\"actor\":\"郑思远\",\"undergoer\":\"冯语桐\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-042-C3",
+        "kind": "BACKGROUND_REVERSED",
+        "completion": "{\"actor\":\"冯语桐\",\"undergoer\":\"郑思远\"}"
+      }
+    ]
+  },
+  {
+    "input_id": "AUX-RB-043",
+    "candidates": [
+      {
+        "candidate_id": "AUX-RB-043-C0",
+        "kind": "TARGET_ROLE",
+        "completion": "{\"actor\":\"周书宁\",\"undergoer\":\"吴嘉树\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-043-C1",
+        "kind": "TARGET_REVERSED",
+        "completion": "{\"actor\":\"吴嘉树\",\"undergoer\":\"周书宁\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-043-C2",
+        "kind": "BOTH_NULL",
+        "completion": "{\"actor\":null,\"undergoer\":null}"
+      },
+      {
+        "candidate_id": "AUX-RB-043-C3",
+        "kind": "BOTH_A",
+        "completion": "{\"actor\":\"周书宁\",\"undergoer\":\"周书宁\"}"
+      }
+    ]
+  },
+  {
+    "input_id": "AUX-RB-044",
+    "candidates": [
+      {
+        "candidate_id": "AUX-RB-044-C0",
+        "kind": "TARGET_ROLE",
+        "completion": "{\"actor\":\"吴嘉树\",\"undergoer\":\"周书宁\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-044-C1",
+        "kind": "TARGET_REVERSED",
+        "completion": "{\"actor\":\"周书宁\",\"undergoer\":\"吴嘉树\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-044-C2",
+        "kind": "BOTH_NULL",
+        "completion": "{\"actor\":null,\"undergoer\":null}"
+      },
+      {
+        "candidate_id": "AUX-RB-044-C3",
+        "kind": "BOTH_A",
+        "completion": "{\"actor\":\"周书宁\",\"undergoer\":\"周书宁\"}"
+      }
+    ]
+  },
+  {
+    "input_id": "AUX-RB-045",
+    "candidates": [
+      {
+        "candidate_id": "AUX-RB-045-C0",
+        "kind": "TARGET_ROLE",
+        "completion": "{\"undergoer\":\"吴嘉树\",\"actor\":\"周书宁\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-045-C1",
+        "kind": "TARGET_REVERSED",
+        "completion": "{\"undergoer\":\"周书宁\",\"actor\":\"吴嘉树\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-045-C2",
+        "kind": "BACKGROUND_ROLE",
+        "completion": "{\"undergoer\":\"冯语桐\",\"actor\":\"郑思远\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-045-C3",
+        "kind": "BACKGROUND_REVERSED",
+        "completion": "{\"undergoer\":\"郑思远\",\"actor\":\"冯语桐\"}"
+      }
+    ]
+  },
+  {
+    "input_id": "AUX-RB-046",
+    "candidates": [
+      {
+        "candidate_id": "AUX-RB-046-C0",
+        "kind": "TARGET_ROLE",
+        "completion": "{\"undergoer\":\"吴嘉树\",\"actor\":\"周书宁\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-046-C1",
+        "kind": "TARGET_REVERSED",
+        "completion": "{\"undergoer\":\"周书宁\",\"actor\":\"吴嘉树\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-046-C2",
+        "kind": "BACKGROUND_ROLE",
+        "completion": "{\"undergoer\":\"冯语桐\",\"actor\":\"郑思远\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-046-C3",
+        "kind": "BACKGROUND_REVERSED",
+        "completion": "{\"undergoer\":\"郑思远\",\"actor\":\"冯语桐\"}"
+      }
+    ]
+  },
+  {
+    "input_id": "AUX-RB-047",
+    "candidates": [
+      {
+        "candidate_id": "AUX-RB-047-C0",
+        "kind": "TARGET_ROLE",
+        "completion": "{\"undergoer\":\"吴嘉树\",\"actor\":\"周书宁\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-047-C1",
+        "kind": "TARGET_REVERSED",
+        "completion": "{\"undergoer\":\"周书宁\",\"actor\":\"吴嘉树\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-047-C2",
+        "kind": "BOTH_NULL",
+        "completion": "{\"undergoer\":null,\"actor\":null}"
+      },
+      {
+        "candidate_id": "AUX-RB-047-C3",
+        "kind": "BOTH_A",
+        "completion": "{\"undergoer\":\"周书宁\",\"actor\":\"周书宁\"}"
+      }
+    ]
+  },
+  {
+    "input_id": "AUX-RB-048",
+    "candidates": [
+      {
+        "candidate_id": "AUX-RB-048-C0",
+        "kind": "TARGET_ROLE",
+        "completion": "{\"undergoer\":\"周书宁\",\"actor\":\"吴嘉树\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-048-C1",
+        "kind": "TARGET_REVERSED",
+        "completion": "{\"undergoer\":\"吴嘉树\",\"actor\":\"周书宁\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-048-C2",
+        "kind": "BOTH_NULL",
+        "completion": "{\"undergoer\":null,\"actor\":null}"
+      },
+      {
+        "candidate_id": "AUX-RB-048-C3",
+        "kind": "BOTH_A",
+        "completion": "{\"undergoer\":\"周书宁\",\"actor\":\"周书宁\"}"
+      }
+    ]
+  },
+  {
+    "input_id": "AUX-RB-049",
+    "candidates": [
+      {
+        "candidate_id": "AUX-RB-049-C0",
+        "kind": "TARGET_ROLE",
+        "completion": "{\"actor\":\"林若溪\",\"undergoer\":\"陈子谦\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-049-C1",
+        "kind": "TARGET_REVERSED",
+        "completion": "{\"actor\":\"陈子谦\",\"undergoer\":\"林若溪\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-049-C2",
+        "kind": "BACKGROUND_ROLE",
+        "completion": "{\"actor\":\"苏亦宁\",\"undergoer\":\"何清扬\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-049-C3",
+        "kind": "BACKGROUND_REVERSED",
+        "completion": "{\"actor\":\"何清扬\",\"undergoer\":\"苏亦宁\"}"
+      }
+    ]
+  },
+  {
+    "input_id": "AUX-RB-050",
+    "candidates": [
+      {
+        "candidate_id": "AUX-RB-050-C0",
+        "kind": "TARGET_ROLE",
+        "completion": "{\"actor\":\"林若溪\",\"undergoer\":\"陈子谦\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-050-C1",
+        "kind": "TARGET_REVERSED",
+        "completion": "{\"actor\":\"陈子谦\",\"undergoer\":\"林若溪\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-050-C2",
+        "kind": "BACKGROUND_ROLE",
+        "completion": "{\"actor\":\"苏亦宁\",\"undergoer\":\"何清扬\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-050-C3",
+        "kind": "BACKGROUND_REVERSED",
+        "completion": "{\"actor\":\"何清扬\",\"undergoer\":\"苏亦宁\"}"
+      }
+    ]
+  },
+  {
+    "input_id": "AUX-RB-051",
+    "candidates": [
+      {
+        "candidate_id": "AUX-RB-051-C0",
+        "kind": "TARGET_ROLE",
+        "completion": "{\"actor\":\"林若溪\",\"undergoer\":\"陈子谦\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-051-C1",
+        "kind": "TARGET_REVERSED",
+        "completion": "{\"actor\":\"陈子谦\",\"undergoer\":\"林若溪\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-051-C2",
+        "kind": "BOTH_NULL",
+        "completion": "{\"actor\":null,\"undergoer\":null}"
+      },
+      {
+        "candidate_id": "AUX-RB-051-C3",
+        "kind": "BOTH_A",
+        "completion": "{\"actor\":\"陈子谦\",\"undergoer\":\"陈子谦\"}"
+      }
+    ]
+  },
+  {
+    "input_id": "AUX-RB-052",
+    "candidates": [
+      {
+        "candidate_id": "AUX-RB-052-C0",
+        "kind": "TARGET_ROLE",
+        "completion": "{\"actor\":\"陈子谦\",\"undergoer\":\"林若溪\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-052-C1",
+        "kind": "TARGET_REVERSED",
+        "completion": "{\"actor\":\"林若溪\",\"undergoer\":\"陈子谦\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-052-C2",
+        "kind": "BOTH_NULL",
+        "completion": "{\"actor\":null,\"undergoer\":null}"
+      },
+      {
+        "candidate_id": "AUX-RB-052-C3",
+        "kind": "BOTH_A",
+        "completion": "{\"actor\":\"陈子谦\",\"undergoer\":\"陈子谦\"}"
+      }
+    ]
+  },
+  {
+    "input_id": "AUX-RB-053",
+    "candidates": [
+      {
+        "candidate_id": "AUX-RB-053-C0",
+        "kind": "TARGET_ROLE",
+        "completion": "{\"undergoer\":\"陈子谦\",\"actor\":\"林若溪\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-053-C1",
+        "kind": "TARGET_REVERSED",
+        "completion": "{\"undergoer\":\"林若溪\",\"actor\":\"陈子谦\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-053-C2",
+        "kind": "BACKGROUND_ROLE",
+        "completion": "{\"undergoer\":\"何清扬\",\"actor\":\"苏亦宁\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-053-C3",
+        "kind": "BACKGROUND_REVERSED",
+        "completion": "{\"undergoer\":\"苏亦宁\",\"actor\":\"何清扬\"}"
+      }
+    ]
+  },
+  {
+    "input_id": "AUX-RB-054",
+    "candidates": [
+      {
+        "candidate_id": "AUX-RB-054-C0",
+        "kind": "TARGET_ROLE",
+        "completion": "{\"undergoer\":\"陈子谦\",\"actor\":\"林若溪\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-054-C1",
+        "kind": "TARGET_REVERSED",
+        "completion": "{\"undergoer\":\"林若溪\",\"actor\":\"陈子谦\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-054-C2",
+        "kind": "BACKGROUND_ROLE",
+        "completion": "{\"undergoer\":\"何清扬\",\"actor\":\"苏亦宁\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-054-C3",
+        "kind": "BACKGROUND_REVERSED",
+        "completion": "{\"undergoer\":\"苏亦宁\",\"actor\":\"何清扬\"}"
+      }
+    ]
+  },
+  {
+    "input_id": "AUX-RB-055",
+    "candidates": [
+      {
+        "candidate_id": "AUX-RB-055-C0",
+        "kind": "TARGET_ROLE",
+        "completion": "{\"undergoer\":\"陈子谦\",\"actor\":\"林若溪\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-055-C1",
+        "kind": "TARGET_REVERSED",
+        "completion": "{\"undergoer\":\"林若溪\",\"actor\":\"陈子谦\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-055-C2",
+        "kind": "BOTH_NULL",
+        "completion": "{\"undergoer\":null,\"actor\":null}"
+      },
+      {
+        "candidate_id": "AUX-RB-055-C3",
+        "kind": "BOTH_A",
+        "completion": "{\"undergoer\":\"陈子谦\",\"actor\":\"陈子谦\"}"
+      }
+    ]
+  },
+  {
+    "input_id": "AUX-RB-056",
+    "candidates": [
+      {
+        "candidate_id": "AUX-RB-056-C0",
+        "kind": "TARGET_ROLE",
+        "completion": "{\"undergoer\":\"林若溪\",\"actor\":\"陈子谦\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-056-C1",
+        "kind": "TARGET_REVERSED",
+        "completion": "{\"undergoer\":\"陈子谦\",\"actor\":\"林若溪\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-056-C2",
+        "kind": "BOTH_NULL",
+        "completion": "{\"undergoer\":null,\"actor\":null}"
+      },
+      {
+        "candidate_id": "AUX-RB-056-C3",
+        "kind": "BOTH_A",
+        "completion": "{\"undergoer\":\"陈子谦\",\"actor\":\"陈子谦\"}"
+      }
+    ]
+  },
+  {
+    "input_id": "AUX-RB-057",
+    "candidates": [
+      {
+        "candidate_id": "AUX-RB-057-C0",
+        "kind": "TARGET_ROLE",
+        "completion": "{\"actor\":\"林若溪\",\"undergoer\":\"陈子谦\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-057-C1",
+        "kind": "TARGET_REVERSED",
+        "completion": "{\"actor\":\"陈子谦\",\"undergoer\":\"林若溪\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-057-C2",
+        "kind": "BACKGROUND_ROLE",
+        "completion": "{\"actor\":\"苏亦宁\",\"undergoer\":\"何清扬\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-057-C3",
+        "kind": "BACKGROUND_REVERSED",
+        "completion": "{\"actor\":\"何清扬\",\"undergoer\":\"苏亦宁\"}"
+      }
+    ]
+  },
+  {
+    "input_id": "AUX-RB-058",
+    "candidates": [
+      {
+        "candidate_id": "AUX-RB-058-C0",
+        "kind": "TARGET_ROLE",
+        "completion": "{\"actor\":\"林若溪\",\"undergoer\":\"陈子谦\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-058-C1",
+        "kind": "TARGET_REVERSED",
+        "completion": "{\"actor\":\"陈子谦\",\"undergoer\":\"林若溪\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-058-C2",
+        "kind": "BACKGROUND_ROLE",
+        "completion": "{\"actor\":\"苏亦宁\",\"undergoer\":\"何清扬\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-058-C3",
+        "kind": "BACKGROUND_REVERSED",
+        "completion": "{\"actor\":\"何清扬\",\"undergoer\":\"苏亦宁\"}"
+      }
+    ]
+  },
+  {
+    "input_id": "AUX-RB-059",
+    "candidates": [
+      {
+        "candidate_id": "AUX-RB-059-C0",
+        "kind": "TARGET_ROLE",
+        "completion": "{\"actor\":\"林若溪\",\"undergoer\":\"陈子谦\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-059-C1",
+        "kind": "TARGET_REVERSED",
+        "completion": "{\"actor\":\"陈子谦\",\"undergoer\":\"林若溪\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-059-C2",
+        "kind": "BOTH_NULL",
+        "completion": "{\"actor\":null,\"undergoer\":null}"
+      },
+      {
+        "candidate_id": "AUX-RB-059-C3",
+        "kind": "BOTH_A",
+        "completion": "{\"actor\":\"陈子谦\",\"undergoer\":\"陈子谦\"}"
+      }
+    ]
+  },
+  {
+    "input_id": "AUX-RB-060",
+    "candidates": [
+      {
+        "candidate_id": "AUX-RB-060-C0",
+        "kind": "TARGET_ROLE",
+        "completion": "{\"actor\":\"陈子谦\",\"undergoer\":\"林若溪\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-060-C1",
+        "kind": "TARGET_REVERSED",
+        "completion": "{\"actor\":\"林若溪\",\"undergoer\":\"陈子谦\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-060-C2",
+        "kind": "BOTH_NULL",
+        "completion": "{\"actor\":null,\"undergoer\":null}"
+      },
+      {
+        "candidate_id": "AUX-RB-060-C3",
+        "kind": "BOTH_A",
+        "completion": "{\"actor\":\"陈子谦\",\"undergoer\":\"陈子谦\"}"
+      }
+    ]
+  },
+  {
+    "input_id": "AUX-RB-061",
+    "candidates": [
+      {
+        "candidate_id": "AUX-RB-061-C0",
+        "kind": "TARGET_ROLE",
+        "completion": "{\"undergoer\":\"陈子谦\",\"actor\":\"林若溪\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-061-C1",
+        "kind": "TARGET_REVERSED",
+        "completion": "{\"undergoer\":\"林若溪\",\"actor\":\"陈子谦\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-061-C2",
+        "kind": "BACKGROUND_ROLE",
+        "completion": "{\"undergoer\":\"何清扬\",\"actor\":\"苏亦宁\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-061-C3",
+        "kind": "BACKGROUND_REVERSED",
+        "completion": "{\"undergoer\":\"苏亦宁\",\"actor\":\"何清扬\"}"
+      }
+    ]
+  },
+  {
+    "input_id": "AUX-RB-062",
+    "candidates": [
+      {
+        "candidate_id": "AUX-RB-062-C0",
+        "kind": "TARGET_ROLE",
+        "completion": "{\"undergoer\":\"陈子谦\",\"actor\":\"林若溪\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-062-C1",
+        "kind": "TARGET_REVERSED",
+        "completion": "{\"undergoer\":\"林若溪\",\"actor\":\"陈子谦\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-062-C2",
+        "kind": "BACKGROUND_ROLE",
+        "completion": "{\"undergoer\":\"何清扬\",\"actor\":\"苏亦宁\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-062-C3",
+        "kind": "BACKGROUND_REVERSED",
+        "completion": "{\"undergoer\":\"苏亦宁\",\"actor\":\"何清扬\"}"
+      }
+    ]
+  },
+  {
+    "input_id": "AUX-RB-063",
+    "candidates": [
+      {
+        "candidate_id": "AUX-RB-063-C0",
+        "kind": "TARGET_ROLE",
+        "completion": "{\"undergoer\":\"陈子谦\",\"actor\":\"林若溪\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-063-C1",
+        "kind": "TARGET_REVERSED",
+        "completion": "{\"undergoer\":\"林若溪\",\"actor\":\"陈子谦\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-063-C2",
+        "kind": "BOTH_NULL",
+        "completion": "{\"undergoer\":null,\"actor\":null}"
+      },
+      {
+        "candidate_id": "AUX-RB-063-C3",
+        "kind": "BOTH_A",
+        "completion": "{\"undergoer\":\"陈子谦\",\"actor\":\"陈子谦\"}"
+      }
+    ]
+  },
+  {
+    "input_id": "AUX-RB-064",
+    "candidates": [
+      {
+        "candidate_id": "AUX-RB-064-C0",
+        "kind": "TARGET_ROLE",
+        "completion": "{\"undergoer\":\"林若溪\",\"actor\":\"陈子谦\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-064-C1",
+        "kind": "TARGET_REVERSED",
+        "completion": "{\"undergoer\":\"陈子谦\",\"actor\":\"林若溪\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-064-C2",
+        "kind": "BOTH_NULL",
+        "completion": "{\"undergoer\":null,\"actor\":null}"
+      },
+      {
+        "candidate_id": "AUX-RB-064-C3",
+        "kind": "BOTH_A",
+        "completion": "{\"undergoer\":\"陈子谦\",\"actor\":\"陈子谦\"}"
+      }
+    ]
+  },
+  {
+    "input_id": "AUX-RB-065",
+    "candidates": [
+      {
+        "candidate_id": "AUX-RB-065-C0",
+        "kind": "TARGET_ROLE",
+        "completion": "{\"actor\":\"徐嘉禾\",\"undergoer\":\"高念慈\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-065-C1",
+        "kind": "TARGET_REVERSED",
+        "completion": "{\"actor\":\"高念慈\",\"undergoer\":\"徐嘉禾\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-065-C2",
+        "kind": "BACKGROUND_ROLE",
+        "completion": "{\"actor\":\"方予安\",\"undergoer\":\"邵文昕\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-065-C3",
+        "kind": "BACKGROUND_REVERSED",
+        "completion": "{\"actor\":\"邵文昕\",\"undergoer\":\"方予安\"}"
+      }
+    ]
+  },
+  {
+    "input_id": "AUX-RB-066",
+    "candidates": [
+      {
+        "candidate_id": "AUX-RB-066-C0",
+        "kind": "TARGET_ROLE",
+        "completion": "{\"actor\":\"徐嘉禾\",\"undergoer\":\"高念慈\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-066-C1",
+        "kind": "TARGET_REVERSED",
+        "completion": "{\"actor\":\"高念慈\",\"undergoer\":\"徐嘉禾\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-066-C2",
+        "kind": "BACKGROUND_ROLE",
+        "completion": "{\"actor\":\"方予安\",\"undergoer\":\"邵文昕\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-066-C3",
+        "kind": "BACKGROUND_REVERSED",
+        "completion": "{\"actor\":\"邵文昕\",\"undergoer\":\"方予安\"}"
+      }
+    ]
+  },
+  {
+    "input_id": "AUX-RB-067",
+    "candidates": [
+      {
+        "candidate_id": "AUX-RB-067-C0",
+        "kind": "TARGET_ROLE",
+        "completion": "{\"actor\":\"徐嘉禾\",\"undergoer\":\"高念慈\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-067-C1",
+        "kind": "TARGET_REVERSED",
+        "completion": "{\"actor\":\"高念慈\",\"undergoer\":\"徐嘉禾\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-067-C2",
+        "kind": "BOTH_NULL",
+        "completion": "{\"actor\":null,\"undergoer\":null}"
+      },
+      {
+        "candidate_id": "AUX-RB-067-C3",
+        "kind": "BOTH_A",
+        "completion": "{\"actor\":\"徐嘉禾\",\"undergoer\":\"徐嘉禾\"}"
+      }
+    ]
+  },
+  {
+    "input_id": "AUX-RB-068",
+    "candidates": [
+      {
+        "candidate_id": "AUX-RB-068-C0",
+        "kind": "TARGET_ROLE",
+        "completion": "{\"actor\":\"高念慈\",\"undergoer\":\"徐嘉禾\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-068-C1",
+        "kind": "TARGET_REVERSED",
+        "completion": "{\"actor\":\"徐嘉禾\",\"undergoer\":\"高念慈\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-068-C2",
+        "kind": "BOTH_NULL",
+        "completion": "{\"actor\":null,\"undergoer\":null}"
+      },
+      {
+        "candidate_id": "AUX-RB-068-C3",
+        "kind": "BOTH_A",
+        "completion": "{\"actor\":\"徐嘉禾\",\"undergoer\":\"徐嘉禾\"}"
+      }
+    ]
+  },
+  {
+    "input_id": "AUX-RB-069",
+    "candidates": [
+      {
+        "candidate_id": "AUX-RB-069-C0",
+        "kind": "TARGET_ROLE",
+        "completion": "{\"undergoer\":\"高念慈\",\"actor\":\"徐嘉禾\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-069-C1",
+        "kind": "TARGET_REVERSED",
+        "completion": "{\"undergoer\":\"徐嘉禾\",\"actor\":\"高念慈\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-069-C2",
+        "kind": "BACKGROUND_ROLE",
+        "completion": "{\"undergoer\":\"邵文昕\",\"actor\":\"方予安\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-069-C3",
+        "kind": "BACKGROUND_REVERSED",
+        "completion": "{\"undergoer\":\"方予安\",\"actor\":\"邵文昕\"}"
+      }
+    ]
+  },
+  {
+    "input_id": "AUX-RB-070",
+    "candidates": [
+      {
+        "candidate_id": "AUX-RB-070-C0",
+        "kind": "TARGET_ROLE",
+        "completion": "{\"undergoer\":\"高念慈\",\"actor\":\"徐嘉禾\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-070-C1",
+        "kind": "TARGET_REVERSED",
+        "completion": "{\"undergoer\":\"徐嘉禾\",\"actor\":\"高念慈\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-070-C2",
+        "kind": "BACKGROUND_ROLE",
+        "completion": "{\"undergoer\":\"邵文昕\",\"actor\":\"方予安\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-070-C3",
+        "kind": "BACKGROUND_REVERSED",
+        "completion": "{\"undergoer\":\"方予安\",\"actor\":\"邵文昕\"}"
+      }
+    ]
+  },
+  {
+    "input_id": "AUX-RB-071",
+    "candidates": [
+      {
+        "candidate_id": "AUX-RB-071-C0",
+        "kind": "TARGET_ROLE",
+        "completion": "{\"undergoer\":\"高念慈\",\"actor\":\"徐嘉禾\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-071-C1",
+        "kind": "TARGET_REVERSED",
+        "completion": "{\"undergoer\":\"徐嘉禾\",\"actor\":\"高念慈\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-071-C2",
+        "kind": "BOTH_NULL",
+        "completion": "{\"undergoer\":null,\"actor\":null}"
+      },
+      {
+        "candidate_id": "AUX-RB-071-C3",
+        "kind": "BOTH_A",
+        "completion": "{\"undergoer\":\"徐嘉禾\",\"actor\":\"徐嘉禾\"}"
+      }
+    ]
+  },
+  {
+    "input_id": "AUX-RB-072",
+    "candidates": [
+      {
+        "candidate_id": "AUX-RB-072-C0",
+        "kind": "TARGET_ROLE",
+        "completion": "{\"undergoer\":\"徐嘉禾\",\"actor\":\"高念慈\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-072-C1",
+        "kind": "TARGET_REVERSED",
+        "completion": "{\"undergoer\":\"高念慈\",\"actor\":\"徐嘉禾\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-072-C2",
+        "kind": "BOTH_NULL",
+        "completion": "{\"undergoer\":null,\"actor\":null}"
+      },
+      {
+        "candidate_id": "AUX-RB-072-C3",
+        "kind": "BOTH_A",
+        "completion": "{\"undergoer\":\"徐嘉禾\",\"actor\":\"徐嘉禾\"}"
+      }
+    ]
+  },
+  {
+    "input_id": "AUX-RB-073",
+    "candidates": [
+      {
+        "candidate_id": "AUX-RB-073-C0",
+        "kind": "TARGET_ROLE",
+        "completion": "{\"actor\":\"徐嘉禾\",\"undergoer\":\"高念慈\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-073-C1",
+        "kind": "TARGET_REVERSED",
+        "completion": "{\"actor\":\"高念慈\",\"undergoer\":\"徐嘉禾\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-073-C2",
+        "kind": "BACKGROUND_ROLE",
+        "completion": "{\"actor\":\"方予安\",\"undergoer\":\"邵文昕\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-073-C3",
+        "kind": "BACKGROUND_REVERSED",
+        "completion": "{\"actor\":\"邵文昕\",\"undergoer\":\"方予安\"}"
+      }
+    ]
+  },
+  {
+    "input_id": "AUX-RB-074",
+    "candidates": [
+      {
+        "candidate_id": "AUX-RB-074-C0",
+        "kind": "TARGET_ROLE",
+        "completion": "{\"actor\":\"徐嘉禾\",\"undergoer\":\"高念慈\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-074-C1",
+        "kind": "TARGET_REVERSED",
+        "completion": "{\"actor\":\"高念慈\",\"undergoer\":\"徐嘉禾\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-074-C2",
+        "kind": "BACKGROUND_ROLE",
+        "completion": "{\"actor\":\"方予安\",\"undergoer\":\"邵文昕\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-074-C3",
+        "kind": "BACKGROUND_REVERSED",
+        "completion": "{\"actor\":\"邵文昕\",\"undergoer\":\"方予安\"}"
+      }
+    ]
+  },
+  {
+    "input_id": "AUX-RB-075",
+    "candidates": [
+      {
+        "candidate_id": "AUX-RB-075-C0",
+        "kind": "TARGET_ROLE",
+        "completion": "{\"actor\":\"徐嘉禾\",\"undergoer\":\"高念慈\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-075-C1",
+        "kind": "TARGET_REVERSED",
+        "completion": "{\"actor\":\"高念慈\",\"undergoer\":\"徐嘉禾\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-075-C2",
+        "kind": "BOTH_NULL",
+        "completion": "{\"actor\":null,\"undergoer\":null}"
+      },
+      {
+        "candidate_id": "AUX-RB-075-C3",
+        "kind": "BOTH_A",
+        "completion": "{\"actor\":\"徐嘉禾\",\"undergoer\":\"徐嘉禾\"}"
+      }
+    ]
+  },
+  {
+    "input_id": "AUX-RB-076",
+    "candidates": [
+      {
+        "candidate_id": "AUX-RB-076-C0",
+        "kind": "TARGET_ROLE",
+        "completion": "{\"actor\":\"高念慈\",\"undergoer\":\"徐嘉禾\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-076-C1",
+        "kind": "TARGET_REVERSED",
+        "completion": "{\"actor\":\"徐嘉禾\",\"undergoer\":\"高念慈\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-076-C2",
+        "kind": "BOTH_NULL",
+        "completion": "{\"actor\":null,\"undergoer\":null}"
+      },
+      {
+        "candidate_id": "AUX-RB-076-C3",
+        "kind": "BOTH_A",
+        "completion": "{\"actor\":\"徐嘉禾\",\"undergoer\":\"徐嘉禾\"}"
+      }
+    ]
+  },
+  {
+    "input_id": "AUX-RB-077",
+    "candidates": [
+      {
+        "candidate_id": "AUX-RB-077-C0",
+        "kind": "TARGET_ROLE",
+        "completion": "{\"undergoer\":\"高念慈\",\"actor\":\"徐嘉禾\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-077-C1",
+        "kind": "TARGET_REVERSED",
+        "completion": "{\"undergoer\":\"徐嘉禾\",\"actor\":\"高念慈\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-077-C2",
+        "kind": "BACKGROUND_ROLE",
+        "completion": "{\"undergoer\":\"邵文昕\",\"actor\":\"方予安\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-077-C3",
+        "kind": "BACKGROUND_REVERSED",
+        "completion": "{\"undergoer\":\"方予安\",\"actor\":\"邵文昕\"}"
+      }
+    ]
+  },
+  {
+    "input_id": "AUX-RB-078",
+    "candidates": [
+      {
+        "candidate_id": "AUX-RB-078-C0",
+        "kind": "TARGET_ROLE",
+        "completion": "{\"undergoer\":\"高念慈\",\"actor\":\"徐嘉禾\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-078-C1",
+        "kind": "TARGET_REVERSED",
+        "completion": "{\"undergoer\":\"徐嘉禾\",\"actor\":\"高念慈\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-078-C2",
+        "kind": "BACKGROUND_ROLE",
+        "completion": "{\"undergoer\":\"邵文昕\",\"actor\":\"方予安\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-078-C3",
+        "kind": "BACKGROUND_REVERSED",
+        "completion": "{\"undergoer\":\"方予安\",\"actor\":\"邵文昕\"}"
+      }
+    ]
+  },
+  {
+    "input_id": "AUX-RB-079",
+    "candidates": [
+      {
+        "candidate_id": "AUX-RB-079-C0",
+        "kind": "TARGET_ROLE",
+        "completion": "{\"undergoer\":\"高念慈\",\"actor\":\"徐嘉禾\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-079-C1",
+        "kind": "TARGET_REVERSED",
+        "completion": "{\"undergoer\":\"徐嘉禾\",\"actor\":\"高念慈\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-079-C2",
+        "kind": "BOTH_NULL",
+        "completion": "{\"undergoer\":null,\"actor\":null}"
+      },
+      {
+        "candidate_id": "AUX-RB-079-C3",
+        "kind": "BOTH_A",
+        "completion": "{\"undergoer\":\"徐嘉禾\",\"actor\":\"徐嘉禾\"}"
+      }
+    ]
+  },
+  {
+    "input_id": "AUX-RB-080",
+    "candidates": [
+      {
+        "candidate_id": "AUX-RB-080-C0",
+        "kind": "TARGET_ROLE",
+        "completion": "{\"undergoer\":\"徐嘉禾\",\"actor\":\"高念慈\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-080-C1",
+        "kind": "TARGET_REVERSED",
+        "completion": "{\"undergoer\":\"高念慈\",\"actor\":\"徐嘉禾\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-080-C2",
+        "kind": "BOTH_NULL",
+        "completion": "{\"undergoer\":null,\"actor\":null}"
+      },
+      {
+        "candidate_id": "AUX-RB-080-C3",
+        "kind": "BOTH_A",
+        "completion": "{\"undergoer\":\"徐嘉禾\",\"actor\":\"徐嘉禾\"}"
+      }
+    ]
+  },
+  {
+    "input_id": "AUX-RB-081",
+    "candidates": [
+      {
+        "candidate_id": "AUX-RB-081-C0",
+        "kind": "TARGET_ROLE",
+        "completion": "{\"actor\":\"杜清妍\",\"undergoer\":\"谢景行\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-081-C1",
+        "kind": "TARGET_REVERSED",
+        "completion": "{\"actor\":\"谢景行\",\"undergoer\":\"杜清妍\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-081-C2",
+        "kind": "BACKGROUND_ROLE",
+        "completion": "{\"actor\":\"钟亦辰\",\"undergoer\":\"孟书涵\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-081-C3",
+        "kind": "BACKGROUND_REVERSED",
+        "completion": "{\"actor\":\"孟书涵\",\"undergoer\":\"钟亦辰\"}"
+      }
+    ]
+  },
+  {
+    "input_id": "AUX-RB-082",
+    "candidates": [
+      {
+        "candidate_id": "AUX-RB-082-C0",
+        "kind": "TARGET_ROLE",
+        "completion": "{\"actor\":\"杜清妍\",\"undergoer\":\"谢景行\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-082-C1",
+        "kind": "TARGET_REVERSED",
+        "completion": "{\"actor\":\"谢景行\",\"undergoer\":\"杜清妍\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-082-C2",
+        "kind": "BACKGROUND_ROLE",
+        "completion": "{\"actor\":\"钟亦辰\",\"undergoer\":\"孟书涵\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-082-C3",
+        "kind": "BACKGROUND_REVERSED",
+        "completion": "{\"actor\":\"孟书涵\",\"undergoer\":\"钟亦辰\"}"
+      }
+    ]
+  },
+  {
+    "input_id": "AUX-RB-083",
+    "candidates": [
+      {
+        "candidate_id": "AUX-RB-083-C0",
+        "kind": "TARGET_ROLE",
+        "completion": "{\"actor\":\"杜清妍\",\"undergoer\":\"谢景行\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-083-C1",
+        "kind": "TARGET_REVERSED",
+        "completion": "{\"actor\":\"谢景行\",\"undergoer\":\"杜清妍\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-083-C2",
+        "kind": "BOTH_NULL",
+        "completion": "{\"actor\":null,\"undergoer\":null}"
+      },
+      {
+        "candidate_id": "AUX-RB-083-C3",
+        "kind": "BOTH_A",
+        "completion": "{\"actor\":\"谢景行\",\"undergoer\":\"谢景行\"}"
+      }
+    ]
+  },
+  {
+    "input_id": "AUX-RB-084",
+    "candidates": [
+      {
+        "candidate_id": "AUX-RB-084-C0",
+        "kind": "TARGET_ROLE",
+        "completion": "{\"actor\":\"谢景行\",\"undergoer\":\"杜清妍\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-084-C1",
+        "kind": "TARGET_REVERSED",
+        "completion": "{\"actor\":\"杜清妍\",\"undergoer\":\"谢景行\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-084-C2",
+        "kind": "BOTH_NULL",
+        "completion": "{\"actor\":null,\"undergoer\":null}"
+      },
+      {
+        "candidate_id": "AUX-RB-084-C3",
+        "kind": "BOTH_A",
+        "completion": "{\"actor\":\"谢景行\",\"undergoer\":\"谢景行\"}"
+      }
+    ]
+  },
+  {
+    "input_id": "AUX-RB-085",
+    "candidates": [
+      {
+        "candidate_id": "AUX-RB-085-C0",
+        "kind": "TARGET_ROLE",
+        "completion": "{\"undergoer\":\"谢景行\",\"actor\":\"杜清妍\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-085-C1",
+        "kind": "TARGET_REVERSED",
+        "completion": "{\"undergoer\":\"杜清妍\",\"actor\":\"谢景行\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-085-C2",
+        "kind": "BACKGROUND_ROLE",
+        "completion": "{\"undergoer\":\"孟书涵\",\"actor\":\"钟亦辰\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-085-C3",
+        "kind": "BACKGROUND_REVERSED",
+        "completion": "{\"undergoer\":\"钟亦辰\",\"actor\":\"孟书涵\"}"
+      }
+    ]
+  },
+  {
+    "input_id": "AUX-RB-086",
+    "candidates": [
+      {
+        "candidate_id": "AUX-RB-086-C0",
+        "kind": "TARGET_ROLE",
+        "completion": "{\"undergoer\":\"谢景行\",\"actor\":\"杜清妍\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-086-C1",
+        "kind": "TARGET_REVERSED",
+        "completion": "{\"undergoer\":\"杜清妍\",\"actor\":\"谢景行\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-086-C2",
+        "kind": "BACKGROUND_ROLE",
+        "completion": "{\"undergoer\":\"孟书涵\",\"actor\":\"钟亦辰\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-086-C3",
+        "kind": "BACKGROUND_REVERSED",
+        "completion": "{\"undergoer\":\"钟亦辰\",\"actor\":\"孟书涵\"}"
+      }
+    ]
+  },
+  {
+    "input_id": "AUX-RB-087",
+    "candidates": [
+      {
+        "candidate_id": "AUX-RB-087-C0",
+        "kind": "TARGET_ROLE",
+        "completion": "{\"undergoer\":\"谢景行\",\"actor\":\"杜清妍\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-087-C1",
+        "kind": "TARGET_REVERSED",
+        "completion": "{\"undergoer\":\"杜清妍\",\"actor\":\"谢景行\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-087-C2",
+        "kind": "BOTH_NULL",
+        "completion": "{\"undergoer\":null,\"actor\":null}"
+      },
+      {
+        "candidate_id": "AUX-RB-087-C3",
+        "kind": "BOTH_A",
+        "completion": "{\"undergoer\":\"谢景行\",\"actor\":\"谢景行\"}"
+      }
+    ]
+  },
+  {
+    "input_id": "AUX-RB-088",
+    "candidates": [
+      {
+        "candidate_id": "AUX-RB-088-C0",
+        "kind": "TARGET_ROLE",
+        "completion": "{\"undergoer\":\"杜清妍\",\"actor\":\"谢景行\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-088-C1",
+        "kind": "TARGET_REVERSED",
+        "completion": "{\"undergoer\":\"谢景行\",\"actor\":\"杜清妍\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-088-C2",
+        "kind": "BOTH_NULL",
+        "completion": "{\"undergoer\":null,\"actor\":null}"
+      },
+      {
+        "candidate_id": "AUX-RB-088-C3",
+        "kind": "BOTH_A",
+        "completion": "{\"undergoer\":\"谢景行\",\"actor\":\"谢景行\"}"
+      }
+    ]
+  },
+  {
+    "input_id": "AUX-RB-089",
+    "candidates": [
+      {
+        "candidate_id": "AUX-RB-089-C0",
+        "kind": "TARGET_ROLE",
+        "completion": "{\"actor\":\"杜清妍\",\"undergoer\":\"谢景行\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-089-C1",
+        "kind": "TARGET_REVERSED",
+        "completion": "{\"actor\":\"谢景行\",\"undergoer\":\"杜清妍\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-089-C2",
+        "kind": "BACKGROUND_ROLE",
+        "completion": "{\"actor\":\"钟亦辰\",\"undergoer\":\"孟书涵\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-089-C3",
+        "kind": "BACKGROUND_REVERSED",
+        "completion": "{\"actor\":\"孟书涵\",\"undergoer\":\"钟亦辰\"}"
+      }
+    ]
+  },
+  {
+    "input_id": "AUX-RB-090",
+    "candidates": [
+      {
+        "candidate_id": "AUX-RB-090-C0",
+        "kind": "TARGET_ROLE",
+        "completion": "{\"actor\":\"杜清妍\",\"undergoer\":\"谢景行\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-090-C1",
+        "kind": "TARGET_REVERSED",
+        "completion": "{\"actor\":\"谢景行\",\"undergoer\":\"杜清妍\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-090-C2",
+        "kind": "BACKGROUND_ROLE",
+        "completion": "{\"actor\":\"钟亦辰\",\"undergoer\":\"孟书涵\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-090-C3",
+        "kind": "BACKGROUND_REVERSED",
+        "completion": "{\"actor\":\"孟书涵\",\"undergoer\":\"钟亦辰\"}"
+      }
+    ]
+  },
+  {
+    "input_id": "AUX-RB-091",
+    "candidates": [
+      {
+        "candidate_id": "AUX-RB-091-C0",
+        "kind": "TARGET_ROLE",
+        "completion": "{\"actor\":\"杜清妍\",\"undergoer\":\"谢景行\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-091-C1",
+        "kind": "TARGET_REVERSED",
+        "completion": "{\"actor\":\"谢景行\",\"undergoer\":\"杜清妍\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-091-C2",
+        "kind": "BOTH_NULL",
+        "completion": "{\"actor\":null,\"undergoer\":null}"
+      },
+      {
+        "candidate_id": "AUX-RB-091-C3",
+        "kind": "BOTH_A",
+        "completion": "{\"actor\":\"谢景行\",\"undergoer\":\"谢景行\"}"
+      }
+    ]
+  },
+  {
+    "input_id": "AUX-RB-092",
+    "candidates": [
+      {
+        "candidate_id": "AUX-RB-092-C0",
+        "kind": "TARGET_ROLE",
+        "completion": "{\"actor\":\"谢景行\",\"undergoer\":\"杜清妍\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-092-C1",
+        "kind": "TARGET_REVERSED",
+        "completion": "{\"actor\":\"杜清妍\",\"undergoer\":\"谢景行\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-092-C2",
+        "kind": "BOTH_NULL",
+        "completion": "{\"actor\":null,\"undergoer\":null}"
+      },
+      {
+        "candidate_id": "AUX-RB-092-C3",
+        "kind": "BOTH_A",
+        "completion": "{\"actor\":\"谢景行\",\"undergoer\":\"谢景行\"}"
+      }
+    ]
+  },
+  {
+    "input_id": "AUX-RB-093",
+    "candidates": [
+      {
+        "candidate_id": "AUX-RB-093-C0",
+        "kind": "TARGET_ROLE",
+        "completion": "{\"undergoer\":\"谢景行\",\"actor\":\"杜清妍\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-093-C1",
+        "kind": "TARGET_REVERSED",
+        "completion": "{\"undergoer\":\"杜清妍\",\"actor\":\"谢景行\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-093-C2",
+        "kind": "BACKGROUND_ROLE",
+        "completion": "{\"undergoer\":\"孟书涵\",\"actor\":\"钟亦辰\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-093-C3",
+        "kind": "BACKGROUND_REVERSED",
+        "completion": "{\"undergoer\":\"钟亦辰\",\"actor\":\"孟书涵\"}"
+      }
+    ]
+  },
+  {
+    "input_id": "AUX-RB-094",
+    "candidates": [
+      {
+        "candidate_id": "AUX-RB-094-C0",
+        "kind": "TARGET_ROLE",
+        "completion": "{\"undergoer\":\"谢景行\",\"actor\":\"杜清妍\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-094-C1",
+        "kind": "TARGET_REVERSED",
+        "completion": "{\"undergoer\":\"杜清妍\",\"actor\":\"谢景行\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-094-C2",
+        "kind": "BACKGROUND_ROLE",
+        "completion": "{\"undergoer\":\"孟书涵\",\"actor\":\"钟亦辰\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-094-C3",
+        "kind": "BACKGROUND_REVERSED",
+        "completion": "{\"undergoer\":\"钟亦辰\",\"actor\":\"孟书涵\"}"
+      }
+    ]
+  },
+  {
+    "input_id": "AUX-RB-095",
+    "candidates": [
+      {
+        "candidate_id": "AUX-RB-095-C0",
+        "kind": "TARGET_ROLE",
+        "completion": "{\"undergoer\":\"谢景行\",\"actor\":\"杜清妍\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-095-C1",
+        "kind": "TARGET_REVERSED",
+        "completion": "{\"undergoer\":\"杜清妍\",\"actor\":\"谢景行\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-095-C2",
+        "kind": "BOTH_NULL",
+        "completion": "{\"undergoer\":null,\"actor\":null}"
+      },
+      {
+        "candidate_id": "AUX-RB-095-C3",
+        "kind": "BOTH_A",
+        "completion": "{\"undergoer\":\"谢景行\",\"actor\":\"谢景行\"}"
+      }
+    ]
+  },
+  {
+    "input_id": "AUX-RB-096",
+    "candidates": [
+      {
+        "candidate_id": "AUX-RB-096-C0",
+        "kind": "TARGET_ROLE",
+        "completion": "{\"undergoer\":\"杜清妍\",\"actor\":\"谢景行\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-096-C1",
+        "kind": "TARGET_REVERSED",
+        "completion": "{\"undergoer\":\"谢景行\",\"actor\":\"杜清妍\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-096-C2",
+        "kind": "BOTH_NULL",
+        "completion": "{\"undergoer\":null,\"actor\":null}"
+      },
+      {
+        "candidate_id": "AUX-RB-096-C3",
+        "kind": "BOTH_A",
+        "completion": "{\"undergoer\":\"谢景行\",\"actor\":\"谢景行\"}"
+      }
+    ]
+  },
+  {
+    "input_id": "AUX-RB-097",
+    "candidates": [
+      {
+        "candidate_id": "AUX-RB-097-C0",
+        "kind": "TARGET_ROLE",
+        "completion": "{\"actor\":\"程知远\",\"undergoer\":\"贺安澜\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-097-C1",
+        "kind": "TARGET_REVERSED",
+        "completion": "{\"actor\":\"贺安澜\",\"undergoer\":\"程知远\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-097-C2",
+        "kind": "BACKGROUND_ROLE",
+        "completion": "{\"actor\":\"江明轩\",\"undergoer\":\"邹念初\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-097-C3",
+        "kind": "BACKGROUND_REVERSED",
+        "completion": "{\"actor\":\"邹念初\",\"undergoer\":\"江明轩\"}"
+      }
+    ]
+  },
+  {
+    "input_id": "AUX-RB-098",
+    "candidates": [
+      {
+        "candidate_id": "AUX-RB-098-C0",
+        "kind": "TARGET_ROLE",
+        "completion": "{\"actor\":\"程知远\",\"undergoer\":\"贺安澜\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-098-C1",
+        "kind": "TARGET_REVERSED",
+        "completion": "{\"actor\":\"贺安澜\",\"undergoer\":\"程知远\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-098-C2",
+        "kind": "BACKGROUND_ROLE",
+        "completion": "{\"actor\":\"江明轩\",\"undergoer\":\"邹念初\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-098-C3",
+        "kind": "BACKGROUND_REVERSED",
+        "completion": "{\"actor\":\"邹念初\",\"undergoer\":\"江明轩\"}"
+      }
+    ]
+  },
+  {
+    "input_id": "AUX-RB-099",
+    "candidates": [
+      {
+        "candidate_id": "AUX-RB-099-C0",
+        "kind": "TARGET_ROLE",
+        "completion": "{\"actor\":\"程知远\",\"undergoer\":\"贺安澜\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-099-C1",
+        "kind": "TARGET_REVERSED",
+        "completion": "{\"actor\":\"贺安澜\",\"undergoer\":\"程知远\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-099-C2",
+        "kind": "BOTH_NULL",
+        "completion": "{\"actor\":null,\"undergoer\":null}"
+      },
+      {
+        "candidate_id": "AUX-RB-099-C3",
+        "kind": "BOTH_A",
+        "completion": "{\"actor\":\"程知远\",\"undergoer\":\"程知远\"}"
+      }
+    ]
+  },
+  {
+    "input_id": "AUX-RB-100",
+    "candidates": [
+      {
+        "candidate_id": "AUX-RB-100-C0",
+        "kind": "TARGET_ROLE",
+        "completion": "{\"actor\":\"贺安澜\",\"undergoer\":\"程知远\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-100-C1",
+        "kind": "TARGET_REVERSED",
+        "completion": "{\"actor\":\"程知远\",\"undergoer\":\"贺安澜\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-100-C2",
+        "kind": "BOTH_NULL",
+        "completion": "{\"actor\":null,\"undergoer\":null}"
+      },
+      {
+        "candidate_id": "AUX-RB-100-C3",
+        "kind": "BOTH_A",
+        "completion": "{\"actor\":\"程知远\",\"undergoer\":\"程知远\"}"
+      }
+    ]
+  },
+  {
+    "input_id": "AUX-RB-101",
+    "candidates": [
+      {
+        "candidate_id": "AUX-RB-101-C0",
+        "kind": "TARGET_ROLE",
+        "completion": "{\"undergoer\":\"贺安澜\",\"actor\":\"程知远\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-101-C1",
+        "kind": "TARGET_REVERSED",
+        "completion": "{\"undergoer\":\"程知远\",\"actor\":\"贺安澜\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-101-C2",
+        "kind": "BACKGROUND_ROLE",
+        "completion": "{\"undergoer\":\"邹念初\",\"actor\":\"江明轩\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-101-C3",
+        "kind": "BACKGROUND_REVERSED",
+        "completion": "{\"undergoer\":\"江明轩\",\"actor\":\"邹念初\"}"
+      }
+    ]
+  },
+  {
+    "input_id": "AUX-RB-102",
+    "candidates": [
+      {
+        "candidate_id": "AUX-RB-102-C0",
+        "kind": "TARGET_ROLE",
+        "completion": "{\"undergoer\":\"贺安澜\",\"actor\":\"程知远\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-102-C1",
+        "kind": "TARGET_REVERSED",
+        "completion": "{\"undergoer\":\"程知远\",\"actor\":\"贺安澜\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-102-C2",
+        "kind": "BACKGROUND_ROLE",
+        "completion": "{\"undergoer\":\"邹念初\",\"actor\":\"江明轩\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-102-C3",
+        "kind": "BACKGROUND_REVERSED",
+        "completion": "{\"undergoer\":\"江明轩\",\"actor\":\"邹念初\"}"
+      }
+    ]
+  },
+  {
+    "input_id": "AUX-RB-103",
+    "candidates": [
+      {
+        "candidate_id": "AUX-RB-103-C0",
+        "kind": "TARGET_ROLE",
+        "completion": "{\"undergoer\":\"贺安澜\",\"actor\":\"程知远\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-103-C1",
+        "kind": "TARGET_REVERSED",
+        "completion": "{\"undergoer\":\"程知远\",\"actor\":\"贺安澜\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-103-C2",
+        "kind": "BOTH_NULL",
+        "completion": "{\"undergoer\":null,\"actor\":null}"
+      },
+      {
+        "candidate_id": "AUX-RB-103-C3",
+        "kind": "BOTH_A",
+        "completion": "{\"undergoer\":\"程知远\",\"actor\":\"程知远\"}"
+      }
+    ]
+  },
+  {
+    "input_id": "AUX-RB-104",
+    "candidates": [
+      {
+        "candidate_id": "AUX-RB-104-C0",
+        "kind": "TARGET_ROLE",
+        "completion": "{\"undergoer\":\"程知远\",\"actor\":\"贺安澜\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-104-C1",
+        "kind": "TARGET_REVERSED",
+        "completion": "{\"undergoer\":\"贺安澜\",\"actor\":\"程知远\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-104-C2",
+        "kind": "BOTH_NULL",
+        "completion": "{\"undergoer\":null,\"actor\":null}"
+      },
+      {
+        "candidate_id": "AUX-RB-104-C3",
+        "kind": "BOTH_A",
+        "completion": "{\"undergoer\":\"程知远\",\"actor\":\"程知远\"}"
+      }
+    ]
+  },
+  {
+    "input_id": "AUX-RB-105",
+    "candidates": [
+      {
+        "candidate_id": "AUX-RB-105-C0",
+        "kind": "TARGET_ROLE",
+        "completion": "{\"actor\":\"程知远\",\"undergoer\":\"贺安澜\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-105-C1",
+        "kind": "TARGET_REVERSED",
+        "completion": "{\"actor\":\"贺安澜\",\"undergoer\":\"程知远\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-105-C2",
+        "kind": "BACKGROUND_ROLE",
+        "completion": "{\"actor\":\"江明轩\",\"undergoer\":\"邹念初\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-105-C3",
+        "kind": "BACKGROUND_REVERSED",
+        "completion": "{\"actor\":\"邹念初\",\"undergoer\":\"江明轩\"}"
+      }
+    ]
+  },
+  {
+    "input_id": "AUX-RB-106",
+    "candidates": [
+      {
+        "candidate_id": "AUX-RB-106-C0",
+        "kind": "TARGET_ROLE",
+        "completion": "{\"actor\":\"程知远\",\"undergoer\":\"贺安澜\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-106-C1",
+        "kind": "TARGET_REVERSED",
+        "completion": "{\"actor\":\"贺安澜\",\"undergoer\":\"程知远\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-106-C2",
+        "kind": "BACKGROUND_ROLE",
+        "completion": "{\"actor\":\"江明轩\",\"undergoer\":\"邹念初\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-106-C3",
+        "kind": "BACKGROUND_REVERSED",
+        "completion": "{\"actor\":\"邹念初\",\"undergoer\":\"江明轩\"}"
+      }
+    ]
+  },
+  {
+    "input_id": "AUX-RB-107",
+    "candidates": [
+      {
+        "candidate_id": "AUX-RB-107-C0",
+        "kind": "TARGET_ROLE",
+        "completion": "{\"actor\":\"程知远\",\"undergoer\":\"贺安澜\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-107-C1",
+        "kind": "TARGET_REVERSED",
+        "completion": "{\"actor\":\"贺安澜\",\"undergoer\":\"程知远\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-107-C2",
+        "kind": "BOTH_NULL",
+        "completion": "{\"actor\":null,\"undergoer\":null}"
+      },
+      {
+        "candidate_id": "AUX-RB-107-C3",
+        "kind": "BOTH_A",
+        "completion": "{\"actor\":\"程知远\",\"undergoer\":\"程知远\"}"
+      }
+    ]
+  },
+  {
+    "input_id": "AUX-RB-108",
+    "candidates": [
+      {
+        "candidate_id": "AUX-RB-108-C0",
+        "kind": "TARGET_ROLE",
+        "completion": "{\"actor\":\"贺安澜\",\"undergoer\":\"程知远\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-108-C1",
+        "kind": "TARGET_REVERSED",
+        "completion": "{\"actor\":\"程知远\",\"undergoer\":\"贺安澜\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-108-C2",
+        "kind": "BOTH_NULL",
+        "completion": "{\"actor\":null,\"undergoer\":null}"
+      },
+      {
+        "candidate_id": "AUX-RB-108-C3",
+        "kind": "BOTH_A",
+        "completion": "{\"actor\":\"程知远\",\"undergoer\":\"程知远\"}"
+      }
+    ]
+  },
+  {
+    "input_id": "AUX-RB-109",
+    "candidates": [
+      {
+        "candidate_id": "AUX-RB-109-C0",
+        "kind": "TARGET_ROLE",
+        "completion": "{\"undergoer\":\"贺安澜\",\"actor\":\"程知远\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-109-C1",
+        "kind": "TARGET_REVERSED",
+        "completion": "{\"undergoer\":\"程知远\",\"actor\":\"贺安澜\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-109-C2",
+        "kind": "BACKGROUND_ROLE",
+        "completion": "{\"undergoer\":\"邹念初\",\"actor\":\"江明轩\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-109-C3",
+        "kind": "BACKGROUND_REVERSED",
+        "completion": "{\"undergoer\":\"江明轩\",\"actor\":\"邹念初\"}"
+      }
+    ]
+  },
+  {
+    "input_id": "AUX-RB-110",
+    "candidates": [
+      {
+        "candidate_id": "AUX-RB-110-C0",
+        "kind": "TARGET_ROLE",
+        "completion": "{\"undergoer\":\"贺安澜\",\"actor\":\"程知远\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-110-C1",
+        "kind": "TARGET_REVERSED",
+        "completion": "{\"undergoer\":\"程知远\",\"actor\":\"贺安澜\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-110-C2",
+        "kind": "BACKGROUND_ROLE",
+        "completion": "{\"undergoer\":\"邹念初\",\"actor\":\"江明轩\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-110-C3",
+        "kind": "BACKGROUND_REVERSED",
+        "completion": "{\"undergoer\":\"江明轩\",\"actor\":\"邹念初\"}"
+      }
+    ]
+  },
+  {
+    "input_id": "AUX-RB-111",
+    "candidates": [
+      {
+        "candidate_id": "AUX-RB-111-C0",
+        "kind": "TARGET_ROLE",
+        "completion": "{\"undergoer\":\"贺安澜\",\"actor\":\"程知远\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-111-C1",
+        "kind": "TARGET_REVERSED",
+        "completion": "{\"undergoer\":\"程知远\",\"actor\":\"贺安澜\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-111-C2",
+        "kind": "BOTH_NULL",
+        "completion": "{\"undergoer\":null,\"actor\":null}"
+      },
+      {
+        "candidate_id": "AUX-RB-111-C3",
+        "kind": "BOTH_A",
+        "completion": "{\"undergoer\":\"程知远\",\"actor\":\"程知远\"}"
+      }
+    ]
+  },
+  {
+    "input_id": "AUX-RB-112",
+    "candidates": [
+      {
+        "candidate_id": "AUX-RB-112-C0",
+        "kind": "TARGET_ROLE",
+        "completion": "{\"undergoer\":\"程知远\",\"actor\":\"贺安澜\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-112-C1",
+        "kind": "TARGET_REVERSED",
+        "completion": "{\"undergoer\":\"贺安澜\",\"actor\":\"程知远\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-112-C2",
+        "kind": "BOTH_NULL",
+        "completion": "{\"undergoer\":null,\"actor\":null}"
+      },
+      {
+        "candidate_id": "AUX-RB-112-C3",
+        "kind": "BOTH_A",
+        "completion": "{\"undergoer\":\"程知远\",\"actor\":\"程知远\"}"
+      }
+    ]
+  },
+  {
+    "input_id": "AUX-RB-113",
+    "candidates": [
+      {
+        "candidate_id": "AUX-RB-113-C0",
+        "kind": "TARGET_ROLE",
+        "completion": "{\"actor\":\"袁静宜\",\"undergoer\":\"潘星宇\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-113-C1",
+        "kind": "TARGET_REVERSED",
+        "completion": "{\"actor\":\"潘星宇\",\"undergoer\":\"袁静宜\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-113-C2",
+        "kind": "BACKGROUND_ROLE",
+        "completion": "{\"actor\":\"叶书言\",\"undergoer\":\"董嘉宁\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-113-C3",
+        "kind": "BACKGROUND_REVERSED",
+        "completion": "{\"actor\":\"董嘉宁\",\"undergoer\":\"叶书言\"}"
+      }
+    ]
+  },
+  {
+    "input_id": "AUX-RB-114",
+    "candidates": [
+      {
+        "candidate_id": "AUX-RB-114-C0",
+        "kind": "TARGET_ROLE",
+        "completion": "{\"actor\":\"袁静宜\",\"undergoer\":\"潘星宇\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-114-C1",
+        "kind": "TARGET_REVERSED",
+        "completion": "{\"actor\":\"潘星宇\",\"undergoer\":\"袁静宜\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-114-C2",
+        "kind": "BACKGROUND_ROLE",
+        "completion": "{\"actor\":\"叶书言\",\"undergoer\":\"董嘉宁\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-114-C3",
+        "kind": "BACKGROUND_REVERSED",
+        "completion": "{\"actor\":\"董嘉宁\",\"undergoer\":\"叶书言\"}"
+      }
+    ]
+  },
+  {
+    "input_id": "AUX-RB-115",
+    "candidates": [
+      {
+        "candidate_id": "AUX-RB-115-C0",
+        "kind": "TARGET_ROLE",
+        "completion": "{\"actor\":\"袁静宜\",\"undergoer\":\"潘星宇\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-115-C1",
+        "kind": "TARGET_REVERSED",
+        "completion": "{\"actor\":\"潘星宇\",\"undergoer\":\"袁静宜\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-115-C2",
+        "kind": "BOTH_NULL",
+        "completion": "{\"actor\":null,\"undergoer\":null}"
+      },
+      {
+        "candidate_id": "AUX-RB-115-C3",
+        "kind": "BOTH_A",
+        "completion": "{\"actor\":\"潘星宇\",\"undergoer\":\"潘星宇\"}"
+      }
+    ]
+  },
+  {
+    "input_id": "AUX-RB-116",
+    "candidates": [
+      {
+        "candidate_id": "AUX-RB-116-C0",
+        "kind": "TARGET_ROLE",
+        "completion": "{\"actor\":\"潘星宇\",\"undergoer\":\"袁静宜\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-116-C1",
+        "kind": "TARGET_REVERSED",
+        "completion": "{\"actor\":\"袁静宜\",\"undergoer\":\"潘星宇\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-116-C2",
+        "kind": "BOTH_NULL",
+        "completion": "{\"actor\":null,\"undergoer\":null}"
+      },
+      {
+        "candidate_id": "AUX-RB-116-C3",
+        "kind": "BOTH_A",
+        "completion": "{\"actor\":\"潘星宇\",\"undergoer\":\"潘星宇\"}"
+      }
+    ]
+  },
+  {
+    "input_id": "AUX-RB-117",
+    "candidates": [
+      {
+        "candidate_id": "AUX-RB-117-C0",
+        "kind": "TARGET_ROLE",
+        "completion": "{\"undergoer\":\"潘星宇\",\"actor\":\"袁静宜\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-117-C1",
+        "kind": "TARGET_REVERSED",
+        "completion": "{\"undergoer\":\"袁静宜\",\"actor\":\"潘星宇\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-117-C2",
+        "kind": "BACKGROUND_ROLE",
+        "completion": "{\"undergoer\":\"董嘉宁\",\"actor\":\"叶书言\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-117-C3",
+        "kind": "BACKGROUND_REVERSED",
+        "completion": "{\"undergoer\":\"叶书言\",\"actor\":\"董嘉宁\"}"
+      }
+    ]
+  },
+  {
+    "input_id": "AUX-RB-118",
+    "candidates": [
+      {
+        "candidate_id": "AUX-RB-118-C0",
+        "kind": "TARGET_ROLE",
+        "completion": "{\"undergoer\":\"潘星宇\",\"actor\":\"袁静宜\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-118-C1",
+        "kind": "TARGET_REVERSED",
+        "completion": "{\"undergoer\":\"袁静宜\",\"actor\":\"潘星宇\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-118-C2",
+        "kind": "BACKGROUND_ROLE",
+        "completion": "{\"undergoer\":\"董嘉宁\",\"actor\":\"叶书言\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-118-C3",
+        "kind": "BACKGROUND_REVERSED",
+        "completion": "{\"undergoer\":\"叶书言\",\"actor\":\"董嘉宁\"}"
+      }
+    ]
+  },
+  {
+    "input_id": "AUX-RB-119",
+    "candidates": [
+      {
+        "candidate_id": "AUX-RB-119-C0",
+        "kind": "TARGET_ROLE",
+        "completion": "{\"undergoer\":\"潘星宇\",\"actor\":\"袁静宜\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-119-C1",
+        "kind": "TARGET_REVERSED",
+        "completion": "{\"undergoer\":\"袁静宜\",\"actor\":\"潘星宇\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-119-C2",
+        "kind": "BOTH_NULL",
+        "completion": "{\"undergoer\":null,\"actor\":null}"
+      },
+      {
+        "candidate_id": "AUX-RB-119-C3",
+        "kind": "BOTH_A",
+        "completion": "{\"undergoer\":\"潘星宇\",\"actor\":\"潘星宇\"}"
+      }
+    ]
+  },
+  {
+    "input_id": "AUX-RB-120",
+    "candidates": [
+      {
+        "candidate_id": "AUX-RB-120-C0",
+        "kind": "TARGET_ROLE",
+        "completion": "{\"undergoer\":\"袁静宜\",\"actor\":\"潘星宇\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-120-C1",
+        "kind": "TARGET_REVERSED",
+        "completion": "{\"undergoer\":\"潘星宇\",\"actor\":\"袁静宜\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-120-C2",
+        "kind": "BOTH_NULL",
+        "completion": "{\"undergoer\":null,\"actor\":null}"
+      },
+      {
+        "candidate_id": "AUX-RB-120-C3",
+        "kind": "BOTH_A",
+        "completion": "{\"undergoer\":\"潘星宇\",\"actor\":\"潘星宇\"}"
+      }
+    ]
+  },
+  {
+    "input_id": "AUX-RB-121",
+    "candidates": [
+      {
+        "candidate_id": "AUX-RB-121-C0",
+        "kind": "TARGET_ROLE",
+        "completion": "{\"actor\":\"袁静宜\",\"undergoer\":\"潘星宇\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-121-C1",
+        "kind": "TARGET_REVERSED",
+        "completion": "{\"actor\":\"潘星宇\",\"undergoer\":\"袁静宜\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-121-C2",
+        "kind": "BACKGROUND_ROLE",
+        "completion": "{\"actor\":\"叶书言\",\"undergoer\":\"董嘉宁\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-121-C3",
+        "kind": "BACKGROUND_REVERSED",
+        "completion": "{\"actor\":\"董嘉宁\",\"undergoer\":\"叶书言\"}"
+      }
+    ]
+  },
+  {
+    "input_id": "AUX-RB-122",
+    "candidates": [
+      {
+        "candidate_id": "AUX-RB-122-C0",
+        "kind": "TARGET_ROLE",
+        "completion": "{\"actor\":\"袁静宜\",\"undergoer\":\"潘星宇\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-122-C1",
+        "kind": "TARGET_REVERSED",
+        "completion": "{\"actor\":\"潘星宇\",\"undergoer\":\"袁静宜\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-122-C2",
+        "kind": "BACKGROUND_ROLE",
+        "completion": "{\"actor\":\"叶书言\",\"undergoer\":\"董嘉宁\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-122-C3",
+        "kind": "BACKGROUND_REVERSED",
+        "completion": "{\"actor\":\"董嘉宁\",\"undergoer\":\"叶书言\"}"
+      }
+    ]
+  },
+  {
+    "input_id": "AUX-RB-123",
+    "candidates": [
+      {
+        "candidate_id": "AUX-RB-123-C0",
+        "kind": "TARGET_ROLE",
+        "completion": "{\"actor\":\"袁静宜\",\"undergoer\":\"潘星宇\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-123-C1",
+        "kind": "TARGET_REVERSED",
+        "completion": "{\"actor\":\"潘星宇\",\"undergoer\":\"袁静宜\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-123-C2",
+        "kind": "BOTH_NULL",
+        "completion": "{\"actor\":null,\"undergoer\":null}"
+      },
+      {
+        "candidate_id": "AUX-RB-123-C3",
+        "kind": "BOTH_A",
+        "completion": "{\"actor\":\"潘星宇\",\"undergoer\":\"潘星宇\"}"
+      }
+    ]
+  },
+  {
+    "input_id": "AUX-RB-124",
+    "candidates": [
+      {
+        "candidate_id": "AUX-RB-124-C0",
+        "kind": "TARGET_ROLE",
+        "completion": "{\"actor\":\"潘星宇\",\"undergoer\":\"袁静宜\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-124-C1",
+        "kind": "TARGET_REVERSED",
+        "completion": "{\"actor\":\"袁静宜\",\"undergoer\":\"潘星宇\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-124-C2",
+        "kind": "BOTH_NULL",
+        "completion": "{\"actor\":null,\"undergoer\":null}"
+      },
+      {
+        "candidate_id": "AUX-RB-124-C3",
+        "kind": "BOTH_A",
+        "completion": "{\"actor\":\"潘星宇\",\"undergoer\":\"潘星宇\"}"
+      }
+    ]
+  },
+  {
+    "input_id": "AUX-RB-125",
+    "candidates": [
+      {
+        "candidate_id": "AUX-RB-125-C0",
+        "kind": "TARGET_ROLE",
+        "completion": "{\"undergoer\":\"潘星宇\",\"actor\":\"袁静宜\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-125-C1",
+        "kind": "TARGET_REVERSED",
+        "completion": "{\"undergoer\":\"袁静宜\",\"actor\":\"潘星宇\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-125-C2",
+        "kind": "BACKGROUND_ROLE",
+        "completion": "{\"undergoer\":\"董嘉宁\",\"actor\":\"叶书言\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-125-C3",
+        "kind": "BACKGROUND_REVERSED",
+        "completion": "{\"undergoer\":\"叶书言\",\"actor\":\"董嘉宁\"}"
+      }
+    ]
+  },
+  {
+    "input_id": "AUX-RB-126",
+    "candidates": [
+      {
+        "candidate_id": "AUX-RB-126-C0",
+        "kind": "TARGET_ROLE",
+        "completion": "{\"undergoer\":\"潘星宇\",\"actor\":\"袁静宜\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-126-C1",
+        "kind": "TARGET_REVERSED",
+        "completion": "{\"undergoer\":\"袁静宜\",\"actor\":\"潘星宇\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-126-C2",
+        "kind": "BACKGROUND_ROLE",
+        "completion": "{\"undergoer\":\"董嘉宁\",\"actor\":\"叶书言\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-126-C3",
+        "kind": "BACKGROUND_REVERSED",
+        "completion": "{\"undergoer\":\"叶书言\",\"actor\":\"董嘉宁\"}"
+      }
+    ]
+  },
+  {
+    "input_id": "AUX-RB-127",
+    "candidates": [
+      {
+        "candidate_id": "AUX-RB-127-C0",
+        "kind": "TARGET_ROLE",
+        "completion": "{\"undergoer\":\"潘星宇\",\"actor\":\"袁静宜\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-127-C1",
+        "kind": "TARGET_REVERSED",
+        "completion": "{\"undergoer\":\"袁静宜\",\"actor\":\"潘星宇\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-127-C2",
+        "kind": "BOTH_NULL",
+        "completion": "{\"undergoer\":null,\"actor\":null}"
+      },
+      {
+        "candidate_id": "AUX-RB-127-C3",
+        "kind": "BOTH_A",
+        "completion": "{\"undergoer\":\"潘星宇\",\"actor\":\"潘星宇\"}"
+      }
+    ]
+  },
+  {
+    "input_id": "AUX-RB-128",
+    "candidates": [
+      {
+        "candidate_id": "AUX-RB-128-C0",
+        "kind": "TARGET_ROLE",
+        "completion": "{\"undergoer\":\"袁静宜\",\"actor\":\"潘星宇\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-128-C1",
+        "kind": "TARGET_REVERSED",
+        "completion": "{\"undergoer\":\"潘星宇\",\"actor\":\"袁静宜\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-128-C2",
+        "kind": "BOTH_NULL",
+        "completion": "{\"undergoer\":null,\"actor\":null}"
+      },
+      {
+        "candidate_id": "AUX-RB-128-C3",
+        "kind": "BOTH_A",
+        "completion": "{\"undergoer\":\"潘星宇\",\"actor\":\"潘星宇\"}"
+      }
+    ]
+  },
+  {
+    "input_id": "AUX-RB-129",
+    "candidates": [
+      {
+        "candidate_id": "AUX-RB-129-C0",
+        "kind": "TARGET_ROLE",
+        "completion": "{\"actor\":\"田舒言\",\"undergoer\":\"马景辰\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-129-C1",
+        "kind": "TARGET_REVERSED",
+        "completion": "{\"actor\":\"马景辰\",\"undergoer\":\"田舒言\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-129-C2",
+        "kind": "BACKGROUND_ROLE",
+        "completion": "{\"actor\":\"罗安琪\",\"undergoer\":\"韩子墨\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-129-C3",
+        "kind": "BACKGROUND_REVERSED",
+        "completion": "{\"actor\":\"韩子墨\",\"undergoer\":\"罗安琪\"}"
+      }
+    ]
+  },
+  {
+    "input_id": "AUX-RB-130",
+    "candidates": [
+      {
+        "candidate_id": "AUX-RB-130-C0",
+        "kind": "TARGET_ROLE",
+        "completion": "{\"actor\":\"田舒言\",\"undergoer\":\"马景辰\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-130-C1",
+        "kind": "TARGET_REVERSED",
+        "completion": "{\"actor\":\"马景辰\",\"undergoer\":\"田舒言\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-130-C2",
+        "kind": "BACKGROUND_ROLE",
+        "completion": "{\"actor\":\"罗安琪\",\"undergoer\":\"韩子墨\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-130-C3",
+        "kind": "BACKGROUND_REVERSED",
+        "completion": "{\"actor\":\"韩子墨\",\"undergoer\":\"罗安琪\"}"
+      }
+    ]
+  },
+  {
+    "input_id": "AUX-RB-131",
+    "candidates": [
+      {
+        "candidate_id": "AUX-RB-131-C0",
+        "kind": "TARGET_ROLE",
+        "completion": "{\"actor\":\"田舒言\",\"undergoer\":\"马景辰\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-131-C1",
+        "kind": "TARGET_REVERSED",
+        "completion": "{\"actor\":\"马景辰\",\"undergoer\":\"田舒言\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-131-C2",
+        "kind": "BOTH_NULL",
+        "completion": "{\"actor\":null,\"undergoer\":null}"
+      },
+      {
+        "candidate_id": "AUX-RB-131-C3",
+        "kind": "BOTH_A",
+        "completion": "{\"actor\":\"田舒言\",\"undergoer\":\"田舒言\"}"
+      }
+    ]
+  },
+  {
+    "input_id": "AUX-RB-132",
+    "candidates": [
+      {
+        "candidate_id": "AUX-RB-132-C0",
+        "kind": "TARGET_ROLE",
+        "completion": "{\"actor\":\"马景辰\",\"undergoer\":\"田舒言\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-132-C1",
+        "kind": "TARGET_REVERSED",
+        "completion": "{\"actor\":\"田舒言\",\"undergoer\":\"马景辰\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-132-C2",
+        "kind": "BOTH_NULL",
+        "completion": "{\"actor\":null,\"undergoer\":null}"
+      },
+      {
+        "candidate_id": "AUX-RB-132-C3",
+        "kind": "BOTH_A",
+        "completion": "{\"actor\":\"田舒言\",\"undergoer\":\"田舒言\"}"
+      }
+    ]
+  },
+  {
+    "input_id": "AUX-RB-133",
+    "candidates": [
+      {
+        "candidate_id": "AUX-RB-133-C0",
+        "kind": "TARGET_ROLE",
+        "completion": "{\"undergoer\":\"马景辰\",\"actor\":\"田舒言\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-133-C1",
+        "kind": "TARGET_REVERSED",
+        "completion": "{\"undergoer\":\"田舒言\",\"actor\":\"马景辰\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-133-C2",
+        "kind": "BACKGROUND_ROLE",
+        "completion": "{\"undergoer\":\"韩子墨\",\"actor\":\"罗安琪\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-133-C3",
+        "kind": "BACKGROUND_REVERSED",
+        "completion": "{\"undergoer\":\"罗安琪\",\"actor\":\"韩子墨\"}"
+      }
+    ]
+  },
+  {
+    "input_id": "AUX-RB-134",
+    "candidates": [
+      {
+        "candidate_id": "AUX-RB-134-C0",
+        "kind": "TARGET_ROLE",
+        "completion": "{\"undergoer\":\"马景辰\",\"actor\":\"田舒言\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-134-C1",
+        "kind": "TARGET_REVERSED",
+        "completion": "{\"undergoer\":\"田舒言\",\"actor\":\"马景辰\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-134-C2",
+        "kind": "BACKGROUND_ROLE",
+        "completion": "{\"undergoer\":\"韩子墨\",\"actor\":\"罗安琪\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-134-C3",
+        "kind": "BACKGROUND_REVERSED",
+        "completion": "{\"undergoer\":\"罗安琪\",\"actor\":\"韩子墨\"}"
+      }
+    ]
+  },
+  {
+    "input_id": "AUX-RB-135",
+    "candidates": [
+      {
+        "candidate_id": "AUX-RB-135-C0",
+        "kind": "TARGET_ROLE",
+        "completion": "{\"undergoer\":\"马景辰\",\"actor\":\"田舒言\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-135-C1",
+        "kind": "TARGET_REVERSED",
+        "completion": "{\"undergoer\":\"田舒言\",\"actor\":\"马景辰\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-135-C2",
+        "kind": "BOTH_NULL",
+        "completion": "{\"undergoer\":null,\"actor\":null}"
+      },
+      {
+        "candidate_id": "AUX-RB-135-C3",
+        "kind": "BOTH_A",
+        "completion": "{\"undergoer\":\"田舒言\",\"actor\":\"田舒言\"}"
+      }
+    ]
+  },
+  {
+    "input_id": "AUX-RB-136",
+    "candidates": [
+      {
+        "candidate_id": "AUX-RB-136-C0",
+        "kind": "TARGET_ROLE",
+        "completion": "{\"undergoer\":\"田舒言\",\"actor\":\"马景辰\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-136-C1",
+        "kind": "TARGET_REVERSED",
+        "completion": "{\"undergoer\":\"马景辰\",\"actor\":\"田舒言\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-136-C2",
+        "kind": "BOTH_NULL",
+        "completion": "{\"undergoer\":null,\"actor\":null}"
+      },
+      {
+        "candidate_id": "AUX-RB-136-C3",
+        "kind": "BOTH_A",
+        "completion": "{\"undergoer\":\"田舒言\",\"actor\":\"田舒言\"}"
+      }
+    ]
+  },
+  {
+    "input_id": "AUX-RB-137",
+    "candidates": [
+      {
+        "candidate_id": "AUX-RB-137-C0",
+        "kind": "TARGET_ROLE",
+        "completion": "{\"actor\":\"田舒言\",\"undergoer\":\"马景辰\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-137-C1",
+        "kind": "TARGET_REVERSED",
+        "completion": "{\"actor\":\"马景辰\",\"undergoer\":\"田舒言\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-137-C2",
+        "kind": "BACKGROUND_ROLE",
+        "completion": "{\"actor\":\"罗安琪\",\"undergoer\":\"韩子墨\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-137-C3",
+        "kind": "BACKGROUND_REVERSED",
+        "completion": "{\"actor\":\"韩子墨\",\"undergoer\":\"罗安琪\"}"
+      }
+    ]
+  },
+  {
+    "input_id": "AUX-RB-138",
+    "candidates": [
+      {
+        "candidate_id": "AUX-RB-138-C0",
+        "kind": "TARGET_ROLE",
+        "completion": "{\"actor\":\"田舒言\",\"undergoer\":\"马景辰\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-138-C1",
+        "kind": "TARGET_REVERSED",
+        "completion": "{\"actor\":\"马景辰\",\"undergoer\":\"田舒言\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-138-C2",
+        "kind": "BACKGROUND_ROLE",
+        "completion": "{\"actor\":\"罗安琪\",\"undergoer\":\"韩子墨\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-138-C3",
+        "kind": "BACKGROUND_REVERSED",
+        "completion": "{\"actor\":\"韩子墨\",\"undergoer\":\"罗安琪\"}"
+      }
+    ]
+  },
+  {
+    "input_id": "AUX-RB-139",
+    "candidates": [
+      {
+        "candidate_id": "AUX-RB-139-C0",
+        "kind": "TARGET_ROLE",
+        "completion": "{\"actor\":\"田舒言\",\"undergoer\":\"马景辰\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-139-C1",
+        "kind": "TARGET_REVERSED",
+        "completion": "{\"actor\":\"马景辰\",\"undergoer\":\"田舒言\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-139-C2",
+        "kind": "BOTH_NULL",
+        "completion": "{\"actor\":null,\"undergoer\":null}"
+      },
+      {
+        "candidate_id": "AUX-RB-139-C3",
+        "kind": "BOTH_A",
+        "completion": "{\"actor\":\"田舒言\",\"undergoer\":\"田舒言\"}"
+      }
+    ]
+  },
+  {
+    "input_id": "AUX-RB-140",
+    "candidates": [
+      {
+        "candidate_id": "AUX-RB-140-C0",
+        "kind": "TARGET_ROLE",
+        "completion": "{\"actor\":\"马景辰\",\"undergoer\":\"田舒言\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-140-C1",
+        "kind": "TARGET_REVERSED",
+        "completion": "{\"actor\":\"田舒言\",\"undergoer\":\"马景辰\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-140-C2",
+        "kind": "BOTH_NULL",
+        "completion": "{\"actor\":null,\"undergoer\":null}"
+      },
+      {
+        "candidate_id": "AUX-RB-140-C3",
+        "kind": "BOTH_A",
+        "completion": "{\"actor\":\"田舒言\",\"undergoer\":\"田舒言\"}"
+      }
+    ]
+  },
+  {
+    "input_id": "AUX-RB-141",
+    "candidates": [
+      {
+        "candidate_id": "AUX-RB-141-C0",
+        "kind": "TARGET_ROLE",
+        "completion": "{\"undergoer\":\"马景辰\",\"actor\":\"田舒言\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-141-C1",
+        "kind": "TARGET_REVERSED",
+        "completion": "{\"undergoer\":\"田舒言\",\"actor\":\"马景辰\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-141-C2",
+        "kind": "BACKGROUND_ROLE",
+        "completion": "{\"undergoer\":\"韩子墨\",\"actor\":\"罗安琪\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-141-C3",
+        "kind": "BACKGROUND_REVERSED",
+        "completion": "{\"undergoer\":\"罗安琪\",\"actor\":\"韩子墨\"}"
+      }
+    ]
+  },
+  {
+    "input_id": "AUX-RB-142",
+    "candidates": [
+      {
+        "candidate_id": "AUX-RB-142-C0",
+        "kind": "TARGET_ROLE",
+        "completion": "{\"undergoer\":\"马景辰\",\"actor\":\"田舒言\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-142-C1",
+        "kind": "TARGET_REVERSED",
+        "completion": "{\"undergoer\":\"田舒言\",\"actor\":\"马景辰\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-142-C2",
+        "kind": "BACKGROUND_ROLE",
+        "completion": "{\"undergoer\":\"韩子墨\",\"actor\":\"罗安琪\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-142-C3",
+        "kind": "BACKGROUND_REVERSED",
+        "completion": "{\"undergoer\":\"罗安琪\",\"actor\":\"韩子墨\"}"
+      }
+    ]
+  },
+  {
+    "input_id": "AUX-RB-143",
+    "candidates": [
+      {
+        "candidate_id": "AUX-RB-143-C0",
+        "kind": "TARGET_ROLE",
+        "completion": "{\"undergoer\":\"马景辰\",\"actor\":\"田舒言\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-143-C1",
+        "kind": "TARGET_REVERSED",
+        "completion": "{\"undergoer\":\"田舒言\",\"actor\":\"马景辰\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-143-C2",
+        "kind": "BOTH_NULL",
+        "completion": "{\"undergoer\":null,\"actor\":null}"
+      },
+      {
+        "candidate_id": "AUX-RB-143-C3",
+        "kind": "BOTH_A",
+        "completion": "{\"undergoer\":\"田舒言\",\"actor\":\"田舒言\"}"
+      }
+    ]
+  },
+  {
+    "input_id": "AUX-RB-144",
+    "candidates": [
+      {
+        "candidate_id": "AUX-RB-144-C0",
+        "kind": "TARGET_ROLE",
+        "completion": "{\"undergoer\":\"田舒言\",\"actor\":\"马景辰\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-144-C1",
+        "kind": "TARGET_REVERSED",
+        "completion": "{\"undergoer\":\"马景辰\",\"actor\":\"田舒言\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-144-C2",
+        "kind": "BOTH_NULL",
+        "completion": "{\"undergoer\":null,\"actor\":null}"
+      },
+      {
+        "candidate_id": "AUX-RB-144-C3",
+        "kind": "BOTH_A",
+        "completion": "{\"undergoer\":\"田舒言\",\"actor\":\"田舒言\"}"
+      }
+    ]
+  },
+  {
+    "input_id": "AUX-RB-145",
+    "candidates": [
+      {
+        "candidate_id": "AUX-RB-145-C0",
+        "kind": "TARGET_ROLE",
+        "completion": "{\"actor\":\"蒋安然\",\"undergoer\":\"魏书恒\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-145-C1",
+        "kind": "TARGET_REVERSED",
+        "completion": "{\"actor\":\"魏书恒\",\"undergoer\":\"蒋安然\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-145-C2",
+        "kind": "BACKGROUND_ROLE",
+        "completion": "{\"actor\":\"廖文悦\",\"undergoer\":\"薛景宁\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-145-C3",
+        "kind": "BACKGROUND_REVERSED",
+        "completion": "{\"actor\":\"薛景宁\",\"undergoer\":\"廖文悦\"}"
+      }
+    ]
+  },
+  {
+    "input_id": "AUX-RB-146",
+    "candidates": [
+      {
+        "candidate_id": "AUX-RB-146-C0",
+        "kind": "TARGET_ROLE",
+        "completion": "{\"actor\":\"蒋安然\",\"undergoer\":\"魏书恒\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-146-C1",
+        "kind": "TARGET_REVERSED",
+        "completion": "{\"actor\":\"魏书恒\",\"undergoer\":\"蒋安然\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-146-C2",
+        "kind": "BACKGROUND_ROLE",
+        "completion": "{\"actor\":\"廖文悦\",\"undergoer\":\"薛景宁\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-146-C3",
+        "kind": "BACKGROUND_REVERSED",
+        "completion": "{\"actor\":\"薛景宁\",\"undergoer\":\"廖文悦\"}"
+      }
+    ]
+  },
+  {
+    "input_id": "AUX-RB-147",
+    "candidates": [
+      {
+        "candidate_id": "AUX-RB-147-C0",
+        "kind": "TARGET_ROLE",
+        "completion": "{\"actor\":\"蒋安然\",\"undergoer\":\"魏书恒\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-147-C1",
+        "kind": "TARGET_REVERSED",
+        "completion": "{\"actor\":\"魏书恒\",\"undergoer\":\"蒋安然\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-147-C2",
+        "kind": "BOTH_NULL",
+        "completion": "{\"actor\":null,\"undergoer\":null}"
+      },
+      {
+        "candidate_id": "AUX-RB-147-C3",
+        "kind": "BOTH_A",
+        "completion": "{\"actor\":\"魏书恒\",\"undergoer\":\"魏书恒\"}"
+      }
+    ]
+  },
+  {
+    "input_id": "AUX-RB-148",
+    "candidates": [
+      {
+        "candidate_id": "AUX-RB-148-C0",
+        "kind": "TARGET_ROLE",
+        "completion": "{\"actor\":\"魏书恒\",\"undergoer\":\"蒋安然\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-148-C1",
+        "kind": "TARGET_REVERSED",
+        "completion": "{\"actor\":\"蒋安然\",\"undergoer\":\"魏书恒\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-148-C2",
+        "kind": "BOTH_NULL",
+        "completion": "{\"actor\":null,\"undergoer\":null}"
+      },
+      {
+        "candidate_id": "AUX-RB-148-C3",
+        "kind": "BOTH_A",
+        "completion": "{\"actor\":\"魏书恒\",\"undergoer\":\"魏书恒\"}"
+      }
+    ]
+  },
+  {
+    "input_id": "AUX-RB-149",
+    "candidates": [
+      {
+        "candidate_id": "AUX-RB-149-C0",
+        "kind": "TARGET_ROLE",
+        "completion": "{\"undergoer\":\"魏书恒\",\"actor\":\"蒋安然\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-149-C1",
+        "kind": "TARGET_REVERSED",
+        "completion": "{\"undergoer\":\"蒋安然\",\"actor\":\"魏书恒\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-149-C2",
+        "kind": "BACKGROUND_ROLE",
+        "completion": "{\"undergoer\":\"薛景宁\",\"actor\":\"廖文悦\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-149-C3",
+        "kind": "BACKGROUND_REVERSED",
+        "completion": "{\"undergoer\":\"廖文悦\",\"actor\":\"薛景宁\"}"
+      }
+    ]
+  },
+  {
+    "input_id": "AUX-RB-150",
+    "candidates": [
+      {
+        "candidate_id": "AUX-RB-150-C0",
+        "kind": "TARGET_ROLE",
+        "completion": "{\"undergoer\":\"魏书恒\",\"actor\":\"蒋安然\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-150-C1",
+        "kind": "TARGET_REVERSED",
+        "completion": "{\"undergoer\":\"蒋安然\",\"actor\":\"魏书恒\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-150-C2",
+        "kind": "BACKGROUND_ROLE",
+        "completion": "{\"undergoer\":\"薛景宁\",\"actor\":\"廖文悦\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-150-C3",
+        "kind": "BACKGROUND_REVERSED",
+        "completion": "{\"undergoer\":\"廖文悦\",\"actor\":\"薛景宁\"}"
+      }
+    ]
+  },
+  {
+    "input_id": "AUX-RB-151",
+    "candidates": [
+      {
+        "candidate_id": "AUX-RB-151-C0",
+        "kind": "TARGET_ROLE",
+        "completion": "{\"undergoer\":\"魏书恒\",\"actor\":\"蒋安然\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-151-C1",
+        "kind": "TARGET_REVERSED",
+        "completion": "{\"undergoer\":\"蒋安然\",\"actor\":\"魏书恒\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-151-C2",
+        "kind": "BOTH_NULL",
+        "completion": "{\"undergoer\":null,\"actor\":null}"
+      },
+      {
+        "candidate_id": "AUX-RB-151-C3",
+        "kind": "BOTH_A",
+        "completion": "{\"undergoer\":\"魏书恒\",\"actor\":\"魏书恒\"}"
+      }
+    ]
+  },
+  {
+    "input_id": "AUX-RB-152",
+    "candidates": [
+      {
+        "candidate_id": "AUX-RB-152-C0",
+        "kind": "TARGET_ROLE",
+        "completion": "{\"undergoer\":\"蒋安然\",\"actor\":\"魏书恒\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-152-C1",
+        "kind": "TARGET_REVERSED",
+        "completion": "{\"undergoer\":\"魏书恒\",\"actor\":\"蒋安然\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-152-C2",
+        "kind": "BOTH_NULL",
+        "completion": "{\"undergoer\":null,\"actor\":null}"
+      },
+      {
+        "candidate_id": "AUX-RB-152-C3",
+        "kind": "BOTH_A",
+        "completion": "{\"undergoer\":\"魏书恒\",\"actor\":\"魏书恒\"}"
+      }
+    ]
+  },
+  {
+    "input_id": "AUX-RB-153",
+    "candidates": [
+      {
+        "candidate_id": "AUX-RB-153-C0",
+        "kind": "TARGET_ROLE",
+        "completion": "{\"actor\":\"蒋安然\",\"undergoer\":\"魏书恒\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-153-C1",
+        "kind": "TARGET_REVERSED",
+        "completion": "{\"actor\":\"魏书恒\",\"undergoer\":\"蒋安然\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-153-C2",
+        "kind": "BACKGROUND_ROLE",
+        "completion": "{\"actor\":\"廖文悦\",\"undergoer\":\"薛景宁\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-153-C3",
+        "kind": "BACKGROUND_REVERSED",
+        "completion": "{\"actor\":\"薛景宁\",\"undergoer\":\"廖文悦\"}"
+      }
+    ]
+  },
+  {
+    "input_id": "AUX-RB-154",
+    "candidates": [
+      {
+        "candidate_id": "AUX-RB-154-C0",
+        "kind": "TARGET_ROLE",
+        "completion": "{\"actor\":\"蒋安然\",\"undergoer\":\"魏书恒\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-154-C1",
+        "kind": "TARGET_REVERSED",
+        "completion": "{\"actor\":\"魏书恒\",\"undergoer\":\"蒋安然\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-154-C2",
+        "kind": "BACKGROUND_ROLE",
+        "completion": "{\"actor\":\"廖文悦\",\"undergoer\":\"薛景宁\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-154-C3",
+        "kind": "BACKGROUND_REVERSED",
+        "completion": "{\"actor\":\"薛景宁\",\"undergoer\":\"廖文悦\"}"
+      }
+    ]
+  },
+  {
+    "input_id": "AUX-RB-155",
+    "candidates": [
+      {
+        "candidate_id": "AUX-RB-155-C0",
+        "kind": "TARGET_ROLE",
+        "completion": "{\"actor\":\"蒋安然\",\"undergoer\":\"魏书恒\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-155-C1",
+        "kind": "TARGET_REVERSED",
+        "completion": "{\"actor\":\"魏书恒\",\"undergoer\":\"蒋安然\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-155-C2",
+        "kind": "BOTH_NULL",
+        "completion": "{\"actor\":null,\"undergoer\":null}"
+      },
+      {
+        "candidate_id": "AUX-RB-155-C3",
+        "kind": "BOTH_A",
+        "completion": "{\"actor\":\"魏书恒\",\"undergoer\":\"魏书恒\"}"
+      }
+    ]
+  },
+  {
+    "input_id": "AUX-RB-156",
+    "candidates": [
+      {
+        "candidate_id": "AUX-RB-156-C0",
+        "kind": "TARGET_ROLE",
+        "completion": "{\"actor\":\"魏书恒\",\"undergoer\":\"蒋安然\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-156-C1",
+        "kind": "TARGET_REVERSED",
+        "completion": "{\"actor\":\"蒋安然\",\"undergoer\":\"魏书恒\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-156-C2",
+        "kind": "BOTH_NULL",
+        "completion": "{\"actor\":null,\"undergoer\":null}"
+      },
+      {
+        "candidate_id": "AUX-RB-156-C3",
+        "kind": "BOTH_A",
+        "completion": "{\"actor\":\"魏书恒\",\"undergoer\":\"魏书恒\"}"
+      }
+    ]
+  },
+  {
+    "input_id": "AUX-RB-157",
+    "candidates": [
+      {
+        "candidate_id": "AUX-RB-157-C0",
+        "kind": "TARGET_ROLE",
+        "completion": "{\"undergoer\":\"魏书恒\",\"actor\":\"蒋安然\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-157-C1",
+        "kind": "TARGET_REVERSED",
+        "completion": "{\"undergoer\":\"蒋安然\",\"actor\":\"魏书恒\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-157-C2",
+        "kind": "BACKGROUND_ROLE",
+        "completion": "{\"undergoer\":\"薛景宁\",\"actor\":\"廖文悦\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-157-C3",
+        "kind": "BACKGROUND_REVERSED",
+        "completion": "{\"undergoer\":\"廖文悦\",\"actor\":\"薛景宁\"}"
+      }
+    ]
+  },
+  {
+    "input_id": "AUX-RB-158",
+    "candidates": [
+      {
+        "candidate_id": "AUX-RB-158-C0",
+        "kind": "TARGET_ROLE",
+        "completion": "{\"undergoer\":\"魏书恒\",\"actor\":\"蒋安然\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-158-C1",
+        "kind": "TARGET_REVERSED",
+        "completion": "{\"undergoer\":\"蒋安然\",\"actor\":\"魏书恒\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-158-C2",
+        "kind": "BACKGROUND_ROLE",
+        "completion": "{\"undergoer\":\"薛景宁\",\"actor\":\"廖文悦\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-158-C3",
+        "kind": "BACKGROUND_REVERSED",
+        "completion": "{\"undergoer\":\"廖文悦\",\"actor\":\"薛景宁\"}"
+      }
+    ]
+  },
+  {
+    "input_id": "AUX-RB-159",
+    "candidates": [
+      {
+        "candidate_id": "AUX-RB-159-C0",
+        "kind": "TARGET_ROLE",
+        "completion": "{\"undergoer\":\"魏书恒\",\"actor\":\"蒋安然\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-159-C1",
+        "kind": "TARGET_REVERSED",
+        "completion": "{\"undergoer\":\"蒋安然\",\"actor\":\"魏书恒\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-159-C2",
+        "kind": "BOTH_NULL",
+        "completion": "{\"undergoer\":null,\"actor\":null}"
+      },
+      {
+        "candidate_id": "AUX-RB-159-C3",
+        "kind": "BOTH_A",
+        "completion": "{\"undergoer\":\"魏书恒\",\"actor\":\"魏书恒\"}"
+      }
+    ]
+  },
+  {
+    "input_id": "AUX-RB-160",
+    "candidates": [
+      {
+        "candidate_id": "AUX-RB-160-C0",
+        "kind": "TARGET_ROLE",
+        "completion": "{\"undergoer\":\"蒋安然\",\"actor\":\"魏书恒\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-160-C1",
+        "kind": "TARGET_REVERSED",
+        "completion": "{\"undergoer\":\"魏书恒\",\"actor\":\"蒋安然\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-160-C2",
+        "kind": "BOTH_NULL",
+        "completion": "{\"undergoer\":null,\"actor\":null}"
+      },
+      {
+        "candidate_id": "AUX-RB-160-C3",
+        "kind": "BOTH_A",
+        "completion": "{\"undergoer\":\"魏书恒\",\"actor\":\"魏书恒\"}"
+      }
+    ]
+  },
+  {
+    "input_id": "AUX-RB-161",
+    "candidates": [
+      {
+        "candidate_id": "AUX-RB-161-C0",
+        "kind": "TARGET_ROLE",
+        "completion": "{\"actor\":\"邓知行\",\"undergoer\":\"蔡雨宁\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-161-C1",
+        "kind": "TARGET_REVERSED",
+        "completion": "{\"actor\":\"蔡雨宁\",\"undergoer\":\"邓知行\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-161-C2",
+        "kind": "BACKGROUND_ROLE",
+        "completion": "{\"actor\":\"彭思齐\",\"undergoer\":\"卢嘉言\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-161-C3",
+        "kind": "BACKGROUND_REVERSED",
+        "completion": "{\"actor\":\"卢嘉言\",\"undergoer\":\"彭思齐\"}"
+      }
+    ]
+  },
+  {
+    "input_id": "AUX-RB-162",
+    "candidates": [
+      {
+        "candidate_id": "AUX-RB-162-C0",
+        "kind": "TARGET_ROLE",
+        "completion": "{\"actor\":\"邓知行\",\"undergoer\":\"蔡雨宁\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-162-C1",
+        "kind": "TARGET_REVERSED",
+        "completion": "{\"actor\":\"蔡雨宁\",\"undergoer\":\"邓知行\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-162-C2",
+        "kind": "BACKGROUND_ROLE",
+        "completion": "{\"actor\":\"彭思齐\",\"undergoer\":\"卢嘉言\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-162-C3",
+        "kind": "BACKGROUND_REVERSED",
+        "completion": "{\"actor\":\"卢嘉言\",\"undergoer\":\"彭思齐\"}"
+      }
+    ]
+  },
+  {
+    "input_id": "AUX-RB-163",
+    "candidates": [
+      {
+        "candidate_id": "AUX-RB-163-C0",
+        "kind": "TARGET_ROLE",
+        "completion": "{\"actor\":\"邓知行\",\"undergoer\":\"蔡雨宁\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-163-C1",
+        "kind": "TARGET_REVERSED",
+        "completion": "{\"actor\":\"蔡雨宁\",\"undergoer\":\"邓知行\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-163-C2",
+        "kind": "BOTH_NULL",
+        "completion": "{\"actor\":null,\"undergoer\":null}"
+      },
+      {
+        "candidate_id": "AUX-RB-163-C3",
+        "kind": "BOTH_A",
+        "completion": "{\"actor\":\"邓知行\",\"undergoer\":\"邓知行\"}"
+      }
+    ]
+  },
+  {
+    "input_id": "AUX-RB-164",
+    "candidates": [
+      {
+        "candidate_id": "AUX-RB-164-C0",
+        "kind": "TARGET_ROLE",
+        "completion": "{\"actor\":\"蔡雨宁\",\"undergoer\":\"邓知行\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-164-C1",
+        "kind": "TARGET_REVERSED",
+        "completion": "{\"actor\":\"邓知行\",\"undergoer\":\"蔡雨宁\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-164-C2",
+        "kind": "BOTH_NULL",
+        "completion": "{\"actor\":null,\"undergoer\":null}"
+      },
+      {
+        "candidate_id": "AUX-RB-164-C3",
+        "kind": "BOTH_A",
+        "completion": "{\"actor\":\"邓知行\",\"undergoer\":\"邓知行\"}"
+      }
+    ]
+  },
+  {
+    "input_id": "AUX-RB-165",
+    "candidates": [
+      {
+        "candidate_id": "AUX-RB-165-C0",
+        "kind": "TARGET_ROLE",
+        "completion": "{\"undergoer\":\"蔡雨宁\",\"actor\":\"邓知行\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-165-C1",
+        "kind": "TARGET_REVERSED",
+        "completion": "{\"undergoer\":\"邓知行\",\"actor\":\"蔡雨宁\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-165-C2",
+        "kind": "BACKGROUND_ROLE",
+        "completion": "{\"undergoer\":\"卢嘉言\",\"actor\":\"彭思齐\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-165-C3",
+        "kind": "BACKGROUND_REVERSED",
+        "completion": "{\"undergoer\":\"彭思齐\",\"actor\":\"卢嘉言\"}"
+      }
+    ]
+  },
+  {
+    "input_id": "AUX-RB-166",
+    "candidates": [
+      {
+        "candidate_id": "AUX-RB-166-C0",
+        "kind": "TARGET_ROLE",
+        "completion": "{\"undergoer\":\"蔡雨宁\",\"actor\":\"邓知行\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-166-C1",
+        "kind": "TARGET_REVERSED",
+        "completion": "{\"undergoer\":\"邓知行\",\"actor\":\"蔡雨宁\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-166-C2",
+        "kind": "BACKGROUND_ROLE",
+        "completion": "{\"undergoer\":\"卢嘉言\",\"actor\":\"彭思齐\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-166-C3",
+        "kind": "BACKGROUND_REVERSED",
+        "completion": "{\"undergoer\":\"彭思齐\",\"actor\":\"卢嘉言\"}"
+      }
+    ]
+  },
+  {
+    "input_id": "AUX-RB-167",
+    "candidates": [
+      {
+        "candidate_id": "AUX-RB-167-C0",
+        "kind": "TARGET_ROLE",
+        "completion": "{\"undergoer\":\"蔡雨宁\",\"actor\":\"邓知行\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-167-C1",
+        "kind": "TARGET_REVERSED",
+        "completion": "{\"undergoer\":\"邓知行\",\"actor\":\"蔡雨宁\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-167-C2",
+        "kind": "BOTH_NULL",
+        "completion": "{\"undergoer\":null,\"actor\":null}"
+      },
+      {
+        "candidate_id": "AUX-RB-167-C3",
+        "kind": "BOTH_A",
+        "completion": "{\"undergoer\":\"邓知行\",\"actor\":\"邓知行\"}"
+      }
+    ]
+  },
+  {
+    "input_id": "AUX-RB-168",
+    "candidates": [
+      {
+        "candidate_id": "AUX-RB-168-C0",
+        "kind": "TARGET_ROLE",
+        "completion": "{\"undergoer\":\"邓知行\",\"actor\":\"蔡雨宁\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-168-C1",
+        "kind": "TARGET_REVERSED",
+        "completion": "{\"undergoer\":\"蔡雨宁\",\"actor\":\"邓知行\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-168-C2",
+        "kind": "BOTH_NULL",
+        "completion": "{\"undergoer\":null,\"actor\":null}"
+      },
+      {
+        "candidate_id": "AUX-RB-168-C3",
+        "kind": "BOTH_A",
+        "completion": "{\"undergoer\":\"邓知行\",\"actor\":\"邓知行\"}"
+      }
+    ]
+  },
+  {
+    "input_id": "AUX-RB-169",
+    "candidates": [
+      {
+        "candidate_id": "AUX-RB-169-C0",
+        "kind": "TARGET_ROLE",
+        "completion": "{\"actor\":\"邓知行\",\"undergoer\":\"蔡雨宁\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-169-C1",
+        "kind": "TARGET_REVERSED",
+        "completion": "{\"actor\":\"蔡雨宁\",\"undergoer\":\"邓知行\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-169-C2",
+        "kind": "BACKGROUND_ROLE",
+        "completion": "{\"actor\":\"彭思齐\",\"undergoer\":\"卢嘉言\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-169-C3",
+        "kind": "BACKGROUND_REVERSED",
+        "completion": "{\"actor\":\"卢嘉言\",\"undergoer\":\"彭思齐\"}"
+      }
+    ]
+  },
+  {
+    "input_id": "AUX-RB-170",
+    "candidates": [
+      {
+        "candidate_id": "AUX-RB-170-C0",
+        "kind": "TARGET_ROLE",
+        "completion": "{\"actor\":\"邓知行\",\"undergoer\":\"蔡雨宁\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-170-C1",
+        "kind": "TARGET_REVERSED",
+        "completion": "{\"actor\":\"蔡雨宁\",\"undergoer\":\"邓知行\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-170-C2",
+        "kind": "BACKGROUND_ROLE",
+        "completion": "{\"actor\":\"彭思齐\",\"undergoer\":\"卢嘉言\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-170-C3",
+        "kind": "BACKGROUND_REVERSED",
+        "completion": "{\"actor\":\"卢嘉言\",\"undergoer\":\"彭思齐\"}"
+      }
+    ]
+  },
+  {
+    "input_id": "AUX-RB-171",
+    "candidates": [
+      {
+        "candidate_id": "AUX-RB-171-C0",
+        "kind": "TARGET_ROLE",
+        "completion": "{\"actor\":\"邓知行\",\"undergoer\":\"蔡雨宁\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-171-C1",
+        "kind": "TARGET_REVERSED",
+        "completion": "{\"actor\":\"蔡雨宁\",\"undergoer\":\"邓知行\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-171-C2",
+        "kind": "BOTH_NULL",
+        "completion": "{\"actor\":null,\"undergoer\":null}"
+      },
+      {
+        "candidate_id": "AUX-RB-171-C3",
+        "kind": "BOTH_A",
+        "completion": "{\"actor\":\"邓知行\",\"undergoer\":\"邓知行\"}"
+      }
+    ]
+  },
+  {
+    "input_id": "AUX-RB-172",
+    "candidates": [
+      {
+        "candidate_id": "AUX-RB-172-C0",
+        "kind": "TARGET_ROLE",
+        "completion": "{\"actor\":\"蔡雨宁\",\"undergoer\":\"邓知行\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-172-C1",
+        "kind": "TARGET_REVERSED",
+        "completion": "{\"actor\":\"邓知行\",\"undergoer\":\"蔡雨宁\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-172-C2",
+        "kind": "BOTH_NULL",
+        "completion": "{\"actor\":null,\"undergoer\":null}"
+      },
+      {
+        "candidate_id": "AUX-RB-172-C3",
+        "kind": "BOTH_A",
+        "completion": "{\"actor\":\"邓知行\",\"undergoer\":\"邓知行\"}"
+      }
+    ]
+  },
+  {
+    "input_id": "AUX-RB-173",
+    "candidates": [
+      {
+        "candidate_id": "AUX-RB-173-C0",
+        "kind": "TARGET_ROLE",
+        "completion": "{\"undergoer\":\"蔡雨宁\",\"actor\":\"邓知行\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-173-C1",
+        "kind": "TARGET_REVERSED",
+        "completion": "{\"undergoer\":\"邓知行\",\"actor\":\"蔡雨宁\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-173-C2",
+        "kind": "BACKGROUND_ROLE",
+        "completion": "{\"undergoer\":\"卢嘉言\",\"actor\":\"彭思齐\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-173-C3",
+        "kind": "BACKGROUND_REVERSED",
+        "completion": "{\"undergoer\":\"彭思齐\",\"actor\":\"卢嘉言\"}"
+      }
+    ]
+  },
+  {
+    "input_id": "AUX-RB-174",
+    "candidates": [
+      {
+        "candidate_id": "AUX-RB-174-C0",
+        "kind": "TARGET_ROLE",
+        "completion": "{\"undergoer\":\"蔡雨宁\",\"actor\":\"邓知行\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-174-C1",
+        "kind": "TARGET_REVERSED",
+        "completion": "{\"undergoer\":\"邓知行\",\"actor\":\"蔡雨宁\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-174-C2",
+        "kind": "BACKGROUND_ROLE",
+        "completion": "{\"undergoer\":\"卢嘉言\",\"actor\":\"彭思齐\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-174-C3",
+        "kind": "BACKGROUND_REVERSED",
+        "completion": "{\"undergoer\":\"彭思齐\",\"actor\":\"卢嘉言\"}"
+      }
+    ]
+  },
+  {
+    "input_id": "AUX-RB-175",
+    "candidates": [
+      {
+        "candidate_id": "AUX-RB-175-C0",
+        "kind": "TARGET_ROLE",
+        "completion": "{\"undergoer\":\"蔡雨宁\",\"actor\":\"邓知行\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-175-C1",
+        "kind": "TARGET_REVERSED",
+        "completion": "{\"undergoer\":\"邓知行\",\"actor\":\"蔡雨宁\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-175-C2",
+        "kind": "BOTH_NULL",
+        "completion": "{\"undergoer\":null,\"actor\":null}"
+      },
+      {
+        "candidate_id": "AUX-RB-175-C3",
+        "kind": "BOTH_A",
+        "completion": "{\"undergoer\":\"邓知行\",\"actor\":\"邓知行\"}"
+      }
+    ]
+  },
+  {
+    "input_id": "AUX-RB-176",
+    "candidates": [
+      {
+        "candidate_id": "AUX-RB-176-C0",
+        "kind": "TARGET_ROLE",
+        "completion": "{\"undergoer\":\"邓知行\",\"actor\":\"蔡雨宁\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-176-C1",
+        "kind": "TARGET_REVERSED",
+        "completion": "{\"undergoer\":\"蔡雨宁\",\"actor\":\"邓知行\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-176-C2",
+        "kind": "BOTH_NULL",
+        "completion": "{\"undergoer\":null,\"actor\":null}"
+      },
+      {
+        "candidate_id": "AUX-RB-176-C3",
+        "kind": "BOTH_A",
+        "completion": "{\"undergoer\":\"邓知行\",\"actor\":\"邓知行\"}"
+      }
+    ]
+  },
+  {
+    "input_id": "AUX-RB-177",
+    "candidates": [
+      {
+        "candidate_id": "AUX-RB-177-C0",
+        "kind": "TARGET_ROLE",
+        "completion": "{\"actor\":\"范书瑶\",\"undergoer\":\"梁清越\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-177-C1",
+        "kind": "TARGET_REVERSED",
+        "completion": "{\"actor\":\"梁清越\",\"undergoer\":\"范书瑶\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-177-C2",
+        "kind": "BACKGROUND_ROLE",
+        "completion": "{\"actor\":\"任嘉平\",\"undergoer\":\"汪予宁\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-177-C3",
+        "kind": "BACKGROUND_REVERSED",
+        "completion": "{\"actor\":\"汪予宁\",\"undergoer\":\"任嘉平\"}"
+      }
+    ]
+  },
+  {
+    "input_id": "AUX-RB-178",
+    "candidates": [
+      {
+        "candidate_id": "AUX-RB-178-C0",
+        "kind": "TARGET_ROLE",
+        "completion": "{\"actor\":\"范书瑶\",\"undergoer\":\"梁清越\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-178-C1",
+        "kind": "TARGET_REVERSED",
+        "completion": "{\"actor\":\"梁清越\",\"undergoer\":\"范书瑶\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-178-C2",
+        "kind": "BACKGROUND_ROLE",
+        "completion": "{\"actor\":\"任嘉平\",\"undergoer\":\"汪予宁\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-178-C3",
+        "kind": "BACKGROUND_REVERSED",
+        "completion": "{\"actor\":\"汪予宁\",\"undergoer\":\"任嘉平\"}"
+      }
+    ]
+  },
+  {
+    "input_id": "AUX-RB-179",
+    "candidates": [
+      {
+        "candidate_id": "AUX-RB-179-C0",
+        "kind": "TARGET_ROLE",
+        "completion": "{\"actor\":\"范书瑶\",\"undergoer\":\"梁清越\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-179-C1",
+        "kind": "TARGET_REVERSED",
+        "completion": "{\"actor\":\"梁清越\",\"undergoer\":\"范书瑶\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-179-C2",
+        "kind": "BOTH_NULL",
+        "completion": "{\"actor\":null,\"undergoer\":null}"
+      },
+      {
+        "candidate_id": "AUX-RB-179-C3",
+        "kind": "BOTH_A",
+        "completion": "{\"actor\":\"梁清越\",\"undergoer\":\"梁清越\"}"
+      }
+    ]
+  },
+  {
+    "input_id": "AUX-RB-180",
+    "candidates": [
+      {
+        "candidate_id": "AUX-RB-180-C0",
+        "kind": "TARGET_ROLE",
+        "completion": "{\"actor\":\"梁清越\",\"undergoer\":\"范书瑶\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-180-C1",
+        "kind": "TARGET_REVERSED",
+        "completion": "{\"actor\":\"范书瑶\",\"undergoer\":\"梁清越\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-180-C2",
+        "kind": "BOTH_NULL",
+        "completion": "{\"actor\":null,\"undergoer\":null}"
+      },
+      {
+        "candidate_id": "AUX-RB-180-C3",
+        "kind": "BOTH_A",
+        "completion": "{\"actor\":\"梁清越\",\"undergoer\":\"梁清越\"}"
+      }
+    ]
+  },
+  {
+    "input_id": "AUX-RB-181",
+    "candidates": [
+      {
+        "candidate_id": "AUX-RB-181-C0",
+        "kind": "TARGET_ROLE",
+        "completion": "{\"undergoer\":\"梁清越\",\"actor\":\"范书瑶\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-181-C1",
+        "kind": "TARGET_REVERSED",
+        "completion": "{\"undergoer\":\"范书瑶\",\"actor\":\"梁清越\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-181-C2",
+        "kind": "BACKGROUND_ROLE",
+        "completion": "{\"undergoer\":\"汪予宁\",\"actor\":\"任嘉平\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-181-C3",
+        "kind": "BACKGROUND_REVERSED",
+        "completion": "{\"undergoer\":\"任嘉平\",\"actor\":\"汪予宁\"}"
+      }
+    ]
+  },
+  {
+    "input_id": "AUX-RB-182",
+    "candidates": [
+      {
+        "candidate_id": "AUX-RB-182-C0",
+        "kind": "TARGET_ROLE",
+        "completion": "{\"undergoer\":\"梁清越\",\"actor\":\"范书瑶\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-182-C1",
+        "kind": "TARGET_REVERSED",
+        "completion": "{\"undergoer\":\"范书瑶\",\"actor\":\"梁清越\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-182-C2",
+        "kind": "BACKGROUND_ROLE",
+        "completion": "{\"undergoer\":\"汪予宁\",\"actor\":\"任嘉平\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-182-C3",
+        "kind": "BACKGROUND_REVERSED",
+        "completion": "{\"undergoer\":\"任嘉平\",\"actor\":\"汪予宁\"}"
+      }
+    ]
+  },
+  {
+    "input_id": "AUX-RB-183",
+    "candidates": [
+      {
+        "candidate_id": "AUX-RB-183-C0",
+        "kind": "TARGET_ROLE",
+        "completion": "{\"undergoer\":\"梁清越\",\"actor\":\"范书瑶\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-183-C1",
+        "kind": "TARGET_REVERSED",
+        "completion": "{\"undergoer\":\"范书瑶\",\"actor\":\"梁清越\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-183-C2",
+        "kind": "BOTH_NULL",
+        "completion": "{\"undergoer\":null,\"actor\":null}"
+      },
+      {
+        "candidate_id": "AUX-RB-183-C3",
+        "kind": "BOTH_A",
+        "completion": "{\"undergoer\":\"梁清越\",\"actor\":\"梁清越\"}"
+      }
+    ]
+  },
+  {
+    "input_id": "AUX-RB-184",
+    "candidates": [
+      {
+        "candidate_id": "AUX-RB-184-C0",
+        "kind": "TARGET_ROLE",
+        "completion": "{\"undergoer\":\"范书瑶\",\"actor\":\"梁清越\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-184-C1",
+        "kind": "TARGET_REVERSED",
+        "completion": "{\"undergoer\":\"梁清越\",\"actor\":\"范书瑶\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-184-C2",
+        "kind": "BOTH_NULL",
+        "completion": "{\"undergoer\":null,\"actor\":null}"
+      },
+      {
+        "candidate_id": "AUX-RB-184-C3",
+        "kind": "BOTH_A",
+        "completion": "{\"undergoer\":\"梁清越\",\"actor\":\"梁清越\"}"
+      }
+    ]
+  },
+  {
+    "input_id": "AUX-RB-185",
+    "candidates": [
+      {
+        "candidate_id": "AUX-RB-185-C0",
+        "kind": "TARGET_ROLE",
+        "completion": "{\"actor\":\"范书瑶\",\"undergoer\":\"梁清越\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-185-C1",
+        "kind": "TARGET_REVERSED",
+        "completion": "{\"actor\":\"梁清越\",\"undergoer\":\"范书瑶\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-185-C2",
+        "kind": "BACKGROUND_ROLE",
+        "completion": "{\"actor\":\"任嘉平\",\"undergoer\":\"汪予宁\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-185-C3",
+        "kind": "BACKGROUND_REVERSED",
+        "completion": "{\"actor\":\"汪予宁\",\"undergoer\":\"任嘉平\"}"
+      }
+    ]
+  },
+  {
+    "input_id": "AUX-RB-186",
+    "candidates": [
+      {
+        "candidate_id": "AUX-RB-186-C0",
+        "kind": "TARGET_ROLE",
+        "completion": "{\"actor\":\"范书瑶\",\"undergoer\":\"梁清越\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-186-C1",
+        "kind": "TARGET_REVERSED",
+        "completion": "{\"actor\":\"梁清越\",\"undergoer\":\"范书瑶\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-186-C2",
+        "kind": "BACKGROUND_ROLE",
+        "completion": "{\"actor\":\"任嘉平\",\"undergoer\":\"汪予宁\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-186-C3",
+        "kind": "BACKGROUND_REVERSED",
+        "completion": "{\"actor\":\"汪予宁\",\"undergoer\":\"任嘉平\"}"
+      }
+    ]
+  },
+  {
+    "input_id": "AUX-RB-187",
+    "candidates": [
+      {
+        "candidate_id": "AUX-RB-187-C0",
+        "kind": "TARGET_ROLE",
+        "completion": "{\"actor\":\"范书瑶\",\"undergoer\":\"梁清越\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-187-C1",
+        "kind": "TARGET_REVERSED",
+        "completion": "{\"actor\":\"梁清越\",\"undergoer\":\"范书瑶\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-187-C2",
+        "kind": "BOTH_NULL",
+        "completion": "{\"actor\":null,\"undergoer\":null}"
+      },
+      {
+        "candidate_id": "AUX-RB-187-C3",
+        "kind": "BOTH_A",
+        "completion": "{\"actor\":\"梁清越\",\"undergoer\":\"梁清越\"}"
+      }
+    ]
+  },
+  {
+    "input_id": "AUX-RB-188",
+    "candidates": [
+      {
+        "candidate_id": "AUX-RB-188-C0",
+        "kind": "TARGET_ROLE",
+        "completion": "{\"actor\":\"梁清越\",\"undergoer\":\"范书瑶\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-188-C1",
+        "kind": "TARGET_REVERSED",
+        "completion": "{\"actor\":\"范书瑶\",\"undergoer\":\"梁清越\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-188-C2",
+        "kind": "BOTH_NULL",
+        "completion": "{\"actor\":null,\"undergoer\":null}"
+      },
+      {
+        "candidate_id": "AUX-RB-188-C3",
+        "kind": "BOTH_A",
+        "completion": "{\"actor\":\"梁清越\",\"undergoer\":\"梁清越\"}"
+      }
+    ]
+  },
+  {
+    "input_id": "AUX-RB-189",
+    "candidates": [
+      {
+        "candidate_id": "AUX-RB-189-C0",
+        "kind": "TARGET_ROLE",
+        "completion": "{\"undergoer\":\"梁清越\",\"actor\":\"范书瑶\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-189-C1",
+        "kind": "TARGET_REVERSED",
+        "completion": "{\"undergoer\":\"范书瑶\",\"actor\":\"梁清越\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-189-C2",
+        "kind": "BACKGROUND_ROLE",
+        "completion": "{\"undergoer\":\"汪予宁\",\"actor\":\"任嘉平\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-189-C3",
+        "kind": "BACKGROUND_REVERSED",
+        "completion": "{\"undergoer\":\"任嘉平\",\"actor\":\"汪予宁\"}"
+      }
+    ]
+  },
+  {
+    "input_id": "AUX-RB-190",
+    "candidates": [
+      {
+        "candidate_id": "AUX-RB-190-C0",
+        "kind": "TARGET_ROLE",
+        "completion": "{\"undergoer\":\"梁清越\",\"actor\":\"范书瑶\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-190-C1",
+        "kind": "TARGET_REVERSED",
+        "completion": "{\"undergoer\":\"范书瑶\",\"actor\":\"梁清越\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-190-C2",
+        "kind": "BACKGROUND_ROLE",
+        "completion": "{\"undergoer\":\"汪予宁\",\"actor\":\"任嘉平\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-190-C3",
+        "kind": "BACKGROUND_REVERSED",
+        "completion": "{\"undergoer\":\"任嘉平\",\"actor\":\"汪予宁\"}"
+      }
+    ]
+  },
+  {
+    "input_id": "AUX-RB-191",
+    "candidates": [
+      {
+        "candidate_id": "AUX-RB-191-C0",
+        "kind": "TARGET_ROLE",
+        "completion": "{\"undergoer\":\"梁清越\",\"actor\":\"范书瑶\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-191-C1",
+        "kind": "TARGET_REVERSED",
+        "completion": "{\"undergoer\":\"范书瑶\",\"actor\":\"梁清越\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-191-C2",
+        "kind": "BOTH_NULL",
+        "completion": "{\"undergoer\":null,\"actor\":null}"
+      },
+      {
+        "candidate_id": "AUX-RB-191-C3",
+        "kind": "BOTH_A",
+        "completion": "{\"undergoer\":\"梁清越\",\"actor\":\"梁清越\"}"
+      }
+    ]
+  },
+  {
+    "input_id": "AUX-RB-192",
+    "candidates": [
+      {
+        "candidate_id": "AUX-RB-192-C0",
+        "kind": "TARGET_ROLE",
+        "completion": "{\"undergoer\":\"范书瑶\",\"actor\":\"梁清越\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-192-C1",
+        "kind": "TARGET_REVERSED",
+        "completion": "{\"undergoer\":\"梁清越\",\"actor\":\"范书瑶\"}"
+      },
+      {
+        "candidate_id": "AUX-RB-192-C2",
+        "kind": "BOTH_NULL",
+        "completion": "{\"undergoer\":null,\"actor\":null}"
+      },
+      {
+        "candidate_id": "AUX-RB-192-C3",
+        "kind": "BOTH_A",
+        "completion": "{\"undergoer\":\"梁清越\",\"actor\":\"梁清越\"}"
+      }
+    ]
+  }
+]

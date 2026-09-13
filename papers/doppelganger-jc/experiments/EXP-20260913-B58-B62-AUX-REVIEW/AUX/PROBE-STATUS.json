@@ -1,0 +1,10 @@
+{
+  "status": "COMPLETE",
+  "fits": 18228,
+  "predictions": 278976,
+  "warnings": 0,
+  "R2_END": "NOT_APPLICABLE_NO_R2_ANCHOR_IN_FROZEN_NONE_TRAINING; pretarget control represented by distance/lens only",
+  "random_projection": "numpy default_rng130913 Gaussian sd1/8",
+  "Q_ONLY": "4096-dimensional q; same L2 logistic; no layer selection",
+  "human_gold": 0
+}

@@ -1,0 +1,16 @@
+{
+  "at": "2026-09-13T11:48:33.925887+00:00",
+  "status": "PASS_SECOND_AI_REVIEW_NOT_HUMAN_GOLD",
+  "reviewer": "Coordination & Operation AI; distinct from Main author, not independent human",
+  "demo_manual_roles": [
+    "D01 周映川叫醒谢知遥",
+    "D02 唐若舟带走程以安",
+    "D03 夏语澜击败孟承泽",
+    "D04 施予宁撞倒仲雨辰"
+  ],
+  "linguistic_limit": "D04 remains marked object-topic expression in explicit completed interaction context; clear intended transitive reading, not human naturalness validation",
+  "checks": "1296 sanitized inputs; all name-swap gold/source; same-fact backgrounds; F/R last-demo role predictions; schema order and prefix binding",
+  "human_review": "PENDING",
+  "independent_human_gold": 0,
+  "scientific_calls": 0
+}

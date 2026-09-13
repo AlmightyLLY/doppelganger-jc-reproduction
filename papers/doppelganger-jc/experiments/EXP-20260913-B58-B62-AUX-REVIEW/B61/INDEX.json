@@ -1,0 +1,114 @@
+{
+  "batch": "B61",
+  "rows": 384,
+  "files": [
+    {
+      "path": "evidence/apertus-F01.json",
+      "rows": 32,
+      "content_counts": {
+        "C": 28,
+        "R": 4
+      }
+    },
+    {
+      "path": "evidence/apertus-F02.json",
+      "rows": 32,
+      "content_counts": {
+        "C": 19,
+        "U": 6,
+        "R": 5,
+        "OTHER_W": 2
+      }
+    },
+    {
+      "path": "evidence/apertus-F03.json",
+      "rows": 32,
+      "content_counts": {
+        "C": 24,
+        "R": 8
+      }
+    },
+    {
+      "path": "evidence/apertus-F04.json",
+      "rows": 32,
+      "content_counts": {
+        "C": 20,
+        "R": 12
+      }
+    },
+    {
+      "path": "evidence/apertus-F05.json",
+      "rows": 32,
+      "content_counts": {
+        "C": 29,
+        "R": 3
+      }
+    },
+    {
+      "path": "evidence/apertus-F06.json",
+      "rows": 32,
+      "content_counts": {
+        "C": 27,
+        "R": 5
+      }
+    },
+    {
+      "path": "evidence/apertus-F07.json",
+      "rows": 32,
+      "content_counts": {
+        "C": 30,
+        "R": 2
+      }
+    },
+    {
+      "path": "evidence/apertus-F08.json",
+      "rows": 32,
+      "content_counts": {
+        "C": 21,
+        "R": 11
+      }
+    },
+    {
+      "path": "evidence/apertus-F09.json",
+      "rows": 32,
+      "content_counts": {
+        "R": 8,
+        "C": 24
+      }
+    },
+    {
+      "path": "evidence/apertus-F10.json",
+      "rows": 32,
+      "content_counts": {
+        "R": 13,
+        "C": 19
+      }
+    },
+    {
+      "path": "evidence/apertus-F11.json",
+      "rows": 32,
+      "content_counts": {
+        "C": 29,
+        "R": 3
+      }
+    },
+    {
+      "path": "evidence/apertus-F12.json",
+      "rows": 32,
+      "content_counts": {
+        "C": 26,
+        "R": 6
+      }
+    }
+  ],
+  "content_counts": {
+    "C": 296,
+    "R": 80,
+    "U": 6,
+    "OTHER_W": 2
+  },
+  "source_scored_results_sha256": "a71de2090b72522b382f6048c7964f8b7e3430b7d78dfd1ed69a9e166f239826",
+  "unit_warning": "Repeated prompts, schemas, conditions and bridge rows are not independent semantic items.",
+  "human_review": "PENDING",
+  "independent_human_gold": 0
+}

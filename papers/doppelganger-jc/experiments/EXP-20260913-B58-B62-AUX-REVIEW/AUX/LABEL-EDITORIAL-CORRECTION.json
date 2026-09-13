@@ -1,0 +1,19 @@
+{
+  "status": "CORRECTED_EDITORIAL_ONLY",
+  "reason": "Main flagged contradictory prose; executor verified gold/entity_map and all prediction labels",
+  "predictions_checked": 278976,
+  "background_counts": {
+    "1": 48,
+    "0": 48
+  },
+  "corrected_statement": "背景96条总体正负各48条，12组中奇数组标签为1、偶数组为0，每组8条背景输入标签固定。背景不含同组目标角色交换对照；总体平衡不能消除组别与标签对应的限制。",
+  "old_file_sha256": {
+    "prepare_final.py": "880c08dd92bce574ab9337bc65f2eb20f9756d72ea8fb069723e47b4c2a13ead",
+    "build_final_doc.py": "6d4bb6cfd7e427dccbbe70b35f002522d5cf6a6ab754c7b96b2efe569a8bc7d1",
+    "analysis/FINAL-SUMMARY.json": "c79cb2bd24e3c03946dc0da9225e0da6adeb3e7698276ace9f95b77c7302c43f",
+    "final-probe-R1_END.json": "fb9e709e6f6128f4886d0dbb383c68f38ee21c1c3ec8cd99cce6d3e13f7475b9",
+    "final-probe-NATIVE_PROMPT_END.json": "1abd61732e31058a0c649b0d450b37b2bf8a55387cbac173b7bd5a1359f5a403"
+  },
+  "raw_data_modified": false,
+  "new_model_forwards": 0
+}

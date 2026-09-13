@@ -1,0 +1,24 @@
+{
+  "source_sha256": "37260de955f9d5aa1a4750098cd8dffcec3da237fd1cf62884021a99649f418d",
+  "audit": {
+    "status": "ACCEPTED_OBSERVATIONAL_OR_CALIBRATION_RESULT_NOT_HUMAN_VALIDATED",
+    "verified_at_utc": "2026-09-13T14:26:12.553926+00:00",
+    "archive_source_files_verified": 132,
+    "zip_members_including_manifest": 133,
+    "archive_sha256": "1be2dfe8c05bdc75afa7f6c3140684e00641430f7fdc27bbef46d627035c2d0f",
+    "archive_bytes": 287901763,
+    "all_zip_members_and_local_sources_sha_match": true,
+    "office_files": [
+      "final_office/固定计算形状校准结果.docx",
+      "final_office/固定计算形状校准输入.xlsx",
+      "final_office/固定计算形状校准预注册.docx",
+      "final_office/固定计算形状校准完整结果.xlsx"
+    ],
+    "office_verification": "Actual files and archive bytes verified by Main; full cell and all-page/sheet visual QA cited from executor. Main directly inspected scientific figures.",
+    "raw_verification": "Main separate CPU checker confirms 64 exact SELF pairs and all80 candidate tensor files; remote hashes match local files",
+    "independent_human_gold": 0,
+    "human_review": "PENDING",
+    "new_model_calls_in_main_review": 0,
+    "donor_sham_intervention_started": false
+  }
+}

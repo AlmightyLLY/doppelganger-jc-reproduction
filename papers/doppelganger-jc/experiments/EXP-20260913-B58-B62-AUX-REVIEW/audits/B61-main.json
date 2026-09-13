@@ -1,0 +1,16 @@
+{
+  "source_sha256": "d866ed3a9ba313eae178f839a74e2196d0e230e7231348582eb2e302427eeedf",
+  "audit": {
+    "at_utc": "2026-09-13T13:14:43.127768+00:00",
+    "status": "ACCEPTED_DEVELOPMENT_RESULTS_NOT_HUMAN_VALIDATED",
+    "raw_rows_reparsed": 384,
+    "freeze_hash_checks": 23,
+    "archive_files_verified": 83,
+    "exact_B60_bridges": 192,
+    "main_recomputed": "content/format/role fields, main P and bounds, NONE exchange bounds, transitions, LOO/bootstrap, non-JSON errors",
+    "executor_QA_cited": "per-token finite/raw argmax chain and Office full-cell/visual verification; not rerun by Main",
+    "human_review": "PENDING",
+    "independent_human_gold": 0,
+    "new_paid_usd": 0
+  }
+}
