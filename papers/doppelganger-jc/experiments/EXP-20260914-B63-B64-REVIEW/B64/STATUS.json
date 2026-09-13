@@ -1,0 +1,14 @@
+{
+  "status": "DESIGNED_AWAITING_EXPLICIT_USER_RELEASE",
+  "dispatch_authorized": false,
+  "execution_authorized": false,
+  "actual_model_calls": 0,
+  "planned_upper_bound": 3120,
+  "planned_paid_usd": 0,
+  "office_preparation_and_visual_qa": "COMPLETE",
+  "native_tokenization": "NOT_RUN",
+  "personal_prediction": "PENDING",
+  "human_review": "PENDING",
+  "independent_human_gold": 0,
+  "test_material": "Exposed B63 groups; not independent confirmation"
+}

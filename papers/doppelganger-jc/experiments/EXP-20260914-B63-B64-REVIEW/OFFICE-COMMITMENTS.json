@@ -1,0 +1,55 @@
+{
+  "purpose": "Native personal Office files retained locally; hashes do not establish human review",
+  "files": [
+    {
+      "name": "B63运行前方案.docx",
+      "bytes": 44975,
+      "sha256": "60a4fc4e52182d2e3fe5434638aa74a553747510da7ccbbd65b4e66fc9128b10",
+      "native_file": "LOCAL_ONLY",
+      "human_review": "PENDING"
+    },
+    {
+      "name": "B63方案及运行中分析修订.docx",
+      "bytes": 46425,
+      "sha256": "3d2d81065fc6f578506b486c4a9efad3255129549bd453c4809c26d8ba49feb4",
+      "native_file": "LOCAL_ONLY",
+      "human_review": "PENDING"
+    },
+    {
+      "name": "B63全部4656输入.xlsx",
+      "bytes": 581255,
+      "sha256": "dcecb42e21e8ed8ed5455fd1b1dc59e8778df8e5035a0d4fd2ae4786e8fe0d26",
+      "native_file": "LOCAL_ONLY",
+      "human_review": "PENDING"
+    },
+    {
+      "name": "B63结果总结.docx",
+      "bytes": 38615,
+      "sha256": "3d60ca327670f457bf27aab5460ce9f407e2d02c4d257ce8dac1be0c0cf2bf04",
+      "native_file": "LOCAL_ONLY",
+      "human_review": "PENDING"
+    },
+    {
+      "name": "B63完整结果.xlsx",
+      "bytes": 1163682,
+      "sha256": "3f7c1ab5dbe1b8b9c374f465438a305a281104c746f9cb5bf01585b7961552e1",
+      "native_file": "LOCAL_ONLY",
+      "human_review": "PENDING"
+    },
+    {
+      "name": "B64预注册.docx",
+      "bytes": 40589,
+      "sha256": "48c2139a26455d458506f4fa6c280c0c9a489e1c98d41a7d4379a0ed6136f126",
+      "native_file": "LOCAL_ONLY",
+      "human_review": "PENDING"
+    },
+    {
+      "name": "B64输入审核.xlsx",
+      "bytes": 354965,
+      "sha256": "57d82cb78ee6c7952d6ea8d200078b1e4dd6a0f214fa29afe8b1904c0704648e",
+      "native_file": "LOCAL_ONLY",
+      "human_review": "PENDING"
+    }
+  ],
+  "independent_human_gold": 0
+}

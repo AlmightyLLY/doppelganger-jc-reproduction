@@ -1,0 +1,169 @@
+{
+  "files": {
+    "B63/ALL-PAIRS.json": {
+      "sha256": "3d510ef0c0065e719310c0af563340ca67128c00c1f56010bc058d4b34317124",
+      "bytes": 871974
+    },
+    "B63/AMENDMENT-01.zh-CN.md": {
+      "sha256": "a363091e544bb46667f07de5f7073263003ce4544596f6bd5ae771ff51a0b8ae",
+      "bytes": 854
+    },
+    "B63/AMENDMENT-02-OFFLINE-GATE.zh-CN.md": {
+      "sha256": "39aec286d99e69579e3502ea3a7d4f83698961602b4069eb83db9d996ad28f4e",
+      "bytes": 3298
+    },
+    "B63/AMENDMENT-03-NAME-CONTROL.zh-CN.md": {
+      "sha256": "062cc4ea93641976d7cee901d2a2877854d1754eae5db31f686d5447838a7329",
+      "bytes": 1913
+    },
+    "B63/AMENDMENT-04-BACKGROUND-BOUNDS.zh-CN.md": {
+      "sha256": "6860658863de61908d044ebd169d790f405afbf19a7d665e7c85c36c9f2fc047",
+      "bytes": 3005
+    },
+    "B63/B63-background-selection.pdf": {
+      "sha256": "1c2ddd38e94d2b7083af05a219c5326ad641c19b482c22b38a8ffd799db6e940",
+      "bytes": 14372
+    },
+    "B63/B63-background-selection.png": {
+      "sha256": "7563ae8d19441b6c352d265fac9c92aa94a4326e7e46af86a13ca406ba3797b8",
+      "bytes": 35963
+    },
+    "B63/B63-primary-transfer.pdf": {
+      "sha256": "b396f6b465d06ca3a7476c160f58d41a025b09d3893e574f741b17400b9a2a9f",
+      "bytes": 15325
+    },
+    "B63/B63-primary-transfer.png": {
+      "sha256": "ddd210084f73e42ce343190196c2be9759bba91058e4bbd43b28cbe6188cfba6",
+      "bytes": 39041
+    },
+    "B63/BACKGROUND-BOUND-CHANGES.json": {
+      "sha256": "4d994b41ca99230730684531aad71f2d1e96c1fb4ece878f96e138507dfb41d8",
+      "bytes": 1233
+    },
+    "B63/BRIDGE-EXPECTED.json": {
+      "sha256": "f9aca4c8b021ecb43608fa9b0134d6e15ee517670412d06423a57252b27648e6",
+      "bytes": 12793
+    },
+    "B63/COUNTS.json": {
+      "sha256": "a28467932dafe80ecde1171a9228747a9a697dea12aa3e92e013456b03b9fbc4",
+      "bytes": 8891
+    },
+    "B63/DEMONSTRATIONS.json": {
+      "sha256": "f65ee099b8eae7230af63d9f765a61297352bbed1c7e1247b5fd6eda8fc3af0a",
+      "bytes": 9861
+    },
+    "B63/E-STATISTICS-V1.json": {
+      "sha256": "1a4642843d3e8c1e62a5ff185d6a9d39585792faa4b172a609b83bd74a90c430",
+      "bytes": 58937
+    },
+    "B63/E-STATISTICS.json": {
+      "sha256": "ba82524d1dc4e05f74a49fc2381c50578bd99a52f2161f72c636027c8b8daef1",
+      "bytes": 58902
+    },
+    "B63/MAIN-ANALYSIS.zh-CN.md": {
+      "sha256": "110ba97c1f8c52e6076cca8d8ebc1163815557d34e2bcfd465453939d16509ad",
+      "bytes": 4387
+    },
+    "B63/MAIN-DESIGN.zh-CN.md": {
+      "sha256": "f0ba415a73f4bd84dfb45903ea2ae701ad72c1d2cb0def89d26fece1ef341bbb",
+      "bytes": 9616
+    },
+    "B63/RAW-OUTPUTS.jsonl.gz": {
+      "sha256": "24b7b10492d0717ff43fcb6a90900d3f437e3c1817cb0e4fd4c96c5faac1dc7d",
+      "bytes": 699658
+    },
+    "B63/REFERENCES.jsonl.gz": {
+      "sha256": "c0ccf6592c91a9565b533e46235dac0a3e8ed56ad4542db45c8da7ba01e9c42f",
+      "bytes": 518081
+    },
+    "B63/SCORES.jsonl.gz": {
+      "sha256": "4ffedb4365fce2c38b75648e150ec306c6d1cf00131934a12f50a340739ab6d2",
+      "bytes": 79423
+    },
+    "B63/STATISTICS.json": {
+      "sha256": "b3cb462b852dafd3a646aeafd8314a23d4ce77f1235ec3002ddf76471cc66b61",
+      "bytes": 573557
+    },
+    "B63/SUMMARY-V1.json": {
+      "sha256": "cf03800e45d755879767e21065c9b37a6b2d7d526a1a1dbea55f9246513414bd",
+      "bytes": 44897
+    },
+    "B63/SUMMARY.json": {
+      "sha256": "9b7411b53217674506b096c8623ea2e7c886d7be003d7238bb29b91fbb446448",
+      "bytes": 45034
+    },
+    "B63/TRANSITIONS.json": {
+      "sha256": "402cf6cc3c753df26a88b49e3eef28d30eb3aa995af096e649600ea0f1df0487",
+      "bytes": 929370
+    },
+    "B63/analyze_b63.py": {
+      "sha256": "72ce6944922322022e34bbd77c6e67ee7e64ff39e396425488357f04853c973b",
+      "bytes": 7094
+    },
+    "B63/analyze_b63_v2.py": {
+      "sha256": "110c29940f5c69a50ec0b8fc8e958fd4ae70bbb6c6f94d797f7cacade7882641",
+      "bytes": 8248
+    },
+    "B63/background_bounds.py": {
+      "sha256": "14d168a9f553bb1a8c73473812213ec6461b5de306c061ea0aa083b7d959f3aa",
+      "bytes": 3460
+    },
+    "B63/parse_readout.py": {
+      "sha256": "09314dedc5671c1da86fd80b9a9486fb32eff76f49c6211b98bbd26293cd0a65",
+      "bytes": 3264
+    },
+    "B63/scoring_b39_frozen.py": {
+      "sha256": "d9769b8453f1aee1ff5f85fbde3c8b60800e10ca728358df7ca55a64e6e66b24",
+      "bytes": 2676
+    },
+    "B63/scoring_b61.py": {
+      "sha256": "f94577f678605d54b343c54a26e5eb712c33d22aff42be661ae21380cb8a6df1",
+      "bytes": 1881
+    },
+    "B63/scoring_b62.py": {
+      "sha256": "99e9f9d4059acbc5f6aeb5bed26223e892552259a1ec7cd997f681c5b5f55a1b",
+      "bytes": 1663
+    },
+    "B64/BRIDGE-EXPECTED.json": {
+      "sha256": "4d730cc1c432bbd77ab5def5a2762446ee0178c0930c48cfc9a6a34c0c2f8844",
+      "bytes": 25580
+    },
+    "B64/DEMONSTRATIONS.json": {
+      "sha256": "830b0aeadde3fb34104ec0be88294d582223a606fec0c7dc42eb1171f084e074",
+      "bytes": 8468
+    },
+    "B64/MAIN-DESIGN.zh-CN.md": {
+      "sha256": "2209066804e0b0fb4cd732759d93f81f82774a7a361d89d301ebb62409273b5b",
+      "bytes": 8261
+    },
+    "B64/PROPOSED-INPUTS.jsonl.gz": {
+      "sha256": "352a620d5482a59704dcd7f81f05f4ac2fd11424e6c629a847355ea28911cbd2",
+      "bytes": 509309
+    },
+    "B64/REVIEW-SAMPLE.json": {
+      "sha256": "3768bc0704ac5869e2bf83474bc8f6d9363c7b65bfb39c4de62c4f9103d78bdc",
+      "bytes": 1527
+    },
+    "B64/STATUS.json": {
+      "sha256": "a38fa68674974b6fc6c63e8b83894141712b2cbea0fa955a46673b8602621307",
+      "bytes": 459
+    },
+    "LOCAL-ARCHIVE-COMMITMENTS.json": {
+      "sha256": "c3853d2257cd0a864ffa3c0bb375ed2432d63d8cbfb2f76da78a498600b8e98b",
+      "bytes": 509
+    },
+    "OFFICE-COMMITMENTS.json": {
+      "sha256": "6750524f8c14a6eaaead2ce73fba0fac6164adbda3cec981ff6e557c639deabb",
+      "bytes": 1745
+    },
+    "README.md": {
+      "sha256": "62e46bf2dc1c9cc19e3f9fb4bf9fed513be7615a420b539d5851e34e7d787ce1",
+      "bytes": 5743
+    },
+    "verify_public.py": {
+      "sha256": "cf92d04169f69bec9004336be40c5e88eb9b713977a480298f08f6e0da3df19a",
+      "bytes": 2015
+    }
+  },
+  "scope": "Explicit public package only; excludes this manifest"
+}

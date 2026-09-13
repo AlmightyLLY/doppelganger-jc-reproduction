@@ -1,0 +1,469 @@
+[
+  {
+    "model": "qwen",
+    "condition": "ZERO",
+    "frame": "A",
+    "kind": "MAIN_BACKGROUND",
+    "n": 192,
+    "counts": {
+      "C": 180,
+      "R": 10,
+      "BG_C": 2
+    },
+    "target_pair_subset_n": 190,
+    "C_over_target_subset": 0.9473684210526315
+  },
+  {
+    "model": "qwen",
+    "condition": "ZERO",
+    "frame": "A",
+    "kind": "NONE_ORIGINAL",
+    "n": 96,
+    "counts": {
+      "C": 96
+    },
+    "target_pair_subset_n": 96,
+    "C_over_target_subset": 1.0
+  },
+  {
+    "model": "qwen",
+    "condition": "ZERO",
+    "frame": "A",
+    "kind": "NONE_SWAPPED",
+    "n": 96,
+    "counts": {
+      "C": 96
+    },
+    "target_pair_subset_n": 96,
+    "C_over_target_subset": 1.0
+  },
+  {
+    "model": "qwen",
+    "condition": "ZERO",
+    "frame": "B",
+    "kind": "MAIN_BACKGROUND",
+    "n": 192,
+    "counts": {
+      "C": 175,
+      "R": 16,
+      "BG_C": 1
+    },
+    "target_pair_subset_n": 191,
+    "C_over_target_subset": 0.9162303664921466
+  },
+  {
+    "model": "qwen",
+    "condition": "ZERO",
+    "frame": "B",
+    "kind": "NONE_ORIGINAL",
+    "n": 96,
+    "counts": {
+      "C": 96
+    },
+    "target_pair_subset_n": 96,
+    "C_over_target_subset": 1.0
+  },
+  {
+    "model": "qwen",
+    "condition": "ZERO",
+    "frame": "B",
+    "kind": "NONE_SWAPPED",
+    "n": 96,
+    "counts": {
+      "C": 96
+    },
+    "target_pair_subset_n": 96,
+    "C_over_target_subset": 1.0
+  },
+  {
+    "model": "qwen",
+    "condition": "ORIGINAL_A",
+    "frame": "A",
+    "kind": "MAIN_BACKGROUND",
+    "n": 192,
+    "counts": {
+      "C": 192
+    },
+    "target_pair_subset_n": 192,
+    "C_over_target_subset": 1.0
+  },
+  {
+    "model": "qwen",
+    "condition": "ORIGINAL_A",
+    "frame": "A",
+    "kind": "NONE_ORIGINAL",
+    "n": 96,
+    "counts": {
+      "C": 96
+    },
+    "target_pair_subset_n": 96,
+    "C_over_target_subset": 1.0
+  },
+  {
+    "model": "qwen",
+    "condition": "ORIGINAL_A",
+    "frame": "A",
+    "kind": "NONE_SWAPPED",
+    "n": 96,
+    "counts": {
+      "C": 96
+    },
+    "target_pair_subset_n": 96,
+    "C_over_target_subset": 1.0
+  },
+  {
+    "model": "qwen",
+    "condition": "ORIGINAL_A",
+    "frame": "B",
+    "kind": "MAIN_BACKGROUND",
+    "n": 192,
+    "counts": {
+      "C": 192
+    },
+    "target_pair_subset_n": 192,
+    "C_over_target_subset": 1.0
+  },
+  {
+    "model": "qwen",
+    "condition": "ORIGINAL_A",
+    "frame": "B",
+    "kind": "NONE_ORIGINAL",
+    "n": 96,
+    "counts": {
+      "C": 96
+    },
+    "target_pair_subset_n": 96,
+    "C_over_target_subset": 1.0
+  },
+  {
+    "model": "qwen",
+    "condition": "ORIGINAL_A",
+    "frame": "B",
+    "kind": "NONE_SWAPPED",
+    "n": 96,
+    "counts": {
+      "C": 96
+    },
+    "target_pair_subset_n": 96,
+    "C_over_target_subset": 1.0
+  },
+  {
+    "model": "qwen",
+    "condition": "ABLATION_B",
+    "frame": "A",
+    "kind": "MAIN_BACKGROUND",
+    "n": 192,
+    "counts": {
+      "C": 192
+    },
+    "target_pair_subset_n": 192,
+    "C_over_target_subset": 1.0
+  },
+  {
+    "model": "qwen",
+    "condition": "ABLATION_B",
+    "frame": "A",
+    "kind": "NONE_ORIGINAL",
+    "n": 96,
+    "counts": {
+      "C": 96
+    },
+    "target_pair_subset_n": 96,
+    "C_over_target_subset": 1.0
+  },
+  {
+    "model": "qwen",
+    "condition": "ABLATION_B",
+    "frame": "A",
+    "kind": "NONE_SWAPPED",
+    "n": 96,
+    "counts": {
+      "C": 96
+    },
+    "target_pair_subset_n": 96,
+    "C_over_target_subset": 1.0
+  },
+  {
+    "model": "qwen",
+    "condition": "ABLATION_B",
+    "frame": "B",
+    "kind": "MAIN_BACKGROUND",
+    "n": 192,
+    "counts": {
+      "C": 192
+    },
+    "target_pair_subset_n": 192,
+    "C_over_target_subset": 1.0
+  },
+  {
+    "model": "qwen",
+    "condition": "ABLATION_B",
+    "frame": "B",
+    "kind": "NONE_ORIGINAL",
+    "n": 96,
+    "counts": {
+      "C": 96
+    },
+    "target_pair_subset_n": 96,
+    "C_over_target_subset": 1.0
+  },
+  {
+    "model": "qwen",
+    "condition": "ABLATION_B",
+    "frame": "B",
+    "kind": "NONE_SWAPPED",
+    "n": 96,
+    "counts": {
+      "C": 96
+    },
+    "target_pair_subset_n": 96,
+    "C_over_target_subset": 1.0
+  },
+  {
+    "model": "apertus",
+    "condition": "ZERO",
+    "frame": "A",
+    "kind": "MAIN_BACKGROUND",
+    "n": 192,
+    "counts": {
+      "R": 49,
+      "C": 134,
+      "BG_C": 7,
+      "MIXED_OTHER_W": 2
+    },
+    "target_pair_subset_n": 183,
+    "C_over_target_subset": 0.73224043715847
+  },
+  {
+    "model": "apertus",
+    "condition": "ZERO",
+    "frame": "A",
+    "kind": "NONE_ORIGINAL",
+    "n": 96,
+    "counts": {
+      "C": 86,
+      "R": 9,
+      "MIXED_OTHER_W": 1
+    },
+    "target_pair_subset_n": 95,
+    "C_over_target_subset": 0.9052631578947369
+  },
+  {
+    "model": "apertus",
+    "condition": "ZERO",
+    "frame": "A",
+    "kind": "NONE_SWAPPED",
+    "n": 96,
+    "counts": {
+      "C": 85,
+      "R": 11
+    },
+    "target_pair_subset_n": 96,
+    "C_over_target_subset": 0.8854166666666666
+  },
+  {
+    "model": "apertus",
+    "condition": "ZERO",
+    "frame": "B",
+    "kind": "MAIN_BACKGROUND",
+    "n": 192,
+    "counts": {
+      "MIXED_OTHER_W": 2,
+      "C": 146,
+      "R": 44
+    },
+    "target_pair_subset_n": 190,
+    "C_over_target_subset": 0.7684210526315789
+  },
+  {
+    "model": "apertus",
+    "condition": "ZERO",
+    "frame": "B",
+    "kind": "NONE_ORIGINAL",
+    "n": 96,
+    "counts": {
+      "C": 95,
+      "R": 1
+    },
+    "target_pair_subset_n": 96,
+    "C_over_target_subset": 0.9895833333333334
+  },
+  {
+    "model": "apertus",
+    "condition": "ZERO",
+    "frame": "B",
+    "kind": "NONE_SWAPPED",
+    "n": 96,
+    "counts": {
+      "C": 93,
+      "R": 3
+    },
+    "target_pair_subset_n": 96,
+    "C_over_target_subset": 0.96875
+  },
+  {
+    "model": "apertus",
+    "condition": "ORIGINAL_A",
+    "frame": "A",
+    "kind": "MAIN_BACKGROUND",
+    "n": 192,
+    "counts": {
+      "C": 140,
+      "R": 48,
+      "BG_C": 4
+    },
+    "target_pair_subset_n": 188,
+    "C_over_target_subset": 0.7446808510638298
+  },
+  {
+    "model": "apertus",
+    "condition": "ORIGINAL_A",
+    "frame": "A",
+    "kind": "NONE_ORIGINAL",
+    "n": 96,
+    "counts": {
+      "C": 82,
+      "R": 14
+    },
+    "target_pair_subset_n": 96,
+    "C_over_target_subset": 0.8541666666666666
+  },
+  {
+    "model": "apertus",
+    "condition": "ORIGINAL_A",
+    "frame": "A",
+    "kind": "NONE_SWAPPED",
+    "n": 96,
+    "counts": {
+      "C": 82,
+      "R": 14
+    },
+    "target_pair_subset_n": 96,
+    "C_over_target_subset": 0.8541666666666666
+  },
+  {
+    "model": "apertus",
+    "condition": "ORIGINAL_A",
+    "frame": "B",
+    "kind": "MAIN_BACKGROUND",
+    "n": 192,
+    "counts": {
+      "C": 123,
+      "R": 39,
+      "BG_C": 23,
+      "BG_R": 3,
+      "MIXED_OTHER_W": 4
+    },
+    "target_pair_subset_n": 162,
+    "C_over_target_subset": 0.7592592592592593
+  },
+  {
+    "model": "apertus",
+    "condition": "ORIGINAL_A",
+    "frame": "B",
+    "kind": "NONE_ORIGINAL",
+    "n": 96,
+    "counts": {
+      "C": 89,
+      "R": 7
+    },
+    "target_pair_subset_n": 96,
+    "C_over_target_subset": 0.9270833333333334
+  },
+  {
+    "model": "apertus",
+    "condition": "ORIGINAL_A",
+    "frame": "B",
+    "kind": "NONE_SWAPPED",
+    "n": 96,
+    "counts": {
+      "C": 92,
+      "R": 4
+    },
+    "target_pair_subset_n": 96,
+    "C_over_target_subset": 0.9583333333333334
+  },
+  {
+    "model": "apertus",
+    "condition": "ABLATION_B",
+    "frame": "A",
+    "kind": "MAIN_BACKGROUND",
+    "n": 192,
+    "counts": {
+      "R": 48,
+      "C": 121,
+      "BG_C": 19,
+      "BG_R": 4
+    },
+    "target_pair_subset_n": 169,
+    "C_over_target_subset": 0.7159763313609467
+  },
+  {
+    "model": "apertus",
+    "condition": "ABLATION_B",
+    "frame": "A",
+    "kind": "NONE_ORIGINAL",
+    "n": 96,
+    "counts": {
+      "C": 90,
+      "R": 6
+    },
+    "target_pair_subset_n": 96,
+    "C_over_target_subset": 0.9375
+  },
+  {
+    "model": "apertus",
+    "condition": "ABLATION_B",
+    "frame": "A",
+    "kind": "NONE_SWAPPED",
+    "n": 96,
+    "counts": {
+      "C": 91,
+      "R": 5
+    },
+    "target_pair_subset_n": 96,
+    "C_over_target_subset": 0.9479166666666666
+  },
+  {
+    "model": "apertus",
+    "condition": "ABLATION_B",
+    "frame": "B",
+    "kind": "MAIN_BACKGROUND",
+    "n": 192,
+    "counts": {
+      "R": 64,
+      "C": 124,
+      "MIXED_OTHER_W": 1,
+      "U": 2,
+      "BG_C": 1
+    },
+    "target_pair_subset_n": 188,
+    "C_over_target_subset": 0.6595744680851063
+  },
+  {
+    "model": "apertus",
+    "condition": "ABLATION_B",
+    "frame": "B",
+    "kind": "NONE_ORIGINAL",
+    "n": 96,
+    "counts": {
+      "C": 86,
+      "R": 10
+    },
+    "target_pair_subset_n": 96,
+    "C_over_target_subset": 0.8958333333333334
+  },
+  {
+    "model": "apertus",
+    "condition": "ABLATION_B",
+    "frame": "B",
+    "kind": "NONE_SWAPPED",
+    "n": 96,
+    "counts": {
+      "C": 86,
+      "R": 10
+    },
+    "target_pair_subset_n": 96,
+    "C_over_target_subset": 0.8958333333333334
+  }
+]

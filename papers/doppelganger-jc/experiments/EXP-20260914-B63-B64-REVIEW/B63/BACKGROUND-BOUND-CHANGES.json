@@ -1,0 +1,62 @@
+[
+  {
+    "call_id": "B63-apertus-G04-B-BA-UA-BA-ABLATION_B",
+    "old": [
+      0,
+      1
+    ],
+    "new": [
+      0,
+      0
+    ],
+    "evidence": {
+      "lower": 0,
+      "upper": 0,
+      "observed_complete": 0,
+      "reason": "FROZEN_FULL_RESPONSE_PARSE",
+      "fields": {
+        "actor": {
+          "known": true,
+          "value": "李若宁",
+          "reason": "EXACT_PRESENTED_NAME"
+        },
+        "undergoer": {
+          "known": true,
+          "value": "陈承禚",
+          "reason": "LITERAL_COMPLETE_THREE_CHARACTER_NAME_NOT_ALIAS"
+        }
+      },
+      "compatible": []
+    }
+  },
+  {
+    "call_id": "B63-apertus-G04-B-BA-AU-BEI-ABLATION_B",
+    "old": [
+      0,
+      1
+    ],
+    "new": [
+      0,
+      0
+    ],
+    "evidence": {
+      "lower": 0,
+      "upper": 0,
+      "observed_complete": 0,
+      "reason": "FROZEN_FULL_RESPONSE_PARSE",
+      "fields": {
+        "actor": {
+          "known": true,
+          "value": "李若宁",
+          "reason": "EXACT_PRESENTED_NAME"
+        },
+        "undergoer": {
+          "known": true,
+          "value": "陈承禚",
+          "reason": "LITERAL_COMPLETE_THREE_CHARACTER_NAME_NOT_ALIAS"
+        }
+      },
+      "compatible": []
+    }
+  }
+]

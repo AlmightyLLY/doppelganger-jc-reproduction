@@ -1,0 +1,16 @@
+{
+  "archives": [
+    {
+      "name": "B63-local-evidence.zip",
+      "bytes": 22973996,
+      "sha256": "cf672c5c5475ee5b965ab4f8110e02173051edfe20975e7d60932591d7131f93",
+      "scope": "Private local evidence archive, not included in public package"
+    },
+    {
+      "name": "B64-design-only-local.zip",
+      "bytes": 2001173,
+      "sha256": "178ee3a2ad7434804ca7843ffb37a6082c1bb86b8d1e8f9035a541bd322f5c0a",
+      "scope": "Private local evidence archive, not included in public package"
+    }
+  ]
+}
