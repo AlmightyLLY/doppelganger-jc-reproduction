@@ -1,0 +1,322 @@
+[
+  {
+    "model": "qwen",
+    "unit_id": "V01",
+    "D_O": 0.125,
+    "D_N": 0.0625,
+    "Lambda": 0.0625,
+    "background_burden_O": -0.0625,
+    "background_burden_N": -0.03125,
+    "burden_interaction": -0.03125
+  },
+  {
+    "model": "qwen",
+    "unit_id": "V02",
+    "D_O": 0.125,
+    "D_N": 0.0,
+    "Lambda": 0.125,
+    "background_burden_O": -0.0625,
+    "background_burden_N": 0.0,
+    "burden_interaction": -0.0625
+  },
+  {
+    "model": "qwen",
+    "unit_id": "V03",
+    "D_O": 0.125,
+    "D_N": 0.0,
+    "Lambda": 0.125,
+    "background_burden_O": -0.125,
+    "background_burden_N": -0.1875,
+    "burden_interaction": 0.0625
+  },
+  {
+    "model": "qwen",
+    "unit_id": "V04",
+    "D_O": 0.1875,
+    "D_N": 0.0,
+    "Lambda": 0.1875,
+    "background_burden_O": -0.09375,
+    "background_burden_N": -0.0625,
+    "burden_interaction": -0.03125
+  },
+  {
+    "model": "qwen",
+    "unit_id": "V05",
+    "D_O": 0.0625,
+    "D_N": 0.0625,
+    "Lambda": 0.0,
+    "background_burden_O": -0.15625,
+    "background_burden_N": -0.03125,
+    "burden_interaction": -0.125
+  },
+  {
+    "model": "qwen",
+    "unit_id": "V06",
+    "D_O": 0.0,
+    "D_N": 0.0,
+    "Lambda": 0.0,
+    "background_burden_O": -0.0625,
+    "background_burden_N": -0.0625,
+    "burden_interaction": 0.0
+  },
+  {
+    "model": "qwen",
+    "unit_id": "V07",
+    "D_O": 0.0625,
+    "D_N": 0.0625,
+    "Lambda": 0.0,
+    "background_burden_O": -0.21875,
+    "background_burden_N": -0.15625,
+    "burden_interaction": -0.0625
+  },
+  {
+    "model": "qwen",
+    "unit_id": "V08",
+    "D_O": 0.1875,
+    "D_N": 0.125,
+    "Lambda": 0.0625,
+    "background_burden_O": -0.09375,
+    "background_burden_N": -0.125,
+    "burden_interaction": 0.03125
+  },
+  {
+    "model": "qwen",
+    "unit_id": "V09",
+    "D_O": 0.0625,
+    "D_N": 0.0,
+    "Lambda": 0.0625,
+    "background_burden_O": -0.03125,
+    "background_burden_N": -0.0625,
+    "burden_interaction": 0.03125
+  },
+  {
+    "model": "qwen",
+    "unit_id": "V10",
+    "D_O": 0.0,
+    "D_N": 0.0,
+    "Lambda": 0.0,
+    "background_burden_O": 0.0,
+    "background_burden_N": 0.0,
+    "burden_interaction": 0.0
+  },
+  {
+    "model": "qwen",
+    "unit_id": "V11",
+    "D_O": 0.0,
+    "D_N": 0.0,
+    "Lambda": 0.0,
+    "background_burden_O": 0.0,
+    "background_burden_N": 0.0,
+    "burden_interaction": 0.0
+  },
+  {
+    "model": "qwen",
+    "unit_id": "V12",
+    "D_O": 0.0,
+    "D_N": 0.0,
+    "Lambda": 0.0,
+    "background_burden_O": 0.0,
+    "background_burden_N": 0.0,
+    "burden_interaction": 0.0
+  },
+  {
+    "model": "qwen",
+    "unit_id": "V13",
+    "D_O": 0.0,
+    "D_N": 0.0,
+    "Lambda": 0.0,
+    "background_burden_O": 0.0,
+    "background_burden_N": 0.0,
+    "burden_interaction": 0.0
+  },
+  {
+    "model": "qwen",
+    "unit_id": "V14",
+    "D_O": 0.1875,
+    "D_N": 0.0625,
+    "Lambda": 0.125,
+    "background_burden_O": -0.15625,
+    "background_burden_N": -0.09375,
+    "burden_interaction": -0.0625
+  },
+  {
+    "model": "qwen",
+    "unit_id": "V15",
+    "D_O": 0.25,
+    "D_N": 0.0625,
+    "Lambda": 0.1875,
+    "background_burden_O": -0.125,
+    "background_burden_N": -0.15625,
+    "burden_interaction": 0.03125
+  },
+  {
+    "model": "qwen",
+    "unit_id": "V16",
+    "D_O": 0.0625,
+    "D_N": 0.0,
+    "Lambda": 0.0625,
+    "background_burden_O": -0.21875,
+    "background_burden_N": -0.1875,
+    "burden_interaction": -0.03125
+  },
+  {
+    "model": "apertus",
+    "unit_id": "V01",
+    "D_O": 0.0625,
+    "D_N": 0.125,
+    "Lambda": -0.0625,
+    "background_burden_O": -0.28125,
+    "background_burden_N": -0.25,
+    "burden_interaction": -0.03125
+  },
+  {
+    "model": "apertus",
+    "unit_id": "V02",
+    "D_O": 0.0,
+    "D_N": 0.0,
+    "Lambda": 0.0,
+    "background_burden_O": -0.3125,
+    "background_burden_N": -0.1875,
+    "burden_interaction": -0.125
+  },
+  {
+    "model": "apertus",
+    "unit_id": "V03",
+    "D_O": 0.1875,
+    "D_N": 0.0,
+    "Lambda": 0.1875,
+    "background_burden_O": -0.21875,
+    "background_burden_N": -0.1875,
+    "burden_interaction": -0.03125
+  },
+  {
+    "model": "apertus",
+    "unit_id": "V04",
+    "D_O": 0.1875,
+    "D_N": 0.125,
+    "Lambda": 0.0625,
+    "background_burden_O": -0.28125,
+    "background_burden_N": -0.25,
+    "burden_interaction": -0.03125
+  },
+  {
+    "model": "apertus",
+    "unit_id": "V05",
+    "D_O": 0.1875,
+    "D_N": 0.0625,
+    "Lambda": 0.125,
+    "background_burden_O": -0.21875,
+    "background_burden_N": -0.21875,
+    "burden_interaction": 0.0
+  },
+  {
+    "model": "apertus",
+    "unit_id": "V06",
+    "D_O": 0.0625,
+    "D_N": 0.0,
+    "Lambda": 0.0625,
+    "background_burden_O": -0.21875,
+    "background_burden_N": -0.25,
+    "burden_interaction": 0.03125
+  },
+  {
+    "model": "apertus",
+    "unit_id": "V07",
+    "D_O": 0.1875,
+    "D_N": 0.0625,
+    "Lambda": 0.125,
+    "background_burden_O": -0.28125,
+    "background_burden_N": -0.21875,
+    "burden_interaction": -0.0625
+  },
+  {
+    "model": "apertus",
+    "unit_id": "V08",
+    "D_O": 0.1875,
+    "D_N": 0.0625,
+    "Lambda": 0.125,
+    "background_burden_O": -0.21875,
+    "background_burden_N": -0.15625,
+    "burden_interaction": -0.0625
+  },
+  {
+    "model": "apertus",
+    "unit_id": "V09",
+    "D_O": 0.0625,
+    "D_N": 0.0,
+    "Lambda": 0.0625,
+    "background_burden_O": -0.21875,
+    "background_burden_N": -0.1875,
+    "burden_interaction": -0.03125
+  },
+  {
+    "model": "apertus",
+    "unit_id": "V10",
+    "D_O": 0.0,
+    "D_N": 0.0,
+    "Lambda": 0.0,
+    "background_burden_O": -0.1875,
+    "background_burden_N": -0.0625,
+    "burden_interaction": -0.125
+  },
+  {
+    "model": "apertus",
+    "unit_id": "V11",
+    "D_O": 0.0,
+    "D_N": 0.0,
+    "Lambda": 0.0,
+    "background_burden_O": -0.0625,
+    "background_burden_N": -0.0625,
+    "burden_interaction": 0.0
+  },
+  {
+    "model": "apertus",
+    "unit_id": "V12",
+    "D_O": 0.0625,
+    "D_N": 0.125,
+    "Lambda": -0.0625,
+    "background_burden_O": -0.09375,
+    "background_burden_N": -0.0625,
+    "burden_interaction": -0.03125
+  },
+  {
+    "model": "apertus",
+    "unit_id": "V13",
+    "D_O": 0.0625,
+    "D_N": 0.125,
+    "Lambda": -0.0625,
+    "background_burden_O": -0.15625,
+    "background_burden_N": -0.0625,
+    "burden_interaction": -0.09375
+  },
+  {
+    "model": "apertus",
+    "unit_id": "V14",
+    "D_O": 0.0625,
+    "D_N": 0.0625,
+    "Lambda": 0.0,
+    "background_burden_O": -0.15625,
+    "background_burden_N": -0.28125,
+    "burden_interaction": 0.125
+  },
+  {
+    "model": "apertus",
+    "unit_id": "V15",
+    "D_O": 0.1875,
+    "D_N": 0.125,
+    "Lambda": 0.0625,
+    "background_burden_O": -0.21875,
+    "background_burden_N": -0.125,
+    "burden_interaction": -0.09375
+  },
+  {
+    "model": "apertus",
+    "unit_id": "V16",
+    "D_O": 0.125,
+    "D_N": 0.0,
+    "Lambda": 0.125,
+    "background_burden_O": -0.125,
+    "background_burden_N": -0.125,
+    "burden_interaction": 0.0
+  }
+]

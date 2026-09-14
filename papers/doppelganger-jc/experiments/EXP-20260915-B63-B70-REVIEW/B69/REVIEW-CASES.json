@@ -1,0 +1,4198 @@
+{
+  "other_errors": [
+    {
+      "id": "B69-apertus-V04-S1-DBA-LO-BEI-AU-BA",
+      "source": "R2：在接待区，何诚把陈凡抱住了。\nR1：在休息室，郑明，已经被华凡叫醒了。",
+      "gold": {
+        "actor": "华凡",
+        "undergoer": "郑明"
+      },
+      "answer": {
+        "actor": "郑明",
+        "undergoer": "郑明"
+      }
+    },
+    {
+      "id": "B69-apertus-V07-S1-DAB-LO-BA-UA-BA",
+      "source": "R2：在接待区，钱明把王宁绊倒了。\nR1：在活动室，韩诚，已经把褚诚逗笑了。",
+      "gold": {
+        "actor": "韩诚",
+        "undergoer": "褚诚"
+      },
+      "answer": {
+        "undergoer": "韩诚",
+        "actor": "韩诚"
+      }
+    },
+    {
+      "id": "B69-apertus-V07-S1-DAB-LO-BA-UA-BEI",
+      "source": "R2：在接待区，王宁被钱明绊倒了。\nR1：在活动室，韩诚，已经把褚诚逗笑了。",
+      "gold": {
+        "actor": "韩诚",
+        "undergoer": "褚诚"
+      },
+      "answer": {
+        "undergoer": "韩诚",
+        "actor": "韩诚"
+      }
+    },
+    {
+      "id": "B69-apertus-V08-S1-DBA-LO-BA-UA-BEI",
+      "source": "R2：在接待区，许诚被陈明撞倒了。\nR1：在花园，杨宁，已经把蒋凡吓跑了。",
+      "gold": {
+        "actor": "杨宁",
+        "undergoer": "蒋凡"
+      },
+      "answer": {
+        "undergoer": "杨宁",
+        "actor": "null"
+      }
+    },
+    {
+      "id": "B69-apertus-V10-S2-DBA-LO-BEI-UA-BEI",
+      "source": "R2：在接待区，魏凡被孔宁拍醒了。\nR1：在溜冰场，赵明，已经被卫凡撞倒了。",
+      "gold": {
+        "actor": "卫凡",
+        "undergoer": "赵明"
+      },
+      "answer": {
+        "undergoer": "赵明",
+        "actor": "魏凡"
+      }
+    },
+    {
+      "id": "B69-apertus-V14-S1-DBA-LO-BA-UA-BA",
+      "source": "R2：在接待区，郑凡把褚凡挡住了。\nR1：在舞蹈室，韩凡，已经把吕诚喊停了。",
+      "gold": {
+        "actor": "韩凡",
+        "undergoer": "吕诚"
+      },
+      "answer": {
+        "undergoer": "韩凡",
+        "actor": "韩凡"
+      }
+    },
+    {
+      "id": "B69-apertus-V14-S1-DBA-LO-BA-UA-BEI",
+      "source": "R2：在接待区，褚凡被郑凡挡住了。\nR1：在舞蹈室，韩凡，已经把吕诚喊停了。",
+      "gold": {
+        "actor": "韩凡",
+        "undergoer": "吕诚"
+      },
+      "answer": {
+        "undergoer": "韩凡",
+        "actor": "韩凡"
+      }
+    },
+    {
+      "id": "B69-apertus-V15-S1-DAB-LO-BA-UA-BA",
+      "source": "R2：在接待区，卫明把谢凡推开了。\nR1：在大厅，朱诚，已经把姜宁带走了。",
+      "gold": {
+        "actor": "朱诚",
+        "undergoer": "姜宁"
+      },
+      "answer": {
+        "undergoer": "朱诚",
+        "actor": "null"
+      }
+    }
+  ],
+  "copy_aligned_counterexamples": [
+    {
+      "id": "B69-qwen-V14-S2-DAB-LO-BEI-UA-BA",
+      "source": "R2：在接待区，何明把钱宁挡住了。\nR1：在游泳馆，曹明，已经被张宁喊停了。",
+      "gold": {
+        "actor": "张宁",
+        "undergoer": "曹明"
+      },
+      "answer": {
+        "undergoer": "张宁",
+        "actor": "曹明"
+      }
+    },
+    {
+      "id": "B69-apertus-V03-S2-DAB-LO-BEI-UA-BA",
+      "source": "R2：在接待区，沈凡把张凡拦住了。\nR1：在训练场，曹诚，已经被严宁扶起了。",
+      "gold": {
+        "actor": "严宁",
+        "undergoer": "曹诚"
+      },
+      "answer": {
+        "undergoer": "严宁",
+        "actor": "曹诚"
+      }
+    },
+    {
+      "id": "B69-apertus-V10-S2-DBA-LO-BEI-UA-BEI",
+      "source": "R2：在接待区，魏凡被孔宁拍醒了。\nR1：在溜冰场，赵明，已经被卫凡撞倒了。",
+      "gold": {
+        "actor": "卫凡",
+        "undergoer": "赵明"
+      },
+      "answer": {
+        "undergoer": "赵明",
+        "actor": "魏凡"
+      }
+    },
+    {
+      "id": "B69-apertus-V16-S1-DAB-LN-BEI-UA-BA",
+      "source": "R2：在接待区，严诚把陈宁拉住了。\nR1：在通道口，蒋诚被沈宁挡住了。",
+      "gold": {
+        "actor": "沈宁",
+        "undergoer": "蒋诚"
+      },
+      "answer": {
+        "undergoer": "沈宁",
+        "actor": "蒋诚"
+      }
+    },
+    {
+      "id": "B69-apertus-V16-S1-DAB-LN-BEI-UA-BEI",
+      "source": "R2：在接待区，陈宁被严诚拉住了。\nR1：在通道口，蒋诚被沈宁挡住了。",
+      "gold": {
+        "actor": "沈宁",
+        "undergoer": "蒋诚"
+      },
+      "answer": {
+        "undergoer": "沈宁",
+        "actor": "蒋诚"
+      }
+    }
+  ],
+  "local_all_changes": [
+    {
+      "before_id": "B69-qwen-V01-S1-DAB-LO-BEI-AU-BA",
+      "after_id": "B69-qwen-V01-S1-DAB-LN-BEI-AU-BA",
+      "before_source": "R2：在接待区，许明把吕宁扶起了。\nR1：在排练厅，李诚，已经被蒋宁推开了。",
+      "after_source": "R2：在接待区，许明把吕宁扶起了。\nR1：在排练厅，李诚被蒋宁推开了。",
+      "gold_before": {
+        "actor": "蒋宁",
+        "undergoer": "李诚"
+      },
+      "gold_after": {
+        "actor": "蒋宁",
+        "undergoer": "李诚"
+      },
+      "before_answer": {
+        "actor": "李诚",
+        "undergoer": "蒋宁"
+      },
+      "after_answer": {
+        "actor": "蒋宁",
+        "undergoer": "李诚"
+      },
+      "before_detail": "R1_REVERSE",
+      "after_detail": "C"
+    },
+    {
+      "before_id": "B69-qwen-V02-S1-DAB-LO-BEI-AU-BA",
+      "after_id": "B69-qwen-V02-S1-DAB-LN-BEI-AU-BA",
+      "before_source": "R2：在接待区，钱凡把姜凡叫醒了。\nR1：在走廊，周宁，已经被陶宁拉住了。",
+      "after_source": "R2：在接待区，钱凡把姜凡叫醒了。\nR1：在走廊，周宁被陶宁拉住了。",
+      "gold_before": {
+        "actor": "陶宁",
+        "undergoer": "周宁"
+      },
+      "gold_after": {
+        "actor": "陶宁",
+        "undergoer": "周宁"
+      },
+      "before_answer": {
+        "actor": "周宁",
+        "undergoer": "陶宁"
+      },
+      "after_answer": {
+        "actor": "陶宁",
+        "undergoer": "周宁"
+      },
+      "before_detail": "R1_REVERSE",
+      "after_detail": "C"
+    },
+    {
+      "before_id": "B69-qwen-V02-S2-DAB-LO-BEI-AU-BA",
+      "after_id": "B69-qwen-V02-S2-DAB-LN-BEI-AU-BA",
+      "before_source": "R2：在接待区，金明把杨诚叫醒了。\nR1：在站台，朱宁，已经被吴凡拉住了。",
+      "after_source": "R2：在接待区，金明把杨诚叫醒了。\nR1：在站台，朱宁被吴凡拉住了。",
+      "gold_before": {
+        "actor": "吴凡",
+        "undergoer": "朱宁"
+      },
+      "gold_after": {
+        "actor": "吴凡",
+        "undergoer": "朱宁"
+      },
+      "before_answer": {
+        "actor": "朱宁",
+        "undergoer": "吴凡"
+      },
+      "after_answer": {
+        "actor": "吴凡",
+        "undergoer": "朱宁"
+      },
+      "before_detail": "R1_REVERSE",
+      "after_detail": "C"
+    },
+    {
+      "before_id": "B69-qwen-V03-S2-DAB-LO-BEI-AU-BEI",
+      "after_id": "B69-qwen-V03-S2-DAB-LN-BEI-AU-BEI",
+      "before_source": "R2：在接待区，张凡被沈凡拦住了。\nR1：在训练场，曹诚，已经被严宁扶起了。",
+      "after_source": "R2：在接待区，张凡被沈凡拦住了。\nR1：在训练场，曹诚被严宁扶起了。",
+      "gold_before": {
+        "actor": "严宁",
+        "undergoer": "曹诚"
+      },
+      "gold_after": {
+        "actor": "严宁",
+        "undergoer": "曹诚"
+      },
+      "before_answer": {
+        "actor": "严宁",
+        "undergoer": "曹诚"
+      },
+      "after_answer": {
+        "actor": "曹诚",
+        "undergoer": "严宁"
+      },
+      "before_detail": "C",
+      "after_detail": "R1_REVERSE"
+    },
+    {
+      "before_id": "B69-qwen-V03-S2-DBA-LO-BEI-AU-BEI",
+      "after_id": "B69-qwen-V03-S2-DBA-LN-BEI-AU-BEI",
+      "before_source": "R2：在接待区，张凡被沈凡拦住了。\nR1：在训练场，严宁，已经被曹诚扶起了。",
+      "after_source": "R2：在接待区，张凡被沈凡拦住了。\nR1：在训练场，严宁被曹诚扶起了。",
+      "gold_before": {
+        "actor": "曹诚",
+        "undergoer": "严宁"
+      },
+      "gold_after": {
+        "actor": "曹诚",
+        "undergoer": "严宁"
+      },
+      "before_answer": {
+        "actor": "曹诚",
+        "undergoer": "严宁"
+      },
+      "after_answer": {
+        "actor": "严宁",
+        "undergoer": "曹诚"
+      },
+      "before_detail": "C",
+      "after_detail": "R1_REVERSE"
+    },
+    {
+      "before_id": "B69-qwen-V04-S1-DAB-LO-BEI-AU-BA",
+      "after_id": "B69-qwen-V04-S1-DAB-LN-BEI-AU-BA",
+      "before_source": "R2：在接待区，何诚把陈凡抱住了。\nR1：在休息室，华凡，已经被郑明叫醒了。",
+      "after_source": "R2：在接待区，何诚把陈凡抱住了。\nR1：在休息室，华凡被郑明叫醒了。",
+      "gold_before": {
+        "actor": "郑明",
+        "undergoer": "华凡"
+      },
+      "gold_after": {
+        "actor": "郑明",
+        "undergoer": "华凡"
+      },
+      "before_answer": {
+        "actor": "华凡",
+        "undergoer": "郑明"
+      },
+      "after_answer": {
+        "actor": "郑明",
+        "undergoer": "华凡"
+      },
+      "before_detail": "R1_REVERSE",
+      "after_detail": "C"
+    },
+    {
+      "before_id": "B69-qwen-V04-S2-DBA-LO-BEI-AU-BA",
+      "after_id": "B69-qwen-V04-S2-DBA-LN-BEI-AU-BA",
+      "before_source": "R2：在接待区，孔明把冯宁抱住了。\nR1：在候车室，邹诚，已经被褚明叫醒了。",
+      "after_source": "R2：在接待区，孔明把冯宁抱住了。\nR1：在候车室，邹诚被褚明叫醒了。",
+      "gold_before": {
+        "actor": "褚明",
+        "undergoer": "邹诚"
+      },
+      "gold_after": {
+        "actor": "褚明",
+        "undergoer": "邹诚"
+      },
+      "before_answer": {
+        "actor": "邹诚",
+        "undergoer": "褚明"
+      },
+      "after_answer": {
+        "actor": "褚明",
+        "undergoer": "邹诚"
+      },
+      "before_detail": "R1_REVERSE",
+      "after_detail": "C"
+    },
+    {
+      "before_id": "B69-qwen-V04-S2-DBA-LO-BEI-AU-BEI",
+      "after_id": "B69-qwen-V04-S2-DBA-LN-BEI-AU-BEI",
+      "before_source": "R2：在接待区，冯宁被孔明抱住了。\nR1：在候车室，邹诚，已经被褚明叫醒了。",
+      "after_source": "R2：在接待区，冯宁被孔明抱住了。\nR1：在候车室，邹诚被褚明叫醒了。",
+      "gold_before": {
+        "actor": "褚明",
+        "undergoer": "邹诚"
+      },
+      "gold_after": {
+        "actor": "褚明",
+        "undergoer": "邹诚"
+      },
+      "before_answer": {
+        "actor": "褚明",
+        "undergoer": "邹诚"
+      },
+      "after_answer": {
+        "actor": "邹诚",
+        "undergoer": "褚明"
+      },
+      "before_detail": "C",
+      "after_detail": "R1_REVERSE"
+    },
+    {
+      "before_id": "B69-qwen-V05-S1-DAB-LO-BEI-AU-NONE",
+      "after_id": "B69-qwen-V05-S1-DAB-LN-BEI-AU-NONE",
+      "before_source": "R1：在校门口，郑诚，已经被魏宁拦住了。",
+      "after_source": "R1：在校门口，郑诚被魏宁拦住了。",
+      "gold_before": {
+        "actor": "魏宁",
+        "undergoer": "郑诚"
+      },
+      "gold_after": {
+        "actor": "魏宁",
+        "undergoer": "郑诚"
+      },
+      "before_answer": {
+        "actor": "魏宁",
+        "undergoer": "郑诚"
+      },
+      "after_answer": {
+        "actor": "郑诚",
+        "undergoer": "魏宁"
+      },
+      "before_detail": "C",
+      "after_detail": "R1_REVERSE"
+    },
+    {
+      "before_id": "B69-qwen-V05-S1-DBA-LO-BEI-AU-BA",
+      "after_id": "B69-qwen-V05-S1-DBA-LN-BEI-AU-BA",
+      "before_source": "R2：在接待区，张明把朱凡逗笑了。\nR1：在校门口，魏宁，已经被郑诚拦住了。",
+      "after_source": "R2：在接待区，张明把朱凡逗笑了。\nR1：在校门口，魏宁被郑诚拦住了。",
+      "gold_before": {
+        "actor": "郑诚",
+        "undergoer": "魏宁"
+      },
+      "gold_after": {
+        "actor": "郑诚",
+        "undergoer": "魏宁"
+      },
+      "before_answer": {
+        "actor": "魏宁",
+        "undergoer": "郑诚"
+      },
+      "after_answer": {
+        "actor": "郑诚",
+        "undergoer": "魏宁"
+      },
+      "before_detail": "R1_REVERSE",
+      "after_detail": "C"
+    },
+    {
+      "before_id": "B69-qwen-V05-S2-DBA-LO-BEI-AU-BEI",
+      "after_id": "B69-qwen-V05-S2-DBA-LN-BEI-AU-BEI",
+      "before_source": "R2：在接待区，陶凡被吕凡逗笑了。\nR1：在展厅入口，周凡，已经被曹宁拦住了。",
+      "after_source": "R2：在接待区，陶凡被吕凡逗笑了。\nR1：在展厅入口，周凡被曹宁拦住了。",
+      "gold_before": {
+        "actor": "曹宁",
+        "undergoer": "周凡"
+      },
+      "gold_after": {
+        "actor": "曹宁",
+        "undergoer": "周凡"
+      },
+      "before_answer": {
+        "actor": "周凡",
+        "undergoer": "曹宁"
+      },
+      "after_answer": {
+        "actor": "曹宁",
+        "undergoer": "周凡"
+      },
+      "before_detail": "R1_REVERSE",
+      "after_detail": "C"
+    },
+    {
+      "before_id": "B69-qwen-V07-S2-DAB-LO-BEI-AU-BA",
+      "after_id": "B69-qwen-V07-S2-DAB-LN-BEI-AU-BA",
+      "before_source": "R2：在接待区，何宁把李宁绊倒了。\nR1：在会议室，金诚，已经被严凡逗笑了。",
+      "after_source": "R2：在接待区，何宁把李宁绊倒了。\nR1：在会议室，金诚被严凡逗笑了。",
+      "gold_before": {
+        "actor": "严凡",
+        "undergoer": "金诚"
+      },
+      "gold_after": {
+        "actor": "严凡",
+        "undergoer": "金诚"
+      },
+      "before_answer": {
+        "actor": "金诚",
+        "undergoer": "严凡"
+      },
+      "after_answer": {
+        "actor": "严凡",
+        "undergoer": "金诚"
+      },
+      "before_detail": "R1_REVERSE",
+      "after_detail": "C"
+    },
+    {
+      "before_id": "B69-qwen-V07-S2-DBA-LO-BEI-AU-BEI",
+      "after_id": "B69-qwen-V07-S2-DBA-LN-BEI-AU-BEI",
+      "before_source": "R2：在接待区，李宁被何宁绊倒了。\nR1：在会议室，严凡，已经被金诚逗笑了。",
+      "after_source": "R2：在接待区，李宁被何宁绊倒了。\nR1：在会议室，严凡被金诚逗笑了。",
+      "gold_before": {
+        "actor": "金诚",
+        "undergoer": "严凡"
+      },
+      "gold_after": {
+        "actor": "金诚",
+        "undergoer": "严凡"
+      },
+      "before_answer": {
+        "actor": "严凡",
+        "undergoer": "金诚"
+      },
+      "after_answer": {
+        "actor": "金诚",
+        "undergoer": "严凡"
+      },
+      "before_detail": "R1_REVERSE",
+      "after_detail": "C"
+    },
+    {
+      "before_id": "B69-qwen-V08-S1-DBA-LO-BEI-AU-BEI",
+      "after_id": "B69-qwen-V08-S1-DBA-LN-BEI-AU-BEI",
+      "before_source": "R2：在接待区，许诚被陈明撞倒了。\nR1：在花园，蒋凡，已经被杨宁吓跑了。",
+      "after_source": "R2：在接待区，许诚被陈明撞倒了。\nR1：在花园，蒋凡被杨宁吓跑了。",
+      "gold_before": {
+        "actor": "杨宁",
+        "undergoer": "蒋凡"
+      },
+      "gold_after": {
+        "actor": "杨宁",
+        "undergoer": "蒋凡"
+      },
+      "before_answer": {
+        "actor": "杨宁",
+        "undergoer": "蒋凡"
+      },
+      "after_answer": {
+        "actor": "蒋凡",
+        "undergoer": "杨宁"
+      },
+      "before_detail": "C",
+      "after_detail": "R1_REVERSE"
+    },
+    {
+      "before_id": "B69-qwen-V09-S1-DBA-LO-BEI-AU-BEI",
+      "after_id": "B69-qwen-V09-S1-DBA-LN-BEI-AU-BEI",
+      "before_source": "R2：在接待区，朱明被金宁踢倒了。\nR1：在篮球场，陶明，已经被郑宁绊倒了。",
+      "after_source": "R2：在接待区，朱明被金宁踢倒了。\nR1：在篮球场，陶明被郑宁绊倒了。",
+      "gold_before": {
+        "actor": "郑宁",
+        "undergoer": "陶明"
+      },
+      "gold_after": {
+        "actor": "郑宁",
+        "undergoer": "陶明"
+      },
+      "before_answer": {
+        "actor": "郑宁",
+        "undergoer": "陶明"
+      },
+      "after_answer": {
+        "actor": "陶明",
+        "undergoer": "郑宁"
+      },
+      "before_detail": "C",
+      "after_detail": "R1_REVERSE"
+    },
+    {
+      "before_id": "B69-qwen-V14-S1-DAB-LO-BEI-AU-BEI",
+      "after_id": "B69-qwen-V14-S1-DAB-LN-BEI-AU-BEI",
+      "before_source": "R2：在接待区，褚凡被郑凡挡住了。\nR1：在舞蹈室，韩凡，已经被吕诚喊停了。",
+      "after_source": "R2：在接待区，褚凡被郑凡挡住了。\nR1：在舞蹈室，韩凡被吕诚喊停了。",
+      "gold_before": {
+        "actor": "吕诚",
+        "undergoer": "韩凡"
+      },
+      "gold_after": {
+        "actor": "吕诚",
+        "undergoer": "韩凡"
+      },
+      "before_answer": {
+        "actor": "韩凡",
+        "undergoer": "吕诚"
+      },
+      "after_answer": {
+        "actor": "吕诚",
+        "undergoer": "韩凡"
+      },
+      "before_detail": "R1_REVERSE",
+      "after_detail": "C"
+    },
+    {
+      "before_id": "B69-qwen-V14-S1-DBA-LO-BEI-AU-BA",
+      "after_id": "B69-qwen-V14-S1-DBA-LN-BEI-AU-BA",
+      "before_source": "R2：在接待区，郑凡把褚凡挡住了。\nR1：在舞蹈室，吕诚，已经被韩凡喊停了。",
+      "after_source": "R2：在接待区，郑凡把褚凡挡住了。\nR1：在舞蹈室，吕诚被韩凡喊停了。",
+      "gold_before": {
+        "actor": "韩凡",
+        "undergoer": "吕诚"
+      },
+      "gold_after": {
+        "actor": "韩凡",
+        "undergoer": "吕诚"
+      },
+      "before_answer": {
+        "actor": "吕诚",
+        "undergoer": "韩凡"
+      },
+      "after_answer": {
+        "actor": "韩凡",
+        "undergoer": "吕诚"
+      },
+      "before_detail": "R1_REVERSE",
+      "after_detail": "C"
+    },
+    {
+      "before_id": "B69-qwen-V14-S2-DAB-LO-BEI-UA-BA",
+      "after_id": "B69-qwen-V14-S2-DAB-LN-BEI-UA-BA",
+      "before_source": "R2：在接待区，何明把钱宁挡住了。\nR1：在游泳馆，曹明，已经被张宁喊停了。",
+      "after_source": "R2：在接待区，何明把钱宁挡住了。\nR1：在游泳馆，曹明被张宁喊停了。",
+      "gold_before": {
+        "actor": "张宁",
+        "undergoer": "曹明"
+      },
+      "gold_after": {
+        "actor": "张宁",
+        "undergoer": "曹明"
+      },
+      "before_answer": {
+        "undergoer": "张宁",
+        "actor": "曹明"
+      },
+      "after_answer": {
+        "undergoer": "曹明",
+        "actor": "张宁"
+      },
+      "before_detail": "R1_REVERSE",
+      "after_detail": "C"
+    },
+    {
+      "before_id": "B69-qwen-V14-S2-DBA-LO-BEI-AU-BEI",
+      "after_id": "B69-qwen-V14-S2-DBA-LN-BEI-AU-BEI",
+      "before_source": "R2：在接待区，钱宁被何明挡住了。\nR1：在游泳馆，张宁，已经被曹明喊停了。",
+      "after_source": "R2：在接待区，钱宁被何明挡住了。\nR1：在游泳馆，张宁被曹明喊停了。",
+      "gold_before": {
+        "actor": "曹明",
+        "undergoer": "张宁"
+      },
+      "gold_after": {
+        "actor": "曹明",
+        "undergoer": "张宁"
+      },
+      "before_answer": {
+        "actor": "曹明",
+        "undergoer": "张宁"
+      },
+      "after_answer": {
+        "actor": "张宁",
+        "undergoer": "曹明"
+      },
+      "before_detail": "C",
+      "after_detail": "R1_REVERSE"
+    },
+    {
+      "before_id": "B69-qwen-V15-S1-DBA-LO-BEI-AU-BEI",
+      "after_id": "B69-qwen-V15-S1-DBA-LN-BEI-AU-BEI",
+      "before_source": "R2：在接待区，谢凡被卫明推开了。\nR1：在大厅，朱诚，已经被姜宁带走了。",
+      "after_source": "R2：在接待区，谢凡被卫明推开了。\nR1：在大厅，朱诚被姜宁带走了。",
+      "gold_before": {
+        "actor": "姜宁",
+        "undergoer": "朱诚"
+      },
+      "gold_after": {
+        "actor": "姜宁",
+        "undergoer": "朱诚"
+      },
+      "before_answer": {
+        "actor": "姜宁",
+        "undergoer": "朱诚"
+      },
+      "after_answer": {
+        "actor": "朱诚",
+        "undergoer": "姜宁"
+      },
+      "before_detail": "C",
+      "after_detail": "R1_REVERSE"
+    },
+    {
+      "before_id": "B69-qwen-V15-S2-DAB-LO-BEI-AU-BA",
+      "after_id": "B69-qwen-V15-S2-DAB-LN-BEI-AU-BA",
+      "before_source": "R2：在接待区，吴宁把冯诚推开了。\nR1：在服务台前，秦宁，已经被杨明带走了。",
+      "after_source": "R2：在接待区，吴宁把冯诚推开了。\nR1：在服务台前，秦宁被杨明带走了。",
+      "gold_before": {
+        "actor": "杨明",
+        "undergoer": "秦宁"
+      },
+      "gold_after": {
+        "actor": "杨明",
+        "undergoer": "秦宁"
+      },
+      "before_answer": {
+        "actor": "秦宁",
+        "undergoer": "杨明"
+      },
+      "after_answer": {
+        "actor": "杨明",
+        "undergoer": "秦宁"
+      },
+      "before_detail": "R1_REVERSE",
+      "after_detail": "C"
+    },
+    {
+      "before_id": "B69-qwen-V15-S2-DBA-LO-BEI-AU-BEI",
+      "after_id": "B69-qwen-V15-S2-DBA-LN-BEI-AU-BEI",
+      "before_source": "R2：在接待区，冯诚被吴宁推开了。\nR1：在服务台前，杨明，已经被秦宁带走了。",
+      "after_source": "R2：在接待区，冯诚被吴宁推开了。\nR1：在服务台前，杨明被秦宁带走了。",
+      "gold_before": {
+        "actor": "秦宁",
+        "undergoer": "杨明"
+      },
+      "gold_after": {
+        "actor": "秦宁",
+        "undergoer": "杨明"
+      },
+      "before_answer": {
+        "actor": "秦宁",
+        "undergoer": "杨明"
+      },
+      "after_answer": {
+        "actor": "杨明",
+        "undergoer": "秦宁"
+      },
+      "before_detail": "C",
+      "after_detail": "R1_REVERSE"
+    },
+    {
+      "before_id": "B69-qwen-V16-S1-DBA-LO-BEI-AU-BA",
+      "after_id": "B69-qwen-V16-S1-DBA-LN-BEI-AU-BA",
+      "before_source": "R2：在接待区，严诚把陈宁拉住了。\nR1：在通道口，沈宁，已经被蒋诚挡住了。",
+      "after_source": "R2：在接待区，严诚把陈宁拉住了。\nR1：在通道口，沈宁被蒋诚挡住了。",
+      "gold_before": {
+        "actor": "蒋诚",
+        "undergoer": "沈宁"
+      },
+      "gold_after": {
+        "actor": "蒋诚",
+        "undergoer": "沈宁"
+      },
+      "before_answer": {
+        "actor": "沈宁",
+        "undergoer": "蒋诚"
+      },
+      "after_answer": {
+        "actor": "蒋诚",
+        "undergoer": "沈宁"
+      },
+      "before_detail": "R1_REVERSE",
+      "after_detail": "C"
+    },
+    {
+      "before_id": "B69-apertus-V01-S1-DBA-LO-BA-UA-BA",
+      "after_id": "B69-apertus-V01-S1-DBA-LN-BA-UA-BA",
+      "before_source": "R2：在接待区，许明把吕宁扶起了。\nR1：在排练厅，李诚，已经把蒋宁推开了。",
+      "after_source": "R2：在接待区，许明把吕宁扶起了。\nR1：在排练厅，李诚把蒋宁推开了。",
+      "gold_before": {
+        "actor": "李诚",
+        "undergoer": "蒋宁"
+      },
+      "gold_after": {
+        "actor": "李诚",
+        "undergoer": "蒋宁"
+      },
+      "before_answer": {
+        "undergoer": "李诚",
+        "actor": "蒋宁"
+      },
+      "after_answer": {
+        "undergoer": "蒋宁",
+        "actor": "李诚"
+      },
+      "before_detail": "R1_REVERSE",
+      "after_detail": "C"
+    },
+    {
+      "before_id": "B69-apertus-V02-S1-DAB-LO-BA-UA-BA",
+      "after_id": "B69-apertus-V02-S1-DAB-LN-BA-UA-BA",
+      "before_source": "R2：在接待区，钱凡把姜凡叫醒了。\nR1：在走廊，陶宁，已经把周宁拉住了。",
+      "after_source": "R2：在接待区，钱凡把姜凡叫醒了。\nR1：在走廊，陶宁把周宁拉住了。",
+      "gold_before": {
+        "actor": "陶宁",
+        "undergoer": "周宁"
+      },
+      "gold_after": {
+        "actor": "陶宁",
+        "undergoer": "周宁"
+      },
+      "before_answer": {
+        "undergoer": "陶宁",
+        "actor": "周宁"
+      },
+      "after_answer": {
+        "undergoer": "周宁",
+        "actor": "陶宁"
+      },
+      "before_detail": "R1_REVERSE",
+      "after_detail": "C"
+    },
+    {
+      "before_id": "B69-apertus-V02-S1-DAB-LO-BA-UA-BEI",
+      "after_id": "B69-apertus-V02-S1-DAB-LN-BA-UA-BEI",
+      "before_source": "R2：在接待区，姜凡被钱凡叫醒了。\nR1：在走廊，陶宁，已经把周宁拉住了。",
+      "after_source": "R2：在接待区，姜凡被钱凡叫醒了。\nR1：在走廊，陶宁把周宁拉住了。",
+      "gold_before": {
+        "actor": "陶宁",
+        "undergoer": "周宁"
+      },
+      "gold_after": {
+        "actor": "陶宁",
+        "undergoer": "周宁"
+      },
+      "before_answer": {
+        "undergoer": "陶宁",
+        "actor": "周宁"
+      },
+      "after_answer": {
+        "undergoer": "周宁",
+        "actor": "陶宁"
+      },
+      "before_detail": "R1_REVERSE",
+      "after_detail": "C"
+    },
+    {
+      "before_id": "B69-apertus-V02-S1-DBA-LO-BA-UA-BA",
+      "after_id": "B69-apertus-V02-S1-DBA-LN-BA-UA-BA",
+      "before_source": "R2：在接待区，钱凡把姜凡叫醒了。\nR1：在走廊，周宁，已经把陶宁拉住了。",
+      "after_source": "R2：在接待区，钱凡把姜凡叫醒了。\nR1：在走廊，周宁把陶宁拉住了。",
+      "gold_before": {
+        "actor": "周宁",
+        "undergoer": "陶宁"
+      },
+      "gold_after": {
+        "actor": "周宁",
+        "undergoer": "陶宁"
+      },
+      "before_answer": {
+        "undergoer": "周宁",
+        "actor": "陶宁"
+      },
+      "after_answer": {
+        "undergoer": "陶宁",
+        "actor": "周宁"
+      },
+      "before_detail": "R1_REVERSE",
+      "after_detail": "C"
+    },
+    {
+      "before_id": "B69-apertus-V02-S1-DBA-LO-BA-UA-BEI",
+      "after_id": "B69-apertus-V02-S1-DBA-LN-BA-UA-BEI",
+      "before_source": "R2：在接待区，姜凡被钱凡叫醒了。\nR1：在走廊，周宁，已经把陶宁拉住了。",
+      "after_source": "R2：在接待区，姜凡被钱凡叫醒了。\nR1：在走廊，周宁把陶宁拉住了。",
+      "gold_before": {
+        "actor": "周宁",
+        "undergoer": "陶宁"
+      },
+      "gold_after": {
+        "actor": "周宁",
+        "undergoer": "陶宁"
+      },
+      "before_answer": {
+        "undergoer": "周宁",
+        "actor": "陶宁"
+      },
+      "after_answer": {
+        "undergoer": "陶宁",
+        "actor": "周宁"
+      },
+      "before_detail": "R1_REVERSE",
+      "after_detail": "C"
+    },
+    {
+      "before_id": "B69-apertus-V02-S1-DBA-LO-BA-UA-NONE",
+      "after_id": "B69-apertus-V02-S1-DBA-LN-BA-UA-NONE",
+      "before_source": "R1：在走廊，周宁，已经把陶宁拉住了。",
+      "after_source": "R1：在走廊，周宁把陶宁拉住了。",
+      "gold_before": {
+        "actor": "周宁",
+        "undergoer": "陶宁"
+      },
+      "gold_after": {
+        "actor": "周宁",
+        "undergoer": "陶宁"
+      },
+      "before_answer": {
+        "undergoer": "周宁",
+        "actor": "陶宁"
+      },
+      "after_answer": {
+        "undergoer": "陶宁",
+        "actor": "周宁"
+      },
+      "before_detail": "R1_REVERSE",
+      "after_detail": "C"
+    },
+    {
+      "before_id": "B69-apertus-V02-S2-DAB-LO-BEI-AU-BA",
+      "after_id": "B69-apertus-V02-S2-DAB-LN-BEI-AU-BA",
+      "before_source": "R2：在接待区，金明把杨诚叫醒了。\nR1：在站台，朱宁，已经被吴凡拉住了。",
+      "after_source": "R2：在接待区，金明把杨诚叫醒了。\nR1：在站台，朱宁被吴凡拉住了。",
+      "gold_before": {
+        "actor": "吴凡",
+        "undergoer": "朱宁"
+      },
+      "gold_after": {
+        "actor": "吴凡",
+        "undergoer": "朱宁"
+      },
+      "before_answer": {
+        "actor": "朱宁",
+        "undergoer": "吴凡"
+      },
+      "after_answer": {
+        "actor": "吴凡",
+        "undergoer": "朱宁"
+      },
+      "before_detail": "R1_REVERSE",
+      "after_detail": "C"
+    },
+    {
+      "before_id": "B69-apertus-V02-S2-DAB-LO-BEI-AU-BEI",
+      "after_id": "B69-apertus-V02-S2-DAB-LN-BEI-AU-BEI",
+      "before_source": "R2：在接待区，杨诚被金明叫醒了。\nR1：在站台，朱宁，已经被吴凡拉住了。",
+      "after_source": "R2：在接待区，杨诚被金明叫醒了。\nR1：在站台，朱宁被吴凡拉住了。",
+      "gold_before": {
+        "actor": "吴凡",
+        "undergoer": "朱宁"
+      },
+      "gold_after": {
+        "actor": "吴凡",
+        "undergoer": "朱宁"
+      },
+      "before_answer": {
+        "actor": "朱宁",
+        "undergoer": "吴凡"
+      },
+      "after_answer": {
+        "actor": "吴凡",
+        "undergoer": "朱宁"
+      },
+      "before_detail": "R1_REVERSE",
+      "after_detail": "C"
+    },
+    {
+      "before_id": "B69-apertus-V02-S2-DBA-LO-BA-UA-BA",
+      "after_id": "B69-apertus-V02-S2-DBA-LN-BA-UA-BA",
+      "before_source": "R2：在接待区，金明把杨诚叫醒了。\nR1：在站台，朱宁，已经把吴凡拉住了。",
+      "after_source": "R2：在接待区，金明把杨诚叫醒了。\nR1：在站台，朱宁把吴凡拉住了。",
+      "gold_before": {
+        "actor": "朱宁",
+        "undergoer": "吴凡"
+      },
+      "gold_after": {
+        "actor": "朱宁",
+        "undergoer": "吴凡"
+      },
+      "before_answer": {
+        "undergoer": "朱宁",
+        "actor": "吴凡"
+      },
+      "after_answer": {
+        "undergoer": "吴凡",
+        "actor": "朱宁"
+      },
+      "before_detail": "R1_REVERSE",
+      "after_detail": "C"
+    },
+    {
+      "before_id": "B69-apertus-V02-S2-DBA-LO-BA-UA-BEI",
+      "after_id": "B69-apertus-V02-S2-DBA-LN-BA-UA-BEI",
+      "before_source": "R2：在接待区，杨诚被金明叫醒了。\nR1：在站台，朱宁，已经把吴凡拉住了。",
+      "after_source": "R2：在接待区，杨诚被金明叫醒了。\nR1：在站台，朱宁把吴凡拉住了。",
+      "gold_before": {
+        "actor": "朱宁",
+        "undergoer": "吴凡"
+      },
+      "gold_after": {
+        "actor": "朱宁",
+        "undergoer": "吴凡"
+      },
+      "before_answer": {
+        "undergoer": "朱宁",
+        "actor": "吴凡"
+      },
+      "after_answer": {
+        "undergoer": "吴凡",
+        "actor": "朱宁"
+      },
+      "before_detail": "R1_REVERSE",
+      "after_detail": "C"
+    },
+    {
+      "before_id": "B69-apertus-V02-S2-DBA-LO-BA-UA-NONE",
+      "after_id": "B69-apertus-V02-S2-DBA-LN-BA-UA-NONE",
+      "before_source": "R1：在站台，朱宁，已经把吴凡拉住了。",
+      "after_source": "R1：在站台，朱宁把吴凡拉住了。",
+      "gold_before": {
+        "actor": "朱宁",
+        "undergoer": "吴凡"
+      },
+      "gold_after": {
+        "actor": "朱宁",
+        "undergoer": "吴凡"
+      },
+      "before_answer": {
+        "undergoer": "朱宁",
+        "actor": "吴凡"
+      },
+      "after_answer": {
+        "undergoer": "吴凡",
+        "actor": "朱宁"
+      },
+      "before_detail": "R1_REVERSE",
+      "after_detail": "C"
+    },
+    {
+      "before_id": "B69-apertus-V03-S1-DBA-LO-BA-UA-BEI",
+      "after_id": "B69-apertus-V03-S1-DBA-LN-BA-UA-BEI",
+      "before_source": "R2：在接待区，孙明被魏诚拦住了。\nR1：在操场，赵宁，已经把秦凡扶起了。",
+      "after_source": "R2：在接待区，孙明被魏诚拦住了。\nR1：在操场，赵宁把秦凡扶起了。",
+      "gold_before": {
+        "actor": "赵宁",
+        "undergoer": "秦凡"
+      },
+      "gold_after": {
+        "actor": "赵宁",
+        "undergoer": "秦凡"
+      },
+      "before_answer": {
+        "undergoer": "赵宁",
+        "actor": "秦凡"
+      },
+      "after_answer": {
+        "undergoer": "秦凡",
+        "actor": "赵宁"
+      },
+      "before_detail": "R1_REVERSE",
+      "after_detail": "C"
+    },
+    {
+      "before_id": "B69-apertus-V03-S1-DBA-LO-BEI-AU-BEI",
+      "after_id": "B69-apertus-V03-S1-DBA-LN-BEI-AU-BEI",
+      "before_source": "R2：在接待区，孙明被魏诚拦住了。\nR1：在操场，秦凡，已经被赵宁扶起了。",
+      "after_source": "R2：在接待区，孙明被魏诚拦住了。\nR1：在操场，秦凡被赵宁扶起了。",
+      "gold_before": {
+        "actor": "赵宁",
+        "undergoer": "秦凡"
+      },
+      "gold_after": {
+        "actor": "赵宁",
+        "undergoer": "秦凡"
+      },
+      "before_answer": {
+        "actor": "赵宁",
+        "undergoer": "秦凡"
+      },
+      "after_answer": {
+        "actor": "秦凡",
+        "undergoer": "赵宁"
+      },
+      "before_detail": "C",
+      "after_detail": "R1_REVERSE"
+    },
+    {
+      "before_id": "B69-apertus-V03-S2-DAB-LO-BA-UA-BA",
+      "after_id": "B69-apertus-V03-S2-DAB-LN-BA-UA-BA",
+      "before_source": "R2：在接待区，沈凡把张凡拦住了。\nR1：在训练场，严宁，已经把曹诚扶起了。",
+      "after_source": "R2：在接待区，沈凡把张凡拦住了。\nR1：在训练场，严宁把曹诚扶起了。",
+      "gold_before": {
+        "actor": "严宁",
+        "undergoer": "曹诚"
+      },
+      "gold_after": {
+        "actor": "严宁",
+        "undergoer": "曹诚"
+      },
+      "before_answer": {
+        "undergoer": "严宁",
+        "actor": "曹诚"
+      },
+      "after_answer": {
+        "undergoer": "曹诚",
+        "actor": "严宁"
+      },
+      "before_detail": "R1_REVERSE",
+      "after_detail": "C"
+    },
+    {
+      "before_id": "B69-apertus-V03-S2-DAB-LO-BA-UA-BEI",
+      "after_id": "B69-apertus-V03-S2-DAB-LN-BA-UA-BEI",
+      "before_source": "R2：在接待区，张凡被沈凡拦住了。\nR1：在训练场，严宁，已经把曹诚扶起了。",
+      "after_source": "R2：在接待区，张凡被沈凡拦住了。\nR1：在训练场，严宁把曹诚扶起了。",
+      "gold_before": {
+        "actor": "严宁",
+        "undergoer": "曹诚"
+      },
+      "gold_after": {
+        "actor": "严宁",
+        "undergoer": "曹诚"
+      },
+      "before_answer": {
+        "undergoer": "严宁",
+        "actor": "曹诚"
+      },
+      "after_answer": {
+        "undergoer": "曹诚",
+        "actor": "严宁"
+      },
+      "before_detail": "R1_REVERSE",
+      "after_detail": "C"
+    },
+    {
+      "before_id": "B69-apertus-V03-S2-DAB-LO-BEI-UA-BA",
+      "after_id": "B69-apertus-V03-S2-DAB-LN-BEI-UA-BA",
+      "before_source": "R2：在接待区，沈凡把张凡拦住了。\nR1：在训练场，曹诚，已经被严宁扶起了。",
+      "after_source": "R2：在接待区，沈凡把张凡拦住了。\nR1：在训练场，曹诚被严宁扶起了。",
+      "gold_before": {
+        "actor": "严宁",
+        "undergoer": "曹诚"
+      },
+      "gold_after": {
+        "actor": "严宁",
+        "undergoer": "曹诚"
+      },
+      "before_answer": {
+        "undergoer": "严宁",
+        "actor": "曹诚"
+      },
+      "after_answer": {
+        "undergoer": "曹诚",
+        "actor": "严宁"
+      },
+      "before_detail": "R1_REVERSE",
+      "after_detail": "C"
+    },
+    {
+      "before_id": "B69-apertus-V03-S2-DBA-LO-BEI-AU-NONE",
+      "after_id": "B69-apertus-V03-S2-DBA-LN-BEI-AU-NONE",
+      "before_source": "R1：在训练场，严宁，已经被曹诚扶起了。",
+      "after_source": "R1：在训练场，严宁被曹诚扶起了。",
+      "gold_before": {
+        "actor": "曹诚",
+        "undergoer": "严宁"
+      },
+      "gold_after": {
+        "actor": "曹诚",
+        "undergoer": "严宁"
+      },
+      "before_answer": {
+        "actor": "严宁",
+        "undergoer": "曹诚"
+      },
+      "after_answer": {
+        "actor": "曹诚",
+        "undergoer": "严宁"
+      },
+      "before_detail": "R1_REVERSE",
+      "after_detail": "C"
+    },
+    {
+      "before_id": "B69-apertus-V04-S1-DAB-LO-BEI-AU-BA",
+      "after_id": "B69-apertus-V04-S1-DAB-LN-BEI-AU-BA",
+      "before_source": "R2：在接待区，何诚把陈凡抱住了。\nR1：在休息室，华凡，已经被郑明叫醒了。",
+      "after_source": "R2：在接待区，何诚把陈凡抱住了。\nR1：在休息室，华凡被郑明叫醒了。",
+      "gold_before": {
+        "actor": "郑明",
+        "undergoer": "华凡"
+      },
+      "gold_after": {
+        "actor": "郑明",
+        "undergoer": "华凡"
+      },
+      "before_answer": {
+        "actor": "华凡",
+        "undergoer": "郑明"
+      },
+      "after_answer": {
+        "actor": "郑明",
+        "undergoer": "华凡"
+      },
+      "before_detail": "R1_REVERSE",
+      "after_detail": "C"
+    },
+    {
+      "before_id": "B69-apertus-V04-S1-DBA-LO-BA-UA-BA",
+      "after_id": "B69-apertus-V04-S1-DBA-LN-BA-UA-BA",
+      "before_source": "R2：在接待区，何诚把陈凡抱住了。\nR1：在休息室，华凡，已经把郑明叫醒了。",
+      "after_source": "R2：在接待区，何诚把陈凡抱住了。\nR1：在休息室，华凡把郑明叫醒了。",
+      "gold_before": {
+        "actor": "华凡",
+        "undergoer": "郑明"
+      },
+      "gold_after": {
+        "actor": "华凡",
+        "undergoer": "郑明"
+      },
+      "before_answer": {
+        "undergoer": "华凡",
+        "actor": "郑明"
+      },
+      "after_answer": {
+        "undergoer": "郑明",
+        "actor": "华凡"
+      },
+      "before_detail": "R1_REVERSE",
+      "after_detail": "C"
+    },
+    {
+      "before_id": "B69-apertus-V04-S1-DBA-LO-BA-UA-BEI",
+      "after_id": "B69-apertus-V04-S1-DBA-LN-BA-UA-BEI",
+      "before_source": "R2：在接待区，陈凡被何诚抱住了。\nR1：在休息室，华凡，已经把郑明叫醒了。",
+      "after_source": "R2：在接待区，陈凡被何诚抱住了。\nR1：在休息室，华凡把郑明叫醒了。",
+      "gold_before": {
+        "actor": "华凡",
+        "undergoer": "郑明"
+      },
+      "gold_after": {
+        "actor": "华凡",
+        "undergoer": "郑明"
+      },
+      "before_answer": {
+        "undergoer": "华凡",
+        "actor": "郑明"
+      },
+      "after_answer": {
+        "undergoer": "郑明",
+        "actor": "华凡"
+      },
+      "before_detail": "R1_REVERSE",
+      "after_detail": "C"
+    },
+    {
+      "before_id": "B69-apertus-V04-S1-DBA-LO-BEI-AU-BA",
+      "after_id": "B69-apertus-V04-S1-DBA-LN-BEI-AU-BA",
+      "before_source": "R2：在接待区，何诚把陈凡抱住了。\nR1：在休息室，郑明，已经被华凡叫醒了。",
+      "after_source": "R2：在接待区，何诚把陈凡抱住了。\nR1：在休息室，郑明被华凡叫醒了。",
+      "gold_before": {
+        "actor": "华凡",
+        "undergoer": "郑明"
+      },
+      "gold_after": {
+        "actor": "华凡",
+        "undergoer": "郑明"
+      },
+      "before_answer": {
+        "actor": "郑明",
+        "undergoer": "郑明"
+      },
+      "after_answer": {
+        "actor": "郑明",
+        "undergoer": "华凡"
+      },
+      "before_detail": "MIXED_OTHER_W",
+      "after_detail": "R1_REVERSE"
+    },
+    {
+      "before_id": "B69-apertus-V04-S2-DBA-LO-BEI-AU-NONE",
+      "after_id": "B69-apertus-V04-S2-DBA-LN-BEI-AU-NONE",
+      "before_source": "R1：在候车室，邹诚，已经被褚明叫醒了。",
+      "after_source": "R1：在候车室，邹诚被褚明叫醒了。",
+      "gold_before": {
+        "actor": "褚明",
+        "undergoer": "邹诚"
+      },
+      "gold_after": {
+        "actor": "褚明",
+        "undergoer": "邹诚"
+      },
+      "before_answer": {
+        "actor": "邹诚",
+        "undergoer": "褚明"
+      },
+      "after_answer": {
+        "actor": "褚明",
+        "undergoer": "邹诚"
+      },
+      "before_detail": "R1_REVERSE",
+      "after_detail": "C"
+    },
+    {
+      "before_id": "B69-apertus-V05-S1-DBA-LO-BEI-AU-BA",
+      "after_id": "B69-apertus-V05-S1-DBA-LN-BEI-AU-BA",
+      "before_source": "R2：在接待区，张明把朱凡逗笑了。\nR1：在校门口，魏宁，已经被郑诚拦住了。",
+      "after_source": "R2：在接待区，张明把朱凡逗笑了。\nR1：在校门口，魏宁被郑诚拦住了。",
+      "gold_before": {
+        "actor": "郑诚",
+        "undergoer": "魏宁"
+      },
+      "gold_after": {
+        "actor": "郑诚",
+        "undergoer": "魏宁"
+      },
+      "before_answer": {
+        "actor": "魏宁",
+        "undergoer": "郑诚"
+      },
+      "after_answer": {
+        "actor": "郑诚",
+        "undergoer": "魏宁"
+      },
+      "before_detail": "R1_REVERSE",
+      "after_detail": "C"
+    },
+    {
+      "before_id": "B69-apertus-V05-S2-DAB-LO-BEI-AU-BEI",
+      "after_id": "B69-apertus-V05-S2-DAB-LN-BEI-AU-BEI",
+      "before_source": "R2：在接待区，陶凡被吕凡逗笑了。\nR1：在展厅入口，曹宁，已经被周凡拦住了。",
+      "after_source": "R2：在接待区，陶凡被吕凡逗笑了。\nR1：在展厅入口，曹宁被周凡拦住了。",
+      "gold_before": {
+        "actor": "周凡",
+        "undergoer": "曹宁"
+      },
+      "gold_after": {
+        "actor": "周凡",
+        "undergoer": "曹宁"
+      },
+      "before_answer": {
+        "actor": "周凡",
+        "undergoer": "曹宁"
+      },
+      "after_answer": {
+        "actor": "曹宁",
+        "undergoer": "周凡"
+      },
+      "before_detail": "C",
+      "after_detail": "R1_REVERSE"
+    },
+    {
+      "before_id": "B69-apertus-V06-S1-DBA-LO-BA-UA-BA",
+      "after_id": "B69-apertus-V06-S1-DBA-LN-BA-UA-BA",
+      "before_source": "R2：在接待区，卫宁把谢诚吓跑了。\nR1：在接待室，姜明，已经把孙诚抱住了。",
+      "after_source": "R2：在接待区，卫宁把谢诚吓跑了。\nR1：在接待室，姜明把孙诚抱住了。",
+      "gold_before": {
+        "actor": "姜明",
+        "undergoer": "孙诚"
+      },
+      "gold_after": {
+        "actor": "姜明",
+        "undergoer": "孙诚"
+      },
+      "before_answer": {
+        "undergoer": "姜明",
+        "actor": "孙诚"
+      },
+      "after_answer": {
+        "undergoer": "孙诚",
+        "actor": "姜明"
+      },
+      "before_detail": "R1_REVERSE",
+      "after_detail": "C"
+    },
+    {
+      "before_id": "B69-apertus-V06-S1-DBA-LO-BEI-AU-BEI",
+      "after_id": "B69-apertus-V06-S1-DBA-LN-BEI-AU-BEI",
+      "before_source": "R2：在接待区，谢诚被卫宁吓跑了。\nR1：在接待室，孙诚，已经被姜明抱住了。",
+      "after_source": "R2：在接待区，谢诚被卫宁吓跑了。\nR1：在接待室，孙诚被姜明抱住了。",
+      "gold_before": {
+        "actor": "姜明",
+        "undergoer": "孙诚"
+      },
+      "gold_after": {
+        "actor": "姜明",
+        "undergoer": "孙诚"
+      },
+      "before_answer": {
+        "actor": "姜明",
+        "undergoer": "孙诚"
+      },
+      "after_answer": {
+        "actor": "孙诚",
+        "undergoer": "姜明"
+      },
+      "before_detail": "C",
+      "after_detail": "R1_REVERSE"
+    },
+    {
+      "before_id": "B69-apertus-V06-S2-DAB-LO-BA-UA-BEI",
+      "after_id": "B69-apertus-V06-S2-DAB-LN-BA-UA-BEI",
+      "before_source": "R2：在接待区，赵凡被冯凡吓跑了。\nR1：在院子，邹宁，已经把孔诚抱住了。",
+      "after_source": "R2：在接待区，赵凡被冯凡吓跑了。\nR1：在院子，邹宁把孔诚抱住了。",
+      "gold_before": {
+        "actor": "邹宁",
+        "undergoer": "孔诚"
+      },
+      "gold_after": {
+        "actor": "邹宁",
+        "undergoer": "孔诚"
+      },
+      "before_answer": {
+        "undergoer": "邹宁",
+        "actor": "孔诚"
+      },
+      "after_answer": {
+        "undergoer": "孔诚",
+        "actor": "邹宁"
+      },
+      "before_detail": "R1_REVERSE",
+      "after_detail": "C"
+    },
+    {
+      "before_id": "B69-apertus-V06-S2-DAB-LO-BA-UA-NONE",
+      "after_id": "B69-apertus-V06-S2-DAB-LN-BA-UA-NONE",
+      "before_source": "R1：在院子，邹宁，已经把孔诚抱住了。",
+      "after_source": "R1：在院子，邹宁把孔诚抱住了。",
+      "gold_before": {
+        "actor": "邹宁",
+        "undergoer": "孔诚"
+      },
+      "gold_after": {
+        "actor": "邹宁",
+        "undergoer": "孔诚"
+      },
+      "before_answer": {
+        "undergoer": "邹宁",
+        "actor": "孔诚"
+      },
+      "after_answer": {
+        "undergoer": "孔诚",
+        "actor": "邹宁"
+      },
+      "before_detail": "R1_REVERSE",
+      "after_detail": "C"
+    },
+    {
+      "before_id": "B69-apertus-V07-S1-DAB-LO-BA-UA-BA",
+      "after_id": "B69-apertus-V07-S1-DAB-LN-BA-UA-BA",
+      "before_source": "R2：在接待区，钱明把王宁绊倒了。\nR1：在活动室，韩诚，已经把褚诚逗笑了。",
+      "after_source": "R2：在接待区，钱明把王宁绊倒了。\nR1：在活动室，韩诚把褚诚逗笑了。",
+      "gold_before": {
+        "actor": "韩诚",
+        "undergoer": "褚诚"
+      },
+      "gold_after": {
+        "actor": "韩诚",
+        "undergoer": "褚诚"
+      },
+      "before_answer": {
+        "undergoer": "韩诚",
+        "actor": "韩诚"
+      },
+      "after_answer": {
+        "undergoer": "韩诚",
+        "actor": "褚诚"
+      },
+      "before_detail": "MIXED_OTHER_W",
+      "after_detail": "R1_REVERSE"
+    },
+    {
+      "before_id": "B69-apertus-V07-S1-DAB-LO-BA-UA-BEI",
+      "after_id": "B69-apertus-V07-S1-DAB-LN-BA-UA-BEI",
+      "before_source": "R2：在接待区，王宁被钱明绊倒了。\nR1：在活动室，韩诚，已经把褚诚逗笑了。",
+      "after_source": "R2：在接待区，王宁被钱明绊倒了。\nR1：在活动室，韩诚把褚诚逗笑了。",
+      "gold_before": {
+        "actor": "韩诚",
+        "undergoer": "褚诚"
+      },
+      "gold_after": {
+        "actor": "韩诚",
+        "undergoer": "褚诚"
+      },
+      "before_answer": {
+        "undergoer": "韩诚",
+        "actor": "韩诚"
+      },
+      "after_answer": {
+        "undergoer": "韩诚",
+        "actor": "褚诚"
+      },
+      "before_detail": "MIXED_OTHER_W",
+      "after_detail": "R1_REVERSE"
+    },
+    {
+      "before_id": "B69-apertus-V07-S1-DAB-LO-BEI-AU-BEI",
+      "after_id": "B69-apertus-V07-S1-DAB-LN-BEI-AU-BEI",
+      "before_source": "R2：在接待区，王宁被钱明绊倒了。\nR1：在活动室，褚诚，已经被韩诚逗笑了。",
+      "after_source": "R2：在接待区，王宁被钱明绊倒了。\nR1：在活动室，褚诚被韩诚逗笑了。",
+      "gold_before": {
+        "actor": "韩诚",
+        "undergoer": "褚诚"
+      },
+      "gold_after": {
+        "actor": "韩诚",
+        "undergoer": "褚诚"
+      },
+      "before_answer": {
+        "actor": "韩诚",
+        "undergoer": "褚诚"
+      },
+      "after_answer": {
+        "actor": "褚诚",
+        "undergoer": "韩诚"
+      },
+      "before_detail": "C",
+      "after_detail": "R1_REVERSE"
+    },
+    {
+      "before_id": "B69-apertus-V07-S1-DBA-LO-BA-UA-BEI",
+      "after_id": "B69-apertus-V07-S1-DBA-LN-BA-UA-BEI",
+      "before_source": "R2：在接待区，王宁被钱明绊倒了。\nR1：在活动室，褚诚，已经把韩诚逗笑了。",
+      "after_source": "R2：在接待区，王宁被钱明绊倒了。\nR1：在活动室，褚诚把韩诚逗笑了。",
+      "gold_before": {
+        "actor": "褚诚",
+        "undergoer": "韩诚"
+      },
+      "gold_after": {
+        "actor": "褚诚",
+        "undergoer": "韩诚"
+      },
+      "before_answer": {
+        "undergoer": "褚诚",
+        "actor": "韩诚"
+      },
+      "after_answer": {
+        "undergoer": "韩诚",
+        "actor": "褚诚"
+      },
+      "before_detail": "R1_REVERSE",
+      "after_detail": "C"
+    },
+    {
+      "before_id": "B69-apertus-V07-S2-DAB-LO-BA-UA-BA",
+      "after_id": "B69-apertus-V07-S2-DAB-LN-BA-UA-BA",
+      "before_source": "R2：在接待区，何宁把李宁绊倒了。\nR1：在会议室，严凡，已经把金诚逗笑了。",
+      "after_source": "R2：在接待区，何宁把李宁绊倒了。\nR1：在会议室，严凡把金诚逗笑了。",
+      "gold_before": {
+        "actor": "严凡",
+        "undergoer": "金诚"
+      },
+      "gold_after": {
+        "actor": "严凡",
+        "undergoer": "金诚"
+      },
+      "before_answer": {
+        "undergoer": "严凡",
+        "actor": "金诚"
+      },
+      "after_answer": {
+        "undergoer": "金诚",
+        "actor": "严凡"
+      },
+      "before_detail": "R1_REVERSE",
+      "after_detail": "C"
+    },
+    {
+      "before_id": "B69-apertus-V07-S2-DBA-LO-BA-UA-BEI",
+      "after_id": "B69-apertus-V07-S2-DBA-LN-BA-UA-BEI",
+      "before_source": "R2：在接待区，李宁被何宁绊倒了。\nR1：在会议室，金诚，已经把严凡逗笑了。",
+      "after_source": "R2：在接待区，李宁被何宁绊倒了。\nR1：在会议室，金诚把严凡逗笑了。",
+      "gold_before": {
+        "actor": "金诚",
+        "undergoer": "严凡"
+      },
+      "gold_after": {
+        "actor": "金诚",
+        "undergoer": "严凡"
+      },
+      "before_answer": {
+        "undergoer": "金诚",
+        "actor": "严凡"
+      },
+      "after_answer": {
+        "undergoer": "严凡",
+        "actor": "金诚"
+      },
+      "before_detail": "R1_REVERSE",
+      "after_detail": "C"
+    },
+    {
+      "before_id": "B69-apertus-V08-S1-DBA-LO-BA-UA-BEI",
+      "after_id": "B69-apertus-V08-S1-DBA-LN-BA-UA-BEI",
+      "before_source": "R2：在接待区，许诚被陈明撞倒了。\nR1：在花园，杨宁，已经把蒋凡吓跑了。",
+      "after_source": "R2：在接待区，许诚被陈明撞倒了。\nR1：在花园，杨宁把蒋凡吓跑了。",
+      "gold_before": {
+        "actor": "杨宁",
+        "undergoer": "蒋凡"
+      },
+      "gold_after": {
+        "actor": "杨宁",
+        "undergoer": "蒋凡"
+      },
+      "before_answer": {
+        "undergoer": "杨宁",
+        "actor": "null"
+      },
+      "after_answer": {
+        "undergoer": "杨宁",
+        "actor": "蒋凡"
+      },
+      "before_detail": "MIXED_OTHER_W",
+      "after_detail": "R1_REVERSE"
+    },
+    {
+      "before_id": "B69-apertus-V08-S1-DBA-LO-BEI-AU-BEI",
+      "after_id": "B69-apertus-V08-S1-DBA-LN-BEI-AU-BEI",
+      "before_source": "R2：在接待区，许诚被陈明撞倒了。\nR1：在花园，蒋凡，已经被杨宁吓跑了。",
+      "after_source": "R2：在接待区，许诚被陈明撞倒了。\nR1：在花园，蒋凡被杨宁吓跑了。",
+      "gold_before": {
+        "actor": "杨宁",
+        "undergoer": "蒋凡"
+      },
+      "gold_after": {
+        "actor": "杨宁",
+        "undergoer": "蒋凡"
+      },
+      "before_answer": {
+        "actor": "杨宁",
+        "undergoer": "蒋凡"
+      },
+      "after_answer": {
+        "actor": "蒋凡",
+        "undergoer": "杨宁"
+      },
+      "before_detail": "C",
+      "after_detail": "R1_REVERSE"
+    },
+    {
+      "before_id": "B69-apertus-V08-S2-DAB-LO-BA-UA-BA",
+      "after_id": "B69-apertus-V08-S2-DAB-LN-BA-UA-BA",
+      "before_source": "R2：在接待区，沈明把秦明撞倒了。\nR1：在停车场，华明，已经把吴明吓跑了。",
+      "after_source": "R2：在接待区，沈明把秦明撞倒了。\nR1：在停车场，华明把吴明吓跑了。",
+      "gold_before": {
+        "actor": "华明",
+        "undergoer": "吴明"
+      },
+      "gold_after": {
+        "actor": "华明",
+        "undergoer": "吴明"
+      },
+      "before_answer": {
+        "undergoer": "华明",
+        "actor": "吴明"
+      },
+      "after_answer": {
+        "undergoer": "吴明",
+        "actor": "华明"
+      },
+      "before_detail": "R1_REVERSE",
+      "after_detail": "C"
+    },
+    {
+      "before_id": "B69-apertus-V08-S2-DAB-LO-BA-UA-BEI",
+      "after_id": "B69-apertus-V08-S2-DAB-LN-BA-UA-BEI",
+      "before_source": "R2：在接待区，秦明被沈明撞倒了。\nR1：在停车场，华明，已经把吴明吓跑了。",
+      "after_source": "R2：在接待区，秦明被沈明撞倒了。\nR1：在停车场，华明把吴明吓跑了。",
+      "gold_before": {
+        "actor": "华明",
+        "undergoer": "吴明"
+      },
+      "gold_after": {
+        "actor": "华明",
+        "undergoer": "吴明"
+      },
+      "before_answer": {
+        "undergoer": "华明",
+        "actor": "吴明"
+      },
+      "after_answer": {
+        "undergoer": "吴明",
+        "actor": "华明"
+      },
+      "before_detail": "R1_REVERSE",
+      "after_detail": "C"
+    },
+    {
+      "before_id": "B69-apertus-V08-S2-DAB-LO-BEI-AU-BEI",
+      "after_id": "B69-apertus-V08-S2-DAB-LN-BEI-AU-BEI",
+      "before_source": "R2：在接待区，秦明被沈明撞倒了。\nR1：在停车场，吴明，已经被华明吓跑了。",
+      "after_source": "R2：在接待区，秦明被沈明撞倒了。\nR1：在停车场，吴明被华明吓跑了。",
+      "gold_before": {
+        "actor": "华明",
+        "undergoer": "吴明"
+      },
+      "gold_after": {
+        "actor": "华明",
+        "undergoer": "吴明"
+      },
+      "before_answer": {
+        "actor": "华明",
+        "undergoer": "吴明"
+      },
+      "after_answer": {
+        "actor": "吴明",
+        "undergoer": "华明"
+      },
+      "before_detail": "C",
+      "after_detail": "R1_REVERSE"
+    },
+    {
+      "before_id": "B69-apertus-V08-S2-DAB-LO-BEI-AU-NONE",
+      "after_id": "B69-apertus-V08-S2-DAB-LN-BEI-AU-NONE",
+      "before_source": "R1：在停车场，吴明，已经被华明吓跑了。",
+      "after_source": "R1：在停车场，吴明被华明吓跑了。",
+      "gold_before": {
+        "actor": "华明",
+        "undergoer": "吴明"
+      },
+      "gold_after": {
+        "actor": "华明",
+        "undergoer": "吴明"
+      },
+      "before_answer": {
+        "actor": "华明",
+        "undergoer": "吴明"
+      },
+      "after_answer": {
+        "actor": "吴明",
+        "undergoer": "华明"
+      },
+      "before_detail": "C",
+      "after_detail": "R1_REVERSE"
+    },
+    {
+      "before_id": "B69-apertus-V09-S2-DAB-LO-BA-UA-BEI",
+      "after_id": "B69-apertus-V09-S2-DAB-LN-BA-UA-BEI",
+      "before_source": "R2：在接待区，邹凡被严明踢倒了。\nR1：在练习室，许宁，已经把何凡绊倒了。",
+      "after_source": "R2：在接待区，邹凡被严明踢倒了。\nR1：在练习室，许宁把何凡绊倒了。",
+      "gold_before": {
+        "actor": "许宁",
+        "undergoer": "何凡"
+      },
+      "gold_after": {
+        "actor": "许宁",
+        "undergoer": "何凡"
+      },
+      "before_answer": {
+        "undergoer": "许宁",
+        "actor": "何凡"
+      },
+      "after_answer": {
+        "undergoer": "何凡",
+        "actor": "许宁"
+      },
+      "before_detail": "R1_REVERSE",
+      "after_detail": "C"
+    },
+    {
+      "before_id": "B69-apertus-V10-S1-DBA-LO-BA-UA-BA",
+      "after_id": "B69-apertus-V10-S1-DBA-LN-BA-UA-BA",
+      "before_source": "R2：在接待区，蒋明把王凡拍醒了。\nR1：在足球场，韩宁，已经把孙宁撞倒了。",
+      "after_source": "R2：在接待区，蒋明把王凡拍醒了。\nR1：在足球场，韩宁把孙宁撞倒了。",
+      "gold_before": {
+        "actor": "韩宁",
+        "undergoer": "孙宁"
+      },
+      "gold_after": {
+        "actor": "韩宁",
+        "undergoer": "孙宁"
+      },
+      "before_answer": {
+        "undergoer": "韩宁",
+        "actor": "孙宁"
+      },
+      "after_answer": {
+        "undergoer": "孙宁",
+        "actor": "韩宁"
+      },
+      "before_detail": "R1_REVERSE",
+      "after_detail": "C"
+    },
+    {
+      "before_id": "B69-apertus-V10-S2-DAB-LO-BA-UA-BEI",
+      "after_id": "B69-apertus-V10-S2-DAB-LN-BA-UA-BEI",
+      "before_source": "R2：在接待区，魏凡被孔宁拍醒了。\nR1：在溜冰场，赵明，已经把卫凡撞倒了。",
+      "after_source": "R2：在接待区，魏凡被孔宁拍醒了。\nR1：在溜冰场，赵明把卫凡撞倒了。",
+      "gold_before": {
+        "actor": "赵明",
+        "undergoer": "卫凡"
+      },
+      "gold_after": {
+        "actor": "赵明",
+        "undergoer": "卫凡"
+      },
+      "before_answer": {
+        "undergoer": "赵明",
+        "actor": "卫凡"
+      },
+      "after_answer": {
+        "undergoer": "卫凡",
+        "actor": "赵明"
+      },
+      "before_detail": "R1_REVERSE",
+      "after_detail": "C"
+    },
+    {
+      "before_id": "B69-apertus-V10-S2-DBA-LO-BEI-AU-BA",
+      "after_id": "B69-apertus-V10-S2-DBA-LN-BEI-AU-BA",
+      "before_source": "R2：在接待区，孔宁把魏凡拍醒了。\nR1：在溜冰场，赵明，已经被卫凡撞倒了。",
+      "after_source": "R2：在接待区，孔宁把魏凡拍醒了。\nR1：在溜冰场，赵明被卫凡撞倒了。",
+      "gold_before": {
+        "actor": "卫凡",
+        "undergoer": "赵明"
+      },
+      "gold_after": {
+        "actor": "卫凡",
+        "undergoer": "赵明"
+      },
+      "before_answer": {
+        "actor": "赵明",
+        "undergoer": "卫凡"
+      },
+      "after_answer": {
+        "actor": "卫凡",
+        "undergoer": "赵明"
+      },
+      "before_detail": "R1_REVERSE",
+      "after_detail": "C"
+    },
+    {
+      "before_id": "B69-apertus-V10-S2-DBA-LO-BEI-UA-BEI",
+      "after_id": "B69-apertus-V10-S2-DBA-LN-BEI-UA-BEI",
+      "before_source": "R2：在接待区，魏凡被孔宁拍醒了。\nR1：在溜冰场，赵明，已经被卫凡撞倒了。",
+      "after_source": "R2：在接待区，魏凡被孔宁拍醒了。\nR1：在溜冰场，赵明被卫凡撞倒了。",
+      "gold_before": {
+        "actor": "卫凡",
+        "undergoer": "赵明"
+      },
+      "gold_after": {
+        "actor": "卫凡",
+        "undergoer": "赵明"
+      },
+      "before_answer": {
+        "undergoer": "赵明",
+        "actor": "魏凡"
+      },
+      "after_answer": {
+        "undergoer": "赵明",
+        "actor": "卫凡"
+      },
+      "before_detail": "MIXED_OTHER_W",
+      "after_detail": "C"
+    },
+    {
+      "before_id": "B69-apertus-V11-S1-DBA-LO-BA-UA-BA",
+      "after_id": "B69-apertus-V11-S1-DBA-LN-BA-UA-BA",
+      "before_source": "R2：在接待区，杨凡把钱诚劝走了。\nR1：在武术馆，冯明，已经把褚宁踢倒了。",
+      "after_source": "R2：在接待区，杨凡把钱诚劝走了。\nR1：在武术馆，冯明把褚宁踢倒了。",
+      "gold_before": {
+        "actor": "冯明",
+        "undergoer": "褚宁"
+      },
+      "gold_after": {
+        "actor": "冯明",
+        "undergoer": "褚宁"
+      },
+      "before_answer": {
+        "undergoer": "冯明",
+        "actor": "褚宁"
+      },
+      "after_answer": {
+        "undergoer": "褚宁",
+        "actor": "冯明"
+      },
+      "before_detail": "R1_REVERSE",
+      "after_detail": "C"
+    },
+    {
+      "before_id": "B69-apertus-V11-S2-DAB-LO-BEI-AU-BEI",
+      "after_id": "B69-apertus-V11-S2-DAB-LN-BEI-AU-BEI",
+      "before_source": "R2：在接待区，沈诚被曹凡劝走了。\nR1：在训练室，华诚，已经被秦诚踢倒了。",
+      "after_source": "R2：在接待区，沈诚被曹凡劝走了。\nR1：在训练室，华诚被秦诚踢倒了。",
+      "gold_before": {
+        "actor": "秦诚",
+        "undergoer": "华诚"
+      },
+      "gold_after": {
+        "actor": "秦诚",
+        "undergoer": "华诚"
+      },
+      "before_answer": {
+        "actor": "秦诚",
+        "undergoer": "华诚"
+      },
+      "after_answer": {
+        "actor": "华诚",
+        "undergoer": "秦诚"
+      },
+      "before_detail": "C",
+      "after_detail": "R1_REVERSE"
+    },
+    {
+      "before_id": "B69-apertus-V12-S1-DAB-LO-BA-UA-BA",
+      "after_id": "B69-apertus-V12-S1-DAB-LN-BA-UA-BA",
+      "before_source": "R2：在接待区，李凡把张诚喊停了。\nR1：在宿舍，姜诚，已经把吴诚拍醒了。",
+      "after_source": "R2：在接待区，李凡把张诚喊停了。\nR1：在宿舍，姜诚把吴诚拍醒了。",
+      "gold_before": {
+        "actor": "姜诚",
+        "undergoer": "吴诚"
+      },
+      "gold_after": {
+        "actor": "姜诚",
+        "undergoer": "吴诚"
+      },
+      "before_answer": {
+        "undergoer": "姜诚",
+        "actor": "吴诚"
+      },
+      "after_answer": {
+        "undergoer": "吴诚",
+        "actor": "姜诚"
+      },
+      "before_detail": "R1_REVERSE",
+      "after_detail": "C"
+    },
+    {
+      "before_id": "B69-apertus-V13-S2-DAB-LO-BEI-AU-NONE",
+      "after_id": "B69-apertus-V13-S2-DAB-LN-BEI-AU-NONE",
+      "before_source": "R1：在教室，许凡，已经被孙凡劝走了。",
+      "after_source": "R1：在教室，许凡被孙凡劝走了。",
+      "gold_before": {
+        "actor": "孙凡",
+        "undergoer": "许凡"
+      },
+      "gold_after": {
+        "actor": "孙凡",
+        "undergoer": "许凡"
+      },
+      "before_answer": {
+        "actor": "孙凡",
+        "undergoer": "许凡"
+      },
+      "after_answer": {
+        "actor": "许凡",
+        "undergoer": "孙凡"
+      },
+      "before_detail": "C",
+      "after_detail": "R1_REVERSE"
+    },
+    {
+      "before_id": "B69-apertus-V13-S2-DBA-LO-BA-UA-BA",
+      "after_id": "B69-apertus-V13-S2-DBA-LN-BA-UA-BA",
+      "before_source": "R2：在接待区，金凡把赵诚带走了。\nR1：在教室，许凡，已经把孙凡劝走了。",
+      "after_source": "R2：在接待区，金凡把赵诚带走了。\nR1：在教室，许凡把孙凡劝走了。",
+      "gold_before": {
+        "actor": "许凡",
+        "undergoer": "孙凡"
+      },
+      "gold_after": {
+        "actor": "许凡",
+        "undergoer": "孙凡"
+      },
+      "before_answer": {
+        "undergoer": "许凡",
+        "actor": "孙凡"
+      },
+      "after_answer": {
+        "undergoer": "孙凡",
+        "actor": "许凡"
+      },
+      "before_detail": "R1_REVERSE",
+      "after_detail": "C"
+    },
+    {
+      "before_id": "B69-apertus-V14-S1-DAB-LO-BEI-AU-NONE",
+      "after_id": "B69-apertus-V14-S1-DAB-LN-BEI-AU-NONE",
+      "before_source": "R1：在舞蹈室，韩凡，已经被吕诚喊停了。",
+      "after_source": "R1：在舞蹈室，韩凡被吕诚喊停了。",
+      "gold_before": {
+        "actor": "吕诚",
+        "undergoer": "韩凡"
+      },
+      "gold_after": {
+        "actor": "吕诚",
+        "undergoer": "韩凡"
+      },
+      "before_answer": {
+        "actor": "韩凡",
+        "undergoer": "吕诚"
+      },
+      "after_answer": {
+        "actor": "吕诚",
+        "undergoer": "韩凡"
+      },
+      "before_detail": "R1_REVERSE",
+      "after_detail": "C"
+    },
+    {
+      "before_id": "B69-apertus-V14-S1-DBA-LO-BA-UA-BA",
+      "after_id": "B69-apertus-V14-S1-DBA-LN-BA-UA-BA",
+      "before_source": "R2：在接待区，郑凡把褚凡挡住了。\nR1：在舞蹈室，韩凡，已经把吕诚喊停了。",
+      "after_source": "R2：在接待区，郑凡把褚凡挡住了。\nR1：在舞蹈室，韩凡把吕诚喊停了。",
+      "gold_before": {
+        "actor": "韩凡",
+        "undergoer": "吕诚"
+      },
+      "gold_after": {
+        "actor": "韩凡",
+        "undergoer": "吕诚"
+      },
+      "before_answer": {
+        "undergoer": "韩凡",
+        "actor": "韩凡"
+      },
+      "after_answer": {
+        "undergoer": "韩凡",
+        "actor": "吕诚"
+      },
+      "before_detail": "MIXED_OTHER_W",
+      "after_detail": "R1_REVERSE"
+    },
+    {
+      "before_id": "B69-apertus-V14-S1-DBA-LO-BA-UA-BEI",
+      "after_id": "B69-apertus-V14-S1-DBA-LN-BA-UA-BEI",
+      "before_source": "R2：在接待区，褚凡被郑凡挡住了。\nR1：在舞蹈室，韩凡，已经把吕诚喊停了。",
+      "after_source": "R2：在接待区，褚凡被郑凡挡住了。\nR1：在舞蹈室，韩凡把吕诚喊停了。",
+      "gold_before": {
+        "actor": "韩凡",
+        "undergoer": "吕诚"
+      },
+      "gold_after": {
+        "actor": "韩凡",
+        "undergoer": "吕诚"
+      },
+      "before_answer": {
+        "undergoer": "韩凡",
+        "actor": "韩凡"
+      },
+      "after_answer": {
+        "undergoer": "韩凡",
+        "actor": "吕诚"
+      },
+      "before_detail": "MIXED_OTHER_W",
+      "after_detail": "R1_REVERSE"
+    },
+    {
+      "before_id": "B69-apertus-V14-S1-DBA-LO-BA-UA-NONE",
+      "after_id": "B69-apertus-V14-S1-DBA-LN-BA-UA-NONE",
+      "before_source": "R1：在舞蹈室，韩凡，已经把吕诚喊停了。",
+      "after_source": "R1：在舞蹈室，韩凡把吕诚喊停了。",
+      "gold_before": {
+        "actor": "韩凡",
+        "undergoer": "吕诚"
+      },
+      "gold_after": {
+        "actor": "韩凡",
+        "undergoer": "吕诚"
+      },
+      "before_answer": {
+        "undergoer": "韩凡",
+        "actor": "吕诚"
+      },
+      "after_answer": {
+        "undergoer": "吕诚",
+        "actor": "韩凡"
+      },
+      "before_detail": "R1_REVERSE",
+      "after_detail": "C"
+    },
+    {
+      "before_id": "B69-apertus-V15-S1-DAB-LO-BA-UA-BA",
+      "after_id": "B69-apertus-V15-S1-DAB-LN-BA-UA-BA",
+      "before_source": "R2：在接待区，卫明把谢凡推开了。\nR1：在大厅，朱诚，已经把姜宁带走了。",
+      "after_source": "R2：在接待区，卫明把谢凡推开了。\nR1：在大厅，朱诚把姜宁带走了。",
+      "gold_before": {
+        "actor": "朱诚",
+        "undergoer": "姜宁"
+      },
+      "gold_after": {
+        "actor": "朱诚",
+        "undergoer": "姜宁"
+      },
+      "before_answer": {
+        "undergoer": "朱诚",
+        "actor": "null"
+      },
+      "after_answer": {
+        "undergoer": "姜宁",
+        "actor": "朱诚"
+      },
+      "before_detail": "MIXED_OTHER_W",
+      "after_detail": "C"
+    },
+    {
+      "before_id": "B69-apertus-V15-S1-DAB-LO-BA-UA-BEI",
+      "after_id": "B69-apertus-V15-S1-DAB-LN-BA-UA-BEI",
+      "before_source": "R2：在接待区，谢凡被卫明推开了。\nR1：在大厅，朱诚，已经把姜宁带走了。",
+      "after_source": "R2：在接待区，谢凡被卫明推开了。\nR1：在大厅，朱诚把姜宁带走了。",
+      "gold_before": {
+        "actor": "朱诚",
+        "undergoer": "姜宁"
+      },
+      "gold_after": {
+        "actor": "朱诚",
+        "undergoer": "姜宁"
+      },
+      "before_answer": {
+        "undergoer": "朱诚",
+        "actor": "姜宁"
+      },
+      "after_answer": {
+        "undergoer": "姜宁",
+        "actor": "朱诚"
+      },
+      "before_detail": "R1_REVERSE",
+      "after_detail": "C"
+    },
+    {
+      "before_id": "B69-apertus-V15-S1-DAB-LO-BEI-AU-BEI",
+      "after_id": "B69-apertus-V15-S1-DAB-LN-BEI-AU-BEI",
+      "before_source": "R2：在接待区，谢凡被卫明推开了。\nR1：在大厅，姜宁，已经被朱诚带走了。",
+      "after_source": "R2：在接待区，谢凡被卫明推开了。\nR1：在大厅，姜宁被朱诚带走了。",
+      "gold_before": {
+        "actor": "朱诚",
+        "undergoer": "姜宁"
+      },
+      "gold_after": {
+        "actor": "朱诚",
+        "undergoer": "姜宁"
+      },
+      "before_answer": {
+        "actor": "朱诚",
+        "undergoer": "姜宁"
+      },
+      "after_answer": {
+        "actor": "姜宁",
+        "undergoer": "朱诚"
+      },
+      "before_detail": "C",
+      "after_detail": "R1_REVERSE"
+    },
+    {
+      "before_id": "B69-apertus-V15-S1-DBA-LO-BEI-AU-BA",
+      "after_id": "B69-apertus-V15-S1-DBA-LN-BEI-AU-BA",
+      "before_source": "R2：在接待区，卫明把谢凡推开了。\nR1：在大厅，朱诚，已经被姜宁带走了。",
+      "after_source": "R2：在接待区，卫明把谢凡推开了。\nR1：在大厅，朱诚被姜宁带走了。",
+      "gold_before": {
+        "actor": "姜宁",
+        "undergoer": "朱诚"
+      },
+      "gold_after": {
+        "actor": "姜宁",
+        "undergoer": "朱诚"
+      },
+      "before_answer": {
+        "actor": "朱诚",
+        "undergoer": "姜宁"
+      },
+      "after_answer": {
+        "actor": "姜宁",
+        "undergoer": "朱诚"
+      },
+      "before_detail": "R1_REVERSE",
+      "after_detail": "C"
+    },
+    {
+      "before_id": "B69-apertus-V15-S2-DAB-LO-BEI-AU-BEI",
+      "after_id": "B69-apertus-V15-S2-DAB-LN-BEI-AU-BEI",
+      "before_source": "R2：在接待区，冯诚被吴宁推开了。\nR1：在服务台前，秦宁，已经被杨明带走了。",
+      "after_source": "R2：在接待区，冯诚被吴宁推开了。\nR1：在服务台前，秦宁被杨明带走了。",
+      "gold_before": {
+        "actor": "杨明",
+        "undergoer": "秦宁"
+      },
+      "gold_after": {
+        "actor": "杨明",
+        "undergoer": "秦宁"
+      },
+      "before_answer": {
+        "actor": "秦宁",
+        "undergoer": "杨明"
+      },
+      "after_answer": {
+        "actor": "杨明",
+        "undergoer": "秦宁"
+      },
+      "before_detail": "R1_REVERSE",
+      "after_detail": "C"
+    },
+    {
+      "before_id": "B69-apertus-V16-S1-DAB-LO-BEI-AU-BA",
+      "after_id": "B69-apertus-V16-S1-DAB-LN-BEI-AU-BA",
+      "before_source": "R2：在接待区，严诚把陈宁拉住了。\nR1：在通道口，蒋诚，已经被沈宁挡住了。",
+      "after_source": "R2：在接待区，严诚把陈宁拉住了。\nR1：在通道口，蒋诚被沈宁挡住了。",
+      "gold_before": {
+        "actor": "沈宁",
+        "undergoer": "蒋诚"
+      },
+      "gold_after": {
+        "actor": "沈宁",
+        "undergoer": "蒋诚"
+      },
+      "before_answer": {
+        "actor": "蒋诚",
+        "undergoer": "沈宁"
+      },
+      "after_answer": {
+        "actor": "沈宁",
+        "undergoer": "蒋诚"
+      },
+      "before_detail": "R1_REVERSE",
+      "after_detail": "C"
+    },
+    {
+      "before_id": "B69-apertus-V16-S1-DAB-LO-BEI-UA-BA",
+      "after_id": "B69-apertus-V16-S1-DAB-LN-BEI-UA-BA",
+      "before_source": "R2：在接待区，严诚把陈宁拉住了。\nR1：在通道口，蒋诚，已经被沈宁挡住了。",
+      "after_source": "R2：在接待区，严诚把陈宁拉住了。\nR1：在通道口，蒋诚被沈宁挡住了。",
+      "gold_before": {
+        "actor": "沈宁",
+        "undergoer": "蒋诚"
+      },
+      "gold_after": {
+        "actor": "沈宁",
+        "undergoer": "蒋诚"
+      },
+      "before_answer": {
+        "undergoer": "蒋诚",
+        "actor": "沈宁"
+      },
+      "after_answer": {
+        "undergoer": "沈宁",
+        "actor": "蒋诚"
+      },
+      "before_detail": "C",
+      "after_detail": "R1_REVERSE"
+    },
+    {
+      "before_id": "B69-apertus-V16-S1-DAB-LO-BEI-UA-BEI",
+      "after_id": "B69-apertus-V16-S1-DAB-LN-BEI-UA-BEI",
+      "before_source": "R2：在接待区，陈宁被严诚拉住了。\nR1：在通道口，蒋诚，已经被沈宁挡住了。",
+      "after_source": "R2：在接待区，陈宁被严诚拉住了。\nR1：在通道口，蒋诚被沈宁挡住了。",
+      "gold_before": {
+        "actor": "沈宁",
+        "undergoer": "蒋诚"
+      },
+      "gold_after": {
+        "actor": "沈宁",
+        "undergoer": "蒋诚"
+      },
+      "before_answer": {
+        "undergoer": "蒋诚",
+        "actor": "沈宁"
+      },
+      "after_answer": {
+        "undergoer": "沈宁",
+        "actor": "蒋诚"
+      },
+      "before_detail": "C",
+      "after_detail": "R1_REVERSE"
+    },
+    {
+      "before_id": "B69-apertus-V16-S2-DAB-LO-BEI-AU-BA",
+      "after_id": "B69-apertus-V16-S2-DAB-LN-BEI-AU-BA",
+      "before_source": "R2：在接待区，魏明把华宁拉住了。\nR1：在楼梯口，周诚，已经被邹明挡住了。",
+      "after_source": "R2：在接待区，魏明把华宁拉住了。\nR1：在楼梯口，周诚被邹明挡住了。",
+      "gold_before": {
+        "actor": "邹明",
+        "undergoer": "周诚"
+      },
+      "gold_after": {
+        "actor": "邹明",
+        "undergoer": "周诚"
+      },
+      "before_answer": {
+        "actor": "周诚",
+        "undergoer": "邹明"
+      },
+      "after_answer": {
+        "actor": "邹明",
+        "undergoer": "周诚"
+      },
+      "before_detail": "R1_REVERSE",
+      "after_detail": "C"
+    }
+  ],
+  "background_changes": [
+    {
+      "before_id": "B69-qwen-V01-S1-DAB-LO-BEI-AU-BA",
+      "after_id": "B69-qwen-V01-S1-DAB-LO-BEI-AU-BEI",
+      "before_source": "R2：在接待区，许明把吕宁扶起了。\nR1：在排练厅，李诚，已经被蒋宁推开了。",
+      "after_source": "R2：在接待区，吕宁被许明扶起了。\nR1：在排练厅，李诚，已经被蒋宁推开了。",
+      "gold_before": {
+        "actor": "蒋宁",
+        "undergoer": "李诚"
+      },
+      "gold_after": {
+        "actor": "蒋宁",
+        "undergoer": "李诚"
+      },
+      "before_answer": {
+        "actor": "李诚",
+        "undergoer": "蒋宁"
+      },
+      "after_answer": {
+        "actor": "蒋宁",
+        "undergoer": "李诚"
+      },
+      "before_detail": "R1_REVERSE",
+      "after_detail": "C"
+    },
+    {
+      "before_id": "B69-qwen-V01-S2-DBA-LO-BEI-AU-BA",
+      "after_id": "B69-qwen-V01-S2-DBA-LO-BEI-AU-BEI",
+      "before_source": "R2：在接待区，卫诚把谢明扶起了。\nR1：在体育馆，王诚，已经被韩明推开了。",
+      "after_source": "R2：在接待区，谢明被卫诚扶起了。\nR1：在体育馆，王诚，已经被韩明推开了。",
+      "gold_before": {
+        "actor": "韩明",
+        "undergoer": "王诚"
+      },
+      "gold_after": {
+        "actor": "韩明",
+        "undergoer": "王诚"
+      },
+      "before_answer": {
+        "actor": "王诚",
+        "undergoer": "韩明"
+      },
+      "after_answer": {
+        "actor": "韩明",
+        "undergoer": "王诚"
+      },
+      "before_detail": "R1_REVERSE",
+      "after_detail": "C"
+    },
+    {
+      "before_id": "B69-qwen-V01-S2-DBA-LN-BEI-AU-BA",
+      "after_id": "B69-qwen-V01-S2-DBA-LN-BEI-AU-BEI",
+      "before_source": "R2：在接待区，卫诚把谢明扶起了。\nR1：在体育馆，王诚被韩明推开了。",
+      "after_source": "R2：在接待区，谢明被卫诚扶起了。\nR1：在体育馆，王诚被韩明推开了。",
+      "gold_before": {
+        "actor": "韩明",
+        "undergoer": "王诚"
+      },
+      "gold_after": {
+        "actor": "韩明",
+        "undergoer": "王诚"
+      },
+      "before_answer": {
+        "actor": "王诚",
+        "undergoer": "韩明"
+      },
+      "after_answer": {
+        "actor": "韩明",
+        "undergoer": "王诚"
+      },
+      "before_detail": "R1_REVERSE",
+      "after_detail": "C"
+    },
+    {
+      "before_id": "B69-qwen-V02-S1-DAB-LO-BEI-AU-BA",
+      "after_id": "B69-qwen-V02-S1-DAB-LO-BEI-AU-BEI",
+      "before_source": "R2：在接待区，钱凡把姜凡叫醒了。\nR1：在走廊，周宁，已经被陶宁拉住了。",
+      "after_source": "R2：在接待区，姜凡被钱凡叫醒了。\nR1：在走廊，周宁，已经被陶宁拉住了。",
+      "gold_before": {
+        "actor": "陶宁",
+        "undergoer": "周宁"
+      },
+      "gold_after": {
+        "actor": "陶宁",
+        "undergoer": "周宁"
+      },
+      "before_answer": {
+        "actor": "周宁",
+        "undergoer": "陶宁"
+      },
+      "after_answer": {
+        "actor": "陶宁",
+        "undergoer": "周宁"
+      },
+      "before_detail": "R1_REVERSE",
+      "after_detail": "C"
+    },
+    {
+      "before_id": "B69-qwen-V02-S2-DAB-LO-BEI-AU-BA",
+      "after_id": "B69-qwen-V02-S2-DAB-LO-BEI-AU-BEI",
+      "before_source": "R2：在接待区，金明把杨诚叫醒了。\nR1：在站台，朱宁，已经被吴凡拉住了。",
+      "after_source": "R2：在接待区，杨诚被金明叫醒了。\nR1：在站台，朱宁，已经被吴凡拉住了。",
+      "gold_before": {
+        "actor": "吴凡",
+        "undergoer": "朱宁"
+      },
+      "gold_after": {
+        "actor": "吴凡",
+        "undergoer": "朱宁"
+      },
+      "before_answer": {
+        "actor": "朱宁",
+        "undergoer": "吴凡"
+      },
+      "after_answer": {
+        "actor": "吴凡",
+        "undergoer": "朱宁"
+      },
+      "before_detail": "R1_REVERSE",
+      "after_detail": "C"
+    },
+    {
+      "before_id": "B69-qwen-V03-S2-DAB-LO-BEI-AU-BA",
+      "after_id": "B69-qwen-V03-S2-DAB-LO-BEI-AU-BEI",
+      "before_source": "R2：在接待区，沈凡把张凡拦住了。\nR1：在训练场，曹诚，已经被严宁扶起了。",
+      "after_source": "R2：在接待区，张凡被沈凡拦住了。\nR1：在训练场，曹诚，已经被严宁扶起了。",
+      "gold_before": {
+        "actor": "严宁",
+        "undergoer": "曹诚"
+      },
+      "gold_after": {
+        "actor": "严宁",
+        "undergoer": "曹诚"
+      },
+      "before_answer": {
+        "actor": "曹诚",
+        "undergoer": "严宁"
+      },
+      "after_answer": {
+        "actor": "严宁",
+        "undergoer": "曹诚"
+      },
+      "before_detail": "R1_REVERSE",
+      "after_detail": "C"
+    },
+    {
+      "before_id": "B69-qwen-V03-S2-DBA-LO-BEI-AU-BA",
+      "after_id": "B69-qwen-V03-S2-DBA-LO-BEI-AU-BEI",
+      "before_source": "R2：在接待区，沈凡把张凡拦住了。\nR1：在训练场，严宁，已经被曹诚扶起了。",
+      "after_source": "R2：在接待区，张凡被沈凡拦住了。\nR1：在训练场，严宁，已经被曹诚扶起了。",
+      "gold_before": {
+        "actor": "曹诚",
+        "undergoer": "严宁"
+      },
+      "gold_after": {
+        "actor": "曹诚",
+        "undergoer": "严宁"
+      },
+      "before_answer": {
+        "actor": "严宁",
+        "undergoer": "曹诚"
+      },
+      "after_answer": {
+        "actor": "曹诚",
+        "undergoer": "严宁"
+      },
+      "before_detail": "R1_REVERSE",
+      "after_detail": "C"
+    },
+    {
+      "before_id": "B69-qwen-V04-S1-DAB-LO-BEI-AU-BA",
+      "after_id": "B69-qwen-V04-S1-DAB-LO-BEI-AU-BEI",
+      "before_source": "R2：在接待区，何诚把陈凡抱住了。\nR1：在休息室，华凡，已经被郑明叫醒了。",
+      "after_source": "R2：在接待区，陈凡被何诚抱住了。\nR1：在休息室，华凡，已经被郑明叫醒了。",
+      "gold_before": {
+        "actor": "郑明",
+        "undergoer": "华凡"
+      },
+      "gold_after": {
+        "actor": "郑明",
+        "undergoer": "华凡"
+      },
+      "before_answer": {
+        "actor": "华凡",
+        "undergoer": "郑明"
+      },
+      "after_answer": {
+        "actor": "郑明",
+        "undergoer": "华凡"
+      },
+      "before_detail": "R1_REVERSE",
+      "after_detail": "C"
+    },
+    {
+      "before_id": "B69-qwen-V04-S2-DAB-LO-BEI-AU-BA",
+      "after_id": "B69-qwen-V04-S2-DAB-LO-BEI-AU-BEI",
+      "before_source": "R2：在接待区，孔明把冯宁抱住了。\nR1：在候车室，褚明，已经被邹诚叫醒了。",
+      "after_source": "R2：在接待区，冯宁被孔明抱住了。\nR1：在候车室，褚明，已经被邹诚叫醒了。",
+      "gold_before": {
+        "actor": "邹诚",
+        "undergoer": "褚明"
+      },
+      "gold_after": {
+        "actor": "邹诚",
+        "undergoer": "褚明"
+      },
+      "before_answer": {
+        "actor": "褚明",
+        "undergoer": "邹诚"
+      },
+      "after_answer": {
+        "actor": "邹诚",
+        "undergoer": "褚明"
+      },
+      "before_detail": "R1_REVERSE",
+      "after_detail": "C"
+    },
+    {
+      "before_id": "B69-qwen-V04-S2-DAB-LN-BEI-AU-BA",
+      "after_id": "B69-qwen-V04-S2-DAB-LN-BEI-AU-BEI",
+      "before_source": "R2：在接待区，孔明把冯宁抱住了。\nR1：在候车室，褚明被邹诚叫醒了。",
+      "after_source": "R2：在接待区，冯宁被孔明抱住了。\nR1：在候车室，褚明被邹诚叫醒了。",
+      "gold_before": {
+        "actor": "邹诚",
+        "undergoer": "褚明"
+      },
+      "gold_after": {
+        "actor": "邹诚",
+        "undergoer": "褚明"
+      },
+      "before_answer": {
+        "actor": "褚明",
+        "undergoer": "邹诚"
+      },
+      "after_answer": {
+        "actor": "邹诚",
+        "undergoer": "褚明"
+      },
+      "before_detail": "R1_REVERSE",
+      "after_detail": "C"
+    },
+    {
+      "before_id": "B69-qwen-V04-S2-DBA-LO-BEI-AU-BA",
+      "after_id": "B69-qwen-V04-S2-DBA-LO-BEI-AU-BEI",
+      "before_source": "R2：在接待区，孔明把冯宁抱住了。\nR1：在候车室，邹诚，已经被褚明叫醒了。",
+      "after_source": "R2：在接待区，冯宁被孔明抱住了。\nR1：在候车室，邹诚，已经被褚明叫醒了。",
+      "gold_before": {
+        "actor": "褚明",
+        "undergoer": "邹诚"
+      },
+      "gold_after": {
+        "actor": "褚明",
+        "undergoer": "邹诚"
+      },
+      "before_answer": {
+        "actor": "邹诚",
+        "undergoer": "褚明"
+      },
+      "after_answer": {
+        "actor": "褚明",
+        "undergoer": "邹诚"
+      },
+      "before_detail": "R1_REVERSE",
+      "after_detail": "C"
+    },
+    {
+      "before_id": "B69-qwen-V04-S2-DBA-LN-BEI-AU-BA",
+      "after_id": "B69-qwen-V04-S2-DBA-LN-BEI-AU-BEI",
+      "before_source": "R2：在接待区，孔明把冯宁抱住了。\nR1：在候车室，邹诚被褚明叫醒了。",
+      "after_source": "R2：在接待区，冯宁被孔明抱住了。\nR1：在候车室，邹诚被褚明叫醒了。",
+      "gold_before": {
+        "actor": "褚明",
+        "undergoer": "邹诚"
+      },
+      "gold_after": {
+        "actor": "褚明",
+        "undergoer": "邹诚"
+      },
+      "before_answer": {
+        "actor": "褚明",
+        "undergoer": "邹诚"
+      },
+      "after_answer": {
+        "actor": "邹诚",
+        "undergoer": "褚明"
+      },
+      "before_detail": "C",
+      "after_detail": "R1_REVERSE"
+    },
+    {
+      "before_id": "B69-qwen-V05-S1-DBA-LO-BEI-AU-BA",
+      "after_id": "B69-qwen-V05-S1-DBA-LO-BEI-AU-BEI",
+      "before_source": "R2：在接待区，张明把朱凡逗笑了。\nR1：在校门口，魏宁，已经被郑诚拦住了。",
+      "after_source": "R2：在接待区，朱凡被张明逗笑了。\nR1：在校门口，魏宁，已经被郑诚拦住了。",
+      "gold_before": {
+        "actor": "郑诚",
+        "undergoer": "魏宁"
+      },
+      "gold_after": {
+        "actor": "郑诚",
+        "undergoer": "魏宁"
+      },
+      "before_answer": {
+        "actor": "魏宁",
+        "undergoer": "郑诚"
+      },
+      "after_answer": {
+        "actor": "郑诚",
+        "undergoer": "魏宁"
+      },
+      "before_detail": "R1_REVERSE",
+      "after_detail": "C"
+    },
+    {
+      "before_id": "B69-qwen-V05-S2-DBA-LN-BEI-AU-BA",
+      "after_id": "B69-qwen-V05-S2-DBA-LN-BEI-AU-BEI",
+      "before_source": "R2：在接待区，吕凡把陶凡逗笑了。\nR1：在展厅入口，周凡被曹宁拦住了。",
+      "after_source": "R2：在接待区，陶凡被吕凡逗笑了。\nR1：在展厅入口，周凡被曹宁拦住了。",
+      "gold_before": {
+        "actor": "曹宁",
+        "undergoer": "周凡"
+      },
+      "gold_after": {
+        "actor": "曹宁",
+        "undergoer": "周凡"
+      },
+      "before_answer": {
+        "actor": "周凡",
+        "undergoer": "曹宁"
+      },
+      "after_answer": {
+        "actor": "曹宁",
+        "undergoer": "周凡"
+      },
+      "before_detail": "R1_REVERSE",
+      "after_detail": "C"
+    },
+    {
+      "before_id": "B69-qwen-V07-S2-DAB-LO-BEI-AU-BA",
+      "after_id": "B69-qwen-V07-S2-DAB-LO-BEI-AU-BEI",
+      "before_source": "R2：在接待区，何宁把李宁绊倒了。\nR1：在会议室，金诚，已经被严凡逗笑了。",
+      "after_source": "R2：在接待区，李宁被何宁绊倒了。\nR1：在会议室，金诚，已经被严凡逗笑了。",
+      "gold_before": {
+        "actor": "严凡",
+        "undergoer": "金诚"
+      },
+      "gold_after": {
+        "actor": "严凡",
+        "undergoer": "金诚"
+      },
+      "before_answer": {
+        "actor": "金诚",
+        "undergoer": "严凡"
+      },
+      "after_answer": {
+        "actor": "严凡",
+        "undergoer": "金诚"
+      },
+      "before_detail": "R1_REVERSE",
+      "after_detail": "C"
+    },
+    {
+      "before_id": "B69-qwen-V07-S2-DBA-LN-BEI-AU-BA",
+      "after_id": "B69-qwen-V07-S2-DBA-LN-BEI-AU-BEI",
+      "before_source": "R2：在接待区，何宁把李宁绊倒了。\nR1：在会议室，严凡被金诚逗笑了。",
+      "after_source": "R2：在接待区，李宁被何宁绊倒了。\nR1：在会议室，严凡被金诚逗笑了。",
+      "gold_before": {
+        "actor": "金诚",
+        "undergoer": "严凡"
+      },
+      "gold_after": {
+        "actor": "金诚",
+        "undergoer": "严凡"
+      },
+      "before_answer": {
+        "actor": "严凡",
+        "undergoer": "金诚"
+      },
+      "after_answer": {
+        "actor": "金诚",
+        "undergoer": "严凡"
+      },
+      "before_detail": "R1_REVERSE",
+      "after_detail": "C"
+    },
+    {
+      "before_id": "B69-qwen-V08-S1-DBA-LO-BEI-AU-BA",
+      "after_id": "B69-qwen-V08-S1-DBA-LO-BEI-AU-BEI",
+      "before_source": "R2：在接待区，陈明把许诚撞倒了。\nR1：在花园，蒋凡，已经被杨宁吓跑了。",
+      "after_source": "R2：在接待区，许诚被陈明撞倒了。\nR1：在花园，蒋凡，已经被杨宁吓跑了。",
+      "gold_before": {
+        "actor": "杨宁",
+        "undergoer": "蒋凡"
+      },
+      "gold_after": {
+        "actor": "杨宁",
+        "undergoer": "蒋凡"
+      },
+      "before_answer": {
+        "actor": "蒋凡",
+        "undergoer": "杨宁"
+      },
+      "after_answer": {
+        "actor": "杨宁",
+        "undergoer": "蒋凡"
+      },
+      "before_detail": "R1_REVERSE",
+      "after_detail": "C"
+    },
+    {
+      "before_id": "B69-qwen-V08-S2-DAB-LO-BEI-AU-BA",
+      "after_id": "B69-qwen-V08-S2-DAB-LO-BEI-AU-BEI",
+      "before_source": "R2：在接待区，沈明把秦明撞倒了。\nR1：在停车场，吴明，已经被华明吓跑了。",
+      "after_source": "R2：在接待区，秦明被沈明撞倒了。\nR1：在停车场，吴明，已经被华明吓跑了。",
+      "gold_before": {
+        "actor": "华明",
+        "undergoer": "吴明"
+      },
+      "gold_after": {
+        "actor": "华明",
+        "undergoer": "吴明"
+      },
+      "before_answer": {
+        "actor": "吴明",
+        "undergoer": "华明"
+      },
+      "after_answer": {
+        "actor": "华明",
+        "undergoer": "吴明"
+      },
+      "before_detail": "R1_REVERSE",
+      "after_detail": "C"
+    },
+    {
+      "before_id": "B69-qwen-V08-S2-DAB-LN-BEI-AU-BA",
+      "after_id": "B69-qwen-V08-S2-DAB-LN-BEI-AU-BEI",
+      "before_source": "R2：在接待区，沈明把秦明撞倒了。\nR1：在停车场，吴明被华明吓跑了。",
+      "after_source": "R2：在接待区，秦明被沈明撞倒了。\nR1：在停车场，吴明被华明吓跑了。",
+      "gold_before": {
+        "actor": "华明",
+        "undergoer": "吴明"
+      },
+      "gold_after": {
+        "actor": "华明",
+        "undergoer": "吴明"
+      },
+      "before_answer": {
+        "actor": "吴明",
+        "undergoer": "华明"
+      },
+      "after_answer": {
+        "actor": "华明",
+        "undergoer": "吴明"
+      },
+      "before_detail": "R1_REVERSE",
+      "after_detail": "C"
+    },
+    {
+      "before_id": "B69-qwen-V08-S2-DBA-LO-BEI-AU-BA",
+      "after_id": "B69-qwen-V08-S2-DBA-LO-BEI-AU-BEI",
+      "before_source": "R2：在接待区，沈明把秦明撞倒了。\nR1：在停车场，华明，已经被吴明吓跑了。",
+      "after_source": "R2：在接待区，秦明被沈明撞倒了。\nR1：在停车场，华明，已经被吴明吓跑了。",
+      "gold_before": {
+        "actor": "吴明",
+        "undergoer": "华明"
+      },
+      "gold_after": {
+        "actor": "吴明",
+        "undergoer": "华明"
+      },
+      "before_answer": {
+        "actor": "华明",
+        "undergoer": "吴明"
+      },
+      "after_answer": {
+        "actor": "吴明",
+        "undergoer": "华明"
+      },
+      "before_detail": "R1_REVERSE",
+      "after_detail": "C"
+    },
+    {
+      "before_id": "B69-qwen-V08-S2-DBA-LN-BEI-AU-BA",
+      "after_id": "B69-qwen-V08-S2-DBA-LN-BEI-AU-BEI",
+      "before_source": "R2：在接待区，沈明把秦明撞倒了。\nR1：在停车场，华明被吴明吓跑了。",
+      "after_source": "R2：在接待区，秦明被沈明撞倒了。\nR1：在停车场，华明被吴明吓跑了。",
+      "gold_before": {
+        "actor": "吴明",
+        "undergoer": "华明"
+      },
+      "gold_after": {
+        "actor": "吴明",
+        "undergoer": "华明"
+      },
+      "before_answer": {
+        "actor": "华明",
+        "undergoer": "吴明"
+      },
+      "after_answer": {
+        "actor": "吴明",
+        "undergoer": "华明"
+      },
+      "before_detail": "R1_REVERSE",
+      "after_detail": "C"
+    },
+    {
+      "before_id": "B69-qwen-V09-S1-DBA-LO-BEI-AU-BA",
+      "after_id": "B69-qwen-V09-S1-DBA-LO-BEI-AU-BEI",
+      "before_source": "R2：在接待区，金宁把朱明踢倒了。\nR1：在篮球场，陶明，已经被郑宁绊倒了。",
+      "after_source": "R2：在接待区，朱明被金宁踢倒了。\nR1：在篮球场，陶明，已经被郑宁绊倒了。",
+      "gold_before": {
+        "actor": "郑宁",
+        "undergoer": "陶明"
+      },
+      "gold_after": {
+        "actor": "郑宁",
+        "undergoer": "陶明"
+      },
+      "before_answer": {
+        "actor": "陶明",
+        "undergoer": "郑宁"
+      },
+      "after_answer": {
+        "actor": "郑宁",
+        "undergoer": "陶明"
+      },
+      "before_detail": "R1_REVERSE",
+      "after_detail": "C"
+    },
+    {
+      "before_id": "B69-qwen-V14-S1-DAB-LN-BEI-AU-BA",
+      "after_id": "B69-qwen-V14-S1-DAB-LN-BEI-AU-BEI",
+      "before_source": "R2：在接待区，郑凡把褚凡挡住了。\nR1：在舞蹈室，韩凡被吕诚喊停了。",
+      "after_source": "R2：在接待区，褚凡被郑凡挡住了。\nR1：在舞蹈室，韩凡被吕诚喊停了。",
+      "gold_before": {
+        "actor": "吕诚",
+        "undergoer": "韩凡"
+      },
+      "gold_after": {
+        "actor": "吕诚",
+        "undergoer": "韩凡"
+      },
+      "before_answer": {
+        "actor": "韩凡",
+        "undergoer": "吕诚"
+      },
+      "after_answer": {
+        "actor": "吕诚",
+        "undergoer": "韩凡"
+      },
+      "before_detail": "R1_REVERSE",
+      "after_detail": "C"
+    },
+    {
+      "before_id": "B69-qwen-V14-S1-DBA-LO-BEI-AU-BA",
+      "after_id": "B69-qwen-V14-S1-DBA-LO-BEI-AU-BEI",
+      "before_source": "R2：在接待区，郑凡把褚凡挡住了。\nR1：在舞蹈室，吕诚，已经被韩凡喊停了。",
+      "after_source": "R2：在接待区，褚凡被郑凡挡住了。\nR1：在舞蹈室，吕诚，已经被韩凡喊停了。",
+      "gold_before": {
+        "actor": "韩凡",
+        "undergoer": "吕诚"
+      },
+      "gold_after": {
+        "actor": "韩凡",
+        "undergoer": "吕诚"
+      },
+      "before_answer": {
+        "actor": "吕诚",
+        "undergoer": "韩凡"
+      },
+      "after_answer": {
+        "actor": "韩凡",
+        "undergoer": "吕诚"
+      },
+      "before_detail": "R1_REVERSE",
+      "after_detail": "C"
+    },
+    {
+      "before_id": "B69-qwen-V14-S2-DAB-LO-BEI-UA-BA",
+      "after_id": "B69-qwen-V14-S2-DAB-LO-BEI-UA-BEI",
+      "before_source": "R2：在接待区，何明把钱宁挡住了。\nR1：在游泳馆，曹明，已经被张宁喊停了。",
+      "after_source": "R2：在接待区，钱宁被何明挡住了。\nR1：在游泳馆，曹明，已经被张宁喊停了。",
+      "gold_before": {
+        "actor": "张宁",
+        "undergoer": "曹明"
+      },
+      "gold_after": {
+        "actor": "张宁",
+        "undergoer": "曹明"
+      },
+      "before_answer": {
+        "undergoer": "张宁",
+        "actor": "曹明"
+      },
+      "after_answer": {
+        "undergoer": "曹明",
+        "actor": "张宁"
+      },
+      "before_detail": "R1_REVERSE",
+      "after_detail": "C"
+    },
+    {
+      "before_id": "B69-qwen-V14-S2-DBA-LO-BEI-AU-BA",
+      "after_id": "B69-qwen-V14-S2-DBA-LO-BEI-AU-BEI",
+      "before_source": "R2：在接待区，何明把钱宁挡住了。\nR1：在游泳馆，张宁，已经被曹明喊停了。",
+      "after_source": "R2：在接待区，钱宁被何明挡住了。\nR1：在游泳馆，张宁，已经被曹明喊停了。",
+      "gold_before": {
+        "actor": "曹明",
+        "undergoer": "张宁"
+      },
+      "gold_after": {
+        "actor": "曹明",
+        "undergoer": "张宁"
+      },
+      "before_answer": {
+        "actor": "张宁",
+        "undergoer": "曹明"
+      },
+      "after_answer": {
+        "actor": "曹明",
+        "undergoer": "张宁"
+      },
+      "before_detail": "R1_REVERSE",
+      "after_detail": "C"
+    },
+    {
+      "before_id": "B69-qwen-V15-S1-DAB-LO-BEI-AU-BA",
+      "after_id": "B69-qwen-V15-S1-DAB-LO-BEI-AU-BEI",
+      "before_source": "R2：在接待区，卫明把谢凡推开了。\nR1：在大厅，姜宁，已经被朱诚带走了。",
+      "after_source": "R2：在接待区，谢凡被卫明推开了。\nR1：在大厅，姜宁，已经被朱诚带走了。",
+      "gold_before": {
+        "actor": "朱诚",
+        "undergoer": "姜宁"
+      },
+      "gold_after": {
+        "actor": "朱诚",
+        "undergoer": "姜宁"
+      },
+      "before_answer": {
+        "actor": "姜宁",
+        "undergoer": "朱诚"
+      },
+      "after_answer": {
+        "actor": "朱诚",
+        "undergoer": "姜宁"
+      },
+      "before_detail": "R1_REVERSE",
+      "after_detail": "C"
+    },
+    {
+      "before_id": "B69-qwen-V15-S1-DAB-LN-BEI-AU-BA",
+      "after_id": "B69-qwen-V15-S1-DAB-LN-BEI-AU-BEI",
+      "before_source": "R2：在接待区，卫明把谢凡推开了。\nR1：在大厅，姜宁被朱诚带走了。",
+      "after_source": "R2：在接待区，谢凡被卫明推开了。\nR1：在大厅，姜宁被朱诚带走了。",
+      "gold_before": {
+        "actor": "朱诚",
+        "undergoer": "姜宁"
+      },
+      "gold_after": {
+        "actor": "朱诚",
+        "undergoer": "姜宁"
+      },
+      "before_answer": {
+        "actor": "姜宁",
+        "undergoer": "朱诚"
+      },
+      "after_answer": {
+        "actor": "朱诚",
+        "undergoer": "姜宁"
+      },
+      "before_detail": "R1_REVERSE",
+      "after_detail": "C"
+    },
+    {
+      "before_id": "B69-qwen-V15-S1-DBA-LO-BEI-AU-BA",
+      "after_id": "B69-qwen-V15-S1-DBA-LO-BEI-AU-BEI",
+      "before_source": "R2：在接待区，卫明把谢凡推开了。\nR1：在大厅，朱诚，已经被姜宁带走了。",
+      "after_source": "R2：在接待区，谢凡被卫明推开了。\nR1：在大厅，朱诚，已经被姜宁带走了。",
+      "gold_before": {
+        "actor": "姜宁",
+        "undergoer": "朱诚"
+      },
+      "gold_after": {
+        "actor": "姜宁",
+        "undergoer": "朱诚"
+      },
+      "before_answer": {
+        "actor": "朱诚",
+        "undergoer": "姜宁"
+      },
+      "after_answer": {
+        "actor": "姜宁",
+        "undergoer": "朱诚"
+      },
+      "before_detail": "R1_REVERSE",
+      "after_detail": "C"
+    },
+    {
+      "before_id": "B69-qwen-V15-S2-DAB-LO-BEI-AU-BA",
+      "after_id": "B69-qwen-V15-S2-DAB-LO-BEI-AU-BEI",
+      "before_source": "R2：在接待区，吴宁把冯诚推开了。\nR1：在服务台前，秦宁，已经被杨明带走了。",
+      "after_source": "R2：在接待区，冯诚被吴宁推开了。\nR1：在服务台前，秦宁，已经被杨明带走了。",
+      "gold_before": {
+        "actor": "杨明",
+        "undergoer": "秦宁"
+      },
+      "gold_after": {
+        "actor": "杨明",
+        "undergoer": "秦宁"
+      },
+      "before_answer": {
+        "actor": "秦宁",
+        "undergoer": "杨明"
+      },
+      "after_answer": {
+        "actor": "杨明",
+        "undergoer": "秦宁"
+      },
+      "before_detail": "R1_REVERSE",
+      "after_detail": "C"
+    },
+    {
+      "before_id": "B69-qwen-V15-S2-DBA-LO-BEI-AU-BA",
+      "after_id": "B69-qwen-V15-S2-DBA-LO-BEI-AU-BEI",
+      "before_source": "R2：在接待区，吴宁把冯诚推开了。\nR1：在服务台前，杨明，已经被秦宁带走了。",
+      "after_source": "R2：在接待区，冯诚被吴宁推开了。\nR1：在服务台前，杨明，已经被秦宁带走了。",
+      "gold_before": {
+        "actor": "秦宁",
+        "undergoer": "杨明"
+      },
+      "gold_after": {
+        "actor": "秦宁",
+        "undergoer": "杨明"
+      },
+      "before_answer": {
+        "actor": "杨明",
+        "undergoer": "秦宁"
+      },
+      "after_answer": {
+        "actor": "秦宁",
+        "undergoer": "杨明"
+      },
+      "before_detail": "R1_REVERSE",
+      "after_detail": "C"
+    },
+    {
+      "before_id": "B69-qwen-V16-S1-DBA-LO-BEI-AU-BA",
+      "after_id": "B69-qwen-V16-S1-DBA-LO-BEI-AU-BEI",
+      "before_source": "R2：在接待区，严诚把陈宁拉住了。\nR1：在通道口，沈宁，已经被蒋诚挡住了。",
+      "after_source": "R2：在接待区，陈宁被严诚拉住了。\nR1：在通道口，沈宁，已经被蒋诚挡住了。",
+      "gold_before": {
+        "actor": "蒋诚",
+        "undergoer": "沈宁"
+      },
+      "gold_after": {
+        "actor": "蒋诚",
+        "undergoer": "沈宁"
+      },
+      "before_answer": {
+        "actor": "沈宁",
+        "undergoer": "蒋诚"
+      },
+      "after_answer": {
+        "actor": "蒋诚",
+        "undergoer": "沈宁"
+      },
+      "before_detail": "R1_REVERSE",
+      "after_detail": "C"
+    },
+    {
+      "before_id": "B69-apertus-V01-S1-DBA-LN-BA-UA-BEI",
+      "after_id": "B69-apertus-V01-S1-DBA-LN-BA-UA-BA",
+      "before_source": "R2：在接待区，吕宁被许明扶起了。\nR1：在排练厅，李诚把蒋宁推开了。",
+      "after_source": "R2：在接待区，许明把吕宁扶起了。\nR1：在排练厅，李诚把蒋宁推开了。",
+      "gold_before": {
+        "actor": "李诚",
+        "undergoer": "蒋宁"
+      },
+      "gold_after": {
+        "actor": "李诚",
+        "undergoer": "蒋宁"
+      },
+      "before_answer": {
+        "undergoer": "李诚",
+        "actor": "蒋宁"
+      },
+      "after_answer": {
+        "undergoer": "蒋宁",
+        "actor": "李诚"
+      },
+      "before_detail": "R1_REVERSE",
+      "after_detail": "C"
+    },
+    {
+      "before_id": "B69-apertus-V01-S2-DBA-LO-BEI-AU-BA",
+      "after_id": "B69-apertus-V01-S2-DBA-LO-BEI-AU-BEI",
+      "before_source": "R2：在接待区，卫诚把谢明扶起了。\nR1：在体育馆，王诚，已经被韩明推开了。",
+      "after_source": "R2：在接待区，谢明被卫诚扶起了。\nR1：在体育馆，王诚，已经被韩明推开了。",
+      "gold_before": {
+        "actor": "韩明",
+        "undergoer": "王诚"
+      },
+      "gold_after": {
+        "actor": "韩明",
+        "undergoer": "王诚"
+      },
+      "before_answer": {
+        "actor": "王诚",
+        "undergoer": "韩明"
+      },
+      "after_answer": {
+        "actor": "韩明",
+        "undergoer": "王诚"
+      },
+      "before_detail": "R1_REVERSE",
+      "after_detail": "C"
+    },
+    {
+      "before_id": "B69-apertus-V01-S2-DBA-LN-BEI-AU-BA",
+      "after_id": "B69-apertus-V01-S2-DBA-LN-BEI-AU-BEI",
+      "before_source": "R2：在接待区，卫诚把谢明扶起了。\nR1：在体育馆，王诚被韩明推开了。",
+      "after_source": "R2：在接待区，谢明被卫诚扶起了。\nR1：在体育馆，王诚被韩明推开了。",
+      "gold_before": {
+        "actor": "韩明",
+        "undergoer": "王诚"
+      },
+      "gold_after": {
+        "actor": "韩明",
+        "undergoer": "王诚"
+      },
+      "before_answer": {
+        "actor": "王诚",
+        "undergoer": "韩明"
+      },
+      "after_answer": {
+        "actor": "韩明",
+        "undergoer": "王诚"
+      },
+      "before_detail": "R1_REVERSE",
+      "after_detail": "C"
+    },
+    {
+      "before_id": "B69-apertus-V03-S1-DBA-LO-BA-UA-BEI",
+      "after_id": "B69-apertus-V03-S1-DBA-LO-BA-UA-BA",
+      "before_source": "R2：在接待区，孙明被魏诚拦住了。\nR1：在操场，赵宁，已经把秦凡扶起了。",
+      "after_source": "R2：在接待区，魏诚把孙明拦住了。\nR1：在操场，赵宁，已经把秦凡扶起了。",
+      "gold_before": {
+        "actor": "赵宁",
+        "undergoer": "秦凡"
+      },
+      "gold_after": {
+        "actor": "赵宁",
+        "undergoer": "秦凡"
+      },
+      "before_answer": {
+        "undergoer": "赵宁",
+        "actor": "秦凡"
+      },
+      "after_answer": {
+        "undergoer": "秦凡",
+        "actor": "赵宁"
+      },
+      "before_detail": "R1_REVERSE",
+      "after_detail": "C"
+    },
+    {
+      "before_id": "B69-apertus-V03-S1-DBA-LO-BEI-AU-BA",
+      "after_id": "B69-apertus-V03-S1-DBA-LO-BEI-AU-BEI",
+      "before_source": "R2：在接待区，魏诚把孙明拦住了。\nR1：在操场，秦凡，已经被赵宁扶起了。",
+      "after_source": "R2：在接待区，孙明被魏诚拦住了。\nR1：在操场，秦凡，已经被赵宁扶起了。",
+      "gold_before": {
+        "actor": "赵宁",
+        "undergoer": "秦凡"
+      },
+      "gold_after": {
+        "actor": "赵宁",
+        "undergoer": "秦凡"
+      },
+      "before_answer": {
+        "actor": "秦凡",
+        "undergoer": "赵宁"
+      },
+      "after_answer": {
+        "actor": "赵宁",
+        "undergoer": "秦凡"
+      },
+      "before_detail": "R1_REVERSE",
+      "after_detail": "C"
+    },
+    {
+      "before_id": "B69-apertus-V03-S2-DAB-LO-BEI-UA-BA",
+      "after_id": "B69-apertus-V03-S2-DAB-LO-BEI-UA-BEI",
+      "before_source": "R2：在接待区，沈凡把张凡拦住了。\nR1：在训练场，曹诚，已经被严宁扶起了。",
+      "after_source": "R2：在接待区，张凡被沈凡拦住了。\nR1：在训练场，曹诚，已经被严宁扶起了。",
+      "gold_before": {
+        "actor": "严宁",
+        "undergoer": "曹诚"
+      },
+      "gold_after": {
+        "actor": "严宁",
+        "undergoer": "曹诚"
+      },
+      "before_answer": {
+        "undergoer": "严宁",
+        "actor": "曹诚"
+      },
+      "after_answer": {
+        "undergoer": "曹诚",
+        "actor": "严宁"
+      },
+      "before_detail": "R1_REVERSE",
+      "after_detail": "C"
+    },
+    {
+      "before_id": "B69-apertus-V04-S1-DAB-LO-BA-UA-BEI",
+      "after_id": "B69-apertus-V04-S1-DAB-LO-BA-UA-BA",
+      "before_source": "R2：在接待区，陈凡被何诚抱住了。\nR1：在休息室，郑明，已经把华凡叫醒了。",
+      "after_source": "R2：在接待区，何诚把陈凡抱住了。\nR1：在休息室，郑明，已经把华凡叫醒了。",
+      "gold_before": {
+        "actor": "郑明",
+        "undergoer": "华凡"
+      },
+      "gold_after": {
+        "actor": "郑明",
+        "undergoer": "华凡"
+      },
+      "before_answer": {
+        "undergoer": "郑明",
+        "actor": "华凡"
+      },
+      "after_answer": {
+        "undergoer": "华凡",
+        "actor": "郑明"
+      },
+      "before_detail": "R1_REVERSE",
+      "after_detail": "C"
+    },
+    {
+      "before_id": "B69-apertus-V04-S1-DAB-LN-BA-UA-BEI",
+      "after_id": "B69-apertus-V04-S1-DAB-LN-BA-UA-BA",
+      "before_source": "R2：在接待区，陈凡被何诚抱住了。\nR1：在休息室，郑明把华凡叫醒了。",
+      "after_source": "R2：在接待区，何诚把陈凡抱住了。\nR1：在休息室，郑明把华凡叫醒了。",
+      "gold_before": {
+        "actor": "郑明",
+        "undergoer": "华凡"
+      },
+      "gold_after": {
+        "actor": "郑明",
+        "undergoer": "华凡"
+      },
+      "before_answer": {
+        "undergoer": "郑明",
+        "actor": "华凡"
+      },
+      "after_answer": {
+        "undergoer": "华凡",
+        "actor": "郑明"
+      },
+      "before_detail": "R1_REVERSE",
+      "after_detail": "C"
+    },
+    {
+      "before_id": "B69-apertus-V04-S1-DAB-LO-BEI-AU-BA",
+      "after_id": "B69-apertus-V04-S1-DAB-LO-BEI-AU-BEI",
+      "before_source": "R2：在接待区，何诚把陈凡抱住了。\nR1：在休息室，华凡，已经被郑明叫醒了。",
+      "after_source": "R2：在接待区，陈凡被何诚抱住了。\nR1：在休息室，华凡，已经被郑明叫醒了。",
+      "gold_before": {
+        "actor": "郑明",
+        "undergoer": "华凡"
+      },
+      "gold_after": {
+        "actor": "郑明",
+        "undergoer": "华凡"
+      },
+      "before_answer": {
+        "actor": "华凡",
+        "undergoer": "郑明"
+      },
+      "after_answer": {
+        "actor": "郑明",
+        "undergoer": "华凡"
+      },
+      "before_detail": "R1_REVERSE",
+      "after_detail": "C"
+    },
+    {
+      "before_id": "B69-apertus-V04-S1-DBA-LO-BEI-AU-BA",
+      "after_id": "B69-apertus-V04-S1-DBA-LO-BEI-AU-BEI",
+      "before_source": "R2：在接待区，何诚把陈凡抱住了。\nR1：在休息室，郑明，已经被华凡叫醒了。",
+      "after_source": "R2：在接待区，陈凡被何诚抱住了。\nR1：在休息室，郑明，已经被华凡叫醒了。",
+      "gold_before": {
+        "actor": "华凡",
+        "undergoer": "郑明"
+      },
+      "gold_after": {
+        "actor": "华凡",
+        "undergoer": "郑明"
+      },
+      "before_answer": {
+        "actor": "郑明",
+        "undergoer": "郑明"
+      },
+      "after_answer": {
+        "actor": "郑明",
+        "undergoer": "华凡"
+      },
+      "before_detail": "MIXED_OTHER_W",
+      "after_detail": "R1_REVERSE"
+    },
+    {
+      "before_id": "B69-apertus-V04-S2-DAB-LO-BEI-AU-BA",
+      "after_id": "B69-apertus-V04-S2-DAB-LO-BEI-AU-BEI",
+      "before_source": "R2：在接待区，孔明把冯宁抱住了。\nR1：在候车室，褚明，已经被邹诚叫醒了。",
+      "after_source": "R2：在接待区，冯宁被孔明抱住了。\nR1：在候车室，褚明，已经被邹诚叫醒了。",
+      "gold_before": {
+        "actor": "邹诚",
+        "undergoer": "褚明"
+      },
+      "gold_after": {
+        "actor": "邹诚",
+        "undergoer": "褚明"
+      },
+      "before_answer": {
+        "actor": "褚明",
+        "undergoer": "邹诚"
+      },
+      "after_answer": {
+        "actor": "邹诚",
+        "undergoer": "褚明"
+      },
+      "before_detail": "R1_REVERSE",
+      "after_detail": "C"
+    },
+    {
+      "before_id": "B69-apertus-V04-S2-DAB-LN-BEI-AU-BA",
+      "after_id": "B69-apertus-V04-S2-DAB-LN-BEI-AU-BEI",
+      "before_source": "R2：在接待区，孔明把冯宁抱住了。\nR1：在候车室，褚明被邹诚叫醒了。",
+      "after_source": "R2：在接待区，冯宁被孔明抱住了。\nR1：在候车室，褚明被邹诚叫醒了。",
+      "gold_before": {
+        "actor": "邹诚",
+        "undergoer": "褚明"
+      },
+      "gold_after": {
+        "actor": "邹诚",
+        "undergoer": "褚明"
+      },
+      "before_answer": {
+        "actor": "褚明",
+        "undergoer": "邹诚"
+      },
+      "after_answer": {
+        "actor": "邹诚",
+        "undergoer": "褚明"
+      },
+      "before_detail": "R1_REVERSE",
+      "after_detail": "C"
+    },
+    {
+      "before_id": "B69-apertus-V05-S1-DBA-LO-BEI-AU-BA",
+      "after_id": "B69-apertus-V05-S1-DBA-LO-BEI-AU-BEI",
+      "before_source": "R2：在接待区，张明把朱凡逗笑了。\nR1：在校门口，魏宁，已经被郑诚拦住了。",
+      "after_source": "R2：在接待区，朱凡被张明逗笑了。\nR1：在校门口，魏宁，已经被郑诚拦住了。",
+      "gold_before": {
+        "actor": "郑诚",
+        "undergoer": "魏宁"
+      },
+      "gold_after": {
+        "actor": "郑诚",
+        "undergoer": "魏宁"
+      },
+      "before_answer": {
+        "actor": "魏宁",
+        "undergoer": "郑诚"
+      },
+      "after_answer": {
+        "actor": "郑诚",
+        "undergoer": "魏宁"
+      },
+      "before_detail": "R1_REVERSE",
+      "after_detail": "C"
+    },
+    {
+      "before_id": "B69-apertus-V05-S2-DAB-LO-BA-UA-BEI",
+      "after_id": "B69-apertus-V05-S2-DAB-LO-BA-UA-BA",
+      "before_source": "R2：在接待区，陶凡被吕凡逗笑了。\nR1：在展厅入口，周凡，已经把曹宁拦住了。",
+      "after_source": "R2：在接待区，吕凡把陶凡逗笑了。\nR1：在展厅入口，周凡，已经把曹宁拦住了。",
+      "gold_before": {
+        "actor": "周凡",
+        "undergoer": "曹宁"
+      },
+      "gold_after": {
+        "actor": "周凡",
+        "undergoer": "曹宁"
+      },
+      "before_answer": {
+        "undergoer": "周凡",
+        "actor": "曹宁"
+      },
+      "after_answer": {
+        "undergoer": "曹宁",
+        "actor": "周凡"
+      },
+      "before_detail": "R1_REVERSE",
+      "after_detail": "C"
+    },
+    {
+      "before_id": "B69-apertus-V05-S2-DAB-LN-BA-UA-BEI",
+      "after_id": "B69-apertus-V05-S2-DAB-LN-BA-UA-BA",
+      "before_source": "R2：在接待区，陶凡被吕凡逗笑了。\nR1：在展厅入口，周凡把曹宁拦住了。",
+      "after_source": "R2：在接待区，吕凡把陶凡逗笑了。\nR1：在展厅入口，周凡把曹宁拦住了。",
+      "gold_before": {
+        "actor": "周凡",
+        "undergoer": "曹宁"
+      },
+      "gold_after": {
+        "actor": "周凡",
+        "undergoer": "曹宁"
+      },
+      "before_answer": {
+        "undergoer": "周凡",
+        "actor": "曹宁"
+      },
+      "after_answer": {
+        "undergoer": "曹宁",
+        "actor": "周凡"
+      },
+      "before_detail": "R1_REVERSE",
+      "after_detail": "C"
+    },
+    {
+      "before_id": "B69-apertus-V05-S2-DAB-LO-BEI-AU-BA",
+      "after_id": "B69-apertus-V05-S2-DAB-LO-BEI-AU-BEI",
+      "before_source": "R2：在接待区，吕凡把陶凡逗笑了。\nR1：在展厅入口，曹宁，已经被周凡拦住了。",
+      "after_source": "R2：在接待区，陶凡被吕凡逗笑了。\nR1：在展厅入口，曹宁，已经被周凡拦住了。",
+      "gold_before": {
+        "actor": "周凡",
+        "undergoer": "曹宁"
+      },
+      "gold_after": {
+        "actor": "周凡",
+        "undergoer": "曹宁"
+      },
+      "before_answer": {
+        "actor": "曹宁",
+        "undergoer": "周凡"
+      },
+      "after_answer": {
+        "actor": "周凡",
+        "undergoer": "曹宁"
+      },
+      "before_detail": "R1_REVERSE",
+      "after_detail": "C"
+    },
+    {
+      "before_id": "B69-apertus-V06-S1-DBA-LN-BA-UA-BEI",
+      "after_id": "B69-apertus-V06-S1-DBA-LN-BA-UA-BA",
+      "before_source": "R2：在接待区，谢诚被卫宁吓跑了。\nR1：在接待室，姜明把孙诚抱住了。",
+      "after_source": "R2：在接待区，卫宁把谢诚吓跑了。\nR1：在接待室，姜明把孙诚抱住了。",
+      "gold_before": {
+        "actor": "姜明",
+        "undergoer": "孙诚"
+      },
+      "gold_after": {
+        "actor": "姜明",
+        "undergoer": "孙诚"
+      },
+      "before_answer": {
+        "undergoer": "姜明",
+        "actor": "孙诚"
+      },
+      "after_answer": {
+        "undergoer": "孙诚",
+        "actor": "姜明"
+      },
+      "before_detail": "R1_REVERSE",
+      "after_detail": "C"
+    },
+    {
+      "before_id": "B69-apertus-V06-S1-DBA-LN-BEI-AU-BA",
+      "after_id": "B69-apertus-V06-S1-DBA-LN-BEI-AU-BEI",
+      "before_source": "R2：在接待区，卫宁把谢诚吓跑了。\nR1：在接待室，孙诚被姜明抱住了。",
+      "after_source": "R2：在接待区，谢诚被卫宁吓跑了。\nR1：在接待室，孙诚被姜明抱住了。",
+      "gold_before": {
+        "actor": "姜明",
+        "undergoer": "孙诚"
+      },
+      "gold_after": {
+        "actor": "姜明",
+        "undergoer": "孙诚"
+      },
+      "before_answer": {
+        "actor": "姜明",
+        "undergoer": "孙诚"
+      },
+      "after_answer": {
+        "actor": "孙诚",
+        "undergoer": "姜明"
+      },
+      "before_detail": "C",
+      "after_detail": "R1_REVERSE"
+    },
+    {
+      "before_id": "B69-apertus-V06-S2-DAB-LO-BA-UA-BEI",
+      "after_id": "B69-apertus-V06-S2-DAB-LO-BA-UA-BA",
+      "before_source": "R2：在接待区，赵凡被冯凡吓跑了。\nR1：在院子，邹宁，已经把孔诚抱住了。",
+      "after_source": "R2：在接待区，冯凡把赵凡吓跑了。\nR1：在院子，邹宁，已经把孔诚抱住了。",
+      "gold_before": {
+        "actor": "邹宁",
+        "undergoer": "孔诚"
+      },
+      "gold_after": {
+        "actor": "邹宁",
+        "undergoer": "孔诚"
+      },
+      "before_answer": {
+        "undergoer": "邹宁",
+        "actor": "孔诚"
+      },
+      "after_answer": {
+        "undergoer": "孔诚",
+        "actor": "邹宁"
+      },
+      "before_detail": "R1_REVERSE",
+      "after_detail": "C"
+    },
+    {
+      "before_id": "B69-apertus-V07-S1-DAB-LO-BEI-AU-BA",
+      "after_id": "B69-apertus-V07-S1-DAB-LO-BEI-AU-BEI",
+      "before_source": "R2：在接待区，钱明把王宁绊倒了。\nR1：在活动室，褚诚，已经被韩诚逗笑了。",
+      "after_source": "R2：在接待区，王宁被钱明绊倒了。\nR1：在活动室，褚诚，已经被韩诚逗笑了。",
+      "gold_before": {
+        "actor": "韩诚",
+        "undergoer": "褚诚"
+      },
+      "gold_after": {
+        "actor": "韩诚",
+        "undergoer": "褚诚"
+      },
+      "before_answer": {
+        "actor": "褚诚",
+        "undergoer": "韩诚"
+      },
+      "after_answer": {
+        "actor": "韩诚",
+        "undergoer": "褚诚"
+      },
+      "before_detail": "R1_REVERSE",
+      "after_detail": "C"
+    },
+    {
+      "before_id": "B69-apertus-V07-S1-DBA-LO-BA-UA-BEI",
+      "after_id": "B69-apertus-V07-S1-DBA-LO-BA-UA-BA",
+      "before_source": "R2：在接待区，王宁被钱明绊倒了。\nR1：在活动室，褚诚，已经把韩诚逗笑了。",
+      "after_source": "R2：在接待区，钱明把王宁绊倒了。\nR1：在活动室，褚诚，已经把韩诚逗笑了。",
+      "gold_before": {
+        "actor": "褚诚",
+        "undergoer": "韩诚"
+      },
+      "gold_after": {
+        "actor": "褚诚",
+        "undergoer": "韩诚"
+      },
+      "before_answer": {
+        "undergoer": "褚诚",
+        "actor": "韩诚"
+      },
+      "after_answer": {
+        "undergoer": "韩诚",
+        "actor": "褚诚"
+      },
+      "before_detail": "R1_REVERSE",
+      "after_detail": "C"
+    },
+    {
+      "before_id": "B69-apertus-V07-S2-DAB-LN-BA-UA-BEI",
+      "after_id": "B69-apertus-V07-S2-DAB-LN-BA-UA-BA",
+      "before_source": "R2：在接待区，李宁被何宁绊倒了。\nR1：在会议室，严凡把金诚逗笑了。",
+      "after_source": "R2：在接待区，何宁把李宁绊倒了。\nR1：在会议室，严凡把金诚逗笑了。",
+      "gold_before": {
+        "actor": "严凡",
+        "undergoer": "金诚"
+      },
+      "gold_after": {
+        "actor": "严凡",
+        "undergoer": "金诚"
+      },
+      "before_answer": {
+        "undergoer": "严凡",
+        "actor": "金诚"
+      },
+      "after_answer": {
+        "undergoer": "金诚",
+        "actor": "严凡"
+      },
+      "before_detail": "R1_REVERSE",
+      "after_detail": "C"
+    },
+    {
+      "before_id": "B69-apertus-V07-S2-DBA-LO-BA-UA-BEI",
+      "after_id": "B69-apertus-V07-S2-DBA-LO-BA-UA-BA",
+      "before_source": "R2：在接待区，李宁被何宁绊倒了。\nR1：在会议室，金诚，已经把严凡逗笑了。",
+      "after_source": "R2：在接待区，何宁把李宁绊倒了。\nR1：在会议室，金诚，已经把严凡逗笑了。",
+      "gold_before": {
+        "actor": "金诚",
+        "undergoer": "严凡"
+      },
+      "gold_after": {
+        "actor": "金诚",
+        "undergoer": "严凡"
+      },
+      "before_answer": {
+        "undergoer": "金诚",
+        "actor": "严凡"
+      },
+      "after_answer": {
+        "undergoer": "严凡",
+        "actor": "金诚"
+      },
+      "before_detail": "R1_REVERSE",
+      "after_detail": "C"
+    },
+    {
+      "before_id": "B69-apertus-V08-S1-DBA-LO-BA-UA-BEI",
+      "after_id": "B69-apertus-V08-S1-DBA-LO-BA-UA-BA",
+      "before_source": "R2：在接待区，许诚被陈明撞倒了。\nR1：在花园，杨宁，已经把蒋凡吓跑了。",
+      "after_source": "R2：在接待区，陈明把许诚撞倒了。\nR1：在花园，杨宁，已经把蒋凡吓跑了。",
+      "gold_before": {
+        "actor": "杨宁",
+        "undergoer": "蒋凡"
+      },
+      "gold_after": {
+        "actor": "杨宁",
+        "undergoer": "蒋凡"
+      },
+      "before_answer": {
+        "undergoer": "杨宁",
+        "actor": "null"
+      },
+      "after_answer": {
+        "undergoer": "蒋凡",
+        "actor": "杨宁"
+      },
+      "before_detail": "MIXED_OTHER_W",
+      "after_detail": "C"
+    },
+    {
+      "before_id": "B69-apertus-V08-S1-DBA-LN-BA-UA-BEI",
+      "after_id": "B69-apertus-V08-S1-DBA-LN-BA-UA-BA",
+      "before_source": "R2：在接待区，许诚被陈明撞倒了。\nR1：在花园，杨宁把蒋凡吓跑了。",
+      "after_source": "R2：在接待区，陈明把许诚撞倒了。\nR1：在花园，杨宁把蒋凡吓跑了。",
+      "gold_before": {
+        "actor": "杨宁",
+        "undergoer": "蒋凡"
+      },
+      "gold_after": {
+        "actor": "杨宁",
+        "undergoer": "蒋凡"
+      },
+      "before_answer": {
+        "undergoer": "杨宁",
+        "actor": "蒋凡"
+      },
+      "after_answer": {
+        "undergoer": "蒋凡",
+        "actor": "杨宁"
+      },
+      "before_detail": "R1_REVERSE",
+      "after_detail": "C"
+    },
+    {
+      "before_id": "B69-apertus-V08-S1-DBA-LO-BEI-AU-BA",
+      "after_id": "B69-apertus-V08-S1-DBA-LO-BEI-AU-BEI",
+      "before_source": "R2：在接待区，陈明把许诚撞倒了。\nR1：在花园，蒋凡，已经被杨宁吓跑了。",
+      "after_source": "R2：在接待区，许诚被陈明撞倒了。\nR1：在花园，蒋凡，已经被杨宁吓跑了。",
+      "gold_before": {
+        "actor": "杨宁",
+        "undergoer": "蒋凡"
+      },
+      "gold_after": {
+        "actor": "杨宁",
+        "undergoer": "蒋凡"
+      },
+      "before_answer": {
+        "actor": "蒋凡",
+        "undergoer": "杨宁"
+      },
+      "after_answer": {
+        "actor": "杨宁",
+        "undergoer": "蒋凡"
+      },
+      "before_detail": "R1_REVERSE",
+      "after_detail": "C"
+    },
+    {
+      "before_id": "B69-apertus-V08-S2-DAB-LO-BEI-AU-BA",
+      "after_id": "B69-apertus-V08-S2-DAB-LO-BEI-AU-BEI",
+      "before_source": "R2：在接待区，沈明把秦明撞倒了。\nR1：在停车场，吴明，已经被华明吓跑了。",
+      "after_source": "R2：在接待区，秦明被沈明撞倒了。\nR1：在停车场，吴明，已经被华明吓跑了。",
+      "gold_before": {
+        "actor": "华明",
+        "undergoer": "吴明"
+      },
+      "gold_after": {
+        "actor": "华明",
+        "undergoer": "吴明"
+      },
+      "before_answer": {
+        "actor": "吴明",
+        "undergoer": "华明"
+      },
+      "after_answer": {
+        "actor": "华明",
+        "undergoer": "吴明"
+      },
+      "before_detail": "R1_REVERSE",
+      "after_detail": "C"
+    },
+    {
+      "before_id": "B69-apertus-V09-S2-DAB-LO-BA-UA-BEI",
+      "after_id": "B69-apertus-V09-S2-DAB-LO-BA-UA-BA",
+      "before_source": "R2：在接待区，邹凡被严明踢倒了。\nR1：在练习室，许宁，已经把何凡绊倒了。",
+      "after_source": "R2：在接待区，严明把邹凡踢倒了。\nR1：在练习室，许宁，已经把何凡绊倒了。",
+      "gold_before": {
+        "actor": "许宁",
+        "undergoer": "何凡"
+      },
+      "gold_after": {
+        "actor": "许宁",
+        "undergoer": "何凡"
+      },
+      "before_answer": {
+        "undergoer": "许宁",
+        "actor": "何凡"
+      },
+      "after_answer": {
+        "undergoer": "何凡",
+        "actor": "许宁"
+      },
+      "before_detail": "R1_REVERSE",
+      "after_detail": "C"
+    },
+    {
+      "before_id": "B69-apertus-V10-S1-DBA-LN-BA-UA-BEI",
+      "after_id": "B69-apertus-V10-S1-DBA-LN-BA-UA-BA",
+      "before_source": "R2：在接待区，王凡被蒋明拍醒了。\nR1：在足球场，韩宁把孙宁撞倒了。",
+      "after_source": "R2：在接待区，蒋明把王凡拍醒了。\nR1：在足球场，韩宁把孙宁撞倒了。",
+      "gold_before": {
+        "actor": "韩宁",
+        "undergoer": "孙宁"
+      },
+      "gold_after": {
+        "actor": "韩宁",
+        "undergoer": "孙宁"
+      },
+      "before_answer": {
+        "undergoer": "韩宁",
+        "actor": "孙宁"
+      },
+      "after_answer": {
+        "undergoer": "孙宁",
+        "actor": "韩宁"
+      },
+      "before_detail": "R1_REVERSE",
+      "after_detail": "C"
+    },
+    {
+      "before_id": "B69-apertus-V10-S2-DAB-LO-BA-UA-BEI",
+      "after_id": "B69-apertus-V10-S2-DAB-LO-BA-UA-BA",
+      "before_source": "R2：在接待区，魏凡被孔宁拍醒了。\nR1：在溜冰场，赵明，已经把卫凡撞倒了。",
+      "after_source": "R2：在接待区，孔宁把魏凡拍醒了。\nR1：在溜冰场，赵明，已经把卫凡撞倒了。",
+      "gold_before": {
+        "actor": "赵明",
+        "undergoer": "卫凡"
+      },
+      "gold_after": {
+        "actor": "赵明",
+        "undergoer": "卫凡"
+      },
+      "before_answer": {
+        "undergoer": "赵明",
+        "actor": "卫凡"
+      },
+      "after_answer": {
+        "undergoer": "卫凡",
+        "actor": "赵明"
+      },
+      "before_detail": "R1_REVERSE",
+      "after_detail": "C"
+    },
+    {
+      "before_id": "B69-apertus-V10-S2-DBA-LN-BEI-AU-BA",
+      "after_id": "B69-apertus-V10-S2-DBA-LN-BEI-AU-BEI",
+      "before_source": "R2：在接待区，孔宁把魏凡拍醒了。\nR1：在溜冰场，赵明被卫凡撞倒了。",
+      "after_source": "R2：在接待区，魏凡被孔宁拍醒了。\nR1：在溜冰场，赵明被卫凡撞倒了。",
+      "gold_before": {
+        "actor": "卫凡",
+        "undergoer": "赵明"
+      },
+      "gold_after": {
+        "actor": "卫凡",
+        "undergoer": "赵明"
+      },
+      "before_answer": {
+        "actor": "卫凡",
+        "undergoer": "赵明"
+      },
+      "after_answer": {
+        "actor": "赵明",
+        "undergoer": "卫凡"
+      },
+      "before_detail": "C",
+      "after_detail": "R1_REVERSE"
+    },
+    {
+      "before_id": "B69-apertus-V10-S2-DBA-LO-BEI-UA-BA",
+      "after_id": "B69-apertus-V10-S2-DBA-LO-BEI-UA-BEI",
+      "before_source": "R2：在接待区，孔宁把魏凡拍醒了。\nR1：在溜冰场，赵明，已经被卫凡撞倒了。",
+      "after_source": "R2：在接待区，魏凡被孔宁拍醒了。\nR1：在溜冰场，赵明，已经被卫凡撞倒了。",
+      "gold_before": {
+        "actor": "卫凡",
+        "undergoer": "赵明"
+      },
+      "gold_after": {
+        "actor": "卫凡",
+        "undergoer": "赵明"
+      },
+      "before_answer": {
+        "undergoer": "赵明",
+        "actor": "卫凡"
+      },
+      "after_answer": {
+        "undergoer": "赵明",
+        "actor": "魏凡"
+      },
+      "before_detail": "C",
+      "after_detail": "MIXED_OTHER_W"
+    },
+    {
+      "before_id": "B69-apertus-V11-S1-DBA-LO-BA-UA-BEI",
+      "after_id": "B69-apertus-V11-S1-DBA-LO-BA-UA-BA",
+      "before_source": "R2：在接待区，钱诚被杨凡劝走了。\nR1：在武术馆，冯明，已经把褚宁踢倒了。",
+      "after_source": "R2：在接待区，杨凡把钱诚劝走了。\nR1：在武术馆，冯明，已经把褚宁踢倒了。",
+      "gold_before": {
+        "actor": "冯明",
+        "undergoer": "褚宁"
+      },
+      "gold_after": {
+        "actor": "冯明",
+        "undergoer": "褚宁"
+      },
+      "before_answer": {
+        "undergoer": "褚宁",
+        "actor": "冯明"
+      },
+      "after_answer": {
+        "undergoer": "冯明",
+        "actor": "褚宁"
+      },
+      "before_detail": "C",
+      "after_detail": "R1_REVERSE"
+    },
+    {
+      "before_id": "B69-apertus-V11-S2-DAB-LO-BEI-AU-BA",
+      "after_id": "B69-apertus-V11-S2-DAB-LO-BEI-AU-BEI",
+      "before_source": "R2：在接待区，曹凡把沈诚劝走了。\nR1：在训练室，华诚，已经被秦诚踢倒了。",
+      "after_source": "R2：在接待区，沈诚被曹凡劝走了。\nR1：在训练室，华诚，已经被秦诚踢倒了。",
+      "gold_before": {
+        "actor": "秦诚",
+        "undergoer": "华诚"
+      },
+      "gold_after": {
+        "actor": "秦诚",
+        "undergoer": "华诚"
+      },
+      "before_answer": {
+        "actor": "华诚",
+        "undergoer": "秦诚"
+      },
+      "after_answer": {
+        "actor": "秦诚",
+        "undergoer": "华诚"
+      },
+      "before_detail": "R1_REVERSE",
+      "after_detail": "C"
+    },
+    {
+      "before_id": "B69-apertus-V12-S1-DAB-LN-BA-UA-BEI",
+      "after_id": "B69-apertus-V12-S1-DAB-LN-BA-UA-BA",
+      "before_source": "R2：在接待区，张诚被李凡喊停了。\nR1：在宿舍，姜诚把吴诚拍醒了。",
+      "after_source": "R2：在接待区，李凡把张诚喊停了。\nR1：在宿舍，姜诚把吴诚拍醒了。",
+      "gold_before": {
+        "actor": "姜诚",
+        "undergoer": "吴诚"
+      },
+      "gold_after": {
+        "actor": "姜诚",
+        "undergoer": "吴诚"
+      },
+      "before_answer": {
+        "undergoer": "姜诚",
+        "actor": "吴诚"
+      },
+      "after_answer": {
+        "undergoer": "吴诚",
+        "actor": "姜诚"
+      },
+      "before_detail": "R1_REVERSE",
+      "after_detail": "C"
+    },
+    {
+      "before_id": "B69-apertus-V12-S2-DBA-LO-BEI-AU-BA",
+      "after_id": "B69-apertus-V12-S2-DBA-LO-BEI-AU-BEI",
+      "before_source": "R2：在接待区，陈诚把周明喊停了。\nR1：在值班室，吕明，已经被谢宁拍醒了。",
+      "after_source": "R2：在接待区，周明被陈诚喊停了。\nR1：在值班室，吕明，已经被谢宁拍醒了。",
+      "gold_before": {
+        "actor": "谢宁",
+        "undergoer": "吕明"
+      },
+      "gold_after": {
+        "actor": "谢宁",
+        "undergoer": "吕明"
+      },
+      "before_answer": {
+        "actor": "吕明",
+        "undergoer": "谢宁"
+      },
+      "after_answer": {
+        "actor": "谢宁",
+        "undergoer": "吕明"
+      },
+      "before_detail": "R1_REVERSE",
+      "after_detail": "C"
+    },
+    {
+      "before_id": "B69-apertus-V12-S2-DBA-LN-BEI-AU-BA",
+      "after_id": "B69-apertus-V12-S2-DBA-LN-BEI-AU-BEI",
+      "before_source": "R2：在接待区，陈诚把周明喊停了。\nR1：在值班室，吕明被谢宁拍醒了。",
+      "after_source": "R2：在接待区，周明被陈诚喊停了。\nR1：在值班室，吕明被谢宁拍醒了。",
+      "gold_before": {
+        "actor": "谢宁",
+        "undergoer": "吕明"
+      },
+      "gold_after": {
+        "actor": "谢宁",
+        "undergoer": "吕明"
+      },
+      "before_answer": {
+        "actor": "吕明",
+        "undergoer": "谢宁"
+      },
+      "after_answer": {
+        "actor": "谢宁",
+        "undergoer": "吕明"
+      },
+      "before_detail": "R1_REVERSE",
+      "after_detail": "C"
+    },
+    {
+      "before_id": "B69-apertus-V13-S2-DBA-LN-BA-UA-BEI",
+      "after_id": "B69-apertus-V13-S2-DBA-LN-BA-UA-BA",
+      "before_source": "R2：在接待区，赵诚被金凡带走了。\nR1：在教室，许凡把孙凡劝走了。",
+      "after_source": "R2：在接待区，金凡把赵诚带走了。\nR1：在教室，许凡把孙凡劝走了。",
+      "gold_before": {
+        "actor": "许凡",
+        "undergoer": "孙凡"
+      },
+      "gold_after": {
+        "actor": "许凡",
+        "undergoer": "孙凡"
+      },
+      "before_answer": {
+        "undergoer": "许凡",
+        "actor": "孙凡"
+      },
+      "after_answer": {
+        "undergoer": "孙凡",
+        "actor": "许凡"
+      },
+      "before_detail": "R1_REVERSE",
+      "after_detail": "C"
+    },
+    {
+      "before_id": "B69-apertus-V13-S2-DBA-LO-BEI-AU-BA",
+      "after_id": "B69-apertus-V13-S2-DBA-LO-BEI-AU-BEI",
+      "before_source": "R2：在接待区，金凡把赵诚带走了。\nR1：在教室，孙凡，已经被许凡劝走了。",
+      "after_source": "R2：在接待区，赵诚被金凡带走了。\nR1：在教室，孙凡，已经被许凡劝走了。",
+      "gold_before": {
+        "actor": "许凡",
+        "undergoer": "孙凡"
+      },
+      "gold_after": {
+        "actor": "许凡",
+        "undergoer": "孙凡"
+      },
+      "before_answer": {
+        "actor": "孙凡",
+        "undergoer": "许凡"
+      },
+      "after_answer": {
+        "actor": "许凡",
+        "undergoer": "孙凡"
+      },
+      "before_detail": "R1_REVERSE",
+      "after_detail": "C"
+    },
+    {
+      "before_id": "B69-apertus-V13-S2-DBA-LN-BEI-AU-BA",
+      "after_id": "B69-apertus-V13-S2-DBA-LN-BEI-AU-BEI",
+      "before_source": "R2：在接待区，金凡把赵诚带走了。\nR1：在教室，孙凡被许凡劝走了。",
+      "after_source": "R2：在接待区，赵诚被金凡带走了。\nR1：在教室，孙凡被许凡劝走了。",
+      "gold_before": {
+        "actor": "许凡",
+        "undergoer": "孙凡"
+      },
+      "gold_after": {
+        "actor": "许凡",
+        "undergoer": "孙凡"
+      },
+      "before_answer": {
+        "actor": "孙凡",
+        "undergoer": "许凡"
+      },
+      "after_answer": {
+        "actor": "许凡",
+        "undergoer": "孙凡"
+      },
+      "before_detail": "R1_REVERSE",
+      "after_detail": "C"
+    },
+    {
+      "before_id": "B69-apertus-V14-S2-DAB-LO-BEI-AU-BA",
+      "after_id": "B69-apertus-V14-S2-DAB-LO-BEI-AU-BEI",
+      "before_source": "R2：在接待区，何明把钱宁挡住了。\nR1：在游泳馆，曹明，已经被张宁喊停了。",
+      "after_source": "R2：在接待区，钱宁被何明挡住了。\nR1：在游泳馆，曹明，已经被张宁喊停了。",
+      "gold_before": {
+        "actor": "张宁",
+        "undergoer": "曹明"
+      },
+      "gold_after": {
+        "actor": "张宁",
+        "undergoer": "曹明"
+      },
+      "before_answer": {
+        "actor": "曹明",
+        "undergoer": "张宁"
+      },
+      "after_answer": {
+        "actor": "张宁",
+        "undergoer": "曹明"
+      },
+      "before_detail": "R1_REVERSE",
+      "after_detail": "C"
+    },
+    {
+      "before_id": "B69-apertus-V14-S2-DAB-LN-BEI-AU-BA",
+      "after_id": "B69-apertus-V14-S2-DAB-LN-BEI-AU-BEI",
+      "before_source": "R2：在接待区，何明把钱宁挡住了。\nR1：在游泳馆，曹明被张宁喊停了。",
+      "after_source": "R2：在接待区，钱宁被何明挡住了。\nR1：在游泳馆，曹明被张宁喊停了。",
+      "gold_before": {
+        "actor": "张宁",
+        "undergoer": "曹明"
+      },
+      "gold_after": {
+        "actor": "张宁",
+        "undergoer": "曹明"
+      },
+      "before_answer": {
+        "actor": "曹明",
+        "undergoer": "张宁"
+      },
+      "after_answer": {
+        "actor": "张宁",
+        "undergoer": "曹明"
+      },
+      "before_detail": "R1_REVERSE",
+      "after_detail": "C"
+    },
+    {
+      "before_id": "B69-apertus-V15-S1-DAB-LO-BA-UA-BEI",
+      "after_id": "B69-apertus-V15-S1-DAB-LO-BA-UA-BA",
+      "before_source": "R2：在接待区，谢凡被卫明推开了。\nR1：在大厅，朱诚，已经把姜宁带走了。",
+      "after_source": "R2：在接待区，卫明把谢凡推开了。\nR1：在大厅，朱诚，已经把姜宁带走了。",
+      "gold_before": {
+        "actor": "朱诚",
+        "undergoer": "姜宁"
+      },
+      "gold_after": {
+        "actor": "朱诚",
+        "undergoer": "姜宁"
+      },
+      "before_answer": {
+        "undergoer": "朱诚",
+        "actor": "姜宁"
+      },
+      "after_answer": {
+        "undergoer": "朱诚",
+        "actor": "null"
+      },
+      "before_detail": "R1_REVERSE",
+      "after_detail": "MIXED_OTHER_W"
+    },
+    {
+      "before_id": "B69-apertus-V15-S1-DAB-LO-BEI-AU-BA",
+      "after_id": "B69-apertus-V15-S1-DAB-LO-BEI-AU-BEI",
+      "before_source": "R2：在接待区，卫明把谢凡推开了。\nR1：在大厅，姜宁，已经被朱诚带走了。",
+      "after_source": "R2：在接待区，谢凡被卫明推开了。\nR1：在大厅，姜宁，已经被朱诚带走了。",
+      "gold_before": {
+        "actor": "朱诚",
+        "undergoer": "姜宁"
+      },
+      "gold_after": {
+        "actor": "朱诚",
+        "undergoer": "姜宁"
+      },
+      "before_answer": {
+        "actor": "姜宁",
+        "undergoer": "朱诚"
+      },
+      "after_answer": {
+        "actor": "朱诚",
+        "undergoer": "姜宁"
+      },
+      "before_detail": "R1_REVERSE",
+      "after_detail": "C"
+    },
+    {
+      "before_id": "B69-apertus-V15-S1-DBA-LO-BA-UA-BEI",
+      "after_id": "B69-apertus-V15-S1-DBA-LO-BA-UA-BA",
+      "before_source": "R2：在接待区，谢凡被卫明推开了。\nR1：在大厅，姜宁，已经把朱诚带走了。",
+      "after_source": "R2：在接待区，卫明把谢凡推开了。\nR1：在大厅，姜宁，已经把朱诚带走了。",
+      "gold_before": {
+        "actor": "姜宁",
+        "undergoer": "朱诚"
+      },
+      "gold_after": {
+        "actor": "姜宁",
+        "undergoer": "朱诚"
+      },
+      "before_answer": {
+        "undergoer": "姜宁",
+        "actor": "朱诚"
+      },
+      "after_answer": {
+        "undergoer": "朱诚",
+        "actor": "姜宁"
+      },
+      "before_detail": "R1_REVERSE",
+      "after_detail": "C"
+    },
+    {
+      "before_id": "B69-apertus-V15-S1-DBA-LN-BA-UA-BEI",
+      "after_id": "B69-apertus-V15-S1-DBA-LN-BA-UA-BA",
+      "before_source": "R2：在接待区，谢凡被卫明推开了。\nR1：在大厅，姜宁把朱诚带走了。",
+      "after_source": "R2：在接待区，卫明把谢凡推开了。\nR1：在大厅，姜宁把朱诚带走了。",
+      "gold_before": {
+        "actor": "姜宁",
+        "undergoer": "朱诚"
+      },
+      "gold_after": {
+        "actor": "姜宁",
+        "undergoer": "朱诚"
+      },
+      "before_answer": {
+        "undergoer": "姜宁",
+        "actor": "朱诚"
+      },
+      "after_answer": {
+        "undergoer": "朱诚",
+        "actor": "姜宁"
+      },
+      "before_detail": "R1_REVERSE",
+      "after_detail": "C"
+    },
+    {
+      "before_id": "B69-apertus-V15-S1-DBA-LO-BEI-AU-BA",
+      "after_id": "B69-apertus-V15-S1-DBA-LO-BEI-AU-BEI",
+      "before_source": "R2：在接待区，卫明把谢凡推开了。\nR1：在大厅，朱诚，已经被姜宁带走了。",
+      "after_source": "R2：在接待区，谢凡被卫明推开了。\nR1：在大厅，朱诚，已经被姜宁带走了。",
+      "gold_before": {
+        "actor": "姜宁",
+        "undergoer": "朱诚"
+      },
+      "gold_after": {
+        "actor": "姜宁",
+        "undergoer": "朱诚"
+      },
+      "before_answer": {
+        "actor": "朱诚",
+        "undergoer": "姜宁"
+      },
+      "after_answer": {
+        "actor": "姜宁",
+        "undergoer": "朱诚"
+      },
+      "before_detail": "R1_REVERSE",
+      "after_detail": "C"
+    },
+    {
+      "before_id": "B69-apertus-V15-S2-DAB-LN-BEI-AU-BA",
+      "after_id": "B69-apertus-V15-S2-DAB-LN-BEI-AU-BEI",
+      "before_source": "R2：在接待区，吴宁把冯诚推开了。\nR1：在服务台前，秦宁被杨明带走了。",
+      "after_source": "R2：在接待区，冯诚被吴宁推开了。\nR1：在服务台前，秦宁被杨明带走了。",
+      "gold_before": {
+        "actor": "杨明",
+        "undergoer": "秦宁"
+      },
+      "gold_after": {
+        "actor": "杨明",
+        "undergoer": "秦宁"
+      },
+      "before_answer": {
+        "actor": "秦宁",
+        "undergoer": "杨明"
+      },
+      "after_answer": {
+        "actor": "杨明",
+        "undergoer": "秦宁"
+      },
+      "before_detail": "R1_REVERSE",
+      "after_detail": "C"
+    },
+    {
+      "before_id": "B69-apertus-V16-S1-DAB-LO-BEI-AU-BA",
+      "after_id": "B69-apertus-V16-S1-DAB-LO-BEI-AU-BEI",
+      "before_source": "R2：在接待区，严诚把陈宁拉住了。\nR1：在通道口，蒋诚，已经被沈宁挡住了。",
+      "after_source": "R2：在接待区，陈宁被严诚拉住了。\nR1：在通道口，蒋诚，已经被沈宁挡住了。",
+      "gold_before": {
+        "actor": "沈宁",
+        "undergoer": "蒋诚"
+      },
+      "gold_after": {
+        "actor": "沈宁",
+        "undergoer": "蒋诚"
+      },
+      "before_answer": {
+        "actor": "蒋诚",
+        "undergoer": "沈宁"
+      },
+      "after_answer": {
+        "actor": "沈宁",
+        "undergoer": "蒋诚"
+      },
+      "before_detail": "R1_REVERSE",
+      "after_detail": "C"
+    },
+    {
+      "before_id": "B69-apertus-V16-S2-DAB-LO-BEI-AU-BA",
+      "after_id": "B69-apertus-V16-S2-DAB-LO-BEI-AU-BEI",
+      "before_source": "R2：在接待区，魏明把华宁拉住了。\nR1：在楼梯口，周诚，已经被邹明挡住了。",
+      "after_source": "R2：在接待区，华宁被魏明拉住了。\nR1：在楼梯口，周诚，已经被邹明挡住了。",
+      "gold_before": {
+        "actor": "邹明",
+        "undergoer": "周诚"
+      },
+      "gold_after": {
+        "actor": "邹明",
+        "undergoer": "周诚"
+      },
+      "before_answer": {
+        "actor": "周诚",
+        "undergoer": "邹明"
+      },
+      "after_answer": {
+        "actor": "邹明",
+        "undergoer": "周诚"
+      },
+      "before_detail": "R1_REVERSE",
+      "after_detail": "C"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "archives": [
+    {
+      "batch": "B69",
+      "name": "B69完整归档.zip",
+      "bytes": 16472966,
+      "sha256": "ff81dca70674469d20add3ea2fe80a26c3fa8c4228e21301dbb873764688fe93",
+      "members": 161,
+      "public": false
+    },
+    {
+      "batch": "B70",
+      "name": "B70完整归档.zip",
+      "bytes": 19952271,
+      "sha256": "7848d1218c0d29d54cf495365f295d6106403444261729caae397d20018a3f69",
+      "members": 172,
+      "public": false
+    }
+  ]
+}

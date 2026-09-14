@@ -1,0 +1,226 @@
+[
+  {
+    "model": "qwen",
+    "copy_role_conflict": false,
+    "detail": "ALL",
+    "n": 1536,
+    "H_COPY_fit": 1534,
+    "H_ROLE_fit": 1534
+  },
+  {
+    "model": "qwen",
+    "copy_role_conflict": false,
+    "detail": "C",
+    "n": 1534,
+    "H_COPY_fit": 1534,
+    "H_ROLE_fit": 1534
+  },
+  {
+    "model": "qwen",
+    "copy_role_conflict": false,
+    "detail": "R1_REVERSE",
+    "n": 2,
+    "H_COPY_fit": 0,
+    "H_ROLE_fit": 0
+  },
+  {
+    "model": "qwen",
+    "copy_role_conflict": false,
+    "detail": "BG_C",
+    "n": 0,
+    "H_COPY_fit": 0,
+    "H_ROLE_fit": 0
+  },
+  {
+    "model": "qwen",
+    "copy_role_conflict": false,
+    "detail": "BG_R",
+    "n": 0,
+    "H_COPY_fit": 0,
+    "H_ROLE_fit": 0
+  },
+  {
+    "model": "qwen",
+    "copy_role_conflict": false,
+    "detail": "MIXED_OTHER_W",
+    "n": 0,
+    "H_COPY_fit": 0,
+    "H_ROLE_fit": 0
+  },
+  {
+    "model": "qwen",
+    "copy_role_conflict": false,
+    "detail": "U",
+    "n": 0,
+    "H_COPY_fit": 0,
+    "H_ROLE_fit": 0
+  },
+  {
+    "model": "qwen",
+    "copy_role_conflict": true,
+    "detail": "ALL",
+    "n": 1536,
+    "H_COPY_fit": 142,
+    "H_ROLE_fit": 1394
+  },
+  {
+    "model": "qwen",
+    "copy_role_conflict": true,
+    "detail": "C",
+    "n": 1394,
+    "H_COPY_fit": 0,
+    "H_ROLE_fit": 1394
+  },
+  {
+    "model": "qwen",
+    "copy_role_conflict": true,
+    "detail": "R1_REVERSE",
+    "n": 142,
+    "H_COPY_fit": 142,
+    "H_ROLE_fit": 0
+  },
+  {
+    "model": "qwen",
+    "copy_role_conflict": true,
+    "detail": "BG_C",
+    "n": 0,
+    "H_COPY_fit": 0,
+    "H_ROLE_fit": 0
+  },
+  {
+    "model": "qwen",
+    "copy_role_conflict": true,
+    "detail": "BG_R",
+    "n": 0,
+    "H_COPY_fit": 0,
+    "H_ROLE_fit": 0
+  },
+  {
+    "model": "qwen",
+    "copy_role_conflict": true,
+    "detail": "MIXED_OTHER_W",
+    "n": 0,
+    "H_COPY_fit": 0,
+    "H_ROLE_fit": 0
+  },
+  {
+    "model": "qwen",
+    "copy_role_conflict": true,
+    "detail": "U",
+    "n": 0,
+    "H_COPY_fit": 0,
+    "H_ROLE_fit": 0
+  },
+  {
+    "model": "apertus",
+    "copy_role_conflict": false,
+    "detail": "ALL",
+    "n": 1536,
+    "H_COPY_fit": 1525,
+    "H_ROLE_fit": 1525
+  },
+  {
+    "model": "apertus",
+    "copy_role_conflict": false,
+    "detail": "C",
+    "n": 1525,
+    "H_COPY_fit": 1525,
+    "H_ROLE_fit": 1525
+  },
+  {
+    "model": "apertus",
+    "copy_role_conflict": false,
+    "detail": "R1_REVERSE",
+    "n": 10,
+    "H_COPY_fit": 0,
+    "H_ROLE_fit": 0
+  },
+  {
+    "model": "apertus",
+    "copy_role_conflict": false,
+    "detail": "BG_C",
+    "n": 0,
+    "H_COPY_fit": 0,
+    "H_ROLE_fit": 0
+  },
+  {
+    "model": "apertus",
+    "copy_role_conflict": false,
+    "detail": "BG_R",
+    "n": 0,
+    "H_COPY_fit": 0,
+    "H_ROLE_fit": 0
+  },
+  {
+    "model": "apertus",
+    "copy_role_conflict": false,
+    "detail": "MIXED_OTHER_W",
+    "n": 1,
+    "H_COPY_fit": 0,
+    "H_ROLE_fit": 0
+  },
+  {
+    "model": "apertus",
+    "copy_role_conflict": false,
+    "detail": "U",
+    "n": 0,
+    "H_COPY_fit": 0,
+    "H_ROLE_fit": 0
+  },
+  {
+    "model": "apertus",
+    "copy_role_conflict": true,
+    "detail": "ALL",
+    "n": 1536,
+    "H_COPY_fit": 542,
+    "H_ROLE_fit": 978
+  },
+  {
+    "model": "apertus",
+    "copy_role_conflict": true,
+    "detail": "C",
+    "n": 978,
+    "H_COPY_fit": 0,
+    "H_ROLE_fit": 978
+  },
+  {
+    "model": "apertus",
+    "copy_role_conflict": true,
+    "detail": "R1_REVERSE",
+    "n": 542,
+    "H_COPY_fit": 542,
+    "H_ROLE_fit": 0
+  },
+  {
+    "model": "apertus",
+    "copy_role_conflict": true,
+    "detail": "BG_C",
+    "n": 1,
+    "H_COPY_fit": 0,
+    "H_ROLE_fit": 0
+  },
+  {
+    "model": "apertus",
+    "copy_role_conflict": true,
+    "detail": "BG_R",
+    "n": 0,
+    "H_COPY_fit": 0,
+    "H_ROLE_fit": 0
+  },
+  {
+    "model": "apertus",
+    "copy_role_conflict": true,
+    "detail": "MIXED_OTHER_W",
+    "n": 15,
+    "H_COPY_fit": 0,
+    "H_ROLE_fit": 0
+  },
+  {
+    "model": "apertus",
+    "copy_role_conflict": true,
+    "detail": "U",
+    "n": 0,
+    "H_COPY_fit": 0,
+    "H_ROLE_fit": 0
+  }
+]

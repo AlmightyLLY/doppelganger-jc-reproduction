@@ -1,0 +1,158 @@
+[
+  {
+    "unit_id": "V08",
+    "group_id": "V08",
+    "scenario_id": "V08-S1",
+    "scenario_fold": "S1",
+    "direction": "BA",
+    "construction": "BA",
+    "schema": "UA",
+    "local_render": "O",
+    "frame_render": "N",
+    "background_render": "N",
+    "background": "BEI",
+    "R1": "R1：在花园，杨宁，已经把蒋凡吓跑了。",
+    "R2": "R2：在接待区，许诚被陈明撞倒了。",
+    "source_text": "R2：在接待区，许诚被陈明撞倒了。\nR1：在花园，杨宁，已经把蒋凡吓跑了。",
+    "messages": [
+      {
+        "role": "user",
+        "content": "以下是关于虚构人物的记录。各编号表示独立记录，不表示时间先后。只回答R1。\n记录：\nR2：在接待区，许诚被陈明撞倒了。\nR1：在花园，杨宁，已经把蒋凡吓跑了。\n对于R1，actor是句中对另一方做出该动作或引发其结果的人，undergoer是句中受到该动作或其结果影响的人。即使是否定句，也返回句中指定的双方，不据此推断行动实际发生。人物值使用原文中出现的完整姓名，无法确定时填null。\n只返回一个具有以下键的JSON对象，不附解释：{\"undergoer\":\"人名\",\"actor\":\"人名\"}\n"
+      }
+    ],
+    "gold": {
+      "actor": "杨宁",
+      "undergoer": "蒋凡"
+    },
+    "background_gold": {
+      "actor": "陈明",
+      "undergoer": "许诚"
+    },
+    "entity_map": {
+      "A": "蒋凡",
+      "B": "杨宁",
+      "C": "陈明",
+      "D": "许诚"
+    },
+    "H_COPY": {
+      "undergoer": "杨宁",
+      "actor": "蒋凡"
+    },
+    "verb": "吓跑",
+    "background_verb": "撞倒",
+    "material_set": "SCIENCE",
+    "material_cohort": "B69_NEW",
+    "demo_names_present": [],
+    "model": "apertus",
+    "call_id": "B69-apertus-V08-S1-DBA-LO-BA-UA-BEI",
+    "stage": "SCIENCE",
+    "arm": "J_UA",
+    "format_arm": "JSON",
+    "sequence": 2272,
+    "prompt_sha256": "95511901b3c80483185327bf91121f125fe7ac04112661fe856ea0db07e25ea7",
+    "assessment": {
+      "score": "W",
+      "answer": {
+        "undergoer": "杨宁",
+        "actor": "null"
+      },
+      "field_scores": {
+        "undergoer": "W",
+        "actor": "U"
+      },
+      "format_ok": true,
+      "raw_null": false,
+      "parse_form": "JSON",
+      "parse_error": null,
+      "emitted_order": [
+        "undergoer",
+        "actor"
+      ],
+      "bare_response": true,
+      "allowed_name_values": false,
+      "demo_name_selected": false
+    },
+    "detail": "MIXED_OTHER_W",
+    "H_ROLE_fit": 0,
+    "H_COPY_fit": 0,
+    "copy_role_conflict": true
+  },
+  {
+    "unit_id": "V15",
+    "group_id": "V15",
+    "scenario_id": "V15-S1",
+    "scenario_fold": "S1",
+    "direction": "AB",
+    "construction": "BA",
+    "schema": "UA",
+    "local_render": "O",
+    "frame_render": "N",
+    "background_render": "N",
+    "background": "BA",
+    "R1": "R1：在大厅，朱诚，已经把姜宁带走了。",
+    "R2": "R2：在接待区，卫明把谢凡推开了。",
+    "source_text": "R2：在接待区，卫明把谢凡推开了。\nR1：在大厅，朱诚，已经把姜宁带走了。",
+    "messages": [
+      {
+        "role": "user",
+        "content": "以下是关于虚构人物的记录。各编号表示独立记录，不表示时间先后。只回答R1。\n记录：\nR2：在接待区，卫明把谢凡推开了。\nR1：在大厅，朱诚，已经把姜宁带走了。\n对于R1，actor是句中对另一方做出该动作或引发其结果的人，undergoer是句中受到该动作或其结果影响的人。即使是否定句，也返回句中指定的双方，不据此推断行动实际发生。人物值使用原文中出现的完整姓名，无法确定时填null。\n只返回一个具有以下键的JSON对象，不附解释：{\"undergoer\":\"人名\",\"actor\":\"人名\"}\n"
+      }
+    ],
+    "gold": {
+      "actor": "朱诚",
+      "undergoer": "姜宁"
+    },
+    "background_gold": {
+      "actor": "卫明",
+      "undergoer": "谢凡"
+    },
+    "entity_map": {
+      "A": "朱诚",
+      "B": "姜宁",
+      "C": "卫明",
+      "D": "谢凡"
+    },
+    "H_COPY": {
+      "undergoer": "朱诚",
+      "actor": "姜宁"
+    },
+    "verb": "带走",
+    "background_verb": "推开",
+    "material_set": "SCIENCE",
+    "material_cohort": "B69_NEW",
+    "demo_names_present": [],
+    "model": "apertus",
+    "call_id": "B69-apertus-V15-S1-DAB-LO-BA-UA-BA",
+    "stage": "SCIENCE",
+    "arm": "J_UA",
+    "format_arm": "JSON",
+    "sequence": 2919,
+    "prompt_sha256": "b92f4a1db5312b5605da0aeb2bc4000f4674e23a3061dfdb7d78ec3f76340600",
+    "assessment": {
+      "score": "W",
+      "answer": {
+        "undergoer": "朱诚",
+        "actor": "null"
+      },
+      "field_scores": {
+        "undergoer": "W",
+        "actor": "U"
+      },
+      "format_ok": true,
+      "raw_null": false,
+      "parse_form": "JSON",
+      "parse_error": null,
+      "emitted_order": [
+        "undergoer",
+        "actor"
+      ],
+      "bare_response": true,
+      "allowed_name_values": false,
+      "demo_name_selected": false
+    },
+    "detail": "MIXED_OTHER_W",
+    "H_ROLE_fit": 0,
+    "H_COPY_fit": 0,
+    "copy_role_conflict": true
+  }
+]

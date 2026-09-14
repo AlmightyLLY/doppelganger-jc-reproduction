@@ -1,0 +1,15 @@
+{
+  "models": {
+    "qwen": {
+      "model": "Qwen3-8B",
+      "revision": "b968826d9c46dd6066d109eabc6255188de91218"
+    },
+    "apertus": {
+      "model": "Apertus-8B-Instruct",
+      "revision": "b946d40447b2b597999b9c86d44bee0b452c919f"
+    }
+  },
+  "generation": "Native single-input greedy; bf16/eager; no KV cache; TF32 off; seed 0; Qwen thinking disabled; no logit processors",
+  "chat_date": "2026-09-11",
+  "candidate_forwards": 0
+}

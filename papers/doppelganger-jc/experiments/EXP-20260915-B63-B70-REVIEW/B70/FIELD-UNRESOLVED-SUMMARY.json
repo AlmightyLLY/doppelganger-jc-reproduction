@@ -1,0 +1,14 @@
+{
+  "qwen": {
+    "rows_with_field_U": 0,
+    "aggregate_W_with_field_U": 0,
+    "string_null": 0,
+    "true_null": 0
+  },
+  "apertus": {
+    "rows_with_field_U": 3,
+    "aggregate_W_with_field_U": 3,
+    "string_null": 3,
+    "true_null": 0
+  }
+}

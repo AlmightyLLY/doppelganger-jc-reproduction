@@ -1,0 +1,70 @@
+{
+  "files": [
+    {
+      "batch": "B69",
+      "name": "B69预注册.docx",
+      "bytes": 43036,
+      "sha256": "101b6d0fda65a314e1b437cd6db0d2c71e566638c922bd59fe678a18c94a7286",
+      "native_original": "LOCAL_ONLY",
+      "human_review": "PENDING"
+    },
+    {
+      "batch": "B69",
+      "name": "B69实际输入.xlsx",
+      "bytes": 329446,
+      "sha256": "edb8f876d0ed9819ceb4caa0bb353a3017afb613e2ad296c270667523dadd13b",
+      "native_original": "LOCAL_ONLY",
+      "human_review": "PENDING"
+    },
+    {
+      "batch": "B69",
+      "name": "B69结果总结.docx",
+      "bytes": 38676,
+      "sha256": "e234c62c85b224d3b6f3f458057e8b075633cff88a1ffbb7afe775e27fc3ad6d",
+      "native_original": "LOCAL_ONLY",
+      "human_review": "PENDING"
+    },
+    {
+      "batch": "B69",
+      "name": "B69完整结果.xlsx",
+      "bytes": 1371704,
+      "sha256": "fa4255736f11d3451d254ea87135c23017f7e642c4405037aadde4d1a2a1d0e7",
+      "native_original": "LOCAL_ONLY",
+      "human_review": "PENDING"
+    },
+    {
+      "batch": "B70",
+      "name": "B70预注册.docx",
+      "bytes": 42720,
+      "sha256": "e492afaad18a7a031e935145ddcac04f83fbfb580e16a06a35e68a27dc01cb56",
+      "native_original": "LOCAL_ONLY",
+      "human_review": "PENDING"
+    },
+    {
+      "batch": "B70",
+      "name": "B70实际输入.xlsx",
+      "bytes": 697568,
+      "sha256": "370528c8c853991b85857f7c33459a417255d90aa16687b56d02fa886f24bb44",
+      "native_original": "LOCAL_ONLY",
+      "human_review": "PENDING"
+    },
+    {
+      "batch": "B70",
+      "name": "B70结果总结.docx",
+      "bytes": 39922,
+      "sha256": "d77a7d00d2b15a0ce80d4150626efc20f503e03f092cca6954077457365eacaf",
+      "native_original": "LOCAL_ONLY",
+      "human_review": "PENDING"
+    },
+    {
+      "batch": "B70",
+      "name": "B70完整结果.xlsx",
+      "bytes": 3539797,
+      "sha256": "d87afb43be59622d538cc480ff205f54a82d161d3b769b3acc625a21f8f527da",
+      "native_original": "LOCAL_ONLY",
+      "human_review": "PENDING"
+    }
+  ],
+  "human_gold": 0,
+  "note": "Private native Word and Excel stay local; commitments do not certify independent human review."
+}

@@ -1,0 +1,22 @@
+{
+  "B69": {
+    "natural_outputs": 3104,
+    "science": 3072,
+    "bridges": 32,
+    "independent_human_gold": 0,
+    "personal_review": "PENDING",
+    "developmental": true,
+    "paid_usd": 0,
+    "candidate_forwards": 0
+  },
+  "B70": {
+    "natural_outputs": 6176,
+    "science": 6144,
+    "bridges": 32,
+    "independent_human_gold": 0,
+    "personal_review": "PENDING",
+    "developmental": true,
+    "paid_usd": 0,
+    "candidate_forwards": 0
+  }
+}

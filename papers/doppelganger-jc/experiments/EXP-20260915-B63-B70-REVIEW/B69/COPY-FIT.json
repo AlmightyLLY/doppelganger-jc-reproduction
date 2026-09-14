@@ -1,0 +1,226 @@
+[
+  {
+    "model": "qwen",
+    "copy_role_conflict": false,
+    "detail": "ALL",
+    "n": 768,
+    "H_COPY_fit": 767,
+    "H_ROLE_fit": 767
+  },
+  {
+    "model": "qwen",
+    "copy_role_conflict": false,
+    "detail": "C",
+    "n": 767,
+    "H_COPY_fit": 767,
+    "H_ROLE_fit": 767
+  },
+  {
+    "model": "qwen",
+    "copy_role_conflict": false,
+    "detail": "R1_REVERSE",
+    "n": 1,
+    "H_COPY_fit": 0,
+    "H_ROLE_fit": 0
+  },
+  {
+    "model": "qwen",
+    "copy_role_conflict": false,
+    "detail": "BG_C",
+    "n": 0,
+    "H_COPY_fit": 0,
+    "H_ROLE_fit": 0
+  },
+  {
+    "model": "qwen",
+    "copy_role_conflict": false,
+    "detail": "BG_R",
+    "n": 0,
+    "H_COPY_fit": 0,
+    "H_ROLE_fit": 0
+  },
+  {
+    "model": "qwen",
+    "copy_role_conflict": false,
+    "detail": "MIXED_OTHER_W",
+    "n": 0,
+    "H_COPY_fit": 0,
+    "H_ROLE_fit": 0
+  },
+  {
+    "model": "qwen",
+    "copy_role_conflict": false,
+    "detail": "U",
+    "n": 0,
+    "H_COPY_fit": 0,
+    "H_ROLE_fit": 0
+  },
+  {
+    "model": "qwen",
+    "copy_role_conflict": true,
+    "detail": "ALL",
+    "n": 768,
+    "H_COPY_fit": 84,
+    "H_ROLE_fit": 684
+  },
+  {
+    "model": "qwen",
+    "copy_role_conflict": true,
+    "detail": "C",
+    "n": 684,
+    "H_COPY_fit": 0,
+    "H_ROLE_fit": 684
+  },
+  {
+    "model": "qwen",
+    "copy_role_conflict": true,
+    "detail": "R1_REVERSE",
+    "n": 84,
+    "H_COPY_fit": 84,
+    "H_ROLE_fit": 0
+  },
+  {
+    "model": "qwen",
+    "copy_role_conflict": true,
+    "detail": "BG_C",
+    "n": 0,
+    "H_COPY_fit": 0,
+    "H_ROLE_fit": 0
+  },
+  {
+    "model": "qwen",
+    "copy_role_conflict": true,
+    "detail": "BG_R",
+    "n": 0,
+    "H_COPY_fit": 0,
+    "H_ROLE_fit": 0
+  },
+  {
+    "model": "qwen",
+    "copy_role_conflict": true,
+    "detail": "MIXED_OTHER_W",
+    "n": 0,
+    "H_COPY_fit": 0,
+    "H_ROLE_fit": 0
+  },
+  {
+    "model": "qwen",
+    "copy_role_conflict": true,
+    "detail": "U",
+    "n": 0,
+    "H_COPY_fit": 0,
+    "H_ROLE_fit": 0
+  },
+  {
+    "model": "apertus",
+    "copy_role_conflict": false,
+    "detail": "ALL",
+    "n": 768,
+    "H_COPY_fit": 764,
+    "H_ROLE_fit": 764
+  },
+  {
+    "model": "apertus",
+    "copy_role_conflict": false,
+    "detail": "C",
+    "n": 764,
+    "H_COPY_fit": 764,
+    "H_ROLE_fit": 764
+  },
+  {
+    "model": "apertus",
+    "copy_role_conflict": false,
+    "detail": "R1_REVERSE",
+    "n": 3,
+    "H_COPY_fit": 0,
+    "H_ROLE_fit": 0
+  },
+  {
+    "model": "apertus",
+    "copy_role_conflict": false,
+    "detail": "BG_C",
+    "n": 0,
+    "H_COPY_fit": 0,
+    "H_ROLE_fit": 0
+  },
+  {
+    "model": "apertus",
+    "copy_role_conflict": false,
+    "detail": "BG_R",
+    "n": 0,
+    "H_COPY_fit": 0,
+    "H_ROLE_fit": 0
+  },
+  {
+    "model": "apertus",
+    "copy_role_conflict": false,
+    "detail": "MIXED_OTHER_W",
+    "n": 1,
+    "H_COPY_fit": 0,
+    "H_ROLE_fit": 0
+  },
+  {
+    "model": "apertus",
+    "copy_role_conflict": false,
+    "detail": "U",
+    "n": 0,
+    "H_COPY_fit": 0,
+    "H_ROLE_fit": 0
+  },
+  {
+    "model": "apertus",
+    "copy_role_conflict": true,
+    "detail": "ALL",
+    "n": 768,
+    "H_COPY_fit": 272,
+    "H_ROLE_fit": 489
+  },
+  {
+    "model": "apertus",
+    "copy_role_conflict": true,
+    "detail": "C",
+    "n": 489,
+    "H_COPY_fit": 0,
+    "H_ROLE_fit": 489
+  },
+  {
+    "model": "apertus",
+    "copy_role_conflict": true,
+    "detail": "R1_REVERSE",
+    "n": 272,
+    "H_COPY_fit": 272,
+    "H_ROLE_fit": 0
+  },
+  {
+    "model": "apertus",
+    "copy_role_conflict": true,
+    "detail": "BG_C",
+    "n": 0,
+    "H_COPY_fit": 0,
+    "H_ROLE_fit": 0
+  },
+  {
+    "model": "apertus",
+    "copy_role_conflict": true,
+    "detail": "BG_R",
+    "n": 0,
+    "H_COPY_fit": 0,
+    "H_ROLE_fit": 0
+  },
+  {
+    "model": "apertus",
+    "copy_role_conflict": true,
+    "detail": "MIXED_OTHER_W",
+    "n": 7,
+    "H_COPY_fit": 0,
+    "H_ROLE_fit": 0
+  },
+  {
+    "model": "apertus",
+    "copy_role_conflict": true,
+    "detail": "U",
+    "n": 0,
+    "H_COPY_fit": 0,
+    "H_ROLE_fit": 0
+  }
+]

@@ -1,0 +1,16 @@
+[
+  {
+    "batch": "B69",
+    "author_references_sha256": "30a020a60b62be0b0d456cc1c37a667d7265112b66def69bc9678b392a58f6f6",
+    "scored_results_sha256": "4b968dc90c90853539b205017f2a37e21a0985e510f424f51b41d56d7125a0a0",
+    "science_freeze_sha256": "2632a0c1b6dccce58481e34e128ea610039eaadee0f8c9055fc742caea461a81",
+    "main_acceptance_sha256": "37c86c64084314610db3c92bcfe7dcf9013d20cdc15c06e79db3bfd36655f019"
+  },
+  {
+    "batch": "B70",
+    "author_references_sha256": "54f5cb31bb391481e2a62927c603041dc6bafd082e5bc6fa5bf6cdf8851ae529",
+    "scored_results_sha256": "dcaf1dd8ae35c9aa39801b1640b029b78cbac675b8d24f43b1451f1f4f097b6f",
+    "science_freeze_sha256": "7fcfcfe36894db3255889156c1b0f88bfa03ab044d15157bc73d2652943b1c18",
+    "main_acceptance_sha256": "fcc58a897f10ec83cccafdcae0dcb0465abf0a992cda8519a2896801c445e40b"
+  }
+]
