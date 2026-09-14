@@ -1,0 +1,17 @@
+{
+  "models": {
+    "qwen": {
+      "model": "Qwen3-8B",
+      "revision": "b968826d9c46dd6066d109eabc6255188de91218"
+    },
+    "apertus": {
+      "model": "Apertus-8B-Instruct",
+      "revision": "b946d40447b2b597999b9c86d44bee0b452c919f"
+    }
+  },
+  "natural_generation": "native single-input greedy, bf16/eager, no KV cache, TF32 off, seed 0, no logit processors; Qwen thinking disabled",
+  "chat_date": "2026-09-11",
+  "B65_candidate_forward_count": 4096,
+  "B66_B67_B68_candidate_forwards": 0,
+  "interpretation": "Candidate sequence margins are not calibrated or cross-model comparable confidence."
+}

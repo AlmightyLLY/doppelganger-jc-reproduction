@@ -1,0 +1,42 @@
+{
+  "B64": {
+    "natural_outputs": 3120,
+    "bridges": 48,
+    "independent_human_gold": 0,
+    "personal_review": "PENDING",
+    "paid_usd": 0,
+    "developmental_material": true
+  },
+  "B65": {
+    "natural_outputs": 1312,
+    "bridges": 32,
+    "independent_human_gold": 0,
+    "personal_review": "PENDING",
+    "paid_usd": 0,
+    "developmental_material": true
+  },
+  "B66": {
+    "natural_outputs": 4640,
+    "bridges": 32,
+    "independent_human_gold": 0,
+    "personal_review": "PENDING",
+    "paid_usd": 0,
+    "developmental_material": true
+  },
+  "B67": {
+    "natural_outputs": 3872,
+    "bridges": 32,
+    "independent_human_gold": 0,
+    "personal_review": "PENDING",
+    "paid_usd": 0,
+    "developmental_material": true
+  },
+  "B68": {
+    "natural_outputs": 4640,
+    "bridges": 32,
+    "independent_human_gold": 0,
+    "personal_review": "PENDING",
+    "paid_usd": 0,
+    "developmental_material": true
+  }
+}

@@ -1,0 +1,612 @@
+{
+  "scope": "Main raw JSON classification, paired behavior statistics and local archive hashes; not independent human material validation",
+  "raw_n": 3120,
+  "new_n": 3072,
+  "complete_correct_n": 2517,
+  "tables": [
+    {
+      "keys": [
+        "qwen",
+        "PAIR_B",
+        "ALL"
+      ],
+      "counts": {
+        "C": 512
+      }
+    },
+    {
+      "keys": [
+        "qwen",
+        "PAIR_B",
+        "A"
+      ],
+      "counts": {
+        "C": 192
+      }
+    },
+    {
+      "keys": [
+        "qwen",
+        "PAIR_B",
+        "NONE",
+        "BEI",
+        "UA"
+      ],
+      "counts": {
+        "C": 32
+      }
+    },
+    {
+      "keys": [
+        "qwen",
+        "ZERO",
+        "ALL"
+      ],
+      "counts": {
+        "C": 483,
+        "BG_C": 3,
+        "R": 26
+      }
+    },
+    {
+      "keys": [
+        "qwen",
+        "ZERO",
+        "A"
+      ],
+      "counts": {
+        "C": 180,
+        "BG_C": 2,
+        "R": 10
+      }
+    },
+    {
+      "keys": [
+        "qwen",
+        "PAIR_A",
+        "ALL"
+      ],
+      "counts": {
+        "C": 512
+      }
+    },
+    {
+      "keys": [
+        "qwen",
+        "PAIR_A",
+        "B"
+      ],
+      "counts": {
+        "C": 192
+      }
+    },
+    {
+      "keys": [
+        "qwen",
+        "ZERO",
+        "B"
+      ],
+      "counts": {
+        "C": 175,
+        "BG_C": 1,
+        "R": 16
+      }
+    },
+    {
+      "keys": [
+        "qwen",
+        "PAIR_A",
+        "NONE",
+        "BA",
+        "UA"
+      ],
+      "counts": {
+        "C": 32
+      }
+    },
+    {
+      "keys": [
+        "qwen",
+        "PAIR_A",
+        "NONE",
+        "BEI",
+        "AU"
+      ],
+      "counts": {
+        "C": 32
+      }
+    },
+    {
+      "keys": [
+        "qwen",
+        "ZERO",
+        "NONE",
+        "BEI",
+        "AU"
+      ],
+      "counts": {
+        "C": 32
+      }
+    },
+    {
+      "keys": [
+        "qwen",
+        "PAIR_A",
+        "NONE",
+        "BEI",
+        "UA"
+      ],
+      "counts": {
+        "C": 32
+      }
+    },
+    {
+      "keys": [
+        "qwen",
+        "PAIR_B",
+        "B"
+      ],
+      "counts": {
+        "C": 192
+      }
+    },
+    {
+      "keys": [
+        "qwen",
+        "PAIR_B",
+        "NONE",
+        "BA",
+        "UA"
+      ],
+      "counts": {
+        "C": 32
+      }
+    },
+    {
+      "keys": [
+        "qwen",
+        "PAIR_B",
+        "NONE",
+        "BA",
+        "AU"
+      ],
+      "counts": {
+        "C": 32
+      }
+    },
+    {
+      "keys": [
+        "qwen",
+        "PAIR_A",
+        "A"
+      ],
+      "counts": {
+        "C": 192
+      }
+    },
+    {
+      "keys": [
+        "qwen",
+        "ZERO",
+        "NONE",
+        "BA",
+        "UA"
+      ],
+      "counts": {
+        "C": 32
+      }
+    },
+    {
+      "keys": [
+        "qwen",
+        "ZERO",
+        "NONE",
+        "BA",
+        "AU"
+      ],
+      "counts": {
+        "C": 32
+      }
+    },
+    {
+      "keys": [
+        "qwen",
+        "PAIR_A",
+        "NONE",
+        "BA",
+        "AU"
+      ],
+      "counts": {
+        "C": 32
+      }
+    },
+    {
+      "keys": [
+        "qwen",
+        "PAIR_B",
+        "NONE",
+        "BEI",
+        "AU"
+      ],
+      "counts": {
+        "C": 32
+      }
+    },
+    {
+      "keys": [
+        "qwen",
+        "ZERO",
+        "NONE",
+        "BEI",
+        "UA"
+      ],
+      "counts": {
+        "C": 32
+      }
+    },
+    {
+      "keys": [
+        "apertus",
+        "PAIR_B",
+        "ALL"
+      ],
+      "counts": {
+        "BG_C": 166,
+        "C": 293,
+        "BG_R": 13,
+        "R": 31,
+        "OTHER": 9
+      }
+    },
+    {
+      "keys": [
+        "apertus",
+        "PAIR_B",
+        "A"
+      ],
+      "counts": {
+        "BG_C": 104,
+        "C": 73,
+        "BG_R": 7,
+        "R": 5,
+        "OTHER": 3
+      }
+    },
+    {
+      "keys": [
+        "apertus",
+        "PAIR_B",
+        "NONE",
+        "BEI",
+        "UA"
+      ],
+      "counts": {
+        "C": 32
+      }
+    },
+    {
+      "keys": [
+        "apertus",
+        "ZERO",
+        "ALL"
+      ],
+      "counts": {
+        "C": 397,
+        "R": 104,
+        "BG_C": 7,
+        "OTHER": 4
+      }
+    },
+    {
+      "keys": [
+        "apertus",
+        "ZERO",
+        "A"
+      ],
+      "counts": {
+        "C": 134,
+        "R": 49,
+        "BG_C": 7,
+        "OTHER": 2
+      }
+    },
+    {
+      "keys": [
+        "apertus",
+        "PAIR_A",
+        "ALL"
+      ],
+      "counts": {
+        "C": 293,
+        "BG_C": 138,
+        "R": 42,
+        "OTHER": 18,
+        "BG_R": 21
+      }
+    },
+    {
+      "keys": [
+        "apertus",
+        "PAIR_A",
+        "B"
+      ],
+      "counts": {
+        "C": 57,
+        "BG_C": 101,
+        "R": 6,
+        "OTHER": 10,
+        "BG_R": 18
+      }
+    },
+    {
+      "keys": [
+        "apertus",
+        "ZERO",
+        "B"
+      ],
+      "counts": {
+        "C": 146,
+        "R": 44,
+        "OTHER": 2
+      }
+    },
+    {
+      "keys": [
+        "apertus",
+        "PAIR_A",
+        "NONE",
+        "BA",
+        "UA"
+      ],
+      "counts": {
+        "C": 30,
+        "R": 2
+      }
+    },
+    {
+      "keys": [
+        "apertus",
+        "PAIR_A",
+        "NONE",
+        "BEI",
+        "AU"
+      ],
+      "counts": {
+        "R": 15,
+        "C": 17
+      }
+    },
+    {
+      "keys": [
+        "apertus",
+        "ZERO",
+        "NONE",
+        "BEI",
+        "AU"
+      ],
+      "counts": {
+        "C": 30,
+        "R": 2
+      }
+    },
+    {
+      "keys": [
+        "apertus",
+        "PAIR_A",
+        "NONE",
+        "BEI",
+        "UA"
+      ],
+      "counts": {
+        "C": 32
+      }
+    },
+    {
+      "keys": [
+        "apertus",
+        "PAIR_B",
+        "B"
+      ],
+      "counts": {
+        "BG_C": 62,
+        "C": 101,
+        "BG_R": 6,
+        "R": 17,
+        "OTHER": 6
+      }
+    },
+    {
+      "keys": [
+        "apertus",
+        "PAIR_B",
+        "NONE",
+        "BA",
+        "UA"
+      ],
+      "counts": {
+        "C": 30,
+        "R": 2
+      }
+    },
+    {
+      "keys": [
+        "apertus",
+        "PAIR_B",
+        "NONE",
+        "BA",
+        "AU"
+      ],
+      "counts": {
+        "C": 32
+      }
+    },
+    {
+      "keys": [
+        "apertus",
+        "PAIR_A",
+        "A"
+      ],
+      "counts": {
+        "C": 125,
+        "OTHER": 8,
+        "BG_C": 37,
+        "BG_R": 3,
+        "R": 19
+      }
+    },
+    {
+      "keys": [
+        "apertus",
+        "ZERO",
+        "NONE",
+        "BA",
+        "UA"
+      ],
+      "counts": {
+        "C": 23,
+        "R": 9
+      }
+    },
+    {
+      "keys": [
+        "apertus",
+        "ZERO",
+        "NONE",
+        "BA",
+        "AU"
+      ],
+      "counts": {
+        "C": 32
+      }
+    },
+    {
+      "keys": [
+        "apertus",
+        "PAIR_A",
+        "NONE",
+        "BA",
+        "AU"
+      ],
+      "counts": {
+        "C": 32
+      }
+    },
+    {
+      "keys": [
+        "apertus",
+        "PAIR_B",
+        "NONE",
+        "BEI",
+        "AU"
+      ],
+      "counts": {
+        "C": 25,
+        "R": 7
+      }
+    },
+    {
+      "keys": [
+        "apertus",
+        "ZERO",
+        "NONE",
+        "BEI",
+        "UA"
+      ],
+      "counts": {
+        "C": 32
+      }
+    }
+  ],
+  "new_harms_by_congruence": [
+    {
+      "keys": [
+        "apertus",
+        "PAIR_B",
+        "congruent"
+      ],
+      "counts": {
+        "BG_C": 70,
+        "BG_R": 4,
+        "OTHER": 2
+      }
+    },
+    {
+      "keys": [
+        "apertus",
+        "PAIR_A",
+        "congruent"
+      ],
+      "counts": {
+        "BG_C": 63,
+        "BG_R": 9,
+        "OTHER": 1
+      }
+    },
+    {
+      "keys": [
+        "apertus",
+        "PAIR_B",
+        "incongruent"
+      ],
+      "counts": {
+        "BG_C": 34,
+        "BG_R": 4,
+        "R": 12,
+        "OTHER": 1
+      }
+    },
+    {
+      "keys": [
+        "apertus",
+        "PAIR_A",
+        "incongruent"
+      ],
+      "counts": {
+        "R": 23,
+        "OTHER": 7,
+        "BG_C": 26,
+        "BG_R": 7
+      }
+    }
+  ],
+  "D": {
+    "apertus": {
+      "directions_and_D": [
+        0.265625,
+        0.3697916666666667,
+        0.3177083333333333
+      ],
+      "ci_D": [
+        0.2630208333333333,
+        0.3697916666666667
+      ],
+      "positive_groups": 23,
+      "zero_groups": 1,
+      "leave_one_min": 0.30434782608695654
+    },
+    "qwen": {
+      "directions_and_D": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ci_D": [
+        0.0,
+        0.0
+      ],
+      "positive_groups": 0,
+      "zero_groups": 24,
+      "leave_one_min": 0.0
+    }
+  },
+  "archive_manifest_n": 133,
+  "archive_hash_mismatches": [],
+  "zip": {
+    "path": "[local repository]/research_notes/2026-09-14/b64_execution_v1/B64-local-evidence.zip",
+    "sha256": "120ab87d5f81df05e7df9ab61a47d4f112843fdc6fb59c59dd6a298ab0d15fe3",
+    "members": 134,
+    "corrupt_member": null
+  },
+  "independent_human_gold": 0,
+  "office_visual_main_check": "PENDING - executor visual QA exists; this script does not certify page layout"
+}

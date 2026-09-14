@@ -1,0 +1,7054 @@
+{
+  "qwen": {
+    "BA_AU": {
+      "estimates": {
+        "M63": {
+          "D_OO": {
+            "value": 0.0,
+            "low": 0.0,
+            "high": 0.0
+          },
+          "D_ON": {
+            "value": 0.0,
+            "low": 0.0,
+            "high": 0.0
+          },
+          "D_NO": {
+            "value": 0.0,
+            "low": 0.0,
+            "high": 0.0
+          },
+          "D_NN": {
+            "value": 0.0,
+            "low": 0.0,
+            "high": 0.0
+          },
+          "Theta": {
+            "value": 0.0,
+            "low": 0.0,
+            "high": 0.0
+          },
+          "T": {
+            "value": 0.0,
+            "low": 0.0,
+            "high": 0.0
+          },
+          "B": {
+            "value": 0.0,
+            "low": 0.0,
+            "high": 0.0
+          },
+          "Gamma": {
+            "value": 0.0,
+            "low": 0.0,
+            "high": 0.0
+          },
+          "I": {
+            "value": 0.0,
+            "low": 0.0,
+            "high": 0.0
+          }
+        },
+        "M65": {
+          "D_OO": {
+            "value": 0.0,
+            "low": 0.0,
+            "high": 0.0
+          },
+          "D_ON": {
+            "value": 0.0,
+            "low": 0.0,
+            "high": 0.0
+          },
+          "D_NO": {
+            "value": 0.0,
+            "low": 0.0,
+            "high": 0.0
+          },
+          "D_NN": {
+            "value": 0.0,
+            "low": 0.0,
+            "high": 0.0
+          },
+          "Theta": {
+            "value": 0.0,
+            "low": 0.0,
+            "high": 0.0
+          },
+          "T": {
+            "value": 0.0,
+            "low": 0.0,
+            "high": 0.0
+          },
+          "B": {
+            "value": 0.0,
+            "low": 0.0,
+            "high": 0.0
+          },
+          "Gamma": {
+            "value": 0.0,
+            "low": 0.0,
+            "high": 0.0
+          },
+          "I": {
+            "value": 0.0,
+            "low": 0.0,
+            "high": 0.0
+          }
+        },
+        "pooled": {
+          "D_OO": {
+            "value": 0.0,
+            "low": 0.0,
+            "high": 0.0
+          },
+          "D_ON": {
+            "value": 0.0,
+            "low": 0.0,
+            "high": 0.0
+          },
+          "D_NO": {
+            "value": 0.0,
+            "low": 0.0,
+            "high": 0.0
+          },
+          "D_NN": {
+            "value": 0.0,
+            "low": 0.0,
+            "high": 0.0
+          },
+          "Theta": {
+            "value": 0.0,
+            "low": 0.0,
+            "high": 0.0
+          },
+          "T": {
+            "value": 0.0,
+            "low": 0.0,
+            "high": 0.0
+          },
+          "B": {
+            "value": 0.0,
+            "low": 0.0,
+            "high": 0.0
+          },
+          "Gamma": {
+            "value": 0.0,
+            "low": 0.0,
+            "high": 0.0
+          },
+          "I": {
+            "value": 0.0,
+            "low": 0.0,
+            "high": 0.0
+          }
+        }
+      },
+      "leave_one": [
+        {
+          "cohort": "M63",
+          "group_id": "G01",
+          "pooled": {
+            "D_OO": 0.0,
+            "D_ON": 0.0,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": 0.0,
+            "T": 0.0,
+            "B": 0.0,
+            "Gamma": 0.0,
+            "I": 0.0
+          }
+        },
+        {
+          "cohort": "M63",
+          "group_id": "G02",
+          "pooled": {
+            "D_OO": 0.0,
+            "D_ON": 0.0,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": 0.0,
+            "T": 0.0,
+            "B": 0.0,
+            "Gamma": 0.0,
+            "I": 0.0
+          }
+        },
+        {
+          "cohort": "M63",
+          "group_id": "G03",
+          "pooled": {
+            "D_OO": 0.0,
+            "D_ON": 0.0,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": 0.0,
+            "T": 0.0,
+            "B": 0.0,
+            "Gamma": 0.0,
+            "I": 0.0
+          }
+        },
+        {
+          "cohort": "M63",
+          "group_id": "G04",
+          "pooled": {
+            "D_OO": 0.0,
+            "D_ON": 0.0,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": 0.0,
+            "T": 0.0,
+            "B": 0.0,
+            "Gamma": 0.0,
+            "I": 0.0
+          }
+        },
+        {
+          "cohort": "M63",
+          "group_id": "G05",
+          "pooled": {
+            "D_OO": 0.0,
+            "D_ON": 0.0,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": 0.0,
+            "T": 0.0,
+            "B": 0.0,
+            "Gamma": 0.0,
+            "I": 0.0
+          }
+        },
+        {
+          "cohort": "M63",
+          "group_id": "G06",
+          "pooled": {
+            "D_OO": 0.0,
+            "D_ON": 0.0,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": 0.0,
+            "T": 0.0,
+            "B": 0.0,
+            "Gamma": 0.0,
+            "I": 0.0
+          }
+        },
+        {
+          "cohort": "M63",
+          "group_id": "G07",
+          "pooled": {
+            "D_OO": 0.0,
+            "D_ON": 0.0,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": 0.0,
+            "T": 0.0,
+            "B": 0.0,
+            "Gamma": 0.0,
+            "I": 0.0
+          }
+        },
+        {
+          "cohort": "M63",
+          "group_id": "G08",
+          "pooled": {
+            "D_OO": 0.0,
+            "D_ON": 0.0,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": 0.0,
+            "T": 0.0,
+            "B": 0.0,
+            "Gamma": 0.0,
+            "I": 0.0
+          }
+        },
+        {
+          "cohort": "M63",
+          "group_id": "G09",
+          "pooled": {
+            "D_OO": 0.0,
+            "D_ON": 0.0,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": 0.0,
+            "T": 0.0,
+            "B": 0.0,
+            "Gamma": 0.0,
+            "I": 0.0
+          }
+        },
+        {
+          "cohort": "M63",
+          "group_id": "G10",
+          "pooled": {
+            "D_OO": 0.0,
+            "D_ON": 0.0,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": 0.0,
+            "T": 0.0,
+            "B": 0.0,
+            "Gamma": 0.0,
+            "I": 0.0
+          }
+        },
+        {
+          "cohort": "M63",
+          "group_id": "G11",
+          "pooled": {
+            "D_OO": 0.0,
+            "D_ON": 0.0,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": 0.0,
+            "T": 0.0,
+            "B": 0.0,
+            "Gamma": 0.0,
+            "I": 0.0
+          }
+        },
+        {
+          "cohort": "M63",
+          "group_id": "G12",
+          "pooled": {
+            "D_OO": 0.0,
+            "D_ON": 0.0,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": 0.0,
+            "T": 0.0,
+            "B": 0.0,
+            "Gamma": 0.0,
+            "I": 0.0
+          }
+        },
+        {
+          "cohort": "M63",
+          "group_id": "G13",
+          "pooled": {
+            "D_OO": 0.0,
+            "D_ON": 0.0,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": 0.0,
+            "T": 0.0,
+            "B": 0.0,
+            "Gamma": 0.0,
+            "I": 0.0
+          }
+        },
+        {
+          "cohort": "M63",
+          "group_id": "G14",
+          "pooled": {
+            "D_OO": 0.0,
+            "D_ON": 0.0,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": 0.0,
+            "T": 0.0,
+            "B": 0.0,
+            "Gamma": 0.0,
+            "I": 0.0
+          }
+        },
+        {
+          "cohort": "M63",
+          "group_id": "G15",
+          "pooled": {
+            "D_OO": 0.0,
+            "D_ON": 0.0,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": 0.0,
+            "T": 0.0,
+            "B": 0.0,
+            "Gamma": 0.0,
+            "I": 0.0
+          }
+        },
+        {
+          "cohort": "M63",
+          "group_id": "G16",
+          "pooled": {
+            "D_OO": 0.0,
+            "D_ON": 0.0,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": 0.0,
+            "T": 0.0,
+            "B": 0.0,
+            "Gamma": 0.0,
+            "I": 0.0
+          }
+        },
+        {
+          "cohort": "M63",
+          "group_id": "G17",
+          "pooled": {
+            "D_OO": 0.0,
+            "D_ON": 0.0,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": 0.0,
+            "T": 0.0,
+            "B": 0.0,
+            "Gamma": 0.0,
+            "I": 0.0
+          }
+        },
+        {
+          "cohort": "M63",
+          "group_id": "G18",
+          "pooled": {
+            "D_OO": 0.0,
+            "D_ON": 0.0,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": 0.0,
+            "T": 0.0,
+            "B": 0.0,
+            "Gamma": 0.0,
+            "I": 0.0
+          }
+        },
+        {
+          "cohort": "M63",
+          "group_id": "G19",
+          "pooled": {
+            "D_OO": 0.0,
+            "D_ON": 0.0,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": 0.0,
+            "T": 0.0,
+            "B": 0.0,
+            "Gamma": 0.0,
+            "I": 0.0
+          }
+        },
+        {
+          "cohort": "M63",
+          "group_id": "G20",
+          "pooled": {
+            "D_OO": 0.0,
+            "D_ON": 0.0,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": 0.0,
+            "T": 0.0,
+            "B": 0.0,
+            "Gamma": 0.0,
+            "I": 0.0
+          }
+        },
+        {
+          "cohort": "M63",
+          "group_id": "G21",
+          "pooled": {
+            "D_OO": 0.0,
+            "D_ON": 0.0,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": 0.0,
+            "T": 0.0,
+            "B": 0.0,
+            "Gamma": 0.0,
+            "I": 0.0
+          }
+        },
+        {
+          "cohort": "M63",
+          "group_id": "G22",
+          "pooled": {
+            "D_OO": 0.0,
+            "D_ON": 0.0,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": 0.0,
+            "T": 0.0,
+            "B": 0.0,
+            "Gamma": 0.0,
+            "I": 0.0
+          }
+        },
+        {
+          "cohort": "M63",
+          "group_id": "G23",
+          "pooled": {
+            "D_OO": 0.0,
+            "D_ON": 0.0,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": 0.0,
+            "T": 0.0,
+            "B": 0.0,
+            "Gamma": 0.0,
+            "I": 0.0
+          }
+        },
+        {
+          "cohort": "M63",
+          "group_id": "G24",
+          "pooled": {
+            "D_OO": 0.0,
+            "D_ON": 0.0,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": 0.0,
+            "T": 0.0,
+            "B": 0.0,
+            "Gamma": 0.0,
+            "I": 0.0
+          }
+        },
+        {
+          "cohort": "M65",
+          "group_id": "G01",
+          "pooled": {
+            "D_OO": 0.0,
+            "D_ON": 0.0,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": 0.0,
+            "T": 0.0,
+            "B": 0.0,
+            "Gamma": 0.0,
+            "I": 0.0
+          }
+        },
+        {
+          "cohort": "M65",
+          "group_id": "G02",
+          "pooled": {
+            "D_OO": 0.0,
+            "D_ON": 0.0,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": 0.0,
+            "T": 0.0,
+            "B": 0.0,
+            "Gamma": 0.0,
+            "I": 0.0
+          }
+        },
+        {
+          "cohort": "M65",
+          "group_id": "G03",
+          "pooled": {
+            "D_OO": 0.0,
+            "D_ON": 0.0,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": 0.0,
+            "T": 0.0,
+            "B": 0.0,
+            "Gamma": 0.0,
+            "I": 0.0
+          }
+        },
+        {
+          "cohort": "M65",
+          "group_id": "G04",
+          "pooled": {
+            "D_OO": 0.0,
+            "D_ON": 0.0,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": 0.0,
+            "T": 0.0,
+            "B": 0.0,
+            "Gamma": 0.0,
+            "I": 0.0
+          }
+        },
+        {
+          "cohort": "M65",
+          "group_id": "G05",
+          "pooled": {
+            "D_OO": 0.0,
+            "D_ON": 0.0,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": 0.0,
+            "T": 0.0,
+            "B": 0.0,
+            "Gamma": 0.0,
+            "I": 0.0
+          }
+        },
+        {
+          "cohort": "M65",
+          "group_id": "G06",
+          "pooled": {
+            "D_OO": 0.0,
+            "D_ON": 0.0,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": 0.0,
+            "T": 0.0,
+            "B": 0.0,
+            "Gamma": 0.0,
+            "I": 0.0
+          }
+        },
+        {
+          "cohort": "M65",
+          "group_id": "G07",
+          "pooled": {
+            "D_OO": 0.0,
+            "D_ON": 0.0,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": 0.0,
+            "T": 0.0,
+            "B": 0.0,
+            "Gamma": 0.0,
+            "I": 0.0
+          }
+        },
+        {
+          "cohort": "M65",
+          "group_id": "G08",
+          "pooled": {
+            "D_OO": 0.0,
+            "D_ON": 0.0,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": 0.0,
+            "T": 0.0,
+            "B": 0.0,
+            "Gamma": 0.0,
+            "I": 0.0
+          }
+        },
+        {
+          "cohort": "M65",
+          "group_id": "G09",
+          "pooled": {
+            "D_OO": 0.0,
+            "D_ON": 0.0,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": 0.0,
+            "T": 0.0,
+            "B": 0.0,
+            "Gamma": 0.0,
+            "I": 0.0
+          }
+        },
+        {
+          "cohort": "M65",
+          "group_id": "G10",
+          "pooled": {
+            "D_OO": 0.0,
+            "D_ON": 0.0,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": 0.0,
+            "T": 0.0,
+            "B": 0.0,
+            "Gamma": 0.0,
+            "I": 0.0
+          }
+        },
+        {
+          "cohort": "M65",
+          "group_id": "G11",
+          "pooled": {
+            "D_OO": 0.0,
+            "D_ON": 0.0,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": 0.0,
+            "T": 0.0,
+            "B": 0.0,
+            "Gamma": 0.0,
+            "I": 0.0
+          }
+        },
+        {
+          "cohort": "M65",
+          "group_id": "G12",
+          "pooled": {
+            "D_OO": 0.0,
+            "D_ON": 0.0,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": 0.0,
+            "T": 0.0,
+            "B": 0.0,
+            "Gamma": 0.0,
+            "I": 0.0
+          }
+        },
+        {
+          "cohort": "M65",
+          "group_id": "G13",
+          "pooled": {
+            "D_OO": 0.0,
+            "D_ON": 0.0,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": 0.0,
+            "T": 0.0,
+            "B": 0.0,
+            "Gamma": 0.0,
+            "I": 0.0
+          }
+        },
+        {
+          "cohort": "M65",
+          "group_id": "G14",
+          "pooled": {
+            "D_OO": 0.0,
+            "D_ON": 0.0,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": 0.0,
+            "T": 0.0,
+            "B": 0.0,
+            "Gamma": 0.0,
+            "I": 0.0
+          }
+        },
+        {
+          "cohort": "M65",
+          "group_id": "G15",
+          "pooled": {
+            "D_OO": 0.0,
+            "D_ON": 0.0,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": 0.0,
+            "T": 0.0,
+            "B": 0.0,
+            "Gamma": 0.0,
+            "I": 0.0
+          }
+        },
+        {
+          "cohort": "M65",
+          "group_id": "G16",
+          "pooled": {
+            "D_OO": 0.0,
+            "D_ON": 0.0,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": 0.0,
+            "T": 0.0,
+            "B": 0.0,
+            "Gamma": 0.0,
+            "I": 0.0
+          }
+        },
+        {
+          "cohort": "M65",
+          "group_id": "G17",
+          "pooled": {
+            "D_OO": 0.0,
+            "D_ON": 0.0,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": 0.0,
+            "T": 0.0,
+            "B": 0.0,
+            "Gamma": 0.0,
+            "I": 0.0
+          }
+        },
+        {
+          "cohort": "M65",
+          "group_id": "G18",
+          "pooled": {
+            "D_OO": 0.0,
+            "D_ON": 0.0,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": 0.0,
+            "T": 0.0,
+            "B": 0.0,
+            "Gamma": 0.0,
+            "I": 0.0
+          }
+        },
+        {
+          "cohort": "M65",
+          "group_id": "G19",
+          "pooled": {
+            "D_OO": 0.0,
+            "D_ON": 0.0,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": 0.0,
+            "T": 0.0,
+            "B": 0.0,
+            "Gamma": 0.0,
+            "I": 0.0
+          }
+        },
+        {
+          "cohort": "M65",
+          "group_id": "G20",
+          "pooled": {
+            "D_OO": 0.0,
+            "D_ON": 0.0,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": 0.0,
+            "T": 0.0,
+            "B": 0.0,
+            "Gamma": 0.0,
+            "I": 0.0
+          }
+        },
+        {
+          "cohort": "M65",
+          "group_id": "G21",
+          "pooled": {
+            "D_OO": 0.0,
+            "D_ON": 0.0,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": 0.0,
+            "T": 0.0,
+            "B": 0.0,
+            "Gamma": 0.0,
+            "I": 0.0
+          }
+        },
+        {
+          "cohort": "M65",
+          "group_id": "G22",
+          "pooled": {
+            "D_OO": 0.0,
+            "D_ON": 0.0,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": 0.0,
+            "T": 0.0,
+            "B": 0.0,
+            "Gamma": 0.0,
+            "I": 0.0
+          }
+        },
+        {
+          "cohort": "M65",
+          "group_id": "G23",
+          "pooled": {
+            "D_OO": 0.0,
+            "D_ON": 0.0,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": 0.0,
+            "T": 0.0,
+            "B": 0.0,
+            "Gamma": 0.0,
+            "I": 0.0
+          }
+        },
+        {
+          "cohort": "M65",
+          "group_id": "G24",
+          "pooled": {
+            "D_OO": 0.0,
+            "D_ON": 0.0,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": 0.0,
+            "T": 0.0,
+            "B": 0.0,
+            "Gamma": 0.0,
+            "I": 0.0
+          }
+        }
+      ],
+      "flags": {
+        "target_dominant_local": false,
+        "background_dominant_local": false,
+        "both_components_positive": false,
+        "canonical_total_positive": false,
+        "positive_interaction": false
+      },
+      "bootstrap_n": 10000,
+      "seed": 670914,
+      "cohort_weights": [
+        0.5,
+        0.5
+      ],
+      "independent_cohorts": true
+    },
+    "BA_UA": {
+      "estimates": {
+        "M63": {
+          "D_OO": {
+            "value": 0.0,
+            "low": 0.0,
+            "high": 0.0
+          },
+          "D_ON": {
+            "value": 0.0,
+            "low": 0.0,
+            "high": 0.0
+          },
+          "D_NO": {
+            "value": 0.0,
+            "low": 0.0,
+            "high": 0.0
+          },
+          "D_NN": {
+            "value": 0.0,
+            "low": 0.0,
+            "high": 0.0
+          },
+          "Theta": {
+            "value": 0.0,
+            "low": 0.0,
+            "high": 0.0
+          },
+          "T": {
+            "value": 0.0,
+            "low": 0.0,
+            "high": 0.0
+          },
+          "B": {
+            "value": 0.0,
+            "low": 0.0,
+            "high": 0.0
+          },
+          "Gamma": {
+            "value": 0.0,
+            "low": 0.0,
+            "high": 0.0
+          },
+          "I": {
+            "value": 0.0,
+            "low": 0.0,
+            "high": 0.0
+          }
+        },
+        "M65": {
+          "D_OO": {
+            "value": 0.0,
+            "low": 0.0,
+            "high": 0.0
+          },
+          "D_ON": {
+            "value": 0.0,
+            "low": 0.0,
+            "high": 0.0
+          },
+          "D_NO": {
+            "value": 0.0,
+            "low": 0.0,
+            "high": 0.0
+          },
+          "D_NN": {
+            "value": 0.0,
+            "low": 0.0,
+            "high": 0.0
+          },
+          "Theta": {
+            "value": 0.0,
+            "low": 0.0,
+            "high": 0.0
+          },
+          "T": {
+            "value": 0.0,
+            "low": 0.0,
+            "high": 0.0
+          },
+          "B": {
+            "value": 0.0,
+            "low": 0.0,
+            "high": 0.0
+          },
+          "Gamma": {
+            "value": 0.0,
+            "low": 0.0,
+            "high": 0.0
+          },
+          "I": {
+            "value": 0.0,
+            "low": 0.0,
+            "high": 0.0
+          }
+        },
+        "pooled": {
+          "D_OO": {
+            "value": 0.0,
+            "low": 0.0,
+            "high": 0.0
+          },
+          "D_ON": {
+            "value": 0.0,
+            "low": 0.0,
+            "high": 0.0
+          },
+          "D_NO": {
+            "value": 0.0,
+            "low": 0.0,
+            "high": 0.0
+          },
+          "D_NN": {
+            "value": 0.0,
+            "low": 0.0,
+            "high": 0.0
+          },
+          "Theta": {
+            "value": 0.0,
+            "low": 0.0,
+            "high": 0.0
+          },
+          "T": {
+            "value": 0.0,
+            "low": 0.0,
+            "high": 0.0
+          },
+          "B": {
+            "value": 0.0,
+            "low": 0.0,
+            "high": 0.0
+          },
+          "Gamma": {
+            "value": 0.0,
+            "low": 0.0,
+            "high": 0.0
+          },
+          "I": {
+            "value": 0.0,
+            "low": 0.0,
+            "high": 0.0
+          }
+        }
+      },
+      "leave_one": [
+        {
+          "cohort": "M63",
+          "group_id": "G01",
+          "pooled": {
+            "D_OO": 0.0,
+            "D_ON": 0.0,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": 0.0,
+            "T": 0.0,
+            "B": 0.0,
+            "Gamma": 0.0,
+            "I": 0.0
+          }
+        },
+        {
+          "cohort": "M63",
+          "group_id": "G02",
+          "pooled": {
+            "D_OO": 0.0,
+            "D_ON": 0.0,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": 0.0,
+            "T": 0.0,
+            "B": 0.0,
+            "Gamma": 0.0,
+            "I": 0.0
+          }
+        },
+        {
+          "cohort": "M63",
+          "group_id": "G03",
+          "pooled": {
+            "D_OO": 0.0,
+            "D_ON": 0.0,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": 0.0,
+            "T": 0.0,
+            "B": 0.0,
+            "Gamma": 0.0,
+            "I": 0.0
+          }
+        },
+        {
+          "cohort": "M63",
+          "group_id": "G04",
+          "pooled": {
+            "D_OO": 0.0,
+            "D_ON": 0.0,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": 0.0,
+            "T": 0.0,
+            "B": 0.0,
+            "Gamma": 0.0,
+            "I": 0.0
+          }
+        },
+        {
+          "cohort": "M63",
+          "group_id": "G05",
+          "pooled": {
+            "D_OO": 0.0,
+            "D_ON": 0.0,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": 0.0,
+            "T": 0.0,
+            "B": 0.0,
+            "Gamma": 0.0,
+            "I": 0.0
+          }
+        },
+        {
+          "cohort": "M63",
+          "group_id": "G06",
+          "pooled": {
+            "D_OO": 0.0,
+            "D_ON": 0.0,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": 0.0,
+            "T": 0.0,
+            "B": 0.0,
+            "Gamma": 0.0,
+            "I": 0.0
+          }
+        },
+        {
+          "cohort": "M63",
+          "group_id": "G07",
+          "pooled": {
+            "D_OO": 0.0,
+            "D_ON": 0.0,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": 0.0,
+            "T": 0.0,
+            "B": 0.0,
+            "Gamma": 0.0,
+            "I": 0.0
+          }
+        },
+        {
+          "cohort": "M63",
+          "group_id": "G08",
+          "pooled": {
+            "D_OO": 0.0,
+            "D_ON": 0.0,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": 0.0,
+            "T": 0.0,
+            "B": 0.0,
+            "Gamma": 0.0,
+            "I": 0.0
+          }
+        },
+        {
+          "cohort": "M63",
+          "group_id": "G09",
+          "pooled": {
+            "D_OO": 0.0,
+            "D_ON": 0.0,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": 0.0,
+            "T": 0.0,
+            "B": 0.0,
+            "Gamma": 0.0,
+            "I": 0.0
+          }
+        },
+        {
+          "cohort": "M63",
+          "group_id": "G10",
+          "pooled": {
+            "D_OO": 0.0,
+            "D_ON": 0.0,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": 0.0,
+            "T": 0.0,
+            "B": 0.0,
+            "Gamma": 0.0,
+            "I": 0.0
+          }
+        },
+        {
+          "cohort": "M63",
+          "group_id": "G11",
+          "pooled": {
+            "D_OO": 0.0,
+            "D_ON": 0.0,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": 0.0,
+            "T": 0.0,
+            "B": 0.0,
+            "Gamma": 0.0,
+            "I": 0.0
+          }
+        },
+        {
+          "cohort": "M63",
+          "group_id": "G12",
+          "pooled": {
+            "D_OO": 0.0,
+            "D_ON": 0.0,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": 0.0,
+            "T": 0.0,
+            "B": 0.0,
+            "Gamma": 0.0,
+            "I": 0.0
+          }
+        },
+        {
+          "cohort": "M63",
+          "group_id": "G13",
+          "pooled": {
+            "D_OO": 0.0,
+            "D_ON": 0.0,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": 0.0,
+            "T": 0.0,
+            "B": 0.0,
+            "Gamma": 0.0,
+            "I": 0.0
+          }
+        },
+        {
+          "cohort": "M63",
+          "group_id": "G14",
+          "pooled": {
+            "D_OO": 0.0,
+            "D_ON": 0.0,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": 0.0,
+            "T": 0.0,
+            "B": 0.0,
+            "Gamma": 0.0,
+            "I": 0.0
+          }
+        },
+        {
+          "cohort": "M63",
+          "group_id": "G15",
+          "pooled": {
+            "D_OO": 0.0,
+            "D_ON": 0.0,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": 0.0,
+            "T": 0.0,
+            "B": 0.0,
+            "Gamma": 0.0,
+            "I": 0.0
+          }
+        },
+        {
+          "cohort": "M63",
+          "group_id": "G16",
+          "pooled": {
+            "D_OO": 0.0,
+            "D_ON": 0.0,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": 0.0,
+            "T": 0.0,
+            "B": 0.0,
+            "Gamma": 0.0,
+            "I": 0.0
+          }
+        },
+        {
+          "cohort": "M63",
+          "group_id": "G17",
+          "pooled": {
+            "D_OO": 0.0,
+            "D_ON": 0.0,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": 0.0,
+            "T": 0.0,
+            "B": 0.0,
+            "Gamma": 0.0,
+            "I": 0.0
+          }
+        },
+        {
+          "cohort": "M63",
+          "group_id": "G18",
+          "pooled": {
+            "D_OO": 0.0,
+            "D_ON": 0.0,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": 0.0,
+            "T": 0.0,
+            "B": 0.0,
+            "Gamma": 0.0,
+            "I": 0.0
+          }
+        },
+        {
+          "cohort": "M63",
+          "group_id": "G19",
+          "pooled": {
+            "D_OO": 0.0,
+            "D_ON": 0.0,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": 0.0,
+            "T": 0.0,
+            "B": 0.0,
+            "Gamma": 0.0,
+            "I": 0.0
+          }
+        },
+        {
+          "cohort": "M63",
+          "group_id": "G20",
+          "pooled": {
+            "D_OO": 0.0,
+            "D_ON": 0.0,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": 0.0,
+            "T": 0.0,
+            "B": 0.0,
+            "Gamma": 0.0,
+            "I": 0.0
+          }
+        },
+        {
+          "cohort": "M63",
+          "group_id": "G21",
+          "pooled": {
+            "D_OO": 0.0,
+            "D_ON": 0.0,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": 0.0,
+            "T": 0.0,
+            "B": 0.0,
+            "Gamma": 0.0,
+            "I": 0.0
+          }
+        },
+        {
+          "cohort": "M63",
+          "group_id": "G22",
+          "pooled": {
+            "D_OO": 0.0,
+            "D_ON": 0.0,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": 0.0,
+            "T": 0.0,
+            "B": 0.0,
+            "Gamma": 0.0,
+            "I": 0.0
+          }
+        },
+        {
+          "cohort": "M63",
+          "group_id": "G23",
+          "pooled": {
+            "D_OO": 0.0,
+            "D_ON": 0.0,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": 0.0,
+            "T": 0.0,
+            "B": 0.0,
+            "Gamma": 0.0,
+            "I": 0.0
+          }
+        },
+        {
+          "cohort": "M63",
+          "group_id": "G24",
+          "pooled": {
+            "D_OO": 0.0,
+            "D_ON": 0.0,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": 0.0,
+            "T": 0.0,
+            "B": 0.0,
+            "Gamma": 0.0,
+            "I": 0.0
+          }
+        },
+        {
+          "cohort": "M65",
+          "group_id": "G01",
+          "pooled": {
+            "D_OO": 0.0,
+            "D_ON": 0.0,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": 0.0,
+            "T": 0.0,
+            "B": 0.0,
+            "Gamma": 0.0,
+            "I": 0.0
+          }
+        },
+        {
+          "cohort": "M65",
+          "group_id": "G02",
+          "pooled": {
+            "D_OO": 0.0,
+            "D_ON": 0.0,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": 0.0,
+            "T": 0.0,
+            "B": 0.0,
+            "Gamma": 0.0,
+            "I": 0.0
+          }
+        },
+        {
+          "cohort": "M65",
+          "group_id": "G03",
+          "pooled": {
+            "D_OO": 0.0,
+            "D_ON": 0.0,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": 0.0,
+            "T": 0.0,
+            "B": 0.0,
+            "Gamma": 0.0,
+            "I": 0.0
+          }
+        },
+        {
+          "cohort": "M65",
+          "group_id": "G04",
+          "pooled": {
+            "D_OO": 0.0,
+            "D_ON": 0.0,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": 0.0,
+            "T": 0.0,
+            "B": 0.0,
+            "Gamma": 0.0,
+            "I": 0.0
+          }
+        },
+        {
+          "cohort": "M65",
+          "group_id": "G05",
+          "pooled": {
+            "D_OO": 0.0,
+            "D_ON": 0.0,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": 0.0,
+            "T": 0.0,
+            "B": 0.0,
+            "Gamma": 0.0,
+            "I": 0.0
+          }
+        },
+        {
+          "cohort": "M65",
+          "group_id": "G06",
+          "pooled": {
+            "D_OO": 0.0,
+            "D_ON": 0.0,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": 0.0,
+            "T": 0.0,
+            "B": 0.0,
+            "Gamma": 0.0,
+            "I": 0.0
+          }
+        },
+        {
+          "cohort": "M65",
+          "group_id": "G07",
+          "pooled": {
+            "D_OO": 0.0,
+            "D_ON": 0.0,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": 0.0,
+            "T": 0.0,
+            "B": 0.0,
+            "Gamma": 0.0,
+            "I": 0.0
+          }
+        },
+        {
+          "cohort": "M65",
+          "group_id": "G08",
+          "pooled": {
+            "D_OO": 0.0,
+            "D_ON": 0.0,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": 0.0,
+            "T": 0.0,
+            "B": 0.0,
+            "Gamma": 0.0,
+            "I": 0.0
+          }
+        },
+        {
+          "cohort": "M65",
+          "group_id": "G09",
+          "pooled": {
+            "D_OO": 0.0,
+            "D_ON": 0.0,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": 0.0,
+            "T": 0.0,
+            "B": 0.0,
+            "Gamma": 0.0,
+            "I": 0.0
+          }
+        },
+        {
+          "cohort": "M65",
+          "group_id": "G10",
+          "pooled": {
+            "D_OO": 0.0,
+            "D_ON": 0.0,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": 0.0,
+            "T": 0.0,
+            "B": 0.0,
+            "Gamma": 0.0,
+            "I": 0.0
+          }
+        },
+        {
+          "cohort": "M65",
+          "group_id": "G11",
+          "pooled": {
+            "D_OO": 0.0,
+            "D_ON": 0.0,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": 0.0,
+            "T": 0.0,
+            "B": 0.0,
+            "Gamma": 0.0,
+            "I": 0.0
+          }
+        },
+        {
+          "cohort": "M65",
+          "group_id": "G12",
+          "pooled": {
+            "D_OO": 0.0,
+            "D_ON": 0.0,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": 0.0,
+            "T": 0.0,
+            "B": 0.0,
+            "Gamma": 0.0,
+            "I": 0.0
+          }
+        },
+        {
+          "cohort": "M65",
+          "group_id": "G13",
+          "pooled": {
+            "D_OO": 0.0,
+            "D_ON": 0.0,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": 0.0,
+            "T": 0.0,
+            "B": 0.0,
+            "Gamma": 0.0,
+            "I": 0.0
+          }
+        },
+        {
+          "cohort": "M65",
+          "group_id": "G14",
+          "pooled": {
+            "D_OO": 0.0,
+            "D_ON": 0.0,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": 0.0,
+            "T": 0.0,
+            "B": 0.0,
+            "Gamma": 0.0,
+            "I": 0.0
+          }
+        },
+        {
+          "cohort": "M65",
+          "group_id": "G15",
+          "pooled": {
+            "D_OO": 0.0,
+            "D_ON": 0.0,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": 0.0,
+            "T": 0.0,
+            "B": 0.0,
+            "Gamma": 0.0,
+            "I": 0.0
+          }
+        },
+        {
+          "cohort": "M65",
+          "group_id": "G16",
+          "pooled": {
+            "D_OO": 0.0,
+            "D_ON": 0.0,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": 0.0,
+            "T": 0.0,
+            "B": 0.0,
+            "Gamma": 0.0,
+            "I": 0.0
+          }
+        },
+        {
+          "cohort": "M65",
+          "group_id": "G17",
+          "pooled": {
+            "D_OO": 0.0,
+            "D_ON": 0.0,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": 0.0,
+            "T": 0.0,
+            "B": 0.0,
+            "Gamma": 0.0,
+            "I": 0.0
+          }
+        },
+        {
+          "cohort": "M65",
+          "group_id": "G18",
+          "pooled": {
+            "D_OO": 0.0,
+            "D_ON": 0.0,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": 0.0,
+            "T": 0.0,
+            "B": 0.0,
+            "Gamma": 0.0,
+            "I": 0.0
+          }
+        },
+        {
+          "cohort": "M65",
+          "group_id": "G19",
+          "pooled": {
+            "D_OO": 0.0,
+            "D_ON": 0.0,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": 0.0,
+            "T": 0.0,
+            "B": 0.0,
+            "Gamma": 0.0,
+            "I": 0.0
+          }
+        },
+        {
+          "cohort": "M65",
+          "group_id": "G20",
+          "pooled": {
+            "D_OO": 0.0,
+            "D_ON": 0.0,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": 0.0,
+            "T": 0.0,
+            "B": 0.0,
+            "Gamma": 0.0,
+            "I": 0.0
+          }
+        },
+        {
+          "cohort": "M65",
+          "group_id": "G21",
+          "pooled": {
+            "D_OO": 0.0,
+            "D_ON": 0.0,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": 0.0,
+            "T": 0.0,
+            "B": 0.0,
+            "Gamma": 0.0,
+            "I": 0.0
+          }
+        },
+        {
+          "cohort": "M65",
+          "group_id": "G22",
+          "pooled": {
+            "D_OO": 0.0,
+            "D_ON": 0.0,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": 0.0,
+            "T": 0.0,
+            "B": 0.0,
+            "Gamma": 0.0,
+            "I": 0.0
+          }
+        },
+        {
+          "cohort": "M65",
+          "group_id": "G23",
+          "pooled": {
+            "D_OO": 0.0,
+            "D_ON": 0.0,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": 0.0,
+            "T": 0.0,
+            "B": 0.0,
+            "Gamma": 0.0,
+            "I": 0.0
+          }
+        },
+        {
+          "cohort": "M65",
+          "group_id": "G24",
+          "pooled": {
+            "D_OO": 0.0,
+            "D_ON": 0.0,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": 0.0,
+            "T": 0.0,
+            "B": 0.0,
+            "Gamma": 0.0,
+            "I": 0.0
+          }
+        }
+      ],
+      "flags": {
+        "target_dominant_local": false,
+        "background_dominant_local": false,
+        "both_components_positive": false,
+        "canonical_total_positive": false,
+        "positive_interaction": false
+      },
+      "bootstrap_n": 10000,
+      "seed": 670914,
+      "cohort_weights": [
+        0.5,
+        0.5
+      ],
+      "independent_cohorts": true
+    },
+    "BEI_AU": {
+      "estimates": {
+        "M63": {
+          "D_OO": {
+            "value": 0.4166666666666667,
+            "low": 0.20833333333333334,
+            "high": 0.625
+          },
+          "D_ON": {
+            "value": 0.4583333333333333,
+            "low": 0.25,
+            "high": 0.6666666666666666
+          },
+          "D_NO": {
+            "value": 0.20833333333333334,
+            "low": 0.08333333333333333,
+            "high": 0.375
+          },
+          "D_NN": {
+            "value": 0.125,
+            "low": 0.0,
+            "high": 0.25
+          },
+          "Theta": {
+            "value": 0.2916666666666667,
+            "low": 0.08333333333333334,
+            "high": 0.5
+          },
+          "T": {
+            "value": 0.2708333333333333,
+            "low": 0.08333333333333331,
+            "high": 0.47916666666666663
+          },
+          "B": {
+            "value": 0.02083333333333337,
+            "low": -0.10416666666666669,
+            "high": 0.16666666666666666
+          },
+          "Gamma": {
+            "value": 0.24999999999999997,
+            "low": 0.0,
+            "high": 0.5
+          },
+          "I": {
+            "value": -0.12499999999999997,
+            "low": -0.41666666666666674,
+            "high": 0.20833333333333331
+          }
+        },
+        "M65": {
+          "D_OO": {
+            "value": 0.0,
+            "low": -0.125,
+            "high": 0.125
+          },
+          "D_ON": {
+            "value": 0.25,
+            "low": 0.08333333333333333,
+            "high": 0.4166666666666667
+          },
+          "D_NO": {
+            "value": 0.08333333333333333,
+            "low": 0.0,
+            "high": 0.20833333333333334
+          },
+          "D_NN": {
+            "value": -0.08333333333333333,
+            "low": -0.25,
+            "high": 0.08333333333333333
+          },
+          "Theta": {
+            "value": 0.08333333333333333,
+            "low": -0.08333333333333333,
+            "high": 0.25
+          },
+          "T": {
+            "value": 0.125,
+            "low": -0.02083333333333333,
+            "high": 0.25
+          },
+          "B": {
+            "value": -0.04166666666666668,
+            "low": -0.18749999999999997,
+            "high": 0.10416666666666666
+          },
+          "Gamma": {
+            "value": 0.16666666666666669,
+            "low": -0.041666666666666685,
+            "high": 0.375
+          },
+          "I": {
+            "value": -0.41666666666666663,
+            "low": -0.7083333333333333,
+            "high": -0.125
+          }
+        },
+        "pooled": {
+          "D_OO": {
+            "value": 0.20833333333333334,
+            "low": 0.08333333333333334,
+            "high": 0.3333333333333333
+          },
+          "D_ON": {
+            "value": 0.35416666666666663,
+            "low": 0.22916666666666666,
+            "high": 0.5
+          },
+          "D_NO": {
+            "value": 0.14583333333333334,
+            "low": 0.0625,
+            "high": 0.25
+          },
+          "D_NN": {
+            "value": 0.020833333333333336,
+            "low": -0.08333333333333334,
+            "high": 0.125
+          },
+          "Theta": {
+            "value": 0.1875,
+            "low": 0.062499999999999986,
+            "high": 0.31250000000000006
+          },
+          "T": {
+            "value": 0.19791666666666666,
+            "low": 0.07291666666666669,
+            "high": 0.32291666666666663
+          },
+          "B": {
+            "value": -0.010416666666666654,
+            "low": -0.10416666666666667,
+            "high": 0.09375
+          },
+          "Gamma": {
+            "value": 0.20833333333333331,
+            "low": 0.04166666666666666,
+            "high": 0.375
+          },
+          "I": {
+            "value": -0.2708333333333333,
+            "low": -0.4791666666666667,
+            "high": -0.062499999999999986
+          }
+        }
+      },
+      "leave_one": [
+        {
+          "cohort": "M63",
+          "group_id": "G01",
+          "pooled": {
+            "D_OO": 0.21739130434782608,
+            "D_ON": 0.3641304347826087,
+            "D_NO": 0.1503623188405797,
+            "D_NN": 0.02355072463768116,
+            "Theta": 0.19384057971014493,
+            "T": 0.20380434782608697,
+            "B": -0.009963768115942045,
+            "Gamma": 0.213768115942029,
+            "I": -0.27355072463768115
+          }
+        },
+        {
+          "cohort": "M63",
+          "group_id": "G02",
+          "pooled": {
+            "D_OO": 0.1956521739130435,
+            "D_ON": 0.34239130434782605,
+            "D_NO": 0.1503623188405797,
+            "D_NN": 0.02355072463768116,
+            "Theta": 0.17210144927536233,
+            "T": 0.18206521739130432,
+            "B": -0.009963768115942018,
+            "Gamma": 0.19202898550724634,
+            "I": -0.27355072463768115
+          }
+        },
+        {
+          "cohort": "M63",
+          "group_id": "G03",
+          "pooled": {
+            "D_OO": 0.1956521739130435,
+            "D_ON": 0.34239130434782605,
+            "D_NO": 0.1503623188405797,
+            "D_NN": 0.02355072463768116,
+            "Theta": 0.17210144927536233,
+            "T": 0.18206521739130432,
+            "B": -0.009963768115942018,
+            "Gamma": 0.19202898550724634,
+            "I": -0.27355072463768115
+          }
+        },
+        {
+          "cohort": "M63",
+          "group_id": "G04",
+          "pooled": {
+            "D_OO": 0.21739130434782608,
+            "D_ON": 0.3641304347826087,
+            "D_NO": 0.1503623188405797,
+            "D_NN": 0.02355072463768116,
+            "Theta": 0.19384057971014493,
+            "T": 0.20380434782608697,
+            "B": -0.009963768115942045,
+            "Gamma": 0.213768115942029,
+            "I": -0.27355072463768115
+          }
+        },
+        {
+          "cohort": "M63",
+          "group_id": "G05",
+          "pooled": {
+            "D_OO": 0.21739130434782608,
+            "D_ON": 0.3641304347826087,
+            "D_NO": 0.1503623188405797,
+            "D_NN": 0.02355072463768116,
+            "Theta": 0.19384057971014493,
+            "T": 0.20380434782608697,
+            "B": -0.009963768115942045,
+            "Gamma": 0.213768115942029,
+            "I": -0.27355072463768115
+          }
+        },
+        {
+          "cohort": "M63",
+          "group_id": "G06",
+          "pooled": {
+            "D_OO": 0.1956521739130435,
+            "D_ON": 0.3641304347826087,
+            "D_NO": 0.1503623188405797,
+            "D_NN": 0.02355072463768116,
+            "Theta": 0.17210144927536233,
+            "T": 0.19293478260869568,
+            "B": -0.020833333333333343,
+            "Gamma": 0.213768115942029,
+            "I": -0.29528985507246375
+          }
+        },
+        {
+          "cohort": "M63",
+          "group_id": "G07",
+          "pooled": {
+            "D_OO": 0.1956521739130435,
+            "D_ON": 0.3641304347826087,
+            "D_NO": 0.1286231884057971,
+            "D_NN": 0.02355072463768116,
+            "Theta": 0.17210144927536233,
+            "T": 0.20380434782608697,
+            "B": -0.03170289855072464,
+            "Gamma": 0.2355072463768116,
+            "I": -0.27355072463768115
+          }
+        },
+        {
+          "cohort": "M63",
+          "group_id": "G08",
+          "pooled": {
+            "D_OO": 0.21739130434782608,
+            "D_ON": 0.34239130434782605,
+            "D_NO": 0.1503623188405797,
+            "D_NN": 0.02355072463768116,
+            "Theta": 0.19384057971014493,
+            "T": 0.19293478260869562,
+            "B": 0.0009057971014492794,
+            "Gamma": 0.19202898550724634,
+            "I": -0.25181159420289856
+          }
+        },
+        {
+          "cohort": "M63",
+          "group_id": "G09",
+          "pooled": {
+            "D_OO": 0.21739130434782608,
+            "D_ON": 0.3641304347826087,
+            "D_NO": 0.1503623188405797,
+            "D_NN": 0.02355072463768116,
+            "Theta": 0.19384057971014493,
+            "T": 0.20380434782608697,
+            "B": -0.009963768115942045,
+            "Gamma": 0.213768115942029,
+            "I": -0.27355072463768115
+          }
+        },
+        {
+          "cohort": "M63",
+          "group_id": "G10",
+          "pooled": {
+            "D_OO": 0.1956521739130435,
+            "D_ON": 0.3641304347826087,
+            "D_NO": 0.1503623188405797,
+            "D_NN": 0.0018115942028985518,
+            "Theta": 0.19384057971014493,
+            "T": 0.20380434782608697,
+            "B": -0.009963768115942045,
+            "Gamma": 0.213768115942029,
+            "I": -0.31702898550724634
+          }
+        },
+        {
+          "cohort": "M63",
+          "group_id": "G11",
+          "pooled": {
+            "D_OO": 0.21739130434782608,
+            "D_ON": 0.3641304347826087,
+            "D_NO": 0.1503623188405797,
+            "D_NN": 0.02355072463768116,
+            "Theta": 0.19384057971014493,
+            "T": 0.20380434782608697,
+            "B": -0.009963768115942045,
+            "Gamma": 0.213768115942029,
+            "I": -0.27355072463768115
+          }
+        },
+        {
+          "cohort": "M63",
+          "group_id": "G12",
+          "pooled": {
+            "D_OO": 0.1956521739130435,
+            "D_ON": 0.34239130434782605,
+            "D_NO": 0.1503623188405797,
+            "D_NN": 0.02355072463768116,
+            "Theta": 0.17210144927536233,
+            "T": 0.18206521739130432,
+            "B": -0.009963768115942018,
+            "Gamma": 0.19202898550724634,
+            "I": -0.27355072463768115
+          }
+        },
+        {
+          "cohort": "M63",
+          "group_id": "G13",
+          "pooled": {
+            "D_OO": 0.21739130434782608,
+            "D_ON": 0.3641304347826087,
+            "D_NO": 0.1286231884057971,
+            "D_NN": 0.02355072463768116,
+            "Theta": 0.19384057971014493,
+            "T": 0.21467391304347827,
+            "B": -0.020833333333333343,
+            "Gamma": 0.2355072463768116,
+            "I": -0.25181159420289856
+          }
+        },
+        {
+          "cohort": "M63",
+          "group_id": "G14",
+          "pooled": {
+            "D_OO": 0.1956521739130435,
+            "D_ON": 0.34239130434782605,
+            "D_NO": 0.1503623188405797,
+            "D_NN": 0.02355072463768116,
+            "Theta": 0.17210144927536233,
+            "T": 0.18206521739130432,
+            "B": -0.009963768115942018,
+            "Gamma": 0.19202898550724634,
+            "I": -0.27355072463768115
+          }
+        },
+        {
+          "cohort": "M63",
+          "group_id": "G15",
+          "pooled": {
+            "D_OO": 0.21739130434782608,
+            "D_ON": 0.34239130434782605,
+            "D_NO": 0.1503623188405797,
+            "D_NN": 0.02355072463768116,
+            "Theta": 0.19384057971014493,
+            "T": 0.19293478260869562,
+            "B": 0.0009057971014492794,
+            "Gamma": 0.19202898550724634,
+            "I": -0.25181159420289856
+          }
+        },
+        {
+          "cohort": "M63",
+          "group_id": "G16",
+          "pooled": {
+            "D_OO": 0.21739130434782608,
+            "D_ON": 0.3641304347826087,
+            "D_NO": 0.1503623188405797,
+            "D_NN": 0.02355072463768116,
+            "Theta": 0.19384057971014493,
+            "T": 0.20380434782608697,
+            "B": -0.009963768115942045,
+            "Gamma": 0.213768115942029,
+            "I": -0.27355072463768115
+          }
+        },
+        {
+          "cohort": "M63",
+          "group_id": "G17",
+          "pooled": {
+            "D_OO": 0.1956521739130435,
+            "D_ON": 0.34239130434782605,
+            "D_NO": 0.1286231884057971,
+            "D_NN": 0.0018115942028985518,
+            "Theta": 0.19384057971014493,
+            "T": 0.20380434782608695,
+            "B": -0.009963768115942018,
+            "Gamma": 0.21376811594202896,
+            "I": -0.2735507246376811
+          }
+        },
+        {
+          "cohort": "M63",
+          "group_id": "G18",
+          "pooled": {
+            "D_OO": 0.1956521739130435,
+            "D_ON": 0.34239130434782605,
+            "D_NO": 0.1503623188405797,
+            "D_NN": 0.02355072463768116,
+            "Theta": 0.17210144927536233,
+            "T": 0.18206521739130432,
+            "B": -0.009963768115942018,
+            "Gamma": 0.19202898550724634,
+            "I": -0.27355072463768115
+          }
+        },
+        {
+          "cohort": "M63",
+          "group_id": "G19",
+          "pooled": {
+            "D_OO": 0.21739130434782608,
+            "D_ON": 0.3641304347826087,
+            "D_NO": 0.1503623188405797,
+            "D_NN": 0.02355072463768116,
+            "Theta": 0.19384057971014493,
+            "T": 0.20380434782608697,
+            "B": -0.009963768115942045,
+            "Gamma": 0.213768115942029,
+            "I": -0.27355072463768115
+          }
+        },
+        {
+          "cohort": "M63",
+          "group_id": "G20",
+          "pooled": {
+            "D_OO": 0.21739130434782608,
+            "D_ON": 0.34239130434782605,
+            "D_NO": 0.1503623188405797,
+            "D_NN": 0.02355072463768116,
+            "Theta": 0.19384057971014493,
+            "T": 0.19293478260869562,
+            "B": 0.0009057971014492794,
+            "Gamma": 0.19202898550724634,
+            "I": -0.25181159420289856
+          }
+        },
+        {
+          "cohort": "M63",
+          "group_id": "G21",
+          "pooled": {
+            "D_OO": 0.21739130434782608,
+            "D_ON": 0.34239130434782605,
+            "D_NO": 0.1286231884057971,
+            "D_NN": 0.02355072463768116,
+            "Theta": 0.19384057971014493,
+            "T": 0.20380434782608695,
+            "B": -0.009963768115942018,
+            "Gamma": 0.21376811594202896,
+            "I": -0.2300724637681159
+          }
+        },
+        {
+          "cohort": "M63",
+          "group_id": "G22",
+          "pooled": {
+            "D_OO": 0.1956521739130435,
+            "D_ON": 0.34239130434782605,
+            "D_NO": 0.1503623188405797,
+            "D_NN": 0.02355072463768116,
+            "Theta": 0.17210144927536233,
+            "T": 0.18206521739130432,
+            "B": -0.009963768115942018,
+            "Gamma": 0.19202898550724634,
+            "I": -0.27355072463768115
+          }
+        },
+        {
+          "cohort": "M63",
+          "group_id": "G23",
+          "pooled": {
+            "D_OO": 0.21739130434782608,
+            "D_ON": 0.3641304347826087,
+            "D_NO": 0.1286231884057971,
+            "D_NN": 0.02355072463768116,
+            "Theta": 0.19384057971014493,
+            "T": 0.21467391304347827,
+            "B": -0.020833333333333343,
+            "Gamma": 0.2355072463768116,
+            "I": -0.25181159420289856
+          }
+        },
+        {
+          "cohort": "M63",
+          "group_id": "G24",
+          "pooled": {
+            "D_OO": 0.21739130434782608,
+            "D_ON": 0.3641304347826087,
+            "D_NO": 0.1503623188405797,
+            "D_NN": 0.0018115942028985518,
+            "Theta": 0.21557971014492752,
+            "T": 0.21467391304347827,
+            "B": 0.0009057971014492516,
+            "Gamma": 0.213768115942029,
+            "I": -0.29528985507246375
+          }
+        },
+        {
+          "cohort": "M65",
+          "group_id": "G01",
+          "pooled": {
+            "D_OO": 0.20833333333333334,
+            "D_ON": 0.3596014492753623,
+            "D_NO": 0.14764492753623187,
+            "D_NN": 0.019021739130434784,
+            "Theta": 0.18931159420289856,
+            "T": 0.20063405797101447,
+            "B": -0.011322463768115965,
+            "Gamma": 0.21195652173913043,
+            "I": -0.27989130434782605
+          }
+        },
+        {
+          "cohort": "M65",
+          "group_id": "G02",
+          "pooled": {
+            "D_OO": 0.20833333333333334,
+            "D_ON": 0.3596014492753623,
+            "D_NO": 0.12590579710144928,
+            "D_NN": 0.019021739130434784,
+            "Theta": 0.18931159420289856,
+            "T": 0.21150362318840576,
+            "B": -0.02219202898550726,
+            "Gamma": 0.23369565217391303,
+            "I": -0.25815217391304346
+          }
+        },
+        {
+          "cohort": "M65",
+          "group_id": "G03",
+          "pooled": {
+            "D_OO": 0.20833333333333334,
+            "D_ON": 0.3596014492753623,
+            "D_NO": 0.14764492753623187,
+            "D_NN": 0.019021739130434784,
+            "Theta": 0.18931159420289856,
+            "T": 0.20063405797101447,
+            "B": -0.011322463768115965,
+            "Gamma": 0.21195652173913043,
+            "I": -0.27989130434782605
+          }
+        },
+        {
+          "cohort": "M65",
+          "group_id": "G04",
+          "pooled": {
+            "D_OO": 0.20833333333333334,
+            "D_ON": 0.3596014492753623,
+            "D_NO": 0.14764492753623187,
+            "D_NN": -0.0027173913043478243,
+            "Theta": 0.21105072463768115,
+            "T": 0.21150362318840582,
+            "B": -0.0004528985507246397,
+            "Gamma": 0.21195652173913043,
+            "I": -0.30163043478260865
+          }
+        },
+        {
+          "cohort": "M65",
+          "group_id": "G05",
+          "pooled": {
+            "D_OO": 0.20833333333333334,
+            "D_ON": 0.3596014492753623,
+            "D_NO": 0.12590579710144928,
+            "D_NN": 0.019021739130434784,
+            "Theta": 0.18931159420289856,
+            "T": 0.21150362318840576,
+            "B": -0.02219202898550726,
+            "Gamma": 0.23369565217391303,
+            "I": -0.25815217391304346
+          }
+        },
+        {
+          "cohort": "M65",
+          "group_id": "G06",
+          "pooled": {
+            "D_OO": 0.20833333333333334,
+            "D_ON": 0.3596014492753623,
+            "D_NO": 0.14764492753623187,
+            "D_NN": 0.04076086956521739,
+            "Theta": 0.16757246376811596,
+            "T": 0.18976449275362317,
+            "B": -0.02219202898550726,
+            "Gamma": 0.21195652173913043,
+            "I": -0.25815217391304346
+          }
+        },
+        {
+          "cohort": "M65",
+          "group_id": "G07",
+          "pooled": {
+            "D_OO": 0.20833333333333334,
+            "D_ON": 0.3596014492753623,
+            "D_NO": 0.14764492753623187,
+            "D_NN": 0.019021739130434784,
+            "Theta": 0.18931159420289856,
+            "T": 0.20063405797101447,
+            "B": -0.011322463768115965,
+            "Gamma": 0.21195652173913043,
+            "I": -0.27989130434782605
+          }
+        },
+        {
+          "cohort": "M65",
+          "group_id": "G08",
+          "pooled": {
+            "D_OO": 0.18659420289855072,
+            "D_ON": 0.3596014492753623,
+            "D_NO": 0.14764492753623187,
+            "D_NN": 0.019021739130434784,
+            "Theta": 0.16757246376811594,
+            "T": 0.18976449275362317,
+            "B": -0.02219202898550726,
+            "Gamma": 0.21195652173913043,
+            "I": -0.30163043478260865
+          }
+        },
+        {
+          "cohort": "M65",
+          "group_id": "G09",
+          "pooled": {
+            "D_OO": 0.20833333333333334,
+            "D_ON": 0.3378623188405797,
+            "D_NO": 0.14764492753623187,
+            "D_NN": 0.019021739130434784,
+            "Theta": 0.18931159420289856,
+            "T": 0.18976449275362317,
+            "B": -0.00045289855072466745,
+            "Gamma": 0.19021739130434784,
+            "I": -0.25815217391304346
+          }
+        },
+        {
+          "cohort": "M65",
+          "group_id": "G10",
+          "pooled": {
+            "D_OO": 0.20833333333333334,
+            "D_ON": 0.3596014492753623,
+            "D_NO": 0.14764492753623187,
+            "D_NN": 0.019021739130434784,
+            "Theta": 0.18931159420289856,
+            "T": 0.20063405797101447,
+            "B": -0.011322463768115965,
+            "Gamma": 0.21195652173913043,
+            "I": -0.27989130434782605
+          }
+        },
+        {
+          "cohort": "M65",
+          "group_id": "G11",
+          "pooled": {
+            "D_OO": 0.20833333333333334,
+            "D_ON": 0.3378623188405797,
+            "D_NO": 0.14764492753623187,
+            "D_NN": 0.019021739130434784,
+            "Theta": 0.18931159420289856,
+            "T": 0.18976449275362317,
+            "B": -0.00045289855072466745,
+            "Gamma": 0.19021739130434784,
+            "I": -0.25815217391304346
+          }
+        },
+        {
+          "cohort": "M65",
+          "group_id": "G12",
+          "pooled": {
+            "D_OO": 0.20833333333333334,
+            "D_ON": 0.3378623188405797,
+            "D_NO": 0.14764492753623187,
+            "D_NN": 0.019021739130434784,
+            "Theta": 0.18931159420289856,
+            "T": 0.18976449275362317,
+            "B": -0.00045289855072466745,
+            "Gamma": 0.19021739130434784,
+            "I": -0.25815217391304346
+          }
+        },
+        {
+          "cohort": "M65",
+          "group_id": "G13",
+          "pooled": {
+            "D_OO": 0.20833333333333334,
+            "D_ON": 0.3596014492753623,
+            "D_NO": 0.14764492753623187,
+            "D_NN": 0.04076086956521739,
+            "Theta": 0.16757246376811596,
+            "T": 0.18976449275362317,
+            "B": -0.02219202898550726,
+            "Gamma": 0.21195652173913043,
+            "I": -0.25815217391304346
+          }
+        },
+        {
+          "cohort": "M65",
+          "group_id": "G14",
+          "pooled": {
+            "D_OO": 0.20833333333333334,
+            "D_ON": 0.3378623188405797,
+            "D_NO": 0.14764492753623187,
+            "D_NN": 0.019021739130434784,
+            "Theta": 0.18931159420289856,
+            "T": 0.18976449275362317,
+            "B": -0.00045289855072466745,
+            "Gamma": 0.19021739130434784,
+            "I": -0.25815217391304346
+          }
+        },
+        {
+          "cohort": "M65",
+          "group_id": "G15",
+          "pooled": {
+            "D_OO": 0.20833333333333334,
+            "D_ON": 0.3596014492753623,
+            "D_NO": 0.14764492753623187,
+            "D_NN": 0.019021739130434784,
+            "Theta": 0.18931159420289856,
+            "T": 0.20063405797101447,
+            "B": -0.011322463768115965,
+            "Gamma": 0.21195652173913043,
+            "I": -0.27989130434782605
+          }
+        },
+        {
+          "cohort": "M65",
+          "group_id": "G16",
+          "pooled": {
+            "D_OO": 0.23007246376811596,
+            "D_ON": 0.3596014492753623,
+            "D_NO": 0.14764492753623187,
+            "D_NN": 0.04076086956521739,
+            "Theta": 0.18931159420289856,
+            "T": 0.2006340579710145,
+            "B": -0.011322463768115937,
+            "Gamma": 0.21195652173913043,
+            "I": -0.2364130434782608
+          }
+        },
+        {
+          "cohort": "M65",
+          "group_id": "G17",
+          "pooled": {
+            "D_OO": 0.20833333333333334,
+            "D_ON": 0.3596014492753623,
+            "D_NO": 0.14764492753623187,
+            "D_NN": 0.019021739130434784,
+            "Theta": 0.18931159420289856,
+            "T": 0.20063405797101447,
+            "B": -0.011322463768115965,
+            "Gamma": 0.21195652173913043,
+            "I": -0.27989130434782605
+          }
+        },
+        {
+          "cohort": "M65",
+          "group_id": "G18",
+          "pooled": {
+            "D_OO": 0.20833333333333334,
+            "D_ON": 0.3378623188405797,
+            "D_NO": 0.14764492753623187,
+            "D_NN": 0.019021739130434784,
+            "Theta": 0.18931159420289856,
+            "T": 0.18976449275362317,
+            "B": -0.00045289855072466745,
+            "Gamma": 0.19021739130434784,
+            "I": -0.25815217391304346
+          }
+        },
+        {
+          "cohort": "M65",
+          "group_id": "G19",
+          "pooled": {
+            "D_OO": 0.20833333333333334,
+            "D_ON": 0.3596014492753623,
+            "D_NO": 0.14764492753623187,
+            "D_NN": 0.019021739130434784,
+            "Theta": 0.18931159420289856,
+            "T": 0.20063405797101447,
+            "B": -0.011322463768115965,
+            "Gamma": 0.21195652173913043,
+            "I": -0.27989130434782605
+          }
+        },
+        {
+          "cohort": "M65",
+          "group_id": "G20",
+          "pooled": {
+            "D_OO": 0.20833333333333334,
+            "D_ON": 0.3378623188405797,
+            "D_NO": 0.14764492753623187,
+            "D_NN": 0.019021739130434784,
+            "Theta": 0.18931159420289856,
+            "T": 0.18976449275362317,
+            "B": -0.00045289855072466745,
+            "Gamma": 0.19021739130434784,
+            "I": -0.25815217391304346
+          }
+        },
+        {
+          "cohort": "M65",
+          "group_id": "G21",
+          "pooled": {
+            "D_OO": 0.20833333333333334,
+            "D_ON": 0.3596014492753623,
+            "D_NO": 0.14764492753623187,
+            "D_NN": 0.019021739130434784,
+            "Theta": 0.18931159420289856,
+            "T": 0.20063405797101447,
+            "B": -0.011322463768115965,
+            "Gamma": 0.21195652173913043,
+            "I": -0.27989130434782605
+          }
+        },
+        {
+          "cohort": "M65",
+          "group_id": "G22",
+          "pooled": {
+            "D_OO": 0.20833333333333334,
+            "D_ON": 0.3596014492753623,
+            "D_NO": 0.14764492753623187,
+            "D_NN": 0.019021739130434784,
+            "Theta": 0.18931159420289856,
+            "T": 0.20063405797101447,
+            "B": -0.011322463768115965,
+            "Gamma": 0.21195652173913043,
+            "I": -0.27989130434782605
+          }
+        },
+        {
+          "cohort": "M65",
+          "group_id": "G23",
+          "pooled": {
+            "D_OO": 0.20833333333333334,
+            "D_ON": 0.3596014492753623,
+            "D_NO": 0.14764492753623187,
+            "D_NN": 0.019021739130434784,
+            "Theta": 0.18931159420289856,
+            "T": 0.20063405797101447,
+            "B": -0.011322463768115965,
+            "Gamma": 0.21195652173913043,
+            "I": -0.27989130434782605
+          }
+        },
+        {
+          "cohort": "M65",
+          "group_id": "G24",
+          "pooled": {
+            "D_OO": 0.20833333333333334,
+            "D_ON": 0.3596014492753623,
+            "D_NO": 0.14764492753623187,
+            "D_NN": 0.019021739130434784,
+            "Theta": 0.18931159420289856,
+            "T": 0.20063405797101447,
+            "B": -0.011322463768115965,
+            "Gamma": 0.21195652173913043,
+            "I": -0.27989130434782605
+          }
+        }
+      ],
+      "flags": {
+        "target_dominant_local": true,
+        "background_dominant_local": false,
+        "both_components_positive": false,
+        "canonical_total_positive": true,
+        "positive_interaction": false
+      },
+      "bootstrap_n": 10000,
+      "seed": 670914,
+      "cohort_weights": [
+        0.5,
+        0.5
+      ],
+      "independent_cohorts": true
+    },
+    "BEI_UA": {
+      "estimates": {
+        "M63": {
+          "D_OO": {
+            "value": 0.0,
+            "low": -0.125,
+            "high": 0.125
+          },
+          "D_ON": {
+            "value": 0.041666666666666664,
+            "low": 0.0,
+            "high": 0.125
+          },
+          "D_NO": {
+            "value": 0.0,
+            "low": 0.0,
+            "high": 0.0
+          },
+          "D_NN": {
+            "value": 0.0,
+            "low": 0.0,
+            "high": 0.0
+          },
+          "Theta": {
+            "value": 0.0,
+            "low": -0.125,
+            "high": 0.125
+          },
+          "T": {
+            "value": 0.020833333333333332,
+            "low": -0.0625,
+            "high": 0.125
+          },
+          "B": {
+            "value": -0.020833333333333332,
+            "low": -0.0625,
+            "high": 0.0
+          },
+          "Gamma": {
+            "value": 0.041666666666666664,
+            "low": 0.0,
+            "high": 0.125
+          },
+          "I": {
+            "value": -0.041666666666666664,
+            "low": -0.125,
+            "high": 0.0
+          }
+        },
+        "M65": {
+          "D_OO": {
+            "value": 0.125,
+            "low": 0.0,
+            "high": 0.2916666666666667
+          },
+          "D_ON": {
+            "value": 0.125,
+            "low": 0.0,
+            "high": 0.25
+          },
+          "D_NO": {
+            "value": 0.0,
+            "low": 0.0,
+            "high": 0.0
+          },
+          "D_NN": {
+            "value": 0.0,
+            "low": 0.0,
+            "high": 0.0
+          },
+          "Theta": {
+            "value": 0.125,
+            "low": 0.0,
+            "high": 0.2916666666666667
+          },
+          "T": {
+            "value": 0.125,
+            "low": 0.020833333333333332,
+            "high": 0.25
+          },
+          "B": {
+            "value": 0.0,
+            "low": -0.0625,
+            "high": 0.0625
+          },
+          "Gamma": {
+            "value": 0.125,
+            "low": 0.0,
+            "high": 0.25
+          },
+          "I": {
+            "value": 0.0,
+            "low": -0.125,
+            "high": 0.125
+          }
+        },
+        "pooled": {
+          "D_OO": {
+            "value": 0.0625,
+            "low": -0.020833333333333332,
+            "high": 0.14583333333333334
+          },
+          "D_ON": {
+            "value": 0.08333333333333333,
+            "low": 0.020833333333333332,
+            "high": 0.16666666666666669
+          },
+          "D_NO": {
+            "value": 0.0,
+            "low": 0.0,
+            "high": 0.0
+          },
+          "D_NN": {
+            "value": 0.0,
+            "low": 0.0,
+            "high": 0.0
+          },
+          "Theta": {
+            "value": 0.0625,
+            "low": -0.020833333333333332,
+            "high": 0.14583333333333334
+          },
+          "T": {
+            "value": 0.07291666666666667,
+            "low": 0.010416666666666664,
+            "high": 0.15625
+          },
+          "B": {
+            "value": -0.010416666666666666,
+            "low": -0.05208333333333333,
+            "high": 0.020833333333333336
+          },
+          "Gamma": {
+            "value": 0.08333333333333333,
+            "low": 0.020833333333333332,
+            "high": 0.16666666666666669
+          },
+          "I": {
+            "value": -0.020833333333333332,
+            "low": -0.10416666666666666,
+            "high": 0.04166666666666667
+          }
+        }
+      },
+      "leave_one": [
+        {
+          "cohort": "M63",
+          "group_id": "G01",
+          "pooled": {
+            "D_OO": 0.0625,
+            "D_ON": 0.08423913043478261,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": 0.0625,
+            "T": 0.0733695652173913,
+            "B": -0.010869565217391304,
+            "Gamma": 0.08423913043478261,
+            "I": -0.021739130434782608
+          }
+        },
+        {
+          "cohort": "M63",
+          "group_id": "G02",
+          "pooled": {
+            "D_OO": 0.08423913043478261,
+            "D_ON": 0.08423913043478261,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": 0.08423913043478261,
+            "T": 0.08423913043478261,
+            "B": 0.0,
+            "Gamma": 0.08423913043478261,
+            "I": 0.0
+          }
+        },
+        {
+          "cohort": "M63",
+          "group_id": "G03",
+          "pooled": {
+            "D_OO": 0.0625,
+            "D_ON": 0.08423913043478261,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": 0.0625,
+            "T": 0.0733695652173913,
+            "B": -0.010869565217391304,
+            "Gamma": 0.08423913043478261,
+            "I": -0.021739130434782608
+          }
+        },
+        {
+          "cohort": "M63",
+          "group_id": "G04",
+          "pooled": {
+            "D_OO": 0.0625,
+            "D_ON": 0.08423913043478261,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": 0.0625,
+            "T": 0.0733695652173913,
+            "B": -0.010869565217391304,
+            "Gamma": 0.08423913043478261,
+            "I": -0.021739130434782608
+          }
+        },
+        {
+          "cohort": "M63",
+          "group_id": "G05",
+          "pooled": {
+            "D_OO": 0.0625,
+            "D_ON": 0.08423913043478261,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": 0.0625,
+            "T": 0.0733695652173913,
+            "B": -0.010869565217391304,
+            "Gamma": 0.08423913043478261,
+            "I": -0.021739130434782608
+          }
+        },
+        {
+          "cohort": "M63",
+          "group_id": "G06",
+          "pooled": {
+            "D_OO": 0.0625,
+            "D_ON": 0.08423913043478261,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": 0.0625,
+            "T": 0.0733695652173913,
+            "B": -0.010869565217391304,
+            "Gamma": 0.08423913043478261,
+            "I": -0.021739130434782608
+          }
+        },
+        {
+          "cohort": "M63",
+          "group_id": "G07",
+          "pooled": {
+            "D_OO": 0.0625,
+            "D_ON": 0.08423913043478261,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": 0.0625,
+            "T": 0.0733695652173913,
+            "B": -0.010869565217391304,
+            "Gamma": 0.08423913043478261,
+            "I": -0.021739130434782608
+          }
+        },
+        {
+          "cohort": "M63",
+          "group_id": "G08",
+          "pooled": {
+            "D_OO": 0.0625,
+            "D_ON": 0.08423913043478261,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": 0.0625,
+            "T": 0.0733695652173913,
+            "B": -0.010869565217391304,
+            "Gamma": 0.08423913043478261,
+            "I": -0.021739130434782608
+          }
+        },
+        {
+          "cohort": "M63",
+          "group_id": "G09",
+          "pooled": {
+            "D_OO": 0.0625,
+            "D_ON": 0.08423913043478261,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": 0.0625,
+            "T": 0.0733695652173913,
+            "B": -0.010869565217391304,
+            "Gamma": 0.08423913043478261,
+            "I": -0.021739130434782608
+          }
+        },
+        {
+          "cohort": "M63",
+          "group_id": "G10",
+          "pooled": {
+            "D_OO": 0.0625,
+            "D_ON": 0.08423913043478261,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": 0.0625,
+            "T": 0.0733695652173913,
+            "B": -0.010869565217391304,
+            "Gamma": 0.08423913043478261,
+            "I": -0.021739130434782608
+          }
+        },
+        {
+          "cohort": "M63",
+          "group_id": "G11",
+          "pooled": {
+            "D_OO": 0.0625,
+            "D_ON": 0.08423913043478261,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": 0.0625,
+            "T": 0.0733695652173913,
+            "B": -0.010869565217391304,
+            "Gamma": 0.08423913043478261,
+            "I": -0.021739130434782608
+          }
+        },
+        {
+          "cohort": "M63",
+          "group_id": "G12",
+          "pooled": {
+            "D_OO": 0.0625,
+            "D_ON": 0.08423913043478261,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": 0.0625,
+            "T": 0.0733695652173913,
+            "B": -0.010869565217391304,
+            "Gamma": 0.08423913043478261,
+            "I": -0.021739130434782608
+          }
+        },
+        {
+          "cohort": "M63",
+          "group_id": "G13",
+          "pooled": {
+            "D_OO": 0.0625,
+            "D_ON": 0.08423913043478261,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": 0.0625,
+            "T": 0.0733695652173913,
+            "B": -0.010869565217391304,
+            "Gamma": 0.08423913043478261,
+            "I": -0.021739130434782608
+          }
+        },
+        {
+          "cohort": "M63",
+          "group_id": "G14",
+          "pooled": {
+            "D_OO": 0.0625,
+            "D_ON": 0.08423913043478261,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": 0.0625,
+            "T": 0.0733695652173913,
+            "B": -0.010869565217391304,
+            "Gamma": 0.08423913043478261,
+            "I": -0.021739130434782608
+          }
+        },
+        {
+          "cohort": "M63",
+          "group_id": "G15",
+          "pooled": {
+            "D_OO": 0.0625,
+            "D_ON": 0.08423913043478261,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": 0.0625,
+            "T": 0.0733695652173913,
+            "B": -0.010869565217391304,
+            "Gamma": 0.08423913043478261,
+            "I": -0.021739130434782608
+          }
+        },
+        {
+          "cohort": "M63",
+          "group_id": "G16",
+          "pooled": {
+            "D_OO": 0.0625,
+            "D_ON": 0.08423913043478261,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": 0.0625,
+            "T": 0.0733695652173913,
+            "B": -0.010869565217391304,
+            "Gamma": 0.08423913043478261,
+            "I": -0.021739130434782608
+          }
+        },
+        {
+          "cohort": "M63",
+          "group_id": "G17",
+          "pooled": {
+            "D_OO": 0.0625,
+            "D_ON": 0.08423913043478261,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": 0.0625,
+            "T": 0.0733695652173913,
+            "B": -0.010869565217391304,
+            "Gamma": 0.08423913043478261,
+            "I": -0.021739130434782608
+          }
+        },
+        {
+          "cohort": "M63",
+          "group_id": "G18",
+          "pooled": {
+            "D_OO": 0.0625,
+            "D_ON": 0.08423913043478261,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": 0.0625,
+            "T": 0.0733695652173913,
+            "B": -0.010869565217391304,
+            "Gamma": 0.08423913043478261,
+            "I": -0.021739130434782608
+          }
+        },
+        {
+          "cohort": "M63",
+          "group_id": "G19",
+          "pooled": {
+            "D_OO": 0.0625,
+            "D_ON": 0.08423913043478261,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": 0.0625,
+            "T": 0.0733695652173913,
+            "B": -0.010869565217391304,
+            "Gamma": 0.08423913043478261,
+            "I": -0.021739130434782608
+          }
+        },
+        {
+          "cohort": "M63",
+          "group_id": "G20",
+          "pooled": {
+            "D_OO": 0.0625,
+            "D_ON": 0.08423913043478261,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": 0.0625,
+            "T": 0.0733695652173913,
+            "B": -0.010869565217391304,
+            "Gamma": 0.08423913043478261,
+            "I": -0.021739130434782608
+          }
+        },
+        {
+          "cohort": "M63",
+          "group_id": "G21",
+          "pooled": {
+            "D_OO": 0.0625,
+            "D_ON": 0.08423913043478261,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": 0.0625,
+            "T": 0.0733695652173913,
+            "B": -0.010869565217391304,
+            "Gamma": 0.08423913043478261,
+            "I": -0.021739130434782608
+          }
+        },
+        {
+          "cohort": "M63",
+          "group_id": "G22",
+          "pooled": {
+            "D_OO": 0.0625,
+            "D_ON": 0.08423913043478261,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": 0.0625,
+            "T": 0.0733695652173913,
+            "B": -0.010869565217391304,
+            "Gamma": 0.08423913043478261,
+            "I": -0.021739130434782608
+          }
+        },
+        {
+          "cohort": "M63",
+          "group_id": "G23",
+          "pooled": {
+            "D_OO": 0.0625,
+            "D_ON": 0.08423913043478261,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": 0.0625,
+            "T": 0.0733695652173913,
+            "B": -0.010869565217391304,
+            "Gamma": 0.08423913043478261,
+            "I": -0.021739130434782608
+          }
+        },
+        {
+          "cohort": "M63",
+          "group_id": "G24",
+          "pooled": {
+            "D_OO": 0.04076086956521739,
+            "D_ON": 0.0625,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": 0.04076086956521739,
+            "T": 0.051630434782608696,
+            "B": -0.010869565217391304,
+            "Gamma": 0.0625,
+            "I": -0.021739130434782608
+          }
+        },
+        {
+          "cohort": "M65",
+          "group_id": "G01",
+          "pooled": {
+            "D_OO": 0.06521739130434782,
+            "D_ON": 0.08605072463768115,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": 0.06521739130434782,
+            "T": 0.0756340579710145,
+            "B": -0.010416666666666664,
+            "Gamma": 0.08605072463768115,
+            "I": -0.02083333333333333
+          }
+        },
+        {
+          "cohort": "M65",
+          "group_id": "G02",
+          "pooled": {
+            "D_OO": 0.06521739130434782,
+            "D_ON": 0.08605072463768115,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": 0.06521739130434782,
+            "T": 0.0756340579710145,
+            "B": -0.010416666666666664,
+            "Gamma": 0.08605072463768115,
+            "I": -0.02083333333333333
+          }
+        },
+        {
+          "cohort": "M65",
+          "group_id": "G03",
+          "pooled": {
+            "D_OO": 0.06521739130434782,
+            "D_ON": 0.08605072463768115,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": 0.06521739130434782,
+            "T": 0.0756340579710145,
+            "B": -0.010416666666666664,
+            "Gamma": 0.08605072463768115,
+            "I": -0.02083333333333333
+          }
+        },
+        {
+          "cohort": "M65",
+          "group_id": "G04",
+          "pooled": {
+            "D_OO": 0.06521739130434782,
+            "D_ON": 0.08605072463768115,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": 0.06521739130434782,
+            "T": 0.0756340579710145,
+            "B": -0.010416666666666664,
+            "Gamma": 0.08605072463768115,
+            "I": -0.02083333333333333
+          }
+        },
+        {
+          "cohort": "M65",
+          "group_id": "G05",
+          "pooled": {
+            "D_OO": 0.06521739130434782,
+            "D_ON": 0.08605072463768115,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": 0.06521739130434782,
+            "T": 0.0756340579710145,
+            "B": -0.010416666666666664,
+            "Gamma": 0.08605072463768115,
+            "I": -0.02083333333333333
+          }
+        },
+        {
+          "cohort": "M65",
+          "group_id": "G06",
+          "pooled": {
+            "D_OO": 0.06521739130434782,
+            "D_ON": 0.08605072463768115,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": 0.06521739130434782,
+            "T": 0.0756340579710145,
+            "B": -0.010416666666666664,
+            "Gamma": 0.08605072463768115,
+            "I": -0.02083333333333333
+          }
+        },
+        {
+          "cohort": "M65",
+          "group_id": "G07",
+          "pooled": {
+            "D_OO": 0.043478260869565216,
+            "D_ON": 0.06431159420289854,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": 0.043478260869565216,
+            "T": 0.05389492753623188,
+            "B": -0.010416666666666664,
+            "Gamma": 0.06431159420289854,
+            "I": -0.02083333333333333
+          }
+        },
+        {
+          "cohort": "M65",
+          "group_id": "G08",
+          "pooled": {
+            "D_OO": 0.06521739130434782,
+            "D_ON": 0.08605072463768115,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": 0.06521739130434782,
+            "T": 0.0756340579710145,
+            "B": -0.010416666666666664,
+            "Gamma": 0.08605072463768115,
+            "I": -0.02083333333333333
+          }
+        },
+        {
+          "cohort": "M65",
+          "group_id": "G09",
+          "pooled": {
+            "D_OO": 0.043478260869565216,
+            "D_ON": 0.08605072463768115,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": 0.043478260869565216,
+            "T": 0.06476449275362318,
+            "B": -0.02128623188405797,
+            "Gamma": 0.08605072463768115,
+            "I": -0.04257246376811594
+          }
+        },
+        {
+          "cohort": "M65",
+          "group_id": "G10",
+          "pooled": {
+            "D_OO": 0.06521739130434782,
+            "D_ON": 0.06431159420289854,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": 0.06521739130434782,
+            "T": 0.06476449275362318,
+            "B": 0.0004528985507246397,
+            "Gamma": 0.06431159420289854,
+            "I": 0.0009057971014492794
+          }
+        },
+        {
+          "cohort": "M65",
+          "group_id": "G11",
+          "pooled": {
+            "D_OO": 0.06521739130434782,
+            "D_ON": 0.08605072463768115,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": 0.06521739130434782,
+            "T": 0.0756340579710145,
+            "B": -0.010416666666666664,
+            "Gamma": 0.08605072463768115,
+            "I": -0.02083333333333333
+          }
+        },
+        {
+          "cohort": "M65",
+          "group_id": "G12",
+          "pooled": {
+            "D_OO": 0.043478260869565216,
+            "D_ON": 0.06431159420289854,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": 0.043478260869565216,
+            "T": 0.05389492753623188,
+            "B": -0.010416666666666664,
+            "Gamma": 0.06431159420289854,
+            "I": -0.02083333333333333
+          }
+        },
+        {
+          "cohort": "M65",
+          "group_id": "G13",
+          "pooled": {
+            "D_OO": 0.06521739130434782,
+            "D_ON": 0.08605072463768115,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": 0.06521739130434782,
+            "T": 0.0756340579710145,
+            "B": -0.010416666666666664,
+            "Gamma": 0.08605072463768115,
+            "I": -0.02083333333333333
+          }
+        },
+        {
+          "cohort": "M65",
+          "group_id": "G14",
+          "pooled": {
+            "D_OO": 0.06521739130434782,
+            "D_ON": 0.08605072463768115,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": 0.06521739130434782,
+            "T": 0.0756340579710145,
+            "B": -0.010416666666666664,
+            "Gamma": 0.08605072463768115,
+            "I": -0.02083333333333333
+          }
+        },
+        {
+          "cohort": "M65",
+          "group_id": "G15",
+          "pooled": {
+            "D_OO": 0.06521739130434782,
+            "D_ON": 0.08605072463768115,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": 0.06521739130434782,
+            "T": 0.0756340579710145,
+            "B": -0.010416666666666664,
+            "Gamma": 0.08605072463768115,
+            "I": -0.02083333333333333
+          }
+        },
+        {
+          "cohort": "M65",
+          "group_id": "G16",
+          "pooled": {
+            "D_OO": 0.06521739130434782,
+            "D_ON": 0.08605072463768115,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": 0.06521739130434782,
+            "T": 0.0756340579710145,
+            "B": -0.010416666666666664,
+            "Gamma": 0.08605072463768115,
+            "I": -0.02083333333333333
+          }
+        },
+        {
+          "cohort": "M65",
+          "group_id": "G17",
+          "pooled": {
+            "D_OO": 0.06521739130434782,
+            "D_ON": 0.08605072463768115,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": 0.06521739130434782,
+            "T": 0.0756340579710145,
+            "B": -0.010416666666666664,
+            "Gamma": 0.08605072463768115,
+            "I": -0.02083333333333333
+          }
+        },
+        {
+          "cohort": "M65",
+          "group_id": "G18",
+          "pooled": {
+            "D_OO": 0.06521739130434782,
+            "D_ON": 0.08605072463768115,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": 0.06521739130434782,
+            "T": 0.0756340579710145,
+            "B": -0.010416666666666664,
+            "Gamma": 0.08605072463768115,
+            "I": -0.02083333333333333
+          }
+        },
+        {
+          "cohort": "M65",
+          "group_id": "G19",
+          "pooled": {
+            "D_OO": 0.06521739130434782,
+            "D_ON": 0.08605072463768115,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": 0.06521739130434782,
+            "T": 0.0756340579710145,
+            "B": -0.010416666666666664,
+            "Gamma": 0.08605072463768115,
+            "I": -0.02083333333333333
+          }
+        },
+        {
+          "cohort": "M65",
+          "group_id": "G20",
+          "pooled": {
+            "D_OO": 0.06521739130434782,
+            "D_ON": 0.08605072463768115,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": 0.06521739130434782,
+            "T": 0.0756340579710145,
+            "B": -0.010416666666666664,
+            "Gamma": 0.08605072463768115,
+            "I": -0.02083333333333333
+          }
+        },
+        {
+          "cohort": "M65",
+          "group_id": "G21",
+          "pooled": {
+            "D_OO": 0.06521739130434782,
+            "D_ON": 0.08605072463768115,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": 0.06521739130434782,
+            "T": 0.0756340579710145,
+            "B": -0.010416666666666664,
+            "Gamma": 0.08605072463768115,
+            "I": -0.02083333333333333
+          }
+        },
+        {
+          "cohort": "M65",
+          "group_id": "G22",
+          "pooled": {
+            "D_OO": 0.06521739130434782,
+            "D_ON": 0.08605072463768115,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": 0.06521739130434782,
+            "T": 0.0756340579710145,
+            "B": -0.010416666666666664,
+            "Gamma": 0.08605072463768115,
+            "I": -0.02083333333333333
+          }
+        },
+        {
+          "cohort": "M65",
+          "group_id": "G23",
+          "pooled": {
+            "D_OO": 0.06521739130434782,
+            "D_ON": 0.08605072463768115,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": 0.06521739130434782,
+            "T": 0.0756340579710145,
+            "B": -0.010416666666666664,
+            "Gamma": 0.08605072463768115,
+            "I": -0.02083333333333333
+          }
+        },
+        {
+          "cohort": "M65",
+          "group_id": "G24",
+          "pooled": {
+            "D_OO": 0.06521739130434782,
+            "D_ON": 0.08605072463768115,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": 0.06521739130434782,
+            "T": 0.0756340579710145,
+            "B": -0.010416666666666664,
+            "Gamma": 0.08605072463768115,
+            "I": -0.02083333333333333
+          }
+        }
+      ],
+      "flags": {
+        "target_dominant_local": true,
+        "background_dominant_local": false,
+        "both_components_positive": false,
+        "canonical_total_positive": false,
+        "positive_interaction": false
+      },
+      "bootstrap_n": 10000,
+      "seed": 670914,
+      "cohort_weights": [
+        0.5,
+        0.5
+      ],
+      "independent_cohorts": true
+    }
+  },
+  "apertus": {
+    "BA_AU": {
+      "estimates": {
+        "M63": {
+          "D_OO": {
+            "value": -0.041666666666666664,
+            "low": -0.125,
+            "high": 0.0
+          },
+          "D_ON": {
+            "value": -0.125,
+            "low": -0.25,
+            "high": 0.0
+          },
+          "D_NO": {
+            "value": 0.0,
+            "low": 0.0,
+            "high": 0.0
+          },
+          "D_NN": {
+            "value": 0.0,
+            "low": 0.0,
+            "high": 0.0
+          },
+          "Theta": {
+            "value": -0.041666666666666664,
+            "low": -0.125,
+            "high": 0.0
+          },
+          "T": {
+            "value": -0.08333333333333333,
+            "low": -0.1875,
+            "high": 0.0
+          },
+          "B": {
+            "value": 0.04166666666666667,
+            "low": 0.0,
+            "high": 0.10416666666666667
+          },
+          "Gamma": {
+            "value": -0.125,
+            "low": -0.25,
+            "high": 0.0
+          },
+          "I": {
+            "value": 0.08333333333333334,
+            "low": 0.0,
+            "high": 0.20833333333333334
+          }
+        },
+        "M65": {
+          "D_OO": {
+            "value": 0.0,
+            "low": 0.0,
+            "high": 0.0
+          },
+          "D_ON": {
+            "value": -0.041666666666666664,
+            "low": -0.125,
+            "high": 0.0
+          },
+          "D_NO": {
+            "value": 0.0,
+            "low": 0.0,
+            "high": 0.0
+          },
+          "D_NN": {
+            "value": 0.0,
+            "low": 0.0,
+            "high": 0.0
+          },
+          "Theta": {
+            "value": 0.0,
+            "low": 0.0,
+            "high": 0.0
+          },
+          "T": {
+            "value": -0.020833333333333332,
+            "low": -0.0625,
+            "high": 0.0
+          },
+          "B": {
+            "value": 0.020833333333333332,
+            "low": 0.0,
+            "high": 0.0625
+          },
+          "Gamma": {
+            "value": -0.041666666666666664,
+            "low": -0.125,
+            "high": 0.0
+          },
+          "I": {
+            "value": 0.041666666666666664,
+            "low": 0.0,
+            "high": 0.125
+          }
+        },
+        "pooled": {
+          "D_OO": {
+            "value": -0.020833333333333332,
+            "low": -0.0625,
+            "high": 0.0
+          },
+          "D_ON": {
+            "value": -0.08333333333333333,
+            "low": -0.16666666666666669,
+            "high": -0.020833333333333332
+          },
+          "D_NO": {
+            "value": 0.0,
+            "low": 0.0,
+            "high": 0.0
+          },
+          "D_NN": {
+            "value": 0.0,
+            "low": 0.0,
+            "high": 0.0
+          },
+          "Theta": {
+            "value": -0.020833333333333332,
+            "low": -0.0625,
+            "high": 0.0
+          },
+          "T": {
+            "value": -0.05208333333333333,
+            "low": -0.10416666666666667,
+            "high": -0.010416666666666666
+          },
+          "B": {
+            "value": 0.03125,
+            "low": 0.0,
+            "high": 0.07291666666666666
+          },
+          "Gamma": {
+            "value": -0.08333333333333333,
+            "low": -0.16666666666666669,
+            "high": -0.020833333333333332
+          },
+          "I": {
+            "value": 0.0625,
+            "low": 0.0,
+            "high": 0.14583333333333331
+          }
+        }
+      },
+      "leave_one": [
+        {
+          "cohort": "M63",
+          "group_id": "G01",
+          "pooled": {
+            "D_OO": -0.021739130434782608,
+            "D_ON": -0.08605072463768115,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": -0.021739130434782608,
+            "T": -0.05389492753623188,
+            "B": 0.03215579710144927,
+            "Gamma": -0.08605072463768115,
+            "I": 0.06431159420289854
+          }
+        },
+        {
+          "cohort": "M63",
+          "group_id": "G02",
+          "pooled": {
+            "D_OO": -0.021739130434782608,
+            "D_ON": -0.08605072463768115,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": -0.021739130434782608,
+            "T": -0.05389492753623188,
+            "B": 0.03215579710144927,
+            "Gamma": -0.08605072463768115,
+            "I": 0.06431159420289854
+          }
+        },
+        {
+          "cohort": "M63",
+          "group_id": "G03",
+          "pooled": {
+            "D_OO": 0.0,
+            "D_ON": -0.06431159420289854,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": 0.0,
+            "T": -0.03215579710144927,
+            "B": 0.03215579710144927,
+            "Gamma": -0.06431159420289854,
+            "I": 0.06431159420289854
+          }
+        },
+        {
+          "cohort": "M63",
+          "group_id": "G04",
+          "pooled": {
+            "D_OO": -0.021739130434782608,
+            "D_ON": -0.08605072463768115,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": -0.021739130434782608,
+            "T": -0.05389492753623188,
+            "B": 0.03215579710144927,
+            "Gamma": -0.08605072463768115,
+            "I": 0.06431159420289854
+          }
+        },
+        {
+          "cohort": "M63",
+          "group_id": "G05",
+          "pooled": {
+            "D_OO": -0.021739130434782608,
+            "D_ON": -0.08605072463768115,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": -0.021739130434782608,
+            "T": -0.05389492753623188,
+            "B": 0.03215579710144927,
+            "Gamma": -0.08605072463768115,
+            "I": 0.06431159420289854
+          }
+        },
+        {
+          "cohort": "M63",
+          "group_id": "G06",
+          "pooled": {
+            "D_OO": -0.021739130434782608,
+            "D_ON": -0.08605072463768115,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": -0.021739130434782608,
+            "T": -0.05389492753623188,
+            "B": 0.03215579710144927,
+            "Gamma": -0.08605072463768115,
+            "I": 0.06431159420289854
+          }
+        },
+        {
+          "cohort": "M63",
+          "group_id": "G07",
+          "pooled": {
+            "D_OO": -0.021739130434782608,
+            "D_ON": -0.08605072463768115,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": -0.021739130434782608,
+            "T": -0.05389492753623188,
+            "B": 0.03215579710144927,
+            "Gamma": -0.08605072463768115,
+            "I": 0.06431159420289854
+          }
+        },
+        {
+          "cohort": "M63",
+          "group_id": "G08",
+          "pooled": {
+            "D_OO": -0.021739130434782608,
+            "D_ON": -0.08605072463768115,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": -0.021739130434782608,
+            "T": -0.05389492753623188,
+            "B": 0.03215579710144927,
+            "Gamma": -0.08605072463768115,
+            "I": 0.06431159420289854
+          }
+        },
+        {
+          "cohort": "M63",
+          "group_id": "G09",
+          "pooled": {
+            "D_OO": -0.021739130434782608,
+            "D_ON": -0.08605072463768115,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": -0.021739130434782608,
+            "T": -0.05389492753623188,
+            "B": 0.03215579710144927,
+            "Gamma": -0.08605072463768115,
+            "I": 0.06431159420289854
+          }
+        },
+        {
+          "cohort": "M63",
+          "group_id": "G10",
+          "pooled": {
+            "D_OO": -0.021739130434782608,
+            "D_ON": -0.08605072463768115,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": -0.021739130434782608,
+            "T": -0.05389492753623188,
+            "B": 0.03215579710144927,
+            "Gamma": -0.08605072463768115,
+            "I": 0.06431159420289854
+          }
+        },
+        {
+          "cohort": "M63",
+          "group_id": "G11",
+          "pooled": {
+            "D_OO": -0.021739130434782608,
+            "D_ON": -0.08605072463768115,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": -0.021739130434782608,
+            "T": -0.05389492753623188,
+            "B": 0.03215579710144927,
+            "Gamma": -0.08605072463768115,
+            "I": 0.06431159420289854
+          }
+        },
+        {
+          "cohort": "M63",
+          "group_id": "G12",
+          "pooled": {
+            "D_OO": -0.021739130434782608,
+            "D_ON": -0.08605072463768115,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": -0.021739130434782608,
+            "T": -0.05389492753623188,
+            "B": 0.03215579710144927,
+            "Gamma": -0.08605072463768115,
+            "I": 0.06431159420289854
+          }
+        },
+        {
+          "cohort": "M63",
+          "group_id": "G13",
+          "pooled": {
+            "D_OO": -0.021739130434782608,
+            "D_ON": -0.08605072463768115,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": -0.021739130434782608,
+            "T": -0.05389492753623188,
+            "B": 0.03215579710144927,
+            "Gamma": -0.08605072463768115,
+            "I": 0.06431159420289854
+          }
+        },
+        {
+          "cohort": "M63",
+          "group_id": "G14",
+          "pooled": {
+            "D_OO": -0.021739130434782608,
+            "D_ON": -0.08605072463768115,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": -0.021739130434782608,
+            "T": -0.05389492753623188,
+            "B": 0.03215579710144927,
+            "Gamma": -0.08605072463768115,
+            "I": 0.06431159420289854
+          }
+        },
+        {
+          "cohort": "M63",
+          "group_id": "G15",
+          "pooled": {
+            "D_OO": -0.021739130434782608,
+            "D_ON": -0.08605072463768115,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": -0.021739130434782608,
+            "T": -0.05389492753623188,
+            "B": 0.03215579710144927,
+            "Gamma": -0.08605072463768115,
+            "I": 0.06431159420289854
+          }
+        },
+        {
+          "cohort": "M63",
+          "group_id": "G16",
+          "pooled": {
+            "D_OO": -0.021739130434782608,
+            "D_ON": -0.08605072463768115,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": -0.021739130434782608,
+            "T": -0.05389492753623188,
+            "B": 0.03215579710144927,
+            "Gamma": -0.08605072463768115,
+            "I": 0.06431159420289854
+          }
+        },
+        {
+          "cohort": "M63",
+          "group_id": "G17",
+          "pooled": {
+            "D_OO": -0.021739130434782608,
+            "D_ON": -0.08605072463768115,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": -0.021739130434782608,
+            "T": -0.05389492753623188,
+            "B": 0.03215579710144927,
+            "Gamma": -0.08605072463768115,
+            "I": 0.06431159420289854
+          }
+        },
+        {
+          "cohort": "M63",
+          "group_id": "G18",
+          "pooled": {
+            "D_OO": -0.021739130434782608,
+            "D_ON": -0.08605072463768115,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": -0.021739130434782608,
+            "T": -0.05389492753623188,
+            "B": 0.03215579710144927,
+            "Gamma": -0.08605072463768115,
+            "I": 0.06431159420289854
+          }
+        },
+        {
+          "cohort": "M63",
+          "group_id": "G19",
+          "pooled": {
+            "D_OO": -0.021739130434782608,
+            "D_ON": -0.08605072463768115,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": -0.021739130434782608,
+            "T": -0.05389492753623188,
+            "B": 0.03215579710144927,
+            "Gamma": -0.08605072463768115,
+            "I": 0.06431159420289854
+          }
+        },
+        {
+          "cohort": "M63",
+          "group_id": "G20",
+          "pooled": {
+            "D_OO": -0.021739130434782608,
+            "D_ON": -0.08605072463768115,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": -0.021739130434782608,
+            "T": -0.05389492753623188,
+            "B": 0.03215579710144927,
+            "Gamma": -0.08605072463768115,
+            "I": 0.06431159420289854
+          }
+        },
+        {
+          "cohort": "M63",
+          "group_id": "G21",
+          "pooled": {
+            "D_OO": -0.021739130434782608,
+            "D_ON": -0.08605072463768115,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": -0.021739130434782608,
+            "T": -0.05389492753623188,
+            "B": 0.03215579710144927,
+            "Gamma": -0.08605072463768115,
+            "I": 0.06431159420289854
+          }
+        },
+        {
+          "cohort": "M63",
+          "group_id": "G22",
+          "pooled": {
+            "D_OO": -0.021739130434782608,
+            "D_ON": -0.08605072463768115,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": -0.021739130434782608,
+            "T": -0.05389492753623188,
+            "B": 0.03215579710144927,
+            "Gamma": -0.08605072463768115,
+            "I": 0.06431159420289854
+          }
+        },
+        {
+          "cohort": "M63",
+          "group_id": "G23",
+          "pooled": {
+            "D_OO": -0.021739130434782608,
+            "D_ON": -0.06431159420289854,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": -0.021739130434782608,
+            "T": -0.043025362318840576,
+            "B": 0.02128623188405797,
+            "Gamma": -0.06431159420289854,
+            "I": 0.04257246376811594
+          }
+        },
+        {
+          "cohort": "M63",
+          "group_id": "G24",
+          "pooled": {
+            "D_OO": -0.021739130434782608,
+            "D_ON": -0.06431159420289854,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": -0.021739130434782608,
+            "T": -0.043025362318840576,
+            "B": 0.02128623188405797,
+            "Gamma": -0.06431159420289854,
+            "I": 0.04257246376811594
+          }
+        },
+        {
+          "cohort": "M65",
+          "group_id": "G01",
+          "pooled": {
+            "D_OO": -0.020833333333333332,
+            "D_ON": -0.08423913043478261,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": -0.020833333333333332,
+            "T": -0.05253623188405797,
+            "B": 0.03170289855072464,
+            "Gamma": -0.08423913043478261,
+            "I": 0.06340579710144928
+          }
+        },
+        {
+          "cohort": "M65",
+          "group_id": "G02",
+          "pooled": {
+            "D_OO": -0.020833333333333332,
+            "D_ON": -0.08423913043478261,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": -0.020833333333333332,
+            "T": -0.05253623188405797,
+            "B": 0.03170289855072464,
+            "Gamma": -0.08423913043478261,
+            "I": 0.06340579710144928
+          }
+        },
+        {
+          "cohort": "M65",
+          "group_id": "G03",
+          "pooled": {
+            "D_OO": -0.020833333333333332,
+            "D_ON": -0.08423913043478261,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": -0.020833333333333332,
+            "T": -0.05253623188405797,
+            "B": 0.03170289855072464,
+            "Gamma": -0.08423913043478261,
+            "I": 0.06340579710144928
+          }
+        },
+        {
+          "cohort": "M65",
+          "group_id": "G04",
+          "pooled": {
+            "D_OO": -0.020833333333333332,
+            "D_ON": -0.08423913043478261,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": -0.020833333333333332,
+            "T": -0.05253623188405797,
+            "B": 0.03170289855072464,
+            "Gamma": -0.08423913043478261,
+            "I": 0.06340579710144928
+          }
+        },
+        {
+          "cohort": "M65",
+          "group_id": "G05",
+          "pooled": {
+            "D_OO": -0.020833333333333332,
+            "D_ON": -0.0625,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": -0.020833333333333332,
+            "T": -0.041666666666666664,
+            "B": 0.020833333333333336,
+            "Gamma": -0.0625,
+            "I": 0.04166666666666667
+          }
+        },
+        {
+          "cohort": "M65",
+          "group_id": "G06",
+          "pooled": {
+            "D_OO": -0.020833333333333332,
+            "D_ON": -0.08423913043478261,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": -0.020833333333333332,
+            "T": -0.05253623188405797,
+            "B": 0.03170289855072464,
+            "Gamma": -0.08423913043478261,
+            "I": 0.06340579710144928
+          }
+        },
+        {
+          "cohort": "M65",
+          "group_id": "G07",
+          "pooled": {
+            "D_OO": -0.020833333333333332,
+            "D_ON": -0.08423913043478261,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": -0.020833333333333332,
+            "T": -0.05253623188405797,
+            "B": 0.03170289855072464,
+            "Gamma": -0.08423913043478261,
+            "I": 0.06340579710144928
+          }
+        },
+        {
+          "cohort": "M65",
+          "group_id": "G08",
+          "pooled": {
+            "D_OO": -0.020833333333333332,
+            "D_ON": -0.08423913043478261,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": -0.020833333333333332,
+            "T": -0.05253623188405797,
+            "B": 0.03170289855072464,
+            "Gamma": -0.08423913043478261,
+            "I": 0.06340579710144928
+          }
+        },
+        {
+          "cohort": "M65",
+          "group_id": "G09",
+          "pooled": {
+            "D_OO": -0.020833333333333332,
+            "D_ON": -0.08423913043478261,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": -0.020833333333333332,
+            "T": -0.05253623188405797,
+            "B": 0.03170289855072464,
+            "Gamma": -0.08423913043478261,
+            "I": 0.06340579710144928
+          }
+        },
+        {
+          "cohort": "M65",
+          "group_id": "G10",
+          "pooled": {
+            "D_OO": -0.020833333333333332,
+            "D_ON": -0.08423913043478261,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": -0.020833333333333332,
+            "T": -0.05253623188405797,
+            "B": 0.03170289855072464,
+            "Gamma": -0.08423913043478261,
+            "I": 0.06340579710144928
+          }
+        },
+        {
+          "cohort": "M65",
+          "group_id": "G11",
+          "pooled": {
+            "D_OO": -0.020833333333333332,
+            "D_ON": -0.08423913043478261,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": -0.020833333333333332,
+            "T": -0.05253623188405797,
+            "B": 0.03170289855072464,
+            "Gamma": -0.08423913043478261,
+            "I": 0.06340579710144928
+          }
+        },
+        {
+          "cohort": "M65",
+          "group_id": "G12",
+          "pooled": {
+            "D_OO": -0.020833333333333332,
+            "D_ON": -0.08423913043478261,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": -0.020833333333333332,
+            "T": -0.05253623188405797,
+            "B": 0.03170289855072464,
+            "Gamma": -0.08423913043478261,
+            "I": 0.06340579710144928
+          }
+        },
+        {
+          "cohort": "M65",
+          "group_id": "G13",
+          "pooled": {
+            "D_OO": -0.020833333333333332,
+            "D_ON": -0.08423913043478261,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": -0.020833333333333332,
+            "T": -0.05253623188405797,
+            "B": 0.03170289855072464,
+            "Gamma": -0.08423913043478261,
+            "I": 0.06340579710144928
+          }
+        },
+        {
+          "cohort": "M65",
+          "group_id": "G14",
+          "pooled": {
+            "D_OO": -0.020833333333333332,
+            "D_ON": -0.08423913043478261,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": -0.020833333333333332,
+            "T": -0.05253623188405797,
+            "B": 0.03170289855072464,
+            "Gamma": -0.08423913043478261,
+            "I": 0.06340579710144928
+          }
+        },
+        {
+          "cohort": "M65",
+          "group_id": "G15",
+          "pooled": {
+            "D_OO": -0.020833333333333332,
+            "D_ON": -0.08423913043478261,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": -0.020833333333333332,
+            "T": -0.05253623188405797,
+            "B": 0.03170289855072464,
+            "Gamma": -0.08423913043478261,
+            "I": 0.06340579710144928
+          }
+        },
+        {
+          "cohort": "M65",
+          "group_id": "G16",
+          "pooled": {
+            "D_OO": -0.020833333333333332,
+            "D_ON": -0.08423913043478261,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": -0.020833333333333332,
+            "T": -0.05253623188405797,
+            "B": 0.03170289855072464,
+            "Gamma": -0.08423913043478261,
+            "I": 0.06340579710144928
+          }
+        },
+        {
+          "cohort": "M65",
+          "group_id": "G17",
+          "pooled": {
+            "D_OO": -0.020833333333333332,
+            "D_ON": -0.08423913043478261,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": -0.020833333333333332,
+            "T": -0.05253623188405797,
+            "B": 0.03170289855072464,
+            "Gamma": -0.08423913043478261,
+            "I": 0.06340579710144928
+          }
+        },
+        {
+          "cohort": "M65",
+          "group_id": "G18",
+          "pooled": {
+            "D_OO": -0.020833333333333332,
+            "D_ON": -0.08423913043478261,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": -0.020833333333333332,
+            "T": -0.05253623188405797,
+            "B": 0.03170289855072464,
+            "Gamma": -0.08423913043478261,
+            "I": 0.06340579710144928
+          }
+        },
+        {
+          "cohort": "M65",
+          "group_id": "G19",
+          "pooled": {
+            "D_OO": -0.020833333333333332,
+            "D_ON": -0.08423913043478261,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": -0.020833333333333332,
+            "T": -0.05253623188405797,
+            "B": 0.03170289855072464,
+            "Gamma": -0.08423913043478261,
+            "I": 0.06340579710144928
+          }
+        },
+        {
+          "cohort": "M65",
+          "group_id": "G20",
+          "pooled": {
+            "D_OO": -0.020833333333333332,
+            "D_ON": -0.08423913043478261,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": -0.020833333333333332,
+            "T": -0.05253623188405797,
+            "B": 0.03170289855072464,
+            "Gamma": -0.08423913043478261,
+            "I": 0.06340579710144928
+          }
+        },
+        {
+          "cohort": "M65",
+          "group_id": "G21",
+          "pooled": {
+            "D_OO": -0.020833333333333332,
+            "D_ON": -0.08423913043478261,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": -0.020833333333333332,
+            "T": -0.05253623188405797,
+            "B": 0.03170289855072464,
+            "Gamma": -0.08423913043478261,
+            "I": 0.06340579710144928
+          }
+        },
+        {
+          "cohort": "M65",
+          "group_id": "G22",
+          "pooled": {
+            "D_OO": -0.020833333333333332,
+            "D_ON": -0.08423913043478261,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": -0.020833333333333332,
+            "T": -0.05253623188405797,
+            "B": 0.03170289855072464,
+            "Gamma": -0.08423913043478261,
+            "I": 0.06340579710144928
+          }
+        },
+        {
+          "cohort": "M65",
+          "group_id": "G23",
+          "pooled": {
+            "D_OO": -0.020833333333333332,
+            "D_ON": -0.08423913043478261,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": -0.020833333333333332,
+            "T": -0.05253623188405797,
+            "B": 0.03170289855072464,
+            "Gamma": -0.08423913043478261,
+            "I": 0.06340579710144928
+          }
+        },
+        {
+          "cohort": "M65",
+          "group_id": "G24",
+          "pooled": {
+            "D_OO": -0.020833333333333332,
+            "D_ON": -0.08423913043478261,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": -0.020833333333333332,
+            "T": -0.05253623188405797,
+            "B": 0.03170289855072464,
+            "Gamma": -0.08423913043478261,
+            "I": 0.06340579710144928
+          }
+        }
+      ],
+      "flags": {
+        "target_dominant_local": false,
+        "background_dominant_local": false,
+        "both_components_positive": false,
+        "canonical_total_positive": false,
+        "positive_interaction": false
+      },
+      "bootstrap_n": 10000,
+      "seed": 670914,
+      "cohort_weights": [
+        0.5,
+        0.5
+      ],
+      "independent_cohorts": true
+    },
+    "BA_UA": {
+      "estimates": {
+        "M63": {
+          "D_OO": {
+            "value": 0.125,
+            "low": 0.0,
+            "high": 0.25
+          },
+          "D_ON": {
+            "value": 0.041666666666666664,
+            "low": 0.0,
+            "high": 0.125
+          },
+          "D_NO": {
+            "value": -0.08333333333333333,
+            "low": -0.25,
+            "high": 0.08333333333333333
+          },
+          "D_NN": {
+            "value": 0.125,
+            "low": 0.0,
+            "high": 0.25
+          },
+          "Theta": {
+            "value": 0.0,
+            "low": -0.20833333333333334,
+            "high": 0.20833333333333334
+          },
+          "T": {
+            "value": 0.062499999999999986,
+            "low": -0.0625,
+            "high": 0.1875
+          },
+          "B": {
+            "value": -0.06249999999999999,
+            "low": -0.1875,
+            "high": 0.06250000000000003
+          },
+          "Gamma": {
+            "value": 0.125,
+            "low": -0.041666666666666664,
+            "high": 0.2916666666666667
+          },
+          "I": {
+            "value": 0.29166666666666663,
+            "low": 0.041666666666666664,
+            "high": 0.5416666666666666
+          }
+        },
+        "M65": {
+          "D_OO": {
+            "value": 0.08333333333333333,
+            "low": 0.0,
+            "high": 0.20833333333333334
+          },
+          "D_ON": {
+            "value": 0.125,
+            "low": 0.0,
+            "high": 0.25
+          },
+          "D_NO": {
+            "value": 0.125,
+            "low": -0.08333333333333333,
+            "high": 0.3333333333333333
+          },
+          "D_NN": {
+            "value": 0.16666666666666666,
+            "low": 0.041666666666666664,
+            "high": 0.3333333333333333
+          },
+          "Theta": {
+            "value": -0.08333333333333333,
+            "low": -0.29166666666666663,
+            "high": 0.125
+          },
+          "T": {
+            "value": -0.041666666666666664,
+            "low": -0.22916666666666669,
+            "high": 0.125
+          },
+          "B": {
+            "value": -0.04166666666666666,
+            "low": -0.16666666666666666,
+            "high": 0.06250000000000001
+          },
+          "Gamma": {
+            "value": 0.0,
+            "low": -0.20833333333333337,
+            "high": 0.25
+          },
+          "I": {
+            "value": -1.3877787807814457e-17,
+            "low": -0.2916666666666667,
+            "high": 0.25
+          }
+        },
+        "pooled": {
+          "D_OO": {
+            "value": 0.10416666666666666,
+            "low": 0.020833333333333332,
+            "high": 0.1875
+          },
+          "D_ON": {
+            "value": 0.08333333333333333,
+            "low": 0.020833333333333332,
+            "high": 0.16666666666666669
+          },
+          "D_NO": {
+            "value": 0.020833333333333336,
+            "low": -0.10416666666666667,
+            "high": 0.14583333333333334
+          },
+          "D_NN": {
+            "value": 0.14583333333333331,
+            "low": 0.0625,
+            "high": 0.25
+          },
+          "Theta": {
+            "value": -0.041666666666666664,
+            "low": -0.1875,
+            "high": 0.10416666666666666
+          },
+          "T": {
+            "value": 0.010416666666666661,
+            "low": -0.10416666666666667,
+            "high": 0.11458333333333336
+          },
+          "B": {
+            "value": -0.05208333333333333,
+            "low": -0.13541666666666669,
+            "high": 0.031250000000000014
+          },
+          "Gamma": {
+            "value": 0.0625,
+            "low": -0.08333333333333334,
+            "high": 0.20833333333333331
+          },
+          "I": {
+            "value": 0.14583333333333331,
+            "low": -0.041666666666666685,
+            "high": 0.3333333333333333
+          }
+        }
+      },
+      "leave_one": [
+        {
+          "cohort": "M63",
+          "group_id": "G01",
+          "pooled": {
+            "D_OO": 0.08514492753623187,
+            "D_ON": 0.08423913043478261,
+            "D_NO": 0.019021739130434784,
+            "D_NN": 0.14855072463768115,
+            "Theta": -0.06340579710144928,
+            "T": 0.0009057971014492724,
+            "B": -0.06431159420289854,
+            "Gamma": 0.06521739130434782,
+            "I": 0.13043478260869562
+          }
+        },
+        {
+          "cohort": "M63",
+          "group_id": "G02",
+          "pooled": {
+            "D_OO": 0.1068840579710145,
+            "D_ON": 0.08423913043478261,
+            "D_NO": 0.04076086956521739,
+            "D_NN": 0.14855072463768115,
+            "Theta": -0.04166666666666666,
+            "T": 0.0009057971014492794,
+            "B": -0.04257246376811594,
+            "Gamma": 0.043478260869565216,
+            "I": 0.13043478260869565
+          }
+        },
+        {
+          "cohort": "M63",
+          "group_id": "G03",
+          "pooled": {
+            "D_OO": 0.1068840579710145,
+            "D_ON": 0.08423913043478261,
+            "D_NO": 0.019021739130434784,
+            "D_NN": 0.14855072463768115,
+            "Theta": -0.04166666666666666,
+            "T": 0.011775362318840583,
+            "B": -0.053442028985507234,
+            "Gamma": 0.06521739130434782,
+            "I": 0.15217391304347827
+          }
+        },
+        {
+          "cohort": "M63",
+          "group_id": "G04",
+          "pooled": {
+            "D_OO": 0.1068840579710145,
+            "D_ON": 0.08423913043478261,
+            "D_NO": 0.019021739130434784,
+            "D_NN": 0.14855072463768115,
+            "Theta": -0.04166666666666666,
+            "T": 0.011775362318840583,
+            "B": -0.053442028985507234,
+            "Gamma": 0.06521739130434782,
+            "I": 0.15217391304347827
+          }
+        },
+        {
+          "cohort": "M63",
+          "group_id": "G05",
+          "pooled": {
+            "D_OO": 0.08514492753623187,
+            "D_ON": 0.08423913043478261,
+            "D_NO": 0.019021739130434784,
+            "D_NN": 0.14855072463768115,
+            "Theta": -0.06340579710144928,
+            "T": 0.0009057971014492724,
+            "B": -0.06431159420289854,
+            "Gamma": 0.06521739130434782,
+            "I": 0.13043478260869562
+          }
+        },
+        {
+          "cohort": "M63",
+          "group_id": "G06",
+          "pooled": {
+            "D_OO": 0.1068840579710145,
+            "D_ON": 0.08423913043478261,
+            "D_NO": 0.019021739130434784,
+            "D_NN": 0.14855072463768115,
+            "Theta": -0.04166666666666666,
+            "T": 0.011775362318840583,
+            "B": -0.053442028985507234,
+            "Gamma": 0.06521739130434782,
+            "I": 0.15217391304347827
+          }
+        },
+        {
+          "cohort": "M63",
+          "group_id": "G07",
+          "pooled": {
+            "D_OO": 0.1068840579710145,
+            "D_ON": 0.08423913043478261,
+            "D_NO": 0.019021739130434784,
+            "D_NN": 0.14855072463768115,
+            "Theta": -0.04166666666666666,
+            "T": 0.011775362318840583,
+            "B": -0.053442028985507234,
+            "Gamma": 0.06521739130434782,
+            "I": 0.15217391304347827
+          }
+        },
+        {
+          "cohort": "M63",
+          "group_id": "G08",
+          "pooled": {
+            "D_OO": 0.1068840579710145,
+            "D_ON": 0.08423913043478261,
+            "D_NO": 0.019021739130434784,
+            "D_NN": 0.14855072463768115,
+            "Theta": -0.04166666666666666,
+            "T": 0.011775362318840583,
+            "B": -0.053442028985507234,
+            "Gamma": 0.06521739130434782,
+            "I": 0.15217391304347827
+          }
+        },
+        {
+          "cohort": "M63",
+          "group_id": "G09",
+          "pooled": {
+            "D_OO": 0.1068840579710145,
+            "D_ON": 0.08423913043478261,
+            "D_NO": 0.019021739130434784,
+            "D_NN": 0.14855072463768115,
+            "Theta": -0.04166666666666666,
+            "T": 0.011775362318840583,
+            "B": -0.053442028985507234,
+            "Gamma": 0.06521739130434782,
+            "I": 0.15217391304347827
+          }
+        },
+        {
+          "cohort": "M63",
+          "group_id": "G10",
+          "pooled": {
+            "D_OO": 0.1068840579710145,
+            "D_ON": 0.08423913043478261,
+            "D_NO": 0.019021739130434784,
+            "D_NN": 0.12681159420289856,
+            "Theta": -0.019927536231884063,
+            "T": 0.02264492753623188,
+            "B": -0.04257246376811594,
+            "Gamma": 0.06521739130434782,
+            "I": 0.13043478260869568
+          }
+        },
+        {
+          "cohort": "M63",
+          "group_id": "G11",
+          "pooled": {
+            "D_OO": 0.1068840579710145,
+            "D_ON": 0.08423913043478261,
+            "D_NO": 0.019021739130434784,
+            "D_NN": 0.14855072463768115,
+            "Theta": -0.04166666666666666,
+            "T": 0.011775362318840583,
+            "B": -0.053442028985507234,
+            "Gamma": 0.06521739130434782,
+            "I": 0.15217391304347827
+          }
+        },
+        {
+          "cohort": "M63",
+          "group_id": "G12",
+          "pooled": {
+            "D_OO": 0.1068840579710145,
+            "D_ON": 0.08423913043478261,
+            "D_NO": 0.019021739130434784,
+            "D_NN": 0.14855072463768115,
+            "Theta": -0.04166666666666666,
+            "T": 0.011775362318840583,
+            "B": -0.053442028985507234,
+            "Gamma": 0.06521739130434782,
+            "I": 0.15217391304347827
+          }
+        },
+        {
+          "cohort": "M63",
+          "group_id": "G13",
+          "pooled": {
+            "D_OO": 0.1068840579710145,
+            "D_ON": 0.0625,
+            "D_NO": 0.019021739130434784,
+            "D_NN": 0.14855072463768115,
+            "Theta": -0.04166666666666666,
+            "T": 0.0009057971014492794,
+            "B": -0.04257246376811594,
+            "Gamma": 0.043478260869565216,
+            "I": 0.17391304347826086
+          }
+        },
+        {
+          "cohort": "M63",
+          "group_id": "G14",
+          "pooled": {
+            "D_OO": 0.1068840579710145,
+            "D_ON": 0.08423913043478261,
+            "D_NO": 0.019021739130434784,
+            "D_NN": 0.14855072463768115,
+            "Theta": -0.04166666666666666,
+            "T": 0.011775362318840583,
+            "B": -0.053442028985507234,
+            "Gamma": 0.06521739130434782,
+            "I": 0.15217391304347827
+          }
+        },
+        {
+          "cohort": "M63",
+          "group_id": "G15",
+          "pooled": {
+            "D_OO": 0.1068840579710145,
+            "D_ON": 0.08423913043478261,
+            "D_NO": 0.04076086956521739,
+            "D_NN": 0.14855072463768115,
+            "Theta": -0.04166666666666666,
+            "T": 0.0009057971014492794,
+            "B": -0.04257246376811594,
+            "Gamma": 0.043478260869565216,
+            "I": 0.13043478260869565
+          }
+        },
+        {
+          "cohort": "M63",
+          "group_id": "G16",
+          "pooled": {
+            "D_OO": 0.1068840579710145,
+            "D_ON": 0.08423913043478261,
+            "D_NO": 0.019021739130434784,
+            "D_NN": 0.14855072463768115,
+            "Theta": -0.04166666666666666,
+            "T": 0.011775362318840583,
+            "B": -0.053442028985507234,
+            "Gamma": 0.06521739130434782,
+            "I": 0.15217391304347827
+          }
+        },
+        {
+          "cohort": "M63",
+          "group_id": "G17",
+          "pooled": {
+            "D_OO": 0.1068840579710145,
+            "D_ON": 0.08423913043478261,
+            "D_NO": 0.019021739130434784,
+            "D_NN": 0.14855072463768115,
+            "Theta": -0.04166666666666666,
+            "T": 0.011775362318840583,
+            "B": -0.053442028985507234,
+            "Gamma": 0.06521739130434782,
+            "I": 0.15217391304347827
+          }
+        },
+        {
+          "cohort": "M63",
+          "group_id": "G18",
+          "pooled": {
+            "D_OO": 0.1068840579710145,
+            "D_ON": 0.08423913043478261,
+            "D_NO": 0.019021739130434784,
+            "D_NN": 0.14855072463768115,
+            "Theta": -0.04166666666666666,
+            "T": 0.011775362318840583,
+            "B": -0.053442028985507234,
+            "Gamma": 0.06521739130434782,
+            "I": 0.15217391304347827
+          }
+        },
+        {
+          "cohort": "M63",
+          "group_id": "G19",
+          "pooled": {
+            "D_OO": 0.1068840579710145,
+            "D_ON": 0.08423913043478261,
+            "D_NO": 0.019021739130434784,
+            "D_NN": 0.12681159420289856,
+            "Theta": -0.019927536231884063,
+            "T": 0.02264492753623188,
+            "B": -0.04257246376811594,
+            "Gamma": 0.06521739130434782,
+            "I": 0.13043478260869568
+          }
+        },
+        {
+          "cohort": "M63",
+          "group_id": "G20",
+          "pooled": {
+            "D_OO": 0.1068840579710145,
+            "D_ON": 0.08423913043478261,
+            "D_NO": -0.0027173913043478243,
+            "D_NN": 0.14855072463768115,
+            "Theta": -0.04166666666666666,
+            "T": 0.022644927536231887,
+            "B": -0.06431159420289853,
+            "Gamma": 0.08695652173913043,
+            "I": 0.17391304347826086
+          }
+        },
+        {
+          "cohort": "M63",
+          "group_id": "G21",
+          "pooled": {
+            "D_OO": 0.1068840579710145,
+            "D_ON": 0.08423913043478261,
+            "D_NO": 0.019021739130434784,
+            "D_NN": 0.14855072463768115,
+            "Theta": -0.04166666666666666,
+            "T": 0.011775362318840583,
+            "B": -0.053442028985507234,
+            "Gamma": 0.06521739130434782,
+            "I": 0.15217391304347827
+          }
+        },
+        {
+          "cohort": "M63",
+          "group_id": "G22",
+          "pooled": {
+            "D_OO": 0.08514492753623187,
+            "D_ON": 0.08423913043478261,
+            "D_NO": 0.019021739130434784,
+            "D_NN": 0.14855072463768115,
+            "Theta": -0.06340579710144928,
+            "T": 0.0009057971014492724,
+            "B": -0.06431159420289854,
+            "Gamma": 0.06521739130434782,
+            "I": 0.13043478260869562
+          }
+        },
+        {
+          "cohort": "M63",
+          "group_id": "G23",
+          "pooled": {
+            "D_OO": 0.1068840579710145,
+            "D_ON": 0.08423913043478261,
+            "D_NO": 0.04076086956521739,
+            "D_NN": 0.14855072463768115,
+            "Theta": -0.04166666666666666,
+            "T": 0.0009057971014492794,
+            "B": -0.04257246376811594,
+            "Gamma": 0.043478260869565216,
+            "I": 0.13043478260869565
+          }
+        },
+        {
+          "cohort": "M63",
+          "group_id": "G24",
+          "pooled": {
+            "D_OO": 0.1068840579710145,
+            "D_ON": 0.08423913043478261,
+            "D_NO": 0.019021739130434784,
+            "D_NN": 0.12681159420289856,
+            "Theta": -0.019927536231884063,
+            "T": 0.02264492753623188,
+            "B": -0.04257246376811594,
+            "Gamma": 0.06521739130434782,
+            "I": 0.13043478260869568
+          }
+        },
+        {
+          "cohort": "M65",
+          "group_id": "G01",
+          "pooled": {
+            "D_OO": 0.10597826086956522,
+            "D_ON": 0.08605072463768115,
+            "D_NO": 0.02355072463768116,
+            "D_NN": 0.14945652173913043,
+            "Theta": -0.043478260869565216,
+            "T": 0.009510869565217392,
+            "B": -0.05298913043478261,
+            "Gamma": 0.06249999999999999,
+            "I": 0.14583333333333334
+          }
+        },
+        {
+          "cohort": "M65",
+          "group_id": "G02",
+          "pooled": {
+            "D_OO": 0.10597826086956522,
+            "D_ON": 0.08605072463768115,
+            "D_NO": 0.0018115942028985518,
+            "D_NN": 0.12771739130434784,
+            "Theta": -0.021739130434782622,
+            "T": 0.031249999999999986,
+            "B": -0.05298913043478261,
+            "Gamma": 0.0842391304347826,
+            "I": 0.14583333333333334
+          }
+        },
+        {
+          "cohort": "M65",
+          "group_id": "G03",
+          "pooled": {
+            "D_OO": 0.10597826086956522,
+            "D_ON": 0.08605072463768115,
+            "D_NO": 0.02355072463768116,
+            "D_NN": 0.14945652173913043,
+            "Theta": -0.043478260869565216,
+            "T": 0.009510869565217392,
+            "B": -0.05298913043478261,
+            "Gamma": 0.06249999999999999,
+            "I": 0.14583333333333334
+          }
+        },
+        {
+          "cohort": "M65",
+          "group_id": "G04",
+          "pooled": {
+            "D_OO": 0.10597826086956522,
+            "D_ON": 0.08605072463768115,
+            "D_NO": 0.02355072463768116,
+            "D_NN": 0.14945652173913043,
+            "Theta": -0.043478260869565216,
+            "T": 0.009510869565217392,
+            "B": -0.05298913043478261,
+            "Gamma": 0.06249999999999999,
+            "I": 0.14583333333333334
+          }
+        },
+        {
+          "cohort": "M65",
+          "group_id": "G05",
+          "pooled": {
+            "D_OO": 0.08423913043478261,
+            "D_ON": 0.08605072463768115,
+            "D_NO": 0.02355072463768116,
+            "D_NN": 0.14945652173913043,
+            "Theta": -0.06521739130434782,
+            "T": -0.0013586956521739156,
+            "B": -0.0638586956521739,
+            "Gamma": 0.06249999999999999,
+            "I": 0.12409420289855072
+          }
+        },
+        {
+          "cohort": "M65",
+          "group_id": "G06",
+          "pooled": {
+            "D_OO": 0.10597826086956522,
+            "D_ON": 0.08605072463768115,
+            "D_NO": 0.0018115942028985518,
+            "D_NN": 0.14945652173913043,
+            "Theta": -0.043478260869565216,
+            "T": 0.02038043478260869,
+            "B": -0.0638586956521739,
+            "Gamma": 0.0842391304347826,
+            "I": 0.16757246376811594
+          }
+        },
+        {
+          "cohort": "M65",
+          "group_id": "G07",
+          "pooled": {
+            "D_OO": 0.10597826086956522,
+            "D_ON": 0.08605072463768115,
+            "D_NO": 0.02355072463768116,
+            "D_NN": 0.14945652173913043,
+            "Theta": -0.043478260869565216,
+            "T": 0.009510869565217392,
+            "B": -0.05298913043478261,
+            "Gamma": 0.06249999999999999,
+            "I": 0.14583333333333334
+          }
+        },
+        {
+          "cohort": "M65",
+          "group_id": "G08",
+          "pooled": {
+            "D_OO": 0.10597826086956522,
+            "D_ON": 0.08605072463768115,
+            "D_NO": 0.02355072463768116,
+            "D_NN": 0.14945652173913043,
+            "Theta": -0.043478260869565216,
+            "T": 0.009510869565217392,
+            "B": -0.05298913043478261,
+            "Gamma": 0.06249999999999999,
+            "I": 0.14583333333333334
+          }
+        },
+        {
+          "cohort": "M65",
+          "group_id": "G09",
+          "pooled": {
+            "D_OO": 0.10597826086956522,
+            "D_ON": 0.08605072463768115,
+            "D_NO": 0.02355072463768116,
+            "D_NN": 0.12771739130434784,
+            "Theta": -0.021739130434782622,
+            "T": 0.02038043478260869,
+            "B": -0.04211956521739131,
+            "Gamma": 0.06249999999999999,
+            "I": 0.12409420289855075
+          }
+        },
+        {
+          "cohort": "M65",
+          "group_id": "G10",
+          "pooled": {
+            "D_OO": 0.10597826086956522,
+            "D_ON": 0.08605072463768115,
+            "D_NO": 0.02355072463768116,
+            "D_NN": 0.14945652173913043,
+            "Theta": -0.043478260869565216,
+            "T": 0.009510869565217392,
+            "B": -0.05298913043478261,
+            "Gamma": 0.06249999999999999,
+            "I": 0.14583333333333334
+          }
+        },
+        {
+          "cohort": "M65",
+          "group_id": "G11",
+          "pooled": {
+            "D_OO": 0.10597826086956522,
+            "D_ON": 0.06431159420289854,
+            "D_NO": 0.02355072463768116,
+            "D_NN": 0.14945652173913043,
+            "Theta": -0.043478260869565216,
+            "T": -0.0013586956521739121,
+            "B": -0.04211956521739131,
+            "Gamma": 0.040760869565217385,
+            "I": 0.16757246376811596
+          }
+        },
+        {
+          "cohort": "M65",
+          "group_id": "G12",
+          "pooled": {
+            "D_OO": 0.10597826086956522,
+            "D_ON": 0.08605072463768115,
+            "D_NO": 0.02355072463768116,
+            "D_NN": 0.14945652173913043,
+            "Theta": -0.043478260869565216,
+            "T": 0.009510869565217392,
+            "B": -0.05298913043478261,
+            "Gamma": 0.06249999999999999,
+            "I": 0.14583333333333334
+          }
+        },
+        {
+          "cohort": "M65",
+          "group_id": "G13",
+          "pooled": {
+            "D_OO": 0.10597826086956522,
+            "D_ON": 0.08605072463768115,
+            "D_NO": 0.04528985507246377,
+            "D_NN": 0.14945652173913043,
+            "Theta": -0.043478260869565216,
+            "T": -0.0013586956521739156,
+            "B": -0.0421195652173913,
+            "Gamma": 0.040760869565217385,
+            "I": 0.12409420289855072
+          }
+        },
+        {
+          "cohort": "M65",
+          "group_id": "G14",
+          "pooled": {
+            "D_OO": 0.10597826086956522,
+            "D_ON": 0.06431159420289854,
+            "D_NO": 0.02355072463768116,
+            "D_NN": 0.14945652173913043,
+            "Theta": -0.043478260869565216,
+            "T": -0.0013586956521739121,
+            "B": -0.04211956521739131,
+            "Gamma": 0.040760869565217385,
+            "I": 0.16757246376811596
+          }
+        },
+        {
+          "cohort": "M65",
+          "group_id": "G15",
+          "pooled": {
+            "D_OO": 0.10597826086956522,
+            "D_ON": 0.08605072463768115,
+            "D_NO": 0.0018115942028985518,
+            "D_NN": 0.12771739130434784,
+            "Theta": -0.021739130434782622,
+            "T": 0.031249999999999986,
+            "B": -0.05298913043478261,
+            "Gamma": 0.0842391304347826,
+            "I": 0.14583333333333334
+          }
+        },
+        {
+          "cohort": "M65",
+          "group_id": "G16",
+          "pooled": {
+            "D_OO": 0.10597826086956522,
+            "D_ON": 0.08605072463768115,
+            "D_NO": 0.0018115942028985518,
+            "D_NN": 0.12771739130434784,
+            "Theta": -0.021739130434782622,
+            "T": 0.031249999999999986,
+            "B": -0.05298913043478261,
+            "Gamma": 0.0842391304347826,
+            "I": 0.14583333333333334
+          }
+        },
+        {
+          "cohort": "M65",
+          "group_id": "G17",
+          "pooled": {
+            "D_OO": 0.10597826086956522,
+            "D_ON": 0.06431159420289854,
+            "D_NO": 0.0018115942028985518,
+            "D_NN": 0.14945652173913043,
+            "Theta": -0.043478260869565216,
+            "T": 0.009510869565217385,
+            "B": -0.05298913043478261,
+            "Gamma": 0.06249999999999999,
+            "I": 0.18931159420289856
+          }
+        },
+        {
+          "cohort": "M65",
+          "group_id": "G18",
+          "pooled": {
+            "D_OO": 0.10597826086956522,
+            "D_ON": 0.08605072463768115,
+            "D_NO": 0.04528985507246377,
+            "D_NN": 0.14945652173913043,
+            "Theta": -0.043478260869565216,
+            "T": -0.0013586956521739156,
+            "B": -0.0421195652173913,
+            "Gamma": 0.040760869565217385,
+            "I": 0.12409420289855072
+          }
+        },
+        {
+          "cohort": "M65",
+          "group_id": "G19",
+          "pooled": {
+            "D_OO": 0.10597826086956522,
+            "D_ON": 0.08605072463768115,
+            "D_NO": 0.02355072463768116,
+            "D_NN": 0.14945652173913043,
+            "Theta": -0.043478260869565216,
+            "T": 0.009510869565217392,
+            "B": -0.05298913043478261,
+            "Gamma": 0.06249999999999999,
+            "I": 0.14583333333333334
+          }
+        },
+        {
+          "cohort": "M65",
+          "group_id": "G20",
+          "pooled": {
+            "D_OO": 0.10597826086956522,
+            "D_ON": 0.08605072463768115,
+            "D_NO": 0.02355072463768116,
+            "D_NN": 0.14945652173913043,
+            "Theta": -0.043478260869565216,
+            "T": 0.009510869565217392,
+            "B": -0.05298913043478261,
+            "Gamma": 0.06249999999999999,
+            "I": 0.14583333333333334
+          }
+        },
+        {
+          "cohort": "M65",
+          "group_id": "G21",
+          "pooled": {
+            "D_OO": 0.08423913043478261,
+            "D_ON": 0.08605072463768115,
+            "D_NO": 0.02355072463768116,
+            "D_NN": 0.14945652173913043,
+            "Theta": -0.06521739130434782,
+            "T": -0.0013586956521739156,
+            "B": -0.0638586956521739,
+            "Gamma": 0.06249999999999999,
+            "I": 0.12409420289855072
+          }
+        },
+        {
+          "cohort": "M65",
+          "group_id": "G22",
+          "pooled": {
+            "D_OO": 0.10597826086956522,
+            "D_ON": 0.08605072463768115,
+            "D_NO": 0.02355072463768116,
+            "D_NN": 0.14945652173913043,
+            "Theta": -0.043478260869565216,
+            "T": 0.009510869565217392,
+            "B": -0.05298913043478261,
+            "Gamma": 0.06249999999999999,
+            "I": 0.14583333333333334
+          }
+        },
+        {
+          "cohort": "M65",
+          "group_id": "G23",
+          "pooled": {
+            "D_OO": 0.10597826086956522,
+            "D_ON": 0.08605072463768115,
+            "D_NO": 0.02355072463768116,
+            "D_NN": 0.14945652173913043,
+            "Theta": -0.043478260869565216,
+            "T": 0.009510869565217392,
+            "B": -0.05298913043478261,
+            "Gamma": 0.06249999999999999,
+            "I": 0.14583333333333334
+          }
+        },
+        {
+          "cohort": "M65",
+          "group_id": "G24",
+          "pooled": {
+            "D_OO": 0.10597826086956522,
+            "D_ON": 0.08605072463768115,
+            "D_NO": 0.02355072463768116,
+            "D_NN": 0.14945652173913043,
+            "Theta": -0.043478260869565216,
+            "T": 0.009510869565217392,
+            "B": -0.05298913043478261,
+            "Gamma": 0.06249999999999999,
+            "I": 0.14583333333333334
+          }
+        }
+      ],
+      "flags": {
+        "target_dominant_local": false,
+        "background_dominant_local": false,
+        "both_components_positive": false,
+        "canonical_total_positive": false,
+        "positive_interaction": false
+      },
+      "bootstrap_n": 10000,
+      "seed": 670914,
+      "cohort_weights": [
+        0.5,
+        0.5
+      ],
+      "independent_cohorts": true
+    },
+    "BEI_AU": {
+      "estimates": {
+        "M63": {
+          "D_OO": {
+            "value": 0.4166666666666667,
+            "low": 0.20833333333333334,
+            "high": 0.625
+          },
+          "D_ON": {
+            "value": 0.08333333333333333,
+            "low": 0.0,
+            "high": 0.20833333333333334
+          },
+          "D_NO": {
+            "value": 0.20833333333333334,
+            "low": 0.041666666666666664,
+            "high": 0.375
+          },
+          "D_NN": {
+            "value": 0.041666666666666664,
+            "low": -0.08333333333333333,
+            "high": 0.16666666666666666
+          },
+          "Theta": {
+            "value": 0.375,
+            "low": 0.16666666666666666,
+            "high": 0.5833333333333334
+          },
+          "T": {
+            "value": 0.125,
+            "low": -0.020833333333333325,
+            "high": 0.2708333333333333
+          },
+          "B": {
+            "value": 0.25,
+            "low": 0.08333333333333334,
+            "high": 0.41666666666666663
+          },
+          "Gamma": {
+            "value": -0.125,
+            "low": -0.3333333333333333,
+            "high": 0.08333333333333334
+          },
+          "I": {
+            "value": 0.16666666666666669,
+            "low": -0.16666666666666669,
+            "high": 0.5
+          }
+        },
+        "M65": {
+          "D_OO": {
+            "value": 0.20833333333333334,
+            "low": 0.041666666666666664,
+            "high": 0.375
+          },
+          "D_ON": {
+            "value": 0.20833333333333334,
+            "low": 0.041666666666666664,
+            "high": 0.375
+          },
+          "D_NO": {
+            "value": 0.125,
+            "low": 0.0,
+            "high": 0.25
+          },
+          "D_NN": {
+            "value": 0.125,
+            "low": 0.0,
+            "high": 0.25
+          },
+          "Theta": {
+            "value": 0.08333333333333334,
+            "low": -0.08333333333333333,
+            "high": 0.25
+          },
+          "T": {
+            "value": 0.08333333333333334,
+            "low": -0.08333333333333331,
+            "high": 0.22916666666666666
+          },
+          "B": {
+            "value": 0.0,
+            "low": -0.125,
+            "high": 0.12500000000000003
+          },
+          "Gamma": {
+            "value": 0.08333333333333334,
+            "low": -0.16666666666666669,
+            "high": 0.2916666666666667
+          },
+          "I": {
+            "value": 0.0,
+            "low": -0.33333333333333337,
+            "high": 0.375
+          }
+        },
+        "pooled": {
+          "D_OO": {
+            "value": 0.3125,
+            "low": 0.16666666666666669,
+            "high": 0.4583333333333333
+          },
+          "D_ON": {
+            "value": 0.14583333333333334,
+            "low": 0.0625,
+            "high": 0.25
+          },
+          "D_NO": {
+            "value": 0.16666666666666669,
+            "low": 0.0625,
+            "high": 0.27083333333333337
+          },
+          "D_NN": {
+            "value": 0.08333333333333333,
+            "low": 0.0,
+            "high": 0.1875
+          },
+          "Theta": {
+            "value": 0.22916666666666669,
+            "low": 0.08333333333333334,
+            "high": 0.375
+          },
+          "T": {
+            "value": 0.10416666666666667,
+            "low": -6.938893903907228e-18,
+            "high": 0.20833333333333331
+          },
+          "B": {
+            "value": 0.125,
+            "low": 0.020833333333333332,
+            "high": 0.22916666666666666
+          },
+          "Gamma": {
+            "value": -0.02083333333333333,
+            "low": -0.1875,
+            "high": 0.12500000000000003
+          },
+          "I": {
+            "value": 0.08333333333333334,
+            "low": -0.16666666666666666,
+            "high": 0.3333333333333333
+          }
+        }
+      },
+      "leave_one": [
+        {
+          "cohort": "M63",
+          "group_id": "G01",
+          "pooled": {
+            "D_OO": 0.29981884057971014,
+            "D_ON": 0.14764492753623187,
+            "D_NO": 0.17119565217391303,
+            "D_NN": 0.0625,
+            "Theta": 0.23731884057971014,
+            "T": 0.1068840579710145,
+            "B": 0.13043478260869565,
+            "Gamma": -0.023550724637681153,
+            "I": 0.043478260869565244
+          }
+        },
+        {
+          "cohort": "M63",
+          "group_id": "G02",
+          "pooled": {
+            "D_OO": 0.29981884057971014,
+            "D_ON": 0.14764492753623187,
+            "D_NO": 0.17119565217391303,
+            "D_NN": 0.08423913043478261,
+            "Theta": 0.21557971014492755,
+            "T": 0.0960144927536232,
+            "B": 0.11956521739130435,
+            "Gamma": -0.023550724637681153,
+            "I": 0.06521739130434785
+          }
+        },
+        {
+          "cohort": "M63",
+          "group_id": "G03",
+          "pooled": {
+            "D_OO": 0.32155797101449274,
+            "D_ON": 0.14764492753623187,
+            "D_NO": 0.17119565217391303,
+            "D_NN": 0.08423913043478261,
+            "Theta": 0.23731884057971014,
+            "T": 0.1068840579710145,
+            "B": 0.13043478260869565,
+            "Gamma": -0.023550724637681153,
+            "I": 0.08695652173913045
+          }
+        },
+        {
+          "cohort": "M63",
+          "group_id": "G04",
+          "pooled": {
+            "D_OO": 0.29981884057971014,
+            "D_ON": 0.14764492753623187,
+            "D_NO": 0.14945652173913043,
+            "D_NN": 0.08423913043478261,
+            "Theta": 0.21557971014492755,
+            "T": 0.1068840579710145,
+            "B": 0.10869565217391305,
+            "Gamma": -0.0018115942028985588,
+            "I": 0.08695652173913045
+          }
+        },
+        {
+          "cohort": "M63",
+          "group_id": "G05",
+          "pooled": {
+            "D_OO": 0.3432971014492754,
+            "D_ON": 0.14764492753623187,
+            "D_NO": 0.17119565217391303,
+            "D_NN": 0.10597826086956522,
+            "Theta": 0.23731884057971017,
+            "T": 0.10688405797101451,
+            "B": 0.13043478260869568,
+            "Gamma": -0.023550724637681153,
+            "I": 0.1304347826086957
+          }
+        },
+        {
+          "cohort": "M63",
+          "group_id": "G06",
+          "pooled": {
+            "D_OO": 0.29981884057971014,
+            "D_ON": 0.12590579710144928,
+            "D_NO": 0.17119565217391303,
+            "D_NN": 0.08423913043478261,
+            "Theta": 0.21557971014492755,
+            "T": 0.0851449275362319,
+            "B": 0.13043478260869565,
+            "Gamma": -0.04528985507246375,
+            "I": 0.08695652173913045
+          }
+        },
+        {
+          "cohort": "M63",
+          "group_id": "G07",
+          "pooled": {
+            "D_OO": 0.32155797101449274,
+            "D_ON": 0.14764492753623187,
+            "D_NO": 0.17119565217391303,
+            "D_NN": 0.08423913043478261,
+            "Theta": 0.23731884057971014,
+            "T": 0.1068840579710145,
+            "B": 0.13043478260869565,
+            "Gamma": -0.023550724637681153,
+            "I": 0.08695652173913045
+          }
+        },
+        {
+          "cohort": "M63",
+          "group_id": "G08",
+          "pooled": {
+            "D_OO": 0.29981884057971014,
+            "D_ON": 0.14764492753623187,
+            "D_NO": 0.17119565217391303,
+            "D_NN": 0.08423913043478261,
+            "Theta": 0.21557971014492755,
+            "T": 0.0960144927536232,
+            "B": 0.11956521739130435,
+            "Gamma": -0.023550724637681153,
+            "I": 0.06521739130434785
+          }
+        },
+        {
+          "cohort": "M63",
+          "group_id": "G09",
+          "pooled": {
+            "D_OO": 0.32155797101449274,
+            "D_ON": 0.14764492753623187,
+            "D_NO": 0.14945652173913043,
+            "D_NN": 0.08423913043478261,
+            "Theta": 0.23731884057971014,
+            "T": 0.11775362318840579,
+            "B": 0.11956521739130435,
+            "Gamma": -0.0018115942028985588,
+            "I": 0.10869565217391304
+          }
+        },
+        {
+          "cohort": "M63",
+          "group_id": "G10",
+          "pooled": {
+            "D_OO": 0.29981884057971014,
+            "D_ON": 0.14764492753623187,
+            "D_NO": 0.17119565217391303,
+            "D_NN": 0.08423913043478261,
+            "Theta": 0.21557971014492755,
+            "T": 0.0960144927536232,
+            "B": 0.11956521739130435,
+            "Gamma": -0.023550724637681153,
+            "I": 0.06521739130434785
+          }
+        },
+        {
+          "cohort": "M63",
+          "group_id": "G11",
+          "pooled": {
+            "D_OO": 0.32155797101449274,
+            "D_ON": 0.12590579710144928,
+            "D_NO": 0.17119565217391303,
+            "D_NN": 0.0625,
+            "Theta": 0.25905797101449274,
+            "T": 0.1068840579710145,
+            "B": 0.15217391304347824,
+            "Gamma": -0.04528985507246375,
+            "I": 0.08695652173913043
+          }
+        },
+        {
+          "cohort": "M63",
+          "group_id": "G12",
+          "pooled": {
+            "D_OO": 0.32155797101449274,
+            "D_ON": 0.14764492753623187,
+            "D_NO": 0.14945652173913043,
+            "D_NN": 0.08423913043478261,
+            "Theta": 0.23731884057971014,
+            "T": 0.11775362318840579,
+            "B": 0.11956521739130435,
+            "Gamma": -0.0018115942028985588,
+            "I": 0.10869565217391304
+          }
+        },
+        {
+          "cohort": "M63",
+          "group_id": "G13",
+          "pooled": {
+            "D_OO": 0.32155797101449274,
+            "D_ON": 0.14764492753623187,
+            "D_NO": 0.14945652173913043,
+            "D_NN": 0.08423913043478261,
+            "Theta": 0.23731884057971014,
+            "T": 0.11775362318840579,
+            "B": 0.11956521739130435,
+            "Gamma": -0.0018115942028985588,
+            "I": 0.10869565217391304
+          }
+        },
+        {
+          "cohort": "M63",
+          "group_id": "G14",
+          "pooled": {
+            "D_OO": 0.32155797101449274,
+            "D_ON": 0.14764492753623187,
+            "D_NO": 0.17119565217391303,
+            "D_NN": 0.08423913043478261,
+            "Theta": 0.23731884057971014,
+            "T": 0.1068840579710145,
+            "B": 0.13043478260869565,
+            "Gamma": -0.023550724637681153,
+            "I": 0.08695652173913045
+          }
+        },
+        {
+          "cohort": "M63",
+          "group_id": "G15",
+          "pooled": {
+            "D_OO": 0.32155797101449274,
+            "D_ON": 0.14764492753623187,
+            "D_NO": 0.17119565217391303,
+            "D_NN": 0.08423913043478261,
+            "Theta": 0.23731884057971014,
+            "T": 0.1068840579710145,
+            "B": 0.13043478260869565,
+            "Gamma": -0.023550724637681153,
+            "I": 0.08695652173913045
+          }
+        },
+        {
+          "cohort": "M63",
+          "group_id": "G16",
+          "pooled": {
+            "D_OO": 0.29981884057971014,
+            "D_ON": 0.14764492753623187,
+            "D_NO": 0.17119565217391303,
+            "D_NN": 0.08423913043478261,
+            "Theta": 0.21557971014492755,
+            "T": 0.0960144927536232,
+            "B": 0.11956521739130435,
+            "Gamma": -0.023550724637681153,
+            "I": 0.06521739130434785
+          }
+        },
+        {
+          "cohort": "M63",
+          "group_id": "G17",
+          "pooled": {
+            "D_OO": 0.32155797101449274,
+            "D_ON": 0.14764492753623187,
+            "D_NO": 0.17119565217391303,
+            "D_NN": 0.08423913043478261,
+            "Theta": 0.23731884057971014,
+            "T": 0.1068840579710145,
+            "B": 0.13043478260869565,
+            "Gamma": -0.023550724637681153,
+            "I": 0.08695652173913045
+          }
+        },
+        {
+          "cohort": "M63",
+          "group_id": "G18",
+          "pooled": {
+            "D_OO": 0.32155797101449274,
+            "D_ON": 0.14764492753623187,
+            "D_NO": 0.17119565217391303,
+            "D_NN": 0.08423913043478261,
+            "Theta": 0.23731884057971014,
+            "T": 0.1068840579710145,
+            "B": 0.13043478260869565,
+            "Gamma": -0.023550724637681153,
+            "I": 0.08695652173913045
+          }
+        },
+        {
+          "cohort": "M63",
+          "group_id": "G19",
+          "pooled": {
+            "D_OO": 0.29981884057971014,
+            "D_ON": 0.14764492753623187,
+            "D_NO": 0.17119565217391303,
+            "D_NN": 0.08423913043478261,
+            "Theta": 0.21557971014492755,
+            "T": 0.0960144927536232,
+            "B": 0.11956521739130435,
+            "Gamma": -0.023550724637681153,
+            "I": 0.06521739130434785
+          }
+        },
+        {
+          "cohort": "M63",
+          "group_id": "G20",
+          "pooled": {
+            "D_OO": 0.29981884057971014,
+            "D_ON": 0.14764492753623187,
+            "D_NO": 0.14945652173913043,
+            "D_NN": 0.08423913043478261,
+            "Theta": 0.21557971014492755,
+            "T": 0.1068840579710145,
+            "B": 0.10869565217391305,
+            "Gamma": -0.0018115942028985588,
+            "I": 0.08695652173913045
+          }
+        },
+        {
+          "cohort": "M63",
+          "group_id": "G21",
+          "pooled": {
+            "D_OO": 0.29981884057971014,
+            "D_ON": 0.14764492753623187,
+            "D_NO": 0.17119565217391303,
+            "D_NN": 0.08423913043478261,
+            "Theta": 0.21557971014492755,
+            "T": 0.0960144927536232,
+            "B": 0.11956521739130435,
+            "Gamma": -0.023550724637681153,
+            "I": 0.06521739130434785
+          }
+        },
+        {
+          "cohort": "M63",
+          "group_id": "G22",
+          "pooled": {
+            "D_OO": 0.32155797101449274,
+            "D_ON": 0.14764492753623187,
+            "D_NO": 0.17119565217391303,
+            "D_NN": 0.08423913043478261,
+            "Theta": 0.23731884057971014,
+            "T": 0.1068840579710145,
+            "B": 0.13043478260869565,
+            "Gamma": -0.023550724637681153,
+            "I": 0.08695652173913045
+          }
+        },
+        {
+          "cohort": "M63",
+          "group_id": "G23",
+          "pooled": {
+            "D_OO": 0.32155797101449274,
+            "D_ON": 0.14764492753623187,
+            "D_NO": 0.17119565217391303,
+            "D_NN": 0.08423913043478261,
+            "Theta": 0.23731884057971014,
+            "T": 0.1068840579710145,
+            "B": 0.13043478260869565,
+            "Gamma": -0.023550724637681153,
+            "I": 0.08695652173913045
+          }
+        },
+        {
+          "cohort": "M63",
+          "group_id": "G24",
+          "pooled": {
+            "D_OO": 0.29981884057971014,
+            "D_ON": 0.14764492753623187,
+            "D_NO": 0.17119565217391303,
+            "D_NN": 0.08423913043478261,
+            "Theta": 0.21557971014492755,
+            "T": 0.0960144927536232,
+            "B": 0.11956521739130435,
+            "Gamma": -0.023550724637681153,
+            "I": 0.06521739130434785
+          }
+        },
+        {
+          "cohort": "M65",
+          "group_id": "G01",
+          "pooled": {
+            "D_OO": 0.3170289855072464,
+            "D_ON": 0.1286231884057971,
+            "D_NO": 0.1693840579710145,
+            "D_NN": 0.08605072463768115,
+            "Theta": 0.23097826086956524,
+            "T": 0.09510869565217392,
+            "B": 0.1358695652173913,
+            "Gamma": -0.040760869565217406,
+            "I": 0.10507246376811596
+          }
+        },
+        {
+          "cohort": "M65",
+          "group_id": "G02",
+          "pooled": {
+            "D_OO": 0.29528985507246375,
+            "D_ON": 0.1503623188405797,
+            "D_NO": 0.1693840579710145,
+            "D_NN": 0.06431159420289854,
+            "Theta": 0.2309782608695652,
+            "T": 0.10597826086956522,
+            "B": 0.125,
+            "Gamma": -0.019021739130434784,
+            "I": 0.039855072463768085
+          }
+        },
+        {
+          "cohort": "M65",
+          "group_id": "G03",
+          "pooled": {
+            "D_OO": 0.29528985507246375,
+            "D_ON": 0.1503623188405797,
+            "D_NO": 0.1693840579710145,
+            "D_NN": 0.06431159420289854,
+            "Theta": 0.2309782608695652,
+            "T": 0.10597826086956522,
+            "B": 0.125,
+            "Gamma": -0.019021739130434784,
+            "I": 0.039855072463768085
+          }
+        },
+        {
+          "cohort": "M65",
+          "group_id": "G04",
+          "pooled": {
+            "D_OO": 0.3170289855072464,
+            "D_ON": 0.1503623188405797,
+            "D_NO": 0.14764492753623187,
+            "D_NN": 0.08605072463768115,
+            "Theta": 0.23097826086956524,
+            "T": 0.11684782608695654,
+            "B": 0.1141304347826087,
+            "Gamma": 0.002717391304347838,
+            "I": 0.10507246376811596
+          }
+        },
+        {
+          "cohort": "M65",
+          "group_id": "G05",
+          "pooled": {
+            "D_OO": 0.29528985507246375,
+            "D_ON": 0.1503623188405797,
+            "D_NO": 0.1693840579710145,
+            "D_NN": 0.08605072463768115,
+            "Theta": 0.2092391304347826,
+            "T": 0.0951086956521739,
+            "B": 0.1141304347826087,
+            "Gamma": -0.019021739130434784,
+            "I": 0.06159420289855069
+          }
+        },
+        {
+          "cohort": "M65",
+          "group_id": "G06",
+          "pooled": {
+            "D_OO": 0.3170289855072464,
+            "D_ON": 0.1503623188405797,
+            "D_NO": 0.1693840579710145,
+            "D_NN": 0.08605072463768115,
+            "Theta": 0.23097826086956524,
+            "T": 0.10597826086956523,
+            "B": 0.125,
+            "Gamma": -0.019021739130434784,
+            "I": 0.08333333333333334
+          }
+        },
+        {
+          "cohort": "M65",
+          "group_id": "G07",
+          "pooled": {
+            "D_OO": 0.3170289855072464,
+            "D_ON": 0.1503623188405797,
+            "D_NO": 0.1693840579710145,
+            "D_NN": 0.08605072463768115,
+            "Theta": 0.23097826086956524,
+            "T": 0.10597826086956523,
+            "B": 0.125,
+            "Gamma": -0.019021739130434784,
+            "I": 0.08333333333333334
+          }
+        },
+        {
+          "cohort": "M65",
+          "group_id": "G08",
+          "pooled": {
+            "D_OO": 0.3170289855072464,
+            "D_ON": 0.1503623188405797,
+            "D_NO": 0.1693840579710145,
+            "D_NN": 0.08605072463768115,
+            "Theta": 0.23097826086956524,
+            "T": 0.10597826086956523,
+            "B": 0.125,
+            "Gamma": -0.019021739130434784,
+            "I": 0.08333333333333334
+          }
+        },
+        {
+          "cohort": "M65",
+          "group_id": "G09",
+          "pooled": {
+            "D_OO": 0.3170289855072464,
+            "D_ON": 0.1503623188405797,
+            "D_NO": 0.1693840579710145,
+            "D_NN": 0.08605072463768115,
+            "Theta": 0.23097826086956524,
+            "T": 0.10597826086956523,
+            "B": 0.125,
+            "Gamma": -0.019021739130434784,
+            "I": 0.08333333333333334
+          }
+        },
+        {
+          "cohort": "M65",
+          "group_id": "G10",
+          "pooled": {
+            "D_OO": 0.3170289855072464,
+            "D_ON": 0.1503623188405797,
+            "D_NO": 0.1693840579710145,
+            "D_NN": 0.08605072463768115,
+            "Theta": 0.23097826086956524,
+            "T": 0.10597826086956523,
+            "B": 0.125,
+            "Gamma": -0.019021739130434784,
+            "I": 0.08333333333333334
+          }
+        },
+        {
+          "cohort": "M65",
+          "group_id": "G11",
+          "pooled": {
+            "D_OO": 0.3170289855072464,
+            "D_ON": 0.1503623188405797,
+            "D_NO": 0.14764492753623187,
+            "D_NN": 0.08605072463768115,
+            "Theta": 0.23097826086956524,
+            "T": 0.11684782608695654,
+            "B": 0.1141304347826087,
+            "Gamma": 0.002717391304347838,
+            "I": 0.10507246376811596
+          }
+        },
+        {
+          "cohort": "M65",
+          "group_id": "G12",
+          "pooled": {
+            "D_OO": 0.3170289855072464,
+            "D_ON": 0.1503623188405797,
+            "D_NO": 0.1693840579710145,
+            "D_NN": 0.08605072463768115,
+            "Theta": 0.23097826086956524,
+            "T": 0.10597826086956523,
+            "B": 0.125,
+            "Gamma": -0.019021739130434784,
+            "I": 0.08333333333333334
+          }
+        },
+        {
+          "cohort": "M65",
+          "group_id": "G13",
+          "pooled": {
+            "D_OO": 0.3170289855072464,
+            "D_ON": 0.1286231884057971,
+            "D_NO": 0.1693840579710145,
+            "D_NN": 0.08605072463768115,
+            "Theta": 0.23097826086956524,
+            "T": 0.09510869565217392,
+            "B": 0.1358695652173913,
+            "Gamma": -0.040760869565217406,
+            "I": 0.10507246376811596
+          }
+        },
+        {
+          "cohort": "M65",
+          "group_id": "G14",
+          "pooled": {
+            "D_OO": 0.3170289855072464,
+            "D_ON": 0.1503623188405797,
+            "D_NO": 0.1693840579710145,
+            "D_NN": 0.08605072463768115,
+            "Theta": 0.23097826086956524,
+            "T": 0.10597826086956523,
+            "B": 0.125,
+            "Gamma": -0.019021739130434784,
+            "I": 0.08333333333333334
+          }
+        },
+        {
+          "cohort": "M65",
+          "group_id": "G15",
+          "pooled": {
+            "D_OO": 0.3170289855072464,
+            "D_ON": 0.1286231884057971,
+            "D_NO": 0.1693840579710145,
+            "D_NN": 0.08605072463768115,
+            "Theta": 0.23097826086956524,
+            "T": 0.09510869565217392,
+            "B": 0.1358695652173913,
+            "Gamma": -0.040760869565217406,
+            "I": 0.10507246376811596
+          }
+        },
+        {
+          "cohort": "M65",
+          "group_id": "G16",
+          "pooled": {
+            "D_OO": 0.3170289855072464,
+            "D_ON": 0.1286231884057971,
+            "D_NO": 0.1693840579710145,
+            "D_NN": 0.08605072463768115,
+            "Theta": 0.23097826086956524,
+            "T": 0.09510869565217392,
+            "B": 0.1358695652173913,
+            "Gamma": -0.040760869565217406,
+            "I": 0.10507246376811596
+          }
+        },
+        {
+          "cohort": "M65",
+          "group_id": "G17",
+          "pooled": {
+            "D_OO": 0.29528985507246375,
+            "D_ON": 0.1503623188405797,
+            "D_NO": 0.1693840579710145,
+            "D_NN": 0.08605072463768115,
+            "Theta": 0.2092391304347826,
+            "T": 0.0951086956521739,
+            "B": 0.1141304347826087,
+            "Gamma": -0.019021739130434784,
+            "I": 0.06159420289855069
+          }
+        },
+        {
+          "cohort": "M65",
+          "group_id": "G18",
+          "pooled": {
+            "D_OO": 0.3170289855072464,
+            "D_ON": 0.1503623188405797,
+            "D_NO": 0.1693840579710145,
+            "D_NN": 0.08605072463768115,
+            "Theta": 0.23097826086956524,
+            "T": 0.10597826086956523,
+            "B": 0.125,
+            "Gamma": -0.019021739130434784,
+            "I": 0.08333333333333334
+          }
+        },
+        {
+          "cohort": "M65",
+          "group_id": "G19",
+          "pooled": {
+            "D_OO": 0.3170289855072464,
+            "D_ON": 0.1503623188405797,
+            "D_NO": 0.1693840579710145,
+            "D_NN": 0.08605072463768115,
+            "Theta": 0.23097826086956524,
+            "T": 0.10597826086956523,
+            "B": 0.125,
+            "Gamma": -0.019021739130434784,
+            "I": 0.08333333333333334
+          }
+        },
+        {
+          "cohort": "M65",
+          "group_id": "G20",
+          "pooled": {
+            "D_OO": 0.3170289855072464,
+            "D_ON": 0.1503623188405797,
+            "D_NO": 0.1693840579710145,
+            "D_NN": 0.08605072463768115,
+            "Theta": 0.23097826086956524,
+            "T": 0.10597826086956523,
+            "B": 0.125,
+            "Gamma": -0.019021739130434784,
+            "I": 0.08333333333333334
+          }
+        },
+        {
+          "cohort": "M65",
+          "group_id": "G21",
+          "pooled": {
+            "D_OO": 0.3170289855072464,
+            "D_ON": 0.1286231884057971,
+            "D_NO": 0.1693840579710145,
+            "D_NN": 0.08605072463768115,
+            "Theta": 0.23097826086956524,
+            "T": 0.09510869565217392,
+            "B": 0.1358695652173913,
+            "Gamma": -0.040760869565217406,
+            "I": 0.10507246376811596
+          }
+        },
+        {
+          "cohort": "M65",
+          "group_id": "G22",
+          "pooled": {
+            "D_OO": 0.29528985507246375,
+            "D_ON": 0.1503623188405797,
+            "D_NO": 0.1693840579710145,
+            "D_NN": 0.08605072463768115,
+            "Theta": 0.2092391304347826,
+            "T": 0.0951086956521739,
+            "B": 0.1141304347826087,
+            "Gamma": -0.019021739130434784,
+            "I": 0.06159420289855069
+          }
+        },
+        {
+          "cohort": "M65",
+          "group_id": "G23",
+          "pooled": {
+            "D_OO": 0.3170289855072464,
+            "D_ON": 0.1503623188405797,
+            "D_NO": 0.14764492753623187,
+            "D_NN": 0.06431159420289854,
+            "Theta": 0.25271739130434784,
+            "T": 0.12771739130434784,
+            "B": 0.125,
+            "Gamma": 0.002717391304347838,
+            "I": 0.08333333333333336
+          }
+        },
+        {
+          "cohort": "M65",
+          "group_id": "G24",
+          "pooled": {
+            "D_OO": 0.3170289855072464,
+            "D_ON": 0.1503623188405797,
+            "D_NO": 0.1693840579710145,
+            "D_NN": 0.08605072463768115,
+            "Theta": 0.23097826086956524,
+            "T": 0.10597826086956523,
+            "B": 0.125,
+            "Gamma": -0.019021739130434784,
+            "I": 0.08333333333333334
+          }
+        }
+      ],
+      "flags": {
+        "target_dominant_local": false,
+        "background_dominant_local": false,
+        "both_components_positive": false,
+        "canonical_total_positive": true,
+        "positive_interaction": false
+      },
+      "bootstrap_n": 10000,
+      "seed": 670914,
+      "cohort_weights": [
+        0.5,
+        0.5
+      ],
+      "independent_cohorts": true
+    },
+    "BEI_UA": {
+      "estimates": {
+        "M63": {
+          "D_OO": {
+            "value": 0.0,
+            "low": 0.0,
+            "high": 0.0
+          },
+          "D_ON": {
+            "value": 0.0,
+            "low": -0.125,
+            "high": 0.125
+          },
+          "D_NO": {
+            "value": 0.0,
+            "low": 0.0,
+            "high": 0.0
+          },
+          "D_NN": {
+            "value": 0.0,
+            "low": 0.0,
+            "high": 0.0
+          },
+          "Theta": {
+            "value": 0.0,
+            "low": 0.0,
+            "high": 0.0
+          },
+          "T": {
+            "value": 0.0,
+            "low": -0.0625,
+            "high": 0.0625
+          },
+          "B": {
+            "value": 0.0,
+            "low": -0.0625,
+            "high": 0.0625
+          },
+          "Gamma": {
+            "value": 0.0,
+            "low": -0.125,
+            "high": 0.125
+          },
+          "I": {
+            "value": 0.0,
+            "low": -0.125,
+            "high": 0.125
+          }
+        },
+        "M65": {
+          "D_OO": {
+            "value": 0.0,
+            "low": 0.0,
+            "high": 0.0
+          },
+          "D_ON": {
+            "value": 0.0,
+            "low": -0.125,
+            "high": 0.125
+          },
+          "D_NO": {
+            "value": 0.0,
+            "low": 0.0,
+            "high": 0.0
+          },
+          "D_NN": {
+            "value": 0.0,
+            "low": 0.0,
+            "high": 0.0
+          },
+          "Theta": {
+            "value": 0.0,
+            "low": 0.0,
+            "high": 0.0
+          },
+          "T": {
+            "value": 0.0,
+            "low": -0.0625,
+            "high": 0.0625
+          },
+          "B": {
+            "value": 0.0,
+            "low": -0.0625,
+            "high": 0.0625
+          },
+          "Gamma": {
+            "value": 0.0,
+            "low": -0.125,
+            "high": 0.125
+          },
+          "I": {
+            "value": 0.0,
+            "low": -0.125,
+            "high": 0.125
+          }
+        },
+        "pooled": {
+          "D_OO": {
+            "value": 0.0,
+            "low": 0.0,
+            "high": 0.0
+          },
+          "D_ON": {
+            "value": 0.0,
+            "low": -0.08333333333333333,
+            "high": 0.08333333333333333
+          },
+          "D_NO": {
+            "value": 0.0,
+            "low": 0.0,
+            "high": 0.0
+          },
+          "D_NN": {
+            "value": 0.0,
+            "low": 0.0,
+            "high": 0.0
+          },
+          "Theta": {
+            "value": 0.0,
+            "low": 0.0,
+            "high": 0.0
+          },
+          "T": {
+            "value": 0.0,
+            "low": -0.041666666666666664,
+            "high": 0.041666666666666664
+          },
+          "B": {
+            "value": 0.0,
+            "low": -0.041666666666666664,
+            "high": 0.041666666666666664
+          },
+          "Gamma": {
+            "value": 0.0,
+            "low": -0.08333333333333333,
+            "high": 0.08333333333333333
+          },
+          "I": {
+            "value": 0.0,
+            "low": -0.08333333333333333,
+            "high": 0.08333333333333333
+          }
+        }
+      },
+      "leave_one": [
+        {
+          "cohort": "M63",
+          "group_id": "G01",
+          "pooled": {
+            "D_OO": 0.0,
+            "D_ON": 0.0,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": 0.0,
+            "T": 0.0,
+            "B": 0.0,
+            "Gamma": 0.0,
+            "I": 0.0
+          }
+        },
+        {
+          "cohort": "M63",
+          "group_id": "G02",
+          "pooled": {
+            "D_OO": 0.0,
+            "D_ON": 0.0,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": 0.0,
+            "T": 0.0,
+            "B": 0.0,
+            "Gamma": 0.0,
+            "I": 0.0
+          }
+        },
+        {
+          "cohort": "M63",
+          "group_id": "G03",
+          "pooled": {
+            "D_OO": 0.0,
+            "D_ON": 0.0,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": 0.0,
+            "T": 0.0,
+            "B": 0.0,
+            "Gamma": 0.0,
+            "I": 0.0
+          }
+        },
+        {
+          "cohort": "M63",
+          "group_id": "G04",
+          "pooled": {
+            "D_OO": 0.0,
+            "D_ON": 0.0,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": 0.0,
+            "T": 0.0,
+            "B": 0.0,
+            "Gamma": 0.0,
+            "I": 0.0
+          }
+        },
+        {
+          "cohort": "M63",
+          "group_id": "G05",
+          "pooled": {
+            "D_OO": 0.0,
+            "D_ON": 0.0,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": 0.0,
+            "T": 0.0,
+            "B": 0.0,
+            "Gamma": 0.0,
+            "I": 0.0
+          }
+        },
+        {
+          "cohort": "M63",
+          "group_id": "G06",
+          "pooled": {
+            "D_OO": 0.0,
+            "D_ON": 0.0,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": 0.0,
+            "T": 0.0,
+            "B": 0.0,
+            "Gamma": 0.0,
+            "I": 0.0
+          }
+        },
+        {
+          "cohort": "M63",
+          "group_id": "G07",
+          "pooled": {
+            "D_OO": 0.0,
+            "D_ON": 0.0,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": 0.0,
+            "T": 0.0,
+            "B": 0.0,
+            "Gamma": 0.0,
+            "I": 0.0
+          }
+        },
+        {
+          "cohort": "M63",
+          "group_id": "G08",
+          "pooled": {
+            "D_OO": 0.0,
+            "D_ON": 0.0,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": 0.0,
+            "T": 0.0,
+            "B": 0.0,
+            "Gamma": 0.0,
+            "I": 0.0
+          }
+        },
+        {
+          "cohort": "M63",
+          "group_id": "G09",
+          "pooled": {
+            "D_OO": 0.0,
+            "D_ON": 0.0,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": 0.0,
+            "T": 0.0,
+            "B": 0.0,
+            "Gamma": 0.0,
+            "I": 0.0
+          }
+        },
+        {
+          "cohort": "M63",
+          "group_id": "G10",
+          "pooled": {
+            "D_OO": 0.0,
+            "D_ON": 0.0,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": 0.0,
+            "T": 0.0,
+            "B": 0.0,
+            "Gamma": 0.0,
+            "I": 0.0
+          }
+        },
+        {
+          "cohort": "M63",
+          "group_id": "G11",
+          "pooled": {
+            "D_OO": 0.0,
+            "D_ON": 0.0,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": 0.0,
+            "T": 0.0,
+            "B": 0.0,
+            "Gamma": 0.0,
+            "I": 0.0
+          }
+        },
+        {
+          "cohort": "M63",
+          "group_id": "G12",
+          "pooled": {
+            "D_OO": 0.0,
+            "D_ON": 0.0,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": 0.0,
+            "T": 0.0,
+            "B": 0.0,
+            "Gamma": 0.0,
+            "I": 0.0
+          }
+        },
+        {
+          "cohort": "M63",
+          "group_id": "G13",
+          "pooled": {
+            "D_OO": 0.0,
+            "D_ON": 0.0,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": 0.0,
+            "T": 0.0,
+            "B": 0.0,
+            "Gamma": 0.0,
+            "I": 0.0
+          }
+        },
+        {
+          "cohort": "M63",
+          "group_id": "G14",
+          "pooled": {
+            "D_OO": 0.0,
+            "D_ON": 0.0,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": 0.0,
+            "T": 0.0,
+            "B": 0.0,
+            "Gamma": 0.0,
+            "I": 0.0
+          }
+        },
+        {
+          "cohort": "M63",
+          "group_id": "G15",
+          "pooled": {
+            "D_OO": 0.0,
+            "D_ON": 0.0,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": 0.0,
+            "T": 0.0,
+            "B": 0.0,
+            "Gamma": 0.0,
+            "I": 0.0
+          }
+        },
+        {
+          "cohort": "M63",
+          "group_id": "G16",
+          "pooled": {
+            "D_OO": 0.0,
+            "D_ON": 0.0,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": 0.0,
+            "T": 0.0,
+            "B": 0.0,
+            "Gamma": 0.0,
+            "I": 0.0
+          }
+        },
+        {
+          "cohort": "M63",
+          "group_id": "G17",
+          "pooled": {
+            "D_OO": 0.0,
+            "D_ON": 0.0,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": 0.0,
+            "T": 0.0,
+            "B": 0.0,
+            "Gamma": 0.0,
+            "I": 0.0
+          }
+        },
+        {
+          "cohort": "M63",
+          "group_id": "G18",
+          "pooled": {
+            "D_OO": 0.0,
+            "D_ON": 0.0,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": 0.0,
+            "T": 0.0,
+            "B": 0.0,
+            "Gamma": 0.0,
+            "I": 0.0
+          }
+        },
+        {
+          "cohort": "M63",
+          "group_id": "G19",
+          "pooled": {
+            "D_OO": 0.0,
+            "D_ON": -0.021739130434782608,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": 0.0,
+            "T": -0.010869565217391304,
+            "B": 0.010869565217391304,
+            "Gamma": -0.021739130434782608,
+            "I": 0.021739130434782608
+          }
+        },
+        {
+          "cohort": "M63",
+          "group_id": "G20",
+          "pooled": {
+            "D_OO": 0.0,
+            "D_ON": 0.021739130434782608,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": 0.0,
+            "T": 0.010869565217391304,
+            "B": -0.010869565217391304,
+            "Gamma": 0.021739130434782608,
+            "I": -0.021739130434782608
+          }
+        },
+        {
+          "cohort": "M63",
+          "group_id": "G21",
+          "pooled": {
+            "D_OO": 0.0,
+            "D_ON": 0.0,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": 0.0,
+            "T": 0.0,
+            "B": 0.0,
+            "Gamma": 0.0,
+            "I": 0.0
+          }
+        },
+        {
+          "cohort": "M63",
+          "group_id": "G22",
+          "pooled": {
+            "D_OO": 0.0,
+            "D_ON": 0.0,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": 0.0,
+            "T": 0.0,
+            "B": 0.0,
+            "Gamma": 0.0,
+            "I": 0.0
+          }
+        },
+        {
+          "cohort": "M63",
+          "group_id": "G23",
+          "pooled": {
+            "D_OO": 0.0,
+            "D_ON": 0.0,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": 0.0,
+            "T": 0.0,
+            "B": 0.0,
+            "Gamma": 0.0,
+            "I": 0.0
+          }
+        },
+        {
+          "cohort": "M63",
+          "group_id": "G24",
+          "pooled": {
+            "D_OO": 0.0,
+            "D_ON": 0.0,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": 0.0,
+            "T": 0.0,
+            "B": 0.0,
+            "Gamma": 0.0,
+            "I": 0.0
+          }
+        },
+        {
+          "cohort": "M65",
+          "group_id": "G01",
+          "pooled": {
+            "D_OO": 0.0,
+            "D_ON": 0.0,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": 0.0,
+            "T": 0.0,
+            "B": 0.0,
+            "Gamma": 0.0,
+            "I": 0.0
+          }
+        },
+        {
+          "cohort": "M65",
+          "group_id": "G02",
+          "pooled": {
+            "D_OO": 0.0,
+            "D_ON": 0.0,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": 0.0,
+            "T": 0.0,
+            "B": 0.0,
+            "Gamma": 0.0,
+            "I": 0.0
+          }
+        },
+        {
+          "cohort": "M65",
+          "group_id": "G03",
+          "pooled": {
+            "D_OO": 0.0,
+            "D_ON": 0.0,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": 0.0,
+            "T": 0.0,
+            "B": 0.0,
+            "Gamma": 0.0,
+            "I": 0.0
+          }
+        },
+        {
+          "cohort": "M65",
+          "group_id": "G04",
+          "pooled": {
+            "D_OO": 0.0,
+            "D_ON": 0.0,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": 0.0,
+            "T": 0.0,
+            "B": 0.0,
+            "Gamma": 0.0,
+            "I": 0.0
+          }
+        },
+        {
+          "cohort": "M65",
+          "group_id": "G05",
+          "pooled": {
+            "D_OO": 0.0,
+            "D_ON": 0.0,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": 0.0,
+            "T": 0.0,
+            "B": 0.0,
+            "Gamma": 0.0,
+            "I": 0.0
+          }
+        },
+        {
+          "cohort": "M65",
+          "group_id": "G06",
+          "pooled": {
+            "D_OO": 0.0,
+            "D_ON": 0.0,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": 0.0,
+            "T": 0.0,
+            "B": 0.0,
+            "Gamma": 0.0,
+            "I": 0.0
+          }
+        },
+        {
+          "cohort": "M65",
+          "group_id": "G07",
+          "pooled": {
+            "D_OO": 0.0,
+            "D_ON": 0.0,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": 0.0,
+            "T": 0.0,
+            "B": 0.0,
+            "Gamma": 0.0,
+            "I": 0.0
+          }
+        },
+        {
+          "cohort": "M65",
+          "group_id": "G08",
+          "pooled": {
+            "D_OO": 0.0,
+            "D_ON": 0.0,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": 0.0,
+            "T": 0.0,
+            "B": 0.0,
+            "Gamma": 0.0,
+            "I": 0.0
+          }
+        },
+        {
+          "cohort": "M65",
+          "group_id": "G09",
+          "pooled": {
+            "D_OO": 0.0,
+            "D_ON": 0.0,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": 0.0,
+            "T": 0.0,
+            "B": 0.0,
+            "Gamma": 0.0,
+            "I": 0.0
+          }
+        },
+        {
+          "cohort": "M65",
+          "group_id": "G10",
+          "pooled": {
+            "D_OO": 0.0,
+            "D_ON": 0.021739130434782608,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": 0.0,
+            "T": 0.010869565217391304,
+            "B": -0.010869565217391304,
+            "Gamma": 0.021739130434782608,
+            "I": -0.021739130434782608
+          }
+        },
+        {
+          "cohort": "M65",
+          "group_id": "G11",
+          "pooled": {
+            "D_OO": 0.0,
+            "D_ON": -0.021739130434782608,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": 0.0,
+            "T": -0.010869565217391304,
+            "B": 0.010869565217391304,
+            "Gamma": -0.021739130434782608,
+            "I": 0.021739130434782608
+          }
+        },
+        {
+          "cohort": "M65",
+          "group_id": "G12",
+          "pooled": {
+            "D_OO": 0.0,
+            "D_ON": 0.0,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": 0.0,
+            "T": 0.0,
+            "B": 0.0,
+            "Gamma": 0.0,
+            "I": 0.0
+          }
+        },
+        {
+          "cohort": "M65",
+          "group_id": "G13",
+          "pooled": {
+            "D_OO": 0.0,
+            "D_ON": 0.0,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": 0.0,
+            "T": 0.0,
+            "B": 0.0,
+            "Gamma": 0.0,
+            "I": 0.0
+          }
+        },
+        {
+          "cohort": "M65",
+          "group_id": "G14",
+          "pooled": {
+            "D_OO": 0.0,
+            "D_ON": 0.0,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": 0.0,
+            "T": 0.0,
+            "B": 0.0,
+            "Gamma": 0.0,
+            "I": 0.0
+          }
+        },
+        {
+          "cohort": "M65",
+          "group_id": "G15",
+          "pooled": {
+            "D_OO": 0.0,
+            "D_ON": 0.0,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": 0.0,
+            "T": 0.0,
+            "B": 0.0,
+            "Gamma": 0.0,
+            "I": 0.0
+          }
+        },
+        {
+          "cohort": "M65",
+          "group_id": "G16",
+          "pooled": {
+            "D_OO": 0.0,
+            "D_ON": 0.0,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": 0.0,
+            "T": 0.0,
+            "B": 0.0,
+            "Gamma": 0.0,
+            "I": 0.0
+          }
+        },
+        {
+          "cohort": "M65",
+          "group_id": "G17",
+          "pooled": {
+            "D_OO": 0.0,
+            "D_ON": 0.0,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": 0.0,
+            "T": 0.0,
+            "B": 0.0,
+            "Gamma": 0.0,
+            "I": 0.0
+          }
+        },
+        {
+          "cohort": "M65",
+          "group_id": "G18",
+          "pooled": {
+            "D_OO": 0.0,
+            "D_ON": 0.0,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": 0.0,
+            "T": 0.0,
+            "B": 0.0,
+            "Gamma": 0.0,
+            "I": 0.0
+          }
+        },
+        {
+          "cohort": "M65",
+          "group_id": "G19",
+          "pooled": {
+            "D_OO": 0.0,
+            "D_ON": 0.0,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": 0.0,
+            "T": 0.0,
+            "B": 0.0,
+            "Gamma": 0.0,
+            "I": 0.0
+          }
+        },
+        {
+          "cohort": "M65",
+          "group_id": "G20",
+          "pooled": {
+            "D_OO": 0.0,
+            "D_ON": 0.0,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": 0.0,
+            "T": 0.0,
+            "B": 0.0,
+            "Gamma": 0.0,
+            "I": 0.0
+          }
+        },
+        {
+          "cohort": "M65",
+          "group_id": "G21",
+          "pooled": {
+            "D_OO": 0.0,
+            "D_ON": 0.0,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": 0.0,
+            "T": 0.0,
+            "B": 0.0,
+            "Gamma": 0.0,
+            "I": 0.0
+          }
+        },
+        {
+          "cohort": "M65",
+          "group_id": "G22",
+          "pooled": {
+            "D_OO": 0.0,
+            "D_ON": 0.0,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": 0.0,
+            "T": 0.0,
+            "B": 0.0,
+            "Gamma": 0.0,
+            "I": 0.0
+          }
+        },
+        {
+          "cohort": "M65",
+          "group_id": "G23",
+          "pooled": {
+            "D_OO": 0.0,
+            "D_ON": 0.0,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": 0.0,
+            "T": 0.0,
+            "B": 0.0,
+            "Gamma": 0.0,
+            "I": 0.0
+          }
+        },
+        {
+          "cohort": "M65",
+          "group_id": "G24",
+          "pooled": {
+            "D_OO": 0.0,
+            "D_ON": 0.0,
+            "D_NO": 0.0,
+            "D_NN": 0.0,
+            "Theta": 0.0,
+            "T": 0.0,
+            "B": 0.0,
+            "Gamma": 0.0,
+            "I": 0.0
+          }
+        }
+      ],
+      "flags": {
+        "target_dominant_local": false,
+        "background_dominant_local": false,
+        "both_components_positive": false,
+        "canonical_total_positive": false,
+        "positive_interaction": false
+      },
+      "bootstrap_n": 10000,
+      "seed": 670914,
+      "cohort_weights": [
+        0.5,
+        0.5
+      ],
+      "independent_cohorts": true
+    }
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "status": "COMPLETE_NATURAL_ANALYSIS",
+  "natural_outputs": 1312,
+  "new_outputs": 1280,
+  "models": {
+    "qwen": {
+      "pair_n": 192,
+      "group_n": 24,
+      "D": -0.03125,
+      "ci": [
+        -0.07291666666666667,
+        0.005208333333333333
+      ],
+      "compatible_D_bounds": [
+        -0.03125,
+        -0.03125
+      ],
+      "compatible_ci": [
+        -0.07291666666666667,
+        0.005208333333333333
+      ],
+      "label": "INCONCLUSIVE",
+      "unknown_sensitive": false,
+      "rescues": 5,
+      "harms": 11,
+      "both_correct": 167,
+      "mapping_equal": 176,
+      "both_known_wrong": 9,
+      "unknown_pairs": 0
+    },
+    "apertus": {
+      "pair_n": 192,
+      "group_n": 24,
+      "D": 0.06770833333333333,
+      "ci": [
+        0.03125,
+        0.109375
+      ],
+      "compatible_D_bounds": [
+        0.06770833333333333,
+        0.06770833333333333
+      ],
+      "compatible_ci": [
+        0.03125,
+        0.109375
+      ],
+      "label": "SUPPORTED",
+      "unknown_sensitive": false,
+      "rescues": 17,
+      "harms": 4,
+      "both_correct": 140,
+      "mapping_equal": 171,
+      "both_known_wrong": 31,
+      "unknown_pairs": 0
+    }
+  },
+  "two_model_direction_replication": false,
+  "independent_human_gold": 0,
+  "independent_material_review": "NOT_COMPLETED_AT_RELEASE",
+  "evidence_identity": "development prospective replication; not independent confirmation"
+}

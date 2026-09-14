@@ -1,0 +1,1549 @@
+{
+  "status": "COMPLETE_ANALYSIS",
+  "outputs": 3120,
+  "new_outputs": 3072,
+  "primary_apertus": {
+    "lower": 0.3177083333333333,
+    "upper": 0.3177083333333333,
+    "ci_lower": 0.2630208333333333,
+    "ci_upper": 0.3697916666666667,
+    "loo_lower_min": 0.30434782608695654,
+    "groups": [
+      {
+        "group_id": "G01",
+        "lower": 0.0,
+        "upper": 0.0
+      },
+      {
+        "group_id": "G02",
+        "lower": 0.125,
+        "upper": 0.125
+      },
+      {
+        "group_id": "G03",
+        "lower": 0.375,
+        "upper": 0.375
+      },
+      {
+        "group_id": "G04",
+        "lower": 0.125,
+        "upper": 0.125
+      },
+      {
+        "group_id": "G05",
+        "lower": 0.25,
+        "upper": 0.25
+      },
+      {
+        "group_id": "G06",
+        "lower": 0.5,
+        "upper": 0.5
+      },
+      {
+        "group_id": "G07",
+        "lower": 0.25,
+        "upper": 0.25
+      },
+      {
+        "group_id": "G08",
+        "lower": 0.625,
+        "upper": 0.625
+      },
+      {
+        "group_id": "G09",
+        "lower": 0.5,
+        "upper": 0.5
+      },
+      {
+        "group_id": "G10",
+        "lower": 0.375,
+        "upper": 0.375
+      },
+      {
+        "group_id": "G11",
+        "lower": 0.1875,
+        "upper": 0.1875
+      },
+      {
+        "group_id": "G12",
+        "lower": 0.25,
+        "upper": 0.25
+      },
+      {
+        "group_id": "G13",
+        "lower": 0.375,
+        "upper": 0.375
+      },
+      {
+        "group_id": "G14",
+        "lower": 0.375,
+        "upper": 0.375
+      },
+      {
+        "group_id": "G15",
+        "lower": 0.3125,
+        "upper": 0.3125
+      },
+      {
+        "group_id": "G16",
+        "lower": 0.375,
+        "upper": 0.375
+      },
+      {
+        "group_id": "G17",
+        "lower": 0.25,
+        "upper": 0.25
+      },
+      {
+        "group_id": "G18",
+        "lower": 0.4375,
+        "upper": 0.4375
+      },
+      {
+        "group_id": "G19",
+        "lower": 0.3125,
+        "upper": 0.3125
+      },
+      {
+        "group_id": "G20",
+        "lower": 0.1875,
+        "upper": 0.1875
+      },
+      {
+        "group_id": "G21",
+        "lower": 0.375,
+        "upper": 0.375
+      },
+      {
+        "group_id": "G22",
+        "lower": 0.375,
+        "upper": 0.375
+      },
+      {
+        "group_id": "G23",
+        "lower": 0.375,
+        "upper": 0.375
+      },
+      {
+        "group_id": "G24",
+        "lower": 0.3125,
+        "upper": 0.3125
+      }
+    ],
+    "leave_one": [
+      {
+        "omitted": "G01",
+        "lower": 0.33152173913043476,
+        "upper": 0.33152173913043476
+      },
+      {
+        "omitted": "G02",
+        "lower": 0.32608695652173914,
+        "upper": 0.32608695652173914
+      },
+      {
+        "omitted": "G03",
+        "lower": 0.31521739130434784,
+        "upper": 0.31521739130434784
+      },
+      {
+        "omitted": "G04",
+        "lower": 0.32608695652173914,
+        "upper": 0.32608695652173914
+      },
+      {
+        "omitted": "G05",
+        "lower": 0.32065217391304346,
+        "upper": 0.32065217391304346
+      },
+      {
+        "omitted": "G06",
+        "lower": 0.30978260869565216,
+        "upper": 0.30978260869565216
+      },
+      {
+        "omitted": "G07",
+        "lower": 0.32065217391304346,
+        "upper": 0.32065217391304346
+      },
+      {
+        "omitted": "G08",
+        "lower": 0.30434782608695654,
+        "upper": 0.30434782608695654
+      },
+      {
+        "omitted": "G09",
+        "lower": 0.30978260869565216,
+        "upper": 0.30978260869565216
+      },
+      {
+        "omitted": "G10",
+        "lower": 0.31521739130434784,
+        "upper": 0.31521739130434784
+      },
+      {
+        "omitted": "G11",
+        "lower": 0.3233695652173913,
+        "upper": 0.3233695652173913
+      },
+      {
+        "omitted": "G12",
+        "lower": 0.32065217391304346,
+        "upper": 0.32065217391304346
+      },
+      {
+        "omitted": "G13",
+        "lower": 0.31521739130434784,
+        "upper": 0.31521739130434784
+      },
+      {
+        "omitted": "G14",
+        "lower": 0.31521739130434784,
+        "upper": 0.31521739130434784
+      },
+      {
+        "omitted": "G15",
+        "lower": 0.3179347826086957,
+        "upper": 0.3179347826086957
+      },
+      {
+        "omitted": "G16",
+        "lower": 0.31521739130434784,
+        "upper": 0.31521739130434784
+      },
+      {
+        "omitted": "G17",
+        "lower": 0.32065217391304346,
+        "upper": 0.32065217391304346
+      },
+      {
+        "omitted": "G18",
+        "lower": 0.3125,
+        "upper": 0.3125
+      },
+      {
+        "omitted": "G19",
+        "lower": 0.3179347826086957,
+        "upper": 0.3179347826086957
+      },
+      {
+        "omitted": "G20",
+        "lower": 0.3233695652173913,
+        "upper": 0.3233695652173913
+      },
+      {
+        "omitted": "G21",
+        "lower": 0.31521739130434784,
+        "upper": 0.31521739130434784
+      },
+      {
+        "omitted": "G22",
+        "lower": 0.31521739130434784,
+        "upper": 0.31521739130434784
+      },
+      {
+        "omitted": "G23",
+        "lower": 0.31521739130434784,
+        "upper": 0.31521739130434784
+      },
+      {
+        "omitted": "G24",
+        "lower": 0.3179347826086957,
+        "upper": 0.3179347826086957
+      }
+    ],
+    "direction_A": {
+      "lower": 0.265625,
+      "upper": 0.265625,
+      "ci_lower": 0.19791666666666666,
+      "ci_upper": 0.3333333333333333,
+      "loo_lower_min": 0.25,
+      "groups": [
+        {
+          "group_id": "G01",
+          "lower": 0.0,
+          "upper": 0.0
+        },
+        {
+          "group_id": "G02",
+          "lower": 0.125,
+          "upper": 0.125
+        },
+        {
+          "group_id": "G03",
+          "lower": 0.375,
+          "upper": 0.375
+        },
+        {
+          "group_id": "G04",
+          "lower": 0.0,
+          "upper": 0.0
+        },
+        {
+          "group_id": "G05",
+          "lower": 0.375,
+          "upper": 0.375
+        },
+        {
+          "group_id": "G06",
+          "lower": 0.25,
+          "upper": 0.25
+        },
+        {
+          "group_id": "G07",
+          "lower": 0.25,
+          "upper": 0.25
+        },
+        {
+          "group_id": "G08",
+          "lower": 0.375,
+          "upper": 0.375
+        },
+        {
+          "group_id": "G09",
+          "lower": 0.25,
+          "upper": 0.25
+        },
+        {
+          "group_id": "G10",
+          "lower": 0.5,
+          "upper": 0.5
+        },
+        {
+          "group_id": "G11",
+          "lower": 0.0,
+          "upper": 0.0
+        },
+        {
+          "group_id": "G12",
+          "lower": 0.375,
+          "upper": 0.375
+        },
+        {
+          "group_id": "G13",
+          "lower": 0.125,
+          "upper": 0.125
+        },
+        {
+          "group_id": "G14",
+          "lower": 0.625,
+          "upper": 0.625
+        },
+        {
+          "group_id": "G15",
+          "lower": 0.5,
+          "upper": 0.5
+        },
+        {
+          "group_id": "G16",
+          "lower": 0.375,
+          "upper": 0.375
+        },
+        {
+          "group_id": "G17",
+          "lower": 0.25,
+          "upper": 0.25
+        },
+        {
+          "group_id": "G18",
+          "lower": 0.5,
+          "upper": 0.5
+        },
+        {
+          "group_id": "G19",
+          "lower": 0.125,
+          "upper": 0.125
+        },
+        {
+          "group_id": "G20",
+          "lower": 0.125,
+          "upper": 0.125
+        },
+        {
+          "group_id": "G21",
+          "lower": 0.25,
+          "upper": 0.25
+        },
+        {
+          "group_id": "G22",
+          "lower": 0.25,
+          "upper": 0.25
+        },
+        {
+          "group_id": "G23",
+          "lower": 0.375,
+          "upper": 0.375
+        },
+        {
+          "group_id": "G24",
+          "lower": 0.0,
+          "upper": 0.0
+        }
+      ],
+      "leave_one": [
+        {
+          "omitted": "G01",
+          "lower": 0.27717391304347827,
+          "upper": 0.27717391304347827
+        },
+        {
+          "omitted": "G02",
+          "lower": 0.2717391304347826,
+          "upper": 0.2717391304347826
+        },
+        {
+          "omitted": "G03",
+          "lower": 0.2608695652173913,
+          "upper": 0.2608695652173913
+        },
+        {
+          "omitted": "G04",
+          "lower": 0.27717391304347827,
+          "upper": 0.27717391304347827
+        },
+        {
+          "omitted": "G05",
+          "lower": 0.2608695652173913,
+          "upper": 0.2608695652173913
+        },
+        {
+          "omitted": "G06",
+          "lower": 0.266304347826087,
+          "upper": 0.266304347826087
+        },
+        {
+          "omitted": "G07",
+          "lower": 0.266304347826087,
+          "upper": 0.266304347826087
+        },
+        {
+          "omitted": "G08",
+          "lower": 0.2608695652173913,
+          "upper": 0.2608695652173913
+        },
+        {
+          "omitted": "G09",
+          "lower": 0.266304347826087,
+          "upper": 0.266304347826087
+        },
+        {
+          "omitted": "G10",
+          "lower": 0.2554347826086957,
+          "upper": 0.2554347826086957
+        },
+        {
+          "omitted": "G11",
+          "lower": 0.27717391304347827,
+          "upper": 0.27717391304347827
+        },
+        {
+          "omitted": "G12",
+          "lower": 0.2608695652173913,
+          "upper": 0.2608695652173913
+        },
+        {
+          "omitted": "G13",
+          "lower": 0.2717391304347826,
+          "upper": 0.2717391304347826
+        },
+        {
+          "omitted": "G14",
+          "lower": 0.25,
+          "upper": 0.25
+        },
+        {
+          "omitted": "G15",
+          "lower": 0.2554347826086957,
+          "upper": 0.2554347826086957
+        },
+        {
+          "omitted": "G16",
+          "lower": 0.2608695652173913,
+          "upper": 0.2608695652173913
+        },
+        {
+          "omitted": "G17",
+          "lower": 0.266304347826087,
+          "upper": 0.266304347826087
+        },
+        {
+          "omitted": "G18",
+          "lower": 0.2554347826086957,
+          "upper": 0.2554347826086957
+        },
+        {
+          "omitted": "G19",
+          "lower": 0.2717391304347826,
+          "upper": 0.2717391304347826
+        },
+        {
+          "omitted": "G20",
+          "lower": 0.2717391304347826,
+          "upper": 0.2717391304347826
+        },
+        {
+          "omitted": "G21",
+          "lower": 0.266304347826087,
+          "upper": 0.266304347826087
+        },
+        {
+          "omitted": "G22",
+          "lower": 0.266304347826087,
+          "upper": 0.266304347826087
+        },
+        {
+          "omitted": "G23",
+          "lower": 0.2608695652173913,
+          "upper": 0.2608695652173913
+        },
+        {
+          "omitted": "G24",
+          "lower": 0.27717391304347827,
+          "upper": 0.27717391304347827
+        }
+      ]
+    },
+    "direction_B": {
+      "lower": 0.3697916666666667,
+      "upper": 0.3697916666666667,
+      "ci_lower": 0.28125,
+      "ci_upper": 0.4635416666666667,
+      "loo_lower_min": 0.34782608695652173,
+      "groups": [
+        {
+          "group_id": "G01",
+          "lower": 0.0,
+          "upper": 0.0
+        },
+        {
+          "group_id": "G02",
+          "lower": 0.125,
+          "upper": 0.125
+        },
+        {
+          "group_id": "G03",
+          "lower": 0.375,
+          "upper": 0.375
+        },
+        {
+          "group_id": "G04",
+          "lower": 0.25,
+          "upper": 0.25
+        },
+        {
+          "group_id": "G05",
+          "lower": 0.125,
+          "upper": 0.125
+        },
+        {
+          "group_id": "G06",
+          "lower": 0.75,
+          "upper": 0.75
+        },
+        {
+          "group_id": "G07",
+          "lower": 0.25,
+          "upper": 0.25
+        },
+        {
+          "group_id": "G08",
+          "lower": 0.875,
+          "upper": 0.875
+        },
+        {
+          "group_id": "G09",
+          "lower": 0.75,
+          "upper": 0.75
+        },
+        {
+          "group_id": "G10",
+          "lower": 0.25,
+          "upper": 0.25
+        },
+        {
+          "group_id": "G11",
+          "lower": 0.375,
+          "upper": 0.375
+        },
+        {
+          "group_id": "G12",
+          "lower": 0.125,
+          "upper": 0.125
+        },
+        {
+          "group_id": "G13",
+          "lower": 0.625,
+          "upper": 0.625
+        },
+        {
+          "group_id": "G14",
+          "lower": 0.125,
+          "upper": 0.125
+        },
+        {
+          "group_id": "G15",
+          "lower": 0.125,
+          "upper": 0.125
+        },
+        {
+          "group_id": "G16",
+          "lower": 0.375,
+          "upper": 0.375
+        },
+        {
+          "group_id": "G17",
+          "lower": 0.25,
+          "upper": 0.25
+        },
+        {
+          "group_id": "G18",
+          "lower": 0.375,
+          "upper": 0.375
+        },
+        {
+          "group_id": "G19",
+          "lower": 0.5,
+          "upper": 0.5
+        },
+        {
+          "group_id": "G20",
+          "lower": 0.25,
+          "upper": 0.25
+        },
+        {
+          "group_id": "G21",
+          "lower": 0.5,
+          "upper": 0.5
+        },
+        {
+          "group_id": "G22",
+          "lower": 0.5,
+          "upper": 0.5
+        },
+        {
+          "group_id": "G23",
+          "lower": 0.375,
+          "upper": 0.375
+        },
+        {
+          "group_id": "G24",
+          "lower": 0.625,
+          "upper": 0.625
+        }
+      ],
+      "leave_one": [
+        {
+          "omitted": "G01",
+          "lower": 0.3858695652173913,
+          "upper": 0.3858695652173913
+        },
+        {
+          "omitted": "G02",
+          "lower": 0.3804347826086957,
+          "upper": 0.3804347826086957
+        },
+        {
+          "omitted": "G03",
+          "lower": 0.3695652173913043,
+          "upper": 0.3695652173913043
+        },
+        {
+          "omitted": "G04",
+          "lower": 0.375,
+          "upper": 0.375
+        },
+        {
+          "omitted": "G05",
+          "lower": 0.3804347826086957,
+          "upper": 0.3804347826086957
+        },
+        {
+          "omitted": "G06",
+          "lower": 0.3532608695652174,
+          "upper": 0.3532608695652174
+        },
+        {
+          "omitted": "G07",
+          "lower": 0.375,
+          "upper": 0.375
+        },
+        {
+          "omitted": "G08",
+          "lower": 0.34782608695652173,
+          "upper": 0.34782608695652173
+        },
+        {
+          "omitted": "G09",
+          "lower": 0.3532608695652174,
+          "upper": 0.3532608695652174
+        },
+        {
+          "omitted": "G10",
+          "lower": 0.375,
+          "upper": 0.375
+        },
+        {
+          "omitted": "G11",
+          "lower": 0.3695652173913043,
+          "upper": 0.3695652173913043
+        },
+        {
+          "omitted": "G12",
+          "lower": 0.3804347826086957,
+          "upper": 0.3804347826086957
+        },
+        {
+          "omitted": "G13",
+          "lower": 0.358695652173913,
+          "upper": 0.358695652173913
+        },
+        {
+          "omitted": "G14",
+          "lower": 0.3804347826086957,
+          "upper": 0.3804347826086957
+        },
+        {
+          "omitted": "G15",
+          "lower": 0.3804347826086957,
+          "upper": 0.3804347826086957
+        },
+        {
+          "omitted": "G16",
+          "lower": 0.3695652173913043,
+          "upper": 0.3695652173913043
+        },
+        {
+          "omitted": "G17",
+          "lower": 0.375,
+          "upper": 0.375
+        },
+        {
+          "omitted": "G18",
+          "lower": 0.3695652173913043,
+          "upper": 0.3695652173913043
+        },
+        {
+          "omitted": "G19",
+          "lower": 0.3641304347826087,
+          "upper": 0.3641304347826087
+        },
+        {
+          "omitted": "G20",
+          "lower": 0.375,
+          "upper": 0.375
+        },
+        {
+          "omitted": "G21",
+          "lower": 0.3641304347826087,
+          "upper": 0.3641304347826087
+        },
+        {
+          "omitted": "G22",
+          "lower": 0.3641304347826087,
+          "upper": 0.3641304347826087
+        },
+        {
+          "omitted": "G23",
+          "lower": 0.3695652173913043,
+          "upper": 0.3695652173913043
+        },
+        {
+          "omitted": "G24",
+          "lower": 0.358695652173913,
+          "upper": 0.358695652173913
+        }
+      ]
+    },
+    "label": "LOCAL_ASSOCIATION_PATTERN",
+    "observed_background_n": 345,
+    "zero_observed_background": false
+  },
+  "qwen_boundary": {
+    "lower": 0.0,
+    "upper": 0.0,
+    "ci_lower": 0.0,
+    "ci_upper": 0.0,
+    "loo_lower_min": 0.0,
+    "groups": [
+      {
+        "group_id": "G01",
+        "lower": 0.0,
+        "upper": 0.0
+      },
+      {
+        "group_id": "G02",
+        "lower": 0.0,
+        "upper": 0.0
+      },
+      {
+        "group_id": "G03",
+        "lower": 0.0,
+        "upper": 0.0
+      },
+      {
+        "group_id": "G04",
+        "lower": 0.0,
+        "upper": 0.0
+      },
+      {
+        "group_id": "G05",
+        "lower": 0.0,
+        "upper": 0.0
+      },
+      {
+        "group_id": "G06",
+        "lower": 0.0,
+        "upper": 0.0
+      },
+      {
+        "group_id": "G07",
+        "lower": 0.0,
+        "upper": 0.0
+      },
+      {
+        "group_id": "G08",
+        "lower": 0.0,
+        "upper": 0.0
+      },
+      {
+        "group_id": "G09",
+        "lower": 0.0,
+        "upper": 0.0
+      },
+      {
+        "group_id": "G10",
+        "lower": 0.0,
+        "upper": 0.0
+      },
+      {
+        "group_id": "G11",
+        "lower": 0.0,
+        "upper": 0.0
+      },
+      {
+        "group_id": "G12",
+        "lower": 0.0,
+        "upper": 0.0
+      },
+      {
+        "group_id": "G13",
+        "lower": 0.0,
+        "upper": 0.0
+      },
+      {
+        "group_id": "G14",
+        "lower": 0.0,
+        "upper": 0.0
+      },
+      {
+        "group_id": "G15",
+        "lower": 0.0,
+        "upper": 0.0
+      },
+      {
+        "group_id": "G16",
+        "lower": 0.0,
+        "upper": 0.0
+      },
+      {
+        "group_id": "G17",
+        "lower": 0.0,
+        "upper": 0.0
+      },
+      {
+        "group_id": "G18",
+        "lower": 0.0,
+        "upper": 0.0
+      },
+      {
+        "group_id": "G19",
+        "lower": 0.0,
+        "upper": 0.0
+      },
+      {
+        "group_id": "G20",
+        "lower": 0.0,
+        "upper": 0.0
+      },
+      {
+        "group_id": "G21",
+        "lower": 0.0,
+        "upper": 0.0
+      },
+      {
+        "group_id": "G22",
+        "lower": 0.0,
+        "upper": 0.0
+      },
+      {
+        "group_id": "G23",
+        "lower": 0.0,
+        "upper": 0.0
+      },
+      {
+        "group_id": "G24",
+        "lower": 0.0,
+        "upper": 0.0
+      }
+    ],
+    "leave_one": [
+      {
+        "omitted": "G01",
+        "lower": 0.0,
+        "upper": 0.0
+      },
+      {
+        "omitted": "G02",
+        "lower": 0.0,
+        "upper": 0.0
+      },
+      {
+        "omitted": "G03",
+        "lower": 0.0,
+        "upper": 0.0
+      },
+      {
+        "omitted": "G04",
+        "lower": 0.0,
+        "upper": 0.0
+      },
+      {
+        "omitted": "G05",
+        "lower": 0.0,
+        "upper": 0.0
+      },
+      {
+        "omitted": "G06",
+        "lower": 0.0,
+        "upper": 0.0
+      },
+      {
+        "omitted": "G07",
+        "lower": 0.0,
+        "upper": 0.0
+      },
+      {
+        "omitted": "G08",
+        "lower": 0.0,
+        "upper": 0.0
+      },
+      {
+        "omitted": "G09",
+        "lower": 0.0,
+        "upper": 0.0
+      },
+      {
+        "omitted": "G10",
+        "lower": 0.0,
+        "upper": 0.0
+      },
+      {
+        "omitted": "G11",
+        "lower": 0.0,
+        "upper": 0.0
+      },
+      {
+        "omitted": "G12",
+        "lower": 0.0,
+        "upper": 0.0
+      },
+      {
+        "omitted": "G13",
+        "lower": 0.0,
+        "upper": 0.0
+      },
+      {
+        "omitted": "G14",
+        "lower": 0.0,
+        "upper": 0.0
+      },
+      {
+        "omitted": "G15",
+        "lower": 0.0,
+        "upper": 0.0
+      },
+      {
+        "omitted": "G16",
+        "lower": 0.0,
+        "upper": 0.0
+      },
+      {
+        "omitted": "G17",
+        "lower": 0.0,
+        "upper": 0.0
+      },
+      {
+        "omitted": "G18",
+        "lower": 0.0,
+        "upper": 0.0
+      },
+      {
+        "omitted": "G19",
+        "lower": 0.0,
+        "upper": 0.0
+      },
+      {
+        "omitted": "G20",
+        "lower": 0.0,
+        "upper": 0.0
+      },
+      {
+        "omitted": "G21",
+        "lower": 0.0,
+        "upper": 0.0
+      },
+      {
+        "omitted": "G22",
+        "lower": 0.0,
+        "upper": 0.0
+      },
+      {
+        "omitted": "G23",
+        "lower": 0.0,
+        "upper": 0.0
+      },
+      {
+        "omitted": "G24",
+        "lower": 0.0,
+        "upper": 0.0
+      }
+    ],
+    "direction_A": {
+      "lower": 0.0,
+      "upper": 0.0,
+      "ci_lower": 0.0,
+      "ci_upper": 0.0,
+      "loo_lower_min": 0.0,
+      "groups": [
+        {
+          "group_id": "G01",
+          "lower": 0.0,
+          "upper": 0.0
+        },
+        {
+          "group_id": "G02",
+          "lower": 0.0,
+          "upper": 0.0
+        },
+        {
+          "group_id": "G03",
+          "lower": 0.0,
+          "upper": 0.0
+        },
+        {
+          "group_id": "G04",
+          "lower": 0.0,
+          "upper": 0.0
+        },
+        {
+          "group_id": "G05",
+          "lower": 0.0,
+          "upper": 0.0
+        },
+        {
+          "group_id": "G06",
+          "lower": 0.0,
+          "upper": 0.0
+        },
+        {
+          "group_id": "G07",
+          "lower": 0.0,
+          "upper": 0.0
+        },
+        {
+          "group_id": "G08",
+          "lower": 0.0,
+          "upper": 0.0
+        },
+        {
+          "group_id": "G09",
+          "lower": 0.0,
+          "upper": 0.0
+        },
+        {
+          "group_id": "G10",
+          "lower": 0.0,
+          "upper": 0.0
+        },
+        {
+          "group_id": "G11",
+          "lower": 0.0,
+          "upper": 0.0
+        },
+        {
+          "group_id": "G12",
+          "lower": 0.0,
+          "upper": 0.0
+        },
+        {
+          "group_id": "G13",
+          "lower": 0.0,
+          "upper": 0.0
+        },
+        {
+          "group_id": "G14",
+          "lower": 0.0,
+          "upper": 0.0
+        },
+        {
+          "group_id": "G15",
+          "lower": 0.0,
+          "upper": 0.0
+        },
+        {
+          "group_id": "G16",
+          "lower": 0.0,
+          "upper": 0.0
+        },
+        {
+          "group_id": "G17",
+          "lower": 0.0,
+          "upper": 0.0
+        },
+        {
+          "group_id": "G18",
+          "lower": 0.0,
+          "upper": 0.0
+        },
+        {
+          "group_id": "G19",
+          "lower": 0.0,
+          "upper": 0.0
+        },
+        {
+          "group_id": "G20",
+          "lower": 0.0,
+          "upper": 0.0
+        },
+        {
+          "group_id": "G21",
+          "lower": 0.0,
+          "upper": 0.0
+        },
+        {
+          "group_id": "G22",
+          "lower": 0.0,
+          "upper": 0.0
+        },
+        {
+          "group_id": "G23",
+          "lower": 0.0,
+          "upper": 0.0
+        },
+        {
+          "group_id": "G24",
+          "lower": 0.0,
+          "upper": 0.0
+        }
+      ],
+      "leave_one": [
+        {
+          "omitted": "G01",
+          "lower": 0.0,
+          "upper": 0.0
+        },
+        {
+          "omitted": "G02",
+          "lower": 0.0,
+          "upper": 0.0
+        },
+        {
+          "omitted": "G03",
+          "lower": 0.0,
+          "upper": 0.0
+        },
+        {
+          "omitted": "G04",
+          "lower": 0.0,
+          "upper": 0.0
+        },
+        {
+          "omitted": "G05",
+          "lower": 0.0,
+          "upper": 0.0
+        },
+        {
+          "omitted": "G06",
+          "lower": 0.0,
+          "upper": 0.0
+        },
+        {
+          "omitted": "G07",
+          "lower": 0.0,
+          "upper": 0.0
+        },
+        {
+          "omitted": "G08",
+          "lower": 0.0,
+          "upper": 0.0
+        },
+        {
+          "omitted": "G09",
+          "lower": 0.0,
+          "upper": 0.0
+        },
+        {
+          "omitted": "G10",
+          "lower": 0.0,
+          "upper": 0.0
+        },
+        {
+          "omitted": "G11",
+          "lower": 0.0,
+          "upper": 0.0
+        },
+        {
+          "omitted": "G12",
+          "lower": 0.0,
+          "upper": 0.0
+        },
+        {
+          "omitted": "G13",
+          "lower": 0.0,
+          "upper": 0.0
+        },
+        {
+          "omitted": "G14",
+          "lower": 0.0,
+          "upper": 0.0
+        },
+        {
+          "omitted": "G15",
+          "lower": 0.0,
+          "upper": 0.0
+        },
+        {
+          "omitted": "G16",
+          "lower": 0.0,
+          "upper": 0.0
+        },
+        {
+          "omitted": "G17",
+          "lower": 0.0,
+          "upper": 0.0
+        },
+        {
+          "omitted": "G18",
+          "lower": 0.0,
+          "upper": 0.0
+        },
+        {
+          "omitted": "G19",
+          "lower": 0.0,
+          "upper": 0.0
+        },
+        {
+          "omitted": "G20",
+          "lower": 0.0,
+          "upper": 0.0
+        },
+        {
+          "omitted": "G21",
+          "lower": 0.0,
+          "upper": 0.0
+        },
+        {
+          "omitted": "G22",
+          "lower": 0.0,
+          "upper": 0.0
+        },
+        {
+          "omitted": "G23",
+          "lower": 0.0,
+          "upper": 0.0
+        },
+        {
+          "omitted": "G24",
+          "lower": 0.0,
+          "upper": 0.0
+        }
+      ]
+    },
+    "direction_B": {
+      "lower": 0.0,
+      "upper": 0.0,
+      "ci_lower": 0.0,
+      "ci_upper": 0.0,
+      "loo_lower_min": 0.0,
+      "groups": [
+        {
+          "group_id": "G01",
+          "lower": 0.0,
+          "upper": 0.0
+        },
+        {
+          "group_id": "G02",
+          "lower": 0.0,
+          "upper": 0.0
+        },
+        {
+          "group_id": "G03",
+          "lower": 0.0,
+          "upper": 0.0
+        },
+        {
+          "group_id": "G04",
+          "lower": 0.0,
+          "upper": 0.0
+        },
+        {
+          "group_id": "G05",
+          "lower": 0.0,
+          "upper": 0.0
+        },
+        {
+          "group_id": "G06",
+          "lower": 0.0,
+          "upper": 0.0
+        },
+        {
+          "group_id": "G07",
+          "lower": 0.0,
+          "upper": 0.0
+        },
+        {
+          "group_id": "G08",
+          "lower": 0.0,
+          "upper": 0.0
+        },
+        {
+          "group_id": "G09",
+          "lower": 0.0,
+          "upper": 0.0
+        },
+        {
+          "group_id": "G10",
+          "lower": 0.0,
+          "upper": 0.0
+        },
+        {
+          "group_id": "G11",
+          "lower": 0.0,
+          "upper": 0.0
+        },
+        {
+          "group_id": "G12",
+          "lower": 0.0,
+          "upper": 0.0
+        },
+        {
+          "group_id": "G13",
+          "lower": 0.0,
+          "upper": 0.0
+        },
+        {
+          "group_id": "G14",
+          "lower": 0.0,
+          "upper": 0.0
+        },
+        {
+          "group_id": "G15",
+          "lower": 0.0,
+          "upper": 0.0
+        },
+        {
+          "group_id": "G16",
+          "lower": 0.0,
+          "upper": 0.0
+        },
+        {
+          "group_id": "G17",
+          "lower": 0.0,
+          "upper": 0.0
+        },
+        {
+          "group_id": "G18",
+          "lower": 0.0,
+          "upper": 0.0
+        },
+        {
+          "group_id": "G19",
+          "lower": 0.0,
+          "upper": 0.0
+        },
+        {
+          "group_id": "G20",
+          "lower": 0.0,
+          "upper": 0.0
+        },
+        {
+          "group_id": "G21",
+          "lower": 0.0,
+          "upper": 0.0
+        },
+        {
+          "group_id": "G22",
+          "lower": 0.0,
+          "upper": 0.0
+        },
+        {
+          "group_id": "G23",
+          "lower": 0.0,
+          "upper": 0.0
+        },
+        {
+          "group_id": "G24",
+          "lower": 0.0,
+          "upper": 0.0
+        }
+      ],
+      "leave_one": [
+        {
+          "omitted": "G01",
+          "lower": 0.0,
+          "upper": 0.0
+        },
+        {
+          "omitted": "G02",
+          "lower": 0.0,
+          "upper": 0.0
+        },
+        {
+          "omitted": "G03",
+          "lower": 0.0,
+          "upper": 0.0
+        },
+        {
+          "omitted": "G04",
+          "lower": 0.0,
+          "upper": 0.0
+        },
+        {
+          "omitted": "G05",
+          "lower": 0.0,
+          "upper": 0.0
+        },
+        {
+          "omitted": "G06",
+          "lower": 0.0,
+          "upper": 0.0
+        },
+        {
+          "omitted": "G07",
+          "lower": 0.0,
+          "upper": 0.0
+        },
+        {
+          "omitted": "G08",
+          "lower": 0.0,
+          "upper": 0.0
+        },
+        {
+          "omitted": "G09",
+          "lower": 0.0,
+          "upper": 0.0
+        },
+        {
+          "omitted": "G10",
+          "lower": 0.0,
+          "upper": 0.0
+        },
+        {
+          "omitted": "G11",
+          "lower": 0.0,
+          "upper": 0.0
+        },
+        {
+          "omitted": "G12",
+          "lower": 0.0,
+          "upper": 0.0
+        },
+        {
+          "omitted": "G13",
+          "lower": 0.0,
+          "upper": 0.0
+        },
+        {
+          "omitted": "G14",
+          "lower": 0.0,
+          "upper": 0.0
+        },
+        {
+          "omitted": "G15",
+          "lower": 0.0,
+          "upper": 0.0
+        },
+        {
+          "omitted": "G16",
+          "lower": 0.0,
+          "upper": 0.0
+        },
+        {
+          "omitted": "G17",
+          "lower": 0.0,
+          "upper": 0.0
+        },
+        {
+          "omitted": "G18",
+          "lower": 0.0,
+          "upper": 0.0
+        },
+        {
+          "omitted": "G19",
+          "lower": 0.0,
+          "upper": 0.0
+        },
+        {
+          "omitted": "G20",
+          "lower": 0.0,
+          "upper": 0.0
+        },
+        {
+          "omitted": "G21",
+          "lower": 0.0,
+          "upper": 0.0
+        },
+        {
+          "omitted": "G22",
+          "lower": 0.0,
+          "upper": 0.0
+        },
+        {
+          "omitted": "G23",
+          "lower": 0.0,
+          "upper": 0.0
+        },
+        {
+          "omitted": "G24",
+          "lower": 0.0,
+          "upper": 0.0
+        }
+      ]
+    },
+    "label": "INCONCLUSIVE_OR_NOT_SUPPORTED",
+    "observed_background_n": 3,
+    "zero_observed_background": false
+  },
+  "transitions": [
+    {
+      "model": "qwen",
+      "condition": "PAIR_A",
+      "rescues": 29,
+      "harms": 0,
+      "unresolved": 0
+    },
+    {
+      "model": "qwen",
+      "condition": "PAIR_B",
+      "rescues": 29,
+      "harms": 0,
+      "unresolved": 0
+    },
+    {
+      "model": "apertus",
+      "condition": "PAIR_A",
+      "rescues": 32,
+      "harms": 136,
+      "unresolved": 0
+    },
+    {
+      "model": "apertus",
+      "condition": "PAIR_B",
+      "rescues": 23,
+      "harms": 127,
+      "unresolved": 0
+    }
+  ],
+  "human_review": "PENDING",
+  "independent_human_gold": 0
+}

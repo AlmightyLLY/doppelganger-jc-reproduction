@@ -1,0 +1,222 @@
+{
+  "files": [
+    {
+      "batch": "B64",
+      "name": "B64完整结果.xlsx",
+      "relative_evidence_path": "B64完整结果.xlsx",
+      "bytes": 1398641,
+      "sha256": "147ca851a583fefbf25e7aa220e4df22aa3f6a0660a0eb7c10a24d5276c16666",
+      "native_original": "LOCAL_ONLY",
+      "independent_human_review": false
+    },
+    {
+      "batch": "B64",
+      "name": "B64结果总结.docx",
+      "relative_evidence_path": "B64结果总结.docx",
+      "bytes": 38745,
+      "sha256": "f83a7ae6ba2ba52fd3c73ace16c8ca867374a962f89d4228fc13cdb4f18870ef",
+      "native_original": "LOCAL_ONLY",
+      "independent_human_review": false
+    },
+    {
+      "batch": "B64",
+      "name": "B64输入审核.xlsx",
+      "relative_evidence_path": "design_snapshot/outputs/B64输入审核.xlsx",
+      "bytes": 354965,
+      "sha256": "57d82cb78ee6c7952d6ea8d200078b1e4dd6a0f214fa29afe8b1904c0704648e",
+      "native_original": "LOCAL_ONLY",
+      "independent_human_review": false
+    },
+    {
+      "batch": "B64",
+      "name": "B64预注册.docx",
+      "relative_evidence_path": "design_snapshot/outputs/B64预注册.docx",
+      "bytes": 40589,
+      "sha256": "48c2139a26455d458506f4fa6c280c0c9a489e1c98d41a7d4379a0ed6136f126",
+      "native_original": "LOCAL_ONLY",
+      "independent_human_review": false
+    },
+    {
+      "batch": "B65",
+      "name": "B65完整结果.xlsx",
+      "relative_evidence_path": "B65完整结果.xlsx",
+      "bytes": 1132977,
+      "sha256": "a89fee68bb203f129b521bbecb29475784b443111c0ed04b46653fc4897f185a",
+      "native_original": "LOCAL_ONLY",
+      "independent_human_review": false
+    },
+    {
+      "batch": "B65",
+      "name": "B65实际输入-运行版.xlsx",
+      "relative_evidence_path": "B65实际输入-运行版.xlsx",
+      "bytes": 94361,
+      "sha256": "3df9d4dde27d185a552bfc1bb0f02c462dcf15ce1174cccaa915e4f67045d7c2",
+      "native_original": "LOCAL_ONLY",
+      "independent_human_review": false
+    },
+    {
+      "batch": "B65",
+      "name": "B65实际输入.xlsx",
+      "relative_evidence_path": "B65实际输入.xlsx",
+      "bytes": 93022,
+      "sha256": "be79e74db1f37cbd217268759622e3b07e3dfbc2a080c6cae84eaaaa2adca550",
+      "native_original": "LOCAL_ONLY",
+      "independent_human_review": false
+    },
+    {
+      "batch": "B65",
+      "name": "B65结果总结.docx",
+      "relative_evidence_path": "B65结果总结.docx",
+      "bytes": 39210,
+      "sha256": "d456d7580ad8dcf3ff0f91aca7b83716fe324bb56a6457b508cb1a7c051bbdb0",
+      "native_original": "LOCAL_ONLY",
+      "independent_human_review": false
+    },
+    {
+      "batch": "B65",
+      "name": "B65运行前修订.docx",
+      "relative_evidence_path": "B65运行前修订.docx",
+      "bytes": 37883,
+      "sha256": "c687ff7c86df7ecbb36adcc55911c5a1e6e1c4db4a94b828f14c2746b6888344",
+      "native_original": "LOCAL_ONLY",
+      "independent_human_review": false
+    },
+    {
+      "batch": "B65",
+      "name": "B65预注册.docx",
+      "relative_evidence_path": "B65预注册.docx",
+      "bytes": 39287,
+      "sha256": "3ca766dfae45b73ee5c4fe7138fc812e2bb7a5342510a7e0a9f518c0100b0624",
+      "native_original": "LOCAL_ONLY",
+      "independent_human_review": false
+    },
+    {
+      "batch": "B65",
+      "name": "独立材料审核.xlsx",
+      "relative_evidence_path": "独立材料审核.xlsx",
+      "bytes": 30350,
+      "sha256": "2675593b076300bf4de42d692c10c0056b56c26284bc2e3e8e7e9afc06cf1ba3",
+      "native_original": "LOCAL_ONLY",
+      "independent_human_review": false
+    },
+    {
+      "batch": "B65",
+      "name": "独立材料审核说明.docx",
+      "relative_evidence_path": "独立材料审核说明.docx",
+      "bytes": 37612,
+      "sha256": "febf1ff47437d1a52d43f86a0e453805213c238c4787f136c8d50b50128b2bf2",
+      "native_original": "LOCAL_ONLY",
+      "independent_human_review": false
+    },
+    {
+      "batch": "B66",
+      "name": "B66完整结果.xlsx",
+      "relative_evidence_path": "B66完整结果.xlsx",
+      "bytes": 1361852,
+      "sha256": "58aa9c9773ec61ca4cac2d7bff980709a47bebb27398695b116303802db65532",
+      "native_original": "LOCAL_ONLY",
+      "independent_human_review": false
+    },
+    {
+      "batch": "B66",
+      "name": "B66实际输入.xlsx",
+      "relative_evidence_path": "B66实际输入.xlsx",
+      "bytes": 532417,
+      "sha256": "8c5c808d7ddd46580662127672207f43bfe54c917b18f34d747f76e079459e9b",
+      "native_original": "LOCAL_ONLY",
+      "independent_human_review": false
+    },
+    {
+      "batch": "B66",
+      "name": "B66结果总结.docx",
+      "relative_evidence_path": "B66结果总结.docx",
+      "bytes": 38478,
+      "sha256": "521f3aa921057982ed393749b97e7822e7a0b2f13ed5fff08ebbcbac30512115",
+      "native_original": "LOCAL_ONLY",
+      "independent_human_review": false
+    },
+    {
+      "batch": "B66",
+      "name": "B66预注册.docx",
+      "relative_evidence_path": "B66预注册.docx",
+      "bytes": 39085,
+      "sha256": "c9ea95d937e736338d01873fb658ad71c00cedace05b18fc5c5f9635257e2852",
+      "native_original": "LOCAL_ONLY",
+      "independent_human_review": false
+    },
+    {
+      "batch": "B67",
+      "name": "B67完整结果.xlsx",
+      "relative_evidence_path": "B67完整结果.xlsx",
+      "bytes": 1386954,
+      "sha256": "421df3f10d64839edf868a425eb0d5364666c3d749b2caaa75fca0c59285b7b5",
+      "native_original": "LOCAL_ONLY",
+      "independent_human_review": false
+    },
+    {
+      "batch": "B67",
+      "name": "B67实际输入.xlsx",
+      "relative_evidence_path": "B67实际输入.xlsx",
+      "bytes": 423421,
+      "sha256": "5182fa8ff2866a4b379f6c1f4937f21b1cb5c07e348558feeeba49554e4d5f2a",
+      "native_original": "LOCAL_ONLY",
+      "independent_human_review": false
+    },
+    {
+      "batch": "B67",
+      "name": "B67结果总结.docx",
+      "relative_evidence_path": "B67结果总结.docx",
+      "bytes": 38516,
+      "sha256": "a7193c04693ea4b2d8a9c346b8a5489ae32426d776877e1bb903c9f357347eaf",
+      "native_original": "LOCAL_ONLY",
+      "independent_human_review": false
+    },
+    {
+      "batch": "B67",
+      "name": "B67预注册.docx",
+      "relative_evidence_path": "B67预注册.docx",
+      "bytes": 39336,
+      "sha256": "dbe852035095767a1eb8e6c900a1403c280f7a9d3ad72a02360198b35ca3dd4d",
+      "native_original": "LOCAL_ONLY",
+      "independent_human_review": false
+    },
+    {
+      "batch": "B68",
+      "name": "B68完整结果.xlsx",
+      "relative_evidence_path": "B68完整结果.xlsx",
+      "bytes": 1581629,
+      "sha256": "4fb27169fcc31211f44dcc65ff4d5267133d0ce6270f0180576aba85cd9f98bc",
+      "native_original": "LOCAL_ONLY",
+      "independent_human_review": false
+    },
+    {
+      "batch": "B68",
+      "name": "B68实际输入.xlsx",
+      "relative_evidence_path": "B68实际输入.xlsx",
+      "bytes": 487425,
+      "sha256": "6c741eb085886da3317850bad7dd08ceba55ba6cc8d200a3afa68c2d4f28b5a9",
+      "native_original": "LOCAL_ONLY",
+      "independent_human_review": false
+    },
+    {
+      "batch": "B68",
+      "name": "B68结果总结.docx",
+      "relative_evidence_path": "B68结果总结.docx",
+      "bytes": 38545,
+      "sha256": "6ba3ac54fb33be84c64ad81709186f00c585ea449f7b5c14f3c5f4bf312a9677",
+      "native_original": "LOCAL_ONLY",
+      "independent_human_review": false
+    },
+    {
+      "batch": "B68",
+      "name": "B68预注册.docx",
+      "relative_evidence_path": "B68预注册.docx",
+      "bytes": 42237,
+      "sha256": "c528ce45513638484e54e54a32d4c3c045df9235c12f2a3ac7e575d047007c78",
+      "native_original": "LOCAL_ONLY",
+      "independent_human_review": false
+    }
+  ],
+  "human_gold": 0,
+  "note": "Hashes commit to local Office versions. They do not certify human review. No private personal worksheets are uploaded."
+}

@@ -1,0 +1,3458 @@
+[
+  {
+    "model": "qwen",
+    "cohort": "M63",
+    "unit_id": "M63-G01",
+    "presentation": "OO",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "qwen",
+    "cohort": "M63",
+    "unit_id": "M63-G01",
+    "presentation": "ON",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "qwen",
+    "cohort": "M63",
+    "unit_id": "M63-G01",
+    "presentation": "NO",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "qwen",
+    "cohort": "M63",
+    "unit_id": "M63-G01",
+    "presentation": "NN",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "qwen",
+    "cohort": "M63",
+    "unit_id": "M63-G02",
+    "presentation": "OO",
+    "D": 0.0,
+    "rescue": 1,
+    "harm": 1
+  },
+  {
+    "model": "qwen",
+    "cohort": "M63",
+    "unit_id": "M63-G02",
+    "presentation": "ON",
+    "D": 0.25,
+    "rescue": 1,
+    "harm": 0
+  },
+  {
+    "model": "qwen",
+    "cohort": "M63",
+    "unit_id": "M63-G02",
+    "presentation": "NO",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "qwen",
+    "cohort": "M63",
+    "unit_id": "M63-G02",
+    "presentation": "NN",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "qwen",
+    "cohort": "M63",
+    "unit_id": "M63-G03",
+    "presentation": "OO",
+    "D": 0.25,
+    "rescue": 1,
+    "harm": 0
+  },
+  {
+    "model": "qwen",
+    "cohort": "M63",
+    "unit_id": "M63-G03",
+    "presentation": "ON",
+    "D": 0.25,
+    "rescue": 1,
+    "harm": 0
+  },
+  {
+    "model": "qwen",
+    "cohort": "M63",
+    "unit_id": "M63-G03",
+    "presentation": "NO",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "qwen",
+    "cohort": "M63",
+    "unit_id": "M63-G03",
+    "presentation": "NN",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "qwen",
+    "cohort": "M63",
+    "unit_id": "M63-G04",
+    "presentation": "OO",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "qwen",
+    "cohort": "M63",
+    "unit_id": "M63-G04",
+    "presentation": "ON",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "qwen",
+    "cohort": "M63",
+    "unit_id": "M63-G04",
+    "presentation": "NO",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "qwen",
+    "cohort": "M63",
+    "unit_id": "M63-G04",
+    "presentation": "NN",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "qwen",
+    "cohort": "M63",
+    "unit_id": "M63-G05",
+    "presentation": "OO",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "qwen",
+    "cohort": "M63",
+    "unit_id": "M63-G05",
+    "presentation": "ON",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "qwen",
+    "cohort": "M63",
+    "unit_id": "M63-G05",
+    "presentation": "NO",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "qwen",
+    "cohort": "M63",
+    "unit_id": "M63-G05",
+    "presentation": "NN",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "qwen",
+    "cohort": "M63",
+    "unit_id": "M63-G06",
+    "presentation": "OO",
+    "D": 0.25,
+    "rescue": 1,
+    "harm": 0
+  },
+  {
+    "model": "qwen",
+    "cohort": "M63",
+    "unit_id": "M63-G06",
+    "presentation": "ON",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "qwen",
+    "cohort": "M63",
+    "unit_id": "M63-G06",
+    "presentation": "NO",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "qwen",
+    "cohort": "M63",
+    "unit_id": "M63-G06",
+    "presentation": "NN",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "qwen",
+    "cohort": "M63",
+    "unit_id": "M63-G07",
+    "presentation": "OO",
+    "D": 0.25,
+    "rescue": 1,
+    "harm": 0
+  },
+  {
+    "model": "qwen",
+    "cohort": "M63",
+    "unit_id": "M63-G07",
+    "presentation": "ON",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "qwen",
+    "cohort": "M63",
+    "unit_id": "M63-G07",
+    "presentation": "NO",
+    "D": 0.25,
+    "rescue": 1,
+    "harm": 0
+  },
+  {
+    "model": "qwen",
+    "cohort": "M63",
+    "unit_id": "M63-G07",
+    "presentation": "NN",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "qwen",
+    "cohort": "M63",
+    "unit_id": "M63-G08",
+    "presentation": "OO",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "qwen",
+    "cohort": "M63",
+    "unit_id": "M63-G08",
+    "presentation": "ON",
+    "D": 0.25,
+    "rescue": 1,
+    "harm": 0
+  },
+  {
+    "model": "qwen",
+    "cohort": "M63",
+    "unit_id": "M63-G08",
+    "presentation": "NO",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "qwen",
+    "cohort": "M63",
+    "unit_id": "M63-G08",
+    "presentation": "NN",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "qwen",
+    "cohort": "M63",
+    "unit_id": "M63-G09",
+    "presentation": "OO",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "qwen",
+    "cohort": "M63",
+    "unit_id": "M63-G09",
+    "presentation": "ON",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "qwen",
+    "cohort": "M63",
+    "unit_id": "M63-G09",
+    "presentation": "NO",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "qwen",
+    "cohort": "M63",
+    "unit_id": "M63-G09",
+    "presentation": "NN",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "qwen",
+    "cohort": "M63",
+    "unit_id": "M63-G10",
+    "presentation": "OO",
+    "D": 0.25,
+    "rescue": 1,
+    "harm": 0
+  },
+  {
+    "model": "qwen",
+    "cohort": "M63",
+    "unit_id": "M63-G10",
+    "presentation": "ON",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "qwen",
+    "cohort": "M63",
+    "unit_id": "M63-G10",
+    "presentation": "NO",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "qwen",
+    "cohort": "M63",
+    "unit_id": "M63-G10",
+    "presentation": "NN",
+    "D": 0.25,
+    "rescue": 1,
+    "harm": 0
+  },
+  {
+    "model": "qwen",
+    "cohort": "M63",
+    "unit_id": "M63-G11",
+    "presentation": "OO",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "qwen",
+    "cohort": "M63",
+    "unit_id": "M63-G11",
+    "presentation": "ON",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "qwen",
+    "cohort": "M63",
+    "unit_id": "M63-G11",
+    "presentation": "NO",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "qwen",
+    "cohort": "M63",
+    "unit_id": "M63-G11",
+    "presentation": "NN",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "qwen",
+    "cohort": "M63",
+    "unit_id": "M63-G12",
+    "presentation": "OO",
+    "D": 0.25,
+    "rescue": 1,
+    "harm": 0
+  },
+  {
+    "model": "qwen",
+    "cohort": "M63",
+    "unit_id": "M63-G12",
+    "presentation": "ON",
+    "D": 0.25,
+    "rescue": 1,
+    "harm": 0
+  },
+  {
+    "model": "qwen",
+    "cohort": "M63",
+    "unit_id": "M63-G12",
+    "presentation": "NO",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "qwen",
+    "cohort": "M63",
+    "unit_id": "M63-G12",
+    "presentation": "NN",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "qwen",
+    "cohort": "M63",
+    "unit_id": "M63-G13",
+    "presentation": "OO",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "qwen",
+    "cohort": "M63",
+    "unit_id": "M63-G13",
+    "presentation": "ON",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "qwen",
+    "cohort": "M63",
+    "unit_id": "M63-G13",
+    "presentation": "NO",
+    "D": 0.25,
+    "rescue": 1,
+    "harm": 0
+  },
+  {
+    "model": "qwen",
+    "cohort": "M63",
+    "unit_id": "M63-G13",
+    "presentation": "NN",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "qwen",
+    "cohort": "M63",
+    "unit_id": "M63-G14",
+    "presentation": "OO",
+    "D": 0.25,
+    "rescue": 1,
+    "harm": 0
+  },
+  {
+    "model": "qwen",
+    "cohort": "M63",
+    "unit_id": "M63-G14",
+    "presentation": "ON",
+    "D": 0.25,
+    "rescue": 1,
+    "harm": 0
+  },
+  {
+    "model": "qwen",
+    "cohort": "M63",
+    "unit_id": "M63-G14",
+    "presentation": "NO",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "qwen",
+    "cohort": "M63",
+    "unit_id": "M63-G14",
+    "presentation": "NN",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "qwen",
+    "cohort": "M63",
+    "unit_id": "M63-G15",
+    "presentation": "OO",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "qwen",
+    "cohort": "M63",
+    "unit_id": "M63-G15",
+    "presentation": "ON",
+    "D": 0.25,
+    "rescue": 1,
+    "harm": 0
+  },
+  {
+    "model": "qwen",
+    "cohort": "M63",
+    "unit_id": "M63-G15",
+    "presentation": "NO",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "qwen",
+    "cohort": "M63",
+    "unit_id": "M63-G15",
+    "presentation": "NN",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "qwen",
+    "cohort": "M63",
+    "unit_id": "M63-G16",
+    "presentation": "OO",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "qwen",
+    "cohort": "M63",
+    "unit_id": "M63-G16",
+    "presentation": "ON",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "qwen",
+    "cohort": "M63",
+    "unit_id": "M63-G16",
+    "presentation": "NO",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "qwen",
+    "cohort": "M63",
+    "unit_id": "M63-G16",
+    "presentation": "NN",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "qwen",
+    "cohort": "M63",
+    "unit_id": "M63-G17",
+    "presentation": "OO",
+    "D": 0.25,
+    "rescue": 1,
+    "harm": 0
+  },
+  {
+    "model": "qwen",
+    "cohort": "M63",
+    "unit_id": "M63-G17",
+    "presentation": "ON",
+    "D": 0.25,
+    "rescue": 1,
+    "harm": 0
+  },
+  {
+    "model": "qwen",
+    "cohort": "M63",
+    "unit_id": "M63-G17",
+    "presentation": "NO",
+    "D": 0.25,
+    "rescue": 1,
+    "harm": 0
+  },
+  {
+    "model": "qwen",
+    "cohort": "M63",
+    "unit_id": "M63-G17",
+    "presentation": "NN",
+    "D": 0.25,
+    "rescue": 1,
+    "harm": 0
+  },
+  {
+    "model": "qwen",
+    "cohort": "M63",
+    "unit_id": "M63-G18",
+    "presentation": "OO",
+    "D": 0.25,
+    "rescue": 1,
+    "harm": 0
+  },
+  {
+    "model": "qwen",
+    "cohort": "M63",
+    "unit_id": "M63-G18",
+    "presentation": "ON",
+    "D": 0.25,
+    "rescue": 1,
+    "harm": 0
+  },
+  {
+    "model": "qwen",
+    "cohort": "M63",
+    "unit_id": "M63-G18",
+    "presentation": "NO",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "qwen",
+    "cohort": "M63",
+    "unit_id": "M63-G18",
+    "presentation": "NN",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "qwen",
+    "cohort": "M63",
+    "unit_id": "M63-G19",
+    "presentation": "OO",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "qwen",
+    "cohort": "M63",
+    "unit_id": "M63-G19",
+    "presentation": "ON",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "qwen",
+    "cohort": "M63",
+    "unit_id": "M63-G19",
+    "presentation": "NO",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "qwen",
+    "cohort": "M63",
+    "unit_id": "M63-G19",
+    "presentation": "NN",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "qwen",
+    "cohort": "M63",
+    "unit_id": "M63-G20",
+    "presentation": "OO",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "qwen",
+    "cohort": "M63",
+    "unit_id": "M63-G20",
+    "presentation": "ON",
+    "D": 0.25,
+    "rescue": 1,
+    "harm": 0
+  },
+  {
+    "model": "qwen",
+    "cohort": "M63",
+    "unit_id": "M63-G20",
+    "presentation": "NO",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "qwen",
+    "cohort": "M63",
+    "unit_id": "M63-G20",
+    "presentation": "NN",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "qwen",
+    "cohort": "M63",
+    "unit_id": "M63-G21",
+    "presentation": "OO",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "qwen",
+    "cohort": "M63",
+    "unit_id": "M63-G21",
+    "presentation": "ON",
+    "D": 0.25,
+    "rescue": 1,
+    "harm": 0
+  },
+  {
+    "model": "qwen",
+    "cohort": "M63",
+    "unit_id": "M63-G21",
+    "presentation": "NO",
+    "D": 0.25,
+    "rescue": 1,
+    "harm": 0
+  },
+  {
+    "model": "qwen",
+    "cohort": "M63",
+    "unit_id": "M63-G21",
+    "presentation": "NN",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "qwen",
+    "cohort": "M63",
+    "unit_id": "M63-G22",
+    "presentation": "OO",
+    "D": 0.25,
+    "rescue": 1,
+    "harm": 0
+  },
+  {
+    "model": "qwen",
+    "cohort": "M63",
+    "unit_id": "M63-G22",
+    "presentation": "ON",
+    "D": 0.25,
+    "rescue": 1,
+    "harm": 0
+  },
+  {
+    "model": "qwen",
+    "cohort": "M63",
+    "unit_id": "M63-G22",
+    "presentation": "NO",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "qwen",
+    "cohort": "M63",
+    "unit_id": "M63-G22",
+    "presentation": "NN",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "qwen",
+    "cohort": "M63",
+    "unit_id": "M63-G23",
+    "presentation": "OO",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "qwen",
+    "cohort": "M63",
+    "unit_id": "M63-G23",
+    "presentation": "ON",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "qwen",
+    "cohort": "M63",
+    "unit_id": "M63-G23",
+    "presentation": "NO",
+    "D": 0.25,
+    "rescue": 1,
+    "harm": 0
+  },
+  {
+    "model": "qwen",
+    "cohort": "M63",
+    "unit_id": "M63-G23",
+    "presentation": "NN",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "qwen",
+    "cohort": "M63",
+    "unit_id": "M63-G24",
+    "presentation": "OO",
+    "D": 0.25,
+    "rescue": 1,
+    "harm": 0
+  },
+  {
+    "model": "qwen",
+    "cohort": "M63",
+    "unit_id": "M63-G24",
+    "presentation": "ON",
+    "D": 0.25,
+    "rescue": 1,
+    "harm": 0
+  },
+  {
+    "model": "qwen",
+    "cohort": "M63",
+    "unit_id": "M63-G24",
+    "presentation": "NO",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "qwen",
+    "cohort": "M63",
+    "unit_id": "M63-G24",
+    "presentation": "NN",
+    "D": 0.25,
+    "rescue": 1,
+    "harm": 0
+  },
+  {
+    "model": "qwen",
+    "cohort": "M65",
+    "unit_id": "M65-G01",
+    "presentation": "OO",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "qwen",
+    "cohort": "M65",
+    "unit_id": "M65-G01",
+    "presentation": "ON",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "qwen",
+    "cohort": "M65",
+    "unit_id": "M65-G01",
+    "presentation": "NO",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "qwen",
+    "cohort": "M65",
+    "unit_id": "M65-G01",
+    "presentation": "NN",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "qwen",
+    "cohort": "M65",
+    "unit_id": "M65-G02",
+    "presentation": "OO",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "qwen",
+    "cohort": "M65",
+    "unit_id": "M65-G02",
+    "presentation": "ON",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "qwen",
+    "cohort": "M65",
+    "unit_id": "M65-G02",
+    "presentation": "NO",
+    "D": 0.25,
+    "rescue": 1,
+    "harm": 0
+  },
+  {
+    "model": "qwen",
+    "cohort": "M65",
+    "unit_id": "M65-G02",
+    "presentation": "NN",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "qwen",
+    "cohort": "M65",
+    "unit_id": "M65-G03",
+    "presentation": "OO",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "qwen",
+    "cohort": "M65",
+    "unit_id": "M65-G03",
+    "presentation": "ON",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "qwen",
+    "cohort": "M65",
+    "unit_id": "M65-G03",
+    "presentation": "NO",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "qwen",
+    "cohort": "M65",
+    "unit_id": "M65-G03",
+    "presentation": "NN",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "qwen",
+    "cohort": "M65",
+    "unit_id": "M65-G04",
+    "presentation": "OO",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "qwen",
+    "cohort": "M65",
+    "unit_id": "M65-G04",
+    "presentation": "ON",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "qwen",
+    "cohort": "M65",
+    "unit_id": "M65-G04",
+    "presentation": "NO",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "qwen",
+    "cohort": "M65",
+    "unit_id": "M65-G04",
+    "presentation": "NN",
+    "D": 0.25,
+    "rescue": 1,
+    "harm": 0
+  },
+  {
+    "model": "qwen",
+    "cohort": "M65",
+    "unit_id": "M65-G05",
+    "presentation": "OO",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "qwen",
+    "cohort": "M65",
+    "unit_id": "M65-G05",
+    "presentation": "ON",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "qwen",
+    "cohort": "M65",
+    "unit_id": "M65-G05",
+    "presentation": "NO",
+    "D": 0.25,
+    "rescue": 1,
+    "harm": 0
+  },
+  {
+    "model": "qwen",
+    "cohort": "M65",
+    "unit_id": "M65-G05",
+    "presentation": "NN",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "qwen",
+    "cohort": "M65",
+    "unit_id": "M65-G06",
+    "presentation": "OO",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "qwen",
+    "cohort": "M65",
+    "unit_id": "M65-G06",
+    "presentation": "ON",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "qwen",
+    "cohort": "M65",
+    "unit_id": "M65-G06",
+    "presentation": "NO",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "qwen",
+    "cohort": "M65",
+    "unit_id": "M65-G06",
+    "presentation": "NN",
+    "D": -0.25,
+    "rescue": 0,
+    "harm": 1
+  },
+  {
+    "model": "qwen",
+    "cohort": "M65",
+    "unit_id": "M65-G07",
+    "presentation": "OO",
+    "D": 0.25,
+    "rescue": 1,
+    "harm": 0
+  },
+  {
+    "model": "qwen",
+    "cohort": "M65",
+    "unit_id": "M65-G07",
+    "presentation": "ON",
+    "D": 0.25,
+    "rescue": 1,
+    "harm": 0
+  },
+  {
+    "model": "qwen",
+    "cohort": "M65",
+    "unit_id": "M65-G07",
+    "presentation": "NO",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "qwen",
+    "cohort": "M65",
+    "unit_id": "M65-G07",
+    "presentation": "NN",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "qwen",
+    "cohort": "M65",
+    "unit_id": "M65-G08",
+    "presentation": "OO",
+    "D": 0.25,
+    "rescue": 1,
+    "harm": 0
+  },
+  {
+    "model": "qwen",
+    "cohort": "M65",
+    "unit_id": "M65-G08",
+    "presentation": "ON",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "qwen",
+    "cohort": "M65",
+    "unit_id": "M65-G08",
+    "presentation": "NO",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "qwen",
+    "cohort": "M65",
+    "unit_id": "M65-G08",
+    "presentation": "NN",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "qwen",
+    "cohort": "M65",
+    "unit_id": "M65-G09",
+    "presentation": "OO",
+    "D": 0.25,
+    "rescue": 1,
+    "harm": 0
+  },
+  {
+    "model": "qwen",
+    "cohort": "M65",
+    "unit_id": "M65-G09",
+    "presentation": "ON",
+    "D": 0.25,
+    "rescue": 1,
+    "harm": 0
+  },
+  {
+    "model": "qwen",
+    "cohort": "M65",
+    "unit_id": "M65-G09",
+    "presentation": "NO",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "qwen",
+    "cohort": "M65",
+    "unit_id": "M65-G09",
+    "presentation": "NN",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "qwen",
+    "cohort": "M65",
+    "unit_id": "M65-G10",
+    "presentation": "OO",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "qwen",
+    "cohort": "M65",
+    "unit_id": "M65-G10",
+    "presentation": "ON",
+    "D": 0.25,
+    "rescue": 1,
+    "harm": 0
+  },
+  {
+    "model": "qwen",
+    "cohort": "M65",
+    "unit_id": "M65-G10",
+    "presentation": "NO",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "qwen",
+    "cohort": "M65",
+    "unit_id": "M65-G10",
+    "presentation": "NN",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "qwen",
+    "cohort": "M65",
+    "unit_id": "M65-G11",
+    "presentation": "OO",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "qwen",
+    "cohort": "M65",
+    "unit_id": "M65-G11",
+    "presentation": "ON",
+    "D": 0.25,
+    "rescue": 1,
+    "harm": 0
+  },
+  {
+    "model": "qwen",
+    "cohort": "M65",
+    "unit_id": "M65-G11",
+    "presentation": "NO",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "qwen",
+    "cohort": "M65",
+    "unit_id": "M65-G11",
+    "presentation": "NN",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "qwen",
+    "cohort": "M65",
+    "unit_id": "M65-G12",
+    "presentation": "OO",
+    "D": 0.25,
+    "rescue": 1,
+    "harm": 0
+  },
+  {
+    "model": "qwen",
+    "cohort": "M65",
+    "unit_id": "M65-G12",
+    "presentation": "ON",
+    "D": 0.5,
+    "rescue": 2,
+    "harm": 0
+  },
+  {
+    "model": "qwen",
+    "cohort": "M65",
+    "unit_id": "M65-G12",
+    "presentation": "NO",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "qwen",
+    "cohort": "M65",
+    "unit_id": "M65-G12",
+    "presentation": "NN",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "qwen",
+    "cohort": "M65",
+    "unit_id": "M65-G13",
+    "presentation": "OO",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "qwen",
+    "cohort": "M65",
+    "unit_id": "M65-G13",
+    "presentation": "ON",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "qwen",
+    "cohort": "M65",
+    "unit_id": "M65-G13",
+    "presentation": "NO",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "qwen",
+    "cohort": "M65",
+    "unit_id": "M65-G13",
+    "presentation": "NN",
+    "D": -0.25,
+    "rescue": 0,
+    "harm": 1
+  },
+  {
+    "model": "qwen",
+    "cohort": "M65",
+    "unit_id": "M65-G14",
+    "presentation": "OO",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "qwen",
+    "cohort": "M65",
+    "unit_id": "M65-G14",
+    "presentation": "ON",
+    "D": 0.25,
+    "rescue": 1,
+    "harm": 0
+  },
+  {
+    "model": "qwen",
+    "cohort": "M65",
+    "unit_id": "M65-G14",
+    "presentation": "NO",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "qwen",
+    "cohort": "M65",
+    "unit_id": "M65-G14",
+    "presentation": "NN",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "qwen",
+    "cohort": "M65",
+    "unit_id": "M65-G15",
+    "presentation": "OO",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "qwen",
+    "cohort": "M65",
+    "unit_id": "M65-G15",
+    "presentation": "ON",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "qwen",
+    "cohort": "M65",
+    "unit_id": "M65-G15",
+    "presentation": "NO",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "qwen",
+    "cohort": "M65",
+    "unit_id": "M65-G15",
+    "presentation": "NN",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "qwen",
+    "cohort": "M65",
+    "unit_id": "M65-G16",
+    "presentation": "OO",
+    "D": -0.25,
+    "rescue": 0,
+    "harm": 1
+  },
+  {
+    "model": "qwen",
+    "cohort": "M65",
+    "unit_id": "M65-G16",
+    "presentation": "ON",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "qwen",
+    "cohort": "M65",
+    "unit_id": "M65-G16",
+    "presentation": "NO",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "qwen",
+    "cohort": "M65",
+    "unit_id": "M65-G16",
+    "presentation": "NN",
+    "D": -0.25,
+    "rescue": 0,
+    "harm": 1
+  },
+  {
+    "model": "qwen",
+    "cohort": "M65",
+    "unit_id": "M65-G17",
+    "presentation": "OO",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "qwen",
+    "cohort": "M65",
+    "unit_id": "M65-G17",
+    "presentation": "ON",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "qwen",
+    "cohort": "M65",
+    "unit_id": "M65-G17",
+    "presentation": "NO",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "qwen",
+    "cohort": "M65",
+    "unit_id": "M65-G17",
+    "presentation": "NN",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "qwen",
+    "cohort": "M65",
+    "unit_id": "M65-G18",
+    "presentation": "OO",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "qwen",
+    "cohort": "M65",
+    "unit_id": "M65-G18",
+    "presentation": "ON",
+    "D": 0.25,
+    "rescue": 1,
+    "harm": 0
+  },
+  {
+    "model": "qwen",
+    "cohort": "M65",
+    "unit_id": "M65-G18",
+    "presentation": "NO",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "qwen",
+    "cohort": "M65",
+    "unit_id": "M65-G18",
+    "presentation": "NN",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "qwen",
+    "cohort": "M65",
+    "unit_id": "M65-G19",
+    "presentation": "OO",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "qwen",
+    "cohort": "M65",
+    "unit_id": "M65-G19",
+    "presentation": "ON",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "qwen",
+    "cohort": "M65",
+    "unit_id": "M65-G19",
+    "presentation": "NO",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "qwen",
+    "cohort": "M65",
+    "unit_id": "M65-G19",
+    "presentation": "NN",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "qwen",
+    "cohort": "M65",
+    "unit_id": "M65-G20",
+    "presentation": "OO",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "qwen",
+    "cohort": "M65",
+    "unit_id": "M65-G20",
+    "presentation": "ON",
+    "D": 0.25,
+    "rescue": 1,
+    "harm": 0
+  },
+  {
+    "model": "qwen",
+    "cohort": "M65",
+    "unit_id": "M65-G20",
+    "presentation": "NO",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "qwen",
+    "cohort": "M65",
+    "unit_id": "M65-G20",
+    "presentation": "NN",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "qwen",
+    "cohort": "M65",
+    "unit_id": "M65-G21",
+    "presentation": "OO",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "qwen",
+    "cohort": "M65",
+    "unit_id": "M65-G21",
+    "presentation": "ON",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "qwen",
+    "cohort": "M65",
+    "unit_id": "M65-G21",
+    "presentation": "NO",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "qwen",
+    "cohort": "M65",
+    "unit_id": "M65-G21",
+    "presentation": "NN",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "qwen",
+    "cohort": "M65",
+    "unit_id": "M65-G22",
+    "presentation": "OO",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "qwen",
+    "cohort": "M65",
+    "unit_id": "M65-G22",
+    "presentation": "ON",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "qwen",
+    "cohort": "M65",
+    "unit_id": "M65-G22",
+    "presentation": "NO",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "qwen",
+    "cohort": "M65",
+    "unit_id": "M65-G22",
+    "presentation": "NN",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "qwen",
+    "cohort": "M65",
+    "unit_id": "M65-G23",
+    "presentation": "OO",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "qwen",
+    "cohort": "M65",
+    "unit_id": "M65-G23",
+    "presentation": "ON",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "qwen",
+    "cohort": "M65",
+    "unit_id": "M65-G23",
+    "presentation": "NO",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "qwen",
+    "cohort": "M65",
+    "unit_id": "M65-G23",
+    "presentation": "NN",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "qwen",
+    "cohort": "M65",
+    "unit_id": "M65-G24",
+    "presentation": "OO",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "qwen",
+    "cohort": "M65",
+    "unit_id": "M65-G24",
+    "presentation": "ON",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "qwen",
+    "cohort": "M65",
+    "unit_id": "M65-G24",
+    "presentation": "NO",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "qwen",
+    "cohort": "M65",
+    "unit_id": "M65-G24",
+    "presentation": "NN",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "apertus",
+    "cohort": "M63",
+    "unit_id": "M63-G01",
+    "presentation": "OO",
+    "D": 0.5,
+    "rescue": 2,
+    "harm": 0
+  },
+  {
+    "model": "apertus",
+    "cohort": "M63",
+    "unit_id": "M63-G01",
+    "presentation": "ON",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "apertus",
+    "cohort": "M63",
+    "unit_id": "M63-G01",
+    "presentation": "NO",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "apertus",
+    "cohort": "M63",
+    "unit_id": "M63-G01",
+    "presentation": "NN",
+    "D": 0.25,
+    "rescue": 1,
+    "harm": 0
+  },
+  {
+    "model": "apertus",
+    "cohort": "M63",
+    "unit_id": "M63-G02",
+    "presentation": "OO",
+    "D": 0.25,
+    "rescue": 1,
+    "harm": 0
+  },
+  {
+    "model": "apertus",
+    "cohort": "M63",
+    "unit_id": "M63-G02",
+    "presentation": "ON",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "apertus",
+    "cohort": "M63",
+    "unit_id": "M63-G02",
+    "presentation": "NO",
+    "D": -0.25,
+    "rescue": 0,
+    "harm": 1
+  },
+  {
+    "model": "apertus",
+    "cohort": "M63",
+    "unit_id": "M63-G02",
+    "presentation": "NN",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "apertus",
+    "cohort": "M63",
+    "unit_id": "M63-G03",
+    "presentation": "OO",
+    "D": -0.25,
+    "rescue": 0,
+    "harm": 1
+  },
+  {
+    "model": "apertus",
+    "cohort": "M63",
+    "unit_id": "M63-G03",
+    "presentation": "ON",
+    "D": -0.25,
+    "rescue": 0,
+    "harm": 1
+  },
+  {
+    "model": "apertus",
+    "cohort": "M63",
+    "unit_id": "M63-G03",
+    "presentation": "NO",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "apertus",
+    "cohort": "M63",
+    "unit_id": "M63-G03",
+    "presentation": "NN",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "apertus",
+    "cohort": "M63",
+    "unit_id": "M63-G04",
+    "presentation": "OO",
+    "D": 0.25,
+    "rescue": 1,
+    "harm": 0
+  },
+  {
+    "model": "apertus",
+    "cohort": "M63",
+    "unit_id": "M63-G04",
+    "presentation": "ON",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "apertus",
+    "cohort": "M63",
+    "unit_id": "M63-G04",
+    "presentation": "NO",
+    "D": 0.25,
+    "rescue": 1,
+    "harm": 0
+  },
+  {
+    "model": "apertus",
+    "cohort": "M63",
+    "unit_id": "M63-G04",
+    "presentation": "NN",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "apertus",
+    "cohort": "M63",
+    "unit_id": "M63-G05",
+    "presentation": "OO",
+    "D": 0.0,
+    "rescue": 1,
+    "harm": 1
+  },
+  {
+    "model": "apertus",
+    "cohort": "M63",
+    "unit_id": "M63-G05",
+    "presentation": "ON",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "apertus",
+    "cohort": "M63",
+    "unit_id": "M63-G05",
+    "presentation": "NO",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "apertus",
+    "cohort": "M63",
+    "unit_id": "M63-G05",
+    "presentation": "NN",
+    "D": -0.25,
+    "rescue": 0,
+    "harm": 1
+  },
+  {
+    "model": "apertus",
+    "cohort": "M63",
+    "unit_id": "M63-G06",
+    "presentation": "OO",
+    "D": 0.25,
+    "rescue": 1,
+    "harm": 0
+  },
+  {
+    "model": "apertus",
+    "cohort": "M63",
+    "unit_id": "M63-G06",
+    "presentation": "ON",
+    "D": 0.25,
+    "rescue": 1,
+    "harm": 0
+  },
+  {
+    "model": "apertus",
+    "cohort": "M63",
+    "unit_id": "M63-G06",
+    "presentation": "NO",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "apertus",
+    "cohort": "M63",
+    "unit_id": "M63-G06",
+    "presentation": "NN",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "apertus",
+    "cohort": "M63",
+    "unit_id": "M63-G07",
+    "presentation": "OO",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "apertus",
+    "cohort": "M63",
+    "unit_id": "M63-G07",
+    "presentation": "ON",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "apertus",
+    "cohort": "M63",
+    "unit_id": "M63-G07",
+    "presentation": "NO",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "apertus",
+    "cohort": "M63",
+    "unit_id": "M63-G07",
+    "presentation": "NN",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "apertus",
+    "cohort": "M63",
+    "unit_id": "M63-G08",
+    "presentation": "OO",
+    "D": 0.25,
+    "rescue": 1,
+    "harm": 0
+  },
+  {
+    "model": "apertus",
+    "cohort": "M63",
+    "unit_id": "M63-G08",
+    "presentation": "ON",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "apertus",
+    "cohort": "M63",
+    "unit_id": "M63-G08",
+    "presentation": "NO",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "apertus",
+    "cohort": "M63",
+    "unit_id": "M63-G08",
+    "presentation": "NN",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "apertus",
+    "cohort": "M63",
+    "unit_id": "M63-G09",
+    "presentation": "OO",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "apertus",
+    "cohort": "M63",
+    "unit_id": "M63-G09",
+    "presentation": "ON",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "apertus",
+    "cohort": "M63",
+    "unit_id": "M63-G09",
+    "presentation": "NO",
+    "D": 0.25,
+    "rescue": 1,
+    "harm": 0
+  },
+  {
+    "model": "apertus",
+    "cohort": "M63",
+    "unit_id": "M63-G09",
+    "presentation": "NN",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "apertus",
+    "cohort": "M63",
+    "unit_id": "M63-G10",
+    "presentation": "OO",
+    "D": 0.25,
+    "rescue": 1,
+    "harm": 0
+  },
+  {
+    "model": "apertus",
+    "cohort": "M63",
+    "unit_id": "M63-G10",
+    "presentation": "ON",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "apertus",
+    "cohort": "M63",
+    "unit_id": "M63-G10",
+    "presentation": "NO",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "apertus",
+    "cohort": "M63",
+    "unit_id": "M63-G10",
+    "presentation": "NN",
+    "D": 0.25,
+    "rescue": 1,
+    "harm": 0
+  },
+  {
+    "model": "apertus",
+    "cohort": "M63",
+    "unit_id": "M63-G11",
+    "presentation": "OO",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "apertus",
+    "cohort": "M63",
+    "unit_id": "M63-G11",
+    "presentation": "ON",
+    "D": 0.25,
+    "rescue": 1,
+    "harm": 0
+  },
+  {
+    "model": "apertus",
+    "cohort": "M63",
+    "unit_id": "M63-G11",
+    "presentation": "NO",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "apertus",
+    "cohort": "M63",
+    "unit_id": "M63-G11",
+    "presentation": "NN",
+    "D": 0.25,
+    "rescue": 1,
+    "harm": 0
+  },
+  {
+    "model": "apertus",
+    "cohort": "M63",
+    "unit_id": "M63-G12",
+    "presentation": "OO",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "apertus",
+    "cohort": "M63",
+    "unit_id": "M63-G12",
+    "presentation": "ON",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "apertus",
+    "cohort": "M63",
+    "unit_id": "M63-G12",
+    "presentation": "NO",
+    "D": 0.25,
+    "rescue": 1,
+    "harm": 0
+  },
+  {
+    "model": "apertus",
+    "cohort": "M63",
+    "unit_id": "M63-G12",
+    "presentation": "NN",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "apertus",
+    "cohort": "M63",
+    "unit_id": "M63-G13",
+    "presentation": "OO",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "apertus",
+    "cohort": "M63",
+    "unit_id": "M63-G13",
+    "presentation": "ON",
+    "D": 0.25,
+    "rescue": 1,
+    "harm": 0
+  },
+  {
+    "model": "apertus",
+    "cohort": "M63",
+    "unit_id": "M63-G13",
+    "presentation": "NO",
+    "D": 0.25,
+    "rescue": 1,
+    "harm": 0
+  },
+  {
+    "model": "apertus",
+    "cohort": "M63",
+    "unit_id": "M63-G13",
+    "presentation": "NN",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "apertus",
+    "cohort": "M63",
+    "unit_id": "M63-G14",
+    "presentation": "OO",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "apertus",
+    "cohort": "M63",
+    "unit_id": "M63-G14",
+    "presentation": "ON",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "apertus",
+    "cohort": "M63",
+    "unit_id": "M63-G14",
+    "presentation": "NO",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "apertus",
+    "cohort": "M63",
+    "unit_id": "M63-G14",
+    "presentation": "NN",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "apertus",
+    "cohort": "M63",
+    "unit_id": "M63-G15",
+    "presentation": "OO",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "apertus",
+    "cohort": "M63",
+    "unit_id": "M63-G15",
+    "presentation": "ON",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "apertus",
+    "cohort": "M63",
+    "unit_id": "M63-G15",
+    "presentation": "NO",
+    "D": -0.25,
+    "rescue": 0,
+    "harm": 1
+  },
+  {
+    "model": "apertus",
+    "cohort": "M63",
+    "unit_id": "M63-G15",
+    "presentation": "NN",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "apertus",
+    "cohort": "M63",
+    "unit_id": "M63-G16",
+    "presentation": "OO",
+    "D": 0.25,
+    "rescue": 1,
+    "harm": 0
+  },
+  {
+    "model": "apertus",
+    "cohort": "M63",
+    "unit_id": "M63-G16",
+    "presentation": "ON",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "apertus",
+    "cohort": "M63",
+    "unit_id": "M63-G16",
+    "presentation": "NO",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "apertus",
+    "cohort": "M63",
+    "unit_id": "M63-G16",
+    "presentation": "NN",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "apertus",
+    "cohort": "M63",
+    "unit_id": "M63-G17",
+    "presentation": "OO",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "apertus",
+    "cohort": "M63",
+    "unit_id": "M63-G17",
+    "presentation": "ON",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "apertus",
+    "cohort": "M63",
+    "unit_id": "M63-G17",
+    "presentation": "NO",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "apertus",
+    "cohort": "M63",
+    "unit_id": "M63-G17",
+    "presentation": "NN",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "apertus",
+    "cohort": "M63",
+    "unit_id": "M63-G18",
+    "presentation": "OO",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "apertus",
+    "cohort": "M63",
+    "unit_id": "M63-G18",
+    "presentation": "ON",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "apertus",
+    "cohort": "M63",
+    "unit_id": "M63-G18",
+    "presentation": "NO",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "apertus",
+    "cohort": "M63",
+    "unit_id": "M63-G18",
+    "presentation": "NN",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "apertus",
+    "cohort": "M63",
+    "unit_id": "M63-G19",
+    "presentation": "OO",
+    "D": 0.25,
+    "rescue": 1,
+    "harm": 0
+  },
+  {
+    "model": "apertus",
+    "cohort": "M63",
+    "unit_id": "M63-G19",
+    "presentation": "ON",
+    "D": 0.25,
+    "rescue": 1,
+    "harm": 0
+  },
+  {
+    "model": "apertus",
+    "cohort": "M63",
+    "unit_id": "M63-G19",
+    "presentation": "NO",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "apertus",
+    "cohort": "M63",
+    "unit_id": "M63-G19",
+    "presentation": "NN",
+    "D": 0.25,
+    "rescue": 1,
+    "harm": 0
+  },
+  {
+    "model": "apertus",
+    "cohort": "M63",
+    "unit_id": "M63-G20",
+    "presentation": "OO",
+    "D": 0.25,
+    "rescue": 1,
+    "harm": 0
+  },
+  {
+    "model": "apertus",
+    "cohort": "M63",
+    "unit_id": "M63-G20",
+    "presentation": "ON",
+    "D": -0.25,
+    "rescue": 0,
+    "harm": 1
+  },
+  {
+    "model": "apertus",
+    "cohort": "M63",
+    "unit_id": "M63-G20",
+    "presentation": "NO",
+    "D": 0.5,
+    "rescue": 2,
+    "harm": 0
+  },
+  {
+    "model": "apertus",
+    "cohort": "M63",
+    "unit_id": "M63-G20",
+    "presentation": "NN",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "apertus",
+    "cohort": "M63",
+    "unit_id": "M63-G21",
+    "presentation": "OO",
+    "D": 0.25,
+    "rescue": 1,
+    "harm": 0
+  },
+  {
+    "model": "apertus",
+    "cohort": "M63",
+    "unit_id": "M63-G21",
+    "presentation": "ON",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "apertus",
+    "cohort": "M63",
+    "unit_id": "M63-G21",
+    "presentation": "NO",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "apertus",
+    "cohort": "M63",
+    "unit_id": "M63-G21",
+    "presentation": "NN",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "apertus",
+    "cohort": "M63",
+    "unit_id": "M63-G22",
+    "presentation": "OO",
+    "D": 0.25,
+    "rescue": 1,
+    "harm": 0
+  },
+  {
+    "model": "apertus",
+    "cohort": "M63",
+    "unit_id": "M63-G22",
+    "presentation": "ON",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "apertus",
+    "cohort": "M63",
+    "unit_id": "M63-G22",
+    "presentation": "NO",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "apertus",
+    "cohort": "M63",
+    "unit_id": "M63-G22",
+    "presentation": "NN",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "apertus",
+    "cohort": "M63",
+    "unit_id": "M63-G23",
+    "presentation": "OO",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "apertus",
+    "cohort": "M63",
+    "unit_id": "M63-G23",
+    "presentation": "ON",
+    "D": -0.25,
+    "rescue": 0,
+    "harm": 1
+  },
+  {
+    "model": "apertus",
+    "cohort": "M63",
+    "unit_id": "M63-G23",
+    "presentation": "NO",
+    "D": -0.25,
+    "rescue": 0,
+    "harm": 1
+  },
+  {
+    "model": "apertus",
+    "cohort": "M63",
+    "unit_id": "M63-G23",
+    "presentation": "NN",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "apertus",
+    "cohort": "M63",
+    "unit_id": "M63-G24",
+    "presentation": "OO",
+    "D": 0.25,
+    "rescue": 1,
+    "harm": 0
+  },
+  {
+    "model": "apertus",
+    "cohort": "M63",
+    "unit_id": "M63-G24",
+    "presentation": "ON",
+    "D": -0.25,
+    "rescue": 0,
+    "harm": 1
+  },
+  {
+    "model": "apertus",
+    "cohort": "M63",
+    "unit_id": "M63-G24",
+    "presentation": "NO",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "apertus",
+    "cohort": "M63",
+    "unit_id": "M63-G24",
+    "presentation": "NN",
+    "D": 0.25,
+    "rescue": 1,
+    "harm": 0
+  },
+  {
+    "model": "apertus",
+    "cohort": "M65",
+    "unit_id": "M65-G01",
+    "presentation": "OO",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "apertus",
+    "cohort": "M65",
+    "unit_id": "M65-G01",
+    "presentation": "ON",
+    "D": 0.25,
+    "rescue": 1,
+    "harm": 0
+  },
+  {
+    "model": "apertus",
+    "cohort": "M65",
+    "unit_id": "M65-G01",
+    "presentation": "NO",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "apertus",
+    "cohort": "M65",
+    "unit_id": "M65-G01",
+    "presentation": "NN",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "apertus",
+    "cohort": "M65",
+    "unit_id": "M65-G02",
+    "presentation": "OO",
+    "D": 0.25,
+    "rescue": 1,
+    "harm": 0
+  },
+  {
+    "model": "apertus",
+    "cohort": "M65",
+    "unit_id": "M65-G02",
+    "presentation": "ON",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "apertus",
+    "cohort": "M65",
+    "unit_id": "M65-G02",
+    "presentation": "NO",
+    "D": 0.25,
+    "rescue": 1,
+    "harm": 0
+  },
+  {
+    "model": "apertus",
+    "cohort": "M65",
+    "unit_id": "M65-G02",
+    "presentation": "NN",
+    "D": 0.5,
+    "rescue": 2,
+    "harm": 0
+  },
+  {
+    "model": "apertus",
+    "cohort": "M65",
+    "unit_id": "M65-G03",
+    "presentation": "OO",
+    "D": 0.25,
+    "rescue": 1,
+    "harm": 0
+  },
+  {
+    "model": "apertus",
+    "cohort": "M65",
+    "unit_id": "M65-G03",
+    "presentation": "ON",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "apertus",
+    "cohort": "M65",
+    "unit_id": "M65-G03",
+    "presentation": "NO",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "apertus",
+    "cohort": "M65",
+    "unit_id": "M65-G03",
+    "presentation": "NN",
+    "D": 0.25,
+    "rescue": 1,
+    "harm": 0
+  },
+  {
+    "model": "apertus",
+    "cohort": "M65",
+    "unit_id": "M65-G04",
+    "presentation": "OO",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "apertus",
+    "cohort": "M65",
+    "unit_id": "M65-G04",
+    "presentation": "ON",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "apertus",
+    "cohort": "M65",
+    "unit_id": "M65-G04",
+    "presentation": "NO",
+    "D": 0.25,
+    "rescue": 1,
+    "harm": 0
+  },
+  {
+    "model": "apertus",
+    "cohort": "M65",
+    "unit_id": "M65-G04",
+    "presentation": "NN",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "apertus",
+    "cohort": "M65",
+    "unit_id": "M65-G05",
+    "presentation": "OO",
+    "D": 0.5,
+    "rescue": 2,
+    "harm": 0
+  },
+  {
+    "model": "apertus",
+    "cohort": "M65",
+    "unit_id": "M65-G05",
+    "presentation": "ON",
+    "D": -0.25,
+    "rescue": 0,
+    "harm": 1
+  },
+  {
+    "model": "apertus",
+    "cohort": "M65",
+    "unit_id": "M65-G05",
+    "presentation": "NO",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "apertus",
+    "cohort": "M65",
+    "unit_id": "M65-G05",
+    "presentation": "NN",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "apertus",
+    "cohort": "M65",
+    "unit_id": "M65-G06",
+    "presentation": "OO",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "apertus",
+    "cohort": "M65",
+    "unit_id": "M65-G06",
+    "presentation": "ON",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "apertus",
+    "cohort": "M65",
+    "unit_id": "M65-G06",
+    "presentation": "NO",
+    "D": 0.25,
+    "rescue": 1,
+    "harm": 0
+  },
+  {
+    "model": "apertus",
+    "cohort": "M65",
+    "unit_id": "M65-G06",
+    "presentation": "NN",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "apertus",
+    "cohort": "M65",
+    "unit_id": "M65-G07",
+    "presentation": "OO",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "apertus",
+    "cohort": "M65",
+    "unit_id": "M65-G07",
+    "presentation": "ON",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "apertus",
+    "cohort": "M65",
+    "unit_id": "M65-G07",
+    "presentation": "NO",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "apertus",
+    "cohort": "M65",
+    "unit_id": "M65-G07",
+    "presentation": "NN",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "apertus",
+    "cohort": "M65",
+    "unit_id": "M65-G08",
+    "presentation": "OO",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "apertus",
+    "cohort": "M65",
+    "unit_id": "M65-G08",
+    "presentation": "ON",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "apertus",
+    "cohort": "M65",
+    "unit_id": "M65-G08",
+    "presentation": "NO",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "apertus",
+    "cohort": "M65",
+    "unit_id": "M65-G08",
+    "presentation": "NN",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "apertus",
+    "cohort": "M65",
+    "unit_id": "M65-G09",
+    "presentation": "OO",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "apertus",
+    "cohort": "M65",
+    "unit_id": "M65-G09",
+    "presentation": "ON",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "apertus",
+    "cohort": "M65",
+    "unit_id": "M65-G09",
+    "presentation": "NO",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "apertus",
+    "cohort": "M65",
+    "unit_id": "M65-G09",
+    "presentation": "NN",
+    "D": 0.25,
+    "rescue": 1,
+    "harm": 0
+  },
+  {
+    "model": "apertus",
+    "cohort": "M65",
+    "unit_id": "M65-G10",
+    "presentation": "OO",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "apertus",
+    "cohort": "M65",
+    "unit_id": "M65-G10",
+    "presentation": "ON",
+    "D": -0.25,
+    "rescue": 0,
+    "harm": 1
+  },
+  {
+    "model": "apertus",
+    "cohort": "M65",
+    "unit_id": "M65-G10",
+    "presentation": "NO",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "apertus",
+    "cohort": "M65",
+    "unit_id": "M65-G10",
+    "presentation": "NN",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "apertus",
+    "cohort": "M65",
+    "unit_id": "M65-G11",
+    "presentation": "OO",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "apertus",
+    "cohort": "M65",
+    "unit_id": "M65-G11",
+    "presentation": "ON",
+    "D": 0.5,
+    "rescue": 2,
+    "harm": 0
+  },
+  {
+    "model": "apertus",
+    "cohort": "M65",
+    "unit_id": "M65-G11",
+    "presentation": "NO",
+    "D": 0.25,
+    "rescue": 1,
+    "harm": 0
+  },
+  {
+    "model": "apertus",
+    "cohort": "M65",
+    "unit_id": "M65-G11",
+    "presentation": "NN",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "apertus",
+    "cohort": "M65",
+    "unit_id": "M65-G12",
+    "presentation": "OO",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "apertus",
+    "cohort": "M65",
+    "unit_id": "M65-G12",
+    "presentation": "ON",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "apertus",
+    "cohort": "M65",
+    "unit_id": "M65-G12",
+    "presentation": "NO",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "apertus",
+    "cohort": "M65",
+    "unit_id": "M65-G12",
+    "presentation": "NN",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "apertus",
+    "cohort": "M65",
+    "unit_id": "M65-G13",
+    "presentation": "OO",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "apertus",
+    "cohort": "M65",
+    "unit_id": "M65-G13",
+    "presentation": "ON",
+    "D": 0.25,
+    "rescue": 1,
+    "harm": 0
+  },
+  {
+    "model": "apertus",
+    "cohort": "M65",
+    "unit_id": "M65-G13",
+    "presentation": "NO",
+    "D": -0.25,
+    "rescue": 0,
+    "harm": 1
+  },
+  {
+    "model": "apertus",
+    "cohort": "M65",
+    "unit_id": "M65-G13",
+    "presentation": "NN",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "apertus",
+    "cohort": "M65",
+    "unit_id": "M65-G14",
+    "presentation": "OO",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "apertus",
+    "cohort": "M65",
+    "unit_id": "M65-G14",
+    "presentation": "ON",
+    "D": 0.25,
+    "rescue": 1,
+    "harm": 0
+  },
+  {
+    "model": "apertus",
+    "cohort": "M65",
+    "unit_id": "M65-G14",
+    "presentation": "NO",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "apertus",
+    "cohort": "M65",
+    "unit_id": "M65-G14",
+    "presentation": "NN",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "apertus",
+    "cohort": "M65",
+    "unit_id": "M65-G15",
+    "presentation": "OO",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "apertus",
+    "cohort": "M65",
+    "unit_id": "M65-G15",
+    "presentation": "ON",
+    "D": 0.25,
+    "rescue": 1,
+    "harm": 0
+  },
+  {
+    "model": "apertus",
+    "cohort": "M65",
+    "unit_id": "M65-G15",
+    "presentation": "NO",
+    "D": 0.25,
+    "rescue": 1,
+    "harm": 0
+  },
+  {
+    "model": "apertus",
+    "cohort": "M65",
+    "unit_id": "M65-G15",
+    "presentation": "NN",
+    "D": 0.25,
+    "rescue": 1,
+    "harm": 0
+  },
+  {
+    "model": "apertus",
+    "cohort": "M65",
+    "unit_id": "M65-G16",
+    "presentation": "OO",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "apertus",
+    "cohort": "M65",
+    "unit_id": "M65-G16",
+    "presentation": "ON",
+    "D": 0.25,
+    "rescue": 1,
+    "harm": 0
+  },
+  {
+    "model": "apertus",
+    "cohort": "M65",
+    "unit_id": "M65-G16",
+    "presentation": "NO",
+    "D": 0.25,
+    "rescue": 1,
+    "harm": 0
+  },
+  {
+    "model": "apertus",
+    "cohort": "M65",
+    "unit_id": "M65-G16",
+    "presentation": "NN",
+    "D": 0.25,
+    "rescue": 1,
+    "harm": 0
+  },
+  {
+    "model": "apertus",
+    "cohort": "M65",
+    "unit_id": "M65-G17",
+    "presentation": "OO",
+    "D": 0.25,
+    "rescue": 1,
+    "harm": 0
+  },
+  {
+    "model": "apertus",
+    "cohort": "M65",
+    "unit_id": "M65-G17",
+    "presentation": "ON",
+    "D": 0.25,
+    "rescue": 1,
+    "harm": 0
+  },
+  {
+    "model": "apertus",
+    "cohort": "M65",
+    "unit_id": "M65-G17",
+    "presentation": "NO",
+    "D": 0.25,
+    "rescue": 1,
+    "harm": 0
+  },
+  {
+    "model": "apertus",
+    "cohort": "M65",
+    "unit_id": "M65-G17",
+    "presentation": "NN",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "apertus",
+    "cohort": "M65",
+    "unit_id": "M65-G18",
+    "presentation": "OO",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "apertus",
+    "cohort": "M65",
+    "unit_id": "M65-G18",
+    "presentation": "ON",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "apertus",
+    "cohort": "M65",
+    "unit_id": "M65-G18",
+    "presentation": "NO",
+    "D": -0.25,
+    "rescue": 0,
+    "harm": 1
+  },
+  {
+    "model": "apertus",
+    "cohort": "M65",
+    "unit_id": "M65-G18",
+    "presentation": "NN",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "apertus",
+    "cohort": "M65",
+    "unit_id": "M65-G19",
+    "presentation": "OO",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "apertus",
+    "cohort": "M65",
+    "unit_id": "M65-G19",
+    "presentation": "ON",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "apertus",
+    "cohort": "M65",
+    "unit_id": "M65-G19",
+    "presentation": "NO",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "apertus",
+    "cohort": "M65",
+    "unit_id": "M65-G19",
+    "presentation": "NN",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "apertus",
+    "cohort": "M65",
+    "unit_id": "M65-G20",
+    "presentation": "OO",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "apertus",
+    "cohort": "M65",
+    "unit_id": "M65-G20",
+    "presentation": "ON",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "apertus",
+    "cohort": "M65",
+    "unit_id": "M65-G20",
+    "presentation": "NO",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "apertus",
+    "cohort": "M65",
+    "unit_id": "M65-G20",
+    "presentation": "NN",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "apertus",
+    "cohort": "M65",
+    "unit_id": "M65-G21",
+    "presentation": "OO",
+    "D": 0.25,
+    "rescue": 1,
+    "harm": 0
+  },
+  {
+    "model": "apertus",
+    "cohort": "M65",
+    "unit_id": "M65-G21",
+    "presentation": "ON",
+    "D": 0.25,
+    "rescue": 1,
+    "harm": 0
+  },
+  {
+    "model": "apertus",
+    "cohort": "M65",
+    "unit_id": "M65-G21",
+    "presentation": "NO",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "apertus",
+    "cohort": "M65",
+    "unit_id": "M65-G21",
+    "presentation": "NN",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "apertus",
+    "cohort": "M65",
+    "unit_id": "M65-G22",
+    "presentation": "OO",
+    "D": 0.25,
+    "rescue": 1,
+    "harm": 0
+  },
+  {
+    "model": "apertus",
+    "cohort": "M65",
+    "unit_id": "M65-G22",
+    "presentation": "ON",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "apertus",
+    "cohort": "M65",
+    "unit_id": "M65-G22",
+    "presentation": "NO",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "apertus",
+    "cohort": "M65",
+    "unit_id": "M65-G22",
+    "presentation": "NN",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "apertus",
+    "cohort": "M65",
+    "unit_id": "M65-G23",
+    "presentation": "OO",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "apertus",
+    "cohort": "M65",
+    "unit_id": "M65-G23",
+    "presentation": "ON",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "apertus",
+    "cohort": "M65",
+    "unit_id": "M65-G23",
+    "presentation": "NO",
+    "D": 0.25,
+    "rescue": 1,
+    "harm": 0
+  },
+  {
+    "model": "apertus",
+    "cohort": "M65",
+    "unit_id": "M65-G23",
+    "presentation": "NN",
+    "D": 0.25,
+    "rescue": 1,
+    "harm": 0
+  },
+  {
+    "model": "apertus",
+    "cohort": "M65",
+    "unit_id": "M65-G24",
+    "presentation": "OO",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "apertus",
+    "cohort": "M65",
+    "unit_id": "M65-G24",
+    "presentation": "ON",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "apertus",
+    "cohort": "M65",
+    "unit_id": "M65-G24",
+    "presentation": "NO",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  },
+  {
+    "model": "apertus",
+    "cohort": "M65",
+    "unit_id": "M65-G24",
+    "presentation": "NN",
+    "D": 0.0,
+    "rescue": 0,
+    "harm": 0
+  }
+]

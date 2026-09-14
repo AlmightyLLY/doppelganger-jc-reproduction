@@ -1,0 +1,39 @@
+{
+  "archives": [
+    {
+      "batch": "B64",
+      "name": "B64-local-evidence.zip",
+      "bytes": 18899745,
+      "sha256": "120ab87d5f81df05e7df9ab61a47d4f112843fdc6fb59c59dd6a298ab0d15fe3",
+      "scope": "Complete private local evidence archive; not publicly uploaded"
+    },
+    {
+      "batch": "B65",
+      "name": "B65完整证据.zip",
+      "bytes": 10023472,
+      "sha256": "ad1f809462ee3fbcedd4d2b771bb98b5a014c35509a091877d97bea236d47aa6",
+      "scope": "Complete private local evidence archive; not publicly uploaded"
+    },
+    {
+      "batch": "B66",
+      "name": "B66完整证据.zip",
+      "bytes": 15241297,
+      "sha256": "312aaef52ff61cce2371877f91b6a1c6db1f11fd4c8a5e2800d71dccf1b5fe39",
+      "scope": "Complete private local evidence archive; not publicly uploaded"
+    },
+    {
+      "batch": "B67",
+      "name": "B67完整归档.zip",
+      "bytes": 19868417,
+      "sha256": "fc14065008c688fc790549ae819d685e72b26d569f463270af35e0c1785b2324",
+      "scope": "Complete private local evidence archive; not publicly uploaded"
+    },
+    {
+      "batch": "B68",
+      "name": "B68完整归档.zip",
+      "bytes": 24423340,
+      "sha256": "ec84e9d0c2d8fcfbac8e2c2794f85837c525e7dd3b69e8ab03ce3b9aaf1aa3ef",
+      "scope": "Complete private local evidence archive; not publicly uploaded"
+    }
+  ]
+}

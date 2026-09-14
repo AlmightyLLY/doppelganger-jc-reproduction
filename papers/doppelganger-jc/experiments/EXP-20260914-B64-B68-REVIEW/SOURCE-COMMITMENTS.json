@@ -1,0 +1,42 @@
+[
+  {
+    "batch": "B64",
+    "author_references_sha256": "ea1ae0d748b7d980e1a71cefe045c9bf6be57730d31c77295bf642fda01c12c2",
+    "scored_results_sha256": "1822af0d686b564a04a026aa5d00625d61d388f4085fb74f6adeb73b8e6c16bb",
+    "science_freeze_sha256": "a9665086783189e181c8e3d7ea1ed29a9193d489e5af54c659e7cc603e3342c3",
+    "technical_freeze_sha256": "9784ff2d5a5a3e1aaee807d7cef30d6f2a5c6aa0c0c4f1354ad3e6d431e0cf16",
+    "export": "Explicit scientific fields; original host metadata and personal fields excluded"
+  },
+  {
+    "batch": "B65",
+    "author_references_sha256": "d9da4cbd4246fb31961b78670fc48b11201692ab6b567e74295e993c8d305d7c",
+    "scored_results_sha256": "2ddd0726f42eb5ffd942c65781c98aac2225d853ab37147cd8ac3868e940f806",
+    "science_freeze_sha256": "2d852995e799191828fa8e6a97130626ddcb9e08b78675247acf71b6b5300db1",
+    "technical_freeze_sha256": "04b2e9559bb4f11ecd5fa664302f6eae3b6dd1d98f1e306c7c6d7cc882b2660c",
+    "export": "Explicit scientific fields; original host metadata and personal fields excluded"
+  },
+  {
+    "batch": "B66",
+    "author_references_sha256": "900110fcd460a25d3618b6d20e777cab9de6ea71b4fa0217b26ca25db1e7fe25",
+    "scored_results_sha256": "672fb8429dd6ac91e52f339915031ef66dc2d1ccdb327dfe6b906146a688f718",
+    "science_freeze_sha256": "4a90d333d7967c5b53fd117171b9aab382c2b2c8070dca5bc4f838f77a913101",
+    "technical_freeze_sha256": "24309c269f6e04570864548a4d8b22d865f1dcc57554e9504ecc6937631ac8dc",
+    "export": "Explicit scientific fields; original host metadata and personal fields excluded"
+  },
+  {
+    "batch": "B67",
+    "author_references_sha256": "7b0a5a18b5fce2623a7fa5a16c1b657f86969024928f54d09594383c6902fa27",
+    "scored_results_sha256": "69cea153c22f89d576712134a5a1d5bd0fc7496dc7afd2eb2655294877986ac2",
+    "science_freeze_sha256": "ffdc5f5c376f5c2ae2a1480cb01150f5d2371625ce07c47de70f3ea85d648e2f",
+    "technical_freeze_sha256": "2a24a010a141b73a25ed4ffef61aad2b46f379cd083e3637aa627a4a68cdb4a1",
+    "export": "Explicit scientific fields; original host metadata and personal fields excluded"
+  },
+  {
+    "batch": "B68",
+    "author_references_sha256": "836b09b9d90587eadd0176e516bddb849098346eb4a223d31ec3d5b3880f6da3",
+    "scored_results_sha256": "5ee45b2fd5f9b1bd2d2fb42e6656daf642990eb9b0ad89ec71d6acd5d2e2ea49",
+    "science_freeze_sha256": "4bb92201d75e66cbf3b7b97eb4514ec3aaa8c60e18c360ff47fcb4a34941d684",
+    "technical_freeze_sha256": "2f5593acd3c5d920b44ab40f0c9cf672f003fbb279134f052d8b1d1a2d56737e",
+    "export": "Explicit scientific fields; original host metadata and personal fields excluded"
+  }
+]

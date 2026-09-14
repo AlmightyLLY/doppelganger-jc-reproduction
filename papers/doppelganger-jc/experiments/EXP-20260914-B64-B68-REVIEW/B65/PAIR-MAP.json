@@ -1,0 +1,3458 @@
+[
+  {
+    "model": "qwen",
+    "group_id": "G01",
+    "frame": "DIRECT",
+    "construction": "BA",
+    "schema": "AU",
+    "matched": "B65-qwen-G01-DIRECT-BA-AU-BA",
+    "mismatched": "B65-qwen-G01-DIRECT-BA-AU-BEI"
+  },
+  {
+    "model": "qwen",
+    "group_id": "G01",
+    "frame": "DIRECT",
+    "construction": "BA",
+    "schema": "UA",
+    "matched": "B65-qwen-G01-DIRECT-BA-UA-BA",
+    "mismatched": "B65-qwen-G01-DIRECT-BA-UA-BEI"
+  },
+  {
+    "model": "qwen",
+    "group_id": "G01",
+    "frame": "DIRECT",
+    "construction": "BEI",
+    "schema": "AU",
+    "matched": "B65-qwen-G01-DIRECT-BEI-AU-BEI",
+    "mismatched": "B65-qwen-G01-DIRECT-BEI-AU-BA"
+  },
+  {
+    "model": "qwen",
+    "group_id": "G01",
+    "frame": "DIRECT",
+    "construction": "BEI",
+    "schema": "UA",
+    "matched": "B65-qwen-G01-DIRECT-BEI-UA-BEI",
+    "mismatched": "B65-qwen-G01-DIRECT-BEI-UA-BA"
+  },
+  {
+    "model": "qwen",
+    "group_id": "G01",
+    "frame": "QUOTED",
+    "construction": "BA",
+    "schema": "AU",
+    "matched": "B65-qwen-G01-QUOTED-BA-AU-BA",
+    "mismatched": "B65-qwen-G01-QUOTED-BA-AU-BEI"
+  },
+  {
+    "model": "qwen",
+    "group_id": "G01",
+    "frame": "QUOTED",
+    "construction": "BA",
+    "schema": "UA",
+    "matched": "B65-qwen-G01-QUOTED-BA-UA-BA",
+    "mismatched": "B65-qwen-G01-QUOTED-BA-UA-BEI"
+  },
+  {
+    "model": "qwen",
+    "group_id": "G01",
+    "frame": "QUOTED",
+    "construction": "BEI",
+    "schema": "AU",
+    "matched": "B65-qwen-G01-QUOTED-BEI-AU-BEI",
+    "mismatched": "B65-qwen-G01-QUOTED-BEI-AU-BA"
+  },
+  {
+    "model": "qwen",
+    "group_id": "G01",
+    "frame": "QUOTED",
+    "construction": "BEI",
+    "schema": "UA",
+    "matched": "B65-qwen-G01-QUOTED-BEI-UA-BEI",
+    "mismatched": "B65-qwen-G01-QUOTED-BEI-UA-BA"
+  },
+  {
+    "model": "qwen",
+    "group_id": "G02",
+    "frame": "DIRECT",
+    "construction": "BA",
+    "schema": "AU",
+    "matched": "B65-qwen-G02-DIRECT-BA-AU-BA",
+    "mismatched": "B65-qwen-G02-DIRECT-BA-AU-BEI"
+  },
+  {
+    "model": "qwen",
+    "group_id": "G02",
+    "frame": "DIRECT",
+    "construction": "BA",
+    "schema": "UA",
+    "matched": "B65-qwen-G02-DIRECT-BA-UA-BA",
+    "mismatched": "B65-qwen-G02-DIRECT-BA-UA-BEI"
+  },
+  {
+    "model": "qwen",
+    "group_id": "G02",
+    "frame": "DIRECT",
+    "construction": "BEI",
+    "schema": "AU",
+    "matched": "B65-qwen-G02-DIRECT-BEI-AU-BEI",
+    "mismatched": "B65-qwen-G02-DIRECT-BEI-AU-BA"
+  },
+  {
+    "model": "qwen",
+    "group_id": "G02",
+    "frame": "DIRECT",
+    "construction": "BEI",
+    "schema": "UA",
+    "matched": "B65-qwen-G02-DIRECT-BEI-UA-BEI",
+    "mismatched": "B65-qwen-G02-DIRECT-BEI-UA-BA"
+  },
+  {
+    "model": "qwen",
+    "group_id": "G02",
+    "frame": "QUOTED",
+    "construction": "BA",
+    "schema": "AU",
+    "matched": "B65-qwen-G02-QUOTED-BA-AU-BA",
+    "mismatched": "B65-qwen-G02-QUOTED-BA-AU-BEI"
+  },
+  {
+    "model": "qwen",
+    "group_id": "G02",
+    "frame": "QUOTED",
+    "construction": "BA",
+    "schema": "UA",
+    "matched": "B65-qwen-G02-QUOTED-BA-UA-BA",
+    "mismatched": "B65-qwen-G02-QUOTED-BA-UA-BEI"
+  },
+  {
+    "model": "qwen",
+    "group_id": "G02",
+    "frame": "QUOTED",
+    "construction": "BEI",
+    "schema": "AU",
+    "matched": "B65-qwen-G02-QUOTED-BEI-AU-BEI",
+    "mismatched": "B65-qwen-G02-QUOTED-BEI-AU-BA"
+  },
+  {
+    "model": "qwen",
+    "group_id": "G02",
+    "frame": "QUOTED",
+    "construction": "BEI",
+    "schema": "UA",
+    "matched": "B65-qwen-G02-QUOTED-BEI-UA-BEI",
+    "mismatched": "B65-qwen-G02-QUOTED-BEI-UA-BA"
+  },
+  {
+    "model": "qwen",
+    "group_id": "G03",
+    "frame": "DIRECT",
+    "construction": "BA",
+    "schema": "AU",
+    "matched": "B65-qwen-G03-DIRECT-BA-AU-BA",
+    "mismatched": "B65-qwen-G03-DIRECT-BA-AU-BEI"
+  },
+  {
+    "model": "qwen",
+    "group_id": "G03",
+    "frame": "DIRECT",
+    "construction": "BA",
+    "schema": "UA",
+    "matched": "B65-qwen-G03-DIRECT-BA-UA-BA",
+    "mismatched": "B65-qwen-G03-DIRECT-BA-UA-BEI"
+  },
+  {
+    "model": "qwen",
+    "group_id": "G03",
+    "frame": "DIRECT",
+    "construction": "BEI",
+    "schema": "AU",
+    "matched": "B65-qwen-G03-DIRECT-BEI-AU-BEI",
+    "mismatched": "B65-qwen-G03-DIRECT-BEI-AU-BA"
+  },
+  {
+    "model": "qwen",
+    "group_id": "G03",
+    "frame": "DIRECT",
+    "construction": "BEI",
+    "schema": "UA",
+    "matched": "B65-qwen-G03-DIRECT-BEI-UA-BEI",
+    "mismatched": "B65-qwen-G03-DIRECT-BEI-UA-BA"
+  },
+  {
+    "model": "qwen",
+    "group_id": "G03",
+    "frame": "QUOTED",
+    "construction": "BA",
+    "schema": "AU",
+    "matched": "B65-qwen-G03-QUOTED-BA-AU-BA",
+    "mismatched": "B65-qwen-G03-QUOTED-BA-AU-BEI"
+  },
+  {
+    "model": "qwen",
+    "group_id": "G03",
+    "frame": "QUOTED",
+    "construction": "BA",
+    "schema": "UA",
+    "matched": "B65-qwen-G03-QUOTED-BA-UA-BA",
+    "mismatched": "B65-qwen-G03-QUOTED-BA-UA-BEI"
+  },
+  {
+    "model": "qwen",
+    "group_id": "G03",
+    "frame": "QUOTED",
+    "construction": "BEI",
+    "schema": "AU",
+    "matched": "B65-qwen-G03-QUOTED-BEI-AU-BEI",
+    "mismatched": "B65-qwen-G03-QUOTED-BEI-AU-BA"
+  },
+  {
+    "model": "qwen",
+    "group_id": "G03",
+    "frame": "QUOTED",
+    "construction": "BEI",
+    "schema": "UA",
+    "matched": "B65-qwen-G03-QUOTED-BEI-UA-BEI",
+    "mismatched": "B65-qwen-G03-QUOTED-BEI-UA-BA"
+  },
+  {
+    "model": "qwen",
+    "group_id": "G04",
+    "frame": "DIRECT",
+    "construction": "BA",
+    "schema": "AU",
+    "matched": "B65-qwen-G04-DIRECT-BA-AU-BA",
+    "mismatched": "B65-qwen-G04-DIRECT-BA-AU-BEI"
+  },
+  {
+    "model": "qwen",
+    "group_id": "G04",
+    "frame": "DIRECT",
+    "construction": "BA",
+    "schema": "UA",
+    "matched": "B65-qwen-G04-DIRECT-BA-UA-BA",
+    "mismatched": "B65-qwen-G04-DIRECT-BA-UA-BEI"
+  },
+  {
+    "model": "qwen",
+    "group_id": "G04",
+    "frame": "DIRECT",
+    "construction": "BEI",
+    "schema": "AU",
+    "matched": "B65-qwen-G04-DIRECT-BEI-AU-BEI",
+    "mismatched": "B65-qwen-G04-DIRECT-BEI-AU-BA"
+  },
+  {
+    "model": "qwen",
+    "group_id": "G04",
+    "frame": "DIRECT",
+    "construction": "BEI",
+    "schema": "UA",
+    "matched": "B65-qwen-G04-DIRECT-BEI-UA-BEI",
+    "mismatched": "B65-qwen-G04-DIRECT-BEI-UA-BA"
+  },
+  {
+    "model": "qwen",
+    "group_id": "G04",
+    "frame": "QUOTED",
+    "construction": "BA",
+    "schema": "AU",
+    "matched": "B65-qwen-G04-QUOTED-BA-AU-BA",
+    "mismatched": "B65-qwen-G04-QUOTED-BA-AU-BEI"
+  },
+  {
+    "model": "qwen",
+    "group_id": "G04",
+    "frame": "QUOTED",
+    "construction": "BA",
+    "schema": "UA",
+    "matched": "B65-qwen-G04-QUOTED-BA-UA-BA",
+    "mismatched": "B65-qwen-G04-QUOTED-BA-UA-BEI"
+  },
+  {
+    "model": "qwen",
+    "group_id": "G04",
+    "frame": "QUOTED",
+    "construction": "BEI",
+    "schema": "AU",
+    "matched": "B65-qwen-G04-QUOTED-BEI-AU-BEI",
+    "mismatched": "B65-qwen-G04-QUOTED-BEI-AU-BA"
+  },
+  {
+    "model": "qwen",
+    "group_id": "G04",
+    "frame": "QUOTED",
+    "construction": "BEI",
+    "schema": "UA",
+    "matched": "B65-qwen-G04-QUOTED-BEI-UA-BEI",
+    "mismatched": "B65-qwen-G04-QUOTED-BEI-UA-BA"
+  },
+  {
+    "model": "qwen",
+    "group_id": "G05",
+    "frame": "DIRECT",
+    "construction": "BA",
+    "schema": "AU",
+    "matched": "B65-qwen-G05-DIRECT-BA-AU-BA",
+    "mismatched": "B65-qwen-G05-DIRECT-BA-AU-BEI"
+  },
+  {
+    "model": "qwen",
+    "group_id": "G05",
+    "frame": "DIRECT",
+    "construction": "BA",
+    "schema": "UA",
+    "matched": "B65-qwen-G05-DIRECT-BA-UA-BA",
+    "mismatched": "B65-qwen-G05-DIRECT-BA-UA-BEI"
+  },
+  {
+    "model": "qwen",
+    "group_id": "G05",
+    "frame": "DIRECT",
+    "construction": "BEI",
+    "schema": "AU",
+    "matched": "B65-qwen-G05-DIRECT-BEI-AU-BEI",
+    "mismatched": "B65-qwen-G05-DIRECT-BEI-AU-BA"
+  },
+  {
+    "model": "qwen",
+    "group_id": "G05",
+    "frame": "DIRECT",
+    "construction": "BEI",
+    "schema": "UA",
+    "matched": "B65-qwen-G05-DIRECT-BEI-UA-BEI",
+    "mismatched": "B65-qwen-G05-DIRECT-BEI-UA-BA"
+  },
+  {
+    "model": "qwen",
+    "group_id": "G05",
+    "frame": "QUOTED",
+    "construction": "BA",
+    "schema": "AU",
+    "matched": "B65-qwen-G05-QUOTED-BA-AU-BA",
+    "mismatched": "B65-qwen-G05-QUOTED-BA-AU-BEI"
+  },
+  {
+    "model": "qwen",
+    "group_id": "G05",
+    "frame": "QUOTED",
+    "construction": "BA",
+    "schema": "UA",
+    "matched": "B65-qwen-G05-QUOTED-BA-UA-BA",
+    "mismatched": "B65-qwen-G05-QUOTED-BA-UA-BEI"
+  },
+  {
+    "model": "qwen",
+    "group_id": "G05",
+    "frame": "QUOTED",
+    "construction": "BEI",
+    "schema": "AU",
+    "matched": "B65-qwen-G05-QUOTED-BEI-AU-BEI",
+    "mismatched": "B65-qwen-G05-QUOTED-BEI-AU-BA"
+  },
+  {
+    "model": "qwen",
+    "group_id": "G05",
+    "frame": "QUOTED",
+    "construction": "BEI",
+    "schema": "UA",
+    "matched": "B65-qwen-G05-QUOTED-BEI-UA-BEI",
+    "mismatched": "B65-qwen-G05-QUOTED-BEI-UA-BA"
+  },
+  {
+    "model": "qwen",
+    "group_id": "G06",
+    "frame": "DIRECT",
+    "construction": "BA",
+    "schema": "AU",
+    "matched": "B65-qwen-G06-DIRECT-BA-AU-BA",
+    "mismatched": "B65-qwen-G06-DIRECT-BA-AU-BEI"
+  },
+  {
+    "model": "qwen",
+    "group_id": "G06",
+    "frame": "DIRECT",
+    "construction": "BA",
+    "schema": "UA",
+    "matched": "B65-qwen-G06-DIRECT-BA-UA-BA",
+    "mismatched": "B65-qwen-G06-DIRECT-BA-UA-BEI"
+  },
+  {
+    "model": "qwen",
+    "group_id": "G06",
+    "frame": "DIRECT",
+    "construction": "BEI",
+    "schema": "AU",
+    "matched": "B65-qwen-G06-DIRECT-BEI-AU-BEI",
+    "mismatched": "B65-qwen-G06-DIRECT-BEI-AU-BA"
+  },
+  {
+    "model": "qwen",
+    "group_id": "G06",
+    "frame": "DIRECT",
+    "construction": "BEI",
+    "schema": "UA",
+    "matched": "B65-qwen-G06-DIRECT-BEI-UA-BEI",
+    "mismatched": "B65-qwen-G06-DIRECT-BEI-UA-BA"
+  },
+  {
+    "model": "qwen",
+    "group_id": "G06",
+    "frame": "QUOTED",
+    "construction": "BA",
+    "schema": "AU",
+    "matched": "B65-qwen-G06-QUOTED-BA-AU-BA",
+    "mismatched": "B65-qwen-G06-QUOTED-BA-AU-BEI"
+  },
+  {
+    "model": "qwen",
+    "group_id": "G06",
+    "frame": "QUOTED",
+    "construction": "BA",
+    "schema": "UA",
+    "matched": "B65-qwen-G06-QUOTED-BA-UA-BA",
+    "mismatched": "B65-qwen-G06-QUOTED-BA-UA-BEI"
+  },
+  {
+    "model": "qwen",
+    "group_id": "G06",
+    "frame": "QUOTED",
+    "construction": "BEI",
+    "schema": "AU",
+    "matched": "B65-qwen-G06-QUOTED-BEI-AU-BEI",
+    "mismatched": "B65-qwen-G06-QUOTED-BEI-AU-BA"
+  },
+  {
+    "model": "qwen",
+    "group_id": "G06",
+    "frame": "QUOTED",
+    "construction": "BEI",
+    "schema": "UA",
+    "matched": "B65-qwen-G06-QUOTED-BEI-UA-BEI",
+    "mismatched": "B65-qwen-G06-QUOTED-BEI-UA-BA"
+  },
+  {
+    "model": "qwen",
+    "group_id": "G07",
+    "frame": "DIRECT",
+    "construction": "BA",
+    "schema": "AU",
+    "matched": "B65-qwen-G07-DIRECT-BA-AU-BA",
+    "mismatched": "B65-qwen-G07-DIRECT-BA-AU-BEI"
+  },
+  {
+    "model": "qwen",
+    "group_id": "G07",
+    "frame": "DIRECT",
+    "construction": "BA",
+    "schema": "UA",
+    "matched": "B65-qwen-G07-DIRECT-BA-UA-BA",
+    "mismatched": "B65-qwen-G07-DIRECT-BA-UA-BEI"
+  },
+  {
+    "model": "qwen",
+    "group_id": "G07",
+    "frame": "DIRECT",
+    "construction": "BEI",
+    "schema": "AU",
+    "matched": "B65-qwen-G07-DIRECT-BEI-AU-BEI",
+    "mismatched": "B65-qwen-G07-DIRECT-BEI-AU-BA"
+  },
+  {
+    "model": "qwen",
+    "group_id": "G07",
+    "frame": "DIRECT",
+    "construction": "BEI",
+    "schema": "UA",
+    "matched": "B65-qwen-G07-DIRECT-BEI-UA-BEI",
+    "mismatched": "B65-qwen-G07-DIRECT-BEI-UA-BA"
+  },
+  {
+    "model": "qwen",
+    "group_id": "G07",
+    "frame": "QUOTED",
+    "construction": "BA",
+    "schema": "AU",
+    "matched": "B65-qwen-G07-QUOTED-BA-AU-BA",
+    "mismatched": "B65-qwen-G07-QUOTED-BA-AU-BEI"
+  },
+  {
+    "model": "qwen",
+    "group_id": "G07",
+    "frame": "QUOTED",
+    "construction": "BA",
+    "schema": "UA",
+    "matched": "B65-qwen-G07-QUOTED-BA-UA-BA",
+    "mismatched": "B65-qwen-G07-QUOTED-BA-UA-BEI"
+  },
+  {
+    "model": "qwen",
+    "group_id": "G07",
+    "frame": "QUOTED",
+    "construction": "BEI",
+    "schema": "AU",
+    "matched": "B65-qwen-G07-QUOTED-BEI-AU-BEI",
+    "mismatched": "B65-qwen-G07-QUOTED-BEI-AU-BA"
+  },
+  {
+    "model": "qwen",
+    "group_id": "G07",
+    "frame": "QUOTED",
+    "construction": "BEI",
+    "schema": "UA",
+    "matched": "B65-qwen-G07-QUOTED-BEI-UA-BEI",
+    "mismatched": "B65-qwen-G07-QUOTED-BEI-UA-BA"
+  },
+  {
+    "model": "qwen",
+    "group_id": "G08",
+    "frame": "DIRECT",
+    "construction": "BA",
+    "schema": "AU",
+    "matched": "B65-qwen-G08-DIRECT-BA-AU-BA",
+    "mismatched": "B65-qwen-G08-DIRECT-BA-AU-BEI"
+  },
+  {
+    "model": "qwen",
+    "group_id": "G08",
+    "frame": "DIRECT",
+    "construction": "BA",
+    "schema": "UA",
+    "matched": "B65-qwen-G08-DIRECT-BA-UA-BA",
+    "mismatched": "B65-qwen-G08-DIRECT-BA-UA-BEI"
+  },
+  {
+    "model": "qwen",
+    "group_id": "G08",
+    "frame": "DIRECT",
+    "construction": "BEI",
+    "schema": "AU",
+    "matched": "B65-qwen-G08-DIRECT-BEI-AU-BEI",
+    "mismatched": "B65-qwen-G08-DIRECT-BEI-AU-BA"
+  },
+  {
+    "model": "qwen",
+    "group_id": "G08",
+    "frame": "DIRECT",
+    "construction": "BEI",
+    "schema": "UA",
+    "matched": "B65-qwen-G08-DIRECT-BEI-UA-BEI",
+    "mismatched": "B65-qwen-G08-DIRECT-BEI-UA-BA"
+  },
+  {
+    "model": "qwen",
+    "group_id": "G08",
+    "frame": "QUOTED",
+    "construction": "BA",
+    "schema": "AU",
+    "matched": "B65-qwen-G08-QUOTED-BA-AU-BA",
+    "mismatched": "B65-qwen-G08-QUOTED-BA-AU-BEI"
+  },
+  {
+    "model": "qwen",
+    "group_id": "G08",
+    "frame": "QUOTED",
+    "construction": "BA",
+    "schema": "UA",
+    "matched": "B65-qwen-G08-QUOTED-BA-UA-BA",
+    "mismatched": "B65-qwen-G08-QUOTED-BA-UA-BEI"
+  },
+  {
+    "model": "qwen",
+    "group_id": "G08",
+    "frame": "QUOTED",
+    "construction": "BEI",
+    "schema": "AU",
+    "matched": "B65-qwen-G08-QUOTED-BEI-AU-BEI",
+    "mismatched": "B65-qwen-G08-QUOTED-BEI-AU-BA"
+  },
+  {
+    "model": "qwen",
+    "group_id": "G08",
+    "frame": "QUOTED",
+    "construction": "BEI",
+    "schema": "UA",
+    "matched": "B65-qwen-G08-QUOTED-BEI-UA-BEI",
+    "mismatched": "B65-qwen-G08-QUOTED-BEI-UA-BA"
+  },
+  {
+    "model": "qwen",
+    "group_id": "G09",
+    "frame": "DIRECT",
+    "construction": "BA",
+    "schema": "AU",
+    "matched": "B65-qwen-G09-DIRECT-BA-AU-BA",
+    "mismatched": "B65-qwen-G09-DIRECT-BA-AU-BEI"
+  },
+  {
+    "model": "qwen",
+    "group_id": "G09",
+    "frame": "DIRECT",
+    "construction": "BA",
+    "schema": "UA",
+    "matched": "B65-qwen-G09-DIRECT-BA-UA-BA",
+    "mismatched": "B65-qwen-G09-DIRECT-BA-UA-BEI"
+  },
+  {
+    "model": "qwen",
+    "group_id": "G09",
+    "frame": "DIRECT",
+    "construction": "BEI",
+    "schema": "AU",
+    "matched": "B65-qwen-G09-DIRECT-BEI-AU-BEI",
+    "mismatched": "B65-qwen-G09-DIRECT-BEI-AU-BA"
+  },
+  {
+    "model": "qwen",
+    "group_id": "G09",
+    "frame": "DIRECT",
+    "construction": "BEI",
+    "schema": "UA",
+    "matched": "B65-qwen-G09-DIRECT-BEI-UA-BEI",
+    "mismatched": "B65-qwen-G09-DIRECT-BEI-UA-BA"
+  },
+  {
+    "model": "qwen",
+    "group_id": "G09",
+    "frame": "QUOTED",
+    "construction": "BA",
+    "schema": "AU",
+    "matched": "B65-qwen-G09-QUOTED-BA-AU-BA",
+    "mismatched": "B65-qwen-G09-QUOTED-BA-AU-BEI"
+  },
+  {
+    "model": "qwen",
+    "group_id": "G09",
+    "frame": "QUOTED",
+    "construction": "BA",
+    "schema": "UA",
+    "matched": "B65-qwen-G09-QUOTED-BA-UA-BA",
+    "mismatched": "B65-qwen-G09-QUOTED-BA-UA-BEI"
+  },
+  {
+    "model": "qwen",
+    "group_id": "G09",
+    "frame": "QUOTED",
+    "construction": "BEI",
+    "schema": "AU",
+    "matched": "B65-qwen-G09-QUOTED-BEI-AU-BEI",
+    "mismatched": "B65-qwen-G09-QUOTED-BEI-AU-BA"
+  },
+  {
+    "model": "qwen",
+    "group_id": "G09",
+    "frame": "QUOTED",
+    "construction": "BEI",
+    "schema": "UA",
+    "matched": "B65-qwen-G09-QUOTED-BEI-UA-BEI",
+    "mismatched": "B65-qwen-G09-QUOTED-BEI-UA-BA"
+  },
+  {
+    "model": "qwen",
+    "group_id": "G10",
+    "frame": "DIRECT",
+    "construction": "BA",
+    "schema": "AU",
+    "matched": "B65-qwen-G10-DIRECT-BA-AU-BA",
+    "mismatched": "B65-qwen-G10-DIRECT-BA-AU-BEI"
+  },
+  {
+    "model": "qwen",
+    "group_id": "G10",
+    "frame": "DIRECT",
+    "construction": "BA",
+    "schema": "UA",
+    "matched": "B65-qwen-G10-DIRECT-BA-UA-BA",
+    "mismatched": "B65-qwen-G10-DIRECT-BA-UA-BEI"
+  },
+  {
+    "model": "qwen",
+    "group_id": "G10",
+    "frame": "DIRECT",
+    "construction": "BEI",
+    "schema": "AU",
+    "matched": "B65-qwen-G10-DIRECT-BEI-AU-BEI",
+    "mismatched": "B65-qwen-G10-DIRECT-BEI-AU-BA"
+  },
+  {
+    "model": "qwen",
+    "group_id": "G10",
+    "frame": "DIRECT",
+    "construction": "BEI",
+    "schema": "UA",
+    "matched": "B65-qwen-G10-DIRECT-BEI-UA-BEI",
+    "mismatched": "B65-qwen-G10-DIRECT-BEI-UA-BA"
+  },
+  {
+    "model": "qwen",
+    "group_id": "G10",
+    "frame": "QUOTED",
+    "construction": "BA",
+    "schema": "AU",
+    "matched": "B65-qwen-G10-QUOTED-BA-AU-BA",
+    "mismatched": "B65-qwen-G10-QUOTED-BA-AU-BEI"
+  },
+  {
+    "model": "qwen",
+    "group_id": "G10",
+    "frame": "QUOTED",
+    "construction": "BA",
+    "schema": "UA",
+    "matched": "B65-qwen-G10-QUOTED-BA-UA-BA",
+    "mismatched": "B65-qwen-G10-QUOTED-BA-UA-BEI"
+  },
+  {
+    "model": "qwen",
+    "group_id": "G10",
+    "frame": "QUOTED",
+    "construction": "BEI",
+    "schema": "AU",
+    "matched": "B65-qwen-G10-QUOTED-BEI-AU-BEI",
+    "mismatched": "B65-qwen-G10-QUOTED-BEI-AU-BA"
+  },
+  {
+    "model": "qwen",
+    "group_id": "G10",
+    "frame": "QUOTED",
+    "construction": "BEI",
+    "schema": "UA",
+    "matched": "B65-qwen-G10-QUOTED-BEI-UA-BEI",
+    "mismatched": "B65-qwen-G10-QUOTED-BEI-UA-BA"
+  },
+  {
+    "model": "qwen",
+    "group_id": "G11",
+    "frame": "DIRECT",
+    "construction": "BA",
+    "schema": "AU",
+    "matched": "B65-qwen-G11-DIRECT-BA-AU-BA",
+    "mismatched": "B65-qwen-G11-DIRECT-BA-AU-BEI"
+  },
+  {
+    "model": "qwen",
+    "group_id": "G11",
+    "frame": "DIRECT",
+    "construction": "BA",
+    "schema": "UA",
+    "matched": "B65-qwen-G11-DIRECT-BA-UA-BA",
+    "mismatched": "B65-qwen-G11-DIRECT-BA-UA-BEI"
+  },
+  {
+    "model": "qwen",
+    "group_id": "G11",
+    "frame": "DIRECT",
+    "construction": "BEI",
+    "schema": "AU",
+    "matched": "B65-qwen-G11-DIRECT-BEI-AU-BEI",
+    "mismatched": "B65-qwen-G11-DIRECT-BEI-AU-BA"
+  },
+  {
+    "model": "qwen",
+    "group_id": "G11",
+    "frame": "DIRECT",
+    "construction": "BEI",
+    "schema": "UA",
+    "matched": "B65-qwen-G11-DIRECT-BEI-UA-BEI",
+    "mismatched": "B65-qwen-G11-DIRECT-BEI-UA-BA"
+  },
+  {
+    "model": "qwen",
+    "group_id": "G11",
+    "frame": "QUOTED",
+    "construction": "BA",
+    "schema": "AU",
+    "matched": "B65-qwen-G11-QUOTED-BA-AU-BA",
+    "mismatched": "B65-qwen-G11-QUOTED-BA-AU-BEI"
+  },
+  {
+    "model": "qwen",
+    "group_id": "G11",
+    "frame": "QUOTED",
+    "construction": "BA",
+    "schema": "UA",
+    "matched": "B65-qwen-G11-QUOTED-BA-UA-BA",
+    "mismatched": "B65-qwen-G11-QUOTED-BA-UA-BEI"
+  },
+  {
+    "model": "qwen",
+    "group_id": "G11",
+    "frame": "QUOTED",
+    "construction": "BEI",
+    "schema": "AU",
+    "matched": "B65-qwen-G11-QUOTED-BEI-AU-BEI",
+    "mismatched": "B65-qwen-G11-QUOTED-BEI-AU-BA"
+  },
+  {
+    "model": "qwen",
+    "group_id": "G11",
+    "frame": "QUOTED",
+    "construction": "BEI",
+    "schema": "UA",
+    "matched": "B65-qwen-G11-QUOTED-BEI-UA-BEI",
+    "mismatched": "B65-qwen-G11-QUOTED-BEI-UA-BA"
+  },
+  {
+    "model": "qwen",
+    "group_id": "G12",
+    "frame": "DIRECT",
+    "construction": "BA",
+    "schema": "AU",
+    "matched": "B65-qwen-G12-DIRECT-BA-AU-BA",
+    "mismatched": "B65-qwen-G12-DIRECT-BA-AU-BEI"
+  },
+  {
+    "model": "qwen",
+    "group_id": "G12",
+    "frame": "DIRECT",
+    "construction": "BA",
+    "schema": "UA",
+    "matched": "B65-qwen-G12-DIRECT-BA-UA-BA",
+    "mismatched": "B65-qwen-G12-DIRECT-BA-UA-BEI"
+  },
+  {
+    "model": "qwen",
+    "group_id": "G12",
+    "frame": "DIRECT",
+    "construction": "BEI",
+    "schema": "AU",
+    "matched": "B65-qwen-G12-DIRECT-BEI-AU-BEI",
+    "mismatched": "B65-qwen-G12-DIRECT-BEI-AU-BA"
+  },
+  {
+    "model": "qwen",
+    "group_id": "G12",
+    "frame": "DIRECT",
+    "construction": "BEI",
+    "schema": "UA",
+    "matched": "B65-qwen-G12-DIRECT-BEI-UA-BEI",
+    "mismatched": "B65-qwen-G12-DIRECT-BEI-UA-BA"
+  },
+  {
+    "model": "qwen",
+    "group_id": "G12",
+    "frame": "QUOTED",
+    "construction": "BA",
+    "schema": "AU",
+    "matched": "B65-qwen-G12-QUOTED-BA-AU-BA",
+    "mismatched": "B65-qwen-G12-QUOTED-BA-AU-BEI"
+  },
+  {
+    "model": "qwen",
+    "group_id": "G12",
+    "frame": "QUOTED",
+    "construction": "BA",
+    "schema": "UA",
+    "matched": "B65-qwen-G12-QUOTED-BA-UA-BA",
+    "mismatched": "B65-qwen-G12-QUOTED-BA-UA-BEI"
+  },
+  {
+    "model": "qwen",
+    "group_id": "G12",
+    "frame": "QUOTED",
+    "construction": "BEI",
+    "schema": "AU",
+    "matched": "B65-qwen-G12-QUOTED-BEI-AU-BEI",
+    "mismatched": "B65-qwen-G12-QUOTED-BEI-AU-BA"
+  },
+  {
+    "model": "qwen",
+    "group_id": "G12",
+    "frame": "QUOTED",
+    "construction": "BEI",
+    "schema": "UA",
+    "matched": "B65-qwen-G12-QUOTED-BEI-UA-BEI",
+    "mismatched": "B65-qwen-G12-QUOTED-BEI-UA-BA"
+  },
+  {
+    "model": "qwen",
+    "group_id": "G13",
+    "frame": "DIRECT",
+    "construction": "BA",
+    "schema": "AU",
+    "matched": "B65-qwen-G13-DIRECT-BA-AU-BA",
+    "mismatched": "B65-qwen-G13-DIRECT-BA-AU-BEI"
+  },
+  {
+    "model": "qwen",
+    "group_id": "G13",
+    "frame": "DIRECT",
+    "construction": "BA",
+    "schema": "UA",
+    "matched": "B65-qwen-G13-DIRECT-BA-UA-BA",
+    "mismatched": "B65-qwen-G13-DIRECT-BA-UA-BEI"
+  },
+  {
+    "model": "qwen",
+    "group_id": "G13",
+    "frame": "DIRECT",
+    "construction": "BEI",
+    "schema": "AU",
+    "matched": "B65-qwen-G13-DIRECT-BEI-AU-BEI",
+    "mismatched": "B65-qwen-G13-DIRECT-BEI-AU-BA"
+  },
+  {
+    "model": "qwen",
+    "group_id": "G13",
+    "frame": "DIRECT",
+    "construction": "BEI",
+    "schema": "UA",
+    "matched": "B65-qwen-G13-DIRECT-BEI-UA-BEI",
+    "mismatched": "B65-qwen-G13-DIRECT-BEI-UA-BA"
+  },
+  {
+    "model": "qwen",
+    "group_id": "G13",
+    "frame": "QUOTED",
+    "construction": "BA",
+    "schema": "AU",
+    "matched": "B65-qwen-G13-QUOTED-BA-AU-BA",
+    "mismatched": "B65-qwen-G13-QUOTED-BA-AU-BEI"
+  },
+  {
+    "model": "qwen",
+    "group_id": "G13",
+    "frame": "QUOTED",
+    "construction": "BA",
+    "schema": "UA",
+    "matched": "B65-qwen-G13-QUOTED-BA-UA-BA",
+    "mismatched": "B65-qwen-G13-QUOTED-BA-UA-BEI"
+  },
+  {
+    "model": "qwen",
+    "group_id": "G13",
+    "frame": "QUOTED",
+    "construction": "BEI",
+    "schema": "AU",
+    "matched": "B65-qwen-G13-QUOTED-BEI-AU-BEI",
+    "mismatched": "B65-qwen-G13-QUOTED-BEI-AU-BA"
+  },
+  {
+    "model": "qwen",
+    "group_id": "G13",
+    "frame": "QUOTED",
+    "construction": "BEI",
+    "schema": "UA",
+    "matched": "B65-qwen-G13-QUOTED-BEI-UA-BEI",
+    "mismatched": "B65-qwen-G13-QUOTED-BEI-UA-BA"
+  },
+  {
+    "model": "qwen",
+    "group_id": "G14",
+    "frame": "DIRECT",
+    "construction": "BA",
+    "schema": "AU",
+    "matched": "B65-qwen-G14-DIRECT-BA-AU-BA",
+    "mismatched": "B65-qwen-G14-DIRECT-BA-AU-BEI"
+  },
+  {
+    "model": "qwen",
+    "group_id": "G14",
+    "frame": "DIRECT",
+    "construction": "BA",
+    "schema": "UA",
+    "matched": "B65-qwen-G14-DIRECT-BA-UA-BA",
+    "mismatched": "B65-qwen-G14-DIRECT-BA-UA-BEI"
+  },
+  {
+    "model": "qwen",
+    "group_id": "G14",
+    "frame": "DIRECT",
+    "construction": "BEI",
+    "schema": "AU",
+    "matched": "B65-qwen-G14-DIRECT-BEI-AU-BEI",
+    "mismatched": "B65-qwen-G14-DIRECT-BEI-AU-BA"
+  },
+  {
+    "model": "qwen",
+    "group_id": "G14",
+    "frame": "DIRECT",
+    "construction": "BEI",
+    "schema": "UA",
+    "matched": "B65-qwen-G14-DIRECT-BEI-UA-BEI",
+    "mismatched": "B65-qwen-G14-DIRECT-BEI-UA-BA"
+  },
+  {
+    "model": "qwen",
+    "group_id": "G14",
+    "frame": "QUOTED",
+    "construction": "BA",
+    "schema": "AU",
+    "matched": "B65-qwen-G14-QUOTED-BA-AU-BA",
+    "mismatched": "B65-qwen-G14-QUOTED-BA-AU-BEI"
+  },
+  {
+    "model": "qwen",
+    "group_id": "G14",
+    "frame": "QUOTED",
+    "construction": "BA",
+    "schema": "UA",
+    "matched": "B65-qwen-G14-QUOTED-BA-UA-BA",
+    "mismatched": "B65-qwen-G14-QUOTED-BA-UA-BEI"
+  },
+  {
+    "model": "qwen",
+    "group_id": "G14",
+    "frame": "QUOTED",
+    "construction": "BEI",
+    "schema": "AU",
+    "matched": "B65-qwen-G14-QUOTED-BEI-AU-BEI",
+    "mismatched": "B65-qwen-G14-QUOTED-BEI-AU-BA"
+  },
+  {
+    "model": "qwen",
+    "group_id": "G14",
+    "frame": "QUOTED",
+    "construction": "BEI",
+    "schema": "UA",
+    "matched": "B65-qwen-G14-QUOTED-BEI-UA-BEI",
+    "mismatched": "B65-qwen-G14-QUOTED-BEI-UA-BA"
+  },
+  {
+    "model": "qwen",
+    "group_id": "G15",
+    "frame": "DIRECT",
+    "construction": "BA",
+    "schema": "AU",
+    "matched": "B65-qwen-G15-DIRECT-BA-AU-BA",
+    "mismatched": "B65-qwen-G15-DIRECT-BA-AU-BEI"
+  },
+  {
+    "model": "qwen",
+    "group_id": "G15",
+    "frame": "DIRECT",
+    "construction": "BA",
+    "schema": "UA",
+    "matched": "B65-qwen-G15-DIRECT-BA-UA-BA",
+    "mismatched": "B65-qwen-G15-DIRECT-BA-UA-BEI"
+  },
+  {
+    "model": "qwen",
+    "group_id": "G15",
+    "frame": "DIRECT",
+    "construction": "BEI",
+    "schema": "AU",
+    "matched": "B65-qwen-G15-DIRECT-BEI-AU-BEI",
+    "mismatched": "B65-qwen-G15-DIRECT-BEI-AU-BA"
+  },
+  {
+    "model": "qwen",
+    "group_id": "G15",
+    "frame": "DIRECT",
+    "construction": "BEI",
+    "schema": "UA",
+    "matched": "B65-qwen-G15-DIRECT-BEI-UA-BEI",
+    "mismatched": "B65-qwen-G15-DIRECT-BEI-UA-BA"
+  },
+  {
+    "model": "qwen",
+    "group_id": "G15",
+    "frame": "QUOTED",
+    "construction": "BA",
+    "schema": "AU",
+    "matched": "B65-qwen-G15-QUOTED-BA-AU-BA",
+    "mismatched": "B65-qwen-G15-QUOTED-BA-AU-BEI"
+  },
+  {
+    "model": "qwen",
+    "group_id": "G15",
+    "frame": "QUOTED",
+    "construction": "BA",
+    "schema": "UA",
+    "matched": "B65-qwen-G15-QUOTED-BA-UA-BA",
+    "mismatched": "B65-qwen-G15-QUOTED-BA-UA-BEI"
+  },
+  {
+    "model": "qwen",
+    "group_id": "G15",
+    "frame": "QUOTED",
+    "construction": "BEI",
+    "schema": "AU",
+    "matched": "B65-qwen-G15-QUOTED-BEI-AU-BEI",
+    "mismatched": "B65-qwen-G15-QUOTED-BEI-AU-BA"
+  },
+  {
+    "model": "qwen",
+    "group_id": "G15",
+    "frame": "QUOTED",
+    "construction": "BEI",
+    "schema": "UA",
+    "matched": "B65-qwen-G15-QUOTED-BEI-UA-BEI",
+    "mismatched": "B65-qwen-G15-QUOTED-BEI-UA-BA"
+  },
+  {
+    "model": "qwen",
+    "group_id": "G16",
+    "frame": "DIRECT",
+    "construction": "BA",
+    "schema": "AU",
+    "matched": "B65-qwen-G16-DIRECT-BA-AU-BA",
+    "mismatched": "B65-qwen-G16-DIRECT-BA-AU-BEI"
+  },
+  {
+    "model": "qwen",
+    "group_id": "G16",
+    "frame": "DIRECT",
+    "construction": "BA",
+    "schema": "UA",
+    "matched": "B65-qwen-G16-DIRECT-BA-UA-BA",
+    "mismatched": "B65-qwen-G16-DIRECT-BA-UA-BEI"
+  },
+  {
+    "model": "qwen",
+    "group_id": "G16",
+    "frame": "DIRECT",
+    "construction": "BEI",
+    "schema": "AU",
+    "matched": "B65-qwen-G16-DIRECT-BEI-AU-BEI",
+    "mismatched": "B65-qwen-G16-DIRECT-BEI-AU-BA"
+  },
+  {
+    "model": "qwen",
+    "group_id": "G16",
+    "frame": "DIRECT",
+    "construction": "BEI",
+    "schema": "UA",
+    "matched": "B65-qwen-G16-DIRECT-BEI-UA-BEI",
+    "mismatched": "B65-qwen-G16-DIRECT-BEI-UA-BA"
+  },
+  {
+    "model": "qwen",
+    "group_id": "G16",
+    "frame": "QUOTED",
+    "construction": "BA",
+    "schema": "AU",
+    "matched": "B65-qwen-G16-QUOTED-BA-AU-BA",
+    "mismatched": "B65-qwen-G16-QUOTED-BA-AU-BEI"
+  },
+  {
+    "model": "qwen",
+    "group_id": "G16",
+    "frame": "QUOTED",
+    "construction": "BA",
+    "schema": "UA",
+    "matched": "B65-qwen-G16-QUOTED-BA-UA-BA",
+    "mismatched": "B65-qwen-G16-QUOTED-BA-UA-BEI"
+  },
+  {
+    "model": "qwen",
+    "group_id": "G16",
+    "frame": "QUOTED",
+    "construction": "BEI",
+    "schema": "AU",
+    "matched": "B65-qwen-G16-QUOTED-BEI-AU-BEI",
+    "mismatched": "B65-qwen-G16-QUOTED-BEI-AU-BA"
+  },
+  {
+    "model": "qwen",
+    "group_id": "G16",
+    "frame": "QUOTED",
+    "construction": "BEI",
+    "schema": "UA",
+    "matched": "B65-qwen-G16-QUOTED-BEI-UA-BEI",
+    "mismatched": "B65-qwen-G16-QUOTED-BEI-UA-BA"
+  },
+  {
+    "model": "qwen",
+    "group_id": "G17",
+    "frame": "DIRECT",
+    "construction": "BA",
+    "schema": "AU",
+    "matched": "B65-qwen-G17-DIRECT-BA-AU-BA",
+    "mismatched": "B65-qwen-G17-DIRECT-BA-AU-BEI"
+  },
+  {
+    "model": "qwen",
+    "group_id": "G17",
+    "frame": "DIRECT",
+    "construction": "BA",
+    "schema": "UA",
+    "matched": "B65-qwen-G17-DIRECT-BA-UA-BA",
+    "mismatched": "B65-qwen-G17-DIRECT-BA-UA-BEI"
+  },
+  {
+    "model": "qwen",
+    "group_id": "G17",
+    "frame": "DIRECT",
+    "construction": "BEI",
+    "schema": "AU",
+    "matched": "B65-qwen-G17-DIRECT-BEI-AU-BEI",
+    "mismatched": "B65-qwen-G17-DIRECT-BEI-AU-BA"
+  },
+  {
+    "model": "qwen",
+    "group_id": "G17",
+    "frame": "DIRECT",
+    "construction": "BEI",
+    "schema": "UA",
+    "matched": "B65-qwen-G17-DIRECT-BEI-UA-BEI",
+    "mismatched": "B65-qwen-G17-DIRECT-BEI-UA-BA"
+  },
+  {
+    "model": "qwen",
+    "group_id": "G17",
+    "frame": "QUOTED",
+    "construction": "BA",
+    "schema": "AU",
+    "matched": "B65-qwen-G17-QUOTED-BA-AU-BA",
+    "mismatched": "B65-qwen-G17-QUOTED-BA-AU-BEI"
+  },
+  {
+    "model": "qwen",
+    "group_id": "G17",
+    "frame": "QUOTED",
+    "construction": "BA",
+    "schema": "UA",
+    "matched": "B65-qwen-G17-QUOTED-BA-UA-BA",
+    "mismatched": "B65-qwen-G17-QUOTED-BA-UA-BEI"
+  },
+  {
+    "model": "qwen",
+    "group_id": "G17",
+    "frame": "QUOTED",
+    "construction": "BEI",
+    "schema": "AU",
+    "matched": "B65-qwen-G17-QUOTED-BEI-AU-BEI",
+    "mismatched": "B65-qwen-G17-QUOTED-BEI-AU-BA"
+  },
+  {
+    "model": "qwen",
+    "group_id": "G17",
+    "frame": "QUOTED",
+    "construction": "BEI",
+    "schema": "UA",
+    "matched": "B65-qwen-G17-QUOTED-BEI-UA-BEI",
+    "mismatched": "B65-qwen-G17-QUOTED-BEI-UA-BA"
+  },
+  {
+    "model": "qwen",
+    "group_id": "G18",
+    "frame": "DIRECT",
+    "construction": "BA",
+    "schema": "AU",
+    "matched": "B65-qwen-G18-DIRECT-BA-AU-BA",
+    "mismatched": "B65-qwen-G18-DIRECT-BA-AU-BEI"
+  },
+  {
+    "model": "qwen",
+    "group_id": "G18",
+    "frame": "DIRECT",
+    "construction": "BA",
+    "schema": "UA",
+    "matched": "B65-qwen-G18-DIRECT-BA-UA-BA",
+    "mismatched": "B65-qwen-G18-DIRECT-BA-UA-BEI"
+  },
+  {
+    "model": "qwen",
+    "group_id": "G18",
+    "frame": "DIRECT",
+    "construction": "BEI",
+    "schema": "AU",
+    "matched": "B65-qwen-G18-DIRECT-BEI-AU-BEI",
+    "mismatched": "B65-qwen-G18-DIRECT-BEI-AU-BA"
+  },
+  {
+    "model": "qwen",
+    "group_id": "G18",
+    "frame": "DIRECT",
+    "construction": "BEI",
+    "schema": "UA",
+    "matched": "B65-qwen-G18-DIRECT-BEI-UA-BEI",
+    "mismatched": "B65-qwen-G18-DIRECT-BEI-UA-BA"
+  },
+  {
+    "model": "qwen",
+    "group_id": "G18",
+    "frame": "QUOTED",
+    "construction": "BA",
+    "schema": "AU",
+    "matched": "B65-qwen-G18-QUOTED-BA-AU-BA",
+    "mismatched": "B65-qwen-G18-QUOTED-BA-AU-BEI"
+  },
+  {
+    "model": "qwen",
+    "group_id": "G18",
+    "frame": "QUOTED",
+    "construction": "BA",
+    "schema": "UA",
+    "matched": "B65-qwen-G18-QUOTED-BA-UA-BA",
+    "mismatched": "B65-qwen-G18-QUOTED-BA-UA-BEI"
+  },
+  {
+    "model": "qwen",
+    "group_id": "G18",
+    "frame": "QUOTED",
+    "construction": "BEI",
+    "schema": "AU",
+    "matched": "B65-qwen-G18-QUOTED-BEI-AU-BEI",
+    "mismatched": "B65-qwen-G18-QUOTED-BEI-AU-BA"
+  },
+  {
+    "model": "qwen",
+    "group_id": "G18",
+    "frame": "QUOTED",
+    "construction": "BEI",
+    "schema": "UA",
+    "matched": "B65-qwen-G18-QUOTED-BEI-UA-BEI",
+    "mismatched": "B65-qwen-G18-QUOTED-BEI-UA-BA"
+  },
+  {
+    "model": "qwen",
+    "group_id": "G19",
+    "frame": "DIRECT",
+    "construction": "BA",
+    "schema": "AU",
+    "matched": "B65-qwen-G19-DIRECT-BA-AU-BA",
+    "mismatched": "B65-qwen-G19-DIRECT-BA-AU-BEI"
+  },
+  {
+    "model": "qwen",
+    "group_id": "G19",
+    "frame": "DIRECT",
+    "construction": "BA",
+    "schema": "UA",
+    "matched": "B65-qwen-G19-DIRECT-BA-UA-BA",
+    "mismatched": "B65-qwen-G19-DIRECT-BA-UA-BEI"
+  },
+  {
+    "model": "qwen",
+    "group_id": "G19",
+    "frame": "DIRECT",
+    "construction": "BEI",
+    "schema": "AU",
+    "matched": "B65-qwen-G19-DIRECT-BEI-AU-BEI",
+    "mismatched": "B65-qwen-G19-DIRECT-BEI-AU-BA"
+  },
+  {
+    "model": "qwen",
+    "group_id": "G19",
+    "frame": "DIRECT",
+    "construction": "BEI",
+    "schema": "UA",
+    "matched": "B65-qwen-G19-DIRECT-BEI-UA-BEI",
+    "mismatched": "B65-qwen-G19-DIRECT-BEI-UA-BA"
+  },
+  {
+    "model": "qwen",
+    "group_id": "G19",
+    "frame": "QUOTED",
+    "construction": "BA",
+    "schema": "AU",
+    "matched": "B65-qwen-G19-QUOTED-BA-AU-BA",
+    "mismatched": "B65-qwen-G19-QUOTED-BA-AU-BEI"
+  },
+  {
+    "model": "qwen",
+    "group_id": "G19",
+    "frame": "QUOTED",
+    "construction": "BA",
+    "schema": "UA",
+    "matched": "B65-qwen-G19-QUOTED-BA-UA-BA",
+    "mismatched": "B65-qwen-G19-QUOTED-BA-UA-BEI"
+  },
+  {
+    "model": "qwen",
+    "group_id": "G19",
+    "frame": "QUOTED",
+    "construction": "BEI",
+    "schema": "AU",
+    "matched": "B65-qwen-G19-QUOTED-BEI-AU-BEI",
+    "mismatched": "B65-qwen-G19-QUOTED-BEI-AU-BA"
+  },
+  {
+    "model": "qwen",
+    "group_id": "G19",
+    "frame": "QUOTED",
+    "construction": "BEI",
+    "schema": "UA",
+    "matched": "B65-qwen-G19-QUOTED-BEI-UA-BEI",
+    "mismatched": "B65-qwen-G19-QUOTED-BEI-UA-BA"
+  },
+  {
+    "model": "qwen",
+    "group_id": "G20",
+    "frame": "DIRECT",
+    "construction": "BA",
+    "schema": "AU",
+    "matched": "B65-qwen-G20-DIRECT-BA-AU-BA",
+    "mismatched": "B65-qwen-G20-DIRECT-BA-AU-BEI"
+  },
+  {
+    "model": "qwen",
+    "group_id": "G20",
+    "frame": "DIRECT",
+    "construction": "BA",
+    "schema": "UA",
+    "matched": "B65-qwen-G20-DIRECT-BA-UA-BA",
+    "mismatched": "B65-qwen-G20-DIRECT-BA-UA-BEI"
+  },
+  {
+    "model": "qwen",
+    "group_id": "G20",
+    "frame": "DIRECT",
+    "construction": "BEI",
+    "schema": "AU",
+    "matched": "B65-qwen-G20-DIRECT-BEI-AU-BEI",
+    "mismatched": "B65-qwen-G20-DIRECT-BEI-AU-BA"
+  },
+  {
+    "model": "qwen",
+    "group_id": "G20",
+    "frame": "DIRECT",
+    "construction": "BEI",
+    "schema": "UA",
+    "matched": "B65-qwen-G20-DIRECT-BEI-UA-BEI",
+    "mismatched": "B65-qwen-G20-DIRECT-BEI-UA-BA"
+  },
+  {
+    "model": "qwen",
+    "group_id": "G20",
+    "frame": "QUOTED",
+    "construction": "BA",
+    "schema": "AU",
+    "matched": "B65-qwen-G20-QUOTED-BA-AU-BA",
+    "mismatched": "B65-qwen-G20-QUOTED-BA-AU-BEI"
+  },
+  {
+    "model": "qwen",
+    "group_id": "G20",
+    "frame": "QUOTED",
+    "construction": "BA",
+    "schema": "UA",
+    "matched": "B65-qwen-G20-QUOTED-BA-UA-BA",
+    "mismatched": "B65-qwen-G20-QUOTED-BA-UA-BEI"
+  },
+  {
+    "model": "qwen",
+    "group_id": "G20",
+    "frame": "QUOTED",
+    "construction": "BEI",
+    "schema": "AU",
+    "matched": "B65-qwen-G20-QUOTED-BEI-AU-BEI",
+    "mismatched": "B65-qwen-G20-QUOTED-BEI-AU-BA"
+  },
+  {
+    "model": "qwen",
+    "group_id": "G20",
+    "frame": "QUOTED",
+    "construction": "BEI",
+    "schema": "UA",
+    "matched": "B65-qwen-G20-QUOTED-BEI-UA-BEI",
+    "mismatched": "B65-qwen-G20-QUOTED-BEI-UA-BA"
+  },
+  {
+    "model": "qwen",
+    "group_id": "G21",
+    "frame": "DIRECT",
+    "construction": "BA",
+    "schema": "AU",
+    "matched": "B65-qwen-G21-DIRECT-BA-AU-BA",
+    "mismatched": "B65-qwen-G21-DIRECT-BA-AU-BEI"
+  },
+  {
+    "model": "qwen",
+    "group_id": "G21",
+    "frame": "DIRECT",
+    "construction": "BA",
+    "schema": "UA",
+    "matched": "B65-qwen-G21-DIRECT-BA-UA-BA",
+    "mismatched": "B65-qwen-G21-DIRECT-BA-UA-BEI"
+  },
+  {
+    "model": "qwen",
+    "group_id": "G21",
+    "frame": "DIRECT",
+    "construction": "BEI",
+    "schema": "AU",
+    "matched": "B65-qwen-G21-DIRECT-BEI-AU-BEI",
+    "mismatched": "B65-qwen-G21-DIRECT-BEI-AU-BA"
+  },
+  {
+    "model": "qwen",
+    "group_id": "G21",
+    "frame": "DIRECT",
+    "construction": "BEI",
+    "schema": "UA",
+    "matched": "B65-qwen-G21-DIRECT-BEI-UA-BEI",
+    "mismatched": "B65-qwen-G21-DIRECT-BEI-UA-BA"
+  },
+  {
+    "model": "qwen",
+    "group_id": "G21",
+    "frame": "QUOTED",
+    "construction": "BA",
+    "schema": "AU",
+    "matched": "B65-qwen-G21-QUOTED-BA-AU-BA",
+    "mismatched": "B65-qwen-G21-QUOTED-BA-AU-BEI"
+  },
+  {
+    "model": "qwen",
+    "group_id": "G21",
+    "frame": "QUOTED",
+    "construction": "BA",
+    "schema": "UA",
+    "matched": "B65-qwen-G21-QUOTED-BA-UA-BA",
+    "mismatched": "B65-qwen-G21-QUOTED-BA-UA-BEI"
+  },
+  {
+    "model": "qwen",
+    "group_id": "G21",
+    "frame": "QUOTED",
+    "construction": "BEI",
+    "schema": "AU",
+    "matched": "B65-qwen-G21-QUOTED-BEI-AU-BEI",
+    "mismatched": "B65-qwen-G21-QUOTED-BEI-AU-BA"
+  },
+  {
+    "model": "qwen",
+    "group_id": "G21",
+    "frame": "QUOTED",
+    "construction": "BEI",
+    "schema": "UA",
+    "matched": "B65-qwen-G21-QUOTED-BEI-UA-BEI",
+    "mismatched": "B65-qwen-G21-QUOTED-BEI-UA-BA"
+  },
+  {
+    "model": "qwen",
+    "group_id": "G22",
+    "frame": "DIRECT",
+    "construction": "BA",
+    "schema": "AU",
+    "matched": "B65-qwen-G22-DIRECT-BA-AU-BA",
+    "mismatched": "B65-qwen-G22-DIRECT-BA-AU-BEI"
+  },
+  {
+    "model": "qwen",
+    "group_id": "G22",
+    "frame": "DIRECT",
+    "construction": "BA",
+    "schema": "UA",
+    "matched": "B65-qwen-G22-DIRECT-BA-UA-BA",
+    "mismatched": "B65-qwen-G22-DIRECT-BA-UA-BEI"
+  },
+  {
+    "model": "qwen",
+    "group_id": "G22",
+    "frame": "DIRECT",
+    "construction": "BEI",
+    "schema": "AU",
+    "matched": "B65-qwen-G22-DIRECT-BEI-AU-BEI",
+    "mismatched": "B65-qwen-G22-DIRECT-BEI-AU-BA"
+  },
+  {
+    "model": "qwen",
+    "group_id": "G22",
+    "frame": "DIRECT",
+    "construction": "BEI",
+    "schema": "UA",
+    "matched": "B65-qwen-G22-DIRECT-BEI-UA-BEI",
+    "mismatched": "B65-qwen-G22-DIRECT-BEI-UA-BA"
+  },
+  {
+    "model": "qwen",
+    "group_id": "G22",
+    "frame": "QUOTED",
+    "construction": "BA",
+    "schema": "AU",
+    "matched": "B65-qwen-G22-QUOTED-BA-AU-BA",
+    "mismatched": "B65-qwen-G22-QUOTED-BA-AU-BEI"
+  },
+  {
+    "model": "qwen",
+    "group_id": "G22",
+    "frame": "QUOTED",
+    "construction": "BA",
+    "schema": "UA",
+    "matched": "B65-qwen-G22-QUOTED-BA-UA-BA",
+    "mismatched": "B65-qwen-G22-QUOTED-BA-UA-BEI"
+  },
+  {
+    "model": "qwen",
+    "group_id": "G22",
+    "frame": "QUOTED",
+    "construction": "BEI",
+    "schema": "AU",
+    "matched": "B65-qwen-G22-QUOTED-BEI-AU-BEI",
+    "mismatched": "B65-qwen-G22-QUOTED-BEI-AU-BA"
+  },
+  {
+    "model": "qwen",
+    "group_id": "G22",
+    "frame": "QUOTED",
+    "construction": "BEI",
+    "schema": "UA",
+    "matched": "B65-qwen-G22-QUOTED-BEI-UA-BEI",
+    "mismatched": "B65-qwen-G22-QUOTED-BEI-UA-BA"
+  },
+  {
+    "model": "qwen",
+    "group_id": "G23",
+    "frame": "DIRECT",
+    "construction": "BA",
+    "schema": "AU",
+    "matched": "B65-qwen-G23-DIRECT-BA-AU-BA",
+    "mismatched": "B65-qwen-G23-DIRECT-BA-AU-BEI"
+  },
+  {
+    "model": "qwen",
+    "group_id": "G23",
+    "frame": "DIRECT",
+    "construction": "BA",
+    "schema": "UA",
+    "matched": "B65-qwen-G23-DIRECT-BA-UA-BA",
+    "mismatched": "B65-qwen-G23-DIRECT-BA-UA-BEI"
+  },
+  {
+    "model": "qwen",
+    "group_id": "G23",
+    "frame": "DIRECT",
+    "construction": "BEI",
+    "schema": "AU",
+    "matched": "B65-qwen-G23-DIRECT-BEI-AU-BEI",
+    "mismatched": "B65-qwen-G23-DIRECT-BEI-AU-BA"
+  },
+  {
+    "model": "qwen",
+    "group_id": "G23",
+    "frame": "DIRECT",
+    "construction": "BEI",
+    "schema": "UA",
+    "matched": "B65-qwen-G23-DIRECT-BEI-UA-BEI",
+    "mismatched": "B65-qwen-G23-DIRECT-BEI-UA-BA"
+  },
+  {
+    "model": "qwen",
+    "group_id": "G23",
+    "frame": "QUOTED",
+    "construction": "BA",
+    "schema": "AU",
+    "matched": "B65-qwen-G23-QUOTED-BA-AU-BA",
+    "mismatched": "B65-qwen-G23-QUOTED-BA-AU-BEI"
+  },
+  {
+    "model": "qwen",
+    "group_id": "G23",
+    "frame": "QUOTED",
+    "construction": "BA",
+    "schema": "UA",
+    "matched": "B65-qwen-G23-QUOTED-BA-UA-BA",
+    "mismatched": "B65-qwen-G23-QUOTED-BA-UA-BEI"
+  },
+  {
+    "model": "qwen",
+    "group_id": "G23",
+    "frame": "QUOTED",
+    "construction": "BEI",
+    "schema": "AU",
+    "matched": "B65-qwen-G23-QUOTED-BEI-AU-BEI",
+    "mismatched": "B65-qwen-G23-QUOTED-BEI-AU-BA"
+  },
+  {
+    "model": "qwen",
+    "group_id": "G23",
+    "frame": "QUOTED",
+    "construction": "BEI",
+    "schema": "UA",
+    "matched": "B65-qwen-G23-QUOTED-BEI-UA-BEI",
+    "mismatched": "B65-qwen-G23-QUOTED-BEI-UA-BA"
+  },
+  {
+    "model": "qwen",
+    "group_id": "G24",
+    "frame": "DIRECT",
+    "construction": "BA",
+    "schema": "AU",
+    "matched": "B65-qwen-G24-DIRECT-BA-AU-BA",
+    "mismatched": "B65-qwen-G24-DIRECT-BA-AU-BEI"
+  },
+  {
+    "model": "qwen",
+    "group_id": "G24",
+    "frame": "DIRECT",
+    "construction": "BA",
+    "schema": "UA",
+    "matched": "B65-qwen-G24-DIRECT-BA-UA-BA",
+    "mismatched": "B65-qwen-G24-DIRECT-BA-UA-BEI"
+  },
+  {
+    "model": "qwen",
+    "group_id": "G24",
+    "frame": "DIRECT",
+    "construction": "BEI",
+    "schema": "AU",
+    "matched": "B65-qwen-G24-DIRECT-BEI-AU-BEI",
+    "mismatched": "B65-qwen-G24-DIRECT-BEI-AU-BA"
+  },
+  {
+    "model": "qwen",
+    "group_id": "G24",
+    "frame": "DIRECT",
+    "construction": "BEI",
+    "schema": "UA",
+    "matched": "B65-qwen-G24-DIRECT-BEI-UA-BEI",
+    "mismatched": "B65-qwen-G24-DIRECT-BEI-UA-BA"
+  },
+  {
+    "model": "qwen",
+    "group_id": "G24",
+    "frame": "QUOTED",
+    "construction": "BA",
+    "schema": "AU",
+    "matched": "B65-qwen-G24-QUOTED-BA-AU-BA",
+    "mismatched": "B65-qwen-G24-QUOTED-BA-AU-BEI"
+  },
+  {
+    "model": "qwen",
+    "group_id": "G24",
+    "frame": "QUOTED",
+    "construction": "BA",
+    "schema": "UA",
+    "matched": "B65-qwen-G24-QUOTED-BA-UA-BA",
+    "mismatched": "B65-qwen-G24-QUOTED-BA-UA-BEI"
+  },
+  {
+    "model": "qwen",
+    "group_id": "G24",
+    "frame": "QUOTED",
+    "construction": "BEI",
+    "schema": "AU",
+    "matched": "B65-qwen-G24-QUOTED-BEI-AU-BEI",
+    "mismatched": "B65-qwen-G24-QUOTED-BEI-AU-BA"
+  },
+  {
+    "model": "qwen",
+    "group_id": "G24",
+    "frame": "QUOTED",
+    "construction": "BEI",
+    "schema": "UA",
+    "matched": "B65-qwen-G24-QUOTED-BEI-UA-BEI",
+    "mismatched": "B65-qwen-G24-QUOTED-BEI-UA-BA"
+  },
+  {
+    "model": "apertus",
+    "group_id": "G01",
+    "frame": "DIRECT",
+    "construction": "BA",
+    "schema": "AU",
+    "matched": "B65-apertus-G01-DIRECT-BA-AU-BA",
+    "mismatched": "B65-apertus-G01-DIRECT-BA-AU-BEI"
+  },
+  {
+    "model": "apertus",
+    "group_id": "G01",
+    "frame": "DIRECT",
+    "construction": "BA",
+    "schema": "UA",
+    "matched": "B65-apertus-G01-DIRECT-BA-UA-BA",
+    "mismatched": "B65-apertus-G01-DIRECT-BA-UA-BEI"
+  },
+  {
+    "model": "apertus",
+    "group_id": "G01",
+    "frame": "DIRECT",
+    "construction": "BEI",
+    "schema": "AU",
+    "matched": "B65-apertus-G01-DIRECT-BEI-AU-BEI",
+    "mismatched": "B65-apertus-G01-DIRECT-BEI-AU-BA"
+  },
+  {
+    "model": "apertus",
+    "group_id": "G01",
+    "frame": "DIRECT",
+    "construction": "BEI",
+    "schema": "UA",
+    "matched": "B65-apertus-G01-DIRECT-BEI-UA-BEI",
+    "mismatched": "B65-apertus-G01-DIRECT-BEI-UA-BA"
+  },
+  {
+    "model": "apertus",
+    "group_id": "G01",
+    "frame": "QUOTED",
+    "construction": "BA",
+    "schema": "AU",
+    "matched": "B65-apertus-G01-QUOTED-BA-AU-BA",
+    "mismatched": "B65-apertus-G01-QUOTED-BA-AU-BEI"
+  },
+  {
+    "model": "apertus",
+    "group_id": "G01",
+    "frame": "QUOTED",
+    "construction": "BA",
+    "schema": "UA",
+    "matched": "B65-apertus-G01-QUOTED-BA-UA-BA",
+    "mismatched": "B65-apertus-G01-QUOTED-BA-UA-BEI"
+  },
+  {
+    "model": "apertus",
+    "group_id": "G01",
+    "frame": "QUOTED",
+    "construction": "BEI",
+    "schema": "AU",
+    "matched": "B65-apertus-G01-QUOTED-BEI-AU-BEI",
+    "mismatched": "B65-apertus-G01-QUOTED-BEI-AU-BA"
+  },
+  {
+    "model": "apertus",
+    "group_id": "G01",
+    "frame": "QUOTED",
+    "construction": "BEI",
+    "schema": "UA",
+    "matched": "B65-apertus-G01-QUOTED-BEI-UA-BEI",
+    "mismatched": "B65-apertus-G01-QUOTED-BEI-UA-BA"
+  },
+  {
+    "model": "apertus",
+    "group_id": "G02",
+    "frame": "DIRECT",
+    "construction": "BA",
+    "schema": "AU",
+    "matched": "B65-apertus-G02-DIRECT-BA-AU-BA",
+    "mismatched": "B65-apertus-G02-DIRECT-BA-AU-BEI"
+  },
+  {
+    "model": "apertus",
+    "group_id": "G02",
+    "frame": "DIRECT",
+    "construction": "BA",
+    "schema": "UA",
+    "matched": "B65-apertus-G02-DIRECT-BA-UA-BA",
+    "mismatched": "B65-apertus-G02-DIRECT-BA-UA-BEI"
+  },
+  {
+    "model": "apertus",
+    "group_id": "G02",
+    "frame": "DIRECT",
+    "construction": "BEI",
+    "schema": "AU",
+    "matched": "B65-apertus-G02-DIRECT-BEI-AU-BEI",
+    "mismatched": "B65-apertus-G02-DIRECT-BEI-AU-BA"
+  },
+  {
+    "model": "apertus",
+    "group_id": "G02",
+    "frame": "DIRECT",
+    "construction": "BEI",
+    "schema": "UA",
+    "matched": "B65-apertus-G02-DIRECT-BEI-UA-BEI",
+    "mismatched": "B65-apertus-G02-DIRECT-BEI-UA-BA"
+  },
+  {
+    "model": "apertus",
+    "group_id": "G02",
+    "frame": "QUOTED",
+    "construction": "BA",
+    "schema": "AU",
+    "matched": "B65-apertus-G02-QUOTED-BA-AU-BA",
+    "mismatched": "B65-apertus-G02-QUOTED-BA-AU-BEI"
+  },
+  {
+    "model": "apertus",
+    "group_id": "G02",
+    "frame": "QUOTED",
+    "construction": "BA",
+    "schema": "UA",
+    "matched": "B65-apertus-G02-QUOTED-BA-UA-BA",
+    "mismatched": "B65-apertus-G02-QUOTED-BA-UA-BEI"
+  },
+  {
+    "model": "apertus",
+    "group_id": "G02",
+    "frame": "QUOTED",
+    "construction": "BEI",
+    "schema": "AU",
+    "matched": "B65-apertus-G02-QUOTED-BEI-AU-BEI",
+    "mismatched": "B65-apertus-G02-QUOTED-BEI-AU-BA"
+  },
+  {
+    "model": "apertus",
+    "group_id": "G02",
+    "frame": "QUOTED",
+    "construction": "BEI",
+    "schema": "UA",
+    "matched": "B65-apertus-G02-QUOTED-BEI-UA-BEI",
+    "mismatched": "B65-apertus-G02-QUOTED-BEI-UA-BA"
+  },
+  {
+    "model": "apertus",
+    "group_id": "G03",
+    "frame": "DIRECT",
+    "construction": "BA",
+    "schema": "AU",
+    "matched": "B65-apertus-G03-DIRECT-BA-AU-BA",
+    "mismatched": "B65-apertus-G03-DIRECT-BA-AU-BEI"
+  },
+  {
+    "model": "apertus",
+    "group_id": "G03",
+    "frame": "DIRECT",
+    "construction": "BA",
+    "schema": "UA",
+    "matched": "B65-apertus-G03-DIRECT-BA-UA-BA",
+    "mismatched": "B65-apertus-G03-DIRECT-BA-UA-BEI"
+  },
+  {
+    "model": "apertus",
+    "group_id": "G03",
+    "frame": "DIRECT",
+    "construction": "BEI",
+    "schema": "AU",
+    "matched": "B65-apertus-G03-DIRECT-BEI-AU-BEI",
+    "mismatched": "B65-apertus-G03-DIRECT-BEI-AU-BA"
+  },
+  {
+    "model": "apertus",
+    "group_id": "G03",
+    "frame": "DIRECT",
+    "construction": "BEI",
+    "schema": "UA",
+    "matched": "B65-apertus-G03-DIRECT-BEI-UA-BEI",
+    "mismatched": "B65-apertus-G03-DIRECT-BEI-UA-BA"
+  },
+  {
+    "model": "apertus",
+    "group_id": "G03",
+    "frame": "QUOTED",
+    "construction": "BA",
+    "schema": "AU",
+    "matched": "B65-apertus-G03-QUOTED-BA-AU-BA",
+    "mismatched": "B65-apertus-G03-QUOTED-BA-AU-BEI"
+  },
+  {
+    "model": "apertus",
+    "group_id": "G03",
+    "frame": "QUOTED",
+    "construction": "BA",
+    "schema": "UA",
+    "matched": "B65-apertus-G03-QUOTED-BA-UA-BA",
+    "mismatched": "B65-apertus-G03-QUOTED-BA-UA-BEI"
+  },
+  {
+    "model": "apertus",
+    "group_id": "G03",
+    "frame": "QUOTED",
+    "construction": "BEI",
+    "schema": "AU",
+    "matched": "B65-apertus-G03-QUOTED-BEI-AU-BEI",
+    "mismatched": "B65-apertus-G03-QUOTED-BEI-AU-BA"
+  },
+  {
+    "model": "apertus",
+    "group_id": "G03",
+    "frame": "QUOTED",
+    "construction": "BEI",
+    "schema": "UA",
+    "matched": "B65-apertus-G03-QUOTED-BEI-UA-BEI",
+    "mismatched": "B65-apertus-G03-QUOTED-BEI-UA-BA"
+  },
+  {
+    "model": "apertus",
+    "group_id": "G04",
+    "frame": "DIRECT",
+    "construction": "BA",
+    "schema": "AU",
+    "matched": "B65-apertus-G04-DIRECT-BA-AU-BA",
+    "mismatched": "B65-apertus-G04-DIRECT-BA-AU-BEI"
+  },
+  {
+    "model": "apertus",
+    "group_id": "G04",
+    "frame": "DIRECT",
+    "construction": "BA",
+    "schema": "UA",
+    "matched": "B65-apertus-G04-DIRECT-BA-UA-BA",
+    "mismatched": "B65-apertus-G04-DIRECT-BA-UA-BEI"
+  },
+  {
+    "model": "apertus",
+    "group_id": "G04",
+    "frame": "DIRECT",
+    "construction": "BEI",
+    "schema": "AU",
+    "matched": "B65-apertus-G04-DIRECT-BEI-AU-BEI",
+    "mismatched": "B65-apertus-G04-DIRECT-BEI-AU-BA"
+  },
+  {
+    "model": "apertus",
+    "group_id": "G04",
+    "frame": "DIRECT",
+    "construction": "BEI",
+    "schema": "UA",
+    "matched": "B65-apertus-G04-DIRECT-BEI-UA-BEI",
+    "mismatched": "B65-apertus-G04-DIRECT-BEI-UA-BA"
+  },
+  {
+    "model": "apertus",
+    "group_id": "G04",
+    "frame": "QUOTED",
+    "construction": "BA",
+    "schema": "AU",
+    "matched": "B65-apertus-G04-QUOTED-BA-AU-BA",
+    "mismatched": "B65-apertus-G04-QUOTED-BA-AU-BEI"
+  },
+  {
+    "model": "apertus",
+    "group_id": "G04",
+    "frame": "QUOTED",
+    "construction": "BA",
+    "schema": "UA",
+    "matched": "B65-apertus-G04-QUOTED-BA-UA-BA",
+    "mismatched": "B65-apertus-G04-QUOTED-BA-UA-BEI"
+  },
+  {
+    "model": "apertus",
+    "group_id": "G04",
+    "frame": "QUOTED",
+    "construction": "BEI",
+    "schema": "AU",
+    "matched": "B65-apertus-G04-QUOTED-BEI-AU-BEI",
+    "mismatched": "B65-apertus-G04-QUOTED-BEI-AU-BA"
+  },
+  {
+    "model": "apertus",
+    "group_id": "G04",
+    "frame": "QUOTED",
+    "construction": "BEI",
+    "schema": "UA",
+    "matched": "B65-apertus-G04-QUOTED-BEI-UA-BEI",
+    "mismatched": "B65-apertus-G04-QUOTED-BEI-UA-BA"
+  },
+  {
+    "model": "apertus",
+    "group_id": "G05",
+    "frame": "DIRECT",
+    "construction": "BA",
+    "schema": "AU",
+    "matched": "B65-apertus-G05-DIRECT-BA-AU-BA",
+    "mismatched": "B65-apertus-G05-DIRECT-BA-AU-BEI"
+  },
+  {
+    "model": "apertus",
+    "group_id": "G05",
+    "frame": "DIRECT",
+    "construction": "BA",
+    "schema": "UA",
+    "matched": "B65-apertus-G05-DIRECT-BA-UA-BA",
+    "mismatched": "B65-apertus-G05-DIRECT-BA-UA-BEI"
+  },
+  {
+    "model": "apertus",
+    "group_id": "G05",
+    "frame": "DIRECT",
+    "construction": "BEI",
+    "schema": "AU",
+    "matched": "B65-apertus-G05-DIRECT-BEI-AU-BEI",
+    "mismatched": "B65-apertus-G05-DIRECT-BEI-AU-BA"
+  },
+  {
+    "model": "apertus",
+    "group_id": "G05",
+    "frame": "DIRECT",
+    "construction": "BEI",
+    "schema": "UA",
+    "matched": "B65-apertus-G05-DIRECT-BEI-UA-BEI",
+    "mismatched": "B65-apertus-G05-DIRECT-BEI-UA-BA"
+  },
+  {
+    "model": "apertus",
+    "group_id": "G05",
+    "frame": "QUOTED",
+    "construction": "BA",
+    "schema": "AU",
+    "matched": "B65-apertus-G05-QUOTED-BA-AU-BA",
+    "mismatched": "B65-apertus-G05-QUOTED-BA-AU-BEI"
+  },
+  {
+    "model": "apertus",
+    "group_id": "G05",
+    "frame": "QUOTED",
+    "construction": "BA",
+    "schema": "UA",
+    "matched": "B65-apertus-G05-QUOTED-BA-UA-BA",
+    "mismatched": "B65-apertus-G05-QUOTED-BA-UA-BEI"
+  },
+  {
+    "model": "apertus",
+    "group_id": "G05",
+    "frame": "QUOTED",
+    "construction": "BEI",
+    "schema": "AU",
+    "matched": "B65-apertus-G05-QUOTED-BEI-AU-BEI",
+    "mismatched": "B65-apertus-G05-QUOTED-BEI-AU-BA"
+  },
+  {
+    "model": "apertus",
+    "group_id": "G05",
+    "frame": "QUOTED",
+    "construction": "BEI",
+    "schema": "UA",
+    "matched": "B65-apertus-G05-QUOTED-BEI-UA-BEI",
+    "mismatched": "B65-apertus-G05-QUOTED-BEI-UA-BA"
+  },
+  {
+    "model": "apertus",
+    "group_id": "G06",
+    "frame": "DIRECT",
+    "construction": "BA",
+    "schema": "AU",
+    "matched": "B65-apertus-G06-DIRECT-BA-AU-BA",
+    "mismatched": "B65-apertus-G06-DIRECT-BA-AU-BEI"
+  },
+  {
+    "model": "apertus",
+    "group_id": "G06",
+    "frame": "DIRECT",
+    "construction": "BA",
+    "schema": "UA",
+    "matched": "B65-apertus-G06-DIRECT-BA-UA-BA",
+    "mismatched": "B65-apertus-G06-DIRECT-BA-UA-BEI"
+  },
+  {
+    "model": "apertus",
+    "group_id": "G06",
+    "frame": "DIRECT",
+    "construction": "BEI",
+    "schema": "AU",
+    "matched": "B65-apertus-G06-DIRECT-BEI-AU-BEI",
+    "mismatched": "B65-apertus-G06-DIRECT-BEI-AU-BA"
+  },
+  {
+    "model": "apertus",
+    "group_id": "G06",
+    "frame": "DIRECT",
+    "construction": "BEI",
+    "schema": "UA",
+    "matched": "B65-apertus-G06-DIRECT-BEI-UA-BEI",
+    "mismatched": "B65-apertus-G06-DIRECT-BEI-UA-BA"
+  },
+  {
+    "model": "apertus",
+    "group_id": "G06",
+    "frame": "QUOTED",
+    "construction": "BA",
+    "schema": "AU",
+    "matched": "B65-apertus-G06-QUOTED-BA-AU-BA",
+    "mismatched": "B65-apertus-G06-QUOTED-BA-AU-BEI"
+  },
+  {
+    "model": "apertus",
+    "group_id": "G06",
+    "frame": "QUOTED",
+    "construction": "BA",
+    "schema": "UA",
+    "matched": "B65-apertus-G06-QUOTED-BA-UA-BA",
+    "mismatched": "B65-apertus-G06-QUOTED-BA-UA-BEI"
+  },
+  {
+    "model": "apertus",
+    "group_id": "G06",
+    "frame": "QUOTED",
+    "construction": "BEI",
+    "schema": "AU",
+    "matched": "B65-apertus-G06-QUOTED-BEI-AU-BEI",
+    "mismatched": "B65-apertus-G06-QUOTED-BEI-AU-BA"
+  },
+  {
+    "model": "apertus",
+    "group_id": "G06",
+    "frame": "QUOTED",
+    "construction": "BEI",
+    "schema": "UA",
+    "matched": "B65-apertus-G06-QUOTED-BEI-UA-BEI",
+    "mismatched": "B65-apertus-G06-QUOTED-BEI-UA-BA"
+  },
+  {
+    "model": "apertus",
+    "group_id": "G07",
+    "frame": "DIRECT",
+    "construction": "BA",
+    "schema": "AU",
+    "matched": "B65-apertus-G07-DIRECT-BA-AU-BA",
+    "mismatched": "B65-apertus-G07-DIRECT-BA-AU-BEI"
+  },
+  {
+    "model": "apertus",
+    "group_id": "G07",
+    "frame": "DIRECT",
+    "construction": "BA",
+    "schema": "UA",
+    "matched": "B65-apertus-G07-DIRECT-BA-UA-BA",
+    "mismatched": "B65-apertus-G07-DIRECT-BA-UA-BEI"
+  },
+  {
+    "model": "apertus",
+    "group_id": "G07",
+    "frame": "DIRECT",
+    "construction": "BEI",
+    "schema": "AU",
+    "matched": "B65-apertus-G07-DIRECT-BEI-AU-BEI",
+    "mismatched": "B65-apertus-G07-DIRECT-BEI-AU-BA"
+  },
+  {
+    "model": "apertus",
+    "group_id": "G07",
+    "frame": "DIRECT",
+    "construction": "BEI",
+    "schema": "UA",
+    "matched": "B65-apertus-G07-DIRECT-BEI-UA-BEI",
+    "mismatched": "B65-apertus-G07-DIRECT-BEI-UA-BA"
+  },
+  {
+    "model": "apertus",
+    "group_id": "G07",
+    "frame": "QUOTED",
+    "construction": "BA",
+    "schema": "AU",
+    "matched": "B65-apertus-G07-QUOTED-BA-AU-BA",
+    "mismatched": "B65-apertus-G07-QUOTED-BA-AU-BEI"
+  },
+  {
+    "model": "apertus",
+    "group_id": "G07",
+    "frame": "QUOTED",
+    "construction": "BA",
+    "schema": "UA",
+    "matched": "B65-apertus-G07-QUOTED-BA-UA-BA",
+    "mismatched": "B65-apertus-G07-QUOTED-BA-UA-BEI"
+  },
+  {
+    "model": "apertus",
+    "group_id": "G07",
+    "frame": "QUOTED",
+    "construction": "BEI",
+    "schema": "AU",
+    "matched": "B65-apertus-G07-QUOTED-BEI-AU-BEI",
+    "mismatched": "B65-apertus-G07-QUOTED-BEI-AU-BA"
+  },
+  {
+    "model": "apertus",
+    "group_id": "G07",
+    "frame": "QUOTED",
+    "construction": "BEI",
+    "schema": "UA",
+    "matched": "B65-apertus-G07-QUOTED-BEI-UA-BEI",
+    "mismatched": "B65-apertus-G07-QUOTED-BEI-UA-BA"
+  },
+  {
+    "model": "apertus",
+    "group_id": "G08",
+    "frame": "DIRECT",
+    "construction": "BA",
+    "schema": "AU",
+    "matched": "B65-apertus-G08-DIRECT-BA-AU-BA",
+    "mismatched": "B65-apertus-G08-DIRECT-BA-AU-BEI"
+  },
+  {
+    "model": "apertus",
+    "group_id": "G08",
+    "frame": "DIRECT",
+    "construction": "BA",
+    "schema": "UA",
+    "matched": "B65-apertus-G08-DIRECT-BA-UA-BA",
+    "mismatched": "B65-apertus-G08-DIRECT-BA-UA-BEI"
+  },
+  {
+    "model": "apertus",
+    "group_id": "G08",
+    "frame": "DIRECT",
+    "construction": "BEI",
+    "schema": "AU",
+    "matched": "B65-apertus-G08-DIRECT-BEI-AU-BEI",
+    "mismatched": "B65-apertus-G08-DIRECT-BEI-AU-BA"
+  },
+  {
+    "model": "apertus",
+    "group_id": "G08",
+    "frame": "DIRECT",
+    "construction": "BEI",
+    "schema": "UA",
+    "matched": "B65-apertus-G08-DIRECT-BEI-UA-BEI",
+    "mismatched": "B65-apertus-G08-DIRECT-BEI-UA-BA"
+  },
+  {
+    "model": "apertus",
+    "group_id": "G08",
+    "frame": "QUOTED",
+    "construction": "BA",
+    "schema": "AU",
+    "matched": "B65-apertus-G08-QUOTED-BA-AU-BA",
+    "mismatched": "B65-apertus-G08-QUOTED-BA-AU-BEI"
+  },
+  {
+    "model": "apertus",
+    "group_id": "G08",
+    "frame": "QUOTED",
+    "construction": "BA",
+    "schema": "UA",
+    "matched": "B65-apertus-G08-QUOTED-BA-UA-BA",
+    "mismatched": "B65-apertus-G08-QUOTED-BA-UA-BEI"
+  },
+  {
+    "model": "apertus",
+    "group_id": "G08",
+    "frame": "QUOTED",
+    "construction": "BEI",
+    "schema": "AU",
+    "matched": "B65-apertus-G08-QUOTED-BEI-AU-BEI",
+    "mismatched": "B65-apertus-G08-QUOTED-BEI-AU-BA"
+  },
+  {
+    "model": "apertus",
+    "group_id": "G08",
+    "frame": "QUOTED",
+    "construction": "BEI",
+    "schema": "UA",
+    "matched": "B65-apertus-G08-QUOTED-BEI-UA-BEI",
+    "mismatched": "B65-apertus-G08-QUOTED-BEI-UA-BA"
+  },
+  {
+    "model": "apertus",
+    "group_id": "G09",
+    "frame": "DIRECT",
+    "construction": "BA",
+    "schema": "AU",
+    "matched": "B65-apertus-G09-DIRECT-BA-AU-BA",
+    "mismatched": "B65-apertus-G09-DIRECT-BA-AU-BEI"
+  },
+  {
+    "model": "apertus",
+    "group_id": "G09",
+    "frame": "DIRECT",
+    "construction": "BA",
+    "schema": "UA",
+    "matched": "B65-apertus-G09-DIRECT-BA-UA-BA",
+    "mismatched": "B65-apertus-G09-DIRECT-BA-UA-BEI"
+  },
+  {
+    "model": "apertus",
+    "group_id": "G09",
+    "frame": "DIRECT",
+    "construction": "BEI",
+    "schema": "AU",
+    "matched": "B65-apertus-G09-DIRECT-BEI-AU-BEI",
+    "mismatched": "B65-apertus-G09-DIRECT-BEI-AU-BA"
+  },
+  {
+    "model": "apertus",
+    "group_id": "G09",
+    "frame": "DIRECT",
+    "construction": "BEI",
+    "schema": "UA",
+    "matched": "B65-apertus-G09-DIRECT-BEI-UA-BEI",
+    "mismatched": "B65-apertus-G09-DIRECT-BEI-UA-BA"
+  },
+  {
+    "model": "apertus",
+    "group_id": "G09",
+    "frame": "QUOTED",
+    "construction": "BA",
+    "schema": "AU",
+    "matched": "B65-apertus-G09-QUOTED-BA-AU-BA",
+    "mismatched": "B65-apertus-G09-QUOTED-BA-AU-BEI"
+  },
+  {
+    "model": "apertus",
+    "group_id": "G09",
+    "frame": "QUOTED",
+    "construction": "BA",
+    "schema": "UA",
+    "matched": "B65-apertus-G09-QUOTED-BA-UA-BA",
+    "mismatched": "B65-apertus-G09-QUOTED-BA-UA-BEI"
+  },
+  {
+    "model": "apertus",
+    "group_id": "G09",
+    "frame": "QUOTED",
+    "construction": "BEI",
+    "schema": "AU",
+    "matched": "B65-apertus-G09-QUOTED-BEI-AU-BEI",
+    "mismatched": "B65-apertus-G09-QUOTED-BEI-AU-BA"
+  },
+  {
+    "model": "apertus",
+    "group_id": "G09",
+    "frame": "QUOTED",
+    "construction": "BEI",
+    "schema": "UA",
+    "matched": "B65-apertus-G09-QUOTED-BEI-UA-BEI",
+    "mismatched": "B65-apertus-G09-QUOTED-BEI-UA-BA"
+  },
+  {
+    "model": "apertus",
+    "group_id": "G10",
+    "frame": "DIRECT",
+    "construction": "BA",
+    "schema": "AU",
+    "matched": "B65-apertus-G10-DIRECT-BA-AU-BA",
+    "mismatched": "B65-apertus-G10-DIRECT-BA-AU-BEI"
+  },
+  {
+    "model": "apertus",
+    "group_id": "G10",
+    "frame": "DIRECT",
+    "construction": "BA",
+    "schema": "UA",
+    "matched": "B65-apertus-G10-DIRECT-BA-UA-BA",
+    "mismatched": "B65-apertus-G10-DIRECT-BA-UA-BEI"
+  },
+  {
+    "model": "apertus",
+    "group_id": "G10",
+    "frame": "DIRECT",
+    "construction": "BEI",
+    "schema": "AU",
+    "matched": "B65-apertus-G10-DIRECT-BEI-AU-BEI",
+    "mismatched": "B65-apertus-G10-DIRECT-BEI-AU-BA"
+  },
+  {
+    "model": "apertus",
+    "group_id": "G10",
+    "frame": "DIRECT",
+    "construction": "BEI",
+    "schema": "UA",
+    "matched": "B65-apertus-G10-DIRECT-BEI-UA-BEI",
+    "mismatched": "B65-apertus-G10-DIRECT-BEI-UA-BA"
+  },
+  {
+    "model": "apertus",
+    "group_id": "G10",
+    "frame": "QUOTED",
+    "construction": "BA",
+    "schema": "AU",
+    "matched": "B65-apertus-G10-QUOTED-BA-AU-BA",
+    "mismatched": "B65-apertus-G10-QUOTED-BA-AU-BEI"
+  },
+  {
+    "model": "apertus",
+    "group_id": "G10",
+    "frame": "QUOTED",
+    "construction": "BA",
+    "schema": "UA",
+    "matched": "B65-apertus-G10-QUOTED-BA-UA-BA",
+    "mismatched": "B65-apertus-G10-QUOTED-BA-UA-BEI"
+  },
+  {
+    "model": "apertus",
+    "group_id": "G10",
+    "frame": "QUOTED",
+    "construction": "BEI",
+    "schema": "AU",
+    "matched": "B65-apertus-G10-QUOTED-BEI-AU-BEI",
+    "mismatched": "B65-apertus-G10-QUOTED-BEI-AU-BA"
+  },
+  {
+    "model": "apertus",
+    "group_id": "G10",
+    "frame": "QUOTED",
+    "construction": "BEI",
+    "schema": "UA",
+    "matched": "B65-apertus-G10-QUOTED-BEI-UA-BEI",
+    "mismatched": "B65-apertus-G10-QUOTED-BEI-UA-BA"
+  },
+  {
+    "model": "apertus",
+    "group_id": "G11",
+    "frame": "DIRECT",
+    "construction": "BA",
+    "schema": "AU",
+    "matched": "B65-apertus-G11-DIRECT-BA-AU-BA",
+    "mismatched": "B65-apertus-G11-DIRECT-BA-AU-BEI"
+  },
+  {
+    "model": "apertus",
+    "group_id": "G11",
+    "frame": "DIRECT",
+    "construction": "BA",
+    "schema": "UA",
+    "matched": "B65-apertus-G11-DIRECT-BA-UA-BA",
+    "mismatched": "B65-apertus-G11-DIRECT-BA-UA-BEI"
+  },
+  {
+    "model": "apertus",
+    "group_id": "G11",
+    "frame": "DIRECT",
+    "construction": "BEI",
+    "schema": "AU",
+    "matched": "B65-apertus-G11-DIRECT-BEI-AU-BEI",
+    "mismatched": "B65-apertus-G11-DIRECT-BEI-AU-BA"
+  },
+  {
+    "model": "apertus",
+    "group_id": "G11",
+    "frame": "DIRECT",
+    "construction": "BEI",
+    "schema": "UA",
+    "matched": "B65-apertus-G11-DIRECT-BEI-UA-BEI",
+    "mismatched": "B65-apertus-G11-DIRECT-BEI-UA-BA"
+  },
+  {
+    "model": "apertus",
+    "group_id": "G11",
+    "frame": "QUOTED",
+    "construction": "BA",
+    "schema": "AU",
+    "matched": "B65-apertus-G11-QUOTED-BA-AU-BA",
+    "mismatched": "B65-apertus-G11-QUOTED-BA-AU-BEI"
+  },
+  {
+    "model": "apertus",
+    "group_id": "G11",
+    "frame": "QUOTED",
+    "construction": "BA",
+    "schema": "UA",
+    "matched": "B65-apertus-G11-QUOTED-BA-UA-BA",
+    "mismatched": "B65-apertus-G11-QUOTED-BA-UA-BEI"
+  },
+  {
+    "model": "apertus",
+    "group_id": "G11",
+    "frame": "QUOTED",
+    "construction": "BEI",
+    "schema": "AU",
+    "matched": "B65-apertus-G11-QUOTED-BEI-AU-BEI",
+    "mismatched": "B65-apertus-G11-QUOTED-BEI-AU-BA"
+  },
+  {
+    "model": "apertus",
+    "group_id": "G11",
+    "frame": "QUOTED",
+    "construction": "BEI",
+    "schema": "UA",
+    "matched": "B65-apertus-G11-QUOTED-BEI-UA-BEI",
+    "mismatched": "B65-apertus-G11-QUOTED-BEI-UA-BA"
+  },
+  {
+    "model": "apertus",
+    "group_id": "G12",
+    "frame": "DIRECT",
+    "construction": "BA",
+    "schema": "AU",
+    "matched": "B65-apertus-G12-DIRECT-BA-AU-BA",
+    "mismatched": "B65-apertus-G12-DIRECT-BA-AU-BEI"
+  },
+  {
+    "model": "apertus",
+    "group_id": "G12",
+    "frame": "DIRECT",
+    "construction": "BA",
+    "schema": "UA",
+    "matched": "B65-apertus-G12-DIRECT-BA-UA-BA",
+    "mismatched": "B65-apertus-G12-DIRECT-BA-UA-BEI"
+  },
+  {
+    "model": "apertus",
+    "group_id": "G12",
+    "frame": "DIRECT",
+    "construction": "BEI",
+    "schema": "AU",
+    "matched": "B65-apertus-G12-DIRECT-BEI-AU-BEI",
+    "mismatched": "B65-apertus-G12-DIRECT-BEI-AU-BA"
+  },
+  {
+    "model": "apertus",
+    "group_id": "G12",
+    "frame": "DIRECT",
+    "construction": "BEI",
+    "schema": "UA",
+    "matched": "B65-apertus-G12-DIRECT-BEI-UA-BEI",
+    "mismatched": "B65-apertus-G12-DIRECT-BEI-UA-BA"
+  },
+  {
+    "model": "apertus",
+    "group_id": "G12",
+    "frame": "QUOTED",
+    "construction": "BA",
+    "schema": "AU",
+    "matched": "B65-apertus-G12-QUOTED-BA-AU-BA",
+    "mismatched": "B65-apertus-G12-QUOTED-BA-AU-BEI"
+  },
+  {
+    "model": "apertus",
+    "group_id": "G12",
+    "frame": "QUOTED",
+    "construction": "BA",
+    "schema": "UA",
+    "matched": "B65-apertus-G12-QUOTED-BA-UA-BA",
+    "mismatched": "B65-apertus-G12-QUOTED-BA-UA-BEI"
+  },
+  {
+    "model": "apertus",
+    "group_id": "G12",
+    "frame": "QUOTED",
+    "construction": "BEI",
+    "schema": "AU",
+    "matched": "B65-apertus-G12-QUOTED-BEI-AU-BEI",
+    "mismatched": "B65-apertus-G12-QUOTED-BEI-AU-BA"
+  },
+  {
+    "model": "apertus",
+    "group_id": "G12",
+    "frame": "QUOTED",
+    "construction": "BEI",
+    "schema": "UA",
+    "matched": "B65-apertus-G12-QUOTED-BEI-UA-BEI",
+    "mismatched": "B65-apertus-G12-QUOTED-BEI-UA-BA"
+  },
+  {
+    "model": "apertus",
+    "group_id": "G13",
+    "frame": "DIRECT",
+    "construction": "BA",
+    "schema": "AU",
+    "matched": "B65-apertus-G13-DIRECT-BA-AU-BA",
+    "mismatched": "B65-apertus-G13-DIRECT-BA-AU-BEI"
+  },
+  {
+    "model": "apertus",
+    "group_id": "G13",
+    "frame": "DIRECT",
+    "construction": "BA",
+    "schema": "UA",
+    "matched": "B65-apertus-G13-DIRECT-BA-UA-BA",
+    "mismatched": "B65-apertus-G13-DIRECT-BA-UA-BEI"
+  },
+  {
+    "model": "apertus",
+    "group_id": "G13",
+    "frame": "DIRECT",
+    "construction": "BEI",
+    "schema": "AU",
+    "matched": "B65-apertus-G13-DIRECT-BEI-AU-BEI",
+    "mismatched": "B65-apertus-G13-DIRECT-BEI-AU-BA"
+  },
+  {
+    "model": "apertus",
+    "group_id": "G13",
+    "frame": "DIRECT",
+    "construction": "BEI",
+    "schema": "UA",
+    "matched": "B65-apertus-G13-DIRECT-BEI-UA-BEI",
+    "mismatched": "B65-apertus-G13-DIRECT-BEI-UA-BA"
+  },
+  {
+    "model": "apertus",
+    "group_id": "G13",
+    "frame": "QUOTED",
+    "construction": "BA",
+    "schema": "AU",
+    "matched": "B65-apertus-G13-QUOTED-BA-AU-BA",
+    "mismatched": "B65-apertus-G13-QUOTED-BA-AU-BEI"
+  },
+  {
+    "model": "apertus",
+    "group_id": "G13",
+    "frame": "QUOTED",
+    "construction": "BA",
+    "schema": "UA",
+    "matched": "B65-apertus-G13-QUOTED-BA-UA-BA",
+    "mismatched": "B65-apertus-G13-QUOTED-BA-UA-BEI"
+  },
+  {
+    "model": "apertus",
+    "group_id": "G13",
+    "frame": "QUOTED",
+    "construction": "BEI",
+    "schema": "AU",
+    "matched": "B65-apertus-G13-QUOTED-BEI-AU-BEI",
+    "mismatched": "B65-apertus-G13-QUOTED-BEI-AU-BA"
+  },
+  {
+    "model": "apertus",
+    "group_id": "G13",
+    "frame": "QUOTED",
+    "construction": "BEI",
+    "schema": "UA",
+    "matched": "B65-apertus-G13-QUOTED-BEI-UA-BEI",
+    "mismatched": "B65-apertus-G13-QUOTED-BEI-UA-BA"
+  },
+  {
+    "model": "apertus",
+    "group_id": "G14",
+    "frame": "DIRECT",
+    "construction": "BA",
+    "schema": "AU",
+    "matched": "B65-apertus-G14-DIRECT-BA-AU-BA",
+    "mismatched": "B65-apertus-G14-DIRECT-BA-AU-BEI"
+  },
+  {
+    "model": "apertus",
+    "group_id": "G14",
+    "frame": "DIRECT",
+    "construction": "BA",
+    "schema": "UA",
+    "matched": "B65-apertus-G14-DIRECT-BA-UA-BA",
+    "mismatched": "B65-apertus-G14-DIRECT-BA-UA-BEI"
+  },
+  {
+    "model": "apertus",
+    "group_id": "G14",
+    "frame": "DIRECT",
+    "construction": "BEI",
+    "schema": "AU",
+    "matched": "B65-apertus-G14-DIRECT-BEI-AU-BEI",
+    "mismatched": "B65-apertus-G14-DIRECT-BEI-AU-BA"
+  },
+  {
+    "model": "apertus",
+    "group_id": "G14",
+    "frame": "DIRECT",
+    "construction": "BEI",
+    "schema": "UA",
+    "matched": "B65-apertus-G14-DIRECT-BEI-UA-BEI",
+    "mismatched": "B65-apertus-G14-DIRECT-BEI-UA-BA"
+  },
+  {
+    "model": "apertus",
+    "group_id": "G14",
+    "frame": "QUOTED",
+    "construction": "BA",
+    "schema": "AU",
+    "matched": "B65-apertus-G14-QUOTED-BA-AU-BA",
+    "mismatched": "B65-apertus-G14-QUOTED-BA-AU-BEI"
+  },
+  {
+    "model": "apertus",
+    "group_id": "G14",
+    "frame": "QUOTED",
+    "construction": "BA",
+    "schema": "UA",
+    "matched": "B65-apertus-G14-QUOTED-BA-UA-BA",
+    "mismatched": "B65-apertus-G14-QUOTED-BA-UA-BEI"
+  },
+  {
+    "model": "apertus",
+    "group_id": "G14",
+    "frame": "QUOTED",
+    "construction": "BEI",
+    "schema": "AU",
+    "matched": "B65-apertus-G14-QUOTED-BEI-AU-BEI",
+    "mismatched": "B65-apertus-G14-QUOTED-BEI-AU-BA"
+  },
+  {
+    "model": "apertus",
+    "group_id": "G14",
+    "frame": "QUOTED",
+    "construction": "BEI",
+    "schema": "UA",
+    "matched": "B65-apertus-G14-QUOTED-BEI-UA-BEI",
+    "mismatched": "B65-apertus-G14-QUOTED-BEI-UA-BA"
+  },
+  {
+    "model": "apertus",
+    "group_id": "G15",
+    "frame": "DIRECT",
+    "construction": "BA",
+    "schema": "AU",
+    "matched": "B65-apertus-G15-DIRECT-BA-AU-BA",
+    "mismatched": "B65-apertus-G15-DIRECT-BA-AU-BEI"
+  },
+  {
+    "model": "apertus",
+    "group_id": "G15",
+    "frame": "DIRECT",
+    "construction": "BA",
+    "schema": "UA",
+    "matched": "B65-apertus-G15-DIRECT-BA-UA-BA",
+    "mismatched": "B65-apertus-G15-DIRECT-BA-UA-BEI"
+  },
+  {
+    "model": "apertus",
+    "group_id": "G15",
+    "frame": "DIRECT",
+    "construction": "BEI",
+    "schema": "AU",
+    "matched": "B65-apertus-G15-DIRECT-BEI-AU-BEI",
+    "mismatched": "B65-apertus-G15-DIRECT-BEI-AU-BA"
+  },
+  {
+    "model": "apertus",
+    "group_id": "G15",
+    "frame": "DIRECT",
+    "construction": "BEI",
+    "schema": "UA",
+    "matched": "B65-apertus-G15-DIRECT-BEI-UA-BEI",
+    "mismatched": "B65-apertus-G15-DIRECT-BEI-UA-BA"
+  },
+  {
+    "model": "apertus",
+    "group_id": "G15",
+    "frame": "QUOTED",
+    "construction": "BA",
+    "schema": "AU",
+    "matched": "B65-apertus-G15-QUOTED-BA-AU-BA",
+    "mismatched": "B65-apertus-G15-QUOTED-BA-AU-BEI"
+  },
+  {
+    "model": "apertus",
+    "group_id": "G15",
+    "frame": "QUOTED",
+    "construction": "BA",
+    "schema": "UA",
+    "matched": "B65-apertus-G15-QUOTED-BA-UA-BA",
+    "mismatched": "B65-apertus-G15-QUOTED-BA-UA-BEI"
+  },
+  {
+    "model": "apertus",
+    "group_id": "G15",
+    "frame": "QUOTED",
+    "construction": "BEI",
+    "schema": "AU",
+    "matched": "B65-apertus-G15-QUOTED-BEI-AU-BEI",
+    "mismatched": "B65-apertus-G15-QUOTED-BEI-AU-BA"
+  },
+  {
+    "model": "apertus",
+    "group_id": "G15",
+    "frame": "QUOTED",
+    "construction": "BEI",
+    "schema": "UA",
+    "matched": "B65-apertus-G15-QUOTED-BEI-UA-BEI",
+    "mismatched": "B65-apertus-G15-QUOTED-BEI-UA-BA"
+  },
+  {
+    "model": "apertus",
+    "group_id": "G16",
+    "frame": "DIRECT",
+    "construction": "BA",
+    "schema": "AU",
+    "matched": "B65-apertus-G16-DIRECT-BA-AU-BA",
+    "mismatched": "B65-apertus-G16-DIRECT-BA-AU-BEI"
+  },
+  {
+    "model": "apertus",
+    "group_id": "G16",
+    "frame": "DIRECT",
+    "construction": "BA",
+    "schema": "UA",
+    "matched": "B65-apertus-G16-DIRECT-BA-UA-BA",
+    "mismatched": "B65-apertus-G16-DIRECT-BA-UA-BEI"
+  },
+  {
+    "model": "apertus",
+    "group_id": "G16",
+    "frame": "DIRECT",
+    "construction": "BEI",
+    "schema": "AU",
+    "matched": "B65-apertus-G16-DIRECT-BEI-AU-BEI",
+    "mismatched": "B65-apertus-G16-DIRECT-BEI-AU-BA"
+  },
+  {
+    "model": "apertus",
+    "group_id": "G16",
+    "frame": "DIRECT",
+    "construction": "BEI",
+    "schema": "UA",
+    "matched": "B65-apertus-G16-DIRECT-BEI-UA-BEI",
+    "mismatched": "B65-apertus-G16-DIRECT-BEI-UA-BA"
+  },
+  {
+    "model": "apertus",
+    "group_id": "G16",
+    "frame": "QUOTED",
+    "construction": "BA",
+    "schema": "AU",
+    "matched": "B65-apertus-G16-QUOTED-BA-AU-BA",
+    "mismatched": "B65-apertus-G16-QUOTED-BA-AU-BEI"
+  },
+  {
+    "model": "apertus",
+    "group_id": "G16",
+    "frame": "QUOTED",
+    "construction": "BA",
+    "schema": "UA",
+    "matched": "B65-apertus-G16-QUOTED-BA-UA-BA",
+    "mismatched": "B65-apertus-G16-QUOTED-BA-UA-BEI"
+  },
+  {
+    "model": "apertus",
+    "group_id": "G16",
+    "frame": "QUOTED",
+    "construction": "BEI",
+    "schema": "AU",
+    "matched": "B65-apertus-G16-QUOTED-BEI-AU-BEI",
+    "mismatched": "B65-apertus-G16-QUOTED-BEI-AU-BA"
+  },
+  {
+    "model": "apertus",
+    "group_id": "G16",
+    "frame": "QUOTED",
+    "construction": "BEI",
+    "schema": "UA",
+    "matched": "B65-apertus-G16-QUOTED-BEI-UA-BEI",
+    "mismatched": "B65-apertus-G16-QUOTED-BEI-UA-BA"
+  },
+  {
+    "model": "apertus",
+    "group_id": "G17",
+    "frame": "DIRECT",
+    "construction": "BA",
+    "schema": "AU",
+    "matched": "B65-apertus-G17-DIRECT-BA-AU-BA",
+    "mismatched": "B65-apertus-G17-DIRECT-BA-AU-BEI"
+  },
+  {
+    "model": "apertus",
+    "group_id": "G17",
+    "frame": "DIRECT",
+    "construction": "BA",
+    "schema": "UA",
+    "matched": "B65-apertus-G17-DIRECT-BA-UA-BA",
+    "mismatched": "B65-apertus-G17-DIRECT-BA-UA-BEI"
+  },
+  {
+    "model": "apertus",
+    "group_id": "G17",
+    "frame": "DIRECT",
+    "construction": "BEI",
+    "schema": "AU",
+    "matched": "B65-apertus-G17-DIRECT-BEI-AU-BEI",
+    "mismatched": "B65-apertus-G17-DIRECT-BEI-AU-BA"
+  },
+  {
+    "model": "apertus",
+    "group_id": "G17",
+    "frame": "DIRECT",
+    "construction": "BEI",
+    "schema": "UA",
+    "matched": "B65-apertus-G17-DIRECT-BEI-UA-BEI",
+    "mismatched": "B65-apertus-G17-DIRECT-BEI-UA-BA"
+  },
+  {
+    "model": "apertus",
+    "group_id": "G17",
+    "frame": "QUOTED",
+    "construction": "BA",
+    "schema": "AU",
+    "matched": "B65-apertus-G17-QUOTED-BA-AU-BA",
+    "mismatched": "B65-apertus-G17-QUOTED-BA-AU-BEI"
+  },
+  {
+    "model": "apertus",
+    "group_id": "G17",
+    "frame": "QUOTED",
+    "construction": "BA",
+    "schema": "UA",
+    "matched": "B65-apertus-G17-QUOTED-BA-UA-BA",
+    "mismatched": "B65-apertus-G17-QUOTED-BA-UA-BEI"
+  },
+  {
+    "model": "apertus",
+    "group_id": "G17",
+    "frame": "QUOTED",
+    "construction": "BEI",
+    "schema": "AU",
+    "matched": "B65-apertus-G17-QUOTED-BEI-AU-BEI",
+    "mismatched": "B65-apertus-G17-QUOTED-BEI-AU-BA"
+  },
+  {
+    "model": "apertus",
+    "group_id": "G17",
+    "frame": "QUOTED",
+    "construction": "BEI",
+    "schema": "UA",
+    "matched": "B65-apertus-G17-QUOTED-BEI-UA-BEI",
+    "mismatched": "B65-apertus-G17-QUOTED-BEI-UA-BA"
+  },
+  {
+    "model": "apertus",
+    "group_id": "G18",
+    "frame": "DIRECT",
+    "construction": "BA",
+    "schema": "AU",
+    "matched": "B65-apertus-G18-DIRECT-BA-AU-BA",
+    "mismatched": "B65-apertus-G18-DIRECT-BA-AU-BEI"
+  },
+  {
+    "model": "apertus",
+    "group_id": "G18",
+    "frame": "DIRECT",
+    "construction": "BA",
+    "schema": "UA",
+    "matched": "B65-apertus-G18-DIRECT-BA-UA-BA",
+    "mismatched": "B65-apertus-G18-DIRECT-BA-UA-BEI"
+  },
+  {
+    "model": "apertus",
+    "group_id": "G18",
+    "frame": "DIRECT",
+    "construction": "BEI",
+    "schema": "AU",
+    "matched": "B65-apertus-G18-DIRECT-BEI-AU-BEI",
+    "mismatched": "B65-apertus-G18-DIRECT-BEI-AU-BA"
+  },
+  {
+    "model": "apertus",
+    "group_id": "G18",
+    "frame": "DIRECT",
+    "construction": "BEI",
+    "schema": "UA",
+    "matched": "B65-apertus-G18-DIRECT-BEI-UA-BEI",
+    "mismatched": "B65-apertus-G18-DIRECT-BEI-UA-BA"
+  },
+  {
+    "model": "apertus",
+    "group_id": "G18",
+    "frame": "QUOTED",
+    "construction": "BA",
+    "schema": "AU",
+    "matched": "B65-apertus-G18-QUOTED-BA-AU-BA",
+    "mismatched": "B65-apertus-G18-QUOTED-BA-AU-BEI"
+  },
+  {
+    "model": "apertus",
+    "group_id": "G18",
+    "frame": "QUOTED",
+    "construction": "BA",
+    "schema": "UA",
+    "matched": "B65-apertus-G18-QUOTED-BA-UA-BA",
+    "mismatched": "B65-apertus-G18-QUOTED-BA-UA-BEI"
+  },
+  {
+    "model": "apertus",
+    "group_id": "G18",
+    "frame": "QUOTED",
+    "construction": "BEI",
+    "schema": "AU",
+    "matched": "B65-apertus-G18-QUOTED-BEI-AU-BEI",
+    "mismatched": "B65-apertus-G18-QUOTED-BEI-AU-BA"
+  },
+  {
+    "model": "apertus",
+    "group_id": "G18",
+    "frame": "QUOTED",
+    "construction": "BEI",
+    "schema": "UA",
+    "matched": "B65-apertus-G18-QUOTED-BEI-UA-BEI",
+    "mismatched": "B65-apertus-G18-QUOTED-BEI-UA-BA"
+  },
+  {
+    "model": "apertus",
+    "group_id": "G19",
+    "frame": "DIRECT",
+    "construction": "BA",
+    "schema": "AU",
+    "matched": "B65-apertus-G19-DIRECT-BA-AU-BA",
+    "mismatched": "B65-apertus-G19-DIRECT-BA-AU-BEI"
+  },
+  {
+    "model": "apertus",
+    "group_id": "G19",
+    "frame": "DIRECT",
+    "construction": "BA",
+    "schema": "UA",
+    "matched": "B65-apertus-G19-DIRECT-BA-UA-BA",
+    "mismatched": "B65-apertus-G19-DIRECT-BA-UA-BEI"
+  },
+  {
+    "model": "apertus",
+    "group_id": "G19",
+    "frame": "DIRECT",
+    "construction": "BEI",
+    "schema": "AU",
+    "matched": "B65-apertus-G19-DIRECT-BEI-AU-BEI",
+    "mismatched": "B65-apertus-G19-DIRECT-BEI-AU-BA"
+  },
+  {
+    "model": "apertus",
+    "group_id": "G19",
+    "frame": "DIRECT",
+    "construction": "BEI",
+    "schema": "UA",
+    "matched": "B65-apertus-G19-DIRECT-BEI-UA-BEI",
+    "mismatched": "B65-apertus-G19-DIRECT-BEI-UA-BA"
+  },
+  {
+    "model": "apertus",
+    "group_id": "G19",
+    "frame": "QUOTED",
+    "construction": "BA",
+    "schema": "AU",
+    "matched": "B65-apertus-G19-QUOTED-BA-AU-BA",
+    "mismatched": "B65-apertus-G19-QUOTED-BA-AU-BEI"
+  },
+  {
+    "model": "apertus",
+    "group_id": "G19",
+    "frame": "QUOTED",
+    "construction": "BA",
+    "schema": "UA",
+    "matched": "B65-apertus-G19-QUOTED-BA-UA-BA",
+    "mismatched": "B65-apertus-G19-QUOTED-BA-UA-BEI"
+  },
+  {
+    "model": "apertus",
+    "group_id": "G19",
+    "frame": "QUOTED",
+    "construction": "BEI",
+    "schema": "AU",
+    "matched": "B65-apertus-G19-QUOTED-BEI-AU-BEI",
+    "mismatched": "B65-apertus-G19-QUOTED-BEI-AU-BA"
+  },
+  {
+    "model": "apertus",
+    "group_id": "G19",
+    "frame": "QUOTED",
+    "construction": "BEI",
+    "schema": "UA",
+    "matched": "B65-apertus-G19-QUOTED-BEI-UA-BEI",
+    "mismatched": "B65-apertus-G19-QUOTED-BEI-UA-BA"
+  },
+  {
+    "model": "apertus",
+    "group_id": "G20",
+    "frame": "DIRECT",
+    "construction": "BA",
+    "schema": "AU",
+    "matched": "B65-apertus-G20-DIRECT-BA-AU-BA",
+    "mismatched": "B65-apertus-G20-DIRECT-BA-AU-BEI"
+  },
+  {
+    "model": "apertus",
+    "group_id": "G20",
+    "frame": "DIRECT",
+    "construction": "BA",
+    "schema": "UA",
+    "matched": "B65-apertus-G20-DIRECT-BA-UA-BA",
+    "mismatched": "B65-apertus-G20-DIRECT-BA-UA-BEI"
+  },
+  {
+    "model": "apertus",
+    "group_id": "G20",
+    "frame": "DIRECT",
+    "construction": "BEI",
+    "schema": "AU",
+    "matched": "B65-apertus-G20-DIRECT-BEI-AU-BEI",
+    "mismatched": "B65-apertus-G20-DIRECT-BEI-AU-BA"
+  },
+  {
+    "model": "apertus",
+    "group_id": "G20",
+    "frame": "DIRECT",
+    "construction": "BEI",
+    "schema": "UA",
+    "matched": "B65-apertus-G20-DIRECT-BEI-UA-BEI",
+    "mismatched": "B65-apertus-G20-DIRECT-BEI-UA-BA"
+  },
+  {
+    "model": "apertus",
+    "group_id": "G20",
+    "frame": "QUOTED",
+    "construction": "BA",
+    "schema": "AU",
+    "matched": "B65-apertus-G20-QUOTED-BA-AU-BA",
+    "mismatched": "B65-apertus-G20-QUOTED-BA-AU-BEI"
+  },
+  {
+    "model": "apertus",
+    "group_id": "G20",
+    "frame": "QUOTED",
+    "construction": "BA",
+    "schema": "UA",
+    "matched": "B65-apertus-G20-QUOTED-BA-UA-BA",
+    "mismatched": "B65-apertus-G20-QUOTED-BA-UA-BEI"
+  },
+  {
+    "model": "apertus",
+    "group_id": "G20",
+    "frame": "QUOTED",
+    "construction": "BEI",
+    "schema": "AU",
+    "matched": "B65-apertus-G20-QUOTED-BEI-AU-BEI",
+    "mismatched": "B65-apertus-G20-QUOTED-BEI-AU-BA"
+  },
+  {
+    "model": "apertus",
+    "group_id": "G20",
+    "frame": "QUOTED",
+    "construction": "BEI",
+    "schema": "UA",
+    "matched": "B65-apertus-G20-QUOTED-BEI-UA-BEI",
+    "mismatched": "B65-apertus-G20-QUOTED-BEI-UA-BA"
+  },
+  {
+    "model": "apertus",
+    "group_id": "G21",
+    "frame": "DIRECT",
+    "construction": "BA",
+    "schema": "AU",
+    "matched": "B65-apertus-G21-DIRECT-BA-AU-BA",
+    "mismatched": "B65-apertus-G21-DIRECT-BA-AU-BEI"
+  },
+  {
+    "model": "apertus",
+    "group_id": "G21",
+    "frame": "DIRECT",
+    "construction": "BA",
+    "schema": "UA",
+    "matched": "B65-apertus-G21-DIRECT-BA-UA-BA",
+    "mismatched": "B65-apertus-G21-DIRECT-BA-UA-BEI"
+  },
+  {
+    "model": "apertus",
+    "group_id": "G21",
+    "frame": "DIRECT",
+    "construction": "BEI",
+    "schema": "AU",
+    "matched": "B65-apertus-G21-DIRECT-BEI-AU-BEI",
+    "mismatched": "B65-apertus-G21-DIRECT-BEI-AU-BA"
+  },
+  {
+    "model": "apertus",
+    "group_id": "G21",
+    "frame": "DIRECT",
+    "construction": "BEI",
+    "schema": "UA",
+    "matched": "B65-apertus-G21-DIRECT-BEI-UA-BEI",
+    "mismatched": "B65-apertus-G21-DIRECT-BEI-UA-BA"
+  },
+  {
+    "model": "apertus",
+    "group_id": "G21",
+    "frame": "QUOTED",
+    "construction": "BA",
+    "schema": "AU",
+    "matched": "B65-apertus-G21-QUOTED-BA-AU-BA",
+    "mismatched": "B65-apertus-G21-QUOTED-BA-AU-BEI"
+  },
+  {
+    "model": "apertus",
+    "group_id": "G21",
+    "frame": "QUOTED",
+    "construction": "BA",
+    "schema": "UA",
+    "matched": "B65-apertus-G21-QUOTED-BA-UA-BA",
+    "mismatched": "B65-apertus-G21-QUOTED-BA-UA-BEI"
+  },
+  {
+    "model": "apertus",
+    "group_id": "G21",
+    "frame": "QUOTED",
+    "construction": "BEI",
+    "schema": "AU",
+    "matched": "B65-apertus-G21-QUOTED-BEI-AU-BEI",
+    "mismatched": "B65-apertus-G21-QUOTED-BEI-AU-BA"
+  },
+  {
+    "model": "apertus",
+    "group_id": "G21",
+    "frame": "QUOTED",
+    "construction": "BEI",
+    "schema": "UA",
+    "matched": "B65-apertus-G21-QUOTED-BEI-UA-BEI",
+    "mismatched": "B65-apertus-G21-QUOTED-BEI-UA-BA"
+  },
+  {
+    "model": "apertus",
+    "group_id": "G22",
+    "frame": "DIRECT",
+    "construction": "BA",
+    "schema": "AU",
+    "matched": "B65-apertus-G22-DIRECT-BA-AU-BA",
+    "mismatched": "B65-apertus-G22-DIRECT-BA-AU-BEI"
+  },
+  {
+    "model": "apertus",
+    "group_id": "G22",
+    "frame": "DIRECT",
+    "construction": "BA",
+    "schema": "UA",
+    "matched": "B65-apertus-G22-DIRECT-BA-UA-BA",
+    "mismatched": "B65-apertus-G22-DIRECT-BA-UA-BEI"
+  },
+  {
+    "model": "apertus",
+    "group_id": "G22",
+    "frame": "DIRECT",
+    "construction": "BEI",
+    "schema": "AU",
+    "matched": "B65-apertus-G22-DIRECT-BEI-AU-BEI",
+    "mismatched": "B65-apertus-G22-DIRECT-BEI-AU-BA"
+  },
+  {
+    "model": "apertus",
+    "group_id": "G22",
+    "frame": "DIRECT",
+    "construction": "BEI",
+    "schema": "UA",
+    "matched": "B65-apertus-G22-DIRECT-BEI-UA-BEI",
+    "mismatched": "B65-apertus-G22-DIRECT-BEI-UA-BA"
+  },
+  {
+    "model": "apertus",
+    "group_id": "G22",
+    "frame": "QUOTED",
+    "construction": "BA",
+    "schema": "AU",
+    "matched": "B65-apertus-G22-QUOTED-BA-AU-BA",
+    "mismatched": "B65-apertus-G22-QUOTED-BA-AU-BEI"
+  },
+  {
+    "model": "apertus",
+    "group_id": "G22",
+    "frame": "QUOTED",
+    "construction": "BA",
+    "schema": "UA",
+    "matched": "B65-apertus-G22-QUOTED-BA-UA-BA",
+    "mismatched": "B65-apertus-G22-QUOTED-BA-UA-BEI"
+  },
+  {
+    "model": "apertus",
+    "group_id": "G22",
+    "frame": "QUOTED",
+    "construction": "BEI",
+    "schema": "AU",
+    "matched": "B65-apertus-G22-QUOTED-BEI-AU-BEI",
+    "mismatched": "B65-apertus-G22-QUOTED-BEI-AU-BA"
+  },
+  {
+    "model": "apertus",
+    "group_id": "G22",
+    "frame": "QUOTED",
+    "construction": "BEI",
+    "schema": "UA",
+    "matched": "B65-apertus-G22-QUOTED-BEI-UA-BEI",
+    "mismatched": "B65-apertus-G22-QUOTED-BEI-UA-BA"
+  },
+  {
+    "model": "apertus",
+    "group_id": "G23",
+    "frame": "DIRECT",
+    "construction": "BA",
+    "schema": "AU",
+    "matched": "B65-apertus-G23-DIRECT-BA-AU-BA",
+    "mismatched": "B65-apertus-G23-DIRECT-BA-AU-BEI"
+  },
+  {
+    "model": "apertus",
+    "group_id": "G23",
+    "frame": "DIRECT",
+    "construction": "BA",
+    "schema": "UA",
+    "matched": "B65-apertus-G23-DIRECT-BA-UA-BA",
+    "mismatched": "B65-apertus-G23-DIRECT-BA-UA-BEI"
+  },
+  {
+    "model": "apertus",
+    "group_id": "G23",
+    "frame": "DIRECT",
+    "construction": "BEI",
+    "schema": "AU",
+    "matched": "B65-apertus-G23-DIRECT-BEI-AU-BEI",
+    "mismatched": "B65-apertus-G23-DIRECT-BEI-AU-BA"
+  },
+  {
+    "model": "apertus",
+    "group_id": "G23",
+    "frame": "DIRECT",
+    "construction": "BEI",
+    "schema": "UA",
+    "matched": "B65-apertus-G23-DIRECT-BEI-UA-BEI",
+    "mismatched": "B65-apertus-G23-DIRECT-BEI-UA-BA"
+  },
+  {
+    "model": "apertus",
+    "group_id": "G23",
+    "frame": "QUOTED",
+    "construction": "BA",
+    "schema": "AU",
+    "matched": "B65-apertus-G23-QUOTED-BA-AU-BA",
+    "mismatched": "B65-apertus-G23-QUOTED-BA-AU-BEI"
+  },
+  {
+    "model": "apertus",
+    "group_id": "G23",
+    "frame": "QUOTED",
+    "construction": "BA",
+    "schema": "UA",
+    "matched": "B65-apertus-G23-QUOTED-BA-UA-BA",
+    "mismatched": "B65-apertus-G23-QUOTED-BA-UA-BEI"
+  },
+  {
+    "model": "apertus",
+    "group_id": "G23",
+    "frame": "QUOTED",
+    "construction": "BEI",
+    "schema": "AU",
+    "matched": "B65-apertus-G23-QUOTED-BEI-AU-BEI",
+    "mismatched": "B65-apertus-G23-QUOTED-BEI-AU-BA"
+  },
+  {
+    "model": "apertus",
+    "group_id": "G23",
+    "frame": "QUOTED",
+    "construction": "BEI",
+    "schema": "UA",
+    "matched": "B65-apertus-G23-QUOTED-BEI-UA-BEI",
+    "mismatched": "B65-apertus-G23-QUOTED-BEI-UA-BA"
+  },
+  {
+    "model": "apertus",
+    "group_id": "G24",
+    "frame": "DIRECT",
+    "construction": "BA",
+    "schema": "AU",
+    "matched": "B65-apertus-G24-DIRECT-BA-AU-BA",
+    "mismatched": "B65-apertus-G24-DIRECT-BA-AU-BEI"
+  },
+  {
+    "model": "apertus",
+    "group_id": "G24",
+    "frame": "DIRECT",
+    "construction": "BA",
+    "schema": "UA",
+    "matched": "B65-apertus-G24-DIRECT-BA-UA-BA",
+    "mismatched": "B65-apertus-G24-DIRECT-BA-UA-BEI"
+  },
+  {
+    "model": "apertus",
+    "group_id": "G24",
+    "frame": "DIRECT",
+    "construction": "BEI",
+    "schema": "AU",
+    "matched": "B65-apertus-G24-DIRECT-BEI-AU-BEI",
+    "mismatched": "B65-apertus-G24-DIRECT-BEI-AU-BA"
+  },
+  {
+    "model": "apertus",
+    "group_id": "G24",
+    "frame": "DIRECT",
+    "construction": "BEI",
+    "schema": "UA",
+    "matched": "B65-apertus-G24-DIRECT-BEI-UA-BEI",
+    "mismatched": "B65-apertus-G24-DIRECT-BEI-UA-BA"
+  },
+  {
+    "model": "apertus",
+    "group_id": "G24",
+    "frame": "QUOTED",
+    "construction": "BA",
+    "schema": "AU",
+    "matched": "B65-apertus-G24-QUOTED-BA-AU-BA",
+    "mismatched": "B65-apertus-G24-QUOTED-BA-AU-BEI"
+  },
+  {
+    "model": "apertus",
+    "group_id": "G24",
+    "frame": "QUOTED",
+    "construction": "BA",
+    "schema": "UA",
+    "matched": "B65-apertus-G24-QUOTED-BA-UA-BA",
+    "mismatched": "B65-apertus-G24-QUOTED-BA-UA-BEI"
+  },
+  {
+    "model": "apertus",
+    "group_id": "G24",
+    "frame": "QUOTED",
+    "construction": "BEI",
+    "schema": "AU",
+    "matched": "B65-apertus-G24-QUOTED-BEI-AU-BEI",
+    "mismatched": "B65-apertus-G24-QUOTED-BEI-AU-BA"
+  },
+  {
+    "model": "apertus",
+    "group_id": "G24",
+    "frame": "QUOTED",
+    "construction": "BEI",
+    "schema": "UA",
+    "matched": "B65-apertus-G24-QUOTED-BEI-UA-BEI",
+    "mismatched": "B65-apertus-G24-QUOTED-BEI-UA-BA"
+  }
+]
