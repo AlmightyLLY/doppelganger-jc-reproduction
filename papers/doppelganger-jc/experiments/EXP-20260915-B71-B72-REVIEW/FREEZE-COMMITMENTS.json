@@ -1,0 +1,15 @@
+{
+  "scope": "Original frozen files; later technical/resource amendments do not make unrun stages completed",
+  "files": [
+    {
+      "source": "research_notes/2026-09-15/b72_main_plan_v1/MAIN-DESIGN.zh-CN.md",
+      "sha256": "f8ae7705c48c7a9e719d4573f2445d8a80b8a50f7e7dbb69f0e043988d901c72",
+      "bytes": 20078
+    },
+    {
+      "source": "research_notes/2026-09-15/b72_execution_v1/p2a_v1/MANIFEST.json",
+      "sha256": "65480542892865c819fa6744f1555b070a0d60e334496b5167a0d4b9171108c7",
+      "bytes": 625
+    }
+  ]
+}

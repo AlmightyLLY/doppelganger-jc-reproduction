@@ -1,0 +1,14 @@
+{
+  "status": "PASS_MAIN_ACTUAL_OFFICE_READBACK_AND_VISUAL_REVIEW",
+  "at": "2026-09-15T15:57:17.099651+00:00",
+  "science_rows": 4032,
+  "all_19_columns_checked_against_original_evidence": true,
+  "summary_and_Word_tables_checked": true,
+  "word_pages_visually_reviewed": 3,
+  "human_review": 0,
+  "P1": "NOT_RUN_GATE_FAILED",
+  "P2a_candidate_forwards": 0,
+  "P2a_diagnostic_forwards": 0,
+  "scope": "Complete behavioral stages only; P2a waiting for resources",
+  "technical_48": "Separate raw archive, not scientific workbook rows"
+}

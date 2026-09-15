@@ -1,0 +1,101 @@
+[
+  {
+    "batch": "B71",
+    "contract": "K0",
+    "model": "apertus",
+    "n": 576,
+    "C": 488,
+    "R": 88,
+    "U": 0,
+    "format_ok": 576,
+    "C_and_format": 488
+  },
+  {
+    "batch": "B71",
+    "contract": "K0",
+    "model": "qwen",
+    "n": 576,
+    "C": 552,
+    "R": 23,
+    "U": 1,
+    "format_ok": 576,
+    "C_and_format": 552
+  },
+  {
+    "batch": "B72",
+    "contract": "K0",
+    "model": "qwen-0.6B",
+    "n": 576,
+    "C": 239,
+    "R": 111,
+    "U": 226,
+    "format_ok": 37,
+    "C_and_format": 15
+  },
+  {
+    "batch": "B72",
+    "contract": "K0",
+    "model": "qwen-1.7B",
+    "n": 576,
+    "C": 501,
+    "R": 66,
+    "U": 9,
+    "format_ok": 576,
+    "C_and_format": 501
+  },
+  {
+    "batch": "B72",
+    "contract": "K0",
+    "model": "qwen-14B",
+    "n": 576,
+    "C": 574,
+    "R": 1,
+    "U": 1,
+    "format_ok": 576,
+    "C_and_format": 574
+  },
+  {
+    "batch": "B72",
+    "contract": "K0",
+    "model": "qwen-32B",
+    "n": 576,
+    "C": 575,
+    "R": 1,
+    "U": 0,
+    "format_ok": 546,
+    "C_and_format": 545
+  },
+  {
+    "batch": "B72",
+    "contract": "K0",
+    "model": "qwen-4B",
+    "n": 576,
+    "C": 560,
+    "R": 16,
+    "U": 0,
+    "format_ok": 576,
+    "C_and_format": 560
+  },
+  {
+    "batch": "B72",
+    "contract": "K1",
+    "model": "apertus",
+    "n": 576,
+    "C": 471,
+    "R": 105,
+    "U": 0,
+    "format_ok": 576,
+    "C_and_format": 471
+  },
+  {
+    "batch": "B72",
+    "contract": "K1",
+    "model": "qwen",
+    "n": 576,
+    "C": 543,
+    "R": 28,
+    "U": 5,
+    "format_ok": 576,
+    "C_and_format": 543
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "batch": "B71",
+    "model": "qwen",
+    "raw_bytes": 2418112,
+    "sha256": "2b8200262a70ba7aa809a13154b0395bcf6d75626cbbdf9abe208ab61be1b190",
+    "relative_source": "research_notes/2026-09-15/b71_execution_v5_original_contract_dual/runs/science_qwen/ROWS.partial.jsonl"
+  },
+  {
+    "batch": "B71",
+    "model": "apertus",
+    "raw_bytes": 2814709,
+    "sha256": "f3bc93b2f2023d459f8aa1fdc021238c83f6cfac66305902876f6405cf48bae7",
+    "relative_source": "research_notes/2026-09-15/b71_execution_v5_original_contract_dual/runs/science_apertus/ROWS.partial.jsonl"
+  },
+  {
+    "batch": "B72",
+    "model": "two_P0_models",
+    "raw_bytes": 579329,
+    "sha256": "5226dbe869fcae70fe4b56741156e8d70df8edfb61270942972fdd332c50279d",
+    "relative_source": "research_notes/2026-09-15/b71_b72_closeout_v1/P0-RAW.jsonl"
+  },
+  {
+    "batch": "B72",
+    "model": "qwen-0.6B",
+    "raw_bytes": 718878,
+    "sha256": "aadee0d43f9c4540638de4956f4799cd1a22282c881f599fa0ffb07e8446a2e0",
+    "relative_source": "research_notes/2026-09-15/b72_execution_v1/technical_v12_lab06/complete_evidence/runs/OUTPUTS.jsonl"
+  },
+  {
+    "batch": "B72",
+    "model": "qwen-1.7B",
+    "raw_bytes": 590262,
+    "sha256": "6cb74ba9d32339343e5df90fa273bf02eb2206d3584a89e478e3f1959ba9f2ca",
+    "relative_source": "research_notes/2026-09-15/b72_execution_v1/cloud17/complete_evidence/runs/OUTPUTS.jsonl"
+  },
+  {
+    "batch": "B72",
+    "model": "qwen-4B",
+    "raw_bytes": 1080231,
+    "sha256": "a6d4c182f881c9fa2ec95f9790f680a0f14866c9610f7d66a7a11a1246847791",
+    "relative_source": "research_notes/2026-09-15/b72_execution_v1/cloud4/complete_evidence/runs/OUTPUTS.jsonl"
+  },
+  {
+    "batch": "B72",
+    "model": "qwen-14B",
+    "raw_bytes": 293838,
+    "sha256": "eb00066c1975548288bcc0b27c72460c8a01a4fe7cbefbeffe6c4e0e81d40072",
+    "relative_source": "research_notes/2026-09-15/b72_runpod14_v1/complete_evidence/runs/OUTPUTS.jsonl"
+  },
+  {
+    "batch": "B72",
+    "model": "qwen-32B",
+    "raw_bytes": 295037,
+    "sha256": "b978510fd897da7586e1c5827048bb570795eb0294b8995e5f569d01fdca7305",
+    "relative_source": "research_notes/2026-09-15/b72_runpod32_v1/complete_evidence/frozen/runs/OUTPUTS.jsonl"
+  }
+]

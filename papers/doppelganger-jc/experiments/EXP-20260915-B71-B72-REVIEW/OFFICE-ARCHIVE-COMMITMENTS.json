@@ -1,0 +1,42 @@
+[
+  {
+    "artifact": "B71-结果总结.docx",
+    "bytes": 38657,
+    "sha256": "61b6ff29bd7c3c31c505e3e4c90f503e12d0b0aa6dfb24a8f09bbcabd78ac80a",
+    "public_status": "Private editable original remains local",
+    "scope": "B71 original frozen result delivery"
+  },
+  {
+    "artifact": "B71-完整结果.xlsx",
+    "bytes": 370232,
+    "sha256": "72278a2b4e9b320fa3b5e8f304dd8304874b73a3e75afdf53e59b1d8111372e1",
+    "public_status": "Private editable original remains local",
+    "scope": "B71 original frozen result delivery"
+  },
+  {
+    "artifact": "B72-行为阶段结果总结.docx",
+    "bytes": 39134,
+    "sha256": "9a3df1746393eae95ed8f3fd950ad00994ff5a7a3678e8d4649e023d86e08307",
+    "public_status": "Private editable original remains local",
+    "scope": "B72 scientific natural outputs only; technical outputs separate"
+  },
+  {
+    "artifact": "B72-行为阶段完整结果.xlsx",
+    "bytes": 480432,
+    "sha256": "67036e9d208800be5d65c8378804c47722868efa1f70132557f5fc4e87b5d1fa",
+    "public_status": "Private editable original remains local",
+    "scope": "B72 scientific natural outputs only; technical outputs separate"
+  },
+  {
+    "artifact": "B71原人物合同完整归档.zip",
+    "bytes": 6684382,
+    "sha256": "1b0f77b38dab462142de50fb57f1fd313ae9b54e51888fdf224fa925a8cde27c",
+    "public_status": "Private archive commitment only"
+  },
+  {
+    "artifact": "FINAL-ARCHIVE-MANIFEST.json",
+    "bytes": 3675,
+    "sha256": "65a0426e8e5d22e8b2f46ed099afe8befd7b535a6b208de43c47889781705bfc",
+    "public_status": "Private archive commitment only"
+  }
+]

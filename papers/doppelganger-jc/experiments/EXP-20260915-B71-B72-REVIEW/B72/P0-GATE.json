@@ -1,0 +1,30 @@
+{
+  "checks": {
+    "reverse_compatible": true,
+    "other_cells": false,
+    "NONE": true,
+    "U": true
+  },
+  "behavior_pass": false,
+  "quality_release": "MAIN_CHECK_REQUIRED",
+  "NONE": {
+    "n": 192,
+    "C": 0.9791666666666666,
+    "R": 0.0,
+    "U": 0.020833333333333332,
+    "categories": {
+      "C": 188,
+      "OTHER_U": 4
+    }
+  },
+  "BEI_AU_NONE": {
+    "n": 48,
+    "C": 0.9791666666666666,
+    "R": 0.0,
+    "U": 0.020833333333333332,
+    "categories": {
+      "C": 47,
+      "OTHER_U": 1
+    }
+  }
+}

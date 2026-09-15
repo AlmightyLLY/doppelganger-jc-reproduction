@@ -1,0 +1,1228 @@
+[
+  {
+    "purpose": "B71 same target different background",
+    "call_id": "B71v11-qwen-C02-AA_REV-AB-BEI-AU-NONE",
+    "model": "qwen",
+    "unit_id": "C02",
+    "group_id": "C02",
+    "cohort": "AA_REV",
+    "stage": "I",
+    "material_set": "SCIENCE",
+    "direction": "AB",
+    "construction": "BEI",
+    "schema": "AU",
+    "background": "NONE",
+    "source_text": "R1：在院子，李泽远被孙嘉宁推倒了。",
+    "R1": "R1：在院子，李泽远被孙嘉宁推倒了。",
+    "R2": "",
+    "messages": [
+      {
+        "role": "user",
+        "content": "以下是关于虚构人物的记录。各编号表示独立记录，不表示时间先后。只回答R1。\n记录：\nR1：在院子，李泽远被孙嘉宁推倒了。\n对于R1，actor是句中对另一方做出该动作或引发其结果的人，undergoer是句中受到该动作或其结果影响的人。即使是否定句，也返回句中指定的双方，不据此推断行动实际发生。人物值使用原文中出现的完整姓名，无法确定时填null。\n只返回一个具有以下键的JSON对象，不附解释：{\"actor\":\"人名\",\"undergoer\":\"人名\"}\n"
+      }
+    ],
+    "gold": {
+      "actor": "孙嘉宁",
+      "undergoer": "李泽远"
+    },
+    "background_gold": null,
+    "entity_map": {
+      "A": "孙嘉宁",
+      "B": "李泽远",
+      "C": "石俊鹏",
+      "D": "程嘉月"
+    },
+    "demo_names_present": [],
+    "prompt_sha256": "3f5cc8b151a64ace5cd45ee5c827c55240eb8a612e8b4b8298e419ed55381374",
+    "contract": "K0",
+    "batch": "B71",
+    "C": 1,
+    "R": 0,
+    "U": 0,
+    "category": "C",
+    "answer": {
+      "actor": "孙嘉宁",
+      "undergoer": "李泽远"
+    },
+    "format_ok": true,
+    "generated_text": "{\"actor\":\"孙嘉宁\",\"undergoer\":\"李泽远\"}",
+    "generated_token_ids": [
+      4913,
+      5621,
+      3252,
+      100685,
+      100731,
+      99503,
+      2198,
+      7995,
+      3346,
+      261,
+      3252,
+      100339,
+      100251,
+      99427,
+      9207,
+      151645
+    ]
+  },
+  {
+    "purpose": "B71 same target different background",
+    "call_id": "B71v11-qwen-C02-AA_REV-AB-BEI-AU-BA",
+    "model": "qwen",
+    "unit_id": "C02",
+    "group_id": "C02",
+    "cohort": "AA_REV",
+    "stage": "I",
+    "material_set": "SCIENCE",
+    "direction": "AB",
+    "construction": "BEI",
+    "schema": "AU",
+    "background": "BA",
+    "source_text": "R2：在街角花店，石俊鹏把程嘉月送走了。\nR1：在院子，李泽远被孙嘉宁推倒了。",
+    "R1": "R1：在院子，李泽远被孙嘉宁推倒了。",
+    "R2": "R2：在街角花店，石俊鹏把程嘉月送走了。",
+    "messages": [
+      {
+        "role": "user",
+        "content": "以下是关于虚构人物的记录。各编号表示独立记录，不表示时间先后。只回答R1。\n记录：\nR2：在街角花店，石俊鹏把程嘉月送走了。\nR1：在院子，李泽远被孙嘉宁推倒了。\n对于R1，actor是句中对另一方做出该动作或引发其结果的人，undergoer是句中受到该动作或其结果影响的人。即使是否定句，也返回句中指定的双方，不据此推断行动实际发生。人物值使用原文中出现的完整姓名，无法确定时填null。\n只返回一个具有以下键的JSON对象，不附解释：{\"actor\":\"人名\",\"undergoer\":\"人名\"}\n"
+      }
+    ],
+    "gold": {
+      "actor": "孙嘉宁",
+      "undergoer": "李泽远"
+    },
+    "background_gold": {
+      "actor": "石俊鹏",
+      "undergoer": "程嘉月"
+    },
+    "entity_map": {
+      "A": "孙嘉宁",
+      "B": "李泽远",
+      "C": "石俊鹏",
+      "D": "程嘉月"
+    },
+    "demo_names_present": [],
+    "prompt_sha256": "ea9182b8919fe0c666b57ed3c69846d36ee73aab139ae176f33b1a26d81e3798",
+    "contract": "K0",
+    "batch": "B71",
+    "C": 0,
+    "R": 1,
+    "U": 0,
+    "category": "R",
+    "answer": {
+      "actor": "李泽远",
+      "undergoer": "孙嘉宁"
+    },
+    "format_ok": true,
+    "generated_text": "{\"actor\":\"李泽远\",\"undergoer\":\"孙嘉宁\"}",
+    "generated_token_ids": [
+      4913,
+      5621,
+      3252,
+      100339,
+      100251,
+      99427,
+      2198,
+      7995,
+      3346,
+      261,
+      3252,
+      100685,
+      100731,
+      99503,
+      9207,
+      151645
+    ]
+  },
+  {
+    "purpose": "B71 same target different background",
+    "call_id": "B71v11-qwen-C02-AA_REV-AB-BEI-AU-BEI",
+    "model": "qwen",
+    "unit_id": "C02",
+    "group_id": "C02",
+    "cohort": "AA_REV",
+    "stage": "I",
+    "material_set": "SCIENCE",
+    "direction": "AB",
+    "construction": "BEI",
+    "schema": "AU",
+    "background": "BEI",
+    "source_text": "R2：在街角花店，程嘉月被石俊鹏送走了。\nR1：在院子，李泽远被孙嘉宁推倒了。",
+    "R1": "R1：在院子，李泽远被孙嘉宁推倒了。",
+    "R2": "R2：在街角花店，程嘉月被石俊鹏送走了。",
+    "messages": [
+      {
+        "role": "user",
+        "content": "以下是关于虚构人物的记录。各编号表示独立记录，不表示时间先后。只回答R1。\n记录：\nR2：在街角花店，程嘉月被石俊鹏送走了。\nR1：在院子，李泽远被孙嘉宁推倒了。\n对于R1，actor是句中对另一方做出该动作或引发其结果的人，undergoer是句中受到该动作或其结果影响的人。即使是否定句，也返回句中指定的双方，不据此推断行动实际发生。人物值使用原文中出现的完整姓名，无法确定时填null。\n只返回一个具有以下键的JSON对象，不附解释：{\"actor\":\"人名\",\"undergoer\":\"人名\"}\n"
+      }
+    ],
+    "gold": {
+      "actor": "孙嘉宁",
+      "undergoer": "李泽远"
+    },
+    "background_gold": {
+      "actor": "石俊鹏",
+      "undergoer": "程嘉月"
+    },
+    "entity_map": {
+      "A": "孙嘉宁",
+      "B": "李泽远",
+      "C": "石俊鹏",
+      "D": "程嘉月"
+    },
+    "demo_names_present": [],
+    "prompt_sha256": "be9c164eb508b627501ef060258e247910561db8b0b39162fb7a2788b55ebbd2",
+    "contract": "K0",
+    "batch": "B71",
+    "C": 1,
+    "R": 0,
+    "U": 0,
+    "category": "C",
+    "answer": {
+      "actor": "孙嘉宁",
+      "undergoer": "李泽远"
+    },
+    "format_ok": true,
+    "generated_text": "{\"actor\":\"孙嘉宁\",\"undergoer\":\"李泽远\"}",
+    "generated_token_ids": [
+      4913,
+      5621,
+      3252,
+      100685,
+      100731,
+      99503,
+      2198,
+      7995,
+      3346,
+      261,
+      3252,
+      100339,
+      100251,
+      99427,
+      9207,
+      151645
+    ]
+  },
+  {
+    "purpose": "4B representative reversed target",
+    "call_id": "B72-SIZE-4B-B71v11-qwen-C10-AA_REV-BA-BEI-UA-BA",
+    "model": "qwen-4B",
+    "unit_id": "C10",
+    "group_id": "C10",
+    "cohort": "AA_REV",
+    "stage": "P2B_4B",
+    "material_set": "SCIENCE",
+    "direction": "BA",
+    "construction": "BEI",
+    "schema": "UA",
+    "background": "BA",
+    "source_text": "R2：在面包店门口，丁逸凡把姚知遥送走了。\nR1：在楼道，尤星河被许雅晴困住了。",
+    "R1": "R1：在楼道，尤星河被许雅晴困住了。",
+    "R2": "R2：在面包店门口，丁逸凡把姚知遥送走了。",
+    "messages": [
+      {
+        "role": "user",
+        "content": "以下是关于虚构人物的记录。各编号表示独立记录，不表示时间先后。只回答R1。\n记录：\nR2：在面包店门口，丁逸凡把姚知遥送走了。\nR1：在楼道，尤星河被许雅晴困住了。\n对于R1，actor是句中对另一方做出该动作或引发其结果的人，undergoer是句中受到该动作或其结果影响的人。即使是否定句，也返回句中指定的双方，不据此推断行动实际发生。人物值使用原文中出现的完整姓名，无法确定时填null。\n只返回一个具有以下键的JSON对象，不附解释：{\"undergoer\":\"人名\",\"actor\":\"人名\"}\n"
+      }
+    ],
+    "gold": {
+      "actor": "许雅晴",
+      "undergoer": "尤星河"
+    },
+    "background_gold": {
+      "actor": "丁逸凡",
+      "undergoer": "姚知遥"
+    },
+    "entity_map": {
+      "A": "尤星河",
+      "B": "许雅晴",
+      "C": "丁逸凡",
+      "D": "姚知遥"
+    },
+    "demo_names_present": [],
+    "prompt_sha256": "87be25fc99d64f107632ecde4d196607d36cf166b6017c2613cfd1c03be4b4ad",
+    "source_call_id": "B71v11-qwen-C10-AA_REV-BA-BEI-UA-BA",
+    "contract": "K0",
+    "batch": "B72",
+    "C": 0,
+    "R": 1,
+    "U": 0,
+    "category": "R",
+    "answer": {
+      "undergoer": "许雅晴",
+      "actor": "尤星河"
+    },
+    "format_ok": true,
+    "generated_text": "{\"undergoer\":\"许雅晴\",\"actor\":\"尤星河\"}",
+    "generated_token_ids": [
+      4913,
+      7995,
+      3346,
+      261,
+      3252,
+      99454,
+      71025,
+      105212,
+      2198,
+      5621,
+      3252,
+      100207,
+      77419,
+      99469,
+      9207,
+      151645
+    ]
+  },
+  {
+    "purpose": "32B only role reversal",
+    "call_id": "B72-SIZE-32B-B71v11-qwen-C06-AA_REV-BA-BEI-AU-BA",
+    "model": "qwen-32B",
+    "unit_id": "C06",
+    "group_id": "C06",
+    "cohort": "AA_REV",
+    "stage": "P2B_32B",
+    "material_set": "SCIENCE",
+    "direction": "BA",
+    "construction": "BEI",
+    "schema": "AU",
+    "background": "BA",
+    "source_text": "R2：在酒店大堂，胡文轩把邓清妤接走了。\nR1：在展厅，褚景行被卫知夏碰倒了。",
+    "R1": "R1：在展厅，褚景行被卫知夏碰倒了。",
+    "R2": "R2：在酒店大堂，胡文轩把邓清妤接走了。",
+    "messages": [
+      {
+        "role": "user",
+        "content": "以下是关于虚构人物的记录。各编号表示独立记录，不表示时间先后。只回答R1。\n记录：\nR2：在酒店大堂，胡文轩把邓清妤接走了。\nR1：在展厅，褚景行被卫知夏碰倒了。\n对于R1，actor是句中对另一方做出该动作或引发其结果的人，undergoer是句中受到该动作或其结果影响的人。即使是否定句，也返回句中指定的双方，不据此推断行动实际发生。人物值使用原文中出现的完整姓名，无法确定时填null。\n只返回一个具有以下键的JSON对象，不附解释：{\"actor\":\"人名\",\"undergoer\":\"人名\"}\n"
+      }
+    ],
+    "gold": {
+      "actor": "卫知夏",
+      "undergoer": "褚景行"
+    },
+    "background_gold": {
+      "actor": "胡文轩",
+      "undergoer": "邓清妤"
+    },
+    "entity_map": {
+      "A": "褚景行",
+      "B": "卫知夏",
+      "C": "胡文轩",
+      "D": "邓清妤"
+    },
+    "demo_names_present": [],
+    "prompt_sha256": "0004c0f32dce24fe45af8588c5d66d9faf4ced00beb0b1f201a402769e72ee1a",
+    "source_call_id": "B71v11-qwen-C06-AA_REV-BA-BEI-AU-BA",
+    "contract": "K0",
+    "batch": "B72",
+    "C": 0,
+    "R": 1,
+    "U": 0,
+    "category": "R",
+    "answer": {
+      "actor": "褚景行",
+      "undergoer": "卫知夏"
+    },
+    "format_ok": true,
+    "generated_text": "{\"actor\":\"褚景行\",\"undergoer\":\"卫知夏\"}",
+    "generated_token_ids": [
+      4913,
+      5621,
+      3252,
+      118423,
+      85254,
+      22243,
+      2198,
+      7995,
+      3346,
+      261,
+      3252,
+      99417,
+      52183,
+      100039,
+      9207,
+      151645
+    ]
+  },
+  {
+    "purpose": "14B other error rather than role reversal",
+    "call_id": "B72-SIZE-14B-B71v11-qwen-C29-AA_REV-BA-BA-UA-NONE",
+    "model": "qwen-14B",
+    "unit_id": "C29",
+    "group_id": "C29",
+    "cohort": "AA_REV",
+    "stage": "P2B_14B",
+    "material_set": "SCIENCE",
+    "direction": "BA",
+    "construction": "BA",
+    "schema": "UA",
+    "background": "NONE",
+    "source_text": "R1：在教室，路星然把苗清和问住了。",
+    "R1": "R1：在教室，路星然把苗清和问住了。",
+    "R2": "",
+    "messages": [
+      {
+        "role": "user",
+        "content": "以下是关于虚构人物的记录。各编号表示独立记录，不表示时间先后。只回答R1。\n记录：\nR1：在教室，路星然把苗清和问住了。\n对于R1，actor是句中对另一方做出该动作或引发其结果的人，undergoer是句中受到该动作或其结果影响的人。即使是否定句，也返回句中指定的双方，不据此推断行动实际发生。人物值使用原文中出现的完整姓名，无法确定时填null。\n只返回一个具有以下键的JSON对象，不附解释：{\"undergoer\":\"人名\",\"actor\":\"人名\"}\n"
+      }
+    ],
+    "gold": {
+      "actor": "路星然",
+      "undergoer": "苗清和"
+    },
+    "background_gold": null,
+    "entity_map": {
+      "A": "苗清和",
+      "B": "路星然",
+      "C": "方逸然",
+      "D": "宋予晴"
+    },
+    "demo_names_present": [],
+    "prompt_sha256": "e9f42262faec0c99dae6db1e5743df5f6a447d782c5c5c28b4e9b9e1b5f8d9a4",
+    "source_call_id": "B71v11-qwen-C29-AA_REV-BA-BA-UA-NONE",
+    "contract": "K0",
+    "batch": "B72",
+    "C": 0,
+    "R": 0,
+    "U": 1,
+    "category": "OTHER_U",
+    "answer": {
+      "undergoer": "苗清",
+      "actor": "路星然"
+    },
+    "format_ok": true,
+    "generated_text": "{\"undergoer\":\"苗清\",\"actor\":\"路星然\"}",
+    "generated_token_ids": [
+      4913,
+      7995,
+      3346,
+      261,
+      3252,
+      101233,
+      79766,
+      2198,
+      5621,
+      3252,
+      45995,
+      77419,
+      60894,
+      9207,
+      151645
+    ]
+  },
+  {
+    "purpose": "K0-to-K1 failed gate cell before",
+    "call_id": "B71v11-qwen-C05-AA_REV-BA-BEI-UA-BA",
+    "model": "qwen",
+    "unit_id": "C05",
+    "group_id": "C05",
+    "cohort": "AA_REV",
+    "stage": "I",
+    "material_set": "SCIENCE",
+    "direction": "BA",
+    "construction": "BEI",
+    "schema": "UA",
+    "background": "BA",
+    "source_text": "R2：在火车站候车厅，萧景然把徐雨桐劝回了。\nR1：在停车场，冯子轩被陈欣怡绊倒了。",
+    "R1": "R1：在停车场，冯子轩被陈欣怡绊倒了。",
+    "R2": "R2：在火车站候车厅，萧景然把徐雨桐劝回了。",
+    "messages": [
+      {
+        "role": "user",
+        "content": "以下是关于虚构人物的记录。各编号表示独立记录，不表示时间先后。只回答R1。\n记录：\nR2：在火车站候车厅，萧景然把徐雨桐劝回了。\nR1：在停车场，冯子轩被陈欣怡绊倒了。\n对于R1，actor是句中对另一方做出该动作或引发其结果的人，undergoer是句中受到该动作或其结果影响的人。即使是否定句，也返回句中指定的双方，不据此推断行动实际发生。人物值使用原文中出现的完整姓名，无法确定时填null。\n只返回一个具有以下键的JSON对象，不附解释：{\"undergoer\":\"人名\",\"actor\":\"人名\"}\n"
+      }
+    ],
+    "gold": {
+      "actor": "陈欣怡",
+      "undergoer": "冯子轩"
+    },
+    "background_gold": {
+      "actor": "萧景然",
+      "undergoer": "徐雨桐"
+    },
+    "entity_map": {
+      "A": "冯子轩",
+      "B": "陈欣怡",
+      "C": "萧景然",
+      "D": "徐雨桐"
+    },
+    "demo_names_present": [],
+    "prompt_sha256": "8b5eedfc0d2b44ce6b696d3c656c25f113ec66714d445160f114f1eaeb32c878",
+    "contract": "K0",
+    "batch": "B71",
+    "C": 0,
+    "R": 1,
+    "U": 0,
+    "category": "R",
+    "answer": {
+      "undergoer": "陈欣怡",
+      "actor": "冯子轩"
+    },
+    "format_ok": true,
+    "generated_text": "{\"undergoer\":\"陈欣怡\",\"actor\":\"冯子轩\"}",
+    "generated_token_ids": [
+      4913,
+      7995,
+      3346,
+      261,
+      3252,
+      100348,
+      100885,
+      106433,
+      2198,
+      5621,
+      3252,
+      104822,
+      44729,
+      102697,
+      9207,
+      151645
+    ]
+  },
+  {
+    "purpose": "K0-to-K1 failed gate cell after",
+    "call_id": "B72-P0-B71v11-qwen-C05-AA_REV-BA-BEI-UA-BA",
+    "model": "qwen",
+    "unit_id": "C05",
+    "group_id": "C05",
+    "cohort": "AA_REV",
+    "stage": "P0_K1",
+    "material_set": "SCIENCE",
+    "direction": "BA",
+    "construction": "BEI",
+    "schema": "UA",
+    "background": "BA",
+    "source_text": "R2：在火车站候车厅，萧景然把徐雨桐劝回了。\nR1：在停车场，冯子轩被陈欣怡绊倒了。",
+    "R1": "R1：在停车场，冯子轩被陈欣怡绊倒了。",
+    "R2": "R2：在火车站候车厅，萧景然把徐雨桐劝回了。",
+    "messages": [
+      {
+        "role": "user",
+        "content": "以下是关于虚构参与者的记录。各编号表示独立记录，不表示时间先后。只回答R1。\n记录：\nR2：在火车站候车厅，萧景然把徐雨桐劝回了。\nR1：在停车场，冯子轩被陈欣怡绊倒了。\n对于R1，actor是句中对另一方做出该动作或引发其结果的一方，undergoer是句中受到该动作或其结果影响的一方。即使是否定句，也返回句中指定的双方，不据此推断行动实际发生。参与者值使用原文中出现的完整名称（人名或事物名），无法确定时填null。\n只返回一个具有以下键的JSON对象，不附解释：{\"undergoer\":\"名称\",\"actor\":\"名称\"}\n"
+      }
+    ],
+    "gold": {
+      "actor": "陈欣怡",
+      "undergoer": "冯子轩"
+    },
+    "background_gold": {
+      "actor": "萧景然",
+      "undergoer": "徐雨桐"
+    },
+    "entity_map": {
+      "A": "冯子轩",
+      "B": "陈欣怡",
+      "C": "萧景然",
+      "D": "徐雨桐"
+    },
+    "demo_names_present": [],
+    "source_call_id": "B71v11-qwen-C05-AA_REV-BA-BEI-UA-BA",
+    "contract": "K1",
+    "batch": "B72",
+    "C": 0,
+    "R": 1,
+    "U": 0,
+    "category": "R",
+    "answer": {
+      "undergoer": "陈欣怡",
+      "actor": "冯子轩"
+    },
+    "format_ok": true,
+    "generated_text": "{\"undergoer\":\"陈欣怡\",\"actor\":\"冯子轩\"}",
+    "generated_token_ids": [
+      4913,
+      7995,
+      3346,
+      261,
+      3252,
+      100348,
+      100885,
+      106433,
+      2198,
+      5621,
+      3252,
+      104822,
+      44729,
+      102697,
+      9207,
+      151645
+    ]
+  },
+  {
+    "purpose": "K0-to-K1 failed gate cell before",
+    "call_id": "B71v11-qwen-C13-AA_REV-BA-BEI-UA-BA",
+    "model": "qwen",
+    "unit_id": "C13",
+    "group_id": "C13",
+    "cohort": "AA_REV",
+    "stage": "I",
+    "material_set": "SCIENCE",
+    "direction": "BA",
+    "construction": "BEI",
+    "schema": "UA",
+    "background": "BA",
+    "source_text": "R2：在咖啡馆露台，杜行简把常映雪劝回了。\nR1：在后台，孔睿哲被曹芷萱撑住了。",
+    "R1": "R1：在后台，孔睿哲被曹芷萱撑住了。",
+    "R2": "R2：在咖啡馆露台，杜行简把常映雪劝回了。",
+    "messages": [
+      {
+        "role": "user",
+        "content": "以下是关于虚构人物的记录。各编号表示独立记录，不表示时间先后。只回答R1。\n记录：\nR2：在咖啡馆露台，杜行简把常映雪劝回了。\nR1：在后台，孔睿哲被曹芷萱撑住了。\n对于R1，actor是句中对另一方做出该动作或引发其结果的人，undergoer是句中受到该动作或其结果影响的人。即使是否定句，也返回句中指定的双方，不据此推断行动实际发生。人物值使用原文中出现的完整姓名，无法确定时填null。\n只返回一个具有以下键的JSON对象，不附解释：{\"undergoer\":\"人名\",\"actor\":\"人名\"}\n"
+      }
+    ],
+    "gold": {
+      "actor": "曹芷萱",
+      "undergoer": "孔睿哲"
+    },
+    "background_gold": {
+      "actor": "杜行简",
+      "undergoer": "常映雪"
+    },
+    "entity_map": {
+      "A": "孔睿哲",
+      "B": "曹芷萱",
+      "C": "杜行简",
+      "D": "常映雪"
+    },
+    "demo_names_present": [],
+    "prompt_sha256": "56a35d57086c86ab399e6fe329b81f1dd595adb1aea18cbacbd9d26e07ddc326",
+    "contract": "K0",
+    "batch": "B71",
+    "C": 1,
+    "R": 0,
+    "U": 0,
+    "category": "C",
+    "answer": {
+      "undergoer": "孔睿哲",
+      "actor": "曹芷萱"
+    },
+    "format_ok": true,
+    "generated_text": "{\"undergoer\":\"孔睿哲\",\"actor\":\"曹芷萱\"}",
+    "generated_token_ids": [
+      4913,
+      7995,
+      3346,
+      261,
+      3252,
+      100451,
+      107198,
+      102607,
+      2198,
+      5621,
+      3252,
+      102263,
+      117042,
+      116052,
+      9207,
+      151645
+    ]
+  },
+  {
+    "purpose": "K0-to-K1 failed gate cell after",
+    "call_id": "B72-P0-B71v11-qwen-C13-AA_REV-BA-BEI-UA-BA",
+    "model": "qwen",
+    "unit_id": "C13",
+    "group_id": "C13",
+    "cohort": "AA_REV",
+    "stage": "P0_K1",
+    "material_set": "SCIENCE",
+    "direction": "BA",
+    "construction": "BEI",
+    "schema": "UA",
+    "background": "BA",
+    "source_text": "R2：在咖啡馆露台，杜行简把常映雪劝回了。\nR1：在后台，孔睿哲被曹芷萱撑住了。",
+    "R1": "R1：在后台，孔睿哲被曹芷萱撑住了。",
+    "R2": "R2：在咖啡馆露台，杜行简把常映雪劝回了。",
+    "messages": [
+      {
+        "role": "user",
+        "content": "以下是关于虚构参与者的记录。各编号表示独立记录，不表示时间先后。只回答R1。\n记录：\nR2：在咖啡馆露台，杜行简把常映雪劝回了。\nR1：在后台，孔睿哲被曹芷萱撑住了。\n对于R1，actor是句中对另一方做出该动作或引发其结果的一方，undergoer是句中受到该动作或其结果影响的一方。即使是否定句，也返回句中指定的双方，不据此推断行动实际发生。参与者值使用原文中出现的完整名称（人名或事物名），无法确定时填null。\n只返回一个具有以下键的JSON对象，不附解释：{\"undergoer\":\"名称\",\"actor\":\"名称\"}\n"
+      }
+    ],
+    "gold": {
+      "actor": "曹芷萱",
+      "undergoer": "孔睿哲"
+    },
+    "background_gold": {
+      "actor": "杜行简",
+      "undergoer": "常映雪"
+    },
+    "entity_map": {
+      "A": "孔睿哲",
+      "B": "曹芷萱",
+      "C": "杜行简",
+      "D": "常映雪"
+    },
+    "demo_names_present": [],
+    "source_call_id": "B71v11-qwen-C13-AA_REV-BA-BEI-UA-BA",
+    "contract": "K1",
+    "batch": "B72",
+    "C": 0,
+    "R": 1,
+    "U": 0,
+    "category": "R",
+    "answer": {
+      "undergoer": "曹芷萱",
+      "actor": "孔睿哲"
+    },
+    "format_ok": true,
+    "generated_text": "{\"undergoer\":\"曹芷萱\",\"actor\":\"孔睿哲\"}",
+    "generated_token_ids": [
+      4913,
+      7995,
+      3346,
+      261,
+      3252,
+      102263,
+      117042,
+      116052,
+      2198,
+      5621,
+      3252,
+      100451,
+      107198,
+      102607,
+      9207,
+      151645
+    ]
+  },
+  {
+    "purpose": "K0-to-K1 failed gate cell before",
+    "call_id": "B71v11-qwen-C27-AA_REV-BA-BEI-UA-BA",
+    "model": "qwen",
+    "unit_id": "C27",
+    "group_id": "C27",
+    "cohort": "AA_REV",
+    "stage": "I",
+    "material_set": "SCIENCE",
+    "direction": "BA",
+    "construction": "BEI",
+    "schema": "UA",
+    "background": "BA",
+    "source_text": "R2：在便利店门口，蒋书航把陆星遥叫醒了。\nR1：在社区活动室，常予川被游知意逗笑了。",
+    "R1": "R1：在社区活动室，常予川被游知意逗笑了。",
+    "R2": "R2：在便利店门口，蒋书航把陆星遥叫醒了。",
+    "messages": [
+      {
+        "role": "user",
+        "content": "以下是关于虚构人物的记录。各编号表示独立记录，不表示时间先后。只回答R1。\n记录：\nR2：在便利店门口，蒋书航把陆星遥叫醒了。\nR1：在社区活动室，常予川被游知意逗笑了。\n对于R1，actor是句中对另一方做出该动作或引发其结果的人，undergoer是句中受到该动作或其结果影响的人。即使是否定句，也返回句中指定的双方，不据此推断行动实际发生。人物值使用原文中出现的完整姓名，无法确定时填null。\n只返回一个具有以下键的JSON对象，不附解释：{\"undergoer\":\"人名\",\"actor\":\"人名\"}\n"
+      }
+    ],
+    "gold": {
+      "actor": "游知意",
+      "undergoer": "常予川"
+    },
+    "background_gold": {
+      "actor": "蒋书航",
+      "undergoer": "陆星遥"
+    },
+    "entity_map": {
+      "A": "常予川",
+      "B": "游知意",
+      "C": "蒋书航",
+      "D": "陆星遥"
+    },
+    "demo_names_present": [],
+    "prompt_sha256": "24b2c9eb5d14f52fba87d47fe81ad7d88ea83b76efa8f8f7a2c2576a96cca6f2",
+    "contract": "K0",
+    "batch": "B71",
+    "C": 1,
+    "R": 0,
+    "U": 0,
+    "category": "C",
+    "answer": {
+      "undergoer": "常予川",
+      "actor": "游知意"
+    },
+    "format_ok": true,
+    "generated_text": "{\"undergoer\":\"常予川\",\"actor\":\"游知意\"}",
+    "generated_token_ids": [
+      4913,
+      7995,
+      3346,
+      261,
+      3252,
+      38953,
+      99944,
+      100410,
+      2198,
+      5621,
+      3252,
+      82894,
+      52183,
+      36589,
+      9207,
+      151645
+    ]
+  },
+  {
+    "purpose": "K0-to-K1 failed gate cell after",
+    "call_id": "B72-P0-B71v11-qwen-C27-AA_REV-BA-BEI-UA-BA",
+    "model": "qwen",
+    "unit_id": "C27",
+    "group_id": "C27",
+    "cohort": "AA_REV",
+    "stage": "P0_K1",
+    "material_set": "SCIENCE",
+    "direction": "BA",
+    "construction": "BEI",
+    "schema": "UA",
+    "background": "BA",
+    "source_text": "R2：在便利店门口，蒋书航把陆星遥叫醒了。\nR1：在社区活动室，常予川被游知意逗笑了。",
+    "R1": "R1：在社区活动室，常予川被游知意逗笑了。",
+    "R2": "R2：在便利店门口，蒋书航把陆星遥叫醒了。",
+    "messages": [
+      {
+        "role": "user",
+        "content": "以下是关于虚构参与者的记录。各编号表示独立记录，不表示时间先后。只回答R1。\n记录：\nR2：在便利店门口，蒋书航把陆星遥叫醒了。\nR1：在社区活动室，常予川被游知意逗笑了。\n对于R1，actor是句中对另一方做出该动作或引发其结果的一方，undergoer是句中受到该动作或其结果影响的一方。即使是否定句，也返回句中指定的双方，不据此推断行动实际发生。参与者值使用原文中出现的完整名称（人名或事物名），无法确定时填null。\n只返回一个具有以下键的JSON对象，不附解释：{\"undergoer\":\"名称\",\"actor\":\"名称\"}\n"
+      }
+    ],
+    "gold": {
+      "actor": "游知意",
+      "undergoer": "常予川"
+    },
+    "background_gold": {
+      "actor": "蒋书航",
+      "undergoer": "陆星遥"
+    },
+    "entity_map": {
+      "A": "常予川",
+      "B": "游知意",
+      "C": "蒋书航",
+      "D": "陆星遥"
+    },
+    "demo_names_present": [],
+    "source_call_id": "B71v11-qwen-C27-AA_REV-BA-BEI-UA-BA",
+    "contract": "K1",
+    "batch": "B72",
+    "C": 0,
+    "R": 1,
+    "U": 0,
+    "category": "R",
+    "answer": {
+      "undergoer": "游知意",
+      "actor": "常予川"
+    },
+    "format_ok": true,
+    "generated_text": "{\"undergoer\":\"游知意\",\"actor\":\"常予川\"}",
+    "generated_token_ids": [
+      4913,
+      7995,
+      3346,
+      261,
+      3252,
+      82894,
+      52183,
+      36589,
+      2198,
+      5621,
+      3252,
+      38953,
+      99944,
+      100410,
+      9207,
+      151645
+    ]
+  },
+  {
+    "purpose": "Name truncation retained as other error",
+    "call_id": "B72-P0-B71v11-qwen-C29-AA_REV-AB-BEI-AU-BA",
+    "model": "qwen",
+    "unit_id": "C29",
+    "group_id": "C29",
+    "cohort": "AA_REV",
+    "stage": "P0_K1",
+    "material_set": "SCIENCE",
+    "direction": "AB",
+    "construction": "BEI",
+    "schema": "AU",
+    "background": "BA",
+    "source_text": "R2：在花卉市场，方逸然把宋予晴叫醒了。\nR1：在教室，路星然被苗清和问住了。",
+    "R1": "R1：在教室，路星然被苗清和问住了。",
+    "R2": "R2：在花卉市场，方逸然把宋予晴叫醒了。",
+    "messages": [
+      {
+        "role": "user",
+        "content": "以下是关于虚构参与者的记录。各编号表示独立记录，不表示时间先后。只回答R1。\n记录：\nR2：在花卉市场，方逸然把宋予晴叫醒了。\nR1：在教室，路星然被苗清和问住了。\n对于R1，actor是句中对另一方做出该动作或引发其结果的一方，undergoer是句中受到该动作或其结果影响的一方。即使是否定句，也返回句中指定的双方，不据此推断行动实际发生。参与者值使用原文中出现的完整名称（人名或事物名），无法确定时填null。\n只返回一个具有以下键的JSON对象，不附解释：{\"actor\":\"名称\",\"undergoer\":\"名称\"}\n"
+      }
+    ],
+    "gold": {
+      "actor": "苗清和",
+      "undergoer": "路星然"
+    },
+    "background_gold": {
+      "actor": "方逸然",
+      "undergoer": "宋予晴"
+    },
+    "entity_map": {
+      "A": "苗清和",
+      "B": "路星然",
+      "C": "方逸然",
+      "D": "宋予晴"
+    },
+    "demo_names_present": [],
+    "source_call_id": "B71v11-qwen-C29-AA_REV-AB-BEI-AU-BA",
+    "contract": "K1",
+    "batch": "B72",
+    "C": 0,
+    "R": 0,
+    "U": 1,
+    "category": "OTHER_U",
+    "answer": {
+      "actor": "苗清",
+      "undergoer": "路星然"
+    },
+    "format_ok": true,
+    "generated_text": "{\"actor\":\"苗清\",\"undergoer\":\"路星然\"}",
+    "generated_token_ids": [
+      4913,
+      5621,
+      3252,
+      101233,
+      79766,
+      2198,
+      7995,
+      3346,
+      261,
+      3252,
+      45995,
+      77419,
+      60894,
+      9207,
+      151645
+    ]
+  },
+  {
+    "purpose": "Name truncation retained as other error",
+    "call_id": "B72-P0-B71v11-qwen-C29-AA_REV-AB-BEI-AU-NONE",
+    "model": "qwen",
+    "unit_id": "C29",
+    "group_id": "C29",
+    "cohort": "AA_REV",
+    "stage": "P0_K1",
+    "material_set": "SCIENCE",
+    "direction": "AB",
+    "construction": "BEI",
+    "schema": "AU",
+    "background": "NONE",
+    "source_text": "R1：在教室，路星然被苗清和问住了。",
+    "R1": "R1：在教室，路星然被苗清和问住了。",
+    "R2": "",
+    "messages": [
+      {
+        "role": "user",
+        "content": "以下是关于虚构参与者的记录。各编号表示独立记录，不表示时间先后。只回答R1。\n记录：\nR1：在教室，路星然被苗清和问住了。\n对于R1，actor是句中对另一方做出该动作或引发其结果的一方，undergoer是句中受到该动作或其结果影响的一方。即使是否定句，也返回句中指定的双方，不据此推断行动实际发生。参与者值使用原文中出现的完整名称（人名或事物名），无法确定时填null。\n只返回一个具有以下键的JSON对象，不附解释：{\"actor\":\"名称\",\"undergoer\":\"名称\"}\n"
+      }
+    ],
+    "gold": {
+      "actor": "苗清和",
+      "undergoer": "路星然"
+    },
+    "background_gold": null,
+    "entity_map": {
+      "A": "苗清和",
+      "B": "路星然",
+      "C": "方逸然",
+      "D": "宋予晴"
+    },
+    "demo_names_present": [],
+    "source_call_id": "B71v11-qwen-C29-AA_REV-AB-BEI-AU-NONE",
+    "contract": "K1",
+    "batch": "B72",
+    "C": 0,
+    "R": 0,
+    "U": 1,
+    "category": "OTHER_U",
+    "answer": {
+      "actor": "苗清",
+      "undergoer": "路星然"
+    },
+    "format_ok": true,
+    "generated_text": "{\"actor\":\"苗清\",\"undergoer\":\"路星然\"}",
+    "generated_token_ids": [
+      4913,
+      5621,
+      3252,
+      101233,
+      79766,
+      2198,
+      7995,
+      3346,
+      261,
+      3252,
+      45995,
+      77419,
+      60894,
+      9207,
+      151645
+    ]
+  },
+  {
+    "purpose": "Name truncation retained as other error",
+    "call_id": "B72-P0-B71v11-qwen-C29-AA_REV-AB-BEI-UA-NONE",
+    "model": "qwen",
+    "unit_id": "C29",
+    "group_id": "C29",
+    "cohort": "AA_REV",
+    "stage": "P0_K1",
+    "material_set": "SCIENCE",
+    "direction": "AB",
+    "construction": "BEI",
+    "schema": "UA",
+    "background": "NONE",
+    "source_text": "R1：在教室，路星然被苗清和问住了。",
+    "R1": "R1：在教室，路星然被苗清和问住了。",
+    "R2": "",
+    "messages": [
+      {
+        "role": "user",
+        "content": "以下是关于虚构参与者的记录。各编号表示独立记录，不表示时间先后。只回答R1。\n记录：\nR1：在教室，路星然被苗清和问住了。\n对于R1，actor是句中对另一方做出该动作或引发其结果的一方，undergoer是句中受到该动作或其结果影响的一方。即使是否定句，也返回句中指定的双方，不据此推断行动实际发生。参与者值使用原文中出现的完整名称（人名或事物名），无法确定时填null。\n只返回一个具有以下键的JSON对象，不附解释：{\"undergoer\":\"名称\",\"actor\":\"名称\"}\n"
+      }
+    ],
+    "gold": {
+      "actor": "苗清和",
+      "undergoer": "路星然"
+    },
+    "background_gold": null,
+    "entity_map": {
+      "A": "苗清和",
+      "B": "路星然",
+      "C": "方逸然",
+      "D": "宋予晴"
+    },
+    "demo_names_present": [],
+    "source_call_id": "B71v11-qwen-C29-AA_REV-AB-BEI-UA-NONE",
+    "contract": "K1",
+    "batch": "B72",
+    "C": 0,
+    "R": 0,
+    "U": 1,
+    "category": "OTHER_U",
+    "answer": {
+      "undergoer": "路星然",
+      "actor": "苗清"
+    },
+    "format_ok": true,
+    "generated_text": "{\"undergoer\":\"路星然\",\"actor\":\"苗清\"}",
+    "generated_token_ids": [
+      4913,
+      7995,
+      3346,
+      261,
+      3252,
+      45995,
+      77419,
+      60894,
+      2198,
+      5621,
+      3252,
+      101233,
+      79766,
+      9207,
+      151645
+    ]
+  },
+  {
+    "purpose": "Name truncation retained as other error",
+    "call_id": "B72-P0-B71v11-qwen-C29-AA_REV-BA-BA-AU-NONE",
+    "model": "qwen",
+    "unit_id": "C29",
+    "group_id": "C29",
+    "cohort": "AA_REV",
+    "stage": "P0_K1",
+    "material_set": "SCIENCE",
+    "direction": "BA",
+    "construction": "BA",
+    "schema": "AU",
+    "background": "NONE",
+    "source_text": "R1：在教室，路星然把苗清和问住了。",
+    "R1": "R1：在教室，路星然把苗清和问住了。",
+    "R2": "",
+    "messages": [
+      {
+        "role": "user",
+        "content": "以下是关于虚构参与者的记录。各编号表示独立记录，不表示时间先后。只回答R1。\n记录：\nR1：在教室，路星然把苗清和问住了。\n对于R1，actor是句中对另一方做出该动作或引发其结果的一方，undergoer是句中受到该动作或其结果影响的一方。即使是否定句，也返回句中指定的双方，不据此推断行动实际发生。参与者值使用原文中出现的完整名称（人名或事物名），无法确定时填null。\n只返回一个具有以下键的JSON对象，不附解释：{\"actor\":\"名称\",\"undergoer\":\"名称\"}\n"
+      }
+    ],
+    "gold": {
+      "actor": "路星然",
+      "undergoer": "苗清和"
+    },
+    "background_gold": null,
+    "entity_map": {
+      "A": "苗清和",
+      "B": "路星然",
+      "C": "方逸然",
+      "D": "宋予晴"
+    },
+    "demo_names_present": [],
+    "source_call_id": "B71v11-qwen-C29-AA_REV-BA-BA-AU-NONE",
+    "contract": "K1",
+    "batch": "B72",
+    "C": 0,
+    "R": 0,
+    "U": 1,
+    "category": "OTHER_U",
+    "answer": {
+      "actor": "路星然",
+      "undergoer": "苗清"
+    },
+    "format_ok": true,
+    "generated_text": "{\"actor\":\"路星然\",\"undergoer\":\"苗清\"}",
+    "generated_token_ids": [
+      4913,
+      5621,
+      3252,
+      45995,
+      77419,
+      60894,
+      2198,
+      7995,
+      3346,
+      261,
+      3252,
+      101233,
+      79766,
+      9207,
+      151645
+    ]
+  },
+  {
+    "purpose": "Name truncation retained as other error",
+    "call_id": "B72-P0-B71v11-qwen-C29-AA_REV-BA-BA-UA-NONE",
+    "model": "qwen",
+    "unit_id": "C29",
+    "group_id": "C29",
+    "cohort": "AA_REV",
+    "stage": "P0_K1",
+    "material_set": "SCIENCE",
+    "direction": "BA",
+    "construction": "BA",
+    "schema": "UA",
+    "background": "NONE",
+    "source_text": "R1：在教室，路星然把苗清和问住了。",
+    "R1": "R1：在教室，路星然把苗清和问住了。",
+    "R2": "",
+    "messages": [
+      {
+        "role": "user",
+        "content": "以下是关于虚构参与者的记录。各编号表示独立记录，不表示时间先后。只回答R1。\n记录：\nR1：在教室，路星然把苗清和问住了。\n对于R1，actor是句中对另一方做出该动作或引发其结果的一方，undergoer是句中受到该动作或其结果影响的一方。即使是否定句，也返回句中指定的双方，不据此推断行动实际发生。参与者值使用原文中出现的完整名称（人名或事物名），无法确定时填null。\n只返回一个具有以下键的JSON对象，不附解释：{\"undergoer\":\"名称\",\"actor\":\"名称\"}\n"
+      }
+    ],
+    "gold": {
+      "actor": "路星然",
+      "undergoer": "苗清和"
+    },
+    "background_gold": null,
+    "entity_map": {
+      "A": "苗清和",
+      "B": "路星然",
+      "C": "方逸然",
+      "D": "宋予晴"
+    },
+    "demo_names_present": [],
+    "source_call_id": "B71v11-qwen-C29-AA_REV-BA-BA-UA-NONE",
+    "contract": "K1",
+    "batch": "B72",
+    "C": 0,
+    "R": 0,
+    "U": 1,
+    "category": "OTHER_U",
+    "answer": {
+      "undergoer": "苗清",
+      "actor": "路星然"
+    },
+    "format_ok": true,
+    "generated_text": "{\"undergoer\":\"苗清\",\"actor\":\"路星然\"}",
+    "generated_token_ids": [
+      4913,
+      7995,
+      3346,
+      261,
+      3252,
+      101233,
+      79766,
+      2198,
+      5621,
+      3252,
+      45995,
+      77419,
+      60894,
+      9207,
+      151645
+    ]
+  },
+  {
+    "purpose": "Correct roles but Markdown fence violates format",
+    "call_id": "B72-SIZE-32B-B71v11-qwen-C01-AA_REV-AB-BA-AU-BA",
+    "model": "qwen-32B",
+    "unit_id": "C01",
+    "group_id": "C01",
+    "cohort": "AA_REV",
+    "stage": "P2B_32B",
+    "material_set": "SCIENCE",
+    "direction": "AB",
+    "construction": "BA",
+    "schema": "AU",
+    "background": "BA",
+    "source_text": "R2：在社区图书室，唐绍文把林梦琪叫醒了。\nR1：在操场，赵宇航把钱思涵撞倒了。",
+    "R1": "R1：在操场，赵宇航把钱思涵撞倒了。",
+    "R2": "R2：在社区图书室，唐绍文把林梦琪叫醒了。",
+    "messages": [
+      {
+        "role": "user",
+        "content": "以下是关于虚构人物的记录。各编号表示独立记录，不表示时间先后。只回答R1。\n记录：\nR2：在社区图书室，唐绍文把林梦琪叫醒了。\nR1：在操场，赵宇航把钱思涵撞倒了。\n对于R1，actor是句中对另一方做出该动作或引发其结果的人，undergoer是句中受到该动作或其结果影响的人。即使是否定句，也返回句中指定的双方，不据此推断行动实际发生。人物值使用原文中出现的完整姓名，无法确定时填null。\n只返回一个具有以下键的JSON对象，不附解释：{\"actor\":\"人名\",\"undergoer\":\"人名\"}\n"
+      }
+    ],
+    "gold": {
+      "actor": "赵宇航",
+      "undergoer": "钱思涵"
+    },
+    "background_gold": {
+      "actor": "唐绍文",
+      "undergoer": "林梦琪"
+    },
+    "entity_map": {
+      "A": "赵宇航",
+      "B": "钱思涵",
+      "C": "唐绍文",
+      "D": "林梦琪"
+    },
+    "demo_names_present": [],
+    "prompt_sha256": "5801b3953cbdf0a009f9c1723ef3cbfe743c985e4422413fe380c0baf9bb5e59",
+    "source_call_id": "B71v11-qwen-C01-AA_REV-AB-BA-AU-BA",
+    "contract": "K0",
+    "batch": "B72",
+    "C": 1,
+    "R": 0,
+    "U": 0,
+    "category": "C",
+    "answer": {
+      "actor": "赵宇航",
+      "undergoer": "钱思涵"
+    },
+    "format_ok": false,
+    "generated_text": "```json\n{\"actor\":\"赵宇航\",\"undergoer\":\"钱思涵\"}\n```",
+    "generated_token_ids": [
+      73594,
+      2236,
+      198,
+      4913,
+      5621,
+      3252,
+      103959,
+      100732,
+      99440,
+      2198,
+      7995,
+      3346,
+      261,
+      3252,
+      99428,
+      90663,
+      100933,
+      16707,
+      73594,
+      151645
+    ]
+  }
+]

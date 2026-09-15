@@ -1,0 +1,19 @@
+{
+  "at": "2026-09-15T09:43:43.777501+00:00",
+  "status": "MAIN_ACCEPTED_WITH_DEVELOPMENT_EVIDENCE_BOUNDARY",
+  "scientific_outputs": 1152,
+  "bridge_outputs": 224,
+  "primary_qwen_result": "DEVELOPMENT_BACKGROUND_REVERSAL_SUPPORTED",
+  "apertus_gate": "BEI_AU_NONE_ACCURACY_BELOW_0_90",
+  "raw_review": "MAIN-RAW-REVIEW.json",
+  "office_review": "OFFICE-REVIEW.json",
+  "interpretation": "INTERPRETATION.zh-CN.md",
+  "private_archive_member_hashes_verified": 186,
+  "private_archive_sha256": "1b0f77b38dab462142de50fb57f1fd313ae9b54e51888fdf224fa925a8cde27c",
+  "independent_human_reviewers": 0,
+  "semantic_stage_run": false,
+  "gpu_released_and_handoff_sent": true,
+  "R2_run_status_not_inferred_from_handoff": true,
+  "github_sync_this_turn": false,
+  "no_automatic_B72": true
+}
