@@ -1,0 +1,41 @@
+{
+  "status": "POSTRUN_DESCRIPTIVE_DETAILS_AI_ONLY",
+  "whole_sentence_counts": {
+    "O": {
+      "C": 328,
+      "U": 43,
+      "W": 11
+    },
+    "T": {
+      "C": 180,
+      "U": 54,
+      "W": 148
+    },
+    "U": {
+      "C": 295,
+      "U": 47,
+      "W": 40
+    }
+  },
+  "W_subtypes": {
+    "O": {
+      "OTHER_OR_OMISSION": 5,
+      "CHINESE_COMPETITOR": 4
+    },
+    "T": {
+      "OTHER_OR_OMISSION": 143,
+      "UNTRANSLATED": 1,
+      "CHINESE_COMPETITOR": 1
+    },
+    "U": {
+      "CHINESE_COMPETITOR": 3,
+      "OTHER_OR_OMISSION": 5
+    }
+  },
+  "language_flag_counts": {
+    "O": 2,
+    "T": 4,
+    "U": 3
+  },
+  "not_an_independent_quality_metric": true
+}

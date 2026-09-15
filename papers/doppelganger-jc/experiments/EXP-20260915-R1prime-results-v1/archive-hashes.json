@@ -1,0 +1,25 @@
+{
+  "private_complete_archive": {
+    "filename": "R1prime\u672c\u5730\u5b8c\u6574\u8bc1\u636e\u5f52\u6863v2.2.zip",
+    "sha256": "bfaa5f94bdb35675538f906a448eec1d6d0628c60d48eb08772216dac2a26eaf",
+    "bytes": 16238263,
+    "files": 95
+  },
+  "claude_packet": {
+    "status": "PASS_FINAL_PACKET_HASHES_RECOMPUTATION_AND_ARTIFACT_QA",
+    "at": "2026-09-15T08:04:41.760164+00:00",
+    "sha256": "ef95134fe54e737c2de3fc5c760a91e59c18e88ba1f6e9a1a5058d5863c79fd9",
+    "bytes": 1478299,
+    "files": 41,
+    "docx_visual_qa": "PASS_4_PAGES",
+    "xlsx_visual_qa": "PASS_7_RESULT_SHEETS_15_RANGES_AND_1_CALIBRATION_SHEET_2_RANGES",
+    "result_nonblank_cells": 53454,
+    "calibration_nonblank_cells": 108,
+    "figure_visual_qa": "PASS",
+    "recomputed_five_subsets": true,
+    "human_gold": 0,
+    "AI_review": "Complete same-assistant nonblind review; not independently validated",
+    "early_packet_unchanged": true
+  },
+  "private_not_uploaded": true
+}

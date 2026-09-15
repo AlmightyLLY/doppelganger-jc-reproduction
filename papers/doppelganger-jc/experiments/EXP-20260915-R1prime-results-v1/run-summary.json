@@ -1,0 +1,20 @@
+{
+  "batch": "R1prime-20260915-v2",
+  "runtime_version": "v2.2",
+  "status": "COMPLETE",
+  "calls": 1146,
+  "forwards": 10196,
+  "elapsed_seconds": 1406.8949802360148,
+  "peak_allocator_mib": {
+    "0": 7830.9404296875,
+    "1": 7831.04541015625
+  },
+  "paid_usd": 0,
+  "human_gold": 0,
+  "semantic_review": "COMPLETE_SAME_ASSISTANT_AI_ONLY_NONBLIND",
+  "source_unflagged": 372,
+  "strict_unchanged": 369,
+  "strict_unflagged": 360,
+  "reviewed_items": 382,
+  "reviewed_outputs": 1146
+}
