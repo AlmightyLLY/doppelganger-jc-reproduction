@@ -1,0 +1,37 @@
+{
+  "status": "PREPARATION_NOT_RUN",
+  "source_verification": {
+    "status": "PASS",
+    "manifest_files": 101,
+    "early_score_records": 2700,
+    "early_materials": 450,
+    "early_primary_items": 382,
+    "early_fixed_mean": 0.13589755274895027,
+    "A09_A13_records": 504,
+    "unique_tokenized_prompts": 432,
+    "human_semantic_validity_verified": false,
+    "new_model_calls": 0
+  },
+  "archive_sha256": "12456939209d3603bf282bf0284c6c09164f5301f0709c6ef0fc12e04a0f9de2",
+  "archive_bytes": 5849866,
+  "archive_members": 65,
+  "office": [
+    {
+      "name": "R1prime40项语言审核.xlsx",
+      "sha256": "ede613252105bea4b1736390a241a0cf727f8c381887676b3cf83e4b4410bbf0",
+      "bytes": 13191
+    },
+    {
+      "name": "R1prime全部实际输入.xlsx",
+      "sha256": "a5554d69f2e15b8517595c8a552f911ddc41571185164d093e676281d80e9dd1",
+      "bytes": 146899
+    },
+    {
+      "name": "R1prime预注册准备稿.docx",
+      "sha256": "1643abe8073c38d9ac7bb40d992ce9ad935837011d518da47bfb4c0b515a1700",
+      "bytes": 44039
+    }
+  ],
+  "language_human_review": 0,
+  "model_calls": 0
+}

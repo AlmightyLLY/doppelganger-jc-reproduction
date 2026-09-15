@@ -1,0 +1,38 @@
+{
+  "status": "FROZEN_UPLOADED_WAITING_FOR_GPU_AT_PUBLICATION",
+  "protocol": "v2.1",
+  "model_calls": 0,
+  "human_gold": 0,
+  "items": 382,
+  "planned_calls": 1146,
+  "revised_items": 13,
+  "source_flagged_items": 10,
+  "strict_unchanged_items": 369,
+  "strict_unflagged_items": 360,
+  "guard_proxy": 26,
+  "primary": "automatic form behavior and historical-score association",
+  "semantic": "secondary AI suggestions",
+  "archive_sha256": "f6377d55682ba4be7234c0b0173bb4298956a9e858bc67c59c059f4980eb580a",
+  "archive_bytes": 8580645,
+  "archive_members": 90,
+  "release_sha256": "0dd327c2497d0659f69945aabc18637a90840b3d4a061917dc90a9a59ebbe98e",
+  "release_files": 32,
+  "remote_verified_files": 33,
+  "office_hashes": {
+    "R1prime开发实验预注册v2.1.docx": "d5e02ea87770621b43fd8563d71ef03908e8dc78cc722cbe9345081d16f91dc0",
+    "R1prime后置人工验证一页计划.docx": "69351716b9d18f11437421aa2fcf7c8c3ec076ef65d570ff49cef96e3d141fbf",
+    "R1prime开发实验全部输入v2.1.xlsx": "f42670d6f0c9f897c8c90d2dfe7b249731f2da6e15dab5ba04eb135d94915b42"
+  },
+  "preflight": {
+    "status": "PASS",
+    "input_count": 1146,
+    "input_tokens": [
+      43,
+      61
+    ],
+    "torch": "2.5.1+cu121",
+    "transformers": "4.57.6"
+  },
+  "reserve_items": 0,
+  "source_verified": true
+}
